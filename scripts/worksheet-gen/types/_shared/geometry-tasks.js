@@ -907,4 +907,5 @@ function makeGeometryType(cfg) {
   };
 }
 
-module.exports = { makeGeometryType, quadPoints, isRectangle, SYMMETRY_COUNT, reviewedPools, unitRectSvg: unitRect, quadSvg, angleSvgPublic: angleSvg, symShapePublic: symShape, polySvg, solidSvg, DRAWN_SOLIDS };
+// polyPoints: the check page of G2-241 (types/g2/G2-241-shape-attributes-sort.js) draws its shapes with it
+module.exports = { makeGeometryType, quadPoints, isRectangle, SYMMETRY_COUNT, reviewedPools, unitRectSvg: unitRect, quadSvg, angleSvgPublic: angleSvg, symShapePublic: symShape, polySvg, polyPoints, solidSvg, DRAWN_SOLIDS };

@@ -53,6 +53,12 @@ const PICS = BANK.pics || {};
 const SE = BANK.silentE || { pairs: {}, pictured: {}, write: {}, sentences: {} };
 const TEAMS = BANK.teams || {};
 const isLong = (w) => /e$/.test(w);   // the long word of a silent-e pair ends in e; no short word of the bank does
+/** pictures WITHDRAWN from every page (US K-3 reading teacher, review en-1119-lit, 2026-11-19): christmas/candy_cane for cane
+ *  (a child says candy cane, and its first part can is the decoy of the pair) and vehicles/jeep for jeep (a brand-derived
+ *  word many children say car or truck for). They leave a page AFTER its shuffle, so a page that never drew them is the
+ *  page it was; the word stays a word of its list where no picture stands. verify() carries its own copy. */
+const WITHDRAWN = new Set(['cane', 'jeep']);
+const picShown = (w) => !WITHDRAWN.has(w);
 
 const LEVELS = {
   // level 1 shows two short and two long pictures: its eight a_e pairs cannot fill all three tasks, and the two task-2 pairs
@@ -66,7 +72,7 @@ const seEntry = (v, w, se = SE) => { const p = ((se.pairs || {})[v] || []).find(
 /** four pictures from four pairs, two or more showing the short word, one or more the long word (exactly d.longPics where
  *  the level sets it), every vowel of the level that has a picture */
 const picsOk = (shown, d, se = SE) => { const longs = shown.filter((x) => x.w === x.l).length;
-  return shown.length === 4 && new Set(shown.map((x) => x.s)).size === 4 && shown.length - longs >= 2 && longs >= 1 && (!d.longPics || longs === d.longPics) &&
+  return shown.length === 4 && shown.every((x) => picShown(x.w)) && new Set(shown.map((x) => x.s)).size === 4 && shown.length - longs >= 2 && longs >= 1 && (!d.longPics || longs === d.longPics) &&
     d.vowels.every((v) => !((se.pictured || {})[v] || []).length || shown.some((x) => x.v === v)); };
 /** sentences of n different pairs, none of them a pictured pair and none printing a word of a pictured pair in its text
  *  ("I can ___ the box shut." never stands beside the picture of a can), right words short and long */
@@ -189,12 +195,16 @@ function makeVowelType({ id, slug, mode, pair, i18n }) {
   if (mode === 'team' && !TEAMS[pair]) throw new Error('vowels-g1: no pair of spellings ' + pair);
   // what verify() needs to know of the bank: the silent-e pairs (to count the pairs a level has), the words of a team
   const INFO = mode === 'silente' ? { pairs: SE.pairs } : { words: teamAll(TEAMS[pair]), odd: TEAMS[pair].odd, apart: TEAMS[pair].apart || [] };
+  // verify's OWN copy of the withdrawn pictures (a build that prints one again fails its page)
+  INFO.withdrawnPics = ['cane', 'jeep'];
   return {
     // existing keys of topics-taxonomy axes['exercise-type']: silent e is a spelling rule, ai/ay ee/ea oa/ow are vowel digraphs
     id, slug, gradeBand: 'G1', assetClass: 'none', exerciseType: 'spelling-rules',   // the family that holds the spelling rules of the long vowels (magic e, ee or ea, ai or ay)
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // THE ITEM BANK of the unit checks (Part 7.6): G1-584 to G1-587 (vowelCheckPage below)
+    checkPage(args, ctx) { return vowelCheckPage(mode, pair, args, ctx); },
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the words are English words (no ${locale} bank)`);
@@ -253,7 +263,7 @@ function makeVowelType({ id, slug, mode, pair, i18n }) {
         const tm = TEAMS[pair], A = tm.a, B = tm.b;
         const picA = A.words.filter((w) => PICS[w]), picB = B.words.filter((w) => PICS[w]);
         const ruleWords = tm.rule ? listWordsIn(tm, tm.rule) : [];
-        const takePics = (n) => { const nb = Math.min(Math.floor(n / 2), picB.length); return shuffle([...shuffle(picA, rng).slice(0, n - nb), ...shuffle(picB, rng).slice(0, nb)], rng); };
+        const takePics = (n) => { const nb = Math.min(Math.floor(n / 2), picB.length); return shuffle([...shuffle(picA, rng).filter(picShown).slice(0, n - nb), ...shuffle(picB, rng).filter(picShown).slice(0, nb)], rng); };
         const colW = Math.floor((inner - 20) / 2);
         /** the sort: a bank of words in two rows (each row holds both spellings), two columns headed by the spellings */
         const sortBlock = (k, wa, wb, odd) => {
@@ -286,7 +296,7 @@ function makeVowelType({ id, slug, mode, pair, i18n }) {
         } else if (lv === 2) {
           // the gap words first (with pictures where no rule tells the spelling), then the sort from the other words
           const withPic = !tm.rule;
-          const ga = shuffle(withPic ? picA : A.words.filter((w) => !ruleWords.includes(w)), rng).slice(0, 3), gb = shuffle(withPic ? picB : B.words.filter((w) => !ruleWords.includes(w)), rng).slice(0, 3);
+          const ga = shuffle(withPic ? picA : A.words.filter((w) => !ruleWords.includes(w)), rng).filter(picShown).slice(0, 3), gb = shuffle(withPic ? picB : B.words.filter((w) => !ruleWords.includes(w)), rng).slice(0, 3);
           const rest = (s, gs) => shuffle(s.words.filter((w) => !gs.includes(w) && !ruleWords.includes(w)), rng).slice(0, 4);
           blocks.push(sortBlock(1, rest(A, ga), rest(B, gb)));
           const cols = withPic ? 2 : 3;
@@ -347,6 +357,7 @@ function makeVowelType({ id, slug, mode, pair, i18n }) {
         const txt = (e) => e.textContent.trim();
         const rb = R(root);
         document.querySelectorAll('img').forEach((im) => { if (!im.complete || !im.naturalWidth) fails.push('a picture did not load'); if (R(im).width < 60) fails.push('a picture smaller than 60 px'); });
+        document.querySelectorAll('img[data-lcs-pic]').forEach((im) => { if ((INFO.withdrawnPics || []).includes(im.dataset.lcsPic)) fails.push('a withdrawn picture on the page: ' + im.dataset.lcsPic); });
         const blocks = [...root.children];
         blocks.forEach((b, i) => { const r = R(b); if (r.left < rb.left - 1 || r.right > rb.right + 1 || r.bottom > rb.bottom + 1) fails.push(`block ${i + 1} leaves the page`); if (i && r.top < R(blocks[i - 1]).bottom - 0.5) fails.push(`block ${i + 1} overlaps the one above`);
           b.querySelectorAll('img, span, [data-lcs-label], [data-lcs-line] svg, [data-lcs-colhead]').forEach((e) => { const q = R(e); if (q.width && (q.bottom > r.bottom + 0.5 || q.right > r.right + 0.5 || q.left < r.left - 0.5 || q.top < r.top - 0.5)) fails.push('something leaves its card'); }); });
@@ -470,6 +481,47 @@ function makeVowelType({ id, slug, mode, pair, i18n }) {
       }, LEVELS, INFO);
     },
   };
+}
+
+/* ---------------------------------------------------------------- the item bank of the unit checks ---------------------------------------------------------------- */
+/** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the page's task made small, each card one
+ *  task with its answer in its markup.
+ *   silente (G1-584)  task 2: one picture of the level's vowels with the two words of its pair stacked (cap / cape), the word
+ *                     for the picture carries data-lcs-correct (the child circles it); one card per pair (can and cane
+ *                     never both), the right word on top on some cards and below on others. data-lcs-ckind says whether
+ *                     the picture is the short word or the silent-e word, so that each form asks one of each (review
+ *                     en-1119-lit: form A had asked two short words and form B two silent-e words). No withdrawn picture.
+ *   team (G1-585 to G1-587)  the level-2 gap task: one word with a gap for its two letters (96 px), the gap carries
+ *                     data-lcs-answer (the spelling). ai/ay and oa/ow take the words the rule does not print (the rule is
+ *                     the check's direction line); ee/ea, which no rule tells, shows the picture of each word, as its page
+ *                     does (no withdrawn picture; drawn 100 px: the letters are 34 px). Both spellings on a page, never three of
+ *                     one in a row. The key leaves the gap empty: the check writes the letters in, in its answer colour. */
+function vowelCheckPage(mode, pair, { difficulty, locale }, ctx) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`vowels-g1 check: the words are English words (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const lv = Number(difficulty) || 2, d = LEVELS[mode][lv] || LEVELS[mode][2], rng = ctx.rng;
+  const cards = [];
+  if (mode === 'silente') {
+    const shown = [], pairs = new Set();
+    for (const x of shuffle(pictPool(d.vowels), rng)) { if (shown.length === 8) break; if (pairs.has(x.s) || WITHDRAWN.has(x.w)) continue; pairs.add(x.s); shown.push(x); }
+    if (shown.length < 4) throw new Error(`vowels-g1 check: ${shown.length} pictured pairs`);
+    let at; for (let k = 0; k < 200; k++) { at = shown.map(() => rng.int(0, 1)); if (new Set(at).size === 2 && !/000|111/.test(at.join(''))) break; }
+    shown.forEach((x, i) => {
+      const other = x.w === x.s ? x.l : x.s, two = [[x.w, true], [other, false]]; if (at[i]) two.reverse();
+      cards.push(`<div data-lcs-vowelcheck="${x.w}" data-lcs-ckind="${x.w === x.l ? 'long' : 'short'}" style="display:flex;align-items:center;justify-content:center;gap:22px;padding:6px 8px">${img(x.w, 100)}<div data-lcs-two style="display:flex;flex-direction:column;align-items:center;gap:10px">` +
+        two.map(([w, okk]) => pill(w, okk, false, 32, w === x.s ? 'short' : 'long').replace('<span data-lcs-pill', `<span data-lcs-choice="${w}"${okk ? ' data-lcs-correct="1"' : ''} data-lcs-pill`)).join('') + `</div></div>`);
+    });
+  } else {
+    const tm = TEAMS[pair], A = tm.a, B = tm.b, ruleWords = tm.rule ? listWordsIn(tm, tm.rule) : [], withPic = !tm.rule;
+    const from = (s) => shuffle(s.words.filter((w) => !ruleWords.includes(w) && (!withPic || (PICS[w] && picShown(w)))), rng).slice(0, 4).map((w) => ({ w, g: s.g }));
+    let mix = [];
+    const all = [...from(A), ...from(B)];
+    for (let k = 0; k < 300; k++) { mix = shuffle(all, rng); if (!mix.some((x, i) => i >= 2 && x.g === mix[i - 1].g && x.g === mix[i - 2].g)) break; }
+    if (mix.length < 6) throw new Error(`vowels-g1 check: ${mix.length} words for ${pair}`);
+    for (const x of mix) cards.push(`<div data-lcs-vowelcheck="${x.w}" style="display:flex;align-items:center;justify-content:center;padding:10px 8px">` +
+      gapWord(x.w, x.g, false, 34, withPic ? 100 : 0).replace(`data-lcs-gap="${x.g}"`, `data-lcs-gap="${x.g}" data-lcs-answer="${x.g}"`) + `</div>`);
+  }
+  return { bodyHtml: `<style>[data-lcs-noliga] * {font-variant-ligatures:none !important;font-feature-settings:"liga" 0,"clig" 0 !important}</style><div data-lcs-noliga="1" style="font-variant-ligatures:none;font-feature-settings:'liga' 0,'clig' 0">` + checkGrid(cards, { cols: 2 }) + `</div>`, meta: {} };
 }
 
 module.exports = { makeVowelType, vowelFaultsOf, LEVELS, picOf };

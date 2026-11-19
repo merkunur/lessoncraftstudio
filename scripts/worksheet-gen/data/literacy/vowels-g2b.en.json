@@ -2192,17 +2192,17 @@
      "fits": []
     },
     {
-     "text": "Put on your ___. It is raining.",
+     "text": "Put on your ___ so you will not get wet.",
      "right": "raincoat",
      "fits": []
     },
     {
-     "text": "We made a ___ in the snow.",
+     "text": "The ___ melted when the sun came out.",
      "right": "snowman",
      "fits": []
     },
     {
-     "text": "The kids play on the ___ at school.",
+     "text": "We ran to the swings on the ___.",
      "right": "playground",
      "fits": []
     },
@@ -2212,7 +2212,7 @@
      "fits": []
     },
     {
-     "text": "We can sail on the lake in a ___.",
+     "text": "The wind pushed our ___ across the lake.",
      "right": "sailboat",
      "fits": []
     },
@@ -2230,11 +2230,9 @@
      ]
     },
     {
-     "text": "Mom made tea in the ___.",
+     "text": "The ___ has a spout and a lid.",
      "right": "teapot",
-     "fits": [
-      "teacup"
-     ]
+     "fits": []
     },
     {
      "text": "We have no school on the ___.",
@@ -2249,12 +2247,12 @@
      ]
     },
     {
-     "text": "I paint with a ___.",
+     "text": "Wash the ___ after art class.",
      "right": "paintbrush",
      "fits": []
     },
     {
-     "text": "A ___ helps the farmer with the sheep.",
+     "text": "A ___ barks to move the flock.",
      "right": "sheepdog",
      "fits": []
     },
@@ -2274,7 +2272,7 @@
      "fits": []
     },
     {
-     "text": "The sun sent a ___ into my room.",
+     "text": "A thin ___ lit up the dust in my room.",
      "right": "sunbeam",
      "fits": []
     },
@@ -2313,12 +2311,14 @@
      "fits": []
     },
     {
-     "text": "At ___, the sun peeks over the hills.",
+     "text": "At ___, the sky turns pink and gold.",
      "right": "sunrise",
-     "fits": []
+     "fits": [
+      "bedtime"
+     ]
     },
     {
-     "text": "I go to bed at ___.",
+     "text": "I put on my pajamas at ___.",
      "right": "bedtime",
      "fits": []
     },
@@ -2341,7 +2341,7 @@
      "fits": []
     },
     {
-     "text": "I ___ rainy days. I like sunny days.",
+     "text": "I ___ rainy days. I am happy on sunny days.",
      "right": "dislike",
      "fits": []
     },
@@ -2361,12 +2361,12 @@
      "fits": []
     },
     {
-     "text": "A ___ fell from the pine tree.",
+     "text": "A ___ fell from the top of the tree.",
      "right": "pinecone",
      "fits": []
     },
     {
-     "text": "Bob is my ___. My name is Robert.",
+     "text": "Bob is my ___. Mom calls me Robert.",
      "right": "nickname",
      "fits": []
     },
@@ -2376,7 +2376,7 @@
      "fits": []
     },
     {
-     "text": "Your ___ is in your back.",
+     "text": "Your ___ holds up your body.",
      "right": "backbone",
      "fits": []
     }
@@ -3581,9 +3581,11 @@
      "se"
     ],
     "heart": [
-     3
+     1,
+     3,
+     4
     ],
-    "note": "au says /u/ here, not /or/ — the s saying /z/ is an ordinary rule"
+    "note": "e says /i/ or /uh/ (not its name), au says /u/ here (not /aw/), and se says /z/: each can be defended as a tricky part, so the key hearts all three (review en-1119-lit, 2026-11-19)"
    },
    {
     "w": "friend",

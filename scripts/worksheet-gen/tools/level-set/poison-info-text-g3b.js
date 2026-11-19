@@ -43,6 +43,9 @@ const FAULTS = [
   ['bank: a wish keyed to other pages', BANK, '"answer": "3, 4, and 5"', '"answer": "3 and 4"', 'G3-499', 1],
   ['bank: a wish for the page of a chapter (a heading grants it too)', BANK, '"want": "You want to see the names of all the chapters in one place."', '"want": "You want to know on which page a chapter begins."', 'G3-499', 1],
   ['bank: a wish for a heading (the contents tell the same)', BANK, '"tool": "keyword",\n      "want"', '"tool": "heading",\n      "want"', 'G3-499', 1],
+  // review en.review-1119-read2: the glossary in ABC order, read down each of its two columns
+  ['the glossary in the order of the pages', FACTORY, 'const gloss = glossOrder(b.keys).map(', 'const gloss = b.keys.map(', 'G3-498', 2],
+  ['the glossary in ABC order across its rows', FACTORY, 'grid-template-rows:repeat(2,auto);grid-auto-flow:column;', '', 'G3-498', 2],
 ];
 const ORIG = { [FACTORY]: fs.readFileSync(FACTORY, 'utf8'), [BANK]: fs.readFileSync(BANK, 'utf8') };
 let caught = 0;

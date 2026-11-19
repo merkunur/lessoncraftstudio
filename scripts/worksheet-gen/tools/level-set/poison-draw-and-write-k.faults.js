@@ -129,4 +129,6 @@ module.exports = (FACTORY, BANK) => [
   ['the key of level 2 writes the one word of level 1', FACTORY, 'const addAns = lv === 1 ? [sm.word] : lv === 2 ? [sm.short] :', 'const addAns = lv === 1 ? [sm.word] : lv === 2 ? [sm.word] :', 'K-680', 2, 'key', /sample is not the one of its example/],
   ['a yes-or-no question, in the bank', BANK, '"q": "Who is it for?"', '"q": "Is it for you?"', 'K-680', 2, null, /does not ask for a detail/],
   ['questions measured against a row too short', FACTORY, 'const qFits = (q) => [...q].length * KEY_PX * Math.max(0.56, (emOf(q) / [...q].length) * 1.05) <= INNER - 16', 'const qFits = (q) => [...q].length * KEY_PX * Math.max(0.56, (emOf(q) / [...q].length) * 1.05) <= INNER - 316', 'K-680', 2, null, /fewer than fourteen whose question fits the row of the key/],
+  // (writing review 1119) the topics only the check asks for (a favorite food) are no topic a page offers
+  ['a check topic a page offers, in the bank', BANK, '"key": "food",', '"key": "game",', 'K-674', 2, null, /checkTopics/],
 ];

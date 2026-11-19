@@ -39,6 +39,9 @@ const { W, esc, shuffle, line, placed } = _parts;
 const wordsIn = (s) => String(s).split(/\s+/).filter(Boolean).length;
 const pk = (p) => (p ? p.theme + '/' + p.noun : '');
 const pairKey = (pics) => pics.map(pk).sort().join(' + ');
+// faces a Kindergarten child reads as the same feeling (2026-11-19, US reading review: Duck's sad face beside the tired
+// face, eyes shut and mouth down, gave two right answers): a feeling question never offers a look-alike as a wrong face
+const FACE_LOOKALIKE = { sad: ['tired', 'bored'], tired: ['sad', 'bored'], bored: ['sad', 'tired'], happy: ['merry', 'content', 'excited'], merry: ['happy', 'content', 'excited'], content: ['happy', 'merry'], excited: ['happy', 'merry'], scared: ['surprised'], surprised: ['scared'] };
 
 /** What must be true of a Kindergarten story before any page prints it. Returns the list of faults (empty = sound). */
 function storyKFaultsOf(t, all) {
@@ -73,6 +76,7 @@ function storyKFaultsOf(t, all) {
     qs.forEach((q) => { if (!start.test(q.q || '') || !/\?$/.test(q.q) || q.q.length > 52 || !isPic(q.right) || !Array.isArray(q.wrong) || q.wrong.length !== 2 || !q.wrong.every(isPic) || new Set([q.right, ...q.wrong].map(pk)).size !== 3) f.push(`${id}: "${q.q}" is no ${kind} question with one right picture and two different wrong ones`);
       else { if (!/^emotions\//.test(pk(q.right)) && !shown.has(pk(q.right)) && pk(q.right) !== pk(pl.picture)) f.push(`${id}: the answer of "${q.q}" is no picture of the story`);
         if (q.wrong.some((x) => /^emotions\//.test(pk(x)) !== /^emotions\//.test(pk(q.right)))) f.push(`${id}: "${q.q}" mixes faces and things`); } });
+    qs.forEach((q) => { const r = /^emotions\/(.+)$/.exec(pk(q.right)); if (r && Array.isArray(q.wrong)) for (const x of q.wrong) { const w = /^emotions\/(.+)$/.exec(pk(x)); if (w && (FACE_LOOKALIKE[r[1]] || []).includes(w[1])) f.push(`${id}: "${q.q}" offers a ${w[1]} face, which a child reads as ${r[1]}`); } });
     if (new Set(qs.map((q) => pk(q.right))).size !== 3) f.push(`${id}: two ${kind} questions have the same answer`);
   }
   if (all && all.some((o) => o.id !== id && o.hero && pk(o.hero.picture) === pk(t.hero.picture))) f.push(id + ': another story is about the same animal');
@@ -118,6 +122,8 @@ function makeStoryKType({ id, slug, mode, i18n }) {
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // the unit checks (Part 7.6): the page's task made small, one card a task (storyKCheckPage below)
+    checkPage(args, ctx) { return storyKCheckPage(mode, args, ctx); },
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the stories are English stories (no ${locale} bank)`);
@@ -154,7 +160,10 @@ function makeStoryKType({ id, slug, mode, i18n }) {
         const NAMES = ['Beginning', 'Middle', 'End'];
         const ev = t.bme.map((i) => t.panels[i].pics);
         if (lv === 1) {
-          const order = [...ORDERS[STORIES.indexOf(t) % ORDERS.length]].map(Number);   // every story its own order, never 1-2-3
+          // every story its own order, never 1-2-3 and never 3-2-1 (2026-11-19, found by the unit-check builder: the fourth
+          // story drew '210', a countdown the child can copy without listening); that story takes 1-0-2 instead
+          const o = ORDERS[STORIES.indexOf(t) % ORDERS.length];
+          const order = [...(o === '210' ? '102' : o)].map(Number);
           below = cream('data-lcs-events="1"', label('What happens first, next, and last? Write 1, 2, and 3 in the boxes.') +
             `<div style="display:flex;justify-content:space-around;align-items:flex-end">${order.map((i) => `<div data-lcs-event="${i + 1}" style="display:flex;flex-direction:column;align-items:center;gap:10px;padding:12px 10px;border-radius:16px;background:#FFFFFF">${pair(ev[i], d.ev)}${numBox(i + 1, key, 56)}</div>`).join('')}</div>` +
             label('Now tell the story to a partner: First ... Next ... Last ...', 18, T.teal), 12);
@@ -255,6 +264,7 @@ function makeStoryKType({ id, slug, mode, i18n }) {
           if (lv === 1) {
             const evs = [...document.querySelectorAll('[data-lcs-event]')], seq = evs.map((e) => e.dataset.lcsEvent).join('');
             if (evs.length !== 3 || [...seq].sort().join('') !== '123' || seq === '123') fails.push('the three pictures are not mixed: ' + seq);
+            if (seq === '321') fails.push('the three pictures stand as a countdown (3, 2, 1): the child can write the numbers without listening');
             if (box.querySelector('[data-lcs-badge]')) fails.push('the panels carry numbers on the page that asks for 1, 2 and 3');
             evs.forEach((e) => { if (e.querySelector('[data-lcs-numbox]').dataset.lcsWant !== e.dataset.lcsEvent) fails.push('a box is keyed to another place'); });
             const order = [...box.querySelectorAll('[data-lcs-panel] [data-lcs-pair]')].map((e) => e.dataset.lcsPair);
@@ -299,6 +309,145 @@ function makeStoryKType({ id, slug, mode, i18n }) {
       });
     },
   };
+}
+
+/* ---------------------------------------------------------------- the item bank of the unit checks ---------------------------------------------------------------- */
+/** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the page's task made small, each card one
+ *  task with its answer in its markup. THE TEACHER READS: a card prints no word. What the teacher reads aloud (the story,
+ *  then the question of the card) stands on the card's root as data-lcs-teacher-reads; the key and the teacher pages
+ *  print it, the child's form never does. Every card carries its story as data-lcs-text (form B takes another story).
+ *   FORMS (review en.review-1119-read, 2026-11-19): a page built for form A of a check tells Mouse in the Rain and Bear
+ *   and the Bee only, for form B Cat Wants a Nap and Duck's New Hat (CHECK_STORIES: no story in both forms); The Big
+ *   Carrot is in no check. A wrong picture is never a picture of a story read in the same form. Each part asks the story
+ *   CHECK_PART_STORY names (review en.review-1119-read2): who/where and the questions one story, the retelling and the
+ *   sentences the other, so no right picture of a part is drawn in another part; the sentences are read in an order that
+ *   gives no picture the number the retelling gives it (Cat: the retelling shows CHECK_RETELL's three panels).
+ *   who (K-650)     in a form: one Who card (the first story) and one Where card (the second), their right pictures in
+ *                   two places; outside a form also the "what happens" card. The three pictures of level 1 to circle:
+ *                   the level-2 page draws the same things, and its key shows the same right pictures.
+ *   retell (K-651)  the three pictures of the beginning, the middle and the end in one of the page's mixed orders
+ *                   (ORDERS: never 1-2-3, and here never 3-2-1, a countdown) over boxes for 1, 2 and 3 (data-lcs-answer):
+ *                   the page's level-1 task.
+ *   ask (K-652)     one question of the level (level 1 who and where, levels 2 and 3 what, how and why) with its three
+ *                   pictures to circle.
+ *   match (K-653)   the four panels of the story (three on level 1) as pictures in the order of the story, a box under
+ *                   each; the teacher reads the panels' sentences in ANOTHER order, numbered as they are read, and the
+ *                   child writes the number of each sentence under its picture. Read in the order of the story, the
+ *                   numbers would be the order of the story (the task of K-651, not the picture and its words). */
+/** the stories of each form of the unit check (review en.review-1119-read: form B retold form A's stories) */
+const CHECK_STORIES = { A: ['mouse-in-the-rain', 'bear-and-the-bee'], B: ['cat-wants-a-nap', 'ducks-new-hat'] };
+const NO_CHECK_STORY = new Set(['the-big-carrot']);
+/** the story each part of a form asks (review en.review-1119-read2: the Who answer of form A, the mouse, was drawn in parts 2
+ *  and 4 below it): the retelling (K-651) and the sentences (K-653) share one story, who and where (K-650) and the
+ *  questions (K-652) ask the other, so no right picture of a part is drawn in another part of its form */
+const CHECK_PART_STORY = {
+  A: { who: 'bear-and-the-bee', ask: 'bear-and-the-bee', retell: 'mouse-in-the-rain', match: 'mouse-in-the-rain' },
+  B: { who: 'ducks-new-hat', ask: 'ducks-new-hat', retell: 'cat-wants-a-nap', match: 'cat-wants-a-nap' },
+};
+/** the three panels a check retells where the page's own three (bme) hold two that look alike (review en.review-1119-read2:
+ *  cat+bed and cat+pillow both read "Cat goes to sleep"): Dog plays with his ball, Dog runs out the door, Cat sleeps */
+const CHECK_RETELL = { 'cat-wants-a-nap': [1, 2, 3] };
+/** the form a check page is built for: build-checks seeds its pages "check|<unit>|A…" or "…|B…"; none outside a check */
+const checkFormOf = (ctx) => { const m = /^check\|[^|]+\|([AB])\d*\|/.exec(String((ctx && ctx.rng && ctx.rng.seed) || '')); return m ? m[1] : null; };
+function storyKCheckPage(mode, { difficulty, locale }, ctx) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`story-k check: the stories are English stories (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const lv = Number(difficulty) || 2, rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+  const att = (s) => esc(s).replace(/"/g, '&quot;');
+  const heard = (t) => t.title + '. ' + t.panels.map((p) => p.text).join(' ');
+  const card = (t, reads, inner) => `<div data-lcs-text="${att(t.id)}" data-lcs-teacher-reads="${att(reads)}" style="display:flex;flex-direction:column;align-items:stretch;gap:6px;padding:2px 4px">${inner}</div>`;
+  const marked = (html) => html.replace(' data-lcs-ok="1"', ' data-lcs-ok="1" data-lcs-correct="1"');
+  const choose = (right, wrong) => { const at = rng.int(0, 2); return marked(picks(placed(right, shuffle(wrong, rng), at), at, key, LEVELS.who[1].opt)); };
+  const box = (want) => numBox(want, key, 50).replace('<span data-lcs-numbox', `<span data-lcs-answer="${want}" data-lcs-numbox`);
+  const cards = [];
+  // (review en.review-1119-read) the stories of a form: no story in both forms, so form B is no retelling of form A; inside
+  // a form two parts may share a story. The Big Carrot is in no check. Outside a check (a probe) every other story.
+  const form = checkFormOf(ctx);
+  const told = form ? CHECK_STORIES[form].map((id) => STORIES.find((x) => x.id === id)).filter(Boolean) : STORIES.filter((x) => !NO_CHECK_STORY.has(x.id));
+  // a wrong picture is never a picture of a story read in the same form (form B offered the duck, the hero of the other
+  // story read with it), and comes from the bank's own wrong animals and places
+  const picsOf = (o) => [o.hero.picture, o.place.picture, ...o.panels.flatMap((p) => p.pics)].map(pk);
+  const inForm = (t) => new Set(form ? told.flatMap(picsOf) : picsOf(t));     // (outside a form: the story's own pictures)
+  const wrongFor = (t, own, pool) => { const seen = inForm(t), ok = (p) => !seen.has(pk(p)) && pk(p) !== pk(own); const out = own === t.hero.picture ? t.whoWrong.filter(ok) : t.place.wrong.filter(ok);
+    for (const p of pool) if (out.length < 2 && ok(p) && !out.some((x) => pk(x) === pk(p))) out.push(p); return out.slice(0, 2); };
+  const animals = STORIES.flatMap((o) => [...o.whoWrong, o.hero.picture]), places = STORIES.flatMap((o) => [...o.place.wrong, o.place.picture]);
+  // two wrong pictures of a question: its own, without a picture of a story of the form (Cat's pillow question offered Duck's
+  // hat and flower), filled from the wrong pictures of the other questions of the bank: faces by faces, things by things
+  const askWrong = (t, q) => { const seen = inForm(t), face = /^emotions\//.test(pk(q.right)), ok = (p) => !seen.has(pk(p)) && pk(p) !== pk(q.right) && /^emotions\//.test(pk(p)) === face;
+    const wrong = q.wrong.filter(ok);
+    for (const p of [...STORIES.flatMap((o) => o.hard), ...STORIES.flatMap((o) => o.easy)].flatMap((x) => x.wrong)) if (wrong.length < 2 && ok(p) && !wrong.some((x) => pk(x) === pk(p))) wrong.push(p);
+    return wrong.slice(0, 2); };
+  if (form) {
+    // (review en.review-1119-read2) each part asks the story CHECK_PART_STORY names; a page of a check needs two cards, so a
+    // part of one card (the retelling, the sentences) offers it twice in two orders with one text id: the check keeps the first
+    const P = CHECK_PART_STORY[form], t = STORIES.find((x) => x.id === P[mode]);
+    const put = (right, wrong, where) => marked(picks(placed(right, shuffle(wrong, rng), where), where, key, LEVELS.who[1].opt));
+    const cardAs = (id, reads, inner) => card(t, reads, inner).replace(`data-lcs-text="${att(t.id)}"`, `data-lcs-text="${att(id)}"`);
+    // the number the retelling of this form gives each of its panels (1, 2, 3)
+    const frames = CHECK_RETELL[P.retell] || STORIES.find((x) => x.id === P.retell).bme;
+    if (mode === 'who') {
+      const at = rng.int(0, 2), at2 = (at + 1 + rng.int(0, 1)) % 3;
+      cards.push(cardAs(t.id + '|who', heard(t) + ' Who is the story about? Circle it.', put(t.hero.picture, wrongFor(t, t.hero.picture, animals), at)));
+      cards.push(cardAs(t.id + '|where', heard(t) + ' Where does the story happen? Circle it.', put(t.place.picture, wrongFor(t, t.place.picture, places), at2)));
+    }
+    // every question of the level, each in its own place (a part takes two of them)
+    if (mode === 'ask') (lv === 1 ? t.easy : t.hard).forEach((q, i) => cards.push(cardAs(t.id + '|' + (i + 1), heard(t) + ' ' + q.q, put(q.right, askWrong(t, q), (i + (form === 'A' ? 0 : 1)) % 3))));
+    if (mode === 'retell') {
+      const parts = frames.map((k) => t.panels[k].pics);
+      for (const o of shuffle(ORDERS.filter((x) => x !== '210'), rng).slice(0, 2)) cards.push(card(t, heard(t) + ' What happens first, next, and last? Write 1, 2, and 3 in the boxes.',
+        `<div data-lcs-checkrow style="display:flex;justify-content:space-around;align-items:flex-end">${[...o].map(Number).map((k) => `<div data-lcs-event="${k + 1}" style="display:flex;flex-direction:column;align-items:center;gap:8px;padding:6px 8px;border-radius:14px;background:#FFFFFF">${pair(parts[k], 76)}${box(k + 1)}</div>`).join('')}</div>`));
+    }
+    if (mode === 'match') {
+      // (review en.review-1119-read2: form A gave the three pictures part 2 shows the numbers part 2 gives them, so a child
+      // copied part 2) a panel the retelling shows never takes its number there; never 1-2-3-4, never a countdown
+      const which = lv === 1 ? [0, 2, 3] : [0, 1, 2, 3];
+      const perms = (a) => (a.length <= 1 ? [a] : a.flatMap((x, i) => perms([...a.slice(0, i), ...a.slice(i + 1)]).map((r) => [x, ...r])));
+      const fair = perms(which).filter((said) => said.some((p, i) => p !== which[i]) && said.some((p, i) => p !== which[which.length - 1 - i]) && which.every((p) => !frames.includes(p) || said.indexOf(p) + 1 !== frames.indexOf(p) + 1));
+      for (const said of shuffle(fair, rng).slice(0, 2)) cards.push(card(t, t.title + '. Listen to each sentence. Write its number under its picture. ' + said.map((p, i) => (i + 1) + '. ' + t.panels[p].text).join(' '),
+        `<div data-lcs-checkrow style="display:flex;justify-content:space-around;align-items:flex-end">${which.map((p) => `<div data-lcs-panelpic="${p + 1}" style="display:flex;flex-direction:column;align-items:center;gap:8px;padding:6px 8px;border-radius:14px;background:#FFFFFF">${pair(t.panels[p].pics, 62)}${box(said.indexOf(p) + 1)}</div>`).join('')}</div>`));
+    }
+    return { bodyHtml: `<div data-lcs-storykcheck="${mode}|${lv}"${key ? ' data-lcs-iskey="1"' : ''}>` + checkGrid(cards, { cols: 1 }) + `</div>`, meta: {} };
+  }
+  if (mode === 'who' && form) {
+    // one Who card and one Where card a form (the lesson is who AND where), never in one place
+    const at = rng.int(0, 2), at2 = (at + 1 + rng.int(0, 1)) % 3;
+    const [a, b] = told;
+    const put = (right, wrong, where) => marked(picks(placed(right, shuffle(wrong, rng), where), where, key, LEVELS.who[1].opt));
+    cards.push(card(a, heard(a) + ' Who is the story about? Circle it.', put(a.hero.picture, wrongFor(a, a.hero.picture, animals), at)));
+    cards.push(card(b, heard(b) + ' Where does the story happen? Circle it.', put(b.place.picture, wrongFor(b, b.place.picture, places), at2)));
+  }
+  for (const t of shuffle(told, rng)) {
+    if (mode === 'who' && !form) {
+      const centre = t.panels[t.bme[1]].pics;
+      const elsewhere = shuffle(STORIES.filter((o) => o.id !== t.id), rng).slice(0, 2).map((o) => o.panels[o.bme[1]].pics);
+      cards.push(card(t, heard(t) + ' Who is the story about? Circle it.', choose(t.hero.picture, wrongFor(t, t.hero.picture, animals))));
+      cards.push(card(t, heard(t) + ' Where does the story happen? Circle it.', choose(t.place.picture, wrongFor(t, t.place.picture, places))));
+      cards.push(card(t, heard(t) + ' What happens in the story? Circle it.', choose(centre, elsewhere)));
+    }
+    if (mode === 'retell') {
+      const parts = t.bme.map((k) => t.panels[k].pics);
+      // (one of the page's own mixed orders, never 2-1-0: 3, 2, 1 in the boxes reads as a countdown)
+      const shown = [...rng.pick(ORDERS.filter((o) => o !== '210'))].map(Number);
+      cards.push(card(t, heard(t) + ' What happens first, next, and last? Write 1, 2, and 3 in the boxes.',
+        `<div data-lcs-checkrow style="display:flex;justify-content:space-around;align-items:flex-end">${shown.map((k) => `<div data-lcs-event="${k + 1}" style="display:flex;flex-direction:column;align-items:center;gap:8px;padding:6px 8px;border-radius:14px;background:#FFFFFF">${pair(parts[k], 76)}${box(k + 1)}</div>`).join('')}</div>`));
+    }
+    if (mode === 'ask') for (const q of (lv === 1 ? t.easy : t.hard)) {
+      // (a wrong picture of the other story of the form — Cat's pillow question offered Duck's hat and flower — is replaced
+      // by a wrong picture of another question of the bank: faces by faces, things by things)
+      const seen = inForm(t), face = /^emotions\//.test(pk(q.right)), ok = (p) => !seen.has(pk(p)) && pk(p) !== pk(q.right) && /^emotions\//.test(pk(p)) === face;
+      const wrong = q.wrong.filter(ok);
+      for (const p of [...STORIES.flatMap((o) => o.hard), ...STORIES.flatMap((o) => o.easy)].flatMap((x) => x.wrong)) if (wrong.length < 2 && ok(p) && !wrong.some((x) => pk(x) === pk(p))) wrong.push(p);
+      cards.push(card(t, heard(t) + ' ' + q.q, choose(q.right, wrong.slice(0, 2))));
+    }
+    if (mode === 'match') {
+      const which = lv === 1 ? [0, rng.int(1, 2), 3] : [0, 1, 2, 3];
+      let said; for (let k = 0; k < 200; k++) { said = shuffle(which, rng); if (said.some((p, i) => p !== which[i]) && said.some((p, i) => p !== which[which.length - 1 - i])) break; }
+      const readNo = (p) => said.indexOf(p) + 1;
+      cards.push(card(t, t.title + '. Listen to each sentence. Write its number under its picture. ' + said.map((p, i) => (i + 1) + '. ' + t.panels[p].text).join(' '),
+        `<div data-lcs-checkrow style="display:flex;justify-content:space-around;align-items:flex-end">${which.map((p) => `<div data-lcs-panelpic="${p + 1}" style="display:flex;flex-direction:column;align-items:center;gap:8px;padding:6px 8px;border-radius:14px;background:#FFFFFF">${pair(t.panels[p].pics, 62)}${box(readNo(p))}</div>`).join('')}</div>`));
+    }
+  }
+  return { bodyHtml: `<div data-lcs-storykcheck="${mode}|${lv}"${key ? ' data-lcs-iskey="1"' : ''}>` + checkGrid(cards, { cols: 1 }) + `</div>`, meta: {} };
 }
 
 module.exports = { makeStoryKType, storyKFaultsOf, STORIES, LEVELS };

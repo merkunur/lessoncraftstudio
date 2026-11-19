@@ -1,5 +1,5 @@
 {
- "_note": "Kindergarten \"Draw and Write: Opinions, Facts, and Stories\" (English literacy year, Part 12.3; types/_shared/draw-and-write-k.js). THE TEACHER READS every instruction, sentence and word. `pics`: [theme, picture], its kind (two of one kind never share a page) and the word printed under it. K-673: `pairs` (circle the one you like best: any choice is right), `pieces` (a kindergartner's opinion piece: topic sentence, opinion, reason; reFirst: the reason as printed before the opinion). K-674: `favTopics` (three a copy) with the reason words that fit each and the samples of each level, `reasonWords` (the level-1 box), `favModels` (the grey model: a topic never offered), `favBank` (the level-3 box). K-675: `factTopics` (an animal, a thing or a plant: facts true as printed, tags of facts of other topics that are true or arguable for it, the parts to label with the box measured for each part, its dot and the side its label stands on, words of parts it does not have, the box of the picture's ink and a 64 x 64 mask of it: 0 no ink, 1 some, 2 ink), `partInFact`. K-676: `teachTopics` (what each has and can do, its family), `hasWords`, `canWords`, `teachModels` (with their family), `teachBank`. K-677: `stories` (three and four sentences that follow one from another; the face that is right). K-678: `moments` with the samples, `momentModels`, `momentBank`. K-679: `asks` (a piece, the question, an answer of each kind; `same` says again what the piece says), `askQ`. K-680: `chairQuestions` (level 1 circles one), `chairExamples` (the worked example of each copy, with the samples of each level). `modelOnly`: what the notes model with (on no page); `noteWords`: the fact words of the note model of each lesson (no sample of the lesson holds one). `banned`: words no page prints.",
+ "_note": "Kindergarten \"Draw and Write: Opinions, Facts, and Stories\" (English literacy year, Part 12.3; types/_shared/draw-and-write-k.js). THE TEACHER READS every instruction, sentence and word. `pics`: [theme, picture], its kind (two of one kind never share a page) and the word printed under it. K-673: `pairs` (circle the one you like best: any choice is right), `pieces` (a kindergartner's opinion piece: topic sentence, opinion, reason; reFirst: the reason as printed before the opinion). K-674: `favTopics` (three a copy) with the reason words that fit each and the samples of each level, `reasonWords` (the level-1 box), `favModels` (the grey model: a topic never offered), `favBank` (the level-3 box). K-675: `factTopics` (an animal, a thing or a plant: facts true as printed, tags of facts of other topics that are true or arguable for it, the parts to label with the box measured for each part, its dot and the side its label stands on, words of parts it does not have, the box of the picture's ink and a 64 x 64 mask of it: 0 no ink, 1 some, 2 ink), `partInFact`. K-676: `teachTopics` (what each has and can do, its family), `hasWords`, `canWords`, `teachModels` (with their family), `teachBank`. K-677: `stories` (three and four sentences that follow one from another; the face that is right). K-678: `moments` with the samples, `momentModels`, `momentBank`. K-679: `asks` (a piece, the question, an answer of each kind; `same` says again what the piece says), `askQ`. K-680: `chairQuestions` (level 1 circles one), `chairExamples` (the worked example of each copy, with the samples of each level). `modelOnly`: what the notes model with (on no page); `noteWords`: the fact words of the note model of each lesson (no sample of the lesson holds one). `banned`: words no page prints. The unit check: `checkTopics` (topics only the writing part of the check asks for, never a page: a favorite food).",
  "pics": {
   "kite": {
    "pic": [
@@ -608,6 +608,14 @@
    ],
    "kind": "blocks",
    "word": "blocks"
+  },
+  "tFood": {
+   "pic": [
+    "fruits",
+    "apple"
+   ],
+   "kind": "apple",
+   "word": "food"
   }
  },
  "pairs": [
@@ -1005,7 +1013,8 @@
     "swim",
     "yellow",
     "swing",
-    "fourlegs"
+    "fourlegs",
+    "roar"
    ],
    "parts": [
     [
@@ -4079,5 +4088,11 @@
   "god",
   "damn",
   "hell"
+ ],
+ "checkTopics": [
+  {
+   "key": "food",
+   "pic": "tFood"
+  }
  ]
 }

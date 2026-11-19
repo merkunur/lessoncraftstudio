@@ -55,6 +55,12 @@ function storyFaultsOf(t) {
   if (![m.right, m.lure, m.literal].every((s) => one(s, 90)) || new Set([m.right, m.lure, m.literal]).size !== 3) f.push(id + ': not a message, the message of another story and a literal sentence (at most 90 letters each)');
   if (!Array.isArray(t.shows) || t.shows.length !== 3 || ![...(t.shows || []), t.notInStory].every((s) => one(s, 96)) || new Set([...(t.shows || []), t.notInStory]).size !== 4) f.push(id + ': not three events that show the message and one that the story does not tell');
   if (!one(t.how, 110)) f.push(id + ': no sample sentence that tells how the story shows the message');
+  // review en.review-1119-read: the mouse's last line said the message almost word for word, so the right sentence was a
+  // copy. No sentence of the story holds 60 % or more of the message's words of four letters and more.
+  const MSG_STOP = new Set('that this with from they them their there were have when what which where while could would about into only other then than been some more most also because after before every each made make many much very just your will said'.split(' '));
+  const cw = (x) => [...new Set((String(x).toLowerCase().match(/[a-z]{4,}/g) || []).filter((w) => !MSG_STOP.has(w)))];
+  const mw = cw(m.right);
+  for (const x of all) { const w = new Set(cw(x)); if (mw.length && mw.filter((y) => w.has(y)).length / mw.length >= 0.6) f.push(`${id}: "${x.slice(0, 40)}..." says the message almost word for word`); }
   const qs = t.questions || [];
   if (qs.length !== 5) f.push(id + ': not five questions');
   qs.forEach((x, i) => {
@@ -76,6 +82,12 @@ function storyFaultsOf(t) {
     if (x.first !== undefined && x.first !== true) f.push(`${id}: "first" of ${x.who} is not true`);
     if (!x.who || !/^[a-z-]{3,14}$/.test(x.trait || '') || !Array.isArray(x.wrong) || x.wrong.length !== 2 || new Set([x.trait, ...x.wrong]).size !== 3) f.push(`${id}: the trait of ${x.who} is not one word with two different wrong words`);
     if (!all.includes(x.proof)) f.push(`${id}: the sentence that shows "${x.trait}" is no sentence of the story`);
+    // review en.review-1119-read: "her clever plan", "stayed polite": a word of the list that stands in the story is matched,
+    // not inferred
+    for (const w of [x.trait, ...(x.wrong || [])]) if (new RegExp('(?<![a-z])' + String(w).toLowerCase().replace(/[^a-z-]/g, '') + '(?![a-z])').test(all.join(' ').toLowerCase())) f.push(`${id}: the word "${w}" of the list for ${x.who} stands in the story`);
+    // "copy the sentence that shows it" (levels 2 and 3): every OTHER sentence of the story that shows the trait, which the
+    // key prints too (fix round 2026-11-19: most stories show a trait in more than one sentence)
+    if (!Array.isArray(x.also) || x.also.some((a) => !all.includes(a)) || x.also.includes(x.proof) || x.also.includes(t.plain) || new Set(x.also).size !== x.also.length || x.also.join(' ').length > 300) f.push(`${id}: the other sentences that show "${x.trait}" are not distinct sentences of the story (not its plain sentence, at most 300 letters in all)`);
   });
   if (tr.length === 2 && (tr[0].proof === tr[1].proof || tr[0].trait === tr[1].trait || new Set(tr.flatMap((x) => [x.trait, ...x.wrong])).size !== 6)) f.push(id + ': the two traits share a word or a sentence');
   if (t.pluralWho && (!Array.isArray(t.pluralWho) || t.pluralWho.some((w) => ![...tr.map((x) => x.who), (t.end || {}).who].includes(w)))) f.push(id + ': a plural character that the story pages do not name');
@@ -105,6 +117,9 @@ function makeStory3Type({ id, slug, mode, i18n }) {
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // the unit checks (Part 7.6): the page's task made small, one card a task (story3CheckPage below; the notes and the
+    // talk are open answers and give no check)
+    ...(mode === 'message' || mode === 'traits' ? { checkPage(args, ctx) { return story3CheckPage(mode, args, ctx); } } : {}),
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the stories are English stories (no ${locale} bank)`);
@@ -154,13 +169,25 @@ function makeStory3Type({ id, slug, mode, i18n }) {
             shuffle(tr.flatMap((x) => [x.trait, ...x.wrong]), rng).map((w) => `<span data-lcs-bankword style="padding:2px 10px;border:2px solid ${T.ink};border-radius:999px;background:#FFFFFF">${esc(w)}</span>`).join('') + `</div>` : '';
           const cards = tr.map((x, k) => cream(`data-lcs-trait="${k + 1}"`,
             `<div style="display:flex;align-items:flex-end;gap:8px"><span data-lcs-label style="flex:0 0 auto;white-space:nowrap;padding-bottom:3px;font:700 15px/1 'Nunito',sans-serif;color:${T.ink}">${num(k + 1)}${x.first ? 'At first, ' + esc(x.who) : esc(cap(x.who))} ${pl(x.who) ? 'are' : 'is'}${k && tr[0].who === x.who ? ' also' : ''}</span><div style="flex:1 1 auto;min-width:0">${rule({ w: inner - 230, h: d.rowH, answer: key ? x.trait : null, sample: lv === 3 })}</div></div>` +
-            rule({ w: inner, h: d.rowH, starter: 'The story says:', answer: key ? 'The story says: ' + x.proof : null, sample: true }) + rule({ w: inner, h: d.rowH }), 6));
+            rule({ w: inner, h: d.rowH, starter: 'The story says:', answer: key ? 'The story says: ' + x.proof : null, sample: true }) + alsoLine(x, d.rowH), 6));
           const end = lv === 3 ? cream('data-lcs-feeling="1"', label(`How ${pl(t.end.who) ? 'do' : 'does'} <b>${esc(t.end.who)}</b> feel at the end of the story? Why?`, 15.5) + rule({ w: inner, h: d.rowH, answer: key ? cap(t.end.who) + (pl(t.end.who) ? ' feel ' : ' feels ') + t.end.feeling + ' because ' + t.end.why + '.' : null, sample: true }) + rule({ w: inner, h: d.rowH }), 6) : '';
           below = bank + cards.join('') + end;
         }
         items = tr.map((x) => t.id + ': ' + x.who + ' is ' + x.trait);
       }
 
+      // the spare line of "The story says:": on the key, every other sentence of the story that shows the trait (as large as
+      // two or three rows of the line allow, at 10 px the least: a longer list makes the KEY's line taller, where the page's
+      // slack allows it); on the child's page an empty line, as before
+      function alsoLine(x, h) {
+        if (!key) return rule({ w: inner, h });
+        const also = x.also || [], text = 'Also right: ' + also.join(' · ');
+        let px = 0, hk = h;
+        for (let p = 12; p >= 10; p -= 0.5) { const rows = Math.floor((h - 5) / (p * 1.15)); if (text.length * p * 0.56 <= rows * (inner - 16)) { px = p; break; } }
+        if (!px) { px = 10; hk = Math.ceil(Math.ceil((text.length * 10 * 0.56) / (inner - 16)) * 11.5) + 6; }
+        const list = also.length ? `<span data-lcs-alsolist style="flex:1 1 auto;min-width:0;white-space:normal;font:700 ${px}px/1.15 'Nunito',sans-serif;color:${T.teal}">Also right: ` + also.map((a) => `<span data-lcs-alsotext>${esc(a)}</span>`).join(' · ') + `</span>` : '';
+        return rule({ w: inner, h: hk }).replace('<div data-lcs-line', `<div data-lcs-line data-lcs-proofs="${1 + also.length}"`).replace(/<\/div>$/, list + '</div>');
+      }
       const paraBox = (text) => `<span style="flex:0 0 auto;display:inline-flex;align-items:center;gap:5px;font:700 13.5px/1 'Nunito',sans-serif;color:${T.ink}">${text} ${numBox('', false)}</span>`;
       const vary = key ? 'answers will vary' : null;
       if (mode === 'prep') {
@@ -187,7 +214,7 @@ function makeStory3Type({ id, slug, mode, i18n }) {
       }
 
       return {
-        bodyHtml: `<div data-ws-content data-lcs-story3="${mode}|${lv}"${key ? ' data-lcs-iskey="1"' : ''} style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-between;gap:6px;min-height:0">` + textBox(t, { font: d.font, lh: d.lh, headings: false }) + below + `</div>`,
+        bodyHtml: _parts3.curly(`<div data-ws-content data-lcs-story3="${mode}|${lv}"${key ? ' data-lcs-iskey="1"' : ''} style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-between;gap:6px;min-height:0">` + textBox(t, { font: d.font, lh: d.lh, headings: false }) + below + `</div>`),
         meta: { text: t.id, items },
       };
     },
@@ -197,6 +224,8 @@ function makeStory3Type({ id, slug, mode, i18n }) {
         const fails = [];
         const root = document.querySelector('[data-lcs-story3]');
         if (!root) return ['no page'];
+        // a story prints typographic quotes and apostrophes, as the Grade 1 and 2 story pages do (review en.review-1119-read2)
+        if (true && /["']/.test(root.textContent)) fails.push('a straight quote or apostrophe in the story: the story pages print typographic marks');
         const [mode, lvS] = root.dataset.lcsStory3.split('|'), lv = +lvS;
         const isKey = root.dataset.lcsIskey === '1';
         const R = (e) => e.getBoundingClientRect();
@@ -254,6 +283,9 @@ function makeStory3Type({ id, slug, mode, i18n }) {
             const words = document.querySelectorAll('[data-lcs-bankword]').length;
             if (lv === 2 ? words !== 6 : words !== 0) fails.push(`level ${lv}: ${words} words are offered`);
             if (lv === 3 ? !document.querySelector('[data-lcs-feeling]') : document.querySelector('[data-lcs-feeling]')) fails.push('the question about the feeling is on the wrong level');
+            if (isKey) cards.forEach((c, i) => { const sp = c.querySelector('[data-lcs-proofs]'), n = sp ? +sp.dataset.lcsProofs : 0, shown = c.querySelectorAll('[data-lcs-alsotext]').length;
+              if (!sp || shown !== n - 1) fails.push(`the key of character ${i + 1} shows ${shown + 1} of the ${n || '?'} sentences that show the trait`);
+              const al = c.querySelector('[data-lcs-alsolist]'); if (al) { const r = R(al), lr = R(sp); if (r.top < lr.top - 0.5 || r.bottom > lr.bottom + 0.5 || r.right > lr.right + 0.5 || parseFloat(getComputedStyle(al).fontSize) < 9.5) fails.push(`the other sentences of character ${i + 1} do not fit their line`); } });
           }
         }
         if (mode === 'prep') {
@@ -272,6 +304,62 @@ function makeStory3Type({ id, slug, mode, i18n }) {
       });
     },
   };
+}
+
+/* ---------------------------------------------------------------- the item bank of the unit checks ---------------------------------------------------------------- */
+/** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the page's task made small, each card one
+ *  task with its answer in its markup, the part of the story it is answered from printed on it (the title and numbered
+ *  paragraphs at the page's own size), and the story's id as data-lcs-text (form B takes another story).
+ *   message (G3-504)  the ENDING of the story (the last paragraph: where every story of the bank says or shows what it
+ *                     teaches; the level-3 page asks how the ending teaches the message) and "What is the central message
+ *                     (the lesson) of the story? Circle the sentence." with the page's three sentences: its message, the
+ *                     message of another story and the sentence that takes the story too literally (data-lcs-correct).
+ *                     Where the page's other message is the right message of a story that gives a card too, the card
+ *                     takes the message of a story that gives none (CHECK_LURE; review en.review-1119-read: form B's
+ *                     wrong sentence was form A's right one).
+ *                     The whole story at the page's size is taller than a check takes; the three events that show the
+ *                     message need the whole story and stay out. A story whose ending alone does not teach its message
+ *                     gives no card (Stone Soup: the soup seems to come "all from a stone" until paragraph 3 shows the
+ *                     villagers adding what they had hidden away, and paragraphs 3 and 4 together are taller than a check
+ *                     takes: 399 px at the level-2 size, 369 px at the factory's smallest, the level-3 size).
+ *   traits (G3-506)   one character's trait: the paragraph that holds the sentence that shows it, the character's three
+ *                     words of the page's list (the trait and its two wrong words), and the page's line "The lion is ___"
+ *                     (data-lcs-answer). Copying the sentence that shows it has more than one fitting sentence in a
+ *                     paragraph and stays out. */
+const MESSAGE_NOT_FROM_ENDING = new Set(['stone-soup']);
+/** the other story's message a card takes where the page's is the right message of a story with a card: a moral of a
+ *  story that gives no card (Stone Soup) or of no story of the bank */
+const CHECK_LURE = { 'lion-and-mouse': 'When everyone shares a little, there is enough for all.', 'ant-and-grasshopper': 'Slow and steady wins the race.', 'crow-and-pitcher': 'Do not judge others by how they look.' };
+function story3CheckPage(mode, { difficulty, locale }, ctx) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`story-g3 check: the stories are English stories (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const { checkExcerpt } = _parts3;
+  const lv = Number(difficulty) || 2, d = LEVELS[mode][lv] || LEVELS[mode][2], rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+  const att = (s) => esc(s).replace(/"/g, '&quot;');
+  const LW = W - 52;
+  const ask = (q) => `<div data-lcs-checkq style="font:700 16px/1.3 'Nunito',sans-serif;color:${T.ink}">${q}</div>`;
+  const card = (t, inner) => `<div data-lcs-text="${att(t.id)}" style="display:flex;flex-direction:column;gap:5px;padding:0 4px">${inner}</div>`;
+  const cards = [];
+  for (const t of shuffle(STORIES, rng)) {
+    const pl = (who) => (t.pluralWho || []).includes(who);
+    if (mode === 'message' && !MESSAGE_NOT_FROM_ENDING.has(t.id)) {
+      const m = t.message, at = rng.int(0, 2), rights = new Set(STORIES.filter((o) => !MESSAGE_NOT_FROM_ENDING.has(o.id)).map((o) => o.message.right));
+      const lure = rights.has(m.lure) ? CHECK_LURE[t.id] : m.lure;
+      if (!lure || rights.has(lure) || lure === m.literal) throw new Error(`story-g3 check: no wrong message for ${t.id} that no other card has as its right one`);
+      cards.push(card(t, checkExcerpt(t, [t.parts.length - 1], { font: d.font, lh: d.lh, heads: false }) + ask('What is the central message (the lesson) of the story? Circle the sentence.') +
+        choices(placed(m.right, shuffle([lure, m.literal], rng), at), at, key, { column: true, font: 15.5 }).replace(' data-lcs-ok="1"', ' data-lcs-ok="1" data-lcs-correct="1"')));
+    }
+    if (mode === 'traits') for (const x of shuffle(t.traits, rng)) {     // (in a drawn order: the check keeps the first card it meets of each text)
+      const p = t.parts.findIndex((q) => q.sentences.includes(x.proof)), be = pl(x.who) ? 'are' : 'is';
+      const words = shuffle([x.trait, ...x.wrong], rng);
+      const list = `<div data-lcs-wordbank style="display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px;font:700 15.5px/1.2 'Nunito',sans-serif;color:${T.ink}"><span style="font-weight:800;color:${T.teal}">Words:</span>` +
+        words.map((w) => `<span data-lcs-bankword style="padding:2px 10px;border:2px solid ${T.ink};border-radius:999px;background:#FFFFFF">${esc(w)}</span>`).join('') + `</div>`;
+      const line = key ? rule({ w: LW - 230, h: d.rowH || 38, answer: x.trait }) : rule({ w: LW - 230, h: d.rowH || 38 }).replace('<div data-lcs-line', `<div data-lcs-line data-lcs-answer="${att(x.trait)}"`);
+      cards.push(card(t, checkExcerpt(t, [p], { font: d.font, lh: d.lh, heads: false }) + ask(`Which word from the list tells what <b>${esc(x.who)}</b> ${be} like${x.first ? ' at first' : ''}? Write it.`) + list +
+        `<div style="display:flex;align-items:flex-end;gap:8px"><span data-lcs-label style="flex:0 0 auto;white-space:nowrap;padding-bottom:3px;font:700 16px/1 'Nunito',sans-serif;color:${T.ink}">${x.first ? 'At first, ' + esc(x.who) : esc(cap(x.who))} ${be}</span><div style="flex:1 1 auto;min-width:0">${line}</div></div>`));
+    }
+  }
+  return { bodyHtml: _parts3.curly(`<div data-lcs-story3check="${mode}|${lv}"${key ? ' data-lcs-iskey="1"' : ''}>` + checkGrid(cards, { cols: 1 }) + `</div>`), meta: {} };
 }
 
 module.exports = { makeStory3Type, storyFaultsOf, STORIES, LEVELS };

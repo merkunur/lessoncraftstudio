@@ -73,6 +73,9 @@ const FAULTS = [
   ["bank: a diagram fact the diagram does not show", BANK, "\"The chrysalis comes before the butterfly.\"", "\"The butterfly comes before the chrysalis.\"", "G2-524", 1],
   ["bank: a step clause that holds the word before", BANK, "\"the dough rests and rises\"", "\"the dough rests and rises before noon\"", "G2-525", 1],
   ["bank: no sample of a sentence of the child's own", BANK, "\"ownSample\": \"The dough rises before the baker shapes a loaf.\"", "\"ownSample\": \"The dough rises.\"", "G2-525", 3],
+  // (review en.review-1119-read) a diagram question true only of the diagram must say so; the steps a why-question reads
+  ["bank: 'right after' a phase the diagram leaves gaps around", BANK, '"q": "In this diagram, which phase comes after the new moon?"', '"q": "Which phase comes right after the new moon?"', "G2-521", 2],
+  ["bank: the steps of a why-question out of order", BANK, '"steps": [\n     1,\n     2,\n     3\n    ]', '"steps": [\n     1,\n     3,\n     2\n    ]', "G2-522", 3],
 ];
 const ORIG = { [FACTORY]: fs.readFileSync(FACTORY, 'utf8'), [BANK]: fs.readFileSync(BANK, 'utf8') };
 let caught = 0;

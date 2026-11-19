@@ -99,4 +99,7 @@ module.exports = (FACTORY, BANK) => [
   ['the own sentence without its line "Open the page again. ..." (level 3)', FACTORY, 'label(`${num(k)}${LINES.own}`)', 'label(`${num(k)}Write a sentence of your own. Use two heart words from this page.`)', 'G3-518', 3],
   ["a straight apostrophe on the page (syllable's)", FACTORY, 'out += typo(text).replace(', 'out += text.replace(', 'G3-514', 1],
   ['a level-3 sort word ending in an e of another type (applesauce)', BANK, '"3": [\n    {\n     "w": "bubble",\n     "parts": [\n      "bub",\n      "ble"\n     ],\n     "marks": [\n      "C",\n      "L"\n     ]', '"3": [\n    {\n     "w": "applesauce",\n     "parts": [\n      "ap",\n      "ple",\n      "sauce"\n     ],\n     "marks": [\n      "C",\n      "L",\n      "V"\n     ]', 'G3-514', 3],
+  // review en-1119-lit (2026-11-19): a vowel-team syllable on level 2 of G3-514; every box of a heart word one width
+  ['level 2 of G3-514 with no vowel-team word (V of the legend never an answer)', FACTORY, "if (lv === 2 && m.filter((s) => s.includes('V')).length < 2) continue;", "if (lv === 2 && m.some((s) => s.includes('V'))) continue;", 'G3-514', 2],
+  ['heart boxes as wide as their letters on level 2 (the widths tell which box holds ough)', FACTORY, 'style="width:${d.uw ? wbox(g) : wordW(x)}px;', 'style="width:${wbox(g)}px;', 'G3-518', 2],
 ];

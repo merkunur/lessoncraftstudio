@@ -67,6 +67,40 @@ module.exports = {
     return { bodyHtml: cardGrid({ cards, cols: 2, rows: Math.ceil(d.cards / 2) }), meta: { times } };
   },
 
+  /**
+   * THE ITEM BANK of the unit checks (Part 7.6), 2026-11-19 (review en-1119-math of g2-measurement-time-money, part 5:
+   * "A card 2 is 12:30, a Grade 1 half hour … for 2:50 offer 3:50 as a foil"). The page's clocks, every one off the
+   * o'clock and the half hour, and wrong times that are the lesson's two errors instead of the page's "five minutes later":
+   * the number the minute hand points at read as the minutes (9:10 read 9:02), and after the half hour the next hour read
+   * from the hour hand (2:50 read 3:50); the third option is the clock read with its hands swapped. No wrong time is five
+   * minutes from the right one, so form B's wrong times are not form A's right ones five minutes on. Check only.
+   */
+  checkPage(o, ctx) {
+    const { checkGrid } = require('../../lib/check-page.js');
+    const rng = ctx.rng, cards = [], used = new Set();
+    const pad = (n) => String(n).padStart(2, '0');
+    for (let i = 0; i < 8; i++) {
+      let h, m, guard = 0;
+      do {
+        h = rng.int(1, 12);
+        m = i % 2 ? 5 * rng.int(7, 11) : 5 * rng.int(1, 5);    // after the half hour (:35-:55) and before it (:05-:25)
+        guard++;
+      } while (used.has(h + ':' + m) && guard < 60);
+      used.add(h + ':' + m);
+      const right = fmt(h, m);
+      const asNumber = `${h}:${pad(m / 5)}`;                                                     // the minute hand's number as minutes
+      const swapped = fmt(Math.max(1, Math.min(12, Math.round(m / 5))), (h % 12) * 5);
+      const wrongs = m > 30 ? [fmt((h % 12) + 1, m), asNumber] : [asNumber, swapped];
+      const opts = [right, ...wrongs.filter((w, k) => w !== right && wrongs.indexOf(w) === k)];
+      if (opts.length < 3) opts.push(swapped !== right && !opts.includes(swapped) ? swapped : `${h}:${pad(m / 5 + 1)}`);
+      const choices = rng.shuffle(opts).map((v) =>
+        `<span class="ws-chip" style="width:auto;min-width:84px;height:48px;font-size:22px;padding:0 14px;border-radius:24px" ` +
+        `data-lcs-choice="${v}"${v === right ? ' data-lcs-correct="1"' : ''}>${v}</span>`).join('');
+      cards.push(`<div class="ws-card-stage" style="flex-direction:column;gap:14px">` + clock({ h, m, size: 150 }).svg + `<div class="ws-choices">${choices}</div></div>`);
+    }
+    return { bodyHtml: checkGrid(cards, { cols: 2 }), meta: {} };
+  },
+
   async verify(page) {
     const ls = await LS.verify(page);
     if (ls.length) return ls;

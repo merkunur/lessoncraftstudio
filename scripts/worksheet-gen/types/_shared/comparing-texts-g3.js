@@ -935,6 +935,9 @@ function makeComparingTextsG3Type({ id, slug, mode, exerciseType, i18n }) {
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // the unit checks (Part 7.6): the page's task made small, one card a task (ctCheckPage below; the pages whose tasks
+    // need more text than a check card holds, or ask for the child's own words, give no check)
+    ...(CT_CHECK_MODES.has(mode) ? { checkPage(args, ctx) { return ctCheckPage(mode, args, ctx); } } : {}),
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the texts are English texts (no ${locale} bank)`);
@@ -1366,6 +1369,129 @@ function makeComparingTextsG3Type({ id, slug, mode, exerciseType, i18n }) {
       }, INFO);
     },
   };
+}
+
+/* ---------------------------------------------------------------- the item bank of the unit checks ---------------------------------------------------------------- */
+/** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the page's task made small, each card one
+ *  task of the page with its answer in its markup and the text it is answered from printed on it at the page's size; the
+ *  text's id is data-lcs-text (form B takes another text).
+ *   stage (G3-572)     one "In which stanza ...?" question of the page under its poem (title and the three stanzas side by
+ *                      side, as the page prints them, closer together), Stanza 1, 2 and 3 to circle (data-lcs-correct); a
+ *                      poem whose stanzas side by side are wider than the card gives no card (a box cut off at its edge is
+ *                      refused by the check: the stage page had no part). The play of the page
+ *                      with its two scenes and the two "build" answers (sentence frames in the child's own words) stay out.
+ *   literal (G3-576)   one sentence of the page with its bold phrase (literal or nonliteral), the box for L or N and the
+ *                      line "It means:" (both data-lcs-answer; the key's meaning is a sample, as on the page); the card says
+ *                      L or N in data-lcs-use, so a part takes one of each (lists: kindAttr use, mixKinds).
+ *   teller (G3-574)    one "Who thinks this?" sentence of the page under the whole story (title and three numbered
+ *                      paragraphs, as the page prints it) and the two characters' names to circle, in an order drawn for
+ *                      each card. Only the stories told by an "I" narrator (the lesson's point: both forms of one kind). "Who is telling the
+ *                      story?" with its rule and three answers makes the card taller than a check takes (334 to 376 px)
+ *                      and stays out, and so does the child's own view (any idea with a reason is right).
+ *   storysort (G3-577) the two stories side by side (title, two paragraphs each) and three sentences of the page in one
+ *                      row, to circle the one that is true of both stories (the part's instruction asks it): a story-level
+ *                      likeness (the characters, the setting, what one does for the other), a sentence of only Story 1 and
+ *                      one of only Story 2, in a drawn place (review en.review-1119-read: RL.3.9 compares; a card that
+ *                      asked where ONE detail is stood below it, and its right answer stood first).
+ *   textsort (G3-579)  one fact of the page and the two texts side by side, Only Text 1, Both texts or Only Text 2 to circle
+ *                      (the page's diagram has these three parts; a fact in neither text stays out: the card has no box to
+ *                      cross it out in). The card says whether the fact is in both texts or in one (data-lcs-where), so a
+ *                      part takes one of each (lists: kindAttr where, mixKinds; review en.review-1119-read: the first
+ *                      option was right in every form). Only the pairs whose texts fit a card (twelve lines a column at the
+ *                      most).
+ *   textchart (G3-580) "What is the most important point of Text 1 (2)?" under that text alone, with its point and two
+ *                      details of the same text to circle (the page's level-1 question; the level-2 chart writes the point
+ *                      in the child's own words); over the cards the point is the longest of its three, the middle or the
+ *                      shortest about equally often. The detail both texts give needs both texts and stays out.
+ *  A card is at most 330 px high: a task whose text does not fit (the teller of a point-of-view story, a story in
+ *  chapters, the play of the stage page) gives no card. */
+const CT_CHECK_MODES = new Set(['stage', 'teller', 'literal', 'storysort', 'textsort', 'textchart']);
+function ctCheckPage(mode, { difficulty, locale }, ctx) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`comparing-texts-g3 check: the texts are English texts (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const lv = Number(difficulty) || 2, d = LEVELS[mode][lv] || LEVELS[mode][2], rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+  const inner = W - 52;
+  const ok = (html) => html.replace(' data-lcs-ok="1"', ' data-lcs-ok="1" data-lcs-correct="1"');
+  const ask = (text) => `<div data-lcs-checkq data-lcs-read style="font:700 16px/1.28 'Nunito',sans-serif;color:${T.ink}">${esc(text)}</div>`;
+  const holder = (id, inner2) => `<div data-lcs-text="${esc(id)}" style="display:flex;flex-direction:column;gap:5px;padding:0 4px">${inner2}</div>`;
+  const pillRow = (opts, right, column) => ok(`<div data-lcs-opts style="display:flex;${column ? 'flex-direction:column;align-items:flex-start;gap:2px' : 'flex-wrap:wrap;gap:4px 8px'};padding-left:16px">${opts.map((o) => pill(o, o === right, key, 15.5)).join('')}</div>`);
+  // two texts side by side (the story pairs and the text pairs), each under its head and title, at the page's size
+  const twoCols = (heads, texts, font) => `<div data-lcs-twocols style="display:grid;grid-template-columns:1fr 1fr;column-gap:8px">` +
+    texts.map((x, i) => `<div data-lcs-col="${i + 1}" style="display:flex;flex-direction:column;gap:2px;min-width:0"><div style="display:flex;flex-wrap:wrap;align-items:baseline;justify-content:center;column-gap:8px"><div data-lcs-colhead data-lcs-read style="font:800 14.5px/1.1 'Nunito',sans-serif;color:${T.teal}">${esc(heads[i])}</div>${title(x.title, 17)}</div>` +
+      white(x.paras.map((pp) => para(pp, font, 1.27).replace('text-indent:18px;', 'text-indent:12px;')).join(''), 'data-lcs-paras', 'gap:3px;padding:3px 7px;flex:1 1 auto;border:2px solid ' + T.creamDeep) + `</div>`).join('') + `</div>`;
+  // the sentence to sort and its three answers in one row, as the page prints its rows
+  const sortRow = (text, opts, right) => `<div data-lcs-sortrow style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:3px 10px"><div data-lcs-checkq data-lcs-read style="flex:1 1 260px;font:700 16px/1.28 'Nunito',sans-serif;color:${T.ink}">${esc(text)}</div>` +
+    ok(`<div data-lcs-opts style="flex:0 0 auto;display:flex;gap:6px">${opts.map((o) => pill(o, o === right, key, 15.5)).join('')}</div>`) + `</div>`;
+  const cards = [];
+  if (mode === 'stage') for (const poem of shuffle(BANK.poems, rng)) {
+    const stanzas = `<div data-lcs-poemcard style="display:flex;flex-direction:column;gap:3px;padding:5px 0;border-radius:14px;background:${T.cream}">${title(poem.title, 18)}<div data-lcs-stanzas style="display:flex;justify-content:space-evenly;gap:2px">` +
+      poem.stanzas.map((st, i) => white(st.map((l) => `<div data-lcs-pline data-lcs-read style="font:600 ${d.font}px/1.3 'Nunito',sans-serif;white-space:nowrap;color:${T.ink}">${esc(l)}</div>`).join(''), `data-lcs-stanza="${i + 1}"`, 'flex:0 0 auto;gap:0;padding:4px 6px')).join('') + `</div></div>`;
+    // the widest line of each stanza (the page's own letter widths) and 13 px of its box, three side by side with their
+    // gaps in the card, 639 px inside (W - 36), 4 px to spare: measured 2026-11-19, a stanza box is its widest line and 31
+    // to 39 px; Moving (650) is cut off by 3 px, Puddle and Night Sounds (634) keep 7 and 9 px
+    const wide = poem.stanzas.reduce((n, st) => n + Math.max(...st.map((l) => [...l].reduce((w, ch) => w + (NW[ch.replace(/[‘’]/, "'")] || 56), 0) * d.font / 100)) + 13, 0) + 2 * 2;
+    if (wide > W - 36 - 4) continue;
+    // (in a drawn order: the check keeps the first card it meets of each text)
+    for (const q of shuffle(poem.where, rng)) cards.push(holder(poem.id, stanzas + ask(q.q) + pillRow(['Stanza 1', 'Stanza 2', 'Stanza 3'], 'Stanza ' + q.a, false)));
+  }
+  if (mode === 'teller') for (const s of shuffle(BANK.pov.filter((x) => x.person === 'first'), rng)) {
+    const story = `<div data-lcs-povstory style="display:flex;flex-direction:column;gap:2px;padding:4px 8px 6px;border-radius:14px;background:${T.cream}">${title(s.title, 18)}` +
+      white(s.paras.map((pp, i) => para(pp, d.font, d.lh || 1.36, i + 1)).join(''), 'data-lcs-paras', 'gap:3px;padding:4px 10px') + `</div>`;
+    // (in a drawn order: the check keeps the first card it meets of each text)
+    for (const th of shuffle(s.thinks, rng)) cards.push(holder(s.id, story + ask(LINES.thinks) + sortRow(th.s, rng.int(0, 1) ? s.chars.slice().reverse() : s.chars, s.chars[th.who])));
+  }
+  if (mode === 'literal') for (const p of shuffle(BANK.phrases, rng)) {
+    for (const use of shuffle(p.lit ? ['L', 'N'] : ['N'], rng)) {
+      const text = use === 'N' ? p.non : p.lit, mean = use === 'N' ? p.nonMean : p.litMean;
+      const at = text.toLowerCase().indexOf(p.p.toLowerCase());
+      const sent = esc(text.slice(0, at)) + `<b data-lcs-phrase style="font-weight:900">${esc(text.slice(at, at + p.p.length))}</b>` + esc(text.slice(at + p.p.length));
+      const box = boxMark(use, key).replace('<span data-lcs-markbox', `<span data-lcs-answer="${use}" data-lcs-markbox`);
+      const w = inner - MARKBOX - 10 - 80 - 12;
+      const line = key ? rule({ w, answer: mean, sample: true }) : rule({ w }).replace('<div data-lcs-line', `<div data-lcs-line data-lcs-answer="${esc(mean)}"`);
+      cards.push(holder(p.id, ask(LINES.lit2) + `<div data-lcs-sent data-lcs-use="${use}" data-lcs-read style="padding:4px 10px;border-radius:10px;background:#FFFFFF;font:600 ${d.font}px/1.3 'Nunito',sans-serif;color:${T.ink}">${sent}</div>` +
+        `<div style="display:flex;align-items:flex-end;gap:10px;padding-left:10px">${box}<span data-lcs-read style="flex:0 0 auto;padding-bottom:5px;font:700 16px/1 'Nunito',sans-serif;color:${T.ink}">${esc(LINES.means)}</span><div style="flex:1 1 auto;min-width:0">${line}</div></div>`));
+    }
+  }
+  // a wrong pair for a sentence true of both stories: one sentence of only the first story, one of only the second, the
+  // three in ONE row (a second row made the card taller than a check takes: 341 to 361 px; a pill is 1.06 times its letters
+  // at the page's widths and 26 px wide more, measured 2026-11-19, the row 623 px with its gaps), so that over the cards
+  // the right one is the longest, the middle or the shortest of the three about equally often; none fits: no card
+  const pillW = (t) => 1.06 * [...t].reduce((w, ch) => w + (NW[ch.replace(/[‘’]/, "'")] || 56), 0) * 15.5 / 100 + 26;
+  const bothWrong = (set, x) => {
+    const by = { L: [], M: [], S: [] };
+    for (const o of set.facts.filter((y) => y.a === 1)) for (const w of set.facts.filter((y) => y.a === 2)) if (pillW(x.s) + pillW(o.s) + pillW(w.s) + 16 <= 600) by[lengthRole(x.s, [x.s, o.s, w.s])].push([o.s, w.s]);
+    const roles = ['L', 'M', 'S'].filter((r) => by[r].length);
+    if (!roles.length) return null;
+    const r = roles[rng.int(0, roles.length - 1)];
+    return by[r][rng.int(0, by[r].length - 1)];
+  };
+  // (the question is the part's instruction, as the sorting row of the page had none: a line of its own made the card taller
+  // than a check takes, 393 to 413 px)
+  const bothCard = (set, cols, x) => { const wrong = bothWrong(set, x); if (wrong) cards.push(holder(set.id, cols + `<div data-lcs-bothq>` + pillRow(placed(x.s, wrong, rng.int(0, 2), rng), x.s, false) + `</div>`)); };
+  if (mode === 'storysort') for (const s of shuffle(BANK.series, rng)) {
+    const both = twoCols(['Story 1', 'Story 2'], s.stories, 15.5);
+    for (const x of shuffle(s.facts.filter((y) => y.a === 'both'), rng)) bothCard(s, both, x);     // (in a drawn order: the check keeps the first card it meets of each text)
+  }
+  if (mode === 'textsort') for (const t of shuffle(BANK.topics, rng)) {
+    // two texts of more than twelve lines in a column (15.5 px, 289 px: the page's own estimate) make a card taller than
+    // 330 px (measured 2026-11-19: 350 to 364 px for bees, frogs, moon and turtles); such a pair gives no card
+    if (Math.max(...t.texts.map((x) => x.paras.reduce((n, pp) => n + wrapLines(pp, 15.5, 289, 12), 0))) > 12) continue;
+    const both = twoCols(['Text 1', 'Text 2'], t.texts, 15.5);
+    // (in a drawn order: the check keeps the first card it meets of each text)
+    for (const x of shuffle(t.facts, rng)) cards.push(holder(t.id, both + sortRow(x.s, REGION, REGION[[1, 'both', 2].indexOf(x.a)]).replace('<div data-lcs-sortrow', `<div data-lcs-where="${x.a === 'both' ? 'both' : 'only'}" data-lcs-sortrow`)));
+  }
+  if (mode === 'textchart') for (const t of shuffle(BANK.topics, rng)) {
+    [0, 1].forEach((i) => {
+      const m = t.main[i], pool = t.dets[i], pairs = { L: [], M: [], S: [] };
+      for (let a = 0; a < pool.length; a++) for (let c = a + 1; c < pool.length; c++) pairs[lengthRole(m, [m, pool[a], pool[c]])].push([pool[a], pool[c]]);
+      const roles = ['L', 'M', 'S'].filter((r) => pairs[r].length), role = roles[rng.int(0, roles.length - 1)];
+      const wrong = pairs[role][rng.int(0, pairs[role].length - 1)], at = rng.int(0, 2), x = t.texts[i];
+      const textBox = `<div data-lcs-onetext style="display:flex;flex-direction:column;gap:2px;padding:4px 8px 6px;border-radius:14px;background:${T.cream}"><div style="display:flex;flex-wrap:wrap;align-items:baseline;justify-content:center;column-gap:8px"><div data-lcs-colhead data-lcs-read style="font:800 14.5px/1.1 'Nunito',sans-serif;color:${T.teal}">Text ${i + 1}</div>${title(x.title, 17)}</div>` +
+        white(x.paras.map((pp) => para(pp, d.font, 1.32)).join(''), 'data-lcs-paras', 'gap:3px;padding:4px 8px') + `</div>`;
+      cards.push(holder(t.id + '|' + (i + 1), textBox + ask(i ? LINES.main2 : LINES.main1) + pillRow(placed(m, wrong, at, rng), m, true)));
+    });
+  }
+  return { bodyHtml: STYLE + `<div data-lcs-ctcheck="${mode}|${lv}" data-lcs-noliga="on"${key ? ' data-lcs-iskey="1"' : ''} style="${LIGS}">` + fRoom(checkGrid(cards, { cols: 1 })) + `</div>`, meta: {} };
 }
 
 module.exports = { makeComparingTextsG3Type, faultsOf, drawPage, LEVELS, INSTR, LINES, NOTE, FRAME, MODES, OUTSIDE, HOW, ownFull, howSample, KEYONLY };

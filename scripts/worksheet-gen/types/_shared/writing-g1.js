@@ -883,6 +883,11 @@ function makeWritingG1Type({ id, slug, mode, exerciseType, i18n }) {
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // the unit check (Part 7.6): the day-1 page's task made small, one card a task (g1CheckPage below); the pages of the
+    // child's own writing give the check its writing task (g1CheckWrite)
+    ...(G1_CHECK_MODES.includes(mode) ? { checkPage(args, ctx) { return g1CheckPage(mode, args, ctx); } } : {}),
+    ...(G1_WRITE_MODES.includes(mode) ? { checkWrite(args, ctx) { return g1CheckWrite(mode, args, ctx); } } : {}),
+
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the pieces are English pieces (no ${locale} bank)`);
@@ -1360,5 +1365,92 @@ function verifyPage(S, I) {
 
 /* the bank is checked when the factory loads (after every helper a page is built with) */
 { const f = faultsOf(BANK); if (f.length) throw new Error('writing-g1.en.json: ' + f.join('; ')); }
+
+/* ------------------------------------------------------------------ the unit check (Part 7.6) */
+/**
+ * g1CheckPage — the cards a unit check cuts from a day-1 page (PART-7-DESIGN.md 7.6): every item of the bank as a card of its
+ * own, at the level the lesson hands out, built from the page's own bank and rules (no new task):
+ *   storyplan  G1-616  the title of a true story and its three events in mixed order (never in order, never backward), the
+ *                      story itself not printed (so the order is found, not copied): write 1, 2, 3
+ *   opread     G1-618  an opinion of the page and three reasons: its own and a reason of each of two topics of other kinds
+ *                      that the bank does not let stand with it (fitsAlso): circle the reason that tells why
+ *   factread   G1-620  a fact file (the picture and its three facts) and the endings of the level (the closing, the file's own
+ *                      fact with !, a fact of another topic): circle the closing
+ *   edit       G1-622  one sentence of an edit piece with ONE planted mistake of the level (a small letter at the start, a
+ *                      missing period on a sentence that cannot take !, a small i): fix it above the word or at the end
+ * A card names its item (data-lcs-text) so that form B asks other ones than form A; an edit card names its mistake
+ * (data-lcs-fault) so that both forms ask the same kinds.
+ */
+const G1_CHECK_MODES = ['storyplan', 'opread', 'factread', 'edit'];
+const G1_WRITE_MODES = ['storydraft', 'opwrite', 'factwrite'];
+function g1CheckPage(mode, { difficulty, locale }, ctx) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`writing-g1 check: the pieces are English pieces (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const lv = Number(difficulty) || 2, rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+  const shell = (id, inner, more = '') => `<div data-lcs-text="${A(id)}"${more} style="display:flex;align-items:center;gap:14px;padding:4px 10px;border-radius:12px;background:#FFFFFF">${inner}</div>`;
+  const col = (inner, gap = 4) => `<div style="flex:1 1 auto;min-width:0;display:flex;flex-direction:column;gap:${gap}px">${inner}</div>`;
+  const opt = (t, ok, attrs = '') => `<div ${attrs}${ok ? ' data-lcs-correct="1"' : ''} style="display:flex"><span style="padding:0 8px;border:2.5px solid ${key && ok ? T.teal : 'transparent'};border-radius:999px;font:700 ${OPT - 1}px/1.2 'Nunito',sans-serif;color:${T.ink}">${esc(t)}</span></div>`;
+  const numBox = (n) => `<span data-lcs-answer="${n}" style="box-sizing:border-box;flex:0 0 38px;width:38px;height:36px;display:flex;align-items:center;justify-content:center;border:2.5px solid ${T.ink};border-radius:8px;background:#FFFFFF;font:800 23px/1 'Nunito',sans-serif;color:${T.teal}">${key ? n : ''}</span>`;
+  const cards = [];
+  if (mode === 'storyplan') for (const s of shuffle(BANK.story.stories, rng)) {
+    let o = null; for (let k = 0; k < 50 && !o; k++) { const p = shuffle([0, 1, 2], rng); if (p.join() !== '0,1,2' && p.join() !== '2,1,0') o = p; }
+    const rows = o.map((k) => `<div style="display:flex;align-items:center;gap:12px">${numBox(k + 1)}<span style="font:700 ${READ - 1}px/1.2 'Nunito',sans-serif;color:${T.ink}">${esc(cap(s.e[k]) + '.')}</span></div>`).join('');
+    // (writing review 1119: the story is NOT printed above its events, or numbering them is copying: the title, then the
+    //  three events in a mixed order, each without its time word)
+    cards.push(shell(s.key, col(`<div style="font:700 20px/1.2 'Baloo 2',cursive;color:${T.teal}">${esc(s.title)}</div><div style="display:flex;flex-direction:column;gap:3px">${rows}</div>`)));
+  }
+  if (mode === 'opread') {
+    const d = LEVELS.opread[lv], TS = BANK.opinion.topics;
+    for (const t of shuffle(TS, rng)) {
+      const r = rng.int(0, 1);
+      // two reasons of topics of other kinds (and of each other's): the bank lets neither stand with this opinion
+      const others = [];
+      for (const u of shuffle(TS, rng)) {
+        if (others.length === 2) break;
+        if (u.y === t.y || others.some((x) => x.u.y === u.y)) continue;
+        const ur = shuffle([0, 1], rng).find((x) => !fitsAlso(u, x, t));
+        if (ur !== undefined) others.push({ u, t: u.rs[ur] });
+      }
+      if (others.length < 2) continue;
+      const opts = shuffle(others.map((x) => ({ t: x.t })), rng); opts.splice(rng.int(0, 2), 0, { t: t.rs[r], ok: true });
+      const op = d.think ? `I think ${t.x} are the best ${t.y}.` : t.op3;
+      cards.push(shell(t.key, col(`<div style="align-self:flex-start;padding:1px 12px;border:2.5px solid ${T.creamDeep};border-radius:10px;font:800 ${READ}px/1.25 'Nunito',sans-serif;color:${T.ink}">${esc(op)}</div><div data-lcs-ckopts style="display:flex;flex-direction:column;gap:2px">${opts.map((x) => opt(x.t, x.ok)).join('')}</div>`, 3)));
+    }
+  }
+  if (mode === 'factread') {
+    const d = LEVELS.factread[lv], all = BANK.facts.day1;
+    for (const t of shuffle(all, rng)) {
+      const other = shuffle(all.filter((x) => x !== t), rng)[0];
+      const ends = shuffle([{ kind: 'close', t: t.closing }, { kind: 'fact', t: d.bang ? t.bang.replace(/\.$/, '!') : t.bang }, ...(d.ends === 3 ? [{ kind: 'off', t: other.file[rng.int(0, 2)] }] : [])], rng);
+      cards.push(shell(t.key, col(`<div data-lcs-ckfile style="display:flex;gap:12px;align-items:center;padding:2px 12px;border:2.5px solid ${T.teal};border-radius:12px">${img(t.pic, 64, t.key)}<div>${t.file.map((x) => `<div style="font:700 ${READ - 1}px/1.25 'Nunito',sans-serif;color:${T.ink}">• ${esc(x)}</div>`).join('')}</div></div><div data-lcs-ckopts style="display:flex;flex-direction:column;gap:2px">${ends.map((e) => opt(e.t, e.kind === 'close', `data-lcs-end="${e.kind}"`)).join('')}</div>`, 3)));
+    }
+  }
+  if (mode === 'edit') {
+    const kinds = LEVELS.edit[lv].faults.filter((k) => k !== 'name');
+    const over = (ch) => (key ? `<span style="position:absolute;left:-1px;top:-0.95em;font:800 ${MARKPX}px/1 'Nunito',sans-serif;color:${T.teal}">${ch}</span>` : '');
+    for (const p of shuffle(BANK.edit.pieces, rng)) for (const x of shuffle(p.s, rng)) {
+      const t = x.t, can = kinds.filter((k) => (k === 'cap' ? x.cap : k === 'end' ? x.end && !x.bang : k === 'i' ? x.i && t.includes(' I ') : false));
+      if (!can.length) continue;
+      const k = can[rng.int(0, can.length - 1)];
+      let h;
+      if (k === 'cap') h = `<span data-lcs-answer="${t[0]}" style="position:relative">${t[0].toLowerCase()}${over(t[0])}</span>${esc(t.slice(1))}`;
+      else if (k === 'i') { const j = t.indexOf(' I '); h = `${esc(t.slice(0, j + 1))}<span data-lcs-answer="I" style="position:relative">i${over('I')}</span>${esc(t.slice(j + 2))}`; }
+      else h = esc(t.replace(/\.$/, '')) + `<span data-lcs-answer="." style="display:inline-block;min-width:14px;height:1em">${key ? `<span style="font:800 ${ENDPX}px/0 'Nunito',sans-serif;color:${T.teal}">.</span>` : ''}</span>`;
+      cards.push(shell(t, `<div style="padding-top:${PARATOP}px;font:700 22px/2.2 'Nunito',sans-serif;color:${T.ink}">${h}</div>`, ` data-lcs-fault="${k}"`));
+    }
+  }
+  if (!cards.length) throw new Error('writing-g1 check: no cards for ' + mode);
+  return { bodyHtml: STYLE + `<div data-lcs-wg1check="${mode}|${lv}" data-lcs-noliga="${1}"${key ? ' data-lcs-iskey="1"' : ''} style="${LIGS}">` + fRoom(typo(checkGrid(cards, { cols: 1 }))) + `</div>`, meta: {} };
+}
+/** g1CheckWrite — the writing task of the unit check: every prompt the child's own page of the mode offers at the level, in
+ *  the bank's own words (the direction is the rubric's): the true-story ideas, the opinion questions, the fact topics */
+function g1CheckWrite(mode, { difficulty, locale }) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`writing-g1 check: the prompts are English (no ${locale} bank)`);
+  const lv = Number(difficulty) || 2;
+  if (mode === 'storydraft') return { tasks: BANK.story.prompts.map((p) => ({ id: 'story:' + p.key, prompt: p.text })) };
+  if (mode === 'opwrite') return { tasks: BANK.opinion.prompts.filter((x) => LEVELS.opwrite[lv].help !== 'open' || x.open !== false).map((p) => ({ id: 'opinion:' + p.key, prompt: p.q })) };
+  if (mode === 'factwrite') return { tasks: lv === 3 ? BANK.facts.own.map((t) => ({ id: 'facts:' + t.key, prompt: t.noun })) : BANK.facts.day2.map((t) => ({ id: 'facts:' + t.key, prompt: t.noun, picture: { theme: t.pic[0], file: t.pic[1] } })) };
+  throw new Error('writing-g1: no writing task for ' + mode);
+}
 
 module.exports = { makeWritingG1Type, faultsOf, plan, LEVELS, INSTR, LINES, SPEC, place, planParts, draftParts, opParts, factParts, labelParts, partnerParts, detailPart, fitsRule, storyText, draftModel, opModel, factModel, modelLines };

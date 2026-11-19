@@ -277,6 +277,8 @@ function makeSentencesKType({ id, slug, mode, exerciseType, i18n }) {
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // THE ITEM BANK of the unit checks (Part 7.6): K-658, K-660, K-656, K-657 (skCheckPage below)
+    ...(SK_CHECK_MODES.has(mode) ? { checkPage(args, ctx) { return skCheckPage(mode, args, ctx); } } : {}),
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the words and sentences are English (no ${locale} bank)`);
@@ -873,6 +875,94 @@ function makeSentencesKType({ id, slug, mode, exerciseType, i18n }) {
       }, { SIZES: LEVELS, CUES: Object.fromEntries(Object.entries(LG.cues).map(([k, c]) => [k, c.add])), ASKRE: ASK.source, SHOWN: BANK.find.shownIn, GLUE });
     },
   };
+}
+
+/* ---------------------------------------------------------------- the item bank of the unit checks ---------------------------------------------------------------- */
+/** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the page's task made small, each card one
+ *  task with its answer in its markup. The key marks every answer in the check's one answer colour (orange: the check
+ *  outlines a choice itself, writes a letter into its box, and these cards draw nothing in teal; review en-1119-lit, a
+ *  teal ring nearly vanishes on a grey copy).
+ *   find   (K-658)  a row of three printed words (level 2): one action word and two naming words of the bank, the action
+ *                   word's place drawn as the page draws it (placesFor); it carries data-lcs-correct.
+ *   pair   (K-660)  a sentence printed twice, one above the other, once with its capital and once with a small first
+ *                   letter, and the box for the capital (levels 2 and 3; level 1 has no box). ONE sentence for each first
+ *                   letter the level can print small, and each sentence always stands the same way up (the sentences in
+ *                   the order of their letters take the top and the bottom in turn): a form never asks one capital twice
+ *                   and never repeats a sentence in another order, and data-lcs-ckind (top / bottom) lets the check give
+ *                   each form one of each (review en-1119-lit: the capitalized sentence was the lower one in every card).
+ *   marks  (K-656)  one sentence of the level without its end mark, its picture, and the box for the mark (data-lcs-answer: a
+ *                   period or a question mark); data-lcs-ckind (tell / ask), so that each form asks one of each (review
+ *                   en-1119-lit: both sentences of form A asked, and ? twice scored every point).
+ *   longer (K-657)  one picture with its sign of where or when, its short sentence, the three add-ons of the page (the one
+ *                   the picture shows carries data-lcs-correct) and the row to write it on (data-lcs-answer). */
+const SK_CHECK_MODES = new Set(['find', 'pair', 'marks', 'longer']);
+const SK_ORANGE = '#C9552E';
+function skCheckPage(mode, { difficulty, locale }, ctx) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`sentences-k check: the words and sentences are English (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const { seatOnRow } = require('../../lib/key-on-row.js');
+  const lv = Number(difficulty) || 2, d = LEVELS[mode][lv] || LEVELS[mode][2], rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+  const cards = [];
+  if (mode === 'find') {
+    const FD = BANK.find, N = 7, F = LEVELS.find[2].font;
+    const acts = shuffle(FD.actWords, rng).slice(0, N), names = shuffle(FD.nameWords, rng).slice(0, 2 * N), at = placesFor(N, rng);
+    acts.forEach((a, i) => {
+      const list = placed({ w: a, ok: true }, [{ w: names[2 * i] }, { w: names[2 * i + 1] }], at[i]);
+      cards.push(`<div data-lcs-skcheck="find" style="display:flex;justify-content:space-around;align-items:center;padding:10px 12px">` +
+        list.map((c) => `<span data-lcs-choice="${esc(c.w)}"${c.ok ? ' data-lcs-correct="1"' : ''} style="flex:0 0 auto;padding:2px 14px;font:800 ${F}px/1.15 'Nunito',sans-serif;color:${T.ink}">${esc(c.w)}</span>`).join('') + `</div>`);
+    });
+  }
+  if (mode === 'pair') {
+    // one sentence for each first letter (the bank's first one), in the order of the letters; top and bottom in turn
+    const byLetter = new Map();
+    for (const s of CP[d.set].filter(canLower)) if (!byLetter.has(s[0])) byLetter.set(s[0], s);
+    const ss = [...byLetter.keys()].sort().map((l, i) => ({ s: byLetter.get(l), top: i % 2 === 0 }));
+    if (ss.length < 4) throw new Error('sentences-k check: fewer than four first letters');
+    const small = (s) => s[0].toLowerCase() + s.slice(1);
+    const option = (text, ok) => `<span data-lcs-choice="${esc(text)}"${ok ? ' data-lcs-correct="1"' : ''} style="flex:0 0 auto;white-space:nowrap;padding:4px 16px;border-radius:18px;background:#FFFFFF;font:700 ${d.font}px/1.15 'Nunito',sans-serif;color:${T.ink}">${esc(text)}</span>`;
+    for (const x of shuffle(ss, rng)) {
+      const two = x.top ? [option(x.s, true), option(small(x.s), false)] : [option(small(x.s), false), option(x.s, true)];
+      cards.push(`<div data-lcs-skcheck="pair" data-lcs-ckind="${x.top ? 'top' : 'bottom'}" data-lcs-text="${esc(x.s)}" style="display:flex;align-items:center;justify-content:center;gap:24px;padding:8px 12px">` +
+        `<div data-lcs-options style="display:flex;flex-direction:column;align-items:flex-start;gap:8px">${two.join('')}</div>` +
+        (lv >= 2 ? oneBox(`data-lcs-capwrite data-lcs-answer="${x.s[0]}"`, 72, '') : '') + `</div>`);
+    }
+  }
+  if (mode === 'marks') {
+    // four telling and four asking sentences of the level's set, each with its own picture; the box is empty on the key too
+    // (the check writes the mark into it)
+    const pool = MK[d.set], used = new Set(), rows = [];
+    for (const kd of ['tell', 'ask']) for (const s of shuffle(pool.filter((x) => x.kind === kd), rng)) { if (rows.filter((x) => x.kind === kd).length === 4) break; if (used.has(s.pic)) continue; used.add(s.pic); rows.push(s); }
+    for (const s of shuffle(rows, rng)) cards.push(`<div data-lcs-skcheck="marks" data-lcs-ckind="${s.kind}" data-lcs-text="${esc(s.text)}" style="display:flex;align-items:center;justify-content:center;gap:14px;padding:6px 12px">` +
+      img(s.pic, d.pic) + `<span style="font:700 ${d.font}px/1.25 'Nunito',sans-serif;color:${T.ink}">${esc(s.text)}</span>` +
+      oneBox(`data-lcs-markbox data-lcs-answer="${s.kind === 'ask' ? '?' : '.'}"`, 72, '') + `</div>`);
+  }
+  if (mode === 'longer') {
+    const D2 = LEVELS.longer[2], N = 6, used = new Set(), its = [];
+    const cueOrder = shuffle(Object.keys(LG.cues), rng);
+    for (const it of shuffle(LG.items, rng)) {
+      if (its.length === N) break;
+      if (used.has(it.pic)) continue;
+      // the signs spread over the cards: the least used sign the picture can show
+      const c = it.cues.slice().sort((a, b) => its.filter((x) => x.cue === a).length - its.filter((x) => x.cue === b).length || cueOrder.indexOf(a) - cueOrder.indexOf(b))[0];
+      used.add(it.pic); its.push({ x: it, cue: c });
+    }
+    const at = placesFor(its.length, rng), rw = 300;
+    its.forEach((it, i) => {
+      const add = LG.cues[it.cue].add;
+      const wrong = Object.keys(LG.cues).filter((k) => k !== it.cue);
+      const choices = placed(add, shuffle(wrong, rng).slice(0, 2).map((c) => LG.cues[c].add), at[i]);
+      const scene = `<div data-lcs-scene="${it.x.pic}|${it.cue}" style="position:relative;flex:0 0 auto;width:${D2.pic + D2.cue + 6}px;height:${D2.pic + 4}px">` +
+        `<img class="ws-icon" data-lcs-pic="${it.x.pic}" src="${fileUri(P[it.x.pic][0], P[it.x.pic][1])}" alt="" style="position:absolute;left:0;bottom:0;width:${D2.pic}px;height:${D2.pic}px;object-fit:contain">` +
+        `<img class="ws-icon" data-lcs-cue="${it.cue}" src="${fileUri(P[LG.cues[it.cue].pic][0], P[LG.cues[it.cue].pic][1])}" alt="" style="position:absolute;right:0;top:0;width:${D2.cue}px;height:${D2.cue}px;object-fit:contain"></div>`;
+      const row = key ? seatOnRow(rowSvg(rw, D2.rowH), add, { fill: SK_ORANGE }) : rowSvg(rw, D2.rowH);
+      cards.push(`<div data-lcs-skcheck="longer" style="display:flex;align-items:center;justify-content:center;gap:16px;padding:6px 10px">` +
+        `<div style="flex:0 0 auto;display:flex;flex-direction:column;align-items:center;gap:4px">${scene}<span style="white-space:nowrap;font:700 ${D2.font}px/1.2 'Nunito',sans-serif;color:${T.ink}">${esc(it.x.text)}</span></div>` +
+        `<div style="flex:0 0 auto;display:flex;flex-direction:column;gap:4px"><div data-lcs-choices style="display:flex;justify-content:space-between;gap:6px">` +
+        choices.map((c) => `<span data-lcs-choice="${esc(c)}"${c === add ? ' data-lcs-correct="1"' : ''} style="flex:0 0 auto;white-space:nowrap;padding:3px 10px;border-radius:999px;background:#FFFFFF;font:800 ${D2.chip}px/1.2 'Nunito',sans-serif;color:${T.ink}">${esc(c)}</span>`).join('') +
+        `</div><div data-lcs-answer="${esc(add)}" style="line-height:0">${row}</div></div></div>`);
+    });
+  }
+  return { bodyHtml: `<style>[data-lcs-noliga] * {font-variant-ligatures:none !important;font-feature-settings:"liga" 0,"clig" 0 !important}</style><div data-lcs-noliga="1">` + checkGrid(cards, { cols: 1 }) + `</div>`, meta: {} };
 }
 
 module.exports = { makeSentencesKType, faultsOf, LEVELS, ASK, READ_WORDS, FIND_WORDS };

@@ -1412,8 +1412,8 @@
       "noun": "corn"
      },
      {
-      "theme": "spring",
-      "noun": "nest"
+      "theme": "At the Supermarket",
+      "noun": "egg"
      }
     ]
    },
@@ -2586,7 +2586,9 @@
       "The dam holds back the water and makes a pond.",
       "In the pond the beavers build their home, called a lodge.",
       "The door of the lodge is under the water."
-     ]
+     ],
+     "narrow": "what a beaver's home is called",
+     "near": 2
     },
     {
      "heading": "Teeth That Keep Growing",
@@ -2597,7 +2599,9 @@
       "They never stop growing.",
       "Chewing on wood wears them down, so they stay the right length.",
       "With these teeth a beaver can gnaw through a small tree in a short time."
-     ]
+     ],
+     "narrow": "what color a beaver's teeth are",
+     "near": 3
     },
     {
      "heading": "A Body Made for Swimming",
@@ -2609,7 +2613,9 @@
       "When danger is near, a beaver slaps its tail on the water.",
       "The loud sound warns the other beavers.",
       "Thick fur keeps a beaver warm and dry."
-     ]
+     ],
+     "narrow": "what a beaver does when danger is near",
+     "near": 1
     }
    ],
    "bold": [
@@ -2722,7 +2728,9 @@
       "Bats are not birds.",
       "They have fur, not feathers, and mother bats feed their babies milk.",
       "A baby bat is called a pup."
-     ]
+     ],
+     "narrow": "what a baby bat is called",
+     "near": 3
     },
     {
      "heading": "Hunting in the Dark",
@@ -2733,7 +2741,9 @@
       "To find them in the dark, a bat makes high sounds.",
       "The sounds bounce off things and come back as an echo.",
       "The echo tells the bat where its food is."
-     ]
+     ],
+     "narrow": "which insects many bats eat",
+     "near": 1
     },
     {
      "heading": "Where Bats Rest",
@@ -2744,7 +2754,9 @@
       "A group of bats is called a colony.",
       "Some colonies have thousands of bats.",
       "In winter, many bats sleep for months until warm weather returns."
-     ]
+     ],
+     "narrow": "what a group of bats is called",
+     "near": 2
     }
    ],
    "bold": [
@@ -2856,7 +2868,9 @@
       "Its four legs are flippers.",
       "The flippers work like paddles, so a sea turtle is a strong swimmer.",
       "It must come up to the top of the water to breathe air."
-     ]
+     ],
+     "narrow": "why a sea turtle comes up to the top of the water",
+     "near": 3
     },
     {
      "heading": "What Sea Turtles Eat",
@@ -2868,7 +2882,9 @@
       "A sea turtle has no teeth.",
       "It bites with a hard, sharp beak.",
       "Sadly, a plastic bag in the water can look like a jellyfish, and a turtle may eat it by mistake."
-     ]
+     ],
+     "narrow": "what a sea turtle bites with",
+     "near": 3
     },
     {
      "heading": "Nests on the Beach",
@@ -2878,7 +2894,9 @@
       "At night she digs a hole in the sand and lays about one hundred eggs.",
       "Then she covers the nest and returns to the sea.",
       "Weeks later the tiny hatchlings dig out and crawl to the water."
-     ]
+     ],
+     "narrow": "how many eggs a sea turtle lays",
+     "near": 2
     }
    ],
    "bold": [
@@ -2990,7 +3008,9 @@
       "A polar bear has two layers of fur.",
       "Under its skin is a thick layer of fat called blubber.",
       "The fur and the blubber keep the bear warm on the ice."
-     ]
+     ],
+     "narrow": "what blubber is",
+     "near": 2
     },
     {
      "heading": "Hunters on the Ice",
@@ -3002,7 +3022,9 @@
       "The polar bear waits beside the hole without moving.",
       "It may wait for hours.",
       "A polar bear can smell its prey from far away."
-     ]
+     ],
+     "narrow": "what a polar bear's main food is",
+     "near": 3
     },
     {
      "heading": "Mothers and Cubs",
@@ -3013,7 +3035,9 @@
       "The cubs are tiny, about as big as a squirrel.",
       "They drink their mother's milk and grow fast.",
       "In spring the family leaves the den."
-     ]
+     ],
+     "narrow": "how big a polar bear cub is",
+     "near": 2
     }
    ],
    "bold": [
@@ -3124,7 +3148,9 @@
       "For thousands of years, people have ridden camels and used them to carry heavy loads across the sand.",
       "That is why camels are called ships of the desert.",
       "A camel can carry a load a long way in one day."
-     ]
+     ],
+     "narrow": "how far a camel can carry a load in one day",
+     "near": 2
     },
     {
      "heading": "The Hump",
@@ -3136,7 +3162,9 @@
       "A hump is full of fat.",
       "When there is little food, the camel's body uses the fat for energy.",
       "Then the hump gets smaller and can flop over."
-     ]
+     ],
+     "narrow": "how many humps a camel can have",
+     "near": 1
     },
     {
      "heading": "A Body for the Sand",
@@ -3147,7 +3175,9 @@
       "It can even close its nostrils.",
       "Its wide feet spread out, so it does not sink into the soft sand.",
       "Thick lips let it eat thorny desert plants."
-     ]
+     ],
+     "narrow": "what a camel's long eyelashes do",
+     "near": 2
     }
    ],
    "bold": [
@@ -3260,7 +3290,9 @@
       "Most spiders also have eight eyes.",
       "Insects have two feelers, called antennae, and many have wings.",
       "A spider has no antennae and no wings."
-     ]
+     ],
+     "narrow": "how many eyes most spiders have",
+     "near": 2
     },
     {
      "heading": "Silk and Webs",
@@ -3272,7 +3304,9 @@
       "Many spiders use silk to spin a web.",
       "Parts of the web are sticky.",
       "When a fly or a mosquito flies into it, the insect cannot get away."
-     ]
+     ],
+     "narrow": "what happens when a fly flies into a web",
+     "near": 3
     },
     {
      "heading": "Hunters Without Webs",
@@ -3283,7 +3317,9 @@
       "Wolf spiders run fast and chase their prey.",
       "Some crab spiders hide in flowers and wait.",
       "When a bee or a fly comes close, the spider grabs it."
-     ]
+     ],
+     "narrow": "how wolf spiders catch their prey",
+     "near": 2
     }
    ],
    "bold": [
@@ -3395,7 +3431,9 @@
       "The leader of the herd is the oldest mother.",
       "She knows where to find water, and the others follow her.",
       "When young males grow up, they leave the herd."
-     ]
+     ],
+     "narrow": "who the leader of the herd is",
+     "near": 3
     },
     {
      "heading": "A Trunk for Everything",
@@ -3405,7 +3443,9 @@
       "The trunk can smell, breathe, and pick things up.",
       "It is strong enough to lift a log and gentle enough to pick one flower.",
       "An elephant also sucks up water with its trunk and squirts it into its mouth."
-     ]
+     ],
+     "narrow": "how an elephant drinks water",
+     "near": 1
     },
     {
      "heading": "Big Eaters",
@@ -3416,7 +3456,9 @@
       "Most elephants have two long front teeth called tusks.",
       "Elephants use their tusks to dig for roots and to peel bark off trees.",
       "An elephant eats for most of the day, because its big body needs a lot of food."
-     ]
+     ],
+     "narrow": "what elephants use their tusks for",
+     "near": 2
     }
    ],
    "bold": [
@@ -3994,7 +4036,7 @@
     },
     {
      "from": "diagram",
-     "q": "Which stage comes just before the plant with a flower?",
+     "q": "In this diagram, which stage comes just before the plant with a flower?",
      "answer": "the seedling",
      "wrong": [
       "the sprout",
@@ -4116,7 +4158,7 @@
    "questions": [
     {
      "from": "diagram",
-     "q": "Which phase comes right after the new moon?",
+     "q": "In this diagram, which phase comes after the new moon?",
      "answer": "the first quarter",
      "wrong": [
       "the full moon",
@@ -4143,7 +4185,7 @@
     },
     {
      "from": "diagram",
-     "q": "Which phase comes right after the first quarter?",
+     "q": "In this diagram, which phase comes after the first quarter?",
      "answer": "the full moon",
      "wrong": [
       "the new moon",
@@ -4267,7 +4309,11 @@
    ],
    "why": {
     "q": "Why must the bees dry the nectar before the beekeeper takes the honeycomb?",
-    "sample": "The nectar is not honey until it is dry, thick, and sticky."
+    "sample": "The nectar is not honey until it is dry, thick, and sticky.",
+    "steps": [
+     2,
+     3
+    ]
    },
    "clauses": [
     "bees carry nectar to the hive",
@@ -4356,7 +4402,11 @@
    ],
    "why": {
     "q": "Why must the dough rest before it is baked?",
-    "sample": "The yeast needs time to make gas bubbles so the dough rises. That makes the bread soft and light."
+    "sample": "The yeast needs time to make gas bubbles so the dough rises. That makes the bread soft and light.",
+    "steps": [
+     2,
+     3
+    ]
    },
    "clauses": [
     "the baker mixes and kneads the dough",
@@ -4449,7 +4499,12 @@
    ],
    "why": {
     "q": "Why must the chips be cooked before the sheet of paper can be made?",
-    "sample": "Cooking turns the chips into pulp, and the sheet is made from pulp."
+    "sample": "Cooking turns the chips into pulp, and the sheet is made from pulp.",
+    "steps": [
+     1,
+     2,
+     3
+    ]
    },
    "clauses": [
     "the logs are cut into chips",
@@ -4530,7 +4585,7 @@
     {
      "kind": "before",
      "q": "Why must the wool be spun before it is knitted?",
-     "answer": "A sweater is knitted from yarn.",
+     "answer": "Spinning turns the wool into yarn.",
      "wrong": [
       "Spinning makes the wool clean.",
       "Spinning makes the wool warm."
@@ -4539,7 +4594,11 @@
    ],
    "why": {
     "q": "Why must the wool be spun before it is knitted?",
-    "sample": "Spinning turns the wool into yarn, and a sweater is knitted from yarn."
+    "sample": "Spinning turns the wool into yarn, and a sweater is knitted from yarn.",
+    "steps": [
+     3,
+     4
+    ]
    },
    "clauses": [
     "the farmer cuts off the wool",
@@ -4559,7 +4618,7 @@
     ],
     [
      "First, workers pick the oranges when they are ripe.",
-     "Trucks carry the fruit to a juice plant.",
+     "Trucks carry the fruit to a juice factory.",
      "There a machine scrubs every orange clean, so no dirt from the peels gets into the juice."
     ],
     [
@@ -4629,7 +4688,11 @@
    ],
    "why": {
     "q": "Why must the oranges be washed before they are squeezed?",
-    "sample": "So no dirt from the peels gets into the juice."
+    "sample": "So no dirt from the peels gets into the juice.",
+    "steps": [
+     1,
+     2
+    ]
    },
    "clauses": [
     "the oranges are picked and washed",
@@ -4652,9 +4715,9 @@
     },
     "sentences": [
      "An apple tree has green leaves.",
-     "It has flowers in spring.",
+     "Bees visit its flowers in spring.",
      "Birds build nests in it.",
-     "Apples grow on it."
+     "People climb a ladder to pick apples."
     ]
    },
    "b": {
@@ -4687,15 +4750,15 @@
    "onlyA": [
     {
      "theme": "spring",
-     "noun": "flower",
-     "word": "flowers",
-     "label": "flower"
+     "noun": "bee",
+     "word": "bees",
+     "label": "bee"
     },
     {
-     "theme": "fruits",
-     "noun": "apple",
-     "word": "apples",
-     "label": "apple"
+     "theme": "tools",
+     "noun": "ladder",
+     "word": "ladder",
+     "label": "ladder"
     }
    ],
    "onlyB": [
@@ -5291,7 +5354,8 @@
     "links": [
      {
       "cause": "Sailors could not see rocks and sand at night.",
-      "effect": "People built tall towers with a bright light."
+      "effect": "People built tall towers with a bright light.",
+      "give": "effect"
      },
      {
       "cause": "A special lens bends the light into a strong beam.",
@@ -5604,7 +5668,11 @@
      },
      {
       "cause": "Crumbs and drops could drift into the machines.",
-      "effect": "Meals come in sealed bags and cans."
+      "effect": "Meals come in sealed bags and cans.",
+      "give": "effect",
+      "alsoCause": [
+       "Everything on the station floats."
+      ]
      },
      {
       "cause": "A sleeping astronaut would slowly float around.",
@@ -5912,7 +5980,8 @@
     "links": [
      {
       "cause": "Emperor penguins have thick fat and tightly packed feathers.",
-      "effect": "Their bodies stay warm in the cold."
+      "effect": "Their bodies stay warm in the cold.",
+      "give": "cause"
      },
      {
       "cause": "The father cannot leave the egg.",
@@ -5924,7 +5993,12 @@
      },
      {
       "cause": "The mother comes back with food for the chick.",
-      "effect": "The hungry father can go to the sea."
+      "effect": "The hungry father can go to the sea.",
+      "give": "effect",
+      "alsoCause": [
+       "The chick hatched.",
+       "The father is hungry."
+      ]
      }
     ],
     "topic": "how emperor penguins raise a chick",
@@ -6228,15 +6302,18 @@
      },
      {
       "cause": "The riders were young and light.",
-      "effect": "The horses could run fast."
+      "effect": "The horses could run fast.",
+      "give": "cause"
      },
      {
       "cause": "A new rider took over the bag of mail after about 75 miles.",
-      "effect": "The mail kept moving day and night."
+      "effect": "The mail kept moving day and night.",
+      "give": "cause"
      },
      {
       "cause": "A telegraph line reached all the way to California.",
-      "effect": "Nobody needed the fast riders anymore."
+      "effect": "Nobody needed the fast riders anymore.",
+      "give": "effect"
      }
     ],
     "topic": "how the Pony Express began and ended",

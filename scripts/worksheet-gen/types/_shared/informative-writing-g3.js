@@ -41,8 +41,9 @@
  *   fdd       G3-560 Fact, Definition, or Detail? (W.3.2.b; day 1 of "Facts, definitions, and details"). The rule box (each
  *             part starts with a fact; a definition tells what a word means; a detail tells more about the fact in its
  *             part), the same on every level. 1. Two or three parts of a model's mentor paragraph (parts of 2, 3, 3 and
- *             4 sentences; three are never all of one length), each part a block of its own: a check mark under fact,
- *             definition, or detail for each sentence. 2. The word-to-define fact of ANOTHER model and its two notes:
+ *             4 sentences; three are never all of one length), each part a block of its own that starts with its fact,
+ *             GIVEN ("Fact:"; on level 3 in bold, no number): a check mark under definition or detail for each sentence
+ *             after it (every detail is a fact too: no Fact column, writing review 1119). 2. The word-to-define fact of ANOTHER model and its two notes:
  *             the child writes a definition and a detail (sample key).
  *               level 1  two parts (at most seven sentences) in a table, defined words in bold; both lines started
  *               level 2  three parts (at most nine sentences) in a table; the definition started
@@ -117,7 +118,7 @@ const LINES = {
   group: { 1: 'Notes about {name}: write the heading of each group. Use the box.', 2: 'Notes about {name}: write the heading of each group. One heading in the box is left over.', 3: 'Notes about {name}: write the heading of each group. One heading is left over. One note is in the wrong group: cross it out.' },
   planIntro: 'Introduction', planGroups: { 1: 'Write an introduction and the notes that go under each heading.', 2: 'Write an introduction, a heading for each group, and its notes. Headings:', 3: 'Write an introduction, a heading for each group, and its notes. Pick three:' },
   planPic: 'Draw a picture that helps the reader. Write a caption under it.',
-  label: { 1: 'Read the paragraph. Put a check mark under the job of each sentence.', 2: 'Read the paragraph. Put a check mark under the job of each sentence.', 3: 'Read the paragraph. Under each sentence number, put a check mark in the row of its job.' },
+  label: { 1: 'Read the paragraph. Each part starts with a fact. Is each sentence after it a definition or a detail? Put a check mark.', 2: 'Read the paragraph. Each part starts with a fact. Is each sentence after it a definition or a detail? Put a check mark.', 3: 'Read the paragraph. Each part starts with a fact in bold. Under each sentence number, put a check mark in the row of its job.' },
   addTo: 'Add a definition and a detail to this fact. Use the notes.',
   draft: { 1: 'Write about {name}. Define the word in one part.', 2: 'Write about {name}. Write each heading. Define the word in one part.', 3: 'Write about {name}. Write each heading. Define the word in one part.' },
   conclude: 'Concluding sentence',
@@ -265,7 +266,8 @@ function faultsOf(b) {
       if (!['F', 'Def', 'D'].includes(x[0]) || !/^[A-Z].*\.$/.test(x[1]) || x[1].length > max) at(`"${x[1]}" is not a sentence of ${max} letters or fewer with a kind`);
       if (x[0] === 'F' && (REF.test(x[1]) || /\bmeans\b/.test(x[1]) || / (is|are) (a|an) [a-z ,-]+ (that|who|which) /.test(x[1]) || /^(A|An) [a-z ]+ is (a|an) /.test(x[1]))) at(`the fact "${x[1]}" refers back or reads like a definition`);
       if (x[0] === 'Def' && (!x[2] || !DEFRE(x[2]).test(x[1]) || !g.slice(0, i).map((y) => lc(y[1])).join(' ').includes(lc(x[2]).replace(/s$/, '')))) at(`the definition "${x[1]}" does not say what a word used before it means`);
-      if (x[0] === 'D' && /^(A|An) [a-z ]+ (is|are) (a|an|the) |\bmeans\b/.test(x[1])) at(`the detail "${x[1]}" reads like a definition`);
+      // (writing review 1119: "One is called north, and one is called south." read as a definition) a detail never names
+      if (x[0] === 'D' && /^(A|An) [a-z ]+ (is|are) (a|an|the) |\bmeans\b|\b(is|are) called\b/.test(x[1])) at(`the detail "${x[1]}" reads like a definition`);
     });
   };
   // the part of the word to define: its fact, definition, and detail, and the notes a page prints of them
@@ -761,29 +763,34 @@ function render(P, key) {
   if (P.mode === 'fdd') {
     const d = LEVELS.fdd[P.lv];
     b.push(ruleBox(null, RULES.fdd.rows));
-    const kinds = [['F', 'fact'], ['Def', 'definition'], ['D', 'detail']];
+    // (writing review 1119) the first sentence of each part is GIVEN as its fact (printed "Fact:", no boxes); every
+    // sentence after it is a definition or a detail, so those are the two columns (every detail is a fact too: a Fact
+    // column after the fact had two right answers)
+    const kinds = [['Def', 'definition'], ['D', 'detail']];
     // level 1: each defined word is in bold where the paragraph first uses it (before its definition)
     const toBold = new Set(d.bold ? P.rows.filter((r) => r.k === 'Def').map((r) => r.w) : []);
     const showBold = (t) => { let h = esc(t); for (const w of [...toBold]) { const re = new RegExp('\\b(' + w + '(s|ed)?)\\b', 'i'); if (re.test(h)) { h = h.replace(re, `<b data-lcs-bold="${w}" style="font-weight:900">$1</b>`); toBold.delete(w); } } return h; };
+    const asked = P.rows.filter((r) => r.k !== 'F');
     let table;
     if (d.table) {
-      const colW = 78;
+      const colW = 92;
       const head = `<div data-lcs-thead style="display:flex;align-items:flex-end;padding:0 10px"><span style="flex:1 1 auto;font:800 16px/1.1 'Nunito',sans-serif;color:${T.teal}">${esc(P.X.dev.head)} (about ${esc(P.X.name)})</span>${kinds.map(([k, n]) => `<span data-lcs-col="${k}" style="flex:0 0 ${colW}px;text-align:center;font:800 15px/1.1 'Nunito',sans-serif;color:${T.teal}">${n}</span>`).join('')}</div>`;
-      // a part: its rows in one white block with "Part N" over its first row; the parts apart from each other
+      // a part: its fact, then its other sentences, in one white block; the parts apart from each other
       let i0 = 0;
-      const partHtml = (gi, pi) => { const rows = P.X.dev.g[gi].map((x) => ({ k: x[0], t: x[1] }));
-        const out = `<div data-lcs-partblock="${pi + 1}" style="flex:${rows.length} 1 auto;display:flex;flex-direction:column;justify-content:space-evenly;gap:1px;padding:2px 0;border-radius:10px;background:#FFFFFF">` +
+      const partHtml = (gi, pi) => { const [fact, ...rows] = P.X.dev.g[gi].map((x) => ({ k: x[0], t: x[1] }));
+        const out = `<div data-lcs-partblock="${pi + 1}" style="flex:${rows.length + 1} 1 auto;display:flex;flex-direction:column;justify-content:space-evenly;gap:1px;padding:2px 0;border-radius:10px;background:#FFFFFF">` +
+          `<div data-lcs-item data-lcs-givenfact data-lcs-text="${A(fact.t)}" style="display:flex;align-items:center;padding:1px 10px"><span data-lcs-read data-lcs-ftext style="flex:1 1 auto;min-width:0;padding-right:8px;font:700 16px/1.3 'Nunito',sans-serif;color:${T.ink}"><b style="font-weight:800;color:${T.teal}">Fact:</b> ${showBold(fact.t)}</span></div>` +
           rows.map((r, j) => `<div data-lcs-item data-lcs-krow="${r.k}" data-lcs-text="${A(r.t)}" style="display:flex;align-items:center;padding:1px 10px">${num(i0 + j + 1)}<span data-lcs-read data-lcs-ktext style="flex:1 1 auto;min-width:0;padding-right:8px;font:700 16px/1.3 'Nunito',sans-serif;color:${T.ink}">${showBold(r.t)}</span>` +
             kinds.map(([k]) => `<span data-lcs-cell="${k}" style="flex:0 0 ${colW}px;display:flex;justify-content:center">${key && k === r.k ? tickBox(k).replace('></span>', '>' + CHECK + '</span>') : tickBox(k)}</span>`).join('') + `</div>`).join('') + `</div>`;
         i0 += rows.length; return out; };
       table = head + `<div style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-evenly;gap:7px">` + P.gs.map(partHtml).join('') + `</div>`;
     } else {
       const para = `<div data-lcs-paragraph data-lcs-read style="padding:4px 12px 5px;border-radius:12px;background:#FFFFFF;font:700 ${READ}px/1.42 'Nunito',sans-serif;color:${T.ink}"><div style="font:800 16px/1.2 'Nunito',sans-serif;color:${T.teal}">${esc(P.X.dev.head)} (about ${esc(P.X.name)})</div>` +
-        // a short paragraph for each part (the running numbers go on)
-        (() => { let i0 = 0; return P.gs.map((gi, pi) => { const rows = P.X.dev.g[gi]; const html = `<div data-lcs-partblock="${pi + 1}">` + rows.map((x, j) => `<span data-lcs-psent data-lcs-krow="${x[0]}" data-lcs-text="${A(x[1])}"><sup data-lcs-snum style="font:800 13px/1 'Nunito',sans-serif;color:${T.teal}">${i0 + j + 1}</sup>${esc(x[1])}</span>`).join(' ') + `</div>`; i0 += rows.length; return html; }).join(''); })() + `</div>`;
-      const n = P.rows.length, cw = Math.floor((W - 24 - 20 - 118) / n);
-      const grid = `<div data-lcs-kgrid style="padding:4px 10px 6px;border-radius:12px;background:#FFFFFF"><div style="display:flex;align-items:flex-end"><span style="flex:0 0 118px;font:800 15px/1.1 'Nunito',sans-serif;color:${T.teal}">sentence</span>${P.rows.map((r, i) => `<span data-lcs-colnum="${i + 1}" style="flex:0 0 ${cw}px;text-align:center;font:800 16px/1.1 'Nunito',sans-serif;color:${T.teal}">${i + 1}</span>`).join('')}</div>` +
-        kinds.map(([k, nm]) => `<div data-lcs-gridrow="${k}" style="display:flex;align-items:center;margin-top:3px"><span style="flex:0 0 118px;font:800 16px/1.1 'Nunito',sans-serif;color:${T.ink}">${nm}</span>${P.rows.map((r, i) => `<span data-lcs-gcell="${i + 1}" data-lcs-cell="${k}" style="flex:0 0 ${cw}px;display:flex;justify-content:center">${key && r.k === k ? tickBox(k).replace('></span>', '>' + CHECK + '</span>') : tickBox(k)}</span>`).join('')}</div>`).join('') + `</div>`;
+        // a short paragraph for each part: its fact in bold (no number), then its other sentences (the numbers go on)
+        (() => { let i0 = 0; return P.gs.map((gi, pi) => { const [fact, ...rows] = P.X.dev.g[gi]; const html = `<div data-lcs-partblock="${pi + 1}"><span data-lcs-psent data-lcs-givenfact data-lcs-text="${A(fact[1])}"><b style="font-weight:900">${esc(fact[1])}</b></span> ` + rows.map((x, j) => `<span data-lcs-psent data-lcs-krow="${x[0]}" data-lcs-text="${A(x[1])}"><sup data-lcs-snum style="font:800 13px/1 'Nunito',sans-serif;color:${T.teal}">${i0 + j + 1}</sup>${esc(x[1])}</span>`).join(' ') + `</div>`; i0 += rows.length; return html; }).join(''); })() + `</div>`;
+      const n = asked.length, cw = Math.floor((W - 24 - 20 - 118) / n);
+      const grid = `<div data-lcs-kgrid style="padding:4px 10px 6px;border-radius:12px;background:#FFFFFF"><div style="display:flex;align-items:flex-end"><span style="flex:0 0 118px;font:800 15px/1.1 'Nunito',sans-serif;color:${T.teal}">sentence</span>${asked.map((r, i) => `<span data-lcs-colnum="${i + 1}" style="flex:0 0 ${cw}px;text-align:center;font:800 16px/1.1 'Nunito',sans-serif;color:${T.teal}">${i + 1}</span>`).join('')}</div>` +
+        kinds.map(([k, nm]) => `<div data-lcs-gridrow="${k}" style="display:flex;align-items:center;margin-top:3px"><span style="flex:0 0 118px;font:800 16px/1.1 'Nunito',sans-serif;color:${T.ink}">${nm}</span>${asked.map((r, i) => `<span data-lcs-gcell="${i + 1}" data-lcs-cell="${k}" style="flex:0 0 ${cw}px;display:flex;justify-content:center">${key && r.k === k ? tickBox(k).replace('></span>', '>' + CHECK + '</span>') : tickBox(k)}</span>`).join('')}</div>`).join('') + `</div>`;
       table = `<div data-lcs-item style="display:flex;flex-direction:column;gap:6px">${para}${grid}</div>`;
     }
     b.push(cream(`data-lcs-task="label" data-lcs-dgroups="${P.gs.join(',')}"`, label(1, LINES.label[P.lv]) + table, 8, 5, d.table ? 'flex:1 1 auto' : ''));
@@ -886,7 +893,7 @@ const SPEC = {
     introPick: 'Read the notes. Circle the sentence that introduces the topic best.',
     group: { 1: 'Notes about {name}: write the heading of each group. Use the box.', 2: 'Notes about {name}: write the heading of each group. One heading in the box is left over.', 3: 'Notes about {name}: write the heading of each group. One heading is left over. One note is in the wrong group: cross it out.' },
     plan: { 1: 'Write an introduction and the notes that go under each heading.', 2: 'Write an introduction, a heading for each group, and its notes. Headings:', 3: 'Write an introduction, a heading for each group, and its notes. Pick three:' },
-    label: { 1: 'Read the paragraph. Put a check mark under the job of each sentence.', 2: 'Read the paragraph. Put a check mark under the job of each sentence.', 3: 'Read the paragraph. Under each sentence number, put a check mark in the row of its job.' },
+    label: { 1: 'Read the paragraph. Each part starts with a fact. Is each sentence after it a definition or a detail? Put a check mark.', 2: 'Read the paragraph. Each part starts with a fact. Is each sentence after it a definition or a detail? Put a check mark.', 3: 'Read the paragraph. Each part starts with a fact in bold. Under each sentence number, put a check mark in the row of its job.' },
     addto: 'Add a definition and a detail to this fact. Use the notes.',
     draft: { 1: 'Write about {name}. Define the word in one part.', 2: 'Write about {name}. Write each heading. Define the word in one part.', 3: 'Write about {name}. Write each heading. Define the word in one part.' },
     organize: { 1: 'Take notes from each source. Write each note in the row of its category.', 2: 'Name each category. It will be a heading in your report. Take notes in its row.', 3: 'Name each category. It will be a heading in your report. Take notes in its row.' },
@@ -906,6 +913,10 @@ function makeInformativeWritingG3Type({ id, slug, mode, exerciseType, i18n }) {
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // the unit check (Part 7.6): the day-1 pages' tasks made small, one card a task (iw3CheckPage below); the pages the child
+    // writes from notes give the check its writing task (iw3CheckWrite)
+    ...(['notepick', 'intro', 'fdd'].includes(mode) ? { checkPage(args, ctx) { return iw3CheckPage(mode, args, ctx); } } : {}),
+    ...(['plan', 'develop', 'report'].includes(mode) ? { checkWrite(args, ctx) { return iw3CheckWrite(mode, args, ctx); } } : {}),
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the texts are English texts (no ${locale} bank)`);
@@ -1219,21 +1230,28 @@ function makeInformativeWritingG3Type({ id, slug, mode, exerciseType, i18n }) {
           const gsel = ((lab && lab.dataset.lcsDgroups) || '').split(',').filter((x) => x !== '').map(Number);
           if (gsel.length !== (lv === 1 ? 2 : 3) || gsel.some((g, i) => !(g >= 0 && g < X.dev.g.length) || (i > 0 && g <= gsel[i - 1]))) fails.push(`the paragraph is not ${lv === 1 ? 'two' : 'three'} parts of the mentor paragraph in their order`);
           if (gsel.length === 3 && new Set(gsel.map((g) => (X.dev.g[g] || []).length)).size === 1) fails.push('the three parts are of one length: the facts stand at one step');
-          const want = gsel.flatMap((g) => X.dev.g[g] || []);
+          // (writing review 1119) the first sentence of each part is GIVEN as its fact (no boxes, no number); the child marks
+          // only the sentences after it, each a definition or a detail: two columns, never a Fact column (every detail is
+          // a fact too)
+          const facts = cards('[data-lcs-givenfact]'), want = gsel.flatMap((g) => (X.dev.g[g] || []).slice(1));
+          if (facts.length !== gsel.length || facts.some((f, i) => f.dataset.lcsText !== ((X.dev.g[gsel[i]] || [])[0] || [])[1] || ((X.dev.g[gsel[i]] || [])[0] || [])[0] !== 'F')) fails.push('the fact of each part is not given at its start');
+          facts.forEach((f, i) => { const t = f.dataset.lcsText; if ((lv < 3 ? txt(f) !== 'Fact: ' + t : txt(f) !== t || !f.querySelector('b')) || f.querySelector('[data-lcs-cell]')) fails.push(`the fact of part ${i + 1} is not printed as a given fact (${lv < 3 ? '"Fact:" and its sentence' : 'its sentence in bold'}, no box)`); });
+          if (root.querySelector('[data-lcs-col="F"], [data-lcs-gridrow="F"], [data-lcs-cell="F"]') || want.some((x) => x[0] === 'F')) fails.push('a Fact column after the fact: a sentence after it is a definition or a detail');
           if (rows.length !== want.length || rows.some((r, i) => r.dataset.lcsText !== want[i][1] || r.dataset.lcsKrow !== want[i][0])) fails.push('the sentences are not the mentor paragraph in its order with their kinds');
           rows.forEach((r, i) => { const t = r.dataset.lcsText, sp = r.querySelector('[data-lcs-ktext]'); if (sp ? txt(sp) !== t : txt(r).replace(/^\d+/, '') !== t) fails.push(`sentence ${i + 1} is not printed as the bank has it`); });
-          // the parts are seen: each in a block of its own, below the one before (levels 1 and 2 name it "Part N")
+          if (lv === 3 && cards('[data-lcs-colnum]').length !== rows.length) fails.push('the grid has a column for a sentence that is no definition or detail');
+          // the parts are seen: each in a block of its own, below the one before, its fact first
           { const pb = cards('[data-lcs-partblock]');
             if (pb.length !== gsel.length) fails.push(`${pb.length} parts shown, not ${gsel.length}`);
-            pb.forEach((b, i) => { const own = [...b.querySelectorAll('[data-lcs-krow]')].map((r) => r.dataset.lcsText), w = (X.dev.g[gsel[i]] || []).map((x) => x[1]);
+            pb.forEach((b, i) => { const own = [...b.querySelectorAll('[data-lcs-givenfact], [data-lcs-krow]')].map((r) => r.dataset.lcsText), w = (X.dev.g[gsel[i]] || []).map((x) => x[1]);
               if (own.join('|') !== w.join('|')) fails.push(`part ${i + 1} does not hold the sentences of its part`);
               if (i && R(b).top < R(pb[i - 1]).bottom + (lv < 3 ? 4 : -0.5)) fails.push(`part ${i + 1} does not stand apart below part ${i}`); }); }
-          if (rows.length > (lv === 1 ? 7 : 9)) fails.push(`${rows.length} sentences to sort (${lv === 1 ? 7 : 9} or fewer)`);
-          const ks = rows.map((r) => r.dataset.lcsKrow);
-          ['F', 'Def', 'D'].forEach((k) => { if (!ks.includes(k)) fails.push(`no ${k} on the page`); });
+          if (rows.length + facts.length > (lv === 1 ? 7 : 9)) fails.push(`${rows.length + facts.length} sentences (${lv === 1 ? 7 : 9} or fewer)`);
+          const ks = gsel.flatMap((g) => (X.dev.g[g] || []).map((x) => x[0]));
+          ['Def', 'D'].forEach((k) => { if (!rows.some((r) => r.dataset.lcsKrow === k)) fails.push(`no ${k} on the page`); });
           { const bad = orderBad(ks); if (bad) fails.push(`the kinds stand in a pattern: ${bad} (${ks.join(' ')})`); }
           const cells = cards('[data-lcs-cell]'), ticks = cells.filter((c) => c.querySelector('[data-lcs-check]'));
-          if (cells.length !== rows.length * 3) fails.push('not a box under every kind for every sentence');
+          if (cells.length !== rows.length * 2) fails.push('not a box under definition and detail for every sentence after the fact');
           if (lv < 3) rows.forEach((r, i) => { const on = [...r.querySelectorAll('[data-lcs-cell]')].filter((c) => c.querySelector('[data-lcs-check]')); if (isKey ? on.length !== 1 || on[0].dataset.lcsCell !== r.dataset.lcsKrow : on.length) fails.push(`sentence ${i + 1}: ${on.length} check marks`); });
           else rows.forEach((r, i) => { const on = cells.filter((c) => c.dataset.lcsGcell === String(i + 1) && c.querySelector('[data-lcs-check]')); if (isKey ? on.length !== 1 || on[0].dataset.lcsCell !== r.dataset.lcsKrow : on.length) fails.push(`sentence ${i + 1}: ${on.length} check marks`); });
           if (!isKey && ticks.length) fails.push('check marks on the page of the child');
@@ -1404,6 +1422,69 @@ function makeInformativeWritingG3Type({ id, slug, mode, exerciseType, i18n }) {
       }, INFO);
     },
   };
+}
+
+/* ------------------------------------------------------------------ the unit check (Part 7.6) */
+/**
+ * iw3CheckPage — the cards a unit check cuts from the day-1 pages (PART-7-DESIGN.md 7.6): every item of the MODEL topics as a
+ * card of its own (never a topic the children write about), at the level the lesson hands out, built from the page's own bank
+ * and rules (no new task):
+ *   notepick  G3-556  a sentence of a model (one line) and three notes: the sentence copied whole, a note that changes the
+ *                     fact, the good note: circle the good note (data-lcs-notelen: the good note is the shortest or not,
+ *                     so that a part asks both)
+ *   intro     G3-558  a model's notes under its headings and the sentences of the level (its introduction, a detail, the
+ *                     introduction of a model of another kind, a question the notes do not answer): circle the one that
+ *                     introduces the topic best
+ *   fdd       G3-560  one part of a model's mentor paragraph, its fact given (Fact:): a check mark under definition or
+ *                     detail for each sentence after it
+ * A card names its item (data-lcs-text) so that form B asks other ones than form A.
+ */
+function iw3CheckPage(mode, { difficulty, locale }, ctx) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`informative-writing-g3 check: the texts are English (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const lv = Number(difficulty) || 2, d = LEVELS[mode][lv] || LEVELS[mode][2], rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+  const A = (s) => esc(s).replace(/"/g, '&quot;');
+  const MS = BANK.models;
+  const shell = (id, inner, more = '') => `<div data-lcs-text="${A(id)}"${more} style="display:flex;flex-direction:column;gap:3px;padding:4px 12px;border-radius:12px;background:#FFFFFF">${inner}</div>`;
+  const choice = (t, ok) => `<div${ok ? ' data-lcs-correct="1"' : ''} style="display:flex"><span style="padding:0 9px;border:2.5px solid ${key && ok ? T.teal : 'transparent'};border-radius:999px;font:700 18px/1.25 'Nunito',sans-serif;color:${T.ink}">${esc(t)}</span></div>`;
+  const tick = (ok) => `<span style="box-sizing:border-box;width:25px;height:25px;display:flex;align-items:center;justify-content:center;border:2.5px solid ${T.ink};border-radius:7px;background:#FFFFFF">${key && ok ? `<svg width="20" height="20" viewBox="0 0 20 20" style="display:block"><path d="M3.5 10.5 L8.5 15.5 L16.5 4.5" fill="none" stroke="${T.teal}" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>` : ''}</span>`;
+  const cards = [];
+  if (mode === 'notepick') for (const X of shuffle(MS, rng)) for (const x of shuffle(sentsOf(X).filter((y) => y.wrong && y.note && y.t.length <= PICKMAX), rng)) {
+    const o = shuffle([{ t: x.t }, { t: x.wrong }], rng); o.splice(rng.int(0, 2), 0, { t: x.note, ok: true });
+    const short = o.every((y) => y.ok || y.t.length > x.note.length) ? 'short' : 'other';
+    cards.push(shell(x.t, `<div style="font:700 18px/1.3 'Nunito',sans-serif;color:${T.ink}"><span style="color:${T.teal};font-weight:800">${esc(X.title)}:</span> ${esc(x.t)}</div><div data-lcs-ckopts style="display:flex;flex-direction:column;gap:1px;padding-left:12px">${o.map((y) => choice(y.t, y.ok)).join('')}</div>`, ` data-lcs-notelen="${short}"`));
+  }
+  if (mode === 'intro') for (const X of shuffle(MS, rng)) {
+    // (the page's rule: the right sentence is not the one to find by its length: a model of another kind and a detail that
+    //  leave a longer sentence beside it; a model whose introduction is longer than every other choice gives no card)
+    const combos = shuffle(MS.filter((y) => y !== X && y.group !== X.group).flatMap((y) => [0, 1, 2].map((h) => ({ O: y, h }))), rng);
+    if (!combos.length) continue;
+    const pickC = combos.find((c) => Math.max(c.O.intro.length, X.say[c.h][0].length) > X.intro.length);
+    if (!pickC) continue;
+    const { O, h } = pickC;
+    const opts = shuffle([{ t: X.say[h][0] }, { t: O.intro }, ...(d.opts === 4 ? [{ t: X.ask }] : [])], rng); opts.splice(rng.int(0, opts.length), 0, { t: X.intro, ok: true });
+    const notes = [0, 1, 2].map((hh) => `<div style="font:700 16px/1.25 'Nunito',sans-serif;color:${T.ink}"><b style="color:${T.teal}">${esc(X.heads[hh])}:</b> ${[notesOf(X, hh, 'A')[0], notesOf(X, hh, 'B')[0]].filter(Boolean).map((y) => esc(y.note)).join(' · ')}</div>`).join('');
+    cards.push(shell(X.id, `<div style="padding:1px 10px 2px;border:2.5px solid ${T.creamDeep};border-radius:10px"><div style="font:700 16px/1.2 'Baloo 2',cursive;color:${T.teal}">Notes: ${esc(X.title)}</div>${notes}</div><div data-lcs-ckopts style="display:flex;flex-direction:column;gap:1px;padding-left:12px">${opts.map((y) => choice(y.t, y.ok)).join('')}</div>`));
+  }
+  if (mode === 'fdd') for (const X of shuffle(MS, rng)) for (const g of shuffle(X.dev.g, rng)) {
+    // (parts of two or three sentences: two cards of a part stand within the part's height)
+    if (g.length < 2 || g.length > 3) continue;
+    // (writing review 1119, as the page: the first sentence is GIVEN as the part's fact, no boxes; each sentence after it
+    //  is a definition or a detail, the only two columns: a Fact column there had two right answers)
+    const name = { Def: 'definition', D: 'detail' };
+    const head = `<div style="display:flex;align-items:flex-end"><span style="flex:1 1 auto"></span>${['Definition', 'Detail'].map((c) => `<span style="flex:0 0 92px;text-align:center;font:800 15px/1.1 'Nunito',sans-serif;color:${T.teal}">${c}</span>`).join('')}</div>`;
+    const fact = `<div data-lcs-ckfact style="font:700 17px/1.25 'Nunito',sans-serif;color:${T.ink}"><b style="font-weight:800;color:${T.teal}">Fact:</b> ${esc(g[0][1])}</div>`;
+    cards.push(shell(g[0][1], fact + head + g.slice(1).map((x) => `<div style="display:flex;align-items:center;gap:4px"><span style="flex:1 1 auto;min-width:0;font:700 17px/1.25 'Nunito',sans-serif;color:${T.ink}">${esc(x[1])}</span><span style="display:flex">` +
+      ['definition', 'detail'].map((c) => `<span${c === name[x[0]] ? ' data-lcs-correct="1"' : ''} data-lcs-choice="${c}" style="flex:0 0 92px;display:flex;justify-content:center">${tick(c === name[x[0]])}</span>`).join('') + `</span></div>`).join('')));
+  }
+  if (!cards.length) throw new Error('informative-writing-g3 check: no cards for ' + mode);
+  return { bodyHtml: STYLE + `<div data-lcs-iw3check="${mode}|${lv}" data-lcs-noliga="1"${key ? ' data-lcs-iskey="1"' : ''} style="${LIGS}">` + fRoom(typo(checkGrid(cards, { cols: 1 }))) + `</div>`, meta: {} };
+}
+/** iw3CheckWrite — the writing task of the unit check: every topic the children write about, with the notes the plan page
+ *  prints for it (the first three of each heading, from both sources; the bank's own words) */
+function iw3CheckWrite(mode, { locale }) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`informative-writing-g3 check: the topics are English (no ${locale} bank)`);
+  return { tasks: BANK.topics.map((Y) => ({ id: 'topic:' + Y.id, prompt: `${Y.title}. Notes: ` + [0, 1, 2].map((h) => `${Y.heads[h]}: ${[...notesOf(Y, h, 'A'), ...notesOf(Y, h, 'B')].slice(0, 3).map((x) => x.note).join('; ')}.`).join(' ') })) };
 }
 
 module.exports = { makeInformativeWritingG3Type, faultsOf, plan, LEVELS, INSTR, LINES, SPEC };

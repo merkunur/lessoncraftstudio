@@ -33,7 +33,7 @@ function wordTiles({ tokens: toks, order, fontPx = 18, tileH = 40, extraClass = 
 
 /* ---------- price tag (G2-276) ---------- */
 function priceTag({ value, unit, fontPx = 17 }) {
-  const text = `${value} ${unit}`;
+  const text = unit === '¢' ? `${value}¢` : `${value} ${unit}`;   // US English writes 35¢ close up (2026-11-19)
   const W = Math.max(64, 26 + text.length * (fontPx * 0.62));
   const H = 34;
   const d = `M14 2 H ${W - 6} a4 4 0 0 1 4 4 V 28 a4 4 0 0 1 -4 4 H 14 L 3 17 Z`;

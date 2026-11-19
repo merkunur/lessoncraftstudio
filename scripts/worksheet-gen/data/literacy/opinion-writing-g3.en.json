@@ -1981,9 +1981,9 @@
    "key": "fieldday",
    "tag": "field-day",
    "intro": [
-    "At the end of the school year, we have field day."
+    "At the end of the school year, we have a picnic."
    ],
-   "op": "Field day is the best day of the school year.",
+   "op": "Picnic day is the best day of the school year.",
    "rs": [
     [
      "we play games outside all day",
@@ -1995,11 +1995,11 @@
     ],
     [
      "we celebrate a great year",
-     "we have a picnic on the grass"
+     "we eat lunch on the grass"
     ]
    ],
    "x": "the whole school is outside",
-   "close": "No school day is as much fun as field day."
+   "close": "No school day is as much fun as the picnic."
   },
   {
    "set": "edit",

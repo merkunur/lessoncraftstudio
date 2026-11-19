@@ -139,4 +139,9 @@ module.exports = (FACTORY, BANK) => [
   ["the level-3 research question does not start with \"How do\"", BANK, "\"q3\": \"How do beavers live, eat, and build?\"", "\"q3\": \"What do beavers eat?\"", "G3-562", 3, "load"],
   ["a draft sample no longer than its level-1 starter", BANK, "\"Flagpoles use pulleys to raise flags.\"", "\"Flagpoles use pulleys.\"", "G3-561", 1, "load"],
   ["a heading that names the whole topic (The Plant)", BANK, "\"Stems\"", "\"The Plant\"", "G3-556", 3, "load"],
+  // (writing review 1119) the fact of each part is given; the sentences after it are a definition or a detail
+  ["a Fact column after the given fact", FACTORY, "const kinds = [['Def', 'definition'], ['D', 'detail']];", "const kinds = [['F', 'fact'], ['Def', 'definition'], ['D', 'detail']];", "G3-560", 2],
+  ["the fact of a part printed as a sentence to mark", FACTORY, "`<div data-lcs-item data-lcs-givenfact data-lcs-text=\"${A(fact.t)}\"", "`<div data-lcs-item data-lcs-krow=\"F\" data-lcs-text=\"${A(fact.t)}\"", "G3-560", 1],
+  ["the fact of a level-3 part not in bold", FACTORY, "<b style=\"font-weight:900\">${esc(fact[1])}</b></span> `", "${esc(fact[1])}</span> `", "G3-560", 3],
+  ["a detail that names a thing (is called)", BANK, "\"One pole is north, and one is south.\"", "\"One is called north, and one is called south.\"", "G3-560", 2, "load"],
 ];

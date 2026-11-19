@@ -400,6 +400,8 @@ function makeTwoStoriesKType({ id, slug, mode, exerciseType, i18n }) {
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // the unit checks (Part 7.6): the sorting page's task made small, one card a task (twoStoriesCheckPage below)
+    ...(mode === 'sort' ? { checkPage(args, ctx) { return twoStoriesCheckPage(args, ctx); } } : {}),
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the stories are English (no ${locale} bank)`);
@@ -625,6 +627,72 @@ function makeTwoStoriesKType({ id, slug, mode, exerciseType, i18n }) {
       }, SPEC, INFO);
     },
   };
+}
+
+/* ---------------------------------------------------------------- the item bank of the unit checks ---------------------------------------------------------------- */
+/** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the sorting page's task made small (K-685
+ *  Compare Two Stories). One card of the page (drawPage: a slot value both stories state, or the value one story states
+ *  where the other states another) and its three places as pictures to circle, in the diagram's order: Story 1 (its
+ *  character's picture), Both (the two circles), Story 2. The right place carries data-lcs-correct. THE TEACHER READS: a
+ *  card prints no word (its picture only); the two stories, the card's words and the question stand on the card's root as
+ *  data-lcs-teacher-reads (the key and the teacher pages print them, the child's form never does). Every card carries its
+ *  pair of stories as data-lcs-text. The drawing page (K-686) gives no check: its drawings have no one answer.
+ *  FORMS (review en.review-1119-read): one pair a form (CHECK_KIND), and two cards a page, a Both card and a card one
+ *  story tells; each carries "pair|slot=value" as data-lcs-text and its place as data-lcs-sortkind. The teacher says the
+ *  card's thing as a whole phrase (SAYS) and "circle the two rings" for both, which is what the card shows. */
+/** the adventure of each form of the unit check (review en.review-1119-read: no story in both forms): form A compares two
+ *  stories of losing and finding, form B two stories of helping a friend; one pair a form, the same on every page of it */
+const CHECK_KIND = { A: 'lost', B: 'help' };
+/** the form a check page is built for: build-checks seeds its pages "check|<unit>|A…" or "…|B…"; none outside a check */
+const checkFormOf = (ctx) => { const m = /^check\|[^|]+\|([AB])\d*\|/.exec(String((ctx && ctx.rng && ctx.rng.seed) || '')); return m ? m[1] : null; };
+/** what the teacher says the picture of a card shows (a whole phrase: "Look at the card: gave an umbrella" named a card the
+ *  child does not see; review en.review-1119-read) */
+const SAYS = { item: 'someone {card}', place: 'the story happens {card}', helper: '{card}', found: 'the lost thing was {card}', weather: 'it was {card}', friend: 'someone {card}', problem: 'a friend was {word}', gift: 'someone {card}' };
+function twoStoriesCheckPage({ difficulty, locale }, ctx) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`two-stories-k check: the stories are English (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const lv = Number(difficulty) || 2, rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+  const form = checkFormOf(ctx);
+  const cards = [];
+  const twoRings = `<svg data-lcs-bothicon width="64" height="42" viewBox="0 0 34 22" style="flex:0 0 auto;display:block"><circle cx="12" cy="11" r="9" fill="none" stroke="${T.teal}" stroke-width="2.5"/><circle cx="22" cy="11" r="9" fill="none" stroke="${T.coral}" stroke-width="2.5"/></svg>`;
+  // (no numbered badge: the text of an option is what the check reads as its answer, and a 1 or a 2 would make a card of
+  // words a card of numbers; the teacher names each story by its character, whose picture is the option)
+  const who = (st) => `<span style="display:block">${img(st.pic, 'checkhead-' + st.id, 62)}</span>`;
+  const phrase = (c) => { const v = BANK.kinds[c.kind].slots[c.slot][c.value]; return (SAYS[c.slot] || '{card}').replace('{card}', v[0]).replace('{word}', v[3] || v[0]); };
+  const cardOf = (pair, c, kind) => {
+    const pid = pair.s1.id + '+' + pair.s2.id;
+    // (review en.review-1119-read2: form B's titles both named Turtle while its places were Lamb and Goat) the teacher names each
+    // story by the picture that stands for it, as K-649 names each text
+    const pictured = (st) => st.pic[1].replace(/_/g, ' ');
+    const reads = `Story 1, with the ${pictured(pair.s1)} picture. ${pair.s1.title}: ${pair.s1.text.join(' ')} Story 2, with the ${pictured(pair.s2)} picture. ${pair.s2.title}: ${pair.s2.text.join(' ')} Look at the picture: ${phrase({ ...c, kind })}. Which story tells about it? Circle that story's picture. If both stories tell about it, circle the two rings.`;
+    const opts = [['s1', who(pair.s1)], ['both', twoRings], ['s2', who(pair.s2)]].map(([r, html]) => `<span data-lcs-region="${r}" data-lcs-choice="${r}"${r === c.region ? ' data-lcs-correct="1"' : ''} style="display:inline-flex;align-items:center;justify-content:center;min-width:84px;min-height:74px;padding:6px 10px;border:3px solid ${key && r === c.region ? T.teal : 'transparent'};border-radius:18px;background:#FFFFFF">${html}</span>`).join('');
+    // (the text id names the pair AND the card: a form's two cards are of one pair, read once)
+    return `<div data-lcs-text="${attr(pid + '|' + c.slot + '=' + c.value)}" data-lcs-sortkind="${c.region === 'both' ? 'both' : 'one'}" data-lcs-teacher-reads="${attr(reads)}" style="display:flex;align-items:center;gap:18px;padding:2px 4px">` +
+      `<span data-lcs-sortcard="${attr(c.slot + '=' + c.value)}" style="flex:0 0 auto;display:inline-flex;padding:6px;border:2.5px dashed ${T.ink};border-radius:8px;background:#FFFFFF">${img(c.pic, c.pic[1], 76)}</span>` +
+      `<div data-lcs-places style="flex:1 1 auto;display:flex;justify-content:space-around;align-items:center">${opts}</div></div>`;
+  };
+  if (form) {
+    // one pair of the form's adventure (the same on every page of the form), and two of its cards: a thing both stories
+    // tell, and a thing only one of them tells (review en.review-1119-read: one card of three places is a 33 % guess)
+    const kind = CHECK_KIND[form], hap = BANK.kinds[kind].happened, st = BANK.stories.filter((x) => x.kind === kind), fit = [];
+    for (const a of st) for (const c of st) if (a !== c) { const k = cmp(a, c, hap); if (pairFits(k, String(lv)) && k.shH.length) fit.push({ s1: a, s2: c, ...k }); }
+    if (!fit.length) throw new Error('two-stories-k check: no pair of ' + kind);
+    const fixed = require('../../lib/rng.js').makeRng('k685-check|' + form), pair = fit[fixed.int(0, fit.length - 1)];
+    const value = (slot, s) => s.slots[slot][0];
+    const make = (slot, region) => { const v = value(slot, region === 's2' ? pair.s2 : pair.s1), d = BANK.kinds[kind].slots[slot][v]; return { slot, value: v, region, text: d[0], pic: [d[1], d[2]] }; };
+    cards.push(cardOf(pair, make(pair.shH[fixed.int(0, pair.shH.length - 1)], 'both'), kind));
+    cards.push(cardOf(pair, make(pair.dfH[fixed.int(0, pair.dfH.length - 1)], fixed.int(0, 1) ? 's2' : 's1'), kind));
+  } else {
+    const pairsSeen = new Set();
+    for (let k = 0; k < 60 && pairsSeen.size < 4; k++) {
+      const plan = drawPage(BANK, 'sort', lv, rng, rng.int(1, 400));
+      const pid = plan.s1.id + '+' + plan.s2.id;
+      if (pairsSeen.has(pid)) continue;
+      pairsSeen.add(pid);
+      for (const c of plan.cards) cards.push(cardOf(plan, c, plan.kind));
+    }
+  }
+  return { bodyHtml: STYLE + `<div data-lcs-tscheck="${lv}" data-lcs-noliga="1"${key ? ' data-lcs-iskey="1"' : ''} style="${LIGS}">` + checkGrid(shuffle(cards, rng), { cols: 1 }) + `</div>`, meta: {} };
 }
 
 module.exports = { makeTwoStoriesKType, tsFaultsOf, drawPage, LEVELS, INSTR, LINES, SPEC, MODES, compare };

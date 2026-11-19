@@ -820,6 +820,8 @@ function makeSentencesG3Type({ id, slug, mode, exerciseType, i18n }) {
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // THE ITEM BANK of the unit checks (Part 7.6): G3-521, G3-522, G3-525, G3-526, G3-528 (sentCheckPage below)
+    ...(SENT_CHECK_MODES.has(mode) ? { checkPage(args, ctx) { return sentCheckPage(mode, args, ctx); } } : {}),
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the sentences are English sentences (no ${locale} bank)`);
@@ -1239,6 +1241,62 @@ function makeSentencesG3Type({ id, slug, mode, exerciseType, i18n }) {
       }, LEVELS, INFO, { ROW });
     },
   };
+}
+
+/* ------------------------------------------------------------------ the item bank of the unit checks */
+/** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the page's own items (plan(), the page's
+ *  draw, with its rules: one right answer, the places mixed), each made a card of its own with its answer in its markup.
+ *   joinpick (G3-521)  a sentence with its blank and the joining words to choose from: the right word carries
+ *            data-lcs-correct, the blank carries what the child writes in it (", so": and, but, or, so take their comma).
+ *   kinds (G3-522)  one sentence of the table and its three kinds as words to circle (simple, compound, complex: the
+ *            columns of the page, in their order); the right kind carries data-lcs-correct. Eight of the page's rows.
+ *   comparepick (G3-525)  a sentence and the three forms of its word: the right form carries data-lcs-correct, and the key
+ *            writes it into the blank.
+ *   possess (G3-526)  an owner and its thing (task 1: "Two dogs have bones."): the line starts with "the" and carries
+ *            the right words (data-lcs-answer: dogs' bones).
+ *   titles (G3-528)  a title printed in small letters and a line to write it with the right capitals (task 1;
+ *            data-lcs-answer). Its lesson's first page, G3-529, is circled word by word: its first word is always the
+ *            first right answer, so its cards would all have the answer in one place. */
+const SENT_CHECK_MODES = new Set(['joinpick', 'kinds', 'comparepick', 'possess', 'titles']);
+function sentCheckPage(mode, { difficulty, locale }, ctx) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`sentences-g3 check: the sentences are English sentences (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const lv = Number(difficulty) || 2, rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+  const P = plan(BANK, mode, lv, rng);
+  const choice = (o, okk) => opt(o, okk, key, `data-lcs-choice="${A(o)}"${okk ? ' data-lcs-correct="1"' : ''}`);
+  const opts = (xs, right) => `<div data-lcs-checkopts style="display:flex;flex-wrap:wrap;justify-content:center;gap:6px 18px">${xs.map((o) => choice(o, o === right)).join('')}</div>`;
+  const answered = (html, a) => html.replace('<span data-lcs-blank', `<span data-lcs-answer="${A(a)}" data-lcs-blank`);
+  const card = (attrs, inner) => `<div ${attrs} style="display:flex;flex-direction:column;align-items:center;gap:7px;padding:7px 14px 9px">${inner}</div>`;
+  const cards = [];
+  // (review en-1119-lit) every card names its kind (data-lcs-ckind): form B asks the kinds form A asks, card by card, and the
+  // first cards of a page are one of each kind (a check takes the first cards first)
+  const lead = (list, kindOf, kinds) => { const out = []; for (const k of kinds) { const i = list.findIndex((x) => kindOf(x) === k && !out.includes(x)); if (i >= 0) out.push(list[i]); } return [...out, ...list.filter((x) => !out.includes(x))]; };
+  if (mode === 'joinpick') {
+    // with a comma (and, but, or, so join two sentences) and without (because)
+    const ck = (x) => (COORD.includes(x.k) ? 'comma' : 'nocomma');
+    for (const x of lead(P.items, ck, ['comma', 'nocomma'])) { const want = COORD.includes(x.k) ? ', ' + x.k : x.k;
+      cards.push(card(`data-lcs-pickcheck="${x.k}" data-lcs-ckind="${ck(x)}" data-lcs-text="${A(x.t)}"`, `<div style="text-align:center">${answered(withBlank(x.t, 64 * 2, want, key, 19), want)}</div>` + opts(x.opts, x.k))); }
+  } else if (mode === 'kinds') {
+    const cols = LEVELS.kinds[lv].cols;
+    // simple with a list (the trap of the page: commas do not make a sentence compound), compound, complex
+    const ck = (r) => (r.kind === 'simple' && BANK.kinds.series.includes(r.t) ? 'list' : r.kind);
+    // (the three kinds in an order that is no staircase of the columns simple, compound, complex: the right word of the
+    // three cards a check takes never steps 1, 2, 3)
+    const ORDERS = [['list', 'complex', 'compound'], ['compound', 'list', 'complex'], ['compound', 'complex', 'list'], ['complex', 'list', 'compound']];
+    for (const r of lead(P.rows, ck, ORDERS[rng.int(0, ORDERS.length - 1)]).slice(0, 8)) cards.push(card(`data-lcs-kindcheck="${r.kind}" data-lcs-ckind="${ck(r)}" data-lcs-text="${A(r.t)}"`, `<span data-lcs-read style="text-align:center;font:700 19px/1.35 'Nunito',sans-serif;color:${T.ink}">${esc(r.t)}</span>` + opts(cols, r.kind)));
+  } else if (mode === 'comparepick') {
+    // the word as it is (very, as … as), comparing two (-er, more), comparing three or more (-est, most)
+    const ck = (x) => { if (x.ad) return 'ad'; const F = formsOf(x.w); return F.comp === x.right ? 'comp' : F.sup === x.right ? 'sup' : 'base'; };
+    for (const x of lead(P.items, ck, ['base', 'comp', 'sup'])) cards.push(card(`data-lcs-cmpcheck="${A(x.right)}" data-lcs-ckind="${ck(x)}" data-lcs-text="${A(x.t)}"`, `<div style="text-align:center">${withBlank(x.t, Math.max(120, Math.ceil(Math.max(...x.opts.map((o) => o.length)) * 9.2) + 18), x.right, key, 19)}</div>` + opts(x.opts, x.right)));
+  } else if (mode === 'possess') {
+    // one owner ('s) and more than one (s')
+    for (const x of lead(P.own, (y) => y.kind, ['one', 'many'])) cards.push(card(`data-lcs-owncheck="${x.kind}" data-lcs-ckind="${x.kind}" data-lcs-n="${x.n}"`, `<span data-lcs-read style="font:700 20px/1.35 'Nunito',sans-serif;color:${T.ink}">${esc(x.prompt)}</span>` +
+      `<div style="width:330px">${wline({ starter: 'the', answer: key ? x.right : null, attrs: key ? '' : `data-lcs-answer="${A(x.right)}"` })}</div>`));
+  } else {
+    for (const x of P.titles) cards.push(card(`data-lcs-titlecheck="${A(x.lc)}"`, `<span data-lcs-read style="font:700 20px/1.35 'Nunito',sans-serif;color:${T.ink}">${esc(x.lc)}</span>` +
+      `<div style="width:520px;max-width:100%">${wline({ answer: key ? x.right : null, attrs: key ? '' : `data-lcs-answer="${A(x.right)}"` })}</div>`));
+  }
+  return { bodyHtml: STYLE + `<div data-lcs-noliga="1" style="${LIGS}">` + fRoom(typo(checkGrid(cards, { cols: 1 }))) + `</div>`, meta: {} };
 }
 
 module.exports = { makeSentencesG3Type, faultsOf, plan, LEVELS, INSTR, LINES, titleCase, kindOf };

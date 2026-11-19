@@ -622,6 +622,8 @@ function makePartsOfSpeechType({ id, slug, mode, exerciseType, i18n }) {
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // THE ITEM BANK of the unit checks (Part 7.6): G3-531, G3-533, G3-534, G3-536 (posCheckPage below)
+    ...(POS_CHECK_MODES.has(mode) ? { checkPage(args, ctx) { return posCheckPage(mode, args, ctx); } } : {}),
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the sentences are English (no ${locale} bank)`);
@@ -1438,6 +1440,154 @@ function gapSentences(k, task, rows, key, kind) {
     const tail = /^[.!?]/.test(b) ? b[0] : '', rest = tail ? b.slice(1) : b;
     return `<div data-lcs-gsent="${esc(x.word)}" style="display:flex;align-items:flex-end;gap:10px">${badge(i + 1)}<span data-lcs-print data-lcs-read style="display:flex;align-items:flex-end;white-space:nowrap;font:700 20px/1.3 'Nunito',sans-serif;color:${T.ink}">${a.trim() ? `<span style="padding-bottom:3px">${esc(a.trim())}&nbsp;</span>` : ''}${rule(GW, key ? x.answer : null, { px: 18, h: CELL })}<span style="padding-bottom:3px">&nbsp;<span data-lcs-paren>(${esc(x.word)})</span>${esc(tail)}${rest.trim() ? ' ' + esc(rest.trim()) : ''}</span></span></div>`;
   }).join('')}</div>`, 6, 'gap:3px;flex:1 1 auto;');
+}
+
+/* ---------------------------------------------------------------- the item bank of the unit checks ---------------------------------------------------------------- */
+/** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the page's task made small, each card one
+ *  task with its answer in its markup, drawn by the page's own rules.
+ *   sort (G3-531)  one word of the sort, certain of its job alone, and the jobs of the level as its five columns (noun,
+ *            pronoun, verb, adjective, adverb, in that order): the child circles its job (the column it goes under); the
+ *            right job carries data-lcs-correct. Every job on a page, never two words of one job in a row; half the
+ *            verbs or more irregular past forms (ran, ate), so -ed does not mark the verbs.
+ *   pluralpick (G3-533)  one sentence with the plural printed three ways (two ways on level 1): the plural, and the
+ *            singular and the misspellings a child writes; the right one carries data-lcs-correct. Every rule of the level
+ *            on a page; the right one the only longest on some cards and not on others; the places mixed; no plural of a
+ *            card printed in the sentence of another.
+ *   past (G3-534)  one sentence that names a time in the past, with a line for the past of the verb in ( ) (task 2 of
+ *            the page; data-lcs-answer): regular and irregular verbs (level 1 regular only), three spelling moves or more;
+ *            no past of a card printed in another card's sentence.
+ *   agree (G3-536)  one sentence with two words to choose from (task 1 of the page): the one that agrees carries
+ *            data-lcs-correct, and the key underlines the subject. A verb pair once a page, both numbers, the right word the
+ *            longer of its two on some cards and the shorter on others, the places mixed. The arrow of the page is left to
+ *            the teacher's key (the key underlines the subject); the card asks for the circle. */
+/** (review en-1119-lit) the nouns of the sort that name a thing: such a noun often stands before another noun (pumpkin pie) */
+const THING_NOUNS = new Set(['apple', 'library', 'kitchen', 'window', 'pillow', 'carrot', 'pumpkin', 'planet', 'ocean', 'island', 'jacket', 'robot', 'piano', 'zoo', 'banana']);
+/** an agreement sentence with a noun of the other number between its subject and its verb (The [box] of crayons {is|are}):
+ *  the last word before the choice, plural when it ends in s (bus, glass: singular) or is an irregular plural */
+const SING_S = new Set(['bus', 'glass', 'class', 'grass', 'dress']);
+const PLURAL_IRR = new Set(['children', 'people', 'men', 'women', 'feet', 'teeth', 'mice', 'geese']);
+function otherNumberBetween(x) {
+  const i = x.text.indexOf(']'), j = x.text.indexOf('{');
+  if (i < 0 || j < i) return false;
+  const last = (x.text.slice(i + 1, j).trim().split(/\s+/).pop() || '').toLowerCase();
+  if (!/^[a-z]+$/.test(last)) return false;
+  const pl = (/s$/.test(last) && !SING_S.has(last)) || PLURAL_IRR.has(last);
+  return (x.num === 'pl') !== pl;
+}
+const POS_CHECK_MODES = new Set(['sort', 'pluralpick', 'past', 'agree']);
+function posCheckPage(mode, { difficulty, locale }, ctx) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`parts-of-speech-g3 check: the sentences are English (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const lv = Number(difficulty) || 2, d = LEVELS[mode][lv] || LEVELS[mode][2], rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+  const draw = (what, test) => { for (let k = 0; k < 4000; k++) { const x = test(); if (x) return x; } throw new Error(`parts-of-speech-g3 check: no ${what} (level ${lv})`); };
+  const choice = (w, okk, px) => pill(w, okk, key, px, `data-lcs-choice="${esc(w)}"${okk ? ' data-lcs-correct="1"' : ''}`);
+  const tail = (b) => { const t = b.trim(); return /^[.!?]$/.test(t) ? `<span>${esc(t)}</span>` : t ? ' ' + esc(t) : ''; };
+  const cards = [];
+  if (mode === 'sort') {
+    const S = BANK.pos.sort, tags = d.tags.split('');
+    const got = draw('sort words', () => {
+      const counts = tags.map(() => 1);
+      for (let i = 0; i < 8 - tags.length; i++) counts[rng.int(0, tags.length - 1)]++;
+      if (Math.max(...counts) > 3) return null;
+      // (review en-1119-lit) a noun of a thing often names another noun (pumpkin pie, apple juice): the nouns of the cards
+      // are people and animals, nouns alone
+      const per = tags.map((g, i) => shuffle(S[g].filter((w) => (tags.length < 5 || w.length <= 7) && !(g === 'N' && THING_NOUNS.has(w))), rng).slice(0, counts[i]).map((w) => ({ w, g })));
+      if (per.some((xs, i) => xs.length < counts[i])) return null;
+      const verbs = per[tags.indexOf('V')] || [];
+      if (verbs.filter((x) => !/ed$/.test(x.w)).length * 2 < verbs.length) return null;
+      const order = shuffle(per.flat(), rng);
+      if (order.some((x, i) => i && x.g === order[i - 1].g)) return null;
+      // (review en-1119-lit-2) the -ly trap both ways: an adverb with -ly and an adjective with -ly first, then a word of
+      // another job (the first cards of a page are the ones a check takes first)
+      if (tags.includes('D')) {
+        const lead = [order.find((x) => x.g === 'D' && isLy(x.w)), order.find((x) => x.g === 'A' && isLy(x.w))];
+        if (lead.some((x) => !x)) return null;
+        lead.push(order.find((x) => x.g !== 'D' && x.g !== 'A'));
+        if (!lead[2]) return null;
+        return [...lead, ...order.filter((x) => !lead.includes(x))];
+      }
+      return order;
+    });
+    for (const x of got) {
+      cards.push(`<div data-lcs-sortcheck="${esc(x.w)}" data-lcs-job="${x.g}" data-lcs-ckind="${x.g === 'A' && isLy(x.w) ? 'Aly' : x.g}" style="display:flex;flex-direction:column;align-items:center;gap:8px;padding:6px 12px">` +
+        `<span data-lcs-read style="white-space:nowrap;font:700 26px/1.2 'Nunito',sans-serif;color:${T.ink};padding:3px 18px;border:2.5px solid ${T.creamDeep};background:#FFFFFF;border-radius:10px">${esc(x.w)}</span>` +
+        `<span data-lcs-jobs style="display:inline-flex;flex-wrap:wrap;justify-content:center;gap:6px 10px">${tags.map((g) => choice(NAME[g], g === x.g, 19)).join('')}</span></div>`);
+    }
+  } else if (mode === 'pluralpick') {
+    const opts = d.opts, rules = d.rules;
+    // (review en-1119-lit) no card of rule 1 (add -s); each form asks an -es or -ies plural (rules 2, 3) and a plural that
+    // changes the word (rule 4, -ves; level 3 also rule 5, mice), in turn on the page
+    const kindOfP = (x) => (x.rule === 1 ? 's' : x.rule <= 3 ? 'es' : 'chg');
+    const pool = BANK.plural.nouns.filter((x) => (lv === 1 || x.rule !== 1) && rules.includes(x.rule) && (x.rule !== 1 || !x.ay || rules.includes(3)) && x.wrong.length >= 1 && x.wrong.length + (x.s !== x.p ? 1 : 0) >= opts - 1 && (lv > 1 || x.rule !== 1 || !x.ay));
+    const n = 8;
+    const page = draw('plural cards', () => {
+      const drawn = shuffle(pool, rng).slice(0, n);
+      if (drawn.length < n || rules.some((r) => r !== 1 && !drawn.some((x) => x.rule === r)) || rules.some((r) => drawn.filter((x) => x.rule === r).length > Math.ceil(n / rules.length) + 1)) return null;
+      // the two kinds in turn (an -es or -ies card first), the rest of the larger kind at the end
+      const byKind = ['es', 's', 'chg'].map((k) => drawn.filter((x) => kindOfP(x) === k)).filter((g) => g.length);
+      const got = []; for (let i = 0; i < n; i++) for (const g of byKind) if (g[i]) got.push(g[i]);
+      const pls = new Set(got.map((x) => x.p));
+      if (got.some((x) => wordsOf(x.sent).some((w) => pls.has(w)))) return null;
+      const wr = got.map((x) => shuffle([...new Set([...x.wrong, ...(x.s !== x.p ? [x.s] : [])])], rng).slice(0, opts - 1));
+      if (got.filter((x, i) => wr[i].length === 1 && wr[i][0] === x.s).length >= 3) return null;
+      const only = (x, w, f) => { const L = [x.p, ...w].map((y) => y.length), m = f(...L); return x.p.length === m && L.filter((k) => k === m).length === 1; };
+      const longest = got.filter((x, i) => only(x, wr[i], Math.max)).length, shortest = got.filter((x, i) => only(x, wr[i], Math.min)).length;
+      if (longest < Math.ceil(n / 6) || longest > Math.floor(n * 2 / 3) || shortest > Math.floor(n * 2 / 3)) return null;
+      return { got, wr };
+    });
+    const at = mixedPlaces(n, opts, rng);
+    page.got.forEach((x, i) => {
+      const w = [...page.wr[i]]; w.splice(at[i], 0, x.p);
+      const [a, b2] = x.sent.split('___');
+      cards.push(`<div data-lcs-pluralcheck="${esc(x.s)}" data-lcs-rule="${x.rule}" data-lcs-ckind="${kindOfP(x)}" style="display:flex;justify-content:center;padding:6px 12px">` +
+        `<span data-lcs-read style="font:700 21px/1.6 'Nunito',sans-serif;color:${T.ink}">${esc(a.trim())} <span data-lcs-checkopts style="display:inline-flex;gap:6px;align-items:center">${w.map((y) => choice(y, y === x.p, 21)).join('')}</span>${tail(b2)}</span></div>`);
+    });
+  } else if (mode === 'past') {
+    const PV = BANK.past.verbs.filter((v) => roomFor(v.p) <= GAP_W.past);
+    const page = draw('past cards', () => {
+      const irrN = lv === 1 ? 0 : 4;
+      const reg = shuffle(PV.filter((v) => v.kind === 'R'), rng).slice(0, 8 - irrN), irr = shuffle(PV.filter((v) => v.kind === 'I'), rng).slice(0, irrN);
+      if (new Set(reg.map((v) => v.move)).size < 3) return null;
+      const got = shuffle([...reg, ...irr], rng);
+      if (lv >= 2 && !kindsOk(got.map((v) => v.kind).join(''))) return null;
+      const pasts = new Set(got.map((v) => v.p));
+      if (got.some((v) => wordsOf(v.sent).some((w) => pasts.has(w) || w === v.b))) return null;
+      return got;
+    });
+    for (const v of page) {
+      const [a, b] = v.sent.split('___');
+      const t = /^[.!?]/.test(b) ? b[0] : '', rest = t ? b.slice(1) : b;
+      cards.push(`<div data-lcs-pastcheck="${esc(v.b)}" data-lcs-kind="${v.kind}" style="display:flex;justify-content:center;padding:8px 12px 10px">` +
+        `<span data-lcs-read style="display:flex;flex-wrap:wrap;align-items:flex-end;row-gap:6px;font:700 21px/1.3 'Nunito',sans-serif;color:${T.ink}">${a.trim() ? `<span style="padding-bottom:3px;">${esc(a.trim())}&nbsp;</span>` : ''}` +
+        `<span style="display:inline-flex;align-items:flex-end;white-space:nowrap">${rule(GAP_W.past, key ? v.p : null, { px: 18, h: CELL, attrs: key ? '' : `data-lcs-answer="${esc(v.p)}"` })}<span style="padding-bottom:3px">&nbsp;<span data-lcs-paren>(${esc(v.b)})</span>${esc(t)}</span></span>${rest.trim() ? `<span style="padding-bottom:3px">&nbsp;${esc(rest.trim())}</span>` : ''}</span></div>`);
+    }
+  } else {
+    // (review en-1119-lit) every card has a noun of the other number between its subject and its verb (The box of crayons;
+    // The flowers in the pot): a card without one is easy, and a form of easy cards is no form of the lesson
+    const all = BANK.agree.items.filter((x) => d.kinds.includes(kindOfAgree(x)) && x.kind !== 'pron' && (lv !== 2 || otherNumberBetween(x)));
+    if (lv === 3) throw new Error('parts-of-speech-g3 check: no cards of level 3 for agree (its pronoun sentences point to a noun)');
+    const n = 8;
+    const rows = draw('agreement cards', () => {
+      const set = onePairEach(shuffle(all, rng), n);
+      if (!set) return null;
+      const nums = set.map(numLetter).join('');
+      if (nums.split('s').length - 1 < 3 || nums.split('p').length - 1 < 3) return null;
+      const longer = set.filter((x) => { const p = parseAgree(x.text); return p.right.length > p.wrong.length; }).length;
+      if (longer < 3 || n - longer < 3) return null;
+      for (let t = 0; t < 300; t++) { const got = shuffle(set, rng); if (kindsOk(got.map(numLetter).join('')) && numLetter(got[0]) !== numLetter(got[1])) return got; }
+      return null;
+    });
+    const at = mixedPlaces(n, 2, rng);
+    rows.forEach((x, i) => {
+      const p = parseAgree(x.text);
+      const two = [[p.right, true], [p.wrong, false]]; if (at[i]) two.reverse();
+      const group = `<span data-lcs-checkopts style="display:inline-flex;gap:4px;align-items:center">${two.map(([w, okk]) => choice(w, okk, 21)).join(' ')}</span>`;
+      const subj = `<span style="position:relative;display:inline-block">${esc(p.subject)}${key ? `<span data-lcs-underline style="position:absolute;top:100%;left:0;right:0;height:3px;border-radius:2px;background:${T.teal}"></span>` : ''}</span>`;
+      const html = x.text.split(/(\[[^\]]+\]|\{[^}]+\})/).filter((s) => s !== '').map((s) => (s[0] === '[' ? subj : s[0] === '{' ? group : esc(s))).join('');
+      cards.push(`<div data-lcs-agreecheck="${esc(x.text)}" data-lcs-num="${x.num}" data-lcs-ckind="${x.num}" style="display:flex;justify-content:center;padding:6px 12px 10px"><span data-lcs-read style="font:700 21px/1.6 'Nunito',sans-serif;color:${T.ink}">${html}</span></div>`);
+    });
+  }
+  return { bodyHtml: STYLE + `<div data-lcs-noliga="1" style="${LIGS}">` + fRoom(typo(checkGrid(cards, { cols: 1 }))) + `</div>`, meta: {} };
 }
 
 module.exports = { makePartsOfSpeechType, posFaultsOf, LEVELS, INSTR, placesOk, kindsOk };

@@ -145,6 +145,9 @@ function flatNouns(theme, rng, count, maxLenU, minMaxLen, band, u) {
   return out;
 }
 
+/** the English thermometer page (degrees Fahrenheit, 0-100; 2026-11-19, review en-1119-math) */
+const THERMO_F = { 1: { step: 10, labelEvery: 1 }, 2: { step: 2, labelEvery: 5 }, 3: { step: 2, labelEvery: 10 } };
+
 const DEFAULT_LEVELS = {
   // levels (2026-10-09 Level Set; level 2 = the published page unless noted)
   thermometer: { 1: { max: 60, step: 10, labelEvery: 1 }, 2: { max: 40, step: 5, labelEvery: 1 }, 3: { max: 40, step: 1, labelEvery: 5 } },
@@ -153,6 +156,46 @@ const DEFAULT_LEVELS = {
   'order-units': { 1: { gapMin: 2 }, 2: {}, 3: { consecutive: true } },
   'cubes-measure': { 1: { rows: 3, u: 56, lenMin: 2, lenMax: 5 }, 2: { rows: 3, u: 40, lenMin: 3, lenMax: 8 }, 3: { rows: 4, u: 36, lenMin: 3, lenMax: 9 } },
 };
+
+/**
+ * THE ITEM BANK of the unit checks (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6") for the thermometer
+ * face (2026-11-19, unit g3-time-temperature-mass-volume): the worksheet draws its three thermometers 560 px tall, taller
+ * than a whole part of a check. Here every value the level draws (on a mark, never 0 and never the top of the scale; the
+ * per-degree level never on a labelled five — the rules of _build below) is a card of its own: the same scale by the same
+ * primitive at a check's height, its unit above it and after the answer box.
+ */
+function thermometerCheckPage({ difficulty, locale }, ctx) {
+  const { checkGrid } = require('../../lib/check-page.js');
+  // 2026-11-19 (review en-1119-math, part 4): the English page reads degrees Fahrenheit (THERMO_F: level 2 marks by 2,
+  // numbered every 10, the reading between the numerals). A check card shows forty degrees of that scale around its value
+  // (a whole 0-100 scale at a check's height puts the marks 4 px apart), never the value on the window's ends.
+  if (String(locale || 'en').slice(0, 2) === 'en') {
+    const f = THERMO_F[difficulty] || THERMO_F[2], lab = f.step * f.labelEvery, vals = [];
+    for (let v = f.step; v < 100; v += f.step) if (!(f.labelEvery > 1 && v % lab === 0)) vals.push(v);
+    const UF = `<span data-lcs-unit="F" style="font-family:'Baloo 2';font-weight:700;font-size:22px;line-height:1;color:#146B5E;white-space:nowrap">°F</span>`;
+    const fcards = ctx.rng.shuffle(vals).slice(0, 8).map((v) => {
+      const los = []; for (let lo = 0; lo + 40 <= 100; lo += 10) if (v > lo + 5 && v < lo + 35) los.push(lo);
+      const lo = ctx.rng.pick(los.length ? los : [Math.max(0, Math.min(60, Math.floor(v / 10) * 10 - 20))]);
+      const th = thermometerPrim({ value: v, min: lo, max: lo + 40, step: f.step, labelEvery: f.labelEvery, height: 250 });
+      return `<div class="ws-card-stage" style="gap:26px;justify-content:center;padding:6px 8px" data-lcs-step="${f.step}" data-lcs-labelevery="${f.labelEvery}">` +
+        `<div style="display:flex;flex-direction:column;align-items:center;gap:6px">${UF}${th.svg}</div>` +
+        `<span style="display:inline-flex;align-items:center;gap:6px">${answerBox({ w: 76, h: 54, answer: v })}${UF}</span></div>`;
+    });
+    return { bodyHtml: checkGrid(fcards, { cols: 2 }), meta: {} };
+  }
+  const d = this.difficulty[difficulty] || this.difficulty[2];
+  const st = d.step || 5, le = d.labelEvery || 1, max = d.max || 40;
+  const values = [];
+  for (let v = st; v < max; v += st) if (!(le > 1 && v % (st * le) === 0)) values.push(v);
+  const UNIT = `<span data-lcs-unit="C" style="font-family:'Baloo 2';font-weight:700;font-size:22px;line-height:1;color:#146B5E;white-space:nowrap">°C</span>`;
+  const cards = ctx.rng.shuffle(values).slice(0, 8).map((v) => {
+    const th = thermometerPrim({ value: v, min: 0, max, step: st, labelEvery: le, height: 250 });
+    return `<div class="ws-card-stage" style="gap:26px;justify-content:center;padding:6px 8px" data-lcs-step="${st}" data-lcs-labelevery="${le}">` +
+      `<div style="display:flex;flex-direction:column;align-items:center;gap:6px">${UNIT}${th.svg}</div>` +
+      `<span style="display:inline-flex;align-items:center;gap:6px">${answerBox({ w: 76, h: 54, answer: v })}${UNIT}</span></div>`;
+  });
+  return { bodyHtml: checkGrid(cards, { cols: 2 }), meta: {} };
+}
 
 function makeMeasurementType(cfg) {
   const { id, slug, mode, gradeBand, i18n } = cfg;
@@ -187,6 +230,8 @@ function makeMeasurementType(cfg) {
     // the unit checks (Part 7.6), cube by cube: the page with white squares, the key with the coloured ones (ctx.check
     // reaches the key build only through this hook)
     ...(mode === 'cubes-measure' ? { checkPage(args, ctx) { return this.build(args, { ...(ctx || {}), check: true }); } } : {}),
+    // … and the thermometer (G3-345): its page draws three thermometers 560 px tall, most of a check page each
+    ...(mode === 'thermometer' ? { checkPage(args, ctx) { return thermometerCheckPage.call(this, args, ctx); } } : {}),
 
     _build({ theme, difficulty, locale }, ctx, S) {
       const d = this.difficulty[difficulty];
@@ -290,6 +335,26 @@ function makeMeasurementType(cfg) {
             answerBox({ w: 64, h: 48, answer: Math.abs(a - b) }) + `</span></div>`);
         }
         return { bodyHtml: cardGrid({ cards, cols: 1, rows: 2 }), meta: {} };
+      }
+
+      if (mode === 'thermometer' && String(locale || 'en').slice(0, 2) === 'en') {
+        // 2026-11-19 (review en-1119-math): an American page reads degrees Fahrenheit (US children meet temperature in °F;
+        // G3-476 draws the same scale). 0-100 °F; level 1 marks by 10, each numbered; level 2 marks by 2, numbered every
+        // 10, the reading BETWEEN the numerals; level 3 marks by 2, numbered every 20. Never 0, never 100. The other ten
+        // languages keep the Celsius page below, unchanged.
+        const f = THERMO_F[difficulty] || THERMO_F[2], used = new Set();
+        for (let i = 0; i < 3; i++) {
+          let v;
+          do { v = f.step * rng.int(1, Math.floor(100 / f.step) - 1); } while (used.has(v) || (f.labelEvery > 1 && v % (f.step * f.labelEvery) === 0));
+          used.add(v);
+          const th = thermometerPrim({ value: v, min: 0, max: 100, step: f.step, labelEvery: f.labelEvery, height: 400 });
+          const lab = f.step * f.labelEvery, near = Math.round(v / lab) * lab;
+          S.push({ kind: 'num', q: `therm:${v}`, ask: v, ans: v, step: 1, slips: [v + f.step, v - f.step, near !== v ? near : v + lab, v + f.step * 2], prompt: th.svg });
+          const UNIT = `<span data-lcs-unit="F" style="font-family:'Baloo 2';font-weight:700;font-size:24px;line-height:1;color:#146B5E;white-space:nowrap">°F</span>`;
+          cards.push(`<div class="ws-card-stage" style="flex-direction:column;gap:18px" data-lcs-step="${f.step}" data-lcs-labelevery="${f.labelEvery}">` + UNIT + zoomSvg(th.svg, 1.4) +
+            `<span style="display:inline-flex;align-items:center;gap:6px">${answerBox({ w: 76, h: 54, answer: v })}${UNIT}</span></div>`);
+        }
+        return { bodyHtml: cardGrid({ cards, cols: 3, rows: 1 }), meta: {} };
       }
 
       if (mode === 'thermometer') {

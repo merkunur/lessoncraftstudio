@@ -39,6 +39,9 @@ const USE = { contents: 'Use the table of contents.', heading: 'Use the headings
 const reEsc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const hasWord = (text, w) => new RegExp('(^|[^A-Za-z])' + reEsc(w) + '(s|es)?([^A-Za-z]|$)', 'i').test(text);
 /** the pages (2 to 5) on which a word stands */
+/** the glossary's words in ABC order (review en.review-1119-read2: printed in page order, the opposite of what the lesson
+ *  teaches); the bank keeps the key words in the order of the pages that print them in bold */
+const glossOrder = (keys) => keys.slice().sort((x, y) => x.word.toLowerCase().localeCompare(y.word.toLowerCase()));
 const pagesOf = (t, w) => t.parts.map((p, i) => (hasWord(partText(p), w) ? i + 2 : 0)).filter(Boolean);
 const pagesText = (ps) => (ps.length === 1 ? String(ps[0]) : ps.length === 2 ? ps[0] + ' and ' + ps[1] : ps.slice(0, -1).join(', ') + ', and ' + ps[ps.length - 1]);
 
@@ -108,7 +111,7 @@ function bookBox(t, { font, lh }) {
     const side = b.sidebar.page === i + 2 ? `<span data-lcs-sidebar style="float:right;width:186px;margin:2px 0 2px 10px;padding:4px 8px;border:2px dashed ${T.teal};border-radius:10px;background:${T.cream};font:700 12.5px/1.25 'Nunito',sans-serif;color:${T.ink}"><span style="display:block;font:700 13.5px/1.15 'Baloo 2',cursive;color:${T.teal}">${esc(b.sidebar.title)}</span>${esc(b.sidebar.text)}</span>` : '';
     return `<div data-lcs-part="${i + 2}" style="display:flex;gap:7px;margin-top:${i ? 3 : 0}px">${pageTab(i + 2)}<div data-lcs-partbody style="flex:1 1 auto;min-width:0;font:700 ${font}px/${lh} 'Nunito',sans-serif;color:${T.ink}">${side}<span data-lcs-heading style="font:700 ${font + 1}px/1 'Baloo 2',cursive;color:${T.teal};margin-right:7px">${esc(p.heading)}</span>${body}</div></div>`;
   }).join('');
-  const gloss = b.keys.map((k) => `<div data-lcs-gloss="${esc(k.word)}" style="font:700 12.5px/1.25 'Nunito',sans-serif;color:${T.ink}">${strong(k.word, '')}: ${esc(k.meaning)}</div>`).join('');
+  const gloss = glossOrder(b.keys).map((k) => `<div data-lcs-gloss="${esc(k.word)}" style="font:700 12.5px/1.25 'Nunito',sans-serif;color:${T.ink}">${strong(k.word, '')}: ${esc(k.meaning)}</div>`).join('');
   const index = b.index.slice().sort((x, y) => x.toLowerCase().localeCompare(y.toLowerCase())).map((w) => `<span data-lcs-index="${esc(w)}" data-lcs-pages="${pagesOf(t, w).join(',')}" style="white-space:nowrap">${esc(w)} <b style="color:${T.teal}">${pagesOf(t, w).join(', ')}</b></span>`).join('');
   const small = (text) => `<div style="display:flex;align-items:center;gap:6px;font:700 14.5px/1.1 'Baloo 2',cursive;color:${T.teal}">${text}</div>`;
   return `<div data-lcs-book="${t.id}" data-lcs-words="${wordsIn(t.parts.map(partText).join(' '))}" style="flex:0 0 auto;padding:5px 12px 6px;border:2.5px solid ${T.teal};border-radius:16px;background:#FFFFFF">` +
@@ -117,7 +120,7 @@ function bookBox(t, { font, lh }) {
     `<div data-lcs-contents style="margin:1px 0 4px;padding:3px 10px 4px;border-radius:10px;background:${T.cream};display:flex;align-items:flex-start;gap:14px">${small('Contents')}<div style="flex:1 1 auto;display:flex;flex-wrap:wrap;gap:0 20px">${toc}</div></div>` +
     pages +
     `<div data-lcs-backmatter style="margin-top:4px;padding:3px 10px 4px;border-radius:10px;background:${T.cream}">` +
-    `<div style="display:flex;align-items:flex-start;gap:12px">${small(pageTab(6) + 'Glossary')}<div data-lcs-glossary style="flex:1 1 auto;display:grid;grid-template-columns:1fr 1.25fr;gap:0 16px">${gloss}</div></div>` +
+    `<div style="display:flex;align-items:flex-start;gap:12px">${small(pageTab(6) + 'Glossary')}<div data-lcs-glossary style="flex:1 1 auto;display:grid;grid-template-columns:1fr 1.25fr;grid-template-rows:repeat(2,auto);grid-auto-flow:column;gap:0 16px">${gloss}</div></div>` +
     `<div data-lcs-indexbox style="display:flex;align-items:baseline;gap:12px;margin-top:2px">${small('Index')}<div style="flex:1 1 auto;display:flex;flex-wrap:wrap;gap:0 16px;font:700 12.5px/1.3 'Nunito',sans-serif;color:${T.ink}">${index}</div></div></div></div>`;
 }
 const legend = () => `<div data-lcs-legend style="flex:0 0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:3px 13px;font:700 13px/1.2 'Nunito',sans-serif;color:${T.ink}"><span style="font-weight:800;color:${T.teal}">Text features:</span>` +
@@ -132,6 +135,9 @@ function makeInfoText3bType({ id, slug, mode, i18n }) {
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // the unit checks (Part 7.6): the page's task made small, one card a task (bookCheckPage below; the wishes of Which
+    // Text Feature? need the whole book to use the feature and give no check)
+    ...(mode === 'find' ? { checkPage(args, ctx) { return bookCheckPage(args, ctx, D); } } : {}),
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the informational texts are English texts (no ${locale} bank)`);
@@ -215,6 +221,9 @@ function makeInfoText3bType({ id, slug, mode, i18n }) {
         else { const s = R(sb[0]), p = R(sb[0].closest('[data-lcs-part]')); if (s.bottom > p.bottom + 0.5 || s.right > p.right + 0.5 || s.width < 150) fails.push('the sidebar leaves its page'); }
         const gl = [...book.querySelectorAll('[data-lcs-gloss]')], kws = [...book.querySelectorAll('[data-lcs-keyword]')].map((e) => e.textContent.trim().toLowerCase());
         if (gl.length !== 4) fails.push('the glossary has not four words');
+        // read down each column, then the next column: the glossary is in ABC order
+        const glRead = gl.slice().sort((a, b) => (Math.round(R(a).left / 8) - Math.round(R(b).left / 8)) || (R(a).top - R(b).top)).map((g) => g.dataset.lcsGloss.toLowerCase());
+        if (glRead.join() !== glRead.slice().sort((a, b) => a.localeCompare(b)).join()) fails.push('the glossary is not in ABC order (down each column): ' + glRead.join(', '));
         gl.forEach((g) => { const w = g.dataset.lcsGloss.toLowerCase(); if (!kws.some((k) => k === w || k.startsWith(w.slice(0, Math.max(3, w.length - 1))))) fails.push('the glossary word ' + w + ' is no key word of a page'); });
         const ix = [...book.querySelectorAll('[data-lcs-index]')], names = ix.map((e) => e.dataset.lcsIndex.toLowerCase());
         if (ix.length !== 7 || names.join() !== names.slice().sort((a, b) => a.localeCompare(b)).join()) fails.push('the index has not seven words in ABC order');
@@ -286,6 +295,64 @@ function makeInfoText3bType({ id, slug, mode, i18n }) {
       });
     },
   };
+}
+
+/* ---------------------------------------------------------------- the item bank of the unit checks ---------------------------------------------------------------- */
+/** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the page's task made small, each card one
+ *  find-it question of the page (level 2: it names its feature, the answer is written: data-lcs-answer) under the ONE
+ *  text feature of the book that answers it, drawn as the book draws it, with the book's title: the table of contents
+ *  (its chapters and pages), the index (its words and pages), the glossary, the sidebar, or the page that holds the key
+ *  word in bold (its tab, heading and text). The heading question needs every page of the book and stays out.
+ *  Review en.review-1119-read: the check asks the search tools, an index card and a glossary card (lists: take 2,
+ *  kindAttr qtool, mixKinds), so the page offers those two; the answer of an index question is written as "page 4" or
+ *  "pages 3 and 4" (a bare number made the cutter read the card as a task of numbers, whose form B no other text could
+ *  fill). Review en.review-1119-read2: every index card asks a word printed on two pages ("pages 3 and 4": the forms
+ *  alike), the glossary card asks what a word means (finding its definition by matching it word for word was no use of
+ *  a glossary), and the glossary is in ABC order. The book's id is data-lcs-text with "-book" (its card prints no
+ *  paragraph of the text, so a form may still print that text's paragraphs; form B takes another book). */
+const BOOK_CHECK_TOOLS = new Set(['index', 'glossary']);
+function bookCheckPage({ difficulty, locale }, ctx, D) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`info-text-g3b check: the texts are English texts (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const lv = Number(difficulty) || 2, d = D[lv] || D[2], rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+  const att = (s) => esc(s).replace(/"/g, '&quot;');
+  const LW = W - 52;
+  const head = (text) => `<div style="font:700 15.5px/1.15 'Baloo 2',cursive;color:${T.teal}">${text}</div>`;
+  const box = (t, inner) => `<div data-lcs-excerpt style="display:flex;flex-direction:column;gap:3px;padding:4px 14px 7px;border:2.5px solid ${T.teal};border-radius:16px;background:#FFFFFF">` +
+    `<div data-lcs-title style="font:700 19px/1.2 'Baloo 2',cursive;color:${T.ink}">${esc(t.title)}</div>${inner}</div>`;
+  const feature = (t, x) => {
+    const b = t.book;
+    if (x.tool === 'contents') return box(t, `<div data-lcs-contents style="padding:3px 10px 4px;border-radius:10px;background:${T.cream}">${head('Contents')}` +
+      t.parts.map((p, i) => [p.heading, i + 2]).concat([['Glossary and Index', 6]]).map(([h, n]) => `<div data-lcs-toc="${n}" style="display:flex;align-items:baseline;gap:6px;max-width:380px;font:700 ${d.font}px/1.35 'Nunito',sans-serif;color:${T.ink}"><span>${esc(h)}</span><span style="flex:1 1 auto;min-width:12px;border-bottom:1.5px dotted ${T.ink};opacity:.55;transform:translateY(-3px)"></span><span data-lcs-tocpage style="font-weight:800">${n}</span></div>`).join('') + `</div>`);
+    if (x.tool === 'index') return box(t, `<div data-lcs-indexbox style="padding:3px 10px 4px;border-radius:10px;background:${T.cream}">${head('Index')}<div style="display:flex;flex-wrap:wrap;gap:0 18px;font:700 ${d.font}px/1.35 'Nunito',sans-serif;color:${T.ink}">` +
+      b.index.slice().sort((p, q) => p.toLowerCase().localeCompare(q.toLowerCase())).map((w) => `<span data-lcs-index="${esc(w)}" style="white-space:nowrap">${esc(w)} <b style="color:${T.teal}">${pagesOf(t, w).join(', ')}</b></span>`).join('') + `</div></div>`);
+    if (x.tool === 'glossary') return box(t, `<div data-lcs-glossary style="padding:3px 10px 4px;border-radius:10px;background:${T.cream}">${head('Glossary')}` +
+      glossOrder(b.keys).map((k) => `<div data-lcs-gloss="${esc(k.word)}" style="font:700 ${d.font}px/1.3 'Nunito',sans-serif;color:${T.ink}">${strong(k.word, '')}: ${esc(k.meaning)}</div>`).join('') + `</div>`);
+    if (x.tool === 'sidebar') return box(t, `<div data-lcs-sidebar style="max-width:420px;padding:4px 10px;border:2px dashed ${T.teal};border-radius:10px;background:${T.cream};font:700 ${d.font}px/1.3 'Nunito',sans-serif;color:${T.ink}"><span style="display:block;font:700 15.5px/1.15 'Baloo 2',cursive;color:${T.teal}">${esc(b.sidebar.title)}</span>${esc(b.sidebar.text)}</div>`);
+    if (x.tool === 'keyword') {
+      const n = Number(/page (\d)/.exec(x.q)[1]), i = n - 2, k = b.keys[i], text = partText(t.parts[i]), at = text.indexOf(k.bold);
+      return box(t, `<div data-lcs-part="${n}" style="display:flex;gap:7px">${pageTab(n)}<div data-lcs-partbody style="flex:1 1 auto;min-width:0;font:700 ${d.font}px/${d.lh} 'Nunito',sans-serif;color:${T.ink}">` +
+        `<span data-lcs-heading style="font:700 ${d.font + 1}px/1 'Baloo 2',cursive;color:${T.teal};margin-right:7px">${esc(t.parts[i].heading)}</span>` +
+        esc(text.slice(0, at)) + strong(k.bold, 'data-lcs-boldword') + esc(text.slice(at + k.bold.length)) + `</div></div>`);
+    }
+    return null;
+  };
+  const cards = [];
+  for (const t of shuffle(TEXTS, rng)) for (const x of shuffle(t.book.find, rng)) {     // (in a drawn order: the check keeps the first card it meets of each text)
+    if (!BOOK_CHECK_TOOLS.has(x.tool)) continue;
+    if (x.tool === 'index' && !/^\d+ and \d+$/.test(x.answer)) continue;          // every index card asks a word on two pages
+    const held = feature(t, x);
+    if (!held) continue;                                                    // the heading question: the whole book
+    const gk = x.tool === 'glossary' ? t.book.keys.find((k) => k.word === x.answer) : null;
+    if (x.tool === 'glossary' && !gk) throw new Error(`info-text-g3b check: ${t.id}: no glossary word "${x.answer}"`);
+    const answer = x.tool === 'index' ? 'pages ' + x.answer : gk ? gk.meaning : x.answer;
+    // (review en.review-1119-final: "What does the word Antarctica mean?" asks a place name to mean; a name asks what it is)
+    const q = gk ? (/^[A-Z]/.test(gk.word) ? `What is <b>${esc(gk.word)}</b>?` : `What does the word <b>${esc(gk.word)}</b> mean?`) : esc(x.q);
+    const line = key ? rule({ w: LW, h: 30, answer }) : rule({ w: LW, h: 30 }).replace('<div data-lcs-line', `<div data-lcs-line data-lcs-answer="${att(answer)}"`);
+    cards.push(`<div data-lcs-text="${att(t.id + '-book')}" data-lcs-qtool="${x.tool}" style="display:flex;flex-direction:column;gap:5px;padding:0 4px">${held}` +
+      label(`<b data-lcs-usefeature style="font-weight:800;color:${T.teal}">${USE[x.tool]}</b> ${q}`, 16) + line + `</div>`);
+  }
+  return { bodyHtml: `<div data-lcs-info3bcheck="find|${lv}"${key ? ' data-lcs-iskey="1"' : ''}>` + checkGrid(cards, { cols: 1 }) + `</div>`, meta: {} };
 }
 
 module.exports = { makeInfoText3bType, bookFaultsOf, pagesOf, pagesText, LEVELS, TOOLS };

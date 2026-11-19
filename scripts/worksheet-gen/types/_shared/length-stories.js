@@ -120,7 +120,7 @@ function makeLengthStoriesType({ id, slug, gradeBand, i18n }) {
       const box = (attr, inner) => `<span ${attr} style="width:${cell + 8}px;height:${cell}px;flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;background:${T.white};border:2px solid ${T.ink};border-radius:8px">${inner || ''}</span>`;
       const cards = problems.map((p, pi) => {
         const worked = !!d.worked && pi === 0;
-        const m = model(p), show = (v, bar) => (worked ? inked(v === '?' && !bar ? p.answer : v) : key ? num(v === '?' ? p.answer : v) : '');
+        const m = model(p), show = (v, bar) => (worked ? inked(v === '?' && !bar ? p.answer : v) : key ? num(v === '?' && !bar ? p.answer : v) : '');
         const barCell = (attr, v, extra) => `<span ${attr} style="flex:1 1 0;height:${cell - 4}px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;background:${T.white};border:2px solid ${T.teal};${extra || ''}">${show(v, true)}</span>`;
         const bar = `<span data-lcs-bar style="flex:0 0 auto;width:220px;display:flex;flex-direction:column">` +
           `<span style="display:flex">${barCell(`data-lcs-whole="${m.whole}"`, m.whole, 'border-radius:8px 8px 0 0;border-bottom-width:1px')}</span>` +

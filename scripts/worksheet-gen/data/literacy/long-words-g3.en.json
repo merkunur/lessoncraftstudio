@@ -4998,6 +4998,160 @@
       "E",
       "E"
      ]
+    },
+    {
+     "w": "raincoat",
+     "parts": [
+      "rain",
+      "coat"
+     ],
+     "marks": [
+      "V",
+      "V"
+     ]
+    },
+    {
+     "w": "teapot",
+     "parts": [
+      "tea",
+      "pot"
+     ],
+     "marks": [
+      "V",
+      "C"
+     ]
+    },
+    {
+     "w": "seaweed",
+     "parts": [
+      "sea",
+      "weed"
+     ],
+     "marks": [
+      "V",
+      "V"
+     ]
+    },
+    {
+     "w": "peanut",
+     "parts": [
+      "pea",
+      "nut"
+     ],
+     "marks": [
+      "V",
+      "C"
+     ]
+    },
+    {
+     "w": "sailboat",
+     "parts": [
+      "sail",
+      "boat"
+     ],
+     "marks": [
+      "V",
+      "V"
+     ]
+    },
+    {
+     "w": "oatmeal",
+     "parts": [
+      "oat",
+      "meal"
+     ],
+     "marks": [
+      "V",
+      "V"
+     ]
+    },
+    {
+     "w": "mailbox",
+     "parts": [
+      "mail",
+      "box"
+     ],
+     "marks": [
+      "V",
+      "C"
+     ]
+    },
+    {
+     "w": "seashell",
+     "parts": [
+      "sea",
+      "shell"
+     ],
+     "marks": [
+      "V",
+      "C"
+     ]
+    },
+    {
+     "w": "beehive",
+     "parts": [
+      "bee",
+      "hive"
+     ],
+     "marks": [
+      "V",
+      "E"
+     ]
+    },
+    {
+     "w": "railroad",
+     "parts": [
+      "rail",
+      "road"
+     ],
+     "marks": [
+      "V",
+      "V"
+     ]
+    },
+    {
+     "w": "daydream",
+     "parts": [
+      "day",
+      "dream"
+     ],
+     "marks": [
+      "V",
+      "V"
+     ]
+    },
+    {
+     "w": "weekend",
+     "parts": [
+      "week",
+      "end"
+     ],
+     "marks": [
+      "V",
+      "C"
+     ]
+    },
+    {
+     "w": "raindrop",
+     "parts": [
+      "rain",
+      "drop"
+     ],
+     "marks": [
+      "V",
+      "C"
+     ]
+    },
+    {
+     "w": "snowman",
+     "parts": [
+      "snow",
+      "man"
+     ],
+     "marks": [
+      "V",
+      "C"
+     ]
     }
    ],
    "3": [
@@ -10922,7 +11076,7 @@
     "shown": "fit",
     "change": null,
     "meaning": "being fit",
-    "sentence": "Running every day is good for your ___."
+    "sentence": "Our gym teacher checks our ___."
    },
    {
     "w": "sickness",
@@ -10994,7 +11148,7 @@
     "shown": "wet",
     "change": null,
     "meaning": "being wet",
-    "sentence": "The ___ of the grass soaked my socks."
+    "sentence": "I felt the ___ of the grass through my socks."
    },
    {
     "w": "stillness",
@@ -11021,7 +11175,7 @@
     "shown": "fresh",
     "change": null,
     "meaning": "being fresh",
-    "sentence": "Smell the ___ of the bread."
+    "sentence": "I love the ___ of warm bread."
    },
    {
     "w": "payment",
@@ -11876,7 +12030,8 @@
      "y"
     ],
     "heart": [
-     1
+     1,
+     2
     ]
    },
    {

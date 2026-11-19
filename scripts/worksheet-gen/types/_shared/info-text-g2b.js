@@ -64,7 +64,9 @@ function readsOf(t, x) {
   const st = t.diagram.stages, n = st.length, at = (label) => st.findIndex((s) => s.label === label);
   let m;
   if (/^How many (stages|phases) does the diagram show\?$/.test(x.q)) return { count: true, want: NUMBER[n] };
-  if ((m = /comes right after the (.+)\?$/.exec(x.q)) || (m = /arrow from the (.+) point to\?$/.exec(x.q))) { const i = at(m[1]); return i < 0 ? null : { from: i, to: (i + 1) % n, names: [i, (i + 1) % n], want: 'the ' + st[(i + 1) % n].label }; }
+  // (2026-11-19, review en.review-1119-read: a diagram that shows SOME of the phases is asked "In this diagram, which phase
+  // comes after the new moon?" — "right after the new moon" is a crescent in the sky, not the first quarter)
+  if ((m = /comes right after the (.+)\?$/.exec(x.q)) || (m = /^In this diagram, which (?:stage|phase) comes after the (.+)\?$/.exec(x.q)) || (m = /arrow from the (.+) point to\?$/.exec(x.q))) { const i = at(m[1]); return i < 0 ? null : { from: i, to: (i + 1) % n, names: [i, (i + 1) % n], want: 'the ' + st[(i + 1) % n].label }; }
   if ((m = /comes just before the (.+)\?$/.exec(x.q))) { const i = at(m[1]); return i < 0 ? null : { from: (i - 1 + n) % n, to: i, names: [i, (i - 1 + n) % n], want: 'the ' + st[(i - 1 + n) % n].label }; }
   return null;
 }
@@ -116,6 +118,17 @@ function faultsOfDiagram(t) {
       else if (has(text, lab.label)) f.push(`${id}: the text-and-diagram question is answered by the text alone ("${lab.label}")`);
       if (!/text/.test(x.q) || !/diagram/.test(x.q)) f.push(`${id}: the text-and-diagram question does not name both`);
     }
+  }
+  // a before-or-after question whose two stages are next to each other in the diagram but NOT in nature (the diagram shows
+  // only some of the phases of the moon; a bean plant grows from a seedling into a young plant before it flowers) is true
+  // only of the diagram, and says so: "In this diagram, which phase comes after the new moon?" (review en.review-1119-read:
+  // "Which phase comes right after the new moon? — the first quarter" is false; a crescent comes next)
+  const realAt = (a) => (a.kind === 'moon' ? a.phase : a.kind === 'plant' ? PLANT_STAGES.indexOf(a.stage) : (STAGE_IDS[a.animal] || []).indexOf(a.stage));
+  for (const x of qs) {
+    const r = x.from === 'diagram' && !/arrow/.test(x.q) && readsOf(t, x);
+    if (!r || r.count || r.to === 0) continue;
+    const gap = realAt(st[r.to].art) - realAt(st[r.from].art);
+    if (gap !== 1 && !/^In this diagram, /.test(x.q)) f.push(`${id}: "${x.q}" is true only of the diagram (it leaves out what comes between in nature): ask "In this diagram, ..."`);
   }
   const kinds = qs.slice(0, 4).map((x) => readsOf(t, x));
   if (kinds.every(Boolean)) {
@@ -178,6 +191,10 @@ function faultsOfSteps(t) {
   if (!t.ownSample || !/(^|[^a-z])(before|after)([^a-z]|$)/.test(t.ownSample) || t.ownSample.length > 68) f.push(id + ': no sample of a sentence of the child\'s own with before or after (at most 68 letters)');
   if (!t.why || !/^Why must .+ before .+\?$/.test(t.why.q || '') || !t.why.sample) f.push(id + ': no "Why must ... before ...?" question with a sample answer');
   else if (mc[2] && mc[2].q !== t.why.q) f.push(id + ': the third question to circle is not the why-question of the text');
+  // the steps whose paragraphs answer the why-question (the unit check prints them with it): steps of the text, in order,
+  // one after another
+  const ws = (t.why && t.why.steps) || [];
+  if (!Array.isArray(ws) || ws.length < 2 || ws.some((n, i) => !Number.isInteger(n) || n < 1 || n > 4 || (i && n !== ws[i - 1] + 1))) f.push(id + ': the why-question names no run of steps (why.steps) that answer it');
   return f;
 }
 
@@ -280,6 +297,8 @@ function makeInfoText2bType({ id, slug, mode, i18n }) {
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // the unit checks (Part 7.6): the page's task made small, one card a task (info2bCheckPage below)
+    ...(mode === 'diagram' || mode === 'steps' ? { checkPage(args, ctx) { return info2bCheckPage(mode, args, ctx); } } : {}),
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the informational texts are English texts (no ${locale} bank)`);
@@ -645,6 +664,61 @@ function makeInfoText2bType({ id, slug, mode, i18n }) {
       });
     },
   };
+}
+
+/* ---------------------------------------------------------------- the item bank of the unit checks ---------------------------------------------------------------- */
+/** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the page's task made small, each card one
+ *  task with its answer in its markup and what it is answered from printed on it; the text's id is data-lcs-text (form B
+ *  takes another text).
+ *   diagram (G2-521)  the whole cycle diagram (its title, every stage with its label and arrow) and one of the page's
+ *                     before-and-after questions about it, with the line (level 1: its three answers to circle). The
+ *                     question about the text and the diagram together and "what does the diagram show that the text does
+ *                     not tell?" need the whole text, or have no one wording, and stay out.
+ *   steps (G2-522)    the steps the page's why-question links (the bank's why.steps), whole, with their signal words,
+ *                     and the question "Why must ... before ...?" with its three answers to circle (review
+ *                     en.review-1119-read: the first sentences of the steps and "Which word starts the step ...?" only
+ *                     asked to find and copy a word). The flow chart of the level-2 page (the steps in the child's words)
+ *                     has no one wording and stays out.
+ *   FORMS: a page built for form A or B of a check reads only the texts that form gives the lesson (CHECK_TEXTS). */
+/** the texts of each lesson's part in each form of the unit check (no text in both forms) */
+const CHECK_TEXTS = { A: { diagram: ['frog-cycle', 'ladybug-cycle'], steps: ['bread', 'wool'] }, B: { diagram: ['butterfly-cycle', 'moon-phases'], steps: ['paper', 'orange-juice'] } };
+/** the form a check page is built for: build-checks seeds its pages "check|<unit>|A…" or "…|B…"; none outside a check */
+const checkFormOf = (ctx) => { const m = /^check\|[^|]+\|([AB])\d*\|/.exec(String((ctx && ctx.rng && ctx.rng.seed) || '')); return m ? m[1] : null; };
+/** a diagram question the check asks in other words (review en.review-1119-read2: "Which stage comes right after the
+ *  chrysalis?" is answered by the title word, the butterfly, without the diagram; the stage after the caterpillar needs it) */
+const CHECK_DIAGRAM_Q = { 'butterfly-cycle|Which stage comes right after the chrysalis?': { q: 'Which stage comes right after the caterpillar?', answer: 'the chrysalis', wrong: ['the egg', 'the butterfly'] } };
+function info2bCheckPage(mode, { difficulty, locale }, ctx) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`info-text-g2b check: the informational texts are English texts (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const lv = Number(difficulty) || 2, d = LEVELS[mode][lv] || LEVELS[mode][2], rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+  const att = (s) => esc(s).replace(/"/g, '&quot;');
+  const LW = W - 40;
+  const write = (answer, h) => (key ? line({ w: LW, h, answer }) : line({ w: LW, h }).replace('<div data-lcs-line', `<div data-lcs-line data-lcs-answer="${att(answer)}"`));
+  const circle = (right, wrong, column) => { const at = rng.int(0, 2); return choices(placed(right, shuffle(wrong, rng), at), at, key, { column, font: 16 }).replace(' data-lcs-ok="1"', ' data-lcs-ok="1" data-lcs-correct="1"'); };
+  const ask = (q) => `<div data-lcs-checkq style="font:700 17px/1.3 'Nunito',sans-serif;color:${T.ink};padding:0 6px">${esc(q)}</div>`;
+  const card = (t, inner) => `<div data-lcs-text="${att(t.id)}" style="display:flex;flex-direction:column;gap:4px;padding:0">${inner}</div>`;
+  const form = checkFormOf(ctx);
+  // (outside a check, the texts of both forms: honey, whose two steps run past the card's height, and the bean are in none)
+  const ofForm = (list) => list.filter((x) => (form ? CHECK_TEXTS[form][mode] : [...CHECK_TEXTS.A[mode], ...CHECK_TEXTS.B[mode]]).includes(x.id));
+  const cards = [];
+  if (mode === 'diagram') for (const t of shuffle(ofForm(DIAGRAMS), rng)) {
+    const drawn = `<div data-lcs-excerpt style="padding:2px 0 0"><div data-lcs-title style="font:700 19px/1.2 'Baloo 2',cursive;color:${T.ink};padding:0 6px">${esc(t.title)}</div><div data-lcs-dgtitle style="font:700 16px/1.2 'Baloo 2',cursive;color:${T.teal};margin-bottom:2px;padding:0 6px">Diagram: ${esc(t.diagram.title)}</div>${diagramOf(t, { lv: 1, key: false })}</div>`;
+    for (const q of t.questions.slice(0, 4)) {
+      const x = CHECK_DIAGRAM_Q[t.id + '|' + q.q] || q;
+      if (readsOf(t, q).count) continue;                                   // how many stages: the circle page only
+      cards.push(card(t, drawn + ask(x.q) + (lv === 1 ? circle(x.answer, x.wrong, false) : write(x.answer, Math.max(d.rowH || 34, 34)))));
+    }
+  }
+  // the steps the why-question links (the bank's why.steps), printed whole with their signal words, and the page's question
+  // "Why must ... before ...?" with its three answers (review en.review-1119-read: the first words of the steps only made a
+  // find-and-copy task, and left "the chips" and "the pulp" unexplained)
+  if (mode === 'steps') for (const t of shuffle(ofForm(STEPS), rng)) {
+    const x = t.mc.find((m) => m.kind === 'before');
+    const paras = t.why.steps.map((n) => `<div data-lcs-step="${n}" style="font:700 ${d.font}px/1.34 'Nunito',sans-serif;color:${T.ink};margin-top:${n === t.why.steps[0] ? 0 : 3}px">${esc(t.paras[n].join(' '))}</div>`).join('');
+    cards.push(card(t, `<div data-lcs-excerpt style="padding:5px 12px 7px;border:2.5px solid ${T.teal};border-radius:14px;background:#FFFFFF"><div data-lcs-title style="font:700 21px/1.15 'Baloo 2',cursive;color:${T.ink};margin-bottom:2px">${esc(t.title)}</div>${paras}</div>` +
+      ask(x.q) + circle(x.answer, x.wrong, false)));
+  }
+  return { bodyHtml: `<div data-lcs-info2bcheck="${mode}|${lv}"${key ? ' data-lcs-iskey="1"' : ''}>` + checkGrid(cards, { cols: 1 }) + `</div>`, meta: {} };
 }
 
 module.exports = { makeInfoText2bType, faultsOfDiagram, faultsOfSteps, readsOf, usableAt3, DIAGRAMS, STEPS, LEVELS };

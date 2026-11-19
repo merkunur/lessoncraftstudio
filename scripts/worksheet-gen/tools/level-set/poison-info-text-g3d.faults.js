@@ -40,4 +40,13 @@ module.exports = (FACTORY, BANK) => [
   ['bank: a map name that finds no room in its square', BANK, '"name": "Canyon",', '"name": "Grand Canyon of the Yellowstone",', 'G3-510', 1],
   ['bank: a diagram word the text uses too', BANK, '"Many tiny drops together make a cloud."', '"Many tiny drops together make a cloud. This is condensation."', 'G3-511', 2],
   ['bank: a black-and-white picture', BANK, '"ocean life"', '"ocean life bw"', 'G3-511', 1],
+  // the fix round of 2026-11-19: no question names the source it is answered from ("Found in" would be given by it)
+  ["a map symbol's question names the map", FACTORY, "q: 'What does {SYM} stand for?'", "q: 'What does {SYM} on the map stand for?'", 'G3-510', 1],
+  ['bank: a diagram question that names the diagram', BANK, '"q": "What is the name of the step right after condensation?"', '"q": "In the diagram, which step comes right after condensation?"', 'G3-511', 1],
+  // review en.review-1119-write: a step the text names as a step is named by no question of the diagram or of both
+  // review en.review-1119-final: a question kept to level 1 stands on no other level
+  ['a question kept to level 1 offered to levels 2 and 3', FACTORY, 'const levelPool = (list, short) => list.filter((q) => short || !q.onlyLevel);', 'const levelPool = (list, short) => list.filter((q) => short || !q.onlyLevel || true);', 'G3-511', 2],
+  ['bank: a question kept to a level other than 1', BANK, '"onlyLevel": 1', '"onlyLevel": 2', 'G3-511', 1],
+  ['bank: a diagram question that names a step the text names', BANK, '"q": "What is the name of the step that shows a lake?"', '"q": "What is the name of the step right before evaporation?"', 'G3-511', 1],
+  ['bank: a text question that names the text', BANK, '"q": "Which goods do barges carry?"', '"q": "Which goods does the text say barges carry?"', 'G3-510', 1],
 ];

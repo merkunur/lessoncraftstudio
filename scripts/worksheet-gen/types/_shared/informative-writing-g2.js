@@ -995,6 +995,10 @@ function makeInformativeWritingG2Type({ id, slug, mode, exerciseType, i18n }) {
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // the unit check (Part 7.6): the day-1 pages' tasks made small, one card a task (iw2CheckPage below); the draft gives the
+    // check its writing task (iw2CheckWrite)
+    ...(['parts', 'endings', 'notes'].includes(mode) ? { checkPage(args, ctx) { return iw2CheckPage(mode, args, ctx); } } : {}),
+    ...(mode === 'draft' || mode === 'plan' ? { checkWrite(args, ctx) { return iw2CheckWrite(mode, args, ctx); } } : {}),
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the pieces are English pieces (no ${locale} bank)`);
@@ -1406,6 +1410,63 @@ function verifyPage(S, I) {
     if (bl.length && bl[0].top - rb.top > S.GAP + 0.5) fails.push('a blank band above the first block');
     if (bl.length && rb.bottom - bl[bl.length - 1].bottom > S.GAP + 0.5) fails.push('a blank band below the last block'); }
   return fails;
+}
+
+/* ------------------------------------------------------------------ the unit check (Part 7.6) */
+/**
+ * iw2CheckPage — the cards a unit check cuts from the day-1 pages (PART-7-DESIGN.md 7.6): every item of the bank as a card of
+ * its own, at the level the lesson hands out, built from the page's own bank and rules (no new task):
+ *   parts    G2-565  sentences about a mentor topic: three of its facts and what the level puts among them that does not
+ *                    belong (level 2: its opinion; levels 1 and 3: a fact about something else, from offFor): cross it out
+ *   endings  G2-567  a sentence with a gap for a linking word and the words of the level to circle (also, another, and: each
+ *                    gap takes one of them only)
+ *   notes    G2-569  the research question, Book 1 and Book 2, and three notes, one from each place (Book 1, Book 2, Both:
+ *                    a child who ticks one column everywhere gets one right, in both forms): a check mark under Book 1,
+ *                    Book 2, or Both
+ * A card names its item (data-lcs-text) so that form B asks other ones than form A; a gap names its word (data-lcs-want) so
+ * that both forms ask the same kinds.
+ */
+function iw2CheckPage(mode, { difficulty, locale }, ctx) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`informative-writing-g2 check: the pieces are English (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const lv = Number(difficulty) || 2, d = LEVELS[mode][lv] || LEVELS[mode][2], rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+  const shell = (id, inner, more = '') => `<div data-lcs-text="${A(id)}"${more} style="display:flex;flex-direction:column;gap:${mode === 'notes' ? 2 : 4}px;padding:4px 12px;border-radius:12px;background:#FFFFFF">${inner}</div>`;
+  const cards = [];
+  if (mode === 'parts') for (const m of shuffle(BANK.mentor, rng)) {
+    const odd = [];
+    if (d.off) { const o = offFor(BANK, [mentorText(m)], [m.key], rng); if (!o) continue; odd.push(o.t); }
+    if (d.op) odd.push(m.op);
+    const facts = shuffle(m.sort.flat(), rng).slice(0, 4 - odd.length);
+    const rows = shuffle([...facts.map((t) => ({ t })), ...odd.map((t) => ({ t, ok: true }))], rng);
+    cards.push(shell(m.key, `<div style="font:700 18px/1.1 'Baloo 2',cursive;color:${T.teal}">${esc(m.name.charAt(0).toUpperCase() + m.name.slice(1))}</div><div data-lcs-ckrows style="display:flex;flex-direction:column;gap:2px">` +
+      rows.map((x) => `<div${x.ok ? ' data-lcs-correct="1"' : ''} style="display:flex"><span style="font:700 ${READ - 1}px/1.25 'Nunito',sans-serif;color:${T.ink}${key && x.ok ? `;text-decoration:line-through;text-decoration-color:${T.teal};text-decoration-thickness:3px` : ''}">${esc(x.t)}</span></div>`).join('') + `</div>`));
+  }
+  if (mode === 'endings') for (const x of shuffle(BANK.links, rng)) {
+    const words = shuffle(LINKWORDS.filter((w) => w !== x.want), rng).slice(0, d.opts - 1); words.splice(rng.int(0, words.length), 0, x.want);
+    const [a, c] = x.t.split('___');
+    cards.push(shell(x.t, `<div style="font:700 ${READ}px/1.3 'Nunito',sans-serif;color:${T.ink}">${esc(a)}<span style="display:inline-block;width:90px;border-bottom:2.5px solid ${T.ink}"></span>${esc(c)}</div><div data-lcs-ckopts style="display:flex;gap:18px;padding-left:10px">` +
+      words.map((w) => `<div${w === x.want ? ' data-lcs-correct="1"' : ''} style="display:flex"><span style="padding:0 9px;border:2.5px solid ${key && w === x.want ? T.teal : 'transparent'};border-radius:999px;font:700 ${OPT}px/1.2 'Nunito',sans-serif;color:${T.ink}">${esc(w)}</span></div>`).join('') + `</div>`, ` data-lcs-want="${x.want}"`));
+  }
+  if (mode === 'notes') for (const r of shuffle(BANK.research, rng)) {
+    let items = null;
+    // (writing review 1119) one note from each place: Book 1, Book 2, and Both, in a mixed order
+    { const one = [0, 1, 2].map((src) => shuffle(r.facts.filter((x) => x.src === src), rng)[0]); if (one.every(Boolean)) items = shuffle(one, rng); }
+    if (!items) continue;
+    const kind = (x) => ['Both', 'Book 1', 'Book 2'][x.src];
+    const books = `<div style="display:flex;align-items:flex-start;gap:8px">` + r.books.map((x, i) => `<div style="flex:1 1 0;min-width:0;padding:0 8px 1px;border:2.5px solid ${T.creamDeep};border-radius:12px"><div style="font:700 16px/1.1 'Baloo 2',cursive;color:${T.teal}">Book ${i + 1}: ${esc(x.title)}</div><div style="font:700 ${SMALL}px/1.2 'Nunito',sans-serif;color:${T.ink}">${esc(x.s.join(' ')) + '</div>'}</div>`).join('') + `</div>`;
+    const head = `<div style="display:flex;align-items:flex-end;padding:0 6px"><span style="flex:1 1 auto"></span>${['Book 1', 'Book 2', 'Both'].map((c) => `<span style="flex:0 0 70px;text-align:center;font:800 15px/1.1 'Nunito',sans-serif;color:${T.teal}">${esc(c)}</span>`).join('')}</div>`;
+    const rows = items.map((x) => `<div style="display:flex;align-items:center;padding:0 6px">${`<span style="flex:1 1 auto;min-width:0;font:700 ${BOOKPX}px/1.15 'Nunito',sans-serif;color:${T.ink}">${esc(x.note)}</span>`}<span data-lcs-ckrow style="display:flex">` +
+      ['Book 1', 'Book 2', 'Both'].map((c) => `<span${c === kind(x) ? ' data-lcs-correct="1"' : ''} data-lcs-choice="${c}" style="flex:0 0 70px;display:flex;justify-content:center"><span style="box-sizing:border-box;width:25px;height:25px;display:flex;align-items:center;justify-content:center;border:2.5px solid ${T.ink};border-radius:7px;background:#FFFFFF">${c === kind(x) && key ? CHECK : ''}</span></span>`).join('') + `</span></div>`).join('');
+    cards.push(shell(r.key, `${books}${head}<div style="display:flex;flex-direction:column;gap:3px">${rows}</div>`, ' data-lcs-cknotes="1"'));
+  }
+  if (!cards.length) throw new Error('informative-writing-g2 check: no cards for ' + mode);
+  return { bodyHtml: STYLE + `<div data-lcs-iw2check="${mode}|${lv}" data-lcs-noliga="${1}"${key ? ' data-lcs-iskey="1"' : ''} style="${LIGS}">` + fRoom(typo(checkGrid(cards, { cols: 1 }))) + `</div>`, meta: {} };
+}
+/** iw2CheckWrite — the writing task of the unit check: every fact topic the plan and draft pages are about, with its picture
+ *  and the facts its fact box prints (the draft writes from them; the bank's own words) */
+function iw2CheckWrite(mode, { locale }) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`informative-writing-g2 check: the topics are English (no ${locale} bank)`);
+  return { tasks: BANK.topics.map((t) => ({ id: 'topic:' + t.key, prompt: `${t.Name}. Facts: ${[...t.facts[0], ...t.facts[1]].map((x) => x.t).join(' ')} ${t.def.t}`, picture: t.pic ? { theme: t.pic.theme, file: t.pic.noun } : undefined })) };
 }
 
 module.exports = { makeInformativeWritingG2Type, faultsOf, plan, LEVELS, INSTR, LINES, SPEC, place, placeKey, taskFits, keyFits, planParts, draftParts, reportParts, chartParts, frameParts, draftSentences, alsoForm, repFacts, PARTRULES, ENDRULES, PLANCHECK, DRAFTCHECK, REPCHECK, PLANBANK, DRAFTBANK };

@@ -54,7 +54,7 @@ module.exports = {
   },
   levelSetWords(m) { return (m.asks || []).map(String); },
 
-  _build({ theme, difficulty }, ctx, S) {
+  _build({ theme, difficulty, locale }, ctx, S) {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
     // nt20-VAR: a jug-only page (balances:0) is THEMELESS — the theme rides
@@ -89,13 +89,15 @@ module.exports = {
       } while (usedJug.has(v) && guard < 60);
       usedJug.add(v);
       const le = d.labelEvery || 2;
-      const ju = d.jugUnit || 'ml';   // Year pages I: a face may read the jug in decilitres (a litre jug with ten marks)
+      // Year pages I: a face may read the jug in decilitres (a litre jug with ten marks). 2026-11-19 (review en-1119-math): an
+      // English page writes the US symbol mL (the stamp says so: data-lcs-jugunit), every other language keeps ml
+      const ju = d.jugUnit || (String(locale || 'en').slice(0, 2) === 'en' ? 'mL' : 'ml');
       const jg = jug({ value: v, max: d.jugMax, step: d.jugStep, labelEvery: d.labelEvery || 2, unit: ju, w: JUG.w, h: JUG.h });
       const near = Math.round(v / (d.jugStep * le)) * d.jugStep * le;
       S.push({ kind: 'num', unit: ju, q: `jug:${v}`, ask: v, ans: v, step: d.jugStep, slips: [v + d.jugStep, v - d.jugStep, near !== v ? near : v + d.jugStep * le, v + d.jugStep * le],
         prompt: jug({ value: v, max: d.jugMax, step: d.jugStep, labelEvery: le, unit: ju, w: 170, h: 300 }).svg });
       cards.push(
-        `<div class="ws-card-stage" style="flex-direction:column;gap:10px" data-lcs-kind="jug" data-lcs-step="${d.jugStep}" data-lcs-labelevery="${d.labelEvery || 2}" data-lcs-jugmax="${d.jugMax}"${d.jugUnit ? ` data-lcs-jugunit="${ju}"` : ''}>` +
+        `<div class="ws-card-stage" style="flex-direction:column;gap:10px" data-lcs-kind="jug" data-lcs-step="${d.jugStep}" data-lcs-labelevery="${d.labelEvery || 2}" data-lcs-jugmax="${d.jugMax}"${d.jugUnit || ju !== 'ml' ? ` data-lcs-jugunit="${ju}"` : ''}>` +
         jg.svg +
         `<div style="display:flex;align-items:center;gap:8px">` +
         answerBox({ w: 74, h: 46, answer: v }) +

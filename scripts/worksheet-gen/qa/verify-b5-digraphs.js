@@ -403,6 +403,8 @@ async function main() {
     await rp('PR-rail a wire short of the rail', doctored((h) => h.replace('data-lcs-rowwire style="position:absolute;left:0;right:0', 'data-lcs-rowwire style="position:absolute;left:0;right:12px')), /not rail to rail/);
     await rp('PR-word a printed word', doctored((h) => h.replace(/(<div data-lcs-cap [^>]*>)/, '$1<span style="font-size:14px">ship</span>')), /text printed outside the numerals and beads/);
     await rp('PR-foil a wire holding a foil sound', doctored((h) => h.replace(/data-lcs-snd="([^"]*)"/, (m, s) => `data-lcs-snd="${s}|tʃ"`).replace(/data-lcs-seg="([^"]*)"/, (m, s) => `data-lcs-seg="${s}|"`)), /holds the foil team (sh|ch|th)'s sound/);
+    // the pictures withdrawn from the English pages (review en-1119-lit, 2026-11-19): the ship back on a page
+    await rp('PR-withdrawn the ship on an English page', doctored((h) => h.replace(/src="[^"]*"/, () => 'src="' + require('../image-cache/resolve.js').fileUri('vehicles', 'ship') + '"')), /a withdrawn picture on the page: vehicles\/ship/);
     // SPARSE both ways: d1 with the row ceiling removed stretches its six rows over the body
     const SHORT = { title: 'Digraphs', instruction: TYPE.i18n.en.instruction };   // a one-line chrome: the tallest body, where a stretch shows
     const unCapped = { ...TYPE, build(o, ctx) { const r = TYPE.build({ ...o, difficulty: 1 }, ctx); r.bodyHtml = r.bodyHtml.replace(/flex:0 1 \d+px;/, 'flex:1 1 auto;'); return r; } };

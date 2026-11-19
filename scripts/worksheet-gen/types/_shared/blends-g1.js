@@ -250,6 +250,8 @@ function makeBlendType({ id, slug, mode, i18n }) {
     themeAxis: { applicable: false },
     difficulty: LEVELS,
     i18n,
+    // THE ITEM BANK of the unit checks (Part 7.6): G1-589 only (blendCheckPage below)
+    ...(BLEND_CHECK_MODES.has(mode) ? { checkPage(args, ctx) { return blendCheckPage(M, args, ctx); } } : {}),
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the words are English words (no ${locale} bank)`);
@@ -544,6 +546,49 @@ function makeBlendType({ id, slug, mode, i18n }) {
         writeNeed: Object.fromEntries(Object.entries(MODES).map(([k, m]) => [k, Math.min(LEVELS[3].write, new Set((m.write || []).map((w) => picSpellingOf(m, w))).size)])) });
     },
   };
+}
+
+/* ---------------------------------------------------------------- the item bank of the unit checks ---------------------------------------------------------------- */
+/** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the level-2 match made small. A card is one
+ *  pictured word of the level's spellings (never a print-only picture: the child chooses from the picture) beside its word
+ *  and one printed word of the bank that differs from it only in the spelling and names no picture (its decoys: sock /
+ *  song, rock / rod); the word for the picture carries data-lcs-correct (the child circles it). The right word stands on
+ *  top on some cards and below on others.
+ *  Every decoy is PLAIN: its letters in place of the spelling are none of the page's spellings (dug, rod, log; never song or
+ *  long beside a ck picture: form B, whose decoys were ng words, was harder than form A, review en-1119-lit). A card names
+ *  its spelling (data-lcs-ckind), so that each form asks every spelling the pictures allow once.
+ *   teams (G1-589)  ck and ng. The bank pictures ONE ng word on its level-2 page (ring), so the check adds the swing it
+ *                   pictures for the s-blends (CHECK_EXTRA: swing / swim, the same sw in both words; only the ending
+ *                   decides), that both forms ask an ng word (review en-1119-lit: every answer had been ck).
+ *   end   (G1-591)  nd and mp: the two pictured words of its level-2 page (hand, lamp), one card in each form (lists: take 1).
+ *  The sh-ch page has three pictured words with a plain decoy and the s- and l-blend page three: their lessons take another
+ *  page (G1-380, G1-493). The sort of every level-2 page is no check card: a word is written under the letters it shows,
+ *  which needs no reading. */
+const BLEND_CHECK_MODES = new Set(['teams', 'end']);
+const CHECK_EXTRA = { teams: [{ w: 'swing', sp: 'ng', alt: 'swim' }] };
+function blendCheckPage(M, { difficulty, locale }, ctx) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`blends-g1 check: the words are English words (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const lv = Number(difficulty) || 2, rng = ctx.rng;
+  const sps = [...new Set(M.levels[lv].flat())];   // (every spelling the level draws: one card shows one picture)
+  const plainLv = (M.noStartBlend || []).includes(lv), ok = (w) => !plainLv || !startsWithBlend(w);
+  // a plain decoy: the letters in place of the spelling are no spelling of the mode
+  const plain = (sp, d, w) => { const { at, g } = spellAt(M, w, sp); const x = d.slice(at, d.length - (w.length - at - g.length)); return !(M.spellings || []).some((s) => x.includes(s)) && !DIGRAPHS.some((s) => x.includes(s)); };
+  const pool = sps.flatMap((sp) => (M.match[sp] || []).filter((w) => ok(w) && !(BANK.printOnly || []).includes(w)).map((w) => ({ w, sp, alts: ((M.decoys || {})[w] || []).filter((d) => ok(d) && plain(sp, d, w)) })).filter((x) => x.alts.length));
+  // the extra pictured words of the check (CHECK_EXTRA), each held to the bank: a picture of the bank, a word of its lists
+  // with the spelling, and a real word of the bank that differs from it only there
+  const known = new Set(Object.values(MODES).flatMap((m) => Object.values(m.words || {}).flat()));
+  for (const x of (CHECK_EXTRA[Object.keys(MODES).find((k) => MODES[k] === M)] || [])) {
+    if (!PICS[x.w] || !((M.words || {})[x.sp] || []).includes(x.w) || !known.has(x.alt) || !isDecoyOf(M, x.sp, x.alt, x.w) || !plain(x.sp, x.alt, x.w)) throw new Error(`blends-g1 check: the extra card ${x.w} / ${x.alt} is not held by the bank`);
+    if (sps.includes(x.sp)) pool.push({ w: x.w, sp: x.sp, alts: [x.alt] });
+  }
+  if (pool.length < 2) throw new Error(`blends-g1 check: ${pool.length} pictured words with a plain decoy`);
+  const items = shuffle(pool, rng).map((x) => ({ ...x, alt: shuffle(x.alts, rng)[0] }));
+  let at; for (let k = 0; k < 200; k++) { at = items.map(() => rng.int(0, 1)); if (new Set(at).size === 2 && !/000|111/.test(at.join(''))) break; }
+  const word = (w, okk) => `<span data-lcs-choice="${esc(w)}"${okk ? ' data-lcs-correct="1"' : ''} style="flex:0 0 auto;display:inline-flex;padding:0 14px 4px;font:800 34px/1.1 'Nunito',sans-serif;color:${T.ink}">${esc(w)}</span>`;
+  const cards = items.map((x, i) => { const two = [word(x.w, true), word(x.alt, false)]; if (at[i]) two.reverse();
+    return `<div data-lcs-blendcheck="${x.w}" data-lcs-sp="${x.sp}" data-lcs-ckind="${x.sp}" style="display:flex;align-items:center;justify-content:center;gap:22px;padding:6px 8px">${img(x.w, 84)}<div data-lcs-two style="display:flex;flex-direction:column;align-items:center;gap:10px">${two.join('')}</div></div>`; });
+  return { bodyHtml: STYLE + `<div data-lcs-noliga="1" style="${LIGS}">` + fRoom(checkGrid(cards, { cols: 2 })) + `</div>`, meta: {} };
 }
 
 module.exports = { makeBlendType, blendFaultsOf, LEVELS };

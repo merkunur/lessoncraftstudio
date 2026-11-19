@@ -134,6 +134,8 @@ function makeFactTextKType({ id, slug, mode, i18n }) {
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // the unit checks (Part 7.6): the page's task made small, one card a task (factKCheckPage below)
+    checkPage(args, ctx) { return factKCheckPage(mode, args, ctx); },
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the fact texts are English texts (no ${locale} bank)`);
@@ -352,6 +354,108 @@ function makeFactTextKType({ id, slug, mode, i18n }) {
       });
     },
   };
+}
+
+/* ---------------------------------------------------------------- the item bank of the unit checks ---------------------------------------------------------------- */
+/** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the page's task made small, each card one
+ *  task with its answer in its markup. THE TEACHER READS: a card prints no word. What the teacher reads aloud (the text,
+ *  then the question of the card) stands on the card's root as data-lcs-teacher-reads; the key and the teacher pages print
+ *  it, the child's form never does. Every card carries its text as data-lcs-text (form B takes another text).
+ *   FORMS (review en.review-1119-read, 2026-11-19): a page built for form A or B of a check reads only the five texts of
+ *   that form (CHECK_TEXTS); in a form K-645 asks CHECK_FACT and K-648 CHECK_FIRST_THEN. Each part asks the texts
+ *   CHECK_PLAN names, each right picture in the place it names (review en.review-1119-read2: spread over each form, and no
+ *   right picture drawn in another part of the form); First/Then's third picture is a thing of the text (CHECK_THEN_OTHER).
+ *   facts (K-645)     one question of the text with the three pictures of level 1 to circle (the level-2 page draws the
+ *                     answer; its key shows the same right picture). The right one carries data-lcs-correct. In a form
+ *                     the two wrong pictures are things the text itself tells about (CHECK_FACT).
+ *   topic (K-646)     "What is the whole text about?": the topic and two details of the text to circle (the first task
+ *                     of the page on every level). The text's own big picture is not printed: it is the answer.
+ *   pictures (K-647)  the pictures of the text's sentences (four; three on level 1) in an order where none stands at the
+ *                     place of its sentence, a box under each; the teacher reads the sentences numbered in the order of
+ *                     the text, and the child writes the number of each sentence under its picture (data-lcs-answer).
+ *   change (K-648)    the question of the change with the page's three pictures (what comes first, what comes then, one
+ *                     that is no part of it): its answer is what comes then (the question names the first thing). */
+/** the texts of each form of the unit check (review en.review-1119-read: Squirrels, Apple Trees and Butterflies stood in both
+ *  forms): the ten texts, five a form, so that every page of the unit has texts in both */
+const CHECK_TEXTS = { A: ['cows', 'owls', 'butterflies', 'ducks', 'oak-trees'], B: ['hens', 'squirrels', 'apple-trees', 'dogs', 'rain'] };
+/** Find the Facts (K-645) in a check: one question of a text, and two WRONG pictures that the text itself tells about
+ *  (tent, igloo, dog and cow could be ruled out without listening; review en.review-1119-read). Each wrong picture is the
+ *  answer of another question of the same text and does not answer this one (a cow does not eat milk or cheese ...). */
+const CHECK_FACT = {
+  cows: ['What does a cow eat?', ['cheese', 'calf']],
+  owls: ['What does an owl hunt?', ['oak', 'moon']],
+  butterflies: ['What comes out of a butterfly egg?', ['butterfly', 'leaf']],
+  ducks: ['What does a mother duck lay?', ['feather', 'worm']],
+  // (review en.review-1119-final: the library's nest shows two chickens sitting in it, read as baby chicks here)
+  hens: ["What can hatch from a hen's egg?", ['corn', 'egg']],
+  squirrels: ['What does a squirrel eat?', ['leaf', 'mouth']],
+  'apple-trees': ['What visits the flowers?', ['apple', 'leaf']],
+  dogs: ['What does a dog like to play with?', ['bowl', 'bed']],
+};
+/** First, Then (K-648) in a check: the change asked as a first and a then (review: "What does the rain make on the ground?"
+ *  is a key detail; "First rain falls. Then what does it make on the ground?" asks the link) */
+const CHECK_FIRST_THEN = {
+  cows: 'First a cow gives us milk. Then what do we make from the milk?',
+  butterflies: 'First a caterpillar eats and grows. Then what does it turn into?',
+  'apple-trees': 'First the apple tree has flowers. Then what grows where the flowers were?',
+  'oak-trees': 'First a squirrel hides an acorn in the ground. Then what does the acorn grow into?',
+  rain: 'First rain falls. Then what does it make on the ground?',
+};
+/** the texts each part of a form asks, each with the place (0 left, 1 middle, 2 right) of its right picture (review
+ *  en.review-1119-read2: form B had five of its six right pictures on the right, form A none). The places are spread over each
+ *  form — with the Two Texts part (two-texts-k: A rainbow left and airplane middle, B mail truck right and bed middle) each
+ *  place holds two or three right pictures of a form — and no right picture of a part is drawn in another part of its form
+ *  (cows and owls: an owl card showed the oak that the Oak Trees part answers; the dog of Two Texts B is the Dogs topic).
+ *  The pictures part reads a text no First/Then or Find the Facts part reads (form A asked the oak's growth in part 4 right
+ *  after part 3 had said it). */
+const CHECK_PLAN = {
+  A: { facts: [['owls', 0], ['ducks', 2]], topic: [['cows', 0], ['ducks', 1]], pictures: [['oak-trees', null]], change: [['cows', 1], ['butterflies', 2]] },
+  B: { facts: [['dogs', 0], ['hens', 2]], topic: [['squirrels', 1], ['hens', 2]], pictures: [['squirrels', null]], change: [['rain', 0], ['apple-trees', 1]] },
+};
+/** the third picture of a First/Then card in a check: a thing the text itself tells about (the ball and the carrot could be
+ *  ruled out without listening, and form B's ball is the answer of its Dogs card) */
+const CHECK_THEN_OTHER = { cows: 'grass', butterflies: 'leaf', rain: 'cloud', 'apple-trees': 'bee' };
+/** the form a check page is built for: build-checks seeds its pages "check|<unit>|A…" or "…|B…"; none outside a check */
+const checkFormOf = (ctx) => { const m = /^check\|[^|]+\|([AB])\d*\|/.exec(String((ctx && ctx.rng && ctx.rng.seed) || '')); return m ? m[1] : null; };
+function factKCheckPage(mode, { difficulty, locale }, ctx) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`fact-text-k check: the fact texts are English texts (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const lv = Number(difficulty) || 2, rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+  const att = (s) => esc(s).replace(/"/g, '&quot;');
+  const heard = (t, sents) => t.title + '. ' + sents.join(' ');
+  const card = (t, reads, inner) => `<div data-lcs-text="${att(t.id)}" data-lcs-teacher-reads="${att(reads)}" style="display:flex;flex-direction:column;align-items:stretch;gap:6px;padding:2px 4px">${inner}</div>`;
+  const marked = (html) => html.replace(' data-lcs-ok="1"', ' data-lcs-ok="1" data-lcs-correct="1"');
+  const choose = (right, wrong, fixedAt) => { const at = fixedAt == null ? rng.int(0, 2) : fixedAt; return marked(pictures(placed(right, shuffle(wrong, rng), at), at, key, LEVELS.facts[1].pic)); };
+  // a picture of a thing the text tells about, by its noun
+  const ownPic = (t, noun) => [...t.questions.flatMap((x) => [x.right, ...(x.wrong || [])]), t.picture, ...((t.match && t.match.pics) || []), t.topic.right, ...t.topic.wrong].find((p) => p && p.noun === noun);
+  const box = (want) => `<span data-lcs-answer="${want}" data-lcs-numbox style="flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;width:50px;height:50px;border:2.5px solid ${T.ink};border-radius:10px;background:#FFFFFF;font:800 30px/1 'Nunito',sans-serif;color:${T.teal}">${key ? want : ''}</span>`;
+  const form = checkFormOf(ctx);
+  const inForm = (x) => !form || CHECK_TEXTS[form].includes(x.id);
+  const pool = (mode === 'change' ? TEXTS.filter((x) => x.change) : mode === 'pictures' ? TEXTS.filter((x) => x.match) : FIRST).filter(inForm);
+  const cards = [];
+  const plan = form ? CHECK_PLAN[form][mode].map(([id, at]) => [TEXTS.find((x) => x.id === id), at]) : shuffle(pool, rng).map((x) => [x, null]);
+  for (const [t, at] of plan) {
+    if (mode === 'facts') {
+      const fixed = CHECK_FACT[t.id];
+      const q = fixed && t.questions.find((x) => x.q === fixed[0]);
+      // the picture of a noun the text tells about: the answer of one of its questions (or its own picture)
+      const own = (noun) => [...t.questions.map((x) => x.right), t.picture].find((p) => p.noun === noun);
+      if (q && fixed[1].every(own)) cards.push(card(t, heard(t, t.sentences) + ' ' + q.q, choose(q.right, fixed[1].map(own), at)));
+      else if (!form) for (const x of t.questions) cards.push(card(t, heard(t, t.sentences) + ' ' + x.q, choose(x.right, x.wrong)));
+    }
+    if (mode === 'topic') cards.push(card(t, heard(t, t.sentences) + ' What is the whole text about? Circle the picture.', choose(t.topic.right, t.topic.wrong, at)));
+    if (mode === 'change') { const c = t.change, other = (form && CHECK_THEN_OTHER[t.id] && ownPic(t, CHECK_THEN_OTHER[t.id])) || c.other; cards.push(card(t, heard(t, c.sentences || t.sentences) + ' ' + (CHECK_FIRST_THEN[t.id] || c.question), choose(c.then, [c.first, other], at))); }
+    if (mode === 'pictures') for (let copy = 0; copy < (form ? 2 : 1); copy++) {
+      const said = (t.match.sentences || t.sentences).map((x, i) => ({ n: i + 1, text: x, pic: t.match.pics[i] }));
+      const asked = lv === 1 ? shuffle(said, rng).slice(0, 3).sort((a, b) => a.n - b.n) : said;
+      // (none at its own place, and never all in reverse: 4, 3, 2, 1 in the boxes reads as a countdown)
+      let shown; for (let k = 0; k < 200; k++) { shown = shuffle(asked, rng); if (shown.every((x, i) => x !== asked[i]) && shown.some((x, i) => x !== asked[asked.length - 1 - i])) break; }
+      const no = (x) => asked.indexOf(x) + 1;
+      cards.push(card(t, t.title + '. Listen to each sentence. Write its number under its picture. ' + asked.map((x) => no(x) + '. ' + x.text).join(' '),
+        `<div data-lcs-checkrow style="display:flex;justify-content:space-around;align-items:flex-end">${shown.map((x) => `<div data-lcs-mpic="${x.n}" style="display:flex;flex-direction:column;align-items:center;gap:8px;padding:6px 8px;border-radius:14px;background:#FFFFFF">${img(x.pic, 96, `data-lcs-shown="${esc(pk(x.pic))}"`)}${box(no(x))}</div>`).join('')}</div>`));
+    }
+  }
+  return { bodyHtml: `<div data-lcs-factkcheck="${mode}|${lv}"${key ? ' data-lcs-iskey="1"' : ''}>` + checkGrid(cards, { cols: 1 }) + `</div>`, meta: {} };
 }
 
 module.exports = { makeFactTextKType, faultsOf, TEXTS, LEVELS };

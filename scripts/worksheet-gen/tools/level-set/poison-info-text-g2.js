@@ -45,6 +45,9 @@ const FAULTS = [
   ['bank: a bold word on the wrong page', BANK, '"This wall is called a dam."', '"This wall is webbed."', 'G2-520', 2],
   ['bank: a heading question that asks for no heading', BANK, '"answer": "A Body Made for Swimming"', '"answer": "A Body Made for Diving"', 'G2-520', 2],
   ['bank: an index question with the wrong page', BANK, '"q": "On which page can you read about teeth?",\n     "answer": "2"', '"q": "On which page can you read about teeth?",\n     "answer": "3"', 'G2-520', 2],
+  // (review en.review-1119-read) the focus card's two wrong answers: a too-narrow detail of the paragraph, another paragraph's focus
+  ['bank: a too-narrow detail that no sentence of the paragraph tells', BANK, '"narrow": "what blubber is"', '"narrow": "how cheetahs climb trees"', 'G2-519', 2],
+  ['bank: the other paragraph of a focus card is the paragraph itself', BANK, '"narrow": "what blubber is",\n     "near": 2', '"narrow": "what blubber is",\n     "near": 1', 'G2-519', 2],
 ];
 const ORIG = { [FACTORY]: fs.readFileSync(FACTORY, 'utf8'), [BANK]: fs.readFileSync(BANK, 'utf8') };
 let caught = 0;

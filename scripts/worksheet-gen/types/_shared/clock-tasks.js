@@ -230,6 +230,33 @@ function clockCheckPage({ difficulty, locale }, ctx, mode) {
   const d = this.difficulty[difficulty] || this.difficulty[2];
   const self = (dd) => Object.assign(Object.create(this), { difficulty: { check: dd } });
   const plain = { ...(ctx || {}), interactive: false, answerKey: false };
+  // elapsed / time-arith (2026-11-19, unit check of g3-time-temperature-mass-volume): the page IS a page of cards with
+  // their answers, but it stands straight in the page body, where the cutter keys a card by the numbers it prints — and
+  // every card prints the twelve numerals of its clocks, so all were one task and no form B could be filled. The level's
+  // own cards (its starts, durations and signs), eight of them, each a card of its own; the key writes the answer
+  // (hours passed / the new time) into its box. The two clocks of an elapsed card are drawn at 116 px (140 on the page;
+  // the face's viewBox keeps the drawing): whole hours read at that size, and the part then leaves room on its page.
+  if (mode === 'elapsed' || mode === 'time-arith') {
+    // (2026-11-19, review en-1119-math, part 3: whole hours added to 5:00 against 1 hour 30 minutes added to 1:00, neither
+    // crossing an hour) a check of adding and subtracting time takes the face's quarter-hour cards, every one crossing an
+    // hour (its Level Set level 3: 10:45 + 30 minutes), whatever level the lesson hands out
+    const dd = mode === 'time-arith' ? { ...d, ls: 1, quarters: true } : d;
+    // (sixteen cards of adding and subtracting time: a card's size is its minutes, 15, 30 or 45, and form B needs a card
+    // of form A's sign and minutes that is another task; eight left most such cards without a partner)
+    const n = mode === 'time-arith' ? 16 : 8;
+    const body = this.build.call(self({ ...dd, cards: n }), { difficulty: 'check', locale }, plain).bodyHtml;
+    // (the English elapsed card writes its unit after the box: on a check card the word is drawn by the style sheet below,
+    // so that two cards that differ only in their clocks are not one task to the cutter, which reads a card's words)
+    const small = (html) => (mode === 'elapsed' ? html.replace(/<svg([^>]*?) width="140" height="140"/g, '<svg$1 width="116" height="116"')
+      .replace(/ data-lcs-dunit-label>(hours|minutes)<\/span>/g, ' data-lcs-dunit-label="$1"></span>')
+      // (the same for the time a card adds or subtracts, "2 hours 30 minutes": with its words in the card's text, two cards
+      // adding 15 minutes to two different clocks were one task to the cutter, which does not read the hands)
+      : html.replace(/(<span style="font-family:'Baloo 2';font-weight:700;font-size:22px;color:#3A3530">)([^<]+)(<\/span>)/, (all, a, txt, z) => a + txt.replace(/(\p{L}+)/gu, '<span data-lcs-dunit-label="$1"></span>') + z));
+    const cards = [...body.matchAll(/<section class="ws-card" data-lcs-card="\d+"><span class="ws-card-badge">\d+<\/span>([\s\S]*?)<\/section>/g)].map((m) => small(m[1]));
+    if (cards.length !== n) throw new Error(this.id + ' checkPage: ' + cards.length + ' cards');
+    const words = cards.some((c) => /data-lcs-dunit-label="/.test(c)) ? '<style>[data-lcs-dunit-label]::after{content:attr(data-lcs-dunit-label)}</style>' : '';
+    return { bodyHtml: words + checkGrid(cards), meta: {} };
+  }
   if (mode === 'draw') {
     if (d.routine) return this.build({ difficulty, locale }, ctx);
     // 2026-11-15 (native reviews en, de, sv): the KEY draws the hands, as the key of the page does — it wrote the time
@@ -296,7 +323,7 @@ function makeClockType(cfg) {
     // THE ITEM BANK of the unit checks (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md) — the two faces whose
     // page the check cannot cut: draw (the answer is the hands, which no markup carried) and match (the lines join two
     // columns). Every other face's page is a page of cards with their answers, and is cut as it is.
-    ...(mode === 'draw' || mode === 'match' ? { checkPage(args, ctx) { return clockCheckPage.call(this, args, ctx, mode); } } : {}),
+    ...(mode === 'draw' || mode === 'match' || mode === 'elapsed' || mode === 'time-arith' ? { checkPage(args, ctx) { return clockCheckPage.call(this, args, ctx, mode); } } : {}),
 
     build({ difficulty, locale }, ctx) {
       const d = this.difficulty[difficulty];
@@ -411,6 +438,7 @@ function makeClockType(cfg) {
       const wantCentral = d.central && choice ? centralDeal(rng, d.cards, mode === 'read-circle' ? (d.opts || 3) : 3) : null;
       const cards = [];
       const data = [];
+      let enEl = null;   // the English elapsed page: its plan of hour and minute cards (see the elapsed branch)
       for (let i = 0; i < d.cards; i++) {
         if (mode === 'draw') {
           const p = plan ? plan[i] : null;
@@ -441,6 +469,21 @@ function makeClockType(cfg) {
           const opts = new Set([fmt(h, m)]);
           if (d.foils && (LS || d.central)) {
             for (const w of foilsFor(h, m, d, rng, wantRank[i], wantCentral ? wantCentral[i] : null)) opts.add(w);
+          } else if (d.minuteFoils) {
+            // G3-354 level 2 (2026-11-19, review en-1119-math): the wrong times were the hands swapped and ONE MINUTE LATER, so
+            // the right time was always the earlier of a one-minute pair (8:48 / 8:49) and a child who picked the earlier won.
+            // Now the two errors of reading to the minute: the nearest five (8:48 -> 8:50, 8:47 -> 8:45; on a time that is
+            // already a five, one minute before or after), and the hour next to it, before or after. The three options are
+            // three corners of {the hour, the next hour} x {the minutes, the misread minutes}: always the right time with its
+            // minute error and its hour error made the right time the one option that shares its hour with one option and its
+            // minutes with the other (review: "vary which neighbor is right"). The corner left out is drawn at random, so the
+            // right time is that middle corner one time in three, and the earliest, middle or latest option as it falls.
+            const r5 = Math.round(m / 5) * 5;
+            const m2 = m % 5 ? (r5 === 60 ? 55 : r5) : (rng.next() < 0.5 && m > 0 ? m - 1 : m + 1);
+            const h2 = rng.next() < 0.5 ? (h % 12) + 1 : ((h + 10) % 12) + 1;
+            const corners = [fmt(h, m2), fmt(h2, m), fmt(h2, m2)];
+            const out = rng.int(0, 2);
+            for (const w of corners.filter((x, k) => k !== out)) if (w !== fmt(h, m)) opts.add(w);
           } else {
             const wrongs = step >= 30
               ? [fmt((h % 12) + 1, m), fmt(m === 30 ? h : (h % 12) + 1, m === 30 ? 0 : 30), fmt(m === 0 ? 12 : m / 5, (h % 12) * 5)]
@@ -462,6 +505,61 @@ function makeClockType(cfg) {
             clock({ h, m, size: (d.opts || 3) > 3 ? 142 : d.cards > 4 ? 150 : 180, ...clockOpts(d) }).svg +
             // Level Set four options: two rows of two (one row overflows a half-page card)
             `<div class="ws-choices"${(d.opts || 3) > 3 ? ' style="flex-wrap:wrap;gap:8px 12px;max-width:240px"' : ''}>${chips}</div></div>`
+          );
+        } else if (mode === 'elapsed' && d.enMin && loc === 'en') {
+          // 2026-11-19 (review en-1119-math, 3.MD.A.1 "measure time intervals in minutes"): an English page measures
+          // intervals in hours AND in minutes — half its cards each (in an order of their own), the unit written after the
+          // box. d.enMin is the level: 1 whole hours (on the hour, never past 12) and quarter-hour intervals inside one hour;
+          // 2 hours from :00 or :30 (one hour card passes 12) and intervals to five minutes (one crosses the hour, as
+          // 9:40 to 10:20); 3 hours that pass 12 and intervals to the minute (one crosses the hour). Hours are 2 or more and
+          // minutes 10 or more, so the unit word is always plural and tells nothing. The other ten languages keep the page
+          // of whole hours (their direction says hours).
+          if (!enEl) enEl = { plan: rng.shuffle(Array.from({ length: d.cards }, (_, k) => (k % 2 ? 'min' : 'h'))), nH: 0, nM: 0, durs: new Set() };
+          const lv = d.enMin, kind = enEl.plan[i];
+          const kIdx = kind === 'h' ? enEl.nH++ : enEl.nM++;
+          let h1, m1, dur, total, guard = 0;
+          for (;;) {
+            if (kind === 'h') {
+              m1 = lv === 1 ? 0 : rng.pick([0, 30]);
+              dur = rng.int(2, lv === 1 ? 3 : lv === 2 ? 4 : 5);
+              const cross = lv === 3 || (lv === 2 && kIdx % 2 === 0);
+              h1 = cross ? rng.int(Math.max(1, 13 - dur), 11) : rng.int(1, 12 - dur);
+              total = dur * 60;
+            } else {
+              const cross = lv > 1 && kIdx % 2 === 1;
+              if (lv === 1) { m1 = rng.pick([0, 15, 30]); dur = rng.pick([15, 30, 45].filter((x) => m1 + x <= 45)); }
+              else if (lv === 2) {
+                m1 = 5 * rng.int(cross ? 4 : 0, cross ? 11 : 8);
+                dur = 5 * rng.int(2, 10);
+              } else {
+                do { m1 = rng.int(cross ? 20 : 1, cross ? 58 : 40); } while (m1 % 5 === 0);
+                do { dur = rng.int(10, 55); } while (dur % 5 === 0);
+              }
+              h1 = rng.int(1, 12);
+              total = dur;
+              if (lv > 1 && (cross ? m1 + dur < 60 : m1 + dur >= 60)) { if (++guard < 400) continue; }
+            }
+            const k2 = kind + h1 + ':' + m1 + '+' + dur;
+            if ((enEl.used || (enEl.used = new Set())).has(k2) || (enEl.durs.has(kind + dur) && guard < 300)) { if (++guard < 400) continue; }
+            enEl.used.add(k2); enEl.durs.add(kind + dur);
+            break;
+          }
+          const endMin = h1 * 60 + m1 + total, h2 = (Math.floor(endMin / 60) - 1) % 12 + 1, m2 = endMin % 60;
+          const unit = kind === 'h' ? 'hours' : 'minutes', fine = lv === 3 && kind === 'min' ? { minuteToMarks: true } : {};
+          data.push({ h: h1, m: m1, h2, dur, unit: kind });
+          const arrow = `<span style="font-family:'Baloo 2';font-weight:700;font-size:30px;color:#F2784B">→</span>`;
+          const say = (px) => `<span style="font-family:'Nunito';font-weight:800;font-size:${px}px;line-height:1;color:#3A3530" data-lcs-dunit-label>${unit}</span>`;
+          if (view === 'screen') {
+            cards.push(screenCard(i, `data-lcs-tq="${fmt(h1, m1)}"`, `<div style="display:flex;align-items:center;gap:14px">` +
+              clock({ h: h1, m: m1, size: 200, ...fine }).svg + arrow + clock({ h: h2, m: m2, size: 200, ...fine }).svg +
+              tbox(`data-lcs-sh="${h1}" data-lcs-sm="${m1}" data-lcs-eh="${h2}" data-lcs-em="${m2}" data-lcs-dunit="${kind}"`, dur, 104) + say(26) + `</div>`));
+            continue;
+          }
+          cards.push(
+            `<div class="ws-card-stage" style="gap:14px;justify-content:space-between;padding:6px 12px" data-lcs-dur="${dur}" data-lcs-dunit="${kind}">` +
+            `<span data-lcs-role="start">${clock({ h: h1, m: m1, size: 140, ...fine }).svg}</span>` + arrow +
+            `<span data-lcs-role="end">${clock({ h: h2, m: m2, size: 140, ...fine }).svg}</span>` +
+            `<span style="display:inline-flex;align-items:center;gap:8px">${answerBox({ w: 64, h: 54, answer: dur })}${say(20)}</span></div>`
           );
         } else if (mode === 'elapsed') {
           let h1, dur, m;
@@ -596,7 +694,9 @@ function makeClockType(cfg) {
           used.add('a' + op + sH + ':' + sM + '+' + delta);
           const answer = KIT.clockTime(loc, Math.floor(eMin / 60), eMin % 60);
           const durH2 = Math.floor(delta / 60), durM2 = delta % 60;
-          const durLabel = durM2 ? (durH2 ? `${durH2} h ${durM2} min` : `${durM2} min`) : `${durH2} h`;
+          // (2026-11-19, review en-1119-math: an American page writes "2 hours", not "2 h"; the other languages keep h / min)
+          const hr = (n) => (loc === 'en' ? `${n} hour${n > 1 ? 's' : ''}` : `${n} h`), mn = (n) => (loc === 'en' ? `${n} minutes` : `${n} min`);
+          const durLabel = durM2 ? (durH2 ? `${hr(durH2)} ${mn(durM2)}` : mn(durM2)) : hr(durH2);
           const opColor = op === '+' ? '#146B5E' : '#F2784B';
           data.push({ h: sH, m: sM, op, delta });
           const stamp = `data-lcs-starth="${sH}" data-lcs-startm="${sM}" data-lcs-op="${op}" data-lcs-durmin="${delta}"`;
@@ -622,7 +722,7 @@ function makeClockType(cfg) {
           );
         }
       }
-      const meta = { times: data.map((t) => (t.dir ? `${t.dir}:${t.h}:${t.m}` : t.op ? `${t.op}${t.delta}@${fmt(t.h, t.m)}` : t.dur ? `${fmt(t.h, t.m)}+${t.dur}` : fmt(t.h, t.m))) };
+      const meta = { times: data.map((t) => (t.dir ? `${t.dir}:${t.h}:${t.m}` : t.op ? `${t.op}${t.delta}@${fmt(t.h, t.m)}` : t.dur ? `${fmt(t.h, t.m)}+${t.dur}${t.unit === 'min' ? 'min' : ''}` : fmt(t.h, t.m))) };
       if (view === 'screen') return { bodyHtml: screenWrap(cards.join('')), meta };
       const cols = (mode === 'elapsed' || mode === 'time-arith' || mode === 'convert-24h') ? 1 : 2;
       const body = cardGrid({ cards, cols, rows: Math.ceil(cards.length / cols) });
@@ -701,6 +801,14 @@ function makeClockType(cfg) {
             const s = card.querySelector('[data-lcs-role="start"] [data-lcs-prim="clock"]');
             const e = card.querySelector('[data-lcs-role="end"] [data-lcs-prim="clock"]');
             if (!angleOk(s) || !angleOk(e)) fails.push(`card ${i + 1}: hand angles wrong`);
+            // the English page (2026-11-19): hours or minutes, counted round the face
+            const du = card.querySelector('[data-lcs-dur]').dataset.lcsDunit;
+            if (du) {
+              const t0 = (+s.dataset.lcsH % 12) * 60 + +s.dataset.lcsM, t1 = (+e.dataset.lcsH % 12) * 60 + +e.dataset.lcsM, gone = (((t1 - t0) % 720) + 720) % 720;
+              if ((du === 'min' ? gone : gone / 60) !== dur || (du === 'h' && s.dataset.lcsM !== e.dataset.lcsM)) fails.push(`card ${i + 1}: elapsed != ${dur} ${du}`);
+              if (+card.querySelector('[data-lcs-answer]').dataset.lcsAnswer !== dur) fails.push(`card ${i + 1}: answer mismatch`);
+              return;
+            }
             // (Level Set pages may pass 12 o'clock: the hours are counted round the face)
             const gone = ((+e.dataset.lcsH - +s.dataset.lcsH) % 12 + 12) % 12;
             if ((tt ? gone : +e.dataset.lcsH - +s.dataset.lcsH) !== dur || s.dataset.lcsM !== e.dataset.lcsM) fails.push(`card ${i + 1}: elapsed != ${dur}h`);
@@ -775,6 +883,11 @@ const ORACLE = {
   elapsed(items) {
     return items.map((it) => {
       const m = it.meta || {}, sh = +m['data-lcs-sh'], eh = +m['data-lcs-eh'];
+      // the English page (2026-11-19): a box in hours or in minutes, counted round the face
+      if (m['data-lcs-dunit'] === 'min' || m['data-lcs-dunit'] === 'h') {
+        const g = (((((eh % 12) * 60 + +m['data-lcs-em']) - ((sh % 12) * 60 + +m['data-lcs-sm'])) % 720) + 720) % 720;
+        return m['data-lcs-dunit'] === 'min' ? g : g / 60;
+      }
       if (!Number.isInteger(sh) || !Number.isInteger(eh) || m['data-lcs-sm'] !== m['data-lcs-em']) throw new Error('telling-time oracle: no start / end clock on a box');
       return (((eh - sh) % 12) + 12) % 12;
     });
@@ -800,7 +913,7 @@ function interactiveFor(mode) {
   }
   if (mode === 'elapsed') {
     return { kind: 'type-number', item: '[data-lcs-tbox]', answerAttr: 'data-lcs-answer', labelAttr: 'data-lcs-sh',
-      metaAttrs: ['data-lcs-sh', 'data-lcs-sm', 'data-lcs-eh', 'data-lcs-em'], instructionKey: 'hours', screenHeight: 6000, maxDigits: () => 2, oracle: (items) => ORACLE.elapsed(items) };
+      metaAttrs: ['data-lcs-sh', 'data-lcs-sm', 'data-lcs-eh', 'data-lcs-em', 'data-lcs-dunit'], instructionKey: 'hours', screenHeight: 6000, maxDigits: () => 2, oracle: (items) => ORACLE.elapsed(items) };
   }
   if (mode === 'time-arith') {
     return { kind: 'type-number', item: '[data-lcs-tbox]', answerAttr: 'data-lcs-answer', labelAttr: 'data-lcs-part',

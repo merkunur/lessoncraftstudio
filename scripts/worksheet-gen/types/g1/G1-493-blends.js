@@ -69,7 +69,12 @@ const NAMED_OTHERWISE_ALL = ['christmas/wreath', 'At the Supermarket/bread', 'ki
 // boots ("kängor"); es "fregadero" is a kitchen sink and the picture a pedestal basin ("lavabo"); fr "crêpe" is thin and the
 // picture a thick pancake stack; sv "spis" for an open fireplace ("öppen spis") — native review 2026-11-16
 const WRONG_WORD = { nl: ['post office/stamp', 'toys/scooter'], sv: ['post office/stamp', 'camping/boots', 'around the house/fireplace'], da: ['post office/stamp'], no: ['post office/stamp'], es: ['around the house/sink'], fr: ['breakfast/pancake'] };
-const leftOut = (L, task) => new Set([...(WRONG_WORD[L] || []), ...(task === 'write' ? [...(NAMED_OTHERWISE[L] || []), ...NAMED_OTHERWISE_ALL] : [])]);
+// a picture whose name a first grader does not know, at every level (a US K-3 reading teacher, review en-1119-lit,
+// 2026-11-19): en pliers (said "scissors", "cutters", "tool" — a child who does not know the word cannot hear its blend).
+// verify() keeps its own copy (NOT_KNOWN_SPEC).
+const NOT_KNOWN = { en: ['tools/pliers'] };
+const NOT_KNOWN_SPEC = { en: ['tools/pliers'] };
+const leftOut = (L, task) => new Set([...(WRONG_WORD[L] || []), ...(NOT_KNOWN[L] || []), ...(task === 'write' ? [...(NAMED_OTHERWISE[L] || []), ...NAMED_OTHERWISE_ALL] : [])]);
 const picKey = (src) => { const m = /\/themes(?:-512)?\/([^/]+)\/([^/?#@]+)(?:@\dx)?\.(?:webp|png)/.exec(src || ''); return m ? decodeURIComponent(m[1]) + '/' + decodeURIComponent(m[2]) : null; };
 
 module.exports = {
@@ -151,6 +156,7 @@ module.exports = {
     got.cards.forEach((c, i) => {
       const k = picKey(c.src);
       if (k && (WRONG_WORD[L] || []).includes(k)) extra.push(`card ${i + 1}: ${k} carries a word that is not its name in ${L}`);
+      if (k && (NOT_KNOWN_SPEC[L] || []).includes(k)) extra.push(`card ${i + 1}: ${k} carries a word a first grader does not know in ${L}`);
       if (k && c.alone && ((NAMED_OTHERWISE[L] || []).includes(k) || NAMED_OTHERWISE_ALL.includes(k))) extra.push(`card ${i + 1}: ${k} alone does not give its word (level 3)`);
     });
     return extra.concat(await page.evaluate(() => {

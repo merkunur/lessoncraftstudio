@@ -1140,6 +1140,44 @@ module.exports = {
   isTrap, levelsFor, interactiveFor, targetOf, targetConfig, FACE_LEVELS, SCREEN, copyStrings, levelSetWords,
   interactive: interactiveFor('write'),
 
+  /**
+   * THE ITEM BANK of the unit checks (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"), 2026-11-19 (review
+   * en-3checks-f1116 of g3-rounding-adding-subtracting: "part 1 is a two-digit Grade 2 number line: use three-digit
+   * tens"). The page is its lines beside the rule box, and cannot be cut. Here a card is three lines of the level, drawn
+   * by the page's own deal (compose) and its own line (roundRow), without the line's number on the page: three-digit
+   * numbers only (the Grade 3 half of the page), one that rounds down, one that rounds up and one whose deciding digit is
+   * 5, in an order of their own, so that both forms ask the three cases; never a line whose rounding changes the hundred
+   * (or reaches 1,000). The base write face only (the hundred: G3-388); a face of its own (a sort, two boxes) refuses.
+   */
+  checkPage(args, ctx) {
+    const { checkGrid } = require('../../lib/check-page.js');
+    const d = this.difficulty[args.difficulty] || this.difficulty[2];
+    if (!d || d.mode || !Array.isArray(d.steps) || d.steps.length !== 1) throw new Error(`${this.id} checkPage: a face of its own`);
+    const loc = (args.locale || 'en').slice(0, 2), bank = loadBank(KEY, loc), cfg = resolveBase(d, bank), step = cfg.step, rng = ctx.rng;
+    const by = { down: [], up: [], five: [] }, seen = new Set();
+    for (let t = 0; t < 40 && Object.values(by).some((l) => l.length < 14); t++) {
+      const items = compose(rng, cfg);
+      if (!items) continue;
+      for (const n of items) {
+        if (n < 100 || seen.has(n) || carries(n, step)) continue;
+        seen.add(n);
+        by[decidingDigit(n, step) === 5 ? 'five' : isUp(n, step) ? 'up' : 'down'].push(n);
+      }
+    }
+    const row = (n) => C4.roundRow({ idx: 1, n, step, answer: round(n, step), rel: cfg.relation }).replace(/<span data-lcs-idx="1"[^>]*>1<\/span>/, '');
+    // (no two lines of a card round to the same number: 849 and 751 both to 800 would let one answer copy the other)
+    const pick = (list, avoid) => { const j = list.findIndex((n) => !avoid.has(round(n, step))); return j < 0 ? null : list.splice(j, 1)[0]; };
+    const cards = [];
+    while (cards.length < 8) {
+      const used = new Set(), three = [];
+      for (const c of ['down', 'up', 'five']) { const n = pick(by[c], used); if (n == null) break; used.add(round(n, step)); three.push(n); }
+      if (three.length < 3) break;
+      cards.push(`<div class="ws-card-stage" style="justify-content:space-evenly;align-items:center;gap:6px;padding:4px 2px">${rng.shuffle(three).map(row).join('')}</div>`);
+    }
+    if (cards.length < 6) throw new Error(`${this.id} checkPage: ${cards.length} cards of three cases`);
+    return { bodyHtml: checkGrid(cards), meta: {} };
+  },
+
   build({ theme, difficulty, locale }, ctx) {
     const loc = (locale || 'en').slice(0, 2);
     return this._buildWith(loadBank(KEY, loc), this.difficulty[difficulty], { theme, locale: loc }, ctx);

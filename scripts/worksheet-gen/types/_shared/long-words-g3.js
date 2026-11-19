@@ -122,7 +122,9 @@ const LINES = {
   build: 'Add the suffix to the base word. Write the new word in the sentence.',
   pick2: 'Read each sentence. Circle the word that fits.',
   makeit: 'Add the suffix. Write the new word. Then write what it means.',
-  heartbox: 'Write the letters of each sound in a box. Draw a heart over the tricky part.', fold: 'Fold the top back.',
+  // (2026-11-19, review en-1119-lit) EACH tricky part: enough, laugh, ocean, busy have two, and the key hearts them all (the
+  // line keeps the length of the old one: one more letter wrapped it and pushed the page past its foot)
+  heartbox: 'Write the letters of each sound in a box. Put a heart over each tricky part.', fold: 'Fold the top back.',
   heartsent: 'Read each sentence. Write the heart word that fits. Its first letter is on the line.', heartsent2: 'Read each sentence. Write the heart word that fits.', own: 'Open the page again. Write a sentence of your own with two heart words from the top.',
 };
 /** the bars that head the columns of a sort */
@@ -274,7 +276,10 @@ function faultsOf(b) {
     const ws = (TY.levels || {})[lv] || [];
     ws.forEach((x) => typeWord(x, `ty level ${lv}`));
     if (lv === 1 && ws.some((x) => x.marks.length !== 2 || x.marks[1] !== 'L')) f.push('ty level 1: a word that is no two-syllable consonant-le word');
-    if (lv === 2 && ws.some((x) => x.marks.length !== 2 || !x.marks.some((m) => m === 'L' || m === 'E') || x.marks.includes('V'))) f.push('ty level 2: a word with neither a consonant-le nor a silent-e syllable, or with a vowel team');
+    // (2026-11-19, review en-1119-lit) level 2 types a vowel-team syllable too: V stands in its legend and its title, and
+    // no word of the level had one. Level 2: two syllables, one of them consonant-le, silent e, or a vowel team
+    if (lv === 2 && ws.some((x) => x.marks.length !== 2 || !x.marks.some((m) => m === 'L' || m === 'E' || m === 'V'))) f.push('ty level 2: a word with neither a consonant-le, a silent-e, nor a vowel-team syllable');
+    if (lv === 2 && ws.filter((x) => x.marks.includes('V')).length < 10) f.push('ty level 2: fewer than ten words with a vowel-team syllable');
     if (lv === 3 && ws.some((x) => x.marks.length !== 3 || !x.marks.some((m) => 'ELV'.includes(m)))) f.push('ty level 3: a word that is not three syllables with a silent-e, vowel-team, or consonant-le syllable');
     if (ws.length < (lv === 3 ? 18 : 40)) f.push(`ty level ${lv}: too few words`);
     if (new Set(ws.map((x) => x.w)).size !== ws.length) f.push(`ty level ${lv}: a word twice`);
@@ -498,6 +503,8 @@ function drawOnce(b, mode, lv, rng) {
       const m = got.map((x) => x.marks.join(''));
       if (lv === 1 && (m.filter((s) => s[0] === 'C').length < 3 || m.filter((s) => s[0] !== 'C').length < 3)) continue;
       if (lv === 2 && (m.filter((s) => s.includes('E')).length < 4 || m.filter((s) => s.includes('L')).length < 4)) continue;
+      // (2026-11-19, review en-1119-lit) level 2: two words or more with a vowel-team syllable (V of the legend)
+      if (lv === 2 && m.filter((s) => s.includes('V')).length < 2) continue;
       if (lv === 3 && ['E', 'V', 'L'].some((k) => m.filter((s) => s.includes(k)).length < 2)) continue;
       split = got; break;
     }
@@ -807,10 +814,15 @@ function renderTask(t, k, mode, lv, d, key, inner, b) {
     // nearer to its own boxes than to the row above); level 3: every box one width, wide enough for ough, the word beside
     // its boxes (the widths tell nothing)
     const B = d.hbox, hs = Math.round(B * 0.42), wbox = (g) => (d.uw ? d.uw : B + hs * (g.length - 1));
+    // (2026-11-19, review en-1119-lit) levels 1 and 2: every box of a word one width, the width its longest letter group
+    // needs (a box as wide as its own letters gave away which box holds oul or ough), kept inside its column (a box draws
+    // 5 px of border)
+    const colW = Math.floor((inner - 24 - 12 - 18 * (d.cols - 1)) / d.cols);
+    const wordW = (x) => Math.min(Math.max(...x.boxes.map(wbox)), Math.floor((colW - 4 * (x.boxes.length - 1)) / x.boxes.length) - 5);
     const row = (x) => `<div data-lcs-hrow="${x.w}" data-lcs-heart="${x.heart.join(',')}" style="display:flex;flex-direction:${d.uw ? 'row' : 'column'};align-items:${d.uw ? 'flex-end' : 'flex-start'};gap:${d.uw ? 14 : 0}px">` +
       `<span data-lcs-read data-lcs-hw style="${d.uw ? `flex:0 0 auto;width:${d.lw}px;padding-bottom:${Math.round((B - d.hfont * 1.15) / 2)}px;` : ''}font:800 ${d.hfont}px/1.15 'Nunito',sans-serif;color:${T.ink}">${esc(x.w)}</span>` +
       `<div style="display:flex;gap:4px">${x.boxes.map((g, i) => `<div data-lcs-hcol="${i}" style="display:flex;flex-direction:column;align-items:center;gap:2px"><div data-lcs-hspace style="height:${hs}px;display:flex;align-items:flex-end">${key && x.heart.includes(i) ? heartSvg(hs) : ''}</div>` +
-        `<div data-lcs-hbox="${esc(g)}" style="width:${wbox(g)}px;height:${B}px;border:2.5px solid ${T.ink};border-radius:6px;background:#FFFFFF;display:flex;align-items:center;justify-content:center;font:800 ${Math.round(B * 0.55)}px/1 'Nunito',sans-serif;color:${T.teal}">${key ? esc(g) : ''}</div></div>`).join('')}</div></div>`;
+        `<div data-lcs-hbox="${esc(g)}" style="width:${d.uw ? wbox(g) : wordW(x)}px;height:${B}px;border:2.5px solid ${T.ink};border-radius:6px;background:#FFFFFF;display:flex;align-items:center;justify-content:center;font:800 ${Math.round(B * 0.55)}px/1 'Nunito',sans-serif;color:${T.teal}">${key ? esc(g) : ''}</div></div>`).join('')}</div></div>`;
     return cream('data-lcs-task="heartbox"', label(`${num(k)}${LINES.heartbox}`) +
       `<div data-lcs-hgrid style="display:grid;grid-template-columns:repeat(${d.cols},1fr);gap:${d.uw ? 3 : hs + 12}px 18px;justify-items:start;padding:2px 6px">${t.items.map(row).join('')}</div>`, d.pad);
   }
@@ -850,6 +862,8 @@ function makeLongWordsG3Type({ id, slug, mode, exerciseType, i18n }) {
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // THE ITEM BANK of the unit checks (Part 7.6): G3-512, G3-514, G3-516, G3-518 (longCheckPage below)
+    ...(LONG_CHECK_MODES.has(mode) ? { checkPage(args, ctx) { return longCheckPage(mode, args, ctx); } } : {}),
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the words are English words (no ${locale} bank)`);
@@ -984,6 +998,8 @@ function makeLongWordsG3Type({ id, slug, mode, exerciseType, i18n }) {
             // level 2: three or four words with a closed first syllable, so the first box is a choice too
             if (mode === 'co' && lv === 2) { const c = marksSeen.filter((m) => m[0] === 'C').length; if (c < 3 || c > 4) fails.push(`level 2 has ${c} words with a closed first syllable, not three or four`); }
             if (mode === 'types' && new Set(marksSeen.join('').split('')).size < 3) fails.push('the words to split use fewer than three types');
+            // (2026-11-19) every letter of the legend is an answer of the level: level 2 has two vowel-team syllables or more
+            if (mode === 'types' && lv === 2 && marksSeen.filter((m) => m.includes('V')).length < 2) fails.push('level 2 has fewer than two words with a vowel-team syllable (V of the legend)');
           }
           if (kind === 'choose3' || kind === 'pick2') {
             const ss = [...b.querySelectorAll('[data-lcs-choose]')], m = kind === 'pick2' ? 2 : 3;
@@ -1139,9 +1155,10 @@ function makeLongWordsG3Type({ id, slug, mode, exerciseType, i18n }) {
               boxes.forEach((q) => { if (isKey ? txt(q) !== q.dataset.lcsHbox : txt(q)) fails.push(`a box of "${w}" is filled on the page of the child, or the key does not fill it`); if (R(q).height < 38 || R(q).width < 38) fails.push('a sound box smaller than 38 px'); });
               const hcols = hearts.map((h) => +h.closest('[data-lcs-hcol]').dataset.lcsHcol);
               if (isKey ? hcols.join() !== x.heart.join() : hearts.length) fails.push(`the heart of "${w}" is not over its tricky part on the key, or the page of the child shows it`);
-              // levels 1 and 2: a box as wide as its letters; level 3: every box one width (the widths tell nothing)
+              // (2026-11-19, review en-1119-lit) every box of a word one width on every level (a box as wide as its own letters
+              // told which box holds ough); level 3: one width for every word (below)
               const ws2 = boxes.map((q) => Math.round(R(q).width));
-              if (d.uw ? new Set(ws2).size !== 1 : boxes.some((q, i) => i && (q.dataset.lcsHbox.length > boxes[i - 1].dataset.lcsHbox.length) !== (ws2[i] > ws2[i - 1]))) fails.push(`the boxes of "${w}" are not ${d.uw ? 'one width' : 'as wide as their letters'}`);
+              if (new Set(ws2).size !== 1) fails.push(`the boxes of "${w}" are not one width (their widths tell the letters)`);
               texts.push(['heartword', w]); });
             // level 3: one box width for every word, wide enough for ough written in the key's letters
             if (d.uw) { const all = [...b.querySelectorAll('[data-lcs-hbox]')], bw = Math.round(R(all[0]).width); const pr = document.createElement('span'); pr.style.cssText = `position:absolute;visibility:hidden;font:800 ${Math.round(d.hbox * 0.55)}px/1 'Nunito',sans-serif`; pr.textContent = 'ough'; b.appendChild(pr); const need = pr.getBoundingClientRect().width + 16; pr.remove();
@@ -1182,6 +1199,125 @@ function makeLongWordsG3Type({ id, slug, mode, exerciseType, i18n }) {
       }, LEVELS, INFO, { ROWH, MARKBOX, BAND, PICK_CAP });
     },
   };
+}
+
+/* ---------------------------------------------------------------- the item bank of the unit checks ---------------------------------------------------------------- */
+/** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the page's task made small, each card one
+ *  task with its answer in its markup. Every card names its kind (data-lcs-ckind; lists/en.json kindAttr): form B asks the
+ *  kind form A asks, card by card (review en-1119-lit).
+ *   co (G3-512), types (G3-514)  one word to split (task 1 of the page), its boxes under the word as a group (they never show
+ *            the split), each box carrying its letter as data-lcs-answer; the card prints the page's legend of the letters
+ *            (C, O; C, O, E, V, L) and the key draws the line. Level 2 of G3-512 mixes open first syllables with words
+ *            split again (muf|fin), so the first box is a choice too. G3-514 level 2: two vowel-team words or more (V), two
+ *            silent-e and two consonant-le words; its kinds are v, e, l (the vowel team first), and every page starts with
+ *            a vowel-team word. A word of an instruction (robot, open, cupcake) is never a card.
+ *   suffix (G3-516)  two kinds of the page's tasks: the match (task 2: two pairs of one base each, careful/careless, four
+ *            meanings A to D, a box beside each word carrying the letter of its meaning; no word straight across from its
+ *            meaning) and the word to build in a sentence (task 3: base + suffix under the line, data-lcs-answer), with the
+ *            level's own suffixes (level 2: -ness, -ment). A base stands once a page.
+ *   heart (G3-518)  a heart word the teacher says (the reviewer of 2026-11-19: a printed word is copied, not spelled): its
+ *            sounds as a row of boxes of one width (the count is given, the width tells nothing), the whole word as
+ *            data-lcs-answer, the key writing the letters and drawing a heart over EACH tricky part (enough: ou and gh).
+ *            The word stands on the key only, for the teacher to say. Kinds: core (enough, though, ocean) and more. Never
+ *            the sentences: written from memory with no first letter, "We had ___ food." takes "some" as well. */
+const LONG_CHECK_MODES = new Set(['co', 'types', 'suffix', 'heart']);
+function longCheckPage(mode, { difficulty, locale }, ctx) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`long-words-g3 check: the words are English words (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const lv = Number(difficulty) || 2, d = LEVELS[mode][lv] || LEVELS[mode][2], rng = ctx.rng, key = !!(ctx && ctx.answerKey), say = SAYT[mode];
+  const cards = [];
+  const answerBox = (want) => boxMark(want, key, MARKBOX).replace('<span data-lcs-markbox', `<span data-lcs-answer="${esc(want)}" data-lcs-markbox`);
+  // (each letter with its name never parts at a line end)
+  const small = (t) => `<div data-lcs-checklegend style="font:700 14px/1.3 'Nunito',sans-serif;color:${T.inkSoft};text-align:center">${t.split(' · ').map((x) => `<span style="white-space:nowrap">${esc(x)}</span>`).join(' · ')}</div>`;
+  if (mode === 'co' || mode === 'types') {
+    const pool = mode === 'co' ? [...BANK.co.levels[lv], ...(lv === 2 ? (BANK.co.review || {})[2] || [] : [])] : BANK.ty.levels[lv];
+    const ws = pool.filter((x) => !say.includes(x.w));
+    const pat = (x) => x.marks.join('');
+    const kindOf = (x) => (mode === 'co' ? pat(x) : x.marks.includes('V') ? 'v' : x.marks.includes('E') ? 'e' : 'l');
+    let got = null;
+    for (let k = 0; k < 400 && !got; k++) {
+      const pick = shuffle(ws, rng).slice(0, 8);
+      if (new Set(pick.map((x) => x.w)).size < 8) continue;
+      const ps = pick.map(pat), most = Math.max(...[...new Set(ps)].map((p) => ps.filter((q) => q === p).length));
+      if (new Set(ps).size < 2 || most > 5) continue;
+      if (mode === 'co' && lv === 2 && ps.filter((p) => p[0] === 'C').length < 2) continue;
+      if (mode === 'types' && lv === 2 && ['v', 'e', 'l'].some((kd) => pick.filter((x) => kindOf(x) === kd).length < 2)) continue;
+      if (ps.some((p, i) => i >= 2 && p === ps[i - 1] && p === ps[i - 2])) continue;
+      got = pick;
+    }
+    if (!got) throw new Error(`long-words-g3 check: no eight words to split for ${mode}`);
+    // G3-514: a vowel-team, a silent-e and a consonant-le word first (the first cards of a page are the ones a check takes
+    // first; review en-1119-lit-2: each form asks all three kinds the title names)
+    if (mode === 'types') { const lead = ['v', 'e', 'l'].map((kd) => got.find((x) => kindOf(x) === kd)).filter(Boolean); got.splice(0, got.length, ...lead, ...got.filter((x) => !lead.includes(x))); }
+    const fs = 30;
+    for (const x of got) {
+      // the word over its boxes, the legend of the letters beside them (the card keeps two lines)
+      cards.push(`<div data-lcs-splitcheck="${esc(x.w)}" data-lcs-marks="${x.marks.join('')}" data-lcs-ckind="${kindOf(x)}" style="display:flex;align-items:center;justify-content:center;gap:34px;padding:6px 14px 8px">` +
+        `<div style="flex:0 0 auto;display:flex;flex-direction:column;align-items:center;gap:6px"><span data-lcs-read style="display:inline-flex;font:800 ${fs}px/1.1 'Nunito',sans-serif;color:${T.ink};letter-spacing:0.12em">` +
+        x.parts.map((p, i) => `<span style="position:relative;display:inline-block">${i > 0 && key ? `<span data-lcs-splitbar style="position:absolute;top:-6px;bottom:-6px;left:-${(0.06 * fs + 1.5).toFixed(1)}px;width:3px;border-radius:2px;background:${T.teal}"></span>` : ''}${esc(p)}</span>`).join('') + `</span>` +
+        `<span style="display:flex;gap:10px">${x.marks.map(answerBox).join('')}</span></div>` +
+        `<div style="flex:0 1 330px">${small(mode === 'co' ? LINES.legendCo : LINES.legendTy)}</div></div>`);
+    }
+  } else if (mode === 'suffix') {
+    const S = BANK.suffix, byW = Object.fromEntries(S.words.map((x) => [x.w, x]));
+    const pairs = (lv === 3 ? [...S.pairs[1], ...S.pairs[3]] : S.pairs[1]).filter((p) => p.every((w) => byW[w] && !say.includes(w) && !byW[w].odd));
+    // the match of the page as it stands there (two pairs, four meanings A to D, no word straight across from its meaning
+    // and not all one row away): five cards of ten pairs, no pair twice
+    if (pairs.length < 10) throw new Error(`long-words-g3 check: ${pairs.length} pairs`);
+    const sh = shuffle(pairs, rng), sets = [];
+    for (let j = 0; j + 1 < sh.length && sets.length < 5; j += 2) sets.push([sh[j], sh[j + 1]]);
+    const used = new Set(sets.flat(2).map((w) => byW[w].base));
+    // the words to build: the level's own suffixes (level 2: -ness and -ment; level 3: -able and bases that change), other bases
+    const sufs = lv === 1 ? ['ful', 'less'] : lv === 2 ? ['ness', 'ment'] : ['able', 'ness', 'ment'];
+    const build = shuffle(S.words.filter((x) => sufs.includes(x.suf) && (lv === 3 || !x.change) && !say.includes(x.w) && !used.has(x.base) && x.sentence), rng)
+      .filter((x, i, a) => a.findIndex((y) => y.base === x.base) === i).slice(0, 5);
+    if (build.length < 5) throw new Error('long-words-g3 check: too few words to build');
+    const matchCard = (two) => {
+      const mw = shuffle(two.flat(), rng);
+      let order = null;
+      for (let t = 0; t < 200; t++) { const o = shuffle(mw, rng); const off = mw.map((w, i) => (o.indexOf(w) - i + 4) % 4); if (off.some((x) => x === 0) || new Set(off).size < 2) continue; order = o; break; }
+      if (!order) throw new Error('long-words-g3 check: no order for the meanings');
+      return `<div data-lcs-matchcheck="${esc(two.flat().join('|'))}" data-lcs-ckind="match" style="display:flex;flex-direction:column;gap:4px;padding:6px 16px">` +
+        mw.map((w, i) => `<div style="display:grid;grid-template-columns:200px 1fr;gap:16px;align-items:center"><div style="display:flex;align-items:center;gap:10px"><span data-lcs-read style="flex:1 1 auto;font:800 22px/1.2 'Nunito',sans-serif;color:${T.ink}">${esc(w)}</span>${answerBox('ABCD'[order.indexOf(w)])}</div>` +
+          `<div data-lcs-read style="font:700 19px/1.25 'Nunito',sans-serif;color:${T.ink}"><span style="color:${T.teal};font-weight:800">${'ABCD'[i]}</span>&nbsp;&nbsp;${esc(byW[order[i]].meaning)}</div></div>`).join('') + `</div>`;
+    };
+    const buildCard = (x) => {
+      const [a, c] = x.sentence.split('___'), m = c.match(/^[.!?,'"]+/), tail = m ? m[0] : '', rest = (m ? c.slice(m[0].length) : c).trim();
+      const want = a.trim() ? x.w : x.w[0].toUpperCase() + x.w.slice(1);
+      // the sentence with its line, the cue (base + suffix) under the line, as on the page
+      return `<div data-lcs-buildcheck="${esc(x.w)}" data-lcs-ckind="${lv === 2 && x.suf === 'able' ? 'able' : 'build'}" style="display:flex;justify-content:center;padding:8px 14px 34px">` +
+        `<div data-lcs-read style="display:flex;flex-wrap:wrap;align-items:flex-end;gap:32px 7px;font:700 20px/1.3 'Nunito',sans-serif;color:${T.ink}">${a.trim() ? `<span style="padding-bottom:4px">${esc(a.trim())}</span>` : ''}` +
+        `<span style="display:inline-flex;align-items:flex-end"><span style="position:relative;display:inline-flex">${rule({ w: BUILDLINE + 0, answer: key ? want : null }).replace('<div data-lcs-line', key ? '<div data-lcs-line' : `<div data-lcs-line data-lcs-answer="${esc(want)}"`)}` +
+        `<span data-lcs-read style="position:absolute;top:100%;left:50%;transform:translateX(-50%);margin-top:3px;white-space:nowrap;padding:0 9px;border-radius:8px;background:#FFFFFF;border:2px solid ${T.teal};font:800 18px/1.1 'Nunito',sans-serif;color:${T.ink}">${esc(x.base) + ' + ' + esc(x.suf)}</span></span>` +
+        `${tail ? `<span style="padding-bottom:4px">${esc(tail)}</span>` : ''}</span>${rest ? `<span style="padding-bottom:4px">${esc(rest)}</span>` : ''}</div></div>`;
+    };
+    // a match first, then a word to build, in turn (the first two cards of a page are the ones a check takes first)
+    // (review en-1119-lit-2) the lesson's title names -able, and the level-2 page does not have it: the level-2 check
+    // asks it too, with a base that does not change (washable), a third card after the match and the -ness/-ment word
+    if (lv === 2) {
+      const able = shuffle(S.words.filter((x) => x.suf === 'able' && !x.change && !say.includes(x.w) && !used.has(x.base) && x.sentence && !build.some((y) => y.base === x.base)), rng).slice(0, 3);
+      if (able.length < 3) throw new Error('long-words-g3 check: too few -able words to build');
+      for (let i = 0; i < 3; i++) { cards.push(matchCard(sets[i])); cards.push(buildCard(build[i])); cards.push(buildCard(able[i])); }
+      cards.push(matchCard(sets[3]));
+    } else sets.forEach((two, i) => { cards.push(matchCard(two)); cards.push(buildCard(build[i])); });
+  } else {
+    const H = BANK.heart, byW = Object.fromEntries(H.words.map((x) => [x.w, x]));
+    // the three words of the lesson and five more of the bank; a word of the lesson first
+    const more = shuffle(H.words.map((x) => x.w).filter((w) => !H.always.includes(w)), rng).slice(0, 5);
+    const core = shuffle(H.always, rng);
+    const words = [core[0], more[0], core[1], more[1], core[2], ...more.slice(2)];
+    // one width for every box of every card, wide enough for ough written in the key's letters; the boxes stand in one row
+    const B = 46, BW = 74, hs = 19;
+    for (const w of words) {
+      const x = byW[w];
+      cards.push(`<div data-lcs-heartcheck="${esc(w)}" data-lcs-heart="${x.heart.join(',')}" data-lcs-ckind="${H.always.includes(w) ? 'core' : 'more'}" style="display:flex;flex-direction:column;align-items:center;gap:2px;padding:4px 10px 8px">` +
+        // the word for the teacher to say: on the key only (the child's card keeps its room)
+        `<div data-lcs-sayword style="height:22px;font:700 16px/22px 'Nunito',sans-serif;color:${T.teal}">${key ? 'say: ' + esc(w) : ''}</div>` +
+        `<div data-lcs-answer="${esc(w)}" style="display:flex;gap:6px">${x.boxes.map((g, i) => `<div style="display:flex;flex-direction:column;align-items:center;gap:2px"><div style="height:${hs}px;display:flex;align-items:flex-end">${x.heart.includes(i) && key ? heartSvg(hs) : ''}</div>` +
+          `<div data-lcs-soundbox style="width:${BW}px;height:${B}px;box-sizing:border-box;border:2.5px solid ${T.ink};border-radius:6px;background:#FFFFFF;display:flex;align-items:center;justify-content:center;font:800 ${Math.round(B * 0.55)}px/1 'Nunito',sans-serif;color:${T.teal}">${key ? esc(g) : ''}</div>\n          </div>`).join('')}</div></div>`);
+    }
+  }
+  return { bodyHtml: STYLE + `<div data-lcs-noliga="1" style="${LIGS}">` + fRoom(checkGrid(cards, { cols: 1 })) + `</div>`, meta: {} };
 }
 
 module.exports = { makeLongWordsG3Type, faultsOf, drawPage, LEVELS, INSTR, LINES, HEADS, SAY };

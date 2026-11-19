@@ -67,6 +67,51 @@ const BANK = 'digraphs';
 const G1_FLOOR = 44, G1_TEXT = 26;
 const SPARSE_MAX = 40;
 const TRIES = 400;
+/** Pictures WITHDRAWN from a language's pages (US K-3 reading teacher, review en-1119-lit, 2026-11-19), English only:
+ *  vehicles/ship (a freighter a six-year-old calls "boat": no digraph), summer/beach (a scene a child names "umbrella" or
+ *  "sand") and animals/sheep (drawn as a lamb: "lamb" holds no sh). A copy whose drawn pictures hold one draws again (its
+ *  next try), so every page that never drew one is the page it was; verify() keeps its own copy (WITHDRAWN_SPEC). */
+const WITHDRAWN = { en: new Set(['vehicles/ship', 'summer/beach', 'animals/sheep']) };
+const withdrawn = (loc, it) => !!(WITHDRAWN[loc] && WITHDRAWN[loc].has(it.theme + '/' + it.noun));
+const WITHDRAWN_SPEC = { en: ['vehicles/ship', 'summer/beach', 'animals/sheep'] };
+/** The English check cards (Part 7.6; review en-1119-lit, 2026-11-19, a US K-3 reading teacher). Only the reviewed words a
+ *  child names alike and hears the team in at the START or the END of the word: never a compound (jellyfish, armchair),
+ *  never the team inside the word (mushroom, feather), never a word the review found hard or unfair (wreath: a silent w
+ *  and a holiday; sloth; thermometer; shrimp, said "prawn" or "shrimps"; the chicken, said "hen"). The Kindergarten sort (K-378) takes the words
+ *  that START with the team only (its lesson asks how the name begins). */
+const CHECK_EN = {
+  base: ['clothing/shirt', 'clothing/shoe', 'clothing/shorts', 'ocean life/shark', 'beach/shovel', 'pets/fish', 'around the house/brush',
+    'furniture/chair', 'breakfast/cheese', 'easter/chocolate', 'furniture/bench', 'body parts/thumb', 'body parts/tooth'],
+  start: ['clothing/shirt', 'clothing/shoe', 'clothing/shorts', 'ocean life/shark', 'beach/shovel', 'furniture/chair', 'breakfast/cheese', 'easter/chocolate'],
+};
+/** THE ITEM BANK, English: one card per reviewed picture of the set's teams (the page's validity rule, the bank's items),
+ *  data-lcs-ckind naming its team, so that a check asks every team once in each form.
+ *   base      the picture (96 px: as tall as two beads) beside the set's three choice beads, drawn ONCE in the page's column
+ *             order (the one-card abacus printed the teams twice, in its key row and on its wire: a child did not know which
+ *             to circle); the right bead carries data-lcs-correct
+ *   sort-two  the page's card: the picture between the two team houses; the right house carries data-lcs-correct */
+function enCheckCards(B, d, rng) {
+  const loc = 'en', two = d.mode === 'sort-two';
+  const { teams, sounds } = teamsAndSounds(B, { set: two ? 'k' : 'exemplar' }, loc, two ? 2 : 3);
+  const allow = new Set(two ? CHECK_EN.start : CHECK_EN.base);
+  const pool = facePools(B, loc, teams, sounds, (it, t) => allow.has(it.theme + '/' + it.noun) && !withdrawn(loc, it) && (two ? positionOf(it, t) === 'beginning' : ['beginning', 'end'].includes(positionOf(it, t))));
+  const items = shuffle2(rng, teams.flatMap((t, col) => pool[t].map((it) => ({ it, t, col }))));
+  if (teams.some((t) => pool[t].length < 2)) throw new Error(`${ID}: en check: a team with fewer than two reviewed pictures`);
+  return items.map(({ it, t, col }) => {
+    const src = fileUri(it.theme, it.noun);
+    if (two) return C5.teamHouses({ teams, cards: [{ src, vocabKey: it.vocabKey, seg: it.seg, snd: it.snd, bin: col }], cfg: d }).html
+      .replace(`data-lcs-house="${esc(t)}" data-lcs-col="${col}"`, `data-lcs-house="${esc(t)}" data-lcs-col="${col}" data-lcs-correct="1"`)
+      .replace(/^<div/, `<div data-lcs-ckind="${esc(t)}"`);
+    // the beads in an order of the card's own: one per team in a part, in the page's column order, put the answers on a
+    // diagonal (sh first, ch second, th third in both forms — the contact sheet of the check, 2026-11-19)
+    const bead = d.bead || { w: 76, h: 44, fontPx: 26 }, order = rng.shuffle(teams.map((_, j) => j));
+    return `<div data-lcs-digcheck="${esc(it.word)}" data-lcs-ckind="${esc(t)}" style="display:flex;align-items:center;justify-content:center;gap:34px;padding:6px 10px">` +
+      `<img class="ws-icon" src="${src}" alt="" style="flex:0 0 auto;width:96px;height:96px;object-fit:contain">` +
+      `<div data-lcs-beads style="display:flex;gap:22px">` + order.map((j) => `<div data-lcs-bead="${esc(teams[j])}" data-lcs-col="${j}"${j === col ? ' data-lcs-correct="1"' : ''} style="line-height:0">${teamBead({ text: teams[j], w: bead.w, h: bead.h, mode: 'choice', fontPx: bead.fontPx }).svg}</div>`).join('') +
+      `</div></div>`;
+  });
+}
+const shuffle2 = (rng, a) => rng.shuffle(a);
 
 /** The valid-item predicate (§1 rules a, b, c'); shared with the gate. */
 const slot = require('../../lib/slot.js');
@@ -231,7 +276,7 @@ function drawTeams(rng, teams, pool, counts, loc) {
       }
       if (got < counts[j]) ok = false;
     });
-    if (ok) return pick;
+    if (ok && !pick.some((x) => withdrawn(loc, x.item))) return pick;
   }
   throw new Error(`${ID}: ${loc} could not draw [${counts}] items over [${teams}] without a repeated stem / picture (refuse)`);
 }
@@ -555,7 +600,7 @@ const FACE_BUILD = {
         pick.push(c);
         if (pick.length === d.cards) break;
       }
-      if (pick.length === d.cards) drawn = pick;
+      if (pick.length === d.cards && !pick.some((c) => withdrawn(loc, c.item))) drawn = pick;
     }
     need(drawn, `${loc}: could not fill ${d.cards} cards to the position / team split (refuse)`);
     let order = null;
@@ -936,6 +981,8 @@ const TYPE = {
     const rng = ctx.rng;
     const pub = loadBank(BANK, loc);
     const { B, d } = Number(difficulty) === 2 ? { B: pub, d: d0 } : levelSetPage(pub, d0, loc, 1);
+    // English: the reviewed cards (enCheckCards; review en-1119-lit). The other languages keep the cards below.
+    if (loc === 'en' && (d.mode === 'base' || d.mode === 'sort-two')) return { bodyHtml: `<div>${checkGrid(enCheckCards(B, d, rng))}</div>`, meta: {} };
     let blocks;
     if (d.mode === 'base') {
       const built = this._buildWith(B, { ...d, wires: 7, perTeam: [2, 4] }, { locale: loc }, { rng });
@@ -1026,7 +1073,7 @@ const TYPE = {
         }
         if (got < counts[j]) okAll = false;
       });
-      if (okAll) chosen = pick;
+      if (okAll && !pick.some((x) => withdrawn(loc, x.item))) chosen = pick;
     }
     if (!chosen) throw new Error(`${ID}: ${loc} could not draw ${counts} items without a repeated stem / picture in ${TRIES} tries`);
 
@@ -1052,7 +1099,16 @@ const TYPE = {
       _ans: { teams, sounds, rows: order.map((x) => ({ item: x.item, team: x.team, col: x.col })) } };
   },
 
+  /** the withdrawn pictures (WITHDRAWN_SPEC) on every face, then the face's own checks */
   async verify(page) {
+    const gone = await page.evaluate((W) => {
+      const r = document.querySelector('[data-ws-content][data-lcs-type="digraphs"]'), list = W[(r && r.getAttribute('data-lcs-locale')) || ''] || [];
+      return [...document.querySelectorAll('img')].map((im) => decodeURIComponent(im.getAttribute('src') || '')).filter((src) => list.some((p) => src.includes('/' + p + '@') || src.includes('/' + p + '.')))
+        .map((src) => 'a withdrawn picture on the page: ' + src.split('/').slice(-2).join('/'));
+    }, WITHDRAWN_SPEC);
+    return gone.concat(await this._verifyFace(page));
+  },
+  async _verifyFace(page) {
     const face = await page.evaluate(() => { const r = document.querySelector('[data-ws-content][data-lcs-type="digraphs"]'); return r ? r.getAttribute('data-lcs-face') : null; });
     if (face && face !== 'base') return page.evaluate(faceVerifyInPage, FACE_VERIFY_ARGS);
     return page.evaluate((SPARSE) => {

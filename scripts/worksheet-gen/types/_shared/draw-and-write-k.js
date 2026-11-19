@@ -329,6 +329,8 @@ function dwkFaultsOf(b) {
     if (!/^I like .+ best\. (It is|They are) [a-z]+\.$/.test(t.l3) || !wrapRows(t.l3.replace(/^I /, ''), FIT.rows3)) f.push(`favTopics "${t.key}": the level-3 sample is not "I like ___ best. It is ___." on its rows`);
     printed.push(t.key, t.l3, ...(t.reasons || []), 'My favorite ' + t.key + ' is ' + t.answer + ' because it is ' + t.reason + '.');
   }
+  // the topics only the writing part of the unit check asks for (never a page): each with a picture that carries its word
+  for (const t of b.checkTopics || []) if (!t.key || !P[t.pic] || P[t.pic].word !== t.key || ft.some((u) => u.key === t.key)) f.push(`checkTopics "${t.key}": no picture that carries its word, or a topic a page offers`);
   for (const m of b.favModels || []) {
     if (!/^My favorite [a-z]+ is .+ because it is [a-z]+\.$/.test(m.op) || !/^I like .+ best\. (It is|They are) [a-z]+\.$/.test(m.l3)) f.push(`favModels "${m.topic}": not in the shape of the frames`);
     if (ft.some((t) => t.key === m.topic)) f.push(`favModels "${m.topic}": a topic that is offered`);
@@ -1142,6 +1144,10 @@ function makeDrawWriteKType({ id, slug, mode, exerciseType, i18n }) {
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // the unit check (Part 7.6): the day-1 page's task made small, one card a task (dwkCheckPage below); the child's own
+    // piece of each lesson has no one answer and gives the check its writing task instead (dwkCheckWrite)
+    ...(DWK_CHECK_MODES.includes(mode) ? { checkPage(args, ctx) { return dwkCheckPage(mode, args, ctx); } } : {}),
+    ...(DWK_WRITE_MODES.includes(mode) ? { checkWrite(args, ctx) { return dwkCheckWrite(mode, args, ctx); } } : {}),
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the pieces and sentences are English (no ${locale} bank)`);
@@ -1569,6 +1575,84 @@ function makeDrawWriteKType({ id, slug, mode, exerciseType, i18n }) {
       }, SPEC, INFO);
     },
   };
+}
+
+/* ---------------------------------------------------------------- the unit check (Part 7.6) ---------------------------------------------------------------- */
+/**
+ * dwkCheckPage — the cards a unit check cuts from a day-1 page (docs/daily-teaching-system/PART-7-DESIGN.md 7.6): every item
+ * of the bank as a card of its own, at the level the lesson hands out, built from the page's own bank (no new task). The
+ * teacher reads every card aloud from the card itself: it prints every word that is read (no data-lcs-teacher-reads, which
+ * is for a text the child only listens to); the check's direction line is in the lists of the checks.
+ *   opinion  K-673  a piece: circle the sentence that tells what the writer likes best, draw a line under the one that tells
+ *                   why (data-lcs-correct on the opinion; the key rings it and draws the line under the reason)
+ *   facts    K-675  the picture of a topic and three sentences of the page's kind (two facts of the topic, one about another
+ *                   topic of its kind): a check mark or an X in each box
+ *   order    K-677  a small moment in mixed order (never in order, never backward): write 1, 2, 3
+ *   ask      K-679  a piece, the friend's question, and three sentences the writer could add: circle the one that answers
+ * A card names its item (data-lcs-text: the piece, the topic, the story) so that form B asks other ones than form A.
+ */
+const DWK_CHECK_MODES = ['opinion', 'facts', 'order', 'ask'];
+const DWK_WRITE_MODES = ['myfav', 'teach', 'moment'];
+function dwkCheckPage(mode, { difficulty, locale }, ctx) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`draw-and-write-k check: the pieces are English (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const lv = Number(difficulty) || 2, d = LEVELS[mode][lv] || LEVELS[mode][2], rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+  const sayBy = (title, name) => `${title}, by ${name}.`;
+  const shell = (id, reads, inner) => `<div data-lcs-text="${attr(id)}" style="display:flex;align-items:center;gap:14px;padding:5px 10px;border-radius:12px;background:#FFFFFF">${inner}</div>`;
+  const byline = (title, name) => `<div data-lcs-cktitle style="font:800 18px/1.2 'Nunito',sans-serif;color:${T.teal}">${esc(title)} <span style="font-weight:700;color:${T.inkSoft}">${esc(WORDS.by)} ${esc(name)}</span></div>`;
+  const mark = (want) => esc(want);   // (the key writes the mark as text: the check's key draws no second mark over a drawn one)
+  const box = (want, px) => `<span data-lcs-answer="${attr(want)}" style="flex:0 0 auto;box-sizing:border-box;width:${px}px;height:${px}px;display:inline-flex;align-items:center;justify-content:center;border:2.5px solid ${T.ink};border-radius:10px;background:#FFFFFF;font:800 30px/1 'Nunito',sans-serif;color:${T.teal}">${key ? mark(want) : ''}</span>`;
+  const cards = [];
+  if (mode === 'opinion') for (const p of shuffle(BANK.pieces, rng)) {
+    const opFirst = rng.int(0, 1) === 1;
+    const two = opFirst ? [[p.op, 'op'], [p.re, 're']] : [[p.reFirst || p.re, 're'], [p.op, 'op']];
+    const ss = [...(d.topic ? [[p.topic, 'topic']] : []), ...two];
+    const line = ([s, role]) => `<div data-lcs-ckrole="${role}"${role === 'op' ? ' data-lcs-correct="1"' : ''} style="display:flex"><span style="position:relative;padding:0 4px;font:700 ${d.font - 1}px/1.3 'Nunito',sans-serif;color:${T.ink}">${esc(s)}${key ? (role === 'op' ? ring('-3px -6px') : role === 're' ? underline() : '') : ''}</span></div>`;
+    cards.push(shell(p.title, sayBy(p.title, p.name) + ' ' + ss.map((x) => x[0]).join(' '), img(p.pic, 84) +
+      `<div style="flex:1 1 auto;min-width:0;display:flex;flex-direction:column;gap:4px">${byline(p.title, p.name)}<div data-lcs-cksents style="display:flex;flex-direction:column;gap:5px">${ss.map(line).join('')}</div></div>`));
+  }
+  if (mode === 'facts') for (const t of shuffle(BANK.factTopics, rng)) {
+    const own = shuffle(t.facts, rng).slice(0, 2), off = shuffle(offCandidates(BANK, t, d.off), rng)[0];
+    if (!off) continue;
+    const sents = own.map((x) => ({ s: x[1], ok: true })); sents.splice(rng.int(0, 2), 0, { s: off.s, ok: false });
+    const [x0, y0, x1, y1] = t.ink, sc = 104 / Math.max(x1 - x0, y1 - y0);
+    const pic = `<div style="flex:0 0 auto;width:112px;display:flex;flex-direction:column;align-items:center;gap:2px">${cropImg(t, (x1 - x0) * sc, (y1 - y0) * sc)}<span style="font:800 18px/1.1 'Nunito',sans-serif;color:${T.ink}">${esc(t.name)}</span></div>`;
+    const rows = sents.map((x) => `<div data-lcs-ckfact="${x.ok ? 1 : 0}" style="display:flex;align-items:center;gap:10px"><span style="flex:1 1 auto;font:700 21px/1.2 'Nunito',sans-serif;color:${T.ink}">${esc(x.s)}</span>${box(x.ok ? '✓' : 'X', 44)}</div>`).join('');
+    cards.push(shell(t.key, `Is it about the ${t.name}? ` + sents.map((x) => x.s).join(' '), pic + `<div style="flex:1 1 auto;min-width:0;display:flex;flex-direction:column;gap:4px">${rows}</div>`));
+  }
+  if (mode === 'order') for (const s of shuffle(BANK.stories, rng)) {
+    const sents = d.n === 3 ? s.s3 : s.s4, id = sents.map((_, i) => i);
+    let perm = null;
+    for (let k = 0; k < 50 && !perm; k++) { const p = shuffle(id, rng); if (p.join() !== id.join() && p.join() !== id.slice().reverse().join()) perm = p; }
+    if (!perm) continue;
+    const rows = perm.map((pi) => `<div style="display:flex;align-items:center;gap:12px">${box(String(pi + 1), 42)}<span style="flex:1 1 auto;font:700 21px/1.2 'Nunito',sans-serif;color:${T.ink}">${esc(sents[pi])}</span></div>`).join('');
+    cards.push(shell(s.title, sayBy(s.title, s.name) + ' ' + perm.map((pi) => sents[pi]).join(' '), `<div style="flex:1 1 auto;min-width:0;display:flex;flex-direction:column;gap:4px">${byline(s.title, s.name)}${rows}</div>`));
+  }
+  if (mode === 'ask') for (const a of shuffle(BANK.asks, rng)) {
+    const other = shuffle(['color', 'where', 'who', 'sound'].filter((k) => k !== a.q), rng);
+    const wrong = d.same ? [{ kind: other[0], s: a.answers[other[0]] }, { kind: 'same', s: a.same }] : other.slice(0, d.choices - 1).map((k) => ({ kind: k, s: a.answers[k] }));
+    const opts = shuffle(wrong, rng); opts.splice(rng.int(0, opts.length), 0, { kind: a.q, s: a.answers[a.q], ok: true });
+    const ques = a.qText || BANK.askQ[a.q], q = `${a.asker} ${WORDS.asked} ${ques}`;
+    const optHtml = opts.map((o) => `<div data-lcs-ckkind="${o.kind}"${o.ok ? ' data-lcs-correct="1"' : ''} style="display:flex"><span style="position:relative;padding:0 8px;font:700 20px/1.2 'Nunito',sans-serif;color:${T.ink}">${esc(o.s)}${o.ok && key ? ring('-2px -2px') : ''}</span></div>`).join('');
+    cards.push(shell(a.text, `${a.name} wrote: ${a.text} ${q} ` + opts.map((o) => o.s).join(' '),
+      `<div style="flex:0 0 auto;display:flex;flex-direction:column;align-items:center;gap:1px">${img(a.pic, 80)}<span style="font:700 16px/1.1 'Nunito',sans-serif;color:${T.inkSoft}">${esc(WORDS.by)} ${esc(a.name)}</span></div>` +
+      `<div style="flex:1 1 auto;min-width:0;display:flex;flex-direction:column;gap:3px"><div style="display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px"><span style="padding:1px 10px;border:2px solid ${T.grid};border-radius:8px;background:${T.cream};font:700 19px/1.2 'Nunito',sans-serif;color:${T.ink}">${esc(a.text)}</span>` +
+      `<span style="padding:1px 12px;border-radius:14px;background:${T.tealSoft};font:800 17px/1.2 'Nunito',sans-serif;color:${T.ink}">${esc(ques)}</span></div><div data-lcs-ckopts style="display:flex;flex-direction:column;gap:2px">${optHtml}</div></div>`));
+  }
+  if (!cards.length) throw new Error('draw-and-write-k check: no cards for ' + mode);
+  return { bodyHtml: STYLE + `<div data-lcs-dwkcheck="${mode}|${lv}" data-lcs-noliga="1"${key ? ' data-lcs-iskey="1"' : ''} style="${LIGS}">` + fRoom(checkGrid(cards, { cols: 1 })) + `</div>`, meta: {} };
+}
+/** dwkCheckWrite — the writing task of the unit check: every prompt the child's own page of the mode offers at the level
+ *  (the topics or moments its chips show, with their pictures), in the page's own words, and for myfav the topics only the
+ *  check asks for (bank checkTopics: a favorite food, as easy to draw as an animal); the direction is the rubric's */
+function dwkCheckWrite(mode, { difficulty, locale }) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`draw-and-write-k check: the prompts are English (no ${locale} bank)`);
+  const pic = (k) => (BANK.pics[k] ? { theme: BANK.pics[k].pic[0], file: BANK.pics[k].pic[1] } : undefined);
+  const word = (k, fallback) => (BANK.pics[k] ? BANK.pics[k].word : fallback);
+  if (mode === 'myfav') return { tasks: [...BANK.favTopics, ...(BANK.checkTopics || [])].map((t) => ({ id: 'myfav:' + t.key, prompt: `My favorite ${word(t.pic, t.key)}`, picture: pic(t.pic) })) };
+  if (mode === 'teach') return { tasks: BANK.teachTopics.map((t) => ({ id: 'teach:' + t.key, prompt: `${art(t)} ${word(t.key, t.key)}`, picture: pic(t.key) })) };
+  if (mode === 'moment') return { tasks: BANK.moments.map((t) => ({ id: 'moment:' + t.key, prompt: t.chip.charAt(0).toUpperCase() + t.chip.slice(1), picture: pic(t.pic) })) };
+  throw new Error('draw-and-write-k: no writing task for ' + mode);
 }
 
 module.exports = { makeDrawWriteKType, dwkFaultsOf, drawPage, copyList, LEVELS, INSTR, LINES, CHECK, WORDS, FRAMES, SPEC, MODES, FIT, placesOk, emOf, wrapRows };

@@ -80,6 +80,7 @@ module.exports = (FACTORY, BANK) => [
   ['the examples of the instruction used as task words', FACTORY, '  use(...say);\n', '  use();\n', 'G2-534', 2],
   ['a word that fits a sentence put into its word box', FACTORY, 'const fillerPick = (vs, n) => take(vs.flatMap((v) => TS.fillers[v] || []), n);', 'const fillerPick = (vs, n) => { const fit = [...banned].filter((w) => !seen(w)).slice(0, 1); use(...fit); return [...fit, ...take(vs.flatMap((v) => TS.fillers[v] || []), n - fit.length)]; };', 'G2-531', 3],
   // the bank's own check (it runs when the factory loads)
+  ['an other word the article rules out ("a art")', FACTORY, '.find((x) => !articleTell(s.text, x))', '.sort((p, q) => articleTell(s.text, q) - articleTell(s.text, p))[0]', 'G2-533', 2],
   ['bank: a picture from a black-and-white theme', BANK, '"ocean life",\n   "shark"', '"ocean life bw",\n   "shark"', 'G2-533', 1],
   ['bank: a print-only word that has a picture', BANK, '"slippers",', '"bird",', 'G2-534', 2],
   ['bank: a pair that is no short word made long', BANK, '"cap",\n    "cape"', '"cap",\n    "capes"', 'G2-530', 1],

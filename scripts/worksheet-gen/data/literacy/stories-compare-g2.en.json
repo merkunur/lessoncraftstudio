@@ -3567,12 +3567,7 @@
      "form": "after"
     },
     {
-     "t": "\"I love indoor recess because I can build with blocks,\" Arjun said.",
-     "who": "Arjun",
-     "form": "after"
-    },
-    {
-     "t": "\"Lucy, help me build a tall tower,\" said Arjun.",
+     "t": "\"I love indoor recess because I can build with blocks. Lucy, help me build a tall tower,\" said Arjun.",
      "who": "Arjun",
      "form": "after"
     },
@@ -3587,24 +3582,29 @@
      "form": "before"
     },
     {
-     "t": "\"A moving game? Like what?\" asked Lucy.",
-     "who": "Lucy",
+     "t": "\"A moving game? Like what?\" asked Arjun.",
+     "who": "Arjun",
      "form": "after"
     },
     {
-     "t": "Ms. Webb said, \"Freeze dance!\"",
+     "t": "\"Freeze dance!\" said Ms. Webb.",
      "who": "Ms. Webb",
-     "form": "before"
+     "form": "after"
     },
     {
-     "t": "Lucy jumped up. \"Okay, I'll dance. But I still want to go outside.\"",
+     "t": "\"Okay, I'll dance, but I still want to go outside,\" said Lucy.",
      "who": "Lucy",
-     "form": "beat"
+     "form": "after"
     },
     {
      "t": "\"I'll dance next to my tower,\" Arjun laughed.",
      "who": "Arjun",
      "form": "after"
+    },
+    {
+     "t": "Ms. Webb started the music. \"Ready, set, dance!\"",
+     "who": "Ms. Webb",
+     "form": "beat"
     }
    ],
    "views": {
@@ -3612,22 +3612,21 @@
      "text": "Recess is better outside.",
      "paras": [
       1,
-      4,
-      8
+      3,
+      7
      ]
     },
     "Arjun": {
      "text": "Indoor recess is great for building.",
      "paras": [
-      2,
-      3
+      2
      ]
     },
     "Ms. Webb": {
      "text": "Indoor recess can have moving games.",
      "paras": [
-      5,
-      7
+      4,
+      6
      ]
     }
    },

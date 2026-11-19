@@ -47,6 +47,26 @@ const FEELING_WORDS = ['happy', 'glad', 'sad', 'mad', 'angry', 'scared', 'afraid
   'smiled', 'smile', 'smiles', 'cried', 'cries', 'laughed', 'laughs', 'frowned', 'grinned', 'sighed', 'cheered'];   // what a character does can tell a feeling too ("Ben smiled.")
 const TWO_ROWS = true;   // a whole sentence of a first grader needs two rows
 
+/** The text a child reads with typographic marks, as the Grade 2 and Grade 3 story pages print it (review
+ *  en.review-1119-read: these pages printed straight quotes beside them): an apostrophe is ’; a double mark opens after a
+ *  space or a bracket, or at the start of a text whose next character is a letter, and closes otherwise. Tags and their
+ *  attributes stay as they are (the answers a check reads stand in attributes). */
+function curly(html) {
+  let out = '', i = 0, prev = ' ';
+  while (i < html.length) {
+    if (html[i] === '<') { const j = html.indexOf('>', i); out += html.slice(i, j + 1); i = j + 1; continue; }
+    const j = html.indexOf('<', i), chars = [...html.slice(i, j < 0 ? html.length : j)];
+    chars.forEach((ch, k) => {
+      if (ch === "'") out += '’';
+      else if (ch === '"') out += /[\s([—]/.test(prev) || (k === 0 && /[A-Za-z0-9]/.test(chars[1] || '')) ? '“' : '”';
+      else out += ch;
+      prev = ch;
+    });
+    i = j < 0 ? html.length : j;
+  }
+  return out;
+}
+
 const wordsIn = (s) => String(s).split(/\s+/).filter(Boolean).length;
 const one = (s, max) => typeof s === 'string' && /^[A-Z"].*[.!?]"?$/.test(s) && s.length <= max;
 const flatOf = (t) => t.parts.flat();
@@ -160,6 +180,8 @@ function makeStory1Type({ id, slug, mode, i18n }) {
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // the unit checks (Part 7.6): the page's task made small, one card a task (story1CheckPage below)
+    checkPage(args, ctx) { return story1CheckPage(mode, args, ctx); },
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the stories are English stories (no ${locale} bank)`);
@@ -244,7 +266,7 @@ function makeStory1Type({ id, slug, mode, i18n }) {
         const list = [...t.said.map((x) => ({ text: '"' + x.words + '"', who: x.who, at: saidAt(t, x.words) })), ...t.told.map((x) => ({ text: x, who: 'narrator', at: sents.indexOf(x) + 1 }))].sort((a, b) => a.at - b.at);
         const letter = (who) => (who === 'narrator' ? 'N' : who[0]);
         const legend = `<div data-lcs-legend style="display:flex;align-items:center;justify-content:space-between;gap:10px;padding:6px 12px;border:2.5px dashed ${T.teal};border-radius:14px;background:#FFFFFF">` +
-          `<span style="flex:1 1 auto;font:700 ${lv === 1 ? 17 : 16}px/1.2 'Nunito',sans-serif;color:${T.ink}">The ${teal('narrator')} tells the story. The ${teal('characters')} talk. Their words are inside quotation marks (" ").</span>` +
+          `<span style="flex:1 1 auto;font:700 ${lv === 1 ? 17 : 16}px/1.2 'Nunito',sans-serif;color:${T.ink}">The ${teal('narrator')} tells the story. The ${teal('characters')} talk. Their words are inside quotation marks (“ ”).</span>` +
           [{ l: 'N', name: 'narrator' }, ...t.chars.map((c) => ({ l: c.name[0], name: c.name, pic: c.picture }))].map((x) => `<span data-lcs-legendkey="${x.l}" style="flex:0 0 auto;display:inline-flex;align-items:center;gap:4px;min-height:44px;padding:1px 9px;border-radius:12px;background:${T.cream};font:700 17px/1 'Nunito',sans-serif;color:${T.ink}">${x.pic ? img(x.pic, 40) : ''}${lv === 1 ? '' : `<b style="font-weight:800;color:${T.teal}">${x.l}</b> =`} ${esc(x.name)}</span>`).join('') + `</div>`;
         const tight = lv === 3 ? 39 : lv === 2 ? 45 : 52;
         const rows = list.map((x, n) => `<div data-lcs-item="${letter(x.who)}" style="display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:${tight}px">` +
@@ -256,7 +278,7 @@ function makeStory1Type({ id, slug, mode, i18n }) {
       }
 
       return {
-        bodyHtml: `<div data-ws-content data-lcs-story1page="${mode}|${lv}"${key ? ' data-lcs-iskey="1"' : ''} style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-between;gap:6px;min-height:0">` + storyBox(t, { font: d.font, underline, words, noPics: mode === 'map' && lv === 1 }) + below + `</div>`,
+        bodyHtml: curly(`<div data-ws-content data-lcs-story1page="${mode}|${lv}"${key ? ' data-lcs-iskey="1"' : ''} style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-between;gap:6px;min-height:0">` + storyBox(t, { font: d.font, underline, words, noPics: mode === 'map' && lv === 1 }) + below + `</div>`),
         meta: { text: t.id, items },
       };
     },
@@ -268,6 +290,7 @@ function makeStory1Type({ id, slug, mode, i18n }) {
         if (!root) return ['no page'];
         const [mode, lvS] = root.dataset.lcsStory1page.split('|'), lv = +lvS;
         const isKey = root.dataset.lcsIskey === '1';
+        if (/["']/.test(root.textContent)) fails.push('a straight quote or apostrophe in the text: the story pages print typographic marks');
         const R = (e) => e.getBoundingClientRect();
         const rb = R(root), box = document.querySelector('[data-lcs-story1]');
         const parts = [...box.querySelectorAll('[data-lcs-part]')];
@@ -351,7 +374,7 @@ function makeStory1Type({ id, slug, mode, i18n }) {
           const keys = [...document.querySelectorAll('[data-lcs-legendkey]')].map((e) => e.dataset.lcsLegendkey);
           if (keys.length !== 3 || keys[0] !== 'N' || new Set(keys).size !== 3) fails.push('the legend does not name the narrator and two characters with three different letters');
           if (its.length !== 6 || want.filter((l) => l === 'N').length !== 3 || want.some((l) => !keys.includes(l)) || new Set(want).size !== 3) fails.push('not six sentences: three of the narrator and three of the two characters (' + want.join('') + ')');
-          its.forEach((e, i) => { const quoted = /^\s*(\d+\.\s*)?"/.test(e.querySelector('[data-lcs-itemtext]').textContent); if (quoted !== (e.dataset.lcsItem !== 'N')) fails.push(`sentence ${i + 1}: spoken words are keyed to the narrator, or a narrator's sentence to a character`); });
+          its.forEach((e, i) => { const quoted = /^\s*(\d+\.\s*)?“/.test(e.querySelector('[data-lcs-itemtext]').textContent); if (quoted !== (e.dataset.lcsItem !== 'N')) fails.push(`sentence ${i + 1}: spoken words are keyed to the narrator, or a narrator's sentence to a character`); });
           if (lv === 1) { its.forEach((e, i) => { const pl = [...e.querySelectorAll('[data-lcs-pill]')], ok = pl.filter((p) => p.dataset.lcsOk);
             if (pl.length !== 3 || ok.length !== 1 || (ok[0].textContent.trim() === 'narrator' ? 'N' : ok[0].textContent.trim()[0]) !== e.dataset.lcsItem) fails.push(`sentence ${i + 1}: not three names with the right one keyed`); });
             if (boxes.length || lines.length) fails.push('level 1 has boxes or lines'); }
@@ -362,6 +385,126 @@ function makeStory1Type({ id, slug, mode, i18n }) {
       });
     },
   };
+}
+
+/* ---------------------------------------------------------------- the item bank of the unit checks ---------------------------------------------------------------- */
+/** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the page's task made small, each card one
+ *  task with its answer in its markup, the part of the story it is answered from printed on the card (the title, then
+ *  the beginning, the middle or the end at the page's own size), and the story's id as data-lcs-text (form B takes
+ *  another story). FORMS (review en.review-1119-read, 2026-11-19): a page built for form A or B of a check reads the one
+ *  story of its lesson in that form (CHECK_STORY: each part of a form another story, and every part another one in B).
+ *  The text is printed with typographic quotes and apostrophes (curly(); the page does the same).
+ *   details (G1-579)   one question under the part that holds its answer; level 2 starts the line with the sentence
+ *                      starter (level 1: its three answers to circle; level 3: no starter).
+ *   map (G1-580)       "Who is in the story?" under the parts up to the one that names the second character ("Fay the
+ *                      fox"), and "Where does the story take place?" under the part that names the place; the page's
+ *                      line and its short answer (level 1: the setting circled of three). The big event has no one
+ *                      wording and stays out. In a form the where card stands after the who card with the same text id,
+ *                      so the check (one card a text) keeps the who card and its direction names who only.
+ *   retell (G1-581)    the middle and the end of the story (the trouble and how it is met: what the lesson is drawn
+ *                      from; the whole story at the page's size is taller than a check takes) and "What is the lesson of
+ *                      the story?": the page's two lessons to circle (its own and the lesson of another story). The
+ *                      retelling in the child's words stays out. In a form a second card, the same lesson over the ending
+ *                      only, stands after it with the same text id (a check page needs two cards; the check keeps the first).
+ *   feelings (G1-582)  a feeling word: the part that holds it (and no other feeling word), "Underline the word that tells
+ *                      how a character feels. Write it." with a line; a sense word: the part that holds it, its question
+ *                      with a line and the three parts of the body to circle. In a form only the feeling words (the
+ *                      direction names the feeling word; review en.review-1119-read).
+ *   who (G1-583)       one of the page's six sentences (a character's words in quotation marks, or a sentence of the
+ *                      narrator) under the part that holds it, with the letters N, and the first letters of the two
+ *                      characters, and a box for the letter (data-lcs-answer). */
+/** the story of each lesson's part in each form of the unit check: five stories, a different one in every part of a form,
+ *  and in every part another one in form B than in form A */
+/** the feeling word each form asks (review en.review-1119-read2: both forms answered "sad"): Rex was sad (A), Fay was glad (B) */
+const CHECK_FEEL = { A: 'sad', B: 'glad' };
+/** who tells the sentence each form asks (review en.review-1119-read2: the narrator was never the answer, and a narrator's
+ *  sentence tests the lesson's title best): form A a sentence of the narrator, form B a character's words */
+const CHECK_TELLER = { A: 'narrator', B: 'character' };
+const CHECK_STORY = {
+  A: { details: 'plums-for-fay', map: 'pip-is-lost', retell: 'hop-finn-hop', feelings: 'who-ate-the-cake', who: 'the-big-apple' },
+  B: { details: 'hop-finn-hop', map: 'who-ate-the-cake', retell: 'the-big-apple', feelings: 'plums-for-fay', who: 'pip-is-lost' },
+};
+/** the form a check page is built for: build-checks seeds its pages "check|<unit>|A…" or "…|B…"; none outside a check */
+const checkFormOf = (ctx) => { const m = /^check\|[^|]+\|([AB])\d*\|/.exec(String((ctx && ctx.rng && ctx.rng.seed) || '')); return m ? m[1] : null; };
+function story1CheckPage(mode, { difficulty, locale }, ctx) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`story-g1 check: the stories are English stories (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const lv = Number(difficulty) || 2, d = LEVELS[mode][lv] || LEVELS[mode][2], rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+  const att = (s) => esc(s).replace(/"/g, '&quot;');
+  const LW = W - 52;
+  const write = (answer, starter, h, w = LW) => (key ? line({ w, h, answer }) : line({ w, h, starter }).replace('<div data-lcs-line', `<div data-lcs-line data-lcs-answer="${att(answer)}"`));
+  const ok = (html) => html.replace(' data-lcs-ok="1"', ' data-lcs-ok="1" data-lcs-correct="1"');
+  const ask = (html, px = 19) => `<div data-lcs-checkq style="font:700 ${px}px/1.3 'Nunito',sans-serif;color:${T.ink}">${html}</div>`;
+  const partOf = (t, n) => { let k = 0; for (let p = 0; p < t.parts.length; p++) { k += t.parts[p].length; if (n <= k) return p; } return -1; };   // n: the sentence, from 1
+  const excerpt = (t, ps) => `<div data-lcs-excerpt data-lcs-parts="${ps.map((p) => p + 1).join(',')}" style="padding:5px 14px 7px;border:2.5px solid ${T.teal};border-radius:16px;background:#FFFFFF"><div data-lcs-title style="font:700 22px/1.15 'Baloo 2',cursive;color:${T.ink}">${esc(t.title)}</div>` +
+    ps.map((p) => `<div data-lcs-part="${p + 1}" style="font:700 ${d.font}px/1.38 'Nunito',sans-serif;color:${T.ink};margin-top:${p === ps[0] ? 0 : 4}px">${esc(t.parts[p].join(' '))}</div>`).join('') + `</div>`;
+  const card = (t, inner) => `<div data-lcs-text="${att(t.id)}" style="display:flex;flex-direction:column;gap:4px;padding:0 4px">${inner}</div>`;
+  const holds = (p, w) => new RegExp('\\b' + w + '\\b', 'i').test(p.join(' '));
+  const cards = [];
+  // (review en.review-1119-read) a form's parts each read ANOTHER story, and form B's part of a lesson another story than
+  // form A's: form B had read Pip Is Lost in four parts, and part 5's letters (P = Pip, O = Ola) restated part 2's answer
+  const form = checkFormOf(ctx);
+  const ofForm = form ? [STORIES.find((x) => x.id === CHECK_STORY[form][mode])] : shuffle(STORIES, rng);
+  for (const t of ofForm) {
+    if (mode === 'details') for (const q of t.details) {
+      let at = 0; const wrong = shuffle(q.wrong, rng);
+      cards.push(card(t, excerpt(t, [partOf(t, q.sentence)]) + ask(esc(q.q), d.qFont) +
+        (lv === 1 ? ok(choices(placed(q.answer, wrong, (at = rng.int(0, 2))), at, key, { font: d.cFont })) : write(q.full, lv === 2 ? q.starter : null, d.rowH))));
+    }
+    if (mode === 'map') {
+      const named = Math.max(...t.chars.map((c) => t.parts.findIndex((p) => p.join(' ').includes(`${c.name} the ${c.kind}`))));
+      const place = t.place.split(' ').pop(), where = t.parts.findIndex((p) => holds(p, place));
+      const rowH = Math.min(d.rowH || 60, 60);
+      if (lv > 1) cards.push(card(t, excerpt(t, Array.from({ length: named + 1 }, (_, i) => i)) + ask(`${teal('Characters')} Who is in the story?`) + write(t.map.write.who, null, rowH)));
+      // (in a form the where card stands AFTER the who card and carries the same text id: the check keeps the who card, the
+      // first of its text; the direction names who only, and a page of a check needs two cards)
+      if (where >= 0) {
+        const at = rng.int(0, 2);
+        cards.push(card(t, excerpt(t, [where]) + ask(`${teal('Setting')} Where does the story take place?`) +
+          (lv === 1 ? ok(choices(placed(t.map.where.right, shuffle(t.map.where.wrong, rng), at), at, key, { font: 20 })) : write(t.map.write.where, null, rowH))));
+      }
+    }
+    if (mode === 'retell') {
+      const at = rng.int(0, 1);
+      const two = placed(t.lesson.right, [t.lesson.lure], at).map((x, i) => pill(x, at === i, key, 20)).join('');
+      // the middle and the end (the whole story at the page's size is taller than a check takes; in every story of the bank
+      // the middle and the end hold what its lesson is drawn from: the trouble, and how it was met)
+      cards.push(card(t, excerpt(t, [1, 2]) + ask('What is the lesson of the story? Circle it.') +
+        ok(`<div data-lcs-two style="display:flex;flex-wrap:wrap;align-items:center;gap:2px 14px;padding-left:18px">${two}</div>`)));
+      // (in a form a page holds one story, and a page of a check needs two cards: the same lesson over the ending only stands
+      // after it with the same text id, and the check keeps the first card of a text)
+      if (form) cards.push(card(t, excerpt(t, [2]) + ask('What is the lesson of the story? Circle it.') +
+        ok(`<div data-lcs-two style="display:flex;flex-wrap:wrap;align-items:center;gap:2px 14px;padding-left:18px">${two}</div>`)));
+    }
+    if (mode === 'feelings') {
+      const half = 300;
+      for (const x of (form ? [...t.feel].sort((a, b) => (b.word === CHECK_FEEL[form]) - (a.word === CHECK_FEEL[form])) : t.feel)) {
+        const p = t.parts.findIndex((q) => holds(q, x.word));
+        if (p < 0 || FEELING_WORDS.filter((w) => holds(t.parts[p], w)).length !== 1) continue;      // one feeling word in the part, no other
+        cards.push(card(t, excerpt(t, [p]) + ask('Underline the word that tells how a character ' + teal('feels') + '. Write it.') + write(x.word, null, d.rowH || 60, half)));
+      }
+      for (const s of (form ? [] : t.sense)) {                              // (a form asks the feeling word only: one direction for the part)
+        const p = t.parts.findIndex((q) => holds(q, s.word));
+        if (p < 0) continue;
+        const at = rng.int(0, 2);
+        const organs = `<div data-lcs-organs data-lcs-want="${ORGANS[s.organ].noun}" style="display:flex;align-items:flex-end;gap:4px">${placed(s.organ, shuffle(s.wrong, rng), at).map((o, i) => pick(ORGANS[o], d.pic || 50, i === at, key, ORGANS[o].name)).join('')}</div>`;
+        cards.push(card(t, excerpt(t, [p]) + ask(esc(s.q) + ' Write it. Then circle the part of the body you use.') +
+          `<div style="display:flex;align-items:flex-end;justify-content:space-between;gap:12px">${write(s.word, null, d.rowH || 60, 250)}${ok(organs)}</div>`));
+      }
+    }
+    if (mode === 'who') {
+      const sents = flatOf(t), letter = (who) => (who === 'narrator' ? 'N' : who[0]);
+      const items = [...t.said.map((x) => ({ text: '"' + x.words + '"', at: saidAt(t, x.words), who: x.who })), ...t.told.map((x) => ({ text: x, who: 'narrator', at: sents.indexOf(x) + 1 }))];
+      const keyLine = `<div data-lcs-legend style="font:700 18px/1.25 'Nunito',sans-serif;color:${T.ink}">${['N', ...t.chars.map((c) => c.name[0])].map((l, i) => `${teal(l)} = ${i ? esc(t.chars[i - 1].name) : 'narrator'}`).join(' &nbsp;·&nbsp; ')}</div>`;
+      const first = (x) => (form && (x.who === 'narrator') === (CHECK_TELLER[form] === 'narrator') ? 0 : 1);
+      for (const x of [...items].sort((a, b) => first(a) - first(b) || a.at - b.at)) {
+        const box = numBox(letter(x.who), key, 42).replace('<span data-lcs-numbox', `<span data-lcs-answer="${letter(x.who)}" data-lcs-numbox`);
+        cards.push(card(t, excerpt(t, [partOf(t, x.at)]) + ask(`Who says or tells it? Write ${['N', ...t.chars.map((c) => c.name[0])].map((l) => teal(l)).join(', ').replace(/, ([^,]*)$/, ', or $1')} in the box.`, 18) + keyLine +
+          `<div data-lcs-item="${letter(x.who)}" style="display:flex;align-items:center;gap:12px;padding:2px 8px;border-radius:12px;background:#FFFFFF">${box}<span data-lcs-itemtext style="font:700 ${d.font}px/1.25 'Nunito',sans-serif;color:${T.ink}">${esc(x.text)}</span></div>`));
+      }
+    }
+  }
+  return { bodyHtml: curly(`<div data-lcs-story1check="${mode}|${lv}"${key ? ' data-lcs-iskey="1"' : ''}>` + checkGrid(cards, { cols: 1 }) + `</div>`), meta: {} };
 }
 
 module.exports = { makeStory1Type, story1FaultsOf, STORIES, LEVELS };

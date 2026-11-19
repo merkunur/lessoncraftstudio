@@ -4111,9 +4111,9 @@
      },
      {
       "h": 0,
-      "t": "A volcano that is erupting now, or that erupted not long ago, is called active.",
-      "note": "active: just erupted",
-      "wrong": "active: is asleep"
+      "t": "A volcano that is erupting now, or that may erupt again, is called active.",
+      "note": "active: may erupt again",
+      "wrong": "active: never erupts"
      },
      {
       "h": 0,
@@ -4593,7 +4593,7 @@
      },
      {
       "h": 1,
-      "t": "Rope bridges can still be found in some mountains.",
+      "t": "Some bridges in the mountains are made of rope.",
       "note": "some made of rope",
       "wrong": "all made of rope"
      },
@@ -4769,8 +4769,8 @@
      {
       "h": 0,
       "t": "Some bamboo can grow more than two feet in one day.",
-      "note": "grows two feet a day",
-      "wrong": "grows two feet a year"
+      "note": "some grow two feet daily",
+      "wrong": "some grow two feet yearly"
      },
      {
       "h": 1,
@@ -5580,7 +5580,7 @@
       ],
       [
        "D",
-       "One is called north, and one is called south."
+       "One pole is north, and one is south."
       ]
      ],
      [
@@ -5608,8 +5608,9 @@
        "Like poles repel."
       ],
       [
-       "D",
-       "Two north poles push each other away."
+       "Def",
+       "To repel means to push away.",
+       "repel"
       ]
      ],
      [

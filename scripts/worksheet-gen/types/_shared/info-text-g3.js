@@ -146,6 +146,8 @@ function makeInfoText3Type({ id, slug, mode, i18n, texts, story, levels }) {
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // the unit checks (Part 7.6): the page's task made small, one card a task (info3CheckPage below; not the main-idea page)
+    ...(CHECK3_MODES.has(mode) ? { checkPage(args, ctx) { return info3CheckPage(mode, args, ctx, { POOL, story, D }); } } : {}),
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the informational texts are English texts (no ${locale} bank)`);
@@ -241,8 +243,8 @@ function makeInfoText3Type({ id, slug, mode, i18n, texts, story, levels }) {
       }
 
       return {
-        bodyHtml: `<div data-ws-content data-lcs-info3="${mode}|${lv}"${key ? ' data-lcs-iskey="1"' : ''}${story ? ' data-lcs-story="1"' : ''} style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-between;gap:6px;min-height:0">` +
-          textBox(t, { font: d.font, lh: d.lh, headings: !story && (mode === 'evidence' || mode === 'ask') }) + below + `</div>`,
+        bodyHtml: (story ? curly : String)(`<div data-ws-content data-lcs-info3="${mode}|${lv}"${key ? ' data-lcs-iskey="1"' : ''}${story ? ' data-lcs-story="1"' : ''} style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:space-between;gap:6px;min-height:0">` +
+          textBox(t, { font: d.font, lh: d.lh, headings: !story && (mode === 'evidence' || mode === 'ask') }) + below + `</div>`),
         meta: { text: t.id, items },
       };
     },
@@ -252,6 +254,8 @@ function makeInfoText3Type({ id, slug, mode, i18n, texts, story, levels }) {
         const fails = [];
         const root = document.querySelector('[data-lcs-info3]');
         if (!root) return ['no page'];
+        // a story prints typographic quotes and apostrophes, as the Grade 1 and 2 story pages do (review en.review-1119-read2)
+        if (root.dataset.lcsStory === '1' && /["']/.test(root.textContent)) fails.push('a straight quote or apostrophe in the story: the story pages print typographic marks');
         const [mode, lvS] = root.dataset.lcsInfo3.split('|'), lv = +lvS;
         const isKey = root.dataset.lcsIskey === '1';
         const R = (e) => e.getBoundingClientRect();
@@ -320,7 +324,9 @@ function makeInfoText3Type({ id, slug, mode, i18n, texts, story, levels }) {
           if (lv < 3) {
             if (cards.length !== 4 || document.querySelectorAll('[data-lcs-answersent]').length !== 4) fails.push('not four sentences of the text');
             if (new Set([...document.querySelectorAll('[data-lcs-answersent]')].map((e) => e.textContent)).size !== 4) fails.push('a sentence stands twice');
-            const all = box.textContent; document.querySelectorAll('[data-lcs-answersent]').forEach((e, i) => { if (!all.includes(e.textContent.replace(/^\d+\.\s*/, '').replace(/^"|"$/g, ''))) fails.push(`sentence ${i + 1} is no sentence of the text`); });
+            // (a story prints typographic marks, in its sentence boxes too: compared with straight ones)
+            const st = (s) => s.replace(/[‘’]/g, "'").replace(/[“”]/g, '"');
+            const all = st(box.textContent); document.querySelectorAll('[data-lcs-answersent]').forEach((e, i) => { if (!all.includes(st(e.textContent).replace(/^\d+\.\s*/, '').replace(/^"|"$/g, ''))) fails.push(`sentence ${i + 1} is no sentence of the text`); });
           }
           if (lv === 1 && (sets.length !== 4 || lines.length)) fails.push('level 1 is not four sentences with questions to circle');
           if (lv === 1) cards.forEach((c, i) => { const all = [...c.querySelectorAll('[data-lcs-choice]')].map((e) => e.textContent.trim()); if (!all.includes(c.dataset.lcsLure)) fails.push(`sentence ${i + 1} has no wrong question about its own paragraph`); });
@@ -371,4 +377,119 @@ function makeInfoText3Type({ id, slug, mode, i18n, texts, story, levels }) {
   };
 }
 
-module.exports = { makeInfoText3Type, faultsOf, TEXTS, LEVELS, _parts3: { wordsIn, partText, textBox, cream, label, num, numBox, rule, stack, grid, FULL, RULE } };
+/* ---------------------------------------------------------------- the item bank of the unit checks ---------------------------------------------------------------- */
+/** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the page's task made small, each card one
+ *  task with its answer in its markup and the part of the text it is answered from printed on it (numbered paragraphs at
+ *  the page's own size, without headings: review en.review-1119-read, the heading "From Station to Station" pointed to
+ *  the paragraph a box asks for); the text's id is data-lcs-text (form B takes another text).
+ *   evidence (G3-494, G3-502)  one of the page's five questions under TWO paragraphs: the one that proves the answer and
+ *                      the one before or after it (one paragraph would print the number the box asks for). The answer is
+ *                      written on the line and the number of the proving paragraph in the box (both data-lcs-answer).
+ *   ask (G3-495, G3-503)       one of the page's four sentences in its box, under the paragraph it stands in (the words it
+ *                      leans on: "They stand on coasts" is about the lighthouses), and the line that begins with the
+ *                      question word; the key's question is a sample (data-lcs-key-sample).
+ *   paras (G3-497)             one paragraph without its heading and "What is this paragraph mostly about? Circle it."
+ *                      with three statements (the page's level-1 match made small; level 2 writes the focus in the
+ *                      child's own words, which has no one wording): its focus, the focus of another paragraph chosen
+ *                      for this paragraph by hand (CHECK3_OTHER; review en.review-1119-read2: "how the parents raise
+ *                      the chick" could be defended for the father's egg), which shares no word of its own with it,
+ *                      and a TOO NARROW detail that one sentence of this
+ *                      paragraph tells (CHECK3_NARROW; review en.review-1119-read: with two wrong statements that share
+ *                      no word with the paragraph, the one that repeats its words was right without judging). The right
+ *                      one carries data-lcs-correct.
+ *  The main idea and the key details (G3-496) need the whole text and stay out. */
+/** The text a child reads with typographic marks (story-g1.js curly(), the same rule; review en.review-1119-read2: the
+ *  Grade 3 story pages printed straight quotes beside the Grade 1 and 2 story pages): an apostrophe is ’; a double mark
+ *  opens after a space or a bracket, or at the start of a text whose next character is a letter, and closes otherwise.
+ *  Tags and their attributes stay as they are (the answers a check reads stand in attributes). */
+function curly(html) {
+  let out = '', i = 0, prev = ' ';
+  while (i < html.length) {
+    if (html[i] === '<') { const j = html.indexOf('>', i); out += html.slice(i, j + 1); i = j + 1; continue; }
+    const j = html.indexOf('<', i), chars = [...html.slice(i, j < 0 ? html.length : j)];
+    chars.forEach((ch, k) => {
+      if (ch === "'") out += '’';
+      else if (ch === '"') out += /[\s([—]/.test(prev) || (k === 0 && /[A-Za-z0-9]/.test(chars[1] || '')) ? '“' : '”';
+      else out += ch;
+      prev = ch;
+    });
+    i = j < 0 ? html.length : j;
+  }
+  return out;
+}
+const CHECK3_MODES = new Set(['evidence', 'ask', 'paras']);
+/** a detail that ONE sentence of each paragraph tells, worded like a focus: too narrow to be what the paragraph is mostly
+ *  about (a text without a list gives no card) */
+/** the other paragraph's topic a card of each paragraph offers: one that a child cannot defend for it */
+const CHECK3_OTHER = {
+  lighthouses: ['what lighthouses are like today', 'what lighthouses are like today', 'what lighthouses are like today', 'why lighthouses were built'],
+  'space-station': ['how everything floats on the station', 'what the space station is and who lives there', 'what the space station is and who lives there', 'what the space station is and who lives there'],
+  'emperor-penguins': ['how the father takes care of the egg', 'how cold Antarctica gets', 'how the parents raise the chick', 'how cold Antarctica gets'],
+  'pony-express': ['why the Pony Express ended', 'why the Pony Express ended', 'why the Pony Express ended', 'why the Pony Express was started'],
+  'blue-whales': ['how a blue whale breathes', 'how a calf grows up', 'what a blue whale eats and how it catches its food', 'how a blue whale breathes'],
+};
+const CHECK3_NARROW = {
+  lighthouses: ['where lighthouses stand', 'who invented a special lens', 'how often the lens was cleaned', 'how sailors tell one lighthouse from another'],
+  'space-station': ['when the first crew arrived', 'what the straps and Velcro on the walls are for', 'how astronauts drink', 'how long astronauts exercise each day'],
+  'emperor-penguins': ['how tall a grown emperor penguin is', 'where the mother goes to hunt', 'how many penguins press together in a huddle', 'when the young penguin grows waterproof feathers'],
+  'pony-express': ['what the new mail service was called', 'how far a rider went to the next station', 'how long a letter took to cross the country', 'how long the Pony Express lasted'],
+  'blue-whales': ["how much a blue whale's tongue weighs", 'how long krill are', 'how high the spray from a blowhole shoots', 'how long a calf is at birth'],
+};
+/** the part of a text a card of a check is answered from: its title and the paragraphs ps (indexes), numbered as on the
+ *  page, at the page's size; heads: the headings the page prints (an information text on some pages; a story never) */
+function checkExcerpt(t, ps, { font, lh, heads }) {
+  const one = (i, first) => `<div data-lcs-part="${i + 1}" style="display:flex;gap:8px;margin-top:${first ? 0 : 4}px">${tab(i + 1)}<div style="flex:1 1 auto;min-width:0">` +
+    `<div data-lcs-partbody style="font:700 ${font}px/${lh} 'Nunito',sans-serif;color:${T.ink}">` + (heads ? `<span data-lcs-heading style="font:700 ${font + 1}px/1 'Baloo 2',cursive;color:${T.teal};margin-right:7px">${esc(t.parts[i].heading)}</span>` : '') + `${esc(partText(t.parts[i]))}</div></div></div>`;
+  return `<div data-lcs-excerpt data-lcs-parts="${ps.map((i) => i + 1).join(',')}" style="padding:4px 14px 7px;border:2.5px solid ${T.teal};border-radius:16px;background:#FFFFFF">` +
+    `<div data-lcs-title style="font:700 19px/1.2 'Baloo 2',cursive;color:${T.ink};margin-bottom:2px">${esc(t.title)}</div>` + ps.map((i, k) => one(i, !k)).join('') + `</div>`;
+}
+const CHECK3_STOP = new Set(['what', 'when', 'where', 'which', 'with', 'from', 'that', 'this', 'they', 'their', 'them', 'have', 'into', 'about', 'other', 'most', 'only', 'some', 'like', 'today', 'does', 'made']);
+// (whales -> whale, not whal: the title's own words must match the paragraph's; boxes -> box)
+const check3Stem = (w) => w.toLowerCase().replace(/'s$/, '').replace(/ies$/, 'y').replace(/(ches|shes|sses|xes)$/, (m) => m.slice(0, -2)).replace(/s$/, '');
+function info3CheckPage(mode, { difficulty, locale }, ctx, { POOL, story, D }) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`info-text-g3 check: the texts are English texts (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const lv = Number(difficulty) || 2, d = D[lv] || D[2], rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+  const att = (s) => esc(s).replace(/"/g, '&quot;');
+  const LW = W - 52;
+  const heads = false;                                                   // (a heading pointed to the paragraph a box asks for)
+  const answerLine = (answer, w, starter) => (key ? rule({ w, h: d.rowH || 30, starter, answer, sample: mode === 'ask' })
+    : rule({ w, h: d.rowH || 30, starter }).replace('<div data-lcs-line', `<div data-lcs-line data-lcs-answer="${att(answer)}"`));
+  const ask = (q) => `<div data-lcs-checkq style="font:700 16px/1.3 'Nunito',sans-serif;color:${T.ink}">${q}</div>`;
+  const excerpt = (t, ps) => checkExcerpt(t, ps, { font: d.font, lh: d.lh, heads });
+  const card = (t, inner) => `<div data-lcs-text="${att(t.id)}" style="display:flex;flex-direction:column;gap:5px;padding:0 4px">${inner}</div>`;
+  const cards = [];
+  for (const t of shuffle(POOL, rng)) {
+    if (mode === 'evidence') for (const x of shuffle(t.questions, rng)) {     // (in a drawn order: the check keeps the first card it meets of each text)
+      const i = x.part - 1;
+      const two = i === 0 ? [0, 1] : i === 3 ? [2, 3] : (rng.int(0, 1) ? [i - 1, i] : [i, i + 1]);
+      const box = numBox(x.part, key).replace('<span data-lcs-numbox', `<span data-lcs-answer="${x.part}" data-lcs-numbox`);
+      cards.push(card(t, excerpt(t, two) + ask(esc(x.q)) +
+        `<div style="display:flex;align-items:flex-end;gap:12px"><div style="flex:1 1 auto;min-width:0">${answerLine(x.answer, LW - 130)}</div><span style="flex:0 0 auto;display:inline-flex;align-items:center;gap:6px;font:700 14.5px/1 'Nunito',sans-serif;color:${T.ink}">paragraph ${box}</span></div>`));
+    }
+    if (mode === 'ask') for (const a of shuffle(t.ask, rng)) {     // (in a drawn order: the check keeps the first card it meets of each text)
+      const i = t.parts.findIndex((p) => p.sentences.includes(a.answer));
+      const sent = `<div data-lcs-answersent style="padding:4px 12px;border-radius:12px;background:${T.cream};font:700 ${d.quote || d.font}px/1.3 'Nunito',sans-serif;font-style:italic;color:${T.ink}">` + '"' + esc(a.answer) + '"</div>';
+      cards.push(card(t, excerpt(t, [i]) + sent + answerLine(a.q, LW, a.word)));
+    }
+    if (mode === 'paras') {
+      const own = new Set((t.title.match(/[A-Za-z']+/g) || []).map(check3Stem));
+      shuffle(t.parts.map((p, i) => [p, i]), rng).forEach(([p, i]) => {     // (in a drawn order: the check keeps the first card it meets of each text)
+        // a wrong statement shares no word of its own with the paragraph (the topic's own words do not count): a
+        // statement that names something the paragraph tells could be defended for it
+        const inPara = new Set((partText(p).match(/[A-Za-z']+/g) || []).map(check3Stem));
+        const apart = (s) => !(s.match(/[A-Za-z']+/g) || []).map(check3Stem).some((w) => w.length >= 4 && !CHECK3_STOP.has(w) && !own.has(w) && inPara.has(w));
+        const narrow = (CHECK3_NARROW[t.id] || [])[i], other = (CHECK3_OTHER[t.id] || [])[i];
+        if (other && (!apart(other) || other === p.focus)) throw new Error(`info-text-g3 check: the other topic of ${t.id} paragraph ${i + 1} shares a word with it`);
+        const wrong = narrow && other ? [narrow, other] : [];
+        if (wrong.length < 2) return;                                       // no other focus that is surely wrong, or no narrow detail: no card
+        const at = rng.int(0, 2);
+        cards.push(card(t, excerpt(t, [i]) + ask('What is this paragraph mostly about? Circle it.') +
+          choices(placed(p.focus, shuffle(wrong, rng), at), at, key, { column: true, font: 15.5 }).replace(' data-lcs-ok="1"', ' data-lcs-ok="1" data-lcs-correct="1"')));
+      });
+    }
+  }
+  return { bodyHtml: (story ? curly : String)(`<div data-lcs-info3check="${mode}|${lv}"${key ? ' data-lcs-iskey="1"' : ''}${story ? ' data-lcs-story="1"' : ''}>` + checkGrid(cards, { cols: 1 }) + `</div>`), meta: {} };
+}
+
+module.exports = { makeInfoText3Type, faultsOf, TEXTS, LEVELS, _parts3: { wordsIn, partText, textBox, cream, label, num, numBox, rule, stack, grid, FULL, RULE, checkExcerpt, curly } };

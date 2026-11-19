@@ -946,6 +946,10 @@ function makeOpinionWritingG3Type({ id, slug, mode, exerciseType, i18n }) {
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // the unit check (Part 7.6): the day-1 pages' tasks made small, one card a task (ow3CheckPage below); the plan and the
+    // draft give the check its writing task (ow3CheckWrite)
+    ...(['mark', 'link', 'pickend', 'edit'].includes(mode) ? { checkPage(args, ctx) { return ow3CheckPage(mode, args, ctx); } } : {}),
+    ...(mode === 'plan' || mode === 'draft' ? { checkWrite(args, ctx) { return ow3CheckWrite(mode, args, ctx); } } : {}),
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the pieces are English pieces (no ${locale} bank)`);
@@ -1438,6 +1442,99 @@ function verifyPage(S, I) {
       const c = cs(p); let low = R(p).top + parseFloat(c.paddingTop), g = 0; for (const k of kids) { g = Math.max(g, k.top - low); low = Math.max(low, k.bottom); } g = Math.max(g, R(p).bottom - parseFloat(c.paddingBottom) - low);
       if (g > S.GAP + 0.5) fails.push(`a blank band of ${Math.round(g)} px in the margin (${p.dataset.lcsMbox || 'margin'})`); }); }
   return fails;
+}
+
+/* ------------------------------------------------------------------ the unit check (Part 7.6) */
+/**
+ * ow3CheckPage — the cards a unit check cuts from the day-1 pages (PART-7-DESIGN.md 7.6): every item of the bank as a card of
+ * its own, at the level the lesson hands out, built from the page's own bank and rules (no new task):
+ *   mark     G3-548  three sentences of part 1 (facts a teacher can confirm, opinions with a word people can disagree with;
+ *                    not the hard ones below level 3): a check mark under fact or opinion. The sentences stand in fixed
+ *                    groups (two facts and an opinion, or one fact and two opinions: data-lcs-fomix), so no sentence is in
+ *                    two cards
+ *   link     G3-550  a sentence with a gap and the words of the level (the page's rule: one word fits, never because and
+ *                    since together): circle the one that fits (data-lcs-linkkind: reason, result, example). A reason
+ *                    card is a sentence that STARTS with the gap and takes Since (writing review 1119: a mid-sentence
+ *                    because in one form and a fronted Since in the other made the forms unequal), so a part of three
+ *                    asks Since, therefore, and For example in both forms
+ *   pickend  G3-552  a short opinion piece and its three endings (a concluding statement, a new reason, a sentence that
+ *                    changes the subject): C, R, or X in the box of each. The sentence that changes the subject is the
+ *                    piece's own (a fixed matching of pieces and sentences, no sentence twice), so form B never prints
+ *                    form A's
+ *   edit     G3-554  one sentence of a paragraph to edit with ONE planted mistake (a small letter at the start, no end mark
+ *                    on a statement that takes only a period, no comma after For example): fix it in place
+ * A card names its item (data-lcs-text) so that form B asks other ones than form A.
+ */
+function ow3CheckPage(mode, { difficulty, locale }, ctx) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`opinion-writing-g3 check: the pieces are English (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const lv = Number(difficulty) || 2, d = LEVELS[mode][lv] || LEVELS[mode][2], rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+  const A = (s) => esc(s).replace(/"/g, '&quot;');
+  const shell = (id, inner, more = '') => `<div data-lcs-text="${A(id)}"${more} style="display:flex;flex-direction:column;gap:3px;padding:4px 12px;border-radius:12px;background:#FFFFFF">${inner}</div>`;
+  const tick = (ok) => `<span style="box-sizing:border-box;width:25px;height:25px;display:flex;align-items:center;justify-content:center;border:2.5px solid ${T.ink};border-radius:7px;background:#FFFFFF">${key && ok ? `<svg width="20" height="20" viewBox="0 0 20 20" style="display:block"><path d="M3.5 10.5 L8.5 15.5 L16.5 4.5" fill="none" stroke="${T.teal}" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>` : ''}</span>`;
+  const cards = [];
+  if (mode === 'mark') {
+    const ok = (x) => lv === 3 || !x.hard;
+    const fix = makeRng('opinion-writing-g3|check-fo');
+    const F = fix.shuffle(BANK.fo.facts.filter(ok)).map((x) => ({ t: x.t, kind: 'fact' })), O = fix.shuffle(BANK.fo.opinions.filter(ok)).map((x) => ({ t: x.t, kind: 'opinion' }));
+    const groups = [];
+    for (let g = 0; ; g++) { const two = g % 2 === 0 ? F : O, one = g % 2 === 0 ? O : F; if (two.length < 2 || one.length < 1) break; groups.push({ mix: g % 2 === 0 ? 'ffo' : 'foo', rows: [two.shift(), two.shift(), one.shift()] }); }
+    for (const grp of shuffle(groups, rng)) {
+      let rows = null; for (let k = 0; k < 50 && !rows; k++) { const s = shuffle(grp.rows, rng); if (s.some((x, i) => i > 0 && x.kind !== s[0].kind) && !(s[0].kind !== s[1].kind && s[1].kind !== s[2].kind && rng.int(0, 1))) rows = s; }
+      const head = `<div style="display:flex;align-items:flex-end"><span style="flex:1 1 auto"></span>${['Fact', 'Opinion'].map((c) => `<span style="flex:0 0 80px;text-align:center;font:800 16px/1.1 'Nunito',sans-serif;color:${T.teal}">${c}</span>`).join('')}</div>`;
+      cards.push(shell(grp.rows.map((x) => x.t).join(' '), head + rows.map((x) => `<div style="display:flex;align-items:center"><span style="flex:1 1 auto;min-width:0;font:700 18px/1.25 'Nunito',sans-serif;color:${T.ink}">${esc(x.t)}</span><span style="display:flex">` +
+        ['fact', 'opinion'].map((c) => `<span${c === x.kind ? ' data-lcs-correct="1"' : ''} data-lcs-choice="${c}" style="flex:0 0 80px;display:flex;justify-content:center">${tick(c === x.kind)}</span>`).join('') + `</span></div>`).join(''), ` data-lcs-fomix="${grp.mix}"`));
+    }
+  }
+  if (mode === 'link') for (const c of shuffle(BANK.link.items.filter((x) => x.kind !== 'reason' || (lv > 1 ? x.at === 'start' : x.at === 'mid')), rng)) {
+    const right = c.kind === 'reason' ? (c.at === 'start' ? 'since' : (rng.int(0, 1) ? 'because' : 'since')) : c.fits[0];
+    const one = rng.int(0, 1) ? 'because' : 'since';
+    const wrongs = lv === 1 ? [c.kind === 'result' ? 'for example' : 'therefore'] : COORD.filter((w) => !c.fits.includes(w) && (!['because', 'since'].includes(w) || (!['because', 'since'].includes(right) && w === one)));
+    const opts = shuffle(wrongs, rng).slice(0, d.opts - 1); opts.splice(rng.int(0, opts.length), 0, right);
+    const [a, z] = c.t.split('___');
+    cards.push(shell(c.t, `<div style="font:700 18px/1.35 'Nunito',sans-serif;color:${T.ink}">${esc(a)}<span style="display:inline-block;width:96px;border-bottom:2.5px solid ${T.ink}"></span>${esc(z)}</div><div data-lcs-ckopts style="display:flex;gap:20px;padding-left:10px">` +
+      opts.map((w) => `<div${w === right ? ' data-lcs-correct="1"' : ''} style="display:flex"><span style="padding:0 9px;border:2.5px solid ${key && w === right ? T.teal : 'transparent'};border-radius:999px;font:700 19px/1.2 'Nunito',sans-serif;color:${T.ink}">${esc(w)}</span></div>`).join('') + `</div>`, ` data-lcs-linkkind="${c.kind}"`));
+  }
+  // (writing review 1119: both forms printed one sentence that changes the subject) each piece has its own: a fixed
+  // matching of pieces and sentences (never two pieces with one sentence), so form B, which asks other pieces, never
+  // prints form A's
+  const subjOf = new Map();
+  if (mode === 'pickend') { const fix = makeRng('opinion-writing-g3|check-subj'), used = new Set();
+    for (const t of fix.shuffle(topicsOf(BANK, 'pick'))) { const s = offFor(BANK.subj, t, fix, used); if (s) { used.add(s); subjOf.set(t.key, s); } } }
+  if (mode === 'pickend') for (const t of shuffle(topicsOf(BANK, 'pick'), rng)) {
+    const subj = subjOf.get(t.key);
+    if (!subj) continue;
+    const ends = shuffle([{ kind: 'reason', text: newReason(t, d.signals) }, { kind: 'subject', text: subj }], rng); ends.splice(rng.int(0, 2), 0, { kind: 'close', text: t.close });
+    cards.push(shell(t.key, `<div style="font:700 17px/1.32 'Nunito',sans-serif;color:${T.ink}">${esc(pieceBody(t, d.signals).join(' '))}</div><div style="display:flex;flex-direction:column;gap:2px;padding:2px 0 0 10px;border-left:3px solid ${T.creamDeep}">` +
+      ends.map((e) => `<div style="display:flex;align-items:center;gap:8px"><span data-lcs-answer="${LETTER[e.kind]}" style="box-sizing:border-box;flex:0 0 27px;height:27px;display:flex;align-items:center;justify-content:center;border:2.5px solid ${T.ink};border-radius:7px;background:#FFFFFF;font:800 18px/1 'Nunito',sans-serif;color:${T.teal}">${key ? esc(LETTER[e.kind]) : ''}</span><span style="font:700 17px/1.3 'Nunito',sans-serif;color:${T.ink}">${esc(e.text)}</span></div>`).join('') + `</div>`));
+  }
+  if (mode === 'edit') {
+    const over = (ch) => (key ? `<span style="position:absolute;left:-1px;top:-1.05em;font:800 19px/1 'Nunito',sans-serif;color:${T.teal}">${ch}</span>` : '');
+    const after = (ch) => (key ? `<span style="position:absolute;left:100%;bottom:0;font:800 22px/1 'Nunito',sans-serif;color:${T.teal}">${ch}</span>` : '');
+    const seen = new Set();
+    for (const t of shuffle(topicsOf(BANK, 'edit'), rng)) for (const x of shuffle(editSentences(t, lv, '', 0).filter((y) => y.role !== 'off'), rng)) {
+      // (a sentence of one line: three cards of a part stand within the part's height)
+      if (seen.has(x.text) || x.text.length > 64) continue; seen.add(x.text);
+      const s = x.text, can = [];
+      if (!/^I\b/.test(s)) can.push('cap');
+      if (x.role !== 'op' && x.role !== 'close' && /\.$/.test(s)) can.push('end');
+      if (x.role === 'example' && /^For example, /.test(s)) can.push('comma');
+      const k = can[rng.int(0, can.length - 1)];
+      let h;
+      if (k === 'cap') h = `<span data-lcs-answer="${s[0]}" style="position:relative">${s[0].toLowerCase()}${over(s[0])}</span>${esc(s.slice(1))}`;
+      else if (k === 'end') { const m = /^(.*\s)(\S+)\.$/.exec(s); h = `${esc(m[1])}<span data-lcs-answer="${A(m[2])}." style="position:relative">${esc(m[2])}${after('.')}</span>`; }
+      else h = `For <span data-lcs-answer="example," style="position:relative">example${after(',')}</span>${esc(s.slice('For example,'.length))}`;
+      cards.push(shell(s, `<div style="padding-top:20px;font:700 19px/1.3 'Nunito',sans-serif;color:${T.ink}">${h}</div>`, ` data-lcs-fault="${k}"`));
+    }
+  }
+  if (!cards.length) throw new Error('opinion-writing-g3 check: no cards for ' + mode);
+  return { bodyHtml: STYLE + `<div data-lcs-ow3check="${mode}|${lv}" data-lcs-noliga="1"${key ? ' data-lcs-iskey="1"' : ''} style="${LIGS}">` + fRoom(typo(checkGrid(cards, { cols: 1 }))) + `</div>`, meta: {} };
+}
+/** ow3CheckWrite — the writing task of the unit check: every question the plan and draft pages offer (the bank's own words;
+ *  the direction is the rubric's) */
+function ow3CheckWrite(mode, { locale }) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`opinion-writing-g3 check: the questions are English (no ${locale} bank)`);
+  return { tasks: BANK.prompts.map((p) => ({ id: 'opinion:' + p.key, prompt: p.q })) };
 }
 
 module.exports = { makeOpinionWritingG3Type, faultsOf, plan, LEVELS, INSTR, LINES, SPEC, place, placeKey, draftFits, modelPiece, editRewriteList, offText, planParts, draftParts, moreParts, endParts, joinSample, editRewrite, markSentences, pieceBody, editSentences };

@@ -84,6 +84,8 @@ function makeTwoTextsKType({ id, slug, i18n }) {
     themeAxis: { applicable: false },
     difficulty: LEVELS,
     i18n,
+    // the unit checks (Part 7.6): the page's task made small, one card a task (twoTextsCheckPage below)
+    checkPage(args, ctx) { return twoTextsCheckPage(args, ctx); },
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the fact texts are English texts (no ${locale} bank)`);
@@ -170,6 +172,55 @@ function makeTwoTextsKType({ id, slug, i18n }) {
       });
     },
   };
+}
+
+/* ---------------------------------------------------------------- the item bank of the unit checks ---------------------------------------------------------------- */
+/** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the page's task made small. One picture of
+ *  the six to sort and the three places of the page as pictures to circle: the first text's picture (only the first text
+ *  tells it), both texts' pictures (both tell it), the second text's picture (only the second). The level-1 page glues it
+ *  into its place; the level-2 page draws one thing for each place. THE TEACHER READS: a card prints no word; the two
+ *  texts, the name of the picture and the question stand on the card's root as data-lcs-teacher-reads (the key and the
+ *  teacher pages print them, the child's form never does). Every card carries its pair of texts as data-lcs-text. A
+ *  picture whose thing is the picture of a text is not taken (an apple beside the apple tree's picture is matched by
+ *  its look). FORMS (review en.review-1119-read): one pair a form (CHECK_PAIR); every card carries "pair|thing" as
+ *  data-lcs-text and its place, one text or both, as data-lcs-sortkind, so a part takes a one-text card AND a both card.
+ *  The teacher names each text by its picture ("Text 1, The Daytime Sky, with the sun picture"), and the question says
+ *  what the card shows: "circle the box with both pictures" for both. */
+/** the pair of texts of each form of the unit check (review en.review-1119-read: no text in both forms); neither pair shares
+ *  its topic with a text of the OTHER form of the unit (the sky; the pets beside the Dogs text of form B) */
+const CHECK_PAIR = { A: 'two-skies', B: 'two-pets' };
+/** the two pictures of each form's part (review en.review-1119-read2: owl means night and mouse means cat to a child who did
+ *  not listen): a thing only one text tells that world knowledge does not place — the rainbow is in the daytime text only,
+ *  the mail truck in the dog text only — and a thing both texts tell (the airplane flies by day AND by night; both pets sleep
+ *  in a soft bed). The rainbow also keeps the butterfly, the owl and the stars, answers and pictures of the form's other
+ *  parts, off this part. */
+const CHECK_PICS = { A: ['rainbow', 'airplane'], B: ['mail_truck', 'bed'] };
+/** the form a check page is built for: build-checks seeds its pages "check|<unit>|A…" or "…|B…"; none outside a check */
+const checkFormOf = (ctx) => { const m = /^check\|[^|]+\|([AB])\d*\|/.exec(String((ctx && ctx.rng && ctx.rng.seed) || '')); return m ? m[1] : null; };
+function twoTextsCheckPage({ difficulty, locale }, ctx) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`two-texts-k check: the fact texts are English texts (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const lv = Number(difficulty) || 2, rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+  const att = (s) => esc(s).replace(/"/g, '&quot;');
+  // (the card shows each text by its picture only: the teacher names it — "Text 1, The Daytime Sky, with the sun picture")
+  const told = (t) => `${t.title}, with the ${t.picture.noun.replace(/_/g, ' ')} picture: ${t.sentences.join(' ')}`;
+  const form = checkFormOf(ctx);
+  const cards = [];
+  for (const p of shuffle(PAIRS.filter((x) => !form || x.id === CHECK_PAIR[form]), rng)) {
+    const heads = [['a', [p.a.picture]], ['both', [p.a.picture, p.b.picture]], ['b', [p.b.picture]]];
+    const sorted = [...p.onlyA.map((c) => ['a', c]), ...p.both.map((c) => ['both', c]), ...p.onlyB.map((c) => ['b', c])].filter(([, c]) => c.noun !== p.a.picture.noun && c.noun !== p.b.picture.noun);
+    for (const [where, c] of (form ? CHECK_PICS[form].map((n) => sorted.find(([, x]) => x.noun === n)) : shuffle(sorted, rng))) {
+      // (the "both" place is ONE box that shows both pictures: the direction names that box; review en.review-1119-read)
+      const reads = 'Text 1, ' + told(p.a) + ' Text 2, ' + told(p.b) + ` Look at the ${c.label}. Which text tells about it? Circle that text's picture. If both texts tell about it, circle the box with both pictures.`;
+      const opts = heads.map(([k, pics]) => `<span data-lcs-place="${k}" data-lcs-choice="${k}"${k === where ? ' data-lcs-correct="1"' : ''} style="display:inline-flex;align-items:center;gap:4px;padding:5px 9px;border:3px solid ${key && k === where ? T.teal : 'transparent'};border-radius:18px;background:#FFFFFF">${pics.map((x) => img(x, 72)).join('')}</span>`).join('');
+      // (the text id names the pair AND the picture: a form's part takes two pictures of its one pair, one that only one text
+      // tells about and one that both do)
+      cards.push(`<div data-lcs-text="${att(p.id + '|' + c.noun)}" data-lcs-sortkind="${where === 'both' ? 'both' : 'one'}" data-lcs-teacher-reads="${att(reads)}" style="display:flex;align-items:center;gap:18px;padding:2px 4px">` +
+        `<span data-lcs-sortpic="${esc(pk(c))}" style="flex:0 0 auto;display:inline-flex;padding:6px;border:2.5px dashed ${T.ink};border-radius:8px;background:#FFFFFF">${img(c, 84)}</span>` +
+        `<div data-lcs-places style="flex:1 1 auto;display:flex;justify-content:space-around;align-items:center">${opts}</div></div>`);
+    }
+  }
+  return { bodyHtml: `<div data-lcs-twotextscheck="${lv}"${key ? ' data-lcs-iskey="1"' : ''}>` + checkGrid(cards, { cols: 1 }) + `</div>`, meta: {} };
 }
 
 module.exports = { makeTwoTextsKType, faultsOf, PAIRS, LEVELS };

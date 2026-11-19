@@ -13,7 +13,32 @@ module.exports = {
   interactive: base.interactiveFor('sums'),
   /** THE ITEM BANK (Part 7.6): each row of the level a card of its own, with its parity table and its two words (the
    *  page shares them above the columns, so a row could not be cut from it). The factory draws it (G1-351 _checkSums). */
-  checkPage(args, ctx) { return this._checkSums(args, ctx); },
+  /*  2026-11-19 (review en-3checks-f1116 of g3-rounding-adding-subtracting, part 6): both sums of a form went past 1,000
+   *  in a unit within 1,000 — the check's addends stay below 500 (the parity task is the same: the ones digits decide);
+   *  and the key ringed a square where the direction says "fill in the circle" — the right circle is now FILLED in the
+   *  key (data-lcs-key-sample, which the check draws without a ring) and the child's page carries no mark. */
+  checkPage(args, ctx) {
+    const lv = Number(args.difficulty) || 2, d = this.difficulty[lv] || this.difficulty[2];
+    const self = Object.create(this, { difficulty: { value: { ...this.difficulty, [lv]: { ...d, range: [d.range[0], Math.min(d.range[1], 499)] } } } });
+    const b = this._checkSums.call(self, args, ctx), key = !!(ctx && ctx.answerKey);
+    // 2026-11-19 (review en-1119-math, part 5: one sum a form, a guess passed half the time): a card is the table and
+    // THREE sums of the level, an odd and an even sum in every card (two of one, one of the other, in turn)
+    const rows = [...b.bodyHtml.matchAll(/<section class="ws-card"[^>]*>([\s\S]*?)<\/section>/g)].map((m) => m[1]);
+    const at = rows[0].indexOf('<div class="ws-lane" data-lcs-sumlane'), head = rows[0].slice(0, at);
+    const lane = (r) => r.slice(r.indexOf('<div class="ws-lane" data-lcs-sumlane'), r.lastIndexOf('</div>'));
+    const odd = (r) => /data-lcs-tick="odd" data-lcs-choice="odd"[^>]*data-lcs-correct/.test(r);
+    const O = rows.filter(odd), E = rows.filter((r) => !odd(r)), groups = [];
+    for (let g = 0; ; g++) {
+      const [many, few] = g % 2 ? [E, O] : [O, E];
+      if (many.length < 2 || few.length < 1) break;
+      groups.push(ctx.rng.shuffle([many.shift(), many.shift(), few.shift()]));
+    }
+    if (groups.length < 3 || rows.some((r) => !r.startsWith(head))) throw new Error(this.id + ' checkPage: the rows changed their shape');
+    let n = 0;
+    const bodyHtml = require('../../lib/check-page.js').checkGrid(groups.map((g) => head + g.map(lane).join('') + '</div>')).replace(/(<span class="ws-chip" data-lcs-tick="(?:even|odd)" data-lcs-choice="(?:even|odd)"[^>]*?) data-lcs-correct="1" style="([^"]*)"/g, (m, head, st) => { n++; return key ? `${head} data-lcs-key-sample="1" style="${st};background:#F2784B;border-color:#F2784B"` : `${head} style="${st}"`; });
+    if (!n) throw new Error(this.id + ' checkPage: no right circle found');
+    return { ...b, bodyHtml };
+  },
   i18n: { en: { title: "Odd or Even Sum? Decide Without Adding", instruction: "Do not add. Look at the underlined ones digit of each number, use the table, and mark whether the sum is even or odd." } },
   gradeBand: "G3",
 };

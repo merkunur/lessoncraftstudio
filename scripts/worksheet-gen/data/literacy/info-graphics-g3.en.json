@@ -256,7 +256,7 @@
     },
     {
      "kind": "where",
-     "q": "In which square are the mountains where the text says workers dug tunnels?",
+     "q": "In which square are the mountains where workers dug tunnels?",
      "place": "Sierra Nevada",
      "lure": "Rocky Mountains",
      "cue": "tunnels",
@@ -621,11 +621,11 @@
      ]
     },
     {
-     "q": "Which goods does the text say barges carry?",
+     "q": "Which goods do barges carry?",
      "answer": "corn and coal",
      "find": "corn, coal",
      "wrong": [
-      "wheat and oil",
+      "milk and eggs",
       "cars and trucks"
      ]
     },
@@ -1590,7 +1590,7 @@
     },
     {
      "kind": "what",
-     "q": "What does the text say about the place in square {SQ}?",
+     "q": "What is special about the place in square {SQ}?",
      "place": "Norris Geyser Basin",
      "answer": "It is the hottest place in the park.",
      "find": "hottest place in the park",
@@ -1632,6 +1632,7 @@
     [
      "Heat from the sun warms the water in oceans, lakes, and rivers.",
      "Some of the water turns into a gas called water vapor, which you cannot see.",
+     "This is called evaporation.",
      "The vapor rises high into the sky, where the air is cold.",
      "There it cools and turns back into tiny drops of water.",
      "Many tiny drops together make a cloud."
@@ -1682,15 +1683,15 @@
    },
    "graphic": [
     {
-     "q": "In the diagram, which step comes right after evaporation?",
-     "answer": "condensation",
+     "q": "What is the name of the step right after condensation?",
+     "answer": "precipitation",
      "wrong": [
-      "precipitation",
+      "evaporation",
       "collection"
      ]
     },
     {
-     "q": "In the diagram, which step comes right before evaporation?",
+     "q": "What is the name of the step that shows a lake?",
      "answer": "collection",
      "wrong": [
       "condensation",
@@ -1698,12 +1699,14 @@
      ]
     },
     {
-     "q": "In the diagram, which step comes right after condensation?",
-     "answer": "precipitation",
+     "q": "How many steps are in this cycle?",
+     "answer": "four",
      "wrong": [
-      "evaporation",
-      "collection"
-     ]
+      "three",
+      "five"
+     ],
+     "usesAll": true,
+     "onlyLevel": 1
     }
    ],
    "text": [
@@ -1753,9 +1756,7 @@
       "in the ocean"
      ],
      "group": "cond"
-    }
-   ],
-   "both": [
+    },
     {
      "q": "What happens to the water during evaporation?",
      "answer": "It becomes a gas.",
@@ -1765,7 +1766,9 @@
       "It falls."
      ],
      "group": "evap"
-    },
+    }
+   ],
+   "both": [
     {
      "q": "What happens to the water vapor during condensation?",
      "answer": "It cools into drops.",
@@ -1787,16 +1790,6 @@
      "group": "heavy"
     },
     {
-     "q": "What is the name of the step in which water turns into a gas?",
-     "answer": "evaporation",
-     "cue": "turns into a gas",
-     "wrong": [
-      "condensation",
-      "collection"
-     ],
-     "group": "evap"
-    },
-    {
      "q": "What is the name of the step in which the vapor cools high in the sky?",
      "answer": "condensation",
      "cue": "cools",
@@ -1805,6 +1798,16 @@
       "collection"
      ],
      "group": "cond"
+    },
+    {
+     "q": "What is the name of the step that comes after the drops in a cloud grow big and heavy?",
+     "answer": "precipitation",
+     "cue": "heavy",
+     "wrong": [
+      "evaporation",
+      "collection"
+     ],
+     "group": "heavy"
     }
    ]
   },
@@ -1873,23 +1876,15 @@
    },
    "graphic": [
     {
-     "q": "In the diagram, where does the energy go right after the sun?",
-     "answer": "to the grass",
+     "q": "What is the name of the step right after the zebra?",
+     "answer": "the lion",
      "wrong": [
-      "to the zebra",
-      "to the lion"
+      "the grass",
+      "the sun"
      ]
     },
     {
-     "q": "In the diagram, where does the energy go after the zebra?",
-     "answer": "to the lion",
-     "wrong": [
-      "to the grass",
-      "to the sun"
-     ]
-    },
-    {
-     "q": "In the diagram, which living thing passes energy straight to the zebra?",
+     "q": "What is the name of the step right before the zebra?",
      "answer": "the grass",
      "wrong": [
       "the lion",
@@ -1897,11 +1892,11 @@
      ]
     },
     {
-     "q": "In this food chain, where does the energy go last?",
-     "answer": "to the lion",
+     "q": "Which living thing is at the end of this food chain?",
+     "answer": "the lion",
      "wrong": [
-      "to the grass",
-      "to the zebra"
+      "the grass",
+      "the zebra"
      ]
     }
    ],
@@ -1929,7 +1924,7 @@
      "find": "called their prey",
      "wrong": [
       "hunters",
-      "plants"
+      "a herd"
      ],
      "group": "pred"
     },
@@ -1963,7 +1958,7 @@
      ]
     },
     {
-     "q": "Which animal in this food chain is a herbivore?",
+     "q": "Which living thing in this food chain is a herbivore?",
      "answer": "the zebra",
      "cue": "herbivore",
      "wrong": [
@@ -1973,7 +1968,7 @@
      "group": "herb"
     },
     {
-     "q": "Which animal in this food chain is a predator?",
+     "q": "Which living thing in this food chain is a predator?",
      "answer": "the lion",
      "cue": "predator",
      "wrong": [
@@ -1983,7 +1978,7 @@
      "group": "pred"
     },
     {
-     "q": "What kind of animal is the zebra in this food chain?",
+     "q": "What is the zebra in this food chain?",
      "answer": "a herbivore",
      "find": "herbivores",
      "wrong": [
@@ -1996,7 +1991,7 @@
      ]
     },
     {
-     "q": "What kind of animal is the lion in this food chain?",
+     "q": "What is the lion in this food chain?",
      "answer": "a predator",
      "find": "predators",
      "wrong": [
@@ -2086,23 +2081,15 @@
    },
    "graphic": [
     {
-     "q": "In the diagram, where does the energy go right after the sun?",
-     "answer": "to the seaweed",
+     "q": "What is the name of the step right after the green sea turtle?",
+     "answer": "the shark",
      "wrong": [
-      "to the shark",
-      "to the green sea turtle"
+      "the seaweed",
+      "the sun"
      ]
     },
     {
-     "q": "In the diagram, where does the energy go after the green sea turtle?",
-     "answer": "to the shark",
-     "wrong": [
-      "to the seaweed",
-      "to the sun"
-     ]
-    },
-    {
-     "q": "In the diagram, which living thing passes energy straight to the green sea turtle?",
+     "q": "What is the name of the step right before the green sea turtle?",
      "answer": "the seaweed",
      "wrong": [
       "the shark",
@@ -2110,11 +2097,11 @@
      ]
     },
     {
-     "q": "In this food chain, where does the energy go last?",
-     "answer": "to the shark",
+     "q": "Which living thing is at the end of this food chain?",
+     "answer": "the shark",
      "wrong": [
-      "to the seaweed",
-      "to the green sea turtle"
+      "the seaweed",
+      "the green sea turtle"
      ]
     }
    ],
@@ -2179,7 +2166,7 @@
      ]
     },
     {
-     "q": "Which animal in this food chain eats the way cows graze on grass?",
+     "q": "Which living thing in this food chain eats the way cows graze on grass?",
      "answer": "the green sea turtle",
      "cue": "cows graze on grass",
      "wrong": [
@@ -2199,7 +2186,7 @@
      "group": "graze"
     },
     {
-     "q": "What kind of animal is the shark in this food chain?",
+     "q": "What is the shark in this food chain?",
      "answer": "a big hunter",
      "find": "big hunters",
      "wrong": [
@@ -2273,7 +2260,7 @@
    },
    "graphic": [
     {
-     "q": "In the diagram, what comes right after the sorting center?",
+     "q": "What is the name of the step right after the sorting center?",
      "answer": "the mail truck",
      "wrong": [
       "the mailbox",
@@ -2281,7 +2268,7 @@
      ]
     },
     {
-     "q": "In the diagram, what comes right before the mail carrier?",
+     "q": "What is the name of the step right before the mail carrier?",
      "answer": "the mail truck",
      "wrong": [
       "the mailbox",
@@ -2289,7 +2276,7 @@
      ]
     },
     {
-     "q": "In the diagram, what is the last step?",
+     "q": "What is the name of the last step?",
      "answer": "the mail carrier",
      "wrong": [
       "the mailbox",
@@ -2443,7 +2430,7 @@
    },
    "graphic": [
     {
-     "q": "In the diagram, what kind of tree drops the acorn?",
+     "q": "What kind of tree drops the acorn?",
      "answer": "an oak tree",
      "wrong": [
       "an apple tree",
@@ -2451,7 +2438,7 @@
      ]
     },
     {
-     "q": "In the diagram, which animal comes after the acorn?",
+     "q": "What is the name of the animal that comes after the acorn?",
      "answer": "a squirrel",
      "wrong": [
       "a bird",
@@ -2459,7 +2446,7 @@
      ]
     },
     {
-     "q": "In the diagram, what grows at the end?",
+     "q": "What is the name of the last step?",
      "answer": "a young oak tree",
      "wrong": [
       "an acorn",

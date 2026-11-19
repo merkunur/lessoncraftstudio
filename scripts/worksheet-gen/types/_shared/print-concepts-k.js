@@ -986,6 +986,8 @@ function makePrintConceptsKType({ id, slug, mode, exerciseType, i18n }) {
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // THE ITEM BANK of the unit checks (Part 7.6): K-665, K-667, K-669, K-671 (pckCheckPage below)
+    ...(PCK_CHECK_MODES.has(mode) ? { checkPage(args, ctx) { return pckCheckPage(mode, args, ctx); } } : {}),
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the books and sentences are English (no ${locale} bank)`);
@@ -1500,6 +1502,114 @@ function makePrintConceptsKType({ id, slug, mode, exerciseType, i18n }) {
       }, SPEC, INFO);
     },
   };
+}
+
+/* ---------------------------------------------------------------- the item bank of the unit checks ---------------------------------------------------------------- */
+/** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): each page's task made small, every card one
+ *  task that stands alone, with its answer in its markup, from the same bank and the same steps as the page. Nothing on a
+ *  card is for the child to read but the print the page itself shows (what the teacher says is the check's direction line).
+ *   parts  (K-665)  one book in its three parts, in an order that is not the order of a book or its reverse (partOrder): the
+ *                   front cover (circled) and the back cover (an X) carry data-lcs-correct; the key draws the ring and the X
+ *                   in orange and marks nothing else. A copy draws books whose covers are of different kinds.
+ *   track  (K-667)  one sentence of two lines on its page-shaped frame, as on the page (four to six words): the child puts a
+ *                   dot where the reading starts and draws the arrows (left to right, and back to the next line); the first
+ *                   word carries data-lcs-correct, and the key draws the dot and the arrows in orange (the first word is
+ *                   where every English page starts: the answer's place IS the skill, review en-1119-lit asked for this part).
+ *   dots   (K-669)  one row of task 1: a word among a single letter, a digit (levels 2 and 3) and a scribble; the word's
+ *                   place drawn as the page draws it (mixedPlaces); no letter is the word's first letter, no digit one that
+ *                   looks like a letter of its row.
+ *   count  (K-671)  one sentence of the level with its picture and the box for its number of words (level 1: the three
+ *                   numbers to circle); pictures of different kinds.
+ *  K-668 (pages and lines in reading order) gives no card: lines or pages numbered in reading order are numbered in the
+ *  order they stand (an ordering in order, which the checks never take). K-666 is the child's own cover (no one answer);
+ *  K-670 and K-672 are the second pages of their lessons. */
+const PCK_CHECK_MODES = new Set(['parts', 'track', 'dots', 'count']);
+const PCK_ORANGE = '#C9552E';
+function pckCheckPage(mode, { difficulty, locale }, ctx) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`print-concepts-k check: the books and sentences are English (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const lv = Number(difficulty) || 2, d = LEVELS[mode][lv] || LEVELS[mode][2], rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+  const b = BANK, kindOf = (w) => b.pics[w].kind;
+  const cards = [];
+  if (mode === 'parts') {
+    const CW = 112, CH = 172, SW = 160, SH = 118, D2 = { tfont: 15, afont: 12, pic: 52 };
+    const books = [], kinds = new Set();
+    for (const bk of shuffle(b.books, rng)) { if (books.length === 7) break; if (kinds.has(kindOf(bk.cover))) continue; kinds.add(kindOf(bk.cover)); books.push(bk); }
+    // the four orders partOrder allows, each in turn (in a mixed order, never one twice running): where each part stands
+    // follows no pattern across the cards
+    const ORDERS = [['title', 'front', 'back'], ['title', 'back', 'front'], ['front', 'back', 'title'], ['back', 'front', 'title']].filter((o) => o.join() !== PARTS3.join() && o.join() !== PARTS3.slice().reverse().join());
+    const seq = [];
+    while (seq.length < books.length) { const s = shuffle(ORDERS, rng); if (seq.length && s[0] === seq[seq.length - 1]) s.push(s.shift()); seq.push(...s); }
+    for (const [bi, bk] of books.entries()) {
+      const order = seq[bi];
+      // the key draws only the marks the child makes, in the check's answer colour: a ring round the front cover, an X on
+      // the back cover; its two answers carry data-lcs-correct="0" there, so that the check rings neither cover itself
+      // (review en-1119-lit: the X'd back cover read as circled too)
+      const cell = (p) => {
+        const art = p === 'front' ? frontCover(bk, CW, CH, D2, false, false) : p === 'back' ? backCover(CW, CH) : titlePage(bk, SW, SH, D2, false, false);
+        const mark = key && p === 'front' ? `<span data-lcs-frontring style="position:absolute;left:-9px;right:-9px;top:-8px;bottom:-8px;border:4px solid ${PCK_ORANGE};border-radius:26px;pointer-events:none"></span>`
+          : key && p === 'back' ? xMark().replace(/stroke="[^"]*"/g, `stroke="${PCK_ORANGE}"`) : '';
+        return `<div data-lcs-cellpart="${p}" data-lcs-choice="${CARD[p]}"${p !== 'title' ? ` data-lcs-correct="${key ? 0 : 1}"` : ''} style="flex:0 0 auto;height:${CH}px;display:flex;align-items:flex-end;justify-content:center"><div style="position:relative;line-height:0">${art}${mark}</div></div>`;
+      };
+      cards.push(`<div data-lcs-pckcheck="parts" data-lcs-book="${attr(bk.title)}" style="display:flex;align-items:flex-end;justify-content:center;gap:28px;padding:8px 6px">${order.map(cell).join('')}</div>`);
+    }
+  }
+  if (mode === 'track') {
+    const F = 30, G = 20, A = PCK_ORANGE;
+    const pool = b.twoLine.filter((s) => toksOf(s).length >= d.words[0] && toksOf(s).length <= d.words[1]);
+    for (const s of shuffle(pool, rng).slice(0, 7)) {
+      const lines = s.split('|').map((x) => toksOf(x));
+      let wi = 0;
+      const word = (w) => { const first = wi++ === 0, mid = Math.round((F * 1.15 - 20) / 2);
+        return `<span data-lcs-tw data-lcs-choice="${attr(w)}"${first ? ` data-lcs-correct="${key ? 0 : 1}"` : ''} style="position:relative;display:inline-block;font:800 ${F}px/1.15 'Nunito',sans-serif;color:${T.ink};white-space:nowrap">${esc(w)}` +
+          (key && first ? `<span data-lcs-keydot style="position:absolute;right:calc(100% + 8px);top:${mid}px;width:20px;height:20px;border-radius:50%;background:${A}"></span>` : '') + `</span>`; };
+      // the key's arrows (orange): under each line to its end, and the sweep back from the end of line 1 to the start of line 2
+      const arrow = () => (key ? `<span data-lcs-keyarrow style="position:absolute;left:0;right:8px;bottom:-9px;height:0;border-top:3.5px solid ${A}"></span><span style="position:absolute;right:-4px;bottom:-16px;width:0;height:0;border-top:7px solid transparent;border-bottom:7px solid transparent;border-left:12px solid ${A}"></span>` : '');
+      const sweep = key ? `<svg data-lcs-keysweep style="position:absolute;left:4px;width:calc(100% - 8px);top:calc(100% + 15px);height:15px;overflow:visible" viewBox="0 0 100 100" preserveAspectRatio="none"><line x1="100" y1="0" x2="0" y2="100" stroke="${A}" stroke-width="3.5" vector-effect="non-scaling-stroke" stroke-dasharray="8 5"/></svg>` : '';
+      const lineHtml = (ws, n) => `<div data-lcs-tline="${n}" style="display:inline-flex;position:relative;align-items:flex-start;gap:${G}px">${ws.map(word).join('')}${arrow()}${n === 1 ? sweep : ''}</div>`;
+      // the page-shaped frame: its right edge comes just after line 1 (the longer line, as in a book)
+      cards.push(`<div data-lcs-pckcheck="track" data-lcs-text="${attr(s)}" style="display:flex;justify-content:center;padding:6px 4px"><div style="box-sizing:border-box;display:flex;flex-direction:column;align-items:flex-start;gap:34px;padding:10px 40px 18px 42px;border:2.5px solid ${T.ink};border-radius:6px 14px 14px 6px;background:#FFFFFF;box-shadow:inset 9px 0 0 ${T.creamDeep}">${lineHtml(lines[0], 1)}${lineHtml(lines[1], 2)}</div></div>`);
+    }
+  }
+  if (mode === 'dots') {
+    const N = 6, kindsRow = d.items === 3 ? ['letter', 'scribble'] : ['letter', 'number', 'scribble'];
+    const words = shuffle(b.lookWords.filter((w) => !d.short || w.length <= 3), rng).slice(0, N);
+    const letters = [];
+    for (const w of words) { const l = shuffle(b.lookLetters.filter((l) => l !== w[0] && letters.indexOf(l) < 0), rng)[0]; if (!l) throw new Error('print-concepts-k check: no letter'); letters.push(l); }
+    // a digit is never one a child can take for a letter of its row (g 9, s 5, o 0, l 1); the six rows take different digits
+    // where they can
+    const numbers = words.map((w, r) => { const ok = shuffle(b.lookNumbers.filter((n) => !(b.confusable || []).some(([l, g]) => g === n && (letters[r] === l || w.includes(l)))), rng); return ok; });
+    const nums = []; numbers.forEach((ok) => nums.push(ok.find((n) => !nums.includes(n)) || ok[0]));
+    const at = mixedPlaces(N, d.items, rng), scr = shuffle(SCRIBBLES.map((_, i) => i), rng);
+    words.forEach((w, r) => {
+      const o = shuffle(kindsRow, rng); o.splice(at[r], 0, 'word');
+      cards.push(`<div data-lcs-pckcheck="look" style="display:flex;align-items:center;justify-content:center;gap:14px;padding:6px 8px">` + o.map((k) =>
+        `<div data-lcs-look="${k}" data-lcs-choice="${k}"${k === 'word' ? ' data-lcs-correct="1"' : ''} style="flex:0 0 auto;width:112px;height:56px;display:flex;align-items:center;justify-content:center">` +
+        (k === 'scribble' ? scribble(scr[r % scr.length]) : `<span style="font:800 ${d.look}px/1.15 'Nunito',sans-serif;color:${T.ink};padding:0 6px">${esc(k === 'word' ? w : k === 'letter' ? letters[r] : nums[r])}</span>`) + `</div>`).join('') + `</div>`);
+    });
+  }
+  if (mode === 'count') {
+    const CF = Math.min(d.font, 30), SPW = Math.round(SPACE_EM * CF), pick = [], kinds = new Set(), dotted = lv === 1;
+    for (const [s, p] of shuffle(b.count[lv] || b.count[2], rng)) { if (pick.length === 7) break; if (kinds.has(kindOf(p))) continue; kinds.add(kindOf(p)); pick.push({ s, p, n: toksOf(s).length }); }
+    for (const x of pick) {
+      const ts = toksOf(x.s);
+      const line = ts.map((w, i) => `<span data-lcs-cw="${i}" style="font:800 ${CF}px/1.15 'Nunito',sans-serif;color:${T.ink};white-space:nowrap;letter-spacing:0.03em">${esc(w)}</span>` +
+        (i < ts.length - 1 ? `<span data-lcs-space="${i}" style="position:relative;flex:0 0 ${SPW}px;margin:0 6px;box-sizing:border-box;height:${Math.round(CF * 1.05)}px;${dotted ? `border:2.5px dotted ${T.inkSoft};border-radius:8px;` : ''}">${key ? `<span data-lcs-spaceline style="position:absolute;left:50%;top:3px;bottom:3px;width:4px;margin-left:-2px;border-radius:2px;background:${PCK_ORANGE}"></span>` : ''}</span>` : '')).join('');
+      // (the key: the lines in the spaces in the check's answer colour; the number is written into its box by the check)
+      const answer = d.chips ? `<div data-lcs-chips style="display:flex;gap:18px">${d.chips.map((c) => `<span data-lcs-chip="${c}"${c === x.n ? ' data-lcs-correct="1"' : ''} data-lcs-choice="${c}" style="display:inline-flex;align-items:center;justify-content:center;width:52px;height:52px;font:800 34px/1 'Nunito',sans-serif;color:${T.ink}">${c}</span>`).join('')}</div>`
+        : `<div style="display:flex;align-items:center;gap:10px">${numBox(`data-lcs-nbox data-lcs-answer="${x.n}"`, BOX, '')}<span style="font:700 20px/1 'Nunito',sans-serif;color:${T.ink}">words</span></div>`;
+      cards.push(d.chips ? `<div data-lcs-pckcheck="count" data-lcs-text="${attr(x.s)}" style="display:flex;flex-direction:column;gap:6px;padding:8px 12px">` +
+        `<div data-lcs-cline style="display:flex;align-items:center">${line}</div>` +
+        `<div style="display:flex;align-items:center;justify-content:space-between;padding:0 24px">${img(x.p, 64)}${answer}</div></div>`
+        : `<div data-lcs-pckcheck="count" data-lcs-text="${attr(x.s)}" style="display:flex;align-items:center;justify-content:space-between;gap:14px;padding:6px 10px">` +
+        `${img(x.p, 60)}<div data-lcs-cline style="flex:1 1 auto;display:flex;align-items:center;justify-content:center">${line}</div>${answer}</div>`);
+    }
+  }
+  if (cards.length < 3) throw new Error(`print-concepts-k check: ${cards.length} cards for ${mode}`);
+  // (count: the answer is a number, and the check matches its form-B card by the shape of its text: an f or a t gets its room
+  // from the letter spacing above, never from a span that splits the word)
+  const grid = svgRoom(checkGrid(cards, { cols: 1 }));
+  return { bodyHtml: STYLE + `<div data-lcs-noliga="1" style="${LIGS}">` + (mode === 'count' ? grid : fRoom(grid)) + `</div>`, meta: {} };
 }
 
 module.exports = { makePrintConceptsKType, pckFaultsOf, drawPage, LEVELS, INSTR, LINES, LEGEND, CARD, SPEC, MODES, placesOk, countsOk, famousLike, emOf };

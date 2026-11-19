@@ -69,7 +69,8 @@ const LINES = {
   draw: 'Read the sentence. Draw what it says.',
   split: 'Read each word. Draw a line between its two syllables. Circle each syllable with a long a, e, i, o, or u.', choose3: 'Read each sentence. Circle the word that fits.',
   join: 'Read the first part on each line. Find the part in the box that makes a word with it. Write it on the line. Read the whole word.',
-  heartbox: 'Write the letters for each sound in a box. Then draw a heart over the tricky part.', fold: 'Fold the top of the page back.',
+  // (2026-11-19, review en-1119-lit) EACH tricky part: because has three a teacher can defend (e, au, se)
+  heartbox: 'Write the letters for each sound in a box. Then draw a heart over each tricky part.', fold: 'Fold the top of the page back.',
   heartsent: 'Read the sentence. Write the heart word that fits. Its first letter is on the line.', own: 'Write a sentence of your own. Use two heart words from this page.',
 };
 /** the words on a silent-e page whose e does not make the vowel long (never printed on level 2 of G2-546 and G2-547) */
@@ -181,6 +182,9 @@ function g2bFaultsOf(b) {
       if (typeof s.text !== 'string' || s.text.split('___').length !== 2 || /^___/.test(s.text) || s.text.length > 44 || !/[.!?]$/.test(s.text)) f.push(`syll: "${s.text}" has not one blank inside a short sentence`);
       if (!words.has(s.right) || !Array.isArray(s.fits) || s.fits.some((x) => !words.has(x) || x === s.right)) f.push(`syll: "${s.text}": its answer or its fits are no words of the level`);
       if ([...words].some((w) => hasWord(s.text.replace('___', ' '), w))) f.push(`syll: "${s.text}" prints a word of the level`);
+      // (2026-11-19, review en-1119-lit) no sentence prints a part of its answer: "I go to bed at ___" is answered by matching
+      // bed to bedtime, not by reading the words (and a longer part as the start of a word: raining, raincoat; 2026-11-19)
+      { const x = ws.find((y) => y.w === s.right); if (x && x.parts.some((p) => p.length >= 3 && tokens(s.text.replace('___', ' ')).some((t) => t === p || t === p + 's' || (p.length >= 4 && t.startsWith(p))))) f.push(`syll: "${s.text}" prints a part of its answer ${s.right}`); }
     });
     if ((((S.sentences || {})[lv]) || []).length < 12) f.push(`syll level ${lv}: fewer than twelve sentences`);
     (((S.yesno || {})[lv]) || []).forEach((s) => { if (!['yes', 'no'].includes(s.a) || !/^[A-Z][^]*[.!?]$/.test(s.text) || !tokens(s.text).some((w) => words.has(w))) f.push(`syll level ${lv}: "${s.text}" is no yes/no sentence with a word of the level`); });
@@ -194,7 +198,7 @@ function g2bFaultsOf(b) {
   const hw = H.words || [];
   hw.forEach((x) => {
     if (!Array.isArray(x.boxes) || x.boxes.join('') !== x.w || x.boxes.some((p) => !p)) f.push(`heart: the boxes of "${x.w}" do not spell it`);
-    if (!Array.isArray(x.heart) || !x.heart.length || x.heart.length > 2 || x.heart.some((i) => !x.boxes[i])) f.push(`heart: "${x.w}" has no heart box`);
+    if (!Array.isArray(x.heart) || !x.heart.length || x.heart.length > 3 || x.heart.some((i) => !x.boxes[i])) f.push(`heart: "${x.w}" has no heart box`);
     const ss = (H.sentences || {})[x.w] || [];
     if (ss.length < 3) f.push(`heart: fewer than three sentences for "${x.w}"`);
     ss.forEach((t) => { if (t.split('___').length !== 2 || !/[.!?]$/.test(t) || t.length > 42 || hw.some((y) => hasWord(t.replace('___', ' '), y.w))) f.push(`heart: "${t}" has not one blank, or prints a heart word`); });
@@ -465,10 +469,14 @@ function renderTask(t, k, mode, lv, d, key, inner) {
   }
   if (t.kind === 'heartbox') {
     const B = d.hbox, wbox = (g) => B + Math.round(B * 0.42) * (g.length - 1);
+    // (2026-11-19, review en-1119-lit) every box of a word one width, the width its longest letter group needs (a box as
+    // wide as its own letters gave away which box holds oul), kept inside its column (a box draws 5 px of border)
+    const colW = Math.floor((inner - 24 - 12 - 18 * (d.cols - 1)) / d.cols);
+    const wordW = (x) => Math.min(Math.max(...x.boxes.map(wbox)), Math.floor((colW - 4 * (x.boxes.length - 1)) / x.boxes.length) - 5);
     const row = (x) => `<div data-lcs-hrow="${x.w}" data-lcs-heart="${x.heart.join(',')}" style="display:flex;flex-direction:column;align-items:flex-start;gap:0">` +
       `<span data-lcs-read data-lcs-hw style="font:800 ${d.hfont}px/1.15 'Nunito',sans-serif;color:${T.ink}">${esc(x.w)}</span>` +
       `<div style="display:flex;gap:4px">${x.boxes.map((g, i) => `<div data-lcs-hcol="${i}" style="display:flex;flex-direction:column;align-items:center;gap:2px"><div data-lcs-hspace style="height:${Math.round(B * 0.42)}px;display:flex;align-items:flex-end">${key && x.heart.includes(i) ? heartSvg(Math.round(B * 0.42)) : ''}</div>` +
-        `<div data-lcs-hbox="${esc(g)}" style="width:${wbox(g)}px;height:${B}px;border:2.5px solid ${T.ink};border-radius:6px;background:#FFFFFF;display:flex;align-items:center;justify-content:center;font:800 ${Math.round(B * 0.55)}px/1 'Nunito',sans-serif;color:${T.teal}">${key ? esc(g) : ''}</div></div>`).join('')}</div></div>`;
+        `<div data-lcs-hbox="${esc(g)}" style="width:${wordW(x)}px;height:${B}px;border:2.5px solid ${T.ink};border-radius:6px;background:#FFFFFF;display:flex;align-items:center;justify-content:center;font:800 ${Math.round(B * 0.55)}px/1 'Nunito',sans-serif;color:${T.teal}">${key ? esc(g) : ''}</div></div>`).join('')}</div></div>`;
     return cream('data-lcs-task="heartbox"', label(`${num(k)}${LINES.heartbox}`) +
       `<div style="display:grid;grid-template-columns:repeat(${d.cols},1fr);gap:8px 18px;justify-items:start;padding:2px 6px">${t.items.map(row).join('')}</div>`, d.pad);
   }
@@ -511,6 +519,8 @@ function makeVowelG2bType({ id, slug, mode, exerciseType, i18n }) {
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // THE ITEM BANK of the unit checks (Part 7.6): G2-543 to G2-546 and G2-548 (g2bCheckPage below; not G2-547)
+    ...(G2B_CHECK_MODES.has(mode) ? { checkPage(args, ctx) { return g2bCheckPage(mode, args, ctx); } } : {}),
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the words are English words (no ${locale} bank)`);
@@ -684,6 +694,8 @@ function makeVowelG2bType({ id, slug, mode, exerciseType, i18n }) {
               boxes.forEach((q) => { if (isKey ? txt(q) !== q.dataset.lcsHbox : txt(q)) fails.push(`a box of "${w}" is filled on the page of the child, or the key does not fill it`); if (R(q).height < 40 || R(q).width < 40) fails.push('a sound box smaller than 40 px'); });
               const hcols = hearts.map((h) => +h.closest('[data-lcs-hcol]').dataset.lcsHcol);
               if (isKey ? hcols.join() !== x.heart.join() : hearts.length) fails.push(`the heart of "${w}" is not over ${x.boxes[x.heart[0]]} on the key, or the page of the child shows it`);
+              // (2026-11-19, review en-1119-lit) every box of a word one width: a box as wide as its letters tells which box holds oul
+              if (new Set(boxes.map((q) => Math.round(R(q).width))).size !== 1) fails.push(`the boxes of "${w}" are not one width (their widths tell the letters)`);
               texts.push(['heartword', w]); });
           }
           if (kind === 'heartsent') {
@@ -711,6 +723,106 @@ function makeVowelG2bType({ id, slug, mode, exerciseType, i18n }) {
       }, LEVELS, INFO, { ROW });
     },
   };
+}
+
+/* ---------------------------------------------------------------- the item bank of the unit checks ---------------------------------------------------------------- */
+/** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the page's task made small, each card one
+ *  task with its answer in its markup. A card names its kind (data-lcs-ckind; lists/en.json kindAttr): form B asks the kind
+ *  form A asks, card by card (review en-1119-lit).
+ *   diph / aror / erirur (G2-543, G2-544, G2-545)  a riddle (the riddle task of the page; never the yes/no sentences, a
+ *            guess of two, nor the drawing, which has no one answer): its own box of four words (its answer, two answers
+ *            of other riddles of the level and a word of the box that answers no riddle, as the page's box holds them),
+ *            none of them a word that also answers it or that it prints; the line carries data-lcs-answer. Level 3 has no
+ *            box: the first letter of the answer is on the line, and a riddle that a word of the lists with that first
+ *            letter also answers is not taken. The box stands beside the line (two riddles fit a part). Kind: the
+ *            spelling of the answer (er, ir, ur), so that a form asks two spellings and form B the same two.
+ *   syll (G2-546)  a sentence with three words of the level to choose from (task 2 of the page): the two others are no
+ *            word that fits it and agree with an article before the blank; the right one carries data-lcs-correct, at
+ *            every place of the three on a page and in no pattern; a word is offered once a page. (The bank's sentences
+ *            print no part of their answer: "I go to bed at ___" was rewritten, 2026-11-19.)
+ *   heart (G2-548)  a heart word the teacher says (the reviewer of 2026-11-19: a printed word is copied, not spelled): its
+ *            sounds as a row of boxes of one width (the count is given, the width tells nothing), the whole word as
+ *            data-lcs-answer, the key writing the letters and drawing a heart over EACH tricky part. The word stands on the
+ *            key only, for the teacher to say. Kinds: oul (could, would, should) and more (friend and the other heart words
+ *            of the bank); every page starts with an oul word. because stays out: three parts of it can be called tricky.
+ *            Never the sentences: written from memory with only a first letter, "C___ you help me?" takes can as well. */
+const G2B_CHECK_MODES = new Set(['diph', 'aror', 'erirur', 'syll', 'heart']);
+function g2bCheckPage(mode, { difficulty, locale }, ctx) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`vowels-g2b check: the words are English words (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const lv = Number(difficulty) || 2, d = LEVELS[mode][lv] || LEVELS[mode][2], rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+  const cards = [];
+  const withAnswer = (html, a) => (key ? html : html.replace('<div data-lcs-line', `<div data-lcs-line data-lcs-answer="${esc(a)}"`));
+  if (READ_MODES.includes(mode)) {
+    const R = RD[mode], U = unionOf(R), set = R.levels[lv], say = R.say[lv] || [];
+    const pool = R.riddles.filter((r) => set.includes(spellIn(R, r.a)) && usableOn(R, r.text, lv, false) && !say.includes(r.a) &&
+      (d.box || !(r.fits || []).some((x) => x[0] === r.a[0])));
+    if (pool.length < 8) throw new Error(`vowels-g2b check: ${pool.length} riddles for ${mode} level ${lv}`);
+    // eight riddles, the first two of other spellings (the first cards of a page are the ones a check takes first)
+    let got = shuffle(pool, rng).slice(0, 8);
+    { const j = got.findIndex((r, i) => i && spellIn(R, r.a) !== spellIn(R, got[0].a)); if (j > 1) got.splice(1, 0, ...got.splice(j, 1)); }
+    const fillers = set.flatMap((g) => R.fillers[g] || []).filter((w) => !say.includes(w));
+    const free = (r, w) => w !== r.a && !(r.fits || []).includes(w) && !hasWord(r.text, w);
+    for (const r of got) {
+      let box = null;
+      if (d.box) {
+        const others = shuffle(pool.filter((o) => o !== r && free(r, o.a)).map((o) => o.a), rng).slice(0, 2);
+        const fill = shuffle(fillers.filter((w) => free(r, w) && !others.includes(w)), rng).slice(0, 1);
+        if (others.length < 2 || fill.length < 1) throw new Error(`vowels-g2b check: no box for the riddle of ${r.a}`);
+        box = shuffle([r.a, ...others, ...fill], rng);
+      }
+      const at = r.text.lastIndexOf('What am I?');
+      cards.push(`<div data-lcs-riddlecheck="${esc(r.a)}" data-lcs-text="${esc(r.text)}" data-lcs-ckind="${spellIn(R, r.a)}" style="display:flex;flex-direction:column;gap:4px;padding:6px 12px">` +
+        `<div data-lcs-read style="font:700 20px/1.25 'Nunito',sans-serif;color:${T.ink}">${esc(r.text.slice(0, at))}<span style="white-space:nowrap">What am I?</span></div>` +
+        // the box (two rows of two words) beside the line
+        `<div style="display:flex;align-items:flex-end;justify-content:center;gap:24px">` + (box ? `<div style="flex:0 0 250px">${wordBox(box, 'data-lcs-boxword')}</div>` : '') +
+        withAnswer(line({ w: 260, h: ROW, starter: box ? null : r.a[0], answer: key ? r.a : null }), r.a) + `</div></div>`);
+    }
+  } else if (mode === 'syll') {
+    const S = BANK.syll, ws = S.levels[lv].filter((x) => !d.say.includes(x.w)), byW = Object.fromEntries(ws.map((x) => [x.w, x]));
+    // six sentences, as on the page (a word offered once a page: the level's words last for six), drawn again on a dead end
+    let page = null;
+    for (let k = 0; k < 60 && !page; k++) {
+      const sents = [];
+      for (const s of shuffle(S.sentences[lv].filter((x) => byW[x.right]), rng)) { if (sents.length === 6) break; if (!sents.some((y) => y.right === s.right)) sents.push(s); }
+      if (sents.length < 6) throw new Error('vowels-g2b check: too few sentences');
+      const answers = new Set(sents.map((s) => s.right)), offered = new Set(), out = [];
+      for (const s of sents) {
+        const a = (s.text.match(/\b(a|an)\s+___/i) || [])[1], okArt = (w) => (!a ? true : a.toLowerCase() === 'an' ? vowelSound(w) : !vowelSound(w));
+        const two = shuffle(ws.filter((x) => x.w !== s.right && !answers.has(x.w) && !offered.has(x.w) && !s.fits.includes(x.w) && okArt(x.w)).map((x) => x.w), rng).slice(0, 2);
+        if (two.length < 2 || !okArt(s.right)) break;
+        for (const w of two) offered.add(w);
+        out.push({ s, two });
+      }
+      if (out.length === 6) page = out;
+    }
+    if (!page) throw new Error('vowels-g2b check: no six sentences with two words to offer');
+    const at = placesFor3(page.length, rng);
+    page.forEach(({ s, two }, i) => {
+      const opts = two.slice(); opts.splice(at[i], 0, s.right);
+      const [x, y] = s.text.split('___');
+      cards.push(`<div data-lcs-choosecheck="${esc(s.right)}" data-lcs-text="${esc(s.text)}" style="display:flex;flex-direction:column;align-items:center;gap:8px;padding:6px 12px">` +
+        `<div data-lcs-read style="font:700 22px/1.3 'Nunito',sans-serif;color:${T.ink}">${esc(x.trim())} <span data-lcs-blank style="display:inline-block;width:110px;border-bottom:2.5px solid ${T.ink}"></span>${/^[.!?,]/.test(y) ? '' : ' '}${esc(y.trim())}</div>` +
+        `<div data-lcs-checkopts style="display:flex;gap:16px">${opts.map((w) => pill(w, w === s.right, key, 22, `data-lcs-choice="${esc(w)}"${w === s.right ? ' data-lcs-correct="1"' : ''} data-lcs-pill`, '1px 14px')).join('')}</div></div>`);
+    });
+  } else {
+    const H = BANK.heart, byW = Object.fromEntries(H.words.map((x) => [x.w, x]));
+    // could, would, should in turn with the other heart words of the bank (never because), an oul word first
+    const oul = shuffle(H.always, rng), more = shuffle(H.words.map((x) => x.w).filter((w) => !H.always.includes(w) && w !== 'because'), rng).slice(0, 5);
+    const words = [oul[0], more[0], oul[1], more[1], oul[2], ...more.slice(2)];
+    // one width for every box of every card, wide enough for oul written in the key's letters; the boxes stand in one row
+    const B = 48, BW = 70, hs = 20;
+    for (const w of words) {
+      const x = byW[w];
+      cards.push(`<div data-lcs-heartcheck="${esc(w)}" data-lcs-heart="${x.heart.join(',')}" data-lcs-ckind="${H.always.includes(w) ? 'oul' : 'more'}" style="display:flex;flex-direction:column;align-items:center;gap:2px;padding:4px 12px 8px">` +
+        // the word for the teacher to say: on the key only (the child's card keeps its room)
+        `<div data-lcs-sayword style="height:22px;font:700 16px/22px 'Nunito',sans-serif;color:${T.teal}">${key ? 'say: ' + esc(w) : ''}</div>` +
+        `<div data-lcs-answer="${esc(w)}" style="display:flex;gap:6px">${x.boxes.map((g, i) => `<div style="display:flex;flex-direction:column;align-items:center;gap:2px"><div style="height:${hs}px;display:flex;align-items:flex-end">${x.heart.includes(i) && key ? heartSvg(hs) : ''}</div>` +
+          `<div data-lcs-soundbox style="width:${BW}px;height:${B}px;box-sizing:border-box;border:2.5px solid ${T.ink};border-radius:6px;background:#FFFFFF;display:flex;align-items:center;justify-content:center;font:800 ${Math.round(B * 0.55)}px/1 'Nunito',sans-serif;color:${T.teal}">${key ? esc(g) : ''}</div>
+        </div>`).join('')}</div></div>`);
+    }
+  }
+  return { bodyHtml: STYLE + `<div data-lcs-noliga="1" style="${LIGS}">` + fRoom(svgRoom(checkGrid(cards, { cols: 1 }))) + `</div>`, meta: {} };
 }
 
 module.exports = { makeVowelG2bType, g2bFaultsOf, drawPage, LEVELS, INSTR, LINES, patternsOf, PATTERN_OFFSET };

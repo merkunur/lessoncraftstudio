@@ -534,6 +534,15 @@
      "0": [
       "frogs",
       "penguins"
+     ],
+     "1": [
+      "ladybugs",
+      "giraffes",
+      "penguins",
+      "frogs",
+      "pandas",
+      "butterflies",
+      "zebras"
      ]
     },
     "carry": [
@@ -659,7 +668,15 @@
      "They can carry lots of people.",
      "You can look out the big windows."
     ],
-    "also": {},
+    "also": {
+     "0": [
+      "firetrucks"
+     ],
+     "1": [
+      "firetrucks",
+      "rockets"
+     ]
+    },
     "ys": "way to travel",
     "xs": "the train",
     "ms": "it carries lots of people"
@@ -673,7 +690,12 @@
      "They fly high in the wind.",
      "You can fly them on windy days."
     ],
-    "also": {},
+    "also": {
+     "0": [
+      "butterflies",
+      "rockets"
+     ]
+    },
     "carry": [
      "fly high",
      "fly them"
@@ -716,6 +738,25 @@
     "also": {
      "0": [
       "blocks"
+     ],
+     "1": [
+      "apples",
+      "ladybugs",
+      "dolphins",
+      "giraffes",
+      "firetrucks",
+      "sunflowers",
+      "penguins",
+      "drums",
+      "carrots",
+      "trains",
+      "kites",
+      "frogs",
+      "rockets",
+      "pandas",
+      "butterflies",
+      "blocks",
+      "zebras"
      ]
     },
     "ys": "art tool",
@@ -775,6 +816,9 @@
     "also": {
      "0": [
       "ladybugs"
+     ],
+     "1": [
+      "ladybugs"
      ]
     },
     "carry": [
@@ -796,7 +840,23 @@
     ],
     "also": {
      "1": [
-      "kites"
+      "kites",
+      "apples",
+      "ladybugs",
+      "dolphins",
+      "giraffes",
+      "firetrucks",
+      "sunflowers",
+      "penguins",
+      "drums",
+      "carrots",
+      "trains",
+      "frogs",
+      "crayons",
+      "rockets",
+      "pandas",
+      "butterflies",
+      "zebras"
      ]
     },
     "ys": "toy",

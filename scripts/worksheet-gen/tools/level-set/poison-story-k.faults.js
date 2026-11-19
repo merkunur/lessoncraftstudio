@@ -14,6 +14,7 @@ module.exports = (FACTORY, BANK) => [
   ['a row and a box of 80 px', FACTORY, "3: { pic: 64, font: 16, rowH: 128 } },", "3: { pic: 64, font: 16, rowH: 80 } },", 'K-650', 3],
   // Retell the Story (K-651)
   ['the three pictures in the order of the story', FACTORY, "const ORDERS = ['021', '120', '201', '210', '102'];", "const ORDERS = ['012', '012', '012', '012', '012'];", 'K-651', 1],
+  ['the three pictures stand as a countdown (3, 2, 1)', FACTORY, "const order = [...(o === '210' ? '102' : o)].map(Number);", "const order = [2, 1, 0];", 'K-651', 1],
   ['a box keyed to another place', FACTORY, "${numBox(i + 1, key, 56)}", "${numBox(((i + 1) % 3) + 1, key, 56)}", 'K-651', 1],
   ['the numbers against the panels of the story', FACTORY, "const ev = t.bme.map((i) => t.panels[i].pics);", "const ev = t.bme.map((i) => t.panels[3 - i].pics);", 'K-651', 1],
   ['numbers on the panels of the page that asks for 1, 2 and 3', FACTORY, "let top = panelsBox(t, d, mode !== 'retell')", "let top = panelsBox(t, d, true)", 'K-651', 1],
@@ -37,5 +38,7 @@ module.exports = (FACTORY, BANK) => [
   ['bank: a what question among the who and where questions', BANK, '"q": "Who has a new hat?"', '"q": "What has a new hat?"', 'K-652', 1],
   ['bank: a label of three words', BANK, '"what": "hat"', '"what": "the blue hat"', 'K-650', 3],
   ['bank: a panel of twenty words', BANK, '"He sees a little bee on a flower."', '"He sees a very little bee that sits on a big red flower and hums a happy song all day."', 'K-653', 2],
+  // the needle is the Duck question itself, so the fault can only land on it (its wrong faces: happy, angry → happy, tired)
+  ['bank: a feeling question that offers a look-alike face', BANK, '"q": "How does Duck feel when the hat is in the lake?",\n     "right": {\n      "theme": "emotions",\n      "noun": "sad"\n     },\n     "wrong": [\n      {\n       "theme": "emotions",\n       "noun": "happy"\n      },\n      {\n       "theme": "emotions",\n       "noun": "angry"', '"q": "How does Duck feel when the hat is in the lake?",\n     "right": {\n      "theme": "emotions",\n      "noun": "sad"\n     },\n     "wrong": [\n      {\n       "theme": "emotions",\n       "noun": "happy"\n      },\n      {\n       "theme": "emotions",\n       "noun": "tired"', 'K-652', 2],
   ['bank: a sentence that names both pictures of another panel', BANK, '"The bee is kind. She shares her honey with him."', '"The bee is kind. She shows Bear her honey."', 'K-653', 2],
 ];

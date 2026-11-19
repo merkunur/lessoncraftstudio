@@ -406,6 +406,9 @@ function makeCvcKType({ id, slug, mode, set, exerciseType, i18n }) {
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // THE ITEM BANK of the unit checks (Part 7.6): K-661, K-662 and K-664 (the ladder of K-663 is said by the teacher step by
+    // step: no check card); cvcCheckPage below
+    ...(mode !== 'chain' ? { checkPage(args, ctx) { return cvcCheckPage(mode, cfg, args, ctx); } } : {}),
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the words are English words (no ${locale} bank)`);
@@ -750,6 +753,47 @@ function makeCvcKType({ id, slug, mode, set, exerciseType, i18n }) {
       }, { SIZES: LEVELS, LIST: Object.fromEntries(BK.list), PICS: Object.keys(BANK.pics), WRITE: BANK.write, BANNED: BANK.banned, APART: BANK.apart, TWINS: Object.fromEntries(TWIN_NEED), ANIMALS: BANK.animals, NOPRINT: BANK.noPrint });
     },
   };
+}
+
+/* ---------------------------------------------------------------- the item bank of the unit checks ---------------------------------------------------------------- */
+/** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the page's task made small, each card one
+ *  picture and two printed words stacked, the word for the picture marked data-lcs-correct (the child circles it).
+ *   vowel (K-661, K-662)  the match of task 1 made small: a picture a kindergartner names with exactly its word (the
+ *                         write list: never a print-only picture, since the child chooses from the picture) beside its
+ *                         word and a word of the bank that differs from it in the VOWEL only (bag / big), drawn from the
+ *                         vowels of the copy as the page draws them (K-661 prints a and i words only). A word that ends
+ *                         in g never meets the vowel its sound merges with in some US homes (bag / beg, dog / dug).
+ *   pair  (K-664)         the page's own draw (drawPairs: the level's place, the second word a real word that names no
+ *                         picture of the card) and its places (pairPlacesOk), each picture a card.
+ *  Every card stands alone; the key outlines the word (the check draws the ring). */
+function cvcCheckPage(mode, cfg, { difficulty, locale }, ctx) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`cvc-k check: the words are English words (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const lv = Number(difficulty) || 2, d = LEVELS[mode][lv] || LEVELS[mode][2], rng = ctx.rng;
+  const MERGE = [['a', 'e'], ['o', 'u']];
+  const merges = (a, b) => a[2] === 'g' && MERGE.some(([x, y]) => (a[1] === x && b[1] === y) || (a[1] === y && b[1] === x));
+  let items = [];
+  if (mode === 'vowel') {
+    // (level 1: the vowels a level-1 copy may practise; levels 2 and 3 every vowel of the lesson: a copy of the page shows two
+    // of o, u, e, and a check card shows one picture, so the card takes its picture from all of them)
+    const vs = (lv === 1) ? cfg.one.slice() : cfg.set.slice();
+    const seen = new Set();
+    for (const w of shuffle([...BK.write].filter((x) => vs.includes(BK.list.get(x))), rng)) {
+      const alt = shuffle(others(BK, w, 1, cfg.known).filter((x) => !merges(w, x) && !seen.has(x)), rng)[0];
+      if (!alt) continue;
+      seen.add(w); seen.add(alt);
+      items.push({ w, alt });
+    }
+  } else items = drawPairs(BK, lv, rng).map((x) => ({ w: x.w, alt: x.alt, top: x.top }));
+  if (items.length < 3) throw new Error(`cvc-k check: ${items.length} pictures with a second word`);
+  items = items.slice(0, 8);
+  // where the right word stands (top or below): both places, never one place for every card
+  if (mode === 'vowel') { let at; for (let k = 0; k < 200; k++) { at = items.map(() => rng.int(0, 1)); if (new Set(at).size === 2 && !/000|111/.test(at.join(''))) break; } items.forEach((x, i) => { x.top = at[i] === 0; }); }
+  const PIC = mode === 'pair' ? Math.min(d.pic, 96) : 92, FONT = 36;
+  const word = (w, ok) => `<span data-lcs-choice="${w}"${ok ? ' data-lcs-correct="1"' : ''} style="flex:0 0 auto;display:inline-flex;padding:0 14px 4px;font:800 ${FONT}px/1.1 'Nunito',sans-serif;color:${T.ink}">${w}</span>`;
+  const cards = items.map((x) => { const two = [word(x.w, true), word(x.alt, false)]; if (!x.top) two.reverse();
+    return `<div data-lcs-cvccheck="${x.w}" style="display:flex;align-items:center;justify-content:center;gap:22px;padding:6px 8px">${img(x.w, PIC)}<div data-lcs-two style="display:flex;flex-direction:column;align-items:center;gap:10px">${two.join('')}</div></div>`; });
+  return { bodyHtml: `<style>[data-lcs-noliga] * {font-variant-ligatures:none !important;font-feature-settings:"liga" 0,"clig" 0 !important}</style><div data-lcs-noliga="1">` + fRoom(checkGrid(cards, { cols: 2 })) + `</div>`, meta: {} };
 }
 
 module.exports = { makeCvcKType, faultsOf, LEVELS, SETS, drawVowel, drawChain, drawPairs, chainPatternOk, pairPlacesOk, isEinm };

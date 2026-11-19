@@ -63,6 +63,12 @@ const noContinent = (s) => String(s).replace(/North America|South America/g, '')
 const wordsIn = (s) => String(s).split(/\s+/).filter(Boolean).length;
 const textOf = (t) => t.parts.map((p) => p.join(' ')).join(' ');
 const COMPASS = /\b(north|south|east|west|northern|southern|eastern|western|northeast|northwest|southeast|southwest)\b/i;
+/** a question of the map, the diagram or the text never names a source ("In the diagram, ...", "the text says"): the child
+ *  checks where the answer was found, and the question would tell it (fix round 2026-11-19). "This food chain" is no
+ *  source: the questions of all three sources of a food-chain text name it (review en.review-1119-read2 asks "Which living
+ *  thing is at the end of this food chain?" of the diagram, as "Which living thing in this food chain is a predator?" asks
+ *  of both). */
+const NAMES_SOURCE = /\b(diagrams?|maps?|texts?)\b/i;
 const GRIDREF = /\b[A-H][1-9]\b/;
 const LETTERS = 'ABCDEFGH';
 const SRC = ['graphic', 'text', 'both'];
@@ -321,6 +327,7 @@ function mapFaults(t) {
   const MS = mapStrings(m);
   // text questions: the words that prove the answer stand in the text and nowhere on the map
   (t.text || []).forEach((q) => { f.push(...questionFaults(id, q)); const fd = q.find || core(q.answer);
+    if (NAMES_SOURCE.test(q.q)) f.push(`${id}: "${q.q}" names the source of its answer`);
     if (!has(text, fd)) f.push(`${id}: the answer of "${q.q}" ("${fd}") is not in the text`);
     if (inAny(MS, fd)) f.push(`${id}: the answer of "${q.q}" is printed on the map too (two sources)`);
     if (GRIDREF.test(q.q) || COMPASS.test(q.q)) f.push(`${id}: the text question "${q.q}" names a square or a direction`); });
@@ -374,6 +381,12 @@ function diagramFaults(t) {
   const DS = diagramStrings(d);
   const onlyDiagram = (s) => inAny(DS, s) && !has(text, s);
   const target = (a) => core(a).replace(/^to (the )?/, '');   // "to the grass" names the step Grass
+  [...(t.graphic || []), ...(t.text || [])].forEach((q) => { if (NAMES_SOURCE.test(q.q)) f.push(`${id}: "${q.q}" names the source of its answer`); });
+  // a step that the text names as a step ("This is called evaporation."): only a text question names it, in its words or
+  // its answer (review en.review-1119-write: a question of the diagram or of both that names it can be found in the text)
+  const calledInText = sn.filter((s) => has(text, 'called ' + s));
+  [...(t.graphic || []), ...(t.text || []), ...(t.both || [])].forEach((q) => { if (q.onlyLevel !== undefined && q.onlyLevel !== 1) f.push(`${id}: "${q.q}" is kept to level ${q.onlyLevel}: only level 1 keeps a question`); });
+  [...(t.graphic || []), ...(t.both || [])].forEach((q) => { for (const s of calledInText) if (has(q.q, s) || has(core(q.answer), s)) f.push(`${id}: "${q.q}" names ${s}, a step the text names: only a question of the text may name it`); });
   (t.graphic || []).forEach((q) => { f.push(...questionFaults(id, q));
     if (!onlyDiagram(target(q.answer)) && !q.usesAll) f.push(`${id}: the answer of "${q.q}" is not printed on the diagram alone`);
     if (q.usesAll && has(text, q.answer)) f.push(`${id}: the answer of "${q.q}" stands in the text too`); });
@@ -434,7 +447,7 @@ function poolsOf(t, mode, hidden = []) {
       }
     });
     for (const a of shown) for (const b of shown) { if (a === b) continue; const d = directionOf(m, a, b); if (d) graphic.push({ src: 'graphic', kind: 'dir', q: `In which direction ${a.plural ? 'are' : 'is'} ${nm(a)} from ${nm(b)}?`, answer: d, wrongs: ['north', 'east', 'south', 'west'].filter((x) => x !== d), uses: [a.name, b.name], a: a.name, b: b.name }); }
-    m.key.filter((k) => k.ask).forEach((k) => graphic.push({ src: 'graphic', kind: 'key', fact: true, sym: k.sym, q: 'What does {SYM} on the map stand for?', answer: k.text, wrongs: m.key.filter((x) => x !== k).map((x) => x.text), uses: m.places.filter((p) => p.sym === k.sym).map((p) => p.name) }));
+    m.key.filter((k) => k.ask).forEach((k) => graphic.push({ src: 'graphic', kind: 'key', fact: true, sym: k.sym, q: 'What does {SYM} stand for?', answer: k.text, wrongs: m.key.filter((x) => x !== k).map((x) => x.text), uses: m.places.filter((p) => p.sym === k.sym).map((p) => p.name) }));
     const text = (t.text || []).map((q) => ({ ...q, src: 'text', kind: 'text', fact: true, uses: placesNamedIn(m, q.q) }));
     const both = (t.both || []).map((q) => {
       if (q.kind === 'where') return { ...q, src: 'both', answer: cell(m.places.find((p) => p.name === q.place)), wrongs: P.filter((p) => p.name !== q.place).map(cell), lureAnswer: q.lure ? cell(m.places.find((p) => p.name === q.lure)) : null, uses: [q.place] };
@@ -476,10 +489,13 @@ function* combos(list, k, from = 0, acc = []) {
   for (let i = from; i < list.length; i++) yield* combos(list, k, i + 1, [...acc, list[i]]);
 }
 /** a complete search over the (shuffled) pools: the first set that keeps every rule, or null when none exists */
+/** the questions a level may ask: a question kept to level 1 (onlyLevel: "How many steps are in this cycle?" counts the
+ *  boxes, below RI.3.7 on levels 2 and 3; review en.review-1119-final) stands on level 1 (short answers) only */
+const levelPool = (list, short) => list.filter((q) => short || !q.onlyLevel);
 function pickQuestions(P, want, rng, { short, mode }) {
   const wrongOf = (q) => q.wrong || (q.lureAnswer ? [q.lureAnswer, rng.pick(q.wrongs.filter((x) => x !== q.lureAnswer))] : shuffle(q.wrongs, rng).slice(0, 2));
   const pool = {};
-  for (const src of SRC) pool[src] = shuffle(P[src], rng).map((q) => ({ ...q, wrong: wrongOf(q) })).filter((q) => !short || fitsTwoRows([q.answer, ...q.wrong]));
+  for (const src of SRC) pool[src] = shuffle(levelPool(P[src], short), rng).map((q) => ({ ...q, wrong: wrongOf(q) })).filter((q) => !short || fitsTwoRows([q.answer, ...q.wrong]));
   const fine = (set) => set.every((q, i) => set.every((g, j) => j <= i || !clash(q, g, mode)));
   for (const b of combos(pool.both, want.both)) {
     if (!fine(b)) continue;
@@ -533,6 +549,9 @@ function positionsFor(n, rng) {
 /* ------------------------------------------------------------------ check the bank now */
 const MAPS = BANK.maps || [], DIAGRAMS = BANK.diagrams || [];
 { const f = faultsOf(BANK); if (f.length) throw new Error('info-graphics-g3.en.json: ' + f.join('; ')); }
+// (the rule, when the factory loads: no question kept to level 1 is offered to levels 2 and 3)
+{ const left = DIAGRAMS.concat(MAPS).flatMap((t) => SRC.flatMap((src) => levelPool(t[src] || [], false).filter((q) => q.onlyLevel).map((q) => t.id + ': ' + q.q)));
+  if (left.length) throw new Error('info-graphics-g3.en.json: a question kept to level 1 is offered to levels 2 and 3: ' + left.join('; ')); }
 
 const LEVELS = {
   map: { 1: { font: 14.5, lh: 1.27 }, 2: { font: 14.5, lh: 1.27 }, 3: { font: 14.5, lh: 1.27 } },
@@ -718,6 +737,9 @@ function makeInfoText3dType({ id, slug, mode, i18n }) {
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // the unit checks (Part 7.6): the page's task made small, one card a task (diagramCheckPage below; a map card with the
+    // map and a paragraph is taller than a check takes, so the map page gives no check)
+    ...(mode === 'diagram' ? { checkPage(args, ctx) { return diagramCheckPage(args, ctx, D); } } : {}),
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the texts are English texts (no ${locale} bank)`);
@@ -899,6 +921,7 @@ function makeInfoText3dType({ id, slug, mode, i18n }) {
         // ---- the questions
         const qs = [...document.querySelectorAll('[data-lcs-question]')];
         const srcs = qs.map((q) => q.dataset.lcsSrc);
+        qs.forEach((q, i) => { const lb = q.querySelector('[data-lcs-label]'); if (q.dataset.lcsSrc !== 'both' && lb && /\b(diagrams?|maps?|texts?)\b/i.test(lb.textContent)) fails.push(`question ${i + 1} names the source of its answer (${q.dataset.lcsSrc}): "Found in" is given by the question`); });
         const want = lv === 3 ? 4 : 6;
         if (qs.length !== want) fails.push(`${qs.length} questions (wanted ${want})`);
         const count = (s) => srcs.filter((x) => x === s).length;
@@ -957,6 +980,59 @@ function makeInfoText3dType({ id, slug, mode, i18n }) {
       });
     },
   };
+}
+
+/* ------------------------------------------------------------------ the item bank of the unit checks */
+/** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the diagram page's task made small, each
+ *  card ONE question of the page's pools under ONE numbered paragraph and the diagram as the page draws it (without its
+ *  name line: a paragraph and the diagram with it are taller than a check takes): a text question under the paragraph
+ *  that holds its answer, a both question under the paragraph that holds the words of the text it needs (its cue, or
+ *  the words of its answer), a diagram question under the paragraph that tells most about the steps it names (no
+ *  paragraph names a word that only the diagram prints: the bank's check). The answer is written on the page's line
+ *  (data-lcs-answer) and the source is checked in the page's "Found in" row (data-lcs-correct on its box). No question
+ *  names its source (the bank's check, since the fix round of 2026-11-19). The text's id is data-lcs-text (form B takes another text). The map page gives no check: the map and one paragraph are taller than a check takes. */
+function diagramCheckPage({ difficulty, locale }, ctx, D) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`info-text-g3d check: the texts are English texts (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const lv = Number(difficulty) || 2, d = D[lv] || D[2], rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+  const att = (s) => esc(s).replace(/"/g, '&quot;');
+  const LW = W - 52;
+  const cards = [];
+  for (const t of shuffle(DIAGRAMS, rng)) {
+    const P = poolsOf(t, 'diagram'), text = textOf(t), DS = diagramStrings(t.diagram);
+    const onlyGraphic = (s) => inAny(DS, s) && !has(text, s);
+    // the words a diagram question's steps are told in (their sentences for the missing step), stems of four letters on
+    const stems = (x) => new Set((norm(x).match(/[a-z]{4,}/g) || []).map((w) => w.replace(/(ing|ed|es|s)$/, '')));
+    for (const q of shuffle(levelPool([...P.graphic, ...P.text, ...P.both], false), rng)) {     // (in a drawn order: the check keeps the first card it meets of each text)
+      // the paragraph the question is answered from (a diagram question: the one that shares most words with what its steps say)
+      let pi;
+      if (q.src === 'graphic') {
+        const told = stems(t.diagram.stages.filter((st) => q.uses.includes(st.name)).map((st) => st.says).join(' '));
+        const score = t.parts.map((p) => [...stems(p.join(' '))].filter((w) => told.has(w)).length);
+        pi = score.indexOf(Math.max(...score));
+      } else {
+        const needle = q.src === 'text' ? (q.find || core(q.answer)) : (onlyGraphic(core(q.answer)) ? q.cue : (q.find || core(q.answer)));
+        pi = t.parts.findIndex((p) => hasForm(p.join(' '), needle));
+      }
+      if (pi < 0) continue;
+      const para = `<div data-lcs-gtext="${att(t.id)}" style="padding:4px 14px 6px;border:2.5px solid ${T.teal};border-radius:16px;background:#FFFFFF">` +
+        `<div data-lcs-part="${pi + 1}" style="display:flex;gap:7px">${tab(pi + 1)}<div data-lcs-partbody style="flex:1 1 auto;min-width:0;font:700 ${d.font}px/${d.lh} 'Nunito',sans-serif;color:${T.ink}">${esc(t.parts[pi].join(' '))}</div></div></div>`;
+      // the answer's line: beside the source row (as wide as a line of the page's two columns) for an answer of up to 24
+      // letters, else a line as wide as the card over the source row (two for an answer longer than 40 letters)
+      const long = q.answer.length > 24, w = long ? LW : LW - 310, half = q.answer.length > 40 ? splitAt(q.answer, 40) : [q.answer, ''];
+      const lines = (key ? rule({ w, h: 28, answer: half[0] }) : rule({ w, h: 28 }).replace('<div data-lcs-line', `<div data-lcs-line data-lcs-answer="${att(q.answer)}"`)) +
+        (half[1] ? rule({ w, h: 28, answer: key ? half[1] : null }) : '');
+      const source = sourceRow(q.src, key, 'diagram', true).replace(' data-lcs-ok="1"', ' data-lcs-ok="1" data-lcs-correct="1"');
+      const qtext = q.kind === 'key' ? esc(q.q).replace('{SYM}', symInline(q.sym)) : esc(q.q);
+      cards.push(`<div data-lcs-text="${att(t.id)}" data-lcs-src="${q.src}" style="display:flex;flex-direction:column;gap:4px;padding:0 4px">` + para +
+        diagramBox(t, { blank: null }).replace(/<div data-lcs-dname[^>]*>[^<]*<\/div>/, '') +
+        label(qtext, 15.5) +
+        (long ? `<div data-lcs-answerlines="${half[1] ? 2 : 1}">${lines}</div>` + source : `<div style="display:flex;align-items:flex-end;gap:14px"><div data-lcs-answerlines="1" style="flex:1 1 auto;min-width:0">${lines}</div><div style="flex:0 0 auto;padding-bottom:3px">${source}</div></div>`) + `</div>`);
+    }
+  }
+  // no joined letters (the font joins fi and ff; an inline font shorthand resets the setting, so the rule reaches every element)
+  return { bodyHtml: `<style>[data-lcs-diagramcheck] *{font-variant-ligatures:none !important;font-feature-settings:"liga" 0,"clig" 0 !important}</style>` +
+    `<div data-lcs-diagramcheck="diagram|${lv}"${key ? ' data-lcs-iskey="1"' : ''}>` + checkGrid(cards, { cols: 1 }) + `</div>`, meta: {} };
 }
 
 module.exports = { makeInfoText3dType, faultsOf, poolsOf, cellOf, directionOf, MAPS, DIAGRAMS, LEVELS };

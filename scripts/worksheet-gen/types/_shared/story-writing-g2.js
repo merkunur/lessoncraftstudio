@@ -855,6 +855,10 @@ function makeStoryG2Type({ id, slug, mode, exerciseType, i18n }) {
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // the unit check (Part 7.6): the day-1 pages' tasks made small, one card a task (sw2CheckPage below); the pages of the
+    // child's own story give the check its writing task (sw2CheckWrite)
+    ...(mode === 'read' || mode === 'edit' ? { checkPage(args, ctx) { return sw2CheckPage(mode, args, ctx); } } : {}),
+    ...(mode === 'plan' || mode === 'draft' ? { checkWrite(args, ctx) { return sw2CheckWrite(mode, args, ctx); } } : {}),
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the stories and sentences are English (no ${locale} bank)`);
@@ -1256,6 +1260,62 @@ function VERIFY_IN_PAGE(INFO) {
     const bl = blocks.map(R); for (let k = 1; k < bl.length; k++) { const g = bl[k].top - bl[k - 1].bottom; if (g > S.GAP + 0.5) fails.push(`a blank band of ${Math.round(g)} px between two blocks`); }
     if (bl.length && rb.bottom - bl[bl.length - 1].bottom > S.GAP + 0.5) fails.push(`a blank band of ${Math.round(rb.bottom - bl[bl.length - 1].bottom)} px under the last block`); }
   return fails;
+}
+
+/* ------------------------------------------------------------------ the unit check (Part 7.6) */
+/**
+ * sw2CheckPage — the cards a unit check cuts from the day-1 pages (PART-7-DESIGN.md 7.6): every story of the bank as a card of
+ * its own, at the level the lesson hands out, built from the page's own bank and rules (no new task):
+ *   read  G2-571  a true story of the level, printed as the page prints it (without its ending): circle the three time
+ *                 words that tell the order (the words of TW_READ that lead an event; the story holds no other one)
+ *   edit  G2-574  one sentence of a story to edit with ONE planted mistake of the page's kinds: a sentence that starts with
+ *                 a small letter (never one that starts with I or the name), the name in small letters (never the first
+ *                 word), a missing end mark; fixed in place (the capital above the letter, the end mark at the end)
+ * A card names its story or its sentence (data-lcs-text) so that form B asks other ones than form A; an edit card names its
+ * mistake (data-lcs-fault) so that both forms ask the same kinds.
+ */
+function sw2CheckPage(mode, { difficulty, locale }, ctx) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`story-writing-g2 check: the stories are English (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const lv = Number(difficulty) || 2, d = LEVELS[mode][lv] || LEVELS[mode][2], rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+  const shell = (id, inner, more = '') => `<div data-lcs-text="${A(id)}"${more} style="padding:4px 12px;border-radius:12px;background:#FFFFFF">${inner}</div>`;
+  const cards = [];
+  if (mode === 'read') for (const st of shuffle(BANK.stories, rng)) {
+    const sents = st[d.ver];
+    const html = sents.map((s) => { const lead = leadOf(s);
+      if (!lead || !TW_READ.includes(lead.toLowerCase())) return esc(s);
+      // (final review 1119: an inline-block box, even a clear one, printed "First , we" with a gap before the comma and marked
+      //  the answers on the child's page) the word stands in the text as it is; the key's ring is drawn over it and takes no room
+      // (the comma after the time word stands inside its span, so the ring of the key goes round it and does not hide it)
+      const rest = s.slice(lead.length), cm = rest.startsWith(',') ? ',' : '';
+      return `<span data-lcs-correct="1" style="position:relative">${esc(lead + cm)}${key ? `<span style="position:absolute;left:-4px;right:-3px;top:-2px;bottom:-1px;border:2.5px solid ${T.teal};border-radius:999px"></span>` : ''}</span>${esc(rest.slice(cm.length))}`; }).join(' ');
+    if ((html.match(/data-lcs-correct/g) || []).length !== 3) continue;
+    cards.push(shell(st.id, `<div style="font:700 19px/1.2 'Baloo 2',cursive;color:${T.teal}">${esc(st.title)}</div><div data-lcs-ckstory style="font:700 ${READ}px/1.45 'Nunito',sans-serif;color:${T.ink}">${html}</div>`));
+  }
+  if (mode === 'edit') {
+    const over = (ch) => (key ? `<span style="position:absolute;left:-1px;top:-1.05em;font:800 20px/1 'Nunito',sans-serif;color:${T.teal}">${ch}</span>` : '');
+    for (const st of shuffle(BANK.editStories, rng)) for (const s of shuffle(st.sents, rng)) {
+      const can = [];
+      if (!/^I\b/.test(s) && !hasWord(s, st.name) && /^[A-Z]/.test(s)) can.push('start');
+      if (hasWord(s, st.name) && !s.startsWith(st.name) && s.indexOf(st.name) > 0) can.push('name');
+      if (/\.$/.test(s)) can.push('end');
+      if (!can.length) continue;
+      const k = can[rng.int(0, can.length - 1)];
+      let h;
+      if (k === 'start') h = `<span data-lcs-answer="${s[0]}" style="position:relative">${s[0].toLowerCase()}${over(s[0])}</span>${esc(s.slice(1))}`;
+      else if (k === 'name') { const j = s.indexOf(st.name); h = `${esc(s.slice(0, j))}<span data-lcs-answer="${st.name[0]}" style="position:relative">${st.name[0].toLowerCase()}${over(st.name[0])}</span>${esc(s.slice(j + 1))}`; }
+      else h = esc(s.replace(/\.$/, '')) + `<span data-lcs-answer="." style="display:inline-block;min-width:12px;height:1em">${key ? `<span style="font:800 28px/0 'Nunito',sans-serif;color:${T.teal}">${'.'}</span>` : ''}</span>`;
+      cards.push(shell(s, `<div style="padding-top:${ROOM}px;font:700 ${READ + 1}px/1.3 'Nunito',sans-serif;color:${T.ink}">${h}</div>`, ` data-lcs-fault="${k}"`));
+    }
+  }
+  if (!cards.length) throw new Error('story-writing-g2 check: no cards for ' + mode);
+  return { bodyHtml: STYLE + `<div data-lcs-sw2check="${mode}|${lv}" data-lcs-noliga="1"${key ? ' data-lcs-iskey="1"' : ''} style="${LIGS}">` + fRoom(typo(checkGrid(cards, { cols: 1 }))) + `</div>`, meta: {} };
+}
+/** sw2CheckWrite — the writing task of the unit check: every story idea the plan and draft pages offer (the bank's own words;
+ *  the direction is the rubric's) */
+function sw2CheckWrite(mode, { locale }) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`story-writing-g2 check: the ideas are English (no ${locale} bank)`);
+  return { tasks: BANK.ideas.map((x) => ({ id: 'idea:' + x.id, prompt: x.idea })) };
 }
 
 module.exports = { makeStoryG2Type, faultsOf, plan, LEVELS, INSTR, LINES, SPEC };

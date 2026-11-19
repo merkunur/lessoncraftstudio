@@ -43,7 +43,8 @@ const FAULTS = [
   ['spoken words keyed to the narrator', FACTORY, "who: x.who, at: saidAt(t, x.words) }))", "who: 'narrator', at: saidAt(t, x.words) }))", 'G1-583', 2],
   ['the wrong names keyed on level 1', FACTORY, "pill(w, w === x.who, key, 18)", "pill(w, w !== x.who, key, 18)", 'G1-583', 1],
   ['every box keyed to N', FACTORY, "`${numBox(letter(x.who), key, lv === 3 ? 38 : 42)}", "`${numBox('N', key, lv === 3 ? 38 : 42)}", 'G1-583', 2],
-  ['nothing to write on level 3', FACTORY, "(lv === 3 ? cream('data-lcs-next=\"1\"'", "(lv === 9 ? cream('data-lcs-next=\"1\"'", 'G1-583', 3],
+  ['straight quotes on the page (review en.review-1119-read)', FACTORY, "bodyHtml: curly(`<div data-ws-content data-lcs-story1page", "bodyHtml: (`<div data-ws-content data-lcs-story1page", 'G1-583', 2],
+  ['nothing to write on level 3', FACTORY,"(lv === 3 ? cream('data-lcs-next=\"1\"'", "(lv === 9 ? cream('data-lcs-next=\"1\"'", 'G1-583', 3],
   // the bank's own check (it runs when the factory loads)
   ['bank: two names with the same first letter', BANK, '"name": "Fay"', '"name": "Bay"', 'G1-583', 1],
   ['bank: a wrong lesson that is the lesson of no other story', BANK, '"lure": "Do not give up."', '"lure": "Be kind to animals."', 'G1-581', 1],

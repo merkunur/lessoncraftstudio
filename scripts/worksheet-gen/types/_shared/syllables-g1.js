@@ -683,6 +683,8 @@ function makeSyllG1Type({ id, slug, mode, exerciseType, i18n }) {
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // THE ITEM BANK of the unit checks (Part 7.6): G1-600 to G1-603 (syllCheckPage below)
+    checkPage(args, ctx) { return syllCheckPage(mode, args, ctx); },
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the words are English words (no ${locale} bank)`);
@@ -991,6 +993,118 @@ function makeSyllG1Type({ id, slug, mode, exerciseType, i18n }) {
       }, LEVELS, INFO, { ROW, RING, BAND });
     },
   };
+}
+
+/* ---------------------------------------------------------------- the item bank of the unit checks ---------------------------------------------------------------- */
+/** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the page's task made small, each card one
+ *  task with its answer in its markup, from the bank and the level of the page.
+ *   vowel (G1-600)  task 1: one printed word and a box for its number of syllables (data-lcs-answer). Half the words have
+ *                   two syllables (the level's kinds), half one; every word of a copy has five or six letters, so the
+ *                   count is never told by length; no word whose second syllable a child may not hear (quiet: kit | ten),
+ *                   no long vowel before l, no word of the instruction, no word that is a part of another word of the copy.
+ *   sort  (G1-601)  task 2: one sentence of the level with exactly one two-syllable word (data-lcs-correct; the child circles
+ *                   it); only sentences in which a one-syllable word is as long as that word, so it is never told by
+ *                   length; never a quiet word.
+ *   parts (G1-602)  task 1: one word of the level's kinds (compound words and double consonants on level 2); the room
+ *                   between every two letters is a place to draw the line, and the one between its two parts carries
+ *                   data-lcs-correct. Words whose parts are all different on a copy.
+ *   heart (G1-603)  task 2: one sentence (its heart word one of the lesson's four: said, was, of, could) with a row for that word, and a box
+ *                   of three heart words to choose from: its word and two of said, was, of, could, the same box for the
+ *                   sentence on every copy (the page's words are on the folded part; a card must stand alone). The row
+ *                   prints no first letter (with three words beside it, a first letter would give the word away); every
+ *                   sentence takes only its own heart word of the ten (the bank's fits), and no blank starts a sentence
+ *                   (the box's words are small). */
+const SY_ORANGE = '#C9552E';   // the check's one answer colour (review en-1119-lit: a teal mark nearly vanishes on a grey copy)
+function syllCheckPage(mode, { difficulty, locale }, ctx) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`syllables-g1 check: the words are English words (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const b = BANK, lv = Number(difficulty) || 2, d = LEVELS[mode][lv] || LEVELS[mode][2], rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+  const say = new Set(((b.say || {})[mode] || {})[lv] || []);
+  const twoList = (kinds, more = () => true) => Object.entries(b.two).filter(([w, x]) => kinds.includes(x.kind) && !say.has(w) && more(w, x)).map(([w, x]) => ({ w, ...x }));
+  const { seatOnRow } = require('../../lib/key-on-row.js');
+  const cards = [];
+  let cols = 2;
+  if (mode === 'vowel') {
+    const fits = (w) => w.length >= 5 && w.length <= 6;
+    const twos = distinct(shuffle(twoList(d.kinds, (w, x) => fits(w) && !x.long && !x.quiet && !lPart(x)), rng), 4);
+    const parts = new Set(twos.flatMap((x) => x.parts));
+    const ones = [];
+    for (const w of shuffle(b.one.filter((x) => fits(x) && !say.has(x) && !lWord(x) && !parts.has(x) && !parts.has(stemOf(x))), rng)) { if (ones.length === 4) break; if (!ones.some((o) => stemOf(o) === stemOf(w))) ones.push(w); }
+    if (twos.length < 3 || ones.length < 3) throw new Error('syllables-g1 check: too few words to count');
+    let words;
+    for (let k = 0; k < 200; k++) { words = shuffle([...twos.map((x) => ({ w: x.w, n: 2 })), ...ones.map((w) => ({ w, n: 1 }))], rng); if (!words.some((x, i) => i >= 2 && x.n === words[i - 1].n && x.n === words[i - 2].n)) break; }
+    for (const x of words) cards.push(`<div data-lcs-syllcheck="${esc(x.w)}" style="display:flex;align-items:center;justify-content:center;gap:24px;padding:10px 8px">` +
+      `<span data-lcs-word="${esc(x.w)}" style="font:800 34px/1.1 'Nunito',sans-serif;color:${T.ink};letter-spacing:0.04em">${esc(x.w)}</span>` +
+      `<span data-lcs-numbox data-lcs-answer="${x.n}" style="flex:0 0 auto;box-sizing:border-box;width:56px;height:56px;border:2.5px solid ${T.ink};border-radius:8px;display:flex;align-items:center;justify-content:center;font:800 30px/1 'Nunito',sans-serif;color:${T.teal}"></span></div>`);   // (the check writes the number into the box, in its answer colour)
+  }
+  if (mode === 'sort') {
+    const ok = (s) => { const x = twoOf(b, s.two); return !!x && !lPart(x) && !x.quiet && !say.has(String(s.two).replace(/s$/, '')) && overlapOf(s); };
+    const got = [];
+    for (const s of shuffle(b.sentences[lv] || b.sentences[2], rng)) {
+      if (got.length === 7) break;
+      if (!ok(s) || got.some((g) => g.two.replace(/s$/, '') === s.two.replace(/s$/, '') || hasWord(g.text, s.two) || hasWord(s.text, g.two))) continue;
+      got.push(s);
+    }
+    if (got.length < 4) throw new Error(`syllables-g1 check: ${got.length} sentences`);
+    cols = 1;
+    for (const s of got) {
+      const parts = s.text.match(/[A-Za-z]+(?:'[a-z]+)?|[^A-Za-z]+/g);
+      const html = parts.map((p, i) => (/^[A-Za-z]/.test(p) ? `<span data-lcs-tok="${esc(p.toLowerCase())}" data-lcs-choice="${esc(p)}"${p.toLowerCase() === s.two ? ' data-lcs-correct="1"' : ''} style="display:inline-block">${esc(p)}</span>`
+        : /^[.!?]$/.test(p) && i ? `<span data-lcs-ptail="1">${esc(p)}</span>` : `<span data-lcs-punct>${esc(p)}</span>`)).join('');
+      cards.push(`<div data-lcs-syllcheck="${esc(s.two)}" data-lcs-text="${attr(s.text)}" style="display:flex;justify-content:center;padding:10px 8px;font:700 30px/1.4 'Nunito',sans-serif;color:${T.ink};white-space:nowrap">${html}</div>`);
+    }
+  }
+  if (mode === 'parts') {
+    const pool = twoList(d.kinds, (w, x) => !x.oddParts && (!d.short || !x.long));
+    const got = [];
+    for (const kd of d.kinds) got.push(...distinct(shuffle(pool.filter((x) => x.kind === kd), rng), Math.max(1, Math.floor(8 / d.kinds.length)), got));
+    const ws = new Set(got.map((x) => x.w));
+    const items = shuffle(got.filter((x) => !x.parts.some((p) => ws.has(p))), rng);
+    if (items.length < 4) throw new Error(`syllables-g1 check: ${items.length} words to split`);
+    // the key draws a thin bar in the check's answer colour INSIDE the gap (the gap's own outline, wider than the gap, covered
+    // the letters on both sides: review en-1119-lit), and the gap carries data-lcs-correct="0" there, so the check draws none
+    for (const x of items) {
+      const at = x.parts[0].length, F = 36;
+      const html = [...x.w].map((c, i) => (i ? `<span data-lcs-gapat="${i}" data-lcs-choice="${esc(x.w.slice(0, i) + '|' + x.w.slice(i))}"${i === at ? ` data-lcs-correct="${key ? 0 : 1}"` : ''} style="position:relative;flex:0 0 auto;width:7px">` +
+        (key && i === at ? `<span data-lcs-splitbar style="position:absolute;left:2px;top:-7px;bottom:-7px;width:3px;border-radius:2px;background:${SY_ORANGE}"></span>` : '') + `</span>` : '') +
+        `<span data-lcs-letter="${c}" style="flex:0 0 auto">${esc(c)}</span>`).join('');
+      // data-lcs-ckind: a compound word (two small words) or a two-part word (a double consonant): each form asks one of each
+      cards.push(`<div data-lcs-syllcheck="${esc(x.w)}" data-lcs-kind="${x.kind}" data-lcs-ckind="${x.kind}" style="display:flex;justify-content:center;padding:14px 8px"><span data-lcs-word="${esc(x.w)}" style="display:inline-flex;align-items:stretch;font:800 ${F}px/1.15 'Nunito',sans-serif;color:${T.ink}">${html}</span></div>`);
+    }
+  }
+  if (mode === 'heart') {
+    const H = b.heart;
+    // the words a card asks are the four of the lesson's title (said, was, of, could): the other heart words of a page are
+    // review there (review en-1119-lit: form B had asked give and put, and never of or could)
+    // a blank that starts a sentence (after its first quote mark, or after a full stop) asks a capital letter: not taken
+    const opening = (t) => { const a = t.split('___')[0]; return !a.replace(/[“"]/g, '').trim() || /[.!?]\s*$/.test(a); };
+    // the box of a sentence is the same on every copy (two of said, was, of, could beside its word, drawn from the sentence
+    // itself): a sentence in another box would be the same task to a child, and the check could not tell it from another task
+    const hashOf = (s) => { let h = 5381; for (let i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) >>> 0; return h; };
+    const boxOf = (w, s) => { const rank = (x) => hashOf(s.t + '|' + x); const rest = H.always.filter((x) => x !== w && !s.fits.includes(x)).sort((x, y) => rank(x) - rank(y)).slice(0, 2); return [w, ...rest].sort((x, y) => hashOf(s.t + '#' + x) - hashOf(s.t + '#' + y)); };
+    const targets = shuffle(H.always.filter((w) => H.sentences[w].some((t) => !opening(t))), rng);
+    const used = new Set(), seq = [];
+    for (let r = 0; seq.length < 7 && r < 4; r++) for (const w of shuffle(targets, rng)) if (seq.length < 7) seq.push(w);
+    for (const w of seq) {
+      const s = shuffle(H.sentences[w].map((t, i) => ({ t, fits: H.fits[w][i] })).filter((x) => !opening(x.t) && !used.has(x.t)), rng)[0];
+      if (!s) continue;
+      used.add(s.t);
+      const bank = boxOf(w, s);
+      const [a, bb] = s.t.split('___'), pb = Math.round(ROW * 0.2);
+      const m = bb.match(/^[.!?,”]+/), tail = m ? m[0] : '', after = (m ? bb.slice(m[0].length) : bb).trim();
+      cards.push(`<div data-lcs-syllcheck="${esc(w)}" data-lcs-text="${attr(s.t)}" style="display:flex;align-items:center;justify-content:center;gap:16px;padding:4px 8px">` +
+        `<div data-lcs-wordbox style="flex:0 0 auto;display:flex;flex-direction:column;align-items:center;gap:3px;padding:4px 8px;border:2.5px dashed ${T.teal};border-radius:12px;background:#FFFFFF">${bank.map((x) => chip(x, `data-lcs-boxword="${esc(x)}"`, 19)).join('')}</div>` +
+        `<div data-lcs-hsent style="display:flex;flex-wrap:wrap;align-items:flex-end;gap:2px 8px;font:700 24px/1.3 'Nunito',sans-serif;color:${T.ink}">${a.trim() ? `<span style="padding-bottom:${pb}px">${esc(a.trim())}</span>` : ''}` +
+        `<span data-lcs-answer="${esc(w)}" style="display:inline-flex;align-items:flex-end;line-height:0">${key ? seatOnRow(_parts.rowSvg(170, ROW), w, { fill: SY_ORANGE }) : _parts.rowSvg(170, ROW)}</span>` +
+        `${tail ? `<span style="padding-bottom:${pb}px">${esc(tail)}</span>` : ''}${after ? `<span style="padding-bottom:${pb}px">${esc(after)}</span>` : ''}</div></div>`);
+    }
+    cols = 1;
+    if (cards.length < 4) throw new Error(`syllables-g1 check: ${cards.length} heart sentences`);
+  }
+  // (vowel: the answer is a number, and the check matches its form-B card by the shape of its text: the word stays whole, its
+  // f and t get their room from the letter spacing above)
+  const grid = svgRoom(checkGrid(cards, { cols }));
+  return { bodyHtml: STYLE + `<div data-lcs-noliga="1" style="${LIGS}">` + (mode === 'vowel' ? grid : fRoom(grid)) + `</div>`, meta: {} };
 }
 
 module.exports = { makeSyllG1Type, syllFaultsOf, drawPage, LEVELS, INSTR, LINES, HEADS, oneSyl };

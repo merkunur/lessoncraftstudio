@@ -171,6 +171,8 @@ function makeInfoTextType({ id, slug, mode, i18n }) {
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // the unit checks (Part 7.6): the page's task made small, one card a task (infoCheckPage below; not the naming page)
+    ...(mode !== 'label' ? { checkPage(args, ctx) { return infoCheckPage(mode, args, ctx); } } : {}),
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the information texts are English texts (no ${locale} bank)`);
@@ -382,6 +384,85 @@ function makeInfoTextType({ id, slug, mode, i18n }) {
       });
     },
   };
+}
+
+/* ---------------------------------------------------------------- the item bank of the unit checks ---------------------------------------------------------------- */
+/** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the page's task made small, each card one
+ *  task with its answer in its markup (data-lcs-answer on the line the child writes on), the text it is answered from
+ *  printed on the card at the page's own size, and the text's id as data-lcs-text (form B takes another text).
+ *   FORMS (review en.review-1119-read, 2026-11-19): a page built for form A or B of a check reads the text of its lesson
+ *   in that form (CHECK_TEXT: each part of a form another text); the main-topic part also offers a text that no other part
+ *   of either form reads ("spare": a check page needs two cards).
+ *   details (G1-575)   one question of the text under the part of the text (its heading and sentences) that holds its
+ *                      answer; level 2 starts the line with the question's sentence starter (level 3: no starter; level 1
+ *                      circles one of its three answers).
+ *   topic (G1-576)     the two parts of the text, each heading on a line of its own (review en.review-1119-read2: a heading
+ *                      run in before the first sentence read as part of it), WITHOUT the title and the picture (they name the
+ *                      topic), and "What is this text mostly about?" with the page's line (level 2: "This text is about").
+ *                      The key details have no one answer and stay out.
+ *   features (G1-577)  one find-it question of the page under the text (title, headings, bold words, picture and caption;
+ *                      the glossary under it for the glossary question). Answered from a heading, a bold word, the
+ *                      glossary or the caption. In a form the heading questions only (the direction names the headings). */
+/** the text of each lesson's part in each form of the unit check: a different text in every part of a form, and in every
+ *  part another one in form B than in form A */
+const CHECK_TEXT = { A: { details: 'frogs', topic: 'honeybees', features: 'penguins', spare: 'owls' }, B: { details: 'turtles', topic: 'ladybugs', features: 'squirrels', spare: 'ducks' } };
+/** the form a check page is built for: build-checks seeds its pages "check|<unit>|A…" or "…|B…"; none outside a check */
+const checkFormOf = (ctx) => { const m = /^check\|[^|]+\|([AB])\d*\|/.exec(String((ctx && ctx.rng && ctx.rng.seed) || '')); return m ? m[1] : null; };
+/** the heading question each form asks first (the check keeps the first card of a text; review en.review-1119-read2: form B's
+ *  "Which heading tells you about nuts?" was answered by matching its word to "Nuts for Winter", while form A's needs the link
+ *  stay warm / Life in the Cold). Both now need the link between the paragraph and its heading. */
+const CHECK_HEADING_Q = { A: 'Which heading tells you how penguins stay warm?', B: "Under which heading can you read about a squirrel's nest?" };
+function infoCheckPage(mode, { difficulty, locale }, ctx) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`info-text check: the information texts are English texts (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const lv = Number(difficulty) || 2, d = LEVELS[mode][lv] || LEVELS[mode][2], rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+  const att = (s) => esc(s).replace(/"/g, '&quot;');
+  const LW = W - 52;                                                   // a line inside the card of a check (its own padding)
+  const write = (answer, starter, h) => (key ? line({ w: LW, h, answer }) : line({ w: LW, h, starter }).replace('<div data-lcs-line', `<div data-lcs-line data-lcs-answer="${att(answer)}"`));
+  const pick3 = (right, wrong) => { const at = rng.int(0, 2); return choices(placed(right, shuffle(wrong, rng), at), at, key, { font: 20 }).replace(' data-lcs-ok="1"', ' data-lcs-ok="1" data-lcs-correct="1"'); };
+  const ask = (q, px) => `<div data-lcs-checkq style="font:700 ${px}px/1.3 'Nunito',sans-serif;color:${T.ink}">${esc(q)}</div>`;
+  const frame = (inner) => `<div data-lcs-excerpt style="padding:5px 14px 7px;border:2.5px solid ${T.teal};border-radius:16px;background:#FFFFFF">${inner}</div>`;
+  const partHtml = (t, s, font, i) => `<div data-lcs-part="${i + 1}"><div data-lcs-heading style="font:700 ${font + 2}px/1.25 'Baloo 2',cursive;color:${T.teal};margin-top:${i ? 6 : 0}px">${esc(s.heading)}</div><div style="font:700 ${font}px/1.45 'Nunito',sans-serif;color:${T.ink}">${s.sentences.map(esc).join(' ')}</div></div>`;
+  const titleHtml = (t) => `<div data-lcs-title style="font:700 24px/1.15 'Baloo 2',cursive;color:${T.ink};margin-bottom:2px">${esc(t.title)}</div>`;
+  const card = (t, inner) => `<div data-lcs-text="${att(t.id)}" style="display:flex;flex-direction:column;gap:4px;padding:0 4px">${inner}</div>`;
+  const cards = [];
+  // (review en.review-1119-read) a form's parts each read ANOTHER text, and form B another text than form A in every part:
+  // form A had reprinted Ducks in parts 1 to 3, and part 3 printed the title "Ducks" that answers part 2
+  const form = checkFormOf(ctx);
+  // (a page of a check needs two cards: the main-topic part also offers a text no other part of the form reads, after the
+  // part's own text, which the check takes first)
+  const ofForm = form ? [CHECK_TEXT[form][mode], ...(mode === 'topic' ? [CHECK_TEXT[form].spare] : [])].map((id) => TEXTS.find((x) => x.id === id)) : shuffle(TEXTS, rng);
+  for (const t of ofForm) {
+    if (mode === 'details') for (const q of t.questions) {
+      const si = sectionOf(t, q.sentence - 1);
+      cards.push(card(t, frame(titleHtml(t) + partHtml(t, t.sections[si], d.font, 0)) + ask(q.q, d.qFont) +
+        (lv === 1 ? pick3(q.choices[q.correct], q.choices.filter((_, c) => c !== q.correct)) : write(q.full, lv === 2 ? q.starter : null, d.rowH))));
+    }
+    if (mode === 'topic') {
+      const tp = t.topic;
+      // (review en.review-1119-read2: a heading run in before the first sentence reads to a first grader as part of it) each
+      // heading on a line of its own, as the page prints it; the text one size smaller so the card stays as tall as a check takes
+      const F = Math.min(d.font, 19);
+      const runIn = (s, i) => `<div data-lcs-part="${i + 1}" style="margin-top:${i ? 4 : 0}px"><div data-lcs-heading style="font:700 ${F + 1}px/1.15 'Baloo 2',cursive;color:${T.teal}">${esc(s.heading)}</div><div style="font:700 ${F}px/1.3 'Nunito',sans-serif;color:${T.ink}">${s.sentences.map(esc).join(' ')}</div></div>`;
+      cards.push(card(t, frame(t.sections.map(runIn).join('')) + ask('What is this text mostly about? Write the main topic.', 19) +
+        (lv === 1 ? pick3(tp.right, [tp.detail, tp.mentioned]) : write(lv === 2 ? `This text is about ${tp.right}.` : tp.right.charAt(0).toUpperCase() + tp.right.slice(1), lv === 2 ? 'This text is about' : null, d.rowH))));
+    }
+    if (mode === 'features') {
+      const wrongOf = (x) => (x.kind === 'heading' ? [t.sections.find((s) => s.heading !== x.answer).heading, t.headLure] : x.kind === 'bold' ? [t.bold.find((b) => b !== x.answer), t.lure] : x.kind === 'glossary' ? t.glossary.filter((g) => g.meaning !== x.answer).map((g) => g.meaning) : t.capChoices);
+      // the part of the text the question is answered from: the text without its picture (headings and bold words), the
+      // picture with its caption, or the glossary
+      const full = textBox(t, { font: d.font }), fig = full.match(/<figure[^]*?<\/figure>/)[0];
+      const gloss = `<div data-lcs-glossary><div style="font:700 18px/1.3 'Baloo 2',cursive;color:${T.teal}">Glossary</div>` + t.glossary.map((g) => `<div data-lcs-gloss="${att(g.word)}" style="font:700 17px/1.35 'Nunito',sans-serif;color:${T.ink}"><span style="font-weight:800;-webkit-text-stroke:0.5px ${T.ink}">${esc(g.word)}</span>: ${esc(g.meaning)}</div>`).join('') + `</div>`;
+      // (review en.review-1119-final: a heading card prints its text without bold words; form B's bold "nest" pointed to the
+      // part that "Under which heading can you read about a squirrel's nest?" asks for)
+      const plain = (html) => html.replace(/<b data-lcs-bold="[^"]*"[^>]*>([^<]*)<\/b>/g, '$1');
+      const shown = (x) => (x.kind === 'caption' ? frame(titleHtml(t) + fig.replace('flex:0 0 150px', 'flex:0 0 auto')) : x.kind === 'glossary' ? frame(titleHtml(t) + gloss) : (x.kind === 'heading' ? plain : String)(full.replace(fig, '').replace('flex:0 0 auto;padding:10px 16px 12px', 'flex:0 0 auto;padding:4px 14px 5px')));
+      // (a form asks the heading questions: one kind of task in both forms of the part)
+      for (const x of t.features.filter((y) => !form || y.kind === 'heading').sort((a, b) => (form ? (b.q === CHECK_HEADING_Q[form]) - (a.q === CHECK_HEADING_Q[form]) : 0))) cards.push(card(t, shown(x) + ask(x.q, d.qFont) +
+        (lv === 1 ? pick3(x.answer, wrongOf(x)) : write(x.answer, null, d.rowH || 43))));
+    }
+  }
+  return { bodyHtml: `<div data-lcs-infocheck="${mode}|${lv}"${key ? ' data-lcs-iskey="1"' : ''}>` + checkGrid(cards, { cols: 1 }) + `</div>`, meta: {} };
 }
 
 // _parts: the pieces the Grade 2 factory (info-text-g2.js) builds its pages from

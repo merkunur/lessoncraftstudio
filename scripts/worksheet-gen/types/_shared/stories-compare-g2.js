@@ -966,6 +966,9 @@ function makeStoriesCompareType({ id, slug, mode, exerciseType, i18n }) {
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // the unit checks (Part 7.6): the page's task made small, one card a task (scCheckPage below; the pages that ask for
+    // writing in the child's own words or for a talk give no check)
+    ...(CHECK_MODES.has(mode) ? { checkPage(args, ctx) { return scCheckPage(mode, args, ctx); } } : {}),
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the stories are English stories (no ${locale} bank)`);
@@ -1344,6 +1347,163 @@ function VERIFY_IN_PAGE(I) {
     if (isKey && notes.length !== 2) fails.push('the key does not say its answers (before and after the talk) are samples for any book');
   }
   return fails;
+}
+
+// ------------------------------------------------------------------ the item bank of the unit checks
+/** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the page's task made small, each card one
+ *  task with its answer in its markup, the part of the text it is answered from printed on it at the page's size, and the
+ *  text's id as data-lcs-text (form B takes another story, or another tale).
+ *   arc (G2-576)       the BEGINNING of the story and "What problem do we learn about in the beginning?" with three answers
+ *                      to circle: the problem and two events of the beginning that are no problem, chosen per story
+ *                      (CHECK_ARC_LURES; review en.review-1119-read2: a middle event named girls the beginning does not
+ *                      have, and a middle event that says the problem again would be right too on this card).
+ *                      The sorting of sentences into B, M and E needs the whole story and stays out.
+ *   voices (G2-578)    POINTS OF VIEW (review en.review-1119-read: a numbered line with the name beside it was a Grade 1
+ *                      task): the paragraphs in which the characters show what they think, and one view of the page's
+ *                      views task, "Who thinks this?" — the character's letter, or X for the view nobody in the story holds
+ *                      (data-lcs-answer). The text id names the story and the answer: a part may take two views.
+ *   FORMS: a page built for form A or B of a check reads only the stories, talks and tales of that form (CHECK_IDS).
+ *   versions (G2-580)  a sentence of the page's chart about one pair of versions, and from each version the sentences
+ *                      that tell what that row is about (the characters, the setting, the problem or the ending: every
+ *                      sentence of the version that proves a fact of that kind BY ITSELF, naming the fact's own words),
+ *                      and Version 1, Version 2 or Both to circle (level 3 also Neither). A fact is asked only when each
+ *                      version that tells it proves it in such a sentence and the other names none of its words. The
+ *                      options are words, as the chart's 1 and 2 would make a card of words a card of numbers. In a form
+ *                      the card asked first is CHECK_VERSION's: a fact in other words than the versions' (review
+ *                      en.review-1119-read2: finding the version's own phrase is no comparing), Version 1 in A, 2 in B. */
+const CHECK_MODES = new Set(['arc', 'voices', 'versions']);
+/** the stories, talks and tales of each form of the unit check: none in both forms (review en.review-1119-read) */
+const CHECK_IDS = {
+  A: { arc: ['kite', 'library', 'hamster', 'garden', 'lace', 'puppet', 'snow'], voices: ['rain', 'fish', 'hill', 'puppy', 'beach', 'broccoli', 'worms'], tales: ['pigs', 'gingerbread', 'hen'] },
+  B: { arc: ['duckling', 'play', 'wagon', 'ball', 'picnic', 'paint', 'glasses', 'jar'], voices: ['slide', 'tent', 'drum', 'birdhouse', 'recess', 'soup', 'box'], tales: ['goats', 'mice', 'lion'] },
+};
+/** the statement each form asks first on the versions part (review en.review-1119-read2: both forms answered Version 2 and
+ *  the statement repeated the version's words, "by a river", "on a farm": finding a phrase, not comparing): the same fact
+ *  in other words, keyed to Version 1 in form A and Version 2 in form B. Pigs 0/1: the woods (many trees) and a meadow by a
+ *  river; Lion 0/2: tall grass and a muddy river (near water). */
+const CHECK_VERSION = {
+  A: { pair: 'pigs:01', kind: 'setting', text: 'It happens where there are many trees.', status: 'V1' },
+  B: { pair: 'lion:02', kind: 'setting', text: 'It happens near water.', status: 'V2' },
+};
+/** the two wrong answers of each story's problem card: events of the BEGINNING (the card prints the beginning only) that are
+ *  no problem and do not say the problem again (review en.review-1119-read2: "The girls press the snow hard." named girls
+ *  the beginning does not have, and read like a later solution). Hand-picked: "The snow is dry and powdery." is its cause,
+ *  "Leo's shoe flops with every step." and "Mila cries that the show can't start." say it again. */
+const CHECK_ARC_LURES = {
+  kite: ['Nia and Grandpa take a kite to the park.', 'The wind lifts the kite above the pond.'],
+  library: ['Malik and June eat breakfast.', 'Malik starts to worry.'],
+  hamster: ['Priya feeds Nutmeg every morning.', 'Priya likes to watch Nutmeg run on his wheel.'],
+  garden: ["Jada's class grows lettuce.", 'The class waters the rows every Friday.'],
+  lace: ['Leo and Asha line up for a race.', 'Leo pulls his laces tight.'],
+  puppet: ['Mila and Rafi put on a puppet show.', "Mila's puppet is a green dragon."],
+  snow: ['Kira and her dad go out to build a snowman.', 'Kira stomps her boots.'],
+  duckling: ['The ducks swim across the pond.', 'Peep peeps and peeps.'],
+  play: ["Noemi's class puts on a play about the planets.", 'Noemi plays the sun.'],
+  wagon: ['Hugo and his mom pull a wagon of pumpkins.', 'They are taking pumpkins to the farm stand.'],
+  ball: ['Cora plays catch with Pickle.', 'Pickle paws at the fence.'],
+  picnic: ["Dani's class plans a picnic.", 'They pack a blanket and cups.'],
+  paint: ['Tomas paints a poster for the art show.', 'The poster shows a blue ocean.'],
+  glasses: ['Yara and Grandpa sit down with a storybook.', 'Grandpa reaches for his glasses.'],
+  jar: ['Gia and her dad make a fruit salad.', 'They need honey for the top.'],
+};
+/** the form a check page is built for: build-checks seeds its pages "check|<unit>|A…" or "…|B…"; none outside a check */
+const checkFormOf = (ctx) => { const m = /^check\|[^|]+\|([AB])\d*\|/.exec(String((ctx && ctx.rng && ctx.rng.seed) || '')); return m ? m[1] : null; };
+const VERSION_STOP = new Set(['a', 'an', 'the', 'is', 'are', 'there', 'in', 'on', 'of', 'by', 'to', 'it', 'him', 'her', 'them', 'they', 'he', 'she', 'his', 'and', 'part', 'happen', 'begin', 'tale', 'three', 'little', 'big', 'at', 'its', 'for', 'into', 'not', 'doe', 'do', 'with', 'from', 'up']);
+const versionStem = (w) => w.toLowerCase().replace(/[’']s$/, '').replace(/(ing|ed|es|s)$/, '');
+/** the paragraphs a points-of-view card of the check prints: those in which the characters show what they think, and every
+ *  paragraph between two of them that one speaker says (review en.review-1119-write: "A Cold Day Inside" printed Ms. Webb's
+ *  "We can play a moving game, too." and then her "Freeze dance!", the question "A moving game? Like what?" cut between) */
+function voiceParas(s) {
+  const shown = [...new Set(s.chars.flatMap((c) => s.views[c].paras))].sort((a, b) => a - b), out = [];
+  // (one paragraph cut between them is printed; more than one would make the card taller than a check takes, "The Giant
+  // Box": 351 px, so there the later of the two is left out where that speaker's view stands in another printed paragraph)
+  let last = -1;
+  shown.forEach((p, k) => {
+    const q = last;
+    if (k && p > q + 1 && s.paras[q].who && s.paras[q].who === s.paras[p].who) {
+      if (p - q - 1 > 1 && s.views[s.paras[p].who] && s.views[s.paras[p].who].paras.some((x) => x !== p && out.includes(x))) return;
+      for (let i = q + 1; i < p; i++) out.push(i);
+    }
+    out.push(p); last = p;
+  });
+  return out;
+}
+// (the rule, over the bank when the factory loads: no excerpt lets one speaker speak twice in a row across a cut)
+{ const bad = (BANK.voices || []).filter((s) => { const v = voiceParas(s); return v.some((p, k) => k && p > v[k - 1] + 1 && s.paras[p].who && s.paras[p].who === s.paras[v[k - 1]].who); });
+  if (bad.length) throw new Error('stories-compare-g2.en.json: the check excerpt of ' + bad.map((s) => s.id).join(', ') + ' lets one speaker speak twice in a row across a cut'); }
+function scCheckPage(mode, { difficulty, locale }, ctx) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`stories-compare-g2 check: the stories are English stories (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const lv = Number(difficulty) || 2, rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+  const ok = (html) => html.replace(' data-lcs-ok="1"', ' data-lcs-ok="1" data-lcs-correct="1"');
+  const ask = (q) => `<div data-lcs-checkq data-lcs-read style="font:700 ${READ}px/1.25 'Nunito',sans-serif;color:${T.ink}">${q}</div>`;
+  const holder = (id, inner) => `<div data-lcs-text="${A(id)}" style="display:flex;flex-direction:column;gap:4px;padding:0 4px">${inner}</div>`;
+  const cards = [];
+  // (review en.review-1119-read) the stories, plays and tales of each form: none in both forms
+  const form = checkFormOf(ctx);
+  // (each with its copy number: plan() takes copy v from a fixed order of the bank, stepOf)
+  const ofForm = (list, kind) => { const o = orderOf(list, kind); return list.map((x, i) => [x, o.indexOf(i) + 1]).filter(([x]) => !form || CHECK_IDS[form][kind].includes(x.id)); };
+  // (review en.review-1119-read: only the beginning is printed, so the page's middle answer may be a second right one —
+  // "The snow still crumbles.", "The rain does not stop.", "The lid still will not open."): the card's own three answers are
+  // the problem, an ATTEMPT of the middle (an action, never the problem again) and an event of the beginning that is not a
+  // reaction; the problem's length stands between the two others where the story allows it (no length tell)
+  if (mode === 'arc') for (const [s] of shuffle(ofForm(BANK.arc, 'arc'), rng)) {
+    const right = s.problem.text, lures = CHECK_ARC_LURES[s.id];
+    if (!lures) continue;
+    if (!lures.every((l) => s.ev.some((e) => e.p === 'b' && e.text === l && e.text !== right))) throw new Error('stories-compare-g2 check: a wrong answer of ' + s.id + ' is no event of its beginning');
+    const opts = shuffle(lures, rng); opts.splice(rng.int(0, 2), 0, right);
+    cards.push(holder(s.id, storyCard(s, ['b'], PASSAGE, 1.26) + ask(esc(LINES.q.problem)) +
+      ok(`<div data-lcs-opts style="display:flex;flex-direction:column;align-items:flex-start;gap:0;padding-left:18px">${opts.map((o) => pill(o, o === right, key)).join('')}</div>`)));
+  }
+  // POINTS OF VIEW (RL.2.6; review en.review-1119-read: "who says the words marked 1" with the name beside the words was a
+  // Grade 1 task): the paragraphs in which the characters show what they think, and one view of the page's views task —
+  // whose is it? The letter of that character, or X when nobody in the story thinks it (the page's "nobody" view).
+  if (mode === 'voices') for (const [s] of shuffle(ofForm(BANK.voices, 'voices'), rng)) {
+    const letters = Object.fromEntries(s.chars.map((c) => [c, initialOf(c)]));
+    const shown = voiceParas(s);
+    const paras = shown.map((i) => `<div data-lcs-para="${i}" data-lcs-passage data-lcs-read style="font:700 ${PASSAGE}px/1.3 'Nunito',sans-serif;color:${T.ink}">${typo(esc(s.paras[i].t))}</div>`).join('');
+    const legend = `<div data-lcs-read data-lcs-legend style="font:700 ${READ}px/1.25 'Nunito',sans-serif;color:${T.ink}">${s.chars.map((c) => teal(letters[c]) + ' = ' + esc(c)).join(' &nbsp;·&nbsp; ')} &nbsp;·&nbsp; ${teal('X')} = nobody</div>`;
+    for (const [whose, view] of [...s.chars.map((c) => [c, s.views[c].text]), [null, s.nobody.text]]) {
+      const want = whose ? letters[whose] : 'X';
+      cards.push(holder(s.id + '|' + want, `<div data-lcs-excerpt style="display:flex;flex-direction:column;gap:1px;padding:4px 14px 6px;border:2.5px solid ${T.creamDeep};border-radius:16px;background:#FFFFFF"><div data-lcs-stitle style="font:700 21px/1.15 'Baloo 2',cursive;color:${T.ink}">${esc(s.title)}</div>${paras}</div>` +
+        ask(`Who thinks this? <b style="font-weight:800">${esc(view)}</b>`) +             // (the direction line says: write the letter, or X)
+        `<div style="display:flex;align-items:center;gap:16px;padding-left:4px">${box1(want, key).replace('<span data-lcs-box', `<span data-lcs-answer="${want}" data-lcs-box`)}${legend}</div>`));
+    }
+  }
+
+  // (review en.review-1119-read2) a form asks first the statement CHECK_VERSION plans, of its own tale and pair; the cards of
+  // the page's facts stand after it with the same text id (a check page needs two cards; the check keeps the first)
+  const vplan = mode === 'versions' && form ? CHECK_VERSION[form] : null;
+  if (mode === 'versions') for (const [t] of (vplan ? [[BANK.tales.find((x) => x.id === vplan.pair.split(':')[0])]] : shuffle(ofForm(BANK.tales, 'tales'), rng))) {
+    const pr = vplan ? PAIRS.find((x) => x.id === vplan.pair) : shuffle(PAIRS.filter((x) => x.t === t), rng)[0], V = [pr.x, pr.y];
+    const words = (s) => String(s).split(/\s+/).filter(Boolean).length;
+    // a fact's own words (not "the tale", "it happens", "three little"): the sentence that proves it names every one of them
+    // ("Three little pigs lived in the woods." proves "There are three little pigs."; '"Not I," said the cat.' does not prove
+    // "A cat, a dog, and a duck say no.", and '"I'm going to eat you up!"' does not prove "Someone at the bridge wants to
+    // stop them" without the rest of the tale)
+    const own = (s) => (String(s).match(/[A-Za-z’']+/g) || []).map(versionStem).filter((w) => w.length > 1 && !VERSION_STOP.has(w));
+    const selfProof = (f, vi) => { const p = f.proof && f.proof[vi]; if (!p || t.versions[vi].text.indexOf(p) < 0) return false; const w = new Set(own(p)); return own(f.text).every((x) => w.has(x)); };
+    // from each version: the sentences that prove BY THEMSELVES a fact of this kind it tells, in the order of the version
+    const told = (kind, vi) => { const text = t.versions[vi].text; return [...new Set(t.facts.filter((f) => f.kind === kind && (f.in || []).includes(vi) && selfProof(f, vi)).map((f) => f.proof[vi]))].sort((a, b) => text.indexOf(a) - text.indexOf(b)); };
+    const OPTS = lv === 3 ? ['Version 1', 'Version 2', 'Both', 'Neither'] : ['Version 1', 'Version 2', 'Both'];
+    const want = { V1: 'Version 1', V2: 'Version 2', Both: 'Both', Neither: 'Neither' };
+    const vcard = (kind, text, status, both) => holder(t.id, `<div data-lcs-excerpt data-lcs-pair="${pr.id}" style="display:flex;flex-direction:column;gap:3px;padding:5px 12px 7px;border:2.5px solid ${T.creamDeep};border-radius:16px;background:#FFFFFF"><div data-lcs-tale style="font:700 20px/1.15 'Baloo 2',cursive;color:${T.ink}">Two versions of ${esc(t.tale)}: ${esc(KIND_NAME[kind].toLowerCase())}</div>` +
+        `<div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">${both.map((ss, i) => `<div data-lcs-version="${i + 1}" style="display:flex;flex-direction:column;gap:1px"><span data-lcs-vhead style="font:800 ${READ}px/1.2 'Nunito',sans-serif;color:${T.teal}">Version ${i + 1}</span><span data-lcs-passage data-lcs-read style="font:700 ${PASSAGE}px/1.3 'Nunito',sans-serif;color:${T.ink}">${esc(ss.join(' '))}</span></div>`).join('')}</div></div>` +
+        ask(`${esc(text)} <span style="font-weight:600">${lv === 3 ? 'Circle Version 1, Version 2, Both, or Neither if no version tells it.' : 'Which version tells it? Circle Version 1, Version 2, or Both.'}</span>`) +
+        ok(`<div data-lcs-opts style="display:flex;gap:10px;padding-left:18px">${OPTS.map((o) => pill(o, o === want[status], key)).join('')}</div>`));
+    if (vplan) cards.push(vcard(vplan.kind, vplan.text, vplan.status, V.map((vi) => told(vplan.kind, vi))));
+    let taken = 0;
+    for (const f of shuffle(factsOf(pr), rng)) {
+      if (!OPTS.includes(want[f.status]) || taken >= 3) continue;
+      const both = V.map((vi) => told(f.kind, vi)), mine = own(f.text);
+      if (both.some((x) => !x.length || words(x.join(' ')) > 40)) continue;
+      // a version that tells the fact proves it in its own sentence; a version that does not names none of its words
+      if (V.some((vi, i) => ((f.in || []).includes(vi) ? !selfProof(f, vi) : own(both[i].join(' ')).some((w) => mine.includes(w))))) continue;
+      taken++;
+      cards.push(vcard(f.kind, f.text, f.status, both));
+    }
+  }
+  return { bodyHtml: STYLE + `<div data-lcs-scg2check="${mode}|${lv}" data-lcs-noliga="on"${key ? ' data-lcs-iskey="1"' : ''} style="${LIGS}">` + fRoom(typo(checkGrid(cards, { cols: 1 }))) + `</div>`, meta: {} };
 }
 
 module.exports = { makeStoriesCompareType, scFaultsOf, plan, LEVELS, INSTR, LINES, TITLE, SPEC, PAIRS, factsOf };

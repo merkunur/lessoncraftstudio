@@ -123,7 +123,7 @@ function item(attrs, top, opts) {
 }
 function numChips(vals, answer, unit) {
   const long = unit.length > 3;
-  return vals.map((v, j) => `<span class="ws-achip" data-lcs-opt="${j}" data-lcs-label="${v}"${v === answer ? ' data-lcs-correct="1"' : ''} style="width:196px;height:${OPT_H}px;box-sizing:border-box;font-size:40px;gap:8px;white-space:nowrap">` +
+  return vals.map((v, j) => `<span class="ws-achip" data-lcs-opt="${j}" data-lcs-label="${v}"${v === answer ? ' data-lcs-correct="1"' : ''} style="width:196px;height:${OPT_H}px;box-sizing:border-box;font-size:40px;gap:${unit === '¢' ? 1 : 8}px;white-space:nowrap">` +
     `${v}<span style="font-size:${long ? 18 : 24}px">${esc(unit)}</span></span>`).join('');
 }
 

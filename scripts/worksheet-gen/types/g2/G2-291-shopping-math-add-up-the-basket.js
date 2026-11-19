@@ -20,6 +20,9 @@ module.exports = {
    * things the story names and one more thing of the same shelf, in the shelf's order, with their price tags. The
    * stories are the page's own (built by the page's build, one shelf after another, until seven different baskets are
    * drawn; never as many cards as a page holds), the answer in the markup.
+   * 2026-11-19 (review en-1119-math, g2-measurement-time-money part 7: "A card 1 (25 + 45) regroups; A card 2 and both
+   * B cards do not, so A is harder"): the stage says whether the two prices of its story make a new ten
+   * (data-lcs-regroup), so that the check can ask one total that does and one that does not in each form (lists kindAttr).
    */
   checkPage(args, ctx) {
     const { shelf } = require('../../templates/components-b2.js');
@@ -35,8 +38,9 @@ module.exports = {
         if (seen.has(k) || cards.length >= 7) continue;
         seen.add(k);
         const more = ctx.rng.pick(onShelf.filter((s) => !refs.includes(s.i)));
+        const ones = refs.reduce((n, r) => n + (onShelf[r].price % 10), 0);
         const mini = onShelf.filter((s) => refs.includes(s.i) || s === more).map((s) => ({ src: s.src, price: s.price, unit: p.unit }));
-        cards.push(`<div class="ws-card-stage" style="flex-direction:column;align-items:stretch;justify-content:flex-start;gap:8px;padding:2px 4px" data-lcs-problem data-lcs-qtype="${p.kind}">` +
+        cards.push(`<div class="ws-card-stage" style="flex-direction:column;align-items:stretch;justify-content:flex-start;gap:8px;padding:2px 4px" data-lcs-problem data-lcs-qtype="${p.kind}" data-lcs-regroup="${p.kind === 'total' && ones >= 10 ? 1 : 0}">` +
           `<div style="display:flex;justify-content:center">${shelf({ items: mini, w: 290, iconPx: 48, tagPx: p.unit.length > 3 ? 15 : 17 })}</div>` +
           `<p style="font-family:'Nunito';font-weight:800;font-size:17px;line-height:1.45;color:#3A3530;margin:0" data-lcs-sentence>${p.sentence}</p>` +
           `<div style="display:flex;justify-content:flex-end;align-items:center;gap:8px">${answerBox({ w: 84, h: 52, answer: p.answer })}<span style="font-family:'Baloo 2';font-weight:700;font-size:20px;color:#3A3530" data-lcs-unit>${p.unit}</span></div></div>`);

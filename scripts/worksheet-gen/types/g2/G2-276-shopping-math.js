@@ -224,7 +224,7 @@ module.exports = {
         if (money <= 0 || sum > cur.subMax) { k--; continue; }
         answer = sum;
         const can = money >= sum;
-        sentence = rng.pick(bank.frames.canBuy).replace('{money}', `${money}${NBSP}${cur.unit}`);
+        sentence = rng.pick(bank.frames.canBuy).replace('{money}', cur.unit === '¢' ? `${money}¢` : `${money}${NBSP}${cur.unit}`);   // US: 50¢, close up
         chips = `<span style="display:inline-flex;gap:8px;margin-right:10px" data-lcs-money="${money}">` +
           `<span class="ws-pill" style="font-size:17px;padding:4px 18px" data-lcs-choice="yes"${can ? ' data-lcs-correct="1"' : ''}>${bank.yes}</span>` +
           `<span class="ws-pill" style="font-size:17px;padding:4px 18px" data-lcs-choice="no"${!can ? ' data-lcs-correct="1"' : ''}>${bank.no}</span></span>`;
@@ -297,7 +297,8 @@ module.exports = {
         if (!tag) { fails.push(`item ${i + 1}: no tag`); return; }
         if (+tag.dataset.lcsPrice !== prices[i]) fails.push(`item ${i + 1}: tag != price`);
         const t = tag.querySelector('text').textContent.replace(/ /g, ' ');
-        if (t !== `${prices[i]} ${UNITS[lang]}`) fails.push(`item ${i + 1}: tag text "${t}" (want "${prices[i]} ${UNITS[lang]}")`);
+        const want = UNITS[lang] === '¢' ? `${prices[i]}¢` : `${prices[i]} ${UNITS[lang]}`;   // US English: 35¢, close up
+        if (t !== want) fails.push(`item ${i + 1}: tag text "${t}" (want "${want}")`);
         if (UNITS[lang] && tag.dataset.lcsUnit !== UNITS[lang]) fails.push(`unit ruling violated: ${tag.dataset.lcsUnit}`);
       });
       const problems = [...document.querySelectorAll('[data-lcs-problem]')];

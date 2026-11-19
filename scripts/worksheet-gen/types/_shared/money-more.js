@@ -56,7 +56,8 @@ const sum = (a) => a.reduce((s, x) => s + x, 0);
 // and pt-BR (R$ 1,05) print the decimal form their Grade 2 books use
 const MIXED = { de: { e: '€', and: ' ' }, fr: { e: '€', and: ' ' }, fi: { e: '€', and: ' ' }, it: { e: '€', and: ' e ' }, nl: { e: 'euro', and: ' en ' } };
 const subAmount = (n, cur, locale) => {
-  if (!(locale && n >= 100 && fmtOf(locale).cents)) return `${n}${NB}${cur.unit}`;
+  // (2026-11-19) US English writes the cent sign close up: 95¢, never "95 ¢" (the native table above; review en-1119)
+  if (!(locale && n >= 100 && fmtOf(locale).cents)) return cur.unit === '¢' ? `${n}¢` : `${n}${NB}${cur.unit}`;
   const mx = MIXED[loc2(locale)];
   if (!mx) return formatMoney(n, locale);
   const E = Math.floor(n / 100), C = n % 100;

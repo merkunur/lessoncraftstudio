@@ -197,6 +197,8 @@ module.exports = (FACTORY, BANK) => [
   ['bank: a reply with no talk stem', BANK, '"I agree with Ava because he made the hat just for his sister."', '"Yes, he made the hat just for his sister."', 'G2-582', 1, 'load', 'does not start with a talk stem'],
   ['bank: a reply that agrees with someone who did not speak', BANK, '"I agree with Ava because he made the hat just for his sister."', '"I agree with Mia because he made the hat just for his sister."', 'G2-582', 1, 'load', 'agrees with someone who did not speak'],
   ['bank: a reply about the story that stays on the comment', BANK, '"near": "I want to add that Rafael whispered."', '"near": "I want to add that the birds ate fast."', 'G2-582', 3, 'load', 'the near reply .* shares'],
+  // review en.review-1119-write: the check excerpt keeps the line between two that one speaker says
+  ['the check excerpt cuts the line between two of one speaker', FACTORY, 'if (k && p > q + 1 && s.paras[q].who && s.paras[q].who === s.paras[p].who) {', 'if (false) {', 'G2-578', 1, 'load', 'lets one speaker speak twice in a row'],
   ['bank: a model talk on the topic of a play', BANK, '"about": "two friends who build a sandcastle"', '"about": "two friends who build a snow fort"', 'G2-583', 1, 'load', 'the model story is about'],
   ['bank: a sample reply of three rows', BANK, '"sample": "I agree with Tyler because folding it made the hat fit."', '"sample": "I agree with Tyler because folding the edge of the paper made the hat fit his head just right."', 'G2-582', 3, 'load', 'the fourth comment or its sample'],
 ];

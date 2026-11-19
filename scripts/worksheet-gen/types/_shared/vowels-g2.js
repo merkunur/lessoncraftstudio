@@ -296,6 +296,14 @@ const staircase = (idx) => idx.length >= 3 && (idx.every((x, i) => !i || x === i
 const alternating = (p, m) => m === 2 && p.length >= 3 && p.every((x, i) => !i || x !== p[i - 1]);
 /** places among m for n items: every place used where n allows, never a staircase, never every other one, never three alike in a row */
 function places(n, m, rng) { for (let k = 0; k < 300; k++) { const p = Array.from({ length: n }, () => rng.int(0, m - 1)); if (new Set(p).size < Math.min(n, m) || staircase(p) || alternating(p, m) || p.some((x, i) => i >= 2 && x === p[i - 1] && x === p[i - 2])) continue; return p; } throw new Error(`no places for ${n} answers among ${m}`); }
+/** a word that the article before the gap rules out: "a ___" and a word that starts with a vowel letter, "an ___" and a
+ *  word that starts with a consonant letter (the child could reject it without reading the vowel team) */
+function articleTell(text, w) {
+  const m = /(?:^|[^\p{L}])(an?)\s+_{2,}/iu.exec(String(text));
+  if (!m) return false;
+  const vowel = /^[aeiou]/i.test(String(w));
+  return m[1].toLowerCase() === 'a' ? vowel : !vowel;
+}
 /** a word box: the answers and the fillers, the answers (in sentence order) at places that are no staircase */
 function boxOrder(answers, fillers, rng) { for (let k = 0; k < 300; k++) { const box = shuffle([...answers, ...fillers], rng); if (!staircase(answers.map((w) => box.indexOf(w)))) return box; } throw new Error('no word box without a staircase'); }
 /** the words of a sort with the odd word put among them, never first or last */
@@ -337,7 +345,11 @@ function drawOnce(b, mode, lv, rng) {
       for (const s0 of shuffle(pool, rng)) {
         if (got.length === n) break;
         let s = s0;
-        if (!s.wrong && wrongOf) { const w = shuffle(wrongOf(s).filter((x) => x !== s.right && !s.fits.includes(x) && ok(x)), rng)[0]; if (!w) continue; s = { ...s0, wrong: w }; }
+        // (2026-11-19, found by a unit-check builder) the other word never shows by its article that it does not fit:
+        // after "a ___" no word that starts with a vowel ("I eat with a (fork)(art)."), after "an ___" none that starts
+        // with a consonant. The same shuffle is drawn and the first word without that tell is taken, so a page that had
+        // no tell is drawn as before.
+        if (!s.wrong && wrongOf) { const w = shuffle(wrongOf(s).filter((x) => x !== s.right && !s.fits.includes(x) && ok(x)), rng).find((x) => !articleTell(s.text, x)); if (!w) continue; s = { ...s0, wrong: w }; }
         if (sentFree(s) && !got.some((x) => x.right === s.right)) got.push(takeSent(s));
       }
       if (got.length === n && good(got)) return got;
@@ -786,6 +798,9 @@ function makeVowelG2Type({ id, slug, mode, i18n }) {
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // THE ITEM BANK of the unit checks (Part 7.6): G2-530 to G2-533 (g2VowelCheckPage below; not G2-534, whose level-2
+    // spelling task has five pictured words, too few for two forms: its lesson takes G2-545)
+    ...(G2V_CHECK_MODES.has(mode) ? { checkPage(args, ctx) { return g2VowelCheckPage(mode, args, ctx); } } : {}),
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the words are English words (no ${locale} bank)`);
@@ -868,6 +883,9 @@ function makeVowelG2Type({ id, slug, mode, i18n }) {
           const pw = e.dataset.lcsWrong || null;
           const wrongOk = rec && (!pw ? !!e.dataset.lcsCloze && !e.querySelector('[data-lcs-choices]') : rec.wrong ? rec.wrong === pw : INFO.fillers.includes(pw));
           if (!rec || rec.right !== right || !wrongOk) { fails.push(`the sentence for "${right}" is not a sentence of the bank keyed to its word`); return; }
+          // (2026-11-19) the other word is never ruled out by the article before the gap: "a ___" and a word that starts
+          // with a vowel letter, "an ___" and a word that starts with a consonant letter
+          { const art = /(?:^|[^\p{L}])(an?)\s+_{2,}/iu.exec(e.dataset.lcsText || ''); if (art && pw) { const v = /^[aeiou]/i.test(pw); if (art[1].toLowerCase() === 'a' ? v : !v) fails.push(`the article before the gap rules out "${pw}" ("${e.dataset.lcsText}")`); } }
           fitsOnPage.push(...rec.fits);
           // the words its text prints
           const copy = e.cloneNode(true); copy.querySelectorAll('[data-lcs-pill], [data-lcs-choices], [data-lcs-blankgroup]').forEach((x) => x.remove());
@@ -1073,6 +1091,119 @@ function makeVowelG2Type({ id, slug, mode, i18n }) {
       }, LEVELS, INFO, { ROW, GAP1, GAP2 });
     },
   };
+}
+
+/* ---------------------------------------------------------------- the item bank of the unit checks ---------------------------------------------------------------- */
+/** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the level's task made small, each card one
+ *  task with its answer in its markup, drawn from the bank by the page's own rules.
+ *   shortlong (G2-530), aror (G2-533)  the sentence to circle in (level 2 of both pages): one sentence with its two words
+ *            (cap / cape, barn / born; a sentence of the box takes a word of the other spelling that fits no sentence), the
+ *            right word carries data-lcs-correct. A pair stands once a page, the right word sits first on some cards and
+ *            second on others, both kinds of right word on every page. A word of the page instruction (hop, hope; park,
+ *            storm) is never on a card, and after "a" the other word never starts with a vowel ("a art" gives it away).
+ *   teams (G2-531), diph (G2-532)  the level-2 gap: one word with a gap for its vowel team (96 px, data-lcs-answer), the
+ *            two spellings of its sound named on the card and, where the page has one, the rule of their place (ai/ay,
+ *            oa/ow, ou/ow, oi/oy); ee/ea, which no rule tells apart, only in the words a second grader knows by sight. The
+ *            other spelling builds no word (the page's gapOk), the words of the rules and of the instruction are never a
+ *            task, and never three cards of one sound in a row. */
+const G2V_CHECK_MODES = new Set(['shortlong', 'teams', 'diph', 'aror']);
+function g2VowelCheckPage(mode, { difficulty, locale }, ctx) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`vowels-g2 check: the words are English words (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const lv = Number(difficulty) || 2, d = LEVELS[mode][lv] || LEVELS[mode][2], rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+  // level 1 of G2-532 (oo only) and of G2-533 (ar only) teaches less than these cards ask
+  if ((mode === 'diph' || mode === 'aror') && lv === 1) throw new Error(`vowels-g2 check: no cards of level 1 for ${mode}`);
+  const say = new Set(d.say || []);
+  const real = new Set(BANK.real || []), bad = new Set(BANK.bad || []), frag = new Set(BANK.badFragments || []);
+  const cards = [];
+  const choice = (w, okk, font) => pill(w, okk, key, font).replace('<span data-lcs-pill', `<span data-lcs-choice="${esc(w)}"${okk ? ' data-lcs-correct="1"' : ''} data-lcs-pill`);
+  if (mode === 'shortlong' || mode === 'aror') {
+    const A = BANK.aror;
+    const pool = mode === 'shortlong' ? SL.sentences : [...A.arorSentences, ...A.sentences];
+    const isAr = (w) => A.words.ar.includes(w);
+    const kindOf = mode === 'shortlong' ? (w) => (SL.pairs.some((p) => p[0] === w) ? 'short' : 'long') : (w) => (isAr(w) ? 'ar' : 'or');
+    const vowelStart = (w) => /^[aeiou]/.test(w);
+    const wrongOf = (s) => {
+      if (s.wrong) return s.wrong;
+      const article = (s.text.match(/\b(a|an)\s+___/i) || [])[1];
+      const pick = shuffle(A.fillers.filter((w) => !A.words[isAr(s.right) ? 'ar' : 'or'].includes(w) && w !== s.right && !s.fits.includes(w) && !(article && (article.toLowerCase() === 'an') !== vowelStart(w))), rng)[0];
+      return pick || null;
+    };
+    let got = null;
+    for (let k = 0; k < 400 && !got; k++) {
+      // (a word of the lists one card prints is never a word another card offers: sharp in "A ___ has sharp teeth" and
+      // sharp / sport on the next card)
+      const out = [], pairs = new Set(), rights = new Set(), offered = new Set(), printed = new Set();
+      for (const s0 of shuffle(pool, rng)) {
+        if (out.length === 8) break;
+        const wrong = wrongOf(s0), tw = textWords(s0, UNION[mode]);
+        if (!wrong || [s0.right, wrong, ...tw].some((w) => say.has(w)) || offered.has(s0.right) || rights.has(wrong) || [s0.right, wrong].some((w) => printed.has(w)) || tw.some((w) => offered.has(w))) continue;
+        const pk = [s0.right, wrong].sort().join('|');
+        if (pairs.has(pk)) continue;
+        pairs.add(pk); rights.add(s0.right); offered.add(s0.right); offered.add(wrong); tw.forEach((w) => printed.add(w));
+        out.push({ ...s0, wrong, kind: kindOf(s0.right) });
+      }
+      if (out.length === 8 && new Set(out.map((s) => s.kind)).size === 2 && out.filter((s) => s.kind === out[0].kind).length <= 5) got = out;
+    }
+    if (!got) throw new Error(`vowels-g2 check: no eight sentences for ${mode}`);
+    // (review en-1119-lit) the first two cards of a page are of the two kinds (short and long; ar and or): a check takes the
+    // first cards first, and form B asks the kinds form A asks (data-lcs-ckind)
+    { const j = got.findIndex((x) => x.kind !== got[0].kind); if (j > 1) got.splice(1, 0, ...got.splice(j, 1)); }
+    const at = places(got.length, 2, rng);
+    got.forEach((s, i) => {
+      const two = [[s.right, true], [s.wrong, false]]; if (at[i]) two.reverse();
+      const { a, tail, b: b2 } = splitAt(s.text);
+      cards.push(`<div data-lcs-checksent="${esc(s.right)}" data-lcs-kind="${s.kind}" data-lcs-ckind="${s.kind}" data-lcs-text="${esc(s.text)}" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:4px 8px;padding:8px 10px;font:700 24px/1.3 'Nunito',sans-serif;color:${T.ink}">` +
+        `${a ? `<span>${esc(a)}</span>` : ''}<span style="display:inline-flex;align-items:center"><span data-lcs-twochoice style="display:inline-flex;align-items:center;gap:6px">${two.map(([w, okk]) => choice(w, okk, 24)).join('')}</span>${tail ? `<span data-lcs-tail style="margin-left:1px;padding:0">${esc(tail)}</span>` : ''}</span>${b2 ? `<span>${esc(b2)}</span>` : ''}</div>`);
+    });
+  } else {
+    // the sounds of the page and their two spellings; the words a rule or the instruction prints are no task
+    const groups = mode === 'teams'
+      ? ['a', 'e', 'o'].map((v) => ({ v, sp: Object.keys(TM.words).filter((g) => TM.sound[g] === v), rule: TM.rules[v] || null }))
+      : [{ v: 'ou', sp: ['ou', 'ow'], rule: DI.rules.ou }, { v: 'oi', sp: ['oi', 'oy'], rule: DI.rules.oi }];
+    const shown = new Set([...say, ...groups.flatMap((gr) => (gr.rule ? ruleWords(gr.rule, UNION[mode]) : []))]);
+    const poolOf = (g) => (mode === 'teams' && (g === 'ee' || g === 'ea') ? TM.words[g].filter((w) => TM.gapE.includes(w)) : mode === 'diph' && g === 'oy' ? DI.words.oy.filter((w) => DI.oyGap.includes(w)) : SPELL[mode][g]);
+    const words = groups.map((gr) => gr.sp.flatMap((g) => poolOf(g).filter((w) => !shown.has(w) && gapOk(w, g, gr.sp, real, bad, frag)).map((w) => ({ w, g, gr }))));
+    // the kind of a card (review en-1119-lit): G2-531 a rule of the place (ai/ay, oa/ow) or a look-right team (ee/ea);
+    // G2-532 the first spelling the card names (ou, oi: the middle of a word) or the second (ow, oy: the end); a form asks
+    // both, and form B the kinds form A asks
+    const ckindOf = (x) => (mode === 'teams' ? (x.gr.rule ? 'rule' : 'look') : x.g === x.gr.sp[0] ? 'first' : 'second');
+    // eight cards: every sound of the page, both spellings of each sound, never three cards of one sound in a row, the first
+    // two of other kinds
+    let got = null;
+    for (let k = 0; k < 400 && !got; k++) {
+      const per = mode === 'teams' ? shuffle([3, 3, 2], rng) : [4, 4];
+      const pick = groups.flatMap((gr, i) => shuffle(words[i], rng).slice(0, per[i]));
+      if (pick.length !== 8 || new Set(pick.map((x) => x.w)).size !== 8 || groups.some((gr) => gr.sp.some((g) => !pick.some((x) => x.g === g)))) continue;
+      const order = shuffle(pick, rng);
+      if (order.some((x, i) => i >= 2 && x.gr === order[i - 1].gr && x.gr === order[i - 2].gr)) continue;
+      if (ckindOf(order[0]) === ckindOf(order[1])) continue;
+      got = order;
+    }
+    if (!got) throw new Error(`vowels-g2 check: no eight gap words for ${mode}`);
+    const ruleLine = (r) => `<div data-lcs-checkrule data-lcs-read style="padding:2px 12px;border:2.5px dashed ${T.teal};border-radius:12px;background:#FFFFFF;font:700 17px/1.25 'Nunito',sans-serif;color:${T.ink}">${esc(r)}</div>`;
+    for (const x of got) {
+      const [s1, s2] = x.gr.sp;
+      const line1 = x.gr.rule ? `Write ${teal(s1)} or ${teal(s2)}.` : `${teal(s1)} and ${teal(s2)} say the same sound. Write the one that looks right.`;
+      cards.push(`<div data-lcs-gapcheck="${esc(x.w)}" data-lcs-sound="${x.gr.v}" data-lcs-ckind="${ckindOf(x)}" style="display:flex;flex-direction:column;gap:6px;padding:6px 10px">` +
+        (x.gr.rule ? ruleLine(x.gr.rule) : '') +
+        // the line and the word on one row (two cards of a part fit the check's 330 px)
+        `<div style="display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:center;gap:4px 30px;padding:0 0 4px"><div style="flex:0 1 auto">${label(line1, 19)}</div>` + gapWord(x.w, x.g, key, 34).replace(`<span data-lcs-gap="${x.g}"`, `<span data-lcs-gap="${x.g}" data-lcs-answer="${x.g}"`) + `</div></div>`);
+    }
+  }
+  if (mode === 'diph') {
+    // (review en-1119-lit) oo leads the lesson and its title; the level-2 page writes ou, ow, oi, oy only, its levels 1 and 3
+    // sort oo by its sound: three cards of that sort (one word, moon or book to circle), third on the page and then in turn
+    const sortable = (w) => !DI.notSort.includes(w) && !['moon', 'book'].includes(w) && !say.has(w);
+    let oo = null;
+    for (let k = 0; k < 100 && !oo; k++) { const m = shuffle([...DI.words['oo-moon'].filter(sortable).map((w) => ({ w, c: 'moon' })), ...DI.words['oo-book'].filter(sortable).map((w) => ({ w, c: 'book' }))], rng).slice(0, 3); if (new Set(m.map((x) => x.c)).size === 2) oo = m; }
+    const ooCard = (x) => `<div data-lcs-oocheck="${esc(x.w)}" data-lcs-ckind="oo" style="display:flex;flex-direction:column;align-items:center;gap:8px;padding:6px 10px 10px">` +
+      label(`Read the word. Is its ${teal('oo')} the sound in moon or in book? Circle one.`, 19) +
+      `<div style="display:flex;align-items:center;gap:34px"><span data-lcs-read style="font:800 36px/1.1 'Nunito',sans-serif;color:${T.ink}">${esc(x.w)}</span>` +
+      `<span data-lcs-twochoice style="display:inline-flex;align-items:center;gap:10px">${['moon', 'book'].map((c) => choice(c, c === x.c, 24)).join('')}</span></div></div>`;
+    [6, 4, 2].forEach((at, i) => cards.splice(at, 0, ooCard(oo[i])));
+  }
+  return { bodyHtml: STYLE + `<div data-lcs-noliga="1" style="${LIGS}">` + fRoom(typo(checkGrid(cards, { cols: 1 }))) + `</div>`, meta: {} };
 }
 
 module.exports = { makeVowelG2Type, g2VowelFaultsOf, drawPage, LEVELS };

@@ -60,6 +60,13 @@ function faultsOf(t) {
     p.sentences.forEach((x) => { if (wordsIn(x) > 20) f.push(`${id} page ${i + 1}: a sentence of ${wordsIn(x)} words`); });
   });
   if (new Set(t.parts.map((p) => p.focus)).size !== 3 || !t.focusLure || t.parts.some((p) => p.focus === t.focusLure)) f.push(id + ': not three different focuses and one that fits no part');
+  // the unit check's wrong answers of "What is this paragraph mostly about?" (review en.review-1119-read): a detail that ONE
+  // sentence of the paragraph tells (too narrow: it names a word of that sentence), and the focus of another paragraph
+  t.parts.forEach((p, i) => {
+    const said = (p.sentences || []).some((x) => (String(p.narrow || '').toLowerCase().match(/[a-z]{4,}/g) || []).filter((w) => !['what', 'when', 'where', 'many', 'does', 'that', 'with'].includes(w)).some((w) => has(x, w) || has(x, w.replace(/s$/, ''))));
+    if (!p.narrow || /[.!?]$/.test(p.narrow) || p.narrow.length > 52 || p.narrow === p.focus || !said) f.push(`${id} page ${i + 1}: no too-narrow detail ("narrow") that one sentence of the paragraph tells`);
+    if (!(p.near >= 1 && p.near <= 3) || p.near === i + 1) f.push(`${id} page ${i + 1}: "near" names no other paragraph`);
+  });
   if (!Array.isArray(t.bold) || t.bold.length !== 3) f.push(id + ': not three bold words');
   else t.bold.forEach((b, i) => {
     const first = t.parts.findIndex((p) => has(partText(p), b));
@@ -140,6 +147,8 @@ function makeInfoText2Type({ id, slug, mode, i18n }) {
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // the unit checks (Part 7.6): the page's task made small, one card a task (info2CheckPage below; not the naming page)
+    ...(mode !== 'label' ? { checkPage(args, ctx) { return info2CheckPage(mode, args, ctx); } } : {}),
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the informational texts are English texts (no ${locale} bank)`);
@@ -341,6 +350,77 @@ function makeInfoText2Type({ id, slug, mode, i18n }) {
       });
     },
   };
+}
+
+/* ---------------------------------------------------------------- the item bank of the unit checks ---------------------------------------------------------------- */
+/** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the page's task made small, each card one
+ *  task with its answer in its markup and the part of the text it is answered from printed on it; the text's id is
+ *  data-lcs-text (form B takes another text).
+ *   focus (G2-519)     one numbered paragraph, printed as the page prints it (no heading, no bold word), and "What is
+ *                      this paragraph mostly about?" with three statements to circle: its focus, the focus of another
+ *                      paragraph (the bank's "near") and a too-narrow detail that one sentence of the paragraph tells (the
+ *                      bank's "narrow"; review en.review-1119-read: with two wrong answers that the paragraph never says,
+ *                      the one that repeats its words was always right). The level-2 page writes the focus in the
+ *                      child's own words, which has no one wording. The main topic needs the whole text and stays out.
+ *   features (G2-520)  the lesson's two search tools: "What does the word ___ mean? Use the glossary." under the glossary
+ *                      and "On which page ...? Use the index." under the index; the line carries data-lcs-answer (level
+ *                      1: three answers to circle). data-lcs-cardkind names the tool.
+ *   FORMS: a page built for form A or B of a check reads only the text that form gives the lesson (CHECK_TEXT). */
+/** the text of each lesson's part in each form of the unit check: another text in every part of a form, and in every part
+ *  another one in form B than in form A */
+const CHECK_TEXT = { A: { focus: 'polar-bears', features: 'beavers' }, B: { focus: 'spiders', features: 'bats' } };
+/** the form a check page is built for: build-checks seeds its pages "check|<unit>|A…" or "…|B…"; none outside a check */
+const checkFormOf = (ctx) => { const m = /^check\|[^|]+\|([AB])\d*\|/.exec(String((ctx && ctx.rng && ctx.rng.seed) || '')); return m ? m[1] : null; };
+/** a paragraph's focus as the check prints it, where the bank's is far longer than its two wrong answers (review
+ *  en.review-1119-read2: "how a spider's body is different from an insect's" beside two short answers) */
+const CHECK_FOCUS = { 'spiders|1': 'how spiders and insects differ' };
+function info2CheckPage(mode, { difficulty, locale }, ctx) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`info-text-g2 check: the informational texts are English texts (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const lv = Number(difficulty) || 2, d = LEVELS[mode][lv] || LEVELS[mode][2], rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+  const att = (s) => esc(s).replace(/"/g, '&quot;');
+  const LW = W - 52, F = LEVELS[mode][2].font;
+  const write = (answer, h) => (key ? line({ w: LW, h, answer }) : line({ w: LW, h }).replace('<div data-lcs-line', `<div data-lcs-line data-lcs-answer="${att(answer)}"`));
+  const circle = (right, wrong, column) => { const at = rng.int(0, 2); return choices(placed(right, shuffle(wrong, rng), at), at, key, { column, font: 16 }).replace(' data-lcs-ok="1"', ' data-lcs-ok="1" data-lcs-correct="1"'); };
+  const ask = (q) => `<div data-lcs-checkq style="font:700 16.5px/1.3 'Nunito',sans-serif;color:${T.ink}">${esc(q)}</div>`;
+  const frame = (inner) => `<div data-lcs-excerpt style="padding:5px 12px 6px;border:2.5px solid ${T.teal};border-radius:14px;background:#FFFFFF">${inner}</div>`;
+  // (the text id names the text AND the task: a part may take two tasks of its form's one text)
+  const card = (t, task, inner) => `<div data-lcs-text="${att(t.id + '|' + task)}" data-lcs-cardkind="${att(task.replace(/\d+$/, ''))}" style="display:flex;flex-direction:column;gap:4px;padding:0 4px">${inner}</div>`;
+  const page = (t, i) => `<div data-lcs-part="${i + 1}" style="display:flex;gap:8px">${tab(i + 1)}<div style="flex:1 1 auto;min-width:0">` +
+    `<div data-lcs-partbody style="font:700 ${F}px/1.38 'Nunito',sans-serif;color:${T.ink}">${esc(partText(t.parts[i]))}</div></div></div>`;
+  const form = checkFormOf(ctx);
+  const cards = [];
+  for (const t of shuffle(form ? TEXTS.filter((x) => x.id === CHECK_TEXT[form][mode]) : TEXTS, rng)) {
+    // (review en.review-1119-read) the two wrong answers: the focus of another paragraph (one this paragraph does not cover,
+    // the bank's "near"), and a TOO-NARROW detail that one sentence of this paragraph tells (the bank's "narrow": "what
+    // blubber is"). The narrow detail echoes the paragraph's words too, so matching words no longer finds the answer.
+    if (mode === 'focus') t.parts.forEach((p, i) => cards.push(card(t, 'p' + (i + 1), frame(page(t, i)) + ask('What is this paragraph mostly about? Circle it.') + circle(CHECK_FOCUS[t.id + '|' + (i + 1)] || p.focus, [p.narrow, CHECK_FOCUS[t.id + '|' + p.near] || t.parts[p.near - 1].focus], true))));
+    // the lesson is the glossary and the index: "What does the word ___ mean? Use the glossary." with the glossary, and "On
+    // which page ...? Use the index." with the index (never the bold word, which is copying; review en.review-1119-read)
+    // in a form ONE card tests both search tools of the lesson (review en.review-1119-read: "The lesson is Glossary and
+    // Index"): the glossary and the index side by side, the glossary question and the index question, each with its line
+    if (mode === 'features' && form) {
+      const gx = t.features.find((y) => y.kind === 'glossary'), ix = t.features.find((y) => y.kind === 'index');
+      if (!gx || !ix) continue;
+      const gloss = frame(`<div data-lcs-glossary><div style="font:700 17px/1.2 'Baloo 2',cursive;color:${T.teal}">Glossary</div>` + t.glossary.map((g) => `<div data-lcs-gloss="${att(g.word)}" style="font:700 15px/1.3 'Nunito',sans-serif;color:${T.ink}"><span style="font-weight:800;-webkit-text-stroke:0.5px ${T.ink}">${esc(g.word)}</span> ${esc(g.meaning)}</div>`).join('') + `</div>`);
+      const index = frame(`<div data-lcs-index style="width:150px"><div style="font:700 17px/1.2 'Baloo 2',cursive;color:${T.teal}">Index</div>` + t.index.map((e) => `<div data-lcs-indexword="${att(e.word)}|${e.page}" style="display:flex;align-items:baseline;gap:4px;font:700 15px/1.3 'Nunito',sans-serif;color:${T.ink}"><span>${esc(e.word)}</span><span style="flex:1 1 auto;border-bottom:1.5px dotted ${T.ink};transform:translateY(-3px)"></span><span>${e.page}</span></div>`).join('') + `</div>`);
+      const tools = `<div style="display:flex;gap:8px;align-items:stretch"><div style="flex:1 1 auto;min-width:0;display:flex;flex-direction:column">${gloss}</div><div style="flex:0 0 auto;display:flex;flex-direction:column">${index}</div></div>`;
+      const one = (x) => { const shown = x.kind === 'index' ? 'page ' + x.answer : x.answer;
+        return ask(x.q + (x.kind === 'index' ? ' Use the index.' : ' Use the glossary.')) + (lv === 1 ? circle(shown, wrongOf(t, x).map((w) => (x.kind === 'index' ? 'page ' + w : w)), x.kind === 'glossary') : write(shown, d.rowH || 33)); };
+      // (the second card: the same two questions in the other order, with the same text id; the check keeps the first)
+      for (const pair of [[gx, ix], [ix, gx]]) cards.push(card(t, 'tools', tools + pair.map(one).join('')));
+      continue;
+    }
+    if (mode === 'features') for (const x of t.features) {
+      let held, q;
+      if (x.kind === 'glossary') { held = frame(`<div data-lcs-glossary><div style="font:700 17px/1.2 'Baloo 2',cursive;color:${T.teal}">Glossary</div>` + t.glossary.map((g) => `<div data-lcs-gloss="${att(g.word)}" style="font:700 15px/1.32 'Nunito',sans-serif;color:${T.ink}"><span style="font-weight:800;-webkit-text-stroke:0.5px ${T.ink}">${esc(g.word)}</span> ${esc(g.meaning)}</div>`).join('') + `</div>`); q = x.q + ' Use the glossary.'; }
+      if (x.kind === 'index') { held = frame(`<div data-lcs-index style="width:230px"><div style="font:700 17px/1.2 'Baloo 2',cursive;color:${T.teal}">Index</div>` + t.index.map((e) => `<div data-lcs-indexword="${att(e.word)}|${e.page}" style="display:flex;align-items:baseline;gap:4px;font:700 15px/1.35 'Nunito',sans-serif;color:${T.ink}"><span>${esc(e.word)}</span><span style="flex:1 1 auto;border-bottom:1.5px dotted ${T.ink};transform:translateY(-3px)"></span><span>${e.page}</span></div>`).join('') + `</div>`); q = x.q + ' Use the index.'; }
+      if (!held) continue;
+      const shown = x.kind === 'index' ? 'page ' + x.answer : x.answer, wide = x.kind === 'glossary';
+      cards.push(card(t, x.kind, held + ask(q) + (lv === 1 ? circle(shown, wrongOf(t, x).map((w) => (x.kind === 'index' ? 'page ' + w : w)), wide) : write(shown, d.rowH || 33) + (wide ? line({ w: LW, h: d.rowH || 33 }) : ''))));
+    }
+  }
+  return { bodyHtml: `<div data-lcs-info2check="${mode}|${lv}"${key ? ' data-lcs-iskey="1"' : ''}>` + checkGrid(cards, { cols: 1 }) + `</div>`, meta: {} };
 }
 
 module.exports = { makeInfoText2Type, faultsOf, TEXTS, LEVELS, wrongOf };

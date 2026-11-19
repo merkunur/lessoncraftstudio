@@ -44,7 +44,7 @@
       "One rope after another snapped.",
       "At last the lion shook off the net and stood up.",
       "\"You laughed at me once,\" said the mouse.",
-      "\"Now you know that even a little friend can be a great help.\""
+      "\"But I kept my promise.\""
      ]
     }
    ],
@@ -146,7 +146,10 @@
       "shy",
       "greedy"
      ],
-     "proof": "He asked, \"How could a tiny mouse ever help the king of the animals?\""
+     "proof": "He asked, \"How could a tiny mouse ever help the king of the animals?\"",
+     "also": [
+      "The lion laughed."
+     ]
     },
     {
      "who": "the mouse",
@@ -155,7 +158,10 @@
       "forgetful",
       "selfish"
      ],
-     "proof": "She ran to the lion as fast as she could."
+     "proof": "She ran to the lion as fast as she could.",
+     "also": [
+      "Then she began to gnaw at the ropes with her sharp teeth."
+     ]
     }
    ],
    "connect": {
@@ -169,19 +175,23 @@
     "links": [
      {
       "cause": "The mouse ran over the lion's nose.",
-      "effect": "The lion woke up and caught her."
+      "effect": "The lion woke up and caught her.",
+      "give": "cause"
      },
      {
-      "cause": "Her promise amused the lion.",
-      "effect": "He lifted his paw and let her go."
+      "cause": "The lion was not very hungry, and the mouse's promise amused him.",
+      "effect": "He lifted his paw and let her go.",
+      "give": "cause"
      },
      {
       "cause": "The lion roared loudly in the net.",
-      "effect": "The mouse heard him far away."
+      "effect": "The mouse heard him far away.",
+      "give": "effect"
      },
      {
       "cause": "The mouse gnawed through the ropes.",
-      "effect": "The lion could shake off the net."
+      "effect": "The lion could shake off the net.",
+      "give": "effect"
      }
     ],
     "explain": "The lion gets free because the mouse gnaws through the ropes."
@@ -248,7 +258,7 @@
    ],
    "message": {
     "right": "It is wise to work and save today for the days to come.",
-    "lure": "Treat others the way you want to be treated.",
+    "lure": "A hard problem can be solved with good thinking and patience.",
     "literal": "Grasshoppers should not play the fiddle."
    },
    "shows": [
@@ -344,7 +354,14 @@
       "shy",
       "grumpy"
      ],
-     "proof": "He sang and danced from morning to night."
+     "proof": "He sang and danced from morning to night.",
+     "also": [
+      "All summer long, a grasshopper sat in the sun and played his fiddle.",
+      "\"Winter is far away, and there is plenty to eat today,\" he said.",
+      "So he played on, and the ant went back to her work.",
+      "\"Come and sing with me,\" called the grasshopper.",
+      "The grasshopper laughed at her."
+     ]
     },
     {
      "who": "the ant",
@@ -353,7 +370,12 @@
       "clumsy",
       "brave"
      ],
-     "proof": "She carried one grain of wheat after another to her nest."
+     "proof": "She carried one grain of wheat after another to her nest.",
+     "also": [
+      "Near him, an ant walked back and forth in the heat.",
+      "\"I am storing food for the winter, and you should do the same.\"",
+      "So he played on, and the ant went back to her work."
+     ]
     }
    ],
    "connect": {
@@ -367,19 +389,26 @@
     "links": [
      {
       "cause": "The ant stored wheat all summer.",
-      "effect": "The ants had wheat to share in winter."
+      "effect": "The ants had wheat to share in winter.",
+      "give": "effect"
      },
      {
       "cause": "The grasshopper only sang and danced.",
-      "effect": "He had nothing saved for the winter."
+      "effect": "He had nothing saved for the winter.",
+      "give": "cause"
      },
      {
       "cause": "Snow covered the fields.",
-      "effect": "Nothing green was left to eat."
+      "effect": "Nothing green was left for the grasshopper to eat.",
+      "give": "cause",
+      "alsoEffect": [
+       "The grasshopper had no food."
+      ]
      },
      {
       "cause": "The grasshopper begged at the nest.",
-      "effect": "The ant gave him a few grains."
+      "effect": "The ant gave him a few grains.",
+      "give": "effect"
      }
     ],
     "explain": "The grasshopper is hungry in winter because he stored no food in summer."
@@ -442,7 +471,7 @@
       "Pebble by pebble, the water climbed higher and higher.",
       "At last it reached the top of the pitcher.",
       "The crow dipped her beak in and drank until she was no longer thirsty.",
-      "Then she flew away, pleased with her clever plan."
+      "Then she flew away, pleased with her plan."
      ]
     }
    ],
@@ -470,7 +499,7 @@
      "proof": "A thirsty crow flew from place to place and looked for water."
     },
     {
-     "q": "How much water was in the pitcher?",
+     "q": "How much water was in the pitcher at first?",
      "answer": "only a little at the bottom",
      "wrong": [
       "none at all",
@@ -544,7 +573,10 @@
       "careless",
       "bossy"
      ],
-     "proof": "She picked up a pebble in her beak and dropped it into the pitcher."
+     "proof": "She picked up a pebble in her beak and dropped it into the pitcher.",
+     "also": [
+      "That gave her an idea."
+     ]
     },
     {
      "who": "the crow",
@@ -553,7 +585,11 @@
       "lazy",
       "shy"
      ],
-     "proof": "But the crow did not stop."
+     "proof": "But the crow did not stop.",
+     "also": [
+      "She dropped in another pebble, and then another.",
+      "Pebble by pebble, the water climbed higher and higher."
+     ]
     }
    ],
    "connect": {
@@ -567,7 +603,8 @@
     "links": [
      {
       "cause": "It had not rained for many weeks.",
-      "effect": "The streams were dry."
+      "effect": "The streams were dry.",
+      "give": "effect"
      },
      {
       "cause": "The pitcher was too heavy for the crow.",
@@ -575,11 +612,13 @@
      },
      {
       "cause": "The crow dropped pebbles into the pitcher.",
-      "effect": "The water rose higher."
+      "effect": "The water rose higher.",
+      "give": "cause"
      },
      {
       "cause": "The water reached the top of the pitcher.",
-      "effect": "The crow could drink."
+      "effect": "The crow could drink.",
+      "give": "cause"
      }
     ],
     "explain": "The water rises because the pebbles take up room at the bottom of the pitcher."
@@ -658,11 +697,11 @@
    "how": "Each villager gives only a little, and together they make a soup that feeds the whole village.",
    "questions": [
     {
-     "q": "What did the villagers do when the traveler asked for food?",
-     "answer": "They closed their doors.",
+     "q": "What did the villagers say when the traveler asked for food?",
+     "answer": "that they had nothing to spare",
      "wrong": [
-      "They invited him in.",
-      "They gave him bread."
+      "that they would cook for him",
+      "that he could stay the night"
      ],
      "part": 1,
      "proof": "\"We have nothing to spare,\" the villagers said, and they closed their doors."
@@ -742,7 +781,11 @@
       "shy",
       "clumsy"
      ],
-     "proof": "\"It is delicious, but it would be even better with a carrot.\""
+     "proof": "\"It is delicious, but it would be even better with a carrot.\"",
+     "also": [
+      "\"I am making stone soup,\" said the traveler.",
+      "\"A few potatoes would make it perfect,\" said the traveler."
+     ]
     },
     {
      "who": "the villagers",
@@ -752,7 +795,8 @@
       "brave"
      ],
      "proof": "\"We have nothing to spare,\" the villagers said, and they closed their doors.",
-     "first": true
+     "first": true,
+     "also": []
     }
    ],
    "connect": {
@@ -766,11 +810,16 @@
     "links": [
      {
       "cause": "The traveler set a pot over a fire in the square.",
-      "effect": "A woman came out to see what he was doing."
+      "effect": "A woman came out to see what he was doing.",
+      "give": "effect",
+      "alsoCause": [
+       "She was curious."
+      ]
      },
      {
       "cause": "The traveler said a carrot would make the soup even better.",
-      "effect": "The woman ran home for carrots."
+      "effect": "The woman ran home for carrots.",
+      "give": "cause"
      },
      {
       "cause": "The traveler said a few potatoes would make the soup perfect.",
@@ -778,7 +827,8 @@
      },
      {
       "cause": "Everyone gave a little food.",
-      "effect": "There was enough soup for the whole village."
+      "effect": "Everyone had enough soup.",
+      "give": "effect"
      }
     ],
     "explain": "There is enough soup for everyone because each villager adds a little food."
@@ -822,7 +872,7 @@
       "The stork could only dip the tip of her long bill into the dish.",
       "She did not get a single drop.",
       "The fox laughed behind his paw.",
-      "The stork stayed polite and thanked him for the evening.",
+      "The stork smiled and thanked him for the evening.",
       "\"You must come to dinner at my house next week,\" she said."
      ]
     },
@@ -881,13 +931,13 @@
     },
     {
      "q": "How did the stork act at the end of the evening?",
-     "answer": "She stayed polite and thanked the fox.",
+     "answer": "She smiled and thanked the fox.",
      "wrong": [
       "She shouted at the fox.",
       "She cried and ran home."
      ],
      "part": 2,
-     "proof": "The stork stayed polite and thanked him for the evening."
+     "proof": "The stork smiled and thanked him for the evening."
     },
     {
      "q": "What did the stork serve the stew in?",
@@ -944,7 +994,11 @@
       "shy",
       "brave"
      ],
-     "proof": "The fox laughed behind his paw."
+     "proof": "The fox laughed behind his paw.",
+     "also": [
+      "The fox had cooked a thin soup, and he served it in two shallow dishes.",
+      "With a grin he asked, \"Isn't it delicious?\""
+     ]
     },
     {
      "who": "the stork",
@@ -953,7 +1007,11 @@
       "lazy",
       "clumsy"
      ],
-     "proof": "The stork stayed polite and thanked him for the evening."
+     "proof": "The stork smiled and thanked him for the evening.",
+     "also": [
+      "\"You must come to dinner at my house next week,\" she said.",
+      "\"Please help yourself,\" she said."
+     ]
     }
    ],
    "connect": {
@@ -967,7 +1025,8 @@
     "links": [
      {
       "cause": "The fox served the soup in shallow dishes.",
-      "effect": "The stork did not get a single drop."
+      "effect": "The stork did not get a single drop.",
+      "give": "cause"
      },
      {
       "cause": "The stork invited the fox to dinner.",
@@ -975,11 +1034,17 @@
      },
      {
       "cause": "The stork served the stew in jars with narrow necks.",
-      "effect": "The fox could not get his nose in."
+      "effect": "The fox could not get his nose in.",
+      "give": "effect"
      },
      {
       "cause": "The fox went hungry all evening.",
-      "effect": "He understood how the stork had felt."
+      "effect": "He understood how the stork had felt.",
+      "give": "effect",
+      "alsoCause": [
+       "He could not eat the stew.",
+       "The stew was in jars with narrow necks."
+      ]
      }
     ],
     "explain": "The fox cannot eat the stew because the jars have narrow necks."
@@ -2629,7 +2694,7 @@
       },
       {
        "theme": "emotions",
-       "noun": "tired"
+       "noun": "angry"
       }
      ]
     }
@@ -2715,12 +2780,12 @@
     {
      "pics": [
       {
-       "theme": "forest creatures",
-       "noun": "rabbit"
+       "theme": "vegetables",
+       "noun": "carrot"
       },
       {
-       "theme": "farm animals",
-       "noun": "hen"
+       "theme": "kitchen tools",
+       "noun": "plate"
       }
      ],
      "text": "Pop! Out it comes! Rabbit and Hen have a big lunch."

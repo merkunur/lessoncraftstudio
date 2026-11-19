@@ -114,11 +114,35 @@ function makeNumberStripType(cfg) {
     /** THE ITEM BANK (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"): the strips of the level, six of
      *  them, each a card of its own and nothing beside them (the page's theme picture stands beside its strips, so a
      *  strip could not be cut from the page). Same draw, same blanks, at the level the lesson hands out. */
+    // (2026-11-19, unit checks of g1-hundreds-chart-skip-counting and k-teen-numbers-and-counting-to-100) many strips a
+    // page, not six: form B takes a strip with its empty boxes in the SAME places as form A's (the cutter's kind) and
+    // about as far up the numbers, and of the 21 to 84 ways a level can place its blanks six strips seldom held the one
+    // form A had. Twice as many strips as there are ways (forty at least). The level's own draw, its new-ten blanks kept
+    // in the same share of the strips.
     checkPage(args, ctx) {
       const d0 = this.difficulty[args.difficulty] || this.difficulty[2];
-      const d = { ...d0, rows: Math.max(6, d0.rows) };
+      // (2026-11-19, review en-1119-math) form B had its empty boxes in exactly form A's places, because the check's kind of
+      // a strip was its sequence of printed and empty cells. The cells now carry their place as a flex `order` and the empty
+      // boxes stand LAST in the markup (on paper nothing moves): a strip's kind is how many boxes it leaves empty, not where.
+      // A Kindergarten strip, and every strip of level 1, leaves no box without a printed number on each side (never two
+      // empty boxes side by side, never the last box: the reviewer's condition for counting on in Kindergarten).
+      const neighbours = /^K-/.test(this.id) || Number(args.difficulty) === 1;
+      const rows = Math.max(neighbours ? 100 : 40, d0.rows);
+      const d = { ...d0, rows, ...(d0.tenBlanks ? { tenBlanks: Math.round(d0.tenBlanks * rows / d0.rows) } : {}) };
       const b = d.v2 ? this._buildV2({ ...args, theme: null }, ctx, d) : this._buildLegacy(args, ctx, d);
-      return { bodyHtml: checkGrid(b._cards), meta: b.meta };
+      const cards = b._cards.map((card) => {
+        const at = card.indexOf('>') + 1, head = card.slice(0, at), tail = card.slice(card.lastIndexOf('</div>'));
+        const cells = card.slice(at, card.lastIndexOf('</div>')).match(/<span [^>]*>[^<]*<\/span>/g) || [];
+        const empty = cells.map((c) => /data-lcs-answer=/.test(c));
+        if (neighbours && (empty[empty.length - 1] || empty.some((e, k) => e && empty[k + 1]))) return null;
+        // (and no strip below level 3 leaves three boxes side by side: form B's "78 _ _ _ 102" was a harder task than form A's
+        // two-and-one; level 3 asks runs of empty boxes on purpose)
+        if (Number(args.difficulty) < 3 && empty.some((e, k) => e && empty[k + 1] && empty[k + 2])) return null;
+        const placed = cells.map((c, k) => c.replace('style="', `style="order:${k};`));
+        return head + placed.filter((c, k) => !empty[k]).join('') + placed.filter((c, k) => empty[k]).join('') + tail;
+      }).filter(Boolean);
+      if (cards.length < 6) throw new Error(`${id} checkPage: ${cards.length} strips`);
+      return { bodyHtml: checkGrid(cards), meta: b.meta };
     },
 
     /** the published draw (level 2) — unchanged */

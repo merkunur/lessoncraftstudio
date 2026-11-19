@@ -19,28 +19,19 @@ module.exports = {
   i18n: { en: { title: "3-Digit Addition with Carrying", instruction: "Add one place at a time. Regroup when you need to carry." } },
 
   /**
-   * THE ITEM BANK of the unit checks (Part 7.6): the page of the level, every problem regrouping as often as every other
-   * (review en f1115, 2026-11-15: form A carried once, form B twice). Level 1 carries once, levels 2 and 3 twice (a new
-   * ten AND a new hundred). The key writes each carry into its small box (the reviewer: "show the 1s").
+   * THE ITEM BANK of the unit checks (Part 7.6): the page of the level, each problem a card of its own, its answer digits
+   * in its boxes and, in the key, the 1s it carries (the reviewer: "show the 1s"). 2026-11-19 (review en-1119-math: one
+   * problem a part let one slip decide the lesson): the level draws problems that make one new ten or hundred and
+   * problems that make both, and the check takes one of each (lists: kindRegroup, mixKinds), form B as form A (the
+   * earlier rule "every problem regroups twice" answered the review of 2026-11-15, when a part held one problem).
    */
   checkPage(args, ctx) {
-    const lv = Number(args.difficulty) || 2;
-    const d = this.difficulty[lv] || this.difficulty[2];
-    const self = Object.assign(Object.create(this), { difficulty: { ...this.difficulty, [lv]: d.maxCarries || d.minCarries ? d : { ...d, minCarries: 2 } } });
-    const built = base.build.call(self, args, ctx);
-    if (!(ctx && ctx.answerKey)) return built;
-    // the carry row of each addition: one small box per place left of the ones, its carry the one of the place to its right
-    const html = built.bodyHtml.replace(/data-lcs-a="(\d+)" data-lcs-b="(\d+)" data-lcs-op="\+">(<div style="display:flex;gap:6px;margin-bottom:2px">)([\s\S]*?)(<\/div>)/g, (m, a, b, open, cells, close) => {
-      const cs = carriesOf(Number(a), Number(b));
-      const spans = cells.match(/<span [^>]*><\/span>/g) || [];
-      const width = spans.length;
-      const filled = spans.map((sp, c) => {
-        const place = width - 1 - c;   // 0 = ones
-        return place >= 1 && cs[place - 1] && /dashed/.test(sp)
-          ? sp.replace('></span>', ` data-lcs-carry="1"><span style="margin:auto;font-family:'Baloo 2';font-weight:800;font-size:17px;line-height:1;color:#C9552E">1</span></span>`) : sp;
-      });
-      return `data-lcs-a="${a}" data-lcs-b="${b}" data-lcs-op="+">` + open + filled.join('') + close;
-    });
-    return { ...built, bodyHtml: html };
+    const { checkCards } = require('../_shared/column-arithmetic.js');
+    const { checkGrid } = require('../../lib/check-page.js');
+    // (the check sets the digit boxes at 40 px, the page at 44: the three parts of the within-1,000 check fit one page)
+    const lv = Number(args.difficulty) || 2, d = this.difficulty[lv] || this.difficulty[2];
+    const self = Object.assign(Object.create(this), { difficulty: { ...this.difficulty, [lv]: { ...d, cell: 40 } } });
+    const built = base.build.call(self, args, { ...ctx, interactive: false, answerKey: false });
+    return { bodyHtml: checkGrid(checkCards(built.bodyHtml, !!(ctx && ctx.answerKey)), { cols: 3 }), meta: {} };
   },
 };

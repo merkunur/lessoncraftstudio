@@ -198,4 +198,37 @@ function makeColumnType(cfg) {
   };
 }
 
-module.exports = { makeColumnType, regroupCount, hasCarry, hasBorrow };
+/**
+ * THE ITEM BANK of the unit checks (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"), 2026-11-19 (review
+ * en-1119-math): a built page of the level as check cards, each problem a card of its own. Every empty digit box carries
+ * its digit as its answer (data-lcs-answer: the key writes it in, and two problems of one part are told apart by what
+ * they ask — read from the key's marks, every three-digit answer marked its first box, so a part could hold one problem
+ * only). In the key, an addition's carry boxes show the 1s it carries (the reviewer: "show the 1s"). Used by the check
+ * pages of G2-502, G3-357 and G3-361; build() never calls it.
+ */
+function carriesOf(a, b) {
+  const out = [];
+  let c = 0;
+  for (let x = a, y = b; x > 0 || y > 0; x = Math.floor(x / 10), y = Math.floor(y / 10)) { c = (x % 10) + (y % 10) + c >= 10 ? 1 : 0; out.push(c); }
+  return out;
+}
+function checkCards(bodyHtml, key) {
+  return [...bodyHtml.matchAll(/<section class="ws-card" data-lcs-card="\d+"><span class="ws-card-badge">\d+<\/span>([\s\S]*?)<\/section>/g)].map((m) => {
+    let h = m[1].replace(/ data-lcs-digit="(\d)"><\/span>/g, ' data-lcs-digit="$1" data-lcs-answer="$1"></span>');
+    if (key) {
+      h = h.replace(/data-lcs-a="(\d+)" data-lcs-b="(\d+)" data-lcs-op="\+">(<div style="display:flex;gap:6px;margin-bottom:2px">)([\s\S]*?)(<\/div>)/, (all, a, b, open, cells, close) => {
+        const cs = carriesOf(Number(a), Number(b));
+        const spans = cells.match(/<span [^>]*><\/span>/g) || [];
+        const filled = spans.map((sp, c) => {
+          const place = spans.length - 1 - c;   // 0 = ones
+          return place >= 1 && cs[place - 1] && /dashed/.test(sp)
+            ? sp.replace('></span>', ` data-lcs-carry="1"><span style="margin:auto;font-family:'Baloo 2';font-weight:800;font-size:17px;line-height:1;color:#C9552E">1</span></span>`) : sp;
+        });
+        return `data-lcs-a="${a}" data-lcs-b="${b}" data-lcs-op="+">` + open + filled.join('') + close;
+      });
+    }
+    return h;
+  });
+}
+
+module.exports = { makeColumnType, regroupCount, hasCarry, hasBorrow, checkCards };

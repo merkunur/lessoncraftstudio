@@ -108,6 +108,44 @@ module.exports = {
     return b;
   },
 
+  /**
+   * THE ITEM BANK of the unit checks (Part 7.6; docs/daily-teaching-system/PART-7-DESIGN.md "7.6"), 2026-11-19 (units
+   * g1-hundreds-chart-skip-counting and k-teen-numbers-and-counting-to-100): the page is one chart, one task, and cannot
+   * be cut. Here a card is three rows of the same chart (the level's own start and end; K-633 to 50), drawn by the same
+   * primitive with square cells, with a few numbers hiding: two at level 1, three at level 2, four at level 3; never the
+   * chart's first or last number, and where the level keeps its blanks apart (d.isolated) never two side by side or one
+   * under the other. Every empty box carries its number as the answer (the key writes it in). The empty boxes stand last
+   * in the drawing (on paper nothing moves: an empty box is drawn on an empty cell), so that two pieces with three empty
+   * boxes are one kind of task wherever the boxes are — form B is held to form A's count and size, not to its places.
+   */
+  checkPage(args, ctx) {
+    const { checkGrid } = require('../../lib/check-page.js');
+    const d = this.difficulty[args.difficulty] || this.difficulty[2];
+    const rng = ctx.rng;
+    const rows = Math.ceil((d.end - d.start + 1) / 10), win = Math.min(3, rows);
+    const n = ({ 1: 2, 2: 3, 3: 4 })[args.difficulty] || 3;
+    const touch = (u, v) => Math.abs(u - v) === 10 || (Math.abs(u - v) === 1 && Math.floor((u - d.start) / 10) === Math.floor((v - d.start) / 10));
+    const cards = [], seen = new Set();
+    for (let t = 0; cards.length < 8 && t < 400; t++) {
+      const s = d.start + rng.int(0, rows - win) * 10, e = Math.min(d.end, s + win * 10 - 1);
+      const all = []; for (let v = s; v <= e; v++) if (v !== d.start && v !== d.end) all.push(v);
+      // (2026-11-19, review en-1119-math: form A hid three cells inside rows, form B two at the ends of rows, which need the
+      // down-the-column pattern and are harder) from three empty boxes up, exactly one stands at the end of a row (the first
+      // or the last number of its row), the others inside rows; never two side by side or one under the other
+      const isEnd = (v) => v % 10 === 1 || v % 10 === 0, ends = n >= 3 ? 1 : 0;
+      const miss = rng.sample(all.filter(isEnd), ends).concat(rng.sample(all.filter((v) => !isEnd(v)), n - ends)).sort((a, b) => a - b);
+      if (miss.some((v) => miss.some((u) => u !== v && touch(u, v)))) continue;
+      const k = s + ':' + miss.join(','); if (seen.has(k)) continue; seen.add(k);
+      let svg = hundredsChart({ start: s, end: e, missing: miss, cell: 56 }).svg;
+      const boxes = [];
+      svg = svg.replace(/<rect([^>]*?) data-lcs-missing="(\d+)"\/>/g, (m, a, v) => { boxes.push(`<rect${a} data-lcs-missing="${v}" data-lcs-answer="${v}"/>`); return ''; });
+      if (boxes.length !== n) throw new Error(this.id + ' checkPage: ' + boxes.length + ' empty boxes');
+      cards.push(`<div class="ws-card-stage" style="justify-content:center;padding:4px">${svg.replace('</svg>', boxes.join('') + '</svg>')}</div>`);
+    }
+    if (cards.length < 6) throw new Error(this.id + ' checkPage: ' + cards.length + ' pieces of the chart');
+    return { bodyHtml: checkGrid(cards), meta: {} };
+  },
+
   async verify(page) {
     return page.evaluate(() => {
       const fails = [];

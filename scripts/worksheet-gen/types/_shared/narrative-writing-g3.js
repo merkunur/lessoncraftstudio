@@ -1064,6 +1064,10 @@ function makeNarrativeG3Type({ id, slug, mode, exerciseType, i18n }) {
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // the unit check (Part 7.6): the day-1 pages' tasks made small, one card a task (nw3CheckPage below); the plan and the
+    // draft give the check its writing task (nw3CheckWrite)
+    ...(['parts', 'marks', 'order', 'choose'].includes(mode) ? { checkPage(args, ctx) { return nw3CheckPage(mode, args, ctx); } } : {}),
+    ...(mode === 'plan' || mode === 'draft' ? { checkWrite(args, ctx) { return nw3CheckWrite(mode, args, ctx); } } : {}),
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the stories and sentences are English (no ${locale} bank)`);
@@ -1487,6 +1491,62 @@ function VERIFY_IN_PAGE(INFO) {
     root.querySelectorAll('[data-lcs-task]').forEach((c) => { const low = Math.max(...[...c.querySelectorAll('[data-lcs-item], [data-lcs-line], [data-lcs-read], [data-lcs-label], [data-lcs-opts]')].map((e) => R(e).bottom));
       const g = R(c).bottom - parseFloat(cs(c).paddingBottom) - low; if (g > S.GAP + 0.5) fails.push(`a blank band of ${Math.round(g)} px at the foot of a card (${c.dataset.lcsTask})`); }); }
   return fails;
+}
+
+/* ------------------------------------------------------------------ the unit check (Part 7.6) */
+/** the pairs of tired words of the check (G3-570): a form asks one word of each pair, form B the other one */
+const TIRED_PAIR = { said: 'say-look', looked: 'say-look', big: 'big-nice', nice: 'big-nice', went: 'go-good', good: 'go-good' };
+/**
+ * nw3CheckPage — the cards a unit check cuts from the day-1 pages (PART-7-DESIGN.md 7.6): every item of the bank as a card of
+ * its own, at the level the lesson hands out, built from the page's own bank and rules (no new task):
+ *   parts   G3-564  the beginning of a story and its question "What goes wrong?" with the page's choices of the level (the
+ *                   problem, and problems of the level's tier that are not in the story): circle the answer
+ *   marks   G3-566  a speech bubble and three sentences of the level (level 2: the same words, other marks): circle the one
+ *                   written the right way (data-lcs-dlgtag: a question or a telling sentence)
+ *   order   G3-568  a tiny story told in order with a blank and the three time words the page offers for it (the wrong ones
+ *                   begin a story that has begun, end one whose ending is to come, or go back): circle the one that fits
+ *   choose  G3-570  a sentence with a tired word and the three words of the level: circle the one that fits
+ *                   (data-lcs-tired: a PAIR of tired words, TIRED_PAIR, so that both forms ask the same kinds while
+ *                   form B, which takes the box sharing the fewest words with form A, asks the other word of the pair:
+ *                   writing review 1119, form B had repeated form A's tired words and choices)
+ * A card names its item (data-lcs-text) so that form B asks other ones than form A.
+ */
+function nw3CheckPage(mode, { difficulty, locale }, ctx) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`narrative-writing-g3 check: the stories are English (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const lv = Number(difficulty) || 2, d = LEVELS[mode][lv] || LEVELS[mode][2], rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+  const shell = (id, inner, more = '') => `<div data-lcs-text="${A(id)}"${more} style="display:flex;flex-direction:column;gap:3px;padding:4px 12px;border-radius:12px;background:#FFFFFF">${inner}</div>`;
+  const choice = (t, ok) => `<div${ok ? ' data-lcs-correct="1"' : ''} style="display:flex"><span style="padding:0 9px;border:2.5px solid ${key && ok ? T.teal : 'transparent'};border-radius:999px;font:700 18px/1.25 'Nunito',sans-serif;color:${T.ink}">${esc(t)}</span></div>`;
+  const opts = (right, wrong, row) => { const o = shuffle(wrong, rng); o.splice(rng.int(0, o.length), 0, right); return `<div data-lcs-ckopts style="display:flex;${row ? 'flex-wrap:wrap;gap:2px 18px' : 'flex-direction:column;gap:1px'};padding-left:12px">${o.map((x) => choice(x, x === right)).join('')}</div>`; };
+  const cards = [];
+  if (mode === 'parts') {
+    const tier = d.tier || 'near';
+    for (const s of shuffle(BANK.stories, rng)) {
+      if (!s[tier] || s[tier].length < 2) continue;
+      cards.push(shell(s.id, `<div style="font:700 16px/1.3 'Nunito',sans-serif;color:${T.ink}"><b style="font:700 17px/1.2 'Baloo 2',cursive;color:${T.teal}">${esc(s.title)}</b> ${esc(s.text)}</div><div style="font:800 17px/1.2 'Nunito',sans-serif;color:${T.teal}">What goes wrong?</div>` + opts(s.problem, s[tier].map((x) => x[0]))));
+    }
+  }
+  if (mode === 'marks') for (const x of shuffle(BANK.dialogue, rng)) {
+    const right = dlgRight(x, 'first'), wrong = d.kind === 'words' ? [x.rep, dlgRight({ ...x, s: x.other }, 'first')] : dlgWrong(x, 'first');
+    const bubble = `<div style="flex:0 0 auto;display:flex;flex-direction:column;align-items:flex-start;gap:2px"><div style="box-sizing:border-box;max-width:200px;padding:5px 12px;border:2.5px solid ${T.ink};border-radius:18px;background:#FFFFFF;font:700 18px/1.25 'Nunito',sans-serif;color:${T.ink}">${esc(x.s)}</div><span style="margin-left:24px;font:800 17px/1 'Nunito',sans-serif;color:${T.teal}">${esc(x.n)}</span></div>`;
+    cards.push(shell(x.s, `<div style="display:flex;align-items:center;gap:12px">${bubble}<div style="flex:1 1 auto;min-width:0">${opts(right, wrong)}</div></div>`, ` data-lcs-dlgtag="${x.tag === 'asked' ? 'ask' : 'tell'}"`));
+  }
+  if (mode === 'order') for (const g of shuffle(BANK.gaps.filter((y) => y.lv === lv), rng)) {
+    const text = g.s.map((s) => esc(s).replace('___', `<span style="display:inline-block;width:110px;border-bottom:2.5px solid ${T.ink}"></span>`)).join(' ');
+    cards.push(shell(g.s.join(' '), `<div style="font:700 18px/1.35 'Nunito',sans-serif;color:${T.ink}">${text}</div>` + opts(g.right, g.wrong.map((w) => w[0]), true)));
+  }
+  if (mode === 'choose') for (const x of shuffle(BANK.choose, rng)) {
+    const t = esc(x.t).replace(/\{(\w+)\}/, (m, w) => `<span style="text-decoration:underline;text-decoration-thickness:2.5px;text-underline-offset:3px">${w}</span>`);
+    cards.push(shell(x.t, `<div style="font:700 18px/1.35 'Nunito',sans-serif;color:${T.ink}">${t}</div><div style="display:flex">${(() => { const o = shuffle(x[d.wk], rng); o.splice(rng.int(0, o.length), 0, x.right); return `<div data-lcs-ckopts style="display:flex;gap:20px;padding-left:12px">${o.map((w) => choice(w, w === x.right)).join('')}</div>`; })()}</div>`, ` data-lcs-tired="${TIRED_PAIR[x.tired] || x.tired}"`));
+  }
+  if (!cards.length) throw new Error('narrative-writing-g3 check: no cards for ' + mode);
+  return { bodyHtml: STYLE + `<div data-lcs-nw3check="${mode}|${lv}" data-lcs-noliga="1"${key ? ' data-lcs-iskey="1"' : ''} style="${LIGS}">` + fRoom(typo(checkGrid(cards, { cols: 1 }))) + `</div>`, meta: {} };
+}
+/** nw3CheckWrite — the writing task of the unit check: every story idea the plan and draft pages offer (the bank's own
+ *  words; the direction is the rubric's) */
+function nw3CheckWrite(mode, { locale }) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`narrative-writing-g3 check: the ideas are English (no ${locale} bank)`);
+  return { tasks: BANK.ideas.map((x) => ({ id: 'idea:' + x.id, prompt: x.idea })) };
 }
 
 module.exports = { makeNarrativeG3Type, faultsOf, plan, LEVELS, INSTR, LINES, SPEC, dlgRight, dlgRaw, dlgWrong, wrongsOf };

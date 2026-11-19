@@ -91,4 +91,8 @@ module.exports = (FACTORY, BANK) => [
   ['bank: head (its ea says short e) on level 1', BANK, '"text": "A snowman can melt in the sun."', '"text": "A snowman has a big head."', 'G2-547', 1],
   ['bank: shoulder (its oul is not the oul of could)', BANK, '"___ you like some milk?"', '"___ you like a shoulder bag?"', 'G2-548', 1],
   ['bank: a heart sentence that prints a heart word', BANK, '"My best ___ sits next to me."', '"My best ___ could sit next to me."', 'G2-548', 2],
+  // review en-1119-lit (2026-11-19): every box of a heart word one width; no syllable sentence prints a part of its answer
+  ['heart boxes as wide as their letters (the widths tell which box holds oul)', FACTORY, 'style="width:${wordW(x)}px;height:${B}px;', 'style="width:${wbox(g)}px;height:${B}px;', 'G2-548', 2],
+  ['bank: a sentence that prints a part of its answer (bed, bedtime)', BANK, '"I put on my pajamas at ___."', '"I go to bed at ___."', 'G2-546', 2],
+  ['bank: a sentence that prints the start of its answer as a longer word (raining, raincoat)', BANK, '"Put on your ___ so you will not get wet."', '"Put on your ___. It is raining."', 'G2-546', 1],
 ];

@@ -59,4 +59,7 @@ module.exports = (FACTORY, BANK) => [
   ['bank: a sentence that prints a word of the lists', BANK, '"text": "We sail in a ___."', '"text": "We row in a ___."', 'G1-587', 3],
   ['bank: a word to write that is no word of the pair', BANK, '"write": [\n    "boat"', '"write": [\n    "roast"', 'G1-587', 3],
   ['bank: "apart" names a word that answers no sentence', BANK, '"soap",\n     "snow"', '"soap",\n     "crow"', 'G1-587', 3],
+  // the pictures withdrawn by the review of 2026-11-19 (en-1119-lit): verify() keeps its own copy and fails a page that shows one
+  ['the candy cane back on a page (cane)', FACTORY, "const WITHDRAWN = new Set(['cane', 'jeep']);", "const WITHDRAWN = new Set(['jeep']);", 'G1-584', 2],
+  ['the jeep back on a page (jeep)', FACTORY, "const WITHDRAWN = new Set(['cane', 'jeep']);", "const WITHDRAWN = new Set(['cane']);", 'G1-586', 2],
 ];

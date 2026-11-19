@@ -1147,6 +1147,10 @@ function makeOpinionLettersType({ id, slug, mode, exerciseType, i18n }) {
     themeAxis: { applicable: false },
     difficulty: D,
     i18n,
+    // the unit check (Part 7.6): the day-1 pages' tasks made small, one card a task (olCheckPage below); the pages of the
+    // child's own piece and letter give the check its writing task (olCheckWrite)
+    ...(['find', 'revise', 'parts', 'capfind'].includes(mode) ? { checkPage(args, ctx) { return olCheckPage(mode, args, ctx); } } : {}),
+    ...(['plan', 'draft', 'letter'].includes(mode) ? { checkWrite(args, ctx) { return olCheckWrite(mode, args, ctx); } } : {}),
 
     build({ difficulty, locale }, ctx) {
       if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`${id}: the texts are English (no ${locale} bank)`);
@@ -1628,6 +1632,82 @@ function makeOpinionLettersType({ id, slug, mode, exerciseType, i18n }) {
       }, SPEC, INFO);
     },
   };
+}
+
+// ------------------------------------------------------------------ the unit check (Part 7.6)
+/**
+ * olCheckPage — the cards a unit check cuts from the day-1 pages (PART-7-DESIGN.md 7.6): every item of the bank as a card of
+ * its own, at the level the lesson hands out, built from the page's own bank and rules (no new task):
+ *   find     G2-557  the sentences of an opinion piece with letters, never in the order of the piece: the letter of each
+ *                    in the box of its part (Opinion, Reasons in any order, Closing)
+ *   revise   G2-560  a piece with a gap of the level (level 2: a reason; the choices: the reason, a fact that does not tell
+ *                    why, a sentence about another animal; the closing: the closing and the opinion copied): circle one
+ *   parts    G2-561  a greeting or a closing written three ways (Dear Kim, / Dear, Kim / Dear Kim): circle the right one
+ *   capfind  G2-563  a sentence of the level's kinds (level 2: a holiday or a place): circle each word that needs a capital
+ * The pieces of find and of revise never meet (even and odd places of the bank): a reason a child marks in one part is
+ * never the answer of another. A card names its item (data-lcs-text); a form card and a sentence card name their kind
+ * (data-lcs-formkind, data-lcs-capkind) so that both forms ask the same kinds.
+ */
+function olCheckPage(mode, { difficulty, locale }, ctx) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`opinion-letters-g2 check: the texts are English (no ${locale} bank)`);
+  const { checkGrid } = require('../../lib/check-page.js');
+  const lv = Number(difficulty) || 2, rng = ctx.rng, key = !!(ctx && ctx.answerKey);
+  const shell = (id, inner, more = '') => `<div data-lcs-text="${esc(id).replace(/"/g, '&quot;')}"${more} style="display:flex;flex-direction:column;gap:4px;padding:4px 12px;border-radius:12px;background:#FFFFFF">${inner}</div>`;
+  const choice = (text, ok, font = 20) => `<div${ok ? ' data-lcs-correct="1"' : ''} style="display:flex">${pill(text, ok, key, '', font).replace(' data-lcs-ok="1"', '').replace('padding:1px 12px', 'padding:0 10px')}</div>`;
+  const ansBox = (want) => `<span data-lcs-answer="${want}" style="display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;box-sizing:border-box;border:2.5px solid ${T.ink};border-radius:8px;background:#FFFFFF;font:800 26px/1 'Nunito',sans-serif;color:${T.teal}">${key ? esc(String(want)) : ''}</span>`;
+  const cards = [];
+  if (mode === 'find') {
+    const d = LEVELS.find[lv];
+    for (const piece of shuffle(PIECES.filter((p, i) => i % 2 === 0), rng)) {
+      const roles = [{ id: 'o', text: piece.o }, { id: 'r0', text: piece.r[0] }, { id: 'r1', text: piece.r[1] }];
+      if (d.n >= 5) roles.push({ id: 'r2', text: (d.odd ? piece.r3b : piece.r[2]) });
+      roles.push({ id: 'c', text: piece.c });
+      let shown = null;
+      for (let k = 0; k < 100 && !shown; k++) { const s = shuffle(roles, rng); if (!s.every((x, i) => x.id === roles[i].id) && s[0].id !== 'o') shown = s; }
+      if (!shown) continue;
+      const L = Object.fromEntries(shown.map((x, i) => [x.id, 'ABCDEFG'[i]]));
+      const group = (name, ids) => `<div style="display:flex;align-items:center;gap:6px"><span style="font:800 18px/1.2 'Nunito',sans-serif;color:${T.ink}">${name}</span>${ids.map((id) => ansBox(L[id])).join('')}</div>`;
+      cards.push(shell(piece.id, `<div style="display:flex;flex-direction:column;gap:1px">${shown.map((x) => `<div style="display:flex;align-items:baseline;gap:10px"><span style="flex:0 0 auto;width:22px;font:800 20px/1.25 'Nunito',sans-serif;color:${T.teal}">${L[x.id]}</span><span style="font:700 19px/1.25 'Nunito',sans-serif;color:${T.ink}">${esc(x.text)}</span></div>`).join('')}</div>` +
+        `<div style="display:flex;flex-wrap:wrap;justify-content:space-around;gap:6px 14px;padding-top:2px">${group('Opinion', ['o'])}${group('Reasons', roles.filter((x) => /^r/.test(x.id)).map((x) => x.id))}${group(CLOSING_HEAD, ['c'])}</div>`));
+    }
+  }
+  if (mode === 'revise') {
+    const g = LEVELS.revise[lv].gap;
+    for (const pc of shuffle(PIECES.filter((p, i) => i % 2 === 1), rng)) for (const kind of g) {
+      const opts = kind === 'c' ? [pc.c, copyOf(pc)] : [rbOf(pc), pc.f, pc.d], right = opts[0];
+      const head = [pc.o, pc.r[0], ...(kind === 'c' ? [pc.r[1]] : [])].map(esc).join(' ');
+      const gap = `<div style="display:flex;align-items:flex-end;gap:8px"><span style="flex:1 1 auto;height:1.05em;border-bottom:3px solid ${T.ink}"></span></div>`;
+      cards.push(shell(pc.id + '|' + kind, `<div style="display:flex;flex-direction:column;gap:2px;font:700 19px/1.3 'Nunito',sans-serif;color:${T.ink};padding:2px 10px 4px;border:2.5px solid ${T.creamDeep};border-radius:12px"><div>${head}</div>${gap}${kind === 'r' ? `<div>${esc(pc.c)}</div>` : ''}</div>` +
+        `<div data-lcs-ckopts style="display:flex;flex-direction:column;align-items:flex-start;gap:1px;padding-left:14px">${shuffle(opts, rng).map((o) => choice(o, o === right, 19)).join('')}</div>`));
+    }
+  }
+  if (mode === 'parts') {
+    const rows = [...BANK.forms.greet.map((n) => ({ kind: 'greet', base: n })), ...BANK.forms.close.map((n) => ({ kind: 'close', base: n }))];
+    for (const r of shuffle(rows, rng)) {
+      const right = r.kind === 'greet' ? `Dear ${r.base},` : `${r.base},`;
+      const wrong = r.kind === 'greet' ? [`Dear, ${r.base}`, `Dear ${r.base}`] : /\s/.test(r.base) ? [r.base.replace(' ', ', '), r.base] : [r.base + '.', r.base];
+      const o = shuffle(wrong, rng); o.splice(rng.int(0, 2), 0, right);
+      cards.push(shell(right, `<div style="font:800 17px/1.2 'Nunito',sans-serif;color:${T.teal}">${r.kind === 'greet' ? 'Greeting' : 'Closing'}</div><div data-lcs-ckopts style="display:flex;gap:22px;padding-left:10px">${o.map((x) => choice(x, x === right)).join('')}</div>`, ` data-lcs-formkind="${r.kind}"`));
+    }
+  }
+  if (mode === 'capfind') {
+    const kinds = LEVELS.capfind[lv].kinds;
+    for (const x of shuffle((C.circle || []).filter((s) => s.k.length === 1 && kinds.includes(s.k)), rng)) {
+      const words = x.t.split(' ').map((tk) => { const m = /^(\[?)([^\]]*?)(\]?)([.!?,]*)$/.exec(tk);
+        return m[1] === '[' ? `<span data-lcs-correct="1" style="position:relative;display:inline-block">${esc(m[2])}${key ? `<span style="position:absolute;left:-4px;right:-4px;top:0;bottom:0;border:3px solid ${T.teal};border-radius:999px"></span>` : ''}</span>${m[4] ? `<span style="display:inline-block">${esc(m[4])}</span>` : ''}`
+          : `<span style="display:inline-block">${esc(m[2] + m[4])}</span>`; }).join(' ');
+      cards.push(shell(x.t, `<div style="font:700 ${SFONT}px/1.5 'Nunito',sans-serif;color:${T.ink};padding-left:6px">${words}</div>`, ` data-lcs-capkind="${x.k}"`));
+    }
+  }
+  if (!cards.length) throw new Error('opinion-letters-g2 check: no cards for ' + mode);
+  return { bodyHtml: STYLE + `<div data-lcs-olcheck="${mode}|${lv}" data-lcs-noliga="${1}"${key ? ' data-lcs-iskey="1"' : ''} style="${LIGS}">` + fRoom(checkGrid(cards, { cols: 1 })) + `</div>`, meta: {} };
+}
+/** olCheckWrite — the writing task of the unit check: every question the plan and draft pages offer, or every topic of the
+ *  letter page (the bank's own words; the direction is the rubric's) */
+function olCheckWrite(mode, { locale }) {
+  if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`opinion-letters-g2 check: the prompts are English (no ${locale} bank)`);
+  if (mode === 'letter') return { tasks: (BANK.topics || []).map((t) => ({ id: 'letter:' + t.id, prompt: t.ask })) };
+  return { tasks: PROMPTS.map((p) => ({ id: 'opinion:' + p.id, prompt: p.q })) };
 }
 
 module.exports = { makeOpinionLettersType, olFaultsOf, LEVELS, INSTR, LINES, SPEC, writeParts, letterParts, addParts, drawOf, spread, emOf, PXCH };

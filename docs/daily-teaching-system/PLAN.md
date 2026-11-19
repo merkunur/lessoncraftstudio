@@ -1426,3 +1426,30 @@ All are Level Sets: three levels, up to five copies a level, visible to teachers
 - **Applied (commit `58c5409c1`, deployed):** Grade 1 Sounds and Short-Vowel Words takes the design's order, rhyming · sound boxes · first, middle, or last sound · word families · spell picture words (`scripts/units/year/reorder-g1-sounds.en.literacy.js`). Its unit check was rebuilt: the same cards by fingerprint, the parts in the new lesson order (read by me on the key). Curriculum pages: only lesson numbers moved. The teacher pages of every English check were rebuilt and uploaded: they now print the worksheet titles the maker-audit round corrected (Part 2 of Addition and Subtraction Within 10 says "Crossed Out: How Many Are Left?"); the teacher looks were rebuilt for the same reason (3 pictures replaced, the old ones pruned).
 - **Deploy:** exit 0, smoke tests, payment canary OK, identity PASS (287 pages, 11 shards). Live checks: units en 1,182 pass, assessments en 38 live of 42, 738 pass; the live page lists the five lessons in the new order and keeps its title and description.
 - **Open, in this order (plan `C:\Users\rkgen\.claude\plans\lexical-singing-kahan.md`):** unit checks for the 31 English units that have none (4 mathematics, 27 literacy) and the 4 pilot checks, in four waves (mathematics; literacy items; reading, with the text the teacher reads aloud on the key; writing, with a scoring guide); then readers to 60 with hubs and a screen version.
+
+### 2026-11-19: Stage B-2 is live: a unit check for every English unit; four reviews fixed the worksheets too
+
+- **Checks (commit `d79fe0e6b`, deploy 38):** all 73 English units have a live unit check. 31 are new (4 mathematics, 10 literacy items, 9 reading, 8 writing) and the 4 pilots went live. Live checks: assessments en 73 live of 73, 1,471 pass; units en 1,182 pass.
+  - **Reading parts** print their text on the card. A text only the teacher reads aloud (Kindergarten, Grade 1) stands on the key and on the teacher pages, never on the child's page: a build stop refuses a leak, a story the cards share prints once (`scripts/assessments/lib/reads.js`), and read-aloud rows are numbered on the child's page.
+  - **Writing parts:** the last part of every writing check is an on-demand task from the writing factory's own bank, scored with a guide (`scripts/assessments/rubrics/en.json`). Per point: Not yet / Nearly / Secure, what the work shows, one example of child writing, and what next. Content and conventions are scored apart. The key prints the scoring table; the teacher pages print the full guide and W columns in the class record. Gate T10 refuses a guide whose levels cannot be told apart, has no example, or lacks a "what next".
+  - **Builder:**
+    - a form prefers texts it has not printed, and form B texts form A did not print;
+    - a key that needs more room grows its row;
+    - Grade 2–3 checks open "Read each part carefully. Do one part at a time.".
+  - **Every check without a guide** was rebuilt and compared: 55 of 56 are byte-identical. k-counting-in-order-to-20 gained its lesson-3 part (K-020).
+- **Reviews:** one US K–3 teacher per wave, then second, third and final reads (`scripts/assessments/reviews/en.review-1119-*.json`). Every finding was fixed at its source and rebuilt. What stays as recorded:
+  - five design rows wait (unchanged);
+  - RI.1.9 / RI.2.9 and the whole-text main topic (RI.2.2) have no card that fits 330 px;
+  - check-only cold texts are new content for a later task;
+  - a G3 informational form repeats one of its own texts: 5 texts for 3 paragraph parts.
+- **Worksheet fixes (commit `1825b5ff8`):** the reviews read the worksheets the checks are cut from, and every defect was fixed at its source and republished in place. Each batch ran the HANDOFF section 6 chain, IDENTITY PASS each time:
+  - f1119a: 493 pages (mathematics in English, and G3-354 level 2 in 11 languages);
+  - f1119b: 360 English pages (literacy and reading);
+  - f1119c: 42 English pages (writing and reading).
+  - Details: `C:\Users\rkgen\lcs-fix1119\FIXLIST.md`. French and Portuguese pages that differed only by drift (a picture tile's background) were left out.
+- **Repoint lesson:** batch B first repointed only the families of its indexable pages. 27 noindex decks with landings were left self-canonical, then repointed (second pass 0). **Repoint every family of the republished decks, noindex included.**
+- **Maker templates changed by these fixes** (clock, measurement and money pages; G1-129, G3-362; the withdrawn pictures of G1-380, G1-493 and K-378): the maker bundles run behind the sources until the maker release, which is the next stage.
+- **Open, in this order:**
+  1. the maker release for the f1119 template fixes;
+  2. Stage B-3, readers 12 → 60 with hubs and a screen version;
+  3. then the approved plan (`C:\Users\rkgen\.claude\plans\logical-strolling-papert.md`) item 2 onward.

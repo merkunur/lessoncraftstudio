@@ -15,10 +15,12 @@ entry of `docs/daily-teaching-system/PLAN.md` and the last lines of the memory f
 - **Rules:** `CLAUDE.md` (rule 1: never waste the operator's usage; rule 2: a native-speaker check and a pedagogical
   check in every content task; pedagogical mistakes are fixed at once and live pages are republished in place).
 
-## 2. Where the programme stands (2026-11-18)
+## 2. Where the programme stands (2026-11-19)
 
 - LIVE: Parts 0 to 7, 11, 12.2 (batches A to Y), 8.1 readers. English units 54 with 330 lessons; German and Swedish
-  units for mathematics; unit checks en 42 / de 27 / sv 35; sub plans en and de.
+  units for mathematics; unit checks en 73 (every English unit, Stage B-2, deploy 38, 2026-11-19) / de 27 / sv 35;
+  sub plans en and de. Writing checks end with an on-demand writing part scored with a guide
+  (`scripts/assessments/rubrics/en.json`); reading checks print the read-aloud texts on the key and the teacher pages.
 - Part 9 (class results) is BUILT and switched OFF. Only the owner switches it on (`CLASS_RESULTS_ENABLED=1`).
 - 12.3 English literacy: **every buildable row of the year design is placed** (batch PP, 2026-11-17). English has 73
   units, 415 lessons and 8 plans, all live (K, Grades 1 to 3, mathematics and literacy). Grade 3 batch H (G3-498 to
@@ -64,7 +66,12 @@ captured 2026-11-18T22:34:15Z** (three sampled titles gained their tail, nothing
 
 ## 5. NEXT: the programme in the ruled order (approved plan, Stage B onward)
 
-1. **English literacy year (12.3) with readers to 60 (8.2).** Measured 2026-11-19 (plan
+0. **The maker release for the f1119 worksheet fixes** (NEXT): the fixes of 2026-11-19 changed maker templates (clock,
+   measurement and money pages, G1-129, G3-362, the withdrawn pictures of G1-380, G1-493 and K-378); the maker bundles
+   run behind the sources until `build-bundles.js` (about 2 h 10 min), the full gate suite (about 7 h), release-pack and
+   install. Then section 5 item 1 (c).
+1. **English literacy year (12.3) with readers to 60 (8.2).** (a) and (b) are DONE (B-2 live 2026-11-19, PLAN.md
+   entry of that date); (c) is next. Measured 2026-11-19 (plan
    `C:\Users\rkgen\.claude\plans\lexical-singing-kahan.md`): the units are complete; what is open is (a) the design
    order: the Grade 1 reorder is applied, the K story-order move and the "Choosing the Right Word" split are decided
    NOT to be made, and five rows wait (PLAN.md §11, ruling of 2026-11-19); (b) **unit checks for the 31 English units
@@ -101,7 +108,9 @@ Each stage ends deployed, verified live and recorded (PLAN.md entry, memory chec
 - **After ANY in-place republish, in this order:** `audit-update-injections.js` (+ `restore-update-injections.sh
   confirm`), `scan-lost-tails.js` and `restore-update-identity.js <list> --at=2026-11-18T22:34:15Z --confirm` (the baseline's "captured"; read it from the file if the baseline was taken again) (also for
   the list of exempt pages republished since the baseline), then `repoint-deck-canonical.js --types=<families>
-  --locale=<l>` as the LAST server step (never without `--types`; second pass must change 0), then
+  --locale=<l>` as the LAST server step (never without `--types`; second pass must change 0; the families of EVERY
+  republished deck, noindex included: noindex decks can have landings, and on 2026-11-19 27 were left self-canonical
+  when only the indexable decks' families were repointed), then
   `node scripts/seo/identity-snapshot.js --compare=docs/SEO/daily-system-baseline/baseline.json --origin=127.0.0.1` on
   the server, then clean `_staging`, `.publish-cli-staging/<batch>*` and the logs.
 - NEVER run `append-demand-title-tail.js --confirm` without `--slugs-file`: it would tail about 120,000 noindex copies.

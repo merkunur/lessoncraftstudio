@@ -1,5 +1,5 @@
 {
- "$comment": "What a reader of the checks ruled (scripts/assessments/reviews/). drop: lessons of a unit whose section is not in the check, by the lesson's key (its id, or its teaching point), with the reason. instruction: the direction line of a worksheet type when its cards stand in a check (the worksheet's own line is written for a whole page). noCheck: units that get no check, with the reason. blend: a worksheet type whose part also takes boxes from other types of the same lesson and shape, in turn. sameGiven: types whose form B box prints the numbers form A prints (the same fraction of another group). lowestTerms: types whose answer is a fraction that must not have a second right answer in smaller numbers. avoidAns: per type a pattern no answer of a box may match. pairKind: types of two fractions, taken only when they share the top or the bottom number, form B like form A. sameLook: types without numbers whose form B box has about as much drawing as form A (the same number of parts). theme: a type that takes its pictures from one theme in both forms. avoidPictures: pictures no check shows (by name). onlyPictures: per type the pictures its boxes are taken from. avoidText: words no box prints. onlyText: per type a pattern the text of a box must match. avoidEcho: types whose answer must not be a number the box prints. disjointWords: types whose boxes of a part share no word. keyNote: per type a line for the teacher under the direction, in the key only. parity: types about odd and even whose form B box is odd where form A is odd.",
+ "$comment": "What a reader of the checks ruled (scripts/assessments/reviews/). drop: lessons of a unit whose section is not in the check, by the lesson's key (its id, or its teaching point), with the reason. instruction: the direction line of a worksheet type when its cards stand in a check (the worksheet's own line is written for a whole page). noCheck: units that get no check, with the reason. blend: a worksheet type whose part also takes boxes from other types of the same lesson and shape, in turn. sameGiven: types whose form B box prints the numbers form A prints (the same fraction of another group). lowestTerms: types whose answer is a fraction that must not have a second right answer in smaller numbers. avoidAns: per type a pattern no answer of a box may match. pairKind: types of two fractions, taken only when they share the top or the bottom number, form B like form A. sameLook: types without numbers whose form B box has about as much drawing as form A (the same number of parts). theme: a type that takes its pictures from one theme in both forms. avoidPictures: pictures no check shows (by name). onlyPictures: per type the pictures its boxes are taken from. avoidText: words no box prints. onlyText: per type a pattern the text of a box must match. avoidEcho: types whose answer must not be a number the box prints. disjointWords: types whose boxes of a part share no word. keyNote: per type a line for the teacher under the direction, in the key only. parity: types about odd and even whose form B box is odd where form A is odd. distinctAnswers: types whose boxes of a part never print, as one of their options, the right answer of another box of the part.",
  "drop": {
   "k-sorting-tallies-days": {
    "K:heavy-light": "[en.review-k1-math] Which of two things is heavier has no sure answer for the pairs the generator draws (apple or pear; camel or panda)."
@@ -34,6 +34,12 @@
   "g3-words-and-their-meanings": {
    "3:context-clues": "The two page types of the lesson (G3-540, G3-541: a passage of 150 words with written meanings) were not read as check cards; the check keeps its four reviewed parts until they are.",
    "3:dictionary-glossary": "The two page types of the lesson (G3-542, G3-543: a dictionary page and a text with its glossary fill a page) were not read as check cards; the check keeps its four reviewed parts until they are."
+  },
+  "g3-rounding-adding-subtracting": {
+   "3:balance-equations": "[review en-3checks-f1116, part 5] The balance page works within 20 (Grade 1 work in a Grade 3 check), and its type has no page of a higher level: the lesson has no part until it has one."
+  },
+  "g2-writing-to-inform": {
+   "2:animal-fact-file": "[Wave 4, 2026-11-19] Both worksheets of the lesson (G2-339, G2-340) are templates of the worksheet makers: a check does not depend on them, and the lesson (choosing true facts about an animal) is the science of a fact sheet, not the writing the unit checks."
   }
  },
  "instruction": {
@@ -103,11 +109,135 @@
   "G3-397": "Write each word under \"go\" or \"look\".",
   "G3-398": "Look at each person, read the word beside them and write the person word in the empty box.",
   "G3-399": "Read the four words above the root word. Write the one that fits the sentence in the gap.",
-  "G2-315": "Look at the example in the box. Say the name of each picture, then write the missing letters in the dashed boxes."
+  "G2-315": "Look at the example in the box. Say the name of each picture, then write the missing letters in the dashed boxes.",
+  "G3-362": "Subtract one place at a time. Start with the ones. Regroup when you need to.",
+  "G2-241": "Count the sides of each shape. Circle its number of sides.",
+  "G2-247": "Is the dashed line a line of symmetry? Circle the check mark or the X.",
+  "G2-347": "Circle the tangram that matches the shadow exactly. Turned or flipped ones do not match.",
+  "G3-357": "Solve each problem. Regroup when you need to.",
+  "K-665": "Look at the three parts of the book. Circle the front cover. Put an X on the back cover.",
+  "K-669": "Circle the word in each box.",
+  "K-671": "I will read each sentence. Count the words. Write the number.",
+  "K-661": "I will say the name of each picture. Circle the word that names the picture.",
+  "K-662": "I will say the name of each picture. Circle the word that names the picture.",
+  "K-664": "I will say the name of each picture. Circle the word that names the picture.",
+  "G1-589": "Say the name of each picture. Circle the word that names it.",
+  "G1-584": "Say the name of each picture. Circle the word that names it.",
+  "G1-585": "ai comes in the middle of a word: rain. ay comes at the end: play. Write ai or ay to finish each word.",
+  "G1-586": "Say the name of each picture. Write ee or ea to finish its word.",
+  "G1-587": "oa comes in the middle of a word: boat. ow comes at the end: snow. Write oa or ow to finish each word.",
+  "G1-600": "Read each word. Write how many syllables it has.",
+  "G1-601": "Read each sentence. Circle the word that has two syllables.",
+  "G1-602": "Read each word. Draw a line between its two syllables.",
+  "G1-603": "Read each sentence. Write the heart word from the box that fits.",
+  "K-627": "Circle ten squares. Write how many squares are outside your circle. Then write how many squares there are in all.",
+  "K-448": "Count the dots in the two ten-frames. Write the number. Then finish the number sentence.",
+  "G1-275": "Only 0, 10, and 20 are printed. Count on to each arrow and write its number.",
+  "G1-229": "Count the coins. Write how much money there is in all.",
+  "G2-291": "Find each toy and its price. Add the prices. Write the total.",
+  "G3-327": "The numbers go down by the same amount each time. Write the missing numbers.",
+  "G3-344": "Compare the two clocks. Write how much time passed.",
+  "G3-356": "Start at the time on the clock. Add or subtract the time shown. Write the new time.",
+  "G3-345": "Read each thermometer. Write the temperature in degrees Fahrenheit.",
+  "G2-263": "Read the scale on each measuring cup. Write how many milliliters (mL) are inside.",
+  "G2-260": "Read the scale on each measuring cup. Write how many milliliters (mL) are inside.",
+  "G2-242": "Read each question. Count every flat face, edge, or corner, the hidden ones too. Write the number.",
+  "G3-326": "Find the rule of each pattern: the numbers go up or down by the same amount each time. Write the missing numbers.",
+  "G2-530": "Read the sentence. Circle the word that fits.",
+  "G2-533": "Read the sentence. Circle the word that fits.",
+  "G2-546": "Read the sentence. Circle the word that fits.",
+  "G2-531": "Read the rule on the card. Write the two letters that make a word.",
+  "G2-532": "Do what each card says: write the two letters that make a word, or circle moon or book for the sound of oo.",
+  "G2-545": "Read the riddle. Write the answer from its box.",
+  "G2-548": "I will say each word. Write the letters for each sound in a box. Then draw a heart over each tricky part.",
+  "G3-518": "I will say each word. Write the letters for each sound in a box. Then draw a heart over each tricky part.",
+  "G3-512": "Draw a line between the two syllables. Write C or O in a box for each syllable.",
+  "G3-514": "Draw a line between the syllables. Write the letter of each syllable’s type in a box.",
+  "G3-516": "Write the letter of each word’s meaning in its box. Add the suffix to the base word and write the new word on the line.",
+  "G3-531": "Read the word. Circle its job.",
+  "G3-533": "Read the sentence. Circle the right plural.",
+  "G3-534": "Write the past tense of the verb in ( ) on the line.",
+  "G3-536": "Circle the verb that agrees with its subject.",
+  "G3-521": "Circle the joining word that makes sense. Write it in the blank. If it is “and,” “but,” “or,” or “so” and it joins two sentences, put a comma in front of it.",
+  "G3-522": "Read the sentence. Circle its kind: simple, compound, or complex.",
+  "G3-525": "Circle the form that fits the sentence.",
+  "G3-526": "Write the owner and what it owns on the line. Use ’s for one owner and s’ for more than one owner.",
+  "G3-528": "Write the title with capital letters where they belong.",
+  "K-650": "Listen to the story and the question. Circle the picture that answers it.",
+  "K-652": "Listen to the story and the question. Circle the picture that answers it.",
+  "K-645": "Listen to the text and the question. Circle the picture that answers it.",
+  "K-648": "Listen to the text and the question. Circle the picture that answers it.",
+  "K-651": "Listen to the story. Write 1, 2, and 3 under the pictures: what happens first, next, and last.",
+  "K-653": "Listen to each sentence. Write its number under its picture.",
+  "K-647": "Listen to each sentence. Write its number under its picture.",
+  "K-646": "Listen to the text. Circle the picture that shows what the whole text is about.",
+  "K-649": "Listen to the two texts. Look at the picture in the box. Which text tells about it? Circle that text’s picture. If both texts tell about it, circle the box with both pictures.",
+  "K-685": "Listen to both stories. Look at the picture in the box. Which story tells about it? Circle that story’s picture. If both stories tell about it, circle the two rings.",
+  "G1-575": "Read the part of the text. Finish the answer.",
+  "G1-579": "Read the part of the story. Finish the answer.",
+  "G1-576": "Read the text. Write what it is mostly about.",
+  "G1-577": "Read the text. Use the headings to write the answer.",
+  "G1-580": "Read the part of the story. Write who is in it.",
+  "G1-581": "Read the part of the story. Circle its lesson.",
+  "G1-582": "Read the part of the story. Underline the word that tells how a character feels. Write it.",
+  "G1-583": "Who says or tells the sentence? Write the letter.",
+  "G2-519": "Read the paragraph. Circle what it is mostly about.",
+  "G2-520": "Use the glossary and the index to write the answers.",
+  "G2-521": "Study the diagram. Write the answer.",
+  "G2-522": "Read the steps. Circle the answer.",
+  "G2-576": "Read the beginning of the story. Circle the problem.",
+  "G2-578": "Read the story. Who thinks this? Write the letter, or X if nobody thinks it.",
+  "G2-580": "Read what each version tells. Circle Version 1, Version 2, or Both.",
+  "K-667": "I will read each sentence. Put a dot where you start reading. Draw an arrow to show which way you read and back to the next line.",
+  "K-378": "Say each picture's name. Draw a line to the letter team its name starts with.",
+  "K-658": "I will read the three words in each row. Circle the action word.",
+  "K-548": "Look at each picture. Circle the word or words that fit in the sentence.",
+  "K-656": "I will read each sentence. Does it tell or ask? Write a period or a question mark in the box.",
+  "K-657": "I will read the sentence. Look at the picture. Circle the words that tell where or when. Write them on the line.",
+  "G1-591": "Say the name of each picture. Circle the word that names it.",
+  "G3-497": "Read the paragraph. Circle what it is mostly about.",
+  "G3-498": "Use the text feature to answer the question. Write the answer.",
+  "G3-504": "Read the end of the story. Circle its central message.",
+  "G3-506": "Read the part of the story. Write the word from the list that tells what the character is like.",
+  "G3-572": "Read the poem. Circle the stanza that answers the question.",
+  "G3-574": "Read the story. Circle the name of the character who thinks this.",
+  "G3-576": "Read the sentence. Write L if the bold words are literal or N if they are nonliteral. Then write what they mean.",
+  "G3-577": "Read the two stories. Circle the sentence that is true of both stories.",
+  "G3-579": "Read the two texts. Circle Only Text 1, Both texts, or Only Text 2.",
+  "G3-580": "Read the text. Circle its most important point.",
+  "G3-494": "Read the text. Write the answer. In the box, write the number of the paragraph that proves it.",
+  "G3-502": "Read the part of the story. Write the answer. In the box, write the number of the paragraph that proves it.",
+  "G3-511": "Read the text and look at the diagram. Write the answer. Then check where you found it: diagram, text, or both.",
+  "K-673": "Your teacher reads each piece. Circle the sentence that tells what the writer likes best. Draw a line under the sentence that tells why.",
+  "K-675": "Your teacher reads each sentence. Is it about the thing in the picture? Put a check mark (yes) or an X (no) in each box.",
+  "K-677": "Your teacher reads the story. Write 1, 2, and 3 in the boxes to show the order.",
+  "K-679": "Your teacher reads the piece, the friend's question, and the sentences. Circle the sentence that answers the question.",
+  "G1-616": "Read the sentences of the story. Write 1, 2, or 3 in each box to show the order.",
+  "G1-618": "Read the opinion. Circle the reason that tells why.",
+  "G1-620": "Read the fact file. Which sentence is a closing? Circle it.",
+  "G1-622": "Each sentence has one mistake. Fix it: write the capital letter above the small letter, or add the end mark.",
+  "G2-571": "Read the true story. Circle the three words that tell the order of what happened (like First).",
+  "G2-574": "Each sentence has one mistake: a sentence that starts with a small letter, a name with a small letter, or a missing end mark. Fix it.",
+  "G2-565": "These sentences are for an informative piece. Cross out the sentence that does not belong.",
+  "G2-567": "Circle the linking word that fits: also, another, or and.",
+  "G2-569": "Read both books. Which book tells each note? Put a check mark under Book 1, Book 2, or Both.",
+  "G2-557": "Read the sentences of the opinion piece. Write the letter of each sentence in the box of its part.",
+  "G2-560": "A sentence is missing from the piece. Circle the sentence that fits on the line.",
+  "G2-561": "Circle the greeting or the closing that is written the right way.",
+  "G2-563": "Circle each word that needs a capital letter.",
+  "G3-548": "Read each sentence. Put a check mark under fact or opinion.",
+  "G3-550": "Circle the linking word that fits the sentence.",
+  "G3-552": "Read the opinion piece and its three endings. Write C next to the concluding statement, R next to a new reason, and X next to a sentence that changes the subject.",
+  "G3-554": "Each sentence has one mistake: a small letter at the start, a missing end mark, or a missing comma after For example. Fix it.",
+  "G3-556": "Read the sentence from a book. Circle the best note.",
+  "G3-558": "Read the notes. Circle the sentence that introduces the topic best.",
+  "G3-560": "Each part starts with a fact. For each sentence after it, put a check mark under definition or detail.",
+  "G3-564": "Read the beginning of the story. Circle the answer to the question.",
+  "G3-566": "Read the words in the speech bubble. Circle the sentence that is written the right way.",
+  "G3-568": "Read the tiny story. Circle the time word that fits the blank.",
+  "G3-570": "A tired word is underlined. Circle the more exact word that fits the sentence."
  },
- "noCheck": {
-  "k-teen-numbers-and-counting-to-100": "[2026-11-13] The parts a check can be cut from are three of the teen-number lessons; counting to 50 and to 100, counting on from any number and counting by tens (five of the eight lessons) are not in it: not a fair check of a unit with this name."
- },
+ "noCheck": {},
  "avoid": {
   "K-016": [
    10
@@ -165,7 +295,148 @@
   "G2-254 in g2-stories-facts-and-writing": "[second review 2026-11-15] \"Milo the Cat\" has three sentences against five of form A's story, and its first question is answered by the title: form B takes another story.",
   "G2-315 instruction": "[second review 2026-11-15] The box shows four patterns and one example, no rule to read.",
   "turnB": "[second review 2026-11-15] Both forms were answered in one order (a, an; right bin, left bin): form B stands in the other order.",
-  "K-064 askAgain": "[2026-11-15] The page now asks ON, UNDER and BESIDE in turn (it asked ON on every card). The place word is what a card asks, and there are three: form B may ask a place form A asks, with other pictures; a part never asks one place twice in a form."
+  "K-064 askAgain": "[2026-11-15] The page now asks ON, UNDER and BESIDE in turn (it asked ON on every card). The place word is what a card asks, and there are three: form B may ask a place form A asks, with other pictures; a part never asks one place twice in a form.",
+  "G2-261 sharesOk": "[unit check of g3-time-temperature-mass-volume, 2026-11-19] The weights are the schoolbook box (500, 200, 100 and 50 g): every balance prints some of them, and held apart no part about grams could be filled. A fact (the same weights) still never stands twice.",
+  "G3-344 kindAttr m": "[superseded 2026-11-19] [unit check of g3-time-temperature-mass-volume, 2026-11-19] The first clock starts on the hour or at half past; form B starts where form A starts (reading 7:30 to 9:30 is not reading 7:00 to 9:00).",
+  "G3-356 kindText": "[unit check of g3-time-temperature-mass-volume, 2026-11-19] A box adds or subtracts time; form B does what form A does (the answer is a time, so the cutter cannot see the sign by itself).",
+  "counting strips and charts sharesOk": "[unit checks of g1-hundreds-chart-skip-counting and k-teen-numbers-and-counting-to-100, 2026-11-19] A strip of tens, fives or twos, a piece of the hundreds chart and a strip that counts on all run through the same numbers: two boxes of a part (and form B beside form A) cannot help printing some of the same ones. A box of form B is still never form A's strip or piece.",
+  "counting strips avoidNums 0": "[2026-11-19] Counting never includes 0 (operator rule): a strip that starts at 0 is not taken.",
+  "G2-260 kindText": "[superseded 2026-11-19 by G2-260 blend avoidAns] [unit check of g3-time-temperature-mass-volume, 2026-11-19] Form A read 200 ml, a mark with its number printed, and form B 100 ml, a mark between two numbers: form B reads a printed mark where form A does, and an unprinted one where form A does. (The 1,000 ml cup has too few cups a page for that; the part is cut from the lesson's 2,000 ml cup, G2-263, held to the same rule.)",
+  "units g1-hundreds-chart-skip-counting": "[unit check, 2026-11-19] The lessons are \"1 more, 1 less, 10 more, 10 less\" and \"Count by tens, fives, and twos\" and each hands out one worksheet per step: a part cut from the first alone asked no 10 more and no fives or twos. Each part takes its boxes from the lesson's worksheets in turn (one strip of tens, one of fives, one of twos), under one direction line. Held to this unit (the strip of tens stands alone in the Kindergarten check of counting by tens).",
+  "G3-362 avoidAns": "[unit check of g2-add-subtract-within-1000, 2026-11-19] 900 − 873 = 27 prints two answer boxes under three digits: the boxes tell the child the answer is under 100 (the class the review found in 190 − 158). Every box has a three-digit answer. (2026-11-19: its check page now carries the answer digits, so the ruling reads them.)",
+  "G3-362 kindRegroup": "[unit check of g2-add-subtract-within-1000, 2026-11-19] 500 − 137 borrows across both zeros, 300 − 170 only once: a box of form B borrows as often as its box of form A.",
+  "K-637 kindText": "[unit check of k-teen-numbers-and-counting-to-100, 2026-11-19] Drawing 19 is two dots short of two full frames, drawing 12 two dots in the second frame: form B draws a number from the same half (11 to 15, or 16 to 20) as form A.",
+  "K-632 kindText": "[unit check of k-teen-numbers-and-counting-to-100, 2026-11-19] A strip whose empty box is the new ten (38, 39, _, 41) asks the hard step of counting on: form B has it where form A has it.",
+  "G2-261 take avoidEcho": "[unit check of g3-time-temperature-mass-volume, 2026-11-19] A part of balances takes two of them (three left no form B box of the same number of weights and about the same total), and never a balance with one weight: its answer is the number printed on the weight.",
+  "G3-362 instruction": "[unit check of g2-add-subtract-within-1000, 2026-11-19] The worksheet line says \"borrow\"; the part reads like the subtraction part before it (G2-502), in the U.S. word \"regroup\".",
+  "k-teen-numbers-and-counting-to-100 noCheck removed": "[2026-11-19] The ruling of 2026-11-13 (\"counting to 50 and to 100, counting on from any number and counting by tens are not in it\") no longer holds: the number chart to 50 and the hundreds chart give pieces of the chart as boxes, the count-on and count-by-tens strips are matched place for place, and the drawn teen number is keyed by its dots. Every one of the eight lessons has a part.",
+  "G1-129 K-633 otherLead": "[2026-11-19] Form B took a piece of the chart in the same three rows as form A (41 to 70 in both): form B takes a piece that ends in another ten when the pool has one.",
+  "G2-249 kindText mixKinds otherNums": "[review en-1119-math, 2026-11-19] Each form reads one time before the half hour and one after it (from :35), never an o'clock or half-past time (12:30 is Grade 1 work), box for box, and form B takes the time that shares the fewest numbers with form A.",
+  "G2-518 otherWords": "[review en-3checks-f1116, part 4] Form B told form A's tape story again with other numbers: form B takes the story that shares the fewest words with form A.",
+  "units g2-measurement-time-money sharesOk": "[review en-3checks-f1116, 2026-11-19] Held to this unit. Coins (25, 10, 5 and 1 cent), shelf prices and the minutes of the times to choose from (:15, :45 …) are few: two boxes of a part, or form B beside form A, cannot help printing some of the same ones, and held apart the check had no money part at all and no part on telling time once each form reads one time before the half hour and one after it. A box of form B is still never form A's task.",
+  "G2-291 otherTask": "[unit check of g2-measurement-time-money, 2026-11-19] Both forms asked a basket of 50 cents in their second box: form B takes no total form A has.",
+  "G2-241 instruction": "[review en-3checks-f1116, 2026-11-19] A box of the check is one shape above its own row of bins (the page's bins stand beside all its shapes): the child circles the bin instead of drawing a line to it.",
+  "G2-247 G2-347 instruction": "[review en-3checks-f1116, parts 2 and 4] \"mirror line\" and \"cross\" are not U.S. classroom words; the shadow direction did not say that a turned or flipped tangram does not match. Both lines are the reviewer's.",
+  "G2-242 avoidAns": "[unit check of g2-shapes-solids-symmetry, 2026-11-19] Form B asked the flat faces of a sphere (0): counting never includes 0 (operator rule). Without the sphere the page has four solids (cube 6, box 6, pyramid 5, cylinder 2), too few for two boxes in each form: the part asks one solid a form.",
+  "G2-346 G3-388 sharesOk take": "[review en-3checks-f1116, parts 1-2] A box is three lines (one that rounds down, one up, one with a 5); rounded tens and hundreds are few, so two boxes may share one, and one box a form is enough.",
+  "G3-357 avoidAns 2026-11-19": "[review en-3checks-f1116, part 4] 190 − 158 has two answer boxes under three digits: the boxes tell the answer is under 100. Every box has a three-digit answer (one-digit answers were already out). The check page of G3-357 now carries its answer digits (2026-11-19), so the ruling reads them, not the marks of the key.",
+  "G3-357 instruction": "[review en-3checks-f1116, part 4] The reviewer's line.",
+  "G3-389 kindText otherNums": "[review en-3checks-f1116, part 3] Form B rounded two numbers ending in 5 where form A had none, totalled 80 and 60 as form A did, and used 43 again: a box of form B has a number ending in 5 where its box of form A has one, and form B takes the box that shares the fewest numbers with form A.",
+  "G2-263 kindText": "[superseded 2026-11-19 by G2-260 blend avoidAns] [unit check of g3-time-temperature-mass-volume, 2026-11-19] As G2-260: a printed mark (500, 1,000, 1,500 ml) in form B where form A reads one, a mark between two numbers where form A reads one.",
+  "K-665 keyAttr": "[2026-11-19] Every card of the book-parts page offers the same three choices (front cover, back cover, title page), so the cutter fingerprints them all as one task and form B could never ask another; the book a card shows is what it asks about, so the cards are told apart by their book and form B takes books form A does not.",
+  "instructions of 2026-11-19": "[review en-1119-math, 2026-11-19] The reviewer's ten direction lines (\"Circle ten squares\", the coins without a purse, \"missing numbers\" for \"missing ones\", \"how much time passed\", degrees Fahrenheit, \"mL\"); G2-260 carries the G2-263 line (the part blends the two cups), G2-242 asks the question each card prints, G3-326 says up or down (the part blends the growing and the shrinking pattern).",
+  "G3-354 avoidAns": "[review en-1119-math, 2026-11-19] Part 1 asks time to the minute: no time on a five (12:30 is a Grade 1 half hour). The worksheet's wrong times are now the nearest five and the next hour (clock-tasks.js minuteFoils): the earlier time of a one-minute pair was right on every card.",
+  "G3-344 kindAttr dunit mixKinds take": "[review en-1119-math, 2026-11-19] The English page measures in hours and in minutes (3.MD.A.1): each form has one card in hours (one of them passes 12) and one in minutes (the unit written after the box), form B card for card as form A.",
+  "G2-260 blend avoidAns": "[review en-1119-math, 2026-11-19] One cup a form was thin: the part takes a 1,000 mL cup and a 2,000 mL cup, and only readings between two numbered marks (750 and 1,250 on unnumbered marks were good; 200 on a numbered one is reading a printed number).",
+  "units g1-hundreds-chart-skip-counting 2026-11-19": "[review en-1119-math, 2026-11-19] Part 4: the strip of fives printed the blanks of the strip of tens and the other way round. The three strips now keep apart: tens from 30 to 100 with blanks from 50 up, fives from 5 or 10 to 45 with blanks off the tens, twos below 40 with blanks off the tens. Part 3 (on the same page) hides no ten and prints no number from 11 to 49, so its answers are not on the strips and theirs are not on it; part 2's chart does not show 1 to 20, the answers of part 1 on its page. Part 2: each piece of the chart has one blank at the end of a row and two inside rows (check page of G1-129); part 4 B no longer copies A's blank places (the strip's kind is how many blanks, not where: check page of number-strip.js). (Second build: a strip of fives from 30 had passed as the strip of tens; the strip of tens is now the one whose third printed number is a ten, and part 3 prints no ten either.) (Third build: parts 1 to 3 stand on one page, and part 2's chart printed 59, an answer of part 3: part 2 is the chart from 21 or from 31 (to 50 or 60), part 3 asks only around numbers whose answers are 62 to 99 and none a ten.)",
+  "units k-teen-numbers-and-counting-to-100 2026-11-19": "[review en-1119-math, 2026-11-19] Parts 6 to 8 stand on one page, and part 6's chart printed part 7's answers (and part 7 part 6's). The ranges now keep apart: part 6 is the chart from 71 to 100 (it reaches 100, which the unit is named for) and hides no ten; part 7 counts on from 41 to 49 (strips end below 60) and hides no ten, never two boxes side by side, never the last box; part 8 counts by tens hiding only 20, 30, 40 or 60 (no ten another part prints). Part 5 is the chart from 21 to 50 (it reaches 50). Part 8 cannot end at 100 at the lesson's level (its strips stop at 80 or 90): recorded for the worksheet. (Second build: form B's piece of the chart to 50 hid two of form A's numbers in the same rows, so the chart to 50 is 11-40 or 21-50 (form B takes the other one) and hides nothing below 21, the teen numbers part 4 prints on its page; and two strips of one part printed each other's answers, so parts 7 and 8 ask one strip each: three boxes and two.) (Third build: form A asked 16 in parts 1, 2 and 3: part 1 makes 13 or 14, part 2 counts 15 to 17, part 3 draws 11 or 12 and 18 or 19, one of each in each form.)",
+  "G3-361 G2-502 two problems": "[review en-1119-math, 2026-11-19] One problem a part let one slip decide it: parts 1 and 2 take two problems (their check pages carry the answer digits, so two problems of a part are told apart): one addition making one new ten or hundred and one making both; one subtraction regrouping a ten for the ones and one regrouping a hundred for the tens; form B box for box as form A.",
+  "G2-517 keyAttr two": "[review en-1119-math, 2026-11-19] Form B's first ribbon was form A's second (4 clips, 2 craft sticks): a row is the same task as another with the same clips and unit, and a part has one ribbon measured in cubes and one in sticks of other lengths (check page).",
+  "G2-242 take mixKinds": "[review en-1119-math, 2026-11-19] The lesson is faces, edges and vertices: a part asks one solid's flat faces and one solid's edges or corners (the cards print the question; check page), never an answer of 0, and form B asks about other solids than form A.",
+  "G3-357 onlyText": "[review en-1119-math, 2026-11-19] B's third subtraction crossed a zero (502 − 147) and A's did not: across zeros is a lesson of its own, so no box of this part has a 0 in the tens of the number it subtracts from. The key now shows the 1s an addition carries.",
+  "G3-386 take": "[review en-1119-math, 2026-11-19] One sum a form was a coin flip: a box is the table and three sums, odd and even both among them (check page).",
+  "G3-326 blend onlyText": "[review en-1119-math, 2026-11-19] All four strips went down by 7 and one was the 7s facts backward: the part takes one growing pattern (G3-326, by 6) and one shrinking (G3-327, by 7), and no strip starts on 0 or on a multiple of 7.",
+  "G3-345 sharesOk": "[review en-1119-math, 2026-11-19] Each Fahrenheit card shows forty degrees of the scale around its reading, and the numbered marks (40, 50, 60 …) recur from card to card: two boxes of a part, and form B beside form A, cannot help printing some of the same ones. A reading is never asked twice.",
+  "G2-236 theme avoidAns": "[review en-1119-math-2, 2026-11-19] Form A drew a ferry shorter than a skateboard: the two objects of a card are drawn at any of their lengths, so their sizes in life must not contradict the drawing. The part measures a baguette and a tart in both forms: the tart is drawn 3 or 4 units long and, as no difference of 1 is asked, the baguette is always the longer one, as in life.",
+  "G2-260 sharesOk": "[review en-1119-math, 2026-11-19] The part takes two measuring cups a form (a 1,000 mL cup and a 2,000 mL cup); each prints its own scale, and the numbered marks (500, 1,000 …) stand on both cups. A reading is never asked twice, and never on a numbered mark (G2-260 avoidAns).",
+  "G3-362 keyAttr a": "[review en-1119-math, 2026-11-19] Both forms subtracted from 800: a problem of this part is told apart by the hundred it subtracts from, so form B subtracts from another one.",
+  "G2-249 avoidAns": "[review en-1119-math, 2026-11-19] Never an o'clock or half-past time (12:30 is Grade 1 work). And form B offered 9:10, form A's answer, as a wrong time: the check page's wrong times are now the lesson's errors (9:10 read 9:02, 2:50 read 3:50, the hands swapped), and no clock shows :05, :10, :25 or :50, the minutes at which such a wrong time is itself a time on the five-minute marks. The minutes left (:15, :20, :35, :40, :45, :55) are numbers the builder compares across the forms (lists otherNums), so form B takes clocks whose minutes form A neither asks nor offers.",
+  "G2-291 theme kindAttr mixKinds": "[review en-1119-math, 2026-11-19] Form A priced wild animals (a wolf, a moose, an orangutan) and asked one total that makes a new ten (25 + 45) where form B asked none: both forms price toys, and each asks one total whose two prices make a new ten and one whose prices do not (the check page marks which).",
+  "G1-229 keyAttr purse": "[review en-1119-math, 2026-11-19, second build] Form B's second purse held form A's coins (a quarter, a dime, a nickel and two pennies, 42 cents) in another order: a purse is told apart by the coins it holds, whatever their order, so form B never counts form A's purse again.",
+  "G1-229 kindAttr denoms": "[review en-1119-math, 2026-11-19, third build] Form B then counted a penny and four dimes where form A counted four kinds of coin: a purse is of the kind of how many different coins it holds, so form B counts purses as mixed as form A's.",
+  "G1-380 K-378 K-665 shapesOk": "[2026-11-19] The drawings on every card of these pages are the same furniture (the chips sh, ch and th; the drawing of a back cover), so the rule \"no figure of form A stands in form B\" read every form-B card as a repeat and the part could not be filled. What a card asks is its picture word (its book); form B still never repeats it.",
+  "G2-530 G2-531 G2-532 G2-533 kindAttr mixKinds": "[review en-1119-lit, 2026-11-19] The forms picked their cards each on its own, so A and B asked different kinds (A one short and one long answer, B two long; G2-532 A both first spellings, B both second): every card names its kind (short/long; a rule of the place or a look-right ee/ea; the first spelling ou, oi or the second ow, oy; ar/or) and form B asks the kinds form A asks. The first cards of a check page are one of each kind, so a part asks both.",
+  "G2-530 G2-533 G2-545 G2-546 otherWords": "[review en-1119-lit, 2026-11-19] Form B repeated a pair of form A (kit/kite: \"my art kit\" in A, \"the kite flew\" in B): form B takes the card that shares the fewest words with form A.",
+  "G2-532 take oo": "[review en-1119-lit, 2026-11-19] oo leads the lesson and its title, and neither form asked it: the check page has oo cards (level 1's sort of oo by its sound: moon or book), and the part takes three cards, a first spelling, a second spelling and an oo word. The cards carry their own task lines, so the direction says to do what each card says.",
+  "G2-543 G2-544 G2-545 take kindAttr": "[review en-1119-lit, 2026-11-19] Both forms answered with ir words only: the riddle card has its box beside its line (two riddles fit a part), its kind is the spelling of its answer, and a part asks two spellings in both forms.",
+  "G2-548 G3-518 instruction keyNote kindAttr": "[review en-1119-lit, 2026-11-19] The heart-word card printed the word and drew each box as wide as its letters, so it checked copying and gave the mapping and the heart away. The card now has no word: the teacher says it (the key prints it), the child writes it in boxes of one width (their count is given) and hearts each tricky part; every tricky part has a heart on the key (enough: ou and gh), and any of them is right. Kinds: could, would, should (G2) or enough, though, ocean (G3) and one other heart word, the same in both forms. because is left out of G2: e, au and se can each be called tricky.",
+  "G3-514 kindAttr": "[review en-1119-lit, 2026-11-19] Neither form had a vowel-team syllable, though V is in the legend and the title (the level-2 bank had none: added, with the page). Kinds v, e, l: each form starts with a vowel-team word and one other kind, form B the same two.",
+  "G3-516 take kindAttr otherWords instruction": "[review en-1119-lit, 2026-11-19] harmful/harmless stood in both forms, and only -ful and -less were asked. The part takes a match card (two pairs, -ful/-less) and a word to build in a sentence (-ness or -ment, the level's own suffixes), and form B shares no base with form A.",
+  "G3-531 kindAttr mixKinds": "[review en-1119-lit, 2026-11-19] A asked a pronoun and an adverb, B a noun and a verb: the card's kind is its job, and form B asks the jobs form A asks. Nouns of things (pumpkin: pumpkin pie) are no longer cards: the nouns are people and animals.",
+  "G3-533 kindAttr mixKinds": "[review en-1119-lit, 2026-11-19] A asked the y rules, B -es after sh and ch: each form asks one -es or -ies plural and one that changes the word (-ves: knives, wolves, loaves); no plain -s card. The level-2 page and the lesson notes keep the irregular nouns (mice, teeth) for level 3, so the check does too.",
+  "G3-536 kindAttr mixKinds": "[review en-1119-lit, 2026-11-19] A had a noun of the other number between subject and verb in both items, B in neither: every card now has one (The box of crayons; The flowers in the pot), and each form asks one singular and one plural subject.",
+  "G3-521 G3-522 G3-525 G3-526 kindAttr mixKinds take": "[review en-1119-lit, 2026-11-19] Each form asked other kinds: joining words with and without a comma (because); simple with a list, compound, complex (three cards); the word as it is, -er/more, -est/most (three cards: no form lacked a superlative); one owner and more than one. The first cards of a check page are one of each kind, and form B asks the kinds form A asks.",
+  "G3-521 G3-526 instruction": "[review en-1119-lit, 2026-11-19] The reader's direction lines: the comma rule read aloud word by word; \"who owns it\" while the key expects the owner and what it owns.",
+  "W3A keyAttr text": "[2026-11-19] A reading card asks about one text; the cards of a text all look alike to the cutter, so the text a card prints (data-lcs-text) tells them apart and form B asks about other texts than form A.",
+  "K-685 K-649 take": "[2026-11-19] Each card is two texts the teacher reads (60 to 90 words each): one card per part.",
+  "K-665 K-378 K-658 K-548 K-656 K-657 instruction": "[review en-1119-lit, 2026-11-19] The reader's direction lines: one book in each box (not \"each book\"); the Kindergarten sort asks how the name STARTS; a Kindergarten direction says \"I will read\" (L.K.1.b and L.K.2.b are oral or punctuation skills: a pre-unit Form A must not fail a child on decoding).",
+  "K-667 G1-591 instruction": "[review en-1119-lit, 2026-11-19] New parts (left to right, top to bottom; blends at the end): the direction names what the card asks. The lesson pages state a concept, not a task.",
+  "G1-380 K-378 G1-589 G1-584 G1-602 K-660 K-656 G1-493 kindAttr mixKinds": "[review en-1119-lit, 2026-11-19] Each form had picked its boxes on its own, so A and B tested different kinds: two short words in A and two silent-e words in B (G1-584), four ck answers and no ng (G1-589), two compound words in A (G1-602), two asking sentences in A so that ? twice scored 100% (K-656), the capitalized sentence always the lower one (K-660). A box names its kind (the team, the spelling, short or silent e, compound or two-part, top or bottom, tell or ask, the blend); a part asks different kinds and form B asks the same kinds card by card.",
+  "G1-380 G1-591 take": "[review en-1119-lit, 2026-11-19] sh, ch and th: three boxes, one per team, in both forms. Blends at the end: the level-2 page pictures two words (hand, lamp), one box in each form.",
+  "G1-584 K-656 G1-603 otherWords": "[review en-1119-lit, 2026-11-19] Form B repeated form A: a base word (kit / kite), a question (\"Can the dog run\" after \"Can the pig run\"). Form B takes the box that shares the fewest words with form A.",
+  "G1-493 onlyPictures": "[review en-1119-lit, 2026-11-19] The lesson names st, fl and tr; the forms had asked sp, fl, pl and br, and B a picture of pliers (a word first graders do not know). The part takes st, fl and tr words a first grader names: every form asks st or tr.",
+  "G1-495 shapesOk": "[review en-1119-lit, 2026-11-19] Long or short vowel?: every box offers the same two marks (a line for long, a curve for short), furniture, not a figure of the task; form B could take no box while the same-figure rule held, and the lesson had no part.",
+  "K-658 otherWords": "[review en-1119-lit, 2026-11-19, the rebuilt check] Form B printed a naming word of form A (lid): form B takes the row that shares the fewest words with form A.",
+  "G1-495 avoidPicturesOf": "[2026-11-19, the rebuilt check] The long-or-short boxes keep no record of their pictures, and form B showed the slide of part 1 again: the pictures of the silent-e part (G1-584) stay out of this part.",
+  "W3B keyAttr text": "[2026-11-19] A Grade 3 reading card asks about one text (data-lcs-text); form B asks about other texts than form A.",
+  "G2-372 kindOnly": "[2026-11-19] Every card of this page asks one thing: circle each sh in a sentence and write how many. The cutter took the word shape of each sentence as its kind, so form B never found a card of form A's kind and the lesson had no part; the kind is replaced by one kind for all its cards.",
+  "units k-teen-numbers-and-counting-to-100 K-634": "[review en-1119-math-2, 2026-11-19] Part 4 asked \"14 = 10 + 4\", part 1's fact, in both forms. Part 1's rows are now read as the facts they are (its check page keeps the page's grid, so a row of 10 and 4 squares is the fact 4, 10, 14), and a fact stands once in the whole check: part 4 asks no teen number that part 1 or part 2 asks in either form. Part 4 leaves 13 and 14 to part 1 (a fact stands in one form only, so part 1 needs both).",
+  "units g1-hundreds-chart-skip-counting G1-123 second read": "[review en-1119-math-2, 2026-11-19] Part 4 had lost its strip of 5s while the direction names 10s, 5s and 2s, and form B counted A's strips again with the blanks moved. The part takes one strip of each (blend G1-124, G1-125). The 10s strip starts at 20 or 30 and hides only 60 to 100; the 5s strip starts at 5, 10, 15 or 20 and hides only odd fives (15, 25 …); the 2s strip hides no ten. So no strip prints another strip's blank (the 5s strip stops at 55, the 2s strip at 40). Form B starts every strip on another number than form A (lists otherFirst).",
+  "G2-518 kindAttr avoidHtml": "[review en-1119-math-2, 2026-11-19] Both forms were put-together additions without a new ten, so adding every pair (the lesson's named error) won. Each form now asks a take-away or compare story that needs a ten taken apart, form B of the same kind as form A (kindAttr regroup), another story with other words (otherWords). The key writes under each story the addition that also fits its bar, with that story's numbers (check page), instead of a note with another story's numbers.",
+  "G2-291 instruction": "[review en-1119-math-2, 2026-11-19] The part prices toys: the reviewer's line.",
+  "G3-514 take": "[review en-1119-lit-2, 2026-11-19] Adding the vowel-team syllable took consonant-le out of both forms, and the title names silent e, vowel team and consonant-le. The part takes three cards, one of each kind (v, e, l: the pool leads with one of each), form B the same three kinds.",
+  "G3-516 take": "[review en-1119-lit-2, 2026-11-19] -able is in the lesson's title and objective (washable) but the level-2 page has no -able word, so the check never asked it. The level-2 pool now has a third kind, an -able word to build whose base does not change (wash + able); the part takes three: a match (-ful/-less), a -ness/-ment word and an -able word, form B the same kinds.",
+  "G3-531 take": "[review en-1119-lit-2, 2026-11-19] Only adjective and pronoun were asked, so the lesson's main mistake (every -ly word read as an adverb) went untested. The part takes three: an -ly adverb (softly), an -ly adjective (lonely, chilly) and a word of another job; form B the same three kinds.",
+  "G2-548 G3-518 keyNote": "[review en-1119-lit-2, 2026-11-19] The bank hearts unstressed vowels and s = /z/ unevenly (because hearts its se, does does not; ocean hearts ea, again and island do not), and the key did not say whether an extra heart costs the point. It does not. The G2-548 note no longer names because, a word the page does not ask.",
+  "K-685 K-649 take kindAttr mixKinds": "[en.review-1119-read] One three-way card was a 33% guess and decided the part. Each form now reads ONE pair (the teacher reads it once) and its page holds a Both card and a card one story (text) tells, marked data-lcs-sortkind both/one: kindAttr + mixKinds make the part take one of each, at two different right places (both = the middle option). Two cards are 124 px (K-685) and 132 px (K-649) high, inside SECTION_MAX. Replaces the 2026-11-19 'one card per part' ruling, whose reason (each card carried the two texts) no longer holds: both cards of a part read the same pair.",
+  "K-685 K-649 instruction": "[en.review-1119-read] The reviewer's own wording: the direction names what the card shows (the animal or the text's picture; the two rings, the box with both pictures). The teacher-read question on each card ends the same way.",
+  "G1-580 instruction": "[en.review-1119-read] In a form the part's page puts the where card after the who card with the same text id, so keyAttr 'text' keeps the who card only; the direction names who only (it named 'where' the card lacked).",
+  "G1-581 instruction": "The card prints the middle and the end of the story, not the whole story.",
+  "G1-582 instruction": "[en.review-1119-read] In a form the part asks only feeling words; the direction named a sense word and a body part the card lacks.",
+  "G1-577 instruction": "In a form the part asks only heading questions (a bold-word question is copying); the direction named bold words, a caption and a glossary the card does not ask about.",
+  "G2-520 instruction keyNote": "[en.review-1119-read] The lesson is Glossary and Index: in a form ONE card prints the glossary and the index side by side and asks 'What does the word ___ mean? Use the glossary.' and 'On which page can you read about ___? Use the index.' (two lines, data-lcs-answer each). No more bold-word cards. 266 px (form A, beavers) and 286 px (form B, bats). The old key note matched no item.",
+  "G2-522 instruction": "[en.review-1119-read] The card now prints the steps its why-question reads in full (the chips, the pulp and the sheet are explained) and asks the bank's before-question ('Why must the chips be cooked before the sheet of paper can be made?') with three answers to circle; 'Circle the word that starts the step' no longer describes it.",
+  "G2-576 instruction": "[en.review-1119-read] The reviewer's wording: the card prints the beginning only and has one question ('parts' was wrong).",
+  "G2-578 instruction keyNote": "[en.review-1119-read] The part is now RL.2.6 points of view: the paragraphs where the characters show what they think and one view of the page's views task, 'Who thinks this?', answered with the character's letter or X (the page's nobody view). The speaker's name no longer stands next to marked words.",
+  "G3-576 kindAttr mixKinds": "[review en-1119-read, 2026-11-19] All four items were N, so writing N every time scored every point. Each card now says L or N (data-lcs-use), and each form takes one literal and one nonliteral item.",
+  "G3-574 posA": "[review en-1119-read, 2026-11-19] Form A was third person and form B an I-narrator, and the right name stood first in both. The check now draws only I-narrator stories (bike, rain, city, snail, bus, sunflowers, messy room), names in a drawn order; form A's right name stands second, form B prefers another place.",
+  "G3-577 instruction posA": "[review en-1119-read, 2026-11-19] Both cards only asked where one detail is, below RL.3.9. A card now shows both stories and three sentences: one true of both (characters, setting, what one does for the other), one of only Story 1, one of only Story 2; the child circles the one true of both. Form A's right sentence stands third, form B prefers another place.",
+  "G3-572 posA": "[review en-1119-read, 2026-11-19] The stanza lesson gave no part (its poems were cut off at the card's edge). The stanzas now stand closer and only poems that fit give cards (seven of eight); one card, form A's right stanza is Stanza 2, form B prefers another.",
+  "G3-498 kindAttr mixKinds take": "[review en-1119-read, 2026-11-19] RI.3.5 text features and search tools were left out; the G1 and G2 checks test them. The part takes two cards: an index card (answer written as 'page 4' or 'pages 3 and 4') and a glossary card.",
+  "G3-501 G3-507 keyNote": "[review en-1119-read, 2026-11-19] Pairs where the text allows a second cause or effect (penguins, space station, stone soup, fox and stork, ant) now print it on the key as 'Also right'; the note says to accept those.",
+  "G3-511 keyNote": "[review en-1119-read, 2026-11-19] A child may write 'an oak tree' (the first step's label) for the oak's last step, 'a young oak tree'.",
+  "G3-579 kindAttr posA": "[review en-1119-read, 2026-11-19] Parts 1, 3 and 4 had the first option right in both forms (the pool kept the first fact of each text pair, always one of Text 1 only). Each card now says whether its fact is in both texts or in one (data-lcs-where) and the hook gives the facts in a drawn order; form A takes a fact of both texts (Both texts, the middle option), as the reviewer asks, and form B a card of the same kind.",
+  "G3-494 G3-502 G3-511 instruction": "[review en-1119-read2, 2026-11-19] A check card asks ONE question; the worksheet's 'Write each answer' does not fit it (the reviewer's wording).",
+  "G3-511 keyNote (2)": "[2026-11-19] The note named the oak, a text that is in neither form; it now states the rule only.",
+  "K-685 instruction (2)": "[review en-1119-read2, 2026-11-19] The read-aloud now names each story by its picture ('Story 1, with the lamb picture'); the direction says 'picture' too.",
+  "writing units keyAttr text": "[Wave 4 writing checks, 2026-11-19] Every card of these check pages asks about one item of its bank (a piece, a topic, a story, a sentence); a card of another seed may print the same item in another order or with another mistake, which the cutter would take for another task. data-lcs-text names the item, so form B asks other items than form A.",
+  "K-673 instruction keyNote": "[Wave 4] The page's line ('An opinion tells what you like best. A reason tells why.') teaches; the card needs the direction. One point for both marks: the two sentences are the opinion and its reason, and a child who knows one knows the other's place only by guessing.",
+  "K-675 instruction": "[Wave 4] The page names its one topic ('Is it about the cat?'); a card of the check shows its own picture and name, and the direction points to it.",
+  "K-677 G1-616 kindOnly": "[Wave 4] The answers are numbers (2|3|1), so the cutter keeps the word shape of the sentences as the kind and no two stories would ever be of one kind: every card of these pages is one kind of task, to number three events.",
+  "K-679 instruction": "[Wave 4] The page's line teaches; the card needs the direction. The card shows the question (the friend's name is read in data-lcs-teacher-reads).",
+  "G1-618 instruction": "[Wave 4] The page matches opinions and reasons with lines; a card holds one opinion and three reasons of other kinds that the bank does not let stand with it, so the direction asks for the one that tells why.",
+  "G1-620 instruction": "[Wave 4] The page's third task line, for a card that shows the fact file it closes.",
+  "G1-622 G2-574 G3-554 kindAttr mixKinds take keyNote": "[Wave 4] A card is one sentence with one planted mistake of the page's kinds (capital at the start, end mark, small i or a name; G3: the comma after For example). The part takes one card of each kind (data-lcs-fault) and form B the same kinds, so no form is all capitals. Three one-line cards stand within the part's height.",
+  "G2-571 instruction": "[writing review 1119] Both stories hold time phrases that do not tell the order (on Saturday, at recess on Friday), which a second grader calls time words: the direction asks for the words that tell the order of what happened.",
+  "G2-565 instruction": "[Wave 4] The level-2 page sorts facts and crosses out the opinion that does not belong; a card holds three facts of a mentor topic and its opinion.",
+  "G2-567 kindAttr mixKinds": "[Wave 4] Each gap takes one of also, another, and; a part asks two different words (data-lcs-want), form B the same two.",
+  "G2-569 instruction": "[Wave 4] The page's line asks for notes; the card is its which-book table made small (the books and three notes, never all from one place).",
+  "G2-557 instruction keyNote": "[Wave 4] The page's plan task: the letters of the sentences in the boxes of Opinion, Reasons, and Closing sentence; the reasons may stand in any order, as the page's key says.",
+  "G2-560 instruction": "[Wave 4] The level-2 revise page: a reason is missing; the pieces of G2-557 and G2-560 are disjoint in the check (even and odd places of the bank), so a reason marked in part 1 is never the answer of part 2.",
+  "G2-561 kindAttr mixKinds": "[Wave 4] A card is a greeting or a closing written three ways (data-lcs-formkind); a part asks one of each, form B the same.",
+  "G2-563 kindAttr mixKinds": "[Wave 4] Level 2 asks holidays and places; a part asks one sentence of each kind (data-lcs-capkind), form B the same.",
+  "G3-548 kindAttr mixKinds": "[Wave 4] A card is a fixed group of three sentences, two facts and an opinion or one fact and two opinions (data-lcs-fomix); a part asks one group of each, so no form answers fact, fact, opinion twice.",
+  "G3-550 kindAttr mixKinds": "[Wave 4] The gaps give a reason, a result, or an example; a part asks two different jobs (data-lcs-linkkind), form B the same jobs.",
+  "G3-552 instruction": "[Wave 4] The level-2 page: C, R, or X beside each ending; the card is one piece and its three endings.",
+  "G3-556 kindAttr mixKinds": "[Wave 4] The page's rule: the right note is not the shortest on every item. data-lcs-notelen says whether it is; a part asks one of each, so length decides no part.",
+  "G3-558 instruction": "[Wave 4] The page's first task; a card holds one model's notes and the sentences of the level. A model whose introduction is longer than every other choice gives no card (length would tell).",
+  "G3-560 instruction": "[writing review 1119] Every detail is a fact too, so a Fact column after the fact had two right answers: the page and the check give each part's fact and ask only definition or detail for the sentences after it.",
+  "G3-564 instruction": "[Wave 4] The level-2 page asks four questions about a story's beginning; a card asks one (What goes wrong?), with the page's near choices of the level.",
+  "G3-566 kindAttr mixKinds": "[Wave 4] A card is one speech bubble; a part asks one question and one telling sentence (data-lcs-dlgtag), form B the same.",
+  "G3-570 kindAttr mixKinds take": "[Wave 4] A part asks three sentences with three different tired words (data-lcs-tired), form B the same tired words; three cards of one or two lines stand within the part's height.",
+  "G3-560 keyNote": "[Wave 4] The rule box tells the child that each part starts with a fact, so the first sentence is a given: it is marked on the key and carries no data-lcs-correct (otherwise every card had its first right answer in the same place and a part could take only one card).",
+  "G3-498 keyNote": "[review en-1119-read2, 2026-11-19] The glossary card matched a definition word for word; it now asks what a word means (\"What does the word treadmill mean?\"), so the key's definition is one wording of the answer. Every index card now asks a word printed on two pages (both forms alike: walls, pages 3 and 4).",
+  "G3-570 distinctAnswers": "[Wave 4, 2026-11-19] Each sentence offers three words, one of them right; a wrong word of one sentence can be the word another sentence of the same part wants (shouted for one said, tall for one big), and a child could take it from there. The part takes only boxes whose words hold no right answer of another box (the page itself keeps this rule).",
+  "g2-writing-to-inform drop 2:animal-fact-file": "[Wave 4, 2026-11-19] Both worksheets of lesson 1 (G2-339, G2-340) are templates of the worksheet makers; the brief of the writing checks leaves such a lesson out of the check.",
+  "G1-616 instruction": "[writing review 1119] The check no longer prints the story above its three events (numbering them was copying): the child reads the sentences and puts them in order.",
+  "G2-571 keyNote": "[writing review 1119] The key says whether After alone earns the point: it does.",
+  "G3-560 keyNote (removed)": "[writing review 1119] The key no longer marks the first sentence (it is given as the fact, with no box), so the note that said it scores no point is gone.",
+  "G2-567 take": "[writing review 1119] Both forms answered and, then another; also was never right, the word the writing guide rewards: a part takes one gap of each word (also, another, and).",
+  "G3-550 take": "[writing review 1119] Form A asked a fronted Since, form B a mid-sentence because, and For example was never right: the check's reason gaps start the sentence and take Since, and a part takes one of each kind (Since, therefore, For example) in both forms.",
+  "G1-618 otherWords": "[writing review 1119] Form B's two answers were form A's lures: form B takes the boxes that share the fewest words with form A's.",
+  "G3-570 otherWords": "[writing review 1119] Form B reused form A's tired words and choices: the check now pairs the tired words (said with looked, big with nice, went with good), a form asks one word of each pair, and form B takes the box that shares the fewest words with form A's, the other word of the pair.",
+  "K-020 sharesOk": "[review en-1119-final, 2026-11-19] Every counting strip to 20 holds the teens, so form B always shares numbers with form A; the gaps differ, which is what the part asks.",
+  "K-020 take": "[2026-11-19] Two strips per form asked the same missing number twice in one form (10 in both); one strip per form, with other gaps in form B."
  },
  "blend": {
   "G3-364": [
@@ -173,6 +444,12 @@
   ],
   "G2-255": [
    "G2-256"
+  ],
+  "G2-260": [
+   "G2-263"
+  ],
+  "G3-326": [
+   "G3-327"
   ]
  },
  "sameGiven": [
@@ -187,7 +464,13 @@
   "K-231": "^(?![bcdfghjklmnpqrstvwxyz]\\|[aeiou]\\|[bcdfgklmnpstvxz]$)",
   "K-221": "^[AEIOUaeiou]$",
   "G1-106": "^[15]$",
-  "G3-357": "^1:"
+  "G3-357": "^\\d(\\|\\d)?$",
+  "G3-362": "^\\d(\\|\\d)?$",
+  "G2-242": "^0$",
+  "G3-354": "^\\d+:\\d[05]$",
+  "G2-260": "^(200|400|500|600|800|1000|1500)$",
+  "G2-249": "^\\d+:(00|30|05|10|25|50)$",
+  "G2-236": "^1$"
  },
  "pairKind": [
   "G3-319"
@@ -200,7 +483,9 @@
   "K-063": "animals",
   "K-329": "animals",
   "G1-312": "animals",
-  "G1-305": "animals"
+  "G1-305": "animals",
+  "G2-236": "bakery",
+  "G2-291": "toys"
  },
  "avoidPictures": [
   "vulture",
@@ -239,15 +524,28 @@
    "butterfly",
    "cat",
    "dog"
+  ],
+  "G1-493": [
+   "star",
+   "stairs",
+   "flag",
+   "flamingo",
+   "train",
+   "tractor",
+   "trumpet",
+   "triangle"
   ]
  },
  "onlyText": {
   "G1-337": "^(hot|happy|wet|good|loud|clean|lost|sweet|sick|true) ",
-  "G2-339": "^(Owl|Lion|Tiger|Wolf|Shark|Eagle|Cow|Horse|Sheep|Goat|Giraffe|Elephant|Zebra|Deer|Bear)\\s"
+  "G2-339": "^(Owl|Lion|Tiger|Wolf|Shark|Eagle|Cow|Horse|Sheep|Goat|Giraffe|Elephant|Zebra|Deer|Bear)\\s",
+  "G3-357": "^(?!\\d 0 \\d −)",
+  "G3-326": "^(?!(0|42|49|56|63|70|77|84|91|98|105|112|119|126) )"
  },
  "avoidEcho": [
   "G3-312",
-  "G3-350"
+  "G3-350",
+  "G2-261"
  ],
  "disjointWords": [
   "G1-395",
@@ -258,7 +556,29 @@
   "G1-260": "These words are not spelled the way they sound. In both forms, give 1 point for each word whose spelling shows every sound in order (for example, “zebru” for zebra).",
   "G2-353": "The same number marks a word and the name it stands for.",
   "G2-356": "Another correct question that asks for the highlighted words is right too (for example “What time …?” for “When …?”).",
-  "G1-395": "You may read the four words aloud."
+  "G1-395": "You may read the four words aloud.",
+  "G3-512": "Give the point when the line stands between the right letters and every box is right.",
+  "G3-514": "Give the point when the line stands between the right letters and every box is right.",
+  "G2-548": "Say each word; it stands over its boxes on this key. Give the point when the word is spelled right, one sound in each box. A heart over any part that has a heart here is right. An extra heart on a vowel that says /uh/, or on an s that says /z/, does not lose the point.",
+  "G3-518": "Say each word; it stands over its boxes on this key. Give the point when the word is spelled right, one sound in each box. A heart over any part that has a heart here is right. An extra heart on a vowel that says /uh/, or on an s that says /z/, does not lose the point.",
+  "G1-575": "Give the point for the same fact in the child’s own words.",
+  "G1-579": "Give the point for the same fact in the child’s own words.",
+  "G1-576": "Give the point for the same main topic in the child’s own words.",
+  "G1-580": "Accept the two names in either order, with or without their animal.",
+  "G2-520": "Two answers. Glossary: give the point for the same meaning in the child’s own words. Index: the page number alone (for example 2) is right too.",
+  "G3-494": "Accept any answer with the same meaning.",
+  "G3-502": "Accept any answer with the same meaning.",
+  "G3-501": "Accept the same cause or effect in other words, or another answer the key names.",
+  "G3-507": "Accept the same cause or effect in other words, or another answer the key names.",
+  "G2-578": "X is the answer when nobody in the story thinks it.",
+  "G3-511": "Accept any answer with the same meaning. The name of a step is the name the diagram gives it.",
+  "K-673": "Give the point when the sentence that tells what the writer likes best is circled and the sentence that tells why has a line under it.",
+  "G1-622": "Give the point when the capital letter is written or the end mark is added in the right place.",
+  "G2-574": "An exclamation point is right too where the sentence can take one.",
+  "G2-557": "The reasons may stand in any order.",
+  "G3-554": "An exclamation point is not right here: these sentences are statements.",
+  "G3-498": "Accept the meaning in the child's own words. For the index, both page numbers.",
+  "G2-571": "A time word of two words (After that) earns the point when the child circles it whole or its first word (After)."
  },
  "parity": [
   "G2-351"
@@ -290,12 +610,178 @@
    "avoidText": [
     "milo"
    ]
+  },
+  "g1-hundreds-chart-skip-counting": {
+   "blend": {
+    "G1-123": [
+     "G1-124",
+     "G1-125"
+    ],
+    "G1-131": [
+     "G1-132"
+    ]
+   },
+   "take": {
+    "G1-123": 3
+   },
+   "instruction": {
+    "G1-123": "Each strip counts by 10s, 5s, or 2s. Find how it counts. Write each missing number.",
+    "G1-131": "Look at the signs. Write the number that is less and the number that is more."
+   },
+   "otherLead": [
+    "G1-131"
+   ],
+   "avoidAns": {
+    "G1-123": "(^|\\|)[1-5]0(\\||$)",
+    "G1-131": "(^|\\|)(\\d|[1-5]\\d|6[01]|\\d*0)(\\||$)"
+   },
+   "avoidNums": {
+    "G1-131": [
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     39,
+     40,
+     41,
+     42,
+     43,
+     44,
+     45,
+     46,
+     47,
+     48,
+     49,
+     50,
+     60,
+     70,
+     80,
+     90,
+     100
+    ]
+   },
+   "avoidHtml": {
+    "G1-129": "data-lcs-start=\"(?!(21|31)\")\\d+\"",
+    "G1-123": "data-lcs-step=\"10\"><span[^>]*data-lcs-val=\"(?!(20|30)\")\\d+\"|data-lcs-step=\"5\"><span[^>]*data-lcs-val=\"(?!(5|10|15|20)\")\\d+\""
+   },
+   "otherFirst": [
+    "G1-123"
+   ]
+  },
+  "g2-measurement-time-money": {
+   "sharesOk": [
+    "G1-229",
+    "G2-291",
+    "G2-249"
+   ]
+  },
+  "g3-rounding-adding-subtracting": {
+   "dropType": {
+    "G2-221": "[review en-3checks-f1116, part 1] The number line of this worksheet rounds two-digit numbers (Grade 2) and its two tens to circle stood in the same place in both forms: the part is cut from the lesson's second worksheet (G2-346), three-digit numbers written rounded.",
+    "G3-323": "[review en-3checks-f1116, part 2] The hundred to circle stood in the same place in both forms: the part is cut from the lesson's second worksheet (G3-388), the rounded hundred written in its box."
+   }
+  },
+  "k-teen-numbers-and-counting-to-100": {
+   "avoidHtml": {
+    "K-633": "data-lcs-start=\"(?!(11|21)\")\\d+\"",
+    "G1-129": "data-lcs-start=\"(?!71\")\\d+\"",
+    "K-637": "data-lcs-count=\"(1[3-7]|20)\""
+   },
+   "onlyText": {
+    "K-632": "^4[1-9] "
+   },
+   "avoidAns": {
+    "G1-129": "(^|\\|)\\d*0(\\||$)",
+    "K-632": "(^|\\|)\\d*0(\\||$)",
+    "G1-123": "(^|\\|)(50|70|80|90)(\\||$)",
+    "K-633": "(^|\\|)1\\d(\\||$)",
+    "K-627": "(^|\\|)1[1-25-9](\\||$)",
+    "K-448": "(^|\\|)(1[1-48-9]|20)(\\||$)",
+    "K-634": "^[34]$"
+   },
+   "take": {
+    "K-632": 1,
+    "G1-123": 1
+   },
+   "mixKinds": [
+    "K-637"
+   ]
   }
  },
  "kindAttr": {
   "K-451": "crossed",
   "K-444": "loose",
-  "G1-312": "sounds"
+  "G1-312": "sounds",
+  "G3-344": "dunit",
+  "G2-518": "regroup",
+  "G2-291": "regroup",
+  "G1-229": "denoms",
+  "G2-530": "ckind",
+  "G2-531": "ckind",
+  "G2-532": "ckind",
+  "G2-533": "ckind",
+  "G2-543": "ckind",
+  "G2-544": "ckind",
+  "G2-545": "ckind",
+  "G2-548": "ckind",
+  "G3-514": "ckind",
+  "G3-516": "ckind",
+  "G3-518": "ckind",
+  "G3-521": "ckind",
+  "G3-522": "ckind",
+  "G3-525": "ckind",
+  "G3-526": "ckind",
+  "G3-531": "ckind",
+  "G3-533": "ckind",
+  "G3-536": "ckind",
+  "G1-380": "ckind",
+  "K-378": "ckind",
+  "G1-589": "ckind",
+  "G1-584": "ckind",
+  "G1-602": "ckind",
+  "K-660": "ckind",
+  "K-656": "ckind",
+  "G1-493": "blend",
+  "K-685": "sortkind",
+  "K-649": "sortkind",
+  "G3-576": "use",
+  "G3-498": "qtool",
+  "G3-579": "where",
+  "G1-622": "fault",
+  "G2-574": "fault",
+  "G3-554": "fault",
+  "G2-567": "want",
+  "G2-561": "formkind",
+  "G2-563": "capkind",
+  "G3-548": "fomix",
+  "G3-550": "linkkind",
+  "G3-556": "notelen",
+  "G3-566": "dlgtag",
+  "G3-570": "tired"
  },
  "otherDrawings": [
   "G3-318"
@@ -304,15 +790,77 @@
   "G2-358"
  ],
  "mixKinds": [
-  "G1-312"
+  "G1-312",
+  "G2-249",
+  "G3-344",
+  "G3-361",
+  "G2-502",
+  "G2-242",
+  "G2-291",
+  "G2-530",
+  "G2-531",
+  "G2-532",
+  "G2-533",
+  "G2-543",
+  "G2-544",
+  "G2-545",
+  "G2-548",
+  "G3-514",
+  "G3-516",
+  "G3-518",
+  "G3-521",
+  "G3-522",
+  "G3-525",
+  "G3-526",
+  "G3-531",
+  "G3-533",
+  "G3-536",
+  "G1-380",
+  "K-378",
+  "G1-589",
+  "G1-584",
+  "G1-602",
+  "K-660",
+  "K-656",
+  "G1-493",
+  "K-685",
+  "K-649",
+  "G3-576",
+  "G3-498",
+  "G1-622",
+  "G2-574",
+  "G3-554",
+  "G2-567",
+  "G2-561",
+  "G2-563",
+  "G3-548",
+  "G3-550",
+  "G3-556",
+  "G3-566",
+  "G3-570"
  ],
  "kindRegroup": [
-  "G3-357"
+  "G3-357",
+  "G3-362",
+  "G3-361"
  ],
  "sharesOk": [
   "G2-221",
   "G3-323",
-  "G3-389"
+  "G3-389",
+  "G2-261",
+  "G1-123",
+  "G1-124",
+  "G1-125",
+  "K-632",
+  "G1-129",
+  "K-633",
+  "G2-346",
+  "G3-388",
+  "G3-345",
+  "G2-260",
+  "G3-326",
+  "K-020"
  ],
  "otherWords": [
   "G1-319",
@@ -322,10 +870,32 @@
   "G1-282",
   "G3-397",
   "G2-374",
-  "G1-353"
+  "G1-353",
+  "G2-518",
+  "G2-530",
+  "G2-533",
+  "G2-545",
+  "G2-546",
+  "G3-516",
+  "G3-521",
+  "G3-522",
+  "G3-525",
+  "G3-526",
+  "G3-531",
+  "G3-533",
+  "G3-536",
+  "G1-584",
+  "K-656",
+  "G1-603",
+  "K-658",
+  "G1-618",
+  "G3-570"
  ],
  "otherNums": [
-  "G1-147"
+  "G1-147",
+  "G2-249",
+  "G3-389",
+  "G3-326"
  ],
  "turnB": [
   "K-288",
@@ -333,5 +903,182 @@
  ],
  "askAgain": [
   "K-064"
- ]
+ ],
+ "take": {
+  "G2-261": 2,
+  "G2-242": 2,
+  "G2-346": 1,
+  "G3-388": 1,
+  "G3-344": 2,
+  "G3-361": 2,
+  "G2-502": 2,
+  "G3-362": 1,
+  "G3-386": 1,
+  "G2-532": 3,
+  "G3-522": 3,
+  "G3-525": 3,
+  "G3-516": 3,
+  "G2-543": 2,
+  "G2-544": 2,
+  "G2-545": 2,
+  "K-685": 2,
+  "K-649": 2,
+  "G1-380": 3,
+  "G1-591": 1,
+  "G3-514": 3,
+  "G3-531": 3,
+  "G3-498": 2,
+  "G1-622": 3,
+  "G2-574": 3,
+  "G3-554": 3,
+  "G3-570": 3,
+  "G2-567": 3,
+  "G3-550": 3,
+  "K-020": 1
+ },
+ "kindText": {
+  "G3-356": "−",
+  "K-637": "^(1[6-9]|20) ",
+  "K-632": "→ (\\d+\\|)*\\d*0(\\||$)",
+  "G2-249": "→ \\d+:(3[5-9]|[45]\\d)$",
+  "G3-389": "^[^→]*(^|\\D)\\d*5(\\D|$)",
+  "G2-502": "\\d \\d (0 − \\d \\d [1-9]|1 − \\d \\d [2-9]|2 − \\d \\d [3-9]|3 − \\d \\d [4-9]|4 − \\d \\d [5-9]|5 − \\d \\d [6-9]|6 − \\d \\d [7-9]|7 − \\d \\d [89]|8 − \\d \\d 9)"
+ },
+ "avoidNums": {
+  "G1-123": [
+   0
+  ],
+  "G1-124": [
+   0
+  ],
+  "G1-125": [
+   0
+  ],
+  "K-632": [
+   0
+  ],
+  "G3-326": [
+   0
+  ]
+ },
+ "otherLead": [
+  "G1-129",
+  "K-633"
+ ],
+ "otherTask": [
+  "G2-291"
+ ],
+ "keyAttr": {
+  "K-665": "book",
+  "G2-517": "two",
+  "G3-362": "a",
+  "G1-229": "purse",
+  "K-650": "text",
+  "K-651": "text",
+  "K-652": "text",
+  "K-653": "text",
+  "K-685": "text",
+  "K-645": "text",
+  "K-646": "text",
+  "K-647": "text",
+  "K-648": "text",
+  "K-649": "text",
+  "G1-579": "text",
+  "G1-580": "text",
+  "G1-581": "text",
+  "G1-582": "text",
+  "G1-583": "text",
+  "G1-575": "text",
+  "G1-576": "text",
+  "G1-577": "text",
+  "G2-519": "text",
+  "G2-520": "text",
+  "G2-521": "text",
+  "G2-522": "text",
+  "G2-576": "text",
+  "G2-578": "text",
+  "G2-580": "text",
+  "G3-494": "text",
+  "G3-495": "text",
+  "G3-497": "text",
+  "G3-498": "text",
+  "G3-501": "text",
+  "G3-502": "text",
+  "G3-503": "text",
+  "G3-504": "text",
+  "G3-506": "text",
+  "G3-507": "text",
+  "G3-511": "text",
+  "G3-572": "text",
+  "G3-574": "text",
+  "G3-576": "text",
+  "G3-577": "text",
+  "G3-579": "text",
+  "G3-580": "text",
+  "K-673": "text",
+  "K-675": "text",
+  "K-677": "text",
+  "K-679": "text",
+  "G1-616": "text",
+  "G1-618": "text",
+  "G1-620": "text",
+  "G1-622": "text",
+  "G2-571": "text",
+  "G2-574": "text",
+  "G2-565": "text",
+  "G2-567": "text",
+  "G2-569": "text",
+  "G2-557": "text",
+  "G2-560": "text",
+  "G2-561": "text",
+  "G2-563": "text",
+  "G3-548": "text",
+  "G3-550": "text",
+  "G3-552": "text",
+  "G3-554": "text",
+  "G3-556": "text",
+  "G3-558": "text",
+  "G3-560": "text",
+  "G3-564": "text",
+  "G3-566": "text",
+  "G3-568": "text",
+  "G3-570": "text"
+ },
+ "shapesOk": [
+  "G1-380",
+  "K-378",
+  "K-665",
+  "G1-495"
+ ],
+ "avoidPicturesOf": {
+  "G1-495": [
+   "cap",
+   "tape",
+   "can",
+   "hat",
+   "airplane",
+   "kite",
+   "slide"
+  ]
+ },
+ "kindOnly": {
+  "G2-372": "*",
+  "K-677": "*",
+  "G1-616": "*"
+ },
+ "avoidHtml": {
+  "G2-518": "data-lcs-regroup=\"(join|join-new|apart|compare)\""
+ },
+ "posA": {
+  "G3-572": 1,
+  "G3-574": 1,
+  "G3-577": 2,
+  "G3-579": 1
+ },
+ "distinctAnswers": [
+  "G3-570"
+ ],
+ "dropType": {
+  "K-019": "[review en-1119-final, 2026-11-19] A 1–10 strip is below a unit about counting in order to 20, and its few strips made form B ask what form A asks; the lesson's K-020 (Missing Numbers to 20) gives the part."
+ }
 }

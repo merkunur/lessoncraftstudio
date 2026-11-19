@@ -1331,20 +1331,27 @@
     },
     {
      "part": 3,
+     "lesson": 3,
+     "title": "Fill in the missing numbers",
+     "type": "K-020",
+     "tasks": 1
+    },
+    {
+     "part": 4,
      "lesson": 5,
      "title": "Before, after, and counting back",
      "type": "K-021",
      "tasks": 2
     },
     {
-     "part": 4,
+     "part": 5,
      "lesson": 6,
      "title": "Count on from a number",
      "type": "K-444",
      "tasks": 1
     },
     {
-     "part": 5,
+     "part": 6,
      "lesson": 7,
      "title": "First, second, third",
      "type": "K-030",
@@ -1352,7 +1359,6 @@
     }
    ],
    "notCovered": [
-    3,
     4
    ],
    "forms": {
@@ -1366,6 +1372,9 @@
       [
        "261dc0d467ab892e",
        "e67286bb2649049d"
+      ],
+      [
+       "feacdf8ec404e8bf"
       ],
       [
        "3b0eeb4d03f8e20d",
@@ -1385,6 +1394,9 @@
       ],
       [
        null,
+       null
+      ],
+      [
        null
       ],
       [
@@ -1408,6 +1420,9 @@
        "?"
       ],
       [
+       "w w w w w w w ? ? ?"
+      ],
+      [
        "? w ?",
        "? w ?"
       ],
@@ -1426,6 +1441,9 @@
       [
        17,
        14
+      ],
+      [
+       16
       ],
       [
        16,
@@ -1451,6 +1469,9 @@
        "683b64d30113d356"
       ],
       [
+       "d83b453d618aaf13"
+      ],
+      [
        "ba0698fac2bc8a0b",
        "cb347a2a40332065"
       ],
@@ -1468,6 +1489,9 @@
       ],
       [
        null,
+       null
+      ],
+      [
        null
       ],
       [
@@ -1491,6 +1515,9 @@
        "?"
       ],
       [
+       "w w w w w w w ? ? ?"
+      ],
+      [
        "? w ?",
        "? w ?"
       ],
@@ -1509,6 +1536,9 @@
       [
        18,
        13
+      ],
+      [
+       16
       ],
       [
        13,
@@ -2071,6 +2101,302 @@
       ],
       [
        8
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "k-teen-numbers-and-counting-to-100",
+   "slug": "teen-numbers-and-counting-to-100-kindergarten-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Ten and some more",
+     "type": "K-627",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Teen numbers on two ten-frames",
+     "type": "K-448",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Build and draw a teen number",
+     "type": "K-637",
+     "tasks": 2
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Ten and how many more?",
+     "type": "K-634",
+     "tasks": 2
+    },
+    {
+     "part": 5,
+     "lesson": 5,
+     "title": "Count to 50",
+     "type": "K-633",
+     "tasks": 1
+    },
+    {
+     "part": 6,
+     "lesson": 6,
+     "title": "Count to 100 on the hundreds chart",
+     "type": "G1-129",
+     "tasks": 1
+    },
+    {
+     "part": 7,
+     "lesson": 7,
+     "title": "Start at any number and count on",
+     "type": "K-632",
+     "tasks": 1
+    },
+    {
+     "part": 8,
+     "lesson": 8,
+     "title": "Count by tens to 100",
+     "type": "G1-123",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 3,
+     "cards": [
+      [
+       "9ae10e5cd277a472"
+      ],
+      [
+       "446e195eaf413358"
+      ],
+      [
+       "37b2db9e71687d94",
+       "b147c9f264b5a1f7"
+      ],
+      [
+       "a99c22743fc8f8cf",
+       "d98733734f503aeb"
+      ],
+      [
+       "76aea72e1f0f05d6"
+      ],
+      [
+       "67262e8ef6e1a259"
+      ],
+      [
+       "9b80be7bbd6b9b9f"
+      ],
+      [
+       "47243e6024fee228"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w + ? = ?"
+      ],
+      [
+       "? = w + ?"
+      ],
+      [
+       "write 1 ·1",
+       "write 1 ·0"
+      ],
+      [
+       "w ? w",
+       "w ? w"
+      ],
+      [
+       "w w w w w w w w w w w w w w w w w w w w w w w w w w w ? ? ?"
+      ],
+      [
+       "w w w w w w w w w w w w w w w w w w w w w w w w w w w w ? ?"
+      ],
+      [
+       "w w w w w w w ? ? ? ·0"
+      ],
+      [
+       "w w w w w w ? ?"
+      ]
+     ],
+     "sizes": [
+      [
+       14
+      ],
+      [
+       16
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       18,
+       15
+      ],
+      [
+       50
+      ],
+      [
+       100
+      ],
+      [
+       57
+      ],
+      [
+       90
+      ]
+     ]
+    },
+    "B": {
+     "pages": 3,
+     "cards": [
+      [
+       "8e1bd14ec3e93e76"
+      ],
+      [
+       "2742e9323072feef"
+      ],
+      [
+       "263d6bea12961785",
+       "fc46c6f8744e693c"
+      ],
+      [
+       "43073916bfa20d93",
+       "e84cecf432a7f1d2"
+      ],
+      [
+       "df362780338e3086"
+      ],
+      [
+       "fab251596946ac54"
+      ],
+      [
+       "6087e72683a1118d"
+      ],
+      [
+       "9fc072cebfd38e3c"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w + ? = ?"
+      ],
+      [
+       "? = w + ?"
+      ],
+      [
+       "write 1 ·1",
+       "write 1 ·0"
+      ],
+      [
+       "w ? w",
+       "w ? w"
+      ],
+      [
+       "w w w w w w w w w w w w w w w w w w w w w w w w w w w ? ? ?"
+      ],
+      [
+       "w w w w w w w w w w w w w w w w w w w w w w w w w w w w ? ?"
+      ],
+      [
+       "w w w w w w w ? ? ? ·0"
+      ],
+      [
+       "w w w w w w ? ?"
+      ]
+     ],
+     "sizes": [
+      [
+       13
+      ],
+      [
+       17
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       19,
+       12
+      ],
+      [
+       40
+      ],
+      [
+       100
+      ],
+      [
+       58
+      ],
+      [
+       90
       ]
      ]
     }
@@ -2775,6 +3101,186 @@
       ],
       [
        51
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "g1-hundreds-chart-skip-counting",
+   "slug": "the-hundreds-chart-and-skip-counting-grade-1-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Find a number on the number line",
+     "type": "G1-275",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "The hundreds chart",
+     "type": "G1-129",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "1 more, 1 less, 10 more, 10 less",
+     "type": "G1-131",
+     "tasks": 2
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Count by tens, fives, and twos",
+     "type": "G1-123",
+     "tasks": 3
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "dd2bfaffffd912b0"
+      ],
+      [
+       "ee684db1ab66bfbb"
+      ],
+      [
+       "20ce2c3186ca1ed4",
+       "0f42aee850d9a3c6"
+      ],
+      [
+       "d0c876efe1718926",
+       "c383096d0fcf3b9b",
+       "c8f6605f42957b8d"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w w w ? ? ?"
+      ],
+      [
+       "w w w w w w w w w w w w w w w w w w w w w w w w w w w ? ? ?"
+      ],
+      [
+       "? −w w +w ? ·0",
+       "? −w w +w ? ·1"
+      ],
+      [
+       "w w w w w ? ? ? ·0",
+       "w w w w w ? ? ? ·1",
+       "w w w w w ? ? ? ·2"
+      ]
+     ],
+     "sizes": [
+      [
+       20
+      ],
+      [
+       60
+      ],
+      [
+       85,
+       89
+      ],
+      [
+       100,
+       55,
+       20
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "2b4c7cba18b2b937"
+      ],
+      [
+       "932815c28a67b507"
+      ],
+      [
+       "faf5bfff0d77c4d8",
+       "bd507df0e4b09287"
+      ],
+      [
+       "66e9475c3b575f9f",
+       "1e9d218ad7f434f0",
+       "e051331c0649e53f"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w w w ? ? ?"
+      ],
+      [
+       "w w w w w w w w w w w w w w w w w w w w w w w w w w w ? ? ?"
+      ],
+      [
+       "? −w w +w ? ·0",
+       "? −w w +w ? ·1"
+      ],
+      [
+       "w w w w w ? ? ? ·0",
+       "w w w w w ? ? ? ·1",
+       "w w w w w ? ? ? ·2"
+      ]
+     ],
+     "sizes": [
+      [
+       20
+      ],
+      [
+       50
+      ],
+      [
+       94,
+       91
+      ],
+      [
+       90,
+       45,
+       22
       ]
      ]
     }
@@ -4286,9 +4792,153 @@
    }
   },
   {
+   "unit": "g2-add-subtract-within-1000",
+   "slug": "adding-and-subtracting-within-100-and-1000-grade-2-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 2,
+     "title": "Add three-digit numbers and make a new ten or hundred",
+     "type": "G3-361",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 4,
+     "title": "Subtract three-digit numbers with regrouping",
+     "type": "G2-502",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 5,
+     "title": "Subtract across zeros",
+     "type": "G3-362",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [
+    1,
+    3
+   ],
+   "forms": {
+    "A": {
+     "pages": 1,
+     "cards": [
+      [
+       "97c81daa009b564c",
+       "4ddac3923fde388b"
+      ],
+      [
+       "88d4e0e523bc54b7",
+       "68b33215a9fb4388"
+      ],
+      [
+       "09bd67fd688f0125"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w w w + w w w ? ? ? ·r1",
+       "w w w + w w w ? ? ? ·r2"
+      ],
+      [
+       "w w w − w w w ? ? ? ·0",
+       "w w w − w w w ? ? ? ·1"
+      ],
+      [
+       "w w w − w w w ? ? ? ·r2"
+      ]
+     ],
+     "sizes": [
+      [
+       8,
+       9
+      ],
+      [
+       9,
+       8
+      ],
+      [
+       8
+      ]
+     ]
+    },
+    "B": {
+     "pages": 1,
+     "cards": [
+      [
+       "ba4e9d2cbb097531",
+       "97404ddca05b8c2a"
+      ],
+      [
+       "ab5bd19aaa1197ce",
+       "df88dd0c89707ae4"
+      ],
+      [
+       "0ad707f661c036f0"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w w w + w w w ? ? ? ·r1",
+       "w w w + w w w ? ? ? ·r2"
+      ],
+      [
+       "w w w − w w w ? ? ? ·0",
+       "w w w − w w w ? ? ? ·1"
+      ],
+      [
+       "w w w − w w w ? ? ? ·r2"
+      ]
+     ],
+     "sizes": [
+      [
+       8,
+       9
+      ],
+      [
+       9,
+       8
+      ],
+      [
+       8
+      ]
+     ]
+    }
+   }
+  },
+  {
    "unit": "g2-measurement-time-money",
    "slug": "measurement-time-and-money-grade-2-unit",
-   "status": "pilot",
+   "status": "live",
    "parts": [
     {
      "part": 1,
@@ -4302,7 +4952,7 @@
      "lesson": 2,
      "title": "Same length, two units",
      "type": "G2-517",
-     "tasks": 1
+     "tasks": 2
     },
     {
      "part": 3,
@@ -4324,33 +4974,54 @@
      "title": "Tell time to the nearest five minutes",
      "type": "G2-249",
      "tasks": 2
+    },
+    {
+     "part": 6,
+     "lesson": 8,
+     "title": "Count mixed coins",
+     "type": "G1-229",
+     "tasks": 2
+    },
+    {
+     "part": 7,
+     "lesson": 9,
+     "title": "Shopping with money",
+     "type": "G2-291",
+     "tasks": 2
     }
    ],
    "notCovered": [
     3,
-    7,
-    8,
-    9
+    7
    ],
    "forms": {
     "A": {
-     "pages": 3,
+     "pages": 4,
      "cards": [
       [
        "c5b87d5f283ec957"
       ],
       [
-       "249ca2e048f72016"
+       "6852f6a7771280af",
+       "9454f6e2d99fb599"
       ],
       [
-       "458925fd39af3586"
+       "74f06f32ea81f9df"
       ],
       [
-       "332bb09d7e5bf01a"
+       "ec56bc8a144ce254"
       ],
       [
-       "38c8a821ee7a0a68",
-       "f4bdf131968c33b2"
+       "143d95d3e86d0a40",
+       "698cccd6acf2e8a3"
+      ],
+      [
+       "5e20d1edf22ae299",
+       "77aee90122a452b8"
+      ],
+      [
+       "2e16647cc54ccc03",
+       "3e02f97d5cf3cfc1"
       ]
      ],
      "pos": [
@@ -4358,7 +5029,119 @@
        null
       ],
       [
+       1,
        0
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       1,
+       2
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w w w w w w w w w w w ?"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "?"
+      ],
+      [
+       "? = ? w ·compare-new"
+      ],
+      [
+       "choose 1 ·0",
+       "choose 1 ·1"
+      ],
+      [
+       "w w w w w w ? ¢ ·4",
+       "w w w w w ? ¢ ·4"
+      ],
+      [
+       "w¢ w¢ w¢ w w w . w w w w w? ? ¢ ·0",
+       "w¢ w¢ w¢ w w w w w w. w w w w? ? ¢ ·1"
+      ]
+     ],
+     "sizes": [
+      [
+       10
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       3
+      ],
+      [
+       35
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       76,
+       42
+      ],
+      [
+       75,
+       60
+      ]
+     ]
+    },
+    "B": {
+     "pages": 4,
+     "cards": [
+      [
+       "5a07fe8395bc5818"
+      ],
+      [
+       "059ad86378ea2d86",
+       "75fd244dfb246fac"
+      ],
+      [
+       "337f865f6edbeccb"
+      ],
+      [
+       "d479d9241bc522a5"
+      ],
+      [
+       "2b31fd409b07798f",
+       "a44b51a3a4bbf6ba"
+      ],
+      [
+       "bf11b8b03af62c8a",
+       "56e9e09eeeeb22e5"
+      ],
+      [
+       "0f49bd8809a14ee6",
+       "7bb57acf0c92c876"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       0,
+       1
       ],
       [
        null
@@ -4369,6 +5152,14 @@
       [
        0,
        1
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
       ]
      ],
      "kinds": [
@@ -4376,17 +5167,26 @@
        "w w w w w w w w w w w ?"
       ],
       [
+       "choose 1",
        "choose 1"
       ],
       [
        "?"
       ],
       [
-       "w w w w w w w. w w w w. w w w w w w w? = ? w"
+       "? = ? w ·compare-new"
       ],
       [
-       "w w w w w w w w w w w w w:w w:w w:w",
-       "w w w w w w w w w w w w w:w w:w w:w"
+       "choose 1 ·0",
+       "choose 1 ·1"
+      ],
+      [
+       "w w w w w w ? ¢ ·4",
+       "w w w w w ? ¢ ·4"
+      ],
+      [
+       "w¢ w¢ w¢ w w w . w w w w w? ? ¢ ·0",
+       "w¢ w¢ w¢ w w w w w w. w w w w? ? ¢ ·1"
       ]
      ],
      "sizes": [
@@ -4394,92 +5194,26 @@
        10
       ],
       [
+       0,
        0
       ],
       [
-       3
-      ],
-      [
-       76
-      ],
-      [
-       45,
-       25
-      ]
-     ]
-    },
-    "B": {
-     "pages": 3,
-     "cards": [
-      [
-       "5a07fe8395bc5818"
-      ],
-      [
-       "b55bb4d8b6078361"
-      ],
-      [
-       "cc343a60116b38f8"
-      ],
-      [
-       "14cc996169bbbfc4"
-      ],
-      [
-       "5dc1a713b07005a1",
-       "675f59f6b351c287"
-      ]
-     ],
-     "pos": [
-      [
-       null
-      ],
-      [
-       0
-      ],
-      [
-       null
-      ],
-      [
-       null
-      ],
-      [
-       2,
        2
-      ]
-     ],
-     "kinds": [
-      [
-       "w w w w w w w w w w w ?"
       ],
       [
-       "choose 1"
+       28
       ],
       [
-       "?"
-      ],
-      [
-       "w w w w w w w. w w w w. w w w w w w w? = ? w"
-      ],
-      [
-       "w w w w w w w w w w w w w:w w:w w:w",
-       "w w w w w w w w w w w w w:w w:w w:w"
-      ]
-     ],
-     "sizes": [
-      [
-       10
-      ],
-      [
+       0,
        0
       ],
       [
-       1
+       71,
+       46
       ],
       [
-       64
-      ],
-      [
-       40,
-       30
+       85,
+       50
       ]
      ]
     }
@@ -4883,31 +5617,38 @@
   {
    "unit": "g2-shapes-solids-symmetry",
    "slug": "shapes-solids-and-symmetry-grade-2-unit",
-   "status": "pilot",
+   "status": "live",
    "parts": [
     {
      "part": 1,
+     "lesson": 1,
+     "title": "Sort shapes by sides",
+     "type": "G2-241",
+     "tasks": 1
+    },
+    {
+     "part": 2,
      "lesson": 3,
      "title": "Faces, edges, and vertices (corners)",
      "type": "G2-242",
      "tasks": 2
     },
     {
-     "part": 2,
+     "part": 3,
      "lesson": 4,
      "title": "Is it a line of symmetry?",
      "type": "G2-247",
      "tasks": 2
     },
     {
-     "part": 3,
+     "part": 4,
      "lesson": 5,
      "title": "Finish the other half",
      "type": "G2-264",
      "tasks": 2
     },
     {
-     "part": 4,
+     "part": 5,
      "lesson": 6,
      "title": "Which one matches the shadow?",
      "type": "G2-347",
@@ -4915,16 +5656,18 @@
     }
    ],
    "notCovered": [
-    1,
     2
    ],
    "forms": {
     "A": {
-     "pages": 2,
+     "pages": 3,
      "cards": [
       [
-       "1127896a84728f55",
-       "f033558d1e7de4cf"
+       "620d6902a3547efc"
+      ],
+      [
+       "7cf225172c4cce20",
+       "fa02e3519cbe8ae1"
       ],
       [
        "9b7b11e398342f15",
@@ -4939,6 +5682,9 @@
       ]
      ],
      "pos": [
+      [
+       2
+      ],
       [
        null,
        null
@@ -4957,8 +5703,11 @@
      ],
      "kinds": [
       [
-       "?",
-       "?"
+       "w w w w w w w w w w w w"
+      ],
+      [
+       "w w w w w w w? ?",
+       "w w w w w w w w? ?"
       ],
       [
        "✓ ✗",
@@ -4974,8 +5723,11 @@
      ],
      "sizes": [
       [
-       5,
-       2
+       6
+      ],
+      [
+       8,
+       6
       ],
       [
        0,
@@ -4991,11 +5743,14 @@
      ]
     },
     "B": {
-     "pages": 2,
+     "pages": 3,
      "cards": [
       [
-       "b32e1dcfa8ca7611",
-       "c846f43a41e8bc9f"
+       "218579d2abd2cbac"
+      ],
+      [
+       "b60afda8a832e133",
+       "63e2500341902b71"
       ],
       [
        "bdd88e6aa3ebb818",
@@ -5010,6 +5765,9 @@
       ]
      ],
      "pos": [
+      [
+       0
+      ],
       [
        null,
        null
@@ -5028,8 +5786,11 @@
      ],
      "kinds": [
       [
-       "?",
-       "?"
+       "w w w w w w w w w w w w"
+      ],
+      [
+       "w w w w w w w? ?",
+       "w w w w w w w w? ?"
       ],
       [
        "✓ ✗",
@@ -5045,8 +5806,11 @@
      ],
      "sizes": [
       [
-       6,
-       0
+       6
+      ],
+      [
+       8,
+       6
       ],
       [
        0,
@@ -5066,20 +5830,20 @@
   {
    "unit": "g3-rounding-adding-subtracting",
    "slug": "rounding-adding-and-subtracting-within-1000-grade-3-unit",
-   "status": "pilot",
+   "status": "live",
    "parts": [
     {
      "part": 1,
      "lesson": 1,
      "title": "Round to the nearest ten",
-     "type": "G2-221",
+     "type": "G2-346",
      "tasks": 1
     },
     {
      "part": 2,
      "lesson": 2,
      "title": "Round to the nearest hundred",
-     "type": "G3-323",
+     "type": "G3-388",
      "tasks": 1
     },
     {
@@ -5094,54 +5858,68 @@
      "lesson": 4,
      "title": "Add and subtract with regrouping",
      "type": "G3-357",
-     "tasks": 2
+     "tasks": 3
     },
     {
      "part": 5,
-     "lesson": 5,
-     "title": "Make it balance",
-     "type": "G3-350",
-     "tasks": 1
-    },
-    {
-     "part": 6,
      "lesson": 6,
      "title": "Is the sum odd or even?",
      "type": "G3-386",
      "tasks": 1
+    },
+    {
+     "part": 6,
+     "lesson": 7,
+     "title": "Find the rule of a number pattern",
+     "type": "G3-326",
+     "tasks": 2
     }
    ],
    "notCovered": [
-    7
+    5
    ],
    "forms": {
     "A": {
      "pages": 3,
      "cards": [
       [
-       "c5343830c2dc0217"
+       "77086eeaf22965e4"
       ],
       [
-       "aaa714ecc092b044"
+       "5c99756e96db3d34"
       ],
       [
        "c0319a20a7cba8fd",
        "99d7586d69bec975"
       ],
       [
-       "95c6f192fc02ee57",
-       "a958e5f82b57f3a1"
+       "abb03b4434c01213",
+       "293d4714f38e6311",
+       "ab1c38c0703e2044"
       ],
       [
-       "0ed50fdace169e9b"
+       "b05a79a225eda4a6"
       ],
       [
-       "eeabec036303e18e"
+       "a2d87f48f1c545fe",
+       "1c00bd21c7a6a1a3"
       ]
      ],
      "pos": [
       [
-       0
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null
       ],
       [
        1
@@ -5149,60 +5927,54 @@
       [
        null,
        null
-      ],
-      [
-       0,
-       1
-      ],
-      [
-       null
-      ],
-      [
-       0
       ]
      ],
      "kinds": [
       [
-       "w w w w"
+       "w ? w ? w ?"
       ],
       [
-       "w w w w"
+       "w ? w ? w ?"
       ],
       [
-       "w + w ? + ? = ?",
-       "w + w ? + ? = ?"
+       "w + w ? + ? = ? ·0",
+       "w + w ? + ? = ? ·0"
       ],
       [
-       "w w w + w w w ·r1",
-       "w w w − w w w ·r1"
+       "w w w + w w w ? ? ? ·r1",
+       "w w w − w w w ? ? ? ·r2",
+       "w w w − w w w ? ? ? ·r2"
       ],
       [
-       "w + w w + ?"
+       "choose 3"
       ],
       [
-       "choose 1"
+       "w w w w ? ? ? ·0",
+       "w w w w ? ? ? ·1"
       ]
      ],
      "sizes": [
       [
-       60
+       841
       ],
       [
-       600
+       914
       ],
       [
        80,
        60
       ],
       [
-       7,
-       9
+       8,
+       9,
+       6
       ],
       [
-       15
+       34
       ],
       [
-       66
+       96,
+       74
       ]
      ]
     },
@@ -5210,90 +5982,98 @@
      "pages": 3,
      "cards": [
       [
-       "e22e6fcc2d5f4ef2"
+       "255fdb166672b4b3"
       ],
       [
-       "b816156a88658342"
+       "a9dd1d3a6d4e65bf"
       ],
       [
-       "913d0153ccee3704",
-       "bb607a19e853f856"
+       "0e699ffea65e49b1",
+       "85695368b5e367b7"
       ],
       [
-       "fd064092408ca858",
-       "66ca6b199fed0760"
+       "983344acf23b2342",
+       "bc3a17c507901ed7",
+       "b5e7202db395bb2f"
       ],
       [
-       "d4618843dbb4161e"
+       "a4eb84cd45e6fa0f"
       ],
       [
-       "7f4e3586a0f51fd1"
+       "a8f37948946df5ff",
+       "85322ac67b3c336b"
       ]
      ],
      "pos": [
       [
-       0
+       null
       ],
       [
-       1
+       null
       ],
       [
        null,
        null
       ],
       [
-       0,
-       0
-      ],
-      [
+       null,
+       null,
        null
       ],
       [
-       1
+       0
+      ],
+      [
+       null,
+       null
       ]
      ],
      "kinds": [
       [
-       "w w w w"
+       "w ? w ? w ?"
       ],
       [
-       "w w w w"
+       "w ? w ? w ?"
       ],
       [
-       "w + w ? + ? = ?",
-       "w + w ? + ? = ?"
+       "w + w ? + ? = ? ·0",
+       "w + w ? + ? = ? ·0"
       ],
       [
-       "w w w + w w w ·r1",
-       "w w w − w w w ·r1"
+       "w w w + w w w ? ? ? ·r1",
+       "w w w − w w w ? ? ? ·r2",
+       "w w w − w w w ? ? ? ·r2"
       ],
       [
-       "w + w w + ?"
+       "choose 3"
       ],
       [
-       "choose 1"
+       "w w w w ? ? ? ·0",
+       "w w w w ? ? ? ·1"
       ]
      ],
      "sizes": [
       [
-       70
+       910
       ],
       [
-       700
+       844
       ],
       [
-       80,
+       90,
        60
       ],
       [
        7,
-       9
+       9,
+       8
       ],
       [
-       16
+       35
       ],
       [
-       67
+       114,
+       75
       ]
      ]
     }
@@ -5741,6 +6521,264 @@
       ],
       [
        813
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "g3-time-temperature-mass-volume",
+   "slug": "time-temperature-mass-and-liquid-volume-grade-3-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Tell time to the minute",
+     "type": "G3-354",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "How much time passed?",
+     "type": "G3-344",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Add and subtract time",
+     "type": "G3-356",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Read a thermometer",
+     "type": "G3-345",
+     "tasks": 2
+    },
+    {
+     "part": 5,
+     "lesson": 5,
+     "title": "Read a scale in grams",
+     "type": "G2-261",
+     "tasks": 2
+    },
+    {
+     "part": 6,
+     "lesson": 6,
+     "title": "Read a measuring cup",
+     "type": "G2-260",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 4,
+     "cards": [
+      [
+       "ea061b2807efaf15",
+       "75e16e52e61055cc"
+      ],
+      [
+       "d26337dae17f857c",
+       "39b0eee368e0c434"
+      ],
+      [
+       "acc1eb6e06dc12f1"
+      ],
+      [
+       "5161b68d18aa7acf",
+       "c11336f507b9e435"
+      ],
+      [
+       "b9569f86f0fbd5dc",
+       "2563df3f8da6065e"
+      ],
+      [
+       "beadee24ce739d31",
+       "4abe57c4c00fb527"
+      ]
+     ],
+     "pos": [
+      [
+       1,
+       2
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w w w w w w w w w w w w w:w w:w w:w",
+       "w w w w w w w w w w w w w:w w:w w:w"
+      ],
+      [
+       "w w w w w w w w w w w w → w w w w w w w w w w w w ? ·min",
+       "w w w w w w w w w w w w → w w w w w w w w w w w w ? ·h"
+      ],
+      [
+       "write 1 ·0"
+      ],
+      [
+       "°w w w w w w ? °w",
+       "°w w w w w w ? °w"
+      ],
+      [
+       "w w w w ? w",
+       "w w w w ? w"
+      ],
+      [
+       "w w w w w w ? w ·0",
+       "w w w w w ? w ·1"
+      ]
+     ],
+     "sizes": [
+      [
+       45,
+       32
+      ],
+      [
+       40,
+       12
+      ],
+      [
+       0
+      ],
+      [
+       90,
+       60
+      ],
+      [
+       450,
+       350
+      ],
+      [
+       1000,
+       2000
+      ]
+     ]
+    },
+    "B": {
+     "pages": 4,
+     "cards": [
+      [
+       "8562e67c2f222a81",
+       "2dd9330d35382571"
+      ],
+      [
+       "f0ae1d60c2a58846",
+       "ea1e33cafe0bc864"
+      ],
+      [
+       "4ba83f3ee7de91ea"
+      ],
+      [
+       "284277524f279272",
+       "198c28a37c1cbb11"
+      ],
+      [
+       "374a8cd324e04c70",
+       "29c998fb87175d95"
+      ],
+      [
+       "8b30ad0674bc78c5",
+       "35b8a577cfdc286c"
+      ]
+     ],
+     "pos": [
+      [
+       2,
+       1
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w w w w w w w w w w w w w:w w:w w:w",
+       "w w w w w w w w w w w w w:w w:w w:w"
+      ],
+      [
+       "w w w w w w w w w w w w → w w w w w w w w w w w w ? ·min",
+       "w w w w w w w w w w w w → w w w w w w w w w w w w ? ·h"
+      ],
+      [
+       "write 1 ·0"
+      ],
+      [
+       "°w w w w w w ? °w",
+       "°w w w w w w ? °w"
+      ],
+      [
+       "w w w w ? w",
+       "w w w w ? w"
+      ],
+      [
+       "w w w w w w ? w ·0",
+       "w w w w w ? w ·1"
+      ]
+     ],
+     "sizes": [
+      [
+       41,
+       35
+      ],
+      [
+       45,
+       12
+      ],
+      [
+       0
+      ],
+      [
+       90,
+       60
+      ],
+      [
+       500,
+       400
+      ],
+      [
+       1000,
+       2000
       ]
      ]
     }
@@ -6813,6 +7851,178 @@
    }
   },
   {
+   "unit": "k-how-books-and-print-work",
+   "slug": "how-books-and-print-work-kindergarten-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Front cover, back cover, and title page",
+     "type": "K-665",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Read left to right, top to bottom",
+     "type": "K-667",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "One spoken word, one written word",
+     "type": "K-669",
+     "tasks": 2
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Spaces between words: count the words",
+     "type": "K-671",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "f592bbee2b0d25dd"
+      ],
+      [
+       "55ca98a846cc7bd9"
+      ],
+      [
+       "a38884aad9d7bc5b",
+       "9ef613beabec71df"
+      ],
+      [
+       "18c9c8aaa09fbd15",
+       "d6f8f8b1718112ce"
+      ]
+     ],
+     "pos": [
+      [
+       1
+      ],
+      [
+       0
+      ],
+      [
+       2,
+       3
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 2"
+      ],
+      [
+       "choose 1"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "w w w w. ? w",
+       "w w w. ? w"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       4,
+       3
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "8cbaa8522ada7f61"
+      ],
+      [
+       "c4f3cbd1bd5e27cd"
+      ],
+      [
+       "c694009417bdee55",
+       "c07a1e7f690be17c"
+      ],
+      [
+       "e1c43e78b38e1586",
+       "476347578f958ea5"
+      ]
+     ],
+     "pos": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       2,
+       1
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 2"
+      ],
+      [
+       "choose 1"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "w w w w. ? w",
+       "w w w. ? w"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       4,
+       3
+      ]
+     ]
+    }
+   }
+  },
+  {
    "unit": "k-first-words-to-read",
    "slug": "first-words-to-read-kindergarten-unit",
    "status": "live",
@@ -6995,6 +8205,196 @@
    }
   },
   {
+   "unit": "k-short-vowels-and-cvc-words",
+   "slug": "short-vowels-and-cvc-words-kindergarten-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Short a and short i",
+     "type": "K-661",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Short o, short u, and short e",
+     "type": "K-662",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 4,
+     "title": "Which word matches: cat or cot?",
+     "type": "K-664",
+     "tasks": 2
+    },
+    {
+     "part": 4,
+     "lesson": 5,
+     "title": "sh and ch",
+     "type": "K-378",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [
+    3
+   ],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "0b4f9bf51c611086",
+       "51674cb25309895e"
+      ],
+      [
+       "ec8c1e55674ce8b4",
+       "19d75b0930bba941"
+      ],
+      [
+       "9ed2d2a29aecc7bb",
+       "587ceab9ab960c4e"
+      ],
+      [
+       "da343d435787acff",
+       "841d233b0aa34ab9"
+      ]
+     ],
+     "pos": [
+      [
+       0,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       0
+      ],
+      [
+       1,
+       0
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "choose 1 ·ch",
+       "choose 1 ·sh"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "a1d94a3af007d512",
+       "0c53eb3a3495d0f6"
+      ],
+      [
+       "5cfb2568ff3e7ff8",
+       "d80ab7ff9578dc02"
+      ],
+      [
+       "8af5bb4d8de71719",
+       "a7e93bc349af7029"
+      ],
+      [
+       "2f12219daf3fcace",
+       "53bef37702231bf1"
+      ]
+     ],
+     "pos": [
+      [
+       0,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       0
+      ],
+      [
+       1,
+       0
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "choose 1 ·ch",
+       "choose 1 ·sh"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
    "unit": "k-sorting-words-telling-stories",
    "slug": "sorting-opposites-and-story-order-kindergarten-unit",
    "status": "live",
@@ -7131,9 +8531,220 @@
    }
   },
   {
+   "unit": "k-reading-stories",
+   "slug": "reading-stories-kindergarten-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Who Is in the Story, and Where?",
+     "type": "K-650",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Retell the Story: Beginning, Middle, End",
+     "type": "K-651",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Ask and Answer Questions About a Story",
+     "type": "K-652",
+     "tasks": 2
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "The Pictures and the Words",
+     "type": "K-653",
+     "tasks": 1
+    },
+    {
+     "part": 5,
+     "lesson": 5,
+     "title": "Two stories, two adventures",
+     "type": "K-685",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 3,
+     "cards": [
+      [
+       "2cdd71fa150d9db7",
+       "c75885858319601b"
+      ],
+      [
+       "a1a9c3cb8201addf"
+      ],
+      [
+       "a685e68348742984",
+       "a0c1d068e2371ecf"
+      ],
+      [
+       "a34aa992c893e235"
+      ],
+      [
+       "1af834ec3323a166",
+       "07fbdb99e670b957"
+      ]
+     ],
+     "pos": [
+      [
+       1,
+       2
+      ],
+      [
+       null
+      ],
+      [
+       0,
+       1
+      ],
+      [
+       null
+      ],
+      [
+       1,
+       2
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "? ? ?"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "? ? ? ?"
+      ],
+      [
+       "choose 1 ·both",
+       "choose 1 ·one"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       3
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       4
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 3,
+     "cards": [
+      [
+       "174b7318326a0a96",
+       "091e4f4d35aba50e"
+      ],
+      [
+       "a9b9e62f1f138482"
+      ],
+      [
+       "b0b8e157fcfcae1d",
+       "c744897e4a0cd315"
+      ],
+      [
+       "a66186d5579579f8"
+      ],
+      [
+       "092d714179ef8da0",
+       "e986b583885917fe"
+      ]
+     ],
+     "pos": [
+      [
+       2,
+       1
+      ],
+      [
+       null
+      ],
+      [
+       1,
+       0
+      ],
+      [
+       null
+      ],
+      [
+       1,
+       0
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "? ? ?"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "? ? ? ?"
+      ],
+      [
+       "choose 1 ·both",
+       "choose 1 ·one"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       3
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       4
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
    "unit": "k-words-and-sentences",
    "slug": "words-and-sentences-kindergarten-unit",
-   "status": "pilot",
+   "status": "live",
    "parts": [
     {
      "part": 1,
@@ -7174,68 +8785,68 @@
    "notCovered": [],
    "forms": {
     "A": {
-     "pages": 2,
+     "pages": 3,
      "cards": [
       [
        "8e51f55c9e849a6b",
-       "61320038d0330acc"
+       "c6e822b3304f9474"
       ],
       [
        "4bfa6e95ce0bec81",
        "fa2cad00a3860223"
       ],
       [
-       "a5c96db8a75c4a7f",
-       "8babf106857ffbf6"
+       "ac096b90c02db4f7",
+       "70546f6d8aa31e22"
       ],
       [
-       "964e6165ea1b6b37",
-       "a9da9cfd5fbbef83"
+       "f3350e78096d475b",
+       "3be0d581caf41777"
       ],
       [
-       "9668cb492f83c8f1"
+       "4a8a1c4786709b61"
       ]
      ],
      "pos": [
       [
-       null,
-       null
+       1,
+       0
       ],
       [
        1,
        2
       ],
       [
-       null,
-       null
+       0,
+       1
       ],
       [
        null,
        null
       ],
       [
-       null
+       0
       ]
      ],
      "kinds": [
       [
-       "write 1",
-       "write 1"
+       "choose 1",
+       "choose 1"
       ],
       [
        "choose 1",
        "choose 1"
       ],
       [
-       "write 1",
-       "write 1"
+       "choose 2 ·top",
+       "choose 2 ·bottom"
       ],
       [
-       "write 1",
-       "write 1"
+       "write 1 ·ask",
+       "write 1 ·tell"
       ],
       [
-       "write 1"
+       "choose 2"
       ]
      ],
      "sizes": [
@@ -7261,68 +8872,68 @@
      ]
     },
     "B": {
-     "pages": 2,
+     "pages": 3,
      "cards": [
       [
-       "3f3b871ae1c65647",
-       "6b2c68056ff659c8"
+       "e10647c26967532d",
+       "949d1bf91125f3d1"
       ],
       [
        "1287aa8acf7d8e0c",
        "f6a407f33a41c696"
       ],
       [
-       "3c841ae76ce3b3d8",
-       "a4833267237fabdf"
+       "7414d02465bbcc65",
+       "2b70c432ad48e9c8"
       ],
       [
-       "f5fbf44a5227f8e9",
-       "4ddc069352a58eae"
+       "eb375bf32ba33af7",
+       "0cda92535ad97566"
       ],
       [
-       "17382fdde37a82a8"
+       "8cb1bccac6ace8cf"
       ]
      ],
      "pos": [
       [
-       null,
-       null
+       1,
+       2
       ],
       [
        0,
        2
       ],
       [
-       null,
-       null
+       0,
+       1
       ],
       [
        null,
        null
       ],
       [
-       null
+       2
       ]
      ],
      "kinds": [
       [
-       "write 1",
-       "write 1"
+       "choose 1",
+       "choose 1"
       ],
       [
        "choose 1",
        "choose 1"
       ],
       [
-       "write 1",
-       "write 1"
+       "choose 2 ·top",
+       "choose 2 ·bottom"
       ],
       [
-       "write 1",
-       "write 1"
+       "write 1 ·ask",
+       "write 1 ·tell"
       ],
       [
-       "write 1"
+       "choose 2"
       ]
      ],
      "sizes": [
@@ -7347,6 +8958,421 @@
       ]
      ]
     }
+   }
+  },
+  {
+   "unit": "k-reading-to-learn-fact-texts",
+   "slug": "reading-to-learn-fact-texts-kindergarten-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Find the Facts",
+     "type": "K-645",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "What Is It All About?",
+     "type": "K-646",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Pictures That Teach",
+     "type": "K-647",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "First, Then",
+     "type": "K-648",
+     "tasks": 2
+    },
+    {
+     "part": 5,
+     "lesson": 5,
+     "title": "Two Texts, One Topic",
+     "type": "K-649",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 4,
+     "cards": [
+      [
+       "30fd6fdf303f17d8",
+       "3fcc557bf1752930"
+      ],
+      [
+       "a74a44c20940c69d",
+       "9e5dbaf451c54820"
+      ],
+      [
+       "f9d82dcf6c9900b8"
+      ],
+      [
+       "35a27511a0a91947",
+       "ad33cbe82a60a217"
+      ],
+      [
+       "856d628751ad2a0b",
+       "8071bcc9b007cfd9"
+      ]
+     ],
+     "pos": [
+      [
+       0,
+       2
+      ],
+      [
+       0,
+       1
+      ],
+      [
+       null
+      ],
+      [
+       2,
+       1
+      ],
+      [
+       0,
+       1
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "? ? ? ?"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "choose 1 ·one",
+       "choose 1 ·both"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       4
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 4,
+     "cards": [
+      [
+       "93ea550c9aa0c62f",
+       "3dc283fec76f992c"
+      ],
+      [
+       "331a5d817b207a6c",
+       "58b6784158812674"
+      ],
+      [
+       "2498042fc372ec99"
+      ],
+      [
+       "4fcf3bd6930785b3",
+       "24487b4683f52982"
+      ],
+      [
+       "ed8034fe5368bc9b",
+       "dd980c5a53ff0b11"
+      ]
+     ],
+     "pos": [
+      [
+       2,
+       0
+      ],
+      [
+       1,
+       2
+      ],
+      [
+       null
+      ],
+      [
+       0,
+       1
+      ],
+      [
+       2,
+       1
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "? ? ? ?"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "choose 1 ·one",
+       "choose 1 ·both"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       4
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "k-draw-and-write-opinions-facts-and-stories",
+   "slug": "draw-and-write-opinions-facts-and-stories-kindergarten-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "My favorite and why: an opinion",
+     "type": "K-673",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Teach a fact: draw, label, and write",
+     "type": "K-675",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "What happened to me: a small moment",
+     "type": "K-677",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Author's chair: a friend asks, I add",
+     "type": "K-679",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 3,
+     "cards": [
+      [
+       "0f8835187fe4f79a",
+       "01faadd2d87e6f48"
+      ],
+      [
+       "0809a906ed20965a"
+      ],
+      [
+       "5ad8fdbd107bce07"
+      ],
+      [
+       "92fadeff25ce2a07",
+       "6415ac9d111d3373"
+      ]
+     ],
+     "pos": [
+      [
+       0,
+       1
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       0,
+       1
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "write 3"
+      ],
+      [
+       "one"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       3
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 3,
+     "cards": [
+      [
+       "22602132663b613d",
+       "656b50a85e6cee81"
+      ],
+      [
+       "076088f44ed3d703"
+      ],
+      [
+       "cc263bb228193ea5"
+      ],
+      [
+       "1369c1dc1232d2d3",
+       "95eb54f9ff342c2c"
+      ]
+     ],
+     "pos": [
+      [
+       1,
+       0
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       1,
+       0
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "write 3"
+      ],
+      [
+       "one"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       3
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   "writing": {
+    "part": 5,
+    "type": "K-674",
+    "level": 2,
+    "taskA": "myfav:food",
+    "taskB": "myfav:animal",
+    "points": [
+     {
+      "id": "opinion",
+      "kind": "content",
+      "max": 2
+     },
+     {
+      "id": "picture",
+      "kind": "content",
+      "max": 2
+     },
+     {
+      "id": "conventions",
+      "kind": "conventions",
+      "max": 2
+     }
+    ]
    }
   },
   {
@@ -7510,6 +9536,194 @@
    }
   },
   {
+   "unit": "g1-digraphs-and-blends",
+   "slug": "digraphs-and-blends-grade-1-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "sh, ch, and th",
+     "type": "G1-380",
+     "tasks": 3
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "ck, ng, and wh",
+     "type": "G1-589",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Blends at the start: st, fl, tr",
+     "type": "G1-493",
+     "tasks": 2
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Blends at the end: nd, mp, st, and nk",
+     "type": "G1-591",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "7d852cf666e78565",
+       "6ebb901faf33a5c5",
+       "aafb7ac486548afe"
+      ],
+      [
+       "7ce869629a659434",
+       "1d918672088df705"
+      ],
+      [
+       "734e2faed726a6d2",
+       "75be40cf63db969b"
+      ],
+      [
+       "790d845107ca9cf4"
+      ]
+     ],
+     "pos": [
+      [
+       2,
+       0,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       1
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1 ·sh",
+       "choose 1 ·ch",
+       "choose 1 ·th"
+      ],
+      [
+       "choose 1 ·ck",
+       "choose 1 ·ng"
+      ],
+      [
+       "w ·fl",
+       "w ·tr"
+      ],
+      [
+       "choose 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "3a5407e3237c3a2d",
+       "28fb32b2a3751301",
+       "0cf0cc7042bf6ba3"
+      ],
+      [
+       "84af097dadbf5bf0",
+       "5067ebfffb99f382"
+      ],
+      [
+       "41670e5899b997e8",
+       "c97af02c2d856d59"
+      ],
+      [
+       "1a253f9d771aff0a"
+      ]
+     ],
+     "pos": [
+      [
+       0,
+       1,
+       0
+      ],
+      [
+       1,
+       0
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       0
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1 ·sh",
+       "choose 1 ·ch",
+       "choose 1 ·th"
+      ],
+      [
+       "choose 1 ·ck",
+       "choose 1 ·ng"
+      ],
+      [
+       "w ·fl",
+       "w ·tr"
+      ],
+      [
+       "choose 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
    "unit": "g1-reading-sentences-and-stories",
    "slug": "reading-sentences-and-stories-grade-1-unit",
    "status": "live",
@@ -7661,6 +9875,420 @@
        0
       ],
       [
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "g1-reading-stories-characters-and-lessons",
+   "slug": "reading-stories-characters-and-lessons-grade-1-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Find the Answer in the Story",
+     "type": "G1-579",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Characters, Setting, and Big Events",
+     "type": "G1-580",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Retell the Story and Tell Its Lesson",
+     "type": "G1-581",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Words That Show Feelings and Senses",
+     "type": "G1-582",
+     "tasks": 1
+    },
+    {
+     "part": 5,
+     "lesson": 5,
+     "title": "Who Is Telling the Story?",
+     "type": "G1-583",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 3,
+     "cards": [
+      [
+       "3a74bb5affb5f435"
+      ],
+      [
+       "3f01e9e19de66c50"
+      ],
+      [
+       "cd38e88205ad3b84"
+      ],
+      [
+       "724eff4c9a866c70"
+      ],
+      [
+       "3e67a652591cdcb3"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       1
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "write 1"
+      ],
+      [
+       "write 1"
+      ],
+      [
+       "choose 1"
+      ],
+      [
+       "write 1"
+      ],
+      [
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 3,
+     "cards": [
+      [
+       "ea4340da9f4e056f"
+      ],
+      [
+       "bcb0c9341fde9cde"
+      ],
+      [
+       "be6f34424696fb37"
+      ],
+      [
+       "07c3b74676f4d5be"
+      ],
+      [
+       "5aa9e124f5cfa1d2"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       1
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "write 1"
+      ],
+      [
+       "write 1"
+      ],
+      [
+       "choose 1"
+      ],
+      [
+       "write 1"
+      ],
+      [
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "g1-long-vowels-silent-e-and-vowel-teams",
+   "slug": "long-vowels-silent-e-and-vowel-teams-grade-1-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Silent e Changes the Vowel",
+     "type": "G1-584",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Long or short vowel?",
+     "type": "G1-495",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Long a: ai and ay",
+     "type": "G1-585",
+     "tasks": 2
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Long e: ee and ea",
+     "type": "G1-586",
+     "tasks": 2
+    },
+    {
+     "part": 5,
+     "lesson": 5,
+     "title": "Long o: oa and ow",
+     "type": "G1-587",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "f3cdaa02e04a7ffa",
+       "debb07d4b51ea48e"
+      ],
+      [
+       "c7533ca6caf0de71",
+       "bcb67102e756e3e5"
+      ],
+      [
+       "91a02ac9824905fc",
+       "98d40dc6bd6f17a7"
+      ],
+      [
+       "70186d1e2146b8cc",
+       "e35977cec3e4626e"
+      ],
+      [
+       "6537d45367ae3577",
+       "15735c3405932777"
+      ]
+     ],
+     "pos": [
+      [
+       1,
+       0
+      ],
+      [
+       1,
+       0
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1 ·short",
+       "choose 1 ·long"
+      ],
+      [
+       "w w w",
+       "w w w"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "747f68b8f05d693e",
+       "9335336aa3f34a51"
+      ],
+      [
+       "23a8b7c96ef868c4",
+       "71fedc50fc6879d1"
+      ],
+      [
+       "a51c6d7f0efbc779",
+       "c7faea2f95e7dbe5"
+      ],
+      [
+       "2ac7e9e5ec14ba8e",
+       "c93688949fbefc38"
+      ],
+      [
+       "078bb2c566bd0b56",
+       "6e84f36b59fabaee"
+      ]
+     ],
+     "pos": [
+      [
+       0,
+       1
+      ],
+      [
+       0,
+       1
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1 ·short",
+       "choose 1 ·long"
+      ],
+      [
+       "w w w",
+       "w w w"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
        0
       ]
      ]
@@ -7836,6 +10464,215 @@
    }
   },
   {
+   "unit": "g1-writing-stories-opinions-and-facts",
+   "slug": "writing-stories-opinions-and-facts-grade-1-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Write a true story: plan and draft",
+     "type": "G1-616",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "My opinion and a reason",
+     "type": "G1-618",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "All about a topic: facts and a closing",
+     "type": "G1-620",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Revise and edit with a checklist",
+     "type": "G1-622",
+     "tasks": 3
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 3,
+     "cards": [
+      [
+       "a26dd4afc5a58706"
+      ],
+      [
+       "2e989cabdf040a07",
+       "16151ba2804afda7"
+      ],
+      [
+       "dd91a73d573ebabd"
+      ],
+      [
+       "8c0d5102243d47bf",
+       "d8d595de3591e59b",
+       "0a20cb459214ae83"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       0,
+       2
+      ],
+      [
+       2
+      ],
+      [
+       null,
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "one"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "choose 1"
+      ],
+      [
+       "write 1 ·end",
+       "write 1 ·i",
+       "write 1 ·cap"
+      ]
+     ],
+     "sizes": [
+      [
+       3
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0,
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 3,
+     "cards": [
+      [
+       "472e392b0a62ac01"
+      ],
+      [
+       "54093eb93a12b6d6",
+       "812f37f19df15143"
+      ],
+      [
+       "a3cdf0ed257501c3"
+      ],
+      [
+       "b34c28701fafd6e7",
+       "f5d453c8f5eb40bc",
+       "0a49be673ba87309"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       2,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       null,
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "one"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "choose 1"
+      ],
+      [
+       "write 1 ·end",
+       "write 1 ·i",
+       "write 1 ·cap"
+      ]
+     ],
+     "sizes": [
+      [
+       3
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   "writing": {
+    "part": 5,
+    "type": "G1-619",
+    "level": 2,
+    "taskA": "opinion:season",
+    "taskB": "opinion:time",
+    "points": [
+     {
+      "id": "opinion",
+      "kind": "content",
+      "max": 2
+     },
+     {
+      "id": "reason",
+      "kind": "content",
+      "max": 2
+     },
+     {
+      "id": "ending",
+      "kind": "content",
+      "max": 2
+     },
+     {
+      "id": "conventions",
+      "kind": "conventions",
+      "max": 2
+     }
+    ]
+   }
+  },
+  {
    "unit": "g1-word-meanings-and-word-parts",
    "slug": "word-meanings-and-word-parts-grade-1-unit",
    "status": "live",
@@ -8004,6 +10841,517 @@
        0
       ],
       [
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "g1-reading-to-learn-informational-texts",
+   "slug": "reading-to-learn-informational-texts-grade-1-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Facts in the text",
+     "type": "G1-575",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "The main topic and key details",
+     "type": "G1-576",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Text features: titles, headings, bold words, pictures, captions, and a glossary",
+     "type": "G1-577",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [
+    4
+   ],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "1326f859e9ecd276"
+      ],
+      [
+       "6a9ede1770724906"
+      ],
+      [
+       "1f0ec658ec0743de"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "write 1"
+      ],
+      [
+       "write 1"
+      ],
+      [
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "23e119c4c9ea3f02"
+      ],
+      [
+       "1464c5ea790a8c4b"
+      ],
+      [
+       "a9f6d9ee06275ef1"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "write 1"
+      ],
+      [
+       "write 1"
+      ],
+      [
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "g1-two-syllable-words",
+   "slug": "two-syllable-words-grade-1-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Every syllable has a vowel",
+     "type": "G1-600",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Compound words and two-part words",
+     "type": "G1-602",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Syllables",
+     "type": "G1-305",
+     "tasks": 2
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Tricky words: said, was, of, could",
+     "type": "G1-603",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "c6e9d6709f5f4ae3",
+       "d3ec2f6842959119"
+      ],
+      [
+       "b3d261d60d70c1e8",
+       "821169d7f2aac346"
+      ],
+      [
+       "be16ff314507ff52",
+       "34e17e0d730265a7"
+      ],
+      [
+       "b8d3eee3631fbcf8",
+       "d387463ea883d028"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       5,
+       3
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w ?",
+       "w ?"
+      ],
+      [
+       "choose 1 ·compound",
+       "choose 1 ·double"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       2,
+       1
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       2,
+       1
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "bfb9c8e5aa243c90",
+       "6c1bec1dae319d45"
+      ],
+      [
+       "cb3ed13eb2b3e028",
+       "4c1e8f8e5eef7ac9"
+      ],
+      [
+       "727c6407ab27f3c2",
+       "d78ca2c2d36b969f"
+      ],
+      [
+       "992b0a2dd0c73a32",
+       "bebb204c1eb0f6d6"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       7,
+       5
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "w ?",
+       "w ?"
+      ],
+      [
+       "choose 1 ·compound",
+       "choose 1 ·double"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       1,
+       2
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       1,
+       2
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "g2-long-vowels-and-vowel-teams",
+   "slug": "long-vowels-and-vowel-teams-grade-2-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Review: find sh in sentences",
+     "type": "G2-372",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Short or Long Vowel?",
+     "type": "G2-530",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Vowel Teams for Long a, e, and o",
+     "type": "G2-531",
+     "tasks": 2
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Vowel Sounds: oo, ou, ow, oi, and oy",
+     "type": "G2-532",
+     "tasks": 3
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 3,
+     "cards": [
+      [
+       "0c162fa611e1cc16",
+       "9dae91a37818f937"
+      ],
+      [
+       "be2576e820dead16",
+       "4d01edbf1fd0cc85"
+      ],
+      [
+       "082e09a0c233b3ed",
+       "08a4b0526a1ed706"
+      ],
+      [
+       "c2ae1d0801df7a90",
+       "54ac740ffde75561",
+       "b56d39b6b1c31263"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       1,
+       0
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       1
+      ]
+     ],
+     "kinds": [
+      [
+       "one",
+       "one"
+      ],
+      [
+       "choose 1 ·long",
+       "choose 1 ·short"
+      ],
+      [
+       "write 1 ·look",
+       "write 1 ·rule"
+      ],
+      [
+       "write 1 ·first",
+       "write 1 ·second",
+       "choose 1 ·oo"
+      ]
+     ],
+     "sizes": [
+      [
+       3,
+       2
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 3,
+     "cards": [
+      [
+       "fb7375efa2b56129",
+       "380c8e60c4665916"
+      ],
+      [
+       "a902008e186daec5",
+       "96d3cb2aa7cadce7"
+      ],
+      [
+       "fea51745291fd31b",
+       "3b45162b29b0adb5"
+      ],
+      [
+       "b4d8c2d96dcafce7",
+       "932d548b7f841100",
+       "884b4fd175eab101"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       0,
+       1
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       0
+      ]
+     ],
+     "kinds": [
+      [
+       "one",
+       "one"
+      ],
+      [
+       "choose 1 ·long",
+       "choose 1 ·short"
+      ],
+      [
+       "write 1 ·look",
+       "write 1 ·rule"
+      ],
+      [
+       "write 1 ·first",
+       "write 1 ·second",
+       "choose 1 ·oo"
+      ]
+     ],
+     "sizes": [
+      [
+       2,
+       3
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0,
        0
       ]
      ]
@@ -8201,6 +11549,194 @@
        0
       ],
       [
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "g2-bossy-r-and-longer-words",
+   "slug": "bossy-r-and-longer-words-grade-2-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Bossy r: ar and or",
+     "type": "G2-533",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "er, ir, and ur: One Sound, Three Spellings",
+     "type": "G2-545",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Long vowels in two-syllable words",
+     "type": "G2-546",
+     "tasks": 2
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Tricky words: could, would, should",
+     "type": "G2-548",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "eaf585fced01ac7f",
+       "4757e8bcd1831984"
+      ],
+      [
+       "d8aaf135f1533763",
+       "da8479145e57f1f0"
+      ],
+      [
+       "12041452817e9890",
+       "388d58fb7ffcdc9a"
+      ],
+      [
+       "0618d40fe6e2b7ad",
+       "043f6fa79cdca98e"
+      ]
+     ],
+     "pos": [
+      [
+       1,
+       0
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       0,
+       2
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1 ·ar",
+       "choose 1 ·or"
+      ],
+      [
+       "write 1 ·ir",
+       "write 1 ·ur"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "write 1 ·oul",
+       "write 1 ·more"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "3cfd4e58e1ee8411",
+       "b79434860837428b"
+      ],
+      [
+       "a737f2e6630219f9",
+       "2e8f16e8bfbe6272"
+      ],
+      [
+       "95fd446f634ffbe3",
+       "3b94dea865cceeab"
+      ],
+      [
+       "5a050bb02660617a",
+       "a09058e23a89729c"
+      ]
+     ],
+     "pos": [
+      [
+       0,
+       1
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       1,
+       2
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1 ·ar",
+       "choose 1 ·or"
+      ],
+      [
+       "write 1 ·ir",
+       "write 1 ·ur"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "write 1 ·oul",
+       "write 1 ·more"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
        0
       ]
      ]
@@ -8507,6 +12043,1028 @@
    }
   },
   {
+   "unit": "g2-writing-stories",
+   "slug": "writing-stories-grade-2-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 3,
+     "title": "Plan and draft a true story",
+     "type": "G2-571",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 4,
+     "title": "Revise and edit a story with a checklist",
+     "type": "G2-574",
+     "tasks": 3
+    }
+   ],
+   "notCovered": [
+    1,
+    2
+   ],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "fcd220c1a997cd95"
+      ],
+      [
+       "699ec04cf75b9e7b",
+       "b3f7d152e8895180",
+       "6955c41f606736d3"
+      ]
+     ],
+     "pos": [
+      [
+       0
+      ],
+      [
+       null,
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 3"
+      ],
+      [
+       "write 1 ·name",
+       "write 1 ·start",
+       "write 1 ·end"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0,
+       0,
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "8752508a5d7d2dd4"
+      ],
+      [
+       "044d0e4929f22288",
+       "e521867e3616e11c",
+       "8671f11ac5a3817c"
+      ]
+     ],
+     "pos": [
+      [
+       1
+      ],
+      [
+       null,
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 3"
+      ],
+      [
+       "write 1 ·name",
+       "write 1 ·start",
+       "write 1 ·end"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   "writing": {
+    "part": 3,
+    "type": "G2-573",
+    "level": 2,
+    "taskA": "idea:helped",
+    "taskB": "idea:newthing",
+    "points": [
+     {
+      "id": "order",
+      "kind": "content",
+      "max": 2
+     },
+     {
+      "id": "feeling",
+      "kind": "content",
+      "max": 2
+     },
+     {
+      "id": "ending",
+      "kind": "content",
+      "max": 2
+     },
+     {
+      "id": "conventions",
+      "kind": "conventions",
+      "max": 2
+     }
+    ]
+   }
+  },
+  {
+   "unit": "g2-reading-to-learn-informational-texts",
+   "slug": "reading-to-learn-informational-texts-grade-2-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "The Main Topic and Each Paragraph",
+     "type": "G2-519",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Text Features: Glossary and Index",
+     "type": "G2-520",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "What the Diagram Shows",
+     "type": "G2-521",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Steps in Order: How It Is Made",
+     "type": "G2-522",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [
+    5
+   ],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "830847034d314588"
+      ],
+      [
+       "c98c3b2961300aea"
+      ],
+      [
+       "5e7c30e35cf0f72d"
+      ],
+      [
+       "ce1c5e00f9647cb7"
+      ]
+     ],
+     "pos": [
+      [
+       1
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       0
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1"
+      ],
+      [
+       "write 2"
+      ],
+      [
+       "write 1"
+      ],
+      [
+       "choose 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "ae1f743abe689a92"
+      ],
+      [
+       "943ba0e626e8fed1"
+      ],
+      [
+       "860a78e21b360a37"
+      ],
+      [
+       "bac27d8d60e36ecf"
+      ]
+     ],
+     "pos": [
+      [
+       0
+      ],
+      [
+       null
+      ],
+      [
+       null
+      ],
+      [
+       2
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1"
+      ],
+      [
+       "write 2"
+      ],
+      [
+       "write 1"
+      ],
+      [
+       "choose 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "g2-writing-to-inform",
+   "slug": "writing-to-inform-grade-2-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 2,
+     "title": "Plan an informative piece",
+     "type": "G2-565",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 3,
+     "title": "Draft with facts and a closing",
+     "type": "G2-567",
+     "tasks": 3
+    },
+    {
+     "part": 3,
+     "lesson": 4,
+     "title": "Research with two books: a class report",
+     "type": "G2-569",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [
+    1
+   ],
+   "forms": {
+    "A": {
+     "pages": 3,
+     "cards": [
+      [
+       "a0820801f8344561",
+       "8a6e2e0cdd21931b"
+      ],
+      [
+       "51badd537ff210ae",
+       "7ace8c7e843587b4",
+       "78107ca2298db887"
+      ],
+      [
+       "24b2f03edebe7d5c"
+      ]
+     ],
+     "pos": [
+      [
+       3,
+       2
+      ],
+      [
+       2,
+       0,
+       1
+      ],
+      [
+       2
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "choose 1 ·and",
+       "choose 1 ·another",
+       "choose 1 ·also"
+      ],
+      [
+       "choose 3"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 3,
+     "cards": [
+      [
+       "e8b4a2da17eaef8e",
+       "153adf1a44c2a11b"
+      ],
+      [
+       "85d2dee4e1de1afe",
+       "04d21b11b0953d90",
+       "b9cfc67556a77125"
+      ],
+      [
+       "6769508badc0554a"
+      ]
+     ],
+     "pos": [
+      [
+       2,
+       1
+      ],
+      [
+       1,
+       1,
+       0
+      ],
+      [
+       1
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "choose 1 ·and",
+       "choose 1 ·another",
+       "choose 1 ·also"
+      ],
+      [
+       "choose 3"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    }
+   },
+   "writing": {
+    "part": 4,
+    "type": "G2-568",
+    "level": 2,
+    "taskA": "topic:foxes",
+    "taskB": "topic:penguins",
+    "points": [
+     {
+      "id": "topic",
+      "kind": "content",
+      "max": 2
+     },
+     {
+      "id": "facts",
+      "kind": "content",
+      "max": 2
+     },
+     {
+      "id": "definition",
+      "kind": "content",
+      "max": 2
+     },
+     {
+      "id": "closing",
+      "kind": "content",
+      "max": 2
+     },
+     {
+      "id": "conventions",
+      "kind": "conventions",
+      "max": 2
+     }
+    ]
+   }
+  },
+  {
+   "unit": "g2-stories-beginnings-endings-and-versions",
+   "slug": "stories-beginnings-endings-and-versions-grade-2-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "How a story begins and ends",
+     "type": "G2-576",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Different voices for different characters",
+     "type": "G2-578",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Two versions of one tale",
+     "type": "G2-580",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [
+    4
+   ],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "4f66529b5b611737"
+      ],
+      [
+       "1732317627a355db"
+      ],
+      [
+       "22bbcdeda2e22fc9"
+      ]
+     ],
+     "pos": [
+      [
+       0
+      ],
+      [
+       null
+      ],
+      [
+       0
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1"
+      ],
+      [
+       "write 1"
+      ],
+      [
+       "choose 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "8a6498461e912a80"
+      ],
+      [
+       "6023f21e4202d4de"
+      ],
+      [
+       "e6729f5f3cc12705"
+      ]
+     ],
+     "pos": [
+      [
+       2
+      ],
+      [
+       null
+      ],
+      [
+       1
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1"
+      ],
+      [
+       "write 1"
+      ],
+      [
+       "choose 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "g2-opinion-writing-and-letters",
+   "slug": "opinion-writing-and-letters-grade-2-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Plan an opinion: reasons and linking words",
+     "type": "G2-557",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Draft an opinion piece",
+     "type": "G2-560",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "A friendly letter",
+     "type": "G2-561",
+     "tasks": 2
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Capitals for holidays, places, and brand names",
+     "type": "G2-563",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 3,
+     "cards": [
+      [
+       "3df09d01288dc4fa"
+      ],
+      [
+       "8641abd007278bf2"
+      ],
+      [
+       "09d7142d878f7a27",
+       "f5594e63c160bda3"
+      ],
+      [
+       "a85a3f95a828a697",
+       "a7c56750f3758ea4"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       2
+      ],
+      [
+       2,
+       1
+      ],
+      [
+       3,
+       6
+      ]
+     ],
+     "kinds": [
+      [
+       "write 5"
+      ],
+      [
+       "choose 1"
+      ],
+      [
+       "choose 1 ·greet",
+       "choose 1 ·close"
+      ],
+      [
+       "choose 2 ·h",
+       "choose 1 ·h"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 3,
+     "cards": [
+      [
+       "d05789c57d31aa8f"
+      ],
+      [
+       "28fa08764cc4ee30"
+      ],
+      [
+       "dc531dc98f896dcb",
+       "96dc5634fee739c7"
+      ],
+      [
+       "e035a9abd325328a",
+       "63a551b850b2d372"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       1
+      ],
+      [
+       0,
+       2
+      ],
+      [
+       5,
+       5
+      ]
+     ],
+     "kinds": [
+      [
+       "write 5"
+      ],
+      [
+       "choose 1"
+      ],
+      [
+       "choose 1 ·greet",
+       "choose 1 ·close"
+      ],
+      [
+       "choose 2 ·h",
+       "choose 1 ·h"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   "writing": {
+    "part": 5,
+    "type": "G2-559",
+    "level": 2,
+    "taskA": "opinion:recess-game",
+    "taskB": "opinion:read-place",
+    "points": [
+     {
+      "id": "opinion",
+      "kind": "content",
+      "max": 2
+     },
+     {
+      "id": "reasons",
+      "kind": "content",
+      "max": 2
+     },
+     {
+      "id": "linking",
+      "kind": "content",
+      "max": 2
+     },
+     {
+      "id": "closing",
+      "kind": "content",
+      "max": 2
+     },
+     {
+      "id": "conventions",
+      "kind": "conventions",
+      "max": 2
+     }
+    ]
+   }
+  },
+  {
+   "unit": "g3-reading-long-words",
+   "slug": "reading-long-words-grade-3-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Closed and open syllables",
+     "type": "G3-512",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Silent-e, vowel-team, and consonant-le syllables",
+     "type": "G3-514",
+     "tasks": 3
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Suffixes -able, -ment, -ness, -ful, -less",
+     "type": "G3-516",
+     "tasks": 3
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Tricky words: enough, though, ocean",
+     "type": "G3-518",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 4,
+     "cards": [
+      [
+       "6776a38390d585e1",
+       "d8aafc93165c8d75"
+      ],
+      [
+       "d9d684e12ff0cbfb",
+       "e74b8a545659a90b",
+       "730febcbf18ce130"
+      ],
+      [
+       "72f1c4bd8ba8c00d",
+       "4e4535d2398d8c6a",
+       "54d5368bba86d75e"
+      ],
+      [
+       "6e7f8ef3fb47fd5a",
+       "5247928d3d228f20"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "write 2",
+       "write 2"
+      ],
+      [
+       "write 2 ·v",
+       "write 2 ·e",
+       "write 2 ·l"
+      ],
+      [
+       "write 4 ·match",
+       "write 1 ·build",
+       "write 1 ·able"
+      ],
+      [
+       "write 1 ·core",
+       "write 1 ·more"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 4,
+     "cards": [
+      [
+       "6316770f486c205d",
+       "bf29c839e988027e"
+      ],
+      [
+       "8c8c1cd14750d4b6",
+       "07d25b3042369762",
+       "f160163dc20b77dc"
+      ],
+      [
+       "fd6886d125048ebc",
+       "3f6e06d7a78b3597",
+       "8b5d56d91d2f2005"
+      ],
+      [
+       "4567212e0e8d0670",
+       "05c568bf749f9635"
+      ]
+     ],
+     "pos": [
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null
+      ],
+      [
+       null,
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "write 2",
+       "write 2"
+      ],
+      [
+       "write 2 ·v",
+       "write 2 ·e",
+       "write 2 ·l"
+      ],
+      [
+       "write 4 ·match",
+       "write 1 ·build",
+       "write 1 ·able"
+      ],
+      [
+       "write 1 ·core",
+       "write 1 ·more"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
    "unit": "g3-words-and-their-meanings",
    "slug": "words-and-their-meanings-grade-3-unit",
    "status": "live",
@@ -8656,6 +13214,1591 @@
       ]
      ],
      "sizes": [
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "g3-stories-evidence-lessons-characters",
+   "slug": "stories-evidence-lessons-and-characters-grade-3-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Show Where the Story Says It",
+     "type": "G3-502",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Retell a Story and Find Its Central Message",
+     "type": "G3-504",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Characters: Traits, Feelings, and Actions",
+     "type": "G3-506",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [
+    4
+   ],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "d3c38a3faaa4328d"
+      ],
+      [
+       "68918afa4cfd2a31"
+      ],
+      [
+       "8a7b1060cffdbfd3"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       2
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "write 2"
+      ],
+      [
+       "choose 1"
+      ],
+      [
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "eaa36911d754d4d7"
+      ],
+      [
+       "5039b967c60d37b7"
+      ],
+      [
+       "b3a46747ff13f07f"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       0
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "write 2"
+      ],
+      [
+       "choose 1"
+      ],
+      [
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "g3-reading-to-learn-informational-texts",
+   "slug": "reading-to-learn-informational-texts-grade-3-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Answer with Evidence",
+     "type": "G3-494",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Main Idea and Key Details",
+     "type": "G3-497",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Text Features and Search Tools",
+     "type": "G3-498",
+     "tasks": 2
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Maps, Diagrams, and Photos",
+     "type": "G3-511",
+     "tasks": 1
+    },
+    {
+     "part": 5,
+     "lesson": 5,
+     "title": "Events in Order, Cause and Effect",
+     "type": "G3-501",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 3,
+     "cards": [
+      [
+       "5f8e62359da88cbb"
+      ],
+      [
+       "2603495ca7ba739f"
+      ],
+      [
+       "9c6309ac62ac11b6",
+       "286c81d797573e82"
+      ],
+      [
+       "c1c933a5feff6065"
+      ],
+      [
+       "eb511ddbc1ca01bf"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       2
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       2
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "write 2"
+      ],
+      [
+       "choose 1"
+      ],
+      [
+       "write 1 ·glossary",
+       "write 1 ·index"
+      ],
+      [
+       "choose 2"
+      ],
+      [
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 3,
+     "cards": [
+      [
+       "b7349c88cbb7a33f"
+      ],
+      [
+       "e5e16016843ceb73"
+      ],
+      [
+       "3b142ec20110acc4",
+       "d4917bdc7674bc4b"
+      ],
+      [
+       "09602806b0e4ba7c"
+      ],
+      [
+       "0cb0eb458f9f3443"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       0
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       1
+      ],
+      [
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "write 2"
+      ],
+      [
+       "choose 1"
+      ],
+      [
+       "write 1 ·glossary",
+       "write 1 ·index"
+      ],
+      [
+       "choose 2"
+      ],
+      [
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "g3-opinion-writing",
+   "slug": "opinion-writing-grade-3-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "State an opinion and plan the reasons",
+     "type": "G3-548",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Reasons with linking words",
+     "type": "G3-550",
+     "tasks": 3
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "End with a concluding statement",
+     "type": "G3-552",
+     "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Revise and edit an opinion piece",
+     "type": "G3-554",
+     "tasks": 3
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 3,
+     "cards": [
+      [
+       "7cdf5aa2e30ad76a",
+       "2d330d67ce0e25f4"
+      ],
+      [
+       "a244870742b3a0c7",
+       "7935f4bb74e93d78",
+       "662019a0ca762540"
+      ],
+      [
+       "526a078dcfe55fe1"
+      ],
+      [
+       "0fdd86663866c180",
+       "441092c0120aa81a",
+       "31ec758de78751bf"
+      ]
+     ],
+     "pos": [
+      [
+       0,
+       1
+      ],
+      [
+       1,
+       2,
+       0
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 3 ·foo",
+       "choose 3 ·ffo"
+      ],
+      [
+       "choose 1 ·result",
+       "choose 1 ·reason",
+       "choose 1 ·example"
+      ],
+      [
+       "write 3"
+      ],
+      [
+       "write 1 ·cap",
+       "write 1 ·comma",
+       "write 1 ·end"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0,
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 3,
+     "cards": [
+      [
+       "eb3f11694cb2620f",
+       "d5cdd3d476437c48"
+      ],
+      [
+       "cd6a2cb66d1a33dc",
+       "77d1ee255af61d98",
+       "a5d4afe67ef55b23"
+      ],
+      [
+       "b5a410bd7221b462"
+      ],
+      [
+       "93850d4182eaeffa",
+       "49186694d972e3c8",
+       "1781932dc5d1d9c3"
+      ]
+     ],
+     "pos": [
+      [
+       1,
+       0
+      ],
+      [
+       0,
+       0,
+       2
+      ],
+      [
+       null
+      ],
+      [
+       null,
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 3 ·foo",
+       "choose 3 ·ffo"
+      ],
+      [
+       "choose 1 ·result",
+       "choose 1 ·reason",
+       "choose 1 ·example"
+      ],
+      [
+       "write 3"
+      ],
+      [
+       "write 1 ·cap",
+       "write 1 ·comma",
+       "write 1 ·end"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   "writing": {
+    "part": 5,
+    "type": "G3-551",
+    "level": 2,
+    "taskA": "opinion:fieldtrip",
+    "taskB": "opinion:party",
+    "points": [
+     {
+      "id": "intro",
+      "kind": "content",
+      "max": 2
+     },
+     {
+      "id": "reasons",
+      "kind": "content",
+      "max": 2
+     },
+     {
+      "id": "linking",
+      "kind": "content",
+      "max": 2
+     },
+     {
+      "id": "conclusion",
+      "kind": "content",
+      "max": 2
+     },
+     {
+      "id": "conventions",
+      "kind": "conventions",
+      "max": 2
+     }
+    ]
+   }
+  },
+  {
+   "unit": "g3-parts-of-speech",
+   "slug": "parts-of-speech-grade-3-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "What each word does in a sentence",
+     "type": "G3-531",
+     "tasks": 3
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Plural nouns: regular and irregular",
+     "type": "G3-533",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Past tense: regular and irregular verbs",
+     "type": "G3-534",
+     "tasks": 2
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Subjects and verbs agree",
+     "type": "G3-536",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 2,
+     "cards": [
+      [
+       "3c6795a20869b9b7",
+       "7301bb0648e6c542",
+       "829a3d781f72bcb9"
+      ],
+      [
+       "434c6fa60fca0195",
+       "7b03ba0cbd529ae7"
+      ],
+      [
+       "8218898bbf57569e",
+       "2e0942de1b6e538c"
+      ],
+      [
+       "22a154f6d7fec746",
+       "021525faec20e245"
+      ]
+     ],
+     "pos": [
+      [
+       4,
+       3,
+       2
+      ],
+      [
+       1,
+       2
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       0,
+       1
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1 ·D",
+       "choose 1 ·Aly",
+       "choose 1 ·V"
+      ],
+      [
+       "choose 1 ·es",
+       "choose 1 ·chg"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ],
+      [
+       "choose 1 ·sg",
+       "choose 1 ·pl"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 2,
+     "cards": [
+      [
+       "357ba3d126914e9c",
+       "3f5597d1523b3de8",
+       "01e2f8fd11ec3445"
+      ],
+      [
+       "7cb1820d45aa66f6",
+       "b34323981243f50c"
+      ],
+      [
+       "8fec00868f11399b",
+       "a1ed99f873c39b9c"
+      ],
+      [
+       "9cb67fcbc99f7682",
+       "73923ff1af442871"
+      ]
+     ],
+     "pos": [
+      [
+       4,
+       3,
+       2
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       1,
+       0
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1 ·D",
+       "choose 1 ·Aly",
+       "choose 1 ·V"
+      ],
+      [
+       "choose 1 ·es",
+       "choose 1 ·chg"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ],
+      [
+       "choose 1 ·sg",
+       "choose 1 ·pl"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "g3-informative-writing-and-research",
+   "slug": "informative-writing-and-research-grade-3-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Take notes and sort them",
+     "type": "G3-556",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Introduce a topic and group the facts",
+     "type": "G3-558",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Facts, definitions, and details",
+     "type": "G3-560",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [
+    4
+   ],
+   "forms": {
+    "A": {
+     "pages": 3,
+     "cards": [
+      [
+       "f132b3e0a1b8c9e8",
+       "8241d9818aa68cf6"
+      ],
+      [
+       "aca2b50e2952ea69"
+      ],
+      [
+       "8c5db1edacad1057",
+       "993def905bb7312c"
+      ]
+     ],
+     "pos": [
+      [
+       2,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       1,
+       0
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1 ·other",
+       "choose 1 ·short"
+      ],
+      [
+       "choose 1"
+      ],
+      [
+       "choose 2",
+       "choose 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 3,
+     "cards": [
+      [
+       "ebdfbff3c5fb3605",
+       "333c7adc991c9abd"
+      ],
+      [
+       "9c6b03dffb5f4c46"
+      ],
+      [
+       "756cfe5757ecc977",
+       "db09fa6accccbb2b"
+      ]
+     ],
+     "pos": [
+      [
+       1,
+       2
+      ],
+      [
+       3
+      ],
+      [
+       0,
+       1
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1 ·other",
+       "choose 1 ·short"
+      ],
+      [
+       "choose 1"
+      ],
+      [
+       "choose 2",
+       "choose 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   "writing": {
+    "part": 4,
+    "type": "G3-561",
+    "level": 2,
+    "taskA": "topic:beavers",
+    "taskB": "topic:honeybees",
+    "points": [
+     {
+      "id": "intro",
+      "kind": "content",
+      "max": 2
+     },
+     {
+      "id": "groups",
+      "kind": "content",
+      "max": 2
+     },
+     {
+      "id": "develop",
+      "kind": "content",
+      "max": 2
+     },
+     {
+      "id": "conclusion",
+      "kind": "content",
+      "max": 2
+     },
+     {
+      "id": "conventions",
+      "kind": "conventions",
+      "max": 2
+     }
+    ]
+   }
+  },
+  {
+   "unit": "g3-sentences-and-conventions",
+   "slug": "sentences-and-conventions-grade-3-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Joining words: and, but, so, because, when",
+     "type": "G3-521",
+     "tasks": 2
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Simple, compound, and complex sentences",
+     "type": "G3-522",
+     "tasks": 3
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Better, best: comparing with adjectives and adverbs",
+     "type": "G3-525",
+     "tasks": 3
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Possessives: the dog's bone, the dogs' bones",
+     "type": "G3-526",
+     "tasks": 2
+    },
+    {
+     "part": 5,
+     "lesson": 5,
+     "title": "Capitals in titles",
+     "type": "G3-528",
+     "tasks": 2
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 3,
+     "cards": [
+      [
+       "aa8e080913255f8b",
+       "38c54ee4297e760e"
+      ],
+      [
+       "f2edbdf5628eceaf",
+       "c6951ca83ac36abb",
+       "17c5adf11b0bf01d"
+      ],
+      [
+       "c0a541b3921564a5",
+       "e839f09e589dfadf",
+       "1ed236d1b02fee1b"
+      ],
+      [
+       "abdfd7b50f3fb1cf",
+       "9f6eacae4a21311e"
+      ],
+      [
+       "1f94d1442a6fa74b",
+       "66a1fc31f0d2b074"
+      ]
+     ],
+     "pos": [
+      [
+       1,
+       2
+      ],
+      [
+       0,
+       2,
+       1
+      ],
+      [
+       2,
+       0,
+       1
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 2 ·comma",
+       "choose 2 ·nocomma"
+      ],
+      [
+       "choose 1 ·list",
+       "choose 1 ·complex",
+       "choose 1 ·compound"
+      ],
+      [
+       "choose 1 ·base",
+       "choose 1 ·sup",
+       "choose 1 ·comp"
+      ],
+      [
+       "write 1 ·one",
+       "write 1 ·many"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 3,
+     "cards": [
+      [
+       "d35fef683bd5286e",
+       "ef66b0034ff43cbb"
+      ],
+      [
+       "edde230340f35e38",
+       "5843a30c2e7b87a8",
+       "3c15ac76b4451138"
+      ],
+      [
+       "7dc1efc9db0f0ec2",
+       "590ff6d3c0de5f8a",
+       "c29f162e52695bce"
+      ],
+      [
+       "8ef9ef24712d3d86",
+       "4bc498d37dd5b0d1"
+      ],
+      [
+       "fcfbaa480e88c9d5",
+       "ef28c643863f4123"
+      ]
+     ],
+     "pos": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       2,
+       1
+      ],
+      [
+       1,
+       1,
+       2
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 2 ·comma",
+       "choose 2 ·nocomma"
+      ],
+      [
+       "choose 1 ·list",
+       "choose 1 ·complex",
+       "choose 1 ·compound"
+      ],
+      [
+       "choose 1 ·base",
+       "choose 1 ·sup",
+       "choose 1 ·comp"
+      ],
+      [
+       "write 1 ·one",
+       "write 1 ·many"
+      ],
+      [
+       "write 1",
+       "write 1"
+      ]
+     ],
+     "sizes": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "unit": "g3-narrative-writing",
+   "slug": "narrative-writing-grade-3-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Plan a story: characters, setting, problem",
+     "type": "G3-564",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Dialogue and description",
+     "type": "G3-566",
+     "tasks": 2
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Time words that order the events",
+     "type": "G3-568",
+     "tasks": 2
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Revise for words that work",
+     "type": "G3-570",
+     "tasks": 3
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 3,
+     "cards": [
+      [
+       "3309c698210cad7a"
+      ],
+      [
+       "ace279a980cace3f",
+       "1b5822d9fe0c29e6"
+      ],
+      [
+       "2e3fb8f47293a372",
+       "37c4a71451c6f25a"
+      ],
+      [
+       "9c4099ea841dd43f",
+       "dc747cbfd0151350",
+       "a8114231a3330a3c"
+      ]
+     ],
+     "pos": [
+      [
+       2
+      ],
+      [
+       1,
+       0
+      ],
+      [
+       2,
+       0
+      ],
+      [
+       0,
+       1,
+       2
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1"
+      ],
+      [
+       "choose 1 ·ask",
+       "choose 1 ·tell"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "choose 1 ·go-good",
+       "choose 1 ·say-look",
+       "choose 1 ·big-nice"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 3,
+     "cards": [
+      [
+       "b48b94a66e08a54b"
+      ],
+      [
+       "cf3bb1572c2af89c",
+       "de771fa7fe6ff44b"
+      ],
+      [
+       "f71a55f71478265e",
+       "66c526fbd41a6d1e"
+      ],
+      [
+       "7e637a1c80e1c1f2",
+       "d93d21972de257f4",
+       "2485193b22039365"
+      ]
+     ],
+     "pos": [
+      [
+       1
+      ],
+      [
+       0,
+       2
+      ],
+      [
+       1,
+       1
+      ],
+      [
+       0,
+       0,
+       0
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1"
+      ],
+      [
+       "choose 1 ·ask",
+       "choose 1 ·tell"
+      ],
+      [
+       "choose 1",
+       "choose 1"
+      ],
+      [
+       "choose 1 ·go-good",
+       "choose 1 ·say-look",
+       "choose 1 ·big-nice"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   "writing": {
+    "part": 5,
+    "type": "G3-569",
+    "level": 2,
+    "taskA": "idea:hamster",
+    "taskB": "idea:bee",
+    "points": [
+     {
+      "id": "beginning",
+      "kind": "content",
+      "max": 2
+     },
+     {
+      "id": "order",
+      "kind": "content",
+      "max": 2
+     },
+     {
+      "id": "showing",
+      "kind": "content",
+      "max": 2
+     },
+     {
+      "id": "ending",
+      "kind": "content",
+      "max": 2
+     },
+     {
+      "id": "conventions",
+      "kind": "conventions",
+      "max": 2
+     }
+    ]
+   }
+  },
+  {
+   "unit": "g3-point-of-view-and-comparing-texts",
+   "slug": "point-of-view-and-comparing-texts-grade-3-unit",
+   "status": "live",
+   "parts": [
+    {
+     "part": 1,
+     "lesson": 1,
+     "title": "Chapters, scenes, and stanzas",
+     "type": "G3-572",
+     "tasks": 1
+    },
+    {
+     "part": 2,
+     "lesson": 2,
+     "title": "Whose point of view?",
+     "type": "G3-574",
+     "tasks": 1
+    },
+    {
+     "part": 3,
+     "lesson": 3,
+     "title": "Literal and nonliteral language",
+     "type": "G3-576",
+     "tasks": 2
+    },
+    {
+     "part": 4,
+     "lesson": 4,
+     "title": "Two books by one author",
+     "type": "G3-577",
+     "tasks": 1
+    },
+    {
+     "part": 5,
+     "lesson": 5,
+     "title": "Two texts on one topic",
+     "type": "G3-579",
+     "tasks": 1
+    }
+   ],
+   "notCovered": [],
+   "forms": {
+    "A": {
+     "pages": 3,
+     "cards": [
+      [
+       "53cc47d70f9baf38"
+      ],
+      [
+       "436ba5297de0d466"
+      ],
+      [
+       "dec0c19836cabf39",
+       "ac19e69e4d6c2409"
+      ],
+      [
+       "80484d0f473f42a2"
+      ],
+      [
+       "868d59df99a8868f"
+      ]
+     ],
+     "pos": [
+      [
+       1
+      ],
+      [
+       1
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       2
+      ],
+      [
+       1
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1"
+      ],
+      [
+       "choose 1"
+      ],
+      [
+       "write 2 ·N",
+       "write 2 ·L"
+      ],
+      [
+       "choose 1"
+      ],
+      [
+       "choose 1 ·both"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0,
+       0
+      ],
+      [
+       0
+      ],
+      [
+       0
+      ]
+     ]
+    },
+    "B": {
+     "pages": 3,
+     "cards": [
+      [
+       "1e119144d5d86da9"
+      ],
+      [
+       "a2bd555ef9d8bbd8"
+      ],
+      [
+       "72ac29572c05dddb",
+       "2e94ecafe3c6443e"
+      ],
+      [
+       "498acf6626e8df4c"
+      ],
+      [
+       "7cbe9355d407a8c4"
+      ]
+     ],
+     "pos": [
+      [
+       2
+      ],
+      [
+       0
+      ],
+      [
+       null,
+       null
+      ],
+      [
+       1
+      ],
+      [
+       1
+      ]
+     ],
+     "kinds": [
+      [
+       "choose 1"
+      ],
+      [
+       "choose 1"
+      ],
+      [
+       "write 2 ·N",
+       "write 2 ·L"
+      ],
+      [
+       "choose 1"
+      ],
+      [
+       "choose 1 ·both"
+      ]
+     ],
+     "sizes": [
+      [
+       0
+      ],
       [
        0
       ],

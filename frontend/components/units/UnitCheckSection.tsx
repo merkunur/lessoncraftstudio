@@ -21,6 +21,7 @@ export default function UnitCheckSection({ locale, check, ui, planName }: { loca
             <span>({tasks(p.tasks)})</span>
           </li>
         ))}
+        {check.writing && ui.writingLine ? <li><span>{fill(ui.writingLine, { part: check.writing.part, n: check.writing.points.length })}</span></li> : null}
       </ul>
       {check.notCovered.length ? <p className="un-check-left">{fill(ui.notCovered, { lessons: check.notCovered.map((n) => fill(ui.lessonRef, { n })).join(', ') })}</p> : null}
       <div className="un-check-files">

@@ -1,0 +1,346 @@
+{
+  "parts": [
+    {
+      "unit": "k-reading-stories",
+      "part": 1,
+      "verdict": "fix",
+      "why": "Tell: the Who answer (A mouse, B cat) is drawn twice in part 2 just below and again in part 4, so a non-listener still circles it. Take the Who card from the story not in parts 2 and 4 (A: bear; B: duck). Mark the child's rows (1) and (2)."
+    },
+    {
+      "unit": "k-reading-stories",
+      "part": 2,
+      "verdict": "fix",
+      "why": "Keys right (A 2-1-3, B 3-1-2). Form B is harder for a picture reason: two of its three pictures are cat+bed and cat+pillow, both 'cat goes to sleep', while form A's three events look different. Use dog+ball, dog+door, cat+pillow (1, 2, 3)."
+    },
+    {
+      "unit": "k-reading-stories",
+      "part": 3,
+      "verdict": "fix",
+      "why": "One right picture per card. But card 2's answer is drawn elsewhere in the form: A 'What does Owl open?' (owl+umbrella in parts 2 and 4), B 'What does Dog play with?' (dog+ball in parts 2 and 4). Ask about the other story: A 'Where does Bear see the bee?' (flower); B 'What does Duck give Frog?' (flower)."
+    },
+    {
+      "unit": "k-reading-stories",
+      "part": 4,
+      "verdict": "fix",
+      "why": "Form A copies part 2: the three shared pictures get the same numbers (rain 1, owl+umbrella 2, puddle 3), so a child copies part 2 and writes 4 under the sun. Form B does not have this. Reorder A's sentences, e.g. 1 puddle, 2 walk/sun, 3 umbrella, 4 rain."
+    },
+    {
+      "unit": "k-reading-stories",
+      "part": 5,
+      "verdict": "fix",
+      "why": "Keys right (A both, raccoon; B both, lamb). Form B is harder: both titles name Turtle, the tiles are Lamb and Goat, and card 2 asks about Turtle being hot while the answer is the lamb tile. Read 'Story 1, with the lamb picture … Story 2, with the goat picture', as K-649 does."
+    },
+    {
+      "unit": "k-reading-to-learn-fact-texts",
+      "part": 1,
+      "verdict": "ok",
+      "why": "Distractors now come from the text and none is defensible: A1 leaf (it eats leaves), butterfly (comes later, not from the egg); A2 moon (night), tree (sleeps there); B1 mouth (carries the nut), leaf (nest); B2 leaf (falls in fall), apple (grows after). B1 shows an acorn for 'nuts'; acceptable."
+    },
+    {
+      "unit": "k-reading-to-learn-fact-texts",
+      "part": 2,
+      "verdict": "fix",
+      "why": "One whole-topic picture per card. But form B's right answers sit in the rightmost slot (apple tree, dog), as do B part 1 card 1 and both B part 4 cards: 5 of 6 form B circle answers are on the right, none in form A. Move the dog to the left and the apple tree to the middle."
+    },
+    {
+      "unit": "k-reading-to-learn-fact-texts",
+      "part": 3,
+      "verdict": "ok",
+      "why": "Keys right (A acorn 1, squirrel 2, rain 3, tree 4; B tree 1, leaf 2, acorn 3, pine cone 4). 'Lives in a tree' and 'nest of leaves' could blur, but one picture per sentence leaves one answer."
+    },
+    {
+      "unit": "k-reading-to-learn-fact-texts",
+      "part": 4,
+      "verdict": "fix",
+      "why": "Keys right; the rain card is now a true First/Then. Form B: both answers are rightmost (put the puddle first, the apple in the middle). Form A card 2 asks the fact part 3 sentence 4 just gave (acorn grows into an oak). Use Butterflies: 'First a caterpillar eats and grows. Then what does it turn into?' (butterfly; leaf, caterpillar)."
+    },
+    {
+      "unit": "k-reading-to-learn-fact-texts",
+      "part": 5,
+      "verdict": "ok",
+      "why": "Keys right: owl only in Text 2, cloud in both; mouse only in Text 1, bed in both. The direction names the box with both pictures and the read-aloud names each text's picture. Owl means night and mouse means cat by world knowledge, so a non-listener can still score; acceptable for K."
+    },
+    {
+      "unit": "g1-reading-stories-characters-and-lessons",
+      "part": 1,
+      "verdict": "ok",
+      "why": "One answer each, stated in the excerpt (a bag of plums; a log); the starter frames the sentence. The questions use present tense ('What does Ben have?') for past-tense stories; 'had'/'wanted' would match the text, but present tense is normal classroom usage."
+    },
+    {
+      "unit": "g1-reading-stories-characters-and-lessons",
+      "part": 2,
+      "verdict": "ok",
+      "why": "Two different stories now (Pip and Ola; Rex and Kit) and the direction asks only who is in it. One answer each; the key accepts either order and the animal names."
+    },
+    {
+      "unit": "g1-reading-stories-characters-and-lessons",
+      "part": 3,
+      "verdict": "ok",
+      "why": "One lesson fits each excerpt (Do not give up; Work together); the other option has no support. Two options mean a 50% guess."
+    },
+    {
+      "unit": "g1-reading-stories-characters-and-lessons",
+      "part": 4,
+      "verdict": "fix",
+      "why": "One feeling word per excerpt, keys right, but both forms answer 'sad' (Rex was sad; 'I am sad,' said Fay), so form B repeats form A's answer. Give B another word, e.g. 'Pip was scared' or 'Now Finn was glad'. The lesson also names sense words, and neither form has one."
+    },
+    {
+      "unit": "g1-reading-stories-characters-and-lessons",
+      "part": 5,
+      "verdict": "ok",
+      "why": "Keys right (S, P), at grade for RL.1.6. The quoted line sits beside its speaker tag, and the narrator (N) is never the answer in either form; a narrator sentence would test the lesson's title better."
+    },
+    {
+      "unit": "g1-reading-to-learn-informational-texts",
+      "part": 1,
+      "verdict": "ok",
+      "why": "Facts true and stated (near ponds; a hard shell). One answer each; the starter frames it."
+    },
+    {
+      "unit": "g1-reading-to-learn-informational-texts",
+      "part": 2,
+      "verdict": "fix",
+      "why": "Main topic is the only defensible answer (honeybees, accept bees; ladybugs). Layout: in both forms the headings run into the first sentence ('A Busy Hive Honeybees live in a hive.', 'Small and Spotted A ladybug is…'), unlike parts 1 and 3. A first grader reads it as one sentence. Put each heading on its own line."
+    },
+    {
+      "unit": "g1-reading-to-learn-informational-texts",
+      "part": 3,
+      "verdict": "fix",
+      "why": "Form A needs inference (stay warm, 'Life in the Cold'). Form B is word-matching: 'Which heading tells you about nuts?' answered by 'Nuts for Winter'. Not the same difficulty. Ask B 'Which heading tells you how a squirrel uses its tail?' (Life in the Trees)."
+    },
+    {
+      "unit": "g2-reading-to-learn-informational-texts",
+      "part": 1,
+      "verdict": "ok",
+      "why": "Tell removed. A: 'what blubber is' (one sentence) and 'how polar bears hunt' (not in the paragraph) are not defensible; B: 'how many eyes most spiders have' (one sentence) and 'how spiders make and use silk' (absent) likewise. Facts true. B's key is by far the longest option; shorten to 'how spiders and insects differ'."
+    },
+    {
+      "unit": "g2-reading-to-learn-informational-texts",
+      "part": 2,
+      "verdict": "ok",
+      "why": "Glossary and index both tested in both forms; one answer each (a beaver's home of sticks and mud, page 2; a large group of animals that live together, page 3). Both lists are in ABC order. Copying a definition is at grade for RI.2.5."
+    },
+    {
+      "unit": "g2-reading-to-learn-informational-texts",
+      "part": 3,
+      "verdict": "fix",
+      "why": "Both keys right; the diagrams are correct. Form B asks what comes right after the chrysalis: 'butterfly' is the title word and the familiar adult, so a child answers without the diagram, while A's 'pupa' needs it. Ask B 'Which stage comes right after the caterpillar?' (the chrysalis)."
+    },
+    {
+      "unit": "g2-reading-to-learn-informational-texts",
+      "part": 4,
+      "verdict": "fix",
+      "why": "Both keys right, no second defensible option. Not the same difficulty: B's key copies the text's own clause ('so no dirt from the peels gets into the juice'), while A must link spun, yarn and knitted across two sentences. Word A's key 'Spinning turns the wool into yarn.', or give B a reason found in another sentence."
+    },
+    {
+      "unit": "g2-stories-beginnings-endings-and-versions",
+      "part": 1,
+      "verdict": "fix",
+      "why": "Keys right. Form A's 'The girls press the snow hard.' is not fair: the beginning shows only Kira and her dad, so 'the girls' are strangers and the line reads like a later solution; it confuses rather than tests. Use an in-beginning non-problem: A 'Kira stomps her boots.'; B 'Peep peeps and peeps.' (same kind)."
+    },
+    {
+      "unit": "g2-stories-beginnings-endings-and-versions",
+      "part": 2,
+      "verdict": "fix",
+      "why": "One answer each: A only Owen (Nell: he is tired; Mom: walk first; X wrong). B only Lucy (Arjun loves indoor recess; Ms. Webb only offers a game; X wrong). Form B's dialogue is not natural: 'Arjun said.' then '…said Arjun.', and 'Ms. Webb said' twice in a row. Merge each pair into one quotation."
+    },
+    {
+      "unit": "g2-stories-beginnings-endings-and-versions",
+      "part": 3,
+      "verdict": "fix",
+      "why": "Keys right, but both forms answer Version 2 and the statement copies the version's words ('by a river', 'on a farm'): phrase-finding, not comparing versions. Paraphrase and vary: A 'It happens where there are many trees.' (Version 1); B 'It happens near water.' (Version 2)."
+    },
+    {
+      "unit": "g3-stories-evidence-lessons-characters",
+      "part": 1,
+      "verdict": "fix",
+      "why": "Keys right; A proves from paragraph 3, B from 2. B's question can be read for paragraph 3 ('The water rose a tiny bit'); ask 'How much water was in the pitcher at first?'. The direction says 'Read the story' for two paragraphs and 'Write each answer' for one question."
+    },
+    {
+      "unit": "g3-stories-evidence-lessons-characters",
+      "part": 2,
+      "verdict": "fix",
+      "why": "Form B fixed: the mouse no longer states the message; one answer. Form A: 'It is always best to tell the truth.' has support in the excerpt (the grasshopper answers honestly, 'I sang,' and is given grains). Replace it with an unsupported message, e.g. 'Slow and steady wins the race.'"
+    },
+    {
+      "unit": "g3-stories-evidence-lessons-characters",
+      "part": 3,
+      "verdict": "ok",
+      "why": "One word fits each: crow patient ('did not stop', 'pebble by pebble'); villagers selfish at first ('nothing to spare', doors closed). Shy, lazy, brave and generous have no support. 'Selfish' rests on 'at first'; no other listed word fits."
+    },
+    {
+      "unit": "g3-reading-to-learn-informational-texts",
+      "part": 1,
+      "verdict": "fix",
+      "why": "Keys right (about ten days, 3; in Antarctica, 1); 'ten miles' is a fair lure. But B prints Emperor Penguins paragraph 2, the paragraph form A part 2 uses, and B's answer is the first sentence of paragraph 1, easier than A's. Take B from a text form A does not print."
+    },
+    {
+      "unit": "g3-reading-to-learn-informational-texts",
+      "part": 2,
+      "verdict": "fix",
+      "why": "B is clean (the route; the station distance is the narrow detail) but reprints Pony Express paragraph 2 from form A part 1. Form A: 'how the parents raise the chick' overlaps the key, since the mother lays and passes the egg, so a child can defend 'parents'. Use 'how cold Antarctica gets'."
+    },
+    {
+      "unit": "g3-reading-to-learn-informational-texts",
+      "part": 3,
+      "verdict": "fix",
+      "why": "Added; one answer each. Both glossaries are out of ABC order (coast, lens, keeper, backup; stagecoach, route, teenager, telegraph), the opposite of what the lesson teaches. The glossary card is a verbatim string match. A asks one page, B two (3 and 5); ask A about 'wall' (3, 4)."
+    },
+    {
+      "unit": "g3-reading-to-learn-informational-texts",
+      "part": 4,
+      "verdict": "fix",
+      "why": "B clean: the lion is named only in the diagram. A: the Evaporation box is a sun and a label; it shows nothing becoming a gas. The text says it but never uses the word 'evaporation'. So 'text' and 'both' are both defensible. Draw rising vapor labeled 'water vapor (a gas)', or add 'This is called evaporation.' and key 'text'."
+    },
+    {
+      "unit": "g3-reading-to-learn-informational-texts",
+      "part": 5,
+      "verdict": "ok",
+      "why": "Keys right: drinking milk, gains about 200 pounds a day; the lens, seen from about 20 miles. One effect each, and no part repeats another now. Facts check (calf about 25 feet; Fresnel lens 1820s)."
+    },
+    {
+      "unit": "g3-point-of-view-and-comparing-texts",
+      "part": 1,
+      "verdict": "ok",
+      "why": "Stanza card added. One answer each: boots, Stanza 2; cold toes, Stanza 3; the right stanza differs between forms. Both poems are natural, rhymed and at grade."
+    },
+    {
+      "unit": "g3-point-of-view-and-comparing-texts",
+      "part": 2,
+      "verdict": "ok",
+      "why": "Both first person now, the narrator's name inferred from dialogue in both. One answer each: A Leo only (Aiyana wants sunflowers); B Lucia only (Dad says rain spoils everything). Both statements echo the line ('eat what we grow', 'puddles to stomp in'); acceptable, though two names mean a 50% guess."
+    },
+    {
+      "unit": "g3-point-of-view-and-comparing-texts",
+      "part": 3,
+      "verdict": "ok",
+      "why": "One answer each: hit the hay N (went to bed); cut it out L here; on cloud nine N (very happy); get the ball rolling L here. Both forms put N first and L second; swap one form. Key 'use scissors on it' is vague: write 'cut the star out of the paper'."
+    },
+    {
+      "unit": "g3-point-of-view-and-comparing-texts",
+      "part": 4,
+      "verdict": "fix",
+      "why": "B clean: only 'Mabel goes to the goat pen' is in both ('It rained a lot' Story 2; 'Gus plays with an egg' Story 1). A: 'Rocco can climb trees' is defensible as true of both stories (same raccoon), though only Story 2 says it. Replace with an event: 'The wind blows a ball into the water.'"
+    },
+    {
+      "unit": "g3-point-of-view-and-comparing-texts",
+      "part": 5,
+      "verdict": "ok",
+      "why": "One answer each: eight arms is in both octopus texts (Text 2 says it only in its last sentence, a fair trap for 'Only Text 1'); silk is in both spider texts. Facts true (three hearts, blue blood, ink, spinnerets, most spiders eight eyes)."
+    }
+  ],
+  "checks": [
+    {
+      "unit": "k-reading-stories",
+      "verdict": "publish-after-fixes",
+      "why": "No story is in both forms and Who and Where are both asked now. But answers are drawn in other parts of the same form (parts 1, 3), form A part 4 copies part 2's numbers, and form B part 5 never says which animal stands for which story."
+    },
+    {
+      "unit": "k-reading-to-learn-fact-texts",
+      "verdict": "publish-after-fixes",
+      "why": "Each form has its own texts and every distractor comes from the text. Shuffle form B's answer positions (5 of 6 on the right) and replace form A part 4 card 2."
+    },
+    {
+      "unit": "g1-reading-stories-characters-and-lessons",
+      "verdict": "publish-after-fixes",
+      "why": "Sound and at grade; each form uses five different stories. Give form B part 4 a feeling word other than 'sad'."
+    },
+    {
+      "unit": "g1-reading-to-learn-informational-texts",
+      "verdict": "publish-after-fixes",
+      "why": "Fix form B part 3's word match and the inline headings in part 2. RI.1.9 (two animal fact files) still has no card."
+    },
+    {
+      "unit": "g2-reading-to-learn-informational-texts",
+      "verdict": "publish-after-fixes",
+      "why": "All four first-round problems are fixed; balance parts 3 and 4 between the forms. RI.2.9 (Two Animals: Same and Different) still has no card."
+    },
+    {
+      "unit": "g2-stories-beginnings-endings-and-versions",
+      "verdict": "publish-after-fixes",
+      "why": "Replace the 'girls' lure, fix form B's dialogue tags, and make part 3 a real comparison. Story endings (half of RL.2.5) are still not checked."
+    },
+    {
+      "unit": "g3-stories-evidence-lessons-characters",
+      "verdict": "publish-after-fixes",
+      "why": "One half-defensible lure (part 2 A) and two wording edits in part 1; otherwise ready. Leaving out the talk lesson is fair."
+    },
+    {
+      "unit": "g3-reading-to-learn-informational-texts",
+      "verdict": "publish-after-fixes",
+      "why": "Form B reprints two paragraphs that form A uses, both glossaries are out of ABC order, and the water-cycle 'Found in' card has two defensible answers."
+    },
+    {
+      "unit": "g3-point-of-view-and-comparing-texts",
+      "verdict": "publish-after-fixes",
+      "why": "All five lessons are covered and the first-round patterns are gone. One distractor in part 4 form A must change."
+    }
+  ],
+  "instruction": {
+    "K-685": "Listen to both stories. Look at the picture in the box. Which story tells about it? Circle that story's picture. If both stories tell about it, circle the two rings. (Read-aloud: 'Story 1, with the lamb picture … Story 2, with the goat picture'.)",
+    "G3-494": "Read the text. Write the answer. In the box, write the number of the paragraph that proves it.",
+    "G3-502": "Read the part of the story. Write the answer. In the box, write the number of the paragraph that proves it.",
+    "G3-511": "Read the text and look at the diagram. Write the answer. Then check where you found it: diagram, text, or both.",
+    "G3-577": "Read the two stories. Circle the sentence that both stories tell."
+  },
+  "worksheet": [
+    "G3-498 glossaries are not in ABC order: Lighthouses (coast, lens, keeper, backup) and Pony Express (stagecoach, route, teenager, telegraph). A text-features lesson must show a real glossary order.",
+    "G3-511 water cycle diagram: the Evaporation box shows only a sun, nothing rising, and the paragraph never uses the word 'evaporation'. Any 'Found in' question about evaporation has two defensible answers until the diagram shows the vapor or the text names the step.",
+    "info-graphics-g3 oak, 'What is the name of the last step?': the wrong option 'an oak tree' is also true of a young oak tree; replace it with 'a squirrel' or ask 'What does the forgotten acorn grow into?'.",
+    "G3 food chain 'What is the name of the last step?': 'step' is odd for a food chain; 'Which living thing is at the end of this food chain?' is natural Grade 3 wording.",
+    "G2-578 story 'A Cold Day Inside': 'Arjun said.' is followed by '…said Arjun.', and 'Ms. Webb said' opens two lines in a row. Merge each pair into one quotation.",
+    "G2-576 'A Powdery Morning' distractor 'The girls press the snow hard.' names characters who are not in the beginning; use a reaction that is in the beginning ('Kira stomps her boots.').",
+    "G2-521 butterfly diagram card 'Which stage comes right after the chrysalis?': the answer is the title word; ask about the stage after the caterpillar.",
+    "G2-522 'From Orange Tree to Juice Glass': 'a juice plant' reads as a plant to a seven-year-old; 'a juice factory' is clearer.",
+    "G3-504 Ant and Grasshopper lure 'It is always best to tell the truth.' is half-supported by the end of the story (he answers honestly and is fed); use a message with no support.",
+    "G1-576 renderer prints the headings inline with the first sentence of each section, unlike G1-575 and G1-577."
+  ],
+  "notes": [
+    "FIXED: k-reading-stories part 1, one Who and one Where card per form; form B's duck distractor replaced (pig, hen, cat).",
+    "FIXED: k-reading-stories parts 2 and 4, The Big Carrot is out of the check (form A part 4 now has a new copy tell, see above).",
+    "FIXED: k-reading-stories part 3 and the check, no story appears in both forms (A: Mouse, Bear, Squirrel/Raccoon; B: Cat, Duck, Turtle stories).",
+    "FIXED: k-reading-stories part 5, new direction and 'Look at the picture: …' read-aloud.",
+    "FIXED: k-reading-to-learn-fact-texts part 1, distractors from the text; card 2 is 'What does an owl hunt?'.",
+    "FIXED: k-reading-to-learn-fact-texts parts 2 and 3 and the check, each form has its own texts; the calf picture is gone.",
+    "FIXED: k-reading-to-learn-fact-texts part 4, the rain card is a First/Then question.",
+    "FIXED: k-reading-to-learn-fact-texts part 5, the direction names the box with both pictures and the read-aloud names each text's picture.",
+    "FIXED: g1-reading-stories part 2 and the check, each form uses five different stories; the direction no longer names 'where'.",
+    "FIXED: g1-reading-stories part 4, new direction without the sense-word sentence.",
+    "OPEN: g1-reading-stories part 5, the narrator (N) is never the answer.",
+    "FIXED: g1-reading-to-learn-informational-texts part 3, three different texts per form; no title gives away part 2.",
+    "OPEN: g1-reading-to-learn-informational-texts, RI.1.9 (two fact files) still has no card.",
+    "FIXED: g2-reading-to-learn part 1, the off-text lure is replaced by a narrow detail from the paragraph.",
+    "FIXED: g2-reading-to-learn part 2, glossary and index cards in both forms.",
+    "FIXED: g2-reading-to-learn part 3, the false moon question is gone (life-cycle diagrams now).",
+    "FIXED: g2-reading-to-learn part 4, whole steps printed and a why-before question asked (new A/B balance issue, see above).",
+    "OPEN: g2-reading-to-learn, RI.2.9 has no card; the whole-text main topic (RI.2.2) is still not asked.",
+    "FIXED: g2-stories part 1 direction ('Circle the problem'). OPEN: endings are still not checked.",
+    "FIXED: g2-stories part 2, now 'Who thinks this?' points of view, not speaker tags.",
+    "FIXED: g2-stories part 3, different statements per form (but both keyed Version 2, see above).",
+    "FIXED: g3-stories part 1, A proves from paragraph 3, B from paragraph 2; no second right answer.",
+    "FIXED: g3-stories part 2, the mouse's line no longer states the message; the lure is no longer form A's answer.",
+    "OPEN: g3-reading-to-learn part 1, 'Write each answer' for a single question (also G3-502 and G3-511).",
+    "FIXED: g3-reading-to-learn part 2, a narrow detail from the paragraph replaces the off-text lure; no hinting heading.",
+    "FIXED: g3-reading-to-learn grass/plants Found-in card replaced by 'last step' (lion, diagram only).",
+    "FIXED: g3-reading-to-learn cause/effect, form B uses the lens, form A Blue Whales; no repeat of part 1.",
+    "FIXED: g3-reading-to-learn check, a text-features part (G3-498) is added.",
+    "FIXED: g3-point-of-view part 1 (old), both forms first person with the right name in different positions.",
+    "FIXED: g3-point-of-view literal/nonliteral, one L item per form.",
+    "FIXED: g3-point-of-view two stories, statements now true of both stories.",
+    "FIXED: g3-point-of-view two texts, 'Both texts' answers break the first-option/N pattern; stanza card (G3-572) added.",
+    "FIXED: directions K-685, K-649, G1-580, G1-582, G2-520 and G2-576 adopted. OPEN: G3-494 and G3-502 still say 'Write each answer'; G3-511 took the check mark but keeps 'each answer'.",
+    "FIXED (data): food-chain 'animal/living thing' giveaways, grassland 'right after the sun', Mississippi 'wheat and oil', Yellowstone wording, moon 'right after the new moon' and 'pick apples from a ladder' are no longer in the data.",
+    "OPEN: oak 'a young oak tree' is now a choice whose wrong option 'an oak tree' is also true (see worksheet).",
+    "FIXED: G2-522 cards print whole steps and ask a why-before question.",
+    "FIXED: Lion and Mouse line reworded; Fox and Stork link 4, Penguins, Stone Soup and Space links now carry also-right causes. The Ant card's new lure ('tell the truth') is half-defensible.",
+    "FIXED: crow 'clever' and stork 'polite' are not in the excerpts used ('clever plan' remains only in Belling the Cat).",
+    "FIXED: K stories selection takes a Where card.",
+    "OPEN: both K checks and the G1 stories check still build both forms from the lesson stories and texts; form B is not a cold read.",
+    "OPEN: most parts still rest on one card (K-685, K-649, G1-581, G2-578, G2-580, G3-574 with two names, G3-577, G3-579); a guess scores 33-50%.",
+    "OPEN: G2 and G3 checks still open with 'Listen to your teacher.'; 'Read each part carefully. Do one part at a time.' fits readers.",
+    "OPEN: G3 stories pages print straight quotes (\"…\"); G1, G2 and G3 point-of-view pages print curly quotes.",
+    "K-649 and K-685 can partly be answered from world knowledge (owl means night, mouse means cat) without listening; prefer details only the text gives.",
+    "g3-reading-to-learn: the Pony Express and Emperor Penguins paragraphs appear in both forms with tasks swapped; form B should use texts form A does not print.",
+    "Facts checked and true: polar bear fur and blubber; spider vs insect body parts and eyes; beaver and bat glossaries; ladybug and butterfly life cycles; wool and orange juice steps; Pony Express (about 2,000 miles, stations about 10 miles, riders about 75 miles, about ten days); emperor penguins (Antarctica, winter laying, father fasts); blue whale calf; Fresnel lens; octopus; spider silk; water cycle; food chain."
+  ]
+}

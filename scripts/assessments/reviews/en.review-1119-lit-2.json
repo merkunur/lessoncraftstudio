@@ -1,0 +1,557 @@
+{
+  "parts": [
+    {
+      "unit": "k-how-books-and-print-work",
+      "part": 1,
+      "verdict": "ok",
+      "why": "Fixed. The key now shows only an orange ring on the front cover and an orange X on the back cover; the title page is unmarked. The direction says 'the three parts of the book'. A and B are right."
+    },
+    {
+      "unit": "k-how-books-and-print-work",
+      "part": 2,
+      "verdict": "ok",
+      "why": "New left-to-right part. A 'I can see a / red bus.', B 'Lin and Max can / ride bikes.': two lines each, same kind. The key shows the dot, the arrow across, the return sweep and the second arrow. Minor: 'each sentence' with one sentence; see instruction."
+    },
+    {
+      "unit": "k-how-books-and-print-work",
+      "part": 3,
+      "verdict": "ok",
+      "why": "Unchanged and right: bus, jump; sun, play. Each box has one letter, numeral, scribble and word."
+    },
+    {
+      "unit": "k-how-books-and-print-work",
+      "part": 4,
+      "verdict": "ok",
+      "why": "Counts right (4, 3; 4, 3). Minor, still open: both forms run 4 then 3."
+    },
+    {
+      "unit": "k-short-vowels-and-cvc-words",
+      "part": 1,
+      "verdict": "ok",
+      "why": "Unchanged: bat, pan; hat, bag. Clear pictures, one answer each."
+    },
+    {
+      "unit": "k-short-vowels-and-cvc-words",
+      "part": 2,
+      "verdict": "ok",
+      "why": "Unchanged: leg, cup; bed, fox. One answer each."
+    },
+    {
+      "unit": "k-short-vowels-and-cvc-words",
+      "part": 3,
+      "verdict": "ok",
+      "why": "Unchanged: dog, bus; pig, cat. One answer each."
+    },
+    {
+      "unit": "k-short-vowels-and-cvc-words",
+      "part": 4,
+      "verdict": "ok",
+      "why": "Fixed. Every picture now starts with its team: A chair, shorts; B cheese, shark. The direction asks for the team the name 'starts with'. Minor: a few children call the green shorts 'pants'; the shark and cheese are clear."
+    },
+    {
+      "unit": "k-words-and-sentences",
+      "part": 1,
+      "verdict": "ok",
+      "why": "Fixed: the teacher reads the words, and the key marks are orange. A kick, read; B run, swim. One action word per row, at different places in the row."
+    },
+    {
+      "unit": "k-words-and-sentences",
+      "part": 2,
+      "verdict": "ok",
+      "why": "'word or words' fixed. in, next to; on top of, between: one answer each. Minor, still open: K children say blocks or boxes, not 'the cubes'."
+    },
+    {
+      "unit": "k-words-and-sentences",
+      "part": 3,
+      "verdict": "ok",
+      "why": "Fixed. The capitalized sentence is on top in one card and at the bottom in the other, in both forms. The letters are T, R and F, B; nothing repeats."
+    },
+    {
+      "unit": "k-words-and-sentences",
+      "part": 4,
+      "verdict": "ok",
+      "why": "Fixed. Each form has one asking and one telling sentence (A 'Where is my hat' ?, 'A bee can fly' .; B 'Is the bus big' ?, 'The apple is red' .). B no longer copies A, and the teacher reads them."
+    },
+    {
+      "unit": "k-words-and-sentences",
+      "part": 5,
+      "verdict": "ok",
+      "why": "A walks + sun → in the sun; B skates + snowflake → in the snow. One answer each, same kind. Minor: you skate on ice, so 'skates in the snow' is a little odd; 'The girl sleds.' would fit the snowflake more naturally."
+    },
+    {
+      "unit": "g1-digraphs-and-blends",
+      "part": 1,
+      "verdict": "ok",
+      "why": "Fixed. Three cards per form, one per team, with no doubled header row: A fish, chocolate, tooth; B brush, cheese, thumb. The answer moves between columns. Minor: th is at the end in A (tooth) but at the start in B (thumb), and a few children call the chocolate bar 'candy'."
+    },
+    {
+      "unit": "g1-digraphs-and-blends",
+      "part": 2,
+      "verdict": "ok",
+      "why": "Fixed. Each form asks one ck and one ng word, with decoys of the same kind (A duck/dug, swing/swim; B rock/rod, ring/rig). One answer each."
+    },
+    {
+      "unit": "g1-digraphs-and-blends",
+      "part": 3,
+      "verdict": "ok",
+      "why": "Fixed. fl and tr in both forms: flag, train; flamingo, trumpet. The pictures are clear and the rest of each word is printed. No st word, which is acceptable."
+    },
+    {
+      "unit": "g1-digraphs-and-blends",
+      "part": 4,
+      "verdict": "ok",
+      "why": "New ending-blends part: A lamp (lap), B hand (ham), one card each, same kind. Clear pictures, one answer."
+    },
+    {
+      "unit": "g1-long-vowels-silent-e-and-vowel-teams",
+      "part": 1,
+      "verdict": "ok",
+      "why": "Fixed. Each form has one short and one silent-e answer (A cap, kite; B hat, slide), with the answer on top in one card and at the bottom in the other."
+    },
+    {
+      "unit": "g1-long-vowels-silent-e-and-vowel-teams",
+      "part": 2,
+      "verdict": "ok",
+      "why": "New long-or-short part (G1-495). A hand short, hose long; B stove long, vest short. The key marks are right (line = long, curve = short), one each per form, in different places. The hose drawing is small, but the word is printed."
+    },
+    {
+      "unit": "g1-long-vowels-silent-e-and-vowel-teams",
+      "part": 3,
+      "verdict": "ok",
+      "why": "Unchanged: paint, clay; nail, stay. One middle and one end word per form."
+    },
+    {
+      "unit": "g1-long-vowels-silent-e-and-vowel-teams",
+      "part": 4,
+      "verdict": "ok",
+      "why": "The jeep is gone: A sheep ee, leaf ea; B bee ee, beach ea. The beach scene and the lamb-like sheep are still here (the withdrawal reached only the digraph pages), but the b__ch and sh__p frames make the word certain, so they are fair. The beach is still a tiny scene."
+    },
+    {
+      "unit": "g1-long-vowels-silent-e-and-vowel-teams",
+      "part": 5,
+      "verdict": "ok",
+      "why": "Unchanged: toast, grow; toad, slow."
+    },
+    {
+      "unit": "g1-two-syllable-words",
+      "part": 1,
+      "verdict": "ok",
+      "why": "Unchanged: cactus 2, clocks 1; crabs 1, unless 2."
+    },
+    {
+      "unit": "g1-two-syllable-words",
+      "part": 2,
+      "verdict": "ok",
+      "why": "Fixed. Each form has one compound and one double-consonant word (oat|meal, at|tic; hand|bag, mit|ten). The thin split mark no longer covers the letters."
+    },
+    {
+      "unit": "g1-two-syllable-words",
+      "part": 3,
+      "verdict": "ok",
+      "why": "Unchanged and right (pen|guin, cat; dog, pan|da). Minor: the scoops in the key are still teal, not orange."
+    },
+    {
+      "unit": "g1-two-syllable-words",
+      "part": 4,
+      "verdict": "ok",
+      "why": "Fixed. Every answer is a lesson word: A of, said; B could, was. 'Kim ate a lot ___ grapes', '\"Yes!\" ___ Jin', 'At camp, we ___ not sleep' and 'My hat ___ wet' each take only one word from their box."
+    },
+    {
+      "unit": "g2-long-vowels-and-vowel-teams",
+      "part": 1,
+      "verdict": "ok",
+      "why": "New sh review (G2-372). A 3 (shark, fish, splash) and 2 (shut, shed); B 2 (fish, dish) and 3 (She, shirt, shoes). Counts right and balanced. Minor: the key gives only the number; circle the sh's so a teacher can see which ones were found."
+    },
+    {
+      "unit": "g2-long-vowels-and-vowel-teams",
+      "part": 2,
+      "verdict": "ok",
+      "why": "Fixed. No kit/kite repeat; each form has one long and one short answer (A ripe, kit; B mean, bled). 'My cut bleed a little' is ungrammatical, so bled is the only answer."
+    },
+    {
+      "unit": "g2-long-vowels-and-vowel-teams",
+      "part": 3,
+      "verdict": "ok",
+      "why": "Kinds matched: one look-right ee/ea card and one position-rule card per form (three, coach; dream, grain). One answer each."
+    },
+    {
+      "unit": "g2-long-vowels-and-vowel-teams",
+      "part": 4,
+      "verdict": "ok",
+      "why": "Fixed. Each form has one middle and one end answer, in different cards (A foil oi, wow ow; B grouch ou, toy oy), and oo is now asked (cook → book; shoot → moon). One answer each."
+    },
+    {
+      "unit": "g2-bossy-r-and-longer-words",
+      "part": 1,
+      "verdict": "ok",
+      "why": "Fixed: one ar and one or answer per form (car, corn; dark, thorn). One answer each."
+    },
+    {
+      "unit": "g2-bossy-r-and-longer-words",
+      "part": 2,
+      "verdict": "ok",
+      "why": "Fixed: one ir and one ur answer per form (dirt, fur; bird, nurse). Riddles clear, one answer each."
+    },
+    {
+      "unit": "g2-bossy-r-and-longer-words",
+      "part": 3,
+      "verdict": "ok",
+      "why": "Fixed: no sentence gives its answer away. A sunrise ('the sky turns pink and gold'), invite; B pancake, backbone ('holds up your body'). Every answer has a long vowel in one syllable; one answer each."
+    },
+    {
+      "unit": "g2-bossy-r-and-longer-words",
+      "part": 4,
+      "verdict": "ok",
+      "why": "Fixed. The teacher says the word; equal boxes; the word is not printed. A should + people, B could + friend: one oul word plus one other heart word per form. Hearts on oul, eo, oul, ie, each with a single tricky part. See the worksheet note on the key's wording."
+    },
+    {
+      "unit": "g3-reading-long-words",
+      "part": 1,
+      "verdict": "ok",
+      "why": "Unchanged and right: jum|bo C O, pro|gram O C; e|mu O O, dol|phin C C."
+    },
+    {
+      "unit": "g3-reading-long-words",
+      "part": 2,
+      "verdict": "fix",
+      "why": "Vowel team fixed and keys right (bee|hive V E, home|sick E C; pea|nut V C, con|crete C E). But consonant-le, named in the lesson title, is now in neither form. Use three cards per form: A rain|coat V V, pan|cake C E, cra|dle O L; B sea|weed V V, tad|pole C E, ma|ple O L (all in the pools)."
+    },
+    {
+      "unit": "g3-reading-long-words",
+      "part": 3,
+      "verdict": "ok",
+      "why": "Fixed. The bases differ (A harm and use; B rest and help); keys right (B D A C; C D B A). Each form adds one suffix-joining card (cold + ness; agree + ment)."
+    },
+    {
+      "unit": "g3-reading-long-words",
+      "part": 4,
+      "verdict": "ok",
+      "why": "New heart-word part. Dictated, equal boxes. A though (th|ough), island (i|sl|a|n|d); B enough (e|n|ou|gh, two hearts), answer (a|n|sw|er). Same kind and close in difficulty. See the worksheet note on unstressed vowels."
+    },
+    {
+      "unit": "g3-parts-of-speech",
+      "part": 1,
+      "verdict": "fix",
+      "why": "Kinds now match (A helpful, I; B sunny, us), but only adjective and pronoun are asked. Noun, verb and adverb never are, and the lesson's main misconception, every -ly word read as an adverb, goes untested. Add a third card per form: A softly, B neatly (adverbs in the bank)."
+    },
+    {
+      "unit": "g3-parts-of-speech",
+      "part": 2,
+      "verdict": "ok",
+      "why": "Kinds matched: one ordinary -es/-ies plural and one f → ves plural per form (branches, knives; berries, shelves). One answer each. The bank still has no truly irregular plural (see worksheet)."
+    },
+    {
+      "unit": "g3-parts-of-speech",
+      "part": 3,
+      "verdict": "ok",
+      "why": "Unchanged: drank, stayed; pushed, threw."
+    },
+    {
+      "unit": "g3-parts-of-speech",
+      "part": 4,
+      "verdict": "ok",
+      "why": "Fixed. Each form has one singular subject with a plural noun in between and one plural subject with a singular one (puppy…spots chases, shoes…door are; pile…leaves was, ducks…bridge quack)."
+    },
+    {
+      "unit": "g3-sentences-and-conventions",
+      "part": 1,
+      "verdict": "ok",
+      "why": "Fixed. Each form has one comma joining word and one 'because' with no comma (', or' + because; ', and' + because). The new direction quotes the four joining words. One answer each."
+    },
+    {
+      "unit": "g3-sentences-and-conventions",
+      "part": 2,
+      "verdict": "ok",
+      "why": "Fixed. Three cards per form, one simple (with list commas, in both), one complex and one compound. Keys right. Minor: same order of kinds in both forms."
+    },
+    {
+      "unit": "g3-sentences-and-conventions",
+      "part": 3,
+      "verdict": "ok",
+      "why": "Fixed. Each form asks for the plain form, a superlative and a comparative, mixing -er/-est with more/most (A colorful, fastest, more patiently; B helpful, most exciting, bigger). One answer each."
+    },
+    {
+      "unit": "g3-sentences-and-conventions",
+      "part": 4,
+      "verdict": "ok",
+      "why": "Fixed. One singular and one plural owner in each form (rabbit’s carrot, pilots’ planes; teacher’s book, friends’ kites). The direction now asks for owner and thing."
+    },
+    {
+      "unit": "g3-sentences-and-conventions",
+      "part": 5,
+      "verdict": "ok",
+      "why": "Unchanged and right."
+    }
+  ],
+  "checks": [
+    {
+      "unit": "k-how-books-and-print-work",
+      "verdict": "publish",
+      "why": "Every earlier finding fixed, and the left-to-right part added. Clear key, four print concepts, A and B the same kind."
+    },
+    {
+      "unit": "k-short-vowels-and-cvc-words",
+      "verdict": "publish",
+      "why": "Part 4 now uses starting-sound pictures. Nothing left that a K teacher would stop on."
+    },
+    {
+      "unit": "k-words-and-sentences",
+      "verdict": "publish",
+      "why": "Both answer tells removed, the teacher reads the words, and the keys are orange. Two wording niggles (cubes, skates in the snow) are optional."
+    },
+    {
+      "unit": "g1-digraphs-and-blends",
+      "verdict": "publish",
+      "why": "Rebuilt well: one card per team, ck and ng both asked, fl and tr, and an ending-blends part. The th-position mismatch is a bank limit, not a blocker."
+    },
+    {
+      "unit": "g1-long-vowels-silent-e-and-vowel-teams",
+      "verdict": "publish",
+      "why": "Part 1 balanced, the long-or-short lesson added, the jeep gone. The beach and sheep pictures remain but are made certain by their letter frames."
+    },
+    {
+      "unit": "g1-two-syllable-words",
+      "verdict": "publish",
+      "why": "Part 2 balanced and part 4 asks only lesson heart words. Every part has one right answer."
+    },
+    {
+      "unit": "g2-long-vowels-and-vowel-teams",
+      "verdict": "publish",
+      "why": "sh review and oo added, no repeat pair, positions mixed. All five lessons are now checked."
+    },
+    {
+      "unit": "g2-bossy-r-and-longer-words",
+      "verdict": "publish",
+      "why": "Echo removed; the heart-word part is now a fair dictation check with equal boxes; ar/or and ir/ur balanced."
+    },
+    {
+      "unit": "g3-reading-long-words",
+      "verdict": "publish-after-fixes",
+      "why": "One fix: part 2 lost consonant-le while gaining vowel team. Add a third card per form so silent e, vowel team and consonant-le are all asked. Everything else is fixed."
+    },
+    {
+      "unit": "g3-parts-of-speech",
+      "verdict": "publish-after-fixes",
+      "why": "One small fix: part 1 asks only adjective and pronoun; add an adverb card per form. Parts 2-4 are fixed."
+    },
+    {
+      "unit": "g3-sentences-and-conventions",
+      "verdict": "publish",
+      "why": "Parts 1-4 now match card by card and the superlative is asked. Clean."
+    }
+  ],
+  "instruction": {
+    "K-667": "I will read the sentence. Put a dot where you start reading. Draw arrows to show the way you read: across the line, then back to the start of the next line."
+  },
+  "worksheet": [
+    "G2-546 (Long Vowels in Two-Syllable Words, vowels-g2b.en.json syll.sentences level 1): all 13 rewrites are true, natural US English, one answer each. One echo is left: 'Put on your ___. It is raining.' → raincoat (rain/raining). Rewrite: 'Put on your ___ so you stay dry.'",
+    "G3-516 (Base Words and Suffixes, new -ness/-ment sentence cards): three do not sound like US English. 'Running every day is good for your fitness' → 'Our gym teacher checks our fitness.' 'Smell the freshness of the bread' → 'I love the freshness of warm bread.' 'The wetness of the grass soaked my socks' → 'I could feel the wetness of the grass through my socks.' The rest are fine. -able (in the lesson title) has no sentence card.",
+    "G2-548 / G3-518 hearts: unstressed vowels are treated unevenly. 'because' hearts its e and its se (/z/), and 'ocean' hearts ea, but 'does' leaves s = /z/ unhearted and 'again', 'enough', 'island' and 'special' leave their unstressed vowel unhearted. The key says a heart on a hearted part is right but not whether an extra heart costs the point. Add: 'An extra heart on a vowel that says /uh/, or on s that says /z/, does not lose the point.'",
+    "G2-548 key note: '(because is not asked: three of its parts can be called tricky)' tells a teacher about a word that is not on the page. Drop it.",
+    "G3-533 (Which Plural Is Right?) and G3-526 (Possessive Nouns): still open from the first review. Neither bank has a truly irregular plural (mice, teeth, feet, children) or an irregular plural possessive (the children's coats), though both lesson objectives name them.",
+    "Picture withdrawal: the code withdraws ship, beach and the lamb-like sheep only in G1-380/K-378 (types/g1/G1-380-digraphs.js WITHDRAWN). G1-586 (Long e: ee and ea) still prints summer/beach and animals/sheep on English pages, so 'withdrawn wherever they stood in English' is not accurate. With the b__ch and sh__p frames both pictures are fair; the beach is only a poor, tiny scene.",
+    "G1-380 English check bank (CHECK_EN): th has only thumb (start) and tooth (end), so the two forms can never ask th in the same place. Add one more th picture: three or thumbtack at the start, or moth or bath at the end."
+  ],
+  "notes": [
+    "Key colors: the answer rings are now orange everywhere, but written answers on lines are still teal in several keys (G1-305 scoops, the G2/G3 fill-in lines). On a gray-scale copy they show; consistency only.",
+    "Earlier findings (see earlierFindings): 39 fixed, 2 partly (k-words 'cubes'; G1-586 beach and sheep), 3 open and minor (word-count order; no true irregular plural in G3-533 or plural possessive in G3-526), 1 overtaken. New: g3-reading part 2 lost consonant-le; g3-parts-of-speech part 1 should ask an adverb."
+  ],
+  "earlierFindings": [
+    {
+      "finding": "k-how-books P1 key rang both covers, teal X",
+      "status": "fixed"
+    },
+    {
+      "finding": "k-how-books P1 'each book'",
+      "status": "fixed"
+    },
+    {
+      "finding": "k-how-books: left-to-right lesson missing",
+      "status": "fixed"
+    },
+    {
+      "finding": "k-how-books word count 4-then-3 in both forms",
+      "status": "open",
+      "note": "minor, unchanged"
+    },
+    {
+      "finding": "k-short-vowels P4 jellyfish / beach / lamb (sound not at start)",
+      "status": "fixed"
+    },
+    {
+      "finding": "k-words P1 teacher should read the words; teal key",
+      "status": "fixed"
+    },
+    {
+      "finding": "k-words P2 'the word' for multi-word answers; 'cubes'",
+      "status": "partly",
+      "note": "wording fixed; 'cubes' kept (minor)"
+    },
+    {
+      "finding": "k-words P3 right sentence always at the bottom; B wrote T twice",
+      "status": "fixed"
+    },
+    {
+      "finding": "k-words P4 form A two questions; B copied A",
+      "status": "fixed"
+    },
+    {
+      "finding": "k-words P5 'Read each sentence' with one card",
+      "status": "fixed"
+    },
+    {
+      "finding": "g1-digraphs P1 ship/boat, wreath, doubled table, tiny picture",
+      "status": "fixed"
+    },
+    {
+      "finding": "g1-digraphs P2 only ck answers, unequal decoys",
+      "status": "fixed"
+    },
+    {
+      "finding": "g1-digraphs P3 pliers; lesson blends st/fl/tr",
+      "status": "fixed"
+    },
+    {
+      "finding": "g1-digraphs: ending blends missing",
+      "status": "fixed"
+    },
+    {
+      "finding": "g1-long-vowels P1 A all short, B all silent e",
+      "status": "fixed"
+    },
+    {
+      "finding": "g1-long-vowels P3 jeep; tiny beach scene",
+      "status": "partly",
+      "note": "jeep gone; beach and sheep remain in G1-586 (fair with frames)"
+    },
+    {
+      "finding": "g1-two-syllable P2 A two compounds vs B double consonant; bar covered letters",
+      "status": "fixed"
+    },
+    {
+      "finding": "g1-two-syllable P4 B answered give and put",
+      "status": "fixed"
+    },
+    {
+      "finding": "g2-long-vowels kit/kite in both forms; B two long answers",
+      "status": "fixed"
+    },
+    {
+      "finding": "g2-long-vowels ou/ow, oi/oy answer-position pattern; oo missing",
+      "status": "fixed"
+    },
+    {
+      "finding": "g2-bossy-r P1 both A answers ar",
+      "status": "fixed"
+    },
+    {
+      "finding": "g2-bossy-r P2 both answers ir",
+      "status": "fixed"
+    },
+    {
+      "finding": "g2-bossy-r P3 'bed → bedtime' echo",
+      "status": "fixed"
+    },
+    {
+      "finding": "g2-bossy-r P4 grapheme-wide boxes, printed word, 'because' hearts, should missing",
+      "status": "fixed"
+    },
+    {
+      "finding": "g3-reading P2 no vowel-team syllable",
+      "status": "fixed",
+      "note": "but consonant-le is now missing (new finding)"
+    },
+    {
+      "finding": "g3-reading P3 harm words repeated; only -ful/-less",
+      "status": "fixed"
+    },
+    {
+      "finding": "g3-reading: heart-word lesson not in the check",
+      "status": "fixed"
+    },
+    {
+      "finding": "g3-parts-of-speech P1 different jobs in A and B; pumpkin",
+      "status": "fixed",
+      "note": "now narrow: add an adverb card"
+    },
+    {
+      "finding": "g3-parts-of-speech P2 different rules; no irregular plural",
+      "status": "fixed",
+      "note": "kinds matched; a true irregular is still absent from the bank"
+    },
+    {
+      "finding": "g3-parts-of-speech P4 attractors only in A",
+      "status": "fixed"
+    },
+    {
+      "finding": "g3-sentences P1 comma balance; direction 'or, or so'",
+      "status": "fixed"
+    },
+    {
+      "finding": "g3-sentences P2 simple+complex vs simple+compound",
+      "status": "fixed"
+    },
+    {
+      "finding": "g3-sentences P3 no superlative",
+      "status": "fixed"
+    },
+    {
+      "finding": "g3-sentences P4 two plural owners in B; 'who owns it' direction",
+      "status": "fixed"
+    },
+    {
+      "finding": "worksheet G3-514 no vowel-team syllables",
+      "status": "fixed",
+      "note": "16 V words added; labels checked, all right"
+    },
+    {
+      "finding": "worksheet G2-548 grapheme-wide boxes; because hearts",
+      "status": "fixed"
+    },
+    {
+      "finding": "worksheet G3-518 words with two tricky parts",
+      "status": "fixed"
+    },
+    {
+      "finding": "worksheet G2-546 echo sentences",
+      "status": "fixed",
+      "note": "13 rewritten; 'raining → raincoat' remains"
+    },
+    {
+      "finding": "worksheet G3-533 no truly irregular plurals",
+      "status": "open"
+    },
+    {
+      "finding": "worksheet G3-526 no irregular plural possessive",
+      "status": "open"
+    },
+    {
+      "finding": "worksheet G1-584 candy cane",
+      "status": "fixed"
+    },
+    {
+      "finding": "worksheet G2-532 no oo cards",
+      "status": "fixed"
+    },
+    {
+      "finding": "worksheet K-378 end-position pictures",
+      "status": "fixed"
+    },
+    {
+      "finding": "worksheet G1-586 seal drawn like a sea lion",
+      "status": "overtaken",
+      "note": "neither form uses it; the frame makes it low risk"
+    },
+    {
+      "finding": "worksheet G1-602 split bar over the letters",
+      "status": "fixed"
+    }
+  ],
+  "questions": {
+    "1": "Fixed: only an orange ring on the front cover and an orange X on the back cover; the key reads clearly.",
+    "2": "Still right: pan|da and pen|guin scoops sit under the right letters (still teal, not orange).",
+    "3": "Fixed: both forms have one singular and one plural owner.",
+    "4": "Fixed for both g2 and g3: the teacher says the word, the boxes are equal and the word is hidden, so the check now tests spelling from memory plus mapping. Remaining: say in the key that an extra heart on an unstressed vowel or on s = /z/ does not lose the point.",
+    "5": "Ship, pliers, jeep, candy cane, wreath and the K beach and lamb are off these forms. Beach and sheep remain in G1-586 (g1-long-vowels part 4), where their letter frames make them fair. New pictures checked: chair, shorts (a few K children say 'pants'), cheese, shark, fish, chocolate bar (some say 'candy'), tooth, paintbrush, thumb, swing, ring, flag, train, flamingo, trumpet, lamp, hand, hose. All usable."
+  }
+}

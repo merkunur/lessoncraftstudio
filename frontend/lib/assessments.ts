@@ -14,6 +14,8 @@ export interface UnitCheck {
   parts: CheckPart[];
   notCovered: number[];
   forms: { A: { pages: number }; B: { pages: number } };
+  /** (Wave 4) the writing part of a writing unit, scored with the guide on the teacher pages: 0–2 per point */
+  writing?: { part: number; points: { id: string; kind: string; max: number }[] };
 }
 export type AssessmentUi = Record<string, string>;
 

@@ -1,0 +1,351 @@
+{
+  "parts": [
+    {
+      "unit": "k-how-books-and-print-work",
+      "part": 1,
+      "verdict": "fix",
+      "why": "Answers right in A and B. But the key rings BOTH covers in orange, and the X is teal, so the back cover reads as circled too. Key: circle only the front cover, X only the back cover, both orange, no ring on the X'd cover. The direction says 'each book'; there is one book."
+    },
+    {
+      "unit": "k-how-books-and-print-work",
+      "part": 2,
+      "verdict": "ok",
+      "why": "Each box holds one letter, one numeral, one scribble and one word (A bus, jump; B sun, play). One answer each; the key is right."
+    },
+    {
+      "unit": "k-how-books-and-print-work",
+      "part": 3,
+      "verdict": "ok",
+      "why": "A 4 and 3, B 4 and 3; counts right, short decodable sentences, the teacher reads them. Minor: both forms run 4 then 3; swap the order in one form."
+    },
+    {
+      "unit": "k-short-vowels-and-cvc-words",
+      "part": 1,
+      "verdict": "ok",
+      "why": "bat/bit, pin/pan; hat/hit, big/bag. Pictures clear, one answer each, answer on top and bottom mixed."
+    },
+    {
+      "unit": "k-short-vowels-and-cvc-words",
+      "part": 2,
+      "verdict": "ok",
+      "why": "leg/log, cap/cup; bed/bad, fix/fox. One answer each. Minor: A has no short o, B no short u; the leg picture is a lone leg, but the two printed words settle it."
+    },
+    {
+      "unit": "k-short-vowels-and-cvc-words",
+      "part": 3,
+      "verdict": "ok",
+      "why": "dot/dog, bus/bug; pit/pig, cat/cap; the last letter differs, pictures clear. The striped cat could be called 'tiger', but cat/cap settles it."
+    },
+    {
+      "unit": "k-short-vowels-and-cvc-words",
+      "part": 4,
+      "verdict": "fix",
+      "why": "The lesson: does the name BEGIN with sh or ch? A jellyfish has sh at the end. B beach has ch at the end, and the scene (umbrella, palm tree) gets named umbrella or sand. Use starting sh and ch pictures in both forms (shoe, shell; chick, cheese). The B sheep is drawn as a lamb."
+    },
+    {
+      "unit": "k-words-and-sentences",
+      "part": 1,
+      "verdict": "ok",
+      "why": "kick, run; dig, sit: one action word per row, each defensible only one way. The key marks the answer in teal, not orange. L.K.1.b is oral, so the teacher should read the words (see instruction); otherwise a non-reader fails on decoding, not on the concept."
+    },
+    {
+      "unit": "k-words-and-sentences",
+      "part": 2,
+      "verdict": "ok",
+      "why": "Dog in heart (in), duck next to circle (next to); carrot on top of heart (on top of, 'above' not offered), pear between cubes (between). One answer each. Minor: 'cubes' reads as blocks or boxes to K, and the answers are often two or three words, not 'the word'."
+    },
+    {
+      "unit": "k-words-and-sentences",
+      "part": 3,
+      "verdict": "fix",
+      "why": "In all four cards of both forms the capitalized sentence is the lower one; a child who always circles the bottom line scores 100%. Put it on top in one card per form. Keys right (M, F; T, T); B makes the child write T twice, so swap one B sentence for a different first letter."
+    },
+    {
+      "unit": "k-words-and-sentences",
+      "part": 4,
+      "verdict": "fix",
+      "why": "Form A has two asking sentences, so writing ? twice scores 100% and the period is never checked. B card 1 'Can the dog run' copies A card 2 'Can the pig run'. A: make one card a telling sentence (The cow says moo → .). B: use a different question."
+    },
+    {
+      "unit": "k-words-and-sentences",
+      "part": 5,
+      "verdict": "ok",
+      "why": "A girl runs + sun → in the sun; B girl reads + moon → at night. Pictures show it, one answer each, same kind. Minor: 'Read each sentence' with one card."
+    },
+    {
+      "unit": "g1-digraphs-and-blends",
+      "part": 1,
+      "verdict": "fix",
+      "why": "A wreath (th at the end, silent w, a holiday word) vs B ship (sh at the start): unequal. The ship is a freighter a 6-year-old calls 'boat', with no digraph. One card shows sh/ch/th twice (header and row), so children don't know which to circle, and the picture is tiny. Use 3 cards, one per digraph, in both forms."
+    },
+    {
+      "unit": "g1-digraphs-and-blends",
+      "part": 2,
+      "verdict": "fix",
+      "why": "All four answers are ck (duck, rock, sock, lock); ng and wh are never the answer. A's decoys are plain words (dug, rot), B's are ng words (song, long), so B is harder. Each form: one ck answer and one ng answer (ring/rig is in the bank), decoys of the same kind in both forms."
+    },
+    {
+      "unit": "g1-digraphs-and-blends",
+      "part": 3,
+      "verdict": "fix",
+      "why": "B pliers: most first graders don't know the word (they say scissors, cutters, tool), so they can't hear its blend. Use plum, plate or plug. Also, the lesson names st, fl, tr; the forms use sp, fl, pl, br. Fine as blends, but put a st or tr word in each form."
+    },
+    {
+      "unit": "g1-long-vowels-silent-e-and-vowel-teams",
+      "part": 1,
+      "verdict": "fix",
+      "why": "Both A answers are the short word (cap, can) and both B answers are the silent-e word (slide, plane): A never asks for silent e, B never for the short word. The lesson is the contrast. Each form: one short and one silent-e answer (hat/hate, tap/tape and kit/kite are in the bank). Pictures clear."
+    },
+    {
+      "unit": "g1-long-vowels-silent-e-and-vowel-teams",
+      "part": 2,
+      "verdict": "ok",
+      "why": "paint/clay; nail/stay: one middle (ai) and one end (ay) in each form; the position rule is in the direction. One answer each."
+    },
+    {
+      "unit": "g1-long-vowels-silent-e-and-vowel-teams",
+      "part": 3,
+      "verdict": "fix",
+      "why": "A jeep is a brand name many children call car or truck; the j__p frame gives the word but not its spelling. Use sheep or tree (both in the bank). The beach scene is tiny next to the letters; the b__ch frame saves it. Keys right (beach ea, jeep ee; bee ee, leaf ea)."
+    },
+    {
+      "unit": "g1-long-vowels-silent-e-and-vowel-teams",
+      "part": 4,
+      "verdict": "ok",
+      "why": "toast/grow; toad/slow: one middle (oa) and one end (ow) per form. Keys right."
+    },
+    {
+      "unit": "g1-two-syllable-words",
+      "part": 1,
+      "verdict": "ok",
+      "why": "cactus 2, clocks 1; crabs 1, unless 2. One of each per form; all decodable closed-syllable words. 'unless' is abstract but readable."
+    },
+    {
+      "unit": "g1-two-syllable-words",
+      "part": 2,
+      "verdict": "fix",
+      "why": "A gives two compound words (oat|meal, up|set). B gives one compound (nut|shell) and one double-consonant word (at|tic), which is harder. The lesson teaches both. Make A's second word kitten, mitten or puppet. In the key the orange split bar is wider than the letter gap and covers part of the t in oatmeal and the p in upset."
+    },
+    {
+      "unit": "g1-two-syllable-words",
+      "part": 3,
+      "verdict": "ok",
+      "why": "penguin 2, cat 1; dog 1, panda 2. Every scoop sits under the right letters (pen|guin, pan|da), and the teacher says each name. See question 2."
+    },
+    {
+      "unit": "g1-two-syllable-words",
+      "part": 4,
+      "verdict": "fix",
+      "why": "A answers were 'was' and 'said', two lesson words. B answers were 'give' and 'put': 'give' is not a lesson word and 'put' is review only. 'could' and 'of' are never the answer in either form. B: answer with of and could (bank: 'I had a cup ___ milk', 'I ___ not reach the top shelf')."
+    },
+    {
+      "unit": "g2-long-vowels-and-vowel-teams",
+      "part": 1,
+      "verdict": "fix",
+      "why": "kit/kite appears in both forms (A 'art kit', B 'kite flew'), so B asks what A asks. A has one long and one short answer (ripe, kit); B has two long (kite, mean). Replace B card 1 with a new pair whose answer is short ('I take a bath in the tub/tube' → tub)."
+    },
+    {
+      "unit": "g2-long-vowels-and-vowel-teams",
+      "part": 2,
+      "verdict": "ok",
+      "why": "three (ee), coach (oa); grain (ai), dream (ea). Each form has one look-right ee/ea card and one position-rule card. One answer each."
+    },
+    {
+      "unit": "g2-long-vowels-and-vowel-teams",
+      "part": 3,
+      "verdict": "fix",
+      "why": "Both A answers are the first, 'middle' team printed on the card (couch ou, point oi); both B answers are the second (gown ow, joy oy). Always copying the first team on the card scores 100% on A. Mix them: A couch + toy, B gown + coin. oo is in the lesson title but on neither form."
+    },
+    {
+      "unit": "g2-bossy-r-and-longer-words",
+      "part": 1,
+      "verdict": "ok",
+      "why": "car, card; horn, dark. One answer each, the decoys make nonsense. Minor: both A answers are ar."
+    },
+    {
+      "unit": "g2-bossy-r-and-longer-words",
+      "part": 2,
+      "verdict": "ok",
+      "why": "dirt; bird. The riddles are clear, one answer each. Minor: both answers are ir; er and ur are only decoys. Draw one form's riddle with an ur or er answer (nurse, hammer)."
+    },
+    {
+      "unit": "g2-bossy-r-and-longer-words",
+      "part": 3,
+      "verdict": "fix",
+      "why": "B card 1 'I go to bed at ___' → bedtime: the word bed in the sentence gives the answer by matching. In A the echo cancels (sunrise echoes sun, the decoy hillside echoes hills). Replace B card 1 with 'I put syrup on my ___' → pancake or 'We eat at ___' → lunchtime. Keys right."
+    },
+    {
+      "unit": "g2-bossy-r-and-longer-words",
+      "part": 4,
+      "verdict": "fix",
+      "why": "See question 4. Boxes are drawn grapheme-wide (one wide box for oul), so the mapping and the heart spot are given away. 'because' has three defensible heart spots (e, au, se); the key shows one. B (could + because, 5 sounds) is harder than A (would + friend). 'should' never appears. Use equal boxes and should + friend in B."
+    },
+    {
+      "unit": "g3-reading-long-words",
+      "part": 1,
+      "verdict": "ok",
+      "why": "jum|bo C O, pro|gram O C; e|mu O O, dol|phin C C. Each form has two C and two O; keys right, words unsplit on the child's page."
+    },
+    {
+      "unit": "g3-reading-long-words",
+      "part": 2,
+      "verdict": "fix",
+      "why": "Neither form has a vowel-team syllable, though V is in the legend and the lesson title (the G3-514 bank has none). Keys otherwise right: tum|ble C L, mile|stone E E, sta|ple O L, hand|shake C E. Give each form one V word (rain|coat V V, tea|pot V C, sea|weed V V)."
+    },
+    {
+      "unit": "g3-reading-long-words",
+      "part": 3,
+      "verdict": "fix",
+      "why": "harmful and harmless appear in both forms (B repeats A). Only -ful and -less are tested; -able, -ment and -ness from the lesson never appear. Keys right (A D C A B; B D C B A). B: use other bases (hopeful, hopeless, painful, painless), and add an -ness or -able card if the type allows."
+    },
+    {
+      "unit": "g3-parts-of-speech",
+      "part": 1,
+      "verdict": "fix",
+      "why": "A tests pronoun and adverb (we, quietly); B tests noun and verb (pumpkin, hid). Different jobs, and B is easier. Give both forms the same pair of jobs, or three cards each (noun or verb, pronoun, adjective or adverb). 'pumpkin' can be an adjective (pumpkin pie); use giraffe or window."
+    },
+    {
+      "unit": "g3-parts-of-speech",
+      "part": 2,
+      "verdict": "fix",
+      "why": "A tests the y rules (keys, puppies); B tests -es after sh and ch (bushes, benches). Different rules, and the irregular plural in the lesson title is in neither form. Each form: one -es or -ies card and one irregular card (knives, wolves and loaves are in the bank; mice and teeth are not)."
+    },
+    {
+      "unit": "g3-parts-of-speech",
+      "part": 3,
+      "verdict": "ok",
+      "why": "drank (irregular), stayed (regular); pushed (regular), threw (irregular). One of each per form; keys right."
+    },
+    {
+      "unit": "g3-parts-of-speech",
+      "part": 4,
+      "verdict": "fix",
+      "why": "A puts a singular noun between a plural subject and its verb in both items (ducks…bridge, flowers…pot): hard. B has none (baby…stroller, players…shirts): easy. Each form: one singular subject with a plural noun in between, one plural with a singular one (bank: 'The boy with two dogs ___', 'The frogs by the pond ___')."
+    },
+    {
+      "unit": "g3-sentences-and-conventions",
+      "part": 1,
+      "verdict": "fix",
+      "why": "A: ', or' plus 'because' (one comma, one no comma). B: ', but' plus ', and' (two commas). B never checks that because takes no comma. Make B card 2 a because or when card. The direction 'and, but, or, or so' is hard to follow read aloud; see instruction. Keys right."
+    },
+    {
+      "unit": "g3-sentences-and-conventions",
+      "part": 2,
+      "verdict": "fix",
+      "why": "A has simple and complex, B simple and compound: A never asks compound, B never complex. A's simple sentence has list commas (a good trap) and B's does not. Use three cards per form (one simple, one compound, one complex) in a different order in each form. Keys right."
+    },
+    {
+      "unit": "g3-sentences-and-conventions",
+      "part": 3,
+      "verdict": "fix",
+      "why": "Both forms test only 'very ___' (plain form) and '___ than' (more …); no superlative, though the lesson is 'Better, best', so 'very → plain, than → more' scores 100%. Replace each form's 'very' card with a superlative (bank: 'Owen is the ___ runner in our class' → fastest; 'the ___ story of all'). Keys right."
+    },
+    {
+      "unit": "g3-sentences-and-conventions",
+      "part": 4,
+      "verdict": "fix",
+      "why": "A has a plural and a singular owner (pilots’ planes, rabbit’s carrot); B has two plurals (horses’, friends’). B never checks ’s, and its two 'Three ___ have' frames let a child copy. B card 2: 'A friend has a kite' → the friend’s kite. The direction says 'who owns it'; the key expects owner and thing."
+    },
+    {
+      "unit": "g3-sentences-and-conventions",
+      "part": 5,
+      "verdict": "ok",
+      "why": "A Tea Party in the Treetops, The Night of the Falling Stars; The Secret of the Silver Spoon, A Bear and a Bucket of Paint. Each title has first-word, important-word and small-word decisions; same kind and difficulty; keys right."
+    }
+  ],
+  "checks": [
+    {
+      "unit": "k-how-books-and-print-work",
+      "verdict": "publish-after-fixes",
+      "why": "Fix the part 1 key marks and 'each book'. Left-to-right/top-to-bottom (RF.K.1.a), the core print concept, is left out; add a short part (arrow and starting dot) on page 2, which has room."
+    },
+    {
+      "unit": "k-short-vowels-and-cvc-words",
+      "verdict": "publish-after-fixes",
+      "why": "Parts 1-3 are sound. Part 4 needs pictures whose names START with sh or ch and cannot be named another way."
+    },
+    {
+      "unit": "k-words-and-sentences",
+      "verdict": "publish-after-fixes",
+      "why": "Form A part 4 can be aced by writing ? twice, and part 3's right answer is always the bottom line. Both are quick card and order fixes."
+    },
+    {
+      "unit": "g1-digraphs-and-blends",
+      "verdict": "hold",
+      "why": "Every part fails: part 1 (boat/ship, an unequal pair, a confusing table), part 2 (only ck answers, unequal decoys), part 3 (pliers). Ending blends (nd, mp, st, nk), a full lesson, is missing. Repick and add a part before printing."
+    },
+    {
+      "unit": "g1-long-vowels-silent-e-and-vowel-teams",
+      "verdict": "publish-after-fixes",
+      "why": "Part 1 must give each form one short and one silent-e answer; swap the jeep for sheep or tree."
+    },
+    {
+      "unit": "g1-two-syllable-words",
+      "verdict": "publish-after-fixes",
+      "why": "Balance part 2 (a double-consonant word in A too); part 4 B must answer with the lesson's heart words (of, could), not give and put."
+    },
+    {
+      "unit": "g2-long-vowels-and-vowel-teams",
+      "verdict": "publish-after-fixes",
+      "why": "Remove the kit/kite repeat and give B a short-vowel answer; mix the first and second spellings in part 3."
+    },
+    {
+      "unit": "g2-bossy-r-and-longer-words",
+      "verdict": "publish-after-fixes",
+      "why": "Replace the 'bed → bedtime' echo card. Rework the heart-word part: equal boxes, heart spots that can be defended only one way, should in B."
+    },
+    {
+      "unit": "g3-reading-long-words",
+      "verdict": "publish-after-fixes",
+      "why": "Add vowel-team syllables (the bank lacks them) and stop B repeating A's suffix words. The heart-word lesson is not in the check; that is acceptable only if the unit's other lessons are covered well."
+    },
+    {
+      "unit": "g3-parts-of-speech",
+      "verdict": "publish-after-fixes",
+      "why": "Parts 1, 2 and 4 test different things in A and B. Give each form the same kinds, and put an irregular plural in part 2."
+    },
+    {
+      "unit": "g3-sentences-and-conventions",
+      "verdict": "publish-after-fixes",
+      "why": "Parts 1-4 each test different things in A and B, and part 3 never asks for a superlative. All are card repicks; part 5 is fine."
+    }
+  ],
+  "instruction": {
+    "K-665": "Look at the three parts of the book. Circle the front cover. Put an X on the back cover.",
+    "K-658": "I will read the three words in each row. Circle the action word.",
+    "K-548": "Look at each picture. Circle the word or words that fit in the sentence.",
+    "K-656": "I will read each sentence. Does it tell or ask? Write a period or a question mark in the box.",
+    "K-378": "Say each picture's name. Draw a line to the letter team its name starts with.",
+    "G2-548": "I will say each word. Write the letters for each sound in a box. Then draw a heart over each tricky part.",
+    "G3-518": "Write the letters for each sound in a box. Then draw a heart over each tricky part.",
+    "G3-521": "Circle the joining word that makes sense. Write it in the blank. If it is \"and,\" \"but,\" \"or,\" or \"so\" and it joins two sentences, put a comma in front of it.",
+    "G3-526": "Write the owner and what it owns on the line. Use ’s for one owner and s’ for more than one owner."
+  },
+  "worksheet": [
+    "G3-514 (Silent-e, Vowel-Team, and Consonant-le Syllables): both bank pools (90 cards) contain no vowel-team syllable. V is in the printed legend and the title but is never the answer. Add rain|coat, sea|weed, tea|pot, pea|nut, sail|boat, oat|meal.",
+    "G2-548 (Heart Words: could, would, should): on the child's page each box is as wide as its letter group (one wide box for 'oul', two wide for 'au', 'se'), which gives away the mapping and the heart spot. Use equal boxes. 'because' has three defensible heart spots (e, au, se); the key must show or accept all of them.",
+    "G3-518 (Heart Words: enough, though, ocean): enough, laugh, cough, tough, rough, ocean and busy each have two irregular parts (ou and gh; c and ea; u and s), but the line says 'the tricky part'. Say 'each tricky part' and show every heart in the key; if boxes are letter-group wide here too, make them equal.",
+    "G2-546 (Long Vowels in Two-Syllable Words): several sentences echo the answer, so matching words beats reading: 'I go to bed at ___' → bedtime, 'Your ___ is in your back' → backbone, 'A ___ fell from the pine tree' → pinecone. Rewrite them without the echo (e.g. 'Your ___ holds up your body', 'I put on my pajamas at ___').",
+    "G3-533 (Which Plural Is Right?): neither pool has a truly irregular plural (mice, teeth, feet, children, geese), though the lesson objective names mice, teeth and children. Only -ves plurals stand in for 'irregular'.",
+    "G3-526 (Possessive Nouns: One Owner or More): no irregular plural possessive (the children's coats, the men's hats) in either pool, though the lesson objective names it.",
+    "G1-584 (Silent e Changes the Vowel): the christmas/candy_cane picture for 'cane'. A child says 'candy cane', and its first part 'can' is the decoy. Use a walking cane or drop the card.",
+    "G2-532 (Vowel Sounds: oo, ou, ow, oi, and oy): the bank has no oo card at all (moon, book), though oo leads the title.",
+    "K-378 (Digraph Sort for Kindergarten: sh or ch): the lesson sorts by the START of the word, but these forms drew jellyfish (sh at the end) and beach (ch at the end; a scene a child names umbrella or sand). Keep only pictures that start with sh or ch.",
+    "G1-586 (Long e: ee and ea): the seal is drawn sitting up on its front flippers like a sea lion. The s__l frame saves it, and 'sea' is spelled ea too, so the risk is low, but a clearer seal would help.",
+    "G1-602 key: the orange split bar is wider than the gap between the spaced letters and partly covers the letters on both sides (oat|meal, up|set, nut|shell, at|tic). Thin the bar or widen the gap at the split."
+  ],
+  "notes": [
+    "A defect that repeats across units: the builder picks each form's cards on its own, so A and B often test different kinds (g1-long-vowels P1, g1-digraphs P2, g2-long-vowels P1/P3, g3-parts-of-speech P1/P2/P4, g3-sentences P1-P4). Match the answer kind card by card between forms, and never reuse a word pair or base word from the other form (kit/kite, harmful/harmless).",
+    "Key mark colors are mixed: some parts ring the answer in orange, others in teal only (k-words-and-sentences parts 1, 3, 5; the book-parts X). On a gray-scale photocopy the teal ring nearly vanishes. Use one answer color, orange, everywhere.",
+    "Kindergarten directions that say 'Read …' (K-658, K-656, K-657) should say 'I will read …'. The skills checked (L.K.1.b, L.K.2.b) are oral or punctuation skills, and a pre-unit Form A must not fail a child on decoding.",
+    "g1-digraphs part 1 and g1-long-vowels part 3 pictures are small (about a tenth of the card) next to large letters; make them at least as tall as the letters.",
+    "The Q4 heart-word format checks mapping a printed word, not reading it or spelling it from memory, which is what RF.2.3.f and RF.3.3.d are about. If the format stays, add a second card where the teacher says a heart word and the child writes it."
+  ],
+  "questions": {
+    "1": "No, it does not read clearly. The orange answer ring goes around BOTH covers (the back cover has a ring and a teal X; the front cover has a ring and a teal circle), so a teacher sees two circled covers, and the X is not in the answer color. Fix: on the key, draw only the marks the child makes, in orange: a circle around the front cover and an X on the back cover, with no ring on the X'd cover and nothing on the title page.",
+    "2": "Yes. Measured on key-b-1 at full size: scoop 1 runs from just left of p to about 4 px past the right edge of n, ending in the gap before d; scoop 2 covers d-a. That is pan|da. The two scoop tips nearly touch in the n-d gap, which is why it looks wrong on the contact sheet. Optional polish: end scoop 1 at n's right edge and leave a clear gap before d. Penguin (pen|guin) is also correct.",
+    "3": "No. Form A checks both rules (plural s’ for pilots’, singular ’s for rabbit’s); Form B checks only the plural (horses’, friends’). B never shows whether the child learned ’s, and its two identical 'Three ___ have' frames let a child copy the first answer. Fix: B card 2 = 'A friend has a kite.' → the friend’s kite (in the bank). Neither form has an irregular plural (children’s), which the lesson names.",
+    "4": "Only partly fair. Sound boxes plus a heart is the lesson's routine, so it checks whether the child can analyze the word. But (a) the word is printed, so it never checks reading or spelling it from memory, the point of RF.2.3.f and RF.3.3.d; (b) the boxes are as wide as the letter groups (a wide box for 'oul'), so segmentation and heart spot are given away; (c) because, enough, laugh, cough and ocean have two or more tricky parts while the key shows one heart. Fix: the teacher says the word, the child writes it in equal boxes (count given) and hearts EACH tricky part; the key accepts every irregular part. For g2, B should use should + friend, not could + because. For g3, the heart-word lesson is not in the check at all; the G3-518 bank has the same problems.",
+    "5": "Rock/stone (g1-digraphs A): fine, the choices rock/rot settle it. Jeep/car (g1-long-vowels A): the frame j__p gives the word, but children who don't know the brand-derived noun can't use the picture; replace it with sheep or tree. Seal/sea lion (G1-586 bank): drawn like a sea lion; the s__l frame and 'sea' both lead to ea, so low risk. Candy cane/cane (G1-584 bank): real risk, because the child says 'candy cane' and its first part 'can' is the decoy; use a walking cane. Others: the g1 ship reads as 'boat' (no digraph), so replace it; g1 pliers is a word first graders don't know; the K beach scene gets named umbrella or sand; the K sheep is drawn as a lamb; the 'Christmas' wreath has a silent w and is seasonal. Decoy words are all decodable and fine (bit, fix, pit, dot, dug, rot, slid, plan, song, long); none needs a meaning the child lacks."
+  }
+}

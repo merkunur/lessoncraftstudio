@@ -21,6 +21,8 @@ const HOST = 'www.lessoncraftstudio.com';
 const QA = require(path.join(REPO, 'scripts', 'lib', 'qa-header.js')).headers();
 const checks = JSON.parse(fs.readFileSync(path.join(REPO, 'frontend', 'content', 'assessments', 'checks.' + loc + '.json'), 'utf8')).checks;
 const ui = JSON.parse(fs.readFileSync(path.join(REPO, 'frontend', 'content', 'assessments', 'ui.' + loc + '.json'), 'utf8'));
+// (Wave 4) the rubrics of the writing parts: Teacher-only, like the keys and the teacher pages
+const RUBRICS = (() => { const f = path.join(__dirname, 'rubrics', loc + '.json'); return fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : {}; })();
 
 function req1(p) {
   return new Promise((resolve) => {
@@ -56,6 +58,8 @@ const dl = (kind, file) => '/api/quota/dl?kind=' + kind + '&loc=' + loc + '&file
       if (kind === 'form') check((r.status === 302 && /\/auth\/signup\?from=download|\/pricing\?from=download-limit/.test(to)) || (r.status === 200 && /pdf/.test(r.headers['content-type'] || '')), w + ' ' + name + ': answers ' + r.status + ' ' + to);
       else check(r.status === 302 && /\/auth\/signup\?from=teacher-file/.test(to), w + ' ' + name + ': a Teacher-only file answers ' + r.status + ' ' + to);
     }
+    // (Wave 4) the rubric of a writing part stands only in the Teacher-only teacher pages: none of its examples (of 20 letters or more) is on the unit page
+    if (c.writing && RUBRICS[c.unit]) for (const p of RUBRICS[c.unit].points) for (const l of ['notYet', 'nearly', 'secure']) if (p[l].example.length >= 20) check(!page.body.includes(p[l].example) && !page.body.includes(amp(p[l].example)), w + ': the unit page prints the rubric (' + p.id + ', ' + l + ')');
     // a key can not be fetched as a form
     check((await req(dl('form', 'checks/' + c.unit + '/key-a'))).status === 400, w + ': the key is handed out through the form path');
   }

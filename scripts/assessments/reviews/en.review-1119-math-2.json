@@ -1,0 +1,294 @@
+{
+  "parts": [
+    {
+      "unit": "k-teen-numbers-and-counting-to-100",
+      "part": 1,
+      "verdict": "ok",
+      "why": "Fixed: 'Circle ten squares...' and the key rings the two full columns. A 10 + 4 = 14 and B 10 + 3 = 13; squares counted on the page."
+    },
+    {
+      "unit": "k-teen-numbers-and-counting-to-100",
+      "part": 2,
+      "verdict": "ok",
+      "why": "A 16 = 10 + 6, B 15 = 10 + 5; dots counted; the new direction is good."
+    },
+    {
+      "unit": "k-teen-numbers-and-counting-to-100",
+      "part": 3,
+      "verdict": "ok",
+      "why": "A 19 and 12, B 18 and 11; the key fills the first frame first."
+    },
+    {
+      "unit": "k-teen-numbers-and-counting-to-100",
+      "part": 4,
+      "verdict": "fix",
+      "why": "Keys right (A 7, 4; B 9, 3), but card 2 repeats part 1 in both forms: A 14 = 10 + 4 is part 1 again (10 + 4 = 14); B 13 = 10 + 3 likewise. Give card 2 an unused teen number (A 15 or 18; B 12, 16 or 17)."
+    },
+    {
+      "unit": "k-teen-numbers-and-counting-to-100",
+      "part": 5,
+      "verdict": "ok",
+      "why": "Keys right (A 24, 41, 43; B 21, 27, 32). Form A now shows 21-50; form B still shows 11-40 and never reaches 50, the lesson's number. Show 21-50 in B too (minor)."
+    },
+    {
+      "unit": "k-teen-numbers-and-counting-to-100",
+      "part": 6,
+      "verdict": "ok",
+      "why": "Fixed: a 71-100 chart (A hides 89, 94; B 85, 87), and nothing else on the page prints them. The check now reaches 100."
+    },
+    {
+      "unit": "k-teen-numbers-and-counting-to-100",
+      "part": 7,
+      "verdict": "ok",
+      "why": "Fixed: strips A 48-57 (51, 53, 56) and B 49-58 (52, 54, 56) lie outside both charts, never three blanks in a row, and both cross 50."
+    },
+    {
+      "unit": "k-teen-numbers-and-counting-to-100",
+      "part": 8,
+      "verdict": "ok",
+      "why": "Fixed: one strip; A hides 40 and 60, B 30 and 60; neither is printed on the same page."
+    },
+    {
+      "unit": "g1-hundreds-chart-skip-counting",
+      "part": 1,
+      "verdict": "ok",
+      "why": "Right as before (A 2, 13, 17; B 3, 12, 15); the direction now reads '0, 10, and 20'."
+    },
+    {
+      "unit": "g1-hundreds-chart-skip-counting",
+      "part": 2,
+      "verdict": "ok",
+      "why": "Fixed: each form has one row-edge blank and two mid-row blanks (A 43, 49, 51; B 27, 30, 38)."
+    },
+    {
+      "unit": "g1-hundreds-chart-skip-counting",
+      "part": 3,
+      "verdict": "ok",
+      "why": "A 84: 83, 85 and 79: 69, 89; B 93: 92, 94 and 81: 71, 91; none printed elsewhere. Small arrows from the middle number would still help (optional)."
+    },
+    {
+      "unit": "g1-hundreds-chart-skip-counting",
+      "part": 4,
+      "verdict": "fix",
+      "why": "The tell is gone, but so is the by-5s strip, while the direction still says 10s, 5s, or 2s: fives go unchecked. B repeats A's strips (30-100, 4-18); only the blanks move. Add a 5s strip sharing no number with the 10s blanks (A: 15 20 _ 30 _ 40 _ 50) and give B new starts."
+    },
+    {
+      "unit": "g2-add-subtract-within-1000",
+      "part": 1,
+      "verdict": "ok",
+      "why": "Fixed: two problems. A 180 + 563 = 743 (a new hundred) and 195 + 566 = 761 (both); B 728 + 116 = 844 (a new ten) and 136 + 785 = 921 (both). The key writes each carried 1."
+    },
+    {
+      "unit": "g2-add-subtract-within-1000",
+      "part": 2,
+      "verdict": "ok",
+      "why": "Fixed: two problems, one regrouping a hundred and one a ten in each form: A 406 - 292 = 114, 352 - 138 = 214; B 658 - 163 = 495, 682 - 537 = 145."
+    },
+    {
+      "unit": "g2-add-subtract-within-1000",
+      "part": 3,
+      "verdict": "ok",
+      "why": "A 800 - 317 = 483, B 700 - 568 = 132; each form now fits on one page."
+    },
+    {
+      "unit": "g2-measurement-time-money",
+      "part": 1,
+      "verdict": "ok",
+      "why": "Unchanged and right: whale 6, watermelon 7."
+    },
+    {
+      "unit": "g2-measurement-time-money",
+      "part": 2,
+      "verdict": "ok",
+      "why": "Fixed: A 5 clips/15 cubes and 4 clips/2 sticks; B 6 clips/3 sticks and 2 clips/6 cubes. The units stay consistent (a clip is 3 cubes, a stick 2 clips) and the right circle moves."
+    },
+    {
+      "unit": "g2-measurement-time-money",
+      "part": 3,
+      "verdict": "fix",
+      "why": "Keys right (A skateboard 5 - ferry 3 = 2; B canoe 5 - skateboard 3 = 2). Form A draws a ferry shorter than a skateboard: children will be puzzled and a teacher will mind. Pair two things whose real sizes agree with the drawing (e.g., scooter and skateboard)."
+    },
+    {
+      "unit": "g2-measurement-time-money",
+      "part": 4,
+      "verdict": "fix",
+      "why": "B's fence story is fine, but A is now put-together: both are no-regrouping additions (41 + 22, 53 + 14), so adding every pair, the lesson's named error, wins. Use take-away or compare with regrouping in both (A ribbon 75 - 28; B fence 83 - 47). The key note cites 75 - 28 = 47, another story."
+    },
+    {
+      "unit": "g2-measurement-time-money",
+      "part": 5,
+      "verdict": "ok",
+      "why": "Fixed: A 8:15, 1:40; B 5:20, 3:35; no :00 or :30, a time after the half hour in each form; foils catch the next hour (2:40, 4:35), the minute number read as minutes (8:03, 1:08, 5:04, 3:07) and swapped hands. Hands measured: right."
+    },
+    {
+      "unit": "g2-measurement-time-money",
+      "part": 6,
+      "verdict": "ok",
+      "why": "Fixed: coins to scale, named, no values, mixed order, no purse; direction 'Count the coins...'. A 76¢ and 42¢, B 71¢ and 46¢; all right."
+    },
+    {
+      "unit": "g2-measurement-time-money",
+      "part": 7,
+      "verdict": "ok",
+      "why": "Fixed: toys, and each form has one regrouping total (A 35 + 25, B 15 + 35) and one without (A 40 + 35, B 45 + 40). Minor: a playground slide and a sandbox for 25-35 cents, and 'Tom puts a sandbox in the basket', read oddly; smaller toys would be better."
+    },
+    {
+      "unit": "g2-shapes-solids-symmetry",
+      "part": 1,
+      "verdict": "ok",
+      "why": "Fixed: 3, 4, 5, 6 under every shape, shapes drawn independently (A pentagon and two quadrilaterals; B triangle and two hexagons), chips spaced. Sides counted on the drawings: all right."
+    },
+    {
+      "unit": "g2-shapes-solids-symmetry",
+      "part": 2,
+      "verdict": "ok",
+      "why": "Fixed: A box corners 8 and faces 6; B square-pyramid edges 8 (hidden edges dashed) and cube faces 6. A asks two questions about one box while B uses two solids; acceptable."
+    },
+    {
+      "unit": "g2-shapes-solids-symmetry",
+      "part": 3,
+      "verdict": "ok",
+      "why": "Unchanged and right: giraffe X, dragonfly check, watermelon slice check, mango X."
+    },
+    {
+      "unit": "g2-shapes-solids-symmetry",
+      "part": 4,
+      "verdict": "ok",
+      "why": "Unchanged and right: tulip 23, umbrella 20, crab 22, sun 25 squares, mirrored cell by cell."
+    },
+    {
+      "unit": "g2-shapes-solids-symmetry",
+      "part": 5,
+      "verdict": "ok",
+      "why": "Unchanged and right: one exact match in each form."
+    },
+    {
+      "unit": "g3-rounding-adding-subtracting",
+      "part": 1,
+      "verdict": "ok",
+      "why": "Unchanged and right: A 840, 480, 790; B 910, 390, 540."
+    },
+    {
+      "unit": "g3-rounding-adding-subtracting",
+      "part": 2,
+      "verdict": "ok",
+      "why": "Unchanged and right: A 300, 900, 600; B 700, 400, 800."
+    },
+    {
+      "unit": "g3-rounding-adding-subtracting",
+      "part": 3,
+      "verdict": "ok",
+      "why": "Unchanged and right. Minor, as before: both card 2s total 60, and only B card 1 (16 + 68) separates rounding first from rounding the exact sum."
+    },
+    {
+      "unit": "g3-rounding-adding-subtracting",
+      "part": 4,
+      "verdict": "ok",
+      "why": "Fixed: the forms match (A 160 + 656, 317 - 158, 612 - 266; B 372 + 141, 711 - 193, 625 - 358; each one carry, two double regroupings); the key now writes the carried 1. All answers right."
+    },
+    {
+      "unit": "g3-rounding-adding-subtracting",
+      "part": 5,
+      "verdict": "ok",
+      "why": "Fixed: three sums per form with both outcomes and new numbers (A 349 + 379 even, 420 + 215 odd, 242 + 432 even; B 357 + 220 odd, 347 + 449 even, 268 + 313 odd); circles filled in the key."
+    },
+    {
+      "unit": "g3-rounding-adding-subtracting",
+      "part": 6,
+      "verdict": "ok",
+      "why": "Fixed: one growing (+6) and one shrinking (-7) pattern per form, 'missing numbers'. All right (A 72, 78, 90; 67, 46, 32; B 84, 90, 102; 68, 54, 47). Minor: B's growing strip crosses 100, A's stays under 100."
+    },
+    {
+      "unit": "g3-time-temperature-mass-volume",
+      "part": 1,
+      "verdict": "ok",
+      "why": "Fixed: the answer is no longer always the earlier time (A 6:44, 8:32; B 1:41, 11:34), with nearest-five and hour foils; hands measured, right. Minor: A card 1's foil 5:45 catches nothing; 7:44 (hour hand nearly on 7) would match B's 2:41."
+    },
+    {
+      "unit": "g3-time-temperature-mass-volume",
+      "part": 2,
+      "verdict": "ok",
+      "why": "Fixed: A 7:25 to 8:05 = 40 minutes and 10:00 to 1:00 = 3 hours; B 8:25 to 9:10 = 45 minutes and 10:30 to 2:30 = 4 hours. Each crosses the hour or 12; unit after the box."
+    },
+    {
+      "unit": "g3-time-temperature-mass-volume",
+      "part": 3,
+      "verdict": "ok",
+      "why": "Fixed: A 5:30 + 2 hours 30 minutes = 8:00, B 1:45 + 1 hour 15 minutes = 3:00; both cross the hour with minutes, words spelled out."
+    },
+    {
+      "unit": "g3-time-temperature-mass-volume",
+      "part": 4,
+      "verdict": "ok",
+      "why": "Fixed: degrees F, marks by 2 numbered every 10, readings between numbers, two thermometers: A 56 and 32, B 62 and 48 (liquid tops measured on their marks)."
+    },
+    {
+      "unit": "g3-time-temperature-mass-volume",
+      "part": 5,
+      "verdict": "ok",
+      "why": "Unchanged and right: 450 g, 350 g, 500 g, 400 g."
+    },
+    {
+      "unit": "g3-time-temperature-mass-volume",
+      "part": 6,
+      "verdict": "ok",
+      "why": "Fixed: mL throughout; two cups, readings on unnumbered marks (A 100 and 750, B 700 and 1,250)."
+    }
+  ],
+  "checks": [
+    {
+      "unit": "k-teen-numbers-and-counting-to-100",
+      "verdict": "publish-after-fixes",
+      "why": "Every earlier finding is fixed and every key is right. One small fix: part 4 card 2 repeats part 1's fact (A 14 = 10 + 4, B 13 = 10 + 3) in both forms."
+    },
+    {
+      "unit": "g1-hundreds-chart-skip-counting",
+      "verdict": "publish-after-fixes",
+      "why": "Parts 1-3 fixed and right. Part 4 lost its by-5s strip while the direction still names it, and form B repeats A's strips."
+    },
+    {
+      "unit": "g2-add-subtract-within-1000",
+      "verdict": "publish",
+      "why": "Two problems in parts 1 and 2, one page per form, matched forms, every key right."
+    },
+    {
+      "unit": "g2-measurement-time-money",
+      "verdict": "publish-after-fixes",
+      "why": "Clocks, coins and shopping are now good. Part 4 has two no-regrouping additions (the add-everything error passes) and a key note with another story's numbers; part 3 form A draws a ferry shorter than a skateboard."
+    },
+    {
+      "unit": "g2-shapes-solids-symmetry",
+      "verdict": "publish",
+      "why": "Sorting by sides and the faces/edges/corners part are fixed; every key right; forms even."
+    },
+    {
+      "unit": "g3-rounding-adding-subtracting",
+      "verdict": "publish",
+      "why": "Parts 4-6 fixed; every key right; only minor notes remain."
+    },
+    {
+      "unit": "g3-time-temperature-mass-volume",
+      "verdict": "publish",
+      "why": "All held parts rebuilt to Grade 3: minutes intervals, crossing the hour, degrees F between labels, mL, two cups. Every key right."
+    }
+  ],
+  "instruction": {
+    "G1-123": "Each strip counts by 10s, 5s, or 2s. Find how it counts. Write each missing number. (Keep this line only with a 5s strip on the card; without one, say: Each strip counts by 10s or 2s.)",
+    "G2-291": "Find each toy and its price. Add the prices. Write the total."
+  },
+  "worksheet": [
+    "K-627 Ten and Some More (en worksheet): the line now starts 'Circle ten squares' but still ends 'Write how many more there are. Then write the number.'; use the check's clearer line ('Write how many squares are outside your circle. Then write how many squares there are in all.').",
+    "G2-252, G2-260, G2-263 (en): the printed title is now 'Measuring Cups ... mL', but the stored title field still reads 'Measuring Jugs to 2000 ml' (metadata; recorded only)."
+  ],
+  "notes": [
+    "Earlier findings, k-teen-numbers-and-counting-to-100: part 1 'Circle 10' and key ring FIXED; part 5 chart to 50 FIXED in A, not in B (11-40); part 6 hidden number printed in part 7 and no 100 FIXED; part 7 chart printing the strip answers FIXED; part 8 repeated 70 and no 100 FIXED; question 3 conditions (a neighbor on each side, never three blanks) MET.",
+    "Earlier findings, g1-hundreds-chart-skip-counting: part 2 uneven blanks FIXED; part 4 strips printing each other's answers FIXED (new issue: 5s strip removed, B repeats A); part 1 comma FIXED; part 3 arrows not added (optional).",
+    "Earlier findings, g2-add-subtract-within-1000: one problem per part FIXED; two half-empty pages FIXED (one page).",
+    "Earlier findings, g2-measurement-time-money: part 2 B copying A FIXED; part 3 uneven differences FIXED (new: ferry shorter than skateboard); part 4 PARTLY (B has a new fence story, but both forms are no-regrouping additions); part 5 FIXED; part 6 coins FIXED; part 7 regrouping and wild animals FIXED; key alternatives ADDED but with the wrong story's numbers; '25 ¢' spacing unchanged (minor).",
+    "Earlier findings, g2-shapes-solids-symmetry: part 1 elimination, no pentagon and crowded chips FIXED; part 2 faces only FIXED.",
+    "Earlier findings, g3-rounding-adding-subtracting: part 4 uneven third problem and empty carry box FIXED; part 5 single item and repeated 343 FIXED; part 6 '-7 everywhere', 'missing ones' and no growing pattern FIXED; part 3 minor notes unchanged.",
+    "Earlier findings, g3-time-temperature-mass-volume: part 1 'earlier time always right' FIXED; part 2 whole hours FIXED; part 3 uneven whole-hour addition and 'h' FIXED; part 4 Celsius and labelled marks FIXED; part 6 'ml' and one cup FIXED.",
+    "Earlier worksheet findings: G2-518 key keeps '?' in the bar (FIXED, length-stories.js); G3-344 has minute cards (FIXED); G3-345 draws degrees F (FIXED); G1-229, G2-291 and G3-327 direction lines FIXED; G2-252/G2-260/G2-263 printed wording FIXED (stored title still old); K-627 PARTLY (see worksheet list).",
+    "Every key answer in all seven rebuilt checks was checked again (arithmetic, clock-hand angles, unit and coin counts, thermometer and cup readings, sides, faces, edges and corners) and is correct."
+  ]
+}

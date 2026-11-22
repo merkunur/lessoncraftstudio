@@ -1540,3 +1540,17 @@ All are Level Sets: three levels, up to five copies a level, visible to teachers
   - No empty week inside a plan, and no unit without a check.
   - A ratchet in `deploy.sh` against `scripts/units/coverage-known.en.json`: a new gap fails, and a closed gap must leave the list. Poisons are caught in both directions; it ran first in deploy 44.
 - **In progress:** C-2 (the 24 checks of the year) and C-4 (120 week sub days), each with an Opus builder in its own files. Then one reviewer each, then publish.
+
+### 2026-11-22: Stage C-4 is live: a sub day for every week of the English school year (deploy 45, commit `d0fefd2ec`)
+
+- **What:** 120 week days: Kindergarten 28, Grade 1 30, Grade 2 32, Grade 3 30. Each reviews only what was taught by that week.
+  - Record: PART-5-DESIGN.md §5.
+  - Built by one Opus builder; one reviewer (a US K–3 teacher and a guest teacher) found 21 MUST and 4 SHOULD issues, all fixed. The new script-fits-every-page gate and a second read found more; all fixed.
+  - The 24 days of the year kept their titles and descriptions; 14 of their guest PDFs were rebuilt with corrected script parts.
+- **Coverage ratchet:** 156 → 36 gaps (every sub-day week closed).
+- **Live:**
+  - A week page answers 200 with `noindex, follow` and previous/next links.
+  - The hub lists all 120 weeks; no sitemap holds a week page.
+  - Guest PDFs and binders are Teacher-only (anonymous → 302).
+  - The C-4 teacher files were copied alone, because C-2's unfinished year-check files share the folder and the upload script replaces the whole folder. IDENTITY PASS.
+- **Next:** C-2 (checks of the year, builder still running), then C-3 (placement checks).

@@ -124,3 +124,32 @@ All 72 German pages were read as pictures (contact sheets) and as the printed te
 - No answer key (the worksheets of the printable families ship none); the picture-word lists are true of the page for everyone only.
 - Two Kindergarten packs for the start of the year share the worksheet type "Find the Letter" with different pages (the start of Kindergarten has few literacy pages a class can do alone).
 - `1:logic-picture-clues`, `K:letter-case` and `K:alphabet-order` keep a script in the text files and are in no pack.
+
+## 5. Part 5.4 (2026-11-22): a sub day for every week of the English school year
+
+**120 week days** (Kindergarten weeks 1–28, Grade 1 1–30, Grade 2 1–32, Grade 3 1–30), live since deploy 45, commit `d0fefd2ec`. Built by one Opus builder, reviewed by one reviewer, fixed, re-checked by me.
+
+**What a week day may review.** `position.js` `refusedWeek`: a point of the grade whose lesson is taught by the END of that week in its own plan (`day <= round(ofDays * week / plan.weeks)`), a point of an earlier grade, or a point no plan teaches. The three positions of the 24 days of the year keep their exact rule.
+
+**How the days are chosen** (`scripts/sub-plans/lists/build-en-weeks.js`, pools in `en-weeks-pools.js`):
+- Every day has reading, writing and math. Kindergarten runs 80–90 minutes, Grades 1–3 135–145.
+- No point in neighbouring weeks.
+- No worksheet family twice in a day (`type-families`). The one exception is a story beside an informational text.
+- End-of-the-day variety: no type more than three times in a grade.
+- A Kindergarten page in Grade 1 only in weeks 1–6.
+- Only pages a guest teacher can run. The `EXCLUDED` list gives each type left out with its reason: cut and glue, partners, dice, materials, teacher-led pages, logic grids, cursive, holiday pages, letter names in early Kindergarten.
+- `skip-pages.json` lists 16 defective pages, each with its reason.
+- Pages a guest teacher cannot check without a key are left out (G1-413, G1-414, G1-422, G2-360).
+
+**Scripts.** `texts/en-<k|1|2|3>-weeks.js` hold scripts for new points, types and pages, written from the pictures (contact sheets via `fetch-pages.js` and `contact-sheet.js`). Pages whose answers a guest teacher needs carry "For your own reference" lines derived from the page's own words: G3-512/513/530/531 and G2-275/286.
+
+**The gate this round added** (`picture-words.js` and `page-pictures.json`, in P4, with poisons both ways). Every picture word a script names must be a picture on EVERY page the script is shown with; otherwise the script is a `byPage` text. The reviewer's 21 MUST findings were almost all one cause: a script shared by page variants it did not describe (the wrong animal in a maze, "popcorn" on pages that start with "bluebell").
+
+**Review (rule #2).** One reviewer read the whole dump in two roles, a US K–3 teacher and a guest teacher who has only these pages. It returned 21 MUST and 4 SHOULD findings, all fixed at the source. The new gate then found more, and reading found more again; all fixed. I checked every reference answer against its page.
+
+**Pages.**
+- Week days are `noindex, follow` even when live, and stay out of the sitemap (`listedSubPacks`); the 24 days of the year stay the search face.
+- A week day links to the weeks before and after it. The hub lists the days per grade by week, collapsed; its title and description are unchanged.
+- A Teacher-only **binder** per grade holds the class list, a normal day's timetable and emergency information. "How the day went" is already in every pack's guest pages.
+
+**Known limits.** Many one- or two-page Kindergarten types and the Grade 2–3 single-page science types ran out of pages ("a page is handed out once per grade"). More pages of those types would widen the pools.

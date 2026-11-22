@@ -1527,3 +1527,16 @@ All are Level Sets: three levels, up to five copies a level, visible to teachers
   - Guide rebuilt and uploaded; units live check 1,182/1,182.
 - **Noted, not this work:** `scripts/worksheet-gen/emit/deck-html.test.js` has 11 failures on HEAD too (the taxonomy lacks the family key `coloring-page`). It is not a deploy gate.
 - **Next:** the approved plan's item 2 (year, placement and benchmark checks; a sub day for every week; the coverage gate).
+
+### 2026-11-22: "Readers" in the header (deploys 43–44); Stage C-1, the coverage gate
+
+- **Readers in the header (operator request):**
+  - Operator, verbatim: "The stories should be reached also through the header" and "readers is the right title".
+  - A menu entry after Worksheets (`lib/readers.ts` `readersNav`, threaded like "Lesson plans"): the ten phonics sets, "Picture readers · About Level A–C", and "All readers" at the foot; its 14 links are in the crawl mesh.
+  - English only: a language without reader hubs gets no entry.
+  - With eight entries the bar broke at 1024 px. Below 1280 px the buttons are now tighter and never wrap (deploy 44); measured live on one line at 1024, 1100 and 1280.
+- **C-1:** `scripts/units/coverage.js` and `COVERAGE.en.md`.
+  - 156 gaps: 24 checks of the year, 9 placement checks, 120 sub-day weeks, and 3 literacy plans under 28 weeks.
+  - No empty week inside a plan, and no unit without a check.
+  - A ratchet in `deploy.sh` against `scripts/units/coverage-known.en.json`: a new gap fails, and a closed gap must leave the list. Poisons are caught in both directions; it ran first in deploy 44.
+- **In progress:** C-2 (the 24 checks of the year) and C-4 (120 week sub days), each with an Opus builder in its own files. Then one reviewer each, then publish.

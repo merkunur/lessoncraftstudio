@@ -36,6 +36,8 @@ interface NavigationProps {
   newMakers?: Array<{ href: string; label: string }>;
   /** the first menu entry, "Lesson plans", where the language has units (lib/teach-nav.ts); null elsewhere */
   teach?: TeachNav | null;
+  /** "Readers" where the language has reader hubs (lib/readers.ts readersNav); null elsewhere */
+  readers?: TeachNav | null;
 }
 
 export function Navigation({
@@ -50,6 +52,7 @@ export function Navigation({
   makerSlugs = {},
   newMakers = [],
   teach = null,
+  readers = null,
 }: NavigationProps = {}) {
   const t = useTranslations('navigation');
   const pathname = usePathname();
@@ -215,6 +218,7 @@ export function Navigation({
             makerSlugs={makerSlugs}
             newMakers={newMakers}
             teach={teach}
+            readers={readers}
             onItemClick={closeDrawer}
           />
 
@@ -278,6 +282,7 @@ export function Navigation({
       makerSlugs={makerSlugs}
       newMakers={newMakers}
       teach={teach}
+      readers={readers}
     />
     </>
   );

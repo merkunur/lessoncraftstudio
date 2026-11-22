@@ -33,6 +33,8 @@ export async function buildCategoryMeshSlots(input: {
   newMakers?: Array<{ href: string; label: string }>;
   /** the first menu entry, "Lesson plans", where the language has units (lib/teach-nav.ts); null elsewhere */
   teach?: TeachNav | null;
+  /** "Readers" where the language has reader hubs (lib/readers.ts readersNav); null elsewhere */
+  readers?: TeachNav | null;
 }): Promise<Record<string, React.ReactNode>> {
   const t = await getTranslations({ locale: input.locale, namespace: 'nav.categories' });
   const dropdowns = buildCategories({ ...input, t: (k: string) => t(k) });

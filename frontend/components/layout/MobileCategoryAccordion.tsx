@@ -40,6 +40,8 @@ interface MobileCategoryAccordionProps {
   newMakers?: Array<{ href: string; label: string }>;
   /** the first menu entry, "Lesson plans", where the language has units (lib/teach-nav.ts); null elsewhere */
   teach?: TeachNav | null;
+  /** "Readers" where the language has reader hubs (lib/readers.ts readersNav); null elsewhere */
+  readers?: TeachNav | null;
   // Called whenever the user taps an item or browse-all link inside the
   // accordion. Parent (Navigation) uses this to close the surrounding
   // drawer so the page navigation is unobstructed.
@@ -58,6 +60,7 @@ export function MobileCategoryAccordion({
   makerSlugs = {},
   newMakers = [],
   teach = null,
+  readers = null,
   onItemClick,
 }: MobileCategoryAccordionProps) {
   const t = useTranslations('nav.categories');
@@ -73,6 +76,7 @@ export function MobileCategoryAccordion({
     makerSlugs,
     newMakers,
     teach,
+    readers,
     toolLabels,
     axisLabels,
     t,

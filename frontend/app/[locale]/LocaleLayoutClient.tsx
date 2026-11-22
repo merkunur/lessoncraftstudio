@@ -21,6 +21,7 @@ export function LocaleLayoutClient({
   makerSlugs = {},
   newMakers = [],
   teach = null,
+  readers = null,
 }: {
   children: React.ReactNode;
   /** Server-rendered <Footer/>, passed as an element so React never hydrates it. */
@@ -43,6 +44,8 @@ export function LocaleLayoutClient({
   makerSlugs?: Record<string, string>;
   newMakers?: Array<{ href: string; label: string }>;
   teach?: TeachNav | null;
+  /** "Readers" where the language has reader hubs (lib/readers.ts readersNav); null elsewhere */
+  readers?: TeachNav | null;
 }) {
   const pathname = usePathname();
 
@@ -76,6 +79,7 @@ export function LocaleLayoutClient({
           makerSlugs={makerSlugs}
           newMakers={newMakers}
           teach={teach}
+          readers={readers}
         />
         <main>
           {children}
@@ -101,6 +105,7 @@ export function LocaleLayoutClient({
         makerSlugs={makerSlugs}
         newMakers={newMakers}
         teach={teach}
+        readers={readers}
       />
       <main className="flex-1">
         {children}

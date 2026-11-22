@@ -157,7 +157,7 @@ export const LABELS: Record<string, {
   fi: { activities: 'Tehtävät', manipulatives: 'Työkalut', topics: 'Aiheet', browseAllActivities: 'Kaikki tehtävät', browseAllManipulatives: 'Kaikki työkalut', browseAllTopics: 'Kaikki aiheet' },
 };
 
-export type CategoryKey = 'teach' | 'worksheets' | 'apps' | 'activities' | 'manipulatives' | 'topics' | 'languages';
+export type CategoryKey = 'teach' | 'worksheets' | 'readers' | 'apps' | 'activities' | 'manipulatives' | 'topics' | 'languages';
 
 /** The first menu entry, "Lesson plans" (Daily Teaching System, Part 11.5): the grade pages, the sub plans, the unit
  *  checks and the standards checklists of a language that has units. Resolved on the server (lib/teach-nav.ts). */
@@ -207,6 +207,8 @@ export interface BuildCategoriesInput {
   newMakers?: DropdownItem[];
   /** the first menu entry, "Lesson plans", where the language has units (lib/teach-nav.ts); null elsewhere */
   teach?: TeachNav | null;
+  /** "Readers", after Worksheets, where the language has reader hubs (lib/readers.ts readersNav); null elsewhere */
+  readers?: TeachNav | null;
   /**
    * The tool catalogue as the nav needs it: id + title in THIS locale only.
    * Server-supplied from `@/lib/manipulatives` for the same reason as
@@ -243,6 +245,7 @@ export function buildCategories({
   makerSlugs = {},
   newMakers = [],
   teach = null,
+  readers = null,
   toolLabels = [],
   axisLabels = {},
   t,
@@ -412,6 +415,9 @@ export function buildCategories({
   // "Lesson plans" comes first where the language has units: it is what a teacher plans from, and every other entry
   // keeps its place and its links behind it (Part 11.5: nothing is taken out of the menu).
   if (teach && teach.items.length) cats.unshift({ key: 'teach', label: teach.label, items: teach.items, browseAllHref: teach.browseAllHref, browseAllLabel: teach.browseAllLabel });
+
+  // "Readers" right after Worksheets where the language has reader hubs (operator 2026-11-22)
+  if (readers && readers.items.length) cats.splice(cats.findIndex((c) => c.key === 'worksheets') + 1, 0, { key: 'readers', label: readers.label, items: readers.items, browseAllHref: readers.browseAllHref, browseAllLabel: readers.browseAllLabel });
 
   // Insert "Languages" after Topics when there are cross-language decks.
   if (languagesItems.length > 0) {

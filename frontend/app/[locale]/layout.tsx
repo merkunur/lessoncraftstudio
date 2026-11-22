@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import { teachNav } from '@/lib/teach-nav';
+import { readersNav } from '@/lib/readers';
 import { displayCode } from '@/lib/frameworks';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
@@ -151,6 +152,8 @@ export default async function LocaleLayout({
   let newMakers: Array<{ href: string; label: string }> = [];
   // the first menu entry, "Lesson plans", where the language has units (Part 11.5)
   const teach = await teachNav(locale);
+  // "Readers", after Worksheets, where the language has reader hubs (operator 2026-11-22)
+  const readers = await readersNav(locale);
   try {
     newMakers = await navMakers(locale);
   } catch {
@@ -185,6 +188,7 @@ export default async function LocaleLayout({
     axisLabels,
     makerSlugs,
     teach,
+    readers,
   });
 
   return (
@@ -201,6 +205,7 @@ export default async function LocaleLayout({
         toolLabels={toolLabels}
         axisLabels={axisLabels}
         teach={teach}
+        readers={readers}
         meshSlots={meshSlots}
         /* Rendered HERE, on the server, and handed down as an element: a Client
            Component cannot render a Server Component as a child, but it can

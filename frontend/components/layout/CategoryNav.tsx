@@ -53,6 +53,8 @@ interface CategoryNavProps {
   newMakers?: Array<{ href: string; label: string }>;
   /** the first menu entry, "Lesson plans", where the language has units (lib/teach-nav.ts); null elsewhere */
   teach?: TeachNav | null;
+  /** "Readers" where the language has reader hubs (lib/readers.ts readersNav); null elsewhere */
+  readers?: TeachNav | null;
   /** Server-rendered sr-only crawl mesh per category key. Elements passed as
    *  props are not hydrated; see the render site. SEO-load-bearing. */
   meshSlots?: Record<string, React.ReactNode>;
@@ -69,6 +71,7 @@ export function CategoryNav({
   makerSlugs = {},
   newMakers = [],
   teach = null,
+  readers = null,
   meshSlots,
 }: CategoryNavProps) {
   const t = useTranslations('nav.categories');
@@ -106,6 +109,7 @@ export function CategoryNav({
     makerSlugs,
     newMakers,
     teach,
+    readers,
     toolLabels,
     axisLabels,
     t,

@@ -14,6 +14,7 @@
  * Checked by scripts/readers/gate-hubs.js.
  */
 import { deckAssets } from '@/lib/seo/landing-content';
+import type { TeachNav } from '@/lib/category-nav-data';
 
 /** the languages that have reader hubs */
 export const READER_HUB_LOCALES = ['en'] as const;
@@ -118,6 +119,23 @@ export async function readerHubHrefForPage(locale: string, deckSlug: string): Pr
   const level = hubs.levels.find((l) => l.books.some(has));
   if (level) return level.hasPage ? { href: `/${locale}/readers/${level.slug}`, level: level.level } : { href: `/${locale}/readers` };
   return null;
+}
+
+/** The header entry "Readers" (2026-11-22): one link per set and level that has a page, "All readers" at the foot.
+ *  null in a language without reader hubs, and when anything fails (the menu never falls with it). */
+export async function readersNav(locale: string): Promise<TeachNav | null> {
+  try {
+    const [hubs, ui] = await Promise.all([getReaderHubs(locale), getReaderUi(locale)]);
+    if (!hubs || !ui || !ui.crumb || !ui.navAll) return null;
+    const items = [
+      ...hubs.sets.filter((s) => s.hasPage).map((s) => ({ href: `/${locale}/readers/${s.slug}`, label: fillReader(ui.setHeading, { n: s.n, skill: s.skill }) })),
+      ...hubs.levels.filter((l) => l.hasPage).map((l) => ({ href: `/${locale}/readers/${l.slug}`, label: ui.kindPictureTitle + ' · ' + fillReader(ui.levelHeading, { level: l.level }) })),
+    ];
+    if (!items.length) return null;
+    return { label: ui.crumb, items, browseAllHref: `/${locale}/readers`, browseAllLabel: ui.navAll };
+  } catch {
+    return null;
+  }
 }
 
 /** a deck page (nginx, trailing slash) and its thumbnail */

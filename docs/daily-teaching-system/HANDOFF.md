@@ -66,12 +66,11 @@ captured 2026-11-18T22:34:15Z** (three sampled titles gained their tail, nothing
 
 ## 5. NEXT: the programme in the ruled order (approved plan, Stage B onward)
 
-0. **The maker release for the f1119 worksheet fixes** (NEXT): the fixes of 2026-11-19 changed maker templates (clock,
-   measurement and money pages, G1-129, G3-362, the withdrawn pictures of G1-380, G1-493 and K-378); the maker bundles
-   run behind the sources until `build-bundles.js` (about 2 h 10 min), the full gate suite (about 7 h), release-pack and
-   install. Then section 5 item 1 (c).
-1. **English literacy year (12.3) with readers to 60 (8.2).** (a) and (b) are DONE (B-2 live 2026-11-19, PLAN.md
-   entry of that date); (c) is next. Measured 2026-11-19 (plan
+0. **DONE 2026-11-22:** the maker release for the f1119 fixes (deploy 39) and readers 12 → 63 with the `/en/readers`
+   hubs (deploy 40); PLAN.md entries of 2026-11-22. **NEXT:** the screen version of a book (page turns, so Part 9 can
+   record "read"), then item 2 below.
+1. **English literacy year (12.3) with readers to 60 (8.2).** (a), (b) and (c) are DONE (B-2 live 2026-11-19, B-3 live
+   2026-11-22; PLAN.md entries of those dates) except the books' screen version. Measured 2026-11-19 (plan
    `C:\Users\rkgen\.claude\plans\lexical-singing-kahan.md`): the units are complete; what is open is (a) the design
    order: the Grade 1 reorder is applied, the K story-order move and the "Choosing the Right Word" split are decided
    NOT to be made, and five rows wait (PLAN.md §11, ruling of 2026-11-19); (b) **unit checks for the 31 English units

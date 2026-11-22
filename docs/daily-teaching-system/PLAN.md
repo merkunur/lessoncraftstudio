@@ -1465,3 +1465,25 @@ All are Level Sets: three levels, up to five copies a level, visible to teachers
 - **Gates:** the full suite passed every gate except own-input: the phonics swap offered the withdrawn picture summer/beach as the only fitting key on G1-392 and G1-394. **Fixed (commit `b090efa2a`):** the digraph swap pool leaves withdrawn pictures out, as the pages' own pickers do. 15,840 builds are byte-identical, verify-b5-digraphs passes in all 11 languages, and the phonics suite passes (unique-solution fails only because a one-maker run has no puzzle).
 - **Live:** release-pack (28,397 files, 62 version folders) staged, then deploy 39 installed 51 version folders and 129 pointers. Smoke tests, payment canary and identity check pass, and the live pointers of the changed makers equal the build.
 - **Next:** Stage B-3, readers 12 → 63 with the /en/readers hubs (books written and reviewed twice; pages being generated).
+
+### 2026-11-22: Stage B-3 is live: 63 English readers and the /en/readers hubs (deploy 40)
+
+- **Books (commit `c83e40197`):** the series grows from 12 to 63 mini-books, all published noindex (134 pages live: 108 new, audit clean):
+  - 38 decodable books, sets 1 to 10;
+  - 25 picture readers, about Levels A to C.
+  - Written to the reviewer rules of 2026-11-13 and read twice by a US early-reading specialist; every finding is fixed.
+  - Set 10 (silent e) became possible once the gate learned split spellings like a_e (L2; poison 30/30).
+  - The Big Cloud's cover now shows a picture that is in the book; that page was republished in place (HANDOFF section 6 chain clean, IDENTITY PASS).
+  - A title ending in "!" reads "Sid Did It! Read and Talk" (no published title held "!:").
+- **Hubs (commit `36a77e313`):** `/en/readers` plus one page per set (1–10) and per level (A–C), 14 indexable English pages over the noindex books.
+  - Each page carries its own canonical, hreflang en + x-default, JSON-LD, and sits in sitemap shard 3.
+  - Other languages and empty groups answer 404.
+  - `scripts/readers/gate-hubs.js` is a hard gate in deploy.sh (poison 41/41).
+  - The text was read by a US K–1 reading teacher.
+  - IndexNow: 14 URLs → HTTP 200.
+- **Unit lesson pinned:** the new books sorted before the Level A books and would have moved the Kindergarten "First Words to Read" lesson to a Level C book. `assemble.js` now takes a lesson's `prefer` list, and units.en.json is unchanged.
+- **Deploy 40:** exit 0, smoke tests, payment canary OK, IDENTITY PASS. Live: all 14 hubs answer 200; /de/readers and an empty set answer 404; units en 1,182 checks pass.
+- **Ruling (§11, 2026-11-20):** 12 → 60+ without a separate operator read; the reviewer read plus my own reading are the read.
+- **Open:**
+  - the screen version of a book (page turns, so Part 9 can record "read");
+  - then the approved plan's item 2: English checks and sub days for the whole year.

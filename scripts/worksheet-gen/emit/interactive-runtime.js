@@ -94,6 +94,8 @@ const KINDS = core.KINDS;
  * @returns {{ css, stageOpen, stageClose, controls, script }}
  */
 function buildInteractive(o) {
+  // the readers' page-turn screen (2026-11-22): Node only, its own module, strings from the book type (o.ctx.ui)
+  if (o.kind === 'page-turn') return require('./interactive-page-turn.js').buildPageTurn(o);
   if (!KINDS.has(o.kind)) throw new Error('interactive-runtime: unknown kind ' + o.kind);
   return core.buildInteractive({ ...o, strings: runtimeStrings(o.locale) });
 }

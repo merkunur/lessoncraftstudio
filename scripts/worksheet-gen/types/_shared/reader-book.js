@@ -47,6 +47,25 @@ function pictureOf(p, bw, id) {
 }
 const img = (pic, px, word) => `<img class="ws-icon" src="${fileUri(pic.theme, pic.noun)}" alt="" data-lcs-pic="${esc(word || pic.noun)}" style="width:${px}px;height:${px}px;object-fit:contain">`;
 
+/* The screen version (2026-11-22, kind 'page-turn', emit/interactive-page-turn.js): the book one page at a time, upright,
+   with Back and Next; "The end" after the last page opens the page's celebration, which the class reporter records as
+   "finished" (PART-9-DESIGN.md §5: a celebration with no Check behind it). No sound (speech is unreliable in six of the
+   eleven languages) and nothing to mark: reading is the task. A decodable page shows its sentence alone on screen (the
+   frame to draw in is the paper book's). The strings are the books' language only: a language gets them with its books. */
+const SCREEN_UI = {
+  en: {
+    back: 'Back', next: 'Next', end: 'The end', page: 'Page {n} of {total}', cover: 'Cover',
+    done: 'You read the whole book!', again: 'Read it again', print: 'Print this book',
+    // a decodable book only: the screen's stand-in for the paper's "draw what it says" (reviewer 2026-11-22)
+    retell: 'Now tell someone what happened in the book.',
+  },
+};
+const screenUi = (loc) => {
+  const u = SCREEN_UI[loc];
+  if (!u) throw new Error(`reader-book: no screen strings for "${loc}" — a language gets them with its books`);
+  return u;
+};
+
 function makeReaderBook(cfg) {
   // the version to colour exists only for a book whose EVERY picture has its line-art twin (the same drawing)
   const mine = (loc) => booksOf(loc).filter((b) => (cfg.mode === 'talk' ? true : b.series === cfg.mode && (!cfg.bw || [b.cover, ...b.pics].every(twin))));
@@ -66,6 +85,8 @@ function makeReaderBook(cfg) {
     levelSetWords(m) { return [m.book]; },
     // the page title names a BOOK, not a worksheet (emit/deck-html.js)
     noWorksheetWord: true,
+    // the screen version: the two books a child reads (not the version to colour, not the companion page)
+    ...(cfg.mode !== 'talk' && !cfg.bw ? { interactive: { kind: 'page-turn', instructionKey: cfg.mode === 'first' ? 'readFirst' : 'readTheme', ui: screenUi } } : {}),
     seoName: (title, loc) => ((cfg.i18n[loc] || cfg.i18n.en).seoName || '{T}').replace('{T}', title),
 
     build({ locale, unit }, ctx) {
@@ -105,6 +126,25 @@ function makeReaderBook(cfg) {
           `<div class="ws-card" style="padding:12px 22px;flex:1" data-lcs-talk><div style="display:flex;justify-content:space-between;align-items:center">${head(S('talk'))}${boxes}</div>${b.talk.map((q, i) => `<div style="display:flex;gap:10px;margin:${long ? 5 : 8}px 0;font:700 ${long ? 17 : 18}px/1.25 ${BODY};color:${INK}"><span style="color:${CORAL}">${i + 1}.</span><span data-lcs-question>${esc(q)}</span></div>`).join('')}</div>` +
           `<div style="font:600 ${b.note.length > 190 ? 12.5 : 13.5}px/1.3 ${BODY};color:${SOFT};padding:0 6px" data-lcs-teacher-note><b>${esc(S('teacher'))}</b> ${esc(b.note)}</div></div>`;
         return { bodyHtml: body, meta: { book: b.id, series: b.series, stage: b.stage || null, level: b.level || null } };
+      }
+
+      // the SCREEN render (render-instance, kind 'page-turn'): one large upright cover, the picture the page shows before
+      // its script runs, and the whole book as data on the root (texts as printed, pictures as library files); the
+      // runtime draws the pages from that data. Same book, same meta as the paper version (render-instance asserts it).
+      if (ctx && ctx.interactive) {
+        const coverPic = cfg.mode === 'theme' ? pictureOf(b.cover, false, cfg.id) : null;
+        const pics = cfg.mode === 'theme' ? b.pics.map((p) => pictureOf(p, false, cfg.id)) : [];
+        const book = {
+          id: b.id, title: b.title, tag, series: b.series,
+          cover: coverPic ? fileUri(coverPic.theme, coverPic.noun) : null,
+          pages: b.pages.map((t, i) => ({ lines: linesOf(t), pic: pics[i] ? fileUri(pics[i].theme, pics[i].noun) : null, word: pics[i] ? b.pics[i].words[0] : null, scale: pics[i] ? (b.pics[i].scale || 1) : 1 })),
+        };
+        const coverHtml = `<div style="box-sizing:border-box;width:560px;height:560px;margin:0 auto;border:2px solid #E6DCCB;border-radius:22px;background:#FFFFFF;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:22px;padding:30px" data-lcs-screen-cover>` +
+          `<div style="font:700 ${[...b.title].length > 14 ? 46 : 56}px/1.1 ${DISPLAY};color:${TEAL};text-align:center">${esc(b.title)}</div>` +
+          (coverPic ? img(coverPic, 260) : `<div style="font:800 30px ${BODY};color:${CORAL};letter-spacing:0.08em">${esc(gate.stageName(b.stage))}</div>`) +
+          `<div style="font:700 18px ${BODY};color:${SOFT}">${esc(tag)}</div></div>`;
+        const body = `<div style="flex:1;display:flex;align-items:center;justify-content:center" data-ws-content data-lcs-screen-book="${esc(JSON.stringify(book))}">${coverHtml}</div>`;
+        return { bodyHtml: body, meta: { book: b.id, series: b.series, stage: b.stage || null, level: b.level || null, ...(cfg.mode === 'theme' ? { pictures: [coverPic, ...pics].map((p) => p.theme + '/' + p.noun) } : { pictures: [] }), texts: b.pages } };
       }
 
       const pw = 330, ph = Math.floor((706 - extra) / 2);

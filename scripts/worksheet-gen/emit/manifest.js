@@ -152,7 +152,8 @@ function buildManifest(o) {
   // printable path is unchanged, and publish.js places an answer-key.pdf whenever the ZIP has one.
   if (o.interactive) {
     manifest.interactive = { kind: o.interactive.kind };
-    manifest.assets.answer_key_pdf = 'answer-key.pdf';
+    // a book read page by page has no answer key (kind 'page-turn', the readers 2026-11-22)
+    if (o.interactive.kind !== 'page-turn') manifest.assets.answer_key_pdf = 'answer-key.pdf';
   }
   // Round-trip check (catalog-export.js convention): must JSON-serialize cleanly.
   JSON.parse(JSON.stringify(manifest));

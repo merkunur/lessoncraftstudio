@@ -3497,5 +3497,13 @@
       "no": "Trykk på en fargestift og deretter på hver del som har samme tall.",
       "fi": "Napauta väriliitua ja sitten jokaista osaa, jossa on sama numero."
     }
+  },
+  "readers": {
+    "readFirst": {
+      "en": "Read each page out loud. Then tap Next."
+    },
+    "readTheme": {
+      "en": "Look at the picture. Then point to each word as you read it. Tap Next."
+    }
   }
 }

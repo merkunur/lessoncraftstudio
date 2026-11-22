@@ -95,6 +95,30 @@ async function renderInstance(o) {
     if (screenLine !== o.interactiveInstruction) strings = { ...strings, screenInstruction: screenLine };
     await load(buildPage({ title: head, instruction: screenLine, bodyHtml: screenBuilt.bodyHtml, locale, pageSize, pageHeight: spec.screenHeight || null }), '.screen');
     const screenLints = await runLints(page, { gradeBand: type.gradeBand });
+    // PAGE-TURN mode (the readers, 2026-11-22): the book is drawn LIVE by the runtime from data (emit/interactive-page-turn.js);
+    // the screen render is only the upright cover, the picture the page shows before its script runs. No answer key.
+    if (spec.kind === 'page-turn') {
+      const got = await page.evaluate(() => {
+        const root = document.querySelector('[data-lcs-screen-book]');
+        const cover = document.querySelector('[data-lcs-screen-cover]');
+        if (!root || !cover) return null;
+        const r = cover.getBoundingClientRect();
+        window.__lcsClip = { x: r.left + window.scrollX, y: r.top + window.scrollY, width: r.width, height: r.height };
+        return JSON.parse(root.getAttribute('data-lcs-screen-book'));
+      });
+      if (!got) throw new Error(`render-instance: ${type.id} is page-turn but the screen render has no book`);
+      const texts = (built.meta && built.meta.texts) || [];
+      if (got.pages.length !== texts.length || got.pages.some((p, k) => p.lines.join(' | ') !== texts[k].split('|').map((x) => x.trim()).join(' | '))) throw new Error(`render-instance: ${type.id} the screen book differs from the printed book (${got.id})`);
+      // the pictures travel inline (the deck page is self-contained): the library drawing, at most 520 px, as WebP
+      const sharp = require('sharp');
+      const inline = async (uri) => (uri ? 'data:image/webp;base64,' + (await sharp(require('url').fileURLToPath(uri)).resize(520, 520, { fit: 'inside', withoutEnlargement: true }).webp({ quality: 86, alphaQuality: 100 }).toBuffer()).toString('base64') : null);
+      const bookData = { title: got.title, tag: got.tag, cover: await inline(got.cover), retell: got.series === 'first', pages: [] };
+      for (const p of got.pages) bookData.pages.push({ lines: p.lines, pic: await inline(p.pic), scale: p.scale || 1 });
+      const screenPng = base + '.screen.png';
+      await page.screenshot({ path: screenPng, clip: await page.evaluate(() => window.__lcsClip) });
+      interactive = { kind: spec.kind, items: [], book: bookData, ui: spec.ui(locale), pngPath: screenPng, keyPdfPath: null, lints: screenLints };
+      return { html, qa: { lints, verify }, pdfPath, pngPath, meta: built.meta, pageSize, seed: rng.seed, interactive, strings };
+    }
     // LANES mode (tap-edit): the lanes are drawn LIVE by the runtime; the page image is only the
     // header (title, instruction, checklist), cropped just below it. Items travel as DATA.
     if (spec.lanes) {

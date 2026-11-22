@@ -1,8 +1,8 @@
 {
  "id": "wave-rdr-en",
- "_note": "Readers (Daily Teaching System, Part 8): the English series, 63 mini-books (Part 8.1 pilot of 12 on 2026-11-13, Part 8.2 to 63 on 2026-11-20). Decodable mini-books, picture readers, their versions to color, and the Read and Talk page of every book. Lesson pages: not for search engines.",
+ "_note": "Readers (Daily Teaching System, Part 8): the English series, 63 mini-books (Part 8.1 pilot of 12 on 2026-11-13, Part 8.2 to 63 on 2026-11-20). Decodable mini-books, picture readers, their versions to color, and the Read and Talk page of every book. Lesson pages: not for search engines. Since 2026-11-22 the decodable books and picture readers carry a page-turn screen (interactive: true; the other two types declare none).",
  "indexable": false,
- "interactive": false,
+ "interactive": true,
  "seedEpoch": 1,
  "locales": [
   "en"

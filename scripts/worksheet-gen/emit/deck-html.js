@@ -231,7 +231,8 @@ function buildDeckHtml(o) {
     ? { ...buildInteractive({ kind: o.interactive.kind, locale, items: o.interactive.items, ctx: o.interactive.ctx, marks: o.interactive.marks }), instruction: o.interactive.instruction, preview: o.interactive.preview }
     : null;
   const shown = ia ? ia.preview : preview;
-  const keyLabel = ia ? ACT.answerKey : null;
+  // a book read page by page has no answer key (kind 'page-turn')
+  const keyLabel = ia && o.interactive.kind !== 'page-turn' ? ACT.answerKey : null;
 
   const html = [
     '<!DOCTYPE html>',
@@ -263,7 +264,7 @@ function buildDeckHtml(o) {
     (ia ? ia.controls : null),
     '  <div class="lcs-download">',
     '    <a class="lcs-download-cta" href="__PDF_URL__">⬇ ' + downloadLabel + '</a>',
-    (ia ? '    <a class="lcs-download-cta" href="__ANSWER_KEY_URL__" style="background:#146B5E">✓ ' + keyLabel + '</a>' : null),
+    (keyLabel ? '    <a class="lcs-download-cta" href="__ANSWER_KEY_URL__" style="background:#146B5E">✓ ' + keyLabel + '</a>' : null),
     '  </div>',
     '</main>',
     '<aside class="lcs-end-deck">',

@@ -1487,3 +1487,16 @@ All are Level Sets: three levels, up to five copies a level, visible to teachers
 - **Open:**
   - the screen version of a book (page turns, so Part 9 can record "read");
   - then the approved plan's item 2: English checks and sub days for the whole year.
+
+### 2026-11-22: the homepage Reading Room (deploy 41, commit `47e141a29`)
+
+- **Operator request:** "a new section for the readers just after the worksheet makers section … an elegant section".
+- **The room:** room IV on the English homepage, between the makers' studio and the tools; the rooms after it move down one numeral.
+  - A shelf of seven little books on a walnut ledge: picture readers with a picture that is in the book, decodable readers with their set's letter sounds. Each cover opens its own book on its set or level page, through new per-book anchors on the hub cards.
+  - Two plaques (Sets 1–10, Levels A–C), one line on folding, and a button to `/en/readers`.
+- **Strings:** every sentence but the title, the button and the "Set N" tag comes from the hubs' reviewed strings.
+- **Other languages:** the room renders only where reader hubs exist (English), so the other ten homepages are unchanged.
+- **Verified:**
+  - homepage gates: hang-rows, link count, hero fold, hero copy, responsive (layout); tsc; gate-hubs 41/41;
+  - live at 1366 / 768 / 375: 7 / 5 / 3 books, every picture loaded, no overflow;
+  - the 21 room links answer 200, and each cover lands on its book.

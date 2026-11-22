@@ -1599,6 +1599,10 @@
       "book": "readers-k629-iseepets",
       "color": "readers-k630-iseepets",
       "talk": "readers-k631-iseepets"
+     },
+     "cover": {
+      "theme": "farm animals",
+      "noun": "cat"
      }
     },
     {
@@ -1616,6 +1620,10 @@
       "book": "readers-k629-atthefarm",
       "color": "readers-k630-atthefarm",
       "talk": "readers-k631-atthefarm"
+     },
+     "cover": {
+      "theme": "farm animals",
+      "noun": "cow"
      }
     },
     {
@@ -1633,6 +1641,10 @@
       "book": "readers-k629-mylunch",
       "color": null,
       "talk": "readers-k631-mylunch"
+     },
+     "cover": {
+      "theme": "fruits",
+      "noun": "apple"
      }
     },
     {
@@ -1650,6 +1662,10 @@
       "book": "readers-k629-itcango",
       "color": null,
       "talk": "readers-k631-itcango"
+     },
+     "cover": {
+      "theme": "vehicles",
+      "noun": "car"
      }
     },
     {
@@ -1665,6 +1681,10 @@
       "book": "readers-k629-ican",
       "color": null,
       "talk": "readers-k631-ican"
+     },
+     "cover": {
+      "theme": "activities",
+      "noun": "reading"
      }
     },
     {
@@ -1682,6 +1702,10 @@
       "book": "readers-k629-inthesea",
       "color": "readers-k630-inthesea",
       "talk": "readers-k631-inthesea"
+     },
+     "cover": {
+      "theme": "animals",
+      "noun": "fish"
      }
     },
     {
@@ -1699,6 +1723,10 @@
       "book": "readers-k629-inthesnow",
       "color": null,
       "talk": "readers-k631-inthesnow"
+     },
+     "cover": {
+      "theme": "winter",
+      "noun": "snowman"
      }
     },
     {
@@ -1716,6 +1744,10 @@
       "book": "readers-k629-atthepark",
       "color": null,
       "talk": "readers-k631-atthepark"
+     },
+     "cover": {
+      "theme": "toys",
+      "noun": "slide"
      }
     }
    ]
@@ -1740,6 +1772,10 @@
       "book": "readers-k629-bigandlittle",
       "color": null,
       "talk": "readers-k631-bigandlittle"
+     },
+     "cover": {
+      "theme": "zoo animals",
+      "noun": "elephant"
      }
     },
     {
@@ -1757,6 +1793,10 @@
       "book": "readers-k629-canitswim",
       "color": "readers-k630-canitswim",
       "talk": "readers-k631-canitswim"
+     },
+     "cover": {
+      "theme": "animals",
+      "noun": "duck"
      }
     },
     {
@@ -1774,6 +1814,10 @@
       "book": "readers-k629-upinthesky",
       "color": null,
       "talk": "readers-k631-upinthesky"
+     },
+     "cover": {
+      "theme": "Things That Fly",
+      "noun": "kite"
      }
     },
     {
@@ -1789,6 +1833,10 @@
       "book": "readers-k629-inmybag",
       "color": "readers-k630-inmybag",
       "talk": "readers-k631-inmybag"
+     },
+     "cover": {
+      "theme": "classroom",
+      "noun": "pencil"
      }
     },
     {
@@ -1806,6 +1854,10 @@
       "book": "readers-k629-heretohelp",
       "color": null,
       "talk": "readers-k631-heretohelp"
+     },
+     "cover": {
+      "theme": "occupations",
+      "noun": "firefighter"
      }
     },
     {
@@ -1824,6 +1876,10 @@
       "book": "readers-k629-mixitup",
       "color": null,
       "talk": "readers-k631-mixitup"
+     },
+     "cover": {
+      "theme": "fruits",
+      "noun": "banana"
      }
     },
     {
@@ -1839,6 +1895,10 @@
       "book": "readers-k629-mybed",
       "color": "readers-k630-mybed",
       "talk": "readers-k631-mybed"
+     },
+     "cover": {
+      "theme": "furniture",
+      "noun": "bed"
      }
     },
     {
@@ -1856,6 +1916,10 @@
       "book": "readers-k629-theband",
       "color": "readers-k630-theband",
       "talk": "readers-k631-theband"
+     },
+     "cover": {
+      "theme": "music",
+      "noun": "drum"
      }
     }
    ]
@@ -1883,6 +1947,10 @@
       "book": "readers-k629-thefrog",
       "color": null,
       "talk": "readers-k631-thefrog"
+     },
+     "cover": {
+      "theme": "reptiles and Amphibians",
+      "noun": "frog"
      }
     },
     {
@@ -1898,6 +1966,10 @@
       "book": "readers-k629-thebigcloud",
       "color": null,
       "talk": "readers-k631-thebigcloud"
+     },
+     "cover": {
+      "theme": "weather",
+      "noun": "cloudy"
      }
     },
     {
@@ -1913,6 +1985,10 @@
       "book": "readers-k629-apples",
       "color": null,
       "talk": "readers-k631-apples"
+     },
+     "cover": {
+      "theme": "thanksgivinng",
+      "noun": "apple"
      }
     },
     {
@@ -1928,6 +2004,10 @@
       "book": "readers-k629-therocket",
       "color": null,
       "talk": "readers-k631-therocket"
+     },
+     "cover": {
+      "theme": "space",
+      "noun": "rocket"
      }
     },
     {
@@ -1944,6 +2024,10 @@
       "book": "readers-k629-dinosaurs",
       "color": "readers-k630-dinosaurs",
       "talk": "readers-k631-dinosaurs"
+     },
+     "cover": {
+      "theme": "dinosaurs",
+      "noun": "stegosaurus"
      }
     },
     {
@@ -1962,6 +2046,10 @@
       "book": "readers-k629-thecaterpillar",
       "color": null,
       "talk": "readers-k631-thecaterpillar"
+     },
+     "cover": {
+      "theme": "insects and bugs",
+      "noun": "caterpillar"
      }
     },
     {
@@ -1977,6 +2065,10 @@
       "book": "readers-k629-atthebeach",
       "color": null,
       "talk": "readers-k631-atthebeach"
+     },
+     "cover": {
+      "theme": "summer",
+      "noun": "beach"
      }
     },
     {
@@ -1996,6 +2088,10 @@
       "book": "readers-k629-momhen",
       "color": null,
       "talk": "readers-k631-momhen"
+     },
+     "cover": {
+      "theme": "farm animals",
+      "noun": "hen"
      }
     },
     {
@@ -2012,6 +2108,10 @@
       "book": "readers-k629-theturtle",
       "color": null,
       "talk": "readers-k631-theturtle"
+     },
+     "cover": {
+      "theme": "animals",
+      "noun": "turtle"
      }
     }
    ]

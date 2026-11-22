@@ -172,7 +172,9 @@ function buildHubs({ books, scope, live, locale = 'en' }) {
           const phrase = ws.join(' ');
           for (const w of ws.length > 1 && text.includes(` ${phrase.toLowerCase()} `) ? [phrase] : ws) if (w && !words.includes(w)) words.push(w);
         }
-        return { id: b.id, title: b.title, pictureWords: words, newWords: b.newWords || [], pages };
+        // the cover picture (a picture that is in the book), for the readers room of the homepage
+        const cover = b.cover && b.cover.theme && b.cover.noun ? { theme: b.cover.theme, noun: b.cover.noun } : null;
+        return { id: b.id, title: b.title, pictureWords: words, newWords: b.newWords || [], pages, cover };
       }),
     });
   }

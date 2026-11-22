@@ -428,6 +428,97 @@ export function Studio({
   );
 }
 
+/* ── The Reading Room (readers) ───────────────────────────────────────────
+   2026-11-22 (operator: "a new section for the readers just after the worksheet makers section … an elegant section").
+   English only: the readers exist in English, and the page passes `data` only there. A shelf of little books
+   standing face-out (picture readers with their own cover picture, decodable readers with the letter sounds of
+   their set), the two kinds of reader with their sets and levels, how a sheet becomes a book, and one way in.
+   Every sentence but the button comes from the readers hub's reviewed strings (content/readers/ui.en.json). */
+
+export type ReadersRoomBook = {
+  title: string;
+  href: string;
+  kind: 'picture' | 'decodable';
+  tag: string;
+  cover?: string | null;
+  letters?: string[];
+};
+export type ReadersRoomData = {
+  title: string;
+  lead: string;
+  books: ReadersRoomBook[];
+  decodableTitle: string;
+  decodableText: string;
+  setsCaption: string;
+  sets: { label: string; href: string; name: string }[];
+  pictureTitle: string;
+  pictureText: string;
+  levelsCaption: string;
+  levels: { label: string; href: string; name: string }[];
+  fold: string;
+  cta: string;
+  ctaHref: string;
+};
+
+export function ReadersRoom({ numeral, data }: { numeral: string; data: ReadersRoomData }) {
+  return (
+    <Room id="readers" wall="green">
+      <p className="hv10-room-label" aria-hidden="true">{numeral}</p>
+      <h2 className="hv10-room-h2">{data.title}</h2>
+      <p className="hv10-room-body">{data.lead}</p>
+
+      <div className="hv10-rd-shelf">
+        <div className="hv10-rd-books">
+          {data.books.map((b) => (
+            <Link key={b.href + b.title} href={b.href} className={`hv10-rd-book is-${b.kind}`} aria-label={`${b.title}, ${b.tag}`}>
+              <span className="hv10-rd-cover-title">{b.title}</span>
+              <span className="hv10-rd-cover-art" aria-hidden="true">
+                {b.kind === 'picture' && b.cover
+                  ? <img src={b.cover} alt="" width={200} height={200} loading="lazy" decoding="async" />
+                  : (b.letters || []).map((l) => <span key={l}>{l}</span>)}
+              </span>
+              <span className="hv10-rd-cover-tag">{b.tag}</span>
+            </Link>
+          ))}
+        </div>
+        <div className="hv10-rd-ledge" aria-hidden="true" />
+      </div>
+
+      <div className="hv10-rd-kinds">
+        <div className="hv10-rd-kind">
+          <h3>{data.decodableTitle}</h3>
+          <p>{data.decodableText}</p>
+          <p className="hv10-rd-steps-label">{data.setsCaption}</p>
+          <ul className="hv10-rd-steps">
+            {data.sets.map((s) => <li key={s.href}><Link href={s.href} aria-label={s.name}>{s.label}</Link></li>)}
+          </ul>
+        </div>
+        <div className="hv10-rd-kind">
+          <h3>{data.pictureTitle}</h3>
+          <p>{data.pictureText}</p>
+          <p className="hv10-rd-steps-label">{data.levelsCaption}</p>
+          <ul className="hv10-rd-steps">
+            {data.levels.map((l) => <li key={l.href}><Link href={l.href} aria-label={l.name}>{l.label}</Link></li>)}
+          </ul>
+        </div>
+      </div>
+
+      <p className="hv10-rd-fold">
+        <svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true">
+          <path d="M5 4h16l8 8v18H5z" fill="none" stroke="#F2B98F" strokeWidth="2" strokeLinejoin="round" />
+          <path d="M21 4v8h8" fill="none" stroke="#F2B98F" strokeWidth="2" strokeLinejoin="round" />
+          <path d="M17 12v18M5 21h24" stroke="#F2B98F" strokeWidth="1.5" strokeDasharray="3 3" />
+        </svg>
+        <span>{data.fold}</span>
+      </p>
+
+      <div className="hv10-room-ctas">
+        <Link href={data.ctaHref} className="hv10-cta is-primary">{data.cta}</Link>
+      </div>
+    </Room>
+  );
+}
+
 /* ── The Teacher's Room (plans) ───────────────────────────────────────────
    v10.2: rebuilt around what the plan is FOR. The value comes before the
    ask: the differentiation problem in one sentence, then the two columns —

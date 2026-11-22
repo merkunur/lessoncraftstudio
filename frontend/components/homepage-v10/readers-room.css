@@ -1,0 +1,199 @@
+/* The Reading Room (homepage v10, 2026-11-22): the English readers, between the makers' studio and the instruments.
+   A shelf of little books standing face-out on a wooden ledge, then the two kinds of reader as quiet plaques, a line on
+   how one sheet folds into a book, and one way in. Scoped to .hv10-rd-*; English only (the page renders it only there). */
+
+/* the shelf hugs its books; the ledge runs under all of them and a little past each end */
+.hv10-rd-shelf {
+  position: relative;
+  width: fit-content;
+  max-width: 100%;
+  margin: clamp(28px, 4vw, 48px) auto 0;
+  padding: 0 0 14px;
+}
+.hv10-rd-books {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: clamp(10px, 1.6vw, 22px);
+  position: relative;
+  z-index: 1;
+}
+/* the ledge the books stand on: walnut, with a lit front edge and a soft shadow on the wall */
+.hv10-rd-ledge {
+  position: absolute;
+  left: clamp(-22px, -1.8vw, -10px);
+  right: clamp(-22px, -1.8vw, -10px);
+  bottom: 0;
+  height: 16px;
+  border-radius: 3px;
+  background: linear-gradient(180deg, #A9744A 0%, #8A5A35 45%, #6E4528 100%);
+  box-shadow: 0 1px 0 rgba(255, 232, 196, 0.35) inset, 0 14px 22px -10px rgba(0, 0, 0, 0.55);
+}
+
+/* a book: cover + spine; it lifts a little when a hand comes near */
+.hv10-rd-book {
+  --book-w: clamp(104px, 11.5vw, 138px);
+  position: relative;
+  flex: 0 0 auto;
+  width: var(--book-w);
+  aspect-ratio: 3 / 4;
+  border-radius: 3px 7px 7px 3px;
+  text-decoration: none;
+  transform-origin: 50% 100%;
+  transition: transform 220ms ease, box-shadow 220ms ease;
+  box-shadow: -1px 0 0 rgba(0, 0, 0, 0.18), 6px 10px 18px -6px rgba(0, 0, 0, 0.55);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.hv10-rd-book:nth-child(odd) { transform: rotate(-1.2deg); }
+.hv10-rd-book:nth-child(3n) { transform: rotate(1deg); }
+.hv10-rd-book:hover,
+.hv10-rd-book:focus-visible { transform: translateY(-8px) rotate(0deg); box-shadow: -1px 0 0 rgba(0, 0, 0, 0.18), 10px 18px 26px -8px rgba(0, 0, 0, 0.6); }
+.hv10-rd-book:focus-visible { outline: 3px solid #F2B98F; outline-offset: 4px; }
+/* the spine: a darker band with a highlight, as on a stapled little book */
+.hv10-rd-book::before {
+  content: '';
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 9px;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.22) 0%, rgba(255, 255, 255, 0.18) 55%, rgba(0, 0, 0, 0.08) 100%);
+  z-index: 2;
+}
+
+/* a picture reader: a cream cover with its picture */
+.hv10-rd-book.is-picture { background: #FDFBF6; color: #14322D; }
+.hv10-rd-book.is-picture .hv10-rd-cover-art {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 12px 0 16px;
+}
+.hv10-rd-book.is-picture img { width: 82%; height: auto; max-height: 100%; object-fit: contain; }
+
+/* a decodable reader: a teal cloth cover, the set's letter sounds pressed into it */
+.hv10-rd-book.is-decodable { background: linear-gradient(160deg, #1B7A6A 0%, #146B5E 55%, #0F574C 100%); color: #FDFBF6; }
+.hv10-rd-book.is-decodable .hv10-rd-cover-art {
+  flex: 1 1 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 4px 6px;
+  padding: 8px 12px 0 18px;
+  font-family: var(--font-baloo2, 'Baloo 2'), system-ui, sans-serif;
+  font-weight: 700;
+  font-size: clamp(15px, 1.5vw, 19px);
+  line-height: 1;
+  color: rgba(253, 251, 246, 0.9);
+}
+.hv10-rd-book.is-decodable .hv10-rd-cover-art span {
+  padding: 4px 7px 3px;
+  border: 1px solid rgba(253, 251, 246, 0.42);
+  border-radius: 999px;
+}
+
+.hv10-rd-cover-title {
+  padding: 10px 10px 4px 18px;
+  font-family: var(--font-baloo2, 'Baloo 2'), system-ui, sans-serif;
+  font-weight: 700;
+  font-size: clamp(13px, 1.25vw, 15.5px);
+  line-height: 1.15;
+}
+.hv10-rd-cover-tag {
+  padding: 2px 10px 10px 18px;
+  font-family: var(--font-nunito, 'Nunito'), system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 10.5px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.78;
+}
+.hv10-rd-book.is-picture .hv10-rd-cover-tag { color: #146B5E; opacity: 1; }
+
+/* the two kinds of reader: quiet plaques under the shelf */
+.hv10-rd-kinds {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(14px, 2vw, 28px);
+  margin: clamp(36px, 4.4vw, 60px) 0 0;
+}
+.hv10-rd-kind {
+  padding: clamp(18px, 2.2vw, 26px);
+  border: 1px solid rgba(253, 251, 246, 0.22);
+  border-radius: 14px;
+  background: rgba(253, 251, 246, 0.06);
+}
+.hv10-rd-kind h3 {
+  margin: 0 0 6px;
+  font-family: var(--font-baloo2, 'Baloo 2'), system-ui, sans-serif;
+  font-weight: 700;
+  font-size: clamp(19px, 1.9vw, 23px);
+  color: #FDFBF6;
+}
+.hv10-rd-kind p.hv10-rd-steps-label {
+  margin: 0 0 8px;
+  font-family: var(--font-nunito, 'Nunito'), system-ui, sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #F2B98F;
+}
+.hv10-rd-kind p { margin: 0 0 16px; font-size: 15.5px; line-height: 1.55; color: rgba(253, 251, 246, 0.86); }
+.hv10-rd-steps { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.hv10-rd-steps a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(253, 251, 246, 0.45);
+  color: #FDFBF6;
+  font-family: var(--font-baloo2, 'Baloo 2'), system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background 160ms ease, color 160ms ease;
+}
+.hv10-rd-steps a:hover,
+.hv10-rd-steps a:focus-visible { background: #FDFBF6; color: #146B5E; }
+
+/* how a sheet becomes a book: one line with a small folded-sheet mark */
+.hv10-rd-fold {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  max-width: 760px;
+  margin: clamp(26px, 3vw, 40px) auto 0;
+  text-align: left;
+  font-size: 15.5px;
+  line-height: 1.5;
+  color: rgba(253, 251, 246, 0.86);
+}
+.hv10-rd-fold svg { flex: 0 0 auto; }
+
+@media (max-width: 1100px) {
+  .hv10-rd-book:nth-child(n + 6) { display: none; }
+}
+@media (max-width: 760px) {
+  .hv10-rd-kinds { grid-template-columns: minmax(0, 1fr); }
+  .hv10-rd-book:nth-child(n + 5) { display: none; }
+}
+@media (max-width: 480px) {
+  /* three books across any phone, 320 px included */
+  .hv10-rd-book { --book-w: clamp(84px, calc((100vw - 72px) / 3), 104px); }
+  .hv10-rd-cover-title { padding: 9px 6px 2px 15px; font-size: 13px; }
+  .hv10-rd-cover-tag { padding: 2px 6px 8px 15px; font-size: 9.5px; letter-spacing: 0.04em; }
+  .hv10-rd-book.is-picture .hv10-rd-cover-art { padding: 2px 8px 0 13px; }
+  .hv10-rd-book.is-decodable .hv10-rd-cover-art { padding: 4px 6px 0 14px; font-size: 14px; }
+  .hv10-rd-book:nth-child(n + 4) { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hv10-rd-book { transition: none; }
+}

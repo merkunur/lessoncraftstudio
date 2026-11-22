@@ -28,6 +28,8 @@ export interface ReaderBook {
   /** picture readers: the words the pictures carry and the new words read together first */
   pictureWords?: string[];
   newWords?: string[];
+  /** picture readers: the cover picture (a picture that is in the book), for the homepage's Reading Room */
+  cover?: { theme: string; noun: string } | null;
 }
 export interface ReaderSound { spelling: string; example?: string }
 export interface ReaderSet {

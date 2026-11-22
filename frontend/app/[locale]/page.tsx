@@ -14,6 +14,7 @@ import {
   Playroom,
   PrintRoom,
   Studio,
+  ReadersRoom,
   Dispatch,
   MembersRoom,
   Exit,
@@ -22,7 +23,10 @@ import {
   type InstrumentCard,
   type AlcoveCard,
   type WallWork,
+  type ReadersRoomData,
 } from '@/components/homepage-v10/Rooms';
+import { getReaderHubs, getReaderUi } from '@/lib/readers';
+import '@/components/homepage-v10/readers-room.css';
 import { buildEmbedSnippet } from '@/lib/seo/embed-snippet';
 import { embedAnchor } from '@/lib/seo/embed-anchor-text';
 import { deckAssets } from '@/lib/seo/landing-content';
@@ -412,7 +416,11 @@ export default async function HomePage({ params }: { params: { locale: string } 
 
   // the teaching wing (Part 11.7): null in a language without the products, and the page is today's page there
   const teaching = await getHomepageTeaching(locale).catch(() => null);
-  const N = teaching ? ['II', 'III', 'IV', 'V', 'VI', 'VII'] : ['I', 'II', 'III', 'IV', 'V', 'VI'];
+  // the Reading Room (2026-11-22): English only, after the makers' studio; the rooms after it move down one numeral
+  const readers = await readersRoom(locale).catch(() => null);
+  const ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII'];
+  const N = ROMAN.slice(teaching ? 1 : 0);
+  const R = readers ? 1 : 0;
 
   const touch = MANIPULATIVES.find((x) => x.id === TOUCHABLE);
   const live = {
@@ -455,10 +463,11 @@ export default async function HomePage({ params }: { params: { locale: string } 
         {teaching ? <TeachingWing numeral="I" data={teaching} /> : null}
         <PrintRoom locale={locale} numeral={N[0]} works={works} exhibit={exhibit} strings={rooms} />
         <Studio locale={locale} numeral={N[1]} strings={rooms} sheets={studioSheets(locale)} wall={studioWall(locale)} />
-        <InstrumentHall locale={locale} numeral={N[2]} strings={rooms} instruments={instruments} live={live} />
-        <Playroom locale={locale} numeral={N[3]} strings={rooms} activities={alcoves} />
-        <Dispatch locale={locale} numeral={N[4]} strings={rooms} deck={embedDeck} embed={embed} />
-        <MembersRoom locale={locale} numeral={N[5]} strings={rooms} exhibit={exhibit} />
+        {readers ? <ReadersRoom numeral={N[2]} data={readers} /> : null}
+        <InstrumentHall locale={locale} numeral={N[2 + R]} strings={rooms} instruments={instruments} live={live} />
+        <Playroom locale={locale} numeral={N[3 + R]} strings={rooms} activities={alcoves} />
+        <Dispatch locale={locale} numeral={N[4 + R]} strings={rooms} deck={embedDeck} embed={embed} />
+        <MembersRoom locale={locale} numeral={N[5 + R]} strings={rooms} exhibit={exhibit} />
         <Exit locale={locale} strings={rooms} />
 
         {/* The catalogue at the back of the building — the crawl-bait mesh
@@ -475,4 +484,44 @@ export default async function HomePage({ params }: { params: { locale: string } 
       </div>
     </>
   );
+}
+
+/** The Reading Room's data (homepage, 2026-11-22): a shelf of seven books (picture readers and decodable readers in
+ *  turn, from the first set to the last), the sets and levels, from content/readers. null in a language without readers. */
+async function readersRoom(locale: string): Promise<ReadersRoomData | null> {
+  const hubs = await getReaderHubs(locale);
+  const ui = await getReaderUi(locale);
+  if (!hubs || !ui) return null;
+  const fill = (t: string, v: Record<string, string | number>) => t.replace(/\{(\w+)\}/g, (_, k) => String(v[k] ?? ''));
+  const first = (t: string) => (t.match(/^.*?[.!?](?=\s|$)/) || [t])[0];
+  const pic = (theme: string, noun: string) => '/image-library-webp/themes/' + encodeURIComponent(theme) + '/' + encodeURIComponent(noun) + '@2x.webp';
+  const sets = hubs.sets.filter((s) => s.books.length);
+  const levels = hubs.levels.filter((l) => l.books.length);
+  // a group with too few books has no page of its own: it is listed on the index, under its slug
+  const groupHref = (g: { slug: string; hasPage: boolean }) => '/' + locale + '/readers' + (g.hasPage ? '/' + g.slug : '#' + g.slug);
+  const setPage = (n: number) => { const g = sets.find((x) => x.n === n); return g ? groupHref(g) : '/' + locale + '/readers'; };
+  const levelPage = (l: string) => { const g = levels.find((x) => x.level === l); return g ? groupHref(g) : '/' + locale + '/readers'; };
+  // a cover opens its own book: on a group page at the book's anchor, on the index at the group (one anchor per link)
+  const bookHref = (groupPage: string, id: string) => (groupPage.includes('#') ? groupPage : groupPage + '#' + id);
+  const level = (l: string, i: number) => { const g = levels.find((x) => x.level === l); const b = g && (g.books[i] || g.books[0]); return b ? { title: b.title, href: bookHref(levelPage(l), b.id), kind: 'picture' as const, tag: fill(ui.levelHeading, { level: l }), cover: b.cover ? pic(b.cover.theme, b.cover.noun) : null } : null; };
+  const set = (n: number) => { const g = sets.find((x) => x.n === n); const b = g && g.books[0]; return b ? { title: b.title, href: bookHref(setPage(n), b.id), kind: 'decodable' as const, tag: 'Set ' + n, letters: [...new Set(g.sounds.map((x) => x.spelling))].slice(0, 5) } : null; };
+  const books = [level('A', 0), set(2), level('B', 1), set(6), level('C', 0), set(8), set(10)].filter(Boolean) as ReadersRoomData['books'];
+  const total = sets.reduce((k, g) => k + g.books.length, 0) + levels.reduce((k, g) => k + g.books.length, 0);
+  const lead = ui.indexLead.split(/(?<=\.)\s+/);
+  return {
+    title: 'Little books for children learning to read',
+    lead: lead.slice(2).join(' ') || ui.indexLead,
+    books,
+    decodableTitle: ui.kindDecodableTitle,
+    setsCaption: fill(sets.length === 1 ? ui.factSet : ui.factSets, { n: sets.length }),
+    decodableText: first(ui.kindDecodableText),
+    sets: sets.map((g) => ({ label: String(g.n), href: setPage(g.n), name: fill(ui.setHeading, { n: g.n, skill: g.skill }) })),
+    pictureTitle: ui.kindPictureTitle,
+    levelsCaption: fill(levels.length === 1 ? ui.factLevel : ui.factLevels, { n: levels.length }),
+    pictureText: first(ui.kindPictureText),
+    levels: levels.map((l) => ({ label: l.level, href: levelPage(l.level), name: fill(ui.levelHeading, { level: l.level }) })),
+    fold: lead[1] || ui.fold3,
+    cta: 'See all ' + total + ' readers',
+    ctaHref: '/' + locale + '/readers',
+  };
 }

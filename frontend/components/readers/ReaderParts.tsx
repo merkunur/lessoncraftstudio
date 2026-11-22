@@ -10,7 +10,7 @@ const andJoin = (xs: string[]) => xs.join(', ');
 export function BookCard({ locale, book, ui, kind, as: H = 'h3' }: { locale: string; book: ReaderBook; ui: ReaderUi; kind: 'set' | 'level'; as?: 'h3' | 'h4' }) {
   const href = readerDeckHref(locale, book.pages.book);
   return (
-    <li className="rd-book">
+    <li className="rd-book" id={book.id}>
       <a className="rd-book-thumb" href={href} aria-hidden="true" tabIndex={-1}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={readerThumb(locale, book.pages.book)} alt={fillReader(kind === 'set' ? ui.altDecodable : ui.altPicture, { title: book.title })} width={120} height={155} loading="lazy" decoding="async" />

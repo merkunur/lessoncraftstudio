@@ -1500,3 +1500,30 @@ All are Level Sets: three levels, up to five copies a level, visible to teachers
   - homepage gates: hang-rows, link count, hero fold, hero copy, responsive (layout); tsc; gate-hubs 41/41;
   - live at 1366 / 768 / 375: 7 / 5 / 3 books, every picture loaded, no overflow;
   - the 21 room links answer 200, and each cover lands on its book.
+
+### 2026-11-22: Readers: the screen version is live (deploy 42; commits `2588f9798`, `590874b1e`)
+
+- **What:** the 63 English books (38 decodable, 25 picture readers) now read on screen, one page at a time, upright and large. This closes the last item of Stage B-3.
+  - Back / Next, the arrow keys and a swipe turn the page. "The end" opens the celebration, which the class reporter records as "finished" (Part 9 needs no change).
+  - No Check, no answer key, no score, no sound. The version to colour and Read and Talk stay paper only.
+  - Full record: PART-8-DESIGN.md §6.
+- **Review (rule 2):** a US K–1 reading teacher read the new text and the renders. Every finding was fixed or decided with a reason:
+  - the picture-reader instruction now names one-to-one pointing;
+  - a decodable book's celebration asks for a retell;
+  - "Read it again" is the main button;
+  - a drawn book replaces the stars;
+  - the "The end" button got contrast;
+  - a single-sentence page goes on one line where the window allows (Level A).
+  - Kept, with reasons: page numbers 2–4, as on the paper book; the paper's font.
+- **Checks:**
+  - `scripts/readers/gate-screen.js`: 63/63 books play at 320–1366 px against the book as oracle; `--poison` 8/8.
+  - Every book compared with its live page: same title, same description, same printed book.
+  - Republished in place: 63/63 UPDATE, audit clean, injections 0 lost; identity restore not needed (12 already right, 51 newer than the baseline); repoint 0; IDENTITY PASS.
+  - Live on the origin: the meter wall for an anonymous visitor; with the meter open, the book plays through.
+- **Decision (graph and hubs):** the readers play, but the site's catalogue rule keeps them print-only, so the online hubs do not count the books as exercises. Counting them would change those hubs' meta descriptions. The teaching graph excuses exactly that (`PLAYS_BUT_NOT_COUNTED`).
+- **Units:** the Kindergarten "First Words to Read" lesson 3 offers its own Level A book on screen.
+  - `assemble.js` keeps a lesson's `prefer` list on screen too; without it, a Level C book was picked.
+  - A book on screen is "the book, to read on screen page by page", not "a page that checks the answers".
+  - Guide rebuilt and uploaded; units live check 1,182/1,182.
+- **Noted, not this work:** `scripts/worksheet-gen/emit/deck-html.test.js` has 11 failures on HEAD too (the taxonomy lacks the family key `coloring-page`). It is not a deploy gate.
+- **Next:** the approved plan's item 2 (year, placement and benchmark checks; a sub day for every week; the coverage gate).

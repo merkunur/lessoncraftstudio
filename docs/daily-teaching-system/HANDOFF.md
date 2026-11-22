@@ -66,11 +66,11 @@ captured 2026-11-18T22:34:15Z** (three sampled titles gained their tail, nothing
 
 ## 5. NEXT: the programme in the ruled order (approved plan, Stage B onward)
 
-0. **DONE 2026-11-22:** the maker release for the f1119 fixes (deploy 39) and readers 12 → 63 with the `/en/readers`
-   hubs (deploy 40); PLAN.md entries of 2026-11-22. **NEXT:** the screen version of a book (page turns, so Part 9 can
-   record "read"), then item 2 below.
+0. **DONE 2026-11-22:** the maker release for the f1119 fixes (deploy 39), readers 12 → 63 with the `/en/readers`
+   hubs (deploy 40), the homepage Reading Room (deploy 41) and the books' page-turn screen (deploy 42; PART-8-DESIGN.md
+   §6); PLAN.md entries of 2026-11-22. **NEXT:** item 2 below.
 1. **English literacy year (12.3) with readers to 60 (8.2).** (a), (b) and (c) are DONE (B-2 live 2026-11-19, B-3 live
-   2026-11-22; PLAN.md entries of those dates) except the books' screen version. Measured 2026-11-19 (plan
+   2026-11-22, screen version included; PLAN.md entries of those dates). Measured 2026-11-19 (plan
    `C:\Users\rkgen\.claude\plans\lexical-singing-kahan.md`): the units are complete; what is open is (a) the design
    order: the Grade 1 reorder is applied, the K story-order move and the "Choosing the Right Word" split are decided
    NOT to be made, and five rows wait (PLAN.md §11, ruling of 2026-11-19); (b) **unit checks for the 31 English units

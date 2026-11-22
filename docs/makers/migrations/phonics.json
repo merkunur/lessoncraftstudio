@@ -54,5 +54,20 @@
   "kind": "content-fix",
   "note": "A word or a sentence on this page was corrected after a review by teachers.",
   "date": "2026-11-18"
+ },
+ {
+  "at": "ee4bbb996c7a",
+  "atData": "c50e84fd3497",
+  "templates": [
+   "K-378",
+   "G1-380",
+   "G1-392",
+   "G1-393",
+   "G1-394",
+   "G1-493"
+  ],
+  "kind": "content-fix",
+  "note": "A picture on this page was replaced after a review by teachers: it could be read as another word.",
+  "date": "2026-11-19"
  }
 ]

@@ -121,7 +121,7 @@ const slot = require('../../lib/slot.js');
  * repeated stem or picture, never a third word of one group (drawTeams' own rules). One role per kind (t0, t1 …).
  */
 const kindTeam = (x) => x.team + (x.pos ? '|' + x.pos : '');
-function slotTeams(ctx, list, pool) {
+function slotTeams(ctx, list, pool, loc) {
   if (!ctx || !(ctx.slotsOut || ctx.overrides) || !list.length) return list;
   const wrap = (x) => ({ ...x, theme: x.item.theme, noun: x.item.noun });
   const page = (out) => {
@@ -134,7 +134,8 @@ function slotTeams(ctx, list, pool) {
     }
     return true;
   };
-  const poolFor = (k) => { const [t, p] = k.split('|'); return (pool[t] || []).filter((it) => !p || positionOf(it, t) === p).map((it) => wrap({ item: it, team: t, ...(p ? { pos: p } : {}) })); };
+  // a withdrawn picture is never offered to a teacher: the page would refuse it (own-input gate, 2026-11-20)
+  const poolFor = (k) => { const [t, p] = k.split('|'); return (pool[t] || []).filter((it) => (!p || positionOf(it, t) === p) && !withdrawn(loc, it)).map((it) => wrap({ item: it, team: t, ...(p ? { pos: p } : {}) })); };
   const KS = slot.byKind(ctx, list.map(wrap), kindTeam, poolFor, { multi: true, prefix: 't', page });
   return KS.items.map((x, i) => (x.item === list[i].item ? list[i] : { ...list[i], item: x.item }));
 }
@@ -494,7 +495,7 @@ const FACE_BUILD = {
     if (d.forceBins) { const bk = teams.map((_, j) => drawn.filter((x) => x.col === j)); order = d.forceBins.map((b) => bk[b].shift()); }   // the GATE's poison seam, never shipped
     for (let tr = 0; tr < TRIES && !order; tr++) { const o = rng.shuffle(drawn); if (!seqTell(o.map((x) => x.col), d.maxRun, { alternation: true })) order = o; }
     need(order, 'sort-two: no picture order free of the house tells');
-    order = slotTeams(ctx, order, pool);
+    order = slotTeams(ctx, order, pool, loc);
     const cards = order.map((x) => ({ src: fileUri(x.item.theme, x.item.noun), vocabKey: x.item.vocabKey, seg: x.item.seg, snd: x.item.snd, bin: x.col }));
     const cfg = { mode: d.mode, pictures: d.pictures, split: d.split, maxRun: d.maxRun, iconPx: d.iconPx, iconMax: d.iconMax, cardMinH: d.cardMinH, houseBead: d.houseBead, floor: 56 };
     const html = C5.teamHouses({ teams, cards, cfg: d }).html;
@@ -529,7 +530,7 @@ const FACE_BUILD = {
     if (d.forceCols) { const bk = teams.map((_, j) => drawn.filter((x) => x.col === j)); order = d.forceCols.map((c) => bk[c].shift()); }   // the GATE's poison seam, never shipped
     for (let tr = 0; tr < TRIES && !order; tr++) { const o = rng.shuffle(drawn); if (!orderTell(o.map((x) => x.col), teams.length, d.maxRun)) order = o; }
     need(order, 'gap: no row order free of the team tells');
-    order = slotTeams(ctx, order, pool);
+    order = slotTeams(ctx, order, pool, loc);
     const rowCfg = { numW: d.numW, capPx: d.capPx, iconPx: d.iconPx, capGap: d.capGap, wordPx: d.wordPx, bead: { w: beadW, h: d.beadH } };
     const rows = order.map((x, i) => C5.gapWordRow({ n: i + 1, src: fileUri(x.item.theme, x.item.noun), vocabKey: x.item.vocabKey, seg: x.item.seg, snd: x.item.snd,
       gapIdx: x.item.seg.findIndex((g) => fold(g) === fold(x.team)), cfg: rowCfg, first: i === 0 })).join('');
@@ -558,7 +559,7 @@ const FACE_BUILD = {
       if (!matchTell(perm)) rowR = perm;
     }
     need(rowR, 'match: no picture order free of the derangement tells');
-    left = slotTeams(ctx, left, pool);
+    left = slotTeams(ctx, left, pool, loc);
     const right = new Array(left.length);
     rowR.forEach((r, i) => { right[r] = { ...left[i], pair: i + 1 }; });
     const itemStyle = (w) => `width:${w}px;flex:1 1 ${d.itemMinH}px;min-height:${d.itemMinH}px;box-sizing:border-box`;
@@ -613,7 +614,7 @@ const FACE_BUILD = {
       order = o;
     }
     need(order, 'position: no card order free of the socket tells');
-    order = slotTeams(ctx, order, pool);
+    order = slotTeams(ctx, order, pool, loc);
     const cardCfg = { iconPx: d.iconPx, colW: d.colW, teamBead: d.teamBead, socket: d.socket, sockGap: d.sockGap, cue: d.cue, cardMinH: d.cardMinH };
     const cards = order.map((x, i) => C5.socketCard({ i, src: fileUri(x.item.theme, x.item.noun), vocabKey: x.item.vocabKey, seg: x.item.seg, snd: x.item.snd, silent: x.item.silent, team: x.team, cfg: cardCfg })).join('');
     const cfg = { mode: d.mode, cards: d.cards, posSplit: d.posSplit, teamSplit: d.teamSplit, maxRun: d.maxRun, cols: d.cols, iconPx: d.iconPx, socket: d.socket, teamBead: d.teamBead, cue: d.cue };
@@ -1086,7 +1087,7 @@ const TYPE = {
     if (!order && !d.forceCols) throw new Error(`${ID}: no wire order free of the column tells in ${TRIES} draws`);
     if (d.forceCols) { const buckets = teams.map((_, j) => chosen.filter((x) => x.col === j)); order = d.forceCols.map((c) => buckets[c].shift()); }   // the GATE's poison seam (PR5) — never a shipped config
 
-    order = slotTeams(ctx, order, pool);   // a teacher's pictures (maker): another word of the same team
+    order = slotTeams(ctx, order, pool, loc);   // a teacher's pictures (maker): another word of the same team
     const rowMax = d.capPx + SPARSE_MAX - 4;
     const rows = order.map((x, i) => ({ n: i + 1, src: fileUri(x.item.theme, x.item.noun), vocabKey: x.item.vocabKey, seg: x.item.seg, snd: x.item.snd, answerCol: x.col }));
     const ab = C5.soundAbacus({ teams, rows, cfg: { capPx: d.capPx, iconPx: d.iconPx, rowMin: d.rowMin, rowMax, keyH: d.keyH, bead: d.bead, keyBead: d.keyBead } });

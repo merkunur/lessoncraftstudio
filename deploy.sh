@@ -354,6 +354,8 @@ tail -3 /tmp/lcs-curricula.txt
 # names a mistake and gives words to use; no two points share a note; a lesson has two real assets), the guest
 # teacher's script, tier truth (no string says free), the pages' strings. Committed files only; poison: --poison.
 node /opt/lessoncraftstudio/scripts/units/gates.js || { echo "ERROR: a unit or a sub pack fails its gates — node scripts/units/gates.js (PLAN.md Parts 3-5)"; exit 1; }
+# the coverage of the English school year (PLAN.md §13, item 2): a RATCHET — no new gap, and a closed gap leaves the list
+node /opt/lessoncraftstudio/scripts/units/coverage.js --loc=en --gate --poison || { echo "ERROR: the coverage of the English school year moved — node scripts/units/coverage.js --loc=en --gate (a new gap: fix it; a closed gap: take it off scripts/units/coverage-known.en.json)"; exit 1; }
 # HARD (Part 4.8): the weeks a unit's definition and description name are the weeks counted from its lessons' class days
 node /opt/lessoncraftstudio/scripts/units/apply-pacing-to-defs.js --check || { echo "ERROR: a unit definition names weeks that are not the counted ones — node scripts/units/apply-pacing-to-defs.js"; exit 1; }
 # HARD (Part 11.6): every picture of a real plan page that a looks file names is on the server (a looks file committed

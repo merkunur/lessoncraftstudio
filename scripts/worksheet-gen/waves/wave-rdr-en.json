@@ -1,6 +1,6 @@
 {
  "id": "wave-rdr-en",
- "_note": "Readers (Daily Teaching System, Part 8.1): the English pilot, 12 mini-books. Decodable mini-books, picture readers, their versions to color, and the Read and Talk page of every book. Lesson pages: not for search engines.",
+ "_note": "Readers (Daily Teaching System, Part 8): the English series, 63 mini-books (Part 8.1 pilot of 12 on 2026-11-13, Part 8.2 to 63 on 2026-11-20). Decodable mini-books, picture readers, their versions to color, and the Read and Talk page of every book. Lesson pages: not for search engines.",
  "indexable": false,
  "interactive": false,
  "seedEpoch": 1,
@@ -45,6 +45,171 @@
      "copy": 1,
      "unit": "chip-can-sing",
      "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-mat",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "tap-tap",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "sam-sat",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "tim-is-it",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "dip-in",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "sid-did-it",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-hog-and-the-hat",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "hot-hot-hot",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-pig-can-dig",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "gus-and-the-bus",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-pup-in-the-mud",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "lin-and-the-bun",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-hut",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "ten-red-hens",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "ted-in-bed",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "get-set-go",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-big-box",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "fig-jam",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "six-in-a-van",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "viv-the-vet",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "up-the-hill",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "nick-and-the-sock",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-big-mess",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "a-dish-for-dad",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-king-and-the-ring",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "josh-and-the-ship",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "we-went-to-camp",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "pink-drinks",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "a-gift-for-gramps",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "frog-on-a-log",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "jake-can-ride",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "mike-and-the-kite",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "kate-bakes-a-cake",
+     "seedVariant": 1
     }
    ]
   },
@@ -84,6 +249,96 @@
      "copy": 1,
      "unit": "the-big-cloud",
      "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "i-can",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "in-the-sea",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "in-the-snow",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "at-the-park",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "can-it-swim",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "up-in-the-sky",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "in-my-bag",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "here-to-help",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "mix-it-up",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "my-bed",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-band",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "apples",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-rocket",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "dinosaurs",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-caterpillar",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "at-the-beach",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "mom-hen",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-turtle",
+     "seedVariant": 1
     }
    ]
   },
@@ -97,6 +352,36 @@
     {
      "copy": 1,
      "unit": "at-the-farm",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "in-the-sea",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "can-it-swim",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "in-my-bag",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "my-bed",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-band",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "dinosaurs",
      "seedVariant": 1
     }
    ]
@@ -161,6 +446,261 @@
     {
      "copy": 1,
      "unit": "the-big-cloud",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-mat",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "tap-tap",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "sam-sat",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "tim-is-it",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "dip-in",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "sid-did-it",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-hog-and-the-hat",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "hot-hot-hot",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-pig-can-dig",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "gus-and-the-bus",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-pup-in-the-mud",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "lin-and-the-bun",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-hut",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "ten-red-hens",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "ted-in-bed",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "get-set-go",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-big-box",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "fig-jam",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "six-in-a-van",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "viv-the-vet",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "up-the-hill",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "nick-and-the-sock",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-big-mess",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "a-dish-for-dad",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-king-and-the-ring",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "josh-and-the-ship",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "we-went-to-camp",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "pink-drinks",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "a-gift-for-gramps",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "frog-on-a-log",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "jake-can-ride",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "mike-and-the-kite",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "kate-bakes-a-cake",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "i-can",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "in-the-sea",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "in-the-snow",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "at-the-park",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "can-it-swim",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "up-in-the-sky",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "in-my-bag",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "here-to-help",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "mix-it-up",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "my-bed",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-band",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "apples",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-rocket",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "dinosaurs",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-caterpillar",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "at-the-beach",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "mom-hen",
+     "seedVariant": 1
+    },
+    {
+     "copy": 1,
+     "unit": "the-turtle",
      "seedVariant": 1
     }
    ]

@@ -432,6 +432,34 @@
   "parse": "t:t u:uh g:g",
   "stage": 4
  },
+ "cub": {
+  "parse": "c:k u:uh b:b",
+  "stage": 4
+ },
+ "gum": {
+  "parse": "g:g u:uh m:m",
+  "stage": 4
+ },
+ "hum": {
+  "parse": "h:h u:uh m:m",
+  "stage": 4
+ },
+ "dug": {
+  "parse": "d:d u:uh g:g",
+  "stage": 4
+ },
+ "bud": {
+  "parse": "b:b u:uh d:d",
+  "stage": 4
+ },
+ "rag": {
+  "parse": "r:r a:ae g:g",
+  "stage": 4
+ },
+ "lit": {
+  "parse": "l:l i:ih t:t",
+  "stage": 4
+ },
  "bed": {
   "parse": "b:b e:eh d:d",
   "stage": 5
@@ -514,6 +542,10 @@
  },
  "as": {
   "parse": "a:ae s:z",
+  "stage": 5
+ },
+ "den": {
+  "parse": "d:d e:eh n:n",
   "stage": 5
  },
  "jet": {
@@ -610,6 +642,22 @@
  },
  "quiz": {
   "parse": "qu:kw i:ih z:z",
+  "stage": 6
+ },
+ "ox": {
+  "parse": "o:aa x:ks",
+  "stage": 6
+ },
+ "wag": {
+  "parse": "w:w a:ae g:g",
+  "stage": 6
+ },
+ "yum": {
+  "parse": "y:y u:uh m:m",
+  "stage": 6
+ },
+ "yap": {
+  "parse": "y:y a:ae p:p",
   "stage": 6
  },
  "quack": {
@@ -730,6 +778,58 @@
  },
  "jazz": {
   "parse": "j:j a:ae zz:z",
+  "stage": 7
+ },
+ "deck": {
+  "parse": "d:d e:eh ck:k",
+  "stage": 7
+ },
+ "peck": {
+  "parse": "p:p e:eh ck:k",
+  "stage": 7
+ },
+ "sack": {
+  "parse": "s:s a:ae ck:k",
+  "stage": 7
+ },
+ "tuck": {
+  "parse": "t:t u:uh ck:k",
+  "stage": 7
+ },
+ "dock": {
+  "parse": "d:d o:aa ck:k",
+  "stage": 7
+ },
+ "lick": {
+  "parse": "l:l i:ih ck:k",
+  "stage": 7
+ },
+ "hiss": {
+  "parse": "h:h i:ih ss:s",
+  "stage": 7
+ },
+ "pass": {
+  "parse": "p:p a:ae ss:s",
+  "stage": 7
+ },
+ "less": {
+  "parse": "l:l e:eh ss:s",
+  "stage": 7
+ },
+ "fuss": {
+  "parse": "f:f u:uh ss:s",
+  "stage": 7
+ },
+ "yell": {
+  "parse": "y:y e:eh ll:l",
+  "stage": 7
+ },
+ "fill": {
+  "parse": "f:f i:ih ll:l",
+  "stage": 7
+ },
+ "fizz": {
+  "parse": "f:f i:ih zz:z",
   "stage": 7
  },
  "ship": {
@@ -897,6 +997,742 @@
   "parse": "s:s a:ae ng:ng",
   "stage": 8
  },
+ "shell": {
+  "parse": "sh:sh e:eh ll:l",
+  "stage": 8
+ },
+ "mash": {
+  "parse": "m:m a:ae sh:sh",
+  "stage": 8
+ },
+ "dash": {
+  "parse": "d:d a:ae sh:sh",
+  "stage": 8
+ },
+ "hush": {
+  "parse": "h:h u:uh sh:sh",
+  "stage": 8
+ },
+ "chess": {
+  "parse": "ch:ch e:eh ss:s",
+  "stage": 8
+ },
+ "chug": {
+  "parse": "ch:ch u:uh g:g",
+  "stage": 8
+ },
+ "thud": {
+  "parse": "th:th u:uh d:d",
+  "stage": 8
+ },
+ "thing": {
+  "parse": "th:th i:ih ng:ng",
+  "stage": 8
+ },
+ "rang": {
+  "parse": "r:r a:ae ng:ng",
+  "stage": 8
+ },
+ "sung": {
+  "parse": "s:s u:uh ng:ng",
+  "stage": 8
+ },
+ "hung": {
+  "parse": "h:h u:uh ng:ng",
+  "stage": 8
+ },
+ "frog": {
+  "parse": "f:f r:r o:aa g:g",
+  "stage": 9,
+  "blend": true
+ },
+ "jump": {
+  "parse": "j:j u:uh m:m p:p",
+  "stage": 9,
+  "blend": true
+ },
+ "stop": {
+  "parse": "s:s t:t o:aa p:p",
+  "stage": 9,
+  "blend": true
+ },
+ "spot": {
+  "parse": "s:s p:p o:aa t:t",
+  "stage": 9,
+  "blend": true
+ },
+ "clap": {
+  "parse": "c:k l:l a:ae p:p",
+  "stage": 9,
+  "blend": true
+ },
+ "flag": {
+  "parse": "f:f l:l a:ae g:g",
+  "stage": 9,
+  "blend": true
+ },
+ "flat": {
+  "parse": "f:f l:l a:ae t:t",
+  "stage": 9,
+  "blend": true
+ },
+ "plan": {
+  "parse": "p:p l:l a:ae n:n",
+  "stage": 9,
+  "blend": true
+ },
+ "plum": {
+  "parse": "p:p l:l u:uh m:m",
+  "stage": 9,
+  "blend": true
+ },
+ "plus": {
+  "parse": "p:p l:l u:uh s:s",
+  "stage": 9,
+  "blend": true
+ },
+ "drum": {
+  "parse": "d:d r:r u:uh m:m",
+  "stage": 9,
+  "blend": true
+ },
+ "drip": {
+  "parse": "d:d r:r i:ih p:p",
+  "stage": 9,
+  "blend": true
+ },
+ "grab": {
+  "parse": "g:g r:r a:ae b:b",
+  "stage": 9,
+  "blend": true
+ },
+ "grin": {
+  "parse": "g:g r:r i:ih n:n",
+  "stage": 9,
+  "blend": true
+ },
+ "trip": {
+  "parse": "t:t r:r i:ih p:p",
+  "stage": 9,
+  "blend": true
+ },
+ "swim": {
+  "parse": "s:s w:w i:ih m:m",
+  "stage": 9,
+  "blend": true
+ },
+ "swam": {
+  "parse": "s:s w:w a:ae m:m",
+  "stage": 9,
+  "blend": true
+ },
+ "snap": {
+  "parse": "s:s n:n a:ae p:p",
+  "stage": 9,
+  "blend": true
+ },
+ "snug": {
+  "parse": "s:s n:n u:uh g:g",
+  "stage": 9,
+  "blend": true
+ },
+ "sled": {
+  "parse": "s:s l:l e:eh d:d",
+  "stage": 9,
+  "blend": true
+ },
+ "nest": {
+  "parse": "n:n e:eh s:s t:t",
+  "stage": 9,
+  "blend": true
+ },
+ "best": {
+  "parse": "b:b e:eh s:s t:t",
+  "stage": 9,
+  "blend": true
+ },
+ "rest": {
+  "parse": "r:r e:eh s:s t:t",
+  "stage": 9,
+  "blend": true
+ },
+ "test": {
+  "parse": "t:t e:eh s:s t:t",
+  "stage": 9,
+  "blend": true
+ },
+ "vest": {
+  "parse": "v:v e:eh s:s t:t",
+  "stage": 9,
+  "blend": true
+ },
+ "fast": {
+  "parse": "f:f a:ae s:s t:t",
+  "stage": 9,
+  "blend": true
+ },
+ "last": {
+  "parse": "l:l a:ae s:s t:t",
+  "stage": 9,
+  "blend": true
+ },
+ "past": {
+  "parse": "p:p a:ae s:s t:t",
+  "stage": 9,
+  "blend": true
+ },
+ "mask": {
+  "parse": "m:m a:ae s:s k:k",
+  "stage": 9,
+  "blend": true
+ },
+ "desk": {
+  "parse": "d:d e:eh s:s k:k",
+  "stage": 9,
+  "blend": true
+ },
+ "milk": {
+  "parse": "m:m i:ih l:l k:k",
+  "stage": 9,
+  "blend": true
+ },
+ "help": {
+  "parse": "h:h e:eh l:l p:p",
+  "stage": 9,
+  "blend": true
+ },
+ "belt": {
+  "parse": "b:b e:eh l:l t:t",
+  "stage": 9,
+  "blend": true
+ },
+ "melt": {
+  "parse": "m:m e:eh l:l t:t",
+  "stage": 9,
+  "blend": true
+ },
+ "felt": {
+  "parse": "f:f e:eh l:l t:t",
+  "stage": 9,
+  "blend": true
+ },
+ "went": {
+  "parse": "w:w e:eh n:n t:t",
+  "stage": 9,
+  "blend": true
+ },
+ "tent": {
+  "parse": "t:t e:eh n:n t:t",
+  "stage": 9,
+  "blend": true
+ },
+ "sent": {
+  "parse": "s:s e:eh n:n t:t",
+  "stage": 9,
+  "blend": true
+ },
+ "kept": {
+  "parse": "k:k e:eh p:p t:t",
+  "stage": 9,
+  "blend": true
+ },
+ "pond": {
+  "parse": "p:p o:aa n:n d:d",
+  "stage": 9,
+  "blend": true
+ },
+ "hand": {
+  "parse": "h:h a:ae n:n d:d",
+  "stage": 9,
+  "blend": true
+ },
+ "band": {
+  "parse": "b:b a:ae n:n d:d",
+  "stage": 9,
+  "blend": true
+ },
+ "sand": {
+  "parse": "s:s a:ae n:n d:d",
+  "stage": 9,
+  "blend": true
+ },
+ "land": {
+  "parse": "l:l a:ae n:n d:d",
+  "stage": 9,
+  "blend": true
+ },
+ "stand": {
+  "parse": "s:s t:t a:ae n:n d:d",
+  "stage": 9,
+  "blend": true
+ },
+ "end": {
+  "parse": "e:eh n:n d:d",
+  "stage": 9,
+  "blend": true
+ },
+ "bend": {
+  "parse": "b:b e:eh n:n d:d",
+  "stage": 9,
+  "blend": true
+ },
+ "send": {
+  "parse": "s:s e:eh n:n d:d",
+  "stage": 9,
+  "blend": true
+ },
+ "camp": {
+  "parse": "c:k a:ae m:m p:p",
+  "stage": 9,
+  "blend": true
+ },
+ "lamp": {
+  "parse": "l:l a:ae m:m p:p",
+  "stage": 9,
+  "blend": true
+ },
+ "damp": {
+  "parse": "d:d a:ae m:m p:p",
+  "stage": 9,
+  "blend": true
+ },
+ "stamp": {
+  "parse": "s:s t:t a:ae m:m p:p",
+  "stage": 9,
+  "blend": true
+ },
+ "bump": {
+  "parse": "b:b u:uh m:m p:p",
+  "stage": 9,
+  "blend": true
+ },
+ "pump": {
+  "parse": "p:p u:uh m:m p:p",
+  "stage": 9,
+  "blend": true
+ },
+ "gift": {
+  "parse": "g:g i:ih f:f t:t",
+  "stage": 9,
+  "blend": true
+ },
+ "lift": {
+  "parse": "l:l i:ih f:f t:t",
+  "stage": 9,
+  "blend": true
+ },
+ "left": {
+  "parse": "l:l e:eh f:f t:t",
+  "stage": 9,
+  "blend": true
+ },
+ "raft": {
+  "parse": "r:r a:ae f:f t:t",
+  "stage": 9,
+  "blend": true
+ },
+ "crab": {
+  "parse": "c:k r:r a:ae b:b",
+  "stage": 9,
+  "blend": true
+ },
+ "crib": {
+  "parse": "c:k r:r i:ih b:b",
+  "stage": 9,
+  "blend": true
+ },
+ "drop": {
+  "parse": "d:d r:r o:aa p:p",
+  "stage": 9,
+  "blend": true
+ },
+ "flop": {
+  "parse": "f:f l:l o:aa p:p",
+  "stage": 9,
+  "blend": true
+ },
+ "plop": {
+  "parse": "p:p l:l o:aa p:p",
+  "stage": 9,
+  "blend": true
+ },
+ "slip": {
+  "parse": "s:s l:l i:ih p:p",
+  "stage": 9,
+  "blend": true
+ },
+ "slid": {
+  "parse": "s:s l:l i:ih d:d",
+  "stage": 9,
+  "blend": true
+ },
+ "slug": {
+  "parse": "s:s l:l u:uh g:g",
+  "stage": 9,
+  "blend": true
+ },
+ "spin": {
+  "parse": "s:s p:p i:ih n:n",
+  "stage": 9,
+  "blend": true
+ },
+ "skip": {
+  "parse": "s:s k:k i:ih p:p",
+  "stage": 9,
+  "blend": true
+ },
+ "skin": {
+  "parse": "s:s k:k i:ih n:n",
+  "stage": 9,
+  "blend": true
+ },
+ "step": {
+  "parse": "s:s t:t e:eh p:p",
+  "stage": 9,
+  "blend": true
+ },
+ "stem": {
+  "parse": "s:s t:t e:eh m:m",
+  "stage": 9,
+  "blend": true
+ },
+ "sniff": {
+  "parse": "s:s n:n i:ih ff:f",
+  "stage": 9,
+  "blend": true
+ },
+ "smell": {
+  "parse": "s:s m:m e:eh ll:l",
+  "stage": 9,
+  "blend": true
+ },
+ "spell": {
+  "parse": "s:s p:p e:eh ll:l",
+  "stage": 9,
+  "blend": true
+ },
+ "spill": {
+  "parse": "s:s p:p i:ih ll:l",
+  "stage": 9,
+  "blend": true
+ },
+ "still": {
+  "parse": "s:s t:t i:ih ll:l",
+  "stage": 9,
+  "blend": true
+ },
+ "stick": {
+  "parse": "s:s t:t i:ih ck:k",
+  "stage": 9,
+  "blend": true
+ },
+ "stuck": {
+  "parse": "s:s t:t u:uh ck:k",
+  "stage": 9,
+  "blend": true
+ },
+ "truck": {
+  "parse": "t:t r:r u:uh ck:k",
+  "stage": 9,
+  "blend": true
+ },
+ "trick": {
+  "parse": "t:t r:r i:ih ck:k",
+  "stage": 9,
+  "blend": true
+ },
+ "track": {
+  "parse": "t:t r:r a:ae ck:k",
+  "stage": 9,
+  "blend": true
+ },
+ "black": {
+  "parse": "b:b l:l a:ae ck:k",
+  "stage": 9,
+  "blend": true
+ },
+ "block": {
+  "parse": "b:b l:l o:aa ck:k",
+  "stage": 9,
+  "blend": true
+ },
+ "clock": {
+  "parse": "c:k l:l o:aa ck:k",
+  "stage": 9,
+  "blend": true
+ },
+ "click": {
+  "parse": "c:k l:l i:ih ck:k",
+  "stage": 9,
+  "blend": true
+ },
+ "snack": {
+  "parse": "s:s n:n a:ae ck:k",
+  "stage": 9,
+  "blend": true
+ },
+ "stack": {
+  "parse": "s:s t:t a:ae ck:k",
+  "stage": 9,
+  "blend": true
+ },
+ "grill": {
+  "parse": "g:g r:r i:ih ll:l",
+  "stage": 9,
+  "blend": true
+ },
+ "dress": {
+  "parse": "d:d r:r e:eh ss:s",
+  "stage": 9,
+  "blend": true
+ },
+ "grass": {
+  "parse": "g:g r:r a:ae ss:s",
+  "stage": 9,
+  "blend": true
+ },
+ "glass": {
+  "parse": "g:g l:l a:ae ss:s",
+  "stage": 9,
+  "blend": true
+ },
+ "class": {
+  "parse": "c:k l:l a:ae ss:s",
+  "stage": 9,
+  "blend": true
+ },
+ "flash": {
+  "parse": "f:f l:l a:ae sh:sh",
+  "stage": 9,
+  "blend": true
+ },
+ "brush": {
+  "parse": "b:b r:r u:uh sh:sh",
+  "stage": 9,
+  "blend": true
+ },
+ "fresh": {
+  "parse": "f:f r:r e:eh sh:sh",
+  "stage": 9,
+  "blend": true
+ },
+ "chest": {
+  "parse": "ch:ch e:eh s:s t:t",
+  "stage": 9,
+  "blend": true
+ },
+ "lunch": {
+  "parse": "l:l u:uh n:n ch:ch",
+  "stage": 9,
+  "blend": true
+ },
+ "bunch": {
+  "parse": "b:b u:uh n:n ch:ch",
+  "stage": 9,
+  "blend": true
+ },
+ "bench": {
+  "parse": "b:b e:eh n:n ch:ch",
+  "stage": 9,
+  "blend": true
+ },
+ "inch": {
+  "parse": "i:ih n:n ch:ch",
+  "stage": 9,
+  "blend": true
+ },
+ "pink": {
+  "parse": "p:p i:ih nk:ngk",
+  "stage": 9
+ },
+ "sink": {
+  "parse": "s:s i:ih nk:ngk",
+  "stage": 9
+ },
+ "wink": {
+  "parse": "w:w i:ih nk:ngk",
+  "stage": 9
+ },
+ "drink": {
+  "parse": "d:d r:r i:ih nk:ngk",
+  "stage": 9,
+  "blend": true
+ },
+ "blink": {
+  "parse": "b:b l:l i:ih nk:ngk",
+  "stage": 9,
+  "blend": true
+ },
+ "honk": {
+  "parse": "h:h o:aa nk:ngk",
+  "stage": 9
+ },
+ "bank": {
+  "parse": "b:b a:ae nk:ngk",
+  "stage": 9
+ },
+ "tank": {
+  "parse": "t:t a:ae nk:ngk",
+  "stage": 9
+ },
+ "thank": {
+  "parse": "th:th a:ae nk:ngk",
+  "stage": 9
+ },
+ "trunk": {
+  "parse": "t:t r:r u:uh nk:ngk",
+  "stage": 9,
+  "blend": true
+ },
+ "skunk": {
+  "parse": "s:s k:k u:uh nk:ngk",
+  "stage": 9,
+  "blend": true
+ },
+ "think": {
+  "parse": "th:th i:ih nk:ngk",
+  "stage": 9
+ },
+ "wind": {
+  "parse": "w:w i:ih n:n d:d",
+  "stage": 9,
+  "blend": true
+ },
+ "cake": {
+  "parse": "c:k a_e:ey k:k",
+  "stage": 10
+ },
+ "bake": {
+  "parse": "b:b a_e:ey k:k",
+  "stage": 10
+ },
+ "take": {
+  "parse": "t:t a_e:ey k:k",
+  "stage": 10
+ },
+ "make": {
+  "parse": "m:m a_e:ey k:k",
+  "stage": 10
+ },
+ "lake": {
+  "parse": "l:l a_e:ey k:k",
+  "stage": 10
+ },
+ "game": {
+  "parse": "g:g a_e:ey m:m",
+  "stage": 10
+ },
+ "came": {
+  "parse": "c:k a_e:ey m:m",
+  "stage": 10
+ },
+ "made": {
+  "parse": "m:m a_e:ey d:d",
+  "stage": 10
+ },
+ "name": {
+  "parse": "n:n a_e:ey m:m",
+  "stage": 10
+ },
+ "gate": {
+  "parse": "g:g a_e:ey t:t",
+  "stage": 10
+ },
+ "wave": {
+  "parse": "w:w a_e:ey v:v",
+  "stage": 10
+ },
+ "ate": {
+  "parse": "a_e:ey t:t",
+  "stage": 10
+ },
+ "bike": {
+  "parse": "b:b i_e:ay k:k",
+  "stage": 10
+ },
+ "ride": {
+  "parse": "r:r i_e:ay d:d",
+  "stage": 10
+ },
+ "kite": {
+  "parse": "k:k i_e:ay t:t",
+  "stage": 10
+ },
+ "white": {
+  "parse": "wh:w i_e:ay t:t",
+  "stage": 10
+ },
+ "nine": {
+  "parse": "n:n i_e:ay n:n",
+  "stage": 10
+ },
+ "five": {
+  "parse": "f:f i_e:ay v:v",
+  "stage": 10
+ },
+ "time": {
+  "parse": "t:t i_e:ay m:m",
+  "stage": 10
+ },
+ "side": {
+  "parse": "s:s i_e:ay d:d",
+  "stage": 10
+ },
+ "hide": {
+  "parse": "h:h i_e:ay d:d",
+  "stage": 10
+ },
+ "slide": {
+  "parse": "s:s l:l i_e:ay d:d",
+  "stage": 10,
+  "blend": true
+ },
+ "glide": {
+  "parse": "g:g l:l i_e:ay d:d",
+  "stage": 10,
+  "blend": true
+ },
+ "smile": {
+  "parse": "s:s m:m i_e:ay l:l",
+  "stage": 10,
+  "blend": true
+ },
+ "home": {
+  "parse": "h:h o_e:ow m:m",
+  "stage": 10
+ },
+ "rope": {
+  "parse": "r:r o_e:ow p:p",
+  "stage": 10
+ },
+ "hope": {
+  "parse": "h:h o_e:ow p:p",
+  "stage": 10
+ },
+ "bone": {
+  "parse": "b:b o_e:ow n:n",
+  "stage": 10
+ },
+ "nose": {
+  "parse": "n:n o_e:ow s:z",
+  "stage": 10
+ },
+ "note": {
+  "parse": "n:n o_e:ow t:t",
+  "stage": 10
+ },
+ "cute": {
+  "parse": "c:k u_e:yuw t:t",
+  "stage": 10
+ },
+ "cube": {
+  "parse": "c:k u_e:yuw b:b",
+  "stage": 10
+ },
+ "these": {
+  "parse": "th:dh e_e:iy s:z",
+  "stage": 10
+ },
  "sam": {
   "parse": "s:s a:ae m:m",
   "stage": 1,
@@ -971,5 +1807,87 @@
   "parse": "ch:ch a:ae d:d",
   "stage": 8,
   "name": "Chad"
+ },
+ "kim": {
+  "parse": "k:k i:ih m:m",
+  "stage": 3,
+  "name": "Kim"
+ },
+ "gus": {
+  "parse": "g:g u:uh s:s",
+  "stage": 4,
+  "name": "Gus"
+ },
+ "lin": {
+  "parse": "l:l i:ih n:n",
+  "stage": 4,
+  "name": "Lin"
+ },
+ "ted": {
+  "parse": "t:t e:eh d:d",
+  "stage": 5,
+  "name": "Ted"
+ },
+ "max": {
+  "parse": "m:m a:ae x:ks",
+  "stage": 6,
+  "name": "Max"
+ },
+ "liz": {
+  "parse": "l:l i:ih z:z",
+  "stage": 6,
+  "name": "Liz"
+ },
+ "viv": {
+  "parse": "v:v i:ih v:v",
+  "stage": 6,
+  "name": "Viv"
+ },
+ "nick": {
+  "parse": "n:n i:ih ck:k",
+  "stage": 7,
+  "name": "Nick"
+ },
+ "tess": {
+  "parse": "t:t e:eh ss:s",
+  "stage": 7,
+  "name": "Tess"
+ },
+ "bill": {
+  "parse": "b:b i:ih ll:l",
+  "stage": 7,
+  "name": "Bill"
+ },
+ "josh": {
+  "parse": "j:j o:aa sh:sh",
+  "stage": 8,
+  "name": "Josh"
+ },
+ "brad": {
+  "parse": "b:b r:r a:ae d:d",
+  "stage": 9,
+  "blend": true,
+  "name": "Brad"
+ },
+ "gramps": {
+  "parse": "g:g r:r a:ae m:m p:p s:s",
+  "stage": 9,
+  "blend": true,
+  "name": "Gramps"
+ },
+ "jake": {
+  "parse": "j:j a_e:ey k:k",
+  "stage": 10,
+  "name": "Jake"
+ },
+ "kate": {
+  "parse": "k:k a_e:ey t:t",
+  "stage": 10,
+  "name": "Kate"
+ },
+ "mike": {
+  "parse": "m:m i_e:ay k:k",
+  "stage": 10,
+  "name": "Mike"
  }
 }

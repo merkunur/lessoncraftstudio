@@ -141,7 +141,9 @@ function assemble(loc, opt = {}) {
         if (!pg || !pg[RUNG[lv]].length || !title) { bad(lw + ': type ' + typeId + ' has no published ' + (lv === 2 ? 'core page' : 'page at level ' + lv) + ' or no title in this language'); continue; }
         // `avoid`: a page the lesson does not hand out, by its address (a page known to print an error that waits for its
         // fix, e.g. a wrong plural of the picture vocabulary: the next page of the level is taken)
-        const pick = (r) => { const x = pg[r].find((y) => !usedPages.has(y.slug) && !(L.avoid || []).includes(y.slug)); if (x) usedPages.add(x.slug); return x || null; };
+        // `prefer`: the pages the lesson hands out first, in its order (2026-11-20: new readers sorted before the Level A book)
+        const free = (y) => !usedPages.has(y.slug) && !(L.avoid || []).includes(y.slug);
+        const pick = (r) => { const x = (L.prefer || []).map((p) => pg[r].find((y) => y.slug === p && free(y))).find(Boolean) || pg[r].find(free); if (x) usedPages.add(x.slug); return x || null; };
         // `noHard`: the next level of a type can teach ANOTHER step (level 2 of Add and Subtract Tens is subtraction only): a
         // lesson that teaches only the step of its own level names the type there and offers no harder page of it
         const core = pick(RUNG[lv]), easy = lv > 1 && !(L.noEasy || []).includes(typeId) ? pick(RUNG[lv - 1]) : null,   /* `noEasy`: the level below can be ANOTHER kind of task too (Draw and Solve: level 1 some come, level 2 some go) */ hard = lv < 3 && !(L.noHard || []).includes(typeId) ? pick(RUNG[lv + 1]) : null;
@@ -167,7 +169,8 @@ function assemble(loc, opt = {}) {
         const pg = pages.get(xr.type);
         // one more page of the SAME level as the lesson's core page
         // a page the lesson avoids is no exit ticket either (2026-11-16: a Level B little book after a Level A lesson)
-        const x = pg[{ 1: 'easy', 2: 'core', 3: 'hard' }[xr.level || 2]].find((y) => !usedPages.has(y.slug) && !(L.avoid || []).includes(y.slug));
+        const xl = pg[{ 1: 'easy', 2: 'core', 3: 'hard' }[xr.level || 2]], xfree = (y) => !usedPages.has(y.slug) && !(L.avoid || []).includes(y.slug);
+        const x = (L.prefer || []).map((p) => xl.find((y) => y.slug === p && xfree(y))).find(Boolean) || xl.find(xfree);
         if (x) { usedPages.add(x.slug); exit = { slug: x.slug, title: xr.title }; }
       }
       // the tool on the projector: the unit's choice, else the first tool that models this point

@@ -24,7 +24,8 @@
  *   T3  a page of level A has one sentence of at most 6 words; level B at most 8; level C at most two sentences
  * Rules of the word list:
  *   L1  lexicon.en.json is exactly what the word list writes (a parse is never edited by hand in the JSON)
- *   L2  every correspondence of a parse is in the scope; the letters of the parse spell the word
+ *   L2  every correspondence of a parse is in the scope; the letters of the parse spell the word (a split spelling
+ *       such as a_e puts its e after the next letter group: "c:k a_e:ey k:k" spells "cake")
  *   L3  every word has a vowel sound, and a word of sets 1 to 8 has exactly one
  *
  * In a page's text " | " marks where the line breaks on the printed page (at a phrase, never before a last word alone).
@@ -150,12 +151,22 @@ function checkBook(b, lex) {
   } else bad.push('series ' + b.series);
   return bad;
 }
+/** the letters a parse spells: a split spelling x_y (a_e in "cake") puts x where it stands and y after the next letter
+ *  group, so "c:k a_e:ey k:k" spells c-a-k-e (added 2026-11-20 for set 10, silent e) */
+function spellOf(gs) {
+  let out = ''; let tail = '';
+  for (const g of gs) {
+    const sp = g.split(':')[0];
+    if (sp.includes('_')) { const [a, b] = sp.split('_'); out += tail + a; tail = b; } else { out += sp + tail; tail = ''; }
+  }
+  return out + tail;
+}
 function checkLexicon(lex) {
   const bad = [];
   for (const [w, e] of Object.entries(lex)) {
     const gs = e.parse.split(' ');
     for (const g of gs) if (!stageOf.has(g)) bad.push('L2 "' + w + '": ' + g + ' is no correspondence of the scope');
-    if (gs.map((g) => g.split(':')[0]).join('') !== w) bad.push('L2 "' + w + '": the parse spells "' + gs.map((g) => g.split(':')[0]).join('') + '"');
+    if (spellOf(gs) !== w) bad.push('L2 "' + w + '": the parse spells "' + spellOf(gs) + '"');
     const v = gs.filter((g) => isVowel(g.split(':')[1])).length;
     if (v < 1 || (e.stage <= 8 && v !== 1)) bad.push('L3 "' + w + '": ' + v + ' vowel sounds');
   }
@@ -227,11 +238,22 @@ if (require.main === module) {
       ['lexicon: a parse that spells another word', 'L2', () => checkLexicon(Object.assign(clone(lex), { cat: { parse: 'c:k a:ae p:p', stage: 3 } }))],
       ['lexicon: two vowel sounds at set 5', 'L3', () => checkLexicon(Object.assign(clone(lex), { rabid: { parse: 'r:r a:ae b:b i:ih d:d', stage: 5 } }))],
       ['lexicon: a parse without a vowel (get read as ge + t)', 'L3', () => checkLexicon(Object.assign(clone(lex), { get: { parse: 'ge:j t:t', stage: 10 } }))],
+      ['lexicon: a split spelling that spells another word (cake read as c a_e t)', 'L2', () => checkLexicon(Object.assign(clone(lex), { cake: { parse: 'c:k a_e:ey t:t', stage: 10 } }))],
+      ['lexicon: a split spelling with its e counted twice (cake read as c a_e k e)', 'L2', () => checkLexicon(Object.assign(clone(lex), { cake: { parse: 'c:k a_e:ey k:k e:eh', stage: 10 } }))],
+      ['a silent-e word before set 10 (cake at set 9)', 'F1', () => { const b = first(); b.stage = 9; b.pages[0] = 'Kit sat on a cake. | It was big.'; return checkBook(b, lex); }],
     ];
     let caught = 0;
     for (const [name, rule, run] of P) { const got = run(); if (got.some((m) => m.includes(rule))) caught++; else fail('POISON not caught: ' + name + ' (wanted ' + rule + '; got ' + (got.join(' | ') || 'nothing') + ')'); }
+    // the other direction: a CORRECT split spelling must pass (a gate that refused every a_e word would also catch the poisons above)
+    const OK = [
+      ['lexicon: a split spelling that spells its word (cake = c a_e k)', () => checkLexicon({ cake: { parse: 'c:k a_e:ey k:k', stage: 10 } })],
+      ['lexicon: a split spelling at the start of a word (ate = a_e t)', () => checkLexicon({ ate: { parse: 'a_e:ey t:t', stage: 10 } })],
+      ['lexicon: a split spelling after a digraph (white = wh i_e t)', () => checkLexicon({ white: { parse: 'wh:w i_e:ay t:t', stage: 10 } })],
+      ['a silent-e word in a book of set 10 (cake)', () => [refuseFirst('cake', 10, lex)].filter(Boolean)],
+    ];
+    for (const [name, run] of OK) { const got = run(); if (got.length) fail('POISON (must pass) refused: ' + name + ' (' + got.join(' | ') + ')'); else caught++; }
     if (defaultParse('get') !== 'g:g e:eh t:t') fail('POISON: the default parser reads "get" as ' + defaultParse('get'));
-    console.log(caught + ' of ' + P.length + ' poisons caught');
+    console.log(caught + ' of ' + (P.length + OK.length) + ' poisons caught (' + OK.length + ' of them must pass)');
   }
   console.log(fails ? fails + ' problem(s)' : 'readers: ' + Object.keys(lex).length + ' words, ' + books.length + ' books (' + books.filter((b) => b.series === 'first').length + ' decodable, ' + books.filter((b) => b.series === 'theme').length + ' picture readers); all gates pass');
   process.exit(fails ? 1 : 0);

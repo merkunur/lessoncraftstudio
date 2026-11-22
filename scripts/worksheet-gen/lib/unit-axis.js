@@ -89,7 +89,9 @@ function resolveUnitTokens(strings, spec, unit, locale) {
   const u = unit || spec.unitAxis.exemplar(locale, spec);
   const tok = unitTokens(spec, u, locale);
   const out = Object.assign({}, strings);
-  for (const k of fields) out[k] = strings[k].replace(TOKEN_RE, (m, t) => (t in tok ? String(tok[t]) : m));
+  // a unit whose name ends in "!" or "?" (a book: "Sid Did It!") before a colon reads "Sid Did It! Read and Talk", not
+  // "Sid Did It!: …" (2026-11-20; no published title held "!:" or "?:", so no live page changes)
+  for (const k of fields) out[k] = strings[k].replace(TOKEN_RE, (m, t) => (t in tok ? String(tok[t]) : m)).replace(/([!?]):(?=\s)/g, '$1');
   return out;
 }
 

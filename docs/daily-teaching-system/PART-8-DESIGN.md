@@ -29,6 +29,8 @@ series has no unit, and the type refuses to build in it: every language gets its
 | The books | `scripts/readers/books.en.js` |
 | The gate, with its poison tests | `scripts/readers/gate.js` (`--write`, `--poison`, `--list`) |
 | The book engine | `scripts/worksheet-gen/types/_shared/reader-book.js` |
+| The screen version (kind `page-turn`) | `scripts/worksheet-gen/emit/interactive-page-turn.js`; screen strings in reader-book.js `SCREEN_UI` |
+| The screen gate, with its poison tests | `scripts/readers/gate-screen.js` (`--dir=<unpacked decks>`, `--poison`) |
 
 ## 3. The gate (a book that fails does not build)
 
@@ -54,5 +56,28 @@ come with the 60. One early-reading reviewer reads every book of a batch with th
 
 - The fold was not printed and folded by hand in this session: it is the layout of a page that is live (K-516), and
   the page check asserts the order of the four panels. A printed copy should be folded once before the 60.
-- A screen version (page turns, so class results can record "read") is not built yet.
+- ~~A screen version is not built yet.~~ **Built 2026-11-22** (section 6).
 - Stages 7 and 8 are in the scope; no book of the pilot uses them, and the word list ends at stage 6.
+
+## 6. The screen version (2026-11-22)
+
+The decodable books (K-628) and the picture readers (K-629) read on screen; the version to colour (K-630) and Read and
+Talk (K-631) stay paper only. The wave `wave-rdr-en.json` is `interactive: true`, so every build carries it.
+
+- **What the child sees:** the book one page at a time, upright and large, drawn from data (the texts as printed, the
+  library pictures inline), never from the folded sheet. Back / Next, the arrow keys, a swipe. "The end" after the
+  last page opens the celebration: a drawn book (no stars), "You read the whole book!", "Read it again" (the child's
+  button) and "Print this book" (the adult's); a decodable book adds "Now tell someone what happened in the book."
+  (the screen's stand-in for "draw what it says"). No Check, no answer key, no score, no sound.
+- **Lines:** where the book breaks them; a page of ONE sentence goes on one line when the window is wide enough at
+  nearly full size (Level A on a laptop), the paper's breaks on a phone. The type is measured to fit.
+- **Page numbers** 1 (cover) to 4, as the paper book and the Read and Talk sheet number them.
+- **Part 9:** the class reporter records the celebration as "finished" (a celebration with no Check behind it); no
+  reporter change. The play meter applies as on every screen page.
+- **Not counted in the online hubs, by decision:** the site's catalogue rule keeps `readers` print-only, because a
+  reader is a book, not an exercise, and counting the books would change the online hubs' meta descriptions
+  ("N free interactive exercises"). The teaching graph excuses exactly this (`PLAYS_BUT_NOT_COUNTED` in
+  build-assets.js). Unit lessons read the page itself: a reading lesson offers its own book on screen
+  (ui `slotScreenBook`: "the book, to read on screen page by page").
+- **Recipe for a new batch of books:** build the wave → unpack the ZIPs → `node scripts/readers/gate-screen.js
+  --dir=<folder>` (every book plays at six widths; `--poison` catches eight breaks) → publish → after-publish.sh.

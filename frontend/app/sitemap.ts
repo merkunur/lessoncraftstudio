@@ -22,6 +22,7 @@ import { listedSubPacks, subPackSiblings } from '@/lib/sub-plans';
 import { listedCurriculumPages } from '@/lib/curriculum-pages';
 import { getSchoolsUi } from '@/lib/schools';
 import { getAssessmentUi, listedChecks } from '@/lib/assessments';
+import { READER_HUB_LOCALES, getReaderHubs, readerHubPaths } from '@/lib/readers';
 
 // ISR revalidation: sitemap revalidates every 30 minutes
 export const revalidate = 1800;
@@ -437,6 +438,23 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
       for (const locale of liveAssessmentHubs) routes.push({ url: `${baseUrl}/${locale}/assessments`, lastModified: STATIC_CONTENT_DATE, changeFrequency: 'weekly', priority: 0.6, ...(assessmentAlternates ? { alternates: { languages: assessmentAlternates } } : {}) });
     } catch (err) {
       console.warn('[sitemap] assessments URLs failed; skipping:', (err as Error).message);
+    }
+
+    // The reader hubs (Daily Teaching System, Part 8.2): /<locale>/readers and every set or level that has a page of
+    // its own (content/readers/hubs.<loc>.json through lib/readers.ts, the file the routes render from). The single
+    // books are noindex deck pages and stand in no sitemap. hreflang as on the pages: the languages that have hubs,
+    // x-default only with English.
+    try {
+      const readerHubs: { locale: string; paths: string[] }[] = [];
+      for (const locale of READER_HUB_LOCALES) { const hubs = await getReaderHubs(locale); if (hubs) readerHubs.push({ locale, paths: readerHubPaths(hubs) }); }
+      for (const { locale, paths } of readerHubs) {
+        for (const p of paths) {
+          const languages = buildHreflangAlternates(readerHubs.filter((h) => h.paths.includes(p)).map((h) => h.locale), (l) => `${baseUrl}/${l}/${p}`, baseUrl);
+          routes.push({ url: `${baseUrl}/${locale}/${p}`, lastModified: STATIC_CONTENT_DATE, changeFrequency: 'weekly', priority: p === 'readers' ? 0.7 : 0.6, alternates: { languages } });
+        }
+      }
+    } catch (err) {
+      console.warn('[sitemap] reader hub URLs failed; skipping:', (err as Error).message);
     }
 
     // Single-axis topic destination pages (preserved from prior shard 0

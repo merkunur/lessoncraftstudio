@@ -463,6 +463,9 @@ echo "🔎 Dropped font-shorthand check..."
 node /opt/lessoncraftstudio/scripts/audit-font-shorthand.js || { echo "ERROR: a \`font:\` shorthand with an unquoted family is dropped whole — write it longhand, family QUOTED"; exit 1; }
 # The readers (Daily Teaching System, Part 8): no book with a word its set has not taught, and the word list is what its recorded parses say
 node /opt/lessoncraftstudio/scripts/readers/gate.js --poison || { echo "ERROR: a reader holds a word its set has not taught, or the word list and its parses disagree — see scripts/readers/gate.js"; exit 1; }
+# The readers hubs (/en/readers, Part 8.2): every live book on its set or level page, no hub lists a deck that is not
+# live, a page exactly when a group has 3 or more books, unique titles and descriptions (scripts/readers/gate-hubs.js)
+node /opt/lessoncraftstudio/scripts/readers/gate-hubs.js --decks-root=/var/www/lcs-media/decks --poison || { echo "ERROR: the readers hubs disagree with the live reader decks — node scripts/readers/build-hubs.js <live list>, see scripts/readers/gate-hubs.js"; exit 1; }
 
 # Guard: image-library WebP mirrors must be uniform per directory. A HALF-mirrored
 # directory lets a worksheet bake its palette art from a variant and crop its reveal

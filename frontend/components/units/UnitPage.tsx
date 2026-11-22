@@ -22,6 +22,11 @@ import SaveToCollectionsButton from '@/components/units/SaveToCollectionsButton'
 import { TeacherFileClicks } from '@/components/tracking/PathEvents';
 import TeacherGate from '@/components/teacher-gate/TeacherGate';
 import { getTeacherGate } from '@/lib/teacher-gate';
+import { getReaderUi, readerHubHrefForPage } from '@/lib/readers';
+
+/** the page types of a reader (Part 8): a lesson that hands one out links to the reader hubs */
+const READER_TYPES = ['K-628', 'K-629', 'K-630', 'K-631'];
+type ReaderLink = { slot: string; text: string; href: string };
 
 const LEVEL_KEY: Record<string, string> = { P: 'preschool', K: 'kindergarten', '1': 'grade_1', '2': 'grade_2', '3': 'grade_3', '4': 'grade_4', '5': 'grade_5' };
 
@@ -83,7 +88,7 @@ function LessonDays({ lesson, ui }: { lesson: UnitLesson; ui: UnitUi }) {
   );
 }
 
-function Lesson({ lesson, locale, ui, codeLinks }: { lesson: UnitLesson; locale: string; ui: UnitUi; codeLinks: Record<string, string> }) {
+function Lesson({ lesson, locale, ui, codeLinks, readers }: { lesson: UnitLesson; locale: string; ui: UnitUi; codeLinks: Record<string, string>; readers?: ReaderLink }) {
   return (
     <section className="un-lesson" id={`lesson-${lesson.n}`} aria-labelledby={`lesson-${lesson.n}-title`}>
       <header className="un-lesson-head">
@@ -153,6 +158,13 @@ function Lesson({ lesson, locale, ui, codeLinks }: { lesson: UnitLesson; locale:
           </div>
         ) : null}
 
+        {readers ? (
+          <div className="un-slot">
+            <h4 className="un-slot-name">{readers.slot}</h4>
+            <p className="un-slot-text"><a href={readers.href}>{readers.text}</a></p>
+          </div>
+        ) : null}
+
         {lesson.maker ? (
           <div className="un-slot">
             <h4 className="un-slot-name">{ui.slotMaker}</h4>
@@ -175,6 +187,18 @@ function Lesson({ lesson, locale, ui, codeLinks }: { lesson: UnitLesson; locale:
 
 export default async function UnitPage({ locale, unit, ui, plan }: { locale: string; unit: Unit; ui: UnitUi; plan: UnitPlan | null }) {
   const codeLinks = await curriculumCodeLinks(locale);
+  // a lesson that hands out a reader links to the books of the same set or level (the reader hubs, Part 8.2)
+  const readerUi = await getReaderUi(locale);
+  const readerLinks: Record<number, ReaderLink> = {};
+  if (readerUi) {
+    for (const l of unit.lessons) {
+      const page = l.paper.find((p) => READER_TYPES.includes(p.type));
+      const at = page ? await readerHubHrefForPage(locale, page.core) : null;
+      if (!at) continue;
+      const text = at.set ? readerUi.unitSlotSet.replace('{n}', String(at.set)) : at.level ? readerUi.unitSlotLevel.replace('{level}', at.level) : readerUi.unitSlotIndex;
+      readerLinks[l.n] = { slot: readerUi.unitSlot, text, href: at.href };
+    }
+  }
   // the unit check of this unit (Part 7), when one is live in the language
   const [check, checkUi] = await Promise.all([getUnitCheck(locale, unit.id), getAssessmentUi(locale)]);
   const [tLevel, tTier] = await Promise.all([
@@ -291,7 +315,7 @@ export default async function UnitPage({ locale, unit, ui, plan }: { locale: str
         </div>
 
         <h2 className="un-lessons-title">{ui.lessonsTitle}</h2>
-        {unit.lessons.map((l) => <Lesson key={l.n} lesson={l} locale={locale} ui={ui} codeLinks={codeLinks} />)}
+        {unit.lessons.map((l) => <Lesson key={l.n} lesson={l} locale={locale} ui={ui} codeLinks={codeLinks} readers={readerLinks[l.n]} />)}
 
         {check && checkUi ? <UnitCheckSection locale={locale} check={check} ui={checkUi} planName={planName} /> : null}
 

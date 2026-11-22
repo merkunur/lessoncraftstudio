@@ -1,0 +1,2020 @@
+{
+ "locale": "en",
+ "minBooks": 3,
+ "index": {
+  "metaTitle": "Free Printable Decodable Readers for Kindergarten and 1st Grade",
+  "metaDescription": "Decodable readers by phonics set and picture readers about Levels A to C, as little books that fold from one sheet of paper. Each book has a Read and Talk page."
+ },
+ "sets": [
+  {
+   "n": 1,
+   "slug": "set-1",
+   "hasPage": true,
+   "skill": "Short a",
+   "sounds": [
+    {
+     "spelling": "m"
+    },
+    {
+     "spelling": "s"
+    },
+    {
+     "spelling": "a"
+    },
+    {
+     "spelling": "t"
+    },
+    {
+     "spelling": "p"
+    }
+   ],
+   "heart": [
+    "I",
+    "a",
+    "the"
+   ],
+   "blends": false,
+   "before": [],
+   "metaTitle": "Decodable Readers Set 1: Short a | Printable Mini-Books",
+   "metaDescription": "Decodable readers to print for phonics Set 1: short a with m, s, t, and p. Heart words \"I\", \"a\", and \"the\". Little books that fold from one sheet of paper.",
+   "books": [
+    {
+     "id": "the-mat",
+     "title": "The Mat",
+     "line": "New in this book: m, s, a, t, p and the heart words \"I\" and \"a\".",
+     "pages": {
+      "book": "readers-k628-themat",
+      "color": null,
+      "talk": "readers-k631-themat"
+     }
+    },
+    {
+     "id": "tap-tap",
+     "title": "Tap, Tap",
+     "line": "New in this book: m, s, a, t, p and the heart word \"I\".",
+     "pages": {
+      "book": "readers-k628-taptap",
+      "color": null,
+      "talk": "readers-k631-taptap"
+     }
+    },
+    {
+     "id": "sam-sat",
+     "title": "Sam Sat",
+     "line": "New in this book: m, s, a, t, p and the heart word \"I\".",
+     "pages": {
+      "book": "readers-k628-samsat",
+      "color": null,
+      "talk": "readers-k631-samsat"
+     }
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "slug": "set-2",
+   "hasPage": true,
+   "skill": "Short i",
+   "sounds": [
+    {
+     "spelling": "i"
+    },
+    {
+     "spelling": "n"
+    },
+    {
+     "spelling": "f"
+    },
+    {
+     "spelling": "d"
+    }
+   ],
+   "heart": [
+    "is",
+    "to"
+   ],
+   "blends": false,
+   "before": [
+    {
+     "n": 1,
+     "sounds": [
+      {
+       "spelling": "m"
+      },
+      {
+       "spelling": "s"
+      },
+      {
+       "spelling": "a"
+      },
+      {
+       "spelling": "t"
+      },
+      {
+       "spelling": "p"
+      }
+     ]
+    }
+   ],
+   "metaTitle": "Decodable Readers Set 2: Short i | Printable Mini-Books",
+   "metaDescription": "Decodable readers to print for phonics Set 2: short i with n, f, and d. Heart words \"is\" and \"to\". Little books that fold from one sheet of paper.",
+   "books": [
+    {
+     "id": "dad-and-sam",
+     "title": "Dad and Sam",
+     "line": "New in this book: i, n, d and the heart word \"is\".",
+     "pages": {
+      "book": "readers-k628-dadandsam",
+      "color": null,
+      "talk": "readers-k631-dadandsam"
+     }
+    },
+    {
+     "id": "tim-is-it",
+     "title": "Tim Is It!",
+     "line": "New in this book: i, n, d and the heart word \"is\".",
+     "pages": {
+      "book": "readers-k628-timisit",
+      "color": null,
+      "talk": "readers-k631-timisit"
+     }
+    },
+    {
+     "id": "dip-in",
+     "title": "Dip In!",
+     "line": "New in this book: i, n, d and the heart word \"is\".",
+     "pages": {
+      "book": "readers-k628-dipin",
+      "color": null,
+      "talk": "readers-k631-dipin"
+     }
+    },
+    {
+     "id": "sid-did-it",
+     "title": "Sid Did It!",
+     "line": "New in this book: i, n, d and the heart word \"is\".",
+     "pages": {
+      "book": "readers-k628-siddidit",
+      "color": null,
+      "talk": "readers-k631-siddidit"
+     }
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "slug": "set-3",
+   "hasPage": true,
+   "skill": "Short o",
+   "sounds": [
+    {
+     "spelling": "o"
+    },
+    {
+     "spelling": "c"
+    },
+    {
+     "spelling": "k"
+    },
+    {
+     "spelling": "g"
+    },
+    {
+     "spelling": "h"
+    }
+   ],
+   "heart": [
+    "has",
+    "his"
+   ],
+   "blends": false,
+   "before": [
+    {
+     "n": 1,
+     "sounds": [
+      {
+       "spelling": "m"
+      },
+      {
+       "spelling": "s"
+      },
+      {
+       "spelling": "a"
+      },
+      {
+       "spelling": "t"
+      },
+      {
+       "spelling": "p"
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "sounds": [
+      {
+       "spelling": "i"
+      },
+      {
+       "spelling": "n"
+      },
+      {
+       "spelling": "f"
+      },
+      {
+       "spelling": "d"
+      }
+     ]
+    }
+   ],
+   "metaTitle": "Decodable Readers Set 3: Short o | Printable Mini-Books",
+   "metaDescription": "Decodable readers to print for phonics Set 3: short o with c, k, g, and h. Heart words \"has\" and \"his\". Little books that fold from one sheet of paper.",
+   "books": [
+    {
+     "id": "kit-and-the-dog",
+     "title": "Kit and the Dog",
+     "line": "New in this book: o, c, k, g, h.",
+     "pages": {
+      "book": "readers-k628-kitandthedog",
+      "color": null,
+      "talk": "readers-k631-kitandthedog"
+     }
+    },
+    {
+     "id": "the-hog-and-the-hat",
+     "title": "The Hog and the Hat",
+     "line": "New in this book: o, g, h and the heart words \"has\" and \"his\".",
+     "pages": {
+      "book": "readers-k628-thehogandthehat",
+      "color": null,
+      "talk": "readers-k631-thehogandthehat"
+     }
+    },
+    {
+     "id": "hot-hot-hot",
+     "title": "Hot, Hot, Hot!",
+     "line": "New in this book: o, k, g, h.",
+     "pages": {
+      "book": "readers-k628-hothothot",
+      "color": null,
+      "talk": "readers-k631-hothothot"
+     }
+    },
+    {
+     "id": "the-pig-can-dig",
+     "title": "The Pig Can Dig",
+     "line": "New in this book: o, c, g, h and the heart word \"has\".",
+     "pages": {
+      "book": "readers-k628-thepigcandig",
+      "color": null,
+      "talk": "readers-k631-thepigcandig"
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "slug": "set-4",
+   "hasPage": true,
+   "skill": "Short u",
+   "sounds": [
+    {
+     "spelling": "b"
+    },
+    {
+     "spelling": "u"
+    },
+    {
+     "spelling": "r"
+    },
+    {
+     "spelling": "l"
+    }
+   ],
+   "heart": [
+    "no",
+    "go",
+    "do"
+   ],
+   "blends": false,
+   "before": [
+    {
+     "n": 1,
+     "sounds": [
+      {
+       "spelling": "m"
+      },
+      {
+       "spelling": "s"
+      },
+      {
+       "spelling": "a"
+      },
+      {
+       "spelling": "t"
+      },
+      {
+       "spelling": "p"
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "sounds": [
+      {
+       "spelling": "i"
+      },
+      {
+       "spelling": "n"
+      },
+      {
+       "spelling": "f"
+      },
+      {
+       "spelling": "d"
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "sounds": [
+      {
+       "spelling": "o"
+      },
+      {
+       "spelling": "c"
+      },
+      {
+       "spelling": "k"
+      },
+      {
+       "spelling": "g"
+      },
+      {
+       "spelling": "h"
+      }
+     ]
+    }
+   ],
+   "metaTitle": "Decodable Readers Set 4: Short u | Printable Mini-Books",
+   "metaDescription": "Decodable readers to print for phonics Set 4: short u with b, r, and l. Heart words \"no\", \"go\", and \"do\". Little books that fold from one sheet of paper.",
+   "books": [
+    {
+     "id": "gus-and-the-bus",
+     "title": "Gus and the Bus",
+     "line": "New in this book: b, u, r and the heart word \"go\".",
+     "pages": {
+      "book": "readers-k628-gusandthebus",
+      "color": null,
+      "talk": "readers-k631-gusandthebus"
+     }
+    },
+    {
+     "id": "the-pup-in-the-mud",
+     "title": "The Pup in the Mud",
+     "line": "New in this book: u, b, r and the heart word \"no\".",
+     "pages": {
+      "book": "readers-k628-thepupinthemud",
+      "color": null,
+      "talk": "readers-k631-thepupinthemud"
+     }
+    },
+    {
+     "id": "lin-and-the-bun",
+     "title": "Lin and the Bun",
+     "line": "New in this book: b, u, r, l and the heart word \"no\".",
+     "pages": {
+      "book": "readers-k628-linandthebun",
+      "color": null,
+      "talk": "readers-k631-linandthebun"
+     }
+    },
+    {
+     "id": "the-hut",
+     "title": "The Hut",
+     "line": "New in this book: b, u, r, l.",
+     "pages": {
+      "book": "readers-k628-thehut",
+      "color": null,
+      "talk": "readers-k631-thehut"
+     }
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "slug": "set-5",
+   "hasPage": true,
+   "skill": "Short e",
+   "sounds": [
+    {
+     "spelling": "e"
+    },
+    {
+     "spelling": "s",
+     "example": "is"
+    }
+   ],
+   "heart": [
+    "of",
+    "was",
+    "you"
+   ],
+   "blends": false,
+   "before": [
+    {
+     "n": 1,
+     "sounds": [
+      {
+       "spelling": "m"
+      },
+      {
+       "spelling": "s"
+      },
+      {
+       "spelling": "a"
+      },
+      {
+       "spelling": "t"
+      },
+      {
+       "spelling": "p"
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "sounds": [
+      {
+       "spelling": "i"
+      },
+      {
+       "spelling": "n"
+      },
+      {
+       "spelling": "f"
+      },
+      {
+       "spelling": "d"
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "sounds": [
+      {
+       "spelling": "o"
+      },
+      {
+       "spelling": "c"
+      },
+      {
+       "spelling": "k"
+      },
+      {
+       "spelling": "g"
+      },
+      {
+       "spelling": "h"
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "sounds": [
+      {
+       "spelling": "b"
+      },
+      {
+       "spelling": "u"
+      },
+      {
+       "spelling": "r"
+      },
+      {
+       "spelling": "l"
+      }
+     ]
+    }
+   ],
+   "metaTitle": "Decodable Readers Set 5: Short e | Printable Mini-Books",
+   "metaDescription": "Decodable readers to print for phonics Set 5: short e, and s that says /z/. Heart words \"of\", \"was\", and \"you\". Little books that fold from one sheet of paper.",
+   "books": [
+    {
+     "id": "the-red-bug",
+     "title": "The Red Bug",
+     "line": "New in this book: e, and s that says /z/ in \"his\".",
+     "pages": {
+      "book": "readers-k628-theredbug",
+      "color": null,
+      "talk": "readers-k631-theredbug"
+     }
+    },
+    {
+     "id": "ten-red-hens",
+     "title": "Ten Red Hens",
+     "line": "New in this book: e, and s that says /z/ in \"has\" and \"hens\".",
+     "pages": {
+      "book": "readers-k628-tenredhens",
+      "color": null,
+      "talk": "readers-k631-tenredhens"
+     }
+    },
+    {
+     "id": "ted-in-bed",
+     "title": "Ted in Bed",
+     "line": "New in this book: e, and s that says /z/ in \"has\" and \"his\".",
+     "pages": {
+      "book": "readers-k628-tedinbed",
+      "color": null,
+      "talk": "readers-k631-tedinbed"
+     }
+    },
+    {
+     "id": "get-set-go",
+     "title": "Get Set, Go!",
+     "line": "New in this book: e and the heart word \"was\".",
+     "pages": {
+      "book": "readers-k628-getsetgo",
+      "color": null,
+      "talk": "readers-k631-getsetgo"
+     }
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "slug": "set-6",
+   "hasPage": true,
+   "skill": "More Consonants",
+   "sounds": [
+    {
+     "spelling": "j"
+    },
+    {
+     "spelling": "w"
+    },
+    {
+     "spelling": "v"
+    },
+    {
+     "spelling": "y"
+    },
+    {
+     "spelling": "x"
+    },
+    {
+     "spelling": "z"
+    },
+    {
+     "spelling": "qu"
+    }
+   ],
+   "heart": [
+    "my",
+    "he",
+    "she",
+    "we",
+    "me",
+    "be",
+    "have"
+   ],
+   "blends": false,
+   "before": [
+    {
+     "n": 1,
+     "sounds": [
+      {
+       "spelling": "m"
+      },
+      {
+       "spelling": "s"
+      },
+      {
+       "spelling": "a"
+      },
+      {
+       "spelling": "t"
+      },
+      {
+       "spelling": "p"
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "sounds": [
+      {
+       "spelling": "i"
+      },
+      {
+       "spelling": "n"
+      },
+      {
+       "spelling": "f"
+      },
+      {
+       "spelling": "d"
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "sounds": [
+      {
+       "spelling": "o"
+      },
+      {
+       "spelling": "c"
+      },
+      {
+       "spelling": "k"
+      },
+      {
+       "spelling": "g"
+      },
+      {
+       "spelling": "h"
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "sounds": [
+      {
+       "spelling": "b"
+      },
+      {
+       "spelling": "u"
+      },
+      {
+       "spelling": "r"
+      },
+      {
+       "spelling": "l"
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "sounds": [
+      {
+       "spelling": "e"
+      },
+      {
+       "spelling": "s",
+       "example": "is"
+      }
+     ]
+    }
+   ],
+   "metaTitle": "Decodable Readers Set 6: More Consonants | Mini-Books",
+   "metaDescription": "Decodable readers to print for phonics Set 6: the consonants j, w, v, y, x, z, and qu. Seven new heart words. Little books that fold from one sheet of paper.",
+   "books": [
+    {
+     "id": "the-big-box",
+     "title": "The Big Box",
+     "line": "New in this book: x, z and the heart word \"he\".",
+     "pages": {
+      "book": "readers-k628-thebigbox",
+      "color": null,
+      "talk": "readers-k631-thebigbox"
+     }
+    },
+    {
+     "id": "fig-jam",
+     "title": "Fig Jam",
+     "line": "New in this book: x, j, y, z and the heart word \"have\".",
+     "pages": {
+      "book": "readers-k628-figjam",
+      "color": null,
+      "talk": "readers-k631-figjam"
+     }
+    },
+    {
+     "id": "six-in-a-van",
+     "title": "Six in a Van",
+     "line": "New in this book: v, x, z and the heart words \"we\" and \"have\".",
+     "pages": {
+      "book": "readers-k628-sixinavan",
+      "color": null,
+      "talk": "readers-k631-sixinavan"
+     }
+    },
+    {
+     "id": "viv-the-vet",
+     "title": "Viv the Vet",
+     "line": "New in this book: v, j, x and the heart word \"she\".",
+     "pages": {
+      "book": "readers-k628-vivthevet",
+      "color": null,
+      "talk": "readers-k631-vivthevet"
+     }
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "slug": "set-7",
+   "hasPage": true,
+   "skill": "ck and Double Letters",
+   "sounds": [
+    {
+     "spelling": "ck"
+    },
+    {
+     "spelling": "ff"
+    },
+    {
+     "spelling": "ll"
+    },
+    {
+     "spelling": "ss"
+    },
+    {
+     "spelling": "zz"
+    }
+   ],
+   "heart": [
+    "said",
+    "for",
+    "are"
+   ],
+   "blends": false,
+   "before": [
+    {
+     "n": 1,
+     "sounds": [
+      {
+       "spelling": "m"
+      },
+      {
+       "spelling": "s"
+      },
+      {
+       "spelling": "a"
+      },
+      {
+       "spelling": "t"
+      },
+      {
+       "spelling": "p"
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "sounds": [
+      {
+       "spelling": "i"
+      },
+      {
+       "spelling": "n"
+      },
+      {
+       "spelling": "f"
+      },
+      {
+       "spelling": "d"
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "sounds": [
+      {
+       "spelling": "o"
+      },
+      {
+       "spelling": "c"
+      },
+      {
+       "spelling": "k"
+      },
+      {
+       "spelling": "g"
+      },
+      {
+       "spelling": "h"
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "sounds": [
+      {
+       "spelling": "b"
+      },
+      {
+       "spelling": "u"
+      },
+      {
+       "spelling": "r"
+      },
+      {
+       "spelling": "l"
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "sounds": [
+      {
+       "spelling": "e"
+      },
+      {
+       "spelling": "s",
+       "example": "is"
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "sounds": [
+      {
+       "spelling": "j"
+      },
+      {
+       "spelling": "w"
+      },
+      {
+       "spelling": "v"
+      },
+      {
+       "spelling": "y"
+      },
+      {
+       "spelling": "x"
+      },
+      {
+       "spelling": "z"
+      },
+      {
+       "spelling": "qu"
+      }
+     ]
+    }
+   ],
+   "metaTitle": "Decodable Readers Set 7: ck and Double Letters | Mini-Books",
+   "metaDescription": "Decodable readers to print for phonics Set 7: ck and the double letters ff, ll, ss, and zz (the FLOSS rule). Three new heart words. Mini-books for K–1.",
+   "books": [
+    {
+     "id": "fox-on-a-box",
+     "title": "Fox on a Box",
+     "line": "New in this book: ck, ll, ff and the heart word \"said\".",
+     "pages": {
+      "book": "readers-k628-foxonabox",
+      "color": null,
+      "talk": "readers-k631-foxonabox"
+     }
+    },
+    {
+     "id": "up-the-hill",
+     "title": "Up the Hill",
+     "line": "New in this book: ll, ff and ck.",
+     "pages": {
+      "book": "readers-k628-upthehill",
+      "color": null,
+      "talk": "readers-k631-upthehill"
+     }
+    },
+    {
+     "id": "nick-and-the-sock",
+     "title": "Nick and the Sock",
+     "line": "New in this book: ck.",
+     "pages": {
+      "book": "readers-k628-nickandthesock",
+      "color": null,
+      "talk": "readers-k631-nickandthesock"
+     }
+    },
+    {
+     "id": "the-big-mess",
+     "title": "The Big Mess",
+     "line": "New in this book: ss, ll and ck.",
+     "pages": {
+      "book": "readers-k628-thebigmess",
+      "color": null,
+      "talk": "readers-k631-thebigmess"
+     }
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "slug": "set-8",
+   "hasPage": true,
+   "skill": "Digraphs",
+   "sounds": [
+    {
+     "spelling": "sh"
+    },
+    {
+     "spelling": "ch"
+    },
+    {
+     "spelling": "th",
+     "example": "thin"
+    },
+    {
+     "spelling": "th",
+     "example": "this"
+    },
+    {
+     "spelling": "wh"
+    },
+    {
+     "spelling": "ng"
+    }
+   ],
+   "heart": [
+    "they",
+    "what"
+   ],
+   "blends": false,
+   "before": [
+    {
+     "n": 1,
+     "sounds": [
+      {
+       "spelling": "m"
+      },
+      {
+       "spelling": "s"
+      },
+      {
+       "spelling": "a"
+      },
+      {
+       "spelling": "t"
+      },
+      {
+       "spelling": "p"
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "sounds": [
+      {
+       "spelling": "i"
+      },
+      {
+       "spelling": "n"
+      },
+      {
+       "spelling": "f"
+      },
+      {
+       "spelling": "d"
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "sounds": [
+      {
+       "spelling": "o"
+      },
+      {
+       "spelling": "c"
+      },
+      {
+       "spelling": "k"
+      },
+      {
+       "spelling": "g"
+      },
+      {
+       "spelling": "h"
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "sounds": [
+      {
+       "spelling": "b"
+      },
+      {
+       "spelling": "u"
+      },
+      {
+       "spelling": "r"
+      },
+      {
+       "spelling": "l"
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "sounds": [
+      {
+       "spelling": "e"
+      },
+      {
+       "spelling": "s",
+       "example": "is"
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "sounds": [
+      {
+       "spelling": "j"
+      },
+      {
+       "spelling": "w"
+      },
+      {
+       "spelling": "v"
+      },
+      {
+       "spelling": "y"
+      },
+      {
+       "spelling": "x"
+      },
+      {
+       "spelling": "z"
+      },
+      {
+       "spelling": "qu"
+      }
+     ]
+    },
+    {
+     "n": 7,
+     "sounds": [
+      {
+       "spelling": "ck"
+      },
+      {
+       "spelling": "ff"
+      },
+      {
+       "spelling": "ll"
+      },
+      {
+       "spelling": "ss"
+      },
+      {
+       "spelling": "zz"
+      }
+     ]
+    }
+   ],
+   "metaTitle": "Decodable Readers Set 8: Digraphs | Printable Mini-Books",
+   "metaDescription": "Decodable readers to print for phonics Set 8: the digraphs sh, ch, th, wh, and ng. Heart words \"they\" and \"what\". Little books that fold from one sheet of paper.",
+   "books": [
+    {
+     "id": "chip-can-sing",
+     "title": "Chip Can Sing",
+     "line": "New in this book: ch, th, ng and the heart word \"they\".",
+     "pages": {
+      "book": "readers-k628-chipcansing",
+      "color": null,
+      "talk": "readers-k631-chipcansing"
+     }
+    },
+    {
+     "id": "a-dish-for-dad",
+     "title": "A Dish for Dad",
+     "line": "New in this book: ch, sh, th and the heart words \"they\" and \"what\".",
+     "pages": {
+      "book": "readers-k628-adishfordad",
+      "color": null,
+      "talk": "readers-k631-adishfordad"
+     }
+    },
+    {
+     "id": "the-king-and-the-ring",
+     "title": "The King and the Ring",
+     "line": "New in this book: ng and ch, with th in \"then\".",
+     "pages": {
+      "book": "readers-k628-thekingandthering",
+      "color": null,
+      "talk": "readers-k631-thekingandthering"
+     }
+    },
+    {
+     "id": "josh-and-the-ship",
+     "title": "Josh and the Ship",
+     "line": "New in this book: sh and th.",
+     "pages": {
+      "book": "readers-k628-joshandtheship",
+      "color": null,
+      "talk": "readers-k631-joshandtheship"
+     }
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "slug": "set-9",
+   "hasPage": true,
+   "skill": "Consonant Blends",
+   "sounds": [
+    {
+     "spelling": "nk"
+    }
+   ],
+   "heart": [
+    "one",
+    "from",
+    "come",
+    "some",
+    "here",
+    "there",
+    "were",
+    "your"
+   ],
+   "blends": true,
+   "before": [
+    {
+     "n": 1,
+     "sounds": [
+      {
+       "spelling": "m"
+      },
+      {
+       "spelling": "s"
+      },
+      {
+       "spelling": "a"
+      },
+      {
+       "spelling": "t"
+      },
+      {
+       "spelling": "p"
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "sounds": [
+      {
+       "spelling": "i"
+      },
+      {
+       "spelling": "n"
+      },
+      {
+       "spelling": "f"
+      },
+      {
+       "spelling": "d"
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "sounds": [
+      {
+       "spelling": "o"
+      },
+      {
+       "spelling": "c"
+      },
+      {
+       "spelling": "k"
+      },
+      {
+       "spelling": "g"
+      },
+      {
+       "spelling": "h"
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "sounds": [
+      {
+       "spelling": "b"
+      },
+      {
+       "spelling": "u"
+      },
+      {
+       "spelling": "r"
+      },
+      {
+       "spelling": "l"
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "sounds": [
+      {
+       "spelling": "e"
+      },
+      {
+       "spelling": "s",
+       "example": "is"
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "sounds": [
+      {
+       "spelling": "j"
+      },
+      {
+       "spelling": "w"
+      },
+      {
+       "spelling": "v"
+      },
+      {
+       "spelling": "y"
+      },
+      {
+       "spelling": "x"
+      },
+      {
+       "spelling": "z"
+      },
+      {
+       "spelling": "qu"
+      }
+     ]
+    },
+    {
+     "n": 7,
+     "sounds": [
+      {
+       "spelling": "ck"
+      },
+      {
+       "spelling": "ff"
+      },
+      {
+       "spelling": "ll"
+      },
+      {
+       "spelling": "ss"
+      },
+      {
+       "spelling": "zz"
+      }
+     ]
+    },
+    {
+     "n": 8,
+     "sounds": [
+      {
+       "spelling": "sh"
+      },
+      {
+       "spelling": "ch"
+      },
+      {
+       "spelling": "th",
+       "example": "thin"
+      },
+      {
+       "spelling": "th",
+       "example": "this"
+      },
+      {
+       "spelling": "wh"
+      },
+      {
+       "spelling": "ng"
+      }
+     ]
+    }
+   ],
+   "metaTitle": "Decodable Readers Set 9: Consonant Blends | Mini-Books",
+   "metaDescription": "Decodable readers to print for phonics Set 9: consonant blends and nk. Eight new heart words. Little books that fold from one sheet, each with a Read and Talk page.",
+   "books": [
+    {
+     "id": "we-went-to-camp",
+     "title": "We Went to Camp",
+     "line": "New in this book: two consonants side by side that each keep their sound (camp, tent, went, snack, snug), and the heart word \"were\".",
+     "pages": {
+      "book": "readers-k628-wewenttocamp",
+      "color": null,
+      "talk": "readers-k631-wewenttocamp"
+     }
+    },
+    {
+     "id": "pink-drinks",
+     "title": "Pink Drinks",
+     "line": "New in this book: nk, blends (stand, last, jump) and the heart words \"some\" and \"come\".",
+     "pages": {
+      "book": "readers-k628-pinkdrinks",
+      "color": null,
+      "talk": "readers-k631-pinkdrinks"
+     }
+    },
+    {
+     "id": "a-gift-for-gramps",
+     "title": "A Gift for Gramps",
+     "line": "New in this book: blends (gift, Brad, Gramps, drum, lifts) and nk in \"thanks\".",
+     "pages": {
+      "book": "readers-k628-agiftforgramps",
+      "color": null,
+      "talk": "readers-k631-agiftforgramps"
+     }
+    },
+    {
+     "id": "frog-on-a-log",
+     "title": "Frog on a Log",
+     "line": "New in this book: blends at the start of a word (frog, snap, plop, swam) and at the end (went, pond).",
+     "pages": {
+      "book": "readers-k628-frogonalog",
+      "color": null,
+      "talk": "readers-k631-frogonalog"
+     }
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "slug": "set-10",
+   "hasPage": true,
+   "skill": "Silent e",
+   "sounds": [
+    {
+     "spelling": "a_e"
+    },
+    {
+     "spelling": "i_e"
+    },
+    {
+     "spelling": "o_e"
+    },
+    {
+     "spelling": "u_e"
+    },
+    {
+     "spelling": "e_e"
+    },
+    {
+     "spelling": "ce"
+    },
+    {
+     "spelling": "ge"
+    }
+   ],
+   "heart": [
+    "two",
+    "who",
+    "where",
+    "want",
+    "does",
+    "put"
+   ],
+   "blends": false,
+   "before": [
+    {
+     "n": 1,
+     "sounds": [
+      {
+       "spelling": "m"
+      },
+      {
+       "spelling": "s"
+      },
+      {
+       "spelling": "a"
+      },
+      {
+       "spelling": "t"
+      },
+      {
+       "spelling": "p"
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "sounds": [
+      {
+       "spelling": "i"
+      },
+      {
+       "spelling": "n"
+      },
+      {
+       "spelling": "f"
+      },
+      {
+       "spelling": "d"
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "sounds": [
+      {
+       "spelling": "o"
+      },
+      {
+       "spelling": "c"
+      },
+      {
+       "spelling": "k"
+      },
+      {
+       "spelling": "g"
+      },
+      {
+       "spelling": "h"
+      }
+     ]
+    },
+    {
+     "n": 4,
+     "sounds": [
+      {
+       "spelling": "b"
+      },
+      {
+       "spelling": "u"
+      },
+      {
+       "spelling": "r"
+      },
+      {
+       "spelling": "l"
+      }
+     ]
+    },
+    {
+     "n": 5,
+     "sounds": [
+      {
+       "spelling": "e"
+      },
+      {
+       "spelling": "s",
+       "example": "is"
+      }
+     ]
+    },
+    {
+     "n": 6,
+     "sounds": [
+      {
+       "spelling": "j"
+      },
+      {
+       "spelling": "w"
+      },
+      {
+       "spelling": "v"
+      },
+      {
+       "spelling": "y"
+      },
+      {
+       "spelling": "x"
+      },
+      {
+       "spelling": "z"
+      },
+      {
+       "spelling": "qu"
+      }
+     ]
+    },
+    {
+     "n": 7,
+     "sounds": [
+      {
+       "spelling": "ck"
+      },
+      {
+       "spelling": "ff"
+      },
+      {
+       "spelling": "ll"
+      },
+      {
+       "spelling": "ss"
+      },
+      {
+       "spelling": "zz"
+      }
+     ]
+    },
+    {
+     "n": 8,
+     "sounds": [
+      {
+       "spelling": "sh"
+      },
+      {
+       "spelling": "ch"
+      },
+      {
+       "spelling": "th",
+       "example": "thin"
+      },
+      {
+       "spelling": "th",
+       "example": "this"
+      },
+      {
+       "spelling": "wh"
+      },
+      {
+       "spelling": "ng"
+      }
+     ]
+    },
+    {
+     "n": 9,
+     "sounds": [
+      {
+       "spelling": "nk"
+      }
+     ]
+    }
+   ],
+   "metaTitle": "Decodable Readers Set 10: Silent e | Printable Mini-Books",
+   "metaDescription": "Decodable readers to print for phonics Set 10: silent e (a_e, i_e, o_e, u_e, e_e) and soft c and g (ce, ge). Six new heart words. Mini-books for K–1.",
+   "books": [
+    {
+     "id": "jake-can-ride",
+     "title": "Jake Can Ride",
+     "line": "New in this book: a_e and i_e.",
+     "pages": {
+      "book": "readers-k628-jakecanride",
+      "color": null,
+      "talk": "readers-k631-jakecanride"
+     }
+    },
+    {
+     "id": "mike-and-the-kite",
+     "title": "Mike and the Kite",
+     "line": "New in this book: i_e, a_e and o_e.",
+     "pages": {
+      "book": "readers-k628-mikeandthekite",
+      "color": null,
+      "talk": "readers-k631-mikeandthekite"
+     }
+    },
+    {
+     "id": "kate-bakes-a-cake",
+     "title": "Kate Bakes a Cake",
+     "line": "New in this book: a_e, i_e, u_e and o_e.",
+     "pages": {
+      "book": "readers-k628-katebakesacake",
+      "color": null,
+      "talk": "readers-k631-katebakesacake"
+     }
+    }
+   ]
+  }
+ ],
+ "levels": [
+  {
+   "level": "A",
+   "slug": "level-a",
+   "hasPage": true,
+   "metaTitle": "Picture Readers About Level A | Printable Mini-Books for K",
+   "metaDescription": "Picture readers about Level A to print: one short line on each page, a repeating sentence pattern, and one clear picture. One-sheet emergent readers for kindergarten.",
+   "books": [
+    {
+     "id": "i-see-pets",
+     "title": "I See Pets",
+     "pictureWords": [
+      "cat",
+      "dog",
+      "fish"
+     ],
+     "newWords": [
+      "pets"
+     ],
+     "pages": {
+      "book": "readers-k629-iseepets",
+      "color": "readers-k630-iseepets",
+      "talk": "readers-k631-iseepets"
+     }
+    },
+    {
+     "id": "at-the-farm",
+     "title": "At the Farm",
+     "pictureWords": [
+      "cow",
+      "pig",
+      "sheep"
+     ],
+     "newWords": [
+      "farm"
+     ],
+     "pages": {
+      "book": "readers-k629-atthefarm",
+      "color": "readers-k630-atthefarm",
+      "talk": "readers-k631-atthefarm"
+     }
+    },
+    {
+     "id": "my-lunch",
+     "title": "My Lunch",
+     "pictureWords": [
+      "apple",
+      "bread",
+      "milk"
+     ],
+     "newWords": [
+      "lunch"
+     ],
+     "pages": {
+      "book": "readers-k629-mylunch",
+      "color": null,
+      "talk": "readers-k631-mylunch"
+     }
+    },
+    {
+     "id": "it-can-go",
+     "title": "It Can Go",
+     "pictureWords": [
+      "car",
+      "bus",
+      "snail"
+     ],
+     "newWords": [
+      "too"
+     ],
+     "pages": {
+      "book": "readers-k629-itcango",
+      "color": null,
+      "talk": "readers-k631-itcango"
+     }
+    },
+    {
+     "id": "i-can",
+     "title": "I Can",
+     "pictureWords": [
+      "run",
+      "jump",
+      "read"
+     ],
+     "newWords": [],
+     "pages": {
+      "book": "readers-k629-ican",
+      "color": null,
+      "talk": "readers-k631-ican"
+     }
+    },
+    {
+     "id": "in-the-sea",
+     "title": "In the Sea",
+     "pictureWords": [
+      "fish",
+      "crab",
+      "whale"
+     ],
+     "newWords": [
+      "sea"
+     ],
+     "pages": {
+      "book": "readers-k629-inthesea",
+      "color": "readers-k630-inthesea",
+      "talk": "readers-k631-inthesea"
+     }
+    },
+    {
+     "id": "in-the-snow",
+     "title": "In the Snow",
+     "pictureWords": [
+      "snowman",
+      "sled",
+      "cocoa"
+     ],
+     "newWords": [
+      "snow"
+     ],
+     "pages": {
+      "book": "readers-k629-inthesnow",
+      "color": null,
+      "talk": "readers-k631-inthesnow"
+     }
+    },
+    {
+     "id": "at-the-park",
+     "title": "At the Park",
+     "pictureWords": [
+      "slide",
+      "swing",
+      "sandbox"
+     ],
+     "newWords": [
+      "park"
+     ],
+     "pages": {
+      "book": "readers-k629-atthepark",
+      "color": null,
+      "talk": "readers-k631-atthepark"
+     }
+    }
+   ]
+  },
+  {
+   "level": "B",
+   "slug": "level-b",
+   "hasPage": true,
+   "metaTitle": "Picture Readers About Level B | Printable Mini-Books for K",
+   "metaDescription": "Picture readers about Level B to print: short sentences and a pattern that changes, often on the last page. One-sheet emergent readers for kindergarten.",
+   "books": [
+    {
+     "id": "big-and-little",
+     "title": "Big and Little",
+     "pictureWords": [
+      "elephant",
+      "mouse",
+      "whale"
+     ],
+     "newWords": [],
+     "pages": {
+      "book": "readers-k629-bigandlittle",
+      "color": null,
+      "talk": "readers-k631-bigandlittle"
+     }
+    },
+    {
+     "id": "can-it-swim",
+     "title": "Can It Swim?",
+     "pictureWords": [
+      "duck",
+      "penguin",
+      "cat"
+     ],
+     "newWords": [
+      "swim"
+     ],
+     "pages": {
+      "book": "readers-k629-canitswim",
+      "color": "readers-k630-canitswim",
+      "talk": "readers-k631-canitswim"
+     }
+    },
+    {
+     "id": "up-in-the-sky",
+     "title": "Up in the Sky",
+     "pictureWords": [
+      "kite",
+      "bird",
+      "rocket"
+     ],
+     "newWords": [
+      "sky"
+     ],
+     "pages": {
+      "book": "readers-k629-upinthesky",
+      "color": null,
+      "talk": "readers-k631-upinthesky"
+     }
+    },
+    {
+     "id": "in-my-bag",
+     "title": "In My Bag",
+     "pictureWords": [
+      "pencil",
+      "book",
+      "mouse"
+     ],
+     "newWords": [],
+     "pages": {
+      "book": "readers-k629-inmybag",
+      "color": "readers-k630-inmybag",
+      "talk": "readers-k631-inmybag"
+     }
+    },
+    {
+     "id": "here-to-help",
+     "title": "Here to Help",
+     "pictureWords": [
+      "doctor",
+      "firefighter",
+      "vet"
+     ],
+     "newWords": [
+      "help"
+     ],
+     "pages": {
+      "book": "readers-k629-heretohelp",
+      "color": null,
+      "talk": "readers-k631-heretohelp"
+     }
+    },
+    {
+     "id": "mix-it-up",
+     "title": "Mix It Up!",
+     "pictureWords": [
+      "apple",
+      "banana",
+      "bowl"
+     ],
+     "newWords": [
+      "fruit",
+      "salad"
+     ],
+     "pages": {
+      "book": "readers-k629-mixitup",
+      "color": null,
+      "talk": "readers-k631-mixitup"
+     }
+    },
+    {
+     "id": "my-bed",
+     "title": "My Bed",
+     "pictureWords": [
+      "bed",
+      "book",
+      "teddy bear"
+     ],
+     "newWords": [],
+     "pages": {
+      "book": "readers-k629-mybed",
+      "color": "readers-k630-mybed",
+      "talk": "readers-k631-mybed"
+     }
+    },
+    {
+     "id": "the-band",
+     "title": "The Band",
+     "pictureWords": [
+      "drum",
+      "trumpet",
+      "violin"
+     ],
+     "newWords": [
+      "band"
+     ],
+     "pages": {
+      "book": "readers-k629-theband",
+      "color": "readers-k630-theband",
+      "talk": "readers-k631-theband"
+     }
+    }
+   ]
+  },
+  {
+   "level": "C",
+   "slug": "level-c",
+   "hasPage": true,
+   "metaTitle": "Picture Readers About Level C | Printable Mini-Books for K–1",
+   "metaDescription": "Picture readers about Level C to print: little stories and fact books, some pages with two sentences. One-sheet emergent readers for kindergarten and first grade.",
+   "books": [
+    {
+     "id": "the-frog",
+     "title": "The Frog",
+     "pictureWords": [
+      "frog",
+      "bug"
+     ],
+     "newWords": [
+      "green",
+      "jump",
+      "swim"
+     ],
+     "pages": {
+      "book": "readers-k629-thefrog",
+      "color": null,
+      "talk": "readers-k631-thefrog"
+     }
+    },
+    {
+     "id": "the-big-cloud",
+     "title": "The Big Cloud",
+     "pictureWords": [
+      "sun",
+      "cloud",
+      "umbrella"
+     ],
+     "newWords": [],
+     "pages": {
+      "book": "readers-k629-thebigcloud",
+      "color": null,
+      "talk": "readers-k631-thebigcloud"
+     }
+    },
+    {
+     "id": "apples",
+     "title": "Apples",
+     "pictureWords": [
+      "apple tree",
+      "apples",
+      "apple pie"
+     ],
+     "newWords": [],
+     "pages": {
+      "book": "readers-k629-apples",
+      "color": null,
+      "talk": "readers-k631-apples"
+     }
+    },
+    {
+     "id": "the-rocket",
+     "title": "The Rocket",
+     "pictureWords": [
+      "rocket",
+      "moon",
+      "astronaut"
+     ],
+     "newWords": [],
+     "pages": {
+      "book": "readers-k629-therocket",
+      "color": null,
+      "talk": "readers-k631-therocket"
+     }
+    },
+    {
+     "id": "dinosaurs",
+     "title": "Dinosaurs",
+     "pictureWords": [
+      "dinosaur"
+     ],
+     "newWords": [
+      "plates",
+      "horns"
+     ],
+     "pages": {
+      "book": "readers-k629-dinosaurs",
+      "color": "readers-k630-dinosaurs",
+      "talk": "readers-k631-dinosaurs"
+     }
+    },
+    {
+     "id": "the-caterpillar",
+     "title": "The Caterpillar",
+     "pictureWords": [
+      "caterpillar",
+      "leaf",
+      "butterfly"
+     ],
+     "newWords": [
+      "after",
+      "changes"
+     ],
+     "pages": {
+      "book": "readers-k629-thecaterpillar",
+      "color": null,
+      "talk": "readers-k631-thecaterpillar"
+     }
+    },
+    {
+     "id": "at-the-beach",
+     "title": "At the Beach",
+     "pictureWords": [
+      "beach",
+      "shovel",
+      "ice cream"
+     ],
+     "newWords": [],
+     "pages": {
+      "book": "readers-k629-atthebeach",
+      "color": null,
+      "talk": "readers-k631-atthebeach"
+     }
+    },
+    {
+     "id": "mom-hen",
+     "title": "Mom Hen",
+     "pictureWords": [
+      "hen",
+      "chick",
+      "nest",
+      "chicks"
+     ],
+     "newWords": [
+      "eggs",
+      "crack"
+     ],
+     "pages": {
+      "book": "readers-k629-momhen",
+      "color": null,
+      "talk": "readers-k631-momhen"
+     }
+    },
+    {
+     "id": "the-turtle",
+     "title": "The Turtle",
+     "pictureWords": [
+      "turtle"
+     ],
+     "newWords": [
+      "slow",
+      "hide"
+     ],
+     "pages": {
+      "book": "readers-k629-theturtle",
+      "color": null,
+      "talk": "readers-k631-theturtle"
+     }
+    }
+   ]
+  }
+ ]
+}

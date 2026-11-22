@@ -13,6 +13,7 @@ import { getHreflangCode } from '@/lib/seo/hreflang';
 import BreadcrumbTrail from '@/components/breadcrumbs/BreadcrumbTrail';
 import { GRADE_ORDER, SUBJECT_ORDER, Unit, UnitPlan, UnitUi, fill } from '@/lib/units';
 import { getAssessmentUi, listedChecks } from '@/lib/assessments';
+import { getReaderHubs, getReaderUi } from '@/lib/readers';
 
 export const LEVEL_KEY: Record<string, string> = { P: 'preschool', K: 'kindergarten', '1': 'grade_1', '2': 'grade_2', '3': 'grade_3', '4': 'grade_4', '5': 'grade_5' };
 
@@ -27,6 +28,9 @@ export default async function UnitsHub({ locale, ui, units, plans, live }: { loc
   const checklists = cuListed.live && cuUi ? cuUi.hubTitle : null;
   const [asChecks, asUi] = await Promise.all([listedChecks(locale), getAssessmentUi(locale)]);
   const unitChecks = asChecks.length && asUi?.hubLinkFromUnits ? asUi.hubLinkFromUnits : null;
+  // the reader hubs of the language (Part 8.2), once it has some
+  const [rdHubs, rdUi] = await Promise.all([getReaderHubs(locale), getReaderUi(locale)]);
+  const readers = rdHubs && rdUi?.unitsHubLink ? rdUi.unitsHubLink : null;
   const subjectLabel = (s: string) => ui[`subject_${s}`] || s;
   const url = canonicalUrl(localePath(locale, 'units'));
 
@@ -115,6 +119,8 @@ export default async function UnitsHub({ locale, ui, units, plans, live }: { loc
         {checklists ? <p className="un-hub-note"><a href={`/${locale}/curriculum`}>{checklists}</a></p> : null}
         {/* the unit checks of the language (Part 7), once it has some */}
         {unitChecks ? <p className="un-hub-note"><a href={`/${locale}/assessments`}>{unitChecks}</a></p> : null}
+        {/* the decodable and picture readers of the language (Part 8), once it has hubs */}
+        {readers ? <p className="un-hub-note"><a href={`/${locale}/readers`}>{readers}</a></p> : null}
       </div>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema).replace(/</g, '\\u003c') }} />

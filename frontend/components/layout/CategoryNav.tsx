@@ -132,7 +132,7 @@ export function CategoryNav({
                   aria-haspopup="true"
                   aria-expanded={isOpen}
                   onClick={() => setOpenKey(isOpen ? null : d.key)}
-                  className={`relative inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg text-[0.9375rem] font-bold tracking-[0.005em] transition-colors duration-150 after:absolute after:left-3.5 after:right-3.5 after:-bottom-[3px] after:h-[2.5px] after:rounded-full after:bg-[#F2784B] after:origin-left after:transition-transform after:duration-200 ${
+                  className={`relative inline-flex items-center gap-1.5 px-2 xl:px-3.5 py-2 rounded-lg text-[0.875rem] xl:text-[0.9375rem] whitespace-nowrap font-bold tracking-[0.005em] transition-colors duration-150 after:absolute after:left-3.5 after:right-3.5 after:-bottom-[3px] after:h-[2.5px] after:rounded-full after:bg-[#F2784B] after:origin-left after:transition-transform after:duration-200 ${
                     isOpen
                       ? 'text-[#0E544A] bg-[#146B5E]/[0.08] after:scale-x-100'
                       : 'text-[#14322D]/85 hover:text-[#14322D] after:scale-x-0 hover:after:scale-x-100'

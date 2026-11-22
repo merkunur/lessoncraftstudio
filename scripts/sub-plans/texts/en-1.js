@@ -161,8 +161,8 @@ module.exports = {
           stuck: 'Have the child trace the string with a finger first and then with a colored pencil, one color for each animal. At a crossing the string goes straight on; it does not turn onto the other string.',
         },
         'G1-424': {
-          say: '"The rabbit wants to get to the bucket and pick up every carrot on the way. There is one rule: the rabbit may not use the same path twice. Check a circle each time you pick up a carrot."',
-          first: 'Hold up the page and show the rabbit, the bucket, and the four carrots. Tell the children to plan the whole way with a finger before they draw, because the first way they see may miss a carrot. The printed directions say "tick a circle"; tell the children that means a check mark.',
+          say: '"The rabbit wants to get to the bucket and pick up every carrot on the way. There is one rule: the rabbit may not use the same path twice. Fill in a circle each time you pick up a carrot."',
+          first: 'Hold up the page and show the rabbit, the bucket, and the four carrots. Tell the children to plan the whole way with a finger before they draw, because the first way they see may miss a carrot.',
           stuck: 'Have the child put a finger on each carrot first and look at which paths lead to it. If the way is blocked because a path was already used, the child starts again with a finger and tries the carrots in another order.',
         },
       },

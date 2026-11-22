@@ -1445,6 +1445,7721 @@
      "type": "G2-393"
     }
    ]
+  },
+  {
+   "id": "k-week-1",
+   "slug": "kindergarten-sub-plans-week-1",
+   "status": "live",
+   "grade": "K",
+   "position": "week",
+   "week": 1,
+   "title": "Kindergarten Sub Plans: Week 1",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Week 1",
+   "metaDescription": "No-prep emergency sub plans for week 1 of kindergarten: 7 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:pre-writing-strokes",
+     "type": "K-246"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:letter-identification",
+     "type": "K-229"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:family",
+     "type": "K-375"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:position-words",
+     "type": "K-064"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:draw-shapes",
+     "type": "K-372"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:mazes",
+     "type": "K-405"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:feelings",
+     "type": "K-331"
+    }
+   ]
+  },
+  {
+   "id": "k-week-2",
+   "slug": "kindergarten-sub-plans-week-2",
+   "status": "live",
+   "grade": "K",
+   "position": "week",
+   "week": 2,
+   "title": "Kindergarten Sub Plans: Week 2",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Week 2",
+   "metaDescription": "No-prep emergency sub plans for week 2 of kindergarten: 7 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:same-different-visual",
+     "type": "K-062"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:shadow-closure",
+     "type": "K-057"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:letter-formation",
+     "type": "K-238",
+     "title": "Trace the Letter I i"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:compare-size-extremes",
+     "type": "K-035"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:scene-search",
+     "type": "K-059"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:spot-the-difference",
+     "type": "K-399"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:seasons",
+     "type": "K-207"
+    }
+   ]
+  },
+  {
+   "id": "k-week-3",
+   "slug": "kindergarten-sub-plans-week-3",
+   "status": "live",
+   "grade": "K",
+   "position": "week",
+   "week": 3,
+   "title": "Kindergarten Sub Plans: Week 3",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Week 3",
+   "metaDescription": "No-prep emergency sub plans for week 3 of kindergarten: 7 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:pre-writing-strokes",
+     "type": "K-247"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:word-sentence-tracing",
+     "type": "K-239"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:all-about-me-personal",
+     "type": "K-345"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:order-by-size",
+     "type": "K-034"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:position-words",
+     "type": "K-066"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:patterns",
+     "type": "K-048"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:living-nonliving",
+     "type": "K-201"
+    }
+   ]
+  },
+  {
+   "id": "k-week-4",
+   "slug": "kindergarten-sub-plans-week-4",
+   "status": "live",
+   "grade": "K",
+   "position": "week",
+   "week": 4,
+   "title": "Kindergarten Sub Plans: Week 4",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Week 4",
+   "metaDescription": "No-prep emergency sub plans for week 4 of kindergarten: 7 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:same-different-visual",
+     "type": "K-062"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:letter-identification",
+     "type": "K-229"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:family",
+     "type": "K-375"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:compare-size-extremes",
+     "type": "K-037"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:draw-shapes",
+     "type": "K-372"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:mazes",
+     "type": "K-406"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:fruit-vegetable",
+     "type": "K-202"
+    }
+   ]
+  },
+  {
+   "id": "k-week-5",
+   "slug": "kindergarten-sub-plans-week-5",
+   "status": "live",
+   "grade": "K",
+   "position": "week",
+   "week": 5,
+   "title": "Kindergarten Sub Plans: Week 5",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Week 5",
+   "metaDescription": "No-prep emergency sub plans for week 5 of kindergarten: 7 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:numeral-formation",
+     "type": "K-237"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:word-sentence-tracing",
+     "type": "K-289"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:all-about-me-personal",
+     "type": "K-342"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:count-how-many",
+     "type": "K-002"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:order-by-size",
+     "type": "K-036"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:patterns",
+     "type": "K-049"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:animal-groups-homes",
+     "type": "K-204"
+    }
+   ]
+  },
+  {
+   "id": "k-week-6",
+   "slug": "kindergarten-sub-plans-week-6",
+   "status": "live",
+   "grade": "K",
+   "position": "week",
+   "week": 6,
+   "title": "Kindergarten Sub Plans: Week 6",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Week 6",
+   "metaDescription": "No-prep emergency sub plans for week 6 of kindergarten: 7 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:pre-writing-strokes",
+     "type": "K-385"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:family",
+     "type": "K-370"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:letter-formation",
+     "type": "K-238",
+     "title": "Trace the Letter J j"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:conservation",
+     "type": "K-445"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:position-words",
+     "type": "K-067"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:spot-the-difference",
+     "type": "K-400"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:animal-babies",
+     "type": "K-205"
+    }
+   ]
+  },
+  {
+   "id": "k-week-7",
+   "slug": "kindergarten-sub-plans-week-7",
+   "status": "live",
+   "grade": "K",
+   "position": "week",
+   "week": 7,
+   "title": "Kindergarten Sub Plans: Week 7",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Week 7",
+   "metaDescription": "No-prep emergency sub plans for week 7 of kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:numeral-formation",
+     "type": "K-237",
+     "title": "Trace the Number 0"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:word-sentence-tracing",
+     "type": "K-239"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "K:rhyme",
+     "type": "K-352"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:all-about-me-personal",
+     "type": "K-345"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:compare-groups",
+     "type": "K-009"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:count-out-n",
+     "type": "K-011"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:mazes",
+     "type": "K-407"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:day-night",
+     "type": "K-208"
+    }
+   ]
+  },
+  {
+   "id": "k-week-8",
+   "slug": "kindergarten-sub-plans-week-8",
+   "status": "live",
+   "grade": "K",
+   "position": "week",
+   "week": 8,
+   "title": "Kindergarten Sub Plans: Week 8",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Week 8",
+   "metaDescription": "No-prep emergency sub plans for week 8 of kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:same-different-visual",
+     "type": "K-044"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:human-body",
+     "type": "K-344"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "K:count-syllables",
+     "type": "K-234"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:pre-writing-strokes",
+     "type": "K-419"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:subitize",
+     "type": "K-018"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:position-words",
+     "type": "K-066"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:patterns",
+     "type": "K-050"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:transport-flying",
+     "type": "K-206"
+    }
+   ]
+  },
+  {
+   "id": "k-week-9",
+   "slug": "kindergarten-sub-plans-week-9",
+   "status": "live",
+   "grade": "K",
+   "position": "week",
+   "week": 9,
+   "title": "Kindergarten Sub Plans: Week 9",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Week 9",
+   "metaDescription": "No-prep emergency sub plans for week 9 of kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:scene-search",
+     "type": "K-059"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:letter-identification",
+     "type": "K-229"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "K:beginning-sounds",
+     "type": "K-228"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:word-sentence-tracing",
+     "type": "K-284"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:shape-naming",
+     "type": "K-368"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:order-by-size",
+     "type": "K-036"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:shadow-closure",
+     "type": "K-057"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:healthy-food",
+     "type": "K-203"
+    }
+   ]
+  },
+  {
+   "id": "k-week-10",
+   "slug": "kindergarten-sub-plans-week-10",
+   "status": "live",
+   "grade": "K",
+   "position": "week",
+   "week": 10,
+   "title": "Kindergarten Sub Plans: Week 10",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Week 10",
+   "metaDescription": "No-prep emergency sub plans for week 10 of kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:pre-writing-strokes",
+     "type": "K-386"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:word-picture-match",
+     "type": "K-225"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "K:sound-position",
+     "type": "K-227"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:all-about-me-personal",
+     "type": "K-342"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:one-more-one-less",
+     "type": "K-443"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:numeral-formation",
+     "type": "K-467"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:spot-the-difference",
+     "type": "K-399"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:natural-made",
+     "type": "K-214"
+    }
+   ]
+  },
+  {
+   "id": "k-week-11",
+   "slug": "kindergarten-sub-plans-week-11",
+   "status": "live",
+   "grade": "K",
+   "position": "week",
+   "week": 11,
+   "title": "Kindergarten Sub Plans: Week 11",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Week 11",
+   "metaDescription": "No-prep emergency sub plans for week 11 of kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:position-words",
+     "type": "K-065"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:singular-plural",
+     "type": "K-302"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "K:cvc-build",
+     "type": "K-224"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:letter-formation",
+     "type": "K-238",
+     "title": "Trace the Letter K k"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:shape-naming",
+     "type": "K-368"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:conservation",
+     "type": "K-445"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:patterns",
+     "type": "K-053"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:feelings",
+     "type": "K-334"
+    }
+   ]
+  },
+  {
+   "id": "k-week-12",
+   "slug": "kindergarten-sub-plans-week-12",
+   "status": "live",
+   "grade": "K",
+   "position": "week",
+   "week": 12,
+   "title": "Kindergarten Sub Plans: Week 12",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Week 12",
+   "metaDescription": "No-prep emergency sub plans for week 12 of kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:same-different-visual",
+     "type": "K-044"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:articles",
+     "type": "K-306"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "K:rhyme",
+     "type": "K-232"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:family",
+     "type": "K-375"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:count-how-many",
+     "type": "K-640"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:compare-groups",
+     "type": "K-606"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:mazes",
+     "type": "K-405",
+     "title": "Help the Pig Reach the Mud Puddle"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:seasons",
+     "type": "K-338"
+    }
+   ]
+  },
+  {
+   "id": "k-week-13",
+   "slug": "kindergarten-sub-plans-week-13",
+   "status": "live",
+   "grade": "K",
+   "position": "week",
+   "week": 13,
+   "title": "Kindergarten Sub Plans: Week 13",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Week 13",
+   "metaDescription": "No-prep emergency sub plans for week 13 of kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:count-forward-missing",
+     "type": "K-019"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:word-picture-match",
+     "type": "K-225"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "K:count-syllables",
+     "type": "K-233"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:singular-plural",
+     "type": "K-287"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:compare-size-extremes",
+     "type": "K-035"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:draw-shapes",
+     "type": "K-372"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:spot-the-difference",
+     "type": "K-400"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:living-nonliving",
+     "type": "K-201"
+    }
+   ]
+  },
+  {
+   "id": "k-week-14",
+   "slug": "kindergarten-sub-plans-week-14",
+   "status": "live",
+   "grade": "K",
+   "position": "week",
+   "week": 14,
+   "title": "Kindergarten Sub Plans: Week 14",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Week 14",
+   "metaDescription": "No-prep emergency sub plans for week 14 of kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:pre-writing-strokes",
+     "type": "K-421"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:articles",
+     "type": "K-306"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "K:beginning-sounds",
+     "type": "K-328"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:word-sentence-tracing",
+     "type": "K-291"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:order-by-size",
+     "type": "K-034"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:before-after-back",
+     "type": "K-022"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:same-different-visual",
+     "type": "K-058"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:animal-groups-homes",
+     "type": "K-209"
+    }
+   ]
+  },
+  {
+   "id": "k-week-15",
+   "slug": "kindergarten-sub-plans-week-15",
+   "status": "live",
+   "grade": "K",
+   "position": "week",
+   "week": 15,
+   "title": "Kindergarten Sub Plans: Week 15",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Week 15",
+   "metaDescription": "No-prep emergency sub plans for week 15 of kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:position-words",
+     "type": "K-067"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:human-body",
+     "type": "K-354"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "K:digraphs-k",
+     "type": "K-378"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:all-about-me-personal",
+     "type": "K-345"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:count-how-many",
+     "type": "K-027"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:dot-to-dot-sequence",
+     "type": "K-296"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:patterns",
+     "type": "K-048"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:fruit-vegetable",
+     "type": "K-202"
+    }
+   ]
+  },
+  {
+   "id": "k-week-16",
+   "slug": "kindergarten-sub-plans-week-16",
+   "status": "live",
+   "grade": "K",
+   "position": "week",
+   "week": 16,
+   "title": "Kindergarten Sub Plans: Week 16",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Week 16",
+   "metaDescription": "No-prep emergency sub plans for week 16 of kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:count-forward-missing",
+     "type": "K-019"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:family",
+     "type": "K-370"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "K:cvc-build",
+     "type": "K-231"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:letter-formation",
+     "type": "K-238",
+     "title": "Trace the Letter L l"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:tally-marks",
+     "type": "K-015"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:count-on",
+     "type": "K-444"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:shadow-closure",
+     "type": "K-069"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:feelings",
+     "type": "K-333"
+    }
+   ]
+  },
+  {
+   "id": "k-week-17",
+   "slug": "kindergarten-sub-plans-week-17",
+   "status": "live",
+   "grade": "K",
+   "position": "week",
+   "week": 17,
+   "title": "Kindergarten Sub Plans: Week 17",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Week 17",
+   "metaDescription": "No-prep emergency sub plans for week 17 of kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:days-of-week",
+     "type": "K-337"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:story-sequencing",
+     "type": "K-379"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "K:rhyme",
+     "type": "K-352"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:word-sentence-tracing",
+     "type": "K-284"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:compare-groups",
+     "type": "K-606"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:numeral-formation",
+     "type": "K-467"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:mazes",
+     "type": "K-406",
+     "title": "Help the Kitten Get to the Milk"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:animal-babies",
+     "type": "K-205"
+    }
+   ]
+  },
+  {
+   "id": "k-week-18",
+   "slug": "kindergarten-sub-plans-week-18",
+   "status": "live",
+   "grade": "K",
+   "position": "week",
+   "week": 18,
+   "title": "Kindergarten Sub Plans: Week 18",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Week 18",
+   "metaDescription": "No-prep emergency sub plans for week 18 of kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:pre-writing-strokes",
+     "type": "K-422"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:word-picture-match",
+     "type": "K-225"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "K:beginning-sounds",
+     "type": "K-228"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:all-about-me-personal",
+     "type": "K-342"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:combine-groups",
+     "type": "K-028"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:subitize",
+     "type": "K-017"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:same-different-visual",
+     "type": "K-080"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:transport-flying",
+     "type": "K-210"
+    }
+   ]
+  },
+  {
+   "id": "k-week-19",
+   "slug": "kindergarten-sub-plans-week-19",
+   "status": "live",
+   "grade": "K",
+   "position": "week",
+   "week": 19,
+   "title": "Kindergarten Sub Plans: Week 19",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Week 19",
+   "metaDescription": "No-prep emergency sub plans for week 19 of kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:days-of-week",
+     "type": "K-337"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:story-sequencing",
+     "type": "K-379"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "K:cvc-build",
+     "type": "K-224"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:word-sentence-tracing",
+     "type": "K-291"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:take-away",
+     "type": "K-451"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:count-out-n",
+     "type": "K-011"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:spot-the-difference",
+     "type": "K-399"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:day-night",
+     "type": "K-208"
+    }
+   ]
+  },
+  {
+   "id": "k-week-20",
+   "slug": "kindergarten-sub-plans-week-20",
+   "status": "live",
+   "grade": "K",
+   "position": "week",
+   "week": 20,
+   "title": "Kindergarten Sub Plans: Week 20",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Week 20",
+   "metaDescription": "No-prep emergency sub plans for week 20 of kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:position-words",
+     "type": "K-065"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:singular-plural",
+     "type": "K-302"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "K:rhyme",
+     "type": "K-232"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:family",
+     "type": "K-375"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:scene-search",
+     "type": "K-371"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:before-after-back",
+     "type": "K-021"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:patterns",
+     "type": "K-049"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:seasons",
+     "type": "K-207"
+    }
+   ]
+  },
+  {
+   "id": "k-week-21",
+   "slug": "kindergarten-sub-plans-week-21",
+   "status": "live",
+   "grade": "K",
+   "position": "week",
+   "week": 21,
+   "title": "Kindergarten Sub Plans: Week 21",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Week 21",
+   "metaDescription": "No-prep emergency sub plans for week 21 of kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:count-forward-missing",
+     "type": "K-019"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:naming-and-action-words",
+     "type": "K-658"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "K:cvc-build",
+     "type": "K-231"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:letter-formation",
+     "type": "K-238",
+     "title": "Trace the Letter M m"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:number-bonds-k",
+     "type": "K-243"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:count-how-many",
+     "type": "K-027"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:mazes",
+     "type": "K-407",
+     "title": "Paddle the Kayak to the Cabin"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:healthy-food",
+     "type": "K-203"
+    }
+   ]
+  },
+  {
+   "id": "k-week-22",
+   "slug": "kindergarten-sub-plans-week-22",
+   "status": "live",
+   "grade": "K",
+   "position": "week",
+   "week": 22,
+   "title": "Kindergarten Sub Plans: Week 22",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Week 22",
+   "metaDescription": "No-prep emergency sub plans for week 22 of kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:pre-writing-strokes",
+     "type": "K-246"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:capital-letter",
+     "type": "K-660"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "K:beginning-sounds",
+     "type": "K-228"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:word-sentence-tracing",
+     "type": "K-284"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:take-away",
+     "type": "K-451"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:dot-to-dot-sequence",
+     "type": "K-285"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:same-different-visual",
+     "type": "K-058"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:natural-made",
+     "type": "K-214"
+    }
+   ]
+  },
+  {
+   "id": "k-week-23",
+   "slug": "kindergarten-sub-plans-week-23",
+   "status": "live",
+   "grade": "K",
+   "position": "week",
+   "week": 23,
+   "title": "Kindergarten Sub Plans: Week 23",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Week 23",
+   "metaDescription": "No-prep emergency sub plans for week 23 of kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:numeral-formation",
+     "type": "K-237",
+     "title": "Trace the Number 1"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:period-or-question-mark",
+     "type": "K-656"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "K:rhyme",
+     "type": "K-352"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:all-about-me-personal",
+     "type": "K-345"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:number-bonds-k",
+     "type": "K-274"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:conservation",
+     "type": "K-445"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:patterns",
+     "type": "K-050"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:feelings",
+     "type": "K-331"
+    }
+   ]
+  },
+  {
+   "id": "k-week-24",
+   "slug": "kindergarten-sub-plans-week-24",
+   "status": "live",
+   "grade": "K",
+   "position": "week",
+   "week": 24,
+   "title": "Kindergarten Sub Plans: Week 24",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Week 24",
+   "metaDescription": "No-prep emergency sub plans for week 24 of kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:pre-writing-strokes",
+     "type": "K-247"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:place-words",
+     "type": "K-548"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "K:cvc-build",
+     "type": "K-224"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:word-sentence-tracing",
+     "type": "K-291"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:shape-naming",
+     "type": "K-368"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:compare-groups",
+     "type": "K-606"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:shadow-closure",
+     "type": "K-069"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:animal-groups-homes",
+     "type": "K-204"
+    }
+   ]
+  },
+  {
+   "id": "k-week-25",
+   "slug": "kindergarten-sub-plans-week-25",
+   "status": "live",
+   "grade": "K",
+   "position": "week",
+   "week": 25,
+   "title": "Kindergarten Sub Plans: Week 25",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Week 25",
+   "metaDescription": "No-prep emergency sub plans for week 25 of kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:count-forward-missing",
+     "type": "K-632"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:capital-letter",
+     "type": "K-660"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "K:beginning-sounds",
+     "type": "K-228"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:family",
+     "type": "K-375"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:teen-numbers",
+     "type": "K-448"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:draw-shapes",
+     "type": "K-372"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:spot-the-difference",
+     "type": "K-400"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:living-nonliving",
+     "type": "K-201"
+    }
+   ]
+  },
+  {
+   "id": "k-week-26",
+   "slug": "kindergarten-sub-plans-week-26",
+   "status": "live",
+   "grade": "K",
+   "position": "week",
+   "week": 26,
+   "title": "Kindergarten Sub Plans: Week 26",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Week 26",
+   "metaDescription": "No-prep emergency sub plans for week 26 of kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:pre-writing-strokes",
+     "type": "K-385"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:articles",
+     "type": "K-306"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "K:cvc-build",
+     "type": "K-231"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:singular-plural",
+     "type": "K-287"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:compare-size-extremes",
+     "type": "K-037"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:before-after-back",
+     "type": "K-023"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:mazes",
+     "type": "K-405",
+     "title": "Help the Boy on the Bike Reach the Slide"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:fruit-vegetable",
+     "type": "K-202"
+    }
+   ]
+  },
+  {
+   "id": "k-week-27",
+   "slug": "kindergarten-sub-plans-week-27",
+   "status": "live",
+   "grade": "K",
+   "position": "week",
+   "week": 27,
+   "title": "Kindergarten Sub Plans: Week 27",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Week 27",
+   "metaDescription": "No-prep emergency sub plans for week 27 of kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:count-forward-missing",
+     "type": "K-632"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:story-sequencing",
+     "type": "K-379"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "K:rhyme",
+     "type": "K-352"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:all-about-me-personal",
+     "type": "K-342"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:teen-numbers",
+     "type": "K-637"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:count-on",
+     "type": "K-444"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:patterns",
+     "type": "K-053"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:seasons",
+     "type": "K-207"
+    }
+   ]
+  },
+  {
+   "id": "k-week-28",
+   "slug": "kindergarten-sub-plans-week-28",
+   "status": "live",
+   "grade": "K",
+   "position": "week",
+   "week": 28,
+   "title": "Kindergarten Sub Plans: Week 28",
+   "metaTitle": "Kindergarten Emergency Sub Plans: Week 28",
+   "metaDescription": "No-prep emergency sub plans for week 28 of kindergarten: 8 review blocks in letters and sounds, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "K:numeral-formation",
+     "type": "K-237",
+     "title": "Trace the Number 2"
+    },
+    {
+     "key": "reading",
+     "minutes": 15,
+     "point": "K:word-picture-match",
+     "type": "K-225"
+    },
+    {
+     "key": "phonics",
+     "minutes": 10,
+     "point": "K:beginning-sounds",
+     "type": "K-228"
+    },
+    {
+     "key": "writing",
+     "minutes": 15,
+     "point": "K:letter-formation",
+     "type": "K-238",
+     "title": "Trace the Letter N n"
+    },
+    {
+     "key": "math",
+     "minutes": 10,
+     "point": "K:tally-marks",
+     "type": "K-025"
+    },
+    {
+     "key": "numbers",
+     "minutes": 10,
+     "point": "K:dot-to-dot-sequence",
+     "type": "K-295"
+    },
+    {
+     "key": "logic",
+     "minutes": 10,
+     "point": "K:mazes",
+     "type": "K-406",
+     "title": "Help the Penguin Get to the Snowman"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:transport-flying",
+     "type": "K-206"
+    }
+   ]
+  },
+  {
+   "id": "g1-week-1",
+   "slug": "first-grade-sub-plans-week-1",
+   "status": "live",
+   "grade": "1",
+   "position": "week",
+   "week": 1,
+   "title": "First Grade Sub Plans: Week 1",
+   "metaTitle": "First Grade Emergency Sub Plans: Week 1",
+   "metaDescription": "No-prep emergency sub plans for week 1 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "K:count-forward-missing",
+     "type": "K-632"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "K:word-picture-match",
+     "type": "K-225"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:rhyming",
+     "type": "G1-309"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "K:word-sentence-tracing",
+     "type": "G1-430"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:add-within-10-models",
+     "type": "G1-110"
+    },
+    {
+     "key": "numbers",
+     "minutes": 20,
+     "point": "K:dot-to-dot-sequence",
+     "type": "K-285"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:mazes",
+     "type": "G1-420",
+     "title": "Help the Rabbit Find the Cabbage"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:find-the-differences",
+     "type": "G1-415"
+    }
+   ]
+  },
+  {
+   "id": "g1-week-2",
+   "slug": "first-grade-sub-plans-week-2",
+   "status": "live",
+   "grade": "1",
+   "position": "week",
+   "week": 2,
+   "title": "First Grade Sub Plans: Week 2",
+   "metaTitle": "First Grade Emergency Sub Plans: Week 2",
+   "metaDescription": "No-prep emergency sub plans for week 2 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "K:number-bonds-k",
+     "type": "K-243"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:word-families-syllable-reading",
+     "type": "G1-332"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:phoneme-boxes",
+     "type": "G1-312"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "K:all-about-me-personal",
+     "type": "K-345"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:subtract-cross-out",
+     "type": "G1-104"
+    },
+    {
+     "key": "numbers",
+     "minutes": 20,
+     "point": "1:count-on-back-hops",
+     "type": "G1-116"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:patterns",
+     "type": "K-049"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:feelings",
+     "type": "K-331"
+    }
+   ]
+  },
+  {
+   "id": "g1-week-3",
+   "slug": "first-grade-sub-plans-week-3",
+   "status": "live",
+   "grade": "1",
+   "position": "week",
+   "week": 3,
+   "title": "First Grade Sub Plans: Week 3",
+   "metaTitle": "First Grade Emergency Sub Plans: Week 3",
+   "metaDescription": "No-prep emergency sub plans for week 3 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "1:missing-number-equations",
+     "type": "G1-218"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "K:word-picture-match",
+     "type": "K-225"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:rhyming",
+     "type": "G1-343"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:spell-picture-words",
+     "type": "G1-258"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:fact-families",
+     "type": "G1-209"
+    },
+    {
+     "key": "numbers",
+     "minutes": 20,
+     "point": "K:teen-numbers",
+     "type": "K-448"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:mazes",
+     "type": "K-405"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:animal-classes-coverings",
+     "type": "G1-201"
+    }
+   ]
+  },
+  {
+   "id": "g1-week-4",
+   "slug": "first-grade-sub-plans-week-4",
+   "status": "live",
+   "grade": "1",
+   "position": "week",
+   "week": 4,
+   "title": "First Grade Sub Plans: Week 4",
+   "metaTitle": "First Grade Emergency Sub Plans: Week 4",
+   "metaDescription": "No-prep emergency sub plans for week 4 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "1:fluency-within-20",
+     "type": "G1-214"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:digraphs",
+     "type": "G1-393"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:phoneme-boxes",
+     "type": "G1-312"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "K:word-sentence-tracing",
+     "type": "G1-430"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:add-within-10-models",
+     "type": "G1-102"
+    },
+    {
+     "key": "numbers",
+     "minutes": 20,
+     "point": "1:count-on-back-hops",
+     "type": "G1-117"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:spot-the-difference",
+     "type": "K-399"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:habitats-needs",
+     "type": "G1-202"
+    }
+   ]
+  },
+  {
+   "id": "g1-week-5",
+   "slug": "first-grade-sub-plans-week-5",
+   "status": "live",
+   "grade": "1",
+   "position": "week",
+   "week": 5,
+   "title": "First Grade Sub Plans: Week 5",
+   "metaTitle": "First Grade Emergency Sub Plans: Week 5",
+   "metaDescription": "No-prep emergency sub plans for week 5 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "K:number-bonds-k",
+     "type": "K-274"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:word-families-syllable-reading",
+     "type": "G1-333"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "K:count-syllables",
+     "type": "K-234"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:spell-picture-words",
+     "type": "G1-301"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:doubles-halves",
+     "type": "G1-286"
+    },
+    {
+     "key": "numbers",
+     "minutes": 20,
+     "point": "K:dot-to-dot-sequence",
+     "type": "K-285"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:map-key",
+     "type": "G1-528"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:sink-float",
+     "type": "G1-204"
+    }
+   ]
+  },
+  {
+   "id": "g1-week-6",
+   "slug": "first-grade-sub-plans-week-6",
+   "status": "live",
+   "grade": "1",
+   "position": "week",
+   "week": 6,
+   "title": "First Grade Sub Plans: Week 6",
+   "metaTitle": "First Grade Emergency Sub Plans: Week 6",
+   "metaDescription": "No-prep emergency sub plans for week 6 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "1:fluency-within-20",
+     "type": "G1-208"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:read-and-follow",
+     "type": "G1-242"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:blends-start",
+     "type": "G1-493"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "K:all-about-me-personal",
+     "type": "K-345"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:fact-families",
+     "type": "G1-220"
+    },
+    {
+     "key": "numbers",
+     "minutes": 20,
+     "point": "1:count-on-back-hops",
+     "type": "G1-118"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:grid-copy",
+     "type": "K-299"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:food-groups",
+     "type": "G1-207"
+    }
+   ]
+  },
+  {
+   "id": "g1-week-7",
+   "slug": "first-grade-sub-plans-week-7",
+   "status": "live",
+   "grade": "1",
+   "position": "week",
+   "week": 7,
+   "title": "First Grade Sub Plans: Week 7",
+   "metaTitle": "First Grade Emergency Sub Plans: Week 7",
+   "metaDescription": "No-prep emergency sub plans for week 7 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "K:count-forward-missing",
+     "type": "K-632"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:cloze",
+     "type": "G1-350"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:digraphs",
+     "type": "G1-380"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:unscramble-sentence",
+     "type": "G1-282"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:true-false-equations",
+     "type": "G1-443"
+    },
+    {
+     "key": "numbers",
+     "minutes": 20,
+     "point": "K:dot-to-dot-sequence",
+     "type": "K-285"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:mazes",
+     "type": "G1-421",
+     "title": "Help the Earthworm Reach the Leaf"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:family-generations",
+     "type": "G1-385"
+    }
+   ]
+  },
+  {
+   "id": "g1-week-8",
+   "slug": "first-grade-sub-plans-week-8",
+   "status": "live",
+   "grade": "1",
+   "position": "week",
+   "week": 8,
+   "title": "First Grade Sub Plans: Week 8",
+   "metaTitle": "First Grade Emergency Sub Plans: Week 8",
+   "metaDescription": "No-prep emergency sub plans for week 8 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "1:fluency-within-20",
+     "type": "G1-216"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:story-sequencing",
+     "type": "G1-402"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:blends-start",
+     "type": "G1-493"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:question-words",
+     "type": "G1-374"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:number-walls",
+     "type": "G1-246"
+    },
+    {
+     "key": "problems",
+     "minutes": 20,
+     "point": "1:add-three-addends",
+     "type": "G1-570"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:patterns",
+     "type": "K-053"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:feelings",
+     "type": "K-334"
+    }
+   ]
+  },
+  {
+   "id": "g1-week-9",
+   "slug": "first-grade-sub-plans-week-9",
+   "status": "live",
+   "grade": "1",
+   "position": "week",
+   "week": 9,
+   "title": "First Grade Sub Plans: Week 9",
+   "metaTitle": "First Grade Emergency Sub Plans: Week 9",
+   "metaDescription": "No-prep emergency sub plans for week 9 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "K:number-bonds-k",
+     "type": "K-243"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:story-key-details",
+     "type": "G1-579"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "K:beginning-sounds",
+     "type": "K-328"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:unscramble-sentence",
+     "type": "G1-283"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:true-false-equations",
+     "type": "G1-443"
+    },
+    {
+     "key": "numbers",
+     "minutes": 20,
+     "point": "1:odd-even-pairs",
+     "type": "G1-351"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:mazes",
+     "type": "K-406"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:find-the-differences",
+     "type": "G1-415"
+    }
+   ]
+  },
+  {
+   "id": "g1-week-10",
+   "slug": "first-grade-sub-plans-week-10",
+   "status": "live",
+   "grade": "1",
+   "position": "week",
+   "week": 10,
+   "title": "First Grade Sub Plans: Week 10",
+   "metaTitle": "First Grade Emergency Sub Plans: Week 10",
+   "metaDescription": "No-prep emergency sub plans for week 10 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "1:missing-number-equations",
+     "type": "G1-215"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:characters-setting-events",
+     "type": "G1-580"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:rhyming",
+     "type": "G1-345"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:question-words",
+     "type": "G1-374"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:number-walls",
+     "type": "G1-267"
+    },
+    {
+     "key": "problems",
+     "minutes": 20,
+     "point": "1:word-problems",
+     "type": "G1-213"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:spot-the-difference",
+     "type": "K-400"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:story-sequencing",
+     "type": "G1-401"
+    }
+   ]
+  },
+  {
+   "id": "g1-week-11",
+   "slug": "first-grade-sub-plans-week-11",
+   "status": "live",
+   "grade": "1",
+   "position": "week",
+   "week": 11,
+   "title": "First Grade Sub Plans: Week 11",
+   "metaTitle": "First Grade Emergency Sub Plans: Week 11",
+   "metaDescription": "No-prep emergency sub plans for week 11 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "1:fluency-within-20",
+     "type": "G1-217"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:retell-and-lesson",
+     "type": "G1-581"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:phoneme-boxes",
+     "type": "G1-312"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:spell-picture-words",
+     "type": "G1-304"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:add-within-10-models",
+     "type": "G1-110"
+    },
+    {
+     "key": "numbers",
+     "minutes": 20,
+     "point": "1:count-on-back-hops",
+     "type": "G1-116"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:mazes",
+     "type": "G1-424"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:animal-classes-coverings",
+     "type": "G1-205"
+    }
+   ]
+  },
+  {
+   "id": "g1-week-12",
+   "slug": "first-grade-sub-plans-week-12",
+   "status": "live",
+   "grade": "1",
+   "position": "week",
+   "week": 12,
+   "title": "First Grade Sub Plans: Week 12",
+   "metaTitle": "First Grade Emergency Sub Plans: Week 12",
+   "metaDescription": "No-prep emergency sub plans for week 12 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "K:count-forward-missing",
+     "type": "K-632"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:story-key-details",
+     "type": "G1-579"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:long-or-short-vowel",
+     "type": "G1-495"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:unscramble-sentence",
+     "type": "G1-249"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:subtract-cross-out",
+     "type": "G1-104"
+    },
+    {
+     "key": "problems",
+     "minutes": 20,
+     "point": "1:word-problems",
+     "type": "G1-238"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:mazes",
+     "type": "K-411"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:habitats-needs",
+     "type": "G1-206"
+    }
+   ]
+  },
+  {
+   "id": "g1-week-13",
+   "slug": "first-grade-sub-plans-week-13",
+   "status": "live",
+   "grade": "1",
+   "position": "week",
+   "week": 13,
+   "title": "First Grade Sub Plans: Week 13",
+   "metaTitle": "First Grade Emergency Sub Plans: Week 13",
+   "metaDescription": "No-prep emergency sub plans for week 13 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "K:number-bonds-k",
+     "type": "K-274"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:retell-and-lesson",
+     "type": "G1-581"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:digraphs",
+     "type": "G1-392"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:spell-picture-words",
+     "type": "G1-258"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:tens-and-ones",
+     "type": "G1-563"
+    },
+    {
+     "key": "numbers",
+     "minutes": 20,
+     "point": "K:teen-numbers",
+     "type": "K-448"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:patterns",
+     "type": "K-049"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:feelings",
+     "type": "K-331"
+    }
+   ]
+  },
+  {
+   "id": "g1-week-14",
+   "slug": "first-grade-sub-plans-week-14",
+   "status": "live",
+   "grade": "1",
+   "position": "week",
+   "week": 14,
+   "title": "First Grade Sub Plans: Week 14",
+   "metaTitle": "First Grade Emergency Sub Plans: Week 14",
+   "metaDescription": "No-prep emergency sub plans for week 14 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "1:alphabetical-order",
+     "type": "G1-262"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:read-and-follow",
+     "type": "G1-338"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:word-classes",
+     "type": "G1-293"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:unscramble-sentence",
+     "type": "G1-282"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:doubles-halves",
+     "type": "G1-288"
+    },
+    {
+     "key": "numbers",
+     "minutes": 20,
+     "point": "1:number-words",
+     "type": "G1-223"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:grid-copy",
+     "type": "K-300"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:sink-float",
+     "type": "G1-204"
+    }
+   ]
+  },
+  {
+   "id": "g1-week-15",
+   "slug": "first-grade-sub-plans-week-15",
+   "status": "live",
+   "grade": "1",
+   "position": "week",
+   "week": 15,
+   "title": "First Grade Sub Plans: Week 15",
+   "metaTitle": "First Grade Emergency Sub Plans: Week 15",
+   "metaDescription": "No-prep emergency sub plans for week 15 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "1:number-of-the-day",
+     "type": "G1-243"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:word-families-syllable-reading",
+     "type": "G1-332"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:long-or-short-vowel",
+     "type": "G1-495"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:pronouns",
+     "type": "G1-352"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:tens-and-ones",
+     "type": "G1-564"
+    },
+    {
+     "key": "numbers",
+     "minutes": 20,
+     "point": "1:count-on-back-hops",
+     "type": "G1-119"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:map-key",
+     "type": "G1-528"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:family-generations",
+     "type": "G1-386"
+    }
+   ]
+  },
+  {
+   "id": "g1-week-16",
+   "slug": "first-grade-sub-plans-week-16",
+   "status": "live",
+   "grade": "1",
+   "position": "week",
+   "week": 16,
+   "title": "First Grade Sub Plans: Week 16",
+   "metaTitle": "First Grade Emergency Sub Plans: Week 16",
+   "metaDescription": "No-prep emergency sub plans for week 16 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "1:alphabetical-order",
+     "type": "G1-263"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:cloze",
+     "type": "G1-368"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:word-classes",
+     "type": "G1-300"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:joining-words",
+     "type": "G1-594"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:fluency-within-20",
+     "type": "G1-439"
+    },
+    {
+     "key": "numbers",
+     "minutes": 20,
+     "point": "1:hundreds-chart",
+     "type": "G1-310"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:mazes",
+     "type": "G1-425"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:story-sequencing",
+     "type": "G1-401"
+    }
+   ]
+  },
+  {
+   "id": "g1-week-17",
+   "slug": "first-grade-sub-plans-week-17",
+   "status": "live",
+   "grade": "1",
+   "position": "week",
+   "week": 17,
+   "title": "First Grade Sub Plans: Week 17",
+   "metaTitle": "First Grade Emergency Sub Plans: Week 17",
+   "metaDescription": "No-prep emergency sub plans for week 17 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "1:one-ten-more-less",
+     "type": "G1-131"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:read-and-follow",
+     "type": "G1-341"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:rhyming",
+     "type": "G1-309"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:verb-tense",
+     "type": "G1-595"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:fact-families",
+     "type": "G1-209"
+    },
+    {
+     "key": "numbers",
+     "minutes": 20,
+     "point": "1:number-line-placement",
+     "type": "G1-274"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:spot-the-difference",
+     "type": "K-399"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:food-groups",
+     "type": "G1-207"
+    }
+   ]
+  },
+  {
+   "id": "g1-week-18",
+   "slug": "first-grade-sub-plans-week-18",
+   "status": "live",
+   "grade": "1",
+   "position": "week",
+   "week": 18,
+   "title": "First Grade Sub Plans: Week 18",
+   "metaTitle": "First Grade Emergency Sub Plans: Week 18",
+   "metaDescription": "No-prep emergency sub plans for week 18 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "1:skip-counting",
+     "type": "G1-123"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:characters-setting-events",
+     "type": "G1-580"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:blends-start",
+     "type": "G1-493"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:capitals-names-days-months",
+     "type": "G1-593"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:number-walls",
+     "type": "G1-246"
+    },
+    {
+     "key": "numbers",
+     "minutes": 20,
+     "point": "K:dot-to-dot-sequence",
+     "type": "K-285"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:mazes",
+     "type": "K-405",
+     "title": "Help the Pig Reach the Mud Puddle"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:find-the-differences",
+     "type": "G1-415"
+    }
+   ]
+  },
+  {
+   "id": "g1-week-19",
+   "slug": "first-grade-sub-plans-week-19",
+   "status": "live",
+   "grade": "1",
+   "position": "week",
+   "week": 19,
+   "title": "First Grade Sub Plans: Week 19",
+   "metaTitle": "First Grade Emergency Sub Plans: Week 19",
+   "metaDescription": "No-prep emergency sub plans for week 19 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "1:one-ten-more-less",
+     "type": "G1-132"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:story-sequencing",
+     "type": "G1-400"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:opposites",
+     "type": "G1-307"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:joining-words",
+     "type": "G1-594"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:mental-math-to-100",
+     "type": "G1-446"
+    },
+    {
+     "key": "problems",
+     "minutes": 20,
+     "point": "1:word-problems",
+     "type": "G1-239"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:patterns",
+     "type": "K-053"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:feelings",
+     "type": "K-331"
+    }
+   ]
+  },
+  {
+   "id": "g1-week-20",
+   "slug": "first-grade-sub-plans-week-20",
+   "status": "live",
+   "grade": "1",
+   "position": "week",
+   "week": 20,
+   "title": "First Grade Sub Plans: Week 20",
+   "metaTitle": "First Grade Emergency Sub Plans: Week 20",
+   "metaDescription": "No-prep emergency sub plans for week 20 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "1:number-of-the-day",
+     "type": "G1-256"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:word-families-syllable-reading",
+     "type": "G1-333"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:shades-of-meaning",
+     "type": "G1-396"
+    },
+    {
+     "key": "writing",
+     "minutes": 25,
+     "point": "1:true-story-plan-and-draft",
+     "type": "G1-616"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:add-three-addends",
+     "type": "G1-445"
+    },
+    {
+     "key": "numbers",
+     "minutes": 20,
+     "point": "1:odd-even-pairs",
+     "type": "G1-351"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:mazes",
+     "type": "G1-420",
+     "title": "Help the Tortoise Find the Watermelon"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:animal-classes-coverings",
+     "type": "G1-201"
+    }
+   ]
+  },
+  {
+   "id": "g1-week-21",
+   "slug": "first-grade-sub-plans-week-21",
+   "status": "live",
+   "grade": "1",
+   "position": "week",
+   "week": 21,
+   "title": "First Grade Sub Plans: Week 21",
+   "metaTitle": "First Grade Emergency Sub Plans: Week 21",
+   "metaDescription": "No-prep emergency sub plans for week 21 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "1:missing-number-equations",
+     "type": "G1-218"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:digraphs",
+     "type": "G1-588"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:synonyms",
+     "type": "G1-395"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:spell-picture-words",
+     "type": "G1-301"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:add-within-10-models",
+     "type": "G1-102"
+    },
+    {
+     "key": "numbers",
+     "minutes": 20,
+     "point": "1:skip-counting",
+     "type": "G1-278"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:grid-copy",
+     "type": "K-502"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:habitats-needs",
+     "type": "G1-202"
+    }
+   ]
+  },
+  {
+   "id": "g1-week-22",
+   "slug": "first-grade-sub-plans-week-22",
+   "status": "live",
+   "grade": "1",
+   "position": "week",
+   "week": 22,
+   "title": "First Grade Sub Plans: Week 22",
+   "metaTitle": "First Grade Emergency Sub Plans: Week 22",
+   "metaDescription": "No-prep emergency sub plans for week 22 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "K:number-bonds-k",
+     "type": "K-243"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:info-text-key-details",
+     "type": "G1-575"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:opposites",
+     "type": "G1-337"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:pronouns",
+     "type": "G1-372"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:time-read",
+     "type": "G1-148"
+    },
+    {
+     "key": "numbers",
+     "minutes": 20,
+     "point": "1:hundreds-chart",
+     "type": "G1-130"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:spot-the-difference",
+     "type": "K-400"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:family-generations",
+     "type": "G1-385"
+    }
+   ]
+  },
+  {
+   "id": "g1-week-23",
+   "slug": "first-grade-sub-plans-week-23",
+   "status": "live",
+   "grade": "1",
+   "position": "week",
+   "week": 23,
+   "title": "First Grade Sub Plans: Week 23",
+   "metaTitle": "First Grade Emergency Sub Plans: Week 23",
+   "metaDescription": "No-prep emergency sub plans for week 23 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "1:days-months-seasons",
+     "type": "G1-321"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:main-topic-key-details",
+     "type": "G1-576"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:shades-of-meaning",
+     "type": "G1-396"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:unscramble-sentence",
+     "type": "G1-283"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:true-false-equations",
+     "type": "G1-443"
+    },
+    {
+     "key": "numbers",
+     "minutes": 20,
+     "point": "1:count-on-back-hops",
+     "type": "G1-117"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:mazes",
+     "type": "K-406",
+     "title": "Help the Kitten Get to the Milk"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:sink-float",
+     "type": "G1-204"
+    }
+   ]
+  },
+  {
+   "id": "g1-week-24",
+   "slug": "first-grade-sub-plans-week-24",
+   "status": "live",
+   "grade": "1",
+   "position": "week",
+   "week": 24,
+   "title": "First Grade Sub Plans: Week 24",
+   "metaTitle": "First Grade Emergency Sub Plans: Week 24",
+   "metaDescription": "No-prep emergency sub plans for week 24 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "K:count-forward-missing",
+     "type": "K-632"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:info-text-key-details",
+     "type": "G1-575"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:phoneme-boxes",
+     "type": "G1-312"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:question-words",
+     "type": "G1-374"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:time-read",
+     "type": "G1-477"
+    },
+    {
+     "key": "numbers",
+     "minutes": 20,
+     "point": "1:ordinal-numbers",
+     "type": "G1-317"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:mazes",
+     "type": "G1-421",
+     "title": "Help the Gerbil Reach the Blueberry"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:story-sequencing",
+     "type": "G1-401"
+    }
+   ]
+  },
+  {
+   "id": "g1-week-25",
+   "slug": "first-grade-sub-plans-week-25",
+   "status": "live",
+   "grade": "1",
+   "position": "week",
+   "week": 25,
+   "title": "First Grade Sub Plans: Week 25",
+   "metaTitle": "First Grade Emergency Sub Plans: Week 25",
+   "metaDescription": "No-prep emergency sub plans for week 25 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "1:fluency-within-20",
+     "type": "G1-214"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:main-topic-key-details",
+     "type": "G1-576"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:syllables-split",
+     "type": "G1-325"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:spell-picture-words",
+     "type": "G1-304"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:coins",
+     "type": "G1-229"
+    },
+    {
+     "key": "numbers",
+     "minutes": 20,
+     "point": "1:number-words",
+     "type": "G1-227"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:map-key",
+     "type": "G1-528"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:food-groups",
+     "type": "G1-207"
+    }
+   ]
+  },
+  {
+   "id": "g1-week-26",
+   "slug": "first-grade-sub-plans-week-26",
+   "status": "live",
+   "grade": "1",
+   "position": "week",
+   "week": 26,
+   "title": "First Grade Sub Plans: Week 26",
+   "metaTitle": "First Grade Emergency Sub Plans: Week 26",
+   "metaDescription": "No-prep emergency sub plans for week 26 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "1:alphabetical-order",
+     "type": "G1-262"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:cloze",
+     "type": "G1-350"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:word-classes",
+     "type": "G1-293"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:verb-tense",
+     "type": "G1-595"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:shape-attributes",
+     "type": "G1-382"
+    },
+    {
+     "key": "problems",
+     "minutes": 20,
+     "point": "1:word-problems",
+     "type": "G1-240"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:mazes",
+     "type": "K-411",
+     "title": "Count Along with the Elephant to the Watermelon"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:animal-classes-coverings",
+     "type": "G1-205"
+    }
+   ]
+  },
+  {
+   "id": "g1-week-27",
+   "slug": "first-grade-sub-plans-week-27",
+   "status": "live",
+   "grade": "1",
+   "position": "week",
+   "week": 27,
+   "title": "First Grade Sub Plans: Week 27",
+   "metaTitle": "First Grade Emergency Sub Plans: Week 27",
+   "metaDescription": "No-prep emergency sub plans for week 27 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "1:number-of-the-day",
+     "type": "G1-257"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:read-and-follow",
+     "type": "G1-242"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:syllables-split",
+     "type": "G1-305"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:pronouns",
+     "type": "G1-352"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:measure-length-units",
+     "type": "G1-139"
+    },
+    {
+     "key": "numbers",
+     "minutes": 20,
+     "point": "K:teen-numbers",
+     "type": "K-448"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:spot-the-difference",
+     "type": "K-399"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:habitats-needs",
+     "type": "G1-206"
+    }
+   ]
+  },
+  {
+   "id": "g1-week-28",
+   "slug": "first-grade-sub-plans-week-28",
+   "status": "live",
+   "grade": "1",
+   "position": "week",
+   "week": 28,
+   "title": "First Grade Sub Plans: Week 28",
+   "metaTitle": "First Grade Emergency Sub Plans: Week 28",
+   "metaDescription": "No-prep emergency sub plans for week 28 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "1:one-ten-more-less",
+     "type": "G1-131"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:story-key-details",
+     "type": "G1-579"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:rhyming",
+     "type": "G1-343"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:capitals-names-days-months",
+     "type": "G1-593"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:coins",
+     "type": "G1-232"
+    },
+    {
+     "key": "numbers",
+     "minutes": 20,
+     "point": "1:skip-counting",
+     "type": "G1-280"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:mazes",
+     "type": "G1-424",
+     "title": "Help the Bee Pick Up Every Sunflower"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:family-generations",
+     "type": "G1-386"
+    }
+   ]
+  },
+  {
+   "id": "g1-week-29",
+   "slug": "first-grade-sub-plans-week-29",
+   "status": "live",
+   "grade": "1",
+   "position": "week",
+   "week": 29,
+   "title": "First Grade Sub Plans: Week 29",
+   "metaTitle": "First Grade Emergency Sub Plans: Week 29",
+   "metaDescription": "No-prep emergency sub plans for week 29 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "1:days-months-seasons",
+     "type": "G1-321"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:retell-and-lesson",
+     "type": "G1-581"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:long-or-short-vowel",
+     "type": "G1-495"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:unscramble-sentence",
+     "type": "G1-249"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:bar-graphs",
+     "type": "G1-144"
+    },
+    {
+     "key": "numbers",
+     "minutes": 20,
+     "point": "1:number-line-placement",
+     "type": "G1-276"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:grid-copy",
+     "type": "K-502"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:animal-classes-coverings",
+     "type": "G1-201"
+    }
+   ]
+  },
+  {
+   "id": "g1-week-30",
+   "slug": "first-grade-sub-plans-week-30",
+   "status": "live",
+   "grade": "1",
+   "position": "week",
+   "week": 30,
+   "title": "First Grade Sub Plans: Week 30",
+   "metaTitle": "First Grade Emergency Sub Plans: Week 30",
+   "metaDescription": "No-prep emergency sub plans for week 30 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 15,
+     "point": "K:number-bonds-k",
+     "type": "K-274"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:word-families-syllable-reading",
+     "type": "G1-332"
+    },
+    {
+     "key": "phonics",
+     "minutes": 20,
+     "point": "1:opposites",
+     "type": "G1-307"
+    },
+    {
+     "key": "writing",
+     "minutes": 25,
+     "point": "1:true-story-plan-and-draft",
+     "type": "G1-616"
+    },
+    {
+     "key": "math",
+     "minutes": 20,
+     "point": "1:measure-length-units",
+     "type": "G1-139"
+    },
+    {
+     "key": "numbers",
+     "minutes": 20,
+     "point": "1:hundreds-chart",
+     "type": "G1-347"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:mazes",
+     "type": "K-405",
+     "title": "Help the Boy on the Bike Reach the Slide"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:habitats-needs",
+     "type": "G1-202"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-1",
+   "slug": "second-grade-sub-plans-week-1",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 1,
+   "title": "Second Grade Sub Plans: Week 1",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 1",
+   "metaDescription": "No-prep emergency sub plans for week 1 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "1:fluency-within-20",
+     "type": "G1-216"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:read-and-follow",
+     "type": "G1-339"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:digraphs",
+     "type": "G2-372"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:unscramble-sentence",
+     "type": "G1-283"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "1:number-walls",
+     "type": "G1-246"
+    },
+    {
+     "key": "problems",
+     "minutes": 15,
+     "point": "1:word-problems",
+     "type": "G1-567"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "2:plant-parts",
+     "type": "G2-363"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:find-differences",
+     "type": "G2-388",
+     "title": "Find 10 Differences: In the Park"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:feelings",
+     "type": "K-334"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-2",
+   "slug": "second-grade-sub-plans-week-2",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 2,
+   "title": "Second Grade Sub Plans: Week 2",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 2",
+   "metaDescription": "No-prep emergency sub plans for week 2 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "1:number-of-the-day",
+     "type": "G1-257"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:cloze",
+     "type": "G1-350"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:vowel-teams-long-a-e-o",
+     "type": "G2-531"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:joining-words",
+     "type": "G1-594"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "1:fact-families",
+     "type": "G1-220"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "1:hundreds-chart",
+     "type": "G1-310"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "2:habitats-adaptations",
+     "type": "G2-381"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:mazes",
+     "type": "G1-420"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:story-sequencing",
+     "type": "G1-401"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-3",
+   "slug": "second-grade-sub-plans-week-3",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 3,
+   "title": "Second Grade Sub Plans: Week 3",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 3",
+   "metaDescription": "No-prep emergency sub plans for week 3 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "1:one-ten-more-less",
+     "type": "G1-132"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:story-key-details",
+     "type": "G1-579"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:word-classes",
+     "type": "G2-275"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:sentence-boundaries",
+     "type": "G2-281"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:bundle-ten-ones",
+     "type": "G2-404"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "1:skip-counting",
+     "type": "G1-279"
+    },
+    {
+     "key": "social",
+     "minutes": 15,
+     "point": "2:family-relationships",
+     "type": "G2-362"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:grid-copy",
+     "type": "K-299"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:find-the-differences",
+     "type": "G1-415"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-4",
+   "slug": "second-grade-sub-plans-week-4",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 4,
+   "title": "Second Grade Sub Plans: Week 4",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 4",
+   "metaDescription": "No-prep emergency sub plans for week 4 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:skip-count-5-10-100",
+     "type": "G2-304"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:characters-setting-events",
+     "type": "G1-580"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:short-or-long-vowel",
+     "type": "G2-530"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:verb-forms",
+     "type": "G2-334"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "1:mental-math-to-100",
+     "type": "G1-446"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "1:coins",
+     "type": "G1-229"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "2:life-cycles",
+     "type": "G2-365"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:map-key",
+     "type": "G1-528"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:days-months-seasons",
+     "type": "G1-321"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-5",
+   "slug": "second-grade-sub-plans-week-5",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 5,
+   "title": "Second Grade Sub Plans: Week 5",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 5",
+   "metaDescription": "No-prep emergency sub plans for week 5 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "1:alphabetical-order",
+     "type": "G1-263"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:retell-and-lesson",
+     "type": "G1-581"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:word-classes",
+     "type": "G2-286"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:pronouns",
+     "type": "G2-353"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:expanded-form-digit-value",
+     "type": "G2-401"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "1:number-line-placement",
+     "type": "G1-277"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "1:animal-classes-coverings",
+     "type": "G1-201"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:find-differences",
+     "type": "G2-389"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:time-read",
+     "type": "G1-148"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-6",
+   "slug": "second-grade-sub-plans-week-6",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 6,
+   "title": "Second Grade Sub Plans: Week 6",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 6",
+   "metaDescription": "No-prep emergency sub plans for week 6 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:hundred-more-less",
+     "type": "G2-226"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:info-text-key-details",
+     "type": "G1-575"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:bossy-r-ar-or",
+     "type": "G2-533"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:question-words",
+     "type": "G2-357"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:bundle-ten-ones",
+     "type": "G2-404"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "1:number-words",
+     "type": "G1-224"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "1:habitats-needs",
+     "type": "G1-202"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:mazes",
+     "type": "G1-424",
+     "title": "Help the Bee Pick Up Every Sunflower"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:feelings",
+     "type": "K-331"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-7",
+   "slug": "second-grade-sub-plans-week-7",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 7,
+   "title": "Second Grade Sub Plans: Week 7",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 7",
+   "metaDescription": "No-prep emergency sub plans for week 7 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "1:fluency-within-20",
+     "type": "G1-217"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:main-topic-key-details",
+     "type": "G1-576"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:er-ir-ur",
+     "type": "G2-534"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:verb-forms",
+     "type": "G2-336"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:number-line-not-from-zero",
+     "type": "G2-305"
+    },
+    {
+     "key": "problems",
+     "minutes": 15,
+     "point": "1:word-problems",
+     "type": "G1-568"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "1:food-groups",
+     "type": "G1-207"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:find-differences",
+     "type": "G2-388",
+     "title": "Find 10 Differences: In the Forest"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:story-sequencing",
+     "type": "G1-401"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-8",
+   "slug": "second-grade-sub-plans-week-8",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 8,
+   "title": "Second Grade Sub Plans: Week 8",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 8",
+   "metaDescription": "No-prep emergency sub plans for week 8 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "1:number-of-the-day",
+     "type": "G1-256"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:read-and-follow",
+     "type": "G1-341"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:bossy-r-ar-or",
+     "type": "G2-533"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:pronouns",
+     "type": "G2-354"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:hundreds-chart-moves",
+     "type": "G2-321"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "1:true-false-equations",
+     "type": "G1-443"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "1:sink-float",
+     "type": "G1-204"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:mazes",
+     "type": "G1-425"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:find-the-differences",
+     "type": "G1-415"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-9",
+   "slug": "second-grade-sub-plans-week-9",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 9,
+   "title": "Second Grade Sub Plans: Week 9",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 9",
+   "metaDescription": "No-prep emergency sub plans for week 9 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:skip-count-5-10-100",
+     "type": "G2-314"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:cloze",
+     "type": "G1-350"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:compound-words",
+     "type": "G2-330"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:verb-tense",
+     "type": "G1-595"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:number-line-not-from-zero",
+     "type": "G2-395"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "1:check-answers",
+     "type": "G1-447"
+    },
+    {
+     "key": "social",
+     "minutes": 15,
+     "point": "2:cardinal-directions",
+     "type": "G2-369"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:grid-copy",
+     "type": "K-300"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:time-read",
+     "type": "G1-149"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-10",
+   "slug": "second-grade-sub-plans-week-10",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 10,
+   "title": "Second Grade Sub Plans: Week 10",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 10",
+   "metaDescription": "No-prep emergency sub plans for week 10 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:add-sub-within-100-practice",
+     "type": "G2-313"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:story-key-details",
+     "type": "G1-579"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:root-words",
+     "type": "G2-375"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:capitals-names-days-months",
+     "type": "G1-593"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:column-method",
+     "type": "G2-251"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "1:bar-model",
+     "type": "G1-448"
+    },
+    {
+     "key": "social",
+     "minutes": 15,
+     "point": "2:continents",
+     "type": "G2-370"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:find-differences",
+     "type": "G2-389"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:days-months-seasons",
+     "type": "G1-321"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-11",
+   "slug": "second-grade-sub-plans-week-11",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 11,
+   "title": "Second Grade Sub Plans: Week 11",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 11",
+   "metaDescription": "No-prep emergency sub plans for week 11 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "1:one-ten-more-less",
+     "type": "G1-132"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:read-and-follow",
+     "type": "G1-339"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:synonyms",
+     "type": "G2-358"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:unscramble-sentence",
+     "type": "G1-283"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:hundreds-chart-moves",
+     "type": "G2-323"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "1:skip-counting",
+     "type": "G1-281"
+    },
+    {
+     "key": "social",
+     "minutes": 15,
+     "point": "1:family-generations",
+     "type": "G1-385"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:mazes",
+     "type": "G1-420",
+     "title": "Help the Rabbit Find the Cabbage"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:feelings",
+     "type": "K-331"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-12",
+   "slug": "second-grade-sub-plans-week-12",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 12,
+   "title": "Second Grade Sub Plans: Week 12",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 12",
+   "metaDescription": "No-prep emergency sub plans for week 12 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "1:alphabetical-order",
+     "type": "G1-264"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:characters-setting-events",
+     "type": "G1-580"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:suffixes-ful-less-ly",
+     "type": "G2-536"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:sentence-boundaries",
+     "type": "G2-282"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:column-method",
+     "type": "G2-256"
+    },
+    {
+     "key": "problems",
+     "minutes": 15,
+     "point": "2:two-step-word-problems",
+     "type": "G2-506"
+    },
+    {
+     "key": "social",
+     "minutes": 15,
+     "point": "2:road-signs",
+     "type": "G2-361"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:map-key",
+     "type": "G1-528"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:time-read",
+     "type": "G1-477"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-13",
+   "slug": "second-grade-sub-plans-week-13",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 13,
+   "title": "Second Grade Sub Plans: Week 13",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 13",
+   "metaDescription": "No-prep emergency sub plans for week 13 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:hundred-more-less",
+     "type": "G2-226"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:read-and-answer",
+     "type": "G2-269",
+     "title": "Reading Comprehension: The Sandcastle"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:words-in-real-life",
+     "type": "G2-549"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:verb-forms",
+     "type": "G2-337"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "1:number-walls",
+     "type": "G1-289"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "1:hundreds-chart",
+     "type": "G1-347"
+    },
+    {
+     "key": "social",
+     "minutes": 15,
+     "point": "2:family-relationships",
+     "type": "G2-362"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:mazes",
+     "type": "G1-424",
+     "title": "Help the Crab Pick Up Every Shell"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:story-sequencing",
+     "type": "G1-401"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-14",
+   "slug": "second-grade-sub-plans-week-14",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 14,
+   "title": "Second Grade Sub Plans: Week 14",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 14",
+   "metaDescription": "No-prep emergency sub plans for week 14 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "1:fluency-within-20",
+     "type": "G1-216"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:cloze-context",
+     "type": "G2-350"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:adjective-or-adverb",
+     "type": "G2-551"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:question-words",
+     "type": "G2-357"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:expanded-form-digit-value",
+     "type": "G2-401"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "1:coins",
+     "type": "G1-229"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "2:life-cycles",
+     "type": "G2-366"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:find-differences",
+     "type": "G2-388"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:days-months-seasons",
+     "type": "G1-321"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-15",
+   "slug": "second-grade-sub-plans-week-15",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 15,
+   "title": "Second Grade Sub Plans: Week 15",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 15",
+   "metaDescription": "No-prep emergency sub plans for week 15 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "1:number-of-the-day",
+     "type": "G1-257"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:character-challenge",
+     "type": "G2-526"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:words-in-real-life",
+     "type": "G2-549"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:joining-words",
+     "type": "G1-594"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:subtract-with-blocks",
+     "type": "G2-513"
+    },
+    {
+     "key": "problems",
+     "minutes": 15,
+     "point": "1:word-problems",
+     "type": "G1-569"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "1:animal-classes-coverings",
+     "type": "G1-205"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:grid-copy",
+     "type": "K-502"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:find-the-differences",
+     "type": "G1-415"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-16",
+   "slug": "second-grade-sub-plans-week-16",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 16,
+   "title": "Second Grade Sub Plans: Week 16",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 16",
+   "metaDescription": "No-prep emergency sub plans for week 16 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:skip-count-5-10-100",
+     "type": "G2-304"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:fable-lesson",
+     "type": "G2-528"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "1:opposites",
+     "type": "G1-337"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:describe-a-picture",
+     "type": "G2-278"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "1:fact-families",
+     "type": "G1-220"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "1:number-line-placement",
+     "type": "G1-277"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "1:habitats-needs",
+     "type": "G1-206"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:mazes",
+     "type": "G1-425",
+     "title": "Bring the Fish to the Coral Safely"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:time-read",
+     "type": "G1-148"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-17",
+   "slug": "second-grade-sub-plans-week-17",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 17,
+   "title": "Second Grade Sub Plans: Week 17",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 17",
+   "metaDescription": "No-prep emergency sub plans for week 17 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:add-sub-within-100-practice",
+     "type": "G2-313"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:character-challenge",
+     "type": "G2-527"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "1:shades-of-meaning",
+     "type": "G1-396"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:true-story-plan-draft",
+     "type": "G2-572"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:subtract-with-blocks",
+     "type": "G2-513"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "1:number-words",
+     "type": "G1-224"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "1:food-groups",
+     "type": "G1-207"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:find-differences",
+     "type": "G2-389"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:feelings",
+     "type": "K-331"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-18",
+   "slug": "second-grade-sub-plans-week-18",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 18,
+   "title": "Second Grade Sub Plans: Week 18",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 18",
+   "metaDescription": "No-prep emergency sub plans for week 18 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "1:alphabetical-order",
+     "type": "G1-263"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:retell-and-lesson",
+     "type": "G1-581"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:word-classes",
+     "type": "G2-275"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:describe-a-picture",
+     "type": "G2-299"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "1:mental-math-to-100",
+     "type": "G1-558"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "1:skip-counting",
+     "type": "G1-279"
+    },
+    {
+     "key": "social",
+     "minutes": 15,
+     "point": "2:cardinal-directions",
+     "type": "G2-371"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:mazes",
+     "type": "G1-420",
+     "title": "Help the Tortoise Find the Watermelon"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:time-read",
+     "type": "G1-149"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-19",
+   "slug": "second-grade-sub-plans-week-19",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 19,
+   "title": "Second Grade Sub Plans: Week 19",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 19",
+   "metaDescription": "No-prep emergency sub plans for week 19 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "1:one-ten-more-less",
+     "type": "G1-132"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:diagram-and-text",
+     "type": "G2-521"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:digraphs",
+     "type": "G2-372",
+     "title": "Digraphs in Sentences: Circle and Count ng"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:true-story-plan-draft",
+     "type": "G2-572"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:time-5-min-quarter",
+     "type": "G2-249"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "1:true-false-equations",
+     "type": "G1-443"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "1:sink-float",
+     "type": "G1-204"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:map-key",
+     "type": "G1-528"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "K:grid-copy",
+     "type": "K-502"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-20",
+   "slug": "second-grade-sub-plans-week-20",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 20,
+   "title": "Second Grade Sub Plans: Week 20",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 20",
+   "metaDescription": "No-prep emergency sub plans for week 20 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:calendar",
+     "type": "G2-277"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:steps-in-order",
+     "type": "G2-522"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:compound-words",
+     "type": "G2-330"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:pronouns",
+     "type": "G2-353"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:number-line-not-from-zero",
+     "type": "G2-305"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "1:hundreds-chart",
+     "type": "G1-310"
+    },
+    {
+     "key": "social",
+     "minutes": 15,
+     "point": "1:family-generations",
+     "type": "G1-386"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:mazes",
+     "type": "G1-424",
+     "title": "Help the Lemur Pick Up Every Banana"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:time-read",
+     "type": "G1-477"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-21",
+   "slug": "second-grade-sub-plans-week-21",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 21,
+   "title": "Second Grade Sub Plans: Week 21",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 21",
+   "metaDescription": "No-prep emergency sub plans for week 21 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "1:fluency-within-20",
+     "type": "G1-217"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:diagram-and-text",
+     "type": "G2-521"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:synonyms",
+     "type": "G2-373"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:sentence-boundaries",
+     "type": "G2-307"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:shopping-money",
+     "type": "G2-289"
+    },
+    {
+     "key": "problems",
+     "minutes": 15,
+     "point": "1:word-problems",
+     "type": "G1-571"
+    },
+    {
+     "key": "social",
+     "minutes": 15,
+     "point": "2:continents",
+     "type": "G2-370"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:find-differences",
+     "type": "G2-389"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:time-5-min-quarter",
+     "type": "G2-250"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-22",
+   "slug": "second-grade-sub-plans-week-22",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 22,
+   "title": "Second Grade Sub Plans: Week 22",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 22",
+   "metaDescription": "No-prep emergency sub plans for week 22 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:hundred-more-less",
+     "type": "G2-226"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:steps-in-order",
+     "type": "G2-522"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:root-words",
+     "type": "G2-375"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:unscramble-sentence",
+     "type": "G1-283"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:bar-graphs",
+     "type": "G2-237"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "1:check-answers",
+     "type": "G1-447"
+    },
+    {
+     "key": "social",
+     "minutes": 15,
+     "point": "2:family-relationships",
+     "type": "G2-362"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:mazes",
+     "type": "G1-425",
+     "title": "Bring the Butterfly to the Rose Safely"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:time-read",
+     "type": "G1-148"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-23",
+   "slug": "second-grade-sub-plans-week-23",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 23,
+   "title": "Second Grade Sub Plans: Week 23",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 23",
+   "metaDescription": "No-prep emergency sub plans for week 23 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "1:number-of-the-day",
+     "type": "G1-256"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:cloze",
+     "type": "G1-350"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:vowel-teams-long-a-e-o",
+     "type": "G2-531"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:plan-informative-piece",
+     "type": "G2-565"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:line-plots",
+     "type": "G2-240"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "1:bar-model",
+     "type": "G1-448"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "1:animal-classes-coverings",
+     "type": "G1-201"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:grid-coordinates",
+     "type": "G2-279"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:time-5-min-quarter",
+     "type": "G2-249"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-24",
+   "slug": "second-grade-sub-plans-week-24",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 24,
+   "title": "Second Grade Sub Plans: Week 24",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 24",
+   "metaDescription": "No-prep emergency sub plans for week 24 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:skip-count-5-10-100",
+     "type": "G2-314"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:two-versions-of-a-tale",
+     "type": "G2-580"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:short-or-long-vowel",
+     "type": "G2-530"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:verb-forms",
+     "type": "G2-334"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:shopping-money",
+     "type": "G2-290"
+    },
+    {
+     "key": "problems",
+     "minutes": 15,
+     "point": "2:two-step-word-problems",
+     "type": "G2-510"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "1:habitats-needs",
+     "type": "G1-202"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:grid-copy",
+     "type": "K-502"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:mazes",
+     "type": "G1-421"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-25",
+   "slug": "second-grade-sub-plans-week-25",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 25,
+   "title": "Second Grade Sub Plans: Week 25",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 25",
+   "metaDescription": "No-prep emergency sub plans for week 25 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:odd-even",
+     "type": "G2-351"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:read-and-follow",
+     "type": "G1-341"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:er-ir-ur",
+     "type": "G2-534"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "1:verb-tense",
+     "type": "G1-595"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:bar-graphs",
+     "type": "G2-239"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "1:coins",
+     "type": "G1-229"
+    },
+    {
+     "key": "social",
+     "minutes": 15,
+     "point": "1:map-key",
+     "type": "G1-379"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:grid-coordinates",
+     "type": "G2-279"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:time-5-min-quarter",
+     "type": "G2-250"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-26",
+   "slug": "second-grade-sub-plans-week-26",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 26,
+   "title": "Second Grade Sub Plans: Week 26",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 26",
+   "metaDescription": "No-prep emergency sub plans for week 26 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "1:alphabetical-order",
+     "type": "G1-264"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:two-versions-of-a-tale",
+     "type": "G2-580"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:suffixes-ful-less-ly",
+     "type": "G2-536"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:friendly-letter",
+     "type": "G2-561"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:arrays",
+     "type": "G2-211"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "1:skip-counting",
+     "type": "G1-281"
+    },
+    {
+     "key": "social",
+     "minutes": 15,
+     "point": "2:cardinal-directions",
+     "type": "G2-369"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:find-differences",
+     "type": "G2-389"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:mazes",
+     "type": "G1-424",
+     "title": "Help the Foal Pick Up Every Apple"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-27",
+   "slug": "second-grade-sub-plans-week-27",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 27,
+   "title": "Second Grade Sub Plans: Week 27",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 27",
+   "metaDescription": "No-prep emergency sub plans for week 27 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:skip-count-3-4",
+     "type": "G2-207"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:read-and-answer",
+     "type": "G2-270"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "1:opposites",
+     "type": "G1-337"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:draft-an-opinion",
+     "type": "G2-559"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:column-method",
+     "type": "G2-257"
+    },
+    {
+     "key": "problems",
+     "minutes": 15,
+     "point": "1:word-problems",
+     "type": "G1-572"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "1:food-groups",
+     "type": "G1-207"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:grid-coordinates",
+     "type": "G2-279"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:time-read",
+     "type": "G1-149"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-28",
+   "slug": "second-grade-sub-plans-week-28",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 28,
+   "title": "Second Grade Sub Plans: Week 28",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 28",
+   "metaDescription": "No-prep emergency sub plans for week 28 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:add-sub-within-100-practice",
+     "type": "G2-313"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:info-text-key-details",
+     "type": "G1-575"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:word-classes",
+     "type": "G2-286"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:friendly-letter",
+     "type": "G2-561"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:equal-shares-shapes",
+     "type": "G2-228"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "1:hundreds-chart",
+     "type": "G1-347"
+    },
+    {
+     "key": "social",
+     "minutes": 15,
+     "point": "1:family-generations",
+     "type": "G1-385"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:mazes",
+     "type": "G1-420",
+     "title": "Help the Seagull Find the Boat"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:time-5-min-quarter",
+     "type": "G2-249"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-29",
+   "slug": "second-grade-sub-plans-week-29",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 29,
+   "title": "Second Grade Sub Plans: Week 29",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 29",
+   "metaDescription": "No-prep emergency sub plans for week 29 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:calendar",
+     "type": "G2-298"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:fable-lesson",
+     "type": "G2-529"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:adjective-or-adverb",
+     "type": "G2-551"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:draft-an-opinion",
+     "type": "G2-559"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:fraction-of-a-set",
+     "type": "G2-233"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "1:number-line-placement",
+     "type": "G1-277"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "1:sink-float",
+     "type": "G1-204"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:grid-coordinates",
+     "type": "G2-279"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:time-read",
+     "type": "G1-477"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-30",
+   "slug": "second-grade-sub-plans-week-30",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 30,
+   "title": "Second Grade Sub Plans: Week 30",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 30",
+   "metaDescription": "No-prep emergency sub plans for week 30 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "1:one-ten-more-less",
+     "type": "G1-132"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "1:main-topic-key-details",
+     "type": "G1-576"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:synonyms",
+     "type": "G2-358"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:question-words",
+     "type": "G2-357"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:equal-shares-shapes",
+     "type": "G2-229"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "1:number-words",
+     "type": "G1-224"
+    },
+    {
+     "key": "social",
+     "minutes": 15,
+     "point": "2:family-relationships",
+     "type": "G2-362"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:mazes",
+     "type": "G1-425",
+     "title": "Bring the Toy Car to the Garage Safely"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:time-5-min-quarter",
+     "type": "G2-250"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-31",
+   "slug": "second-grade-sub-plans-week-31",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 31,
+   "title": "Second Grade Sub Plans: Week 31",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 31",
+   "metaDescription": "No-prep emergency sub plans for week 31 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "1:fluency-within-20",
+     "type": "G1-216"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:cloze-context",
+     "type": "G2-350"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "1:shades-of-meaning",
+     "type": "G1-396"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:describe-a-picture",
+     "type": "G2-278"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:symmetry-line",
+     "type": "G2-248"
+    },
+    {
+     "key": "problems",
+     "minutes": 15,
+     "point": "2:two-step-word-problems",
+     "type": "G2-511"
+    },
+    {
+     "key": "social",
+     "minutes": 15,
+     "point": "2:continents",
+     "type": "G2-370"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:find-differences",
+     "type": "G2-389"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:grid-coordinates",
+     "type": "G2-302"
+    }
+   ]
+  },
+  {
+   "id": "g2-week-32",
+   "slug": "second-grade-sub-plans-week-32",
+   "status": "live",
+   "grade": "2",
+   "position": "week",
+   "week": 32,
+   "title": "Second Grade Sub Plans: Week 32",
+   "metaTitle": "Second Grade Emergency Sub Plans: Week 32",
+   "metaDescription": "No-prep emergency sub plans for week 32 of second grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:odd-even",
+     "type": "G2-218"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:character-challenge",
+     "type": "G2-526"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:compound-words",
+     "type": "G2-330"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:pronouns",
+     "type": "G2-354"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:fraction-of-a-set",
+     "type": "G2-233"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "1:true-false-equations",
+     "type": "G1-443"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "1:animal-classes-coverings",
+     "type": "G1-205"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:map-key",
+     "type": "G1-528"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:symmetry-complete",
+     "type": "G1-432"
+    }
+   ]
+  },
+  {
+   "id": "g3-week-1",
+   "slug": "third-grade-sub-plans-week-1",
+   "status": "live",
+   "grade": "3",
+   "position": "week",
+   "week": 1,
+   "title": "Third Grade Sub Plans: Week 1",
+   "metaTitle": "Third Grade Emergency Sub Plans: Week 1",
+   "metaDescription": "No-prep emergency sub plans for week 1 of third grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:add-sub-within-100-practice",
+     "type": "G2-313"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:read-and-answer",
+     "type": "G2-269",
+     "level": "hard",
+     "title": "Reading Comprehension: The Sandcastle"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "3:closed-open-syllables",
+     "type": "G3-512"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:describe-a-picture",
+     "type": "G2-278"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:column-method",
+     "type": "G2-256"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "2:hundreds-chart-moves",
+     "type": "G2-321"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "2:plant-parts",
+     "type": "G2-363"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:find-differences",
+     "type": "G2-389"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:symmetry-complete",
+     "type": "G1-432"
+    }
+   ]
+  },
+  {
+   "id": "g3-week-2",
+   "slug": "third-grade-sub-plans-week-2",
+   "status": "live",
+   "grade": "3",
+   "position": "week",
+   "week": 2,
+   "title": "Third Grade Sub Plans: Week 2",
+   "metaTitle": "Third Grade Emergency Sub Plans: Week 2",
+   "metaDescription": "No-prep emergency sub plans for week 2 of third grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "3:rounding",
+     "type": "G3-387"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:fable-lesson",
+     "type": "G2-528"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "3:suffixes-able-ment-ness-ful-less",
+     "type": "G3-516"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:verb-forms",
+     "type": "G2-334"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:arrays",
+     "type": "G2-211"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "2:skip-count-5-10-100",
+     "type": "G2-304"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "2:habitats-adaptations",
+     "type": "G2-381"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:grid-coordinates",
+     "type": "G2-279"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:symmetry-line",
+     "type": "G2-248"
+    }
+   ]
+  },
+  {
+   "id": "g3-week-3",
+   "slug": "third-grade-sub-plans-week-3",
+   "status": "live",
+   "grade": "3",
+   "position": "week",
+   "week": 3,
+   "title": "Third Grade Sub Plans: Week 3",
+   "metaTitle": "Third Grade Emergency Sub Plans: Week 3",
+   "metaDescription": "No-prep emergency sub plans for week 3 of third grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:skip-count-3-4",
+     "type": "G2-207"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:character-challenge",
+     "type": "G2-526"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "3:closed-open-syllables",
+     "type": "G3-513"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:sentence-boundaries",
+     "type": "G2-307"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "3:column-regrouping",
+     "type": "G3-357"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "2:expanded-form-digit-value",
+     "type": "G2-401"
+    },
+    {
+     "key": "social",
+     "minutes": 15,
+     "point": "2:family-relationships",
+     "type": "G2-362"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:mazes",
+     "type": "G1-424"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:calendar",
+     "type": "G2-277"
+    }
+   ]
+  },
+  {
+   "id": "g3-week-4",
+   "slug": "third-grade-sub-plans-week-4",
+   "status": "live",
+   "grade": "3",
+   "position": "week",
+   "week": 4,
+   "title": "Third Grade Sub Plans: Week 4",
+   "metaTitle": "Third Grade Emergency Sub Plans: Week 4",
+   "metaDescription": "No-prep emergency sub plans for week 4 of third grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "3:arithmetic-patterns",
+     "type": "G3-327"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:read-and-answer",
+     "type": "G2-270",
+     "level": "hard",
+     "title": "Reading Comprehension: A Card for Mom"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "3:suffixes-able-ment-ness-ful-less",
+     "type": "G3-517"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:friendly-letter",
+     "type": "G2-561"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:shopping-money",
+     "type": "G2-289"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "2:equal-shares-shapes",
+     "type": "G2-229"
+    },
+    {
+     "key": "social",
+     "minutes": 15,
+     "point": "3:continents-oceans",
+     "type": "G3-396"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:find-the-differences",
+     "type": "G1-412"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:time-5-min-quarter",
+     "type": "G2-250"
+    }
+   ]
+  },
+  {
+   "id": "g3-week-5",
+   "slug": "third-grade-sub-plans-week-5",
+   "status": "live",
+   "grade": "3",
+   "position": "week",
+   "week": 5,
+   "title": "Third Grade Sub Plans: Week 5",
+   "metaTitle": "Third Grade Emergency Sub Plans: Week 5",
+   "metaDescription": "No-prep emergency sub plans for week 5 of third grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:odd-even",
+     "type": "G2-218"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:fable-lesson",
+     "type": "G2-528"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:compound-words",
+     "type": "G2-330"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:verb-forms",
+     "type": "G2-336"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "3:mult-equal-groups",
+     "type": "G3-301"
+    },
+    {
+     "key": "problems",
+     "minutes": 15,
+     "point": "2:two-step-word-problems",
+     "type": "G2-506"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "2:life-cycles",
+     "type": "G2-365"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:grid-copy",
+     "type": "K-502"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "3:rounding",
+     "type": "G3-391"
+    }
+   ]
+  },
+  {
+   "id": "g3-week-6",
+   "slug": "third-grade-sub-plans-week-6",
+   "status": "live",
+   "grade": "3",
+   "position": "week",
+   "week": 6,
+   "title": "Third Grade Sub Plans: Week 6",
+   "metaTitle": "Third Grade Emergency Sub Plans: Week 6",
+   "metaDescription": "No-prep emergency sub plans for week 6 of third grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:hundred-more-less",
+     "type": "G2-226"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "3:story-evidence",
+     "type": "G3-502"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:suffixes-ful-less-ly",
+     "type": "G2-536"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:describe-a-picture",
+     "type": "G2-278"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "3:column-regrouping",
+     "type": "G3-362"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "2:bundle-ten-ones",
+     "type": "G2-404"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "2:sink-float",
+     "type": "G2-382"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:hundreds-chart-moves",
+     "type": "G2-322"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:find-differences",
+     "type": "G2-388"
+    }
+   ]
+  },
+  {
+   "id": "g3-week-7",
+   "slug": "third-grade-sub-plans-week-7",
+   "status": "live",
+   "grade": "3",
+   "position": "week",
+   "week": 7,
+   "title": "Third Grade Sub Plans: Week 7",
+   "metaTitle": "Third Grade Emergency Sub Plans: Week 7",
+   "metaDescription": "No-prep emergency sub plans for week 7 of third grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "3:times-tables",
+     "type": "G3-364"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "3:central-message",
+     "type": "G3-504"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:words-in-real-life",
+     "type": "G2-549"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:sentence-boundaries",
+     "type": "G2-307"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "3:mult-equal-groups",
+     "type": "G3-302"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "2:bar-graphs",
+     "type": "G2-239"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "2:moon-phases",
+     "type": "G2-367"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:symmetry-complete",
+     "type": "G1-432"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:grid-coordinates",
+     "type": "G2-303"
+    }
+   ]
+  },
+  {
+   "id": "g3-week-8",
+   "slug": "third-grade-sub-plans-week-8",
+   "status": "live",
+   "grade": "3",
+   "position": "week",
+   "week": 8,
+   "title": "Third Grade Sub Plans: Week 8",
+   "metaTitle": "Third Grade Emergency Sub Plans: Week 8",
+   "metaDescription": "No-prep emergency sub plans for week 8 of third grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "3:input-output",
+     "type": "G3-328"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "3:answer-with-evidence",
+     "type": "G3-494"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:compound-words",
+     "type": "G2-330"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:verb-forms",
+     "type": "G2-334"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:column-method",
+     "type": "G2-257"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "2:line-plots",
+     "type": "G2-240"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "2:day-and-night",
+     "type": "G2-368"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:symmetry-line",
+     "type": "G2-247"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:mazes",
+     "type": "G1-420"
+    }
+   ]
+  },
+  {
+   "id": "g3-week-9",
+   "slug": "third-grade-sub-plans-week-9",
+   "status": "live",
+   "grade": "3",
+   "position": "week",
+   "week": 9,
+   "title": "Third Grade Sub Plans: Week 9",
+   "metaTitle": "Third Grade Emergency Sub Plans: Week 9",
+   "metaDescription": "No-prep emergency sub plans for week 9 of third grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:number-line-not-from-zero",
+     "type": "G2-305"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "3:main-idea-key-details",
+     "type": "G3-496"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "3:closed-open-syllables",
+     "type": "G3-512"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:friendly-letter",
+     "type": "G2-561"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "3:mult-div-relationship",
+     "type": "G3-312"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "2:fraction-of-a-set",
+     "type": "G2-233"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "1:animal-classes-coverings",
+     "type": "G1-201"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:find-the-differences",
+     "type": "G1-415"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:calendar",
+     "type": "G2-297"
+    }
+   ]
+  },
+  {
+   "id": "g3-week-10",
+   "slug": "third-grade-sub-plans-week-10",
+   "status": "live",
+   "grade": "3",
+   "position": "week",
+   "week": 10,
+   "title": "Third Grade Sub Plans: Week 10",
+   "metaTitle": "Third Grade Emergency Sub Plans: Week 10",
+   "metaDescription": "No-prep emergency sub plans for week 10 of third grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:add-sub-within-100-practice",
+     "type": "G2-313"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "3:events-cause-effect",
+     "type": "G3-500"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "3:suffixes-able-ment-ness-ful-less",
+     "type": "G3-516"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "2:verb-forms",
+     "type": "G2-336"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "3:division-sharing",
+     "type": "G3-309"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "2:skip-count-5-10-100",
+     "type": "G2-304"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "1:habitats-needs",
+     "type": "G1-202"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:find-differences",
+     "type": "G2-388",
+     "title": "Find 10 Differences: In the Park"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:time-5-min-quarter",
+     "type": "G2-249"
+    }
+   ]
+  },
+  {
+   "id": "g3-week-11",
+   "slug": "third-grade-sub-plans-week-11",
+   "status": "live",
+   "grade": "3",
+   "position": "week",
+   "week": 11,
+   "title": "Third Grade Sub Plans: Week 11",
+   "metaTitle": "Third Grade Emergency Sub Plans: Week 11",
+   "metaDescription": "No-prep emergency sub plans for week 11 of third grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:skip-count-3-4",
+     "type": "G2-208"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "3:answer-with-evidence",
+     "type": "G3-495"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:suffixes-ful-less-ly",
+     "type": "G2-536"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "3:opinion-and-reasons",
+     "type": "G3-549"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "3:mult-div-relationship",
+     "type": "G3-369"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "2:expanded-form-digit-value",
+     "type": "G2-401"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "1:food-groups",
+     "type": "G1-207"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:grid-coordinates",
+     "type": "G2-302"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "3:rounding",
+     "type": "G3-391"
+    }
+   ]
+  },
+  {
+   "id": "g3-week-12",
+   "slug": "third-grade-sub-plans-week-12",
+   "status": "live",
+   "grade": "3",
+   "position": "week",
+   "week": 12,
+   "title": "Third Grade Sub Plans: Week 12",
+   "metaTitle": "Third Grade Emergency Sub Plans: Week 12",
+   "metaDescription": "No-prep emergency sub plans for week 12 of third grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "3:arithmetic-patterns",
+     "type": "G3-329"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "3:events-cause-effect",
+     "type": "G3-501"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "2:words-in-real-life",
+     "type": "G2-549"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "3:linking-words",
+     "type": "G3-550"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "3:division-sharing",
+     "type": "G3-309"
+    },
+    {
+     "key": "problems",
+     "minutes": 15,
+     "point": "3:muldiv-word-problems",
+     "type": "G3-370"
+    },
+    {
+     "key": "social",
+     "minutes": 15,
+     "point": "2:cardinal-directions",
+     "type": "G2-369"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:hundreds-chart-moves",
+     "type": "G2-322"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:symmetry-line",
+     "type": "G2-247"
+    }
+   ]
+  },
+  {
+   "id": "g3-week-13",
+   "slug": "third-grade-sub-plans-week-13",
+   "status": "live",
+   "grade": "3",
+   "position": "week",
+   "week": 13,
+   "title": "Third Grade Sub Plans: Week 13",
+   "metaTitle": "Third Grade Emergency Sub Plans: Week 13",
+   "metaDescription": "No-prep emergency sub plans for week 13 of third grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:odd-even",
+     "type": "G2-351"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:read-and-answer",
+     "type": "G2-271",
+     "level": "hard",
+     "title": "Reading Comprehension: Scout Learns to Sit"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "3:parts-of-speech",
+     "type": "G3-530"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "3:opinion-and-reasons",
+     "type": "G3-549"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:arrays",
+     "type": "G2-211"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "2:equal-shares-shapes",
+     "type": "G2-229"
+    },
+    {
+     "key": "social",
+     "minutes": 15,
+     "point": "2:continents",
+     "type": "G2-370"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:mazes",
+     "type": "G1-425"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:symmetry-complete",
+     "type": "G1-432"
+    }
+   ]
+  },
+  {
+   "id": "g3-week-14",
+   "slug": "third-grade-sub-plans-week-14",
+   "status": "live",
+   "grade": "3",
+   "position": "week",
+   "week": 14,
+   "title": "Third Grade Sub Plans: Week 14",
+   "metaTitle": "Third Grade Emergency Sub Plans: Week 14",
+   "metaDescription": "No-prep emergency sub plans for week 14 of third grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "3:times-tables",
+     "type": "G3-365"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:character-challenge",
+     "type": "G2-526"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "3:plural-nouns",
+     "type": "G3-532"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "3:linking-words",
+     "type": "G3-551"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:shopping-money",
+     "type": "G2-294"
+    },
+    {
+     "key": "problems",
+     "minutes": 15,
+     "point": "2:two-step-word-problems",
+     "type": "G2-510"
+    },
+    {
+     "key": "social",
+     "minutes": 15,
+     "point": "2:road-signs",
+     "type": "G2-361"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:grid-copy",
+     "type": "K-300"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:find-the-differences",
+     "type": "G1-415"
+    }
+   ]
+  },
+  {
+   "id": "g3-week-15",
+   "slug": "third-grade-sub-plans-week-15",
+   "status": "live",
+   "grade": "3",
+   "position": "week",
+   "week": 15,
+   "title": "Third Grade Sub Plans: Week 15",
+   "metaTitle": "Third Grade Emergency Sub Plans: Week 15",
+   "metaDescription": "No-prep emergency sub plans for week 15 of third grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:hundred-more-less",
+     "type": "G2-226"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "3:story-evidence",
+     "type": "G3-503"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "3:past-tense-verbs",
+     "type": "G3-534"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "3:opinion-and-reasons",
+     "type": "G3-549"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "3:time-to-minute",
+     "type": "G3-354"
+    },
+    {
+     "key": "problems",
+     "minutes": 15,
+     "point": "3:muldiv-word-problems",
+     "type": "G3-373"
+    },
+    {
+     "key": "social",
+     "minutes": 15,
+     "point": "1:map-key",
+     "type": "G2-505"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:grid-coordinates",
+     "type": "G2-308"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:calendar",
+     "type": "G2-277"
+    }
+   ]
+  },
+  {
+   "id": "g3-week-16",
+   "slug": "third-grade-sub-plans-week-16",
+   "status": "live",
+   "grade": "3",
+   "position": "week",
+   "week": 16,
+   "title": "Third Grade Sub Plans: Week 16",
+   "metaTitle": "Third Grade Emergency Sub Plans: Week 16",
+   "metaDescription": "No-prep emergency sub plans for week 16 of third grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:number-line-not-from-zero",
+     "type": "G2-395"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "3:central-message",
+     "type": "G3-505"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "3:parts-of-speech",
+     "type": "G3-531"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "3:linking-words",
+     "type": "G3-550"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "3:column-regrouping",
+     "type": "G3-363"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "2:bundle-ten-ones",
+     "type": "G2-404"
+    },
+    {
+     "key": "social",
+     "minutes": 15,
+     "point": "2:family-relationships",
+     "type": "G2-362"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:find-differences",
+     "type": "G2-389"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "3:thermometer",
+     "type": "G3-345"
+    }
+   ]
+  },
+  {
+   "id": "g3-week-17",
+   "slug": "third-grade-sub-plans-week-17",
+   "status": "live",
+   "grade": "3",
+   "position": "week",
+   "week": 17,
+   "title": "Third Grade Sub Plans: Week 17",
+   "metaTitle": "Third Grade Emergency Sub Plans: Week 17",
+   "metaDescription": "No-prep emergency sub plans for week 17 of third grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "3:input-output",
+     "type": "G3-328"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:read-and-answer",
+     "type": "G2-272",
+     "level": "hard",
+     "title": "Reading Comprehension: The Class Trip"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "3:past-tense-verbs",
+     "type": "G3-535"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "3:opinion-and-reasons",
+     "type": "G3-549"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "3:time-to-minute",
+     "type": "G3-354"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "3:rounding",
+     "type": "G3-323"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "2:life-cycles",
+     "type": "G2-366"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:symmetry-line",
+     "type": "G2-248"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:mazes",
+     "type": "G1-421"
+    }
+   ]
+  },
+  {
+   "id": "g3-week-18",
+   "slug": "third-grade-sub-plans-week-18",
+   "status": "live",
+   "grade": "3",
+   "position": "week",
+   "week": 18,
+   "title": "Third Grade Sub Plans: Week 18",
+   "metaTitle": "Third Grade Emergency Sub Plans: Week 18",
+   "metaDescription": "No-prep emergency sub plans for week 18 of third grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:skip-count-3-4",
+     "type": "G2-207"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "3:main-idea-key-details",
+     "type": "G3-497"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "3:closed-open-syllables",
+     "type": "G3-513"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "3:joining-words",
+     "type": "G3-520"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "3:area-model",
+     "type": "G3-488"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "2:hundreds-chart-moves",
+     "type": "G2-323"
+    },
+    {
+     "key": "social",
+     "minutes": 15,
+     "point": "3:continents-oceans",
+     "type": "G3-396"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:symmetry-complete",
+     "type": "G1-432"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "3:elapsed-duration",
+     "type": "G3-344"
+    }
+   ]
+  },
+  {
+   "id": "g3-week-19",
+   "slug": "third-grade-sub-plans-week-19",
+   "status": "live",
+   "grade": "3",
+   "position": "week",
+   "week": 19,
+   "title": "Third Grade Sub Plans: Week 19",
+   "metaTitle": "Third Grade Emergency Sub Plans: Week 19",
+   "metaDescription": "No-prep emergency sub plans for week 19 of third grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "3:arithmetic-patterns",
+     "type": "G3-327"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "3:answer-with-evidence",
+     "type": "G3-494"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "3:possessive-nouns",
+     "type": "G3-526"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "3:linking-words",
+     "type": "G3-551"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:mass-grams",
+     "type": "G2-252"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "2:bar-graphs",
+     "type": "G2-239"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "2:sink-float",
+     "type": "G2-383"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:grid-coordinates",
+     "type": "G2-303"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:time-5-min-quarter",
+     "type": "G2-250"
+    }
+   ]
+  },
+  {
+   "id": "g3-week-20",
+   "slug": "third-grade-sub-plans-week-20",
+   "status": "live",
+   "grade": "3",
+   "position": "week",
+   "week": 20,
+   "title": "Third Grade Sub Plans: Week 20",
+   "metaTitle": "Third Grade Emergency Sub Plans: Week 20",
+   "metaDescription": "No-prep emergency sub plans for week 20 of third grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "3:times-tables",
+     "type": "G3-366"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:read-and-answer",
+     "type": "G2-273",
+     "level": "hard",
+     "title": "Reading Comprehension: Breakfast for Mom"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "3:suffixes-able-ment-ness-ful-less",
+     "type": "G3-517"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "3:plan-a-story",
+     "type": "G3-565"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "3:perimeter",
+     "type": "G3-490"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "2:line-plots",
+     "type": "G2-240"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "1:animal-classes-coverings",
+     "type": "G1-205"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:find-the-differences",
+     "type": "G1-412",
+     "title": "Find 7 Differences: On the Farm"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:calendar",
+     "type": "G2-297"
+    }
+   ]
+  },
+  {
+   "id": "g3-week-21",
+   "slug": "third-grade-sub-plans-week-21",
+   "status": "live",
+   "grade": "3",
+   "position": "week",
+   "week": 21,
+   "title": "Third Grade Sub Plans: Week 21",
+   "metaTitle": "Third Grade Emergency Sub Plans: Week 21",
+   "metaDescription": "No-prep emergency sub plans for week 21 of third grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:odd-even",
+     "type": "G2-218"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "3:events-cause-effect",
+     "type": "G3-500"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "3:possessive-nouns",
+     "type": "G3-527"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "3:dialogue-and-description",
+     "type": "G3-567"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "3:area-model",
+     "type": "G3-489"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "2:fraction-of-a-set",
+     "type": "G2-233"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "1:habitats-needs",
+     "type": "G1-202"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:mazes",
+     "type": "G1-420",
+     "title": "Help the Rabbit Find the Cabbage"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:find-differences",
+     "type": "G2-388",
+     "title": "Find 10 Differences: In the Forest"
+    }
+   ]
+  },
+  {
+   "id": "g3-week-22",
+   "slug": "third-grade-sub-plans-week-22",
+   "status": "live",
+   "grade": "3",
+   "position": "week",
+   "week": 22,
+   "title": "Third Grade Sub Plans: Week 22",
+   "metaTitle": "Third Grade Emergency Sub Plans: Week 22",
+   "metaDescription": "No-prep emergency sub plans for week 22 of third grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "3:rounding",
+     "type": "G3-388"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:read-and-answer",
+     "type": "G2-254",
+     "level": "hard"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "3:plural-nouns",
+     "type": "G3-533"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "3:time-words-in-stories",
+     "type": "G3-568"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "3:perimeter",
+     "type": "G3-490"
+    },
+    {
+     "key": "problems",
+     "minutes": 15,
+     "point": "3:muldiv-word-problems",
+     "type": "G3-374"
+    },
+    {
+     "key": "social",
+     "minutes": 15,
+     "point": "2:cardinal-directions",
+     "type": "G2-371"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:grid-copy",
+     "type": "K-299"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:grid-coordinates",
+     "type": "G2-279"
+    }
+   ]
+  },
+  {
+   "id": "g3-week-23",
+   "slug": "third-grade-sub-plans-week-23",
+   "status": "live",
+   "grade": "3",
+   "position": "week",
+   "week": 23,
+   "title": "Third Grade Sub Plans: Week 23",
+   "metaTitle": "Third Grade Emergency Sub Plans: Week 23",
+   "metaDescription": "No-prep emergency sub plans for week 23 of third grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:number-line-not-from-zero",
+     "type": "G2-305"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "3:story-evidence",
+     "type": "G3-502"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "3:parts-of-speech",
+     "type": "G3-530"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "3:dialogue-and-description",
+     "type": "G3-566"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "3:fraction-unit-build",
+     "type": "G3-316"
+    },
+    {
+     "key": "problems",
+     "minutes": 15,
+     "point": "2:two-step-word-problems",
+     "type": "G2-511"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "1:food-groups",
+     "type": "G1-207"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:symmetry-line",
+     "type": "G2-247"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:time-5-min-quarter",
+     "type": "G2-249"
+    }
+   ]
+  },
+  {
+   "id": "g3-week-24",
+   "slug": "third-grade-sub-plans-week-24",
+   "status": "live",
+   "grade": "3",
+   "position": "week",
+   "week": 24,
+   "title": "Third Grade Sub Plans: Week 24",
+   "metaTitle": "Third Grade Emergency Sub Plans: Week 24",
+   "metaDescription": "No-prep emergency sub plans for week 24 of third grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:skip-count-3-4",
+     "type": "G2-208"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "3:central-message",
+     "type": "G3-504"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "3:past-tense-verbs",
+     "type": "G3-534"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "3:time-words-in-stories",
+     "type": "G3-569"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "2:column-method",
+     "type": "G2-256"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "2:hundreds-chart-moves",
+     "type": "G2-321"
+    },
+    {
+     "key": "social",
+     "minutes": 15,
+     "point": "2:continents",
+     "type": "G2-370"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:mazes",
+     "type": "G1-421",
+     "title": "Help the Earthworm Reach the Leaf"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "3:time-to-minute",
+     "type": "G3-354"
+    }
+   ]
+  },
+  {
+   "id": "g3-week-25",
+   "slug": "third-grade-sub-plans-week-25",
+   "status": "live",
+   "grade": "3",
+   "position": "week",
+   "week": 25,
+   "title": "Third Grade Sub Plans: Week 25",
+   "metaTitle": "Third Grade Emergency Sub Plans: Week 25",
+   "metaDescription": "No-prep emergency sub plans for week 25 of third grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "3:input-output",
+     "type": "G3-328"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:read-and-answer",
+     "type": "G2-269",
+     "level": "hard",
+     "title": "Reading Comprehension: The Snowman"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "3:closed-open-syllables",
+     "type": "G3-512"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "3:joining-words",
+     "type": "G3-521"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "3:equivalent-fractions",
+     "type": "G3-318"
+    },
+    {
+     "key": "problems",
+     "minutes": 15,
+     "point": "3:muldiv-word-problems",
+     "type": "G3-375"
+    },
+    {
+     "key": "social",
+     "minutes": 15,
+     "point": "1:map-key",
+     "type": "G1-379"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:find-the-differences",
+     "type": "G1-415"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "3:thermometer",
+     "type": "G3-345"
+    }
+   ]
+  },
+  {
+   "id": "g3-week-26",
+   "slug": "third-grade-sub-plans-week-26",
+   "status": "live",
+   "grade": "3",
+   "position": "week",
+   "week": 26,
+   "title": "Third Grade Sub Plans: Week 26",
+   "metaTitle": "Third Grade Emergency Sub Plans: Week 26",
+   "metaDescription": "No-prep emergency sub plans for week 26 of third grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "3:times-tables",
+     "type": "G3-367"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "3:main-idea-key-details",
+     "type": "G3-496"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "3:possessive-nouns",
+     "type": "G3-526"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "3:plan-a-story",
+     "type": "G3-565"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "3:compare-fractions",
+     "type": "G3-319"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "3:rounding",
+     "type": "G3-323"
+    },
+    {
+     "key": "social",
+     "minutes": 15,
+     "point": "3:continents-oceans",
+     "type": "G3-396"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:find-differences",
+     "type": "G2-388"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "2:grid-coordinates",
+     "type": "G2-303"
+    }
+   ]
+  },
+  {
+   "id": "g3-week-27",
+   "slug": "third-grade-sub-plans-week-27",
+   "status": "live",
+   "grade": "3",
+   "position": "week",
+   "week": 27,
+   "title": "Third Grade Sub Plans: Week 27",
+   "metaTitle": "Third Grade Emergency Sub Plans: Week 27",
+   "metaDescription": "No-prep emergency sub plans for week 27 of third grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:calendar",
+     "type": "G2-298"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "3:answer-with-evidence",
+     "type": "G3-495"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "3:suffixes-able-ment-ness-ful-less",
+     "type": "G3-516"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "3:linking-words",
+     "type": "G3-550"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "3:right-angles",
+     "type": "G3-341"
+    },
+    {
+     "key": "numbers",
+     "minutes": 15,
+     "point": "2:hundreds-chart-moves",
+     "type": "G2-323"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "1:animal-classes-coverings",
+     "type": "G1-201"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "1:mazes",
+     "type": "G1-424",
+     "title": "Help the Bee Pick Up Every Sunflower"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "3:elapsed-duration",
+     "type": "G3-344"
+    }
+   ]
+  },
+  {
+   "id": "g3-week-28",
+   "slug": "third-grade-sub-plans-week-28",
+   "status": "live",
+   "grade": "3",
+   "position": "week",
+   "week": 28,
+   "title": "Third Grade Sub Plans: Week 28",
+   "metaTitle": "Third Grade Emergency Sub Plans: Week 28",
+   "metaDescription": "No-prep emergency sub plans for week 28 of third grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "3:arithmetic-patterns",
+     "type": "G3-329"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "2:read-and-answer",
+     "type": "G2-270",
+     "level": "hard",
+     "title": "Reading Comprehension: Camping in the Backyard"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "3:plural-nouns",
+     "type": "G3-532"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "3:opinion-and-reasons",
+     "type": "G3-549"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "3:equivalent-fractions",
+     "type": "G3-322"
+    },
+    {
+     "key": "problems",
+     "minutes": 15,
+     "point": "3:muldiv-word-problems",
+     "type": "G3-370"
+    },
+    {
+     "key": "social",
+     "minutes": 15,
+     "point": "2:cardinal-directions",
+     "type": "G2-369"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:symmetry-line",
+     "type": "G2-248"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:find-the-differences",
+     "type": "G1-415"
+    }
+   ]
+  },
+  {
+   "id": "g3-week-29",
+   "slug": "third-grade-sub-plans-week-29",
+   "status": "live",
+   "grade": "3",
+   "position": "week",
+   "week": 29,
+   "title": "Third Grade Sub Plans: Week 29",
+   "metaTitle": "Third Grade Emergency Sub Plans: Week 29",
+   "metaDescription": "No-prep emergency sub plans for week 29 of third grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:odd-even",
+     "type": "G2-351"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "3:events-cause-effect",
+     "type": "G3-501"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "3:parts-of-speech",
+     "type": "G3-531"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "3:dialogue-and-description",
+     "type": "G3-566"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "3:scaled-graphs",
+     "type": "G3-332"
+    },
+    {
+     "key": "problems",
+     "minutes": 15,
+     "point": "2:two-step-word-problems",
+     "type": "G2-506"
+    },
+    {
+     "key": "social",
+     "minutes": 15,
+     "point": "1:map-key",
+     "type": "G2-505"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "2:grid-coordinates",
+     "type": "G2-279"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "1:mazes",
+     "type": "G1-424",
+     "title": "Help the Crab Pick Up Every Shell"
+    }
+   ]
+  },
+  {
+   "id": "g3-week-30",
+   "slug": "third-grade-sub-plans-week-30",
+   "status": "live",
+   "grade": "3",
+   "position": "week",
+   "week": 30,
+   "title": "Third Grade Sub Plans: Week 30",
+   "metaTitle": "Third Grade Emergency Sub Plans: Week 30",
+   "metaDescription": "No-prep emergency sub plans for week 30 of third grade: 9 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
+   "blocks": [
+    {
+     "key": "morning",
+     "minutes": 10,
+     "point": "2:number-line-not-from-zero",
+     "type": "G2-395"
+    },
+    {
+     "key": "reading",
+     "minutes": 20,
+     "point": "3:story-evidence",
+     "type": "G3-503"
+    },
+    {
+     "key": "phonics",
+     "minutes": 15,
+     "point": "3:past-tense-verbs",
+     "type": "G3-535"
+    },
+    {
+     "key": "writing",
+     "minutes": 20,
+     "point": "3:time-words-in-stories",
+     "type": "G3-568"
+    },
+    {
+     "key": "math",
+     "minutes": 15,
+     "point": "3:right-angles",
+     "type": "G3-341"
+    },
+    {
+     "key": "problems",
+     "minutes": 15,
+     "point": "3:muldiv-word-problems",
+     "type": "G3-373"
+    },
+    {
+     "key": "science",
+     "minutes": 15,
+     "point": "1:animal-classes-coverings",
+     "type": "G1-205"
+    },
+    {
+     "key": "logic",
+     "minutes": 15,
+     "point": "K:grid-copy",
+     "type": "K-502"
+    },
+    {
+     "key": "closing",
+     "minutes": 10,
+     "point": "3:rounding",
+     "type": "G3-391"
+    }
+   ]
   }
  ]
 }

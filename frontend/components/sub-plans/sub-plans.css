@@ -32,3 +32,10 @@
 .sp-more ul { list-style: none; margin: 0; padding: 0; display: grid; column-gap: 28px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
 .sp-more li a, .sp-more p a { display: inline-block; padding: 12px 0; font-weight: 600; }
 .sp-more p { margin-top: 8px; }
+
+/* the hub's week days (Part 5.4): one collapsed list per grade, each week a tap target of its own */
+.sp-weeks-grade { margin-top: 14px; border: 1px solid var(--line); border-radius: 12px; background: var(--paper); }
+.sp-weeks-grade summary { cursor: pointer; padding: 14px 18px; font-weight: 700; }
+.sp-weeks-list { list-style: none; margin: 0; padding: 0 18px 8px; display: grid; column-gap: 20px; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); }
+.sp-weeks-list a, .sp-weeks-binder a { display: inline-block; padding: 12px 0; font-weight: 600; }
+.sp-weeks-binder { margin: 0; padding: 0 18px 12px; }

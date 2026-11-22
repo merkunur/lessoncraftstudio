@@ -44,8 +44,31 @@ function planWeeks(unitsFile) {
 
 const SHARE = { early: 1 / 3, middle: 2 / 3, late: 1 };
 
-/** null when the point may stand in a pack of this grade and position; else the reason it may not */
-function refused(point, packGrade, position, weeks) {
+/**
+ * A WEEK DAY (Part 5.4: a sub day for every week of the grade's longest plan, position 'week' with its week n) may
+ * review a point of an earlier grade, a point no plan of the grade teaches, or a point of the grade whose lesson is
+ * taught by the END of week n in its own plan: class day <= round(the plan's class days × n / the plan's weeks).
+ * A plan shorter than n weeks has taught all its points by then. null when the point may stand in the day.
+ */
+function refusedWeek(point, packGrade, week, weeks) {
+  if (!(Number.isInteger(week) && week >= 1)) return 'a week day without its week';
+  const ORDER = 'PK123';
+  const w = weeks.get(point.id);
+  const taughtIn = w && w.grade != null ? w.grade : String(point.grade);
+  const pg = ORDER.indexOf(taughtIn), g = ORDER.indexOf(String(packGrade));
+  if (pg < 0 || g < 0) return null;
+  if (pg > g) return 'the teaching point is of grade ' + taughtIn + ', later than the pack\'s grade';
+  if (pg < g || !w || w.to == null) return null;
+  if (w.day != null && w.ofDays) {
+    const lastDay = Math.max(1, Math.round(w.ofDays * week / w.of));
+    return w.day > lastDay ? 'its lesson is taught on class day ' + w.day + ' of ' + w.ofDays + ' of ' + w.plan + '; the day of week ' + week + ' reviews what was taught by day ' + lastDay : null;
+  }
+  return w.to > week ? 'its unit ends in week ' + w.to + ' of ' + w.of + ' of ' + w.plan + '; the day of week ' + week + ' reviews what was taught by then' : null;
+}
+
+/** null when the point may stand in a pack of this grade and position (a week day: and week); else the reason it may not */
+function refused(point, packGrade, position, weeks, week) {
+  if (position === 'week') return refusedWeek(point, packGrade, week, weeks);
   const ORDER = 'PK123';
   // the school year in which THIS country's units teach the point comes before the grade in the point's id (a
   // letter page is Kindergarten work in the US and first-grade work in Germany)
@@ -67,6 +90,10 @@ function refused(point, packGrade, position, weeks) {
 // a sub day can fall on any date, and not every child keeps every holiday: no pack hands out a page whose pictures
 // belong to one
 const HOLIDAY_PAGE = /(christmas|easter|halloween|thanksgiving|valentine|st-patrick|hanukkah|4th-of-july|weihnacht|ostern|nikolaus|advent|fasching|karneval|st-martin|muttertag)/;
+// pages no pack hands out because something printed on them is wrong for a class without its teacher (found while
+// reading the pages for the week days, Part 5.4; listed for the content-fix session). A page here is skipped like a
+// holiday page. None of them is in a pack of Parts 5.1-5.2, so those packs keep their pages.
+const SKIP_PAGE = new Set(require('./skip-pages.json').pages.map((x) => x.slug));
 /**
  * null when the blocks make a pack of this form, else what is wrong. A day (no form): at least five blocks, with
  * reading, writing and math. A lesson: one lesson of one subject, three or four blocks, 35 to 45 minutes, the
@@ -87,4 +114,4 @@ function packShape(form, blocks) {
   return null;
 }
 module.exports = {
-  packShape, HOLIDAY_PAGE, planWeeks, refused, SHARE };
+  packShape, HOLIDAY_PAGE, SKIP_PAGE, planWeeks, refused, refusedWeek, SHARE };

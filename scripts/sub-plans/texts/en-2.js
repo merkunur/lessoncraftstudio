@@ -43,7 +43,7 @@ module.exports = {
     },
     '2:find-differences': {
       say: '"Here is a spot-the-difference puzzle with two pairs of pictures. In each pair, the picture on the right is different in 5 places. Circle each difference, and check a box under the pair for every one you find."',
-      first: 'Find one difference in the top pair together: ask a child to point to it and say what changed. Circle it in the picture on the right and check off one box. The printed directions say "tick a box"; tell the children that means a check mark.',
+      first: 'Find one difference in the top pair together: ask a child to point to it and say what changed. Circle it in the picture on the right and check off one box.',
       stuck: 'Have the child cover part of both pictures of a pair with a hand and compare one small part at a time, from top to bottom. Things can be missing, added, or changed.',
       byType: {
         'G2-389': {
@@ -368,7 +368,7 @@ module.exports = {
       stuck: 'Have the child run a finger along each row of an array and count the rows first, then count the things in the top row. On this page the first number is the number of rows and the second number is how many are in each row.',
     },
     '2:symmetry-line': {
-      say: '"A mirror line cuts a picture into two halves that match exactly, like a picture and its reflection in a mirror. Look at the dashed line on each animal. If both sides match, circle the check. If they do not match, circle the cross."',
+      say: '"A mirror line cuts a picture into two halves that match exactly, like a picture and its reflection in a mirror. Look at the dashed line on each animal. If both sides match, circle the check. If they do not match, circle the X."',
       first: 'Do the first two together. Ask about the first animal, "If we folded the picture on the dashed line, would one side land exactly on the other?" Have a child point to parts that match on both sides. For the second animal, ask what is on one side and missing on the other.',
       stuck: 'Have the child cover one side of the picture with a hand, look at the other side, and then switch. Ask, "Is there a wing here? Is there one on the other side, too?" For your own reference, on the page for everyone the bat and the sheep have a mirror line; the swan and the seagull do not.',
     },

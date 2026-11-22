@@ -6,12 +6,13 @@ import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
 import { buildHreflangAlternates } from '@/lib/seo/hreflang';
 import { ogLocaleMap } from '@/lib/schema-generator';
 import { TOPIC_ENABLED_LOCALES } from '@/config/topic-locales';
-import { getSubUi, listedSubPacks } from '@/lib/sub-plans';
+import { getSubUi, listedSubPacks, listedWeekPacks } from '@/lib/sub-plans';
 import SubPlansHub from '@/components/sub-plans/SubPlansHub';
 
 /**
  * The sub plans hub: /<locale>/sub-plans (Daily Teaching System, Part 5). Every sub pack of the language by grade and
- * time of year.
+ * time of year, then the live week days (Part 5.4) by grade and week: they are noindex, so they never enter the hub's
+ * JSON-LD list or its counts, and the hub's title and description stay those of the days of the year.
  *
  * A language with no packs has no hub (404). A language whose packs are all pilots has a `noindex, follow` hub that
  * lists the pilots (it is in no sitemap and nothing links to it). hreflang is declared only between the languages
@@ -52,7 +53,7 @@ export default async function SubPlansHubRoute({ params }: { params: PageParams 
   const { locale } = params;
   if (!(TOPIC_ENABLED_LOCALES as readonly string[]).includes(locale)) notFound();
   setRequestLocale(locale);
-  const [listed, ui] = await Promise.all([listedSubPacks(locale), getSubUi(locale)]);
+  const [listed, ui, weeks] = await Promise.all([listedSubPacks(locale), getSubUi(locale), listedWeekPacks(locale)]);
   if (!listed.packs.length || !ui) notFound();
-  return <SubPlansHub locale={locale} ui={ui} packs={listed.packs} live={listed.live} />;
+  return <SubPlansHub locale={locale} ui={ui} packs={listed.packs} live={listed.live} weeks={weeks} />;
 }

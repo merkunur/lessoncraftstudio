@@ -1,0 +1,1695 @@
+{
+ "$comment": "The worksheet family of each type the English sub packs use (scripts/sub-plans/type-families.js, from the catalogue table); kind: the kind of text of a reading-comprehension type; topic: a second family for a type that teaches what another family teaches. A week day hands out no family (or topic) twice, except a story and an informational text.",
+ "types": {
+  "G1-102": {
+   "family": "picture-arithmetic"
+  },
+  "G1-103": {
+   "family": "picture-arithmetic"
+  },
+  "G1-104": {
+   "family": "picture-arithmetic",
+   "topic": "subtraction-to-20"
+  },
+  "G1-110": {
+   "family": "arrays-multiplication"
+  },
+  "G1-116": {
+   "family": "number-lines"
+  },
+  "G1-117": {
+   "family": "number-lines"
+  },
+  "G1-118": {
+   "family": "number-lines"
+  },
+  "G1-119": {
+   "family": "number-lines",
+   "topic": "subtraction-to-20"
+  },
+  "G1-120": {
+   "family": "base-ten"
+  },
+  "G1-123": {
+   "family": "number-charts"
+  },
+  "G1-124": {
+   "family": "number-charts"
+  },
+  "G1-125": {
+   "family": "number-charts"
+  },
+  "G1-129": {
+   "family": "number-charts"
+  },
+  "G1-130": {
+   "family": "number-charts"
+  },
+  "G1-131": {
+   "family": "number-charts"
+  },
+  "G1-132": {
+   "family": "number-charts"
+  },
+  "G1-139": {
+   "family": "measurement"
+  },
+  "G1-143": {
+   "family": "graphing-data"
+  },
+  "G1-144": {
+   "family": "graphing-data"
+  },
+  "G1-147": {
+   "family": "graphing-data"
+  },
+  "G1-148": {
+   "family": "telling-time"
+  },
+  "G1-149": {
+   "family": "telling-time"
+  },
+  "G1-157": {
+   "family": "visual-logic"
+  },
+  "G1-158": {
+   "family": "visual-logic"
+  },
+  "G1-201": {
+   "family": "science-sort"
+  },
+  "G1-202": {
+   "family": "science-sort"
+  },
+  "G1-204": {
+   "family": "science-sort"
+  },
+  "G1-205": {
+   "family": "science-sort"
+  },
+  "G1-206": {
+   "family": "science-sort"
+  },
+  "G1-207": {
+   "family": "science-sort"
+  },
+  "G1-208": {
+   "family": "mental-math"
+  },
+  "G1-209": {
+   "family": "fact-families"
+  },
+  "G1-213": {
+   "family": "word-problems"
+  },
+  "G1-214": {
+   "family": "mental-math"
+  },
+  "G1-215": {
+   "family": "mental-math"
+  },
+  "G1-216": {
+   "family": "mental-math"
+  },
+  "G1-217": {
+   "family": "mental-math",
+   "topic": "subtraction-to-20"
+  },
+  "G1-218": {
+   "family": "mental-math"
+  },
+  "G1-220": {
+   "family": "fact-families"
+  },
+  "G1-223": {
+   "family": "number-words"
+  },
+  "G1-224": {
+   "family": "number-words"
+  },
+  "G1-227": {
+   "family": "number-words"
+  },
+  "G1-228": {
+   "family": "money"
+  },
+  "G1-229": {
+   "family": "money"
+  },
+  "G1-232": {
+   "family": "money"
+  },
+  "G1-238": {
+   "family": "word-problems"
+  },
+  "G1-239": {
+   "family": "word-problems"
+  },
+  "G1-240": {
+   "family": "word-problems"
+  },
+  "G1-241": {
+   "family": "word-problems"
+  },
+  "G1-242": {
+   "family": "read-and-color"
+  },
+  "G1-243": {
+   "family": "number-of-the-day"
+  },
+  "G1-245": {
+   "family": "alphabetical-order"
+  },
+  "G1-246": {
+   "family": "number-walls"
+  },
+  "G1-249": {
+   "family": "sentence-building"
+  },
+  "G1-251": {
+   "family": "read-and-color"
+  },
+  "G1-252": {
+   "family": "read-and-color"
+  },
+  "G1-255": {
+   "family": "number-of-the-day"
+  },
+  "G1-256": {
+   "family": "number-of-the-day"
+  },
+  "G1-257": {
+   "family": "number-of-the-day"
+  },
+  "G1-258": {
+   "family": "write-the-word"
+  },
+  "G1-259": {
+   "family": "write-the-word"
+  },
+  "G1-262": {
+   "family": "alphabetical-order"
+  },
+  "G1-263": {
+   "family": "alphabetical-order"
+  },
+  "G1-264": {
+   "family": "alphabetical-order"
+  },
+  "G1-266": {
+   "family": "number-walls"
+  },
+  "G1-267": {
+   "family": "number-walls"
+  },
+  "G1-274": {
+   "family": "number-lines"
+  },
+  "G1-276": {
+   "family": "number-lines"
+  },
+  "G1-277": {
+   "family": "number-lines"
+  },
+  "G1-278": {
+   "family": "number-lines"
+  },
+  "G1-279": {
+   "family": "number-lines"
+  },
+  "G1-280": {
+   "family": "number-lines"
+  },
+  "G1-281": {
+   "family": "number-lines"
+  },
+  "G1-282": {
+   "family": "sentence-building"
+  },
+  "G1-283": {
+   "family": "sentence-building"
+  },
+  "G1-286": {
+   "family": "doubles-halves"
+  },
+  "G1-288": {
+   "family": "doubles-halves"
+  },
+  "G1-289": {
+   "family": "number-walls"
+  },
+  "G1-293": {
+   "family": "word-classes"
+  },
+  "G1-300": {
+   "family": "word-classes"
+  },
+  "G1-301": {
+   "family": "write-the-word"
+  },
+  "G1-302": {
+   "family": "sentence-building"
+  },
+  "G1-304": {
+   "family": "write-the-word"
+  },
+  "G1-305": {
+   "family": "syllable-split"
+  },
+  "G1-307": {
+   "family": "opposites"
+  },
+  "G1-308": {
+   "family": "read-and-do"
+  },
+  "G1-309": {
+   "family": "rhyming-words"
+  },
+  "G1-310": {
+   "family": "hundreds-chart-puzzles"
+  },
+  "G1-312": {
+   "family": "sound-boxes"
+  },
+  "G1-317": {
+   "family": "ordinal-numbers"
+  },
+  "G1-320": {
+   "family": "days-and-months"
+  },
+  "G1-321": {
+   "family": "days-and-months"
+  },
+  "G1-323": {
+   "family": "seasons"
+  },
+  "G1-325": {
+   "family": "syllable-split"
+  },
+  "G1-330": {
+   "family": "syllable-reading"
+  },
+  "G1-332": {
+   "family": "syllable-reading"
+  },
+  "G1-333": {
+   "family": "syllable-reading",
+   "topic": "blends"
+  },
+  "G1-336": {
+   "family": "opposites"
+  },
+  "G1-337": {
+   "family": "opposites"
+  },
+  "G1-338": {
+   "family": "read-and-do"
+  },
+  "G1-339": {
+   "family": "read-and-do"
+  },
+  "G1-341": {
+   "family": "read-and-do"
+  },
+  "G1-343": {
+   "family": "rhyming-words"
+  },
+  "G1-345": {
+   "family": "rhyming-words"
+  },
+  "G1-347": {
+   "family": "hundreds-chart-puzzles"
+  },
+  "G1-350": {
+   "family": "cloze"
+  },
+  "G1-351": {
+   "family": "odd-and-even"
+  },
+  "G1-352": {
+   "family": "pronouns"
+  },
+  "G1-367": {
+   "family": "cloze"
+  },
+  "G1-368": {
+   "family": "cloze"
+  },
+  "G1-371": {
+   "family": "pronouns"
+  },
+  "G1-372": {
+   "family": "pronouns"
+  },
+  "G1-374": {
+   "family": "question-words"
+  },
+  "G1-379": {
+   "family": "maps"
+  },
+  "G1-380": {
+   "family": "digraphs"
+  },
+  "G1-382": {
+   "family": "2d-shapes"
+  },
+  "G1-385": {
+   "family": "family"
+  },
+  "G1-386": {
+   "family": "family"
+  },
+  "G1-392": {
+   "family": "digraphs"
+  },
+  "G1-393": {
+   "family": "digraphs"
+  },
+  "G1-395": {
+   "family": "synonyms"
+  },
+  "G1-396": {
+   "family": "synonyms"
+  },
+  "G1-400": {
+   "family": "story-sequencing"
+  },
+  "G1-401": {
+   "family": "story-sequencing"
+  },
+  "G1-402": {
+   "family": "story-sequencing"
+  },
+  "G1-412": {
+   "family": "find-the-differences"
+  },
+  "G1-413": {
+   "family": "find-the-differences"
+  },
+  "G1-414": {
+   "family": "find-the-differences"
+  },
+  "G1-415": {
+   "family": "find-the-differences"
+  },
+  "G1-420": {
+   "family": "maze-puzzles"
+  },
+  "G1-421": {
+   "family": "maze-puzzles"
+  },
+  "G1-422": {
+   "family": "maze-puzzles"
+  },
+  "G1-423": {
+   "family": "maze-puzzles"
+  },
+  "G1-424": {
+   "family": "maze-puzzles"
+  },
+  "G1-425": {
+   "family": "maze-puzzles"
+  },
+  "G1-430": {
+   "family": "picture-tracing"
+  },
+  "G1-432": {
+   "family": "picture-tracing",
+   "topic": "symmetry"
+  },
+  "G1-439": {
+   "family": "number-lines"
+  },
+  "G1-443": {
+   "family": "mental-math"
+  },
+  "G1-445": {
+   "family": "mental-math"
+  },
+  "G1-446": {
+   "family": "mental-math"
+  },
+  "G1-447": {
+   "family": "mental-math"
+  },
+  "G1-448": {
+   "family": "mental-math"
+  },
+  "G1-477": {
+   "family": "telling-time"
+  },
+  "G1-493": {
+   "family": "digraphs",
+   "topic": "blends"
+  },
+  "G1-495": {
+   "family": "phonological-awareness"
+  },
+  "G1-528": {
+   "family": "maps"
+  },
+  "G1-558": {
+   "family": "mental-math"
+  },
+  "G1-561": {
+   "family": "mental-math"
+  },
+  "G1-563": {
+   "family": "base-ten"
+  },
+  "G1-564": {
+   "family": "base-ten"
+  },
+  "G1-567": {
+   "family": "word-problems"
+  },
+  "G1-568": {
+   "family": "word-problems"
+  },
+  "G1-569": {
+   "family": "word-problems"
+  },
+  "G1-570": {
+   "family": "word-problems"
+  },
+  "G1-571": {
+   "family": "word-problems"
+  },
+  "G1-572": {
+   "family": "word-problems"
+  },
+  "G1-575": {
+   "family": "reading-comprehension",
+   "kind": "info"
+  },
+  "G1-576": {
+   "family": "reading-comprehension",
+   "kind": "info"
+  },
+  "G1-579": {
+   "family": "reading-comprehension",
+   "kind": "story"
+  },
+  "G1-580": {
+   "family": "reading-comprehension",
+   "kind": "story"
+  },
+  "G1-581": {
+   "family": "reading-comprehension",
+   "kind": "story"
+  },
+  "G1-588": {
+   "family": "digraphs"
+  },
+  "G1-593": {
+   "family": "capitals-punctuation"
+  },
+  "G1-594": {
+   "family": "sentence-building"
+  },
+  "G1-595": {
+   "family": "verb-forms"
+  },
+  "G1-616": {
+   "family": "story-sequencing"
+  },
+  "G2-207": {
+   "family": "number-charts"
+  },
+  "G2-208": {
+   "family": "number-charts"
+  },
+  "G2-209": {
+   "family": "arrays-multiplication"
+  },
+  "G2-211": {
+   "family": "arrays-multiplication"
+  },
+  "G2-212": {
+   "family": "arrays-multiplication"
+  },
+  "G2-218": {
+   "family": "number-charts"
+  },
+  "G2-226": {
+   "family": "number-charts"
+  },
+  "G2-228": {
+   "family": "fractions"
+  },
+  "G2-229": {
+   "family": "fractions"
+  },
+  "G2-232": {
+   "family": "fractions"
+  },
+  "G2-233": {
+   "family": "fractions"
+  },
+  "G2-235": {
+   "family": "measurement"
+  },
+  "G2-237": {
+   "family": "graphing-data"
+  },
+  "G2-239": {
+   "family": "graphing-data"
+  },
+  "G2-240": {
+   "family": "graphing-data"
+  },
+  "G2-247": {
+   "family": "geometry",
+   "topic": "symmetry"
+  },
+  "G2-248": {
+   "family": "geometry",
+   "topic": "symmetry"
+  },
+  "G2-249": {
+   "family": "telling-time"
+  },
+  "G2-250": {
+   "family": "telling-time"
+  },
+  "G2-251": {
+   "family": "column-arithmetic"
+  },
+  "G2-252": {
+   "family": "measurement"
+  },
+  "G2-254": {
+   "family": "reading-comprehension",
+   "kind": "story"
+  },
+  "G2-255": {
+   "family": "column-arithmetic"
+  },
+  "G2-256": {
+   "family": "column-arithmetic"
+  },
+  "G2-257": {
+   "family": "column-arithmetic"
+  },
+  "G2-261": {
+   "family": "measurement"
+  },
+  "G2-266": {
+   "family": "symmetry"
+  },
+  "G2-267": {
+   "family": "symmetry"
+  },
+  "G2-268": {
+   "family": "symmetry"
+  },
+  "G2-269": {
+   "family": "reading-comprehension",
+   "kind": "story"
+  },
+  "G2-270": {
+   "family": "reading-comprehension",
+   "kind": "story"
+  },
+  "G2-271": {
+   "family": "reading-comprehension",
+   "kind": "story"
+  },
+  "G2-272": {
+   "family": "reading-comprehension",
+   "kind": "story"
+  },
+  "G2-273": {
+   "family": "reading-comprehension",
+   "kind": "story"
+  },
+  "G2-274": {
+   "family": "capitals-punctuation"
+  },
+  "G2-275": {
+   "family": "word-classes"
+  },
+  "G2-277": {
+   "family": "calendar"
+  },
+  "G2-278": {
+   "family": "picture-writing"
+  },
+  "G2-279": {
+   "family": "grid-coordinates"
+  },
+  "G2-281": {
+   "family": "capitals-punctuation"
+  },
+  "G2-282": {
+   "family": "capitals-punctuation"
+  },
+  "G2-285": {
+   "family": "word-classes"
+  },
+  "G2-286": {
+   "family": "word-classes"
+  },
+  "G2-289": {
+   "family": "money"
+  },
+  "G2-290": {
+   "family": "money"
+  },
+  "G2-291": {
+   "family": "money"
+  },
+  "G2-292": {
+   "family": "money"
+  },
+  "G2-293": {
+   "family": "money"
+  },
+  "G2-294": {
+   "family": "money"
+  },
+  "G2-296": {
+   "family": "calendar"
+  },
+  "G2-297": {
+   "family": "calendar"
+  },
+  "G2-298": {
+   "family": "calendar"
+  },
+  "G2-299": {
+   "family": "picture-writing"
+  },
+  "G2-300": {
+   "family": "picture-writing"
+  },
+  "G2-302": {
+   "family": "grid-coordinates"
+  },
+  "G2-303": {
+   "family": "grid-coordinates"
+  },
+  "G2-304": {
+   "family": "dot-to-dot"
+  },
+  "G2-305": {
+   "family": "number-lines"
+  },
+  "G2-307": {
+   "family": "capitals-punctuation"
+  },
+  "G2-308": {
+   "family": "grid-coordinates"
+  },
+  "G2-310": {
+   "family": "number-lines"
+  },
+  "G2-313": {
+   "family": "number-walls"
+  },
+  "G2-314": {
+   "family": "dot-to-dot"
+  },
+  "G2-317": {
+   "family": "verb-forms"
+  },
+  "G2-319": {
+   "family": "logic-puzzles"
+  },
+  "G2-321": {
+   "family": "hundreds-chart-puzzles"
+  },
+  "G2-322": {
+   "family": "hundreds-chart-puzzles"
+  },
+  "G2-323": {
+   "family": "hundreds-chart-puzzles"
+  },
+  "G2-330": {
+   "family": "compound-words"
+  },
+  "G2-334": {
+   "family": "verb-forms"
+  },
+  "G2-335": {
+   "family": "verb-forms"
+  },
+  "G2-336": {
+   "family": "verb-forms"
+  },
+  "G2-337": {
+   "family": "verb-forms"
+  },
+  "G2-342": {
+   "family": "animal-fact-file"
+  },
+  "G2-343": {
+   "family": "animal-fact-file"
+  },
+  "G2-349": {
+   "family": "cloze"
+  },
+  "G2-350": {
+   "family": "cloze"
+  },
+  "G2-351": {
+   "family": "odd-and-even"
+  },
+  "G2-353": {
+   "family": "pronouns"
+  },
+  "G2-354": {
+   "family": "pronouns"
+  },
+  "G2-355": {
+   "family": "pronouns"
+  },
+  "G2-356": {
+   "family": "question-words"
+  },
+  "G2-357": {
+   "family": "question-words"
+  },
+  "G2-358": {
+   "family": "synonyms"
+  },
+  "G2-359": {
+   "family": "word-parts"
+  },
+  "G2-361": {
+   "family": "road-safety"
+  },
+  "G2-362": {
+   "family": "family"
+  },
+  "G2-363": {
+   "family": "plants"
+  },
+  "G2-364": {
+   "family": "plants"
+  },
+  "G2-365": {
+   "family": "animal-life-cycles"
+  },
+  "G2-366": {
+   "family": "animal-life-cycles"
+  },
+  "G2-367": {
+   "family": "earth-and-space"
+  },
+  "G2-368": {
+   "family": "earth-and-space"
+  },
+  "G2-369": {
+   "family": "maps"
+  },
+  "G2-370": {
+   "family": "maps"
+  },
+  "G2-371": {
+   "family": "maps"
+  },
+  "G2-372": {
+   "family": "digraphs"
+  },
+  "G2-373": {
+   "family": "synonyms"
+  },
+  "G2-374": {
+   "family": "synonyms"
+  },
+  "G2-375": {
+   "family": "word-parts"
+  },
+  "G2-376": {
+   "family": "word-parts"
+  },
+  "G2-378": {
+   "family": "story-sequencing"
+  },
+  "G2-380": {
+   "family": "habitats"
+  },
+  "G2-381": {
+   "family": "habitats"
+  },
+  "G2-382": {
+   "family": "sink-or-float"
+  },
+  "G2-383": {
+   "family": "sink-or-float"
+  },
+  "G2-388": {
+   "family": "find-the-differences"
+  },
+  "G2-389": {
+   "family": "find-the-differences"
+  },
+  "G2-392": {
+   "family": "maze-puzzles"
+  },
+  "G2-393": {
+   "family": "maze-puzzles"
+  },
+  "G2-395": {
+   "family": "number-lines"
+  },
+  "G2-401": {
+   "family": "base-ten"
+  },
+  "G2-404": {
+   "family": "base-ten"
+  },
+  "G2-505": {
+   "family": "maps"
+  },
+  "G2-506": {
+   "family": "word-problems"
+  },
+  "G2-510": {
+   "family": "word-problems"
+  },
+  "G2-511": {
+   "family": "word-problems"
+  },
+  "G2-513": {
+   "family": "base-ten"
+  },
+  "G2-521": {
+   "family": "reading-comprehension",
+   "kind": "info"
+  },
+  "G2-522": {
+   "family": "reading-comprehension",
+   "kind": "info"
+  },
+  "G2-526": {
+   "family": "reading-comprehension",
+   "kind": "story"
+  },
+  "G2-527": {
+   "family": "reading-comprehension",
+   "kind": "story"
+  },
+  "G2-528": {
+   "family": "reading-comprehension",
+   "kind": "story"
+  },
+  "G2-529": {
+   "family": "reading-comprehension",
+   "kind": "story"
+  },
+  "G2-530": {
+   "family": "spelling-rules"
+  },
+  "G2-531": {
+   "family": "spelling-rules"
+  },
+  "G2-533": {
+   "family": "spelling-rules"
+  },
+  "G2-534": {
+   "family": "spelling-rules"
+  },
+  "G2-536": {
+   "family": "word-parts"
+  },
+  "G2-549": {
+   "family": "word-classes"
+  },
+  "G2-551": {
+   "family": "word-classes"
+  },
+  "G2-559": {
+   "family": "sentence-building"
+  },
+  "G2-561": {
+   "family": "capitals-punctuation"
+  },
+  "G2-565": {
+   "family": "reading-comprehension",
+   "kind": "lesson"
+  },
+  "G2-571": {
+   "family": "reading-comprehension",
+   "kind": "lesson"
+  },
+  "G2-572": {
+   "family": "sentence-building"
+  },
+  "G2-580": {
+   "family": "reading-comprehension",
+   "kind": "story"
+  },
+  "G3-301": {
+   "family": "arrays-multiplication"
+  },
+  "G3-302": {
+   "family": "arrays-multiplication"
+  },
+  "G3-309": {
+   "family": "arrays-multiplication"
+  },
+  "G3-311": {
+   "family": "arrays-multiplication"
+  },
+  "G3-312": {
+   "family": "arrays-multiplication"
+  },
+  "G3-313": {
+   "family": "arrays-multiplication"
+  },
+  "G3-315": {
+   "family": "fractions"
+  },
+  "G3-316": {
+   "family": "fractions"
+  },
+  "G3-318": {
+   "family": "fractions"
+  },
+  "G3-319": {
+   "family": "fractions"
+  },
+  "G3-322": {
+   "family": "fractions"
+  },
+  "G3-323": {
+   "family": "number-lines"
+  },
+  "G3-326": {
+   "family": "number-charts"
+  },
+  "G3-327": {
+   "family": "number-charts"
+  },
+  "G3-328": {
+   "family": "number-charts"
+  },
+  "G3-329": {
+   "family": "number-charts"
+  },
+  "G3-332": {
+   "family": "graphing-data"
+  },
+  "G3-333": {
+   "family": "graphing-data"
+  },
+  "G3-337": {
+   "family": "geometry"
+  },
+  "G3-341": {
+   "family": "geometry"
+  },
+  "G3-344": {
+   "family": "telling-time"
+  },
+  "G3-345": {
+   "family": "measurement"
+  },
+  "G3-348": {
+   "family": "visual-logic"
+  },
+  "G3-349": {
+   "family": "visual-logic"
+  },
+  "G3-354": {
+   "family": "telling-time"
+  },
+  "G3-357": {
+   "family": "column-arithmetic"
+  },
+  "G3-358": {
+   "family": "multiplication-tables"
+  },
+  "G3-359": {
+   "family": "column-arithmetic"
+  },
+  "G3-360": {
+   "family": "column-arithmetic"
+  },
+  "G3-361": {
+   "family": "column-arithmetic"
+  },
+  "G3-362": {
+   "family": "column-arithmetic"
+  },
+  "G3-363": {
+   "family": "column-arithmetic"
+  },
+  "G3-364": {
+   "family": "multiplication-tables"
+  },
+  "G3-365": {
+   "family": "multiplication-tables"
+  },
+  "G3-366": {
+   "family": "multiplication-tables"
+  },
+  "G3-367": {
+   "family": "multiplication-tables"
+  },
+  "G3-368": {
+   "family": "multiplication-tables"
+  },
+  "G3-369": {
+   "family": "fact-families"
+  },
+  "G3-370": {
+   "family": "word-problems"
+  },
+  "G3-371": {
+   "family": "word-problems"
+  },
+  "G3-372": {
+   "family": "word-problems"
+  },
+  "G3-373": {
+   "family": "word-problems"
+  },
+  "G3-374": {
+   "family": "word-problems"
+  },
+  "G3-375": {
+   "family": "word-problems"
+  },
+  "G3-385": {
+   "family": "weather-symbols"
+  },
+  "G3-387": {
+   "family": "rounding"
+  },
+  "G3-388": {
+   "family": "rounding"
+  },
+  "G3-390": {
+   "family": "rounding"
+  },
+  "G3-391": {
+   "family": "rounding"
+  },
+  "G3-393": {
+   "family": "animal-life-cycles"
+  },
+  "G3-396": {
+   "family": "maps"
+  },
+  "G3-397": {
+   "family": "synonyms"
+  },
+  "G3-398": {
+   "family": "word-parts"
+  },
+  "G3-399": {
+   "family": "word-parts"
+  },
+  "G3-407": {
+   "family": "multiplication-tables"
+  },
+  "G3-482": {
+   "family": "multiplication-tables"
+  },
+  "G3-488": {
+   "family": "geometry"
+  },
+  "G3-489": {
+   "family": "geometry"
+  },
+  "G3-490": {
+   "family": "geometry"
+  },
+  "G3-494": {
+   "family": "reading-comprehension",
+   "kind": "info"
+  },
+  "G3-495": {
+   "family": "reading-comprehension",
+   "kind": "info"
+  },
+  "G3-496": {
+   "family": "reading-comprehension",
+   "kind": "info"
+  },
+  "G3-497": {
+   "family": "reading-comprehension",
+   "kind": "info"
+  },
+  "G3-500": {
+   "family": "reading-comprehension",
+   "kind": "info"
+  },
+  "G3-501": {
+   "family": "reading-comprehension",
+   "kind": "info"
+  },
+  "G3-502": {
+   "family": "reading-comprehension",
+   "kind": "story"
+  },
+  "G3-503": {
+   "family": "reading-comprehension",
+   "kind": "story"
+  },
+  "G3-504": {
+   "family": "reading-comprehension",
+   "kind": "story"
+  },
+  "G3-505": {
+   "family": "reading-comprehension",
+   "kind": "story"
+  },
+  "G3-512": {
+   "family": "syllable-split"
+  },
+  "G3-513": {
+   "family": "syllable-split"
+  },
+  "G3-516": {
+   "family": "word-parts"
+  },
+  "G3-517": {
+   "family": "word-parts"
+  },
+  "G3-520": {
+   "family": "sentence-building"
+  },
+  "G3-521": {
+   "family": "sentence-building"
+  },
+  "G3-526": {
+   "family": "capitals-punctuation"
+  },
+  "G3-527": {
+   "family": "capitals-punctuation"
+  },
+  "G3-530": {
+   "family": "word-classes"
+  },
+  "G3-531": {
+   "family": "word-classes"
+  },
+  "G3-532": {
+   "family": "singular-plural"
+  },
+  "G3-533": {
+   "family": "singular-plural"
+  },
+  "G3-534": {
+   "family": "verb-forms"
+  },
+  "G3-535": {
+   "family": "verb-forms"
+  },
+  "G3-540": {
+   "family": "reading-comprehension",
+   "kind": "lesson"
+  },
+  "G3-541": {
+   "family": "reading-comprehension",
+   "kind": "lesson"
+  },
+  "G3-548": {
+   "family": "reading-comprehension",
+   "kind": "lesson"
+  },
+  "G3-549": {
+   "family": "sentence-building"
+  },
+  "G3-550": {
+   "family": "sentence-building"
+  },
+  "G3-551": {
+   "family": "sentence-building"
+  },
+  "G3-564": {
+   "family": "reading-comprehension",
+   "kind": "lesson"
+  },
+  "G3-565": {
+   "family": "story-sequencing"
+  },
+  "G3-566": {
+   "family": "capitals-punctuation"
+  },
+  "G3-567": {
+   "family": "sentence-building"
+  },
+  "G3-568": {
+   "family": "story-sequencing"
+  },
+  "G3-569": {
+   "family": "story-sequencing"
+  },
+  "K-002": {
+   "family": "counting-pictures"
+  },
+  "K-006": {
+   "family": "counting-pictures"
+  },
+  "K-008": {
+   "family": "comparing-groups"
+  },
+  "K-009": {
+   "family": "comparing-groups"
+  },
+  "K-011": {
+   "family": "counting-pictures"
+  },
+  "K-014": {
+   "family": "tally-counting"
+  },
+  "K-015": {
+   "family": "tally-counting"
+  },
+  "K-017": {
+   "family": "counting-frames"
+  },
+  "K-018": {
+   "family": "counting-frames"
+  },
+  "K-019": {
+   "family": "number-charts"
+  },
+  "K-020": {
+   "family": "number-charts"
+  },
+  "K-021": {
+   "family": "number-charts"
+  },
+  "K-022": {
+   "family": "number-charts"
+  },
+  "K-023": {
+   "family": "number-charts"
+  },
+  "K-025": {
+   "family": "tally-counting"
+  },
+  "K-027": {
+   "family": "arrays-multiplication"
+  },
+  "K-028": {
+   "family": "counting-pictures"
+  },
+  "K-032": {
+   "family": "comparing-sizes"
+  },
+  "K-033": {
+   "family": "comparing-sizes"
+  },
+  "K-034": {
+   "family": "comparing-sizes"
+  },
+  "K-035": {
+   "family": "comparing-sizes"
+  },
+  "K-036": {
+   "family": "comparing-sizes"
+  },
+  "K-037": {
+   "family": "comparing-sizes"
+  },
+  "K-039": {
+   "family": "visual-discrimination"
+  },
+  "K-043": {
+   "family": "visual-discrimination"
+  },
+  "K-044": {
+   "family": "visual-discrimination",
+   "topic": "comparing-sizes"
+  },
+  "K-046": {
+   "family": "patterns"
+  },
+  "K-047": {
+   "family": "patterns"
+  },
+  "K-048": {
+   "family": "patterns"
+  },
+  "K-049": {
+   "family": "patterns"
+  },
+  "K-050": {
+   "family": "patterns"
+  },
+  "K-053": {
+   "family": "patterns"
+  },
+  "K-057": {
+   "family": "visual-matching"
+  },
+  "K-058": {
+   "family": "visual-matching"
+  },
+  "K-059": {
+   "family": "counting-pictures"
+  },
+  "K-060": {
+   "family": "counting-pictures"
+  },
+  "K-061": {
+   "family": "visual-discrimination"
+  },
+  "K-062": {
+   "family": "visual-discrimination"
+  },
+  "K-064": {
+   "family": "position-words"
+  },
+  "K-065": {
+   "family": "position-words"
+  },
+  "K-066": {
+   "family": "position-words"
+  },
+  "K-067": {
+   "family": "position-words"
+  },
+  "K-069": {
+   "family": "visual-discrimination"
+  },
+  "K-070": {
+   "family": "counting-pictures"
+  },
+  "K-080": {
+   "family": "visual-discrimination"
+  },
+  "K-201": {
+   "family": "science-sort"
+  },
+  "K-202": {
+   "family": "science-sort"
+  },
+  "K-203": {
+   "family": "science-sort"
+  },
+  "K-204": {
+   "family": "science-sort"
+  },
+  "K-205": {
+   "family": "science-match"
+  },
+  "K-206": {
+   "family": "science-sort"
+  },
+  "K-207": {
+   "family": "science-sort"
+  },
+  "K-208": {
+   "family": "science-sort"
+  },
+  "K-209": {
+   "family": "science-sort"
+  },
+  "K-210": {
+   "family": "science-sort"
+  },
+  "K-214": {
+   "family": "science-sort"
+  },
+  "K-221": {
+   "family": "beginning-sounds"
+  },
+  "K-224": {
+   "family": "word-building"
+  },
+  "K-225": {
+   "family": "picture-vocabulary"
+  },
+  "K-226": {
+   "family": "phonological-awareness"
+  },
+  "K-227": {
+   "family": "phonological-awareness"
+  },
+  "K-228": {
+   "family": "beginning-sounds"
+  },
+  "K-229": {
+   "family": "letter-knowledge"
+  },
+  "K-231": {
+   "family": "word-building"
+  },
+  "K-232": {
+   "family": "phonological-awareness"
+  },
+  "K-233": {
+   "family": "phonological-awareness"
+  },
+  "K-234": {
+   "family": "phonological-awareness"
+  },
+  "K-237": {
+   "family": "number-tracing"
+  },
+  "K-238": {
+   "family": "letter-tracing"
+  },
+  "K-239": {
+   "family": "sight-words"
+  },
+  "K-242": {
+   "family": "mazes"
+  },
+  "K-243": {
+   "family": "number-bonds"
+  },
+  "K-244": {
+   "family": "pre-writing"
+  },
+  "K-245": {
+   "family": "pre-writing"
+  },
+  "K-246": {
+   "family": "pre-writing"
+  },
+  "K-247": {
+   "family": "pre-writing"
+  },
+  "K-251": {
+   "family": "number-tracing"
+  },
+  "K-257": {
+   "family": "letter-tracing"
+  },
+  "K-265": {
+   "family": "color-by-number"
+  },
+  "K-266": {
+   "family": "color-by-number"
+  },
+  "K-268": {
+   "family": "color-by-number"
+  },
+  "K-270": {
+   "family": "mazes"
+  },
+  "K-271": {
+   "family": "mazes"
+  },
+  "K-274": {
+   "family": "number-bonds"
+  },
+  "K-276": {
+   "family": "number-bonds"
+  },
+  "K-278": {
+   "family": "lowercase-letter-tracing"
+  },
+  "K-284": {
+   "family": "word-tracing"
+  },
+  "K-285": {
+   "family": "dot-to-dot"
+  },
+  "K-287": {
+   "family": "singular-plural"
+  },
+  "K-289": {
+   "family": "word-tracing"
+  },
+  "K-291": {
+   "family": "word-tracing"
+  },
+  "K-294": {
+   "family": "dot-to-dot"
+  },
+  "K-295": {
+   "family": "dot-to-dot"
+  },
+  "K-296": {
+   "family": "dot-to-dot"
+  },
+  "K-299": {
+   "family": "grid-copy"
+  },
+  "K-300": {
+   "family": "grid-copy"
+  },
+  "K-302": {
+   "family": "singular-plural"
+  },
+  "K-306": {
+   "family": "articles"
+  },
+  "K-321": {
+   "family": "days-and-months"
+  },
+  "K-323": {
+   "family": "all-about-me"
+  },
+  "K-328": {
+   "family": "letter-of-the-week"
+  },
+  "K-331": {
+   "family": "feelings"
+  },
+  "K-332": {
+   "family": "feelings"
+  },
+  "K-333": {
+   "family": "feelings"
+  },
+  "K-334": {
+   "family": "feelings"
+  },
+  "K-335": {
+   "family": "feelings"
+  },
+  "K-337": {
+   "family": "days-and-months"
+  },
+  "K-338": {
+   "family": "seasons"
+  },
+  "K-341": {
+   "family": "seasons"
+  },
+  "K-342": {
+   "family": "all-about-me"
+  },
+  "K-344": {
+   "family": "all-about-me"
+  },
+  "K-345": {
+   "family": "all-about-me"
+  },
+  "K-352": {
+   "family": "rhyming-words"
+  },
+  "K-354": {
+   "family": "human-body"
+  },
+  "K-368": {
+   "family": "2d-shapes"
+  },
+  "K-370": {
+   "family": "family"
+  },
+  "K-371": {
+   "family": "2d-shapes"
+  },
+  "K-372": {
+   "family": "2d-shapes"
+  },
+  "K-375": {
+   "family": "family"
+  },
+  "K-378": {
+   "family": "digraphs"
+  },
+  "K-379": {
+   "family": "story-sequencing"
+  },
+  "K-385": {
+   "family": "pre-writing"
+  },
+  "K-386": {
+   "family": "pre-writing"
+  },
+  "K-399": {
+   "family": "find-the-differences"
+  },
+  "K-400": {
+   "family": "find-the-differences"
+  },
+  "K-405": {
+   "family": "maze-puzzles"
+  },
+  "K-406": {
+   "family": "maze-puzzles"
+  },
+  "K-407": {
+   "family": "maze-puzzles"
+  },
+  "K-411": {
+   "family": "maze-puzzles"
+  },
+  "K-419": {
+   "family": "picture-tracing"
+  },
+  "K-420": {
+   "family": "picture-tracing"
+  },
+  "K-421": {
+   "family": "picture-tracing"
+  },
+  "K-422": {
+   "family": "picture-tracing"
+  },
+  "K-424": {
+   "family": "picture-tracing"
+  },
+  "K-431": {
+   "family": "picture-tracing"
+  },
+  "K-443": {
+   "family": "counting-pictures"
+  },
+  "K-444": {
+   "family": "counting-pictures"
+  },
+  "K-445": {
+   "family": "counting-pictures"
+  },
+  "K-448": {
+   "family": "counting-frames"
+  },
+  "K-451": {
+   "family": "counting-frames"
+  },
+  "K-467": {
+   "family": "number-tracing"
+  },
+  "K-502": {
+   "family": "grid-copy"
+  },
+  "K-548": {
+   "family": "position-words"
+  },
+  "K-606": {
+   "family": "comparing-numbers"
+  },
+  "K-632": {
+   "family": "number-charts"
+  },
+  "K-637": {
+   "family": "counting-frames"
+  },
+  "K-640": {
+   "family": "counting-pictures"
+  },
+  "K-656": {
+   "family": "capitals-punctuation"
+  },
+  "K-658": {
+   "family": "word-classes"
+  },
+  "K-660": {
+   "family": "capitals-punctuation"
+  }
+ }
+}

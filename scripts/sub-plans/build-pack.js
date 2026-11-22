@@ -20,9 +20,17 @@ const REPO = path.join(__dirname, '..', '..');
 const arg = (k, d) => { const a = process.argv.find((x) => x.startsWith('--' + k + '=')); return a ? a.split('=').slice(1).join('=') : d; };
 const loc = arg('loc', 'en');
 const only = arg('pack', '');
+// --weeks: the week days only (and the binder pages); --binder: the binder pages only
+const WEEKS = process.argv.includes('--weeks'), BINDER = process.argv.includes('--binder');
 const S = path.join(REPO, 'frontend', 'content', 'sub-plans');
-const packs = JSON.parse(fs.readFileSync(path.join(S, 'packs.' + loc + '.json'), 'utf8')).packs.filter((p) => !only || p.id === only);
+const allPacks = JSON.parse(fs.readFileSync(path.join(S, 'packs.' + loc + '.json'), 'utf8')).packs;
+const packs = allPacks.filter((p) => (!only || p.id === only) && (!WEEKS || p.week) && !BINDER);
 const ui = JSON.parse(fs.readFileSync(path.join(S, 'ui.' + loc + '.json'), 'utf8'));
+// the sub binder pages (Part 5.4) of every grade that has week days, in a language whose strings have them
+const BINDER_GRADES = only || !ui.binderTitle ? [] : [...new Set(allPacks.filter((p) => p.week).map((p) => String(p.grade)))];
+const GRADE_ID = { P: 'p', K: 'k', 1: 'g1', 2: 'g2', 3: 'g3', 4: 'g4', 5: 'g5' };
+/** the Teacher-only file id of a grade's binder pages: sub-plans/binder-<k|g1|…>/sub-binder-pages */
+const binderId = (grade) => 'binder-' + GRADE_ID[grade];
 const messages = JSON.parse(fs.readFileSync(path.join(REPO, 'frontend', 'messages', loc + '.json'), 'utf8'));
 const LEVEL_KEY = { P: 'preschool', K: 'kindergarten', 1: 'grade_1', 2: 'grade_2', 3: 'grade_3', 4: 'grade_4', 5: 'grade_5' };
 const PAPER = loc === 'en' || loc === 'es' ? 'Letter' : 'A4';
@@ -55,6 +63,31 @@ function html(pack) {
     + '<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">'
     + '<style>' + CSS + '</style></head><body>' + note + blocks + report + klass + '</body></html>';
 }
+
+/**
+ * The sub binder pages of one grade (Part 5.4): what the guest teacher pages of a day do not hold and a binder needs
+ * once: a class list to fill in, the timetable of a normal day, and the emergency information. The form "How the day
+ * went" and the class information sheets come with every day's guest teacher pages.
+ */
+function binderHtml(grade) {
+  const gradeWord = messages.seo.educational_level[LEVEL_KEY[grade]] || grade;
+  const table = (cols, widths, rows) => '<table class="grid"><thead><tr>' + cols.map((c, i) => '<th style="width:' + widths[i] + '">' + esc(c) + '</th>').join('') + '</tr></thead><tbody>' + ('<tr>' + cols.map(() => '<td></td>').join('') + '</tr>').repeat(rows) + '</tbody></table>';
+  const field = (k, n) => '<div class="field"><h3>' + esc(ui[k]) + '</h3>' + lines(n) + '</div>';
+  const head = (title, lead, first) => '<p class="brand">LessonCraftStudio</p><p class="eyebrow">' + esc([gradeWord, ui.binderTitle].join(' · ')) + '</p><h1 class="small">' + esc(title) + '</h1>' + (first ? '<p class="intro">' + esc(ui.binderIntro) + '</p>' : '') + '<p class="intro">' + esc(lead) + '</p>';
+  const classList = '<section class="sheet">' + head(ui.binderClassTitle, ui.binderClassLead, true) + table(['', ui.binderColName, ui.binderColHome, ui.binderColPickup, ui.binderColNeeds], ['6%', '28%', '20%', '24%', '22%'], 20) + '</section>';
+  const day = '<section class="sheet">' + head(ui.binderTimetableTitle, ui.binderTimetableLead) + table([ui.binderColTime, ui.binderColWhat, ui.binderColWhere, ui.binderColNotes], ['14%', '30%', '20%', '36%'], 16) + '</section>';
+  const emergency = '<section class="sheet">' + head(ui.binderEmergencyTitle, ui.binderEmergencyLead) + field('binderEmergencyFire', 2) + field('binderEmergencyLockdown', 2) + field('binderEmergencyWeather', 1) + field('binderEmergencyFolder', 1) + field('binderEmergencyPhones', 2) + field('binderEmergencyHealth', 3) + field('binderEmergencyHurt', 2) + '</section>';
+  return '<!doctype html><html lang="' + loc + '"><head><meta charset="utf-8"><title>' + esc(gradeWord + ' — ' + ui.binderTitle) + '</title>'
+    + '<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">'
+    + '<style>' + CSS + BINDER_CSS + '</style></head><body>' + classList + day + emergency + '</body></html>';
+}
+const BINDER_CSS = `
+.grid { margin-top: 4mm; table-layout: fixed; }
+.grid th { text-align: left; font-size: 8.5pt; letter-spacing: 0.04em; text-transform: uppercase; color: #46625b; padding: 0 2mm 1.5mm 0; border-bottom: 1.5pt solid #14332d; vertical-align: bottom; line-height: 1.25; }
+.grid td { height: 8.2mm; border-bottom: 0.5pt solid #8fa39e; border-right: 0.5pt solid #d5dfdc; }
+.grid td:last-child { border-right: 0; }
+.sheet .field { margin-top: 4.5mm; }
+`;
 
 const CSS = `
 @page { size: ${PAPER}; margin: 14mm 15mm 16mm 15mm; }
@@ -113,6 +146,24 @@ dd.say { font-size: 11.2pt; font-weight: 600; background: #fff3c9; border-left: 
     // the note, the report and the three class sheets are one sheet each; the scripts take as many as they need
     const ok = pages >= 6 && pages <= 5 + Math.ceil(pack.blocks.length / 2) + 1;
     console.log((ok ? 'ok    ' : 'FAIL  ') + pack.id + ': ' + pages + ' pages, ' + Math.round(buf.length / 1024) + ' KB → ' + path.relative(REPO, file));
+    if (!ok) process.exitCode = 1;
+    await page.close();
+  }
+  // the sub binder pages of each grade that has week days (Part 5.4): class list, a normal day, emergency information
+  for (const grade of BINDER_GRADES) {
+    const page = await browser.newPage();
+    await page.setContent(binderHtml(grade), { waitUntil: 'networkidle0', timeout: 120000 });
+    await page.evaluate(() => document.fonts.ready);
+    const dir = path.join(REPO, 'out', 'teacher-files', loc, 'sub-plans', binderId(grade));
+    fs.mkdirSync(dir, { recursive: true });
+    const file = path.join(dir, 'sub-binder-pages.pdf');
+    const label = (messages.seo.educational_level[LEVEL_KEY[grade]] || grade) + ' · ' + ui.binderFooter;
+    const foot = '<div style="width:100%;font-family:Nunito,Arial,sans-serif;font-size:7.5pt;color:#46625b;padding:0 15mm;display:flex;justify-content:space-between"><span>' + esc(label) + '</span><span class="pageNumber"></span></div>';
+    const buf = await page.pdf({ path: file, format: PAPER, printBackground: true, preferCSSPageSize: true, displayHeaderFooter: true, headerTemplate: '<span></span>', footerTemplate: foot });
+    const pages = (Buffer.from(buf).toString('latin1').match(/\/Type\s*\/Page[^s]/g) || []).length;
+    // three sheets: the class list, a normal day, the emergency information
+    const ok = pages === 3;
+    console.log((ok ? 'ok    ' : 'FAIL  ') + binderId(grade) + ': ' + pages + ' pages, ' + Math.round(buf.length / 1024) + ' KB → ' + path.relative(REPO, file));
     if (!ok) process.exitCode = 1;
     await page.close();
   }

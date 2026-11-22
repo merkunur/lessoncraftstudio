@@ -28,7 +28,9 @@ export interface SubPack {
   slug: string;
   status: 'pilot' | 'live';
   grade: string;
-  position: 'early' | 'middle' | 'late';
+  /** 'week': a day for one week of the grade's plans (Part 5.4), with its `week` */
+  position: 'early' | 'middle' | 'late' | 'week';
+  week?: number;
   title: string;
   metaTitle: string;
   metaDescription: string;
@@ -81,10 +83,25 @@ export const POSITION_ORDER = ['early', 'middle', 'late'] as const;
 /**
  * What the hub of a language lists. Live packs when there are any; a language whose packs are all pilots shows its
  * pilots on a noindex hub (that is how a new language is read before it is published); no packs = no hub (404).
+ * The days of the year only: the week days (Part 5.4) are listed apart (listedWeekPacks), are noindex and in no
+ * sitemap, so that this list (the hub's, the sitemap's, every count of sub plans) stays the search face.
  */
 export async function listedSubPacks(locale: string): Promise<{ live: boolean; packs: SubPack[] }> {
-  const packs = await getSubPacks(locale);
+  const packs = (await getSubPacks(locale)).filter((p) => p.position !== 'week');
   const livePacks = packs.filter((p) => p.status === 'live');
   if (livePacks.length) return { live: true, packs: livePacks };
   return { live: false, packs };
 }
+
+/** the week days of a language that pages show: live ones only (a pilot week day is shown nowhere), by grade and week */
+export async function listedWeekPacks(locale: string): Promise<SubPack[]> {
+  return (await getSubPacks(locale)).filter((p) => p.position === 'week' && p.status === 'live').sort((a, b) => (a.week ?? 0) - (b.week ?? 0));
+}
+/** the live week day before and after a week day in its grade (a pilot is linked from nowhere) */
+export async function weekNeighbours(locale: string, pack: SubPack): Promise<{ prev: SubPack | null; next: SubPack | null }> {
+  const all = (await getSubPacks(locale)).filter((p) => p.position === 'week' && p.grade === pack.grade && p.status === 'live');
+  return { prev: all.find((p) => p.week === (pack.week ?? 0) - 1) ?? null, next: all.find((p) => p.week === (pack.week ?? 0) + 1) ?? null };
+}
+const BINDER_GRADE_ID: Record<string, string> = { P: 'p', K: 'k', '1': 'g1', '2': 'g2', '3': 'g3', '4': 'g4', '5': 'g5' };
+/** the Teacher-only sub binder pages of a grade (Part 5.4, scripts/sub-plans/build-pack.js) */
+export const subBinderFile = (grade: string) => `sub-plans/binder-${BINDER_GRADE_ID[grade] ?? grade.toLowerCase()}/sub-binder-pages`;

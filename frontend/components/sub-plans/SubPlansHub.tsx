@@ -12,11 +12,12 @@ import { buildBreadcrumbSchema } from '@/lib/seo/breadcrumb-schema';
 import { getHreflangCode } from '@/lib/seo/hreflang';
 import BreadcrumbTrail from '@/components/breadcrumbs/BreadcrumbTrail';
 import { GRADE_ORDER, fill } from '@/lib/units';
-import { POSITION_ORDER, SubPack, SubUi } from '@/lib/sub-plans';
+import { POSITION_ORDER, SubPack, SubUi, subBinderFile } from '@/lib/sub-plans';
+import { teacherFileHref } from '@/lib/teacher-files';
 
 const LEVEL_KEY: Record<string, string> = { P: 'preschool', K: 'kindergarten', '1': 'grade_1', '2': 'grade_2', '3': 'grade_3', '4': 'grade_4', '5': 'grade_5' };
 
-export default async function SubPlansHub({ locale, ui, packs, live }: { locale: string; ui: SubUi; packs: SubPack[]; live: boolean }) {
+export default async function SubPlansHub({ locale, ui, packs, live, weeks = [] }: { locale: string; ui: SubUi; packs: SubPack[]; live: boolean; weeks?: SubPack[] }) {
   const [tLevel, tTier, tBreadcrumb] = await Promise.all([
     getTranslations({ locale, namespace: 'seo.educational_level' }),
     getTranslations({ locale, namespace: 'pricingPage.tier' }),
@@ -34,6 +35,8 @@ export default async function SubPlansHub({ locale, ui, packs, live }: { locale:
     })),
   }));
   const ordered = grades.flatMap((g) => g.positions.flatMap((p) => p.packs));
+  // the live week days (Part 5.4), by grade and week; shown only where the language has them and the strings for them
+  const weekGrades = ui.hubWeeksTitle ? GRADE_ORDER.filter((g) => weeks.some((p) => p.grade === g)).map((g) => ({ grade: g, days: weeks.filter((p) => p.grade === g) })) : [];
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -92,6 +95,22 @@ export default async function SubPlansHub({ locale, ui, packs, live }: { locale:
             ))}
           </section>
         ))}
+
+        {weekGrades.length ? (
+          <section className="un-hub-grade sp-weeks" id="weeks" aria-labelledby="weeks-title">
+            <h2 id="weeks-title" className="un-hub-grade-title">{ui.hubWeeksTitle}</h2>
+            <p className="un-hub-lead">{ui.hubWeeksLead}</p>
+            {weekGrades.map((g) => (
+              <details key={g.grade} className="sp-weeks-grade">
+                <summary>{fill(ui.hubWeeksSummary, { grade: gradeLabel(g.grade), n: Math.max(...g.days.map((p) => p.week ?? 0)) })}</summary>
+                <ol className="sp-weeks-list">
+                  {g.days.map((p) => <li key={p.id}><a href={`/${locale}/sub-plans/${p.slug}`}>{fill(ui.hubWeekLink, { n: p.week ?? '' })}</a></li>)}
+                </ol>
+                {ui.binderBtn ? <p className="sp-weeks-binder"><a href={teacherFileHref(locale, subBinderFile(g.grade))} rel="nofollow">{ui.binderBtn}</a></p> : null}
+              </details>
+            ))}
+          </section>
+        ) : null}
 
         <p className="un-hub-note">{fill(ui.hubNote, { plan: tTier('name') })}</p>
       </div>

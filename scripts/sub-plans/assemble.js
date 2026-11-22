@@ -26,8 +26,8 @@ const { pagesOf, REPO } = require('../units/catalog.js');
 const arg = (k, d) => { const a = process.argv.find((x) => x.startsWith('--' + k + '=')); return a ? a.split('=').slice(1).join('=') : d; };
 const has = (k) => process.argv.includes('--' + k);
 const readJson = (f) => JSON.parse(fs.readFileSync(f, 'utf8'));
-const BLOCKS = ['morning', 'reading', 'phonics', 'writing', 'math', 'numbers', 'problems', 'science', 'logic', 'drawing', 'closing'];
-const { planWeeks, refused, HOLIDAY_PAGE, packShape } = require('./position.js');
+const BLOCKS = ['morning', 'reading', 'phonics', 'writing', 'math', 'numbers', 'problems', 'science', 'social', 'logic', 'drawing', 'closing'];
+const { planWeeks, refused, HOLIDAY_PAGE, SKIP_PAGE, packShape } = require('./position.js');
 
 function assemble(loc, opt = {}) {
   const problems = [];
@@ -45,6 +45,7 @@ function assemble(loc, opt = {}) {
   // a page is handed out once per grade: a worksheet type that two packs of a grade both use gives the second pack
   // its next published page (other letters, other numbers), never the same page again
   const usedByGrade = new Map();
+  const pagesScripted = new Set();
   for (const d of defs) {
     const where = loc + ' pack ' + d.id;
     if (seen.has(d.id) || seen.has('/' + d.slug)) bad(where + ': id or slug used twice');
@@ -60,7 +61,7 @@ function assemble(loc, opt = {}) {
       if (!p) { bad(bw + ': no such teaching point ' + b.point); continue; }
       // a day of review: nothing from a later grade than the pack's, and nothing the grade's plan teaches after the
       // pack's time of year
-      const no = refused(p, d.grade, d.position, weeks);
+      const no = refused(p, d.grade, d.position, weeks, d.week);
       if (no) bad(bw + ' (' + b.point + '): ' + no);
       if (!p.types.includes(b.type)) { bad(bw + ': type ' + b.type + ' does not belong to ' + b.point); continue; }
       // the point's script, with the sentences that are true of this worksheet type only
@@ -70,14 +71,20 @@ function assemble(loc, opt = {}) {
       const up = b.level === 'hard';
       if (b.level && !up) { bad(bw + ': unknown level ' + b.level); continue; }
       if (up && !(base && base.byType && base.byType[b.type + '+'])) { bad(bw + ': the harder page of ' + b.type + ' is the page for everyone and has no script of its own (' + b.type + '+)'); continue; }
-      const sc = base ? Object.assign({}, base, (base.byType || {})[b.type + (up ? '+' : '')] || {}) : null;
+      // a week day (Part 5.4) takes the type's week script ('<type>@w') where there is one: what is true of EVERY page
+      // of the type, where the type's own script names something of the page a day of Parts 5.1-5.2 hands out
+      const typeKey = b.type + (up ? '+' : '');
+      const sc = base ? Object.assign({}, base, (base.byType || {})[typeKey] || {}, (d.position === 'week' && (base.byType || {})[typeKey + '@w']) || {}) : null;
       if (!sc || !sc.say || !sc.first || !sc.stuck) { bad(bw + ': the point has no full script (say, first, stuck) in scripts/' + loc + '.json'); continue; }
       const pg = pages.get(b.type), s = strings[b.type];
       if (!pg || !pg.core.length || !s || !s.title || !s.instruction) { bad(bw + ': type ' + b.type + ' has no published core page, title or instruction in this language'); continue; }
       if (/\{[A-Za-z_]+\}/.test(s.printTitle || s.title)) { bad(bw + ': the title of type ' + b.type + ' carries a placeholder (' + (s.printTitle || s.title) + ')'); continue; }
-      const pick = (r) => { const x = pg[r].find((y) => !used.has(y.slug) && !HOLIDAY_PAGE.test(y.slug)); if (x) used.add(x.slug); return x ? x.slug : null; };
+      const pick = (r) => { const x = pg[r].find((y) => !used.has(y.slug) && !HOLIDAY_PAGE.test(y.slug) && !SKIP_PAGE.has(y.slug)); if (x) used.add(x.slug); return x ? x.slug : null; };
       const core = pick(up ? 'hard' : 'core');
       if (!core) { bad(bw + ': every published page of type ' + b.type + ' is already in another pack of this grade'); continue; }
+      // byPage: what is true of ONE page of the type (the picture words of a sound task, Part 5.4), over the type's script
+      const own = base && base.byPage && base.byPage[core];
+      if (own) { Object.assign(sc, own); pagesScripted.add(b.point + ' ' + core); }
       const block = { key: b.key, minutes: b.minutes, point: b.point, type: b.type, title: b.title || s.printTitle || s.title, instruction: s.instruction, core };
       if (up) block.level = 'hard';
       const hard = up ? null : pick('hard'), easy = pick(up ? 'core' : 'easy');
@@ -88,8 +95,11 @@ function assemble(loc, opt = {}) {
     }
     const shape = packShape(d.form, blocks);
     if (shape) bad(where + ': ' + shape);
-    packs.push({ id: d.id, slug: d.slug, status: d.status || 'pilot', grade: d.grade, position: d.position, ...(d.form ? { form: d.form } : {}), ...(d.subject ? { subject: d.subject } : {}), title: d.title, metaTitle: d.metaTitle, metaDescription: d.metaDescription, minutes: blocks.reduce((n, b) => n + b.minutes, 0), blocks });
+    if (d.position === 'week' && !(Number.isInteger(d.week) && d.week >= 1)) bad(where + ': a week day without its week');
+    packs.push({ id: d.id, slug: d.slug, status: d.status || 'pilot', grade: d.grade, position: d.position, ...(d.week ? { week: d.week } : {}), ...(d.form ? { form: d.form } : {}), ...(d.subject ? { subject: d.subject } : {}), title: d.title, metaTitle: d.metaTitle, metaDescription: d.metaDescription, minutes: blocks.reduce((n, b) => n + b.minutes, 0), blocks });
   }
+  // a page's own script that no block hands out is text nobody reads (the page moved to another pack or left)
+  for (const [id, sc] of Object.entries(scripts)) for (const slug of Object.keys(sc.byPage || {})) if (!pagesScripted.has(id + ' ' + slug)) bad(loc + ' scripts ' + id + ': the script of the page ' + slug + ' is for a page no pack hands out');
   return { file: { $comment: 'GENERATED by scripts/sub-plans/assemble.js from defs/' + loc + '.json, scripts/' + loc + '.json, the content graph and the published catalogue. Do not edit by hand.', locale: loc, packs }, problems };
 }
 const fileText = (f) => JSON.stringify(f, null, 1) + '\n';

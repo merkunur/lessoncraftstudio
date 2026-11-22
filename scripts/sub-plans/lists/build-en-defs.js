@@ -11,8 +11,9 @@
  * its own page (the assembler hands a page out once per grade). After the review by a K-1 teacher: the first weeks of
  * Kindergarten get no page that needs letter names or alphabet order, and no puzzle a guest teacher cannot explain.
  *
- *   node scripts/sub-plans/lists/build-en-defs.js    (rewrites defs/en.json; the status of a pack that is already
- *                                                     live in the file is kept)
+ *   node scripts/sub-plans/lists/build-en-defs.js    (rewrites the 24 days of defs/en.json; the status of a pack that
+ *                                                     is already live in the file is kept, and the week days that
+ *                                                     lists/build-en-weeks.js writes after them are kept as they are)
  */
 'use strict';
 const fs = require('fs');
@@ -107,5 +108,7 @@ for (const grade of ['K', '1', '2', '3'].filter((g) => DAYS[g])) {
 }
 for (const p of packs) { if (p.metaTitle.length > 70) throw new Error(p.id + ': metaTitle has ' + p.metaTitle.length + ' characters'); if (p.metaDescription.length < 110 || p.metaDescription.length > 170) throw new Error(p.id + ': the meta description has ' + p.metaDescription.length + ' characters'); }
 const comment = "The sub packs of this language: one school day of REVIEW for one grade. Which blocks, how long, which teaching point and worksheet type. WRITTEN by scripts/sub-plans/lists/build-en-defs.js (edit the lists there). Everything else is filled by scripts/sub-plans/assemble.js. status 'pilot' = noindex, in no sitemap, linked from nowhere. Times are seat-work times a class of that grade can hold; the day's read-aloud, movement and quiet reading come from the class information sheets, not from worksheets.";
-fs.writeFileSync(OUT, JSON.stringify({ $comment: comment, packs }, null, 1) + '\n');
-console.log('en: ' + packs.length + ' packs → ' + path.relative(REPO, OUT));
+// the week days (Part 5.4) are written by lists/build-en-weeks.js, after these: kept as they are
+const weekDays = before.filter((x) => x.position === 'week');
+fs.writeFileSync(OUT, JSON.stringify({ $comment: comment, packs: packs.concat(weekDays) }, null, 1) + '\n');
+console.log('en: ' + packs.length + ' packs (and ' + weekDays.length + ' week days kept) → ' + path.relative(REPO, OUT));

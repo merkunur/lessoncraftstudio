@@ -1,0 +1,69 @@
+{
+ "$comment": "Pages no sub pack hands out (scripts/sub-plans/position.js SKIP_PAGE): something printed on them is wrong for a class without its teacher, so the assembler takes the type's next page. Each entry says why; the page itself is for the content-fix session. Read off the page pictures and manifests while the week days of Part 5.4 were built. None of them is in a day of Parts 5.1-5.2 (assemble.js and gate P8 refuse a page on this list in any pack).",
+ "pages": [
+  {
+   "slug": "beginning-sounds-k221-2",
+   "why": "the shirt is a 'uniform' (u), and uniform begins with the sound /y/; a child says 'shirt'"
+  },
+  {
+   "slug": "phonological-awareness-k232-2",
+   "why": "'tree' is a decorated Christmas tree (a holiday picture on a page without a holiday)"
+  },
+  {
+   "slug": "phonological-awareness-k232-4",
+   "why": "'tree' is a decorated Christmas tree"
+  },
+  {
+   "slug": "phonological-awareness-k233-3",
+   "why": "'cabana' and 'lego' (a brand) are no words a kindergartner counts syllables in"
+  },
+  {
+   "slug": "phonological-awareness-k234-2",
+   "why": "'lego' (a brand), 'ox' and 'orca' pictures a child names otherwise (block, cow, whale), which changes the count"
+  },
+  {
+   "slug": "word-building-k224-3",
+   "why": "the page has both 'hat' and 'hot' as h_t: two right answers"
+  },
+  {
+   "slug": "articles-bakery-k306-3",
+   "why": "'a toast' is not English (toast takes no article); the page asks a or an"
+  },
+  {
+   "slug": "digraphs-k378-2",
+   "why": "swing, singer and tongs have neither sh nor ch, the only two choices on the page"
+  },
+  {
+   "slug": "word-building-k231-5",
+   "why": "\"eye\" built from e, y, e: no word a kindergartner sounds out"
+  },
+  {
+   "slug": "phonological-awareness-k227-2",
+   "why": "key, arm and ox have no vowel in the middle to write"
+  },
+  {
+   "slug": "phonological-awareness-k227-3",
+   "why": "car, egg and cow have no short vowel in the middle"
+  },
+  {
+   "slug": "phonological-awareness-k233-4",
+   "why": "\"iron\" is one syllable or two, depending on who says it"
+  },
+  {
+   "slug": "phonological-awareness-k234-3",
+   "why": "\"iron\" is one syllable or two, depending on who says it"
+  },
+  {
+   "slug": "digraphs-k378-3",
+   "why": "pool, moon and goose have neither sh nor ch, the only two choices on the page"
+  },
+  {
+   "slug": "digraphs-k378-4",
+   "why": "window, cow, starfish and rainbow have neither sh nor ch"
+  },
+  {
+   "slug": "maze-puzzles-g1420-7",
+   "why": "a Christmas page (Santa, sleigh, elf, reindeer) whose address does not say so"
+  }
+ ]
+}

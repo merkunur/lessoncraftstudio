@@ -15,11 +15,17 @@
  *                  a teacher note says a mistake, gives WORDS (something in quotation marks) and what to watch for;
  *                  no two teaching points share a note (word 3-grams, Jaccard 0.5 or more)
  *   P4  scripts    a sub pack has at least 5 blocks with reading, writing and math; every block's script has what to
- *                  say (in quotation marks), how to start together and what to do when a child is stuck
+ *                  say (in quotation marks), how to start together and what to do when a child is stuck; a week day's
+ *                  script names only things its page shows (scripts/sub-plans/picture-words.js: a picture word of the library
+ *                  must be a picture of the page or a word it prints, or an example of the point's rule)
  *   P5  tier truth no visible string says the material is free (the plan's name comes from the pricing catalogue)
  *   P6  strings    every language's ui file holds exactly the keys of the English one
  *   P8  review     a sub pack takes nothing the plans of its grade teach after the pack's time of year (start: the first
- *                  third of the plan's class days; middle: two thirds), the packs of a grade share no page, and no page belongs to a holiday
+ *                  third of the plan's class days; middle: two thirds; a week day: what is taught by the end of its week,
+ *                  and no point in the day of the week before; no worksheet family twice in a week day, except a story and
+ *                  an informational text; an End-of-the-day type at most 3 times in a grade's week days; in Grade 3 a type of
+ *                  a lower grade at most twice in one kind of block),
+ *                  the packs of a grade share no page, no page belongs to a holiday or to the list of pages no pack hands out
  *   P9  pacing     every lesson says the class days it carries by what it holds (scripts/units/pacing.js), a unit its
  *                  days and weeks counted from them, and no unit description names another number of weeks
  */
@@ -35,6 +41,8 @@ const FREE = { en: /\bfree\b/i, de: /\b(kostenlos|gratis|umsonst)\b/i, fr: /\b(g
 // strings of a product that exists in English only so far: German and Swedish get them with that product
 // (slotScreenBook: the readers, whose books exist in English only, 2026-11-22)
 const ENGLISH_FIRST = new Set(['slotScreenBook']);
+// the sub-plan strings of the week days and the sub binder pages (Part 5.4), which exist in English only so far
+const SUB_ENGLISH_FIRST = /^(week[A-Z]|hubWeek|binder[A-Z]|block_social$)/;
 // words by which a plan would claim to fill the school year (a plan of ours fills some weeks of it)
 const WHOLE_YEAR = { en: /(?<!not a )\b(whole|full|entire|complete)[- ](school[- ])?year\b|\byear[- ]long\b|\b(36|40) weeks\b/i,
   de: /(?<!kein )(?<!keinem )\b(ganze[sn]?|gesamte[sn]?|komplette[sn]?|volle[sn]?) (Schul)?jahr\b|\bfürs ganze Jahr\b|\b(36|38|40) Wochen\b/i,
@@ -44,7 +52,9 @@ const WHOLE_YEAR = { en: /(?<!not a )\b(whole|full|entire|complete)[- ](school[-
 const readJson = (f) => (fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : null);
 const QUOTED = /["“„«»”][^"“”„«»]{3,}["”“»«]/;
 
-const { planWeeks, refused, HOLIDAY_PAGE, packShape } = require('../sub-plans/position.js');
+const { planWeeks, refused, HOLIDAY_PAGE, SKIP_PAGE, packShape } = require('../sub-plans/position.js');
+const { mismatches: pictureMismatches } = require('../sub-plans/picture-words.js');
+const SUB_DIR = path.join(REPO, 'scripts', 'sub-plans');
 const PACE = require('./pacing.js');
 // the week count a description names in words (the three languages that have units), for P9
 const WEEK_WORDS = { en: ['', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'], de: ['', 'eine', 'zwei', 'drei', 'vier', 'fünf', 'sechs', 'sieben', 'acht', 'neun', 'zehn'], sv: ['', 'en', 'två', 'tre', 'fyra', 'fem', 'sex', 'sju', 'åtta', 'nio', 'tio'] };
@@ -52,6 +62,9 @@ const WEEK_RE = { en: /\b(?:an?) (one|two|three|four|five|six|seven|eight|nine|t
 function load() {
   const all = readJson(path.join(C, 'teaching-graph', 'points.json')).points;
   const d = { points: new Set(all.map((p) => p.id)), pointById: new Map(all.map((p) => [p.id, p])), loc: {} };
+  // the week days (Part 5.4): the worksheet family of each type, and what each English page shows
+  d.subFamily = (readJson(path.join(SUB_DIR, 'type-families.json')) || { types: {} }).types;
+  d.subPages = (readJson(path.join(SUB_DIR, 'page-pictures.json')) || { pages: {} }).pages;
   for (const l of LOCALES) {
     const units = readJson(path.join(C, 'units', 'units.' + l + '.json'));
     const packs = readJson(path.join(C, 'sub-plans', 'packs.' + l + '.json'));
@@ -162,14 +175,31 @@ function run(d) {
       const w = l + ' pack ' + p.id;
       for (const b of p.blocks) {
         const pt = d.pointById.get(b.point);
-        const no = pt ? refused(pt, p.grade, p.position, weeks) : null;
+        // a week day (Part 5.4) reviews what its grade's plans teach by the END of its week
+        const no = pt ? refused(pt, p.grade, p.position, weeks, p.week) : null;
         if (no) fail('P8', w + ' block ' + b.key + ' (' + b.point + '): ' + no);
         for (const slug of [b.core, b.easy, b.hard].filter(Boolean)) {
           const k = p.grade + ' ' + slug;
           if (HOLIDAY_PAGE.test(slug)) fail('P8', w + ' block ' + b.key + ': the page ' + slug + ' belongs to a holiday');
+          if (SKIP_PAGE.has(slug)) fail('P8', w + ' block ' + b.key + ': the page ' + slug + ' is on the list of pages no pack hands out (scripts/sub-plans/skip-pages.json)');
           if (typeOf.has(k)) fail('P8', w + ' block ' + b.key + ': the page ' + slug + ' is also in pack ' + typeOf.get(k) + ' of the same grade'); else typeOf.set(k, p.id);
         }
       }
+      // the week days of a grade (Part 5.4): no point in two neighbouring weeks
+      if (p.week) { const prev = L.packs.find((x) => x.grade === p.grade && x.week === p.week - 1); if (prev) for (const b of p.blocks) if (prev.blocks.some((x) => x.point === b.point)) fail('P8', w + ' block ' + b.key + ' (' + b.point + '): the point is also in week ' + prev.week + ' of the grade'); }
+      // ... and no worksheet family twice in one week day; two reading pages only when one is a story and one an
+      // informational text (review of Part 5.4: two mental-math pages, two spot-the-difference puzzles in one day)
+      if (p.week) p.blocks.forEach((b, i) => {
+        const a = d.subFamily[b.type];
+        if (!a) { fail('P8', w + ' block ' + b.key + ': ' + b.type + ' has no family in scripts/sub-plans/type-families.json'); return; }
+        for (const c of p.blocks.slice(0, i)) {
+          const o = d.subFamily[c.type];
+          const shared = o && [a.family, a.topic].filter(Boolean).find((k) => [o.family, o.topic].includes(k));
+          if (!shared) continue;
+          if (a.family === 'reading-comprehension' && o.family === a.family && [a.kind, o.kind].sort().join() === 'info,story') continue;
+          fail('P8', w + ' blocks ' + c.key + ' and ' + b.key + ': two pages of the worksheet family ' + shared + ' in one day');
+        }
+      });
       const shape = packShape(p.form, p.blocks);
       if (shape) fail('P4', w + ': ' + shape);
       for (const b of p.blocks) {
@@ -183,11 +213,22 @@ function run(d) {
         if (L.uiS && !L.uiS['block_' + b.key]) fail('P6', bw + ': the ui file has no name for this kind of block');
       }
     }
+    // the week days across the year (review of Part 5.4): an End-of-the-day type at most 3 times in a grade; in Grade 3
+    // a type of a lower grade at most twice in one kind of block
+    const useOf = new Map();
+    for (const p of L.packs.filter((x) => x.week)) for (const b of p.blocks) {
+      if (b.key === 'closing') { const k = p.grade + ' closing ' + b.type; useOf.set(k, (useOf.get(k) || 0) + 1); if (useOf.get(k) === 4) fail('P8', l + ' grade ' + p.grade + ': the End-of-the-day type ' + b.type + ' in more than 3 week days'); }
+      if (String(p.grade) === '3' && !/^G3-/.test(b.type)) { const k = '3 ' + b.key + ' ' + b.type; useOf.set(k, (useOf.get(k) || 0) + 1); if (useOf.get(k) === 3) fail('P8', l + ' grade 3: the lower-grade type ' + b.type + ' in more than 2 ' + b.key + ' blocks'); }
+    }
+    // a week day's script names only things its page shows (scripts/sub-plans/picture-words.js)
+    // ... and gives no answers of another page: "the page for everyone" is a page of the 24 days (Part 5.2)
+    for (const p of L.packs.filter((x) => x.week)) for (const b of p.blocks) if (/page for everyone/i.test([b.script.say, b.script.first, b.script.stuck].join(' '))) fail('P4', l + ' pack ' + p.id + ' block ' + b.key + ': the script speaks of "the page for everyone", a page of another day');
+    if (l === 'en') for (const m of pictureMismatches(L.packs, d.subPages)) fail('P4', l + ' pack ' + m.pack + ' block ' + m.block + ' (' + m.point + ', ' + m.core + '): the script names "' + m.word + '", which the page does not show');
     // the pages' own strings
     for (const [name, ui, base] of [['units/ui', L.uiU, d.loc.en && d.loc.en.uiU], ['sub-plans/ui', L.uiS, d.loc.en && d.loc.en.uiS]]) {
       if (!ui) { if ((name === 'units/ui' ? L.units : L.packs).length) fail('P6', l + ': no ' + name + ' file'); continue; }
       for (const [k, v] of Object.entries(ui)) { if (typeof v !== 'string' || !v.trim()) fail('P6', l + ' ' + name + ': "' + k + '" is empty'); else if (FREE[l].test(v)) fail('P5', l + ' ' + name + ': "' + k + '" says free'); }
-      if (base && l !== 'en') { const keys = (o) => Object.keys(o).filter((k) => !ENGLISH_FIRST.has(k)).sort().join('|'); const a = keys(base), b = keys(ui); if (a !== b) fail('P6', l + ' ' + name + ': its keys are not the keys of the English file'); }
+      if (base && l !== 'en') { const keys = (o) => Object.keys(o).filter((k) => !ENGLISH_FIRST.has(k) && !(name === 'sub-plans/ui' && SUB_ENGLISH_FIRST.test(k))).sort().join('|'); const a = keys(base), b = keys(ui); if (a !== b) fail('P6', l + ' ' + name + ': its keys are not the keys of the English file'); }
     }
   }
   return fails;
@@ -223,6 +264,17 @@ const POISONS = [
   ['a year plan row that is not what its unit says', 'P7', (d) => { d.loc.en.plans[0].units[0].lessons[0] += ' again'; }],
   ['a pack that reviews what its grade teaches later in the year', 'P8', (d) => { const p = d.loc.en.packs.find((x) => x.grade === 'K' && x.position === 'early'); p.blocks[0].point = 'K:combine-groups'; }],
   ['a holiday page in a pack', 'P8', (d) => { d.loc.en.packs[0].blocks[0].core = 'word-problems-easy-christmas-g1213'; }],
+  ['a week day that reviews what its grade teaches after its week', 'P8', (d) => { const p = d.loc.en.packs.find((x) => x.grade === 'K' && x.week === 1); p.blocks[0].point = 'K:combine-groups'; }],
+  ['a point in two neighbouring week days of a grade', 'P8', (d) => { const a = d.loc.en.packs.find((x) => x.grade === '1' && x.week === 1), b = d.loc.en.packs.find((x) => x.grade === '1' && x.week === 2); b.blocks[0].point = a.blocks[0].point; }],
+  ['a week day without its week', 'P8', (d) => { const p = d.loc.en.packs.find((x) => x.week); delete p.week; }],
+  ['two pages of one worksheet family in a week day', 'P8', (d) => { const p = d.loc.en.packs.find((x) => x.week); p.blocks[1].type = p.blocks[0].type; }],
+  ['two stories in a week day', 'P8', (d) => { const p = d.loc.en.packs.find((x) => x.grade === '2' && x.week); p.blocks[0].type = 'G2-269'; p.blocks[1].type = 'G2-270'; }],
+  ['an End-of-the-day type in four week days of a grade', 'P8', (d) => { const ps = d.loc.en.packs.filter((x) => x.grade === '2' && x.week).slice(0, 4); for (const p of ps) p.blocks.find((b) => b.key === 'closing').type = 'G1-148'; }],
+  ['a lower-grade type in three Grade 3 blocks of one kind', 'P8', (d) => { const ps = d.loc.en.packs.filter((x) => x.grade === '3' && x.week).slice(0, 3); for (const p of ps) p.blocks.find((b) => b.key === 'logic').type = 'G1-420'; }],
+  ['a script that names a picture its page does not show', 'P4', (d) => { const p = d.loc.en.packs.find((x) => x.week); const b = p.blocks.find((x) => !(d.subPages[x.core].pictures.includes('walrus'))); b.script.stuck += ' Point to the walrus.'; }],
+  ['a page that does not show what its script names', 'P4', (d) => { const { named } = require('../sub-plans/picture-words.js'); for (const p of d.loc.en.packs.filter((x) => x.week)) for (const b of p.blocks) { const pg = d.subPages[b.core]; const w = named([b.script.say, b.script.first, b.script.stuck].join(' ')).find((x) => pg.pictures.includes(x)); if (w) { d.subPages[b.core] = { pictures: pg.pictures.filter((x) => x !== w), words: pg.words.filter((x) => x !== w) }; return; } } throw new Error('no script names a picture of its page'); }],
+  ['a week-day script with the answers of the page of another day', 'P4', (d) => { const p = d.loc.en.packs.find((x) => x.week); p.blocks[2].script.stuck += ' For your own reference, on the page for everyone the answers are 3 and 4.'; }],
+  ['a page no pack may hand out', 'P8', (d) => { d.loc.en.packs[0].blocks[0].core = [...SKIP_PAGE][0]; }],
   ['a page in two packs of one grade', 'P8', (d) => { const ps = d.loc.en.packs.filter((x) => x.grade === 'K'); ps[1].blocks[0].core = ps[0].blocks[0].core; }],
   ['a pack without a math block', 'P4', (d) => { d.loc.en.packs[0].blocks = d.loc.en.packs[0].blocks.filter((b) => b.key !== 'math'); }],
   ['a script that says nothing aloud', 'P4', (d) => { d.loc.en.packs[0].blocks[1].script.say = 'Introduce the page and explain the task to the class.'; }],

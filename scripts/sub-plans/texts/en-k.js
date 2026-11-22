@@ -219,7 +219,7 @@ module.exports = {
     'K:number-bonds-k': {
       say: '"A number bond shows a number and the two parts that make it. The whole is on top, and the two parts are below. One number is missing. Find it and write it in the dashed circle."',
       first: 'Draw the first number bond on the board. Point to the top circle and say, "This is the whole." Point to the two circles below: "These are the two parts." Show it with fingers: "The whole is 5. One part is 2. How many are in the other part?" Write the answer in the dashed circle.',
-      stuck: 'Give the child counters, or have them draw dots: as many as the whole. Cover as many as the part that is shown and count what is left. If the whole is the number that is missing, count both parts together.',
+      stuck: 'Have the child draw dots: as many as the whole. Cross out as many as the part that is shown and count what is left. If the whole is the number that is missing, count both parts together.',
       byType: {
         'K-276': {
           say: '"A number bond shows a number and the two parts that make it. On this page the two parts are there, and the whole is missing. Put the two parts together and write the whole in the dashed circle."',

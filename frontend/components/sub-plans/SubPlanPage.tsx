@@ -13,7 +13,7 @@ import { getHreflangCode } from '@/lib/seo/hreflang';
 import BreadcrumbTrail from '@/components/breadcrumbs/BreadcrumbTrail';
 import { teacherFileHref } from '@/lib/teacher-files';
 import { fill, pageHref, pageThumb } from '@/lib/units';
-import { SubPack, SubUi, subPackPdfList, subPackScriptFile } from '@/lib/sub-plans';
+import { SubPack, SubUi, subBinderFile, subPackPdfList, subPackScriptFile } from '@/lib/sub-plans';
 import UnitBundleButton from '@/components/units/UnitBundleButton';
 import SaveToCollectionsButton from '@/components/units/SaveToCollectionsButton';
 import { TeacherFileClicks } from '@/components/tracking/PathEvents';
@@ -22,7 +22,7 @@ import { getTeacherGate } from '@/lib/teacher-gate';
 
 const LEVEL_KEY: Record<string, string> = { P: 'preschool', K: 'kindergarten', '1': 'grade_1', '2': 'grade_2', '3': 'grade_3', '4': 'grade_4', '5': 'grade_5' };
 
-export default async function SubPlanPage({ locale, pack, ui, others = [] }: { locale: string; pack: SubPack; ui: SubUi; others?: SubPack[] }) {
+export default async function SubPlanPage({ locale, pack, ui, others = [], prev = null, next = null }: { locale: string; pack: SubPack; ui: SubUi; others?: SubPack[]; prev?: SubPack | null; next?: SubPack | null }) {
   const [tLevel, tTier, tBreadcrumb] = await Promise.all([
     getTranslations({ locale, namespace: 'seo.educational_level' }),
     getTranslations({ locale, namespace: 'pricingPage.tier' }),
@@ -33,6 +33,9 @@ export default async function SubPlanPage({ locale, pack, ui, others = [] }: { l
   const gradeLabel = LEVEL_KEY[pack.grade] ? tLevel(LEVEL_KEY[pack.grade]) : pack.grade;
   const url = canonicalUrl(localePath(locale, 'sub-plans', pack.slug));
   const scriptHref = teacherFileHref(locale, subPackScriptFile(pack));
+  // a week day (Part 5.4): its week in the eyebrow and the facts, the grade's sub binder pages beside its own files
+  const isWeek = pack.position === 'week';
+  const binderHref = isWeek && ui.binderBtn ? teacherFileHref(locale, subBinderFile(pack.grade)) : null;
   const pdfs = subPackPdfList(locale, pack);
   const sheets = pack.blocks.reduce((n, b) => n + 1 + (b.hard ? 1 : 0) + (b.easy ? 1 : 0), 0);
   const inside = [ui.insideNote, fill(ui.insideScript, { n: pack.blocks.length }), fill(ui.insidePages, { n: sheets }), ui.insideForms, ui.insideClass];
@@ -68,12 +71,12 @@ export default async function SubPlanPage({ locale, pack, ui, others = [] }: { l
         {pack.status === 'pilot' ? <p className="un-pilot" role="note">{ui.pilotBanner}</p> : null}
 
         <header className="un-head">
-          <p className="un-eyebrow">{[gradeLabel, ui.packWord, ui[`position_${pack.position}`]].join(' · ')}</p>
+          <p className="un-eyebrow">{[gradeLabel, ui.packWord, isWeek ? fill(ui.weekWord, { n: pack.week ?? '' }) : ui[`position_${pack.position}`]].join(' · ')}</p>
           <h1 className="un-title">{pack.title}</h1>
           <p className="un-facts">
             <span>{fill(ui.factBlocks, { n: pack.blocks.length })}</span>
             <span>{fill(ui.factMinutes, { n: pack.minutes })}</span>
-            <span>{ui.factReview}</span>
+            <span>{isWeek ? fill(ui.weekFact, { n: pack.week ?? '' }) : ui.factReview}</span>
           </p>
         </header>
 
@@ -94,6 +97,7 @@ export default async function SubPlanPage({ locale, pack, ui, others = [] }: { l
               labels={{ button: ui.bundleBtn, working: ui.bundleWorking, done: ui.bundleDone, failed: ui.bundleFailed }}
             />
             <a className="un-btn un-btn-ghost" href={scriptHref} rel="nofollow">{ui.scriptBtn}</a>
+            {binderHref ? <a className="un-btn un-btn-ghost" href={binderHref} rel="nofollow">{ui.binderBtn}</a> : null}
             <SaveToCollectionsButton locale={locale} kind="sub-plan" slug={pack.slug} labels={{ button: ui.saveBtn, done: ui.saveDone, open: ui.saveOpen, failed: ui.saveFailed }} />
             <p className="un-teacher-plan">{fill(ui.planNote, { plan })}</p>
             <p className="un-teacher-how">{ui.bundleHow}</p>
@@ -142,6 +146,18 @@ export default async function SubPlanPage({ locale, pack, ui, others = [] }: { l
               ))}
             </ul>
           </section>
+        ) : null}
+
+        {/* a week day: the weeks before and after it in its grade */}
+        {isWeek && (prev || next) ? (
+          <nav className="sp-more" aria-labelledby="sp-weeks-title">
+            <h2 id="sp-weeks-title" className="un-lessons-title">{fill(ui.weekNavTitle, { grade: gradeLabel })}</h2>
+            <ul>
+              {prev ? <li><a href={`/${locale}/sub-plans/${prev.slug}`}>{fill(ui.weekPrev, { n: prev.week ?? '' })}</a></li> : null}
+              {next ? <li><a href={`/${locale}/sub-plans/${next.slug}`}>{fill(ui.weekNext, { n: next.week ?? '' })}</a></li> : null}
+            </ul>
+            <p><a href={`/${locale}/sub-plans`}>{ui.allPacks}</a></p>
+          </nav>
         ) : null}
 
         {/* the other days of the same grade, in the order of the year: a teacher who is out again takes the next one */}

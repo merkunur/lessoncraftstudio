@@ -47,6 +47,7 @@
  "levelHard": "Harder page",
  "slotScreen": "Practice on screen",
  "slotScreenPage": "{title} (a page that checks the answers)",
+  "slotScreenBook": "{title} (the book, to read on screen page by page)",
  "slotExit": "Check-up page",
  "slotExitText": "One more page of {title} to collect at the end of the lesson.",
  "slotMaker": "Make more",

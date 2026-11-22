@@ -12251,7 +12251,8 @@
       {
        "type": "K-629",
        "title": "A Little Book to Fold and Read",
-       "core": "readers-k629-atthefarm"
+       "core": "readers-k629-atthefarm",
+       "screen": 1
       },
       {
        "type": "K-631",
@@ -12259,6 +12260,12 @@
        "core": "readers-k631-atthefarm"
       }
      ],
+     "screen": {
+      "kind": "page",
+      "slug": "readers-k629-atthefarm",
+      "title": "A Little Book to Fold and Read",
+      "book": 1
+     },
      "exit": {
       "slug": "readers-k629-iseepets",
       "title": "A Little Book to Fold and Read"

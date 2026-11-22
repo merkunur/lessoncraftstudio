@@ -31,7 +31,7 @@ export interface UnitLesson {
   standards: UnitStandard[];
   paper: UnitPaper[];
   tool?: { key: string; slug: string; name: string };
-  screen?: { kind: 'activity'; id: string; slug: string; title: string } | { kind: 'page'; slug: string; title: string };
+  screen?: { kind: 'activity'; id: string; slug: string; title: string } | { kind: 'page'; slug: string; title: string; book?: 1 };
   exit?: { slug: string; title: string };
   maker?: { id: string; name: string; slug: string; template: string };
   note: { mistake: string; words: string; watch: string };

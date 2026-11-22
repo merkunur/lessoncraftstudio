@@ -32,7 +32,9 @@ const LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi
 const FREE = { en: /\bfree\b/i, de: /\b(kostenlos|gratis|umsonst)\b/i, fr: /\b(gratuit|gratuite|gratuits|gratuites|gratuitement)\b/i, es: /\b(gratis|gratuit[oa]s?)\b/i, pt: /\b(grátis|gratuit[oa]s?)\b/i, it: /\b(gratis|gratuit[oaie])\b/i, nl: /\b(gratis|kosteloos)\b/i, sv: /\b(gratis|kostnadsfri\w*)\b/i, da: /\b(gratis)\b/i, no: /\b(gratis)\b/i, fi: /(ilmai[ns]\w*|maksut\w*)/i };
 // strings a language may still lack while its teacher has not read them (the page leaves the sentence out where the
 // key is missing); empty since the day plan of Part 4.8 was read in German and Swedish
-const ENGLISH_FIRST = new Set([]);
+// strings of a product that exists in English only so far: German and Swedish get them with that product
+// (slotScreenBook: the readers, whose books exist in English only, 2026-11-22)
+const ENGLISH_FIRST = new Set(['slotScreenBook']);
 // words by which a plan would claim to fill the school year (a plan of ours fills some weeks of it)
 const WHOLE_YEAR = { en: /(?<!not a )\b(whole|full|entire|complete)[- ](school[- ])?year\b|\byear[- ]long\b|\b(36|40) weeks\b/i,
   de: /(?<!kein )(?<!keinem )\b(ganze[sn]?|gesamte[sn]?|komplette[sn]?|volle[sn]?) (Schul)?jahr\b|\bfürs ganze Jahr\b|\b(36|38|40) Wochen\b/i,

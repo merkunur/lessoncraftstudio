@@ -22,6 +22,8 @@
  * fails the build, as does a unit with fewer than four lessons (PLAN.md Part 4, the filler gate).
  */
 'use strict';
+/** the reader books with a page-turn screen (types/_shared/reader-book.js): on screen they are read, not checked */
+const READER_BOOK_TYPES = new Set(['K-628', 'K-629']);
 const fs = require('fs');
 const path = require('path');
 const REPO = path.join(__dirname, '..', '..');
@@ -206,8 +208,16 @@ function assemble(loc, opt = {}) {
         for (const r of paper) {
           // a page the lesson has not handed out comes first: it is something more to do, not the same page twice
           const pool = pages.get(r.type)[{ 1: 'easy', 2: 'core', 3: 'hard' }[r.level || 2]];   // the level the lesson hands out
-          const x = pool.find((y) => y.screen && !usedPages.has(y.slug)) || pool.find((y) => y.screen && y.slug === r.core);
-          if (x) { usedPages.add(x.slug); screen = { kind: 'page', slug: x.slug, title: r.title }; break; }
+          // a lesson that names its pages (`prefer`) keeps to them on screen too: the first of them not yet handed out,
+          // else the lesson's own page again (the K Level A reading lesson, 2026-11-22: the first free page with a
+          // screen was a Level C book); a lesson without `prefer` is unchanged
+          const pref = (L.prefer || []).map((s) => pool.find((y) => y.slug === s && y.screen)).filter(Boolean);
+          const x = pref.length
+            ? pref.find((y) => !usedPages.has(y.slug)) || pool.find((y) => y.screen && y.slug === r.core) || pref[0]
+            : pool.find((y) => y.screen && !usedPages.has(y.slug)) || pool.find((y) => y.screen && y.slug === r.core);
+          // a reader book read on screen (K-628, K-629: the page-turn screen, 2026-11-22) is a book to read, not a page
+          // that checks answers: the unit page and the guide say so (ui.slotScreenBook)
+          if (x) { usedPages.add(x.slug); screen = { kind: 'page', slug: x.slug, title: r.title, ...(READER_BOOK_TYPES.has(r.type) ? { book: 1 } : {}) }; break; }
         }
       }
       // make more: the maker of the lesson's first type

@@ -146,7 +146,7 @@ function Lesson({ lesson, locale, ui, codeLinks, readers }: { lesson: UnitLesson
             <p className="un-slot-text">
               {lesson.screen.kind === 'activity'
                 ? <a href={`/${locale}/activities/${lesson.screen.slug}`}>{lesson.screen.title}</a>
-                : <a href={pageHref(locale, lesson.screen.slug)}>{fill(ui.slotScreenPage, { title: lesson.screen.title })}</a>}
+                : <a href={pageHref(locale, lesson.screen.slug)}>{fill(lesson.screen.book && ui.slotScreenBook ? ui.slotScreenBook : ui.slotScreenPage, { title: lesson.screen.title })}</a>}
             </p>
           </div>
         ) : null}

@@ -55,7 +55,7 @@ function html(unit) {
     if (l.tool) need.push('<li><b>' + esc(ui.slotTool) + ':</b> ' + esc(fill(ui.slotToolText, { name: l.tool.name })) + '</li>');
     if (l.led && l.routine) need.push('<li><b>' + esc(ui.slotRoutine) + ':</b> ' + esc(l.routine) + '</li>');
     for (const p of l.paper) need.push('<li><b>' + esc(ui.slotPaper) + ':</b> ' + esc(p.title) + ' <span class="lv">(' + esc([ui.levelCore, p.easy ? ui.levelEasy : null, p.hard ? ui.levelHard : null].filter(Boolean).join(', ')) + ')</span></li>');
-    if (l.screen) need.push('<li><b>' + esc(ui.slotScreen) + ':</b> ' + esc(l.screen.kind === 'activity' ? l.screen.title : fill(ui.slotScreenPage, { title: l.screen.title })) + '</li>');
+    if (l.screen) need.push('<li><b>' + esc(ui.slotScreen) + ':</b> ' + esc(l.screen.kind === 'activity' ? l.screen.title : fill(l.screen.book && ui.slotScreenBook ? ui.slotScreenBook : ui.slotScreenPage, { title: l.screen.title })) + '</li>');
     if (l.exit) need.push('<li><b>' + esc(ui.slotExit) + ':</b> ' + esc(fill(ui.slotExitText, { title: l.exit.title })) + '</li>');
     if (l.maker) need.push('<li><b>' + esc(ui.slotMaker) + ':</b> ' + esc(fill(ui.slotMakerText, { name: l.maker.name })) + '</li>');
     const pics = l.paper.map((p) => '<figure><img src="' + thumb(p.core) + '" alt=""><figcaption>' + esc(p.title) + '</figcaption></figure>').join('');

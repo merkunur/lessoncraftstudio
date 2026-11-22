@@ -564,6 +564,11 @@ A product is called complete for a grade only when a generated coverage report s
 - **Five design rows wait:** Kindergarten "Vowels and consonants" (K-230, K-533) and "Read a decodable book" (K-628, K-631), Kindergarten "Walk, march, tiptoe: act it out" (teacher-led, L.K.5.d), Grade 1 "Book talk: listen, then add on" (teacher-led, SL.1.1.a), Grade 2 "Clues to a mystery animal" (G2-343, RI.2.1; it also needs a second asset). Each would make the description of its unit false ("5 lessons"); they are placed when the owner allows unit descriptions to change. Their pages stay published as they are.
 - **Grade 1 rhyming stays** in Sounds and Short-Vowel Words although the design leaves it out as below grade: taking a lesson off a live page is removing live content, which waits for the owner's word.
 - **Applied:** the Grade 1 unit Sounds and Short-Vowel Words takes the design's order, rhyming · sound boxes · first, middle, or last sound · word families · spell picture words (sounds are heard and segmented before word families are read). No title or description changes; its unit check is rebuilt in the new part order.
+- **2026-11-20 (decided, under "decide, do not flag"): the readers go from 12 to 60 without a separate operator read of
+  the 12.** The ramp's "operator read at each step" (Part 8) is met the way every other content step of this programme
+  is: one early-reading reviewer reads every book of a batch with the printed pages, plus my own reading; the 12 already
+  passed that read on 2026-11-13 and are live. The hand-folded printed copy cannot be made here; the fold is the layout of
+  a page live since K-516 and the page check asserts the order of the four panels.
 - **The real open list of Stage B item 1** (measured the same day; the handoff's "batch H next" and "about 130 lessons open" were a stale note): unit checks for the 31 English units that have none and the four pilot checks, then readers to 60.
 
 ## Part 11 — One product: the menu, the hubs, the homepage and the way to the Teacher plan
@@ -1453,3 +1458,10 @@ All are Level Sets: three levels, up to five copies a level, visible to teachers
   1. the maker release for the f1119 template fixes;
   2. Stage B-3, readers 12 → 60 with hubs and a screen version;
   3. then the approved plan (`C:\Users\rkgen\.claude\plans\logical-strolling-papert.md`) item 2 onward.
+
+### 2026-11-22: the maker release for the f1119 worksheet fixes is live (deploy 39)
+
+- **Build:** a full `build-bundles.js` run gave 50 of 61 makers a new version: 5 with content fixes, recorded with `record-fix.js` (docs/makers/migrations: measurement 5, money 17, number-sequences 1, telling-time 3 corrected templates; phonics 6 templates whose pictures were replaced), and 45 with code only (the unit-check hooks; e.g. tangram differs only in its hash-named code chunks).
+- **Gates:** the full suite passed every gate except own-input: the phonics swap offered the withdrawn picture summer/beach as the only fitting key on G1-392 and G1-394. **Fixed (commit `b090efa2a`):** the digraph swap pool leaves withdrawn pictures out, as the pages' own pickers do. 15,840 builds are byte-identical, verify-b5-digraphs passes in all 11 languages, and the phonics suite passes (unique-solution fails only because a one-maker run has no puzzle).
+- **Live:** release-pack (28,397 files, 62 version folders) staged, then deploy 39 installed 51 version folders and 129 pointers. Smoke tests, payment canary and identity check pass, and the live pointers of the changed makers equal the build.
+- **Next:** Stage B-3, readers 12 → 63 with the /en/readers hubs (books written and reviewed twice; pages being generated).

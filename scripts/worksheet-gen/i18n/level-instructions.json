@@ -8495,5 +8495,194 @@
     "3": {
       "en": "Circle the times you wash your hands, color the cakes as you sing, and color each germ buster you did. Then draw yourself teaching a friend to wash."
     }
+  },
+  "G1-626": {
+    "1": {
+      "en": "At each station, circle “I felt it shake,” “I saw it shake,” or both."
+    },
+    "3": {
+      "en": "At each station, circle what you noticed and draw the part that moved. Then finish the sentence."
+    }
+  },
+  "G1-627": {
+    "3": {
+      "en": "Draw each test before the sound and with the sound. Circle what happened, then finish the sentence."
+    }
+  },
+  "G1-628": {
+    "1": {
+      "en": "Circle the cups and the string we used. For each test, circle “I heard it” or “I did not hear it.”"
+    },
+    "3": {
+      "en": "Circle what we used and draw our telephone. Circle “I heard it” or “I did not hear it” for each test. Then write one change that helped."
+    }
+  },
+  "G1-629": {
+    "1": {
+      "en": "Look through the hole of each box. Circle “I saw it” or “I did not see it.”"
+    },
+    "3": {
+      "en": "Look through the hole of each box. Circle “I saw it” or “I did not see it,” and draw what you saw. Then finish the sentence."
+    }
+  },
+  "G1-630": {
+    "3": {
+      "en": "Shine the flashlight at each thing. Write “clear,” “cloudy,” or “blocks” on its line. Then test one more thing: draw it in the box and write its name."
+    }
+  },
+  "G1-631": {
+    "1": {
+      "en": "Trace the light’s path from the flashlight to the mirror to the star. Color each star when your light lands on it."
+    },
+    "3": {
+      "en": "Draw the light’s path with arrows from the flashlight to both mirrors and the star. Then circle the mirror that is turned the right way."
+    }
+  },
+  "G1-632": {
+    "1": {
+      "en": "Draw a line from each toy to its shadow."
+    },
+    "3": {
+      "en": "Match each toy to its shadow. Draw a toy near the light and far from it with their shadows. Circle the bigger shadow and finish the sentence."
+    }
+  },
+  "G1-633": {
+    "3": {
+      "en": "Make a flash code and draw our signal light. Circle what we sent, what our friend read, and “right” or “wrong.” Then write one change that helped."
+    }
+  },
+  "G1-634": {
+    "1": {
+      "en": "Draw the stick’s shadow in each picture. Circle when the shadow was shortest."
+    },
+    "3": {
+      "en": "Draw the Sun and the stick’s shadow at each time. Circle when the shadow was shortest. Then finish the sentence."
+    }
+  },
+  "G1-635": {
+    "1": {
+      "en": "Every few days, write the day and color the bright part of the Moon, like the shapes at the top. If you could not see it, circle “cloudy” or “not in the sky.”"
+    },
+    "3": {
+      "en": "Each day, color the bright part of the Moon (X for clouds, a dash if it was not in the sky). Draw your guess for the next shape, then check it."
+    }
+  },
+  "G1-636": {
+    "1": {
+      "en": "Draw what you can see in the day sky and in the night sky. Use the pictures to help you."
+    },
+    "3": {
+      "en": "Draw what you can see in the day sky and in the night sky. Then finish the sentence."
+    }
+  },
+  "G1-637": {
+    "1": {
+      "en": "Color each month’s bar up to the hours of daylight we read on the 21st. Circle the month with the shortest day (if months are the same, circle all of them)."
+    },
+    "3": {
+      "en": "Write the hours, color the bars, and draw a dashed guess for April. Circle the month with the shortest day. If months are the same, circle all of them."
+    }
+  },
+  "G1-638": {
+    "1": {
+      "en": "Circle what you found out each parent does and what each baby does."
+    },
+    "3": {
+      "en": "Circle what each parent and baby does and finish each sentence. Then circle the parent that never takes care of its babies."
+    }
+  },
+  "G1-639": {
+    "1": {
+      "en": "Draw a line from each animal part to the invention that copies it. Then draw one invention."
+    },
+    "3": {
+      "en": "Circle one animal part. Draw an invention for people that copies it, and tell how it helps. Then finish the sentence."
+    }
+  },
+  "G1-640": {
+    "3": {
+      "en": "Circle each clue that is the same and cross out each clue that is different. Then finish the sentences."
+    }
+  },
+  "G1-641": {
+    "1": {
+      "en": "Draw your seedling and count its leaves. Circle “same” or “different” for each part."
+    },
+    "3": {
+      "en": "Draw each seedling and count its leaves. Circle “same” or “different” for each part. Then finish the sentence."
+    }
+  },
+  "G1-642": {
+    "1": {
+      "en": "Check the materials you used. Color the raft."
+    },
+    "3": {
+      "en": "Check the materials you used. Draw your raft, label three parts, and tell why it will float."
+    }
+  },
+  "G1-643": {
+    "1": {
+      "en": "Test each raft once. Color one circle for each penny it held before water came over the top."
+    },
+    "3": {
+      "en": "Tally the pennies each raft held and write the total. Write one good thing and one thing to fix. Circle the better raft (or both, if they held the same)."
+    }
+  },
+  "G1-644": {
+    "3": {
+      "en": "Circle in red each thing only a trusted grown-up may give you or use. Check each food and drink. Then trace the sentence."
+    }
+  },
+  "G1-645": {
+    "3": {
+      "en": "Write the food group names on the plate. Then draw a line from each food to its food group."
+    }
+  },
+  "G1-646": {
+    "3": {
+      "en": "Circle the times you eat or drink on a school day. Glue one food on each part of the plate. Write each food’s name and circle your drink."
+    }
+  },
+  "G1-647": {
+    "3": {
+      "en": "Color the sun next to each habit you did yesterday. Circle the one habit you will do more. Then finish the sentence."
+    }
+  },
+  "G1-648": {
+    "1": {
+      "en": "Draw a line from each helper to their name."
+    },
+    "3": {
+      "en": "Draw a line from each helper to their name. Then finish the sentences."
+    }
+  },
+  "G1-649": {
+    "3": {
+      "en": "Color the sun next to each part of your body that listened. Then write one thing your partner said."
+    }
+  },
+  "G1-650": {
+    "1": {
+      "en": "Write 1, 2, 3 under the steps. Circle 9, 1, 1 on the phone. Write your name."
+    },
+    "3": {
+      "en": "Write 1, 2, 3 under the steps. Circle 9, 1, 1. Write your name and your street address, and tell when to call 911."
+    }
+  },
+  "G1-651": {
+    "1": {
+      "en": "Write 1, 2, 3 under the steps and trace them. Then draw yourself saying No!"
+    },
+    "3": {
+      "en": "Write 1, 2, 3 under the steps. Write who you can tell at school, at recess, and at home. Then finish the sentence."
+    }
+  },
+  "G1-652": {
+    "1": {
+      "en": "Trace the friendly reminder. Circle one way you helped a friend this week, and draw it."
+    },
+    "3": {
+      "en": "Circle the reminder a friend would listen to. Then finish the sentence."
+    }
   }
 }

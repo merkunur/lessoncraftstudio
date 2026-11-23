@@ -6085,5 +6085,113 @@
   "K-711": {
     "title": "Germ Busters: When Do I Wash?",
     "instruction": "Circle the times you wash your hands. Color a cake each time you sing. Color each germ buster you did by yourself."
+  },
+  "G1-626": {
+    "title": "Sound Stations",
+    "instruction": "At each station, circle “I felt it shake,” “I saw it shake,” or both. Draw the part that moved."
+  },
+  "G1-627": {
+    "title": "Sound Makes Things Move",
+    "instruction": "Draw each test before the sound and with the sound. Then circle what happened."
+  },
+  "G1-628": {
+    "title": "Cup Telephone Tests",
+    "instruction": "Circle the cups and the string we used, and draw our telephone. For each test, circle “I heard it” or “I did not hear it.”"
+  },
+  "G1-629": {
+    "title": "Peep Box: Can I See It?",
+    "instruction": "Look through the hole of each box. Circle “I saw it” or “I did not see it,” and draw what you saw."
+  },
+  "G1-630": {
+    "title": "Does Light Go Through?",
+    "instruction": "Shine the flashlight at each thing. Color the box that shows what the light did."
+  },
+  "G1-631": {
+    "title": "Mirrors Bounce Light",
+    "instruction": "The light must reach the star. Circle the mirror that is turned the right way."
+  },
+  "G1-632": {
+    "title": "Shadows Near and Far",
+    "instruction": "Draw a line from each toy to its shadow. Then draw a toy near the light and its shadow on the wall."
+  },
+  "G1-633": {
+    "title": "Send a Message with Light",
+    "instruction": "Make a flash code and draw our signal light. For each test, circle the message we sent, the message our friend read, and “right” or “wrong.”"
+  },
+  "G1-634": {
+    "title": "My Shadow Through the Day",
+    "instruction": "Draw the Sun and the stick’s shadow at each time. Circle when the shadow was shortest."
+  },
+  "G1-635": {
+    "title": "My Moon Journal",
+    "instruction": "Each day, color the bright part of the Moon, like the shapes at the top. Write X if clouds hid it, or a dash if it was not in the sky."
+  },
+  "G1-636": {
+    "title": "Day Sky and Night Sky",
+    "instruction": "Draw what you can see in the day sky and in the night sky."
+  },
+  "G1-637": {
+    "title": "How Long Is the Day?",
+    "instruction": "Write the hours of daylight we read on the 21st of each month and color its bar. Circle the month with the shortest day (if months are the same, circle all of them)."
+  },
+  "G1-638": {
+    "title": "Animal Parents and Babies",
+    "instruction": "Circle what you found out each parent and baby does. Then circle the parent that never takes care of its babies."
+  },
+  "G1-639": {
+    "title": "Design Like an Animal",
+    "instruction": "Circle one animal part. Draw an invention for people that copies it, and tell how it helps."
+  },
+  "G1-640": {
+    "title": "Like Parents, Not Exactly",
+    "instruction": "Look at each parent and its baby. Circle each clue that is the same for both. Cross out each clue that is different."
+  },
+  "G1-641": {
+    "title": "Seedlings and Their Parent",
+    "instruction": "Draw each seedling and count its leaves. Circle “same” or “different” for each part."
+  },
+  "G1-642": {
+    "title": "Design a Raft",
+    "instruction": "Check the materials you used. Draw your raft and label two parts that keep the pennies dry."
+  },
+  "G1-643": {
+    "title": "Test Two Rafts",
+    "instruction": "Make a tally mark for each penny each raft held. Write the total."
+  },
+  "G1-644": {
+    "title": "Ask a Grown-Up First",
+    "instruction": "Circle in red each thing only a trusted grown-up may give you or use. Put a check in the box under each food and drink."
+  },
+  "G1-645": {
+    "title": "MyPlate: Five Food Groups",
+    "instruction": "Draw a line from each food to its food group on the plate."
+  },
+  "G1-646": {
+    "title": "Build a MyPlate Lunch",
+    "instruction": "Circle the times you eat or drink on a school day. Cut out one food for each part of the plate and glue it on."
+  },
+  "G1-647": {
+    "title": "Which Habit Will I Grow?",
+    "instruction": "Color the sun next to each habit you did yesterday. Circle the one habit you will do more."
+  },
+  "G1-648": {
+    "title": "Health Helpers",
+    "instruction": "Draw a line from each helper to their name. Then finish the sentence."
+  },
+  "G1-649": {
+    "title": "Listen with Your Whole Body",
+    "instruction": "Color the sun next to each part of your body that listened."
+  },
+  "G1-650": {
+    "title": "Fire Safety and Calling 911",
+    "instruction": "Write 1, 2, 3 under the steps. Circle 9, 1, 1 on the phone. Write your name and your street address."
+  },
+  "G1-651": {
+    "title": "Say No, Go Away, Tell",
+    "instruction": "Write 1, 2, 3 under the steps. Then write who you can tell at school, at recess, and at home."
+  },
+  "G1-652": {
+    "title": "Help a Friend Stay Healthy",
+    "instruction": "Circle the reminder a friend would listen to. Then draw one way you helped a friend."
   }
 }

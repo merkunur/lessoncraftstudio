@@ -3310,8 +3310,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:animal-classes-coverings",
-     "type": "G1-201"
+     "point": "1:food-groups",
+     "type": "G1-207"
     }
    ]
   },
@@ -3371,8 +3371,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:habitats-needs",
-     "type": "G1-202"
+     "point": "1:family-generations",
+     "type": "G1-385"
     }
    ]
   },
@@ -3432,8 +3432,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:sink-float",
-     "type": "G1-204"
+     "point": "K:feelings",
+     "type": "K-334"
     }
    ]
   },
@@ -3493,8 +3493,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:food-groups",
-     "type": "G1-207"
+     "point": "1:find-the-differences",
+     "type": "G1-415"
     }
    ]
   },
@@ -3555,8 +3555,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:family-generations",
-     "type": "G1-385"
+     "point": "K:feelings",
+     "type": "K-331"
     }
    ]
   },
@@ -3616,8 +3616,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:feelings",
-     "type": "K-334"
+     "point": "1:family-generations",
+     "type": "G1-386"
     }
    ]
   },
@@ -3677,8 +3677,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:find-the-differences",
-     "type": "G1-415"
+     "point": "1:food-groups",
+     "type": "G1-207"
     }
    ]
   },
@@ -3799,8 +3799,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:animal-classes-coverings",
-     "type": "G1-205"
+     "point": "1:find-the-differences",
+     "type": "G1-415"
     }
    ]
   },
@@ -3860,8 +3860,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:habitats-needs",
-     "type": "G1-206"
+     "point": "K:feelings",
+     "type": "K-331"
     }
    ]
   },
@@ -3921,8 +3921,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:feelings",
-     "type": "K-331"
+     "point": "1:story-sequencing",
+     "type": "G1-401"
     }
    ]
   },
@@ -3982,8 +3982,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:sink-float",
-     "type": "G1-204"
+     "point": "1:family-generations",
+     "type": "G1-385"
     }
    ]
   },
@@ -4043,8 +4043,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:family-generations",
-     "type": "G1-386"
+     "point": "1:animal-classes-coverings",
+     "type": "G1-201"
     }
    ]
   },
@@ -4165,8 +4165,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:food-groups",
-     "type": "G1-207"
+     "point": "1:habitats-needs",
+     "type": "G1-202"
     }
    ]
   },
@@ -4227,8 +4227,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:find-the-differences",
-     "type": "G1-415"
+     "point": "1:food-groups",
+     "type": "G1-207"
     }
    ]
   },
@@ -4288,8 +4288,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:feelings",
-     "type": "K-331"
+     "point": "1:habitats-needs",
+     "type": "G1-206"
     }
    ]
   },
@@ -4351,7 +4351,7 @@
      "key": "closing",
      "minutes": 10,
      "point": "1:animal-classes-coverings",
-     "type": "G1-201"
+     "type": "G1-205"
     }
    ]
   },
@@ -4411,8 +4411,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:habitats-needs",
-     "type": "G1-202"
+     "point": "1:family-generations",
+     "type": "G1-386"
     }
    ]
   },
@@ -4472,8 +4472,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:family-generations",
-     "type": "G1-385"
+     "point": "1:habitats-needs",
+     "type": "G1-202"
     }
    ]
   },
@@ -4534,8 +4534,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:sink-float",
-     "type": "G1-204"
+     "point": "1:animal-classes-coverings",
+     "type": "G1-201"
     }
    ]
   },
@@ -4596,8 +4596,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:story-sequencing",
-     "type": "G1-401"
+     "point": "1:habitats-needs",
+     "type": "G1-206"
     }
    ]
   },
@@ -4657,8 +4657,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:food-groups",
-     "type": "G1-207"
+     "point": "1:sink-float",
+     "type": "G1-204"
     }
    ]
   },
@@ -4719,8 +4719,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:animal-classes-coverings",
-     "type": "G1-205"
+     "point": "1:family-generations",
+     "type": "G1-385"
     }
    ]
   },
@@ -4780,8 +4780,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:habitats-needs",
-     "type": "G1-206"
+     "point": "1:sink-float",
+     "type": "G1-204"
     }
    ]
   },
@@ -4805,8 +4805,8 @@
     {
      "key": "reading",
      "minutes": 20,
-     "point": "1:story-key-details",
-     "type": "G1-579"
+     "point": "1:story-sequencing",
+     "type": "G1-402"
     },
     {
      "key": "phonics",
@@ -4842,8 +4842,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:family-generations",
-     "type": "G1-386"
+     "point": "1:animal-classes-coverings",
+     "type": "G1-205"
     }
    ]
   },
@@ -4867,8 +4867,8 @@
     {
      "key": "reading",
      "minutes": 20,
-     "point": "1:retell-and-lesson",
-     "type": "G1-581"
+     "point": "1:story-key-details",
+     "type": "G1-579"
     },
     {
      "key": "phonics",
@@ -4903,8 +4903,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:animal-classes-coverings",
-     "type": "G1-201"
+     "point": "1:habitats-needs",
+     "type": "G1-202"
     }
    ]
   },
@@ -4965,8 +4965,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:habitats-needs",
-     "type": "G1-202"
+     "point": "1:family-generations",
+     "type": "G1-386"
     }
    ]
   },

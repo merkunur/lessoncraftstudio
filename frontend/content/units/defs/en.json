@@ -4724,6 +4724,363 @@
     }
    ],
    "weeks": 15
+  },
+  {
+   "id": "g1-sound-and-vibrations",
+   "slug": "sound-and-vibrations-grade-1-unit",
+   "status": "live",
+   "grade": "1",
+   "subject": "science",
+   "title": "Sound and Vibrations",
+   "metaTitle": "Grade 1 Science Lesson Plans: Sound and Vibrations",
+   "metaDescription": "A Grade 1 science unit: 4 lessons on the five senses, how vibrations make sound, how sound makes things move, and building and testing cup telephones.",
+   "lessons": [
+    {
+     "point": "1:five-senses",
+     "types": [
+      "G1-357",
+      "G1-358"
+     ]
+    },
+    {
+     "point": "1:vibrations-make-sound",
+     "types": [
+      "G1-626"
+     ],
+     "days": 3
+    },
+    {
+     "point": "1:sound-moves-things",
+     "types": [
+      "G1-627"
+     ]
+    },
+    {
+     "point": "1:cup-telephone",
+     "types": [
+      "G1-628"
+     ],
+     "days": 3
+    }
+   ],
+   "weeks": 4
+  },
+  {
+   "id": "g1-light-shadows-signals",
+   "slug": "light-shadows-and-signals-grade-1-unit",
+   "status": "live",
+   "grade": "1",
+   "subject": "science",
+   "title": "Light, Shadows, and Signals",
+   "metaTitle": "Grade 1 Science Lesson Plans: Light, Shadows, and Signals",
+   "metaDescription": "A Grade 1 science unit: 5 lessons on seeing only with light, what light passes through, mirrors, shadows near and far, and sending messages with light.",
+   "lessons": [
+    {
+     "point": "1:see-with-light",
+     "types": [
+      "G1-629"
+     ]
+    },
+    {
+     "point": "1:light-through-materials",
+     "types": [
+      "G1-630"
+     ],
+     "days": 3
+    },
+    {
+     "point": "1:mirrors-bounce-light",
+     "types": [
+      "G1-631"
+     ]
+    },
+    {
+     "point": "1:shadows-near-far",
+     "types": [
+      "G1-632"
+     ]
+    },
+    {
+     "point": "1:light-messages",
+     "types": [
+      "G1-633"
+     ],
+     "days": 3
+    }
+   ],
+   "weeks": 5
+  },
+  {
+   "id": "g1-weather-and-sky",
+   "slug": "weather-and-sky-patterns-grade-1-unit",
+   "status": "live",
+   "grade": "1",
+   "subject": "science",
+   "title": "Weather and Sky Patterns",
+   "metaTitle": "Grade 1 Science Lesson Plans: Weather and Sky Patterns",
+   "metaDescription": "A Grade 1 science unit: 6 lessons on the weather forecast, the Sun, Earth, and Moon, a shadow through the day, a Moon journal, the night sky, and daylight hours.",
+   "lessons": [
+    {
+     "point": "1:weather",
+     "types": [
+      "G1-362",
+      "G1-363"
+     ]
+    },
+    {
+     "point": "1:sun-earth-moon",
+     "types": [
+      "G1-378",
+      "G1-391"
+     ]
+    },
+    {
+     "point": "1:shadow-through-day",
+     "types": [
+      "G1-634"
+     ]
+    },
+    {
+     "point": "1:moon-journal",
+     "types": [
+      "G1-635"
+     ],
+     "days": 3
+    },
+    {
+     "point": "1:day-night-sky",
+     "types": [
+      "G1-636"
+     ]
+    },
+    {
+     "point": "1:daylight-hours",
+     "types": [
+      "G1-637"
+     ]
+    }
+   ],
+   "weeks": 5
+  },
+  {
+   "id": "g1-animal-bodies-homes-families",
+   "slug": "animal-bodies-homes-and-families-grade-1-unit",
+   "status": "live",
+   "grade": "1",
+   "subject": "science",
+   "title": "Animal Bodies, Homes, and Families",
+   "metaTitle": "Grade 1 Science Lesson Plans: Animal Bodies, Homes, and Families",
+   "metaDescription": "A Grade 1 science unit: 5 lessons on animal groups and coverings, our body parts and their jobs, habitats, animal parents and young, and designs that copy animals.",
+   "lessons": [
+    {
+     "point": "1:animal-classes-coverings",
+     "types": [
+      "G1-201",
+      "G1-205"
+     ]
+    },
+    {
+     "point": "1:body-parts",
+     "types": [
+      "G1-356"
+     ]
+    },
+    {
+     "point": "1:habitats-needs",
+     "types": [
+      "G1-398",
+      "G1-202"
+     ]
+    },
+    {
+     "point": "1:animal-parents",
+     "types": [
+      "G1-638"
+     ],
+     "days": 3
+    },
+    {
+     "point": "1:design-like-an-animal",
+     "types": [
+      "G1-639"
+     ],
+     "days": 3
+    }
+   ],
+   "weeks": 5
+  },
+  {
+   "id": "g1-plants-and-young",
+   "slug": "plants-and-young-living-things-grade-1-unit",
+   "status": "live",
+   "grade": "1",
+   "subject": "science",
+   "title": "Plants and Young Living Things",
+   "metaTitle": "Grade 1 Science Lesson Plans: Plants and Young Living Things",
+   "metaDescription": "A Grade 1 science unit: 4 lessons on the parts of a plant, life cycles in order, young animals like their parents, and seedlings compared with the grown plant.",
+   "lessons": [
+    {
+     "point": "1:plant-parts",
+     "types": [
+      "G1-376"
+     ]
+    },
+    {
+     "point": "1:life-cycles",
+     "types": [
+      "G1-203",
+      "G1-377"
+     ]
+    },
+    {
+     "point": "1:like-parents",
+     "types": [
+      "G1-640"
+     ],
+     "days": 3
+    },
+    {
+     "point": "1:seedlings-and-parent",
+     "types": [
+      "G1-641"
+     ]
+    }
+   ],
+   "weeks": 4
+  },
+  {
+   "id": "g1-materials-and-rafts",
+   "slug": "materials-and-rafts-grade-1-unit",
+   "status": "live",
+   "grade": "1",
+   "subject": "science",
+   "title": "Materials and Rafts",
+   "metaTitle": "Grade 1 Science Lesson Plans: Materials and Rafts",
+   "metaDescription": "A Grade 1 science and engineering unit: 4 lessons on what things are made of, testing what sinks or floats, designing a raft, and testing two rafts.",
+   "lessons": [
+    {
+     "point": "1:materials-recycling",
+     "types": [
+      "G1-364",
+      "G1-365"
+     ]
+    },
+    {
+     "point": "1:sink-float",
+     "types": [
+      "G1-204",
+      "G1-399"
+     ]
+    },
+    {
+     "point": "1:design-a-raft",
+     "types": [
+      "G1-642"
+     ],
+     "days": 3
+    },
+    {
+     "point": "1:test-two-rafts",
+     "types": [
+      "G1-643"
+     ]
+    }
+   ],
+   "weeks": 4
+  },
+  {
+   "id": "g1-staying-safe",
+   "slug": "staying-safe-and-getting-help-grade-1-unit",
+   "status": "live",
+   "grade": "1",
+   "subject": "health",
+   "title": "Staying Safe and Getting Help",
+   "metaTitle": "Grade 1 Health Lesson Plans: Staying Safe and Getting Help",
+   "metaDescription": "A Grade 1 health unit: 5 lessons on whole-body listening, road signs, fire safety and 911, asking a grown-up about medicine, and say no, go away, tell.",
+   "lessons": [
+    {
+     "point": "1:whole-body-listening",
+     "types": [
+      "G1-649"
+     ]
+    },
+    {
+     "point": "1:road-signs",
+     "types": [
+      "G1-384"
+     ]
+    },
+    {
+     "point": "1:fire-safety-911",
+     "types": [
+      "G1-650"
+     ]
+    },
+    {
+     "point": "1:ask-a-grown-up",
+     "types": [
+      "G1-644"
+     ]
+    },
+    {
+     "point": "1:say-no-go-tell",
+     "types": [
+      "G1-651"
+     ]
+    }
+   ],
+   "weeks": 13
+  },
+  {
+   "id": "g1-healthy-habits-food",
+   "slug": "healthy-habits-and-healthy-food-grade-1-unit",
+   "status": "live",
+   "grade": "1",
+   "subject": "health",
+   "title": "Healthy Habits and Healthy Food",
+   "metaTitle": "Grade 1 Health Lesson Plans: Healthy Habits and Healthy Food",
+   "metaDescription": "A Grade 1 health unit: 6 lessons on MyPlate food groups, building a MyPlate lunch, a habit to grow, teeth and germs, helping a friend, and health helpers.",
+   "lessons": [
+    {
+     "point": "1:myplate-groups",
+     "types": [
+      "G1-645"
+     ]
+    },
+    {
+     "point": "1:myplate-lunch",
+     "types": [
+      "G1-646"
+     ]
+    },
+    {
+     "point": "1:habit-to-grow",
+     "types": [
+      "G1-647"
+     ]
+    },
+    {
+     "point": "1:healthy-habits",
+     "types": [
+      "G1-403",
+      "G1-404",
+      "G1-405"
+     ]
+    },
+    {
+     "point": "1:help-a-friend",
+     "types": [
+      "G1-652"
+     ]
+    },
+    {
+     "point": "1:health-helpers",
+     "types": [
+      "G1-648"
+     ]
+    }
+   ],
+   "weeks": 15
   }
  ],
  "plans": [
@@ -4904,6 +5261,23 @@
     "k-sink-float-boats",
     "k-plants-and-animals-grow",
     "k-sunlight-and-earth-care"
+   ]
+  },
+  {
+   "id": "plan-1-science",
+   "slug": "grade-1-science-scope-and-sequence",
+   "grade": "1",
+   "subject": "science",
+   "title": "Grade 1 Science Scope and Sequence",
+   "metaTitle": "Grade 1 Science Scope and Sequence with Pacing Guide ({weeks} Weeks)",
+   "metaDescription": "{units} Grade 1 science units in teaching order, about {weeks} weeks of three science sessions a week, with each unit's lessons and its NGSS standards.",
+   "units": [
+    "g1-sound-and-vibrations",
+    "g1-light-shadows-signals",
+    "g1-weather-and-sky",
+    "g1-animal-bodies-homes-families",
+    "g1-plants-and-young",
+    "g1-materials-and-rafts"
    ]
   }
  ]

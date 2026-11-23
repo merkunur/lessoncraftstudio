@@ -7407,16 +7407,16 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:animal-classes-coverings",
-     "type": "G1-201",
-     "title": "Sort the Animals",
-     "instruction": "Draw a line from each animal to the group it belongs to.",
-     "core": "science-sort-g1201",
-     "hard": "science-sort-hard-g1201-7",
-     "easy": "science-sort-easy-g1201-2",
+     "point": "1:food-groups",
+     "type": "G1-207",
+     "title": "Sort by Food Group",
+     "instruction": "Draw a line from each food to its food group.",
+     "core": "science-sort-g1207",
+     "hard": "science-sort-hard-g1207-7",
+     "easy": "science-sort-easy-g1207-2",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Mammals, Birds, and Reptiles. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Does it have fur, feathers, or scales? Does it lay eggs or feed its babies milk?\" Draw the line from the dot under the picture to its box. Mammals have fur or hair, birds have feathers, and reptiles have dry scales.",
+      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fruits, Vegetables, Grains, and Protein. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this a fruit, a vegetable, a grain like bread or pasta, or a protein like eggs, meat, or fish?\" Draw the line from the dot under the picture to its box. If a food fits two groups, either box is right when the child can say why.",
       "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
      }
     }
@@ -7544,17 +7544,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:habitats-needs",
-     "type": "G1-202",
-     "title": "Where Do Animals Live?",
-     "instruction": "Draw a line from each animal to where it lives.",
-     "core": "science-sort-g1202",
-     "hard": "science-sort-hard-g1202-7",
-     "easy": "science-sort-easy-g1202-2",
+     "point": "1:family-generations",
+     "type": "G1-385",
+     "title": "Family Generations: Oldest to Youngest",
+     "instruction": "In each row, write 1, 2 and 3 in the boxes to put the family words in order from the oldest generation to the youngest.",
+     "core": "family-g1385",
+     "hard": "family-hard-g1385-12",
+     "easy": "family-easy-g1385-7",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Land, Water, and Air. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this animal spend most of its time: on land, in the water, or in the air?\" Draw the line from the dot under the picture to its box. An animal that flies lives on land too, so Air and Land are both right for it, and a crab lives in the water and on land, so Water and Land are both right for it, when the child can say why.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
+      "say": "\"In each row there are family words. Write 1, 2, and 3 to put them in order, from the oldest generation to the youngest.\"",
+      "first": "Talk about a family: grandparents are the oldest generation, then parents, aunts, and uncles, then children like brothers, sisters, and cousins. Read the first row aloud together and ask, \"Who is the oldest?\" Write 1 under that word, then 2 and 3.",
+      "stuck": "Ask the child about each word: \"Is that a grandparent, a parent, or a child?\" Grandparents get 1, parents 2, children 3. Every family is different; this page is about the words."
      }
     }
    ]
@@ -7684,17 +7684,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:sink-float",
-     "type": "G1-204",
-     "title": "Sink or Float?",
-     "instruction": "Draw a line from each object to the group you think it belongs to.",
-     "core": "science-sort-g1204",
-     "hard": "science-sort-hard-g1204-7",
-     "easy": "science-sort-easy-g1204-2",
+     "point": "K:feelings",
+     "type": "K-334",
+     "title": "Which Face Shows the Feeling?",
+     "instruction": "Read the feeling word and circle the one face in the row that shows it.",
+     "core": "feelings-k334",
+     "hard": "feelings-hard-k334-3",
+     "easy": "feelings-easy-k334-2",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Float and Sink. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"If we put this in water, would it float on top or sink to the bottom?\" Draw the line from the dot under the picture to its box. This page asks what the children think; a child who can say why has done the page well.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
+      "say": "\"Each row has a feeling word and three faces. Circle the face that shows that feeling.\"",
+      "first": "Read every feeling word on the page aloud: tired, angry, happy, scared, surprised, sad. Make each face for the class. Do the first row together: read the word, look at the three faces, and circle the one that matches.",
+      "stuck": "Read the word for the child and make the face. Ask the child to point to the face on the page that looks like yours."
      }
     }
    ]
@@ -7823,17 +7823,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:food-groups",
-     "type": "G1-207",
-     "title": "Sort by Food Group",
-     "instruction": "Draw a line from each food to its food group.",
-     "core": "science-sort-g1207",
-     "hard": "science-sort-hard-g1207-7",
-     "easy": "science-sort-easy-g1207-2",
+     "point": "1:find-the-differences",
+     "type": "G1-415",
+     "title": "Mirror Pictures: Fold and Check",
+     "instruction": "Picture 2 is flipped like a mirror; circle the 4 things or empty places that still differ, check a box for each, then fold on the line to check.",
+     "core": "find-the-differences-g1415-12",
+     "hard": "find-the-differences-hard-g1415-22",
+     "easy": "find-the-differences-easy-g1415-4",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fruits, Vegetables, Grains, and Protein. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this a fruit, a vegetable, a grain like bread or pasta, or a protein like eggs, meat, or fish?\" Draw the line from the dot under the picture to its box. If a food fits two groups, either box is right when the child can say why.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
+      "say": "\"This page has two pairs of pictures. In each pair, picture 2 is picture 1 flipped over, the way a mirror would show it. But some things are still different: four in all. Circle them in picture 2 and check a box for each one. Then fold the page on the dashed line to check.\"",
+      "first": "Hold the page up and show how picture 2 is flipped: what is on the left in picture 1 is on the right in picture 2. Find one difference together and circle it. Show how to fold the page on the line at the end, so that the two pictures lie on top of each other.",
+      "stuck": "Have the child pick one thing in picture 1 and find it in picture 2 on the other side. Folding the page on the line and holding it up to the window shows what does not match."
      }
     }
    ]
@@ -7965,17 +7965,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:family-generations",
-     "type": "G1-385",
-     "title": "Family Generations: Oldest to Youngest",
-     "instruction": "In each row, write 1, 2 and 3 in the boxes to put the family words in order from the oldest generation to the youngest.",
-     "core": "family-g1385",
-     "hard": "family-hard-g1385-12",
-     "easy": "family-easy-g1385-7",
+     "point": "K:feelings",
+     "type": "K-331",
+     "title": "How Do You Feel? Circle the Face",
+     "instruction": "Look at the picture, think how you would feel, and circle the face that matches.",
+     "core": "feelings-k331-2",
+     "hard": "feelings-hard-k331-14",
+     "easy": "feelings-easy-k331-8",
      "script": {
-      "say": "\"In each row there are family words. Write 1, 2, and 3 to put them in order, from the oldest generation to the youngest.\"",
-      "first": "Talk about a family: grandparents are the oldest generation, then parents, aunts, and uncles, then children like brothers, sisters, and cousins. Read the first row aloud together and ask, \"Who is the oldest?\" Write 1 under that word, then 2 and 3.",
-      "stuck": "Ask the child about each word: \"Is that a grandparent, a parent, or a child?\" Grandparents get 1, parents 2, children 3. Every family is different; this page is about the words."
+      "say": "\"Look at each picture. Think about how it would make you feel. Then circle the face that shows that feeling.\"",
+      "first": "Look at the first picture together and ask what it shows. Ask, \"How does that make you feel?\" Let two or three children answer; they may not all feel the same, and that is fine. Each child circles the face that matches their own answer.",
+      "stuck": "Ask the child what the picture shows and when they have seen one. Then point to each face and name the feeling it shows. There is no wrong answer on this page; any face the child can explain is right."
      }
     }
    ]
@@ -8105,17 +8105,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:feelings",
-     "type": "K-334",
-     "title": "Which Face Shows the Feeling?",
-     "instruction": "Read the feeling word and circle the one face in the row that shows it.",
-     "core": "feelings-k334",
-     "hard": "feelings-hard-k334-3",
-     "easy": "feelings-easy-k334-2",
+     "point": "1:family-generations",
+     "type": "G1-386",
+     "title": "Family Tree: Read the Clues",
+     "instruction": "Read the clues and write each name in the right name box on the family tree.",
+     "core": "family-g1386",
+     "hard": "family-hard-g1386-12",
+     "easy": "family-easy-g1386-7",
      "script": {
-      "say": "\"Each row has a feeling word and three faces. Circle the face that shows that feeling.\"",
-      "first": "Read every feeling word on the page aloud: tired, angry, happy, scared, surprised, sad. Make each face for the class. Do the first row together: read the word, look at the three faces, and circle the one that matches.",
-      "stuck": "Read the word for the child and make the face. Ask the child to point to the face on the page that looks like yours."
+      "say": "\"Read each clue. It tells you who someone is in the family. Write each name in the right name box on the family tree.\"",
+      "first": "Read the names on the tree and the first clue aloud. Find the child the clues are about on the tree. Ask, \"If Leo is Jack's brother, where does he go on the tree?\" Write Leo in that box together.",
+      "stuck": "Read the clue with the child and point to Jack on the tree. Ask, \"Is a brother next to Jack, above him, or two rows up?\" Brothers and sisters are next to him, parents above, grandparents at the top."
      }
     }
    ]
@@ -8246,17 +8246,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:find-the-differences",
-     "type": "G1-415",
-     "title": "Mirror Pictures: Fold and Check",
-     "instruction": "Picture 2 is flipped like a mirror; circle the 4 things or empty places that still differ, check a box for each, then fold on the line to check.",
-     "core": "find-the-differences-g1415-12",
-     "hard": "find-the-differences-hard-g1415-22",
-     "easy": "find-the-differences-easy-g1415-4",
+     "point": "1:food-groups",
+     "type": "G1-207",
+     "title": "Sort by Food Group",
+     "instruction": "Draw a line from each food to its food group.",
+     "core": "science-sort-g1207-2",
+     "hard": "science-sort-hard-g1207-8",
+     "easy": "science-sort-easy-g1207-3",
      "script": {
-      "say": "\"This page has two pairs of pictures. In each pair, picture 2 is picture 1 flipped over, the way a mirror would show it. But some things are still different: four in all. Circle them in picture 2 and check a box for each one. Then fold the page on the dashed line to check.\"",
-      "first": "Hold the page up and show how picture 2 is flipped: what is on the left in picture 1 is on the right in picture 2. Find one difference together and circle it. Show how to fold the page on the line at the end, so that the two pictures lie on top of each other.",
-      "stuck": "Have the child pick one thing in picture 1 and find it in picture 2 on the other side. Folding the page on the line and holding it up to the window shows what does not match."
+      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fruits, Vegetables, Grains, and Protein. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this a fruit, a vegetable, a grain like bread or pasta, or a protein like eggs, meat, or fish?\" Draw the line from the dot under the picture to its box. A tomato can be called a fruit or a vegetable; either box is right for it.",
+      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
      }
     }
    ]
@@ -8528,17 +8528,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:animal-classes-coverings",
-     "type": "G1-205",
-     "title": "Animal Coverings",
-     "instruction": "Draw a line from each animal to its body covering.",
-     "core": "science-sort-g1205",
-     "hard": "science-sort-hard-g1205-7",
-     "easy": "science-sort-easy-g1205-2",
+     "point": "1:find-the-differences",
+     "type": "G1-415",
+     "title": "Mirror Pictures: Fold and Check",
+     "instruction": "Picture 2 is flipped like a mirror; circle the 4 things or empty places that still differ, check a box for each, then fold on the line to check.",
+     "core": "find-the-differences-g1415-13",
+     "hard": "find-the-differences-hard-g1415-23",
+     "easy": "find-the-differences-easy-g1415-5",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fur, Feathers, and Scales. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"What covers this animal's body: fur, feathers, or scales?\" Draw the line from the dot under the picture to its box. Fur is soft hair, feathers have a stem with soft sides, and scales are small, hard plates on the skin.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
+      "say": "\"This page has two pairs of pictures. In each pair, picture 2 is picture 1 flipped over, the way a mirror would show it. But some things are still different: four in all. Circle them in picture 2 and check a box for each one. Then fold the page on the dashed line to check.\"",
+      "first": "Hold the page up and show how picture 2 is flipped: what is on the left in picture 1 is on the right in picture 2. Find one difference together and circle it. Show how to fold the page on the line at the end, so that the two pictures lie on top of each other.",
+      "stuck": "Have the child pick one thing in picture 1 and find it in picture 2 on the other side. Folding the page on the line and holding it up to the window shows what does not match."
      }
     }
    ]
@@ -8667,17 +8667,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:habitats-needs",
-     "type": "G1-206",
-     "title": "What Animals Eat",
-     "instruction": "Draw a line from each animal to the group it belongs to.",
-     "core": "science-sort-g1206",
-     "hard": "science-sort-hard-g1206-7",
-     "easy": "science-sort-easy-g1206-2",
+     "point": "K:feelings",
+     "type": "K-331",
+     "title": "How Do You Feel? Circle the Face",
+     "instruction": "Look at the picture, think how you would feel, and circle the face that matches.",
+     "core": "feelings-k331-3",
+     "hard": "feelings-hard-k331-15",
+     "easy": "feelings-easy-k331-9",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Plant Eaters and Meat Eaters. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"What does this animal eat: plants or other animals?\" Draw the line from the dot under the picture to its box.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
+      "say": "\"Look at each picture. Think about how it would make you feel. Then circle the face that shows that feeling.\"",
+      "first": "Look at the first picture together and ask what it shows. Ask, \"How does that make you feel?\" Let two or three children answer; they may not all feel the same, and that is fine. Each child circles the face that matches their own answer.",
+      "stuck": "Ask the child what the picture shows and when they have seen one. Then point to each face and name the feeling it shows. There is no wrong answer on this page; any face the child can explain is right."
      }
     }
    ]
@@ -8807,17 +8807,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:feelings",
-     "type": "K-331",
-     "title": "How Do You Feel? Circle the Face",
-     "instruction": "Look at the picture, think how you would feel, and circle the face that matches.",
-     "core": "feelings-k331-2",
-     "hard": "feelings-hard-k331-14",
-     "easy": "feelings-easy-k331-8",
+     "point": "1:story-sequencing",
+     "type": "G1-401",
+     "title": "Beginning, Middle and End of a Story",
+     "instruction": "Look at the beginning and the end of each story and draw what happens in the middle frame.",
+     "core": "story-sequencing-g1401-2",
+     "hard": "story-sequencing-hard-g1401-13",
+     "easy": "story-sequencing-easy-g1401-8",
      "script": {
-      "say": "\"Look at each picture. Think about how it would make you feel. Then circle the face that shows that feeling.\"",
-      "first": "Look at the first picture together and ask what it shows. Ask, \"How does that make you feel?\" Let two or three children answer; they may not all feel the same, and that is fine. Each child circles the face that matches their own answer.",
-      "stuck": "Ask the child what the picture shows and when they have seen one. Then point to each face and name the feeling it shows. There is no wrong answer on this page; any face the child can explain is right."
+      "say": "\"Each story on this page has a beginning and an end, but the middle is missing. Look at what is different between the first picture and the last one. Then draw what happens in the middle.\"",
+      "first": "Do the first story together: look at the first picture and the last one and ask, \"What changed? What must have happened in between?\" Let two or three children say their ideas. Each child draws their own middle picture; many drawings can be right.",
+      "stuck": "Ask the child: \"What is here at the beginning? What is different at the end? What did someone do to make that happen?\" Any drawing that leads from the first picture to the last is right; it does not have to be neat."
      }
     }
    ]
@@ -8947,17 +8947,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:sink-float",
-     "type": "G1-204",
-     "title": "Sink or Float?",
-     "instruction": "Draw a line from each object to the group you think it belongs to.",
-     "core": "science-sort-g1204-2",
-     "hard": "science-sort-hard-g1204-8",
-     "easy": "science-sort-easy-g1204-3",
+     "point": "1:family-generations",
+     "type": "G1-385",
+     "title": "Family Generations: Oldest to Youngest",
+     "instruction": "In each row, write 1, 2 and 3 in the boxes to put the family words in order from the oldest generation to the youngest.",
+     "core": "family-g1385-2",
+     "hard": "family-hard-g1385-13",
+     "easy": "family-easy-g1385-8",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Float and Sink. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"If we put this in water, would it float on top or sink to the bottom?\" Draw the line from the dot under the picture to its box. This page asks what the children think; a child who can say why has done the page well.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
+      "say": "\"In each row there are family words. Write 1, 2, and 3 to put them in order, from the oldest generation to the youngest.\"",
+      "first": "Talk about a family: grandparents are the oldest generation, then parents, aunts, and uncles, then children like brothers, sisters, and cousins. Read the first row aloud together and ask, \"Who is the oldest?\" Write 1 under that word, then 2 and 3.",
+      "stuck": "Ask the child about each word: \"Is that a grandparent, a parent, or a child?\" Grandparents get 1, parents 2, children 3. Every family is different; this page is about the words."
      }
     }
    ]
@@ -9088,17 +9088,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:family-generations",
-     "type": "G1-386",
-     "title": "Family Tree: Read the Clues",
-     "instruction": "Read the clues and write each name in the right name box on the family tree.",
-     "core": "family-g1386",
-     "hard": "family-hard-g1386-12",
-     "easy": "family-easy-g1386-7",
+     "point": "1:animal-classes-coverings",
+     "type": "G1-201",
+     "title": "Sort the Animals",
+     "instruction": "Draw a line from each animal to the group it belongs to.",
+     "core": "science-sort-g1201",
+     "hard": "science-sort-hard-g1201-7",
+     "easy": "science-sort-easy-g1201-2",
      "script": {
-      "say": "\"Read each clue. It tells you who someone is in the family. Write each name in the right name box on the family tree.\"",
-      "first": "Read the names on the tree and the first clue aloud. Find the child the clues are about on the tree. Ask, \"If Leo is Jack's brother, where does he go on the tree?\" Write Leo in that box together.",
-      "stuck": "Read the clue with the child and point to Jack on the tree. Ask, \"Is a brother next to Jack, above him, or two rows up?\" Brothers and sisters are next to him, parents above, grandparents at the top."
+      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Mammals, Birds, and Reptiles. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Does it have fur, feathers, or scales? Does it lay eggs or feed its babies milk?\" Draw the line from the dot under the picture to its box. Mammals have fur or hair, birds have feathers, and reptiles have dry scales.",
+      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
      }
     }
    ]
@@ -9234,9 +9234,9 @@
      "type": "G1-401",
      "title": "Beginning, Middle and End of a Story",
      "instruction": "Look at the beginning and the end of each story and draw what happens in the middle frame.",
-     "core": "story-sequencing-g1401-2",
-     "hard": "story-sequencing-hard-g1401-13",
-     "easy": "story-sequencing-easy-g1401-8",
+     "core": "story-sequencing-g1401-3",
+     "hard": "story-sequencing-hard-g1401-14",
+     "easy": "story-sequencing-easy-g1401-9",
      "script": {
       "say": "\"Each story on this page has a beginning and an end, but the middle is missing. Look at what is different between the first picture and the last one. Then draw what happens in the middle.\"",
       "first": "Do the first story together: look at the first picture and the last one and ask, \"What changed? What must have happened in between?\" Let two or three children say their ideas. Each child draws their own middle picture; many drawings can be right.",
@@ -9372,16 +9372,16 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:food-groups",
-     "type": "G1-207",
-     "title": "Sort by Food Group",
-     "instruction": "Draw a line from each food to its food group.",
-     "core": "science-sort-g1207-2",
-     "hard": "science-sort-hard-g1207-8",
-     "easy": "science-sort-easy-g1207-3",
+     "point": "1:habitats-needs",
+     "type": "G1-202",
+     "title": "Where Do Animals Live?",
+     "instruction": "Draw a line from each animal to where it lives.",
+     "core": "science-sort-g1202",
+     "hard": "science-sort-hard-g1202-7",
+     "easy": "science-sort-easy-g1202-2",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fruits, Vegetables, Grains, and Protein. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this a fruit, a vegetable, a grain like bread or pasta, or a protein like eggs, meat, or fish?\" Draw the line from the dot under the picture to its box. A tomato can be called a fruit or a vegetable; either box is right for it.",
+      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Land, Water, and Air. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this animal spend most of its time: on land, in the water, or in the air?\" Draw the line from the dot under the picture to its box. An animal that flies lives on land too, so Air and Land are both right for it, and a crab lives in the water and on land, so Water and Land are both right for it, when the child can say why.",
       "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
      }
     }
@@ -9514,17 +9514,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:find-the-differences",
-     "type": "G1-415",
-     "title": "Mirror Pictures: Fold and Check",
-     "instruction": "Picture 2 is flipped like a mirror; circle the 4 things or empty places that still differ, check a box for each, then fold on the line to check.",
-     "core": "find-the-differences-g1415-13",
-     "hard": "find-the-differences-hard-g1415-23",
-     "easy": "find-the-differences-easy-g1415-5",
+     "point": "1:food-groups",
+     "type": "G1-207",
+     "title": "Sort by Food Group",
+     "instruction": "Draw a line from each food to its food group.",
+     "core": "science-sort-g1207-3",
+     "hard": "science-sort-hard-g1207-9",
+     "easy": "science-sort-easy-g1207-4",
      "script": {
-      "say": "\"This page has two pairs of pictures. In each pair, picture 2 is picture 1 flipped over, the way a mirror would show it. But some things are still different: four in all. Circle them in picture 2 and check a box for each one. Then fold the page on the dashed line to check.\"",
-      "first": "Hold the page up and show how picture 2 is flipped: what is on the left in picture 1 is on the right in picture 2. Find one difference together and circle it. Show how to fold the page on the line at the end, so that the two pictures lie on top of each other.",
-      "stuck": "Have the child pick one thing in picture 1 and find it in picture 2 on the other side. Folding the page on the line and holding it up to the window shows what does not match."
+      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fruits, Vegetables, Grains, and Protein. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this a fruit, a vegetable, a grain like bread or pasta, or a protein like eggs, meat, or fish?\" Draw the line from the dot under the picture to its box. If a food fits two groups, either box is right when the child can say why.",
+      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
      }
     }
    ]
@@ -9654,17 +9654,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:feelings",
-     "type": "K-331",
-     "title": "How Do You Feel? Circle the Face",
-     "instruction": "Look at the picture, think how you would feel, and circle the face that matches.",
-     "core": "feelings-k331-3",
-     "hard": "feelings-hard-k331-15",
-     "easy": "feelings-easy-k331-9",
+     "point": "1:habitats-needs",
+     "type": "G1-206",
+     "title": "What Animals Eat",
+     "instruction": "Draw a line from each animal to the group it belongs to.",
+     "core": "science-sort-g1206",
+     "hard": "science-sort-hard-g1206-7",
+     "easy": "science-sort-easy-g1206-2",
      "script": {
-      "say": "\"Look at each picture. Think about how it would make you feel. Then circle the face that shows that feeling.\"",
-      "first": "Look at the first picture together and ask what it shows. Ask, \"How does that make you feel?\" Let two or three children answer; they may not all feel the same, and that is fine. Each child circles the face that matches their own answer.",
-      "stuck": "Ask the child what the picture shows and when they have seen one. Then point to each face and name the feeling it shows. There is no wrong answer on this page; any face the child can explain is right."
+      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Plant Eaters and Meat Eaters. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"What does this animal eat: plants or other animals?\" Draw the line from the dot under the picture to its box.",
+      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
      }
     }
    ]
@@ -9797,15 +9797,15 @@
      "key": "closing",
      "minutes": 10,
      "point": "1:animal-classes-coverings",
-     "type": "G1-201",
-     "title": "Sort the Animals",
-     "instruction": "Draw a line from each animal to the group it belongs to.",
-     "core": "science-sort-g1201-2",
-     "hard": "science-sort-hard-g1201-8",
-     "easy": "science-sort-easy-g1201-3",
+     "type": "G1-205",
+     "title": "Animal Coverings",
+     "instruction": "Draw a line from each animal to its body covering.",
+     "core": "science-sort-g1205",
+     "hard": "science-sort-hard-g1205-7",
+     "easy": "science-sort-easy-g1205-2",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Mammals, Birds, and Reptiles. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Does it have fur, feathers, or scales? Does it lay eggs or feed its babies milk?\" Draw the line from the dot under the picture to its box. Mammals have fur or hair, birds have feathers, and reptiles have dry scales.",
+      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fur, Feathers, and Scales. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"What covers this animal's body: fur, feathers, or scales?\" Draw the line from the dot under the picture to its box. Fur is soft hair, feathers have a stem with soft sides, and scales are small, hard plates on the skin.",
       "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
      }
     }
@@ -9936,17 +9936,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:habitats-needs",
-     "type": "G1-202",
-     "title": "Where Do Animals Live?",
-     "instruction": "Draw a line from each animal to where it lives.",
-     "core": "science-sort-g1202-2",
-     "hard": "science-sort-hard-g1202-8",
-     "easy": "science-sort-easy-g1202-3",
+     "point": "1:family-generations",
+     "type": "G1-386",
+     "title": "Family Tree: Read the Clues",
+     "instruction": "Read the clues and write each name in the right name box on the family tree.",
+     "core": "family-g1386-2",
+     "hard": "family-hard-g1386-13",
+     "easy": "family-easy-g1386-8",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Land, Water, and Air. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this animal spend most of its time: on land, in the water, or in the air?\" Draw the line from the dot under the picture to its box. An animal that flies lives on land too, so Air and Land are both right for it when the child can say why.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
+      "say": "\"Read each clue. It tells you who someone is in the family. Write each name in the right name box on the family tree.\"",
+      "first": "Read the names on the tree and the first clue aloud. Find the child the clues are about on the tree. Ask, \"If Leo is Jack's brother, where does he go on the tree?\" Write Leo in that box together.",
+      "stuck": "Read the clue with the child and point to Jack on the tree. Ask, \"Is a brother next to Jack, above him, or two rows up?\" Brothers and sisters are next to him, parents above, grandparents at the top."
      }
     }
    ]
@@ -10077,17 +10077,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:family-generations",
-     "type": "G1-385",
-     "title": "Family Generations: Oldest to Youngest",
-     "instruction": "In each row, write 1, 2 and 3 in the boxes to put the family words in order from the oldest generation to the youngest.",
-     "core": "family-g1385-2",
-     "hard": "family-hard-g1385-13",
-     "easy": "family-easy-g1385-8",
+     "point": "1:habitats-needs",
+     "type": "G1-202",
+     "title": "Where Do Animals Live?",
+     "instruction": "Draw a line from each animal to where it lives.",
+     "core": "science-sort-g1202-2",
+     "hard": "science-sort-hard-g1202-8",
+     "easy": "science-sort-easy-g1202-3",
      "script": {
-      "say": "\"In each row there are family words. Write 1, 2, and 3 to put them in order, from the oldest generation to the youngest.\"",
-      "first": "Talk about a family: grandparents are the oldest generation, then parents, aunts, and uncles, then children like brothers, sisters, and cousins. Read the first row aloud together and ask, \"Who is the oldest?\" Write 1 under that word, then 2 and 3.",
-      "stuck": "Ask the child about each word: \"Is that a grandparent, a parent, or a child?\" Grandparents get 1, parents 2, children 3. Every family is different; this page is about the words."
+      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Land, Water, and Air. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this animal spend most of its time: on land, in the water, or in the air?\" Draw the line from the dot under the picture to its box. An animal that flies lives on land too, so Air and Land are both right for it when the child can say why.",
+      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
      }
     }
    ]
@@ -10219,16 +10219,16 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:sink-float",
-     "type": "G1-204",
-     "title": "Sink or Float?",
-     "instruction": "Draw a line from each object to the group you think it belongs to.",
-     "core": "science-sort-g1204-3",
-     "hard": "science-sort-hard-g1204-9",
-     "easy": "science-sort-easy-g1204-4",
+     "point": "1:animal-classes-coverings",
+     "type": "G1-201",
+     "title": "Sort the Animals",
+     "instruction": "Draw a line from each animal to the group it belongs to.",
+     "core": "science-sort-g1201-2",
+     "hard": "science-sort-hard-g1201-8",
+     "easy": "science-sort-easy-g1201-3",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Float and Sink. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"If we put this in water, would it float on top or sink to the bottom?\" Draw the line from the dot under the picture to its box. This page asks what the children think; a child who can say why has done the page well.",
+      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Mammals, Birds, and Reptiles. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Does it have fur, feathers, or scales? Does it lay eggs or feed its babies milk?\" Draw the line from the dot under the picture to its box. Mammals have fur or hair, birds have feathers, and reptiles have dry scales.",
       "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
      }
     }
@@ -10359,17 +10359,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:story-sequencing",
-     "type": "G1-401",
-     "title": "Beginning, Middle and End of a Story",
-     "instruction": "Look at the beginning and the end of each story and draw what happens in the middle frame.",
-     "core": "story-sequencing-g1401-3",
-     "hard": "story-sequencing-hard-g1401-14",
-     "easy": "story-sequencing-easy-g1401-9",
+     "point": "1:habitats-needs",
+     "type": "G1-206",
+     "title": "What Animals Eat",
+     "instruction": "Draw a line from each animal to the group it belongs to.",
+     "core": "science-sort-g1206-2",
+     "hard": "science-sort-hard-g1206-8",
+     "easy": "science-sort-easy-g1206-3",
      "script": {
-      "say": "\"Each story on this page has a beginning and an end, but the middle is missing. Look at what is different between the first picture and the last one. Then draw what happens in the middle.\"",
-      "first": "Do the first story together: look at the first picture and the last one and ask, \"What changed? What must have happened in between?\" Let two or three children say their ideas. Each child draws their own middle picture; many drawings can be right.",
-      "stuck": "Ask the child: \"What is here at the beginning? What is different at the end? What did someone do to make that happen?\" Any drawing that leads from the first picture to the last is right; it does not have to be neat."
+      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Plant Eaters and Meat Eaters. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"What does this animal eat: plants or other animals?\" Draw the line from the dot under the picture to its box.",
+      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
      }
     }
    ]
@@ -10501,16 +10501,16 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:food-groups",
-     "type": "G1-207",
-     "title": "Sort by Food Group",
-     "instruction": "Draw a line from each food to its food group.",
-     "core": "science-sort-g1207-3",
-     "hard": "science-sort-hard-g1207-9",
-     "easy": "science-sort-easy-g1207-4",
+     "point": "1:sink-float",
+     "type": "G1-204",
+     "title": "Sink or Float?",
+     "instruction": "Draw a line from each object to the group you think it belongs to.",
+     "core": "science-sort-g1204",
+     "hard": "science-sort-hard-g1204-7",
+     "easy": "science-sort-easy-g1204-2",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fruits, Vegetables, Grains, and Protein. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this a fruit, a vegetable, a grain like bread or pasta, or a protein like eggs, meat, or fish?\" Draw the line from the dot under the picture to its box. If a food fits two groups, either box is right when the child can say why.",
+      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Float and Sink. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"If we put this in water, would it float on top or sink to the bottom?\" Draw the line from the dot under the picture to its box. This page asks what the children think; a child who can say why has done the page well.",
       "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
      }
     }
@@ -10643,17 +10643,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:animal-classes-coverings",
-     "type": "G1-205",
-     "title": "Animal Coverings",
-     "instruction": "Draw a line from each animal to its body covering.",
-     "core": "science-sort-g1205-2",
-     "hard": "science-sort-hard-g1205-8",
-     "easy": "science-sort-easy-g1205-3",
+     "point": "1:family-generations",
+     "type": "G1-385",
+     "title": "Family Generations: Oldest to Youngest",
+     "instruction": "In each row, write 1, 2 and 3 in the boxes to put the family words in order from the oldest generation to the youngest.",
+     "core": "family-g1385-3",
+     "hard": "family-hard-g1385-14",
+     "easy": "family-easy-g1385-9",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fur, Feathers, and Scales. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"What covers this animal's body: fur, feathers, or scales?\" Draw the line from the dot under the picture to its box. Fur is soft hair, feathers have a stem with soft sides, and scales are small, hard plates on the skin.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
+      "say": "\"In each row there are family words. Write 1, 2, and 3 to put them in order, from the oldest generation to the youngest.\"",
+      "first": "Talk about a family: grandparents are the oldest generation, then parents, aunts, and uncles, then children like brothers, sisters, and cousins. Read the first row aloud together and ask, \"Who is the oldest?\" Write 1 under that word, then 2 and 3.",
+      "stuck": "Ask the child about each word: \"Is that a grandparent, a parent, or a child?\" Grandparents get 1, parents 2, children 3. Every family is different; this page is about the words."
      }
     }
    ]
@@ -10785,16 +10785,16 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:habitats-needs",
-     "type": "G1-206",
-     "title": "What Animals Eat",
-     "instruction": "Draw a line from each animal to the group it belongs to.",
-     "core": "science-sort-g1206-2",
-     "hard": "science-sort-hard-g1206-8",
-     "easy": "science-sort-easy-g1206-3",
+     "point": "1:sink-float",
+     "type": "G1-204",
+     "title": "Sink or Float?",
+     "instruction": "Draw a line from each object to the group you think it belongs to.",
+     "core": "science-sort-g1204-2",
+     "hard": "science-sort-hard-g1204-8",
+     "easy": "science-sort-easy-g1204-3",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Plant Eaters and Meat Eaters. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"What does this animal eat: plants or other animals?\" Draw the line from the dot under the picture to its box.",
+      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Float and Sink. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"If we put this in water, would it float on top or sink to the bottom?\" Draw the line from the dot under the picture to its box. This page asks what the children think; a child who can say why has done the page well.",
       "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
      }
     }
@@ -10831,17 +10831,17 @@
     {
      "key": "reading",
      "minutes": 20,
-     "point": "1:story-key-details",
-     "type": "G1-579",
-     "title": "Find the Answer in the Story",
-     "instruction": "Read the story. Then finish the answer to each question.",
-     "core": "reading-comprehension-g1579-3",
-     "hard": "reading-comprehension-hard-g1579-13",
-     "easy": "reading-comprehension-easy-g1579-8",
+     "point": "1:story-sequencing",
+     "type": "G1-402",
+     "title": "Story Sequencing Sentences: Match the Pictures",
+     "instruction": "Number each story's sentences in order in the boxes, then draw a line from every sentence to its picture.",
+     "core": "story-sequencing-g1402-3",
+     "hard": "story-sequencing-hard-g1402-14",
+     "easy": "story-sequencing-easy-g1402-9",
      "script": {
-      "say": "\"Read the story at the top of the page. Then finish the answer to each question.\"",
-      "first": "Read the title and the story aloud to the class while the children follow with a finger. Then read the first question aloud and ask, \"Where in the story does it tell us?\" Find the sentence together and finish the first answer together. The children read the story again on their own before they do the rest.",
-      "stuck": "Read the question with the child and look for its words in the story together. Point to the sentence that has the answer and have the child read it aloud. The answer may be a few words; it does not need to be a long sentence."
+      "say": "\"Each story on this page is told in four sentences, but the sentences are out of order. Read them. Number them 1 to 4 in the order things happen. Then draw a line from each sentence to its picture.\"",
+      "first": "Read the four sentences of the first story aloud. Ask, \"What happens first? How do you know?\" Write 1 next to it, then 2, 3, and 4 together. Then draw a line from each sentence to its picture.",
+      "stuck": "Read the sentences to the child and ask which one could be the beginning. Have the child tell the story aloud in the order of the numbers; if it makes sense, the order is right. The pictures help: look at what changes from one to the next."
      }
     },
     {
@@ -10927,17 +10927,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:family-generations",
-     "type": "G1-386",
-     "title": "Family Tree: Read the Clues",
-     "instruction": "Read the clues and write each name in the right name box on the family tree.",
-     "core": "family-g1386-2",
-     "hard": "family-hard-g1386-13",
-     "easy": "family-easy-g1386-8",
+     "point": "1:animal-classes-coverings",
+     "type": "G1-205",
+     "title": "Animal Coverings",
+     "instruction": "Draw a line from each animal to its body covering.",
+     "core": "science-sort-g1205-2",
+     "hard": "science-sort-hard-g1205-8",
+     "easy": "science-sort-easy-g1205-3",
      "script": {
-      "say": "\"Read each clue. It tells you who someone is in the family. Write each name in the right name box on the family tree.\"",
-      "first": "Read the names on the tree and the first clue aloud. Find the child the clues are about on the tree. Ask, \"If Leo is Jack's brother, where does he go on the tree?\" Write Leo in that box together.",
-      "stuck": "Read the clue with the child and point to Jack on the tree. Ask, \"Is a brother next to Jack, above him, or two rows up?\" Brothers and sisters are next to him, parents above, grandparents at the top."
+      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fur, Feathers, and Scales. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"What covers this animal's body: fur, feathers, or scales?\" Draw the line from the dot under the picture to its box. Fur is soft hair, feathers have a stem with soft sides, and scales are small, hard plates on the skin.",
+      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
      }
     }
    ]
@@ -10973,15 +10973,15 @@
     {
      "key": "reading",
      "minutes": 20,
-     "point": "1:retell-and-lesson",
-     "type": "G1-581",
-     "title": "Retell the Story and Tell Its Lesson",
-     "instruction": "Read the story. Write what happens at the beginning, in the middle, and at the end. Use the word bank. Then circle the lesson.",
-     "core": "reading-comprehension-g1581-3",
-     "hard": "reading-comprehension-hard-g1581-13",
-     "easy": "reading-comprehension-easy-g1581-8",
+     "point": "1:story-key-details",
+     "type": "G1-579",
+     "title": "Find the Answer in the Story",
+     "instruction": "Read the story. Then finish the answer to each question.",
+     "core": "reading-comprehension-g1579-3",
+     "hard": "reading-comprehension-hard-g1579-13",
+     "easy": "reading-comprehension-easy-g1579-8",
      "script": {
-      "say": "\"Read the story at the top of the page. Then write what happens at the beginning, in the middle, and at the end, using the word bank. Then circle the lesson of the story.\"",
+      "say": "\"Read the story at the top of the page. Then finish the answer to each question.\"",
       "first": "Read the title and the story aloud to the class while the children follow with a finger. Then read the first question aloud and ask, \"Where in the story does it tell us?\" Find the sentence together and finish the first answer together. The children read the story again on their own before they do the rest.",
       "stuck": "Read the question with the child and look for its words in the story together. Point to the sentence that has the answer and have the child read it aloud. The answer may be a few words; it does not need to be a long sentence."
      }
@@ -11068,16 +11068,16 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:animal-classes-coverings",
-     "type": "G1-201",
-     "title": "Sort the Animals",
-     "instruction": "Draw a line from each animal to the group it belongs to.",
-     "core": "science-sort-g1201-3",
-     "hard": "science-sort-hard-g1201-9",
-     "easy": "science-sort-easy-g1201-4",
+     "point": "1:habitats-needs",
+     "type": "G1-202",
+     "title": "Where Do Animals Live?",
+     "instruction": "Draw a line from each animal to where it lives.",
+     "core": "science-sort-g1202-3",
+     "hard": "science-sort-hard-g1202-9",
+     "easy": "science-sort-easy-g1202-4",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Mammals, Birds, and Reptiles. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Does it have fur, feathers, or scales? Does it lay eggs or feed its babies milk?\" Draw the line from the dot under the picture to its box. Mammals have fur or hair, birds have feathers, and reptiles have dry scales.",
+      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Land, Water, and Air. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this animal spend most of its time: on land, in the water, or in the air?\" Draw the line from the dot under the picture to its box. An animal that flies lives on land too, so Air and Land are both right for it when the child can say why.",
       "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
      }
     }
@@ -11210,17 +11210,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:habitats-needs",
-     "type": "G1-202",
-     "title": "Where Do Animals Live?",
-     "instruction": "Draw a line from each animal to where it lives.",
-     "core": "science-sort-g1202-3",
-     "hard": "science-sort-hard-g1202-9",
-     "easy": "science-sort-easy-g1202-4",
+     "point": "1:family-generations",
+     "type": "G1-386",
+     "title": "Family Tree: Read the Clues",
+     "instruction": "Read the clues and write each name in the right name box on the family tree.",
+     "core": "family-g1386-3",
+     "hard": "family-hard-g1386-14",
+     "easy": "family-easy-g1386-9",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Land, Water, and Air. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this animal spend most of its time: on land, in the water, or in the air?\" Draw the line from the dot under the picture to its box. An animal that flies lives on land too, so Air and Land are both right for it when the child can say why.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
+      "say": "\"Read each clue. It tells you who someone is in the family. Write each name in the right name box on the family tree.\"",
+      "first": "Read the names on the tree and the first clue aloud. Find the child the clues are about on the tree. Ask, \"If Leo is Jack's brother, where does he go on the tree?\" Write Leo in that box together.",
+      "stuck": "Read the clue with the child and point to Jack on the tree. Ask, \"Is a brother next to Jack, above him, or two rows up?\" Brothers and sisters are next to him, parents above, grandparents at the top."
      }
     }
    ]

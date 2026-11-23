@@ -489,9 +489,14 @@ module.exports = {
     // `organicTrio: false` (G2-348, 2026-11-23 D-2 teacher review): a row of three FOODS is not "made of the same
     // material"; food may still be the one that is different, never the three that match
     if (d.organicTrio !== undefined && typeof d.organicTrio !== 'boolean') throw new Error('K-357 odd: organicTrio must be a boolean');
-    const trioNames = d.organicTrio === false ? names.filter((x) => x !== 'organic') : names;
-    for (const c of names) if (new Set(classes[c].map((it) => it.family)).size < 3) throw new Error(`K-357 odd: class ${c} has < 3 families (the trio floor)`);
-    if (d.rows > trioNames.length) throw new Error(`K-357 odd: ${d.rows} rows > ${trioNames.length} trio classes`);
+    // a class whose admissible pictures give fewer than three families is never the trio of a row, only its odd one
+    // (2026-11-24: glass, once the plain jar is retired, keeps only the jam and honey jars; the trio floor was a throw)
+    const trioNames = (d.organicTrio === false ? names.filter((x) => x !== 'organic') : names).filter((c) => new Set(classes[c].map((it) => it.family)).size >= 3);
+    for (const c of names) if (!classes[c].length) throw new Error(`K-357 odd: class ${c} has no admissible picture`);
+    // fewer trio classes than rows (three since 2026-11-24, glass being odd-only): a class whose families give another
+    // trio fills a row again (plastic: seven families), never beside its first row; a page never repeats a family
+    const canRepeat = (c, used) => new Set(classes[c].map((it) => it.family)).size >= 3 * (used + 1);
+    if (d.rows > trioNames.length && !trioNames.some((c) => canRepeat(c, 1))) throw new Error(`K-357 odd: ${d.rows} rows > the trios ${trioNames.length} trio classes can give`);
     // compose under a bounded retry: the odd of an early row must not starve a LATER trio class (metal = 4 items over 4
     // families: two metal odds leave 2 for a metal trio — the 20-seed sweep found it), so an odd class that is still to
     // come as a trio must keep >= 4 admissible items; a composition that dead-ends re-rolls the trio order
@@ -499,6 +504,15 @@ module.exports = {
     for (let attempt = 0; attempt < 40 && !cards; attempt++) {
       try {
         trio = rng.shuffle(trioNames).slice(0, d.rows);
+        if (trio.length < d.rows) {
+          while (trio.length < d.rows) {
+            const again = trioNames.filter((c) => canRepeat(c, trio.filter((x) => x === c).length));
+            if (!again.length) throw new Error(`K-357 odd: ${d.rows} rows > the trios the classes can give`);
+            trio.push(rng.pick(again));
+          }
+          trio = rng.shuffle(trio);
+          if (trio.some((c, i) => i && c === trio[i - 1])) throw new Error('K-357 odd: two rows of the same material side by side (refuse)');
+        }
         const st = this._fence(global);
         const order = rng.shuffle(global.items);
         const out = [];
@@ -820,7 +834,8 @@ module.exports = {
         const rows = +D.lcsRows, items = +D.lcsItems, box = +D.lcsBox, iconPx = +D.lcsIconPx, boxMax = +D.lcsBoxMax, organicOdd = D.lcsOrganicOdd === '1', rowMin = +D.lcsRowMin, trio = (D.lcsTrio || '').split(',');
         const CLS = (m) => (m === 'cardboard' ? 'paper' : m);
         if (!(rows >= 3 && rows <= 5) || items !== 4) fails.push(`rows ${rows} / items ${items} outside the face (3..5 rows of 4)`);
-        if (trio.length !== rows || new Set(trio).size !== rows) fails.push(`trio stamp ${trio.join(',')} ≠ ${rows} distinct classes`);
+        // a material may fill two rows (2026-11-24: three trio classes for four rows; the node gate checks its families), never two side by side
+        if (trio.length !== rows || trio.some((c, i) => i && c === trio[i - 1])) fails.push(`trio stamp ${trio.join(',')} ≠ ${rows} classes with no material in two rows side by side`);
         const cards = [...root.querySelectorAll('[data-lcs-card]')];
         if (cards.length !== rows) fails.push(`${cards.length} cards ≠ ${rows}`);
         badges(cards);

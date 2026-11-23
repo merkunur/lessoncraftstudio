@@ -1291,6 +1291,195 @@
    "strand": "Health",
    "code": "NHES.7.2.2",
    "skill": "Know when to wash hands (after the bathroom, before eating, after coughing or sneezing, after playing outside) and wash for 20 seconds"
+  },
+  {
+   "tp": "1:vibrations-make-sound",
+   "grade": "1",
+   "strand": "Science",
+   "code": "NGSS:1-PS4-1",
+   "skill": "Find that every sound comes from something vibrating, at sound stations"
+  },
+  {
+   "tp": "1:sound-moves-things",
+   "grade": "1",
+   "strand": "Science",
+   "code": "NGSS:1-PS4-1",
+   "skill": "Show that sound can make materials vibrate (rice on a drum, a ringing tuning fork in water)"
+  },
+  {
+   "tp": "1:cup-telephone",
+   "grade": "1",
+   "strand": "Science",
+   "code": "NGSS:1-PS4-4",
+   "skill": "Build and test a cup telephone and find when the sound travels best"
+  },
+  {
+   "tp": "1:see-with-light",
+   "grade": "1",
+   "strand": "Science",
+   "code": "NGSS:1-PS4-2",
+   "skill": "Find that we see an object only when light shines on it"
+  },
+  {
+   "tp": "1:light-through-materials",
+   "grade": "1",
+   "strand": "Science",
+   "code": "NGSS:1-PS4-3",
+   "skill": "Test which materials let all, some or no light through"
+  },
+  {
+   "tp": "1:mirrors-bounce-light",
+   "grade": "1",
+   "strand": "Science",
+   "code": "NGSS:1-PS4-3",
+   "skill": "Use a mirror to bounce a beam of light onto a target"
+  },
+  {
+   "tp": "1:shadows-near-far",
+   "grade": "1",
+   "strand": "Science",
+   "code": "NGSS:1-PS4-3",
+   "skill": "Make shadows by blocking light and find how they change near and far from the light"
+  },
+  {
+   "tp": "1:light-messages",
+   "grade": "1",
+   "strand": "Science",
+   "code": "NGSS:1-PS4-4",
+   "skill": "Design a code to send a message with light, and test it"
+  },
+  {
+   "tp": "1:shadow-through-day",
+   "grade": "1",
+   "strand": "Science",
+   "code": "NGSS:1-ESS1-1",
+   "skill": "Record a shadow in the morning, near noon and in the afternoon and describe how it moves"
+  },
+  {
+   "tp": "1:moon-journal",
+   "grade": "1",
+   "strand": "Science",
+   "code": "NGSS:1-ESS1-1",
+   "skill": "Observe and draw the Moon every few days and describe how its lit part changes"
+  },
+  {
+   "tp": "1:day-night-sky",
+   "grade": "1",
+   "strand": "Science",
+   "code": "NGSS:1-ESS1-1",
+   "skill": "Compare the day sky and the night sky: the stars are there all the time"
+  },
+  {
+   "tp": "1:daylight-hours",
+   "grade": "1",
+   "strand": "Science",
+   "code": "NGSS:1-ESS1-2",
+   "skill": "Graph the whole hours of daylight month by month and compare winter and summer"
+  },
+  {
+   "tp": "1:animal-parents",
+   "grade": "1",
+   "strand": "Science",
+   "code": "NGSS:1-LS1-2",
+   "skill": "Tell what animal parents do to help their young survive"
+  },
+  {
+   "tp": "1:design-like-an-animal",
+   "grade": "1",
+   "strand": "Science",
+   "code": "NGSS:1-LS1-1",
+   "skill": "Match an animal part to the human design that copies it"
+  },
+  {
+   "tp": "1:like-parents",
+   "grade": "1",
+   "strand": "Science",
+   "code": "NGSS:1-LS3-1",
+   "skill": "Find how young animals are like their parents, but not exactly"
+  },
+  {
+   "tp": "1:seedlings-and-parent",
+   "grade": "1",
+   "strand": "Science",
+   "code": "NGSS:1-LS3-1",
+   "skill": "Compare seedlings with each other and with the grown plant"
+  },
+  {
+   "tp": "1:design-a-raft",
+   "grade": "1",
+   "strand": "Science",
+   "code": "NGSS:K-2-ETS1-2",
+   "skill": "Plan a raft from floating materials that will carry ten pennies"
+  },
+  {
+   "tp": "1:test-two-rafts",
+   "grade": "1",
+   "strand": "Science",
+   "code": "NGSS:K-2-ETS1-3",
+   "skill": "Test two rafts with pennies and tell which design held more"
+  },
+  {
+   "tp": "1:ask-a-grown-up",
+   "grade": "1",
+   "strand": "Health",
+   "code": "NHES.5.2.2",
+   "skill": "Tell the things only a trusted grown-up gives or uses (medicine, a shot, an iron, a knife) and ask first"
+  },
+  {
+   "tp": "1:myplate-groups",
+   "grade": "1",
+   "strand": "Health",
+   "code": "NHES.7.2.1",
+   "skill": "Sort foods into the five MyPlate food groups"
+  },
+  {
+   "tp": "1:myplate-lunch",
+   "grade": "1",
+   "strand": "Health",
+   "code": "NHES.5.2.1",
+   "skill": "Build a MyPlate lunch and find the times of the school day we choose a food or drink"
+  },
+  {
+   "tp": "1:habit-to-grow",
+   "grade": "1",
+   "strand": "Health",
+   "code": "NHES.6.2.1",
+   "skill": "Check the healthy habits I already do and choose one to grow"
+  },
+  {
+   "tp": "1:health-helpers",
+   "grade": "1",
+   "strand": "Health",
+   "code": "NHES.3.2.3",
+   "skill": "Name the health helpers at school and in town"
+  },
+  {
+   "tp": "1:whole-body-listening",
+   "grade": "1",
+   "strand": "Health",
+   "code": "NHES.4.2.2",
+   "skill": "Listen with the whole body: eyes, ears, quiet hands and feet, a calm body"
+  },
+  {
+   "tp": "1:fire-safety-911",
+   "grade": "1",
+   "strand": "Health",
+   "code": "NHES.3.2.2",
+   "skill": "Get out and stay out, crawl low under smoke, stop, drop and roll, and know when to call 911"
+  },
+  {
+   "tp": "1:say-no-go-tell",
+   "grade": "1",
+   "strand": "Health",
+   "code": "NHES.4.2.3",
+   "skill": "When something feels unsafe: say no, go away, and tell a trusted adult"
+  },
+  {
+   "tp": "1:help-a-friend",
+   "grade": "1",
+   "strand": "Health",
+   "code": "NHES.8.2.2",
+   "skill": "Find kind ways to help a friend make healthy choices"
   }
  ]
 }

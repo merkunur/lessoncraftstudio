@@ -2431,6 +2431,96 @@
    ],
    "why": "Choosing the times to wash and washing for two \"Happy Birthday\" songs demonstrate practices that support the health of self and others (NHES 7.2.2) and identify a healthy practice (NHES 7.2.1), PreK-2.",
    "review": "batch-k 2026-11-23"
+  },
+  "1:ask-a-grown-up": {
+   "rows": [
+    {
+     "id": "NHES.5.2.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Telling the things only a trusted grown-up gives or uses and asking first is recognizing when help is needed for a health-related decision (NHES 5.2.2, PreK-2).",
+   "review": "batch-k 2026-11-23"
+  },
+  "1:myplate-groups": {
+   "rows": [
+    {
+     "id": "NHES.7.2.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sorting foods into the five MyPlate groups identifies practices that support health (NHES 7.2.1, PreK-2).",
+   "review": "batch-k 2026-11-23"
+  },
+  "1:myplate-lunch": {
+   "rows": [
+    {
+     "id": "NHES.5.2.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Building a MyPlate lunch and finding the times of the day a food or drink is chosen identify when a health-related decision is needed (NHES 5.2.1, PreK-2).",
+   "review": "batch-k 2026-11-23"
+  },
+  "1:habit-to-grow": {
+   "rows": [
+    {
+     "id": "NHES.6.2.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Checking the habits a child does and choosing one to grow determines a health behavior to change or reinforce (NHES 6.2.1, PreK-2).",
+   "review": "batch-k 2026-11-23"
+  },
+  "1:health-helpers": {
+   "rows": [
+    {
+     "id": "NHES.3.2.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Naming the school nurse and the town health helpers locates school and community health helpers (NHES 3.2.3, PreK-2).",
+   "review": "batch-k 2026-11-23"
+  },
+  "1:whole-body-listening": {
+   "rows": [
+    {
+     "id": "NHES.4.2.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Whole-body listening (eyes on the speaker, quiet hands and feet, a calm body) is an active listening skill (NHES 4.2.2, PreK-2).",
+   "review": "batch-k 2026-11-23"
+  },
+  "1:fire-safety-911": {
+   "rows": [
+    {
+     "id": "NHES.3.2.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Getting out, crawling low, stop-drop-roll and calling 911 when someone needs help demonstrate when and how to seek help (NHES 3.2.2, PreK-2).",
+   "review": "batch-k 2026-11-23"
+  },
+  "1:say-no-go-tell": {
+   "rows": [
+    {
+     "id": "NHES.4.2.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Saying no, going away and telling a trusted adult are communication skills to use when uncomfortable or unsafe (NHES 4.2.3, PreK-2).",
+   "review": "batch-k 2026-11-23"
+  },
+  "1:help-a-friend": {
+   "rows": [
+    {
+     "id": "NHES.8.2.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Friendly reminders and invitations to play are ways to support others in making health-promoting choices (NHES 8.2.2, PreK-2).",
+   "review": "batch-k 2026-11-23"
   }
  }
 }

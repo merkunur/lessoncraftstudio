@@ -14,6 +14,11 @@
  *     to those days. Such a lesson says so in its unit definition ("days": 3); assemble.js accepts it only from
  *     Grade 1 on and only with two page types, and marks the lesson writeDays: 3. Its third day is the rest of the
  *     piece of writing, not a reteach day;
+ *   - an INVESTIGATION lesson of a content area (science, social studies, health) carries three sessions where the
+ *     year design gives it three (2026-11-24: design.en.science.json, read by one US teacher-reviewer per subject,
+ *     gives the Grade 1 tests and builds a third session: build, test, test again). Its unit definition says so
+ *     ("days": 3); assemble.js accepts it only from Grade 1 on, only in a content area and only for a lesson with a
+ *     hands-on routine, and marks the lesson investigateDays: 3. Its third session is the rest of the investigation;
  *   - a unit ends with three days: review, the unit check, and a day to act on the check.
  * A unit's weeks are its days divided by the sessions a class has in a week, said as a whole number ("about N
  * weeks"): five, except mathematics in the Swedish förskoleklass, which has no timetable by subject and does
@@ -26,7 +31,7 @@ const UNIT_END_DAYS = 3;
 function lessonDays(grade, lesson) {
   if (String(grade) === 'K' || String(grade) === 'P') return 2;
   const levels = (lesson.paper || []).some((p) => p.easy || p.hard);
-  if (lesson.writeDays === 3) return 3;
+  if (lesson.writeDays === 3 || lesson.investigateDays === 3) return 3;
   return lesson.tool && levels && lesson.exit && lesson.maker ? 3 : 2;
 }
 const unitDays = (grade, lessons) => lessons.reduce((n, l) => n + lessonDays(grade, l), 0) + UNIT_END_DAYS;

@@ -1608,11 +1608,19 @@
    "pictures": [],
    "words": []
   },
+  "family-g1385-3": {
+   "pictures": [],
+   "words": []
+  },
   "family-g1386": {
    "pictures": [],
    "words": []
   },
   "family-g1386-2": {
+   "pictures": [],
+   "words": []
+  },
+  "family-g1386-3": {
    "pictures": [],
    "words": []
   },
@@ -4546,16 +4554,6 @@
     "plums"
    ]
   },
-  "reading-comprehension-g1581-3": {
-   "pictures": [
-    "mouse",
-    "owl"
-   ],
-   "words": [
-    "mouse",
-    "owl"
-   ]
-  },
   "reading-comprehension-g2269-2": {
    "pictures": [],
    "words": [
@@ -5437,22 +5435,6 @@
     "swan",
     "tiger",
     "vulture"
-   ],
-   "words": [
-    "birds"
-   ]
-  },
-  "science-sort-g1201-3": {
-   "pictures": [
-    "duck",
-    "fox",
-    "gecko",
-    "iguana",
-    "penguin",
-    "sheep",
-    "tiger",
-    "tortoise",
-    "woodpecker"
    ],
    "words": [
     "birds"
@@ -6429,6 +6411,14 @@
    "pictures": [],
    "words": [
     "fence",
+    "sand",
+    "towel"
+   ]
+  },
+  "story-sequencing-g1402-3": {
+   "pictures": [],
+   "words": [
+    "cake",
     "sand",
     "towel"
    ]

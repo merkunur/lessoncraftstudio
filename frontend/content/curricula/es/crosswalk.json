@@ -4003,6 +4003,18 @@
    ],
    "by": "authored"
   },
+  "1:seedlings-and-parent": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:animal-parents": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:like-parents": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "1:habitats-needs": {
    "rows": [
     {
@@ -4048,6 +4060,50 @@
    ],
    "by": "authored"
   },
+  "1:vibrations-make-sound": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:sound-moves-things": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:cup-telephone": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:see-with-light": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:light-through-materials": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:mirrors-bounce-light": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:shadows-near-far": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:light-messages": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:design-like-an-animal": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:design-a-raft": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:test-two-rafts": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "1:materials-recycling": {
    "rows": [
     {
@@ -4081,6 +4137,22 @@
      "grade": "3"
     }
    ],
+   "by": "authored"
+  },
+  "1:shadow-through-day": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:moon-journal": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:day-night-sky": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:daylight-hours": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "2:plant-parts": {
@@ -4483,6 +4555,38 @@
    ],
    "by": "authored"
   },
+  "1:ask-a-grown-up": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:myplate-lunch": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:habit-to-grow": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:health-helpers": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:fire-safety-911": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:say-no-go-tell": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:help-a-friend": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:whole-body-listening": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "1:food-groups": {
    "rows": [
     {
@@ -4491,6 +4595,10 @@
      "grade": "1"
     }
    ],
+   "by": "authored"
+  },
+  "1:myplate-groups": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "2:road-signs": {

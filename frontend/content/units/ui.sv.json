@@ -105,6 +105,8 @@
  "dayRole2": "Öva och stäm av",
  "dayRole3": "Följ upp",
  "dayRole3Write": "Skriv klart texten",
+ "dayRole3Investigate": "Avsluta undersökningen",
+ "dayInvestigate": "Klassen gör klart undersökningen (nästa test, bygget eller nästa observation) och skriver på bladet vad de kom fram till.",
  "dayWrite": "Eleverna skriver klart sin text och läser den en gång till med checklistan på bladet.",
  "dayRespond": "Utgå från avstämningsbladen: de elever som inte är säkra än arbetar en gång till med verktyget på storskärmen och ett nytt arbetsblad från ”Gör fler”; de andra får ett svårare blad.",
  "unitEnd": "Arbetsområdet avslutas med tre dagar till: en dag för repetition, kunskapskollen och en dag för att följa upp vad den visade.",

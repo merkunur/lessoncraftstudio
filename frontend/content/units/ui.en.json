@@ -108,6 +108,8 @@
  "dayRole2": "Practice and check",
  "dayRole3": "Reteach and extend",
  "dayRole3Write": "Finish the writing",
+ "dayRole3Investigate": "Finish the investigation",
+ "dayInvestigate": "The class finishes the investigation (the next test, the build, or the next look) and records what it found on the page.",
  "dayWrite": "The children finish their piece of writing and read it again with the checklist on the page.",
  "unitEndOwn": "The unit ends with three more days: a review day, a day for your own unit check, and a day to act on what the check showed.",
  "dayRole2NoCheck": "Practice",

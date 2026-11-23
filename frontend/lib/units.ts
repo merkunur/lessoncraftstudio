@@ -39,6 +39,8 @@ export interface UnitLesson {
   days?: number;
   /** 3 where the unit definition says the lesson's pages take three days (a piece of writing drafted over two days) */
   writeDays?: number;
+  /** 3 where a content-area unit definition says the lesson's investigation takes a third session (pacing.js) */
+  investigateDays?: number;
 }
 export interface Unit {
   id: string;

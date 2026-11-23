@@ -790,7 +790,11 @@ function assertFace(name, r, d, face, { block, loc, oneLine }) {
   } else if (face === 'odd') {
     ok(F.cards.length === d.rows, `${name}: ${F.cards.length} cards ≠ ${d.rows}`);
     const classes = TYPE._trioClasses(GLOBAL);
-    ok(new Set(F.cards.map((c) => c.trio)).size === F.cards.length && F.cards.every((c) => classes[c.trio]), `${name}: trio classes ${F.cards.map((c) => c.trio).join(',')} not distinct / unknown`);
+    // a trio class repeats only where its families give every one of its rows three new ones, and never in the next row
+    // (2026-11-24: three trio classes for four rows once glass is odd-only; the page-wide family fence is checked below)
+    const trioUse = {}; for (const c of F.cards) trioUse[c.trio] = (trioUse[c.trio] || 0) + 1;
+    ok(F.cards.every((c) => classes[c.trio]) && Object.entries(trioUse).every(([c, n]) => n === 1 || new Set(classes[c].map((it) => it.family)).size >= 3 * n), `${name}: trio classes ${F.cards.map((c) => c.trio).join(',')} unknown / repeated past their families`);
+    ok(F.cards.every((c, i) => !i || c.trio !== F.cards[i - 1].trio), `${name}: two rows of the same material side by side (${F.cards.map((c) => c.trio).join(',')})`);
     let prevOdd = -1;
     F.cards.forEach((card, i) => {
       ok(card.items.length === 4, `${name}: card ${i + 1} has ${card.items.length} items`);
@@ -1050,7 +1054,10 @@ async function main() {
       ok(distinct(w, (m) => m.items.slice().sort().join()) >= 10, `sweep which: only ${distinct(w, (m) => m.items.slice().sort().join())} distinct item sets over 20 seeds`);
       ok(distinct(w, (m) => m.answers.join()) >= 10, 'sweep which: the answer sequences repeat');
       ok(distinct(wr, (m) => m.items.slice().sort().join()) >= 10 && distinct(wr, (m) => m.bank.join()) >= 5, 'sweep write: item sets / bank orders repeat');
-      ok(distinct(od, (m) => m.oddIdx.join()) >= 8 && distinct(od, (m) => m.trio.join()) >= 8, 'sweep odd: odd columns / trio orders repeat');
+      // trio orders: every order the trio classes allow, at most 8 (three trio classes since 2026-11-24 give 3! = 6)
+      const trioCls = new Set(od.flatMap((m) => m.trio)), trioPerms = [...trioCls].reduce((p, _, i) => p * (i + 1), 1);
+      ok(trioCls.size >= 3, `sweep odd: only ${trioCls.size} trio classes`);
+      ok(distinct(od, (m) => m.oddIdx.join()) >= 8 && distinct(od, (m) => m.trio.join()) >= Math.min(8, trioPerms), 'sweep odd: odd columns / trio orders repeat');
       ok(distinct(co, (m) => m.legend.join()) >= 6 && distinct(co, (m) => m.examples.flat().join()) >= 10, 'sweep color: legend orders / examples repeat');
       ok(distinct(op, (m) => JSON.stringify(m)) === 1, 'sweep open: the open face must be seed-invariant');
       console.log(`sweep faces: which ${distinct(w, (m) => m.items.slice().sort().join())} item sets / ${distinct(w, (m) => m.answers.join())} answer sequences · write ${distinct(wr, (m) => m.items.slice().sort().join())} item sets / ${distinct(wr, (m) => m.bank.join())} bank orders · odd ${distinct(od, (m) => m.oddIdx.join())} odd vectors / ${distinct(od, (m) => m.trio.join())} trio orders · color ${distinct(co, (m) => m.legend.join())} legend orders / ${distinct(co, (m) => m.examples.flat().join())} example sets · open seed-invariant`);
@@ -1058,7 +1065,7 @@ async function main() {
 
     // 6. FACE POISONS — each must FAIL for its OWN reason; the face renders above are the controls
     let killedF = 0;
-    const TOTAL_F = 25;
+    const TOTAL_F = 27;
     const patched = (id, block, fn) => Object.assign({}, faceType(id, GLOBAL, block), { build(args, ctx) { const out = faceType(id, GLOBAL, block).build(args, ctx); out.bodyHtml = fn(out.bodyHtml, out.meta); return out; } });
     const buildOnly = (id, block, loc, cfg) => { const t = faceType(id, GLOBAL, block); if (cfg) t.difficulty = { 1: cfg, 2: cfg, 3: cfg }; try { t.build({ theme: null, difficulty: 2, locale: loc }, { rng: makeRng('poison-' + id) }); return []; } catch (e) { return [e.message]; } };
     const gateOf = async (id, face, t, block, loc, strings, tag, oneLine, dOverride) => { const r = await renderFace(page, t, { locale: loc, baseName: `K-357-gate-poison-${tag}`, strings }); pngs.push(r.png); const found = collect(() => assertFace(tag, r, dOverride || faceD[id], face, { block, loc, oneLine })); return { r, found }; };
@@ -1089,6 +1096,22 @@ async function main() {
       });
       const { r } = await gateOf('G2-348', 'odd', t, en, 'en', en.strings['G2-348'], 'PR5', true);
       if (judge('PR5', r.verify, /card 1 \([a-z]+\): 2 of the trio class \+ 2 other — not 3 \+ 1/)) killedF++; }
+    // PR17 — F3 (2026-11-24): one material in two rows side by side (the root trio stamp and card 2 re-stamped to card 1's
+    // class) → verify "no material in two rows side by side"
+    { const t = patched('G2-348', en, (html) => {
+        const root = /data-lcs-trio="([a-z]+(?:,[a-z]+){3})"/.exec(html);
+        if (!root) throw new Error('PR17: no root trio stamp');
+        const cls = root[1].split(',');
+        const out = html.replace(root[0], `data-lcs-trio="${[cls[0], cls[0], cls[2], cls[3]].join(',')}"`);
+        return out.replace(`data-lcs-card="2" data-lcs-trio="${cls[1]}"`, `data-lcs-card="2" data-lcs-trio="${cls[0]}"`);
+      });
+      const { r } = await gateOf('G2-348', 'odd', t, en, 'en', en.strings['G2-348'], 'PR17', true);
+      if (judge('PR17', r.verify, /no material in two rows side by side/)) killedF++; }
+    // PR18 — F3 (2026-11-24): a bank whose plastic keeps five families cannot give the fourth row a second trio → the build
+    // refuses (never a material repeated past its families)
+    { const few = Object.assign({}, GLOBAL, { items: GLOBAL.items.filter((it) => !(it.material === 'plastic' && ['comb', 'spoon'].includes(it.family))) });
+      let msg = []; try { faceType('G2-348', few, en).build({ theme: null, difficulty: 2, locale: 'en' }, { rng: makeRng('poison-PR18') }); } catch (e) { msg = [e.message]; }
+      if (judge('PR18', msg, /rows > the trios \d+ trio classes can give/)) killedF++; }
     // PR6 — F4: a lid pre-filled codeBlue → verify "not white"
     { const t = patched('K-367', FX.de, (html) => html.replace(/(<g data-lcs-bin-part="lid"><rect [^>]*fill=")#FFFFFF(")/i, `$1${tokens.codeColors.codeBlue}$2`));
       const { r } = await gateOf('K-367', 'color', t, FX.de, 'de', FX.de.strings['K-367'], 'PR6', true);

@@ -2,7 +2,7 @@
   "pacing": {
     "teachingWeeks": { "K": 28, "1": 28, "2": 28, "3": 26 },
     "daysPerWeek": { "K": 3, "1": 3, "2": 3, "3": 3 },
-    "rule": "Three science sessions a week in every grade, about 30 minutes in Kindergarten and 35 to 45 minutes in Grades 1 to 3 (roughly 90 to 135 minutes a week), which is what most US elementary schedules give science and what an NGSS investigation needs: one session to set up and observe, one to test and record, one to talk about what the class found. A lesson is 2 sessions (always in Kindergarten, whose children observe and draw in short bursts) and 3 only when an investigation needs a setup day and a later reading (seeds growing, ice melting, a pendulum timed several times) or an engineering build and test. Every unit adds 3 sessions: an opening session with a phenomenon or question, a review session and a check session. The year-round observations run in the morning meeting, not in these sessions: the daily weather check on the Calendar Wall (K-2), the sunrise and sunset times read on the first school day of each month (Grade 1), and the daily high temperature in degrees Fahrenheit (Grade 3)."
+    "rule": "Three science sessions a week in every grade, about 30 minutes in Kindergarten and 35 to 45 minutes in Grades 1 to 3 (roughly 90 to 135 minutes a week), which is what most US elementary schedules give science and what an NGSS investigation needs: one session to set up and observe, one to test and record, one to talk about what the class found. A lesson is 2 sessions (always in Kindergarten, whose children observe and draw in short bursts) and 3 only when an investigation needs a setup day and a later reading (seeds growing, ice melting, a pendulum timed several times) or an engineering build and test. Every unit adds 3 sessions: an opening session with a phenomenon or question, a review session and a check session. The year-round observations run in the morning meeting, not in these sessions: the daily weather check on the Calendar Wall (K-2), the hours of daylight on the 21st of each month, to the nearest hour (Grade 1), and the daily high temperature in degrees Fahrenheit (Grade 3)."
   },
   "K": {
     "nonTeachingWeeks": [
@@ -340,9 +340,9 @@
   },
   "1": {
     "nonTeachingWeeks": [
-      { "weeks": "1-2", "what": "Routines and safety: the science notebook, the hand lens, carrying water, handling living things; the daily weather check begins and the class reads the first sunrise and sunset times of the year." },
+      { "weeks": "1-2", "what": "Routines and safety: the science notebook, the hand lens, carrying water, handling living things; the daily weather check begins and the class starts its daylight chart: the hours of daylight on the 21st of each month, to the nearest hour." },
       { "weeks": "10", "what": "End of the first quarter: report-card checks and family conferences; science time finishes notebooks and make-up checks." },
-      { "weeks": "17", "what": "The short week before winter break: no new science; children share their notebooks and the class reads the December sunrise and sunset times." },
+      { "weeks": "17", "what": "The short week before winter break: no new science; children share their notebooks and the class reads the hours of daylight for December 21." },
       { "weeks": "20", "what": "Middle-of-year benchmark window in reading and math, which takes the science block." },
       { "weeks": "28", "what": "End of the third quarter: report-card checks and spring conferences." },
       { "weeks": "34", "what": "End-of-year benchmark window in reading and math, which takes the science block." },
@@ -495,7 +495,7 @@
           {
             "new": true,
             "title": "How long is the day?",
-            "objective": "Children color a bar for the hours of daylight on the first school day of each month from the sunrise and sunset times the class has read since September, and find that the days are shortest in December and longer in fall and spring.",
+            "objective": "Children color a bar for the hours of daylight on the 21st of each month (to the nearest hour), from the numbers the class has read since September, and find that the days are shortest in December and longer in fall and spring.",
             "standard": "1-ESS1-2",
             "days": 2,
             "source": "new",

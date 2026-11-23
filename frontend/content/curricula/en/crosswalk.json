@@ -4618,6 +4618,36 @@
    ],
    "by": "review"
   },
+  "1:seedlings-and-parent": {
+   "rows": [
+    {
+     "id": "1-LS3-1",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "1:animal-parents": {
+   "rows": [
+    {
+     "id": "1-LS1-2",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "1:like-parents": {
+   "rows": [
+    {
+     "id": "1-LS3-1",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
   "1:habitats-needs": {
    "rows": [
     {
@@ -4663,6 +4693,116 @@
    ],
    "by": "review"
   },
+  "1:vibrations-make-sound": {
+   "rows": [
+    {
+     "id": "1-PS4-1",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "1:sound-moves-things": {
+   "rows": [
+    {
+     "id": "1-PS4-1",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "1:cup-telephone": {
+   "rows": [
+    {
+     "id": "1-PS4-4",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "1:see-with-light": {
+   "rows": [
+    {
+     "id": "1-PS4-2",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "1:light-through-materials": {
+   "rows": [
+    {
+     "id": "1-PS4-3",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "1:mirrors-bounce-light": {
+   "rows": [
+    {
+     "id": "1-PS4-3",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "1:shadows-near-far": {
+   "rows": [
+    {
+     "id": "1-PS4-3",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "1:light-messages": {
+   "rows": [
+    {
+     "id": "1-PS4-4",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "1:design-like-an-animal": {
+   "rows": [
+    {
+     "id": "1-LS1-1",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "1:design-a-raft": {
+   "rows": [
+    {
+     "id": "K-2-ETS1-2",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
+  "1:test-two-rafts": {
+   "rows": [
+    {
+     "id": "K-2-ETS1-3",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
   "1:materials-recycling": {
    "rows": [
     {
@@ -4682,6 +4822,46 @@
    "rows": [
     {
      "id": "1-ESS1-1",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "1:shadow-through-day": {
+   "rows": [
+    {
+     "id": "1-ESS1-1",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "1:moon-journal": {
+   "rows": [
+    {
+     "id": "1-ESS1-1",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "1:day-night-sky": {
+   "rows": [
+    {
+     "id": "1-ESS1-1",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "1:daylight-hours": {
+   "rows": [
+    {
+     "id": "1-ESS1-2",
      "rel": "teaches",
      "grade": "1"
     }
@@ -5130,6 +5310,86 @@
    ],
    "by": "review"
   },
+  "1:ask-a-grown-up": {
+   "rows": [
+    {
+     "id": "NHES.5.2.2",
+     "rel": "teaches",
+     "grade": "P-2"
+    }
+   ],
+   "by": "review"
+  },
+  "1:myplate-lunch": {
+   "rows": [
+    {
+     "id": "NHES.5.2.1",
+     "rel": "teaches",
+     "grade": "P-2"
+    }
+   ],
+   "by": "review"
+  },
+  "1:habit-to-grow": {
+   "rows": [
+    {
+     "id": "NHES.6.2.1",
+     "rel": "teaches",
+     "grade": "P-2"
+    }
+   ],
+   "by": "review"
+  },
+  "1:health-helpers": {
+   "rows": [
+    {
+     "id": "NHES.3.2.3",
+     "rel": "teaches",
+     "grade": "P-2"
+    }
+   ],
+   "by": "review"
+  },
+  "1:fire-safety-911": {
+   "rows": [
+    {
+     "id": "NHES.3.2.2",
+     "rel": "teaches",
+     "grade": "P-2"
+    }
+   ],
+   "by": "review"
+  },
+  "1:say-no-go-tell": {
+   "rows": [
+    {
+     "id": "NHES.4.2.3",
+     "rel": "teaches",
+     "grade": "P-2"
+    }
+   ],
+   "by": "review"
+  },
+  "1:help-a-friend": {
+   "rows": [
+    {
+     "id": "NHES.8.2.2",
+     "rel": "teaches",
+     "grade": "P-2"
+    }
+   ],
+   "by": "review"
+  },
+  "1:whole-body-listening": {
+   "rows": [
+    {
+     "id": "NHES.4.2.2",
+     "rel": "teaches",
+     "grade": "P-2"
+    }
+   ],
+   "by": "review"
+  },
   "1:food-groups": {
    "rows": [
     {
@@ -5140,6 +5400,16 @@
     {
      "id": "NHES.7.2.1",
      "rel": "prepares",
+     "grade": "P-2"
+    }
+   ],
+   "by": "review"
+  },
+  "1:myplate-groups": {
+   "rows": [
+    {
+     "id": "NHES.7.2.1",
+     "rel": "teaches",
      "grade": "P-2"
     }
    ],

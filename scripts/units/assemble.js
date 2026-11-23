@@ -22,6 +22,8 @@
  * fails the build, as does a unit with fewer than four lessons (PLAN.md Part 4, the filler gate).
  */
 'use strict';
+// the content areas, whose investigation lessons may carry a third session (pacing.js)
+const CONTENT_AREAS = new Set(['science', 'social', 'health']);
 /** the reader books with a page-turn screen (types/_shared/reader-book.js): on screen they are read, not checked */
 const READER_BOOK_TYPES = new Set(['K-628', 'K-629']);
 const fs = require('fs');
@@ -266,7 +268,11 @@ function assemble(loc, opt = {}) {
       if (maker) lesson.maker = maker;
       lesson.note = { mistake: tx.note.mistake, words: tx.note.words, watch: tx.note.watch };
       // a writing lesson whose pages take three class days says so in its definition (pacing.js)
-      if (L.days != null) {
+      if (L.days != null && CONTENT_AREAS.has(d.subject)) {
+        // an investigation of a content area: its third session is the rest of the investigation (pacing.js)
+        if (L.days !== 3 || !lesson.routine || led || String(d.grade) === 'K' || String(d.grade) === 'P') bad(lw + ': a content-area definition may claim only a third session, from Grade 1 on, for a lesson with a hands-on routine');
+        else lesson.investigateDays = 3;
+      } else if (L.days != null) {
         if (L.days !== 3 || paper.length < 2 || String(d.grade) === 'K' || String(d.grade) === 'P') bad(lw + ': a definition may claim only a third day, from Grade 1 on, for a lesson with two page types');
         else lesson.writeDays = 3;
       }

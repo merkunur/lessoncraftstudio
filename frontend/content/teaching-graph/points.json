@@ -10228,6 +10228,66 @@
    "prerequisites": []
   },
   {
+   "id": "1:seedlings-and-parent",
+   "grade": "1",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Compare seedlings with each other and with the grown plant",
+   "code": "NGSS:1-LS3-1",
+   "types": [
+    "G1-641"
+   ],
+   "families": [
+    "plants"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 37,
+   "prerequisites": []
+  },
+  {
+   "id": "1:animal-parents",
+   "grade": "1",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Tell what animal parents do to help their young survive",
+   "code": "NGSS:1-LS1-2",
+   "types": [
+    "G1-638"
+   ],
+   "families": [
+    "animal-life-cycles"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 38,
+   "prerequisites": []
+  },
+  {
+   "id": "1:like-parents",
+   "grade": "1",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Find how young animals are like their parents, but not exactly",
+   "code": "NGSS:1-LS3-1",
+   "types": [
+    "G1-640"
+   ],
+   "families": [
+    "animal-life-cycles"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 39,
+   "prerequisites": []
+  },
+  {
    "id": "1:habitats-needs",
    "grade": "1",
    "subject": "science",
@@ -10251,7 +10311,7 @@
     240
    ],
    "verdict": "gap",
-   "order": 37,
+   "order": 40,
    "prerequisites": []
   },
   {
@@ -10274,7 +10334,7 @@
     263
    ],
    "verdict": "gap",
-   "order": 38,
+   "order": 41,
    "prerequisites": []
   },
   {
@@ -10299,7 +10359,227 @@
     235
    ],
    "verdict": "gap",
-   "order": 39,
+   "order": 42,
+   "prerequisites": []
+  },
+  {
+   "id": "1:vibrations-make-sound",
+   "grade": "1",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Find that every sound comes from something vibrating, at sound stations",
+   "code": "NGSS:1-PS4-1",
+   "types": [
+    "G1-626"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 43,
+   "prerequisites": []
+  },
+  {
+   "id": "1:sound-moves-things",
+   "grade": "1",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Show that sound can make materials vibrate (rice on a drum, a ringing tuning fork in water)",
+   "code": "NGSS:1-PS4-1",
+   "types": [
+    "G1-627"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 44,
+   "prerequisites": []
+  },
+  {
+   "id": "1:cup-telephone",
+   "grade": "1",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Build and test a cup telephone and find when the sound travels best",
+   "code": "NGSS:1-PS4-4",
+   "types": [
+    "G1-628"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 45,
+   "prerequisites": []
+  },
+  {
+   "id": "1:see-with-light",
+   "grade": "1",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Find that we see an object only when light shines on it",
+   "code": "NGSS:1-PS4-2",
+   "types": [
+    "G1-629"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 46,
+   "prerequisites": []
+  },
+  {
+   "id": "1:light-through-materials",
+   "grade": "1",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Test which materials let all, some or no light through",
+   "code": "NGSS:1-PS4-3",
+   "types": [
+    "G1-630"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 47,
+   "prerequisites": []
+  },
+  {
+   "id": "1:mirrors-bounce-light",
+   "grade": "1",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Use a mirror to bounce a beam of light onto a target",
+   "code": "NGSS:1-PS4-3",
+   "types": [
+    "G1-631"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 48,
+   "prerequisites": []
+  },
+  {
+   "id": "1:shadows-near-far",
+   "grade": "1",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Make shadows by blocking light and find how they change near and far from the light",
+   "code": "NGSS:1-PS4-3",
+   "types": [
+    "G1-632"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 49,
+   "prerequisites": []
+  },
+  {
+   "id": "1:light-messages",
+   "grade": "1",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Design a code to send a message with light, and test it",
+   "code": "NGSS:1-PS4-4",
+   "types": [
+    "G1-633"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 50,
+   "prerequisites": []
+  },
+  {
+   "id": "1:design-like-an-animal",
+   "grade": "1",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Match an animal part to the human design that copies it",
+   "code": "NGSS:1-LS1-1",
+   "types": [
+    "G1-639"
+   ],
+   "families": [
+    "science-match"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 51,
+   "prerequisites": []
+  },
+  {
+   "id": "1:design-a-raft",
+   "grade": "1",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Plan a raft from floating materials that will carry ten pennies",
+   "code": "NGSS:K-2-ETS1-2",
+   "types": [
+    "G1-642"
+   ],
+   "families": [
+    "sink-or-float"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 52,
+   "prerequisites": []
+  },
+  {
+   "id": "1:test-two-rafts",
+   "grade": "1",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Test two rafts with pennies and tell which design held more",
+   "code": "NGSS:K-2-ETS1-3",
+   "types": [
+    "G1-643"
+   ],
+   "families": [
+    "sink-or-float"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 53,
    "prerequisites": []
   },
   {
@@ -10322,7 +10602,7 @@
     265
    ],
    "verdict": "gap",
-   "order": 40,
+   "order": 54,
    "prerequisites": []
   },
   {
@@ -10345,7 +10625,87 @@
     262
    ],
    "verdict": "gap",
-   "order": 41,
+   "order": 55,
+   "prerequisites": []
+  },
+  {
+   "id": "1:shadow-through-day",
+   "grade": "1",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Record a shadow in the morning, near noon and in the afternoon and describe how it moves",
+   "code": "NGSS:1-ESS1-1",
+   "types": [
+    "G1-634"
+   ],
+   "families": [
+    "earth-and-space"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 56,
+   "prerequisites": []
+  },
+  {
+   "id": "1:moon-journal",
+   "grade": "1",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Observe and draw the Moon every few days and describe how its lit part changes",
+   "code": "NGSS:1-ESS1-1",
+   "types": [
+    "G1-635"
+   ],
+   "families": [
+    "earth-and-space"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 57,
+   "prerequisites": []
+  },
+  {
+   "id": "1:day-night-sky",
+   "grade": "1",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Compare the day sky and the night sky: the stars are there all the time",
+   "code": "NGSS:1-ESS1-1",
+   "types": [
+    "G1-636"
+   ],
+   "families": [
+    "earth-and-space"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 58,
+   "prerequisites": []
+  },
+  {
+   "id": "1:daylight-hours",
+   "grade": "1",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Graph the whole hours of daylight month by month and compare winter and summer",
+   "code": "NGSS:1-ESS1-2",
+   "types": [
+    "G1-637"
+   ],
+   "families": [
+    "earth-and-space"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 59,
    "prerequisites": []
   },
   {
@@ -10367,7 +10727,7 @@
     231
    ],
    "verdict": "gap",
-   "order": 42,
+   "order": 60,
    "prerequisites": []
   },
   {
@@ -10389,7 +10749,7 @@
     264
    ],
    "verdict": "gap",
-   "order": 43,
+   "order": 61,
    "prerequisites": []
   },
   {
@@ -10413,7 +10773,7 @@
     240
    ],
    "verdict": "gap",
-   "order": 44,
+   "order": 62,
    "prerequisites": []
   },
   {
@@ -10435,7 +10795,7 @@
     235
    ],
    "verdict": "gap",
-   "order": 45,
+   "order": 63,
    "prerequisites": []
   },
   {
@@ -10458,7 +10818,7 @@
     265
    ],
    "verdict": "gap",
-   "order": 46,
+   "order": 64,
    "prerequisites": []
   },
   {
@@ -10479,7 +10839,7 @@
     262
    ],
    "verdict": "gap",
-   "order": 47,
+   "order": 65,
    "prerequisites": []
   },
   {
@@ -10500,7 +10860,7 @@
     262
    ],
    "verdict": "gap",
-   "order": 48,
+   "order": 66,
    "prerequisites": []
   },
   {
@@ -10521,7 +10881,7 @@
     315
    ],
    "verdict": "gap",
-   "order": 49,
+   "order": 67,
    "prerequisites": []
   },
   {
@@ -10542,7 +10902,7 @@
     231
    ],
    "verdict": "gap",
-   "order": 50,
+   "order": 68,
    "prerequisites": []
   },
   {
@@ -10563,7 +10923,7 @@
     264
    ],
    "verdict": "gap",
-   "order": 51,
+   "order": 69,
    "prerequisites": []
   },
   {
@@ -10584,7 +10944,7 @@
     235
    ],
    "verdict": "gap",
-   "order": 52,
+   "order": 70,
    "prerequisites": []
   },
   {
@@ -10606,7 +10966,7 @@
     314
    ],
    "verdict": "gap",
-   "order": 53,
+   "order": 71,
    "prerequisites": []
   },
   {
@@ -11110,6 +11470,166 @@
    "prerequisites": []
   },
   {
+   "id": "1:ask-a-grown-up",
+   "grade": "1",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Tell the things only a trusted grown-up gives or uses (medicine, a shot, an iron, a knife) and ask first",
+   "code": "NHES.5.2.2",
+   "types": [
+    "G1-644"
+   ],
+   "families": [
+    "healthy-habits"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 13,
+   "prerequisites": []
+  },
+  {
+   "id": "1:myplate-lunch",
+   "grade": "1",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Build a MyPlate lunch and find the times of the school day we choose a food or drink",
+   "code": "NHES.5.2.1",
+   "types": [
+    "G1-646"
+   ],
+   "families": [
+    "healthy-habits"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 14,
+   "prerequisites": []
+  },
+  {
+   "id": "1:habit-to-grow",
+   "grade": "1",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Check the healthy habits I already do and choose one to grow",
+   "code": "NHES.6.2.1",
+   "types": [
+    "G1-647"
+   ],
+   "families": [
+    "healthy-habits"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 15,
+   "prerequisites": []
+  },
+  {
+   "id": "1:health-helpers",
+   "grade": "1",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Name the health helpers at school and in town",
+   "code": "NHES.3.2.3",
+   "types": [
+    "G1-648"
+   ],
+   "families": [
+    "healthy-habits"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 16,
+   "prerequisites": []
+  },
+  {
+   "id": "1:fire-safety-911",
+   "grade": "1",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Get out and stay out, crawl low under smoke, stop, drop and roll, and know when to call 911",
+   "code": "NHES.3.2.2",
+   "types": [
+    "G1-650"
+   ],
+   "families": [
+    "healthy-habits"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 17,
+   "prerequisites": []
+  },
+  {
+   "id": "1:say-no-go-tell",
+   "grade": "1",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "When something feels unsafe: say no, go away, and tell a trusted adult",
+   "code": "NHES.4.2.3",
+   "types": [
+    "G1-651"
+   ],
+   "families": [
+    "healthy-habits"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 18,
+   "prerequisites": []
+  },
+  {
+   "id": "1:help-a-friend",
+   "grade": "1",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Find kind ways to help a friend make healthy choices",
+   "code": "NHES.8.2.2",
+   "types": [
+    "G1-652"
+   ],
+   "families": [
+    "healthy-habits"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 19,
+   "prerequisites": []
+  },
+  {
+   "id": "1:whole-body-listening",
+   "grade": "1",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Listen with the whole body: eyes, ears, quiet hands and feet, a calm body",
+   "code": "NHES.4.2.2",
+   "types": [
+    "G1-649"
+   ],
+   "families": [
+    "feelings"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 20,
+   "prerequisites": []
+  },
+  {
    "id": "1:food-groups",
    "grade": "1",
    "subject": "health",
@@ -11127,7 +11647,27 @@
     221
    ],
    "verdict": "gap",
-   "order": 13,
+   "order": 21,
+   "prerequisites": []
+  },
+  {
+   "id": "1:myplate-groups",
+   "grade": "1",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Sort foods into the five MyPlate food groups",
+   "code": "NHES.7.2.1",
+   "types": [
+    "G1-645"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 22,
    "prerequisites": []
   },
   {
@@ -11150,7 +11690,7 @@
     223
    ],
    "verdict": "gap",
-   "order": 14,
+   "order": 23,
    "prerequisites": []
   },
   {
@@ -11171,7 +11711,7 @@
     220
    ],
    "verdict": "gap",
-   "order": 15,
+   "order": 24,
    "prerequisites": []
   },
   {

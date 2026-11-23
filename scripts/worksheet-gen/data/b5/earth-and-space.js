@@ -75,7 +75,7 @@ const EARTH_AND_SPACE_LOC = {
       },
       'moon-phases-in-order': {
         title: 'Moon Phases in Order',
-        instruction: 'The wedge in each row shows if the Moon grows or shrinks, so write 1 to 5 under the moons in that order.',
+        instruction: 'The wedge in each row shows if the lit part of the Moon grows or shrinks, so write 1 to 5 under the moons in that order.',
       },
       'moon-phase-names': {
         title: 'Name the Moon Phases',

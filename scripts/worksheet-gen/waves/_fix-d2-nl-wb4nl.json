@@ -1,0 +1,22 @@
+{
+ "id": "wave-b4-nl",
+ "seedEpoch": 1,
+ "locales": [
+  "nl"
+ ],
+ "themes": [
+  "animals"
+ ],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "K-355",
+  "K-354",
+  "K-357"
+ ],
+ "themeOverrides": {},
+ "_refused": {},
+ "_note": "2026-11-23 Stage D-2 fix round: pinned re-generation of the live published pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file."
+}

@@ -1637,3 +1637,71 @@ All are Level Sets: three levels, up to five copies a level, visible to teachers
 **Open:** K-374's crossing routine gets a design pass before the Kindergarten health unit goes live. The US routine is left, right, left again, with a grown-up.
 
 **Next:** D-2. Publish the needed science and health types (117 types feed the `point:` lessons; most science and health ones are single core pages) as noindex Level Sets by the Year-pages recipe.
+
+### 2026-11-23: Stage D-2 is live: the science, social studies and health Level Sets (5,669 never-indexed pages, 11 languages); the matching of the new lessons (deploy 49)
+
+**The live fixes of commit `102d0962c` republished** (batch `d2fix`, the HANDOFF §6 order):
+- 445 pages of 21 types in 11 languages. 534 were scanned and 89 unchanged pages dropped; 93 word changes, all intended (G1-202 "Air" gone, G1-363's questions, G1-403's cards, the K-354 and G1-356 banks).
+- 240 teaching blocks and 330 meters restored (0 lost on the re-audit); 300 titles and 19 descriptions back to the baseline.
+- Repoint missing 0 in 11 languages, the second pass 0; IDENTITY PASS.
+
+**D-2, the Level Sets** (configs `year-sci-a` themeless, prefix `ysa`; `year-sci-b` themed thinking-skills faces, prefix `ysb`):
+
+*What was published*
+- **Only copies that differ.** Each level is capped at the pages that differ in content over 12 seeds. 17 faces that only reshuffle one page add nothing and are left out.
+- **Count:** 50 + 10 faces; ysa 4,354 and ysb 1,315 copies = 5,669.
+- **ZIP check:** `check-zips-ysd.js` reports 0 problems, and its 4 poisons are caught.
+- **Copies removed or refused:**
+  - 40 copies that printed one page were dropped (G1-377, K-286);
+  - 3 themed copies were refused by the renderer's own QA (a K-069 part under the size floor) and are not published.
+- **Short descriptions:** never-indexed pages under 120 characters got a band-fitting `levelSetShort`:
+  - healthy-habits (en), plants (da, fi), human-body (es), earth-and-space (nl);
+  - published pages never read it.
+
+*Publish*
+- `publish-wave --noindex`: 5,669 inserted, 0 updated, 0 failed.
+- **Audit:** 5,638 pages clean. Two kinds of flag were accepted:
+  - 25 theme flags: the audit compares "B&W" with the correctly escaped "B&amp;W" of the title;
+  - 6 titles of 72 characters (a long type title plus "Set N") on never-indexed pages.
+
+*Live and after-publish*
+- **Live:** a page answers 200 with noindex in the page and the header, the metered PDF and the level strip.
+- **`after-publish-ysd.sh`** (`after-publish.sh` whose indexable check counts only pages created that day, because these types also have live core pages):
+  - 429 class sheets;
+  - 5,669 catalogue rows;
+  - the screen rule names no page of the batch;
+  - the teaching-graph gates pass.
+- **Pathways:** the science families form a Science subject in `level-set-pathways/sequence.json` (strands Science, Health & Safety). Visual discrimination and visual matching join Visual Perception, visual logic joins Logical Reasoning. The pathways gate passes (240), and the science subject hubs now list their sets: page body only, no title or description changed.
+
+**D-1b, the matching** (one analyst read every candidate's generator: `scripts/units/year/match.en.{science,social,health}.json`; the close lines ruled in `rulings.close.<subject>.js`, "use" nowhere, "Far:" = build; `TYPE-WORK-LIST.<subject>.md`):
+
+| | Published, write the lesson | Change a type | Build a type | All |
+|---|---|---|---|---|
+| Science | 34 | 17 | 61 | 112 |
+| Social studies | 12 | 10 | 52 | 74 |
+| Health | 8 | 4 | 20 | 32 |
+
+**The biggest gaps:** whole strands, with nothing on paper today:
+- science: light and sound; forces, friction and magnets; engineering design records; Earth's changes and erosion; reversible change; traits;
+- social studies: government; timelines and then-and-now; economics beyond money.
+
+About 20 science needs are investigation records, which one record factory (prediction, trial rows, tally, bar graph, claim frame) can serve.
+
+**Build constraints from the analyst** (designer pages that would have two answers or sit above the grade):
+- no median (en-3-091);
+- a dual-scale thermometer, not a conversion (en-3-097);
+- the lemonade stand without dollars from 25¢ coins (en-2-055);
+- daylight in whole hours, not from sunrise and sunset times (en-1-046);
+- the rabbit's, cow's and frog's foods (en-K-011);
+- the sneezing child (en-2-020);
+- the iceberg (en-2-067).
+
+**Library art missing:** diverse families, then-and-now objects, the holiday objects, the Liberty Bell, landforms, parent-and-young photos, a line-art U.S. flag.
+
+**Decision: the order of D-3 and D-5.**
+- Rule P3 (no filler) gives a lesson at least two real assets. A routine alone is one.
+- A unit's description names its lessons, and an indexed description may not change afterwards.
+- So a unit is placed only when its lessons have their pages: the new types are built grade by grade first (D-5 batches), then each grade's units (D-3), the rhythm the literacy units followed.
+- **First batch:** Kindergarten science (5 changes, 13 new types) and Kindergarten health (1 change, 2 new), with K-374's crossing routine (left, right, left again, with a grown-up).
+
+**Next:** D-5 batch K. Design the 21 Kindergarten pages from the work list, then build, review, publish noindex, and place the seven Kindergarten science and two health units.

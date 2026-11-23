@@ -1,0 +1,22 @@
+{
+ "id": "wave-sci-all",
+ "seedEpoch": 1,
+ "locales": [
+  "da"
+ ],
+ "themes": [],
+ "difficulties": [
+  2
+ ],
+ "variantsPerType": 1,
+ "types": [
+  "K-204",
+  "K-201",
+  "K-211",
+  "K-208",
+  "K-209"
+ ],
+ "themesPerType": 1,
+ "themeOverrides": {},
+ "_note": "2026-11-23 science sorts: two-answer pictures retired, natural non-living added: pinned re-generation of the live published pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file."
+}

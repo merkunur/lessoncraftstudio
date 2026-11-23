@@ -1,0 +1,29 @@
+{
+ "id": "wave-b4var-pt",
+ "seedEpoch": 1,
+ "locales": [
+  "pt"
+ ],
+ "themes": [
+  "vehicles",
+  "zoo animals"
+ ],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G1-363",
+  "G1-356",
+  "K-366",
+  "G2-348",
+  "G1-364",
+  "G1-359",
+  "G1-358",
+  "G1-357",
+  "K-367"
+ ],
+ "themeOverrides": {},
+ "_refused": {},
+ "_note": "2026-11-23 Stage D-2 fix round: pinned re-generation of the live published pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file."
+}

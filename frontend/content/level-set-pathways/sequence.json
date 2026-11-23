@@ -151,7 +151,9 @@
         "position-words",
         "grid-copy",
         "maze-puzzles",
-        "find-the-differences"
+        "find-the-differences",
+        "visual-discrimination",
+        "visual-matching"
       ]
     },
     {
@@ -172,7 +174,33 @@
       "strand": "Logical Reasoning",
       "types": [
         "sorting-categories",
-        "logic-puzzles"
+        "logic-puzzles",
+        "visual-logic"
+      ]
+    }
+  ],
+  "science": [
+    {
+      "strand": "Science",
+      "types": [
+        "five-senses",
+        "human-body",
+        "seasons",
+        "weather-symbols",
+        "plants",
+        "animal-life-cycles",
+        "science-sort",
+        "science-match",
+        "sink-or-float",
+        "recycling",
+        "earth-and-space"
+      ]
+    },
+    {
+      "strand": "Health & Safety",
+      "types": [
+        "healthy-habits",
+        "road-safety"
       ]
     }
   ]

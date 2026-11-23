@@ -1,0 +1,589 @@
+{
+  "matches": [
+    {
+      "key": "en-K-001",
+      "fit": "none",
+      "types": [],
+      "differs": "No class-rules page exists. Build picture pairs (walking and running in the hall, raising a hand and shouting out, cleaning up and leaving the blocks) to circle and cross out; the choice rows of G1-404 (drawn children, circle the healthy way) are the closest layout.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-K-002",
+      "fit": "none",
+      "types": [],
+      "differs": "No kind-or-unkind choice page exists. Build pictures of children at play (taking turns, sharing, helping / grabbing, pushing) to circle or cross out, on the choice rows of G1-404.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-K-003",
+      "fit": "exact",
+      "types": [
+        "K-377",
+        "K-563"
+      ],
+      "differs": "K-377 draws a line from each thing seen from the side to the same thing seen from above; K-563 (not yet published in English) matches side views to the furniture on a room plan seen from above (four or six things, turned at level 3). Laying paper shapes on a plan of our room is the lesson's.",
+      "published": "some"
+    },
+    {
+      "key": "en-K-004",
+      "fit": "exact",
+      "types": [
+        "K-370",
+        "K-375"
+      ],
+      "differs": "K-370 finds each person on a picture family tree and writes their number next to the family word; K-375 traces and writes the family words. The jobs each person does at home are talk only.",
+      "published": "yes"
+    },
+    {
+      "key": "en-K-005",
+      "fit": "close",
+      "types": [
+        "K-323",
+        "G1-387"
+      ],
+      "differs": "Drawing one's own family has a frame: K-323 All About Me has a family drawing box, G1-387 a family tree template to draw the people who matter and write their names. No page shows many kinds of families (one parent, two fathers, grandparents raising grandchildren, a foster family). Change: a ring of six family pictures around a drawing frame; the family pictures are new art.",
+      "published": "yes"
+    },
+    {
+      "key": "en-K-006",
+      "fit": "none",
+      "types": [],
+      "differs": "No traditions page exists. Build four tradition scenes and four objects to match (party hat, pie, diya lamp, red envelope) on the pair layout of K-205, and a frame to draw the family's own tradition; the diya and the red envelope are not in the library.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-K-007",
+      "fit": "none",
+      "types": [],
+      "differs": "No long-ago-and-today page exists. Build four then-and-now object pairs (washboard and washing machine, candle and lamp, horse and buggy and car, wall telephone and cell phone) on the pair layout of K-205; the old objects are new art.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-K-008",
+      "fit": "exact",
+      "types": [
+        "K-213"
+      ],
+      "differs": "Draw a line from each helper to the tool they use (doctor and thermometer, firefighter and ladder, farmer and tractor, chef and whisk ...). How the work helps everyone is the lesson's talk.",
+      "published": "yes"
+    },
+    {
+      "key": "en-K-009",
+      "fit": "exact",
+      "types": [
+        "K-212"
+      ],
+      "differs": "Draw a line from each picture to Needs (water, apple, bread, shirt, house) or Wants (ball, doll, candy, television, balloon). Why a family buys needs first is the lesson's talk.",
+      "published": "yes"
+    },
+    {
+      "key": "en-K-010",
+      "fit": "none",
+      "types": [],
+      "differs": "No choice (opportunity cost) page exists. Build rows of two pictures a child cannot both have, one to circle and one to X, any choice right, and a drawing box for level 3.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-K-011",
+      "fit": "close",
+      "types": [
+        "K-213"
+      ],
+      "differs": "K-213 draws lines from helpers to their TOOLS; nothing matches a worker to the goods or the service they produce (baker and bread, builder and house, barber and haircut, mail carrier and letter). Change: a worker-to-product pair bank on the same pair layout (baker, barber and mail carrier pictures are in the occupations theme).",
+      "published": "yes"
+    },
+    {
+      "key": "en-K-012",
+      "fit": "none",
+      "types": [],
+      "differs": "No flag page exists. Build a U.S. flag outline (13 stripes, a box of 50 stars) to color beside a small colored model, the red stripes dotted at level 1; the library's 4th of July flag is a color picture, not line art.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-K-013",
+      "fit": "none",
+      "types": [],
+      "differs": "No civil-rights page exists. Build a picture of Martin Luther King Jr. speaking to a crowd and a drawing frame for children playing fairly (new art).",
+      "published": "n/a"
+    },
+    {
+      "key": "en-K-014",
+      "fit": "none",
+      "types": [],
+      "differs": "No fair-or-unfair page exists. Build picture pairs of the same moment (keeping the swing / taking turns, all the crackers / shared crackers, left out / everyone in) to circle, on the choice rows of G1-404.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-K-015",
+      "fit": "close",
+      "types": [
+        "G2-370"
+      ],
+      "differs": "G2-370 labels the continents on a flat world map, so land and sea are drawn, but no page colors land and water, and nothing shows the round Earth with the Americas facing the child. Far: a color-the-land-and-water face of the maps family (a round outline, a blue dot in each ocean for level 1, a star for the United States at level 3).",
+      "published": "yes"
+    },
+    {
+      "key": "en-K-016",
+      "fit": "close",
+      "types": [
+        "G1-379",
+        "G1-422"
+      ],
+      "differs": "G1-379 reads a picture key on a map drawn from above (house, tree, pond, bench, bridge ... on an island) and G1-422 draws the shortest way along town streets; there is no neighborhood map with a school, a park, a fire station and a store, and no task to circle or X places from the key. Far: a neighborhood face of the maps family (buildings as plan symbols, a dotted path to trace at level 1).",
+      "published": "yes"
+    },
+    {
+      "key": "en-K-017",
+      "fit": "exact",
+      "types": [
+        "K-210",
+        "K-206"
+      ],
+      "differs": "K-210 draws a line from each vehicle to Land, Water or Air; K-206 sorts things that fly. How people and goods get from place to place is the lesson's talk.",
+      "published": "yes"
+    },
+    {
+      "key": "en-K-018",
+      "fit": "close",
+      "types": [
+        "K-207"
+      ],
+      "differs": "K-207 sorts clothing into Summer and Winter (swimsuit, sandals, shorts / coat, mittens, scarf ...), the same idea as dressing for a place, but with season words, not a snowy mountain town and a beach town, and with no things to play with (sled, beach ball). Change: two place pictures as the groups, clothes and play items, no words.",
+      "published": "yes"
+    },
+    {
+      "key": "en-1-019",
+      "fit": "none",
+      "types": [],
+      "differs": "No rules-and-places page exists. Build four place pictures and four short rules with picture clues to match (the pair layout of K-205) and the 'We ___ so that ___.' frame.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-1-020",
+      "fit": "none",
+      "types": [],
+      "differs": "No good-citizen page exists. Build four short stories with two choices and a virtue word to circle; the story-and-circle layout of G2-254 is the closest.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-1-021",
+      "fit": "none",
+      "types": [],
+      "differs": "No leaders page exists. Build four leaders by role and four places to match (school, town, state, country), then 'I lead the whole country.' sentences to match.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-1-022",
+      "fit": "exact",
+      "types": [
+        "G1-385",
+        "G1-386",
+        "G1-387"
+      ],
+      "differs": "G1-385 orders family words from the oldest generation to the youngest; G1-386 reads clues to write each name on the family tree; G1-387 is the child's own tree template (the people who matter, any family shape).",
+      "published": "yes"
+    },
+    {
+      "key": "en-1-023",
+      "fit": "none",
+      "types": [],
+      "differs": "No primary-source page exists. Build the front and back of a sample postcard with who / when / where questions and three choices each (clues circled at level 1).",
+      "published": "n/a"
+    },
+    {
+      "key": "en-1-024",
+      "fit": "none",
+      "types": [],
+      "differs": "No interview page exists. Build question starters with picture clues, an answer line and a drawing box each, a name line for the person asked and the 'I learned that ___.' frame.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-1-025",
+      "fit": "none",
+      "types": [],
+      "differs": "No then-and-now sort exists. Build pictures and sentences in a child's voice to sort into Long ago and Today (a two-group cut-sort-glue like K-264).",
+      "published": "n/a"
+    },
+    {
+      "key": "en-1-026",
+      "fit": "exact",
+      "types": [
+        "G1-379",
+        "G1-528",
+        "G1-529",
+        "G1-530",
+        "G2-505"
+      ],
+      "differs": "G1-379 finds each key symbol on an island map and writes how many; G1-528 follows step directions on a grid; G1-529 writes the directions of a drawn route; G2-505 fixes the wrong arrow; G1-530 (not yet published in English) draws an own map with a key.",
+      "published": "some"
+    },
+    {
+      "key": "en-1-027",
+      "fit": "none",
+      "types": [],
+      "differs": "No community-types page exists. Build three community pictures (city, suburb, farm town) and sentences that each fit one, with the letter to write; the lettered windows of G1-398 are the closest layout.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-1-028",
+      "fit": "none",
+      "types": [],
+      "differs": "No land-and-work page exists. Build four landscapes and four workers to match on the pair layout of K-213 (a lumber worker, a combine and a ski teacher are new art).",
+      "published": "n/a"
+    },
+    {
+      "key": "en-1-029",
+      "fit": "close",
+      "types": [
+        "K-395",
+        "G1-413"
+      ],
+      "differs": "The spot-the-differences pages (K-395 five differences, G1-413 how many, some things gone) circle what changed between two pictures of one scene, the same move, but their changes are object edits, not what people did to a park, and there is no third picture after a clean-up day. Far: a park scene set (clean; litter, a broken branch and trampled flowers; clean again with new flowers).",
+      "published": "yes"
+    },
+    {
+      "key": "en-1-030",
+      "fit": "none",
+      "types": [],
+      "differs": "No national-symbols page exists. Build four symbol pictures with names to write from a box and a true sentence under each; the library has a flag and an eagle, but its Statue of Liberty picture is refused for naming and there is no Liberty Bell.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-1-031",
+      "fit": "none",
+      "types": [],
+      "differs": "No historical-sources page exists. Build four source pictures (a portrait, a quarter, a letter, a memorial) with the word to write and the president to circle.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-1-032",
+      "fit": "none",
+      "types": [],
+      "differs": "No Fourth of July reasons page exists. Build the 1776 picture and four sentences (two real reasons) to circle, with the 'The colonists wanted ___.' frame.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-1-033",
+      "fit": "none",
+      "types": [],
+      "differs": "No 'people who made life fairer' page exists. Build four portraits with one true sentence each and the question frames 'Why did you ___?' / 'How did you ___?'.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-1-034",
+      "fit": "none",
+      "types": [],
+      "differs": "No goods-and-services page exists. Build eight pictures to color as goods or services and a sample-town map with made-here / from-far labels; the two-group sort of K-212 is the closest layout.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-1-035",
+      "fit": "none",
+      "types": [],
+      "differs": "No jobs-and-pay page exists. Build four workers and four 'I am paid to ...' sentences to match, then what a family spends its pay on to circle.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-1-036",
+      "fit": "exact",
+      "types": [
+        "G2-472"
+      ],
+      "differs": "Circle the coins from the tray that pay each price exactly (any coins that make it are right): level 1 pennies, nickels and dimes, two to four coins a price, under 50 cents; level 2 quarters too, under a dollar. These cover the need's levels 2 and 3; there is no level with prices to 10 cents, the prices are cards, not a market stall, and 'which costs more' is not asked.",
+      "published": "yes"
+    },
+    {
+      "key": "en-1-037",
+      "fit": "none",
+      "types": [],
+      "differs": "No savings page exists. Build a goal picture with a price tag and a jar in five parts to color week by week, the number of weeks to write and a 'why the child saved' sentence to circle.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-2-038",
+      "fit": "close",
+      "types": [
+        "G1-531"
+      ],
+      "differs": "G1-531 My Friend and Me is the two-ring diagram the need asks for (only mine, only my friend's, both of us) with ideas to compare and two frames at level 3; its topics are likes and things, not class rules, and there are no 'I think our most important rule is ___ because ___.' frames or rule pictures. Change: a rules-and-reasons mode.",
+      "published": "no"
+    },
+    {
+      "key": "en-2-039",
+      "fit": "none",
+      "types": [],
+      "differs": "No laws page exists. Build four laws with a picture each and four lettered problems to write next to them (the lettered cause-effect matching of G3-501 level 1 is the closest layout) and the 'Our community needs this law because ___.' frame.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-2-040",
+      "fit": "none",
+      "types": [],
+      "differs": "No levels-of-government page exists. Build three nested boxes (a town in a state in the United States) and leader cards to write in each; the write-in-the-right-box sort of G3-395 is the closest layout.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-2-041",
+      "fit": "none",
+      "types": [],
+      "differs": "No government-services page exists. Build a town picture with six services and two businesses to circle and 'who uses it' lines; the scene-search layout of K-060 is the closest.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-2-042",
+      "fit": "exact",
+      "types": [
+        "G2-369",
+        "G2-371"
+      ],
+      "differs": "G2-369 writes the three missing direction letters on compass roses (the north tip given); G2-371 starts at a picture on a map with north at the top, looks the way the word says and circles the picture that lies that way. Giving a partner directions is the lesson's.",
+      "published": "yes"
+    },
+    {
+      "key": "en-2-043",
+      "fit": "exact",
+      "types": [
+        "G2-370"
+      ],
+      "differs": "Write each numbered continent's name on its line from the box. Finding them on the globe with the oceans between is the lesson's.",
+      "published": "yes"
+    },
+    {
+      "key": "en-2-044",
+      "fit": "none",
+      "types": [],
+      "differs": "No changing-places page exists. Build before-and-after picture pairs (sea ice, a desert after rain, a village become a city) with 'the land changed' / 'the way people live changed' to circle and a because line.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-2-045",
+      "fit": "none",
+      "types": [],
+      "differs": "No disaster-preparedness page exists. Build a before-and-after flood picture to circle the changes, a U.S. map with the Atlantic and Gulf coasts, and an emergency kit to fill.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-2-046",
+      "fit": "none",
+      "types": [],
+      "differs": "No winter-traditions page exists. Build five true sentences and five symbols to match (menorah, decorated tree, kinara, piñata, red envelope; most are new art) and a small world map for level 3.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-2-047",
+      "fit": "none",
+      "types": [],
+      "differs": "No countries-of-origin page exists; the maps family draws continents (G2-370), not Ecuador, Mexico, Vietnam or Colombia. Build a world map with the countries outlined, four labeled products and lines to the United States star.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-2-048",
+      "fit": "none",
+      "types": [],
+      "differs": "No imports and exports page exists. Build two arrows on a U.S. map and product cards to write in the right arrow; the write-in-the-right-box sort of G3-395 is the closest layout.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-2-049",
+      "fit": "none",
+      "types": [],
+      "differs": "No trade page exists. Build three islands with their needs in thought bubbles, arrows to draw and the 'Countries trade because ___.' frame.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-2-050",
+      "fit": "exact",
+      "types": [
+        "G2-362"
+      ],
+      "differs": "Read each family riddle (my mother's sister ...) and write the family word from the box; one word can fit more than one riddle. Placing relatives in the right generation of a tree is G1-386's, a grade lower.",
+      "published": "yes"
+    },
+    {
+      "key": "en-2-051",
+      "fit": "close",
+      "types": [
+        "G3-579"
+      ],
+      "differs": "G3-579 Two Texts on One Topic sorts fact strips into what one text, the other or both say on a two-circle diagram, the same skill at grade 3 with information texts about animals and the Moon, not two people's accounts of one day. Change: a two-accounts bank (a child and the librarian on the day the library opened) with the underline-in-two-colors task.",
+      "published": "yes"
+    },
+    {
+      "key": "en-2-052",
+      "fit": "none",
+      "types": [],
+      "differs": "No photograph-analysis page exists. Build the sample main-street photograph of about 1910 with a See / Think / Wonder chart.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-2-053",
+      "fit": "close",
+      "types": [
+        "G2-527"
+      ],
+      "differs": "G2-527 What Happens and Why asks for the effect of each cause in a story (grade 2); nothing gives a short history of a town with three possible reasons to choose from and the clue sentence to copy. Change: town-history texts with reason choices on the story-g2 factory.",
+      "published": "yes"
+    },
+    {
+      "key": "en-2-054",
+      "fit": "none",
+      "types": [],
+      "differs": "No tools-and-skills page exists. Build three producers with cards to color as tools or skills (a two-group sort like K-212) and the 'With a ___, the baker can make more bread because ___.' frame.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-2-055",
+      "fit": "close",
+      "types": [
+        "G2-291"
+      ],
+      "differs": "G2-291 adds up prices from tags into a total, the cost half of the page; nothing counts what 10 cups bring in at a price or asks for the lowest price that covers the costs. Change: a lemonade-stand mode (a shopping list, the cost total, the income at two or three prices).",
+      "published": "yes"
+    },
+    {
+      "key": "en-2-056",
+      "fit": "none",
+      "types": [],
+      "differs": "No banking page exists. Build three pictures (putting money in an account, interest on a statement, a loan for a roof) with the sentences to write under them.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-3-057",
+      "fit": "none",
+      "types": [],
+      "differs": "No civic-virtues page exists. Build five school situations, a word box of five virtues and a 'what a good citizen would do' line.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-3-058",
+      "fit": "none",
+      "types": [],
+      "differs": "No constitution page exists. Build the 'We the People' panel, three Bill of Rights freedoms to match to pictures and a 'We the students of Room ___' frame with numbered rules and reasons.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-3-059",
+      "fit": "none",
+      "types": [],
+      "differs": "No changing-laws page exists. Build three short texts and a Who / What they did / What changed table (the comparison chart of G3-578 is the closest layout).",
+      "published": "n/a"
+    },
+    {
+      "key": "en-3-060",
+      "fit": "exact",
+      "types": [
+        "G3-396"
+      ],
+      "differs": "Find each continent and ocean on the world map and write its number next to its name. The questions about the oceans that touch North America and the continent south of Europe are the teacher's.",
+      "published": "yes"
+    },
+    {
+      "key": "en-3-061",
+      "fit": "close",
+      "types": [
+        "G2-476",
+        "G3-493"
+      ],
+      "differs": "Measuring with an inch ruler exists (G2-476 whole inches from 0, G3-493 to the nearest quarter inch, objects on a ruler), but no map with a scale bar (1 inch = 1 mile), no distances between places and no town-map / state-map comparison. Far: a map-scale face of the maps family.",
+      "published": "yes"
+    },
+    {
+      "key": "en-3-062",
+      "fit": "close",
+      "types": [
+        "G1-530",
+        "G3-510"
+      ],
+      "differs": "G1-530 level 3 is a lettered and numbered grid plate with a compass rose and key rows to draw a map; G3-510 reads the square of a place on a lettered grid map. There is no title or scale box, no checklist of places and no grid squares to write for a partner. Change: the grid-map plate with a title, a scale box and a places checklist.",
+      "published": "some"
+    },
+    {
+      "key": "en-3-063",
+      "fit": "none",
+      "types": [],
+      "differs": "No population map page exists. Build a U.S. population dot map beside a physical map with four lettered places, many / few people to circle and a reason line.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-3-064",
+      "fit": "none",
+      "types": [],
+      "differs": "No settlement page exists. Build a sample-state map (river, harbor, forest, farmland, mine, a dry rocky area) with three town sites to rank and the resource each offers.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-3-065",
+      "fit": "none",
+      "types": [],
+      "differs": "No levels-of-government sort exists. Build a Local / State / National chart with leader and service cards to write in its column; the write-in-the-right-box sort of G3-395 is the closest layout.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-3-066",
+      "fit": "none",
+      "types": [],
+      "differs": "No branches-of-government page exists. Build the three-column drawing (Legislative, Executive, Judicial) with national and state cards to place.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-3-067",
+      "fit": "none",
+      "types": [],
+      "differs": "No taxes page exists. Build a flow diagram from people and businesses to a government box to three service boxes; the step chain with arrows of G3-511 is the closest layout.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-3-068",
+      "fit": "none",
+      "types": [],
+      "differs": "No ways-to-decide page exists. Build three short texts and a chart (Who decides, How, How people have a say); the comparison chart of G3-578 is the closest layout.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-3-069",
+      "fit": "close",
+      "types": [
+        "G2-562"
+      ],
+      "differs": "G2-562 Write a Friendly Letter gives the letter frame (greeting, body, closing) to a teacher, a classmate or family; nothing describes a community problem, lists solutions with a cost and a benefit, or addresses the city council. Change: a problem-solver page (map, solutions table) with a 'Dear City Council members' letter frame.",
+      "published": "yes"
+    },
+    {
+      "key": "en-3-070",
+      "fit": "none",
+      "types": [],
+      "differs": "No primary / secondary source sort exists. Build eight source pictures with a one-line description and two columns to write them in; the write-in-the-right-box sort of G3-395 is the closest layout.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-3-071",
+      "fit": "none",
+      "types": [],
+      "differs": "No timeline page exists. Build two parallel timelines from 1860 to 1940 marked every ten years and dated event cards to write in, with lines between events within five years; a number line marked in tens (the number-line tasks) is the closest layout.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-3-072",
+      "fit": "none",
+      "types": [],
+      "differs": "No then-and-now chart exists. Build four rows (getting around, lighting, messages, school) with a text and a photograph from about 1900 and a Today column to fill (the chart of G3-578 is the closest layout).",
+      "published": "n/a"
+    },
+    {
+      "key": "en-3-073",
+      "fit": "none",
+      "types": [],
+      "differs": "No economic-resources sort exists. Build the bakery picture with nine resource cards and Natural / Human / Capital columns; the write-in-the-right-box sort of G3-395 is the closest layout.",
+      "published": "n/a"
+    },
+    {
+      "key": "en-3-074",
+      "fit": "close",
+      "types": [
+        "G3-501"
+      ],
+      "differs": "G3-501 level 1 is this very task, four causes and four mixed effects with the letter of each effect to write, but on grade 3 information texts (lighthouses, the Pony Express, blue whales ...), not a town's history, and there is no 'In our town, ___ happened because ___.' line. Change: town-history texts in the same bank.",
+      "published": "yes"
+    }
+  ]
+}

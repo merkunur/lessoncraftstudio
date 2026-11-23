@@ -393,7 +393,8 @@
   },
   "plants": {
     "full": "Navngive plantens dele (rod, stængel, blad, blomst, frugt og frø), vide hvad hver del gør, hvad en plante har brug for, og hvordan et frø bliver til en plante.",
-    "short": "Plantens dele, hvad de gør, og hvad en plante har brug for"
+    "short": "Plantens dele, hvad de gør, og hvad en plante har brug for",
+    "levelSetShort": "Plantens dele og hvad den har brug for."
   },
   "animal-life-cycles": {
     "full": "Følge sommerfuglens og frøens udvikling fra æg til voksent dyr, navngive stadierne, sammenligne de to dyr og se, hvad der kommer bagefter.",

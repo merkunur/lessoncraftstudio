@@ -345,7 +345,8 @@
   },
   "human-body": {
     "full": "El cuerpo humano para preescolar y primer grado: nombrar las partes del cuerpo, contarlas, colorear con una leyenda y encontrar la parte que falta.",
-    "short": "Partes del cuerpo humano: nombrar, contar y colorear"
+    "short": "Partes del cuerpo humano: nombrar, contar y colorear",
+    "levelSetShort": "Partes del cuerpo: nombrar, contar y colorear."
   },
   "five-senses": {
     "full": "Los cinco sentidos para preescolar y primer grado: unir cada dibujo con su sentido, clasificar, nombrar los órganos de los sentidos y escribir oraciones.",

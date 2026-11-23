@@ -1,0 +1,18 @@
+{
+ "id": "wave-nsr-no",
+ "seedEpoch": 1,
+ "locales": [
+  "no"
+ ],
+ "themes": [],
+ "difficulties": [
+  2
+ ],
+ "variantsPerType": 5,
+ "types": [
+  "K-213"
+ ],
+ "themesPerType": 1,
+ "themeOverrides": {},
+ "_note": "2026-11-23 K-213 retired pairs; G2-379 en sunscreen reason: pinned re-generation of the live published pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file."
+}

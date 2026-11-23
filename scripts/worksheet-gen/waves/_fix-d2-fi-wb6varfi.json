@@ -1,0 +1,26 @@
+{
+ "id": "wave-b6var-fi",
+ "seedEpoch": 1,
+ "locales": [
+  "fi"
+ ],
+ "themes": [
+  "animals"
+ ],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G1-403"
+ ],
+ "themeOverrides": {},
+ "_refused": {
+  "G2-384": "G2-377: type refused in fi: no national joined script (OPS 2014 removed kaunokirjoitus and no Playwrite FI exists)",
+  "G2-385": "G2-377: type refused in fi: no national joined script (OPS 2014 removed kaunokirjoitus and no Playwrite FI exists)",
+  "G2-386": "G2-377: type refused in fi: no national joined script (OPS 2014 removed kaunokirjoitus and no Playwrite FI exists)",
+  "G2-387": "G2-377: type refused in fi: no national joined script (OPS 2014 removed kaunokirjoitus and no Playwrite FI exists)",
+  "G3-401": "G2-377: type refused in fi: no national joined script (OPS 2014 removed kaunokirjoitus and no Playwrite FI exists)"
+ },
+ "_note": "2026-11-23 Stage D-2 fix round: pinned re-generation of the live published pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file."
+}

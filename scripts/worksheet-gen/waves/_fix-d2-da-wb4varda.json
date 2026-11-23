@@ -1,0 +1,31 @@
+{
+ "id": "wave-b4var-da",
+ "seedEpoch": 1,
+ "locales": [
+  "da"
+ ],
+ "themes": [
+  "vehicles",
+  "zoo animals"
+ ],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "G1-359",
+  "G1-358",
+  "G1-363",
+  "G1-364",
+  "G1-357",
+  "G2-348",
+  "G1-356",
+  "K-366"
+ ],
+ "themeOverrides": {},
+ "_refused": {
+  "K-367": "K-357 da: the da panel REFUSES the \"color\" face (refuse: color)",
+  "G2-349": "G1-350: da REFUSES the plural face (refuse.plural: the record, never a filler)"
+ },
+ "_note": "2026-11-23 Stage D-2 fix round: pinned re-generation of the live published pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file."
+}

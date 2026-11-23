@@ -180,7 +180,11 @@ module.exports = {
 
   /** The whole build over an INJECTED bank {global, block} (the gate's poison seam). */
   _buildWith(bankData, { difficulty, locale }, ctx) {
-    const d = this.difficulty[difficulty];
+    // A language whose bins cannot fill a level as written gives that level its own counts (`levelOverrides` of its bank
+    // block, keyed by type id; 2026-11-23: US curbside metal is the can alone once the bolt, the nut and the pot are
+    // retired, so English base level 3 holds 9 items with one in Metal). Every other language reads the level unchanged.
+    const lo = (((bankData && bankData.block && bankData.block.levelOverrides) || {})[this.id] || {})[difficulty];
+    const d = lo ? Object.assign({}, this.difficulty[difficulty], lo) : this.difficulty[difficulty];
     if (!d) throw new Error('K-357: no difficulty ' + difficulty);
     const loc = (locale || 'en').slice(0, 2);
     if (d.layout) return this._buildFace(bankData, d, loc, ctx);      // Phase 2 faces; the base path below is untouched

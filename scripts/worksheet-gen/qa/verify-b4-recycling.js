@@ -498,6 +498,12 @@ async function renderWith(page, type, { difficulty, locale, baseName, strings })
   return { lints: out.qa.lints, verify: out.qa.verify, m, png: out.pngPath, html: out.html };
 }
 
+/** The level a page of `type` is built with in a language: the config, with the language's `levelOverrides` (2026-11-23,
+ *  US curbside: English base level 3 holds 9 items, one in Metal). The gate checks the page against what it was asked. */
+function effLevel(type, lv, block) {
+  const lo = (((block && block.levelOverrides) || {})[type.id] || {})[lv];
+  return lo ? Object.assign({}, type.difficulty[lv], lo) : type.difficulty[lv];
+}
 function nodeGate(name, r, block, loc, d) {
   const IDS = byId(GLOBAL);
   const per = {};
@@ -898,7 +904,7 @@ async function main() {
         }
         // a declared refusal that suddenly builds means the list has rotted — shrink it deliberately
         ok(!declared, `d${d} ${loc}: declared a LEVEL_REFUSALS refusal but it BUILDS — drop the entry`);
-        const s = assertRender(`d${d} ${loc}`, r, TYPE.difficulty[d], { block: mod[loc], loc, oneLine: loc === 'en' });
+        const s = assertRender(`d${d} ${loc}`, r, effLevel(TYPE, d, mod[loc]), { block: mod[loc], loc, oneLine: loc === 'en' });
         pngs.push(r.png);
         console.log(`render d${d} ${loc}: verify ${r.verify.length} lints ${r.lints.length} icons ${s.minIcon} bins ${r.m.slots.length} x ${s.binW} zone ${s.zone} stack ${s.stack} body ${s.body} slack-below ${s.slack} (zone at 722 ${s.zone722} / 677 ${s.zone677}; fits ${r.m.stacks[0].fits} / ${r.m.stacks[1].fits}) pills ${r.m.pills.map((p) => p.w.toFixed(1)).join('/')}`);
         if (d === 2) {
@@ -919,7 +925,7 @@ async function main() {
     const LONG = { title: 'Mülltrennung: Wohin kommt es, wenn es leer ist? Zeichne eine Linie zur', instruction: 'Jedes Ding ist leer oder aufgebraucht. Zeichne von jedem Bild eine Linie zu der Tonne, in die es gehört: Papier, Verpackung, Bio, Glas oder Rest. Eine Linie pro Bild.'.slice(0, 150) };
     for (const d of [1, 2, 3]) {
       const r = await renderWith(page, TYPE, { difficulty: d, locale: 'en', baseName: `K-357-gate-d${d}-en-longchrome`, strings: LONG });
-      const s = assertRender(`d${d} long chrome`, r, TYPE.difficulty[d], { block: en, loc: 'en' });
+      const s = assertRender(`d${d} long chrome`, r, effLevel(TYPE, d, en), { block: en, loc: 'en' });
       pngs.push(r.png);
       console.log(`render d${d} long chrome (title ${[...LONG.title].length} / instruction ${[...LONG.instruction].length} chars): verify ${r.verify.length} lints ${r.lints.length} body ${s.body} zone ${s.zone}`);
     }

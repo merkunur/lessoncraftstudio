@@ -1,0 +1,23 @@
+{
+ "id": "wave-b4var-en",
+ "seedEpoch": 1,
+ "locales": [
+  "en"
+ ],
+ "themes": [
+  "vehicles",
+  "zoo animals"
+ ],
+ "themesPerType": 1,
+ "difficulties": [
+  2
+ ],
+ "types": [
+  "K-366"
+ ],
+ "themeOverrides": {},
+ "_refused": {
+  "K-367": "K-357 en: the en panel REFUSES the \"color\" face (refuse: color)"
+ },
+ "_note": "2026-11-01 guessability fix: pinned re-generation of the live published pages; id kept so deckIdFor reproduces the live basenames. Never prune with this file."
+}

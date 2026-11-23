@@ -54,6 +54,10 @@
 'use strict';
 const RECYCLING = {
   en: {
+    // 2026-11-23 (D-3 notes review): US curbside recycling takes no sunscreen tube, glue bottle, toothbrush, comb, plastic
+    // spoon or bolt; they are retired on the bin faces K-357/K-366 in English (recycling.json retiredIn), which leaves the can
+    // as the one metal item, so base level 3 holds 9 items with one in Metal.
+    levelOverrides: { 'K-357': { 3: { items: 9, perBinMin: 1 } } },
     bins: [
       { key: 'paper', label: 'Paper', longLabel: 'Paper and cardboard', color: null, colorWord: null, materials: ['paper', 'cardboard'], packagingOnly: false },
       { key: 'plastic', label: 'Plastic', longLabel: 'Plastic', color: null, colorWord: null, materials: ['plastic'], packagingOnly: false },

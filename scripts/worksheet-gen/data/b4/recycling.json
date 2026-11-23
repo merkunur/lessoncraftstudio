@@ -318,7 +318,11 @@
       "packaging": true,
       "family": "sunscreen",
       "picOpened": true,
-      "note": "a sunscreen tube"
+      "note": "a sunscreen tube",
+      "retiredIn": [
+        "K-357:en",
+        "K-366:en"
+      ]
     },
     {
       "id": "glue",
@@ -329,7 +333,11 @@
       "packaging": true,
       "family": "glue",
       "picOpened": true,
-      "note": "a squeeze glue bottle"
+      "note": "a squeeze glue bottle",
+      "retiredIn": [
+        "K-357:en",
+        "K-366:en"
+      ]
     },
     {
       "id": "toothbrush",
@@ -340,7 +348,11 @@
       "packaging": false,
       "family": "toothbrush",
       "picOpened": true,
-      "note": "a bare blue toothbrush (non-packaging: residual bins take it via route)"
+      "note": "a bare blue toothbrush (non-packaging: residual bins take it via route)",
+      "retiredIn": [
+        "K-357:en",
+        "K-366:en"
+      ]
     },
     {
       "id": "bucket",
@@ -382,7 +394,11 @@
       "packaging": false,
       "family": "comb",
       "picOpened": true,
-      "note": "an orange plastic comb"
+      "note": "an orange plastic comb",
+      "retiredIn": [
+        "K-357:en",
+        "K-366:en"
+      ]
     },
     {
       "id": "spoon",
@@ -393,7 +409,11 @@
       "packaging": false,
       "family": "spoon",
       "picOpened": true,
-      "note": "a purple plastic spoon"
+      "note": "a purple plastic spoon",
+      "retiredIn": [
+        "K-357:en",
+        "K-366:en"
+      ]
     },
     {
       "id": "can",
@@ -432,7 +452,11 @@
       "packaging": false,
       "family": "bolt",
       "picOpened": true,
-      "note": "a brass bolt"
+      "note": "a brass bolt",
+      "retiredIn": [
+        "K-357:en",
+        "K-366:en"
+      ]
     },
     {
       "id": "nut",

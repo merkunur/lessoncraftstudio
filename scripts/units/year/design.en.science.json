@@ -1,0 +1,1229 @@
+{
+  "pacing": {
+    "teachingWeeks": { "K": 28, "1": 28, "2": 28, "3": 26 },
+    "daysPerWeek": { "K": 3, "1": 3, "2": 3, "3": 3 },
+    "rule": "Three science sessions a week in every grade, about 30 minutes in Kindergarten and 35 to 45 minutes in Grades 1 to 3 (roughly 90 to 135 minutes a week), which is what most US elementary schedules give science and what an NGSS investigation needs: one session to set up and observe, one to test and record, one to talk about what the class found. A lesson is 2 sessions (always in Kindergarten, whose children observe and draw in short bursts) and 3 only when an investigation needs a setup day and a later reading (seeds growing, ice melting, a pendulum timed several times) or an engineering build and test. Every unit adds 3 sessions: an opening session with a phenomenon or question, a review session and a check session. The year-round observations run in the morning meeting, not in these sessions: the daily weather check on the Calendar Wall (K-2), the sunrise and sunset times read on the first school day of each month (Grade 1), and the daily high temperature in degrees Fahrenheit (Grade 3)."
+  },
+  "K": {
+    "nonTeachingWeeks": [
+      { "weeks": "1-2", "what": "Routines and safety: how scientists look, touch and listen with care, how to carry water and handle living things, where the science tools live; the morning weather check begins on the Calendar Wall. No science unit yet." },
+      { "weeks": "10", "what": "End of the first quarter: report-card checks and family conferences; science time finishes drawings and make-up checks." },
+      { "weeks": "17", "what": "The short week before winter break: no new science; children share their drawings and revisit the observation table." },
+      { "weeks": "20", "what": "Middle-of-year benchmark window in reading and math, which takes the science block." },
+      { "weeks": "28", "what": "End of the third quarter: report-card checks and spring conferences." },
+      { "weeks": "34", "what": "End-of-year benchmark window in reading and math, which takes the science block." },
+      { "weeks": "36", "what": "Last week of school: a science share for families, taking the bean plants home, and cleaning out the plant and animal stations." }
+    ],
+    "units": [
+      {
+        "id": "new:k-senses-and-body",
+        "title": "My Senses and My Body",
+        "why": "Kindergarten science starts with the tools every scientist carries, five senses to observe with, and a body that needs food, water and air like every living thing.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "My five senses",
+            "objective": "Children observe real objects one sense at a time (ring a bell, smell a lemon, feel a feather and sandpaper, look at a picture book), name the body part they used, and tell how smell and sight help people find good food.",
+            "standard": "K-LS1-1",
+            "days": 2,
+            "source": "point:K:five-senses"
+          },
+          {
+            "new": true,
+            "title": "Parts of my body",
+            "objective": "Children point to and name the parts of their own body, count which parts come in twos, and tell which parts help them eat, drink and breathe.",
+            "standard": "K-LS1-1",
+            "days": 2,
+            "tool": "Picture Word Wall",
+            "source": "point:K:human-body"
+          },
+          {
+            "new": true,
+            "title": "What does a body need to live?",
+            "objective": "Children sort picture cards into what a person needs to stay alive (food, water, air) and what is nice to have (a toy, a TV), and tell why each need matters.",
+            "standard": "K-LS1-1",
+            "days": 2,
+            "source": "new",
+            "page": "Needs page: eight pictures (an apple, a glass of water, a child taking a deep breath outside, a sandwich, a ball, a TV, a bike, a teddy bear). The child circles every thing a body needs to live and crosses out the rest. Level 1: three needs and three wants with one-word picture labels; level 2: all eight pictures, two of them food; level 3: the child also draws one more food or drink a body needs."
+          },
+          {
+            "new": true,
+            "title": "Living or not living?",
+            "objective": "Children observe a class plant, a bean seed, a worm or class pet, a rock, a cup of water and a toy, sort them with the questions 'Does it grow? Does it need food or water?', and learn that a seed is living while a rock and water from nature are not.",
+            "standard": "K-LS1-1",
+            "days": 2,
+            "tool": "Sorting Hoops",
+            "source": "point:K:living-nonliving"
+          }
+        ]
+      },
+      {
+        "id": "new:k-weather-and-seasons",
+        "title": "Weather and the Seasons",
+        "why": "Fall weather changes from day to day, so children learn to observe it, record it and find the pattern of the seasons.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Weather words and our weather chart",
+            "objective": "Children look outside each morning, choose the weather symbol for the day, decide from the thermometer whether it is cold, warm or hot, and keep a week of weather on the class chart.",
+            "standard": "K-ESS2-1",
+            "days": 2,
+            "tool": "Calendar Wall",
+            "source": "point:K:weather-temperature"
+          },
+          {
+            "new": true,
+            "title": "Wind watch",
+            "objective": "Children hold a crepe-paper streamer outside each day, watch whether it hangs still, flutters or flies straight out, and record calm, breezy or windy for the week.",
+            "standard": "K-ESS2-1",
+            "days": 2,
+            "source": "new",
+            "page": "Wind watch page: five day boxes, each with three streamer pictures (hanging straight down, fluttering, flying straight out). The child circles the one the class streamer matched that day and draws a flag or a tree beside it. Level 1: three days, circle only; level 2: five days; level 3: the child also circles the windiest day of the week and the calmest."
+          },
+          {
+            "new": true,
+            "title": "Rain gauge: how much rain fell?",
+            "objective": "Children set a clear straight-sided cup with tape marks outside, look at how high the rainwater reached after a rainy day, and compare two rainy days: more, less or the same.",
+            "standard": "K-ESS2-1",
+            "days": 2,
+            "source": "new",
+            "page": "Rain gauge page: clear cups drawn with tape marks. After each rainy day the child colors the water up to the mark the class saw, then circles the day with more rain. Level 1: two cups, color up to a marked line; level 2: three rainy days, color and circle the most; level 3: the child counts the tape marks on each cup and writes the number. The page can be finished across two weeks while the class waits for rain."
+          },
+          {
+            "new": true,
+            "title": "The four seasons",
+            "objective": "Children sort pictures and clothes by season, put the four seasons in order on the season wheel, and draw a schoolyard tree that loses its leaves as it looks this fall, to compare with winter and spring.",
+            "standard": "K-ESS2-1",
+            "days": 2,
+            "source": "point:K:seasons"
+          },
+          {
+            "new": true,
+            "title": "Getting ready for a storm",
+            "objective": "Children listen to a short weather forecast, tell what the class should wear or bring tomorrow, and practice what to do when thunder roars or the tornado drill sounds.",
+            "standard": "K-ESS3-2",
+            "days": 2,
+            "source": "new",
+            "page": "Storm-ready page: four weather pictures (a thunderstorm, a tornado warning, a snowstorm, a very hot day), each with three choices drawn beside it. The child circles the safe choice (go indoors; go to the safe room; stay inside or wear a warm coat and mittens; drink water and rest in the shade). Level 1: two weather pictures; level 2: all four; level 3: the child also draws what tomorrow's forecast says to bring (an umbrella, a coat, a hat)."
+          }
+        ]
+      },
+      {
+        "id": "new:k-animals-and-homes",
+        "title": "Animals and Their Homes",
+        "why": "Late fall is when children see squirrels storing nuts and birds leaving, the right moment to ask what animals need and why they live where they do.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Where animals live",
+            "objective": "Children sort animals into pets, farm animals and wild animals and match each animal to the home where it finds what it needs.",
+            "standard": "K-ESS3-1",
+            "days": 2,
+            "source": "point:K:animal-groups-homes"
+          },
+          {
+            "new": true,
+            "title": "What do animals eat?",
+            "objective": "Children watch a class animal or birds at a feeder, record what it eats, and sort animals into plant eaters, meat eaters and animals that eat both, finding that every animal needs food.",
+            "standard": "K-LS1-1",
+            "days": 2,
+            "source": "new",
+            "page": "Animal food page: a row of animals (rabbit, cow, lion, frog, bear, robin), each with three small food pictures beside it (grass, leaves, a carrot, meat, bugs, berries, fish, worms). The child circles every food that animal eats; for the bear and the robin two circles are right. Level 1: four animals with one right food each; level 2: all six animals; level 3: the child draws what the class animal or the feeder birds ate this week."
+          },
+          {
+            "new": true,
+            "title": "Build a home for an animal",
+            "objective": "Children build a model of a place where a chosen animal could live, with food, water and a place to hide, and tell why the animal would live there.",
+            "standard": "K-ESS3-1",
+            "days": 2,
+            "source": "new",
+            "page": "Habitat model page: a big empty box (the place) and a strip of cut-out pictures (a pond, a tree, grass, nuts, bugs, a log, a burrow, a rock). The child picks an animal card, glues in what that animal needs and draws the animal in its place; a shoebox model is built from the same plan. Level 1: three cut-outs that all fit one animal (a frog); level 2: eight cut-outs, two of which do not fit; level 3: the child draws the place without cut-outs and labels it with the words food, water, home."
+          },
+          {
+            "new": true,
+            "title": "Animals change their world",
+            "objective": "Children look for signs that animals change the land to meet their needs (an ant hill, a bird's nest, a squirrel's hole, a beaver dam in a photo) and tell what each animal changed and why.",
+            "standard": "K-ESS2-2",
+            "days": 2,
+            "source": "new",
+            "page": "Change-the-land page: four before-and-after picture pairs (bare ground and an ant hill, a bare branch and a nest, a stream and a beaver dam, a lawn and a squirrel's hole with an acorn in it). The child draws a line from each after picture to the animal that made the change. Level 1: two pairs; level 2: four pairs; level 3: the child draws one change seen in the schoolyard and the animal that made it."
+          }
+        ]
+      },
+      {
+        "id": "new:k-pushes-and-pulls",
+        "title": "Pushes and Pulls",
+        "why": "Winter keeps children indoors, where balls, ramps and blocks let them test how a push or a pull changes the way things move.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Push or pull?",
+            "objective": "Children push and pull classroom things (a wagon, a toy car, a drawer, a chair) and sort pictures of everyday actions into pushes and pulls.",
+            "standard": "K-PS2-1",
+            "days": 2,
+            "source": "new",
+            "page": "Push-or-pull page: eight action pictures (kicking a ball, pulling a wagon, pushing a stroller, pulling a rope in tug-of-war, pulling a weed, pushing a swing, opening a drawer, pushing a shopping cart). The child draws a line from each to the push hand or the pull hand. Level 1: four pictures; level 2: all eight; level 3: the child draws one push and one pull they did today."
+          },
+          {
+            "new": true,
+            "title": "A harder push, a farther roll",
+            "objective": "Children roll a ball across the floor with a gentle push and a hard push, mark where it stops with tape, and find that a harder push makes it roll faster and farther.",
+            "standard": "K-PS2-1",
+            "days": 2,
+            "source": "new",
+            "page": "Push investigation page: a hallway strip with a start line. The child colors a short arrow for the gentle push and a long arrow for the hard push, draws the ball where it stopped each time, and circles the push that sent it farther. Level 1: two tests, draw only; level 2: three tests (gentle, medium, hard); level 3: the child counts the floor tiles to each stop and writes the numbers."
+          },
+          {
+            "new": true,
+            "title": "Change its direction",
+            "objective": "Children roll a ball toward a wall, a block and a friend's hand, and see that a push from a different direction turns the ball or sends it back.",
+            "standard": "K-PS2-1",
+            "days": 2,
+            "source": "new",
+            "page": "Direction page: four pictures of a rolling ball meeting something (a wall, a bat, a friend's hand, a block set at a slant). The child shows which way the ball goes after the push. Level 1: two pictures, circle one of two arrows; level 2: four pictures, draw the arrow; level 3: the child draws a ball game of their own with arrows for each push."
+          },
+          {
+            "new": true,
+            "title": "Make the ball hit the target",
+            "objective": "Children build a ramp from a board and blocks, roll a ball down it to knock over a paper cup, and change the ramp's height or direction until their design works.",
+            "standard": "K-PS2-2",
+            "days": 2,
+            "source": "new",
+            "page": "Ramp design page: the child draws the ramp they built, circles 'it worked' or 'try again', and shows the change they made (a higher ramp, a turned ramp, a wall of blocks). Level 1: circle pictures of the changes; level 2: draw one change; level 3: draw two tries and circle the one that hit the cup."
+          },
+          {
+            "new": true,
+            "title": "Which ramp works better?",
+            "objective": "Children test two ramps (a low one and a high one) three times each, count how many blocks the ball knocks down, and tell which ramp works better and why.",
+            "standard": "K-2-ETS1-3",
+            "days": 2,
+            "source": "new",
+            "page": "Compare page: two ramp pictures, each with three tally boxes. The child marks how many blocks fell on each try and circles the ramp that did better. Level 1: one try each, color the blocks that fell; level 2: three tries each with tally marks; level 3: the child writes each ramp's total and draws one way to make the weaker ramp better."
+          }
+        ]
+      },
+      {
+        "id": "new:k-sink-float-and-boats",
+        "title": "Sink, Float and Build a Boat",
+        "why": "Water play becomes an engineering problem: children find out which things float, then shape a boat that carries the class bear across the water.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Sink or float? Test it",
+            "objective": "Children test classroom things in a tub of water (a cork, a wooden block, a plastic lid, an apple, a key, a metal spoon, a rock, a marble), sort them into floaters and sinkers, and use what they find to choose materials for a boat for the class bear.",
+            "standard": "K-2-ETS1-1",
+            "days": 2,
+            "source": "point:K:sink-float"
+          },
+          {
+            "new": true,
+            "title": "Draw a boat for the bear",
+            "objective": "Children draw a boat that could carry the class bear across the water table, choose a shape and a material that floats, and tell how the boat's shape will keep the bear dry.",
+            "standard": "K-2-ETS1-2",
+            "days": 2,
+            "source": "new",
+            "page": "Boat plan page: the bear in a box at the top, a big drawing space, and a strip of material pictures (foil, a plastic tray, craft sticks, a sponge, a paper towel). The child circles the materials that floated in the test and draws the boat. Level 1: circle materials and color a ready-drawn boat outline; level 2: draw the boat; level 3: draw the boat and add a one-word label (sides, flat, tall)."
+          },
+          {
+            "new": true,
+            "title": "Build and test our boats",
+            "objective": "Children build their boat from foil, plastic trays and craft sticks, test it with the bear in the water table, and draw what happened and one change that would help.",
+            "standard": "K-2-ETS1-2",
+            "days": 2,
+            "source": "new",
+            "page": "Boat test page: two boxes, 'my boat' and 'after the test'. The child draws the boat in the water with the bear, circles a dry bear or a wet bear, and draws one change (taller sides, a flatter bottom). Level 1: circle pictures; level 2: draw the test; level 3: draw the test and the changed boat."
+          },
+          {
+            "new": true,
+            "title": "Which boat carried more?",
+            "objective": "Children add pennies one at a time to two different foil boats, count how many each held before it sank, and tell which boat shape worked better.",
+            "standard": "K-2-ETS1-3",
+            "days": 2,
+            "source": "new",
+            "page": "Penny test page: a flat raft and a boat with sides, each with a row of penny circles to color one by one. The child colors one circle for each penny the boat held and circles the boat that held more. Level 1: up to 10 pennies; level 2: up to 20; level 3: the child writes both numbers and draws the shape they would build next."
+          }
+        ]
+      },
+      {
+        "id": "new:k-plants-and-animals-grow",
+        "title": "Plants and Animals Grow",
+        "why": "Spring is when seeds sprout and animals have young, so children can watch living things grow and see what they need.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "What plants need to grow",
+            "objective": "Children care for two cups of grass seedlings, one in a sunny window and one in a dark cupboard (and later one watered and one left dry), and draw them over two weeks, finding that the plant without light turns pale and weak and the dry one wilts.",
+            "standard": "K-LS1-1",
+            "days": 2,
+            "source": "point:K:plant-needs"
+          },
+          {
+            "new": true,
+            "title": "Plant a seed and watch it grow",
+            "objective": "Children plant a bean seed against the side of a clear cup, water it, and draw it every few days as roots, a stem and leaves come out, seeing that a living seed starts to grow when it gets water.",
+            "standard": "K-LS1-1",
+            "days": 2,
+            "source": "new",
+            "page": "Seed journal: a strip of four boxes, each with a dashed outline of the clear cup and a space for the day. The child draws what the bean looks like each time (seed, root, shoot, leaves). Level 1: four boxes, draw inside the cup outline; level 2: four boxes plus circle 'taller' or 'the same' each time; level 3: the child also counts the leaves and writes the number."
+          },
+          {
+            "new": true,
+            "title": "Fruits and vegetables: food from plants",
+            "objective": "Children look at, touch and smell real fruits and vegetables, sort them into the two groups the kitchen uses, and find that every one of them comes from a plant.",
+            "standard": "K-LS1-1",
+            "days": 2,
+            "source": "point:K:fruit-vegetable"
+          },
+          {
+            "new": true,
+            "title": "Animal babies and what they need",
+            "objective": "Children match grown-up animals to their babies and tell what each baby needs to live: a calf drinks its mother's milk, a chick pecks at seeds and bugs, a caterpillar eats leaves.",
+            "standard": "K-LS1-1",
+            "days": 2,
+            "source": "point:K:animal-babies"
+          }
+        ]
+      },
+      {
+        "id": "new:k-sunlight-and-earth-care",
+        "title": "Sunlight and Caring for Our Earth",
+        "why": "Sunny spring days let children feel what sunlight does to the ground, and Earth Day in April is the time to look after the land, water and living things around school.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Day and night",
+            "objective": "Children sort pictures of the day and the night, tell that the Sun lights and warms the day, and look for the Moon in the morning sky to find that it can be seen in the daytime too.",
+            "standard": "K-PS3-1",
+            "days": 2,
+            "source": "point:K:day-night"
+          },
+          {
+            "new": true,
+            "title": "Sun or shade: which is warmer?",
+            "objective": "Children put cups of water, rocks and ice cubes outside, one of each in the sun and one in the shade, feel them an hour later, and find that sunlight warms what it shines on.",
+            "standard": "K-PS3-1",
+            "days": 2,
+            "source": "new",
+            "page": "Sun-and-shade page: pairs of pictures (a cup of water, a rock, sand, an ice cube), one in the sun and one in the shade. After feeling the real ones the child colors the warmer one red and the cooler one blue. Level 1: two pairs; level 2: four pairs; level 3: the child also colors the red line on the thermometer in each cup as the teacher reads it and circles the warmer one."
+          },
+          {
+            "new": true,
+            "title": "Make shade for an ice cube",
+            "objective": "Children build a small shade from paper, cloth, craft sticks and cups to keep an ice cube from melting in the sun, then compare which shade kept its ice cube the longest.",
+            "standard": "K-PS3-2",
+            "days": 2,
+            "source": "new",
+            "page": "Shade design page: the child circles the materials they will use, draws their shade over the ice cube, and after the test colors how much ice was left under each shade (all, half, none). Level 1: circle materials and color one result; level 2: draw the shade and compare two shades; level 3: draw a better shade for next time."
+          },
+          {
+            "new": true,
+            "title": "Natural or made by people?",
+            "objective": "Children sort real things (a rock, a leaf, a pinecone, a cup, a crayon, a paper bag) into natural and made by people, and tell how people change the land to get what they need, such as cutting trees for wood and paper.",
+            "standard": "K-ESS2-2",
+            "days": 2,
+            "source": "point:K:natural-made"
+          },
+          {
+            "new": true,
+            "title": "Recycle, reuse and keep Earth clean",
+            "objective": "Children sort clean empty classroom things into the recycling and trash bins, find one thing they can use again, and help pick up litter around the school with gloves for Earth Day.",
+            "standard": "K-ESS3-3",
+            "days": 2,
+            "source": "point:K:recycling"
+          }
+        ]
+      }
+    ],
+    "totalDays": 83,
+    "leftOut": [],
+    "notCovered": []
+  },
+  "1": {
+    "nonTeachingWeeks": [
+      { "weeks": "1-2", "what": "Routines and safety: the science notebook, the hand lens, carrying water, handling living things; the daily weather check begins and the class reads the first sunrise and sunset times of the year." },
+      { "weeks": "10", "what": "End of the first quarter: report-card checks and family conferences; science time finishes notebooks and make-up checks." },
+      { "weeks": "17", "what": "The short week before winter break: no new science; children share their notebooks and the class reads the December sunrise and sunset times." },
+      { "weeks": "20", "what": "Middle-of-year benchmark window in reading and math, which takes the science block." },
+      { "weeks": "28", "what": "End of the third quarter: report-card checks and spring conferences." },
+      { "weeks": "34", "what": "End-of-year benchmark window in reading and math, which takes the science block." },
+      { "weeks": "36", "what": "Last week of school: a raft regatta and science share for families, and taking the seedlings home." }
+    ],
+    "units": [
+      {
+        "id": "new:g1-sound",
+        "title": "Sound: Vibrations All Around",
+        "why": "First graders start the year using their ears as scientists and discover that every sound comes from something vibrating.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Our five senses",
+            "objective": "Children sort things by the sense they use for each, name the body part that does it, and write 'I can hear ...' sentences about sounds they find in the classroom.",
+            "standard": "1-LS1-1",
+            "days": 2,
+            "source": "point:1:five-senses"
+          },
+          {
+            "new": true,
+            "title": "Feel the buzz: vibrations make sound",
+            "objective": "Children pluck rubber bands stretched over an open box, tap a plastic-wrap drum with rice on it, twang a ruler on a desk and hum with fingers on their throat, and record that each sound came with something shaking.",
+            "standard": "1-PS4-1",
+            "days": 3,
+            "source": "new",
+            "page": "Sound stations page: four station pictures (rubber-band box, drum with rice, ruler on a desk, humming with a hand on the throat). At each station the child circles 'I felt it shake' or 'I saw it shake' and draws the part that moved. Level 1: three stations, circle only; level 2: four stations, draw the moving part; level 3: one sentence: 'The sound came when the ___ shook.'"
+          },
+          {
+            "new": true,
+            "title": "Sound makes things move",
+            "objective": "Children bang a metal pan next to a plastic-wrap drum sprinkled with rice, dip a ringing tuning fork into a cup of water and rest a hand on a speaker playing music, and find that sound can make things vibrate.",
+            "standard": "1-PS4-1",
+            "days": 2,
+            "source": "new",
+            "page": "Before-and-after page: three tests (rice on the drum near a loud pan, a tuning fork in water, a hand on a speaker). For each the child draws the thing before the sound and after it and circles 'it moved' or 'it stayed still'. Level 1: two tests; level 2: three tests; level 3: one sentence about what the sound did."
+          },
+          {
+            "new": true,
+            "title": "Cup telephones",
+            "objective": "Children build a cup-and-string telephone, test it with the string tight, loose and touching a chair, and find the string must be tight to carry a whisper to a friend across the room.",
+            "standard": "1-PS4-4",
+            "days": 3,
+            "source": "new",
+            "page": "Telephone engineering page: a plan box (circle the cups and string chosen), a drawing of the telephone, and a test chart with three rows (tight string, loose string, string touching a chair) where the child circles 'I heard it' or 'I did not hear it'. Level 1: two tests; level 2: three tests; level 3: the child writes one change that made the telephone work better."
+          }
+        ]
+      },
+      {
+        "id": "new:g1-light",
+        "title": "Light: Seeing, Shadows and Signals",
+        "why": "As fall days get shorter, children find that we see only when there is light, and that things in its path let it through, block it or bounce it.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "We see only with light",
+            "objective": "Children peek through a hole into a closed shoebox with a toy inside, then open a small window in the lid to let light in, and explain that they could see the toy only when light shone on it.",
+            "standard": "1-PS4-2",
+            "days": 2,
+            "source": "new",
+            "page": "Peep-box page: two pictures of the box, window closed and window open. The child draws what they saw through the peephole each time and finishes the sentence 'I could see the toy when ___.' Level 1: circle 'I saw it' or 'I did not see it' for each box; level 2: draw what they saw; level 3: draw and write the sentence."
+          },
+          {
+            "new": true,
+            "title": "Does light go through?",
+            "objective": "Children shine a flashlight at wax paper, plastic wrap, cardboard, a clear cup, a thick cloth and foil, and sort each one into lets all light through, lets some light through, or blocks the light.",
+            "standard": "1-PS4-3",
+            "days": 3,
+            "source": "new",
+            "page": "Light test chart: one row per material, three columns with icons (all light, some light, no light). After testing, the child colors the box in the right column. Level 1: four materials; level 2: six materials; level 3: the child writes clear, cloudy or blocks in each row and adds one more material from the room."
+          },
+          {
+            "new": true,
+            "title": "Mirrors bounce light",
+            "objective": "Children use a small unbreakable mirror to bounce a flashlight beam onto a paper star on the wall and find that a mirror sends light off in a new direction.",
+            "standard": "1-PS4-3",
+            "days": 2,
+            "source": "new",
+            "page": "Mirror page: a room drawing with a flashlight, a mirror and a target star. The child draws the light's path with arrows, then after the real test circles where the light landed. Level 1: one mirror, trace the dashed path; level 2: choose the mirror that sends light to the star from three pictures of mirrors turned different ways; level 3: two mirrors and two arrows."
+          },
+          {
+            "new": true,
+            "title": "Shadows",
+            "objective": "Children hold toys and their hands in a flashlight beam, see that a shadow forms where something blocks the light, and find that the shadow grows when the object moves closer to the flashlight.",
+            "standard": "1-PS4-3",
+            "days": 2,
+            "source": "new",
+            "page": "Shadow page: the child matches four toys to their shadows, then draws the flashlight, a toy and its shadow on the wall twice (toy near the light, toy far from it) and circles which shadow was bigger. Level 1: matching only; level 2: matching and one drawing; level 3: both drawings and the sentence 'The shadow got bigger when ___.'"
+          },
+          {
+            "new": true,
+            "title": "Send a message with light",
+            "objective": "Children invent a flashlight code with a partner (one flash for yes, two for no), test whether a classmate across the dark room can read it, and change their signal until it works every time.",
+            "standard": "1-PS4-4",
+            "days": 3,
+            "source": "new",
+            "page": "Light-code page: a code key the child fills in (flashes for yes, no, come here), a drawing of the signal device, and a chart for three test messages: sent, received, right or wrong. Level 1: two signals; level 2: three signals; level 3: the child writes one change that made the message easier to see."
+          }
+        ]
+      },
+      {
+        "id": "new:g1-sky-patterns",
+        "title": "Sky Patterns: Weather, Sun, Moon and Stars",
+        "why": "Winter brings early dark and long shadows, the best season to watch the Sun, the Moon and the stars and to compare how long the days are.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Weather words and the weekly forecast",
+            "objective": "Children write the weather word for each symbol, read a weekly forecast, and decide which day is best for outdoor recess and which day needs a raincoat.",
+            "standard": "K-ESS2-1",
+            "days": 2,
+            "tool": "Calendar Wall",
+            "source": "point:1:weather"
+          },
+          {
+            "new": true,
+            "title": "Sun, Earth and Moon",
+            "objective": "Children read facts about the Sun, the Earth and the Moon and check which one each fact is about, then put pictures of the Moon in order as it grows and shrinks.",
+            "standard": "1-ESS1-1",
+            "days": 2,
+            "source": "point:1:sun-earth-moon"
+          },
+          {
+            "new": true,
+            "title": "My shadow through the day",
+            "objective": "Children trace the shadow of a stick or a classmate in chalk in the morning, near noon and in the afternoon, and find the shadow moves and changes length because the Sun seems to move across the sky from east to west every day.",
+            "standard": "1-ESS1-1",
+            "days": 2,
+            "source": "new",
+            "page": "Shadow tracker page: a stick standing in the middle of the page with east and west marked. For each of three times the child draws the Sun and the stick's shadow, then circles when the shadow was shortest. Level 1: the Suns are drawn, the child draws the shadows; level 2: the child draws both; level 3: the child also writes 'The Sun seems to move from ___ to ___.'"
+          },
+          {
+            "new": true,
+            "title": "Moon journal",
+            "objective": "Children look at the Moon at home in the evening or at school in the morning sky every few days for a month, draw its shape, and find that the shapes change in a pattern that repeats and can be predicted.",
+            "standard": "1-ESS1-1",
+            "days": 3,
+            "source": "new",
+            "page": "Moon journal: a month grid of empty circles. The child shades each circle the way the Moon looked and writes 'cloudy' or 'not seen' when it could not be found. Level 1: eight circles every few days with a picture key of the shapes; level 2: a circle for every day of the month; level 3: the child predicts the next shape, draws it in a dashed circle, and checks it."
+          },
+          {
+            "new": true,
+            "title": "Stars come out at night",
+            "objective": "Children compare the day sky and the night sky and explain that the stars are in the sky all the time, but we see them only at night because the bright Sun hides them in the day.",
+            "standard": "1-ESS1-1",
+            "days": 2,
+            "source": "new",
+            "page": "Day-and-night sky page: two windows, day and night. The child draws what can be seen in each (the Sun in the day; stars at night; the Moon in either window on some days) and finishes the sentence 'The stars are still there in the day, but ___.' Level 1: draw from a picture bank; level 2: draw without a bank; level 3: draw and write the sentence."
+          },
+          {
+            "new": true,
+            "title": "How long is the day?",
+            "objective": "Children color a bar for the hours of daylight on the first school day of each month from the sunrise and sunset times the class has read since September, and find that the days are shortest in December and longer in fall and spring.",
+            "standard": "1-ESS1-2",
+            "days": 2,
+            "source": "new",
+            "page": "Daylight chart: months along the bottom and hours of daylight up the side. The child colors each month's bar from the class record and circles the month with the shortest day. Level 1: four months with the bars started; level 2: September to January; level 3: the child predicts the bar for April, draws it dashed, and colors it in when April's times are read."
+          }
+        ]
+      },
+      {
+        "id": "new:g1-animals",
+        "title": "Animal Bodies, Homes and Families",
+        "why": "In late winter children study how animals' body parts and coverings help them survive, and how some animal parents help their young.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Animal groups and body coverings",
+            "objective": "Children sort animals into mammals, birds and reptiles by their body coverings (fur, feathers, scales) and tell how each covering helps: fur keeps warm, feathers keep birds warm and help most birds fly, scales protect.",
+            "standard": "1-LS1-1",
+            "days": 2,
+            "source": "point:1:animal-classes-coverings"
+          },
+          {
+            "new": true,
+            "title": "Parts of our body and their jobs",
+            "objective": "Children label the parts of the human body, tell the job of each part, and compare our parts with an animal's: our hands grab like a monkey's, our eyes face forward like an owl's.",
+            "standard": "1-LS1-1",
+            "days": 2,
+            "source": "point:1:body-parts"
+          },
+          {
+            "new": true,
+            "title": "Where animals live and what they need",
+            "objective": "Children match animals to the habitats where they find food, water and shelter, cross out the animal that does not belong in each habitat, and tell what each animal eats.",
+            "standard": "K-ESS3-1",
+            "days": 2,
+            "source": "point:1:habitats-needs"
+          },
+          {
+            "new": true,
+            "title": "Animal parents and their young",
+            "objective": "Children read short picture books and watch clips about animal families, record what parents do (feed, carry, keep warm, protect) and what babies do (call, follow) to help the young survive, and find that some animals, like sea turtles, never care for their young.",
+            "standard": "1-LS1-2",
+            "days": 3,
+            "source": "new",
+            "page": "Parent-and-baby page: four animal family pictures (a robin, a cat, a kangaroo, an emperor penguin). For each, the child circles what the parent does (feeds, carries, keeps warm, protects) and what the baby does (calls, follows). Level 1: two families; level 2: four families; level 3: one sentence per family: 'The parent ___ so the baby ___.'"
+          },
+          {
+            "new": true,
+            "title": "Copy an animal: design a helper",
+            "objective": "Children study an animal part (a turtle's shell, a duck's webbed feet, a bird's beak) and design and build something for people that copies how it works, such as a helmet, swim flippers or a pair of tongs.",
+            "standard": "1-LS1-1",
+            "days": 3,
+            "source": "new",
+            "page": "Animal-inspired design sheet: the child picks an animal part card, draws the part, draws the invention that copies it, labels the problem it solves, then builds a model from classroom materials. Level 1: match three animal parts to three pictured inventions, then draw one; level 2: draw their own invention; level 3: write 'My ___ works like a ___ because ___.'"
+          }
+        ]
+      },
+      {
+        "id": "new:g1-plants-and-young",
+        "title": "Plants and Young Living Things",
+        "why": "Spring growth lets children see how plant parts help a plant live and compare young plants and animals with their parents.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Parts of a plant",
+            "objective": "Children dig up a weed or a bean plant, wash the roots, find the roots, stem, leaves and flower, and label each part and its job on a diagram.",
+            "standard": "1-LS1-1",
+            "days": 2,
+            "source": "point:1:plant-parts"
+          },
+          {
+            "new": true,
+            "title": "Life cycles in order",
+            "objective": "Children put the life cycles of a chicken, a butterfly, a frog and a plant in order and tell what the young looks like at each stage.",
+            "standard": "1-LS3-1",
+            "days": 2,
+            "tool": "Story Line",
+            "source": "point:1:life-cycles"
+          },
+          {
+            "new": true,
+            "title": "Like their parents, but not exactly",
+            "objective": "Children compare photos of puppies, kittens and cygnets with their parents and find how each young animal is like its parent and how it is different (size, color, spots).",
+            "standard": "1-LS3-1",
+            "days": 3,
+            "source": "new",
+            "page": "Compare page: a parent and its young side by side (a dog and its puppies, a cat and its kittens, a swan and its gray cygnet). The child circles the clues that are the same (ear shape, tail, body shape) and crosses out the clues that are different (size, color, spots). Level 1: one pair; level 2: three pairs; level 3: one sentence for each pair: 'The ___ is like its parent because ___ but different because ___.'"
+          },
+          {
+            "new": true,
+            "title": "Young plants and grown plants",
+            "objective": "Children compare bean seedlings with a grown bean plant and with each other, and record what is alike (leaf shape) and what is different (size, number of leaves), finding that young plants of one kind are like their parent but not exactly alike.",
+            "standard": "1-LS3-1",
+            "days": 2,
+            "source": "new",
+            "page": "Seedling record page: a drawing of the grown bean plant and three boxes for three seedlings. The child draws each seedling, counts its leaves, and checks a table of 'same as the parent' or 'different' for leaf shape, size and color. Level 1: one seedling; level 2: three seedlings; level 3: one sentence about how the seedlings differ from each other."
+          }
+        ]
+      },
+      {
+        "id": "new:g1-materials-and-rafts",
+        "title": "Materials: Sink, Float and Build a Raft",
+        "why": "The year ends with an engineering challenge: children test materials, then design and compare rafts that carry a load across water.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "What is it made of?",
+            "objective": "Children sort clean recycling into paper, plastic, glass, metal and wood by how each one looks and feels, and draw three things their family recycles at home.",
+            "standard": "K-ESS3-3",
+            "days": 2,
+            "source": "point:1:materials-recycling"
+          },
+          {
+            "new": true,
+            "title": "Sink or float? Predict and test",
+            "objective": "Children predict and then test whether objects sink or float, find that some heavy things (an apple, a pumpkin) float while some light things (a nail) sink, and use the results to choose materials for a raft.",
+            "standard": "K-2-ETS1-1",
+            "days": 2,
+            "source": "point:1:sink-float"
+          },
+          {
+            "new": true,
+            "title": "Design a raft",
+            "objective": "Children sketch a raft that will carry ten pennies across a tub of water, choose floating materials (craft sticks, foam trays, corks, straws), build it, and label how its shape and parts keep the pennies dry.",
+            "standard": "K-2-ETS1-2",
+            "days": 3,
+            "source": "new",
+            "page": "Raft design page: a materials checklist with pictures, a big sketch box, and three label lines. The child sketches the raft, checks the materials used, and labels the parts that keep the pennies dry. Level 1: check materials and color a raft outline; level 2: sketch and label two parts; level 3: sketch, label three parts and write why the raft will float."
+          },
+          {
+            "new": true,
+            "title": "Test two rafts",
+            "objective": "Children load two rafts with pennies one at a time, record how many each held before water came over the top, and tell one strength and one weakness of each raft.",
+            "standard": "K-2-ETS1-3",
+            "days": 2,
+            "source": "new",
+            "page": "Raft test page: two raft drawings with a tally box and a total box each, then 'One good thing' and 'One thing to fix' lines for each raft. Level 1: one try each, color the pennies held; level 2: tally and total; level 3: write a strength and a weakness for both rafts and circle the better one."
+          }
+        ]
+      }
+    ],
+    "totalDays": 83,
+    "leftOut": [],
+    "notCovered": []
+  },
+  "2": {
+    "nonTeachingWeeks": [
+      { "weeks": "1-2", "what": "Routines and safety: the science notebook, goggles for water and sand work, measuring in inches, and how to set up and clean up an investigation." },
+      { "weeks": "10", "what": "End of the first quarter: report-card checks and family conferences; science time finishes notebooks and make-up checks." },
+      { "weeks": "17", "what": "The short week before winter break: no new science; children share their notebooks and erosion models." },
+      { "weeks": "20", "what": "Middle-of-year benchmark window in reading and math, which takes the science block." },
+      { "weeks": "28", "what": "End of the third quarter: report-card checks and spring conferences." },
+      { "weeks": "34", "what": "End-of-year benchmark window in reading and math, which takes the science block." },
+      { "weeks": "36", "what": "Last week of school: a habitat field-guide share for families and taking the bean plants home." }
+    ],
+    "units": [
+      {
+        "id": "new:g2-properties-of-materials",
+        "title": "Properties of Materials",
+        "why": "Second grade opens with hands-on testing: children describe and sort materials by what they can observe, then choose the best material for a job.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Sort by material",
+            "objective": "Children examine objects made of paper, plastic, glass, metal and wood, sort them by material, and find the one in each row that is made of something different.",
+            "standard": "2-PS1-1",
+            "days": 2,
+            "source": "point:2:materials"
+          },
+          {
+            "new": true,
+            "title": "Describe it: hard, bendy, rough, soaks up water",
+            "objective": "Children test a wood block, a sponge, a metal spoon, a rubber band, a paper towel and a plastic lid for hardness, bendiness, texture and whether water soaks in, and record the results in a table.",
+            "standard": "2-PS1-1",
+            "days": 3,
+            "source": "new",
+            "page": "Property table: one row per material and one column per test, each with an icon (hard or soft, bends or stays stiff, rough or smooth, soaks up water or not). The child checks each box after testing, then sorts the materials two different ways. Level 1: four materials, two tests; level 2: six materials, four tests; level 3: the child writes a sentence describing one material with three properties."
+          },
+          {
+            "new": true,
+            "title": "Floating facts: shape the clay",
+            "objective": "Children test a ball of clay and the same clay pressed into a boat, find that the ball sinks and the boat floats, and use their results to decide whether sentences about floating are true or false.",
+            "standard": "2-PS1-2",
+            "days": 2,
+            "source": "point:2:sink-float"
+          },
+          {
+            "new": true,
+            "title": "The best material for the job",
+            "objective": "Children test paper, plastic wrap, foil, cloth and a paper towel as a roof for a toy, count the drops of water that come through each, and choose the best material for an umbrella using their data.",
+            "standard": "2-PS1-2",
+            "days": 3,
+            "source": "new",
+            "page": "Umbrella test page: a data table (material, drops before it leaked, was the toy wet?), a bar chart to color, and a claim line: 'The best material for an umbrella is ___ because ___.' Level 1: three materials, wet or dry only; level 2: five materials and the drop count; level 3: the claim with evidence, plus the material that would make the best towel and why."
+          },
+          {
+            "new": true,
+            "title": "Take it apart, build something new",
+            "objective": "Children build a small house from ten building blocks, take it apart, use the same pieces to build something different, and explain how one set of pieces can make many objects.",
+            "standard": "2-PS1-3",
+            "days": 2,
+            "source": "new",
+            "page": "Build-and-rebuild page: a box for object 1 and a box for object 2, each with a piece-count line. The child draws both objects, writes how many pieces each used, and checks that the count is the same. Level 1: draw two objects; level 2: draw and count; level 3: write how the pieces were used again in the new object."
+          }
+        ]
+      },
+      {
+        "id": "new:g2-land-and-water",
+        "title": "Land and Water on Earth",
+        "why": "Children map the land and water they know, model the shapes of the land, and find out where Earth's water is and whether it is solid or liquid.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Make a map: land and water",
+            "objective": "Children color a map of an island area with a key, land in green or brown and water in blue, and label a lake, a river, a hill and the ocean.",
+            "standard": "2-ESS2-2",
+            "days": 2,
+            "source": "new",
+            "page": "Map page: an outline of an island with a lake, a river, hills and the ocean around it, and a key with color boxes. The child colors land and water using the key and labels four features from a word bank. Level 1: color with the key; level 2: color and label four features; level 3: draw a map of a made-up island with five features and a key."
+          },
+          {
+            "new": true,
+            "title": "Shape the land: a landform model",
+            "objective": "Children build a hill, a valley, a plain and a lake from sand or clay in a tray, pour a little water to see where it collects, and draw a top-down map of their model.",
+            "standard": "2-ESS2-2",
+            "days": 3,
+            "source": "new",
+            "page": "Model-to-map page: a side-view box and a top-down map box with a key. The child draws the model from the side and from above and labels the landforms. Level 1: circle the landform pictures that are in the model; level 2: draw and label three landforms; level 3: five landforms with a key."
+          },
+          {
+            "new": true,
+            "title": "Where is water on Earth?",
+            "objective": "Children use a globe and picture cards to find water in oceans, rivers, lakes, ponds, glaciers and snow, and sort them into solid or liquid and salty or fresh.",
+            "standard": "2-ESS2-3",
+            "days": 2,
+            "source": "new",
+            "page": "Water-finder page: eight picture cards (ocean, river, lake, pond, glacier, iceberg, snowy mountain top, puddle) to cut and glue into a two-by-two grid: solid or liquid, salty or fresh. Level 1: solid or liquid only; level 2: the full grid; level 3: a sentence about where most of Earth's water is (in the salty ocean)."
+          },
+          {
+            "new": true,
+            "title": "Globe toss: more water or land?",
+            "objective": "Children toss an inflatable globe around the circle, record whether the catcher's right thumb lands on water or land, and use their tally to conclude that most of Earth's surface is covered by water.",
+            "standard": "2-ESS2-3",
+            "days": 2,
+            "source": "new",
+            "page": "Globe toss page: a tally chart with two rows (water, land) for 30 catches, a two-bar graph to color, and a sentence frame 'Most of Earth is covered by ___.' Level 1: 10 catches; level 2: 30 catches and the graph; level 3: the graph and a sentence comparing the two totals."
+          }
+        ]
+      },
+      {
+        "id": "new:g2-earth-changes",
+        "title": "Earth Changes: Every Day, Fast and Slow",
+        "why": "Children compare changes on very different time scales: the Earth turning every day, the Moon's shapes in a month, an earthquake in minutes and a canyon over millions of years.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Why do we have day and night?",
+            "objective": "Children turn a globe slowly in a flashlight beam, find where it is day and where it is night, and explain that the Earth turning makes day and night, not the Sun going around the Earth.",
+            "standard": "1-ESS1-1",
+            "days": 2,
+            "source": "point:2:day-and-night"
+          },
+          {
+            "new": true,
+            "title": "The Moon's shapes in a month",
+            "objective": "Children name the new moon, first quarter, full moon and last quarter, put them in their monthly order, and check their chart against a month of the real Moon.",
+            "standard": "1-ESS1-1",
+            "days": 2,
+            "source": "point:2:moon-phases"
+          },
+          {
+            "new": true,
+            "title": "Fast changes: earthquakes, volcanoes, landslides",
+            "objective": "Children read short texts and look at photos and videos of an earthquake, a volcanic eruption, a landslide and a flood, and sort Earth events into those that happen in minutes, hours or days and those that take many years.",
+            "standard": "2-ESS1-1",
+            "days": 2,
+            "source": "new",
+            "page": "Fast-or-slow sort: eight event cards (an earthquake, a volcano erupting, a landslide, a flood, a canyon carved by a river, a mountain wearing down, rock cracked by ice over many winters, sand dunes moving) to glue on a two-part timeline: minutes, hours or days / many years. Level 1: four cards; level 2: eight cards; level 3: the child writes which source (book, photo, video) showed how fast each one was."
+          },
+          {
+            "new": true,
+            "title": "Slow changes: water shapes the land",
+            "objective": "Children pour water over a sand hill in a tray again and again, watch the sand wash down and spread out, and compare it with photos of the Grand Canyon, which the Colorado River carved over millions of years.",
+            "standard": "2-ESS1-1",
+            "days": 3,
+            "source": "new",
+            "page": "Erosion tray page: before-and-after drawing boxes for the sand hill, a tally of the cups of water poured, and three photos of real places (a canyon, a beach, a river delta) to match to what happened in the tray. Level 1: before and after drawings; level 2: drawings and the tally; level 3: a sentence comparing the tray with the canyon: fast in the tray, slow in nature."
+          },
+          {
+            "new": true,
+            "title": "Stop the sand from washing away",
+            "objective": "Children test two ways to keep sand on a hill in a tray during the same pour of water (rocks, a grass mat, a craft-stick wall, a layer of soil with plants), measure how much sand stayed, and compare the strengths and weaknesses of each design.",
+            "standard": "K-2-ETS1-3",
+            "days": 3,
+            "source": "new",
+            "page": "Design test page: two design sketches side by side, each with a before-and-after drawing of the hill and a line for how many spoonfuls of sand washed into the bottom of the tray, then a strength and a weakness for each. Level 1: draw both and circle the one that kept more sand; level 2: add the spoonful counts; level 3: write a strength and a weakness of each design."
+          },
+          {
+            "new": true,
+            "title": "Which real solution is best?",
+            "objective": "Children compare photos of real solutions (a seawall, plants on a hillside, a row of trees as a windbreak, a sand fence on a dune) with their tray results, and tell how each slows wind or water and one drawback of each.",
+            "standard": "2-ESS2-1",
+            "days": 2,
+            "source": "new",
+            "page": "Solutions chart: four photo cards with columns for 'stops wind or water?', 'how it works' and 'one problem with it'. The child fills in each row and stars the one they would choose for the school's sandy hill. Level 1: two solutions, circle answers; level 2: four solutions, short phrases; level 3: four solutions and a sentence explaining their star."
+          }
+        ]
+      },
+      {
+        "id": "new:g2-heating-and-cooling",
+        "title": "Heating and Cooling",
+        "why": "Cold winter weeks bring ice and snow to observe, so children test what heating and cooling do to materials and which changes can be undone.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Where does ice melt fastest?",
+            "objective": "Children place same-size ice cubes in the sun, in the shade, on a metal tray and wrapped in a mitten, check them every ten minutes, and find that the mitten slows the melting because it keeps the warmth out.",
+            "standard": "2-PS1-4",
+            "days": 3,
+            "source": "new",
+            "page": "Ice race page: four places, each with boxes for 10, 20 and 30 minutes where the child colors how much ice is left, then circles the fastest and slowest place. Level 1: two places; level 2: four places; level 3: a sentence about which place was warmest and how they know."
+          },
+          {
+            "new": true,
+            "title": "Melt it, freeze it back",
+            "objective": "Children warm an ice cube, a pat of butter and a piece of chocolate in sealed bags in their hands or a sunny window, watch them melt, put them in the refrigerator, and find each one turns solid again.",
+            "standard": "2-PS1-4",
+            "days": 2,
+            "source": "new",
+            "page": "Change-and-back page: three materials, each with three boxes (before, warmed, cooled). The child draws each one and circles 'it changed back' or 'it did not'. Level 1: ice and one more material; level 2: all three; level 3: a sentence about what warming and cooling did to each."
+          },
+          {
+            "new": true,
+            "title": "Changes we cannot undo",
+            "objective": "Children compare raw and cooked pairs the teacher prepared at home (a raw egg and a hard-boiled egg, bread and toast, cake batter and a cupcake, wet clay and fired pottery) and decide whether cooling could change each one back.",
+            "standard": "2-PS1-4",
+            "days": 2,
+            "source": "new",
+            "page": "Can-it-go-back sort: six before-and-after picture pairs (ice and water, butter and melted butter, raw and cooked egg, bread and toast, batter and cupcake, wet clay and a fired pot). The child circles 'can change back' or 'cannot change back' for each pair. Level 1: four pairs; level 2: six pairs; level 3: one sentence about what the 'cannot' changes have in common."
+          },
+          {
+            "new": true,
+            "title": "Can it change back? Make an argument",
+            "objective": "Children choose one change from the unit, write a claim that it can or cannot be reversed, and support it with what they saw in their tests.",
+            "standard": "2-PS1-4",
+            "days": 2,
+            "source": "new",
+            "page": "Claim-and-evidence page: 'My claim: ___ can / cannot change back.' 'My evidence: I saw ___.' with a drawing box for the test. Level 1: circle the claim and draw the evidence; level 2: sentence frames; level 3: two pieces of evidence and a second change that behaves the opposite way."
+          }
+        ]
+      },
+      {
+        "id": "new:g2-plants-and-pollinators",
+        "title": "Plants, Pollinators and Life Cycles",
+        "why": "Spring planting leaves time for a real investigation of what plants need, and flowers outside show how animals move pollen and seeds.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Plant parts and the parts we eat",
+            "objective": "Children name the parts of a plant and their jobs, then look at real carrots, celery, lettuce, broccoli and tomatoes and decide which part of the plant each one is.",
+            "standard": "1-LS1-1",
+            "days": 2,
+            "source": "point:2:plant-parts"
+          },
+          {
+            "new": true,
+            "title": "Do plants need light and water?",
+            "objective": "Children set up four cups of the same seedlings (light and water, light and no water, water and no light, neither), change only one thing per cup, and measure, draw and describe the plants each week for three weeks.",
+            "standard": "2-LS2-1",
+            "days": 3,
+            "source": "new",
+            "page": "Plant investigation log: a table for four cups across three weeks with height in inches, leaf color and a drawing box, then 'Plants need ___ and ___ to grow well because ___.' The page notes that a plant in the dark can grow tall and thin yet turn pale and weak, so color and leaves count as evidence, not height alone. Level 1: two cups (water, no water), draw only; level 2: four cups with height and color; level 3: a bar graph of the final heights and the conclusion."
+          },
+          {
+            "new": true,
+            "title": "Seeds on the move",
+            "objective": "Children examine seeds that hook (burdock, cleavers), fly (maple, dandelion) or are eaten (berries), make a model of an animal's fur from a sock or felt, and test which seeds it carries away.",
+            "standard": "2-LS2-2",
+            "days": 3,
+            "source": "new",
+            "page": "Seed hitchhiker page: a box to draw the fur model, a test chart for six seeds (stuck or fell off), and a sort of seed pictures into 'sticks to fur', 'eaten by animals' and 'blown by the wind'. Level 1: three seeds; level 2: six seeds and the sort; level 3: one sentence about how the animal helps the plant."
+          },
+          {
+            "new": true,
+            "title": "Be a pollinator",
+            "objective": "Children use a pipe-cleaner bee to pick up colored chalk dust from one paper flower and carry it to others, modeling how bees move pollen so that many flowers can make seeds.",
+            "standard": "2-LS2-2",
+            "days": 2,
+            "source": "new",
+            "page": "Pollinator model page: a garden map of four paper flowers. The child draws the bee's path, colors each flower that got pollen from another flower, and labels the pollen. Level 1: two flowers; level 2: four flowers; level 3: a sentence explaining why many flowers need a visitor to make seeds."
+          },
+          {
+            "new": true,
+            "title": "Life cycles: from egg to grown-up",
+            "objective": "Children label the stages of a butterfly's life cycle and match young stages (a tadpole, a caterpillar, a chrysalis) to the animal they become, finding that some young look very different from their parents.",
+            "standard": "1-LS3-1",
+            "days": 2,
+            "tool": "Story Line",
+            "source": "point:2:life-cycles"
+          }
+        ]
+      },
+      {
+        "id": "new:g2-habitats",
+        "title": "Habitats: Many Kinds of Life",
+        "why": "Late spring is the season for outdoor surveys, so children compare how many kinds of plants and animals live in different habitats.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Habitats and how animals adapt",
+            "objective": "Children read how body parts help animals live in their habitat, match each sentence to its animal, and write a habitat report with three animals and a plant that live there.",
+            "standard": "2-LS4-1",
+            "days": 2,
+            "source": "point:2:habitats-adaptations"
+          },
+          {
+            "new": true,
+            "title": "Schoolyard survey: how many kinds?",
+            "objective": "Children mark a square yard of lawn and a square yard of garden bed or ground under a tree with string, find and tally the different kinds of plants and animals in each, and compare which habitat has more kinds.",
+            "standard": "2-LS4-1",
+            "days": 3,
+            "source": "new",
+            "page": "Survey sheet: two side-by-side grids (lawn, garden or under a tree). The child draws or tallies each kind found (ant, worm, beetle, spider, clover, grass, dandelion) and writes the number of kinds, then circles the habitat with more. Level 1: draw the kinds found; level 2: tally and total; level 3: a two-bar graph and a sentence comparing the habitats."
+          },
+          {
+            "new": true,
+            "title": "Compare habitats: desert, rain forest, ocean",
+            "objective": "Children use books and short videos to list the plants and animals of a desert, a rain forest and an ocean, and compare how many kinds of living things they found in each.",
+            "standard": "2-LS4-1",
+            "days": 2,
+            "source": "new",
+            "page": "Habitat comparison chart: three columns (desert, rain forest, ocean). The child draws or writes five living things for each from the class sources and answers which habitat had the most kinds in those sources. Level 1: three living things per column from a picture bank; level 2: five per column; level 3: the chart and two sentences comparing the habitats."
+          },
+          {
+            "new": true,
+            "title": "Plants for every habitat",
+            "objective": "Children observe a cactus, a fern and a water plant (or photos of them), describe their stems and leaves, and match each plant to the habitat where it grows best.",
+            "standard": "2-LS4-1",
+            "days": 2,
+            "source": "new",
+            "page": "Plant match page: three plant pictures and three habitat pictures (a desert, a shady forest floor, a pond). The child draws lines to match them and circles the plant part that helps (thick stem that holds water, wide leaves for shade, floating leaves). Level 1: match only; level 2: match and circle; level 3: one sentence for each plant."
+          }
+        ]
+      }
+    ],
+    "totalDays": 83,
+    "leftOut": [],
+    "notCovered": []
+  },
+  "3": {
+    "nonTeachingWeeks": [
+      { "weeks": "1-2", "what": "Routines and safety: the science notebook, goggles, measuring in inches and degrees Fahrenheit, and the start of the daily high-temperature log." },
+      { "weeks": "10", "what": "End of the first quarter: report-card checks and family conferences; science time finishes lab reports and make-up checks." },
+      { "weeks": "17", "what": "The short week before winter break: no new science; children share their magnet designs." },
+      { "weeks": "20", "what": "Middle-of-year benchmark window in reading and math, which takes the science block." },
+      { "weeks": "28", "what": "End of the third quarter: report-card checks and spring conferences." },
+      { "weeks": "30-31", "what": "The state reading and math tests: a review week and the test week take the science block." },
+      { "weeks": "34", "what": "End-of-year benchmark window in reading and math, which takes the science block." },
+      { "weeks": "36", "what": "Last week of school: a science fair of the year's investigations for families and releasing or rehoming the mealworm beetles." }
+    ],
+    "units": [
+      {
+        "id": "new:g3-forces-and-motion",
+        "title": "Forces and Motion",
+        "why": "Third grade opens by learning how to run a fair test and then uses it to find out how forces start, stop and change motion.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "A fair test: one change at a time",
+            "objective": "Children plan a fair sink-or-float test that changes only one thing, keep everything else the same, run it, and write a lab report with their question, prediction, results and conclusion.",
+            "standard": "3-5-ETS1-3",
+            "days": 2,
+            "source": "point:3:investigation"
+          },
+          {
+            "new": true,
+            "title": "Balanced and unbalanced forces",
+            "objective": "Children play tug-of-war with a rope and a stuffed animal in the middle, push a box from both sides, and find that equal pushes or pulls in opposite directions leave it still while unequal ones make it move; they show each case with force arrows.",
+            "standard": "3-PS2-1",
+            "days": 3,
+            "source": "new",
+            "page": "Force arrows page: six pictures (a tug-of-war, a book resting on a table, a soccer kick, two children pushing a box from opposite sides, a wagon pulled forward, a hanging bag). The child draws arrows of matching or different lengths and circles 'balanced' or 'unbalanced' and 'stays still' or 'starts to move'. Level 1: three pictures with the arrows drawn, circle only; level 2: six pictures, draw the arrows; level 3: a sentence explaining why the book on the table does not fall (the table pushes up)."
+          },
+          {
+            "new": true,
+            "title": "Predict the swing",
+            "objective": "Children build a pendulum from string and a washer, count its swings in 15 seconds several times, find the count stays the same for the same string, and use the pattern to predict the count for a shorter string before testing it.",
+            "standard": "3-PS2-2",
+            "days": 3,
+            "tool": "Class Timer",
+            "source": "new",
+            "page": "Pendulum data page: a table of three trials for each string length, a prediction line, and a check line. Level 1: one string length, three trials; level 2: two lengths and a prediction for the second; level 3: three lengths, a bar graph, and a sentence describing the pattern (shorter string, more swings)."
+          },
+          {
+            "new": true,
+            "title": "Friction slows it down",
+            "objective": "Children roll a toy car down the same ramp onto carpet, tile and sandpaper, measure in inches how far it travels on each, and explain that friction is a force that slows a moving object.",
+            "standard": "3-PS2-1",
+            "days": 2,
+            "tool": "Ruler",
+            "source": "new",
+            "page": "Ramp test page: a table of three surfaces with three trials each and a median distance in inches, a bar graph to color, and the sentence 'The car went farthest on ___ because ___.' Level 1: two surfaces, one trial each; level 2: three surfaces, three trials; level 3: the graph and an explanation using the word friction."
+          }
+        ]
+      },
+      {
+        "id": "new:g3-magnets-and-static",
+        "title": "Magnets and Static Electricity",
+        "why": "Magnets and charged balloons push and pull without touching, a mystery children can investigate and then use to solve a real problem.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Balloon tricks: static electricity",
+            "objective": "Children rub a balloon on wool or their hair, bring it near bits of paper, a thin stream of tap water and another rubbed balloon, and record which things move without being touched.",
+            "standard": "3-PS2-3",
+            "days": 2,
+            "source": "new",
+            "page": "Static test chart: four tests with a prediction column and a result column (moved toward, moved away, did not move), and a question line 'What happened when I did not rub the balloon?'. Level 1: three tests, circle results; level 2: four tests with predictions; level 3: a sentence about cause and effect."
+          },
+          {
+            "new": true,
+            "title": "What do magnets pull?",
+            "objective": "Children predict and test which classroom objects a magnet pulls, and find that magnets pull things with iron or steel in them but not every metal (aluminum foil, a penny and a brass key are not pulled).",
+            "standard": "3-PS2-3",
+            "days": 2,
+            "source": "new",
+            "page": "Magnet test table: twelve objects with columns for 'what it is made of', 'my prediction' and 'result', then a sort into 'pulled' and 'not pulled'. Level 1: six objects; level 2: twelve objects; level 3: a sentence answering 'Does a magnet pull all metals?' with evidence."
+          },
+          {
+            "new": true,
+            "title": "Magnet force from a distance",
+            "objective": "Children measure in inches how close a paper clip must be before a magnet pulls it, test whether the pull works through paper, cardboard and water, and find the force gets weaker as the distance grows.",
+            "standard": "3-PS2-3",
+            "days": 3,
+            "tool": "Ruler",
+            "source": "new",
+            "page": "Distance investigation page: a ruler strip to mark where the clip started to move, a table of three trials for two magnets, and a 'through it?' chart for paper, cardboard, a plastic cup of water and a book. Level 1: one magnet, one trial; level 2: two magnets, three trials; level 3: a sentence about how distance changes the pull."
+          },
+          {
+            "new": true,
+            "title": "A problem magnets could solve",
+            "objective": "Children list everyday problems a magnet could help with (a cabinet door that swings open, a box of steel and aluminum cans to sort, a lost needle), choose one, and write what a good solution must do and what limits it has (materials, size, time).",
+            "standard": "3-PS2-4",
+            "days": 2,
+            "source": "new",
+            "page": "Problem planner: 'The problem is ___.' 'A good solution must ___.' (criteria) 'We can only use ___.' (constraints) with a sketch box of the problem. Level 1: choose from three illustrated problems and circle criteria; level 2: write the frames; level 3: write two criteria and two constraints."
+          },
+          {
+            "new": true,
+            "title": "Design and compare magnet solutions",
+            "objective": "Children sketch two or three solutions to their magnet problem, score each against their criteria and constraints, build the best one, and test it.",
+            "standard": "3-5-ETS1-2",
+            "days": 3,
+            "source": "new",
+            "page": "Compare-the-solutions page: three sketch boxes, a scoring table (criteria down the side, solutions across, a check for each criterion met), and a test-result line for the one they built. Level 1: two solutions; level 2: three solutions and the table; level 3: the table and a sentence on what they would improve after the test."
+          }
+        ]
+      },
+      {
+        "id": "new:g3-weather-and-climate",
+        "title": "Weather and Climate",
+        "why": "In winter the class has months of its own weather data, enough to describe what each season is usually like, compare climates and design for weather hazards.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Our weather data: tables and graphs",
+            "objective": "Children put two weeks of the class's daily high temperature in degrees Fahrenheit, rain or snow, and cloud cover into a table and a bar graph, and compare them with the class's data from the fall.",
+            "standard": "3-ESS2-1",
+            "days": 3,
+            "tool": "Upright and Flat",
+            "source": "new",
+            "page": "Weather data page: a table for ten school days (high temperature in °F, precipitation, clouds), a bar graph of the highs, and two comparison questions with the fall data. Level 1: five days, table only; level 2: ten days and the graph; level 3: the graph, the comparison and Celsius beside Fahrenheit for two readings."
+          },
+          {
+            "new": true,
+            "title": "What weather to expect each season",
+            "objective": "Children graph the average monthly high temperature and rainfall for their town or a US city from a table, and describe the typical weather of each season from the graph.",
+            "standard": "3-ESS2-1",
+            "days": 2,
+            "source": "new",
+            "page": "Seasons graph page: a table of twelve months (average high in °F, inches of rain), a bar graph to finish, and four season boxes to describe with two words each. Level 1: four months, one per season; level 2: twelve months; level 3: all twelve months and a paragraph comparing the warmest and the wettest seasons."
+          },
+          {
+            "new": true,
+            "title": "The water cycle",
+            "objective": "Children mark the water level in an open cup each day as water evaporates, see water condense on the outside of a cold glass (water from the air, not from inside the glass), and label evaporation, condensation, precipitation and collection on a water-cycle diagram.",
+            "standard": "2-ESS2-3",
+            "days": 2,
+            "source": "point:3:water-cycle"
+          },
+          {
+            "new": true,
+            "title": "Climates around the world",
+            "objective": "Children read climate graphs for places such as northern Alaska, Miami, the Sahara and the Amazon rain forest, compare their typical temperatures and rainfall across the year, and sort them into hot and dry, hot and wet, and cold.",
+            "standard": "3-ESS2-2",
+            "days": 3,
+            "source": "new",
+            "page": "Climate cards page: four place cards, each with a small graph of average temperature and rainfall, a world map to mark each place, and a sorting chart (hot and dry, hot and wet, cold). Level 1: two places; level 2: four places; level 3: a sentence explaining the difference between weather (one day) and climate (what is usual over many years)."
+          },
+          {
+            "new": true,
+            "title": "Define a weather problem",
+            "objective": "Children choose a weather hazard of their region (a flood, high wind, a blizzard, lightning), describe a problem it causes for the school, and write the criteria a solution must meet and its constraints.",
+            "standard": "3-5-ETS1-1",
+            "days": 2,
+            "source": "new",
+            "page": "Hazard planner: 'The hazard is ___.' 'It causes this problem: ___.' 'A good solution must ___.' 'We are limited by ___.' with a sketch of the school and the hazard. Level 1: choose from three illustrated hazards and circle criteria; level 2: sentence frames; level 3: two criteria and two constraints."
+          },
+          {
+            "new": true,
+            "title": "Which design reduces the damage?",
+            "objective": "Children test model solutions such as a wind barrier in front of a fan or a model house on stilts in a tray that floods, compare the results, and make a claim with evidence about which design best reduces the hazard.",
+            "standard": "3-ESS3-1",
+            "days": 3,
+            "source": "new",
+            "page": "Hazard test page: two design sketches, a results table (what happened to the model house), and a claim-evidence-reasoning frame. Level 1: one design, before and after drawings; level 2: two designs and the table; level 3: the claim with evidence and one real example (a levee, a storm shelter, a lightning rod)."
+          }
+        ]
+      },
+      {
+        "id": "new:g3-life-cycles-and-traits",
+        "title": "Life Cycles and Traits",
+        "why": "As spring begins, children raise living things through their life cycles and find out which traits come from parents and which the environment shapes.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Butterfly and frog life cycles compared",
+            "objective": "Children compare the butterfly and frog life cycles, sort facts into true for one, the other or both, and find that every life cycle includes birth, growth, reproduction and death.",
+            "standard": "3-LS1-1",
+            "days": 2,
+            "source": "point:3:life-cycles-compare"
+          },
+          {
+            "new": true,
+            "title": "Flowers make seeds",
+            "objective": "Children take apart a grocery-store flower, find and name the petals, sepals, stamens and pistil, and explain that a flower is the part of the plant that makes seeds so new plants can grow.",
+            "standard": "3-LS1-1",
+            "days": 2,
+            "source": "point:3:flower-parts"
+          },
+          {
+            "new": true,
+            "title": "Raise mealworms through their life cycle",
+            "objective": "Children keep mealworms in oats with a slice of carrot, observe them every few days for several weeks, record each stage with a dated drawing and length in inches, and build a model of the darkling beetle's life cycle.",
+            "standard": "3-LS1-1",
+            "days": 3,
+            "source": "new",
+            "page": "Mealworm log: a table of dates with a drawing box, length in inches and stage (larva, pupa, adult beetle), then a circular life-cycle model to complete with the egg stage from a photo. Level 1: four observations, stage only; level 2: eight observations with length; level 3: the log and a paragraph comparing this life cycle with the butterfly's."
+          },
+          {
+            "new": true,
+            "title": "Traits from parents",
+            "objective": "Children compare photos of parent animals and their young and a litter of puppies, record traits passed from parents (ear shape, fur color) and how the young differ from each other, and analyze the data in a table.",
+            "standard": "3-LS3-1",
+            "days": 3,
+            "source": "new",
+            "page": "Traits data page: a photo set of two parent dogs and five puppies, a table of traits (fur color, ear shape, spots) for each animal, and questions: 'Which traits came from the parents?' 'Are all the puppies the same?' Level 1: two traits; level 2: three traits and both questions; level 3: a second family (a mother cat and kittens) and a paragraph about variation."
+          },
+          {
+            "new": true,
+            "title": "Traits the environment changes",
+            "objective": "Children compare two bean plants of the same kind grown with plenty and with too little water and read about a dog that gets heavy from too much food and little exercise, and explain that the environment can change traits such as height and weight.",
+            "standard": "3-LS3-2",
+            "days": 2,
+            "source": "new",
+            "page": "Environment and traits page: two plant drawings with height in inches and leaf counts, a short text about the dog, and a two-column chart 'trait from parents' / 'trait changed by the environment' to sort eight traits. Level 1: four traits; level 2: eight traits; level 3: the chart and an explanation using the plants as evidence."
+          }
+        ]
+      },
+      {
+        "id": "new:g3-survival-and-change",
+        "title": "Surviving in a Changing World",
+        "why": "The year ends outdoors, with how living in groups, small differences and the habitat itself decide which living things survive, now and long ago.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Animals in groups",
+            "objective": "Children read about wolves, honeybees, Canada geese and schools of fish, list how living in a group helps members find food, stay safe or save energy, and write an argument with evidence for one animal.",
+            "standard": "3-LS2-1",
+            "days": 2,
+            "source": "new",
+            "page": "Group-living chart: four animal cards with columns for 'how the group works' and 'how it helps members survive', then a claim-evidence frame for one animal. Level 1: two animals; level 2: four animals; level 3: the chart and a paragraph argument with two pieces of evidence."
+          },
+          {
+            "new": true,
+            "title": "Hide and survive: camouflage",
+            "objective": "Children act as birds picking up colored paper moths from a newspaper and a green lawn in 30 seconds, count which colors were found least, and explain why moths that match their background are more likely to survive.",
+            "standard": "3-LS4-2",
+            "days": 3,
+            "source": "new",
+            "page": "Camouflage data page: a tally table for four moth colors on two backgrounds, a bar graph, and a sentence frame 'The ___ moths survived best on ___ because ___.' Level 1: one background, two colors; level 2: two backgrounds, four colors; level 3: the graph and an explanation of why differences between moths of one kind matter."
+          },
+          {
+            "new": true,
+            "title": "Survive well, less well or not at all",
+            "objective": "Children read about a pond or a desert habitat, sort its plants and animals into those that survive well, less well or not at all there, and support each choice with evidence.",
+            "standard": "3-LS4-3",
+            "days": 2,
+            "source": "new",
+            "page": "Habitat sort page: a habitat card (a desert: very little rain, hot days, cold nights) and eight living-thing cards, each naming what that living thing needs, so the column follows from the card's own evidence: a cactus (stores water in its stem), a kangaroo rat (gets water from the seeds it eats) and a rattlesnake (hides from the heat) survive well; a horse and a sunflower (need water often) survive less well, only near a water hole; a goldfish, a water lily and a polar bear cannot survive there. The child sorts them into three columns, each with a 'because' line. Level 1: five cards; level 2: eight cards; level 3: the sort and a paragraph for one living thing in each column."
+          },
+          {
+            "new": true,
+            "title": "Fossils tell about long ago",
+            "objective": "Children press a shell or a leaf into clay to make a model fossil, then study fossil photos (a fish fossil found high on a mountain, a fern fossil found in Antarctica) and explain what each tells about the living things and environments of long ago.",
+            "standard": "3-LS4-1",
+            "days": 3,
+            "source": "new",
+            "page": "Fossil detective page: four fossil photo cards, each with columns for 'what lived here', 'what the place was like then' and 'what it is like now'. Level 1: two fossils, circle answers; level 2: four fossils, short phrases; level 3: four fossils and a paragraph about how the environment changed."
+          },
+          {
+            "new": true,
+            "title": "When a habitat changes",
+            "objective": "Children read about a change to a habitat (a new highway through a forest, a river dammed for a town) and judge the merit of solutions such as wildlife crossings and fish ladders, making a claim with evidence.",
+            "standard": "3-LS4-4",
+            "days": 2,
+            "source": "new",
+            "page": "Solution judge page: a short text about the change, two solution cards, and a table of how each solution helps the animals, what it costs or limits, and a claim frame. Level 1: one solution, circle answers; level 2: two solutions and the table; level 3: the table and a paragraph claim with evidence."
+          }
+        ]
+      }
+    ],
+    "totalDays": 76,
+    "leftOut": [
+      {
+        "what": "3:planets",
+        "why": "No K-5 NGSS performance expectation asks for the order or the kinds of the planets (the solar system is middle school, MS-ESS1-3), and Grade 3 already has 18 performance expectations in 78 sessions; the two pages can serve as an enrichment center, not a science lesson."
+      }
+    ],
+    "notCovered": []
+  }
+}

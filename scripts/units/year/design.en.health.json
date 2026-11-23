@@ -1,0 +1,516 @@
+{
+  "pacing": {
+    "teachingWeeks": { "K": 28, "1": 28, "2": 28, "3": 26 },
+    "daysPerWeek": { "K": 1, "1": 1, "2": 1, "3": 1 },
+    "rule": "One health session a week in every grade, about 30 minutes (20 to 30 in Kindergarten). Most US elementary schools teach health once a week, or inside PE and social-emotional learning time, and a fixed weekly slot gives the class one routine it can count on. A lesson is 2 sessions: one to learn and practise (a picture talk, a role-play, a drill at the sink or on the rug) and one for the page and a share. This year no lesson is 3 sessions: with one session a week a three-session lesson would stretch over three weeks and lose its thread, and two-session lessons let every grade reach the National Health Education Standards it is responsible for. Every unit adds 3 sessions: an opening session with a story or a question, a review session and a check session. Daily habits are practised where they happen, outside these sessions: the feelings check-in at morning meeting (Feelings Check-In), hand washing before snack and lunch and after recess, and the school's own fire and bus drills on the school calendar."
+  },
+  "K": {
+    "nonTeachingWeeks": [
+      { "weeks": "1-2", "what": "Routines: the class rules, the calm-down corner, hand washing before snack and the morning feelings check-in on Feelings Check-In begin. No health unit yet." },
+      { "weeks": "10", "what": "End of the first quarter: report-card checks and family conferences; the health slot finishes drawings and make-up checks." },
+      { "weeks": "17", "what": "The short week before winter break: no new health lesson; children share their drawings and the class kindness chain." },
+      { "weeks": "20", "what": "Middle-of-year benchmark window in reading and math, which takes the health slot." },
+      { "weeks": "28", "what": "End of the third quarter: report-card checks and spring conferences." },
+      { "weeks": "34", "what": "End-of-year benchmark window in reading and math, which takes the health slot." },
+      { "weeks": "36", "what": "Last week of school: field day and the end-of-year celebration; no health lesson." }
+    ],
+    "units": [
+      {
+        "id": "new:k-feelings-and-friends",
+        "title": "My Feelings and My Friends",
+        "why": "Kindergarten starts by building a calm, kind classroom while the children are still getting to know each other: every feeling is OK, so they learn to name feelings, to calm their body and ask for what they need, to see their own strengths, and to use kind words, kind hands and a personal space bubble.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "How do I feel? Naming feelings",
+            "objective": "Children look at faces and pictures, name happy, sad, angry, scared, surprised and tired, match each face to its feeling, circle the face that shows how they would feel in a picture, and sort feelings that feel good from feelings that feel uncomfortable, learning that every feeling is OK and that what we do with it is the choice.",
+            "standard": "NHES.4.2.1",
+            "days": 2,
+            "tool": "Feelings Check-In",
+            "source": "point:K:feelings"
+          },
+          {
+            "new": true,
+            "title": "Calm-down tools and asking for help",
+            "objective": "Children practise three calm-down tools (smell the flower and blow out the candle, count slowly to five, squeeze and let go) and practise asking for what they need with 'I need a break, please' and 'Can you help me?'.",
+            "standard": "NHES.8.2.1",
+            "days": 2,
+            "tool": "Class Timer",
+            "source": "teacher-led",
+            "page": "Routine: the teacher models each calm-down tool with a stuffed animal resting on the child's tummy so the children see it rise and fall; the class practises each tool while the Class Timer runs one calm minute. Pairs then act out a small upset (a block tower falls, a friend takes the swing), choose a tool and say 'I need a break, please' or 'Can you help me?'. To finish, each child circles the tool picture they will use next time on a three-picture card for the calm-down corner. Level 1: one tool and one help sentence; level 2: all three tools; level 3: the child shows a friend how to use a tool."
+          },
+          {
+            "new": true,
+            "title": "I can do it! What I am good at",
+            "objective": "Children draw one thing they are good at and one thing they are learning to do, and circle the people who help them grow and stay healthy (family, teacher, friends, a coach).",
+            "standard": "NHES.1.2.1",
+            "days": 2,
+            "source": "new",
+            "page": "'I can' page: a big frame where the child draws something they are good at (running, helping at home, building, singing), and four picture buttons around it (a family, a teacher, a friend, a coach) to circle who helps them. No words to read: the teacher reads the two prompts aloud. Level 1: draw one thing and circle one helper; level 2: draw two things, one they are good at now and one they are learning, and circle every helper; level 3: the teacher writes the child's dictated sentence 'I can ...' under the drawing and the child traces it."
+          },
+          {
+            "new": true,
+            "title": "Kind words and kind hands",
+            "objective": "Children watch puppets make kind and unkind choices, practise kind words (please, thank you, are you OK?, do you want to play?) and kind hands (helping, sharing, a high five when it is wanted), and show how to help a friend who feels sad.",
+            "standard": "NHES.4.2.5",
+            "days": 2,
+            "source": "teacher-led",
+            "page": "Routine: two puppets act out short scenes (a child drops all the crayons, a child sits alone at recess, a child is crying after a fall in the grass); the class shows a thumbs-up for each kind choice, then pairs act out the kind answer for the scene. All week each child adds a paper heart to the class kindness chain when someone notices them being kind. Level 1: copy the puppet's kind words; level 2: choose a kind action for a new scene; level 3: tell how the friend feels after the kind action."
+          },
+          {
+            "new": true,
+            "title": "My space bubble: ask first",
+            "objective": "Children stand in a hula hoop to feel their own space bubble, practise asking 'May I give you a hug?' and answering yes or 'No, thank you', and learn that when a friend says 'Stop, please', we stop.",
+            "standard": "NHES.4.2.4",
+            "days": 2,
+            "source": "teacher-led",
+            "page": "Routine: every child stands in a hula hoop and stretches out their arms to feel their space bubble; the teacher models asking before a hug or a high five and both answers, yes and 'No, thank you'. Pairs practise with a choice card of four pictures (hug, high five, wave, fist bump): the asker accepts whatever the friend points to. The class ends with a freeze game in which everyone stops at once when a partner says 'Stop, please'. Level 1: ask and answer with the card; level 2: say 'Stop, please' and stop when a partner says it; level 3: tell what to do if someone does not stop (tell the teacher)."
+          }
+        ]
+      },
+      {
+        "id": "new:k-healthy-and-safe",
+        "title": "Healthy and Safe Me",
+        "why": "Winter brings colds, so the unit opens with germs and hand washing, then everyday and sometimes foods, sleep and active play, and ends in spring with trusted adults and crossing the street, just before the spring walks and field trips.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Washing hands and caring for my body",
+            "objective": "Children put the steps of hand washing in order (wet, soap, scrub for 20 seconds, rinse, dry) and match each body-care job to its tool: soap for washing hands, a toothbrush for teeth, a comb for hair, a bed for sleep and a sun hat for a sunny day.",
+            "standard": "NHES.7.2.1",
+            "days": 2,
+            "source": "point:K:hygiene-habits"
+          },
+          {
+            "new": true,
+            "title": "Germ busters: scrub for 20 seconds, cough into your elbow",
+            "objective": "Children wash their hands with soap for 20 seconds (singing 'Happy Birthday' twice), cough and sneeze into their elbow, throw a used tissue in the trash, and tell when to wash: before eating, after using the toilet, after recess and after blowing their nose.",
+            "standard": "NHES.7.2.2",
+            "days": 2,
+            "source": "teacher-led",
+            "page": "Routine: the teacher puts a little washable glitter on two children's hands as pretend germs and the class watches a handshake and a shared ball spread it; then every child washes at the sink with soap for 20 seconds while the class sings 'Happy Birthday' twice, and practises the elbow cough and the tissue in the trash. Children color a four-picture strip 'When do I wash?' (before eating, after the toilet, after recess, after blowing my nose). Level 1: wash and cough with the teacher's help; level 2: show all the steps alone; level 3: teach the steps to a friend."
+          },
+          {
+            "new": true,
+            "title": "Everyday foods and sometimes foods",
+            "objective": "Children sort food pictures into everyday foods (fruits, vegetables, milk, water) and sometimes foods (cake, candy, cookies, soda), learn that sometimes foods are fine for special times, and choose an everyday snack for a class picnic.",
+            "standard": "NHES.5.2.4",
+            "days": 2,
+            "tool": "Sorting Hoops",
+            "source": "point:K:healthy-food"
+          },
+          {
+            "new": true,
+            "title": "Sleep and play help me grow",
+            "objective": "Children tell why their body needs a good night's sleep and active play every day (to grow, to learn and to feel happy), put a bedtime routine in order, and show three ways to move their body at recess.",
+            "standard": "NHES.1.2.5",
+            "days": 2,
+            "source": "new",
+            "page": "Rest and play page, all pictures: on the top half four bedtime pictures (a bath, putting on pajamas, brushing teeth, a story in bed) that the child cuts out and glues in order; on the bottom half six pictures of children moving or sitting (running, jumping rope, dancing, climbing, watching a screen, sitting on a bench) where the child circles the ways to play actively and colors the one they like best. Level 1: three bedtime pictures and circle one way to play; level 2: four bedtime pictures and every active way; level 3: the child also draws themself asleep with the moon in the window."
+          },
+          {
+            "new": true,
+            "title": "Trusted adults and safe places",
+            "objective": "Children name the trusted adults who keep them safe (family grown-ups, the teacher, the school nurse, the crossing guard, a police officer, a firefighter), learn to always check first with their grown-up before going anywhere with anyone, and draw the trusted adult and the safe place they would go to for help.",
+            "standard": "NHES.3.2.1",
+            "days": 2,
+            "source": "new",
+            "page": "Trusted adults page, all pictures: eight helpers drawn in uniform or at home (a mom or dad, a grandparent, the teacher, the school nurse, a crossing guard, a police officer, a firefighter, a store worker at the checkout) and three safe places (home, the school office, the store checkout). The child colors the helpers at school, draws a line from three helpers to where they would find them, and draws their own trusted adult in the empty frame. Level 1: color the helpers at school; level 2: color the helpers and draw the three lines; level 3: also draw their own trusted adult and the safe place where they would find them."
+          },
+          {
+            "new": true,
+            "title": "Crossing the street with a grown-up",
+            "objective": "Children read the traffic light and the walk signal (the walking person means walk, the hand means wait), practise the crossing steps (stop at the curb, look left, right and left again, then cross at the crosswalk holding a grown-up's hand) and act them out on a taped crosswalk in the gym or on the playground.",
+            "standard": "NHES.1.2.3",
+            "days": 2,
+            "source": "point:K:road-safety"
+          }
+        ]
+      }
+    ],
+    "totalDays": 28,
+    "leftOut": [],
+    "notCovered": []
+  },
+  "1": {
+    "nonTeachingWeeks": [
+      { "weeks": "1-2", "what": "Routines: the class rules, the calm-down corner, the morning feelings check-in and hand washing before lunch; the first school fire drill is practised with the whole school. No health unit yet." },
+      { "weeks": "10", "what": "End of the first quarter: report-card checks and family conferences; the health slot finishes pages and make-up checks." },
+      { "weeks": "17", "what": "The short week before winter break: no new health lesson; children share their drawings and the class safety posters." },
+      { "weeks": "20", "what": "Middle-of-year benchmark window in reading and math, which takes the health slot." },
+      { "weeks": "28", "what": "End of the third quarter: report-card checks and spring conferences." },
+      { "weeks": "34", "what": "End-of-year benchmark window in reading and math, which takes the health slot." },
+      { "weeks": "36", "what": "Last week of school: field day and the end-of-year celebration; no health lesson." }
+    ],
+    "units": [
+      {
+        "id": "new:g1-staying-safe",
+        "title": "Staying Safe and Getting Help",
+        "why": "Grade 1 opens with safety while the new routines form: careful listening first, then the road signs children pass on the way to school, fire safety and 911 during October's Fire Prevention Week, medicine safety, and what to do when something feels uncomfortable or unsafe.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Listen with your whole body",
+            "objective": "Children practise whole-body listening (eyes on the speaker, quiet hands and feet, ears open, a calm body), repeat back what a partner said, and use the skill to follow a safety direction the first time it is given.",
+            "standard": "NHES.4.2.2",
+            "days": 2,
+            "source": "teacher-led",
+            "page": "Routine: the teacher shows a whole-body listening picture card and reads a short story with one direction hidden in it for the class to catch; partners take turns telling about their weekend while the listener repeats one thing they heard; the class plays a 'Teacher says' game with safety directions (line up, freeze, walk to the door, hands to yourself). Level 1: point to each part of the listening card; level 2: repeat back one thing a partner said; level 3: ask the partner a question about it."
+          },
+          {
+            "new": true,
+            "title": "Road signs on the way to school",
+            "objective": "Children match the road signs they pass on the way to school (STOP, YIELD, a pedestrian crossing, a school zone, DO NOT ENTER, a traffic signal ahead) to what each one tells drivers and walkers, and point them out on a walk around the school block with the class.",
+            "standard": "NHES.1.2.3",
+            "days": 2,
+            "source": "point:1:road-signs"
+          },
+          {
+            "new": true,
+            "title": "Fire safety and calling 911",
+            "objective": "Children practise getting out and staying out, crawling low under smoke, stop, drop and roll, and going to the meeting place, tell what a smoke alarm sounds like, and learn when and how to call 911: only in a real emergency, saying their name and their address.",
+            "standard": "NHES.3.2.2",
+            "days": 2,
+            "source": "teacher-led",
+            "page": "Routine for Fire Prevention Week: the teacher plays a smoke-alarm beep, the class crawls low on the rug to the door, gets out and goes to the meeting place, and practises stop, drop and roll; the rule is said together: get out, stay out, never go back for a toy or a pet. Then a pretend phone: each child calls the teacher in the 911 role and says 'My name is ... I live at ...'. The class sorts picture cards into 'call 911' (a house fire, a person who is very sick and needs help right away) and 'not 911' (a lost toy, a small scrape to show a grown-up). Level 1: show the drill and say their name; level 2: also say their street address; level 3: tell why each card is or is not a 911 call."
+          },
+          {
+            "new": true,
+            "title": "Medicines only from a trusted adult",
+            "objective": "Children learn that medicines and vitamins help only when a trusted adult gives them and are never candy, circle the things they must ask a grown-up about before touching (pills, cough syrup, gummy vitamins, a spray cleaner), and practise saying 'I need to ask a grown-up first'.",
+            "standard": "NHES.5.2.2",
+            "days": 2,
+            "source": "new",
+            "page": "Ask-first page: eight pictures (a pill bottle, a bottle of cough syrup, gummy vitamins, a spray cleaner, a glass of water, an apple, a glass of milk, a sandwich). The child circles in red every thing only a trusted adult may give or use and colors the everyday foods and drinks. Level 1: six pictures; level 2: eight pictures, including the gummy vitamins that look like candy; level 3: the child also writes the sentence 'I ask a grown-up first.' under the page."
+          },
+          {
+            "new": true,
+            "title": "Say no, go away, tell a trusted adult",
+            "objective": "Children practise what to do when something feels uncomfortable or unsafe (say 'No!' in a strong voice, go away, tell a trusted adult) and act it out for calm playground scenes such as an older child pushing, a dare to climb the fence, or a grown-up they do not know asking them to leave the playground.",
+            "standard": "NHES.4.2.3",
+            "days": 2,
+            "source": "teacher-led",
+            "page": "Routine: the teacher teaches the three steps with hand signs (a flat hand for No, walking fingers for Go, a hand beside the mouth for Tell); small groups act out four calm scenes from picture cards and the class decides which trusted adult to tell in each place (the teacher, the recess aide, a parent at home). Level 1: say and sign the three steps; level 2: act out a scene with the steps; level 3: tell what to do if the first adult does not listen (keep telling until someone helps)."
+          }
+        ]
+      },
+      {
+        "id": "new:g1-healthy-habits-and-food",
+        "title": "Healthy Habits and Healthy Food",
+        "why": "Winter and spring turn to the body: the five MyPlate food groups and a balanced lunch, then one habit each child chooses and keeps for two weeks, helping a friend be healthy and the health helpers who look after us, so every child ends Grade 1 with one habit they keep on their own.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "MyPlate: the five food groups",
+            "objective": "Children sort food pictures into the five MyPlate food groups (fruits, vegetables, grains, protein foods and dairy) and find where each group sits on a MyPlate picture, with milk, yogurt and cheese in the dairy cup.",
+            "standard": "NHES.7.2.1",
+            "days": 2,
+            "tool": "Sorting Hoops",
+            "source": "point:1:food-groups"
+          },
+          {
+            "new": true,
+            "title": "Build a MyPlate lunch",
+            "objective": "Children find the times in a school day when they make a food or drink choice (breakfast, snack, lunch, a drink after recess) and build a lunch on a MyPlate picture with a food from each group and water or milk to drink.",
+            "standard": "NHES.5.2.1",
+            "days": 2,
+            "source": "new",
+            "page": "MyPlate lunch page: an empty plate divided like MyPlate into fruits, vegetables, grains and protein foods, with a cup beside it for dairy; the child glues one food from a strip of picture cards into each part, or draws it. A small clock strip at the top shows four times of the school day for the child to circle where they choose a food or a drink. Level 1: four parts with the group names and a picture hint in each; level 2: all five groups without hints; level 3: the child also writes the name of each food and circles water or milk as the drink."
+          },
+          {
+            "new": true,
+            "title": "Which habit will I grow?",
+            "objective": "Children check which healthy habits they already do every day (brushing teeth twice, washing hands, drinking water, moving their body, going to bed on time) and choose one habit to do more for the next two weeks.",
+            "standard": "NHES.6.2.1",
+            "days": 2,
+            "source": "new",
+            "page": "Habit check page: five habit pictures, each with a sun box beside it; the child colors the sun of every habit they did yesterday, then circles the one habit they will practise more and shows it to a grown-up at home. Level 1: three habits; level 2: five habits; level 3: the child also writes one sentence, 'I will ...', under the circled habit."
+          },
+          {
+            "new": true,
+            "title": "Brushing teeth, stopping germs and my habit chart",
+            "objective": "Children sort what happens before, during and after brushing teeth, choose the way that stops germs in each pair (a cough into the elbow, a tissue in the trash, their own cup, soap and water), and check off their chosen habit on a week chart at home for two weeks.",
+            "standard": "NHES.6.2.5",
+            "days": 2,
+            "source": "point:1:healthy-habits"
+          },
+          {
+            "new": true,
+            "title": "Helping a friend stay healthy",
+            "objective": "Children list ways to help a friend make healthy choices (a reminder to wash before lunch, an invitation to play, sharing a spot in the shade, getting a grown-up when a friend is hurt) and practise one kind reminder in a friendly voice.",
+            "standard": "NHES.8.2.2",
+            "days": 2,
+            "source": "teacher-led",
+            "page": "Routine: the class fills a chart 'How can I help a friend be healthy?' and the teacher sketches a quick picture beside each idea; pairs act out a kind reminder ('Let's wash our hands before lunch!') once in a bossy voice and once in a friendly voice, and the class says which one a friend would listen to. During the week each child draws one way they helped a friend on a sticky note for the chart. Level 1: copy a reminder from the chart; level 2: choose the right help for a new scene card; level 3: tell why a friendly voice works better than a bossy one."
+          },
+          {
+            "new": true,
+            "title": "Health helpers at school and in town",
+            "objective": "Children visit the school nurse's office, name the health helpers in town (doctor, dentist, pharmacist, firefighter, paramedic) and what each does, and practise asking their teacher to see the nurse when they feel sick or get hurt.",
+            "standard": "NHES.3.2.3",
+            "days": 2,
+            "source": "new",
+            "page": "Health helpers page: six helper pictures (the school nurse, a doctor, a dentist, a pharmacist, a firefighter, a paramedic beside an ambulance) and six places (the nurse's office, the doctor's office, the dental office, the pharmacy, the fire station, the hospital); the child draws a line from each helper to where they work. Level 1: three helpers and three places; level 2: all six; level 3: the child writes one sentence about how one helper keeps people healthy."
+          }
+        ]
+      }
+    ],
+    "totalDays": 28,
+    "leftOut": [],
+    "notCovered": []
+  },
+  "2": {
+    "nonTeachingWeeks": [
+      { "weeks": "1-2", "what": "Routines: the class rules, the calm-down corner, the morning feelings check-in and hand washing before lunch; the first school fire drill is practised with the whole school. No health unit yet." },
+      { "weeks": "10", "what": "End of the first quarter: report-card checks and family conferences; the health slot finishes pages and make-up checks." },
+      { "weeks": "17", "what": "The short week before winter break: no new health lesson; children share their goal charts so far." },
+      { "weeks": "20", "what": "Middle-of-year benchmark window in reading and math, which takes the health slot." },
+      { "weeks": "28", "what": "End of the third quarter: report-card checks and spring conferences." },
+      { "weeks": "34", "what": "End-of-year benchmark window in reading and math, which takes the health slot." },
+      { "weeks": "36", "what": "Last week of school: the class health posters are shared with a kindergarten class at field day; no health lesson." }
+    ],
+    "units": [
+      {
+        "id": "new:g2-healthy-choices",
+        "title": "Healthy Choices and Goals",
+        "why": "Grade 2 asks why: what being healthy means for body, feelings and friendships, why we keep our habits, who and what pushes our choices, when to see the nurse or the doctor, and each child sets, tracks and looks back on one health goal across the winter.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Healthy in body, feelings and friendships",
+            "objective": "Children sort healthy actions into three parts of being well (my body: sleep, food, moving; my feelings: calming down, talking about a worry; my friendships: playing fair, including others) and name one thing they already do for each part.",
+            "standard": "NHES.1.2.2",
+            "days": 2,
+            "tool": "Feelings Check-In",
+            "source": "new",
+            "page": "Wellness page: three columns headed by a body, a heart and two friends holding hands; the child cuts out nine action cards (a child asleep, a child eating an apple, a child riding a bike with a helmet, a child taking a deep breath, a child talking to a grown-up, a child drawing a happy picture, two children sharing, a child inviting another to play, children taking turns on a slide) and glues each under its part. Level 1: six cards with a picture and a word; level 2: all nine cards; level 3: the child writes one more action of their own under each part."
+          },
+          {
+            "new": true,
+            "title": "Why we do healthy habits",
+            "objective": "Children match each habit to what it protects (washing hands keeps germs away, brushing teeth twice a day keeps teeth strong and stops cavities, sleep rests the body and the brain, moving makes the heart and muscles strong, sunscreen and a hat keep skin from burning) and explain one habit in a full sentence.",
+            "standard": "NHES.1.2.4",
+            "days": 2,
+            "source": "point:2:healthy-habits-why"
+          },
+          {
+            "new": true,
+            "title": "Who and what influences my choices?",
+            "objective": "Children name the people and things that influence their health choices (family, friends, teachers, coaches, TV and videos, ads and packages) and decide for six everyday choices who or what influenced each one.",
+            "standard": "NHES.2.2.1",
+            "days": 2,
+            "source": "new",
+            "page": "Influence web page: the child draws themself in the middle circle; around it six bubbles with pictures (family, friends, teacher, coach, TV or videos, ads and packages). Six choice cards (eating carrots at dinner, wanting a cereal with a toy in the box, wearing a helmet, staying up late for a show, trying a new sport, drinking water after recess) are glued next to the bubble that influenced them. Level 1: three choices with picture clues; level 2: all six choices; level 3: the child writes one choice of their own and who influenced it."
+          },
+          {
+            "new": true,
+            "title": "What does this ad want me to do?",
+            "objective": "Children look at three pretend ads (a cereal, a fizzy drink, a fruit snack), find the trick each one uses (a cartoon character, a free prize, bright colors, 'everybody loves it'), and tell whether the ad says anything about keeping them healthy.",
+            "standard": "NHES.2.2.2",
+            "days": 2,
+            "source": "new",
+            "page": "Ad detective page: three pretend ads drawn on the page with no real brand (a cereal box with a cartoon tiger and a free toy, a fizzy drink with cheering children, a fruit snack in a rainbow pack); the child circles the trick on each ad, answers 'Does the ad tell me if it is healthy?' by circling yes or no, and draws an ad for an everyday food in the last box. Level 1: one ad, circle the trick; level 2: all three ads; level 3: the child also writes one sentence about what each ad wants them to do."
+          },
+          {
+            "new": true,
+            "title": "My health goal and my helper",
+            "objective": "Children choose one health goal (drink water at lunch, brush for two minutes, play actively every day, go to bed on time), write the steps they will take and the grown-up who will help, and track the goal at home on a two-week chart.",
+            "standard": "NHES.6.2.2",
+            "days": 2,
+            "source": "new",
+            "page": "Goal page: 'My goal is ...' with four goal pictures to circle or a line to write their own; three step boxes ('First I will ...', 'Every day I will ...', 'If I forget, I will ...'); a 'My helper' box to draw the grown-up who will help; and a 14-day strip with a sun to color on each day the goal is kept. Level 1: circle a goal picture and draw the helper; level 2: write the goal and two steps; level 3: write all three steps and one reason the goal matters."
+          },
+          {
+            "new": true,
+            "title": "When to see the nurse, doctor or dentist",
+            "objective": "Children sort situations into 'tell a grown-up and see the nurse, the doctor or the dentist' (a fever, a tooth that aches, an ear that hurts, a fall that still hurts the next day) and 'a grown-up can help me here' (a small scrape to wash and cover, feeling tired), and learn that checkups with the doctor and the dentist keep them well even when they are not sick.",
+            "standard": "NHES.1.2.7",
+            "days": 2,
+            "source": "new",
+            "page": "Getting-care page: eight situation pictures drawn without any wounds (a child with a thermometer, a child holding a cheek, a child holding an ear, a child sneezing, a child yawning, a small bandage on a knee, a child at a dental checkup, a child at a yearly doctor checkup); the child draws a line from each to 'see the nurse, doctor or dentist' or 'a grown-up at home can help', and circles the two checkups that happen even when we feel well. Level 1: four situations; level 2: all eight; level 3: the child writes who they would tell first for one situation."
+          },
+          {
+            "new": true,
+            "title": "How did my goal go?",
+            "objective": "Children count the days they kept their goal on the two-week chart, tell what helped and what got in the way, and decide whether to keep the goal, change it or choose a new one.",
+            "standard": "NHES.6.2.6",
+            "days": 2,
+            "source": "new",
+            "page": "Look-back page: the child counts the colored suns on their goal strip and writes the number, circles one of three faces for how it went, and finishes 'What helped me was ...' and 'Next I will ...' with a drawing or a sentence; a last box asks them to circle keep my goal, change my goal or choose a new goal. Level 1: count and circle a face; level 2: also finish one sentence; level 3: finish both sentences and write the new or changed goal."
+          }
+        ]
+      },
+      {
+        "id": "new:g2-safe-and-caring",
+        "title": "Safe Choices and Caring Friends",
+        "why": "Spring brings bikes, scooters, swimming and strong sun, so Grade 2 ends on safety: the kinds of road signs, thinking a safety choice through before acting, protecting their body from sun, heat and cold, and helping the whole school make a healthy choice.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Kinds of road signs and which one fits",
+            "objective": "Children sort road signs into rule signs and warning signs by their shape and color, read a situation and circle the sign that fits it, and tell what a walker or a bike rider should do at each sign.",
+            "standard": "NHES.1.2.3",
+            "days": 2,
+            "source": "point:2:road-signs"
+          },
+          {
+            "new": true,
+            "title": "Stop, think, choose: helmets and life jackets",
+            "objective": "Children use the stop, think, choose steps on bike, scooter and water choices (wear a helmet every time you ride, wear a life jacket on a boat, swim only when a grown-up is watching), telling for each choice what could happen and choosing the safe option.",
+            "standard": "NHES.5.2.3",
+            "days": 2,
+            "source": "new",
+            "page": "Choice page: four choice pairs drawn without any injuries (a child about to ride with the helmet on the handlebars or buckled on the head; a child at the pool edge with or without a grown-up watching; a boat ride with or without a life jacket; a scooter ride on the sidewalk or in the street). For each pair the child writes or draws what could happen next and circles the safe choice. Level 1: two pairs with picture answers; level 2: all four pairs; level 3: the child also writes the helmet rule: it sits low on the forehead, fits snug and is buckled."
+          },
+          {
+            "new": true,
+            "title": "Sun, heat and cold: dressing for the weather",
+            "objective": "Children tell how the sun, heat and cold affect their health and choose what protects them: sunscreen, a hat and shade on sunny days (even cool or cloudy ones), water on hot days, and a coat, hat and mittens on cold days.",
+            "standard": "NHES.1.2.6",
+            "days": 2,
+            "source": "new",
+            "page": "Weather-ready page: four weather pictures (a sunny beach, a hot playground, a cloudy spring day, a snowy day) and six things to protect us (sunscreen, a sun hat, a water bottle, a shade tree, a winter coat, mittens); the child draws a line from each weather to everything that protects them in it, some things fitting more than one weather. Level 1: two weathers and four things; level 2: all four weathers and six things; level 3: the child writes why sunscreen is needed on a cloudy day too."
+          },
+          {
+            "new": true,
+            "title": "Be a health helper: our class campaign",
+            "objective": "Children choose one healthy choice they want more people at school to make (wash hands before lunch, wear a helmet, drink water), make a poster with a picture, a short slogan and a reason, and share it with a kindergarten class.",
+            "standard": "NHES.8.2.3",
+            "days": 2,
+            "source": "new",
+            "page": "Poster page: a big frame for the picture, a line for a slogan ('Scrub for 20!'), a line for the reason, and a three-box checklist of a good health poster (one clear message, a picture that shows it, a reason). The class votes on its campaign and each child makes their own poster for it. Level 1: draw the picture and copy a class slogan; level 2: write their own slogan; level 3: add the reason and check all three boxes of the checklist."
+          }
+        ]
+      }
+    ],
+    "totalDays": 28,
+    "leftOut": [],
+    "notCovered": [
+      { "code": "NHES.2.2.3", "why": "With one 30-minute session a week, Grade 2 has room for two influence lessons and spends them on the influences on the child's own choices (NHES.2.2.1 family, friends and media; NHES.2.2.2 ads). How influences act on other people's health is the more abstract next step, which Grade 3 teaches in 'What sways my choices?' (NHES.2.5.2, influences on self and others)." },
+      { "code": "NHES.6.2.3", "why": "Practised but not the standard of its own lesson: the goal page of 'My health goal and my helper' (NHES.6.2.2) has a 'My helper' box, and Grade 1's habit chart is signed by a grown-up. One session a week cannot give each of the six goal-setting steps a lesson of its own; Grade 3 teaches the full plan with the people who help in 'My goal: plan it, track it, look back' (NHES.6.5.3)." },
+      { "code": "NHES.6.2.4", "why": "Practised but not the standard of its own lesson: the three step boxes on the goal page of 'My health goal and my helper' (NHES.6.2.2) are the actions that support the goal. One session a week cannot give each of the six goal-setting steps a lesson of its own; Grade 3 teaches the full action plan in 'My goal: plan it, track it, look back' (NHES.6.5.3)." }
+    ]
+  },
+  "3": {
+    "nonTeachingWeeks": [
+      { "weeks": "1-2", "what": "Routines: the class rules, the calm-down corner, the morning feelings check-in and the health notebook; the first school fire drill is practised with the whole school. No health unit yet." },
+      { "weeks": "10", "what": "End of the first quarter: report-card checks and family conferences; the health slot finishes pages and make-up checks." },
+      { "weeks": "17", "what": "The short week before winter break: no new health lesson; children share their goal plans." },
+      { "weeks": "20", "what": "Middle-of-year benchmark window in reading and math, which takes the health slot." },
+      { "weeks": "28", "what": "End of the third quarter: report-card checks and spring conferences." },
+      { "weeks": "30-31", "what": "The state reading and math tests: a review week and the test week take the health slot." },
+      { "weeks": "34", "what": "End-of-year benchmark window in reading and math, which takes the health slot." },
+      { "weeks": "36", "what": "Last week of school: field day and the end-of-year celebration; no health lesson." }
+    ],
+    "units": [
+      {
+        "id": "new:g3-healthy-body-healthy-choices",
+        "title": "Healthy Body, Healthy Choices",
+        "why": "Grade 3 is the first year of the 3-5 band of the standards, so children move from naming habits to explaining them: how germs spread, what a day of MyPlate meals looks like, why sleep, screens and an hour of play matter, what sways their choices, and how to plan and track a goal of their own.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "How germs spread and how we stop them",
+            "objective": "Children explain how germs spread (hands, coughs and sneezes, shared cups and door handles) and why each habit stops them: washing with soap for 20 seconds, coughing into the elbow, using their own cup, and staying home when they have a fever.",
+            "standard": "NHES.1.5.3",
+            "days": 2,
+            "source": "new",
+            "page": "Germ trip page: a six-frame comic of a pretend germ's trip (a sneeze into a hand, the hand on a door handle, a friend's hand on the handle, the friend's hand at their mouth, a shared water bottle, a second friend); the child circles each frame where a habit would stop the germ and writes the habit beside it. Level 1: three frames and habit cards to glue; level 2: all six frames, habits written; level 3: the child draws and writes a new ending in which the germ is stopped at the first frame."
+          },
+          {
+            "new": true,
+            "title": "Fuel for the day: MyPlate meals and drinks",
+            "objective": "Children plan a day of meals and snacks that uses all five MyPlate food groups, choose water and milk as everyday drinks and soda as a sometimes drink, and explain each choice in a sentence.",
+            "standard": "NHES.5.5.4",
+            "days": 2,
+            "source": "new",
+            "page": "Menu page: four boxes (breakfast, lunch, snack, dinner), each with a small five-group MyPlate checklist; the child writes or draws the foods in each box and checks the groups it uses, then marks each drink as an everyday or a sometimes drink. Level 1: lunch only, with picture cards to glue; level 2: the whole day; level 3: the child also finds the group missing from one meal and writes how to add it."
+          },
+          {
+            "new": true,
+            "title": "Sleep, screens and an hour of play",
+            "objective": "Children look at their own school day (how many hours they sleep, against the 9 to 12 hours children their age need; how long they spend on screens; whether they move for 60 minutes) and find one change that would help them feel rested and strong.",
+            "standard": "NHES.7.5.1",
+            "days": 2,
+            "source": "new",
+            "page": "My day strip page: a strip of the hours from waking up to waking up the next day; the child colors each hour of a usual school day in four colors (sleep, school, active play, screens) from a key, counts the hours of sleep and of active play, and compares them with the marks for 9 to 12 hours of sleep and 60 minutes of moving. Level 1: color sleep and active play only; level 2: all four colors and the two counts; level 3: the child writes one change and when they will try it."
+          },
+          {
+            "new": true,
+            "title": "What sways my choices?",
+            "objective": "Children work out how family, friends, ads and online videos influence their own health choices and their friends' (a friend who rides without a helmet, an ad for a sugary drink, a family that walks after dinner), and practise one way to make their own choice.",
+            "standard": "NHES.2.5.2",
+            "days": 2,
+            "source": "new",
+            "page": "Influence page: six short scenes, each in two or three sentences with a picture; for each the child names the influence, circles whether it pushes toward a healthy or a less healthy choice for them and for the friend in the scene, and writes what they could do. Level 1: three scenes with the answers to circle; level 2: all six scenes; level 3: the child writes about one influence they noticed this week and what they did about it."
+          },
+          {
+            "new": true,
+            "title": "My goal: plan it, track it, look back",
+            "objective": "Children set one health goal, write a plan with the steps, the things they need and the people who will help, track it for three weeks on a chart, and look back on what helped and what got in the way.",
+            "standard": "NHES.6.5.3",
+            "days": 2,
+            "source": "new",
+            "page": "Goal plan page: 'My goal', 'Why it matters', a three-step plan, 'What I need' and 'Who will help me' boxes, and a 21-day tracking chart; the second session uses the back of the page to count the days, finish 'What helped' and 'What got in the way', and choose to keep, change or finish the goal. Level 1: goal and two steps with sentence starters; level 2: the whole plan; level 3: the plan plus a backup step for a busy day."
+          }
+        ]
+      },
+      {
+        "id": "new:g3-safe-and-kind",
+        "title": "Safe, Kind and Ready to Help",
+        "why": "The second half of Grade 3 practises the communication skills of the 3-5 band (saying how you feel, working out a conflict, saying no), then plans a home fire escape with the family and ends with knowing which trusted adult or resource helps in which situation.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Big feelings: name it, calm it, say it",
+            "objective": "Children name a feeling and how strong it is, use a calm-down tool, and say it with an I-message ('I feel ... when ... I need ...'), knowing that every feeling is OK and that what we do with it is the choice.",
+            "standard": "NHES.4.5.1",
+            "days": 2,
+            "tool": "Feelings Check-In",
+            "source": "teacher-led",
+            "page": "Routine: the class names feelings on Feelings Check-In and rates them on a 1-to-5 feelings thermometer drawn on the board; the teacher models a calm breath and then an I-message; pairs practise I-messages for six situation cards (someone cut in line, a friend did not save me a seat, I lost my library book) and the class picks a calm-down tool for each. Level 1: name the feeling and its size; level 2: say a full I-message; level 3: help a partner find the words for theirs."
+          },
+          {
+            "new": true,
+            "title": "Working it out: solving a conflict",
+            "objective": "Children practise the steps of working out a conflict (cool down, each tell their side with an I-message, listen, think of solutions, choose one that is fair to both) and know when to get a grown-up instead.",
+            "standard": "NHES.4.5.6",
+            "days": 2,
+            "source": "teacher-led",
+            "page": "Routine: a talk-it-out mat on the floor shows the five steps; the teacher and a student model a disagreement over a ball; pairs walk the steps with scenario cards (two friends want the same swing, a friend keeps changing the rules of the game, someone laughed at a drawing) and the class collects fair solutions (take turns, share, play together, ask a grown-up). Level 1: follow the mat with the teacher; level 2: a pair works one card alone; level 3: coach another pair through the steps."
+          },
+          {
+            "new": true,
+            "title": "Saying no and walking away",
+            "objective": "Children practise refusal skills (say no clearly, give a reason, suggest something else, walk away and tell a trusted adult) for scenes such as a dare to ride without a helmet, a friend offering medicine that is not theirs, or a game that leaves someone out.",
+            "standard": "NHES.4.5.5",
+            "days": 2,
+            "source": "teacher-led",
+            "page": "Routine: the teacher models the four refusal moves with a strong, calm voice and body; small groups get one scene card each, plan a refusal and act it out twice (once giving a reason, once suggesting something else); the class names the trusted adult to tell afterwards. Level 1: say no and walk away; level 2: say no with a reason; level 3: say no, give a reason and suggest something else."
+          },
+          {
+            "new": true,
+            "title": "Our home fire escape plan",
+            "objective": "Children draw a map of their home with two ways out of every room and an outside meeting place, learn that a grown-up tests the smoke alarms every month, and practise the plan with their family at home.",
+            "standard": "NHES.7.5.2",
+            "days": 2,
+            "source": "new",
+            "page": "Escape plan page: a grid to draw the floor plan of their home; the child draws the rooms, marks two ways out of each room with arrows, draws the smoke alarms and the outside meeting place (a tree, a mailbox, a neighbor's porch), and takes home a family checklist (practise the plan twice a year, test the alarms every month with a grown-up, get out and stay out). Level 1: one room with two ways out and the meeting place; level 2: the whole home; level 3: add the date of the family practice and who tests the smoke alarms."
+          },
+          {
+            "new": true,
+            "title": "Who can help? Trusted adults and health resources",
+            "objective": "Children decide which trusted adult or resource fits each situation (the school nurse for a stomachache, the school counselor for a worry, a parent for a bad dream, a lifeguard at the pool, 911 for an emergency), practise asking clearly for help, and know to keep asking if the first adult cannot help.",
+            "standard": "NHES.3.5.1",
+            "days": 2,
+            "source": "new",
+            "page": "Help finder page: eight situation cards (a stomachache at school, a worry that will not go away, a bad dream, a friend who cannot swim well at the pool, a fire, being lost at the store, a classmate who is being left out, a headache at home) and six helpers (the school nurse, the counselor, a parent, a lifeguard, 911, a store worker at the checkout); the child draws a line from each situation to the best helper and writes what they would say. Level 1: four situations; level 2: all eight; level 3: also write who they would ask next if the first helper could not help."
+          }
+        ]
+      }
+    ],
+    "totalDays": 26,
+    "leftOut": [],
+    "notCovered": []
+  }
+}

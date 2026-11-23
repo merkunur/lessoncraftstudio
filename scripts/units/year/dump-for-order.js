@@ -32,7 +32,11 @@ const assetsFile = path.join(C, 'teaching-graph', 'assets', loc + '.json');
 const assets = fs.existsSync(assetsFile) ? readJson(assetsFile) : null;
 const live = units.units.filter((u) => u.status === 'live');
 const taught = new Set(live.flatMap((u) => u.lessons.map((l) => l.point)));
-const isSubject = (p) => (subject === 'math' ? p.subject === 'math' : (p.subject === 'literacy' || p.subject === 'ela'));
+// (Stage D, 2026-11-23) the content areas: science, social studies, health (with SEL) and thinking skills have no
+// live unit yet; their dump lists every point of the area by grade with its pages, and for science the grade's NGSS
+// performance expectations with the points the crosswalk ties to them
+const AREA = { science: ['science'], social: ['social'], health: ['health', 'sel'], thinking: ['thinking'] };
+const isSubject = (p) => (AREA[subject] ? AREA[subject].includes(p.subject) : subject === 'math' ? p.subject === 'math' : (p.subject === 'literacy' || p.subject === 'ela'));
 const GRADE = { en: { K: 'Kindergarten', 1: 'Grade 1', 2: 'Grade 2', 3: 'Grade 3' }, de: { 1: 'Klasse 1', 2: 'Klasse 2', 3: 'Klasse 3' }, sv: { K: 'Förskoleklass', 1: 'Årskurs 1', 2: 'Årskurs 2', 3: 'Årskurs 3' } }[loc] || {};
 // the frameworks that are the measure of a subject in a language with a band curriculum
 const BAND = { de: { math: ['kmk-mathematik'], literacy: ['kmk-deutsch'] }, sv: { math: ['lgr22-matematik', 'lgr22-forskoleklass'], literacy: ['lgr22-svenska', 'lgr22-forskoleklass'] } };
@@ -44,7 +48,41 @@ function pagesIn(p) {
 }
 
 const L = [];
-const grades = ['K', '1', '2', '3'].filter((g) => GRADE[g]).filter((g) => live.some((u) => String(u.grade) === g && u.subject === subject));
+if (AREA[subject]) {
+  const strings = readJson(path.join(REPO, 'scripts', 'worksheet-gen', 'i18n', 'strings.' + loc + '.json'));
+  const fw = readJson(path.join(C, 'curricula', loc, 'framework.json'));
+  const cw = readJson(path.join(C, 'curricula', loc, 'crosswalk.json')).points;
+  const rowsOf = new Map();
+  for (const [pid, v] of Object.entries(cw)) for (const r of (v.rows || [])) { if (!rowsOf.has(r.id)) rowsOf.set(r.id, []); rowsOf.get(r.id).push(pid + ' (' + r.rel + ')'); }
+  const lv = (a) => (a ? ['easy', 'core', 'hard'].filter((x, i) => a.p[i] > 0).join('/') + (a.set ? ', a Level Set' : ', single pages') + (a.s.some(Boolean) ? ', with a screen version' : '') : 'not published');
+  for (const g of ['K', '1', '2', '3'].filter((x) => GRADE[x])) {
+    const pts = pointList.filter((p) => p.grade === g && isSubject(p) && !taught.has(p.id));
+    L.push('# ' + GRADE[g] + ' ' + subject, '', '## Teaching points of the area that stand in no unit, with their worksheet types (title, instruction, levels published)', '');
+    for (const p of pts) {
+      L.push('### ' + p.id + ' [' + (p.code || 'no code') + '] ' + p.skill + (p.verdict === 'out-of-scope' ? ' (verdict: out of scope)' : ''));
+      const x = cw[p.id]; if (x) L.push('  standards: ' + (x.rows ? x.rows.map((r) => r.id + ' ' + r.rel).join(', ') : 'none: ' + x.none));
+      for (const t of p.types || []) { const s = strings[t] || {}; L.push('  - ' + t + ' "' + (s.title || '?') + '": ' + String(s.instruction || '').replace(/\s+/g, ' ').slice(0, 160) + ' [' + lv(assets && assets.types[t]) + ']'); }
+      for (const a of p.activities || []) L.push('  - screen activity ' + a + (assets && assets.activities[a] ? ' (live)' : ' (not live)'));
+      L.push('');
+    }
+    if (!pts.length) L.push('- none', '');
+    const BANDED = { social: ['c3', { K: 'K-2', 1: 'K-2', 2: 'K-2', 3: '3-5' }], health: ['nhes', { K: 'P-2', 1: 'P-2', 2: 'P-2', 3: '3-5' }] }[subject];
+    if (BANDED && (g === 'K' || g === '3')) {
+      const [f, bandOf] = BANDED; const b = bandOf[g];
+      const ins = fw.nodes.filter((n) => n.f === f && n.kind === 'standard' && n.grade === b);
+      L.push('## ' + (f === 'c3' ? 'C3 Framework, Dimension 2' : 'National Health Education Standards') + ', band ' + b + (b === '3-5' ? ' (Grade 3 is the first year of this band: teach what fits Grade 3)' : ' (every indicator is taught in Kindergarten, Grade 1 or Grade 2, or named in notCovered)') + ' (wording for your reference only), and the points tied to them', '');
+      for (const n of ins) L.push('- ' + n.id + ': ' + n.text + ' → ' + ((rowsOf.get(n.id) || []).join(', ') || 'NO POINT'));
+      L.push('');
+    }
+    if (subject === 'science') {
+      const pes = fw.nodes.filter((n) => n.f === 'ngss' && n.kind === 'standard' && (n.grade === g || (n.grade === 'K-2' && ['K', '1', '2'].includes(g)) || (n.grade === '3-5' && g === '3')));
+      L.push('## NGSS performance expectations of ' + GRADE[g] + ' (wording for your reference only; it is never printed), and the points tied to them', '');
+      for (const n of pes) L.push('- ' + n.id + ': ' + n.text + ' → ' + ((rowsOf.get(n.id) || []).join(', ') || 'NO POINT'));
+      L.push('');
+    }
+  }
+}
+const grades = AREA[subject] ? [] : ['K', '1', '2', '3'].filter((g) => GRADE[g]).filter((g) => live.some((u) => String(u.grade) === g && u.subject === subject));
 for (const g of grades) {
   const cell = map ? map.cells.find((c) => c.grade === g && c.subject === subject) : null;
   const mine = live.filter((u) => String(u.grade) === g && u.subject === subject);

@@ -5877,11 +5877,28 @@
    "by": "authored"
   },
   "K:birds-eye-view": {
-   "none": "Texas places this in its social studies TEKS, which this registry does not hold",
+   "rows": [
+    {
+     "id": "SS.K.3.C",
+     "rel": "prepares",
+     "grade": "K"
+    },
+    {
+     "id": "SS.1.4.A",
+     "rel": "prepares",
+     "grade": "1"
+    }
+   ],
    "by": "authored"
   },
   "K:family": {
-   "none": "Texas places this in its social studies TEKS, which this registry does not hold",
+   "rows": [
+    {
+     "id": "SS.K.10",
+     "rel": "prepares",
+     "grade": "K"
+    }
+   ],
    "by": "authored"
   },
   "K:transport-flying": {
@@ -5890,56 +5907,161 @@
      "id": "ELAR.K.3.C",
      "rel": "teaches",
      "grade": "K"
+    },
+    {
+     "id": "SS.K.13.D",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "SS.1.15.B",
+     "rel": "prepares",
+     "grade": "1"
     }
    ],
    "by": "authored"
   },
   "K:wants-needs": {
-   "none": "Texas places this in its social studies TEKS, which this registry does not hold",
+   "rows": [
+    {
+     "id": "SS.K.5.B",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "SS.K.5.A",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
    "by": "authored"
   },
   "K:community-helpers": {
-   "none": "Texas places this in its social studies TEKS, which this registry does not hold",
+   "rows": [
+    {
+     "id": "SS.K.6.A",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "SS.1.9.A",
+     "rel": "prepares",
+     "grade": "1"
+    }
+   ],
    "by": "authored"
   },
   "1:map-key": {
-   "none": "Texas places this in its social studies TEKS, which this registry does not hold",
+   "rows": [
+    {
+     "id": "SS.1.4.A",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "SS.2.3.A",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
    "by": "authored"
   },
   "1:family-generations": {
-   "none": "Texas places this in its social studies TEKS, which this registry does not hold",
+   "rows": [
+    {
+     "id": "SS.1.16.D",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
    "by": "authored"
   },
   "2:cardinal-directions": {
-   "none": "Texas places this in its social studies TEKS, which this registry does not hold",
+   "rows": [
+    {
+     "id": "SS.2.3.A",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "SS.1.3.B",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "SS.3.4.A",
+     "rel": "prepares",
+     "grade": "3"
+    }
+   ],
    "by": "authored"
   },
   "2:continents": {
-   "none": "Texas places this in its social studies TEKS, which this registry does not hold",
+   "rows": [
+    {
+     "id": "SS.2.4.A",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
    "by": "authored"
   },
   "2:family-relationships": {
-   "none": "Texas places this in its social studies TEKS, which this registry does not hold",
+   "none": "Texas names kinship only in kindergarten, as an example of how individuals differ (K.10); no grade 1-3 expectation lists family relationships.",
    "by": "authored"
   },
   "3:continents-oceans": {
-   "none": "Texas places this in its social studies TEKS, which this registry does not hold",
+   "rows": [
+    {
+     "id": "SS.2.4.A",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
    "by": "authored"
   },
   "K:healthy-food": {
-   "none": "Texas places this in its health TEKS, which this registry does not hold",
+   "rows": [
+    {
+     "id": "HE.K.6.D",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
    "by": "authored"
   },
   "K:hygiene-habits": {
-   "none": "Texas places this in its health TEKS, which this registry does not hold",
+   "rows": [
+    {
+     "id": "HE.K.2.B",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
    "by": "authored"
   },
   "K:road-safety": {
-   "none": "Texas places this in its health TEKS, which this registry does not hold",
+   "rows": [
+    {
+     "id": "HE.1.9.A",
+     "rel": "prepares",
+     "grade": "1"
+    },
+    {
+     "id": "HE.2.9",
+     "rel": "prepares",
+     "grade": "2"
+    }
+   ],
    "by": "authored"
   },
   "1:food-groups": {
    "rows": [
+    {
+     "id": "HE.1.6.C",
+     "rel": "teaches",
+     "grade": "1"
+    },
     {
      "id": "ELAR.1.3.D",
      "rel": "teaches",
@@ -5949,19 +6071,63 @@
    "by": "authored"
   },
   "1:healthy-habits": {
-   "none": "Texas places this in its health TEKS, which this registry does not hold",
+   "rows": [
+    {
+     "id": "HE.1.2.B",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "HE.1.2.C",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "HE.1.4.B",
+     "rel": "prepares",
+     "grade": "1"
+    }
+   ],
    "by": "authored"
   },
   "1:road-signs": {
-   "none": "Texas places this in its health TEKS, which this registry does not hold",
+   "rows": [
+    {
+     "id": "SS.1.10.B",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "HE.1.9.A",
+     "rel": "prepares",
+     "grade": "1"
+    }
+   ],
    "by": "authored"
   },
   "2:healthy-habits-why": {
-   "none": "Texas places this in its health TEKS, which this registry does not hold",
+   "rows": [
+    {
+     "id": "HE.2.2.C",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
    "by": "authored"
   },
   "2:road-signs": {
-   "none": "Texas places this in its health TEKS, which this registry does not hold",
+   "rows": [
+    {
+     "id": "HE.2.9",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "SS.1.10.B",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
    "by": "authored"
   },
   "K:how-to-draw": {
@@ -6072,6 +6238,16 @@
   },
   "K:feelings": {
    "rows": [
+    {
+     "id": "HE.K.3.A",
+     "rel": "teaches",
+     "grade": "K"
+    },
+    {
+     "id": "HE.1.3.G",
+     "rel": "teaches",
+     "grade": "1"
+    },
     {
      "id": "ELAR.1.1.E",
      "rel": "prepares",

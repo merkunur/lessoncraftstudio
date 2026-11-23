@@ -1818,20 +1818,28 @@
     {
      "id": "L.K.5.a",
      "rel": "teaches"
+    },
+    {
+     "id": "D2.Geo.7.K-2",
+     "rel": "prepares"
     }
    ],
-   "why": "No social studies standard exists here, but sorting transport into land, water and air is a category sort, which L.K.5.a asks for.",
-   "review": "review-ela-science"
+   "why": "Sorting pictures into land, water and air transport (and things that fly) is the category sort L.K.5.a asks for; knowing the ways people and goods travel prepares D2.Geo.7 (K-2), which asks why and how they move from place to place.",
+   "review": "review-d0-social-health"
   },
   "1:food-groups": {
    "rows": [
     {
      "id": "L.1.5.a",
      "rel": "teaches"
+    },
+    {
+     "id": "NHES.7.2.1",
+     "rel": "prepares"
     }
    ],
-   "why": "No health standard exists here, but sorting foods into groups is a category sort, which L.1.5.a asks for.",
-   "review": "review-ela-science"
+   "why": "Sorting foods into the four food groups is the category sort L.1.5.a asks for; knowing the groups prepares identifying the practice of eating from every group (NHES 7.2.1, PreK-2), which the page does not ask.",
+   "review": "review-d0-social-health"
   },
   "K:grid-copy": {
    "none": "Grid copying is a visual-spatial readiness skill; \"K.G\" is a mathematics strand and no ELA or NGSS standard asks for it.",
@@ -2127,6 +2135,220 @@
    ],
    "why": "The point carries 2.MD.A.4 for its page on measuring two objects and finding how much longer one is. Length Story Problems tells lengths in one unit that are put together, cut off and compared, with a bar model and an equation: word problems within 100 about lengths are 2.MD.B.5. Each lesson of a unit shows the one it teaches.",
    "review": "year-design 2026-11-14"
+  },
+  "K:birds-eye-view": {
+   "rows": [
+    {
+     "id": "D2.Geo.1.K-2",
+     "rel": "prepares"
+    },
+    {
+     "id": "D2.Geo.2.K-2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Matching a thing seen from the side to the same thing seen from above (and a room drawn from above) is the overhead view every map is made of; the child neither constructs a map nor uses one to describe a place, so the page prepares D2.Geo.1 and D2.Geo.2 (K-2).",
+   "review": "review-d0-social-health"
+  },
+  "K:family": {
+   "none": "The C3 Framework names no family members, kinship words or family tree in its K-2 indicators (civics, economics, geography, history).",
+   "why": "Family members and family words on a tree are family vocabulary; no K-2 indicator of the four disciplines asks for them, and forcing a history or civics code would misstate the page.",
+   "review": "review-d0-social-health"
+  },
+  "K:wants-needs": {
+   "rows": [
+    {
+     "id": "D2.Eco.1.K-2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Telling a need from a want is the step before D2.Eco.1 (K-2), which asks how scarcity makes people decide; the page sorts, it does not yet weigh a choice.",
+   "review": "review-d0-social-health"
+  },
+  "K:community-helpers": {
+   "rows": [
+    {
+     "id": "D2.Civ.2.K-2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Matching each helper to a tool names the work people do for a community; D2.Civ.2 (K-2) asks the child to explain how all people play important roles in it, which the page leads up to but does not ask.",
+   "review": "review-d0-social-health"
+  },
+  "1:map-key": {
+   "rows": [
+    {
+     "id": "D2.Geo.2.K-2",
+     "rel": "teaches"
+    },
+    {
+     "id": "D2.Geo.1.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding each key symbol on the map, counting it and following steps on a map use a map to describe a place (D2.Geo.2, K-2); the page where the child draws a map with its own key constructs one (D2.Geo.1, K-2).",
+   "review": "review-d0-social-health"
+  },
+  "1:family-generations": {
+   "rows": [
+    {
+     "id": "D2.His.1.K-2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Putting family words in order from the oldest generation to the youngest orders people in time, the step before the chronological sequence of events D2.His.1 (K-2) asks for; no K-2 indicator names a family tree.",
+   "review": "review-d0-social-health"
+  },
+  "2:cardinal-directions": {
+   "rows": [
+    {
+     "id": "D2.Geo.2.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Labeling north, east, south and west and using them to say which picture lies which way on a map is using a map to describe places and how they relate to each other (D2.Geo.2, K-2).",
+   "review": "review-d0-social-health"
+  },
+  "2:continents": {
+   "rows": [
+    {
+     "id": "D2.Geo.3.K-2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Labeling the continents on a world map is the map knowledge D2.Geo.3 (K-2) builds on; the indicator asks for the cultural and environmental characteristics of places, which the page does not.",
+   "review": "review-d0-social-health"
+  },
+  "2:family-relationships": {
+   "none": "The C3 Framework names no family relationships in its K-2 indicators (civics, economics, geography, history).",
+   "why": "Naming an aunt or a cousin from a riddle is family vocabulary; no K-2 indicator of the four disciplines asks for it.",
+   "review": "review-d0-social-health"
+  },
+  "3:continents-oceans": {
+   "rows": [
+    {
+     "id": "D2.Geo.2.3-5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Locating the continents and oceans on a world map is where D2.Geo.2 (3-5) starts; the indicator goes on to explain how those locations relate to environmental characteristics, which the page does not ask.",
+   "review": "review-d0-social-health"
+  },
+  "K:healthy-food": {
+   "rows": [
+    {
+     "id": "NHES.7.2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "NHES.5.2.4",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting foods into everyday and sometimes foods identifies a practice that supports health (NHES 7.2.1, PreK-2) and gives the child what NHES 5.2.4 asks next: choosing the option that supports health.",
+   "review": "review-d0-social-health"
+  },
+  "K:hygiene-habits": {
+   "rows": [
+    {
+     "id": "NHES.7.2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "NHES.1.2.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Matching each body-care job to its tool and putting the hand-washing steps in order identify practices that support health (NHES 7.2.1) and a way to prevent illness (NHES 1.2.3), PreK-2.",
+   "review": "review-d0-social-health"
+  },
+  "K:road-safety": {
+   "rows": [
+    {
+     "id": "NHES.1.2.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "NHES.7.2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "D2.Civ.3.K-2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Reading the traffic light and putting stop, look, listen, cross in order identify a way to prevent injury (NHES 1.2.3) and a safe practice (NHES 7.2.1), PreK-2; obeying the light is a rule outside school whose purpose D2.Civ.3 (K-2) asks the child to explain.",
+   "review": "review-d0-social-health"
+  },
+  "1:healthy-habits": {
+   "rows": [
+    {
+     "id": "NHES.7.2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "NHES.1.2.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "NHES.6.2.5",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Brushing at the right moments and choosing the way that stops germs identify healthy practices (NHES 7.2.1) and ways to prevent illness (NHES 1.2.3); checking off the habits done each day is the first step to taking action on a health goal (NHES 6.2.5), PreK-2.",
+   "review": "review-d0-social-health"
+  },
+  "1:road-signs": {
+   "rows": [
+    {
+     "id": "NHES.1.2.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "D2.Civ.3.K-2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Knowing what each road sign means identifies ways to prevent injury (NHES 1.2.3, PreK-2); a sign is a rule outside school, and explaining why it exists (D2.Civ.3, K-2) is the step after matching it to its meaning.",
+   "review": "review-d0-social-health"
+  },
+  "2:healthy-habits-why": {
+   "rows": [
+    {
+     "id": "NHES.1.2.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "NHES.1.2.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Matching each habit (washing hands, brushing teeth, sleep, moving, sun protection) to the reason we do it describes health-promoting behaviors (NHES 1.2.4) and the illnesses and injuries they prevent (NHES 1.2.3), PreK-2.",
+   "review": "review-d0-social-health"
+  },
+  "2:road-signs": {
+   "rows": [
+    {
+     "id": "NHES.1.2.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "D2.Civ.3.K-2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Choosing the sign that fits a situation identifies ways to prevent injury on the road (NHES 1.2.3, PreK-2); sorting signs by what they are for (warning, must-not, information) leads up to explaining the purposes of rules outside school (D2.Civ.3, K-2), which the page does not ask.",
+   "review": "review-d0-social-health"
+  },
+  "K:feelings": {
+   "rows": [
+    {
+     "id": "NHES.4.2.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Naming how I feel and matching faces to feeling words is expressing feelings, which NHES 4.2.1 (PreK-2) asks for; the C3 Framework holds no social-emotional indicator.",
+   "review": "review-d0-social-health"
   }
  }
 }

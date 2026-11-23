@@ -4668,12 +4668,23 @@
    "by": "review"
   },
   "K:birds-eye-view": {
-   "none": "the point names no standard of these documents (\"SS:maps\")",
-   "by": "code"
+   "rows": [
+    {
+     "id": "D2.Geo.1.K-2",
+     "rel": "prepares",
+     "grade": "K-2"
+    },
+    {
+     "id": "D2.Geo.2.K-2",
+     "rel": "prepares",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
   },
   "K:family": {
-   "none": "the point names no standard of these documents (\"SS:family\")",
-   "by": "code"
+   "none": "The C3 Framework names no family members, kinship words or family tree in its K-2 indicators (civics, economics, geography, history).",
+   "by": "review"
   },
   "K:transport-flying": {
    "rows": [
@@ -4681,53 +4692,143 @@
      "id": "L.K.5.a",
      "rel": "teaches",
      "grade": "K"
+    },
+    {
+     "id": "D2.Geo.7.K-2",
+     "rel": "prepares",
+     "grade": "K-2"
     }
    ],
    "by": "review"
   },
   "K:wants-needs": {
-   "none": "the point names no standard of these documents (\"SS:economics\")",
-   "by": "code"
+   "rows": [
+    {
+     "id": "D2.Eco.1.K-2",
+     "rel": "prepares",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
   },
   "K:community-helpers": {
-   "none": "the point names no standard of these documents (\"SS:community\")",
-   "by": "code"
+   "rows": [
+    {
+     "id": "D2.Civ.2.K-2",
+     "rel": "prepares",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
   },
   "1:map-key": {
-   "none": "the point names no standard of these documents (\"SS:maps\")",
-   "by": "code"
+   "rows": [
+    {
+     "id": "D2.Geo.2.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    },
+    {
+     "id": "D2.Geo.1.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
   },
   "1:family-generations": {
-   "none": "the point names no standard of these documents (\"SS:family\")",
-   "by": "code"
+   "rows": [
+    {
+     "id": "D2.His.1.K-2",
+     "rel": "prepares",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
   },
   "2:cardinal-directions": {
-   "none": "the point names no standard of these documents (\"SS:maps\")",
-   "by": "code"
+   "rows": [
+    {
+     "id": "D2.Geo.2.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
   },
   "2:continents": {
-   "none": "the point names no standard of these documents (\"SS:geography\")",
-   "by": "code"
+   "rows": [
+    {
+     "id": "D2.Geo.3.K-2",
+     "rel": "prepares",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
   },
   "2:family-relationships": {
-   "none": "the point names no standard of these documents (\"SS:family\")",
-   "by": "code"
+   "none": "The C3 Framework names no family relationships in its K-2 indicators (civics, economics, geography, history).",
+   "by": "review"
   },
   "3:continents-oceans": {
-   "none": "the point names no standard of these documents (\"SS:geography\")",
-   "by": "code"
+   "rows": [
+    {
+     "id": "D2.Geo.2.3-5",
+     "rel": "prepares",
+     "grade": "3-5"
+    }
+   ],
+   "by": "review"
   },
   "K:healthy-food": {
-   "none": "the point names no standard of these documents (\"HEALTH\")",
-   "by": "code"
+   "rows": [
+    {
+     "id": "NHES.7.2.1",
+     "rel": "teaches",
+     "grade": "P-2"
+    },
+    {
+     "id": "NHES.5.2.4",
+     "rel": "prepares",
+     "grade": "P-2"
+    }
+   ],
+   "by": "review"
   },
   "K:hygiene-habits": {
-   "none": "the point names no standard of these documents (\"HEALTH\")",
-   "by": "code"
+   "rows": [
+    {
+     "id": "NHES.7.2.1",
+     "rel": "teaches",
+     "grade": "P-2"
+    },
+    {
+     "id": "NHES.1.2.3",
+     "rel": "teaches",
+     "grade": "P-2"
+    }
+   ],
+   "by": "review"
   },
   "K:road-safety": {
-   "none": "the point names no standard of these documents (\"SS:road-safety\")",
-   "by": "code"
+   "rows": [
+    {
+     "id": "NHES.1.2.3",
+     "rel": "teaches",
+     "grade": "P-2"
+    },
+    {
+     "id": "NHES.7.2.1",
+     "rel": "teaches",
+     "grade": "P-2"
+    },
+    {
+     "id": "D2.Civ.3.K-2",
+     "rel": "prepares",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
   },
   "1:food-groups": {
    "rows": [
@@ -4735,25 +4836,79 @@
      "id": "L.1.5.a",
      "rel": "teaches",
      "grade": "1"
+    },
+    {
+     "id": "NHES.7.2.1",
+     "rel": "prepares",
+     "grade": "P-2"
     }
    ],
    "by": "review"
   },
   "1:healthy-habits": {
-   "none": "the point names no standard of these documents (\"HEALTH:hygiene\")",
-   "by": "code"
+   "rows": [
+    {
+     "id": "NHES.7.2.1",
+     "rel": "teaches",
+     "grade": "P-2"
+    },
+    {
+     "id": "NHES.1.2.3",
+     "rel": "teaches",
+     "grade": "P-2"
+    },
+    {
+     "id": "NHES.6.2.5",
+     "rel": "prepares",
+     "grade": "P-2"
+    }
+   ],
+   "by": "review"
   },
   "1:road-signs": {
-   "none": "the point names no standard of these documents (\"SS:road-safety\")",
-   "by": "code"
+   "rows": [
+    {
+     "id": "NHES.1.2.3",
+     "rel": "teaches",
+     "grade": "P-2"
+    },
+    {
+     "id": "D2.Civ.3.K-2",
+     "rel": "prepares",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
   },
   "2:healthy-habits-why": {
-   "none": "the point names no standard of these documents (\"HEALTH\")",
-   "by": "code"
+   "rows": [
+    {
+     "id": "NHES.1.2.4",
+     "rel": "teaches",
+     "grade": "P-2"
+    },
+    {
+     "id": "NHES.1.2.3",
+     "rel": "teaches",
+     "grade": "P-2"
+    }
+   ],
+   "by": "review"
   },
   "2:road-signs": {
-   "none": "the point names no standard of these documents (\"SS:road-safety\")",
-   "by": "code"
+   "rows": [
+    {
+     "id": "NHES.1.2.3",
+     "rel": "teaches",
+     "grade": "P-2"
+    },
+    {
+     "id": "D2.Civ.3.K-2",
+     "rel": "prepares",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
   },
   "K:how-to-draw": {
    "none": "the point names no standard of these documents (\"readiness: art / fine motor\")",
@@ -4855,8 +5010,14 @@
    "by": "code"
   },
   "K:feelings": {
-   "none": "the point names no standard of these documents (\"SEL\")",
-   "by": "code"
+   "rows": [
+    {
+     "id": "NHES.4.2.1",
+     "rel": "teaches",
+     "grade": "P-2"
+    }
+   ],
+   "by": "review"
   }
  }
 }

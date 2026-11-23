@@ -47,6 +47,39 @@
    "rights": "© Copyright 2013 Achieve, Inc. All rights reserved.",
    "citation": "NGSS Lead States. 2013. Next Generation Science Standards: For States, By States. Washington, DC: The National Academies Press.",
    "checkedAgainstPdf": "the official PDF was not present at build time"
+  },
+  {
+   "key": "c3",
+   "short": "C3 Framework",
+   "subject": "social",
+   "title": "College, Career, and Civic Life (C3) Framework for Social Studies State Standards",
+   "publisher": "National Council for the Social Studies, Silver Spring, MD",
+   "year": "2017",
+   "officialDocument": "http://www.socialstudies.org/system/files/c3/C3-Framework-for-Social-Studies.pdf",
+   "readFrom": "https://asn.desire2learn.com/resources/D2607350_full.json",
+   "accessed": "2026-11-23",
+   "sha256": "75ad19e0edb888d61fc508c254992ed8250a13c9f9810305f3311e079f944888",
+   "rights": "The text of the document, and/or excerpts from it, may be freely reproduced. There is no need to apply to National Council for the Social Studies for permission to reproduce the text or excerpts.",
+   "citation": "National Council for the Social Studies. 2017. College, Career, and Civic Life (C3) Framework for Social Studies State Standards.",
+   "edition": "the version of 2017 (the year the copy gives; the framework was first published in 2013)",
+   "leftOut": "13 places where the document prints \"Begins in grades …\" instead of an indicator are not nodes",
+   "checkedAgainstPdf": "not checked against the official PDF: the publisher's site (socialstudies.org) answers every automated request, the PDF the copy names included, with HTTP 403 (a browser check). The wording is the machine-readable copy's, which names that PDF as its source and marks every statement \"Original\"."
+  },
+  {
+   "key": "nhes",
+   "short": "NHES",
+   "subject": "health",
+   "title": "National Health Education Standards",
+   "publisher": "SHAPE America",
+   "year": "2024",
+   "officialDocument": "https://shapeamerica.org/standards/health/new-he-standards/",
+   "readFrom": "https://asn.desire2learn.com/resources/D21703172_full.json",
+   "accessed": "2026-11-23",
+   "sha256": "d91644fc4286ed858c637e5301182ebc33f2e8d2e7e2be4596937064ef809c11",
+   "citation": "SHAPE America. 2024. National Health Education Standards.",
+   "edition": "2024 edition (the third), which replaces the 2007 second edition published by the CDC; the publisher's page lists the 2007 standards as the previous ones",
+   "officialPageSha256": "365e04467ddb675096559721927ef270ef759e75cc21f1d06b90a7514c6dc0e8",
+   "checkedAgainstPage": "72 of 72 indicators found on the publisher's page with the same code and the same wording; the page prints no other indicator of these bands"
   }
  ],
  "nodes": [
@@ -6738,6 +6771,1814 @@
    "kind": "standard",
    "grade": "5",
    "text": "Use models to describe that energy in animals' food (used for body repair, growth, motion, and to maintain body warmth) was once energy from the sun."
+  },
+  {
+   "id": "D2.Civ.K-2",
+   "f": "c3",
+   "kind": "area",
+   "grade": "K-2",
+   "text": "Civics"
+  },
+  {
+   "id": "D2.Civ.1-6.K-2",
+   "f": "c3",
+   "kind": "subarea",
+   "grade": "K-2",
+   "parent": "D2.Civ.K-2",
+   "text": "Civic and Political Institutions"
+  },
+  {
+   "id": "D2.Civ.1.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Civ.1-6.K-2",
+   "text": "Describe roles and responsibilities of people in authority."
+  },
+  {
+   "id": "D2.Civ.2.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Civ.1-6.K-2",
+   "text": "Explain how all people, not just official leaders, play important roles in a community."
+  },
+  {
+   "id": "D2.Civ.3.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Civ.1-6.K-2",
+   "text": "Explain the need for and purposes of rules in various settings inside and outside of school."
+  },
+  {
+   "id": "D2.Civ.5.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Civ.1-6.K-2",
+   "text": "Explain what governments are and some of their functions."
+  },
+  {
+   "id": "D2.Civ.6.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Civ.1-6.K-2",
+   "text": "Describe how communities work to accomplish common tasks, establish responsibilities, and fulfill roles of authority."
+  },
+  {
+   "id": "D2.Civ.7-10.K-2",
+   "f": "c3",
+   "kind": "subarea",
+   "grade": "K-2",
+   "parent": "D2.Civ.K-2",
+   "text": "Participation and Deliberation: Applying Civic Virtues and Democratic Principles"
+  },
+  {
+   "id": "D2.Civ.7.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Civ.7-10.K-2",
+   "text": "Apply civic virtues when participating in school settings."
+  },
+  {
+   "id": "D2.Civ.8.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Civ.7-10.K-2",
+   "text": "Describe democratic principles such as equality, fairness, and respect for legitimate authority and rules."
+  },
+  {
+   "id": "D2.Civ.9.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Civ.7-10.K-2",
+   "text": "Follow agreed-upon rules for discussions while responding attentively to others when addressing ideas and making decisions as a group."
+  },
+  {
+   "id": "D2.Civ.10.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Civ.7-10.K-2",
+   "text": "Compare their own point of view with others' perspectives."
+  },
+  {
+   "id": "D2.Civ.11-14.K-2",
+   "f": "c3",
+   "kind": "subarea",
+   "grade": "K-2",
+   "parent": "D2.Civ.K-2",
+   "text": "Processes, Rules, and Laws"
+  },
+  {
+   "id": "D2.Civ.11.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Civ.11-14.K-2",
+   "text": "Explain how people can work together to make decisions in the classroom."
+  },
+  {
+   "id": "D2.Civ.12.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Civ.11-14.K-2",
+   "text": "Identify and explain how rules function in public (classroom and school) settings."
+  },
+  {
+   "id": "D2.Civ.14.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Civ.11-14.K-2",
+   "text": "Describe how people have tried to improve their communities over time."
+  },
+  {
+   "id": "D2.Eco.K-2",
+   "f": "c3",
+   "kind": "area",
+   "grade": "K-2",
+   "text": "Economics"
+  },
+  {
+   "id": "D2.Eco.1-2.K-2",
+   "f": "c3",
+   "kind": "subarea",
+   "grade": "K-2",
+   "parent": "D2.Eco.K-2",
+   "text": "Economic Decision Making"
+  },
+  {
+   "id": "D2.Eco.1.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Eco.1-2.K-2",
+   "text": "Explain how scarcity necessitates decision making."
+  },
+  {
+   "id": "D2.Eco.2.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Eco.1-2.K-2",
+   "text": "Identify the benefits and costs of making various personal decisions."
+  },
+  {
+   "id": "D2.Eco.3-9.K-2",
+   "f": "c3",
+   "kind": "subarea",
+   "grade": "K-2",
+   "parent": "D2.Eco.K-2",
+   "text": "Exchange and Markets"
+  },
+  {
+   "id": "D2.Eco.3.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Eco.3-9.K-2",
+   "text": "Describe the skills and knowledge required to produce certain goods and services."
+  },
+  {
+   "id": "D2.Eco.4.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Eco.3-9.K-2",
+   "text": "Describe the goods and services that people in the local community produce and those that are produced in other communities."
+  },
+  {
+   "id": "D2.Eco.5.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Eco.3-9.K-2",
+   "text": "Identify prices of products in a local market."
+  },
+  {
+   "id": "D2.Eco.6.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Eco.3-9.K-2",
+   "text": "Explain how people earn income."
+  },
+  {
+   "id": "D2.Eco.7.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Eco.3-9.K-2",
+   "text": "Describe examples of costs of production."
+  },
+  {
+   "id": "D2.Eco.9.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Eco.3-9.K-2",
+   "text": "Describe the role of banks in an economy."
+  },
+  {
+   "id": "D2.Eco.10-13.K-2",
+   "f": "c3",
+   "kind": "subarea",
+   "grade": "K-2",
+   "parent": "D2.Eco.K-2",
+   "text": "The National Economy"
+  },
+  {
+   "id": "D2.Eco.10.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Eco.10-13.K-2",
+   "text": "Explain why people save."
+  },
+  {
+   "id": "D2.Eco.12.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Eco.10-13.K-2",
+   "text": "Describe examples of the goods and services that governments provide."
+  },
+  {
+   "id": "D2.Eco.13.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Eco.10-13.K-2",
+   "text": "Describe examples of capital goods and human capital."
+  },
+  {
+   "id": "D2.Eco.14-15.K-2",
+   "f": "c3",
+   "kind": "subarea",
+   "grade": "K-2",
+   "parent": "D2.Eco.K-2",
+   "text": "The Global Economy"
+  },
+  {
+   "id": "D2.Eco.14.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Eco.14-15.K-2",
+   "text": "Describe why people in one country trade goods and services with people in other countries."
+  },
+  {
+   "id": "D2.Eco.15.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Eco.14-15.K-2",
+   "text": "Describe products that are produced abroad and sold domestically and products that are produced domestically and sold abroad."
+  },
+  {
+   "id": "D2.Geo.K-2",
+   "f": "c3",
+   "kind": "area",
+   "grade": "K-2",
+   "text": "Geography"
+  },
+  {
+   "id": "D2.Geo.1-3.K-2",
+   "f": "c3",
+   "kind": "subarea",
+   "grade": "K-2",
+   "parent": "D2.Geo.K-2",
+   "text": "Geographic Representations: Spatial Views of the World"
+  },
+  {
+   "id": "D2.Geo.1.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Geo.1-3.K-2",
+   "text": "Construct maps, graphs, and other representations of familiar places."
+  },
+  {
+   "id": "D2.Geo.2.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Geo.1-3.K-2",
+   "text": "Use maps, graphs, photographs, and other representations to describe places and the relationships and interactions that shape them."
+  },
+  {
+   "id": "D2.Geo.3.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Geo.1-3.K-2",
+   "text": "Use maps, globes, and other simple geographic models to identify cultural and environmental characteristics of places."
+  },
+  {
+   "id": "D2.Geo.4-6.K-2",
+   "f": "c3",
+   "kind": "subarea",
+   "grade": "K-2",
+   "parent": "D2.Geo.K-2",
+   "text": "Human-Environment Interaction: Place, Regions, and Culture"
+  },
+  {
+   "id": "D2.Geo.4.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Geo.4-6.K-2",
+   "text": "Explain how weather, climate, and other environmental characteristics affect people's lives in a place or region."
+  },
+  {
+   "id": "D2.Geo.5.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Geo.4-6.K-2",
+   "text": "Describe how human activities affect the cultural and environmental characteristics of places or regions."
+  },
+  {
+   "id": "D2.Geo.6.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Geo.4-6.K-2",
+   "text": "Identify some cultural and environmental characteristics of specific places."
+  },
+  {
+   "id": "D2.Geo.7-9.K-2",
+   "f": "c3",
+   "kind": "subarea",
+   "grade": "K-2",
+   "parent": "D2.Geo.K-2",
+   "text": "Human Population: Spatial Patterns and Movements"
+  },
+  {
+   "id": "D2.Geo.7.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Geo.7-9.K-2",
+   "text": "Explain why and how people, goods, and ideas move from place to place."
+  },
+  {
+   "id": "D2.Geo.8.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Geo.7-9.K-2",
+   "text": "Compare how people in different types of communities use local and distant environments to meet their daily needs."
+  },
+  {
+   "id": "D2.Geo.9.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Geo.7-9.K-2",
+   "text": "Describe the connections between the physical environment of a place and the economic activities found there."
+  },
+  {
+   "id": "D2.Geo.10-12.K-2",
+   "f": "c3",
+   "kind": "subarea",
+   "grade": "K-2",
+   "parent": "D2.Geo.K-2",
+   "text": "Global Interconnections: Changing Spatial Patterns"
+  },
+  {
+   "id": "D2.Geo.10.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Geo.10-12.K-2",
+   "text": "Describe changes in the physical and cultural characteristics of various world regions."
+  },
+  {
+   "id": "D2.Geo.11.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Geo.10-12.K-2",
+   "text": "Explain how the consumption of products connects people to distant places."
+  },
+  {
+   "id": "D2.Geo.12.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.Geo.10-12.K-2",
+   "text": "Identify ways that a catastrophic disaster may affect people living in a place."
+  },
+  {
+   "id": "D2.His.K-2",
+   "f": "c3",
+   "kind": "area",
+   "grade": "K-2",
+   "text": "History"
+  },
+  {
+   "id": "D2.His.1-3.K-2",
+   "f": "c3",
+   "kind": "subarea",
+   "grade": "K-2",
+   "parent": "D2.His.K-2",
+   "text": "Change, Continuity, and Context"
+  },
+  {
+   "id": "D2.His.1.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.His.1-3.K-2",
+   "text": "Create a chronological sequence of multiple events."
+  },
+  {
+   "id": "D2.His.2.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.His.1-3.K-2",
+   "text": "Compare life in the past to life today."
+  },
+  {
+   "id": "D2.His.3.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.His.1-3.K-2",
+   "text": "Generate questions about individuals and groups who have shaped a significant historical change."
+  },
+  {
+   "id": "D2.His.4-8.K-2",
+   "f": "c3",
+   "kind": "subarea",
+   "grade": "K-2",
+   "parent": "D2.His.K-2",
+   "text": "Perspectives"
+  },
+  {
+   "id": "D2.His.4.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.His.4-8.K-2",
+   "text": "Compare perspectives of people in the past to those of people in the present."
+  },
+  {
+   "id": "D2.His.6.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.His.4-8.K-2",
+   "text": "Compare different accounts of the same historical event."
+  },
+  {
+   "id": "D2.His.9-13.K-2",
+   "f": "c3",
+   "kind": "subarea",
+   "grade": "K-2",
+   "parent": "D2.His.K-2",
+   "text": "Historical Sources and Evidence"
+  },
+  {
+   "id": "D2.His.9.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.His.9-13.K-2",
+   "text": "Identify different kinds of historical sources."
+  },
+  {
+   "id": "D2.His.10.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.His.9-13.K-2",
+   "text": "Explain how historical sources can be used to study the past."
+  },
+  {
+   "id": "D2.His.11.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.His.9-13.K-2",
+   "text": "Identify the maker, date, and place of origin for a historical source from information within the source itself."
+  },
+  {
+   "id": "D2.His.12.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.His.9-13.K-2",
+   "text": "Generate questions about a particular historical source as it relates to a particular historical event or development."
+  },
+  {
+   "id": "D2.His.14-17.K-2",
+   "f": "c3",
+   "kind": "subarea",
+   "grade": "K-2",
+   "parent": "D2.His.K-2",
+   "text": "Causation and Argumentation"
+  },
+  {
+   "id": "D2.His.14.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.His.14-17.K-2",
+   "text": "Generate possible reasons for an event or development in the past."
+  },
+  {
+   "id": "D2.His.16.K-2",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "K-2",
+   "parent": "D2.His.14-17.K-2",
+   "text": "Select which reasons might be more likely than others to explain a historical event or development."
+  },
+  {
+   "id": "D2.Civ.3-5",
+   "f": "c3",
+   "kind": "area",
+   "grade": "3-5",
+   "text": "Civics"
+  },
+  {
+   "id": "D2.Civ.1-6.3-5",
+   "f": "c3",
+   "kind": "subarea",
+   "grade": "3-5",
+   "parent": "D2.Civ.3-5",
+   "text": "Civic and Political Institutions"
+  },
+  {
+   "id": "D2.Civ.1.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Civ.1-6.3-5",
+   "text": "Distinguish the responsibilities and powers of government officials at various levels and branches of government and in different times and places."
+  },
+  {
+   "id": "D2.Civ.2.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Civ.1-6.3-5",
+   "text": "Explain how a democracy relies on people's responsible participation, and draw implications for how individuals should participate."
+  },
+  {
+   "id": "D2.Civ.3.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Civ.1-6.3-5",
+   "text": "Examine the origins and purposes of rules, laws, and key U.S. constitutional provisions."
+  },
+  {
+   "id": "D2.Civ.4.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Civ.1-6.3-5",
+   "text": "Explain how groups of people make rules to create responsibilities and protect freedoms."
+  },
+  {
+   "id": "D2.Civ.5.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Civ.1-6.3-5",
+   "text": "Explain the origins, functions, and structure of different systems of government, including those created by the U.S. and state constitutions."
+  },
+  {
+   "id": "D2.Civ.6.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Civ.1-6.3-5",
+   "text": "Describe ways in which people benefit from and are challenged by working together, including through government, workplaces, voluntary organizations, and families."
+  },
+  {
+   "id": "D2.Civ.7-10.3-5",
+   "f": "c3",
+   "kind": "subarea",
+   "grade": "3-5",
+   "parent": "D2.Civ.3-5",
+   "text": "Participation and Deliberation: Applying Civic Virtues and Democratic Principles"
+  },
+  {
+   "id": "D2.Civ.7.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Civ.7-10.3-5",
+   "text": "Apply civic virtues and democratic principles in school settings."
+  },
+  {
+   "id": "D2.Civ.8.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Civ.7-10.3-5",
+   "text": "Identify core civic virtues and democratic principles that guide government, society, and communities."
+  },
+  {
+   "id": "D2.Civ.9.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Civ.7-10.3-5",
+   "text": "Use deliberative processes when making decisions or reaching judgments as a group."
+  },
+  {
+   "id": "D2.Civ.10.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Civ.7-10.3-5",
+   "text": "Identify the beliefs, experiences, perspectives, and values that underlie their own and others' points of view about civic issues."
+  },
+  {
+   "id": "D2.Civ.11-14.3-5",
+   "f": "c3",
+   "kind": "subarea",
+   "grade": "3-5",
+   "parent": "D2.Civ.3-5",
+   "text": "Processes, Rules, and Laws"
+  },
+  {
+   "id": "D2.Civ.11.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Civ.11-14.3-5",
+   "text": "Compare procedures for making decisions in a variety of settings, including classroom, school, government, and/or society."
+  },
+  {
+   "id": "D2.Civ.12.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Civ.11-14.3-5",
+   "text": "Explain how rules and laws change society and how people change rules and laws."
+  },
+  {
+   "id": "D2.Civ.13.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Civ.11-14.3-5",
+   "text": "Explain how policies are developed to address public problems."
+  },
+  {
+   "id": "D2.Civ.14.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Civ.11-14.3-5",
+   "text": "Illustrate historical and contemporary means of changing society."
+  },
+  {
+   "id": "D2.Eco.3-5",
+   "f": "c3",
+   "kind": "area",
+   "grade": "3-5",
+   "text": "Economics"
+  },
+  {
+   "id": "D2.Eco.1-2.3-5",
+   "f": "c3",
+   "kind": "subarea",
+   "grade": "3-5",
+   "parent": "D2.Eco.3-5",
+   "text": "Economic Decision Making"
+  },
+  {
+   "id": "D2.Eco.1.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Eco.1-2.3-5",
+   "text": "Compare the benefits and costs of individual choices."
+  },
+  {
+   "id": "D2.Eco.2.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Eco.1-2.3-5",
+   "text": "Identify positive and negative incentives that influence the decisions people make."
+  },
+  {
+   "id": "D2.Eco.3-9.3-5",
+   "f": "c3",
+   "kind": "subarea",
+   "grade": "3-5",
+   "parent": "D2.Eco.3-5",
+   "text": "Exchange and Markets"
+  },
+  {
+   "id": "D2.Eco.3.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Eco.3-9.3-5",
+   "text": "Identify examples of the variety of resources (human capital, physical capital, and natural resources) that are used to produce goods and services."
+  },
+  {
+   "id": "D2.Eco.4.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Eco.3-9.3-5",
+   "text": "Explain why individuals and businesses specialize and trade."
+  },
+  {
+   "id": "D2.Eco.5.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Eco.3-9.3-5",
+   "text": "Explain the role of money in making exchange easier"
+  },
+  {
+   "id": "D2.Eco.6.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Eco.3-9.3-5",
+   "text": "Explain the relationship between investment in human capital, productivity, and future incomes."
+  },
+  {
+   "id": "D2.Eco.7.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Eco.3-9.3-5",
+   "text": "Explain how profits influence sellers in markets."
+  },
+  {
+   "id": "D2.Eco.8.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Eco.3-9.3-5",
+   "text": "Identify examples of external benefits and costs."
+  },
+  {
+   "id": "D2.Eco.9.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Eco.3-9.3-5",
+   "text": "Describe the role of other financial institutions in an economy."
+  },
+  {
+   "id": "D2.Eco.10-13.3-5",
+   "f": "c3",
+   "kind": "subarea",
+   "grade": "3-5",
+   "parent": "D2.Eco.3-5",
+   "text": "The National Economy"
+  },
+  {
+   "id": "D2.Eco.10.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Eco.10-13.3-5",
+   "text": "Explain what interest rates are."
+  },
+  {
+   "id": "D2.Eco.11.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Eco.10-13.3-5",
+   "text": "Explain the meaning of inflation, deflation, and unemployment."
+  },
+  {
+   "id": "D2.Eco.12.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Eco.10-13.3-5",
+   "text": "Explain the ways in which the government pays for the goods and services it provides."
+  },
+  {
+   "id": "D2.Eco.13.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Eco.10-13.3-5",
+   "text": "Describe ways people can increase productivity by using improved capital goods and improving their human capital."
+  },
+  {
+   "id": "D2.Eco.14-15.3-5",
+   "f": "c3",
+   "kind": "subarea",
+   "grade": "3-5",
+   "parent": "D2.Eco.3-5",
+   "text": "The Global Economy"
+  },
+  {
+   "id": "D2.Eco.14.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Eco.14-15.3-5",
+   "text": "Explain how trade leads to increasing economic interdependence among nations."
+  },
+  {
+   "id": "D2.Eco.15.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Eco.14-15.3-5",
+   "text": "Explain the effects of increasing economic interdependence on different groups within participating nations."
+  },
+  {
+   "id": "D2.Geo.3-5",
+   "f": "c3",
+   "kind": "area",
+   "grade": "3-5",
+   "text": "Geography"
+  },
+  {
+   "id": "D2.Geo.1-3.3-5",
+   "f": "c3",
+   "kind": "subarea",
+   "grade": "3-5",
+   "parent": "D2.Geo.3-5",
+   "text": "Geographic Representations: Spatial Views of the World"
+  },
+  {
+   "id": "D2.Geo.1.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Geo.1-3.3-5",
+   "text": "Construct maps and other graphic representations of both familiar and unfamiliar places."
+  },
+  {
+   "id": "D2.Geo.2.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Geo.1-3.3-5",
+   "text": "Use maps, satellite images, photographs, and other representations to explain relationships between the locations of places and regions and their environmental characteristics."
+  },
+  {
+   "id": "D2.Geo.3.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Geo.1-3.3-5",
+   "text": "Use maps of different scales to describe the locations of cultural and environmental characteristics."
+  },
+  {
+   "id": "D2.Geo.4-6.3-5",
+   "f": "c3",
+   "kind": "subarea",
+   "grade": "3-5",
+   "parent": "D2.Geo.3-5",
+   "text": "Human-Environment Interaction: Place, Regions, and Culture"
+  },
+  {
+   "id": "D2.Geo.4.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Geo.4-6.3-5",
+   "text": "Explain how culture influences the way people modify and adapt to their environments."
+  },
+  {
+   "id": "D2.Geo.5.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Geo.4-6.3-5",
+   "text": "Explain how the cultural and environmental characteristics of places change over time."
+  },
+  {
+   "id": "D2.Geo.6.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Geo.4-6.3-5",
+   "text": "Describe how environmental and cultural characteristics influence population distribution in specific places or regions."
+  },
+  {
+   "id": "D2.Geo.7-9.3-5",
+   "f": "c3",
+   "kind": "subarea",
+   "grade": "3-5",
+   "parent": "D2.Geo.3-5",
+   "text": "Human Population: Spatial Patterns and Movements"
+  },
+  {
+   "id": "D2.Geo.7.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Geo.7-9.3-5",
+   "text": "Explain how cultural and environmental characteristics affect the distribution and movement of people, goods, and ideas."
+  },
+  {
+   "id": "D2.Geo.8.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Geo.7-9.3-5",
+   "text": "Explain how human settlements and movements relate to the locations and use of various natural resources."
+  },
+  {
+   "id": "D2.Geo.9.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Geo.7-9.3-5",
+   "text": "Analyze the effects of catastrophic environmental and technological events on human settlements and migration."
+  },
+  {
+   "id": "D2.Geo.10-12.3-5",
+   "f": "c3",
+   "kind": "subarea",
+   "grade": "3-5",
+   "parent": "D2.Geo.3-5",
+   "text": "Global Interconnections: Changing Spatial Patterns"
+  },
+  {
+   "id": "D2.Geo.10.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Geo.10-12.3-5",
+   "text": "Explain why environmental characteristics vary among different world regions."
+  },
+  {
+   "id": "D2.Geo.11.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Geo.10-12.3-5",
+   "text": "Describe how the spatial patterns of economic activities in a place change over time because of interactions with nearby and distant places."
+  },
+  {
+   "id": "D2.Geo.12.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.Geo.10-12.3-5",
+   "text": "Explain how natural and human-made catastrophic events in one place affect people living in other places."
+  },
+  {
+   "id": "D2.His.3-5",
+   "f": "c3",
+   "kind": "area",
+   "grade": "3-5",
+   "text": "History"
+  },
+  {
+   "id": "D2.His.1-3.3-5",
+   "f": "c3",
+   "kind": "subarea",
+   "grade": "3-5",
+   "parent": "D2.His.3-5",
+   "text": "Change, Continuity, and Context"
+  },
+  {
+   "id": "D2.His.1.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.His.1-3.3-5",
+   "text": "Create and use a chronological sequence of related events to compare developments that happened at the same time."
+  },
+  {
+   "id": "D2.His.2.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.His.1-3.3-5",
+   "text": "Compare life in specific historical time periods to life today."
+  },
+  {
+   "id": "D2.His.3.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.His.1-3.3-5",
+   "text": "Generate questions about individuals and groups who have shaped significant historical changes and continuities."
+  },
+  {
+   "id": "D2.His.4-8.3-5",
+   "f": "c3",
+   "kind": "subarea",
+   "grade": "3-5",
+   "parent": "D2.His.3-5",
+   "text": "Perspectives"
+  },
+  {
+   "id": "D2.His.4.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.His.4-8.3-5",
+   "text": "Explain why individuals and groups during the same historical period differed in their perspectives."
+  },
+  {
+   "id": "D2.His.5.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.His.4-8.3-5",
+   "text": "Explain connections among historical contexts and people's perspectives at the time."
+  },
+  {
+   "id": "D2.His.6.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.His.4-8.3-5",
+   "text": "Describe how people's perspectives shaped the historical sources they created."
+  },
+  {
+   "id": "D2.His.9-13.3-5",
+   "f": "c3",
+   "kind": "subarea",
+   "grade": "3-5",
+   "parent": "D2.His.3-5",
+   "text": "Historical Sources and Evidence"
+  },
+  {
+   "id": "D2.His.9.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.His.9-13.3-5",
+   "text": "Summarize how different kinds of historical sources are used to explain events in the past."
+  },
+  {
+   "id": "D2.His.10.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.His.9-13.3-5",
+   "text": "Compare information provided by different historical sources about the past."
+  },
+  {
+   "id": "D2.His.11.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.His.9-13.3-5",
+   "text": "Infer the intended audience and purpose of a historical source from information within the source itself."
+  },
+  {
+   "id": "D2.His.12.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.His.9-13.3-5",
+   "text": "Generate questions about multiple historical sources and their relationships to particular historical events and developments."
+  },
+  {
+   "id": "D2.His.13.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.His.9-13.3-5",
+   "text": "Use information about a historical source, including the maker, date, place of origin, intended audience, and purpose to judge the extent to which the source is useful for studying a particular topic."
+  },
+  {
+   "id": "D2.His.14-17.3-5",
+   "f": "c3",
+   "kind": "subarea",
+   "grade": "3-5",
+   "parent": "D2.His.3-5",
+   "text": "Causation and Argumentation"
+  },
+  {
+   "id": "D2.His.14.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.His.14-17.3-5",
+   "text": "Explain probable causes and effects of events and developments."
+  },
+  {
+   "id": "D2.His.16.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.His.14-17.3-5",
+   "text": "Use evidence to develop a claim about the past."
+  },
+  {
+   "id": "D2.His.17.3-5",
+   "f": "c3",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "D2.His.14-17.3-5",
+   "text": "Summarize the central claim in a secondary work of history"
+  },
+  {
+   "id": "NHES.1.2",
+   "f": "nhes",
+   "kind": "area",
+   "grade": "P-2",
+   "text": "Use functional health information to support health and well-being of self and others."
+  },
+  {
+   "id": "NHES.1.2.1",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.1.2",
+   "text": "Identify strengths and assets that support health and well-being."
+  },
+  {
+   "id": "NHES.1.2.2",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.1.2",
+   "text": "Identify dimensions of wellness."
+  },
+  {
+   "id": "NHES.1.2.3",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.1.2",
+   "text": "Identify ways to prevent or reduce risks for illnesses and injuries."
+  },
+  {
+   "id": "NHES.1.2.4",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.1.2",
+   "text": "Describe health-promoting behaviors."
+  },
+  {
+   "id": "NHES.1.2.5",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.1.2",
+   "text": "Explain the importance of health and well-being."
+  },
+  {
+   "id": "NHES.1.2.6",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.1.2",
+   "text": "Identify how the environment affects personal and community health."
+  },
+  {
+   "id": "NHES.1.2.7",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.1.2",
+   "text": "Explain when it is important to seek health care."
+  },
+  {
+   "id": "NHES.2.2",
+   "f": "nhes",
+   "kind": "area",
+   "grade": "P-2",
+   "text": "Analyze influences that affect health and well-being of self and others."
+  },
+  {
+   "id": "NHES.2.2.1",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.2.2",
+   "text": "Identify various influences that affect health and well-being."
+  },
+  {
+   "id": "NHES.2.2.2",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.2.2",
+   "text": "Determine the ways various influences affect personal health and well-being."
+  },
+  {
+   "id": "NHES.2.2.3",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.2.2",
+   "text": "Explain how various influences affect the health and well-being of others."
+  },
+  {
+   "id": "NHES.3.2",
+   "f": "nhes",
+   "kind": "area",
+   "grade": "P-2",
+   "text": "Access valid and reliable resources to support health and well-being of self and others."
+  },
+  {
+   "id": "NHES.3.2.1",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.3.2",
+   "text": "Identify characteristics of trusted adults and other individuals who support health and well-being."
+  },
+  {
+   "id": "NHES.3.2.2",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.3.2",
+   "text": "Demonstrate when and how to seek help from others at home, at school, or in the community."
+  },
+  {
+   "id": "NHES.3.2.3",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.3.2",
+   "text": "Locate school and community health helpers."
+  },
+  {
+   "id": "NHES.4.2",
+   "f": "nhes",
+   "kind": "area",
+   "grade": "P-2",
+   "text": "Use interpersonal communication skills to support health and well-being of self and others."
+  },
+  {
+   "id": "NHES.4.2.1",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.4.2",
+   "text": "Express thoughts, feelings, wants, and needs to support health and well-being of self and others."
+  },
+  {
+   "id": "NHES.4.2.2",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.4.2",
+   "text": "Use active listening skills in a variety of situations."
+  },
+  {
+   "id": "NHES.4.2.3",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.4.2",
+   "text": "Demonstrate communication skills and strategies to use if uncomfortable, unsafe, or harmed."
+  },
+  {
+   "id": "NHES.4.2.4",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.4.2",
+   "text": "Recognize ways to communicate and respect the boundaries of self and others."
+  },
+  {
+   "id": "NHES.4.2.5",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.4.2",
+   "text": "Demonstrate ways to show kindness and compassion."
+  },
+  {
+   "id": "NHES.5.2",
+   "f": "nhes",
+   "kind": "area",
+   "grade": "P-2",
+   "text": "Use a decision-making process to support health and well-being of self and others."
+  },
+  {
+   "id": "NHES.5.2.1",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.5.2",
+   "text": "Identify when a health-related decision is needed to maintain or improve health and well-being."
+  },
+  {
+   "id": "NHES.5.2.2",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.5.2",
+   "text": "Recognize when help is needed for a health-related decision."
+  },
+  {
+   "id": "NHES.5.2.3",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.5.2",
+   "text": "Describe options and potential outcomes for a health-related decision."
+  },
+  {
+   "id": "NHES.5.2.4",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.5.2",
+   "text": "Choose an option that supports health and well-being."
+  },
+  {
+   "id": "NHES.6.2",
+   "f": "nhes",
+   "kind": "area",
+   "grade": "P-2",
+   "text": "Use a goal-setting process to support health and well-being of self and others."
+  },
+  {
+   "id": "NHES.6.2.1",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.6.2",
+   "text": "Determine a health behavior to change or reinforce."
+  },
+  {
+   "id": "NHES.6.2.2",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.6.2",
+   "text": "Identify a goal that supports health and well-being."
+  },
+  {
+   "id": "NHES.6.2.3",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.6.2",
+   "text": "Determine who can help when assistance is needed to achieve a health-related goal."
+  },
+  {
+   "id": "NHES.6.2.4",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.6.2",
+   "text": "Describe actions that support reaching a health-related goal."
+  },
+  {
+   "id": "NHES.6.2.5",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.6.2",
+   "text": "Take action to achieve a health-related goal."
+  },
+  {
+   "id": "NHES.6.2.6",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.6.2",
+   "text": "Reflect on the results of goal-setting."
+  },
+  {
+   "id": "NHES.7.2",
+   "f": "nhes",
+   "kind": "area",
+   "grade": "P-2",
+   "text": "Demonstrate practices and behaviors to support health and well-being of self and others."
+  },
+  {
+   "id": "NHES.7.2.1",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.7.2",
+   "text": "Identify practices and behaviors that support health and well-being of self and others."
+  },
+  {
+   "id": "NHES.7.2.2",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.7.2",
+   "text": "Demonstrate practices and behaviors that support health and well-being of self and others."
+  },
+  {
+   "id": "NHES.8.2",
+   "f": "nhes",
+   "kind": "area",
+   "grade": "P-2",
+   "text": "Advocate to promote health and well-being of self and others."
+  },
+  {
+   "id": "NHES.8.2.1",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.8.2",
+   "text": "Make requests to support personal health and well-being."
+  },
+  {
+   "id": "NHES.8.2.2",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.8.2",
+   "text": "Identify a variety of ways to support others in making health-promoting choices."
+  },
+  {
+   "id": "NHES.8.2.3",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "P-2",
+   "parent": "NHES.8.2",
+   "text": "Encourage others to make health-promoting choices."
+  },
+  {
+   "id": "NHES.1.5",
+   "f": "nhes",
+   "kind": "area",
+   "grade": "3-5",
+   "text": "Use functional health information to support health and well-being of self and others."
+  },
+  {
+   "id": "NHES.1.5.1",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.1.5",
+   "text": "Explain how to build upon strengths and assets to support health and well-being."
+  },
+  {
+   "id": "NHES.1.5.2",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.1.5",
+   "text": "Describe health-promoting behaviors for the dimensions of wellness."
+  },
+  {
+   "id": "NHES.1.5.3",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.1.5",
+   "text": "Explain ways to prevent or reduce risks for illnesses and injuries."
+  },
+  {
+   "id": "NHES.1.5.4",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.1.5",
+   "text": "Explain ways to engage in health-promoting behaviors, including how to manage health conditions."
+  },
+  {
+   "id": "NHES.1.5.5",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.1.5",
+   "text": "Examine how health literacy supports health and well-being."
+  },
+  {
+   "id": "NHES.1.5.6",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.1.5",
+   "text": "Examine how the environment affects personal and community health."
+  },
+  {
+   "id": "NHES.1.5.7",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.1.5",
+   "text": "Explain when and why it is important to seek health care."
+  },
+  {
+   "id": "NHES.2.5",
+   "f": "nhes",
+   "kind": "area",
+   "grade": "3-5",
+   "text": "Analyze influences that affect health and well-being of self and others."
+  },
+  {
+   "id": "NHES.2.5.1",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.2.5",
+   "text": "Explain how various influences affect health and well-being."
+  },
+  {
+   "id": "NHES.2.5.2",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.2.5",
+   "text": "Determine the ways various influences affect the health and well-being of self and others."
+  },
+  {
+   "id": "NHES.2.5.3",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.2.5",
+   "text": "Explain how influences affect the health and well-being of people and communities in different ways."
+  },
+  {
+   "id": "NHES.2.5.4",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.2.5",
+   "text": "Use strategies and resources to manage influences that impact health and well-being."
+  },
+  {
+   "id": "NHES.3.5",
+   "f": "nhes",
+   "kind": "area",
+   "grade": "3-5",
+   "text": "Access valid and reliable resources to support health and well-being of self and others."
+  },
+  {
+   "id": "NHES.3.5.1",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.3.5",
+   "text": "Determine which trusted adults, other individuals, and other health resources are appropriate in various situations."
+  },
+  {
+   "id": "NHES.3.5.2",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.3.5",
+   "text": "Locate home, school, and community resources to support health and well-being."
+  },
+  {
+   "id": "NHES.3.5.3",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.3.5",
+   "text": "Determine the validity and reliability of health information, products, services, and other resources."
+  },
+  {
+   "id": "NHES.3.5.4",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.3.5",
+   "text": "Explain how misinformation and disinformation affect health and well-being."
+  },
+  {
+   "id": "NHES.4.5",
+   "f": "nhes",
+   "kind": "area",
+   "grade": "3-5",
+   "text": "Use interpersonal communication skills to support health and well-being of self and others."
+  },
+  {
+   "id": "NHES.4.5.1",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.4.5",
+   "text": "Use effective communication skills to express thoughts, feelings, wants, and needs to support health and well-being of self and others."
+  },
+  {
+   "id": "NHES.4.5.2",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.4.5",
+   "text": "Use active listening skills and strategies in a variety of situations."
+  },
+  {
+   "id": "NHES.4.5.3",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.4.5",
+   "text": "Demonstrate how to ask for and offer assistance to support the health of self and others."
+  },
+  {
+   "id": "NHES.4.5.4",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.4.5",
+   "text": "Demonstrate boundary-setting skills to communicate and respect the boundaries of self and others."
+  },
+  {
+   "id": "NHES.4.5.5",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.4.5",
+   "text": "Demonstrate refusal skills to use in a variety of situations."
+  },
+  {
+   "id": "NHES.4.5.6",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.4.5",
+   "text": "Demonstrate strategies to prevent, manage, or resolve conflict."
+  },
+  {
+   "id": "NHES.4.5.7",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.4.5",
+   "text": "Demonstrate effective ways to communicate with kindness and compassion."
+  },
+  {
+   "id": "NHES.5.5",
+   "f": "nhes",
+   "kind": "area",
+   "grade": "3-5",
+   "text": "Use a decision-making process to support health and well-being of self and others."
+  },
+  {
+   "id": "NHES.5.5.1",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.5.5",
+   "text": "Determine situations that require a thoughtful decision-making process to maintain or improve health and well-being."
+  },
+  {
+   "id": "NHES.5.5.2",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.5.5",
+   "text": "Determine whether assistance or collaboration is needed in making a health-related decision."
+  },
+  {
+   "id": "NHES.5.5.3",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.5.5",
+   "text": "Compare and contrast options and potential outcomes for a health-related decision."
+  },
+  {
+   "id": "NHES.5.5.4",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.5.5",
+   "text": "Choose a health-promoting option when making a decision."
+  },
+  {
+   "id": "NHES.5.5.5",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.5.5",
+   "text": "Reflect on the results of a health-related decision on self and others."
+  },
+  {
+   "id": "NHES.6.5",
+   "f": "nhes",
+   "kind": "area",
+   "grade": "3-5",
+   "text": "Use a goal-setting process to support health and well-being of self and others."
+  },
+  {
+   "id": "NHES.6.5.1",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.6.5",
+   "text": "Set a goal and explain how the goal supports health and well-being."
+  },
+  {
+   "id": "NHES.6.5.2",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.6.5",
+   "text": "Determine whether assistance or collaboration is needed in setting a goal that supports health and well-being."
+  },
+  {
+   "id": "NHES.6.5.3",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.6.5",
+   "text": "Develop a plan that includes actions, resources, and progress-tracking toward attaining a health-related goal."
+  },
+  {
+   "id": "NHES.6.5.4",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.6.5",
+   "text": "Identify supports and barriers that affect progress toward attaining a health-related goal."
+  },
+  {
+   "id": "NHES.6.5.5",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.6.5",
+   "text": "Track progress toward attaining a health-related goal."
+  },
+  {
+   "id": "NHES.6.5.6",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.6.5",
+   "text": "Reflect on the goal-setting process and outcomes."
+  },
+  {
+   "id": "NHES.7.5",
+   "f": "nhes",
+   "kind": "area",
+   "grade": "3-5",
+   "text": "Demonstrate practices and behaviors to support health and well-being of self and others."
+  },
+  {
+   "id": "NHES.7.5.1",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.7.5",
+   "text": "Examine practices and behaviors that support health and well-being of self and others."
+  },
+  {
+   "id": "NHES.7.5.2",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.7.5",
+   "text": "Demonstrate practices and behaviors that support health and well-being of self and others."
+  },
+  {
+   "id": "NHES.8.5",
+   "f": "nhes",
+   "kind": "area",
+   "grade": "3-5",
+   "text": "Advocate to promote health and well-being of self and others."
+  },
+  {
+   "id": "NHES.8.5.1",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.8.5",
+   "text": "Recognize situations in which advocacy supports the health and well-being of self and others."
+  },
+  {
+   "id": "NHES.8.5.2",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.8.5",
+   "text": "Explain how collaboration and communication support advocacy."
+  },
+  {
+   "id": "NHES.8.5.3",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.8.5",
+   "text": "Identify advocacy skills and strategies to support health and well-being."
+  },
+  {
+   "id": "NHES.8.5.4",
+   "f": "nhes",
+   "kind": "standard",
+   "grade": "3-5",
+   "parent": "NHES.8.5",
+   "text": "Demonstrate how to advocate for health and well-being."
   }
  ]
 }

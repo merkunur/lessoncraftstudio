@@ -1,0 +1,918 @@
+{
+  "pacing": {
+    "teachingWeeks": { "K": 28, "1": 28, "2": 28, "3": 26 },
+    "daysPerWeek": { "K": 2, "1": 2, "2": 2, "3": 2 },
+    "rule": "Two social studies sessions a week in every grade, about 30 minutes each (about an hour a week), because that is what most US K-3 schedules actually keep for social studies once reading, math and science have their blocks (it often alternates days with science), and it is what a C3 inquiry needs: one session to look at a picture, map or source and ask questions, one to do something with it (map, sort, vote, interview, put events on a timeline) and talk about what it shows. A lesson is 2 sessions (always in Kindergarten) and 3 only when children make something across days: the map-key work with its five pages in Grade 1, the class market in Grade 2 and the grid map of the community in Grade 3. Every unit adds 3 sessions: an opening session with a compelling question, a review session and a check session. The year follows the school calendar: school, rules and belonging first; family traditions in the weeks around Thanksgiving; winter traditions in December; Presidents' Day and Black History Month in February. Holidays are taught as traditions families may keep, never as the class's own faith; no unit assumes an election year (votes are class votes), and leaders are named by their role (the mayor, the governor, the president), never by a current name or party. The daily calendar and class jobs stay in morning meeting, not in these sessions."
+  },
+  "K": {
+    "nonTeachingWeeks": [
+      { "weeks": "1-2", "what": "First weeks of school: names, routines, the classroom tour and the class's first agreements happen across the whole day; social studies sessions begin in week 3 with the school unit, which builds on them." },
+      { "weeks": "10", "what": "End of the first quarter: report-card checks and family conferences; social studies time finishes pages and make-up checks." },
+      { "weeks": "17", "what": "The short week before winter break: no new social studies; children finish and share their pages." },
+      { "weeks": "20", "what": "Middle-of-year benchmark window in reading and math, which takes the social studies block; Martin Luther King Jr. Day falls this week and is marked in morning meeting." },
+      { "weeks": "28", "what": "End of the third quarter: report-card checks and spring conferences." },
+      { "weeks": "34", "what": "End-of-year benchmark window in reading and math, which takes the social studies block." },
+      { "weeks": "36", "what": "Last week of school: a family share of the year's maps and family pages, and a goodbye walk around the school." }
+    ],
+    "units": [
+      {
+        "id": "new:k-me-and-my-school",
+        "title": "Me and My School",
+        "why": "Kindergarten starts by making school a place where every child belongs: our rules, taking turns, the adults who are in charge and can help, and a first map of our own room.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Our class rules",
+            "objective": "Children help make three or four class rules with picture signs, act out each rule, and tell how a rule keeps everyone safe or helps us learn.",
+            "standard": "D2.Civ.12.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Rule pictures page, no words: pictures of children at school, each a matching pair (walking in the hall and running in the hall, raising a hand and shouting out, cleaning up blocks and leaving them on the floor). The child circles the picture that follows a class rule and crosses out the one that does not. Level 1: two pairs side by side; level 2: four pairs; level 3: the child also draws one more class rule being followed in the empty box."
+          },
+          {
+            "new": true,
+            "title": "Taking turns and sharing",
+            "objective": "Children practice taking turns with the fair name jar and sharing materials at a table, then circle pictures of friends who take turns, share, help or say sorry.",
+            "standard": "D2.Civ.7.K-2",
+            "days": 2,
+            "tool": "Name Sticks",
+            "source": "new",
+            "page": "Good friend page, no words: pictures of children at play, half showing a kind choice (two children taking turns on a slide, a child sharing crayons, a child helping a friend up) and half the opposite (grabbing a toy, pushing in line). The child circles each kind choice and crosses out the others. Level 1: four pictures; level 2: six; level 3: the child also draws themself helping a friend."
+          },
+          {
+            "new": true,
+            "title": "Who helps at our school?",
+            "objective": "Children walk the school with the teacher to meet the principal, the nurse, the office staff and the custodian, learn what each one is in charge of, and point to the person to ask for each kind of help.",
+            "standard": "D2.Civ.1.K-2",
+            "days": 2,
+            "source": "teacher-led",
+            "page": "School walk routine: the class visits the office, the nurse's room, the library and the cafeteria, and each adult says in one sentence what they are in charge of and how children can ask them for help. Back in class the teacher shows each adult's photo and names a problem (a hurt knee, a lost lunch, a question about a rule), and children point to the right person. The teacher watches for children who can say who is in charge where, and who to go to for help."
+          },
+          {
+            "new": true,
+            "title": "The room from above",
+            "objective": "Children look at classroom things from the side and from above, match each thing to its view from above, and lay paper shapes for the tables, the rug and the door on a big plan of our room to make a first map.",
+            "standard": "D2.Geo.1.K-2",
+            "days": 2,
+            "source": "point:K:birds-eye-view"
+          }
+        ]
+      },
+      {
+        "id": "new:k-my-family",
+        "title": "My Family",
+        "why": "In late fall, when many families gather for Thanksgiving and other traditions, children learn who makes up a family, that families come in many shapes, and how life has changed since grown-ups were small.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Who is in my family?",
+            "objective": "Children find each person on a picture family tree as the teacher reads the family words aloud (mother, grandfather, brother), give each the right number, and tell one job each person does to help the family at home.",
+            "standard": "D2.Civ.6.K-2",
+            "days": 2,
+            "tool": "Picture Word Wall",
+            "source": "point:K:family"
+          },
+          {
+            "new": true,
+            "title": "Families come in many shapes",
+            "objective": "Children look at pictures of many kinds of families (one parent, two parents, grandparents raising grandchildren, foster and adoptive families, big and small families), hear that every one of them is a family, and draw the people who care for them at home.",
+            "standard": "D2.Civ.6.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Many families page: six family pictures in a ring (a mother and a child, two fathers and twins, a grandmother with two grandchildren, a foster family, a big family with a baby, a father and a teenager) around an empty frame. The child colors the families and draws their own family in the frame, and the teacher writes the names the child says. Level 1: three family pictures, draw one person who cares for you; level 2: all six pictures, draw everyone at home; level 3: the child also draws one thing the family does together."
+          },
+          {
+            "new": true,
+            "title": "Family traditions",
+            "objective": "Children look at pictures of traditions families may keep (a birthday, a Thanksgiving meal, Diwali lamps, a Lunar New Year visit), match each tradition to the object that goes with it, and draw a tradition their own family keeps.",
+            "standard": "D2.Geo.6.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Traditions page, no words: four scenes of family traditions (a birthday party with a cake, a family at a Thanksgiving table, a family lighting small clay diya lamps for Diwali, a grandmother giving a red envelope at Lunar New Year) and four objects (a party hat, a pie, a diya lamp, a red envelope). The child draws a line from each object to its scene. Level 1: two scenes and two objects; level 2: all four; level 3: the child also draws a tradition their own family keeps in the empty frame."
+          },
+          {
+            "new": true,
+            "title": "Long ago and today",
+            "objective": "Children compare pictures of things from long ago and today that do the same job, draw a line from each old thing to its new one, and ask a grown-up at home about a toy they played with when they were small.",
+            "standard": "D2.His.2.K-2",
+            "days": 2,
+            "tool": "Sorting Hoops",
+            "source": "new",
+            "page": "Then and now page, no words: things from long ago in one column (a washboard and tub, a candle, a horse and buggy, a wall telephone with a cord) and things we use today in the other (a washing machine, an electric lamp, a car, a cell phone), mixed up. The child draws a line from each long-ago thing to the thing that does the same job today. Level 1: two pairs; level 2: four pairs; level 3: the child also draws a toy a grown-up at home played with long ago."
+          }
+        ]
+      },
+      {
+        "id": "new:k-helpers-needs-and-wants",
+        "title": "Helpers, Needs and Wants",
+        "why": "Through December and January children look beyond the family to the community: the workers who help us, the things people need and want, and the choices everyone has to make.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Community helpers and their tools",
+            "objective": "Children match community helpers to the tools they use (a firefighter's ladder, a doctor's thermometer, a farmer's tractor), act out one job, and tell how that helper's work helps everyone in the community.",
+            "standard": "D2.Civ.2.K-2",
+            "days": 2,
+            "source": "point:K:community-helpers"
+          },
+          {
+            "new": true,
+            "title": "Needs and wants",
+            "objective": "Children sort pictures into needs (food, water, clothes, a home) and wants (toys, candy, a TV), and tell why a family buys what it needs first when there is not enough money for everything.",
+            "standard": "D2.Eco.1.K-2",
+            "days": 2,
+            "tool": "Sorting Hoops",
+            "source": "point:K:wants-needs"
+          },
+          {
+            "new": true,
+            "title": "Choosing one thing",
+            "objective": "Children choose between two things they cannot both have, circle their choice, put an X on the thing they give up, and tell one good thing their choice brings and one thing it costs them.",
+            "standard": "D2.Eco.2.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Choice page, no words: rows of two pictures a child cannot both have (playing outside or painting at recess, a ball or a kite for one coin, a library book about trucks or one about dinosaurs). In each row the child circles the one they choose and draws an X on the other: any choice is right, and what is checked is that every row has one circle and one X. Level 1: two rows; level 2: three rows; level 3: the child also draws one good thing their choice in the last row brings."
+          },
+          {
+            "new": true,
+            "title": "Who makes it? Who does it?",
+            "objective": "Children match workers to the goods they make or the services they give (a baker and bread, a builder and a house, a barber and a haircut, a mail carrier and a letter), and tell one thing each worker had to learn to do the job.",
+            "standard": "D2.Eco.3.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Workers page, no words: four workers in one column (a baker, a builder, a barber, a mail carrier) and four results in the other (a loaf of bread, a house, a child with a fresh haircut, a letter in a mailbox). The child draws a line from each worker to what they make or do. Level 1: two workers; level 2: four; level 3: the child also draws a job they would like to learn and the thing that job makes or does."
+          }
+        ]
+      },
+      {
+        "id": "new:k-our-country",
+        "title": "Our Country and Being Fair",
+        "why": "February brings Presidents' Day and Black History Month, so children learn the name and flag of our country, a leader who worked for fairness, and how to be fair and decide fairly as a class.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Our country and its flag",
+            "objective": "Children learn that our country is the United States of America, that its leaders (the president for the whole country, the mayor for a town) help make and carry out rules for everyone, and color the flag with its red and white stripes and its blue box of stars.",
+            "standard": "D2.Civ.5.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Flag page: an outline of the United States flag with 13 stripes and a blue box of 50 white stars, beside a small colored model. The child colors the stripes red and white, starting with red at the top and bottom, and the box of stars blue. Level 1: the red stripes are dotted to show which to color; level 2: plain outline with the model; level 3: the child also counts the stripes and circles 13 among three numbers. The teacher tells the class that the 50 stars stand for the 50 states and the 13 stripes for the first 13 colonies."
+          },
+          {
+            "new": true,
+            "title": "Martin Luther King Jr.",
+            "objective": "Children hear the true story of Martin Luther King Jr., who worked peacefully with many others to change unfair laws that kept Black people and white people apart, and draw one way they can be fair and kind to everyone.",
+            "standard": "D2.Civ.14.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Kind and fair page: a drawing of Martin Luther King Jr. speaking to a crowd of people of many colors, and a big empty frame. The child colors the crowd and draws children of many colors playing fairly together at school. Level 1: color the picture and draw one friend; level 2: draw a whole fair game; level 3: the child also says one word for the drawing (fair, kind, share) and the teacher writes it under the frame."
+          },
+          {
+            "new": true,
+            "title": "Fair for everyone",
+            "objective": "Children look at pictures of fair and unfair moments (one child keeping the swing, children taking turns on it), circle the fair ones, and act out how to make an unfair moment fair.",
+            "standard": "D2.Civ.8.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Fair or not page, no words: pairs of pictures of the same moment, one fair and one not (one child keeps the swing while others wait, children take turns on the swing; one child gets all the crackers, the crackers are shared equally; one child is left out of a game, everyone is in the game). The child circles the fair picture in each pair. Level 1: two pairs; level 2: three pairs; level 3: the child also draws how to make one more unfair moment fair."
+          },
+          {
+            "new": true,
+            "title": "Our class vote",
+            "objective": "Children vote once each with a picture ballot to choose the next class read-aloud, watch the votes become a bar graph, and learn that the choice with the most votes wins and the whole class goes along with it.",
+            "standard": "D2.Civ.11.K-2",
+            "days": 2,
+            "tool": "Class Graph",
+            "source": "teacher-led",
+            "page": "Class vote routine: the teacher shows two or three book covers, each child votes once (a picture ballot in the box, or one tap on the Class Graph), the class counts the votes together, and the book with the most votes is read. On the second day the class votes on a new question it chooses. The teacher watches for children who vote only once, wait their turn, and can say what happens when their own choice did not win."
+          }
+        ]
+      },
+      {
+        "id": "new:k-maps-and-getting-around",
+        "title": "Maps, Places and Getting Around",
+        "why": "In spring, when children can explore outside, they look at the land and water of the Earth, a map of a neighborhood, how people and goods travel, and how weather changes the way people live.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Land and water on the globe",
+            "objective": "Children look at a globe, find that blue shows water and green or brown shows land, notice that there is more water than land, and color the land and water on a picture of the Earth.",
+            "standard": "D2.Geo.3.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Globe page: a round picture of the Earth with North and South America facing the child, the land outlined. The child colors the water blue and the land green. Level 1: big land shapes, with a blue dot in each ocean as a start; level 2: plain outline; level 3: the child also draws a star where the United States is, after finding it on the class globe with the teacher."
+          },
+          {
+            "new": true,
+            "title": "A map of a neighborhood",
+            "objective": "Children look at a picture map of a neighborhood seen from above, find the school, the park and the fire station by their map pictures, and draw a path from a house to the school.",
+            "standard": "D2.Geo.2.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Neighborhood map page, north at the top: a map seen from above with a school, a park, a fire station, a store and four houses, each a small picture, and a picture key at the side. The child circles the school, puts an X on the park and draws a path along the streets from the house with the red door to the school. Level 1: three places and a dotted path to trace; level 2: five places, draw the path; level 3: the child also draws their own house on an empty lot and a path to the park."
+          },
+          {
+            "new": true,
+            "title": "On land, on water, in the air",
+            "objective": "Children sort vehicles by where they travel (on land, on water, in the air) and things that can fly from things that cannot, and tell how people and the things we buy get from place to place.",
+            "standard": "D2.Geo.7.K-2",
+            "days": 2,
+            "tool": "Sorting Hoops",
+            "source": "point:K:transport-flying"
+          },
+          {
+            "new": true,
+            "title": "Hot places, cold places",
+            "objective": "Children compare a snowy mountain town and a hot beach town, match clothes and play to each place, and tell how the weather where we live changes what we wear and do outside.",
+            "standard": "D2.Geo.4.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Two places page, no words: a big picture of a snowy mountain town and one of a hot, sunny beach town, and six small pictures (a winter coat, mittens, a sled, a swimsuit, sandals, a beach ball). The child draws a line from each small picture to the place where people would use it. Level 1: four small pictures; level 2: six; level 3: the child also draws what they wear outside today."
+          }
+        ]
+      }
+    ],
+    "totalDays": 55,
+    "leftOut": [],
+    "notCovered": []
+  },
+  "1": {
+    "nonTeachingWeeks": [
+      { "weeks": "1-2", "what": "First weeks of school: names, routines and the class's first agreements happen across the whole day; social studies sessions begin in week 3 with the citizenship unit, which builds on them." },
+      { "weeks": "10", "what": "End of the first quarter: report-card checks and family conferences; social studies time finishes pages and make-up checks." },
+      { "weeks": "17", "what": "The short week before winter break: no new social studies; children finish and share their family trees and interview pages." },
+      { "weeks": "20", "what": "Middle-of-year benchmark window in reading and math, which takes the social studies block; Martin Luther King Jr. Day falls this week and is marked in morning meeting." },
+      { "weeks": "28", "what": "End of the third quarter: report-card checks and spring conferences." },
+      { "weeks": "34", "what": "End-of-year benchmark window in reading and math, which takes the social studies block." },
+      { "weeks": "36", "what": "Last week of school: a class museum of the year's family trees, interview pages and maps for families." }
+    ],
+    "units": [
+      {
+        "id": "new:g1-good-citizens",
+        "title": "Rules and Good Citizens",
+        "why": "First grade begins by building the class community: rules in different places, how to talk and listen as a group, what good citizens do, and who leads at school, in a town, in a state and in the country.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Rules in different places",
+            "objective": "Children read short rules, match each rule to the place it belongs (the classroom, the library, the pool, the street), and tell why each rule keeps people safe or makes things fair.",
+            "standard": "D2.Civ.3.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Rules page: four place pictures (a classroom, a library, a pool, a street crossing) and short rules with a small picture clue, each fitting only one place (Raise your hand to talk. Use a quiet voice with books. Walk, do not run, by the pool. Wait for the walk sign.). The child draws a line from each rule to its place. Level 1: two places and two rules; level 2: four places and four rules; level 3: the child also writes one rule for the playground with the frame 'We ___ so that ___.'"
+          },
+          {
+            "new": true,
+            "title": "Our class meeting",
+            "objective": "Children hold a class meeting with agreed talking rules (one voice at a time, look at the speaker, wait for your turn), say back what the last speaker said before adding their own idea, and decide together how the class jobs will work.",
+            "standard": "D2.Civ.9.K-2",
+            "days": 2,
+            "tool": "Name Sticks",
+            "source": "teacher-led",
+            "page": "Class meeting routine: the class sits in a circle, the teacher posts three picture talking rules, and the Name Sticks choose who speaks first. Each speaker starts with 'I heard ___ say ___. I think ___.' The meeting ends with a decision about the class job chart. The teacher watches for children who wait, look at the speaker, repeat a classmate's idea correctly and add to it rather than talking over it."
+          },
+          {
+            "new": true,
+            "title": "Being a good citizen",
+            "objective": "Children read short stories about children at school, circle the good-citizen choice in each, and match each story to the virtue it shows: honest, kind, responsible or fair.",
+            "standard": "D2.Civ.7.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Good citizen page: short stories with a picture, each with two choices and one clear virtue (Maya finds a lunch box that is not hers: honest. Sam sees a child sitting alone at recess: kind. It is Lee's day to feed the class fish: responsible. Ana's group has one ball: fair). The child circles the good-citizen choice and circles the virtue word under the story. Level 1: two stories with picture choices and one-word labels; level 2: four stories with short sentence choices; level 3: the child also writes what they would do in one more situation."
+          },
+          {
+            "new": true,
+            "title": "Leaders and their jobs",
+            "objective": "Children match leaders by their role to what they lead (the principal a school, the mayor a town or city, the governor a state, the president the whole country) and tell one thing each leader is responsible for.",
+            "standard": "D2.Civ.1.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Leaders page: four leaders drawn by role only, with no real names or faces (a principal, a mayor, a governor, a president) and four places (a school, a town, the shape of a state, a map of the United States). The child draws a line from each leader to what they lead, then matches short sentences such as 'I lead the whole country.' to the right leader. Level 1: two leaders; level 2: four leaders; level 3: the child also writes one thing a mayor does for a town."
+          }
+        ]
+      },
+      {
+        "id": "new:g1-families-long-ago",
+        "title": "Families Long Ago and Today",
+        "why": "In the fall, with family gatherings ahead, children use their own families to learn about time: generations, old photographs as clues, the stories older people tell, and how childhood has changed.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Family generations",
+            "objective": "Children put family words in order from the oldest generation to the youngest, read clues to fill in a family tree, and make a tree of the people who are important to them, whatever shape their family has.",
+            "standard": "D2.His.1.K-2",
+            "days": 2,
+            "tool": "Story Line",
+            "source": "point:1:family-generations"
+          },
+          {
+            "new": true,
+            "title": "Clues in an old photograph",
+            "objective": "Children study the front and back of an old postcard, find the clues that tell who made it, when and where (a name, a date stamp, a sign in the picture), and circle the answers to short questions.",
+            "standard": "D2.His.11.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Old postcard page: the front of a sample black-and-white postcard (a town street with a shop sign 'Main Street Bakery') and its back (a date stamp '1955', 'Photo by Lee Studio, Riverton'). Three short questions (Who made it? When was it made? Where was it made?) each with three choices to circle. Level 1: two questions, the clues are circled in color on the card; level 2: three questions, no help; level 3: the child also writes one thing the picture shows about life in 1955."
+          },
+          {
+            "new": true,
+            "title": "Ask someone older",
+            "objective": "Children prepare questions, interview an older family member, neighbor or school staff member about their childhood, and tell the class one thing the interview taught them about the past.",
+            "standard": "D2.His.10.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Interview page: question starters with picture clues (What games did you play? How did you get to school? What did you eat for lunch?), each with a line for the answer and a box to draw it, and a line at the top for the name of the person asked. Level 1: two given questions, the child draws the answers; level 2: three given questions, the child writes a word or short sentence for each; level 3: the child writes their own third question and ends with 'I learned that ___.'"
+          },
+          {
+            "new": true,
+            "title": "School and play long ago and today",
+            "objective": "Children compare a child's school day and games of about 100 years ago with their own, read what a child back then might have said about school, and tell how their own view of school is the same or different.",
+            "standard": "D2.His.4.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Then and now page: pictures of a one-room school with ink pens and inkwells, a child walking to school and a hoop-and-stick game, beside a classroom with computers, a school bus and a soccer ball; short sentences in the voice of a child from long ago (I walk two miles to school. We all learn in one room. I dip my pen in ink.). The child sorts each picture and sentence into Long ago or Today. Level 1: four pictures, no sentences; level 2: pictures and three sentences; level 3: the child also writes 'I would like ___ because ___.'"
+          }
+        ]
+      },
+      {
+        "id": "new:g1-maps-and-places",
+        "title": "Maps and Places",
+        "why": "In winter children turn to maps: reading a map key and giving directions, then comparing different kinds of communities, the work that fits the land, and how people care for the places they share.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Read the map key",
+            "objective": "Children find each map-key symbol on a map and count them, follow and give step directions on a grid map, and draw a map of their own with a key that explains every symbol.",
+            "standard": "D2.Geo.2.K-2",
+            "days": 3,
+            "tool": "The Arrow Strip",
+            "source": "point:1:map-key"
+          },
+          {
+            "new": true,
+            "title": "City, suburb and small town",
+            "objective": "Children compare pictures of a big city, a suburb and a farm town, read short sentences about how people there get food, travel and play, and match each sentence to the community it tells about.",
+            "standard": "D2.Geo.8.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Three communities page: three pictures (a city with tall apartment buildings and a subway, a suburb with houses, yards and a shopping center, a farm town with fields and a grain silo) and short sentences that each fit only one (I ride the subway to work. We drive to the big store near our street. We grow corn on our land.). The child writes the letter of the community next to each sentence. Level 1: two communities, three sentences; level 2: three communities, six sentences; level 3: the child also writes which community they live in and one way they get food."
+          },
+          {
+            "new": true,
+            "title": "Work that fits the land",
+            "objective": "Children match places (the ocean coast, a forest, flat farmland, snowy mountains) to the work people do there (fishing, cutting lumber, growing wheat, teaching skiing), and tell how the land makes that work possible.",
+            "standard": "D2.Geo.9.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Land and work page: four landscape pictures (an ocean coast with a harbor, a forest, flat farmland, snowy mountains) and four workers (a person fishing from a boat, a lumber worker, a wheat farmer on a combine, a ski teacher). The child draws a line from each worker to the land where the work is done. Level 1: two places; level 2: four places; level 3: the child also completes 'People can ___ here because the land has ___.' for one place."
+          },
+          {
+            "new": true,
+            "title": "Caring for the places we share",
+            "objective": "Children compare pictures of a park before people use it, after a careless crowd and after a clean-up day, circle what people changed, and plan one way the class can care for the schoolyard.",
+            "standard": "D2.Geo.5.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Our park page: the same park in three pictures (clean in the morning; litter, a broken branch and trampled flowers in the evening; clean again with new flowers after a clean-up day). The child circles in the second picture every change people made and in the third every way people helped. Level 1: two pictures and three changes; level 2: three pictures and five changes; level 3: the child also writes one thing the class can do for the schoolyard."
+          }
+        ]
+      },
+      {
+        "id": "new:g1-our-country",
+        "title": "Our Country's Symbols and Stories",
+        "why": "February brings Presidents' Day and Black History Month, so children learn the symbols of the United States, two early presidents, why the country began, and people who worked to make life fairer.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Symbols of the United States",
+            "objective": "Children match American symbols (the flag, the bald eagle, the Statue of Liberty, the Liberty Bell) to their names, read short sentences about the ideas they stand for, such as freedom and fairness for all, and tell why those ideas matter in a class too.",
+            "standard": "D2.Civ.8.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Symbols page: four pictures (the United States flag, the bald eagle, the Statue of Liberty, the Liberty Bell) and their names in a word box; under each a short true sentence (The flag has 50 stars, one for each state. The bald eagle is our national bird. The Statue of Liberty stands for freedom. The Liberty Bell is in Philadelphia.). The child writes each name under its picture. Level 1: two symbols with the names traced; level 2: four symbols from the word box; level 3: the child also draws a symbol for our class and writes what it stands for."
+          },
+          {
+            "new": true,
+            "title": "George Washington and Abraham Lincoln",
+            "objective": "Children learn that George Washington was the first president and that Abraham Lincoln, the 16th president, led the country through the Civil War and worked to end slavery, and sort the kinds of sources that tell us about them: a painting, a letter, a coin, a memorial.",
+            "standard": "D2.His.9.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Sources page: four pictures (a painted portrait of George Washington, a quarter with Washington on it, a handwritten letter, the Lincoln Memorial) and four words (painting, coin, letter, building). The child writes the right word under each picture, then circles the president each source is about. Level 1: two sources and two words; level 2: four sources; level 3: the child also writes which source they would most like to see and why."
+          },
+          {
+            "new": true,
+            "title": "Why we have the Fourth of July",
+            "objective": "Children hear how the 13 colonies declared independence from Great Britain on July 4, 1776, read short sentences, circle the ones that are reasons the colonists gave (they wanted to make their own laws; they did not want taxes they had no say in), and tell the reason in their own words.",
+            "standard": "D2.His.14.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Reasons page: a picture of people reading the Declaration of Independence aloud in 1776 and four short sentences, two of them real reasons (They wanted to make their own laws. They did not want to pay taxes they had no say in.) and two not (They wanted a new king. They wanted to move to Great Britain.). The child circles each real reason. Level 1: two sentences, one real; level 2: four sentences; level 3: the child also writes the reason in their own words with 'The colonists wanted ___.'"
+          },
+          {
+            "new": true,
+            "title": "People who made life fairer",
+            "objective": "Children hear short true stories of people who worked to make life fairer (Martin Luther King Jr., Rosa Parks, Ruby Bridges, Helen Keller), read one fact about each, and write a question they would like to ask one of them.",
+            "standard": "D2.His.3.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "People page: four portraits with one true sentence each (Rosa Parks would not give up her seat on a bus in Montgomery, Alabama, in 1955. Ruby Bridges was the first Black child at her New Orleans school in 1960. Helen Keller could not see or hear; she wrote books and worked for people with disabilities. Martin Luther King Jr. led peaceful marches for fair laws.). The child chooses one person and writes a question with the frame 'Why did you ___?' or 'How did you ___?'. Level 1: two people and a starter to finish; level 2: four people, one question; level 3: two questions and a sentence about why the person matters."
+          }
+        ]
+      },
+      {
+        "id": "new:g1-goods-services-money",
+        "title": "Goods, Services and Money",
+        "why": "In spring children study how a community meets its needs: goods and services made near and far, the jobs that earn money, prices at a market and why people save.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Goods and services near and far",
+            "objective": "Children sort pictures into goods (things you can hold) and services (work someone does for you), and read short labels to tell which goods in a sample town are made there and which come from far away.",
+            "standard": "D2.Eco.4.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Goods and services page: eight pictures (bread, a haircut, milk, a doctor's checkup, bananas, a bus ride, a T-shirt, a library story time). The child colors goods yellow and services green. On the second half, a small map of a sample town with a bakery and a dairy farm, and labels on three goods (bread: baked in our town; milk: from our town's farm; bananas: grown far away in Ecuador); the child circles the goods made in town. Level 1: four pictures; level 2: eight pictures; level 3: the map part as well."
+          },
+          {
+            "new": true,
+            "title": "Jobs and earning money",
+            "objective": "Children read short sentences about workers who earn money (a baker makes bread, a bus driver drives people, a dentist checks teeth), match each worker to what they are paid for, and tell what people use the money they earn for.",
+            "standard": "D2.Eco.6.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Jobs page: four workers (a baker, a bus driver, a dentist, a farmer) and four short sentences (I am paid to bake bread. I am paid to drive people. I am paid to check teeth. I am paid for the food I grow and sell.). The child draws a line from each sentence to its worker, then circles what a family might spend its pay on (food, rent, clothes). Level 1: two workers; level 2: four workers; level 3: the child also writes a job they would like and what they would be paid for."
+          },
+          {
+            "new": true,
+            "title": "Prices at the market",
+            "objective": "Children read price tags at a pretend market, count pennies, nickels, dimes and quarters to pay each price, and tell which of two items costs more.",
+            "standard": "D2.Eco.5.K-2",
+            "days": 2,
+            "tool": "Money Mat",
+            "source": "new",
+            "page": "Market page: a market stall with items and price tags (an apple 25 cents, a pencil 10 cents, a sticker 5 cents, an eraser 12 cents) and true-size pictures of US coins (penny 1 cent, nickel 5 cents, dime 10 cents, quarter 25 cents). For each item the child circles the coins that pay its price exactly, then circles the item in each pair that costs more. Level 1: prices to 10 cents with pennies and one nickel; level 2: prices to 25 cents with pennies, nickels and dimes; level 3: prices to 50 cents with all four coins."
+          },
+          {
+            "new": true,
+            "title": "Saving for a goal",
+            "objective": "Children follow a child who saves one dollar a week for a five-dollar kite, color the savings jar week by week, and tell why people save money for something they want later.",
+            "standard": "D2.Eco.10.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Savings jar page: a goal picture (a kite with a 5-dollar tag) and a jar with five marked parts, one for each week. The child colors one part for each dollar saved, writes how many weeks it takes, and circles the sentence that tells why the child saved (to buy the kite later, not to spend today). Level 1: a 3-dollar goal; level 2: a 5-dollar goal; level 3: the child also chooses a goal of their own, writes its price and how many weeks of saving it needs."
+          }
+        ]
+      }
+    ],
+    "totalDays": 56,
+    "leftOut": [],
+    "notCovered": []
+  },
+  "2": {
+    "nonTeachingWeeks": [
+      { "weeks": "1-2", "what": "First weeks of school: names, routines and the class's first agreements happen across the whole day; social studies sessions begin in week 3 with the class and community unit, which builds on them." },
+      { "weeks": "10", "what": "End of the first quarter: report-card checks and family conferences; social studies time finishes pages and make-up checks." },
+      { "weeks": "17", "what": "The short week before winter break: no new social studies; children finish and share their traditions and trade pages." },
+      { "weeks": "20", "what": "Middle-of-year benchmark window in reading and math, which takes the social studies block; Martin Luther King Jr. Day falls this week and is marked in morning meeting." },
+      { "weeks": "28", "what": "End of the third quarter: report-card checks and spring conferences." },
+      { "weeks": "34", "what": "End-of-year benchmark window in reading and math, which takes the social studies block." },
+      { "weeks": "36", "what": "Last week of school: a then-and-now share for families with the year's maps, old-photograph questions and market posters." }
+    ],
+    "units": [
+      {
+        "id": "new:g2-class-and-community",
+        "title": "Our Class and Our Community",
+        "why": "Second grade starts with the class agreeing how it will work together, then widens to the laws, the levels of government and the services that keep a community running.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Our class agreement",
+            "objective": "Children each write the rule they think matters most and why, read a partner's rule and reason, tell how the two points of view are alike and different, and help write a class agreement everyone signs.",
+            "standard": "D2.Civ.10.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "My view, your view page: a frame 'I think our most important rule is ___ because ___.', a second frame for the partner's rule and reason, and two overlapping circles labeled 'Only me', 'Both of us' and 'Only my partner'. Level 1: the child picks a rule from four picture choices and finishes the frames with a word; level 2: the child writes both rules and reasons; level 3: the child also writes one sentence for the class agreement that includes both ideas."
+          },
+          {
+            "new": true,
+            "title": "Laws in our community",
+            "objective": "Children read community laws (stop at a red light, keep dogs on a leash in the park, do not litter), match each law to the problem it prevents, and explain in a sentence why a community needs that law.",
+            "standard": "D2.Civ.3.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Laws page: four laws with a picture each (Stop at a red light. Keep dogs on a leash in the park. Do not litter. Wear a helmet on a bike.) and four problems in a box (crashes at corners, a dog chasing children, trash in the park, a hurt head). The child writes the letter of the problem next to the law that prevents it. Level 1: two laws; level 2: four laws; level 3: the child also writes 'Our community needs this law because ___.' for one law."
+          },
+          {
+            "new": true,
+            "title": "Local, state and national government",
+            "objective": "Children learn that a government is the people who make laws and run services for a place, sort leaders into local (the mayor, the city council), state (the governor) and national (the president, Congress), and write one job of each level.",
+            "standard": "D2.Civ.5.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Three levels page: three nested boxes drawn as a town inside a state inside the United States, labeled Local, State and National, and leader cards by role (mayor, city council, governor, president, Congress). The child writes each leader in the right box. Level 1: three leaders (mayor, governor, president); level 2: all five; level 3: the child also writes one job for each level, such as 'The mayor leads our city.'"
+          },
+          {
+            "new": true,
+            "title": "Services our government provides",
+            "objective": "Children find the services a government provides in a picture of a town (a library, a park, a fire station, a road, a public school, a mail carrier), and write who uses each service and why it helps everyone.",
+            "standard": "D2.Eco.12.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Town services page: a picture of a town with government services (a library, a park, a fire station, a road being repaired, a public school, a mail carrier) and private businesses (a toy store, a pizza shop). The child circles every service the government provides and writes who uses two of them. Level 1: four services and one business, circle only; level 2: six services and two businesses; level 3: the child also writes 'This service helps everyone because ___.' for one service."
+          }
+        ]
+      },
+      {
+        "id": "new:g2-maps-and-our-world",
+        "title": "Maps and Our World",
+        "why": "In the fall children move from the local map to the world: compass directions, the seven continents, how places change, and how disasters affect the people who live in a place.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "North, south, east and west",
+            "objective": "Children label the four directions on compass roses, use north, south, east and west to find places on a map with north at the top, and give a partner directions across the classroom.",
+            "standard": "D2.Geo.2.K-2",
+            "days": 2,
+            "source": "point:2:cardinal-directions"
+          },
+          {
+            "new": true,
+            "title": "The seven continents",
+            "objective": "Children find and label the seven continents on a world map, find them again on the class globe with the oceans between them, and point to North America, the continent where the United States is.",
+            "standard": "D2.Geo.3.K-2",
+            "days": 2,
+            "source": "point:2:continents"
+          },
+          {
+            "new": true,
+            "title": "How places change",
+            "objective": "Children compare pairs of pictures of places that change (the Arctic Ocean with more sea ice in winter and less in summer, a desert that blooms after a rare rain, a fishing village that grew into a city), and write whether the land changed or the way people live changed.",
+            "standard": "D2.Geo.10.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Changing places page: before-and-after picture pairs with one short sentence each (Arctic Ocean, winter and summer: the sea ice shrinks. A desert, dry and after rain: flowers bloom. A fishing village, long ago and today: it became a city.). For each pair the child circles 'The land changed' or 'The way people live changed' and finishes 'It changed because ___.' Level 1: two pairs, circle only; level 2: three pairs; level 3: the child also draws a place near school that has changed and writes how."
+          },
+          {
+            "new": true,
+            "title": "When disaster strikes",
+            "objective": "Children read how a flood, a hurricane or an earthquake can affect a place (homes, roads, electricity, schools), find on a U.S. map the Atlantic and Gulf coasts where hurricanes most often come ashore, and list ways families get ready and neighbors help.",
+            "standard": "D2.Geo.12.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Getting ready page: a calm picture of a town before and after a flood (water on the road, a closed school, helpers in a boat, neighbors carrying sandbags), a small U.S. map with the Atlantic and Gulf coasts shaded, and a family emergency kit to fill in. The child circles three things the flood changed, colors the coasts where hurricanes most often come ashore, and draws or writes four things for the kit (water, a flashlight, food, a first-aid kit). Level 1: picture part only; level 2: picture and kit; level 3: all three parts and one sentence about how neighbors help."
+          }
+        ]
+      },
+      {
+        "id": "new:g2-communities-near-and-far",
+        "title": "Communities Near and Far",
+        "why": "In December and January, when many families keep winter traditions, children learn how people celebrate in different places and how buying and trading connect our community to faraway people.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Winter traditions families may keep",
+            "objective": "Children read about winter traditions families may keep (Hanukkah, Christmas, Kwanzaa, Las Posadas, Lunar New Year), match each to its symbol, find on a world map a country where it is widely kept, and share a tradition from their own family if they wish.",
+            "standard": "D2.Geo.6.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Winter traditions page: five short true sentences (Many Jewish families light a menorah for the eight nights of Hanukkah. Many Christian families celebrate Christmas, and some put up a decorated tree. Kwanzaa celebrates African American culture with seven candles on a kinara. Las Posadas, nine nights before Christmas, is a tradition from Mexico, often with a piñata. At Lunar New Year many families give red envelopes.) and five symbols to match. Level 1: three traditions; level 2: all five; level 3: the child also draws a line from Las Posadas to Mexico, Kwanzaa to the United States and Lunar New Year to China on a small world map."
+          },
+          {
+            "new": true,
+            "title": "Where does it come from?",
+            "objective": "Children read sample labels on everyday things (bananas grown in Ecuador, avocados grown in Mexico, a T-shirt made in Vietnam), find each country on a world map, and draw a line from it to our community to see how buying things connects us to faraway people.",
+            "standard": "D2.Geo.11.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Label hunt page: a world map with north at the top and a star for the United States, and pictures of four things with their labels (Bananas: grown in Ecuador. Avocados: grown in Mexico. T-shirt: made in Vietnam. Coffee beans: grown in Colombia.). The child circles each country on the map and draws a line from it to the star. Level 1: two things, with the countries already outlined; level 2: four things; level 3: the child also writes one thing from home and where its label says it came from."
+          },
+          {
+            "new": true,
+            "title": "Made here, sold there",
+            "objective": "Children sort products into those made in other countries and sold in the United States (bananas, cocoa for chocolate) and those made in the United States and sold in other countries (airplanes, soybeans, corn), and give one example of each.",
+            "standard": "D2.Eco.15.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Coming and going page: two big arrows, one pointing into a U.S. map (Made in other countries, sold here) and one pointing out (Made here, sold in other countries), and product pictures with a short fact each (bananas, cocoa beans, coffee; airplanes, soybeans, corn). The child writes each product in the right arrow. Level 1: four products; level 2: six products; level 3: the child also writes one sentence for each arrow with 'The United States sells ___ to other countries.'"
+          },
+          {
+            "new": true,
+            "title": "Why countries trade",
+            "objective": "Children study three islands that each make something the others need, draw the trades that let every island have food and warm clothes, and write why countries trade goods with each other.",
+            "standard": "D2.Eco.14.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Three islands page: a sunny island that grows fruit, a cold island that catches fish, and a hilly island with sheep that makes wool; each island's need is drawn in a thought bubble (fish, wool, fruit). The child draws arrows to show which island trades with which so every need is met, and finishes 'Countries trade because ___.' Level 1: two islands and one trade; level 2: three islands; level 3: the child also writes what would happen to the cold island if it could not trade."
+          }
+        ]
+      },
+      {
+        "id": "new:g2-our-community-history",
+        "title": "History of Our Community",
+        "why": "In February and March children work as historians: they name relatives across generations, compare two accounts of one event, question an old photograph and weigh which reason best explains why a town changed.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Aunts, cousins and grandparents",
+            "objective": "Children solve riddles about family relationships (my mother's sister is my aunt; my aunt's child is my cousin), place each relative in the right generation of a family tree, and remember that families come in many shapes.",
+            "standard": "D2.His.1.K-2",
+            "days": 2,
+            "source": "point:2:family-relationships"
+          },
+          {
+            "new": true,
+            "title": "Two stories of the same day",
+            "objective": "Children read two short accounts of the same event (the day a new town library opened, told by a child and by the librarian), mark what both say and where they differ, and explain why two people can tell one event differently.",
+            "standard": "D2.His.6.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Two accounts page: two short accounts side by side of the day a sample town's library opened, one by a child who came with her grandfather (the line was long, there was a puppet show, she got her first library card) and one by the librarian (two hundred people came, the shelves were full, a volunteer ran the puppet show). The child underlines in one color what both accounts say and in another what only one says. Level 1: one fact to find in each color; level 2: underline all; level 3: the child also writes why the child and the librarian noticed different things."
+          },
+          {
+            "new": true,
+            "title": "Questions about an old photograph",
+            "objective": "Children look closely at an old photograph of a main street with horses, early cars, a streetcar and shop signs, list what they see, and write questions the photograph makes them ask about how the town has changed.",
+            "standard": "D2.His.12.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Photo detective page: a sample photograph of a main street about 1910 (a horse-drawn wagon, two early cars, a streetcar on rails, people in long coats and hats, signs for a hardware store and a bank) with a See, Think, Wonder chart beside it. The child lists things they see, writes what they think the photo shows about life then, and writes questions. Level 1: circle five things in the photo and write one question with a starter; level 2: two things for See and two questions; level 3: three questions, one of them about how to find the answer."
+          },
+          {
+            "new": true,
+            "title": "Why did the town change?",
+            "objective": "Children read a short history of a sample town (a railroad station opened, then new stores and houses were built), choose which of three reasons most likely explains why the town grew, and give the clue from the text that supports their choice.",
+            "standard": "D2.His.16.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Best reason page: a short history of a sample town (In 1880 the town had twelve farms. In 1885 a railroad station opened. Farmers could send their crops to the city by train, and new stores and houses were built near the station.) and three possible reasons the town grew (the railroad came, people liked the weather, a big storm hit). The child circles the most likely reason and copies the sentence that is the clue. Level 1: two reasons; level 2: three reasons; level 3: the child also writes why one of the other reasons is less likely."
+          }
+        ]
+      },
+      {
+        "id": "new:g2-producers-and-consumers",
+        "title": "Producers, Consumers and Money",
+        "why": "In spring children see the economy from the inside: the tools and skills producers need, what it costs to make a product, what banks do, and a class market where they produce, price and buy.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Tools and skills for the job",
+            "objective": "Children sort what producers need into tools and machines (an oven, a tractor, a computer) and skills learned through school and practice (baking, driving, building), and explain how both help a worker make more and better goods.",
+            "standard": "D2.Eco.13.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Tools and skills page: three producers (a baker, a farmer, a builder) each with a row of cards, some tools or machines (an oven, a mixer, a tractor, a drill) and some skills (knowing a recipe, knowing when to plant, reading a building plan). The child colors tools blue and skills orange. Level 1: one producer, four cards; level 2: three producers; level 3: the child also writes 'With a ___, the baker can make more bread because ___.'"
+          },
+          {
+            "new": true,
+            "title": "What does it cost to make?",
+            "objective": "Children plan a lemonade stand, list what they must pay for before they can sell anything (lemons, sugar, cups, a sign), add the costs, and decide on a price per cup that would cover them.",
+            "standard": "D2.Eco.7.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Lemonade stand page: a shopping list with prices (lemons 2 dollars, sugar 1 dollar, 10 cups 1 dollar, poster paper 1 dollar) and a cost table. The child circles what must be bought before selling and adds the costs, then counts up what 10 cups bring in at 25 cents, 50 cents and 1 dollar a cup and circles the lowest price that covers the costs. Level 1: three costs in whole dollars, two prices to try; level 2: four costs, three prices; level 3: the child also writes how much money is left over at the price they would choose and why they chose it."
+          },
+          {
+            "new": true,
+            "title": "What banks do",
+            "objective": "Children learn that a bank keeps people's money safe, pays savers a little extra called interest, and lends money to people who need it, then match each sentence to the picture that shows it.",
+            "standard": "D2.Eco.9.K-2",
+            "days": 2,
+            "source": "new",
+            "page": "Bank page: three pictures (a child putting money into a bank account, a statement showing a little interest added, a family borrowing money from the bank to fix their roof) and three sentences (The bank keeps money safe. The bank pays savers interest. The bank lends money.). The child writes the right sentence under each picture. Level 1: two pictures; level 2: three pictures; level 3: the child also writes why a family might borrow money and why they must pay it back."
+          },
+          {
+            "new": true,
+            "title": "Class market day",
+            "objective": "Children run a class market: each group makes a good or offers a service, sets and writes its price, and everyone buys with play dollars and coins, then the class talks about which prices made people buy.",
+            "standard": "D2.Eco.5.K-2",
+            "days": 3,
+            "tool": "Money Mat",
+            "source": "teacher-led",
+            "page": "Market routine over three sessions: day one, groups choose a good (bookmarks, paper flowers) or a service (a joke told, a drawing made to order) and make it; day two, groups write price tags between 10 cents and 1 dollar and every child gets the same play money; day three, half the class sells while half buys, then they swap, and the class graphs what sold. The teacher watches for children who read prices, pay with the right coins, give change and can say why a lower price sold more."
+          }
+        ]
+      }
+    ],
+    "totalDays": 56,
+    "leftOut": [],
+    "notCovered": []
+  },
+  "3": {
+    "nonTeachingWeeks": [
+      { "weeks": "1-2", "what": "First weeks of school: names, routines and the class's first agreements happen across the whole day; social studies sessions begin in week 3 with the citizenship unit, timed so Constitution Day falls inside it." },
+      { "weeks": "10", "what": "End of the first quarter: report-card checks and family conferences; social studies time finishes pages and make-up checks." },
+      { "weeks": "17", "what": "The short week before winter break: no new social studies; children share their grid maps." },
+      { "weeks": "20", "what": "Middle-of-year benchmark window in reading and math, which takes the social studies block; Martin Luther King Jr. Day falls this week and is marked in morning meeting." },
+      { "weeks": "28", "what": "End of the third quarter: report-card checks and spring conferences." },
+      { "weeks": "30-31", "what": "The state reading and math tests: a review week and the test week take the social studies block." },
+      { "weeks": "34", "what": "End-of-year benchmark window in reading and math, which takes the social studies block." },
+      { "weeks": "36", "what": "Last week of school: a community fair for families with the grid maps, the letters to the city council and the double timelines." }
+    ],
+    "units": [
+      {
+        "id": "new:g3-citizens-rules-and-laws",
+        "title": "Citizens, Rules and Laws",
+        "why": "Third grade opens with the class as a small democracy, timed so that Constitution Day (September 17) falls inside it: civic virtues, the Constitution and the Bill of Rights, deciding by discussion, and how people change laws.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Civic virtues at school",
+            "objective": "Children read short school situations, name the civic virtue each one calls for (honesty, respect, responsibility, fairness, courage), and write what a good citizen would do and why.",
+            "standard": "D2.Civ.7.3-5",
+            "days": 2,
+            "source": "new",
+            "page": "Civic virtues page: five short situations, each calling for one virtue (You see a classmate take another's snack: courage. You break a library book: honesty. Your group must share one computer: fairness. A new student speaks another language: respect. It is your job to water the class plant: responsibility.) and a word box with the five virtues. The child writes the virtue and one sentence of what a good citizen would do. Level 1: three situations, choose from three virtues; level 2: five situations; level 3: the child also writes a situation of their own for a partner to solve."
+          },
+          {
+            "new": true,
+            "title": "The Constitution and our class constitution",
+            "objective": "Children learn that the U.S. Constitution, signed on September 17, 1787, is the plan for our national government and that the Bill of Rights protects freedoms such as freedom of speech and religion, then write a class constitution that begins 'We the students'.",
+            "standard": "D2.Civ.3.3-5",
+            "days": 2,
+            "source": "new",
+            "page": "Class constitution page: the first words of the Constitution ('We the People of the United States') with a short plain-language explanation, a box of three Bill of Rights freedoms (speech, religion, the press), and a frame 'We the students of Room ___, in order to ___, agree to these rules:' with four numbered lines and a line beside each for the reason. Level 1: match the three freedoms to pictures and write two rules; level 2: four rules with reasons; level 3: the child also writes which rule protects a freedom in the class and how."
+          },
+          {
+            "new": true,
+            "title": "Deciding together",
+            "objective": "Children deliberate on a real class question (how to use indoor recess, where to put a reading corner): they list the choices, give reasons with evidence, listen to every side and reach a decision the whole group can accept.",
+            "standard": "D2.Civ.9.3-5",
+            "days": 2,
+            "source": "teacher-led",
+            "page": "Deliberation routine: the teacher poses a real class question with three choices; small groups list a reason for and against each choice on chart paper; each group reports while the others listen and ask one question; the class looks for a choice or a mix most people can accept and only then votes. The teacher watches for children who back a reason with a fact, restate a view they disagree with fairly, and change their mind when they hear a better reason."
+          },
+          {
+            "new": true,
+            "title": "How people change laws",
+            "objective": "Children read two true stories of people changing national laws (women winning the right to vote in 1920, people with disabilities winning the Americans with Disabilities Act in 1990) and a local example (neighbors asking the city council for a crosswalk), and record who wanted the change, what they did and what changed.",
+            "standard": "D2.Civ.12.3-5",
+            "days": 2,
+            "source": "new",
+            "page": "Changing laws page: three short texts (women and men worked for more than 70 years, giving speeches, writing and marching, until the 19th Amendment gave women the right to vote in 1920; people with disabilities spoke out, wrote to Congress and marched until the Americans with Disabilities Act of 1990 required ramps, wide doors and fair hiring; neighbors gathered signatures and spoke at a city council meeting to get a crosswalk near a park) and a table with the columns Who, What they did and What changed. Level 1: one text, table started; level 2: all three texts; level 3: the child also writes one change they would ask for at school and how they would ask."
+          }
+        ]
+      },
+      {
+        "id": "new:g3-maps-world-and-state",
+        "title": "Maps of Our World and Our State",
+        "why": "In late fall children build the map skills of the upper grades (continents and oceans, map scale, a grid map of their own) and then use maps to explain where people live and why towns grew where they did.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Continents and oceans",
+            "objective": "Children locate the seven continents and five oceans on a world map and number them, then name the oceans that touch North America and the continent that lies south of Europe.",
+            "standard": "D2.Geo.2.3-5",
+            "days": 2,
+            "source": "point:3:continents-oceans"
+          },
+          {
+            "new": true,
+            "title": "How far is it? Using a map scale",
+            "objective": "Children measure distances on a town map with a ruler and the map scale (1 inch stands for 1 mile), compare a town map with a state map, and tell which map shows more detail and which shows more land.",
+            "standard": "D2.Geo.3.3-5",
+            "days": 2,
+            "tool": "Ruler",
+            "source": "new",
+            "page": "Map scale page: a sample town map with north at the top, a scale bar (1 inch = 1 mile) and five places (school, park, library, fire station, lake), and beside it a small state map of the same area where the whole town is one dot. The child measures and writes the distance between pairs of places, then circles which map shows the streets and which shows more cities. Level 1: distances in whole inches; level 2: whole and half inches; level 3: the child also plans the shortest trip that visits three places and gives its length in miles."
+          },
+          {
+            "new": true,
+            "title": "Make a grid map of our community",
+            "objective": "Children draw a map of the school neighborhood on a lettered and numbered grid with a title, a key, a compass rose with north at the top and a scale, then write grid locations (B3, D1) for a partner to find.",
+            "standard": "D2.Geo.1.3-5",
+            "days": 3,
+            "source": "new",
+            "page": "Grid map project: a blank 6 by 6 grid (letters A to F across, numbers 1 to 6 down) with empty boxes for the title, the key, the compass rose and the scale, and a checklist of six places to include. The child draws the neighborhood, fills the key and writes the grid square of four places on the back for a partner. Level 1: the school and two streets are already drawn and the key has symbols to copy; level 2: a blank grid; level 3: the child also writes two directions with distances, such as 'From the school, go 2 blocks north to the park.'"
+          },
+          {
+            "new": true,
+            "title": "Where people live and why",
+            "objective": "Children compare a population dot map of the United States with a physical map, find that more people live along the coasts, big rivers and the Great Lakes and fewer in deserts and high mountains, and write reasons why.",
+            "standard": "D2.Geo.6.3-5",
+            "days": 2,
+            "source": "new",
+            "page": "Where people live page: a U.S. population dot map and a physical map side by side with north at the top, and four places marked with letters (an Atlantic coast city area, the Great Lakes, a western desert, the Rocky Mountains). The child circles 'many people' or 'few people' for each place and writes a reason using the physical map (water, flat land, ports, cold, dry). Level 1: two places with reason words to choose from; level 2: four places; level 3: the child also writes where people live in their own state and why."
+          },
+          {
+            "new": true,
+            "title": "Towns grow near resources",
+            "objective": "Children study a map of a sample state with a river, a harbor, a forest, farmland and a mine, choose the best place to start a town, and explain how water, soil, trees or minerals helped real towns grow.",
+            "standard": "D2.Geo.8.3-5",
+            "days": 2,
+            "source": "new",
+            "page": "Start a town page: a map of a sample state with north at the top showing a river, a harbor, a forest, farmland, a mine and a dry, rocky area, plus three possible town sites (A by the river and farmland, B in the dry rocky area, C by the harbor). The child ranks the sites and writes which resource each good site offers. Level 1: two sites, circle the better one and its resource; level 2: three sites with reasons; level 3: the child also writes which resource helped their own town or city begin."
+          }
+        ]
+      },
+      {
+        "id": "new:g3-how-government-works",
+        "title": "How Our Government Works",
+        "why": "In winter children study government without waiting for an election: the three levels, the three branches, how taxes pay for services, how groups decide, and how citizens help solve a public problem.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Three levels of government",
+            "objective": "Children sort leaders and services into local (the mayor and city council: parks, the fire department, trash pickup), state (the governor and state legislature: state highways, driver's licenses) and national (the president and Congress: the mail, national parks, coins and paper money), and tell which level to ask about a problem.",
+            "standard": "D2.Civ.1.3-5",
+            "days": 2,
+            "source": "new",
+            "page": "Three levels page: a chart with columns Local, State and National, and cards with leaders by role (mayor, city council, governor, state legislature, president, Congress) and services (a city park, the fire department, trash pickup, a state highway, a driver's license, the mail, a national park, coins and paper money). The child writes each card in its column. Level 1: leaders only; level 2: leaders and services; level 3: the child also writes which level to contact about a broken swing in a city park and why."
+          },
+          {
+            "new": true,
+            "title": "Three branches",
+            "objective": "Children learn that the U.S. Constitution splits the national government into three branches (Congress makes the laws, the president carries them out, the courts decide what laws mean) that check each other, and that our state government has the same three parts.",
+            "standard": "D2.Civ.5.3-5",
+            "days": 2,
+            "source": "new",
+            "page": "Three branches page: a drawing of three columns holding up a roof, labeled Legislative, Executive and Judicial, and cards to place (Congress, the president, the Supreme Court, makes laws, carries out laws, decides what laws mean). Below, a second set for the state (the state legislature, the governor, the state courts). The child writes each card under its branch. Level 1: national government only; level 2: national and state; level 3: the child also writes one way a branch can check another, such as 'The president can veto a bill that Congress passes.'"
+          },
+          {
+            "new": true,
+            "title": "Taxes pay for services",
+            "objective": "Children trace how the taxes people and businesses pay become a fire truck, a library book or a repaired road, and write which level of government provides each service and how it pays for it.",
+            "standard": "D2.Eco.12.3-5",
+            "days": 2,
+            "source": "new",
+            "page": "Where taxes go page: a flow diagram that starts with people and businesses paying taxes, goes to a government box, and ends in three empty service boxes. The child draws or writes a service in each box (a fire truck, library books, a repaired road), labels which level of government provides it, and finishes 'Without taxes, ___ would not have money for ___.' Level 1: services drawn, labels chosen from a box; level 2: services written and labeled; level 3: the child also writes one service they think the town should spend more on and why."
+          },
+          {
+            "new": true,
+            "title": "Ways to decide",
+            "objective": "Children compare how decisions are made in a class vote, a town council meeting and an election, where citizens 18 and older vote for leaders, and write one way each process gives people a say.",
+            "standard": "D2.Civ.11.3-5",
+            "days": 2,
+            "source": "new",
+            "page": "Ways to decide page: a chart comparing three ways of deciding (a class vote; a town council meeting where people speak and the council votes; an election where citizens 18 and older vote for a mayor or governor) in the rows Who decides, How, and How people have a say. The child fills the empty cells from short texts above the chart. Level 1: one row filled in as a model; level 2: blank chart; level 3: the child also writes which way fits a class decision about a field trip and why."
+          },
+          {
+            "new": true,
+            "title": "Solving a community problem",
+            "objective": "Children study a sample community problem (no safe place to cross a busy street near a park), list possible solutions, choose one by weighing its costs and benefits, and write a letter to the city council proposing it.",
+            "standard": "D2.Civ.13.3-5",
+            "days": 2,
+            "source": "new",
+            "page": "Problem solver page: a short description and map of the problem (a busy street between homes and a park, no crosswalk), a table to list three solutions (a crosswalk with a light, a crossing guard, a sign) with a cost and a benefit for each, and a letter frame 'Dear City Council members, We noticed ___. We suggest ___ because ___.' Level 1: the solutions are given, the child chooses and writes two sentences of the letter; level 2: the child writes solutions and the full letter; level 3: the child also says which part of the government would carry the plan out."
+          }
+        ]
+      },
+      {
+        "id": "new:g3-community-then-and-now",
+        "title": "Our Community Then and Now",
+        "why": "In spring children work as historians and economists of their own community: they use sources and timelines, compare life then and now, find the resources local work depends on, and trace causes and effects.",
+        "lessons": [
+          {
+            "new": true,
+            "title": "Primary and secondary sources",
+            "objective": "Children sort sources into primary (a diary, an old photograph, a letter, a map made at the time) and secondary (a textbook page, an encyclopedia article written later), and explain what each kind can tell a historian about the past.",
+            "standard": "D2.His.9.3-5",
+            "days": 2,
+            "source": "new",
+            "page": "Source sort page: pictures of eight sources with a one-line description each (a diary written by a girl in 1900, a photograph of the town's first school, a letter from a soldier, a map drawn in 1870, a page from a history textbook, an encyclopedia article, a museum sign, a newspaper from the day an event happened) and two columns, Primary and Secondary. The child writes each source in its column. Level 1: four sources with a definition box; level 2: eight sources; level 3: the child also writes which source would best tell what school was like in 1900 and why."
+          },
+          {
+            "new": true,
+            "title": "A double timeline",
+            "objective": "Children place events from a sample town's history and from U.S. history on two parallel timelines (the first transcontinental railroad in 1869, the town's first school in 1870, the Wright brothers' first powered flight in 1903, women winning the vote in 1920), and tell which events happened at about the same time.",
+            "standard": "D2.His.1.3-5",
+            "days": 2,
+            "tool": "Story Line",
+            "source": "new",
+            "page": "Double timeline page: two parallel timelines from 1860 to 1940 marked every ten years, one labeled Our Sample Town and one labeled United States, and event cards with dates (town: first school 1870, train station 1885, library 1920, first paved road 1930; nation: transcontinental railroad finished 1869, the Wright brothers' first powered airplane flight 1903, women win the vote 1920). The child writes each event at its place and draws a line between events that happened within five years of each other. Level 1: four events; level 2: all seven; level 3: the child also adds two events from their own town found with the teacher."
+          },
+          {
+            "new": true,
+            "title": "Life then and now",
+            "objective": "Children compare life in a U.S. town around 1900 with life today (getting around, lighting homes, sending messages, going to school), using photographs and short texts, and write how one part of life changed and one stayed the same.",
+            "standard": "D2.His.2.3-5",
+            "days": 2,
+            "source": "new",
+            "page": "Then and now chart page: four rows (getting around, lighting at home, sending messages, school), each with a short true text and a photograph from about 1900 (horses, streetcars and trains, few cars; oil lamps and candles in most homes; letters, and the telegraph for urgent news; many one-room schools) and a column for today that the child fills in. The child writes one sentence about what changed most and one about what stayed the same. Level 1: two rows; level 2: four rows; level 3: the child also writes which change they think mattered most and why."
+          },
+          {
+            "new": true,
+            "title": "Resources and jobs in our community",
+            "objective": "Children sort the resources a local business uses into natural resources (wheat, water), human resources (a baker's skill) and capital resources (an oven, a delivery van), and do the same for a business in their own town.",
+            "standard": "D2.Eco.3.3-5",
+            "days": 2,
+            "source": "new",
+            "page": "Resources page: a picture of a bakery with nine resource cards (wheat from the fields, water, salt, the baker's skill, the cashier's work, an oven, a mixer, a delivery van, the building) and three columns: Natural, Human, Capital. The child writes each card in its column. Level 1: six cards with a definition beside each column; level 2: nine cards; level 3: the child also fills a second, blank chart for a business in their own town."
+          },
+          {
+            "new": true,
+            "title": "Causes and effects in a town's history",
+            "objective": "Children read a short history of a sample town, link each cause to its effect (a railroad came, so farmers could ship their crops; a factory closed, so families moved away), and write the most likely cause of one change in their own community.",
+            "standard": "D2.His.14.3-5",
+            "days": 2,
+            "source": "new",
+            "page": "Cause and effect page: a short history of a sample town in five events, then a two-column chart with the causes listed (the railroad came, a river flooded the low streets, a factory opened, the factory closed) and the effects mixed up to match (farmers shipped crops to cities, houses were built on the hill, many families moved in, many families moved away). The child draws a line from each cause to its effect. Level 1: two pairs; level 2: four pairs; level 3: the child also writes 'In our town, ___ happened because ___.' with evidence from a source."
+          }
+        ]
+      }
+    ],
+    "totalDays": 51,
+    "leftOut": [],
+    "notCovered": []
+  }
+}

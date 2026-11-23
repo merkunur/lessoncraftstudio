@@ -133,6 +133,17 @@
      "short": "NGSS",
      "show": "code",
      "titleKinds": ["topic"]
+    },
+    "c3": {
+     "short": "C3 Framework",
+     "show": "code",
+     "titleKinds": ["area", "subarea"]
+    },
+    "nhes": {
+     "short": "NHES",
+     "show": "code",
+     "strip": "NHES.",
+     "titleKinds": []
     }
    }
   },
@@ -155,6 +166,16 @@
      "short": "TEKS",
      "show": "code",
      "strip": "SCI."
+    },
+    "teks-social-studies": {
+     "short": "TEKS",
+     "show": "code",
+     "strip": "SS."
+    },
+    "teks-health": {
+     "short": "TEKS",
+     "show": "code",
+     "strip": "HE."
     }
    }
   },

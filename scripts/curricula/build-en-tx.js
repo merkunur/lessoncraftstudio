@@ -21,6 +21,15 @@
  *   (i) …                                          a part of an expectation           → node ELAR.K.2.A.i (component)
  * Mathematics ids are written as Texas teachers write them (K.2.A); reading ids carry ELAR. and science ids SCI. in
  * front, because all three documents number from (1).
+ *
+ * Stage D-0 (2026-11-23) adds Social Studies (19 TAC Chapter 113, ids SS.K.1.A) and Health Education (Chapter 115,
+ * ids HE.K.1.A). For neither does a machine-readable copy hold the wording in force (social studies: the copies are
+ * of the 2018 adoption, the law of the 2022 one; health: the copies dated 2020 differ from the adopted text in about
+ * one statement in six), so both are read from the Agency's PDF itself (pdfStatements), counted against the PDF like
+ * the others, and the copies are only compared with the result (the difference is reported in `checkedAgainstPdf`).
+ * Their knowledge-and-skills statements keep their heading ("History. The student understands …"), as the PDF prints
+ * them; one that carries its expectation in itself ("… The student is expected to identify …") is a node of kind
+ * strand with no lettered list under it.
  */
 'use strict';
 const fs = require('fs');
@@ -36,6 +45,16 @@ const DOCS = [
     title: 'Texas Essential Knowledge and Skills for English Language Arts and Reading, Subchapter A. Elementary (19 TAC Chapter 110)' },
   { key: 'teks-science', prefix: 'SCI.', chapter: '112', pdf: 'ch112a.pdf', pdfUrl: 'https://tea.texas.gov/laws-and-rules/sboe-rules-tac/sboe-tac-currently-effect/ch112a.pdf', subject: 'science', asn: ['D21312410', 'D21312460', 'D21312517', 'D21312575', 'D21312634', 'D21312690'],
     title: 'Texas Essential Knowledge and Skills for Science, Subchapter A. Elementary (19 TAC Chapter 112)' },
+  // Stage D-0 (2026-11-23): both documents are read from the Agency's PDF itself (fromPdf), and the Network's copy is
+  // only compared with them (compareWith), never taken. Social studies: the sections in force were adopted in 2022,
+  // the copies are of the 2018 adoption. Health: the copies, dated 2020, differ from the adopted text in about one
+  // statement in six (wording, statements the law does not hold, statements they lack), so they cannot be the source.
+  { key: 'teks-social-studies', prefix: 'SS.', chapter: '113', pdf: 'ch113a.pdf', pdfUrl: 'https://tea.texas.gov/laws-and-rules/sboe-rules-tac/sboe-tac-currently-effect/ch113a.pdf', subject: 'social', asn: [], fromPdf: true, accessed: '2026-11-23',
+    compareWith: ['D21205232', 'D21205278', 'D21205340', 'D21205399', 'D21205456', 'D21205545'], compareLabel: 'the Network\'s copy of the previous adoption (2018)',
+    title: 'Texas Essential Knowledge and Skills for Social Studies, Subchapter A. Elementary (19 TAC Chapter 113)' },
+  { key: 'teks-health', prefix: 'HE.', chapter: '115', pdf: 'ch115a.pdf', pdfUrl: 'https://tea.texas.gov/laws-and-rules/sboe-rules-tac/sboe-tac-currently-effect/ch115a.pdf', subject: 'health', asn: [], fromPdf: true, accessed: '2026-11-23',
+    compareWith: ['D21299219', 'D21299265', 'D21299318', 'D21299376', 'D21299438', 'D21299511'], compareLabel: 'the Network\'s copy of this adoption (dated 2020)',
+    title: 'Texas Essential Knowledge and Skills for Health Education, Subchapter A. Elementary (19 TAC Chapter 115)' },
 ];
 const GRADE = { Kindergarten: 'K', 'Grade 1': '1', 'Grade 2': '2', 'Grade 3': '3', 'Grade 4': '4', 'Grade 5': '5' };
 /** where the PDF and the machine-readable copy differ, the PDF wins: see the file's own comment */
@@ -62,6 +81,50 @@ function gradeSections(doc, raw) {
   }
   return { sections: out, rawSections: rawOut, adopted: [...adopted] };
 }
+
+/** where the knowledge and skills of a grade section begin: "(b) Knowledge and skills." (social studies: "(c) …") */
+const KS = /\([a-z]\) Knowledge and skills\./;
+/** the running heads and feet of the Agency's pages, which pdftotext writes between the statements */
+const PAGE_FURNITURE = /^(?:[A-Z][a-z]+ \d{4} Update|Page \d+ of \d+|Elementary|§\d+\.[A-Z]\.)$/;
+/**
+ * The statements of a chapter read from the Agency's PDF itself (Stage D-0): in pdftotext's text every statement of
+ * the knowledge and skills is one line that opens with its outline mark — (1) a knowledge-and-skills statement,
+ * (A) an expectation, (i) a part of one — unless a page break cuts it, when the rest follows the page's foot and head
+ * and is joined back. Returns Map id → node, plus the joins made, for the report.
+ */
+function pdfStatements(doc, rawSections, problems) {
+  const out = new Map(), joined = [];
+  for (const [g, sec] of Object.entries(rawSections)) {
+    const at = sec.search(KS);
+    if (at < 0) { problems.push(doc.key + ' grade ' + g + ': the PDF section has no "Knowledge and skills."'); continue; }
+    let body = sec.slice(at);
+    body = body.slice(body.indexOf('\n') + 1);
+    const end = body.search(/^Source: /m);
+    if (end >= 0) body = body.slice(0, end);
+    const items = [];
+    for (const line of body.split('\n')) {
+      const l = line.trim();
+      if (!l || PAGE_FURNITURE.test(l)) continue;
+      if (/^\((?:\d+|[A-Z]|[ivx]+)\) /.test(l)) items.push(l);
+      else if (items.length) { items[items.length - 1] += ' ' + l; joined.push(g + ': …' + l.slice(0, 40)); }
+      else problems.push(doc.key + ' grade ' + g + ': a line before the first statement: ' + l.slice(0, 60));
+    }
+    let strand = null, letter = null;
+    for (const it of items) {
+      const m = /^\((\d+|[A-Z]|[ivx]+)\) (.*)$/.exec(it);
+      const mark = m[1], text = m[2].replace(/\s+/g, ' ').trim();
+      let n;
+      if (/^\d+$/.test(mark)) { strand = doc.prefix + g + '.' + mark; letter = null; n = { id: strand, f: doc.key, kind: 'strand', grade: g, text }; }
+      else if (/^[A-Z]$/.test(mark)) { if (!strand) { problems.push(doc.key + ' grade ' + g + ': (' + mark + ') before any numbered statement'); continue; } letter = strand + '.' + mark; n = { id: letter, f: doc.key, kind: 'standard', grade: g, parent: strand, text }; }
+      else { if (!letter) { problems.push(doc.key + ' grade ' + g + ': (' + mark + ') before any lettered expectation'); continue; } n = { id: letter + '.' + mark, f: doc.key, kind: 'component', grade: g, parent: letter, text }; }
+      if (out.has(n.id)) problems.push(doc.key + ': the PDF numbers ' + n.id + ' twice');
+      out.set(n.id, n);
+    }
+  }
+  return { statements: out, joined };
+}
+/** the same statement in the copy and in the PDF? (a copy writes a knowledge-and-skills statement without its heading) */
+const alike = (kind, copy, pdf) => (kind === 'strand' ? flat(pdf).endsWith(flat(copy)) && flat(copy).length > 20 : flat(pdf) === flat(copy));
 
 (async () => {
   const frameworks = [], nodes = [], problems = [];
@@ -96,12 +159,36 @@ function gradeSections(doc, raw) {
       if (mine.some((n) => n.id === a.id)) { problems.push('en-tx-pdf-wording.json: ' + a.id + ' is in the copy; it is not to be added'); continue; }
       mine.push({ id: a.id, f: doc.key, kind: m[5] ? 'component' : m[4] ? 'standard' : 'strand', grade: m[2], parent: m[4] ? a.id.split('.').slice(0, -1).join('.') : undefined, text: a.text, wordingFrom: 'the Agency\'s PDF (the machine-readable copy does not hold this statement)', added: true });
     }
-    const grades = [...new Set(mine.map((n) => n.grade))].sort((a, b) => 'K12345'.indexOf(a) - 'K12345'.indexOf(b));
-    if (grades.join('') !== 'K12345') problems.push(doc.key + ': grades read are ' + grades.join(', ') + ' (K to 5 expected)');
-    // every statement is looked for in the Agency's PDF, in the section of its own grade
     const pdfBuf = await fetchRaw(REG, doc.pdf, doc.pdfUrl);
     const raw = pdfText(REG, doc.pdf);
     const { sections, rawSections, adopted } = gradeSections(doc, raw);
+    // Stage D-0: the statements as the PDF itself prints them (see pdfStatements)
+    let fromPdfNote = '', compareNote = '', compareHashes = null;
+    if (doc.fromPdf) {
+      const { statements, joined } = pdfStatements(doc, rawSections, problems);
+      for (const n of statements.values()) mine.push(Object.assign({}, n));
+      valid = adopted.join(', ');
+      fromPdfNote = mine.length + ' statements read from the Agency\'s PDF itself (no machine-readable copy holds the wording in force)' + (joined.length ? ', ' + joined.length + ' of them joined across a page break' : '');
+    }
+    if (doc.compareWith) {
+      // the Network's copy of the previous adoption, compared statement by statement: what differs is what the State
+      // Board changed (or what the copy got wrong); it is reported, never taken
+      const old = new Map();
+      compareHashes = [];
+      for (const d of doc.compareWith) {
+        const buf = await fetchRaw(REG, d + '.json', ASN + d + '_full.json');
+        compareHashes.push(sha256(buf));
+        for (const o of Object.values(JSON.parse(buf.toString('utf8')))) { const no = val(o, A + 'statementNotation'); if (no && /^(K|[1-5])\.\d+(\.[A-Z])?(\.[ivx]+)?$/.test(no)) old.set(doc.prefix + no, (val(o, DC + 'description') || '').replace(/\s+/g, ' ').trim()); }
+      }
+      const same = mine.filter((n) => old.has(n.id) && alike(n.kind, old.get(n.id), n.text));
+      const differ = mine.filter((n) => old.has(n.id) && !alike(n.kind, old.get(n.id), n.text)).map((n) => n.id);
+      const onlyNew = mine.filter((n) => !old.has(n.id)).map((n) => n.id);
+      const onlyOld = [...old.keys()].filter((id) => !mine.some((n) => n.id === id));
+      compareNote = 'compared with ' + doc.compareLabel + ': ' + same.length + ' of ' + mine.length + ' statements are worded alike' + (differ.length ? '; ' + differ.length + ' differ (' + differ.join(', ') + ')' : '') + (onlyNew.length ? '; ' + onlyNew.length + ' are new (' + onlyNew.join(', ') + ')' : '') + (onlyOld.length ? '; ' + onlyOld.length + ' of the copy are not in the PDF (' + onlyOld.join(', ') + ')' : '');
+    }
+    const grades = [...new Set(mine.map((n) => n.grade))].sort((a, b) => 'K12345'.indexOf(a) - 'K12345'.indexOf(b));
+    if (grades.join('') !== 'K12345') problems.push(doc.key + ': grades read are ' + grades.join(', ') + ' (K to 5 expected)');
+    // every statement is looked for in the Agency's PDF, in the section of its own grade
     const updates = [...new Set((raw.match(/[A-Z][a-z]+ \d{4} Update/g) || []))];
     let found = 0, partly = 0, corrected = 0, added = 0;
     const notFound = [];
@@ -120,19 +207,33 @@ function gradeSections(doc, raw) {
     // the END of a list would otherwise go unseen (the gap check below sees only a hole in the middle).
     for (const g of grades) {
       const sec = rawSections[g] || '';
-      const at = sec.indexOf('(b) Knowledge and skills.');
-      if (at < 0) { problems.push(doc.key + ' grade ' + g + ': the PDF section has no "(b) Knowledge and skills."'); continue; }
+      const at = sec.search(KS);
+      if (at < 0) { problems.push(doc.key + ' grade ' + g + ': the PDF section has no "Knowledge and skills."'); continue; }
       const body = sec.slice(at);
       const letters = (body.match(/^\([A-Z]\)/gm) || []).length;
       const romans = (body.match(/^\((?:x{0,3}(?:ix|iv|v?i{1,3}|v)|x{1,3})\)/gm) || []).length;
       const haveL = mine.filter((n) => n.grade === g && n.kind === 'standard').length, haveR = mine.filter((n) => n.grade === g && n.kind === 'component').length;
       if (letters !== haveL) problems.push(doc.key + ' grade ' + g + ': the PDF shows ' + letters + ' lettered expectations, the registry holds ' + haveL);
       if (romans !== haveR) problems.push(doc.key + ' grade ' + g + ': the PDF shows ' + romans + ' numbered parts, the registry holds ' + haveR);
+      // Stage D-0 documents: the knowledge-and-skills statements are counted too (a statement with no lettered list
+      // under it would otherwise leave no trace in the two counts above)
+      if (doc.fromPdf) {
+        const numbered = (body.slice(0, body.search(/^Source: /m) >= 0 ? body.search(/^Source: /m) : body.length).match(/^\(\d+\) /gm) || []).length;
+        const haveS = mine.filter((n) => n.grade === g && n.kind === 'strand').length;
+        if (numbered !== haveS) problems.push(doc.key + ' grade ' + g + ': the PDF shows ' + numbered + ' numbered knowledge-and-skills statements, the registry holds ' + haveS);
+      }
     }
     if (notFound.length) problems.push(doc.key + ': ' + notFound.length + ' statement(s) not found in the PDF section of their grade: ' + notFound.slice(0, 40).join(', '));
-    frameworks.push({ key: doc.key, short: 'TEKS', subject: doc.subject, title: doc.title, publisher: 'Texas Education Agency / State Board of Education (Texas Administrative Code, Title 19, Part II)', year: valid, officialDocument: doc.pdfUrl, readFrom: doc.asn.map((d) => ASN + d + '_full.json').join(' '), accessed: ACCESSED, sha256: hashes.join(' '), pdfSha256: sha256(pdfBuf),
+    const checked = found + ' of ' + mine.length + ' statements found in the Agency\'s PDF, each in the section of its own grade' + (partly ? ' (' + partly + ' by their beginning only: a page break interrupts the rest)' : '') + (corrected ? '; ' + corrected + ' carry the PDF\'s current wording' : '') + (added ? '; ' + added + ' that the copy lost were taken from the PDF' : '') + '; the number of lettered expectations and of numbered parts of every grade equals the PDF\'s';
+    const meta = { key: doc.key, short: 'TEKS', subject: doc.subject, title: doc.title, publisher: 'Texas Education Agency / State Board of Education (Texas Administrative Code, Title 19, Part II)', year: valid, officialDocument: doc.pdfUrl, readFrom: doc.asn.map((d) => ASN + d + '_full.json').join(' '), accessed: doc.accessed || ACCESSED, sha256: hashes.join(' '), pdfSha256: sha256(pdfBuf),
       version: 'adopted ' + adopted.join(', ') + (updates.length ? '; the PDF is marked "' + updates.join('", "') + '"' : ''), sourceNamedByTheCopy: source, citation: '19 Texas Administrative Code Chapter ' + doc.chapter + ', Subchapter A (Texas Education Agency).',
-      checkedAgainstPdf: found + ' of ' + mine.length + ' statements found in the Agency\'s PDF, each in the section of its own grade' + (partly ? ' (' + partly + ' by their beginning only: a page break interrupts the rest)' : '') + (corrected ? '; ' + corrected + ' carry the PDF\'s current wording' : '') + (added ? '; ' + added + ' that the copy lost were taken from the PDF' : '') + '; the number of lettered expectations and of numbered parts of every grade equals the PDF\'s' });
+      checkedAgainstPdf: checked };
+    if (doc.fromPdf) {
+      // the PDF is the source itself: its address is where the wording was read, its checksum the file's
+      Object.assign(meta, { readFrom: doc.pdfUrl, sha256: sha256(pdfBuf), sourceNamedByTheCopy: undefined, comparedWith: doc.compareWith.map((d) => ASN + d + '_full.json').join(' '), comparedWithSha256: compareHashes.join(' '),
+        checkedAgainstPdf: fromPdfNote + '; ' + checked + ', and the number of numbered knowledge-and-skills statements too; ' + compareNote });
+    }
+    frameworks.push(meta);
     nodes.push(...mine);
   }
   const seen = new Set();

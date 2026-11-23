@@ -2,9 +2,11 @@
 /**
  * The US registry (Daily Teaching System, Part 2, locale en): the Common Core State Standards for Mathematics and
  * for English Language Arts, and the Next Generation Science Standards, kindergarten to grade 5, as nodes with the
- * official wording — and the crosswalk from every teaching point to them.
+ * official wording — and the crosswalk from every teaching point to them. Since Stage D-0 (2026-11-23) also the C3
+ * Framework for social studies and the National Health Education Standards, grade bands K-2 / PreK-2 and 3-5 (see
+ * BAND_SOURCES below).
  *
- *   node scripts/curricula/build-en.js --fetch     downloads the three source files into out/curricula/en/ (once)
+ *   node scripts/curricula/build-en.js --fetch     downloads the source files into out/curricula/en/ (once)
  *   node scripts/curricula/build-en.js             → frontend/content/curricula/en/framework.json + crosswalk.json
  *   node scripts/curricula/build-en.js --check     fails when the committed files differ from the build
  *
@@ -40,6 +42,27 @@ const SOURCES = [
   { key: 'ngss', file: 'asn-ngss.json', url: 'http://asn.desire2learn.com/resources/D2454348_full.json', pdf: null, pdfUrl: null, short: 'NGSS', subject: 'science',
     citation: 'NGSS Lead States. 2013. Next Generation Science Standards: For States, By States. Washington, DC: The National Academies Press.' },
 ];
+/**
+ * Social studies and health (Stage D-0, 2026-11-23): two national documents whose objectives are written per grade
+ * BAND, read from the Achievement Standards Network's copies (each names the official document it was made from):
+ *   c3    The College, Career, and Civic Life (C3) Framework for Social Studies State Standards (NCSS): the Dimension 2
+ *         indicators of Civics, Economics, Geography and History for the bands K-2 and 3-5, ids as printed
+ *         (D2.Civ.1.K-2), under the discipline (D2.Civ.K-2, kind area) and the part of it (D2.Civ.1-6.K-2, kind
+ *         subarea, named by the first and last number the document prints under that heading). An indicator the
+ *         document leaves empty ("Begins in grades 3-5") is not a node. The publisher's PDF could not be read (see
+ *         `unread`), so the wording is the copy's alone, as for the NGSS.
+ *   nhes  The National Health Education Standards: the 2024 edition (SHAPE America), which replaces the 2007 one that
+ *         the CDC published. Indicators as the document numbers them (1.2.1 = standard 1, grades PreK-2, indicator 1;
+ *         1.5.1 = grades 3-5) with NHES. in front (NHES.1.2.1), under the standard in that band (NHES.1.2, kind area).
+ *         Band PreK-2 has the grade P-2. Every indicator is compared with the publisher's own page, code and wording.
+ */
+const BAND_SOURCES = [
+  { key: 'c3', short: 'C3 Framework', subject: 'social', doc: 'D2607350', file: 'asn-D2607350.json', url: 'https://asn.desire2learn.com/resources/D2607350_full.json', accessed: '2026-11-23',
+    edition: 'the version of 2017 (the year the copy gives; the framework was first published in 2013)',
+    unread: 'not checked against the official PDF: the publisher\'s site (socialstudies.org) answers every automated request, the PDF the copy names included, with HTTP 403 (a browser check). The wording is the machine-readable copy\'s, which names that PDF as its source and marks every statement "Original".' },
+  { key: 'nhes', short: 'NHES', subject: 'health', doc: 'D21703172', file: 'asn-D21703172.json', url: 'https://asn.desire2learn.com/resources/D21703172_full.json', accessed: '2026-11-23',
+    page: 'shape-nhes-2024.html', edition: '2024 edition (the third), which replaces the 2007 second edition published by the CDC; the publisher\'s page lists the 2007 standards as the previous ones' },
+];
 const GRADES = ['K', '1', '2', '3', '4', '5'];
 /** letters and digits only, lower case: what is compared with the PDF's text (which breaks lines, hyphenates and uses typographic quotes) */
 const flat = (t) => String(t).toLowerCase().replace(/[^a-z0-9]/g, '');
@@ -65,12 +88,18 @@ const vals = (o, k) => (o[k] || []).map((x) => x.value);
 
 async function fetchAll() {
   fs.mkdirSync(RAW, { recursive: true });
-  for (const s of SOURCES) for (const [u, f] of [[s.url, s.file], [s.pdfUrl, s.pdf]]) {
-    if (!u || fs.existsSync(path.join(RAW, f))) continue;
+  const get = async (u, f) => {
+    if (!u || fs.existsSync(path.join(RAW, f))) return;
     const r = await fetch(u, { headers: { 'user-agent': 'Mozilla/5.0 (compatible; curriculum-reader)' } });
     if (!r.ok) throw new Error(u + ' answered ' + r.status);
     fs.writeFileSync(path.join(RAW, f), Buffer.from(await r.arrayBuffer()));
     console.log('fetched ' + f);
+  };
+  for (const s of SOURCES) for (const [u, f] of [[s.url, s.file], [s.pdfUrl, s.pdf]]) await get(u, f);
+  // the band documents: the copy first, then the official page it names (where one can be read)
+  for (const s of BAND_SOURCES) {
+    await get(s.url, s.file);
+    if (s.page) await get(val(JSON.parse(fs.readFileSync(path.join(RAW, s.file), 'utf8'))['http://asn.desire2learn.com/resources/' + s.doc], DC + 'source'), s.page);
   }
 }
 
@@ -83,6 +112,114 @@ function idOf(key, notation) {
   return m ? m[1] : null;
 }
 const gradeOfId = (id) => { const m = /^(?:[A-Z]{1,2}\.)?(K|[1-5])[.-]/.exec(id) || /^(K|[1-5])-/.exec(id) || /^(K-2|3-5)-/.exec(id); return m ? m[1] : null; };
+
+/** the text of an HTML page as lines (tags dropped, entities decoded), for comparing a copy with the publisher's page */
+function pageLines(html) {
+  const ent = { amp: '&', nbsp: ' ', quot: '"', lt: '<', gt: '>', apos: "'" };
+  return html.replace(/<script[\s\S]*?<\/script>/gi, ' ').replace(/<style[\s\S]*?<\/style>/gi, ' ').replace(/<[^>]+>/g, '\n')
+    .replace(/&#(\d+);/g, (m, c) => String.fromCharCode(Number(c))).replace(/&#x([0-9a-f]+);/gi, (m, c) => String.fromCharCode(parseInt(c, 16))).replace(/&([a-z]+);/gi, (m, k) => (k.toLowerCase() in ent ? ent[k.toLowerCase()] : m))
+    .split('\n').map((l) => l.replace(/\s+/g, ' ').trim()).filter(Boolean);
+}
+/** for comparing a wording with the publisher's: typographic quotes and dashes count as plain ones */
+const plain = (t) => String(t).replace(/[‘’]/g, "'").replace(/[“”]/g, '"').replace(/[–—]/g, '-').replace(/\s+/g, ' ').trim();
+
+/** a band document (BAND_SOURCES) → { framework, nodes } in the document's order; problems are pushed */
+function buildBandSource(s, problems) {
+  const file = path.join(RAW, s.file);
+  if (!fs.existsSync(file)) throw new Error('missing ' + path.relative(REPO, file) + ': run build-en.js --fetch');
+  const buf = fs.readFileSync(file);
+  const j = JSON.parse(buf.toString('utf8'));
+  const d = j['http://asn.desire2learn.com/resources/' + s.doc];
+  if (!d) throw new Error(s.file + ' does not hold the document ' + s.doc);
+  const DC11 = 'http://purl.org/dc/elements/1.1/', AUT = 'http://www.loc.gov/loc.terms/relators/aut', CHILD = 'http://purl.org/gem/qualifiers/hasChild';
+  const title = val(d, DC + 'title') || val(d, DC11 + 'title');
+  const publisher = [...new Set(vals(d, DC + 'publisher').concat(vals(d, DC11 + 'publisher'), vals(d, AUT)))].join('; ');
+  const year = val(d, DC + 'valid');
+  if (!title || !publisher || !year) problems.push(s.key + ': the copy names no title, publisher or year');
+  const kids = (o) => vals(o, CHILD).map((u) => j[u]).filter(Boolean);
+  const words = (o) => (val(o, DC + 'description') || '').replace(/\s+/g, ' ').trim();
+  const notation = (o) => val(o, A + 'statementNotation');
+  const levels = (o) => vals(o, DC + 'educationLevel').map((x) => x.split('/').pop()).join(',');
+  const original = (o, id) => { const a = val(o, A + 'authorityStatus'); if (a && !/Original$/.test(a)) problems.push(s.key + ' ' + id + ': the copy does not mark this statement as original wording'); };
+  const nodes = [];
+  const meta = { key: s.key, short: s.short, subject: s.subject, title, publisher, year, officialDocument: val(d, DC + 'source'), readFrom: s.url, accessed: s.accessed, sha256: crypto.createHash('sha256').update(buf).digest('hex'), rights: /^https?:\/\/\S+$/.test(val(d, DC + 'rights') || '') ? undefined : val(d, DC + 'rights') || undefined, citation: publisher.split(/[;,]/)[0] + '. ' + year + '. ' + title + '.' };
+  if (s.edition) meta.edition = s.edition;
+  if (s.key === 'c3') {
+    // Dimension 2, the four core disciplines; the document prints each discipline's indicators as tables per heading
+    const ABBR = { Civics: 'Civ', Economics: 'Eco', Geography: 'Geo', History: 'His' };
+    const dim = kids(d).find((o) => words(o) === 'Applying Disciplinary Concepts & Tools');
+    if (!dim) { problems.push('c3: the copy has no Dimension 2 ("Applying Disciplinary Concepts & Tools")'); return { framework: meta, nodes }; }
+    const discs = kids(dim).filter((o) => ABBR[words(o)]);
+    if (discs.map(words).join(',') !== 'Civics,Economics,Geography,History') problems.push('c3: Dimension 2 holds the disciplines ' + kids(dim).map(words).join(', ') + ' (Civics, Economics, Geography, History expected)');
+    let empty = 0;
+    for (const band of ['K-2', '3-5']) {
+      const want = band === 'K-2' ? 'K,1,2' : '3,4,5';
+      for (const disc of discs) {
+        const ab = ABBR[words(disc)];
+        const discId = 'D2.' + ab + '.' + band;
+        nodes.push({ id: discId, f: s.key, kind: 'area', grade: band, text: words(disc) });
+        for (const area of kids(disc)) {
+          const ind = kids(area).filter((o) => new RegExp('^D2\\.' + ab + '\\.\\d+\\.' + band.replace('-', '\\-') + '$').test(notation(o) || ''));
+          if (!ind.length) { problems.push('c3: ' + words(area) + ' has no indicator for grades ' + band); continue; }
+          const nums = ind.map((o) => Number(notation(o).split('.')[2]));
+          const areaId = 'D2.' + ab + '.' + Math.min(...nums) + '-' + Math.max(...nums) + '.' + band;
+          nodes.push({ id: areaId, f: s.key, kind: 'subarea', grade: band, parent: discId, text: words(area) });
+          original(area, areaId);
+          for (const o of ind) {
+            const id = notation(o), text = words(o);
+            if (/^Begins in grades? /i.test(text)) { empty++; continue; }   // the document prints no indicator here
+            if (levels(o) !== want) problems.push('c3 ' + id + ': the copy places it in grades ' + levels(o));
+            if (text.length < 3) { problems.push('c3 ' + id + ': no wording in the copy'); continue; }
+            original(o, id);
+            nodes.push({ id, f: s.key, kind: 'standard', grade: band, parent: areaId, text });
+          }
+        }
+      }
+    }
+    meta.leftOut = empty + ' places where the document prints "Begins in grades …" instead of an indicator are not nodes';
+    meta.checkedAgainstPdf = s.unread;
+  }
+  if (s.key === 'nhes') {
+    const BANDS = [['2', 'P-2', 'Pre-K,K,1,2'], ['5', '3-5', '3,4,5']];
+    const stds = kids(d).filter((o) => /^HE\.\d+$/.test(notation(o) || ''));
+    if (stds.map((o) => notation(o).slice(3)).join(',') !== '1,2,3,4,5,6,7,8') problems.push('nhes: the copy holds the standards ' + stds.map(notation).join(', ') + ' (1 to 8 expected)');
+    for (const [bn, band, want] of BANDS) for (const std of stds) {
+      const sn = notation(std).slice(3);
+      const areaId = 'NHES.' + sn + '.' + bn;
+      original(std, areaId);
+      nodes.push({ id: areaId, f: s.key, kind: 'area', grade: band, text: words(std) });
+      const ind = kids(std).filter((o) => new RegExp('^' + sn + '\\.' + bn + '\\.\\d+$').test(notation(o) || ''));
+      if (!ind.length) problems.push('nhes: standard ' + sn + ' has no indicator for grades ' + band);
+      ind.forEach((o, i) => {
+        const id = 'NHES.' + notation(o);
+        if (Number(notation(o).split('.')[2]) !== i + 1) problems.push('nhes ' + id + ': the indicators of standard ' + sn + ' do not run 1, 2, 3 …');
+        if (levels(o) !== want) problems.push('nhes ' + id + ': the copy places it in grades ' + levels(o));
+        original(o, id);
+        nodes.push({ id, f: s.key, kind: 'standard', grade: band, parent: areaId, text: words(o) });
+      });
+    }
+    // the publisher's page prints every indicator as "<code> <wording>", band by band: each must be there, worded
+    // alike, and the page must print no indicator of these bands that the copy lacks
+    const pageFile = path.join(RAW, s.page);
+    if (!fs.existsSync(pageFile)) { meta.checkedAgainstPage = 'the publisher\'s page was not present at build time'; problems.push('nhes: ' + s.page + ' is missing (build-en.js --fetch)'); }
+    else {
+      const pbuf = fs.readFileSync(pageFile);
+      const onPage = new Map();
+      for (const l of pageLines(pbuf.toString('utf8'))) { const m = /^(\d)\.(2|5)\.(\d+) (.+)$/.exec(l); if (m) onPage.set('NHES.' + m[1] + '.' + m[2] + '.' + m[3], m[4]); }
+      const ind = nodes.filter((n) => n.kind === 'standard');
+      const alike = ind.filter((n) => onPage.has(n.id) && plain(onPage.get(n.id)) === plain(n.text));
+      const differ = ind.filter((n) => onPage.has(n.id) && plain(onPage.get(n.id)) !== plain(n.text)).map((n) => n.id);
+      const missing = ind.filter((n) => !onPage.has(n.id)).map((n) => n.id);
+      const extra = [...onPage.keys()].filter((id) => !ind.some((n) => n.id === id));
+      if (differ.length) problems.push('nhes: the wording of ' + differ.join(', ') + ' differs from the publisher\'s page');
+      if (missing.length) problems.push('nhes: ' + missing.join(', ') + ' are not on the publisher\'s page');
+      if (extra.length) problems.push('nhes: the publisher\'s page prints ' + extra.join(', ') + ', which the copy lacks');
+      meta.officialPageSha256 = crypto.createHash('sha256').update(pbuf).digest('hex');
+      meta.checkedAgainstPage = alike.length + ' of ' + ind.length + ' indicators found on the publisher\'s page with the same code and the same wording; the page prints no other indicator of these bands';
+    }
+  }
+  return { framework: meta, nodes };
+}
 
 function buildFramework() {
   const problems = [], nodes = [], frameworks = [];
@@ -151,11 +288,13 @@ function buildFramework() {
       : 'the official PDF was not present at build time';
     if (notFound.length) problems.push(s.key + ': the wording of ' + notFound.join(', ') + ' is not found in the official PDF');
   }
+  const order = (n) => [SOURCES.findIndex((s) => s.key === n.f), ['K', '1', '2', '3', '4', '5', 'K-2', '3-5'].indexOf(n.grade)];
+  nodes.sort((a, b) => { const x = order(a), y = order(b); return x[0] - y[0] || x[1] - y[1] || a.id.localeCompare(b.id, 'en', { numeric: true }); });
+  // the band documents follow, each in its own order (band, then the document's parts)
+  for (const s of BAND_SOURCES) { const b = buildBandSource(s, problems); frameworks.push(b.framework); nodes.push(...b.nodes); }
   const seen = new Set();
   for (const n of nodes) { if (seen.has(n.id)) problems.push('two nodes share the id ' + n.id); seen.add(n.id); }
   for (const n of nodes) if (n.parent && !seen.has(n.parent)) problems.push(n.id + ': parent ' + n.parent + ' is not a node');
-  const order = (n) => [SOURCES.findIndex((s) => s.key === n.f), ['K', '1', '2', '3', '4', '5', 'K-2', '3-5'].indexOf(n.grade)];
-  nodes.sort((a, b) => { const x = order(a), y = order(b); return x[0] - y[0] || x[1] - y[1] || a.id.localeCompare(b.id, 'en', { numeric: true }); });
   return { frameworks, nodes, problems };
 }
 
@@ -233,7 +372,7 @@ const text = (o) => JSON.stringify(o, null, 1) + '\n';
   const by = {};
   for (const n of fw.nodes) by[n.f + ' ' + n.kind] = (by[n.f + ' ' + n.kind] || 0) + 1;
   console.log('en framework: ' + fw.nodes.length + ' nodes (' + Object.entries(by).map(([k, v]) => k + ' ' + v).join(', ') + ')');
-  for (const f of fw.frameworks) console.log('  ' + f.key + ': ' + f.checkedAgainstPdf);
+  for (const f of fw.frameworks) console.log('  ' + f.key + ': ' + (f.checkedAgainstPdf || f.checkedAgainstPage));
   console.log('en crosswalk: ' + cw.derived + ' points read from their code, ' + cw.overridden + ' from review, ' + cw.none + ' with no counterpart');
   if (problems.length) { console.log(problems.length + ' problem(s)'); process.exit(1); }
 })().catch((e) => { console.error(e.message); process.exit(1); });

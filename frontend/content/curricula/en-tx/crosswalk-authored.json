@@ -4083,109 +4083,245 @@
    "review": "author-elar-science"
   },
   "K:birds-eye-view": {
-   "none": "Texas places this in its social studies TEKS, which this registry does not hold",
-   "why": "A view from above is a first map skill (geography); no ELAR or science wording covers it.",
-   "review": "author-elar-science"
+   "rows": [
+    {
+     "id": "SS.K.3.C",
+     "rel": "prepares"
+    },
+    {
+     "id": "SS.1.4.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Matching side views to views from above (a room seen from above) is the overhead view of a simple map; it prepares using maps as tools for location (K.3.C) and making and using simple maps of the home and classroom (1.4.A).",
+   "review": "review-d0-social-health"
   },
   "K:family": {
-   "none": "Texas places this in its social studies TEKS, which this registry does not hold",
-   "why": "Family members and a family tree are social studies content; the vocabulary expectation names actions, directions, positions, sequences, categories and locations, not kinship words.",
-   "review": "author-elar-science"
+   "rows": [
+    {
+     "id": "SS.K.10",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Placing each family word on a family tree gives the child kinship words; Texas names kinship as one of the ways individuals differ (K.10), which the page leads up to but does not compare.",
+   "review": "review-d0-social-health"
   },
   "K:transport-flying": {
    "rows": [
     {
      "id": "ELAR.K.3.C",
      "rel": "teaches"
+    },
+    {
+     "id": "SS.K.13.D",
+     "rel": "teaches"
+    },
+    {
+     "id": "SS.1.15.B",
+     "rel": "prepares"
     }
    ],
-   "why": "The topic is social studies, but the task is a sort into named groups (land, water, air; things that fly), which is the category part of 'identify and use words that name ... categories'.",
-   "review": "author-elar-science"
+   "why": "Sorting transport into land, water and air is categorizing information (SS K.13.D) and the category part of ELAR K.3.C; knowing the kinds of transport prepares describing how technology changed transportation (SS 1.15.B).",
+   "review": "review-d0-social-health"
   },
   "K:wants-needs": {
-   "none": "Texas places this in its social studies TEKS, which this registry does not hold",
-   "why": "Wants and needs is economics in social studies; the science needs lines are about plants and animals, not people's choices.",
-   "review": "author-elar-science"
+   "rows": [
+    {
+     "id": "SS.K.5.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "SS.K.5.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sorting pictures into needs and wants shows the difference between them (K.5.B), and the needs are food, clothing and shelter (K.5.A).",
+   "review": "review-d0-social-health"
   },
   "K:community-helpers": {
-   "none": "Texas places this in its social studies TEKS, which this registry does not hold",
-   "why": "Jobs and their tools are social studies content; nothing in ELAR or science names them.",
-   "review": "author-elar-science"
+   "rows": [
+    {
+     "id": "SS.K.6.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "SS.1.9.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Matching community helpers to their tools identifies jobs in the community (K.6.A); knowing which tool goes with which job prepares describing the tools of various jobs (1.9.A).",
+   "review": "review-d0-social-health"
   },
   "1:map-key": {
-   "none": "Texas places this in its social studies TEKS, which this registry does not hold",
-   "why": "Reading a map key is a geography skill; the ELAR line on 'features and simple graphics' is about informational text, and using it here would force the fit.",
-   "review": "author-elar-science"
+   "rows": [
+    {
+     "id": "SS.1.4.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "SS.2.3.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading a map key, following steps on a map and drawing one's own map with a key are using and creating simple maps (1.4.A); the key is the legend that 2.3.A names among the basic map elements.",
+   "review": "review-d0-social-health"
   },
   "1:family-generations": {
-   "none": "Texas places this in its social studies TEKS, which this registry does not hold",
-   "why": "Generations and family trees are social studies; the clue reading is only the vehicle.",
-   "review": "author-elar-science"
+   "rows": [
+    {
+     "id": "SS.1.16.D",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Putting family words in order from the oldest generation to the youngest and placing names on a tree from clues sequence and categorize information (1.16.D); no grade 1 expectation names a family tree.",
+   "review": "review-d0-social-health"
   },
   "2:cardinal-directions": {
-   "none": "Texas places this in its social studies TEKS, which this registry does not hold",
-   "why": "Compass directions on a map are geography.",
-   "review": "author-elar-science"
+   "rows": [
+    {
+     "id": "SS.2.3.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "SS.1.3.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "SS.3.4.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Labeling the four directions on a compass rose and using them on a map is using that map element (2.3.A) and locating places with the four cardinal directions (1.3.B); the intermediate directions follow in 3.4.A.",
+   "review": "review-d0-social-health"
   },
   "2:continents": {
-   "none": "Texas places this in its social studies TEKS, which this registry does not hold",
-   "why": "Naming and locating continents is geography.",
-   "review": "author-elar-science"
+   "rows": [
+    {
+     "id": "SS.2.4.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Labeling each numbered continent on a world map is identifying the seven continents on maps, which 2.4.A asks for.",
+   "review": "review-d0-social-health"
   },
   "2:family-relationships": {
-   "none": "Texas places this in its social studies TEKS, which this registry does not hold",
-   "why": "Kinship words are social studies content; the riddle format alone does not make it a reading expectation.",
-   "review": "author-elar-science"
+   "none": "Texas names kinship only in kindergarten, as an example of how individuals differ (K.10); no grade 1-3 expectation lists family relationships.",
+   "why": "Naming an aunt or a cousin from a riddle is family vocabulary; the K.10 comparison of individuals is not what the page asks, and no later expectation names kinship.",
+   "review": "review-d0-social-health"
   },
   "3:continents-oceans": {
-   "none": "Texas places this in its social studies TEKS, which this registry does not hold",
-   "why": "Locating continents and oceans is geography.",
-   "review": "author-elar-science"
+   "rows": [
+    {
+     "id": "SS.2.4.A",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Locating the seven continents and the oceans on a world map is 2.4.A, a grade 2 expectation; grade 3 moves on to directions, scale and map elements (3.4).",
+   "review": "review-d0-social-health"
   },
   "K:healthy-food": {
-   "none": "Texas places this in its health TEKS, which this registry does not hold",
-   "why": "Everyday and sometimes foods is a health judgment, not a vocabulary category or a science idea in the wording.",
-   "review": "author-elar-science"
+   "rows": [
+    {
+     "id": "HE.K.6.D",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sorting foods such as apples, carrots, milk and candy into healthy and not healthy identifies healthy and unhealthy snack choices (K.6.D).",
+   "review": "review-d0-social-health"
   },
   "K:hygiene-habits": {
-   "none": "Texas places this in its health TEKS, which this registry does not hold",
-   "why": "Hand-washing and body-care tools are health content; the ELAR line on 'steps in a sequence' is about informational text read with an adult.",
-   "review": "author-elar-science"
+   "rows": [
+    {
+     "id": "HE.K.2.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Hand-washing steps and the right tool for each body-care job identify the personal hygiene habits K.2.B names, hand washing among them.",
+   "review": "review-d0-social-health"
   },
   "K:road-safety": {
-   "none": "Texas places this in its health TEKS, which this registry does not hold",
-   "why": "Traffic signals and crossing the road are safety content in health.",
-   "review": "author-elar-science"
+   "rows": [
+    {
+     "id": "HE.1.9.A",
+     "rel": "prepares"
+    },
+    {
+     "id": "HE.2.9",
+     "rel": "prepares"
+    }
+   ],
+   "why": "No kindergarten expectation names traffic; stopping, looking and listening before crossing prepares keeping safe by staying away from danger (1.9.A) and the steps that avoid accidents (2.9).",
+   "review": "review-d0-social-health"
   },
   "1:food-groups": {
    "rows": [
+    {
+     "id": "HE.1.6.C",
+     "rel": "teaches"
+    },
     {
      "id": "ELAR.1.3.D",
      "rel": "teaches"
     }
    ],
-   "why": "The content is health, but sorting foods into four named groups is the category part of 'identify and use words that name ... categories'.",
-   "review": "author-elar-science"
+   "why": "Sorting foods into the four food groups is 1.6.C (identify the food groups and classify examples of foods into each group); the sort is also the category part of ELAR 1.3.D.",
+   "review": "review-d0-social-health"
   },
   "1:healthy-habits": {
-   "none": "Texas places this in its health TEKS, which this registry does not hold",
-   "why": "Tooth brushing, germs and a habit chart are health content.",
-   "review": "author-elar-science"
+   "rows": [
+    {
+     "id": "HE.1.2.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "HE.1.2.C",
+     "rel": "teaches"
+    },
+    {
+     "id": "HE.1.4.B",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Brushing teeth at the right moments describes the oral hygiene and health habits of 1.2.B; choosing the way that stops germs is preventing their spread (1.2.C); a weekly habit chart prepares the task completion 1.4.B asks the child to explain.",
+   "review": "review-d0-social-health"
   },
   "1:road-signs": {
-   "none": "Texas places this in its health TEKS, which this registry does not hold",
-   "why": "Traffic signs and their meaning are safety content in health.",
-   "review": "author-elar-science"
+   "rows": [
+    {
+     "id": "SS.1.10.B",
+     "rel": "teaches"
+    },
+    {
+     "id": "HE.1.9.A",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Traffic signs are rules and laws that provide security, which SS 1.10.B asks the child to identify; knowing them prepares staying safe away from danger (HE 1.9.A).",
+   "review": "review-d0-social-health"
   },
   "2:healthy-habits-why": {
-   "none": "Texas places this in its health TEKS, which this registry does not hold",
-   "why": "Why a habit protects the body is health content.",
-   "review": "author-elar-science"
+   "rows": [
+    {
+     "id": "HE.2.2.C",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Matching each habit to the reason we do it is the importance of personal hygiene and health habits that 2.2.C asks the child to discuss.",
+   "review": "review-d0-social-health"
   },
   "2:road-signs": {
-   "none": "Texas places this in its health TEKS, which this registry does not hold",
-   "why": "Kinds of road signs are safety content in health.",
-   "review": "author-elar-science"
+   "rows": [
+    {
+     "id": "HE.2.9",
+     "rel": "teaches"
+    },
+    {
+     "id": "SS.1.10.B",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Choosing the sign that fits a situation is a step that avoids accidents (HE 2.9); sorting warning, must-not and information signs identifies rules and laws that provide security (SS 1.10.B, grade 1).",
+   "review": "review-d0-social-health"
   },
   "K:how-to-draw": {
    "none": "Texas places this in its art TEKS, which this registry does not hold",
@@ -4315,12 +4451,20 @@
   "K:feelings": {
    "rows": [
     {
+     "id": "HE.K.3.A",
+     "rel": "teaches"
+    },
+    {
+     "id": "HE.1.3.G",
+     "rel": "teaches"
+    },
+    {
      "id": "ELAR.1.1.E",
      "rel": "prepares"
     }
    ],
-   "why": "Feelings are not an ELAR or science topic, but feeling words are what a child needs for the grade 1 oral language line 'expressing needs and feelings'; a paper page can only prepare a speaking expectation.",
-   "review": "author-elar-science"
+   "why": "Naming how I feel is K.3.A (identify their own feelings and emotions); reading the feeling on a face is 1.3.G (feelings expressed by others); feeling words also prepare ELAR 1.1.E, expressing needs and feelings.",
+   "review": "review-d0-social-health"
   },
   "K:measurable-attributes": {
    "rows": [

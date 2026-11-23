@@ -1,0 +1,59 @@
+{
+  "units": [
+    {
+      "id": "k-look-closely-think-it-through",
+      "grade": "K",
+      "title": "Look Closely, Think It Through",
+      "why": "Morning-work and center practice that grows from seeing to reasoning: children first compare pictures that are the same or different, then find what changed, recognise a whole from its shadow or a part, steer a pencil through a maze, copy a picture square by square, and finish with the first logic of the year, a picture grid where each row holds one kind.",
+      "lessons": [
+        { "point": "K:same-different-visual", "title": "Same or different?", "objective": "Children compare pictures and shapes in a row, circle the one that is different in detail, size or shape, and join each picture to its identical twin." },
+        { "point": "K:spot-the-difference", "title": "Spot what changed", "objective": "Children compare two pictures part by part, circle the 3 big things that changed or went missing in the bottom picture, and check a box for each one they find." },
+        { "point": "K:shadow-closure", "title": "Shadows and hidden pictures", "objective": "Children match each picture to its shadow by its outline and name the whole picture when only a part of it is showing." },
+        { "point": "K:mazes", "title": "Find the way through a maze", "objective": "Children look at a picture maze before they start, trace the way from the start picture to the goal without crossing a wall, and go back to try another path when they reach a dead end." },
+        { "point": "K:grid-copy", "title": "Copy the picture square by square", "objective": "Children copy a picture onto an empty grid one square at a time, keeping their place by row and column, first on grids without labels and then with a letter and a number for each square." },
+        { "point": "K:matrix-logic", "title": "What fits the gap?", "objective": "Children notice that each row of a picture grid holds one kind of picture and circle the piece that belongs in the empty box." }
+      ]
+    },
+    {
+      "id": "g1-detective-thinking",
+      "grade": "1",
+      "title": "Detective Thinking",
+      "why": "Grade 1 morning work that moves from careful looking to logic: finding and counting differences, planning a route through bigger mazes, copying a drawing with a grid, then the reasoning puzzles of the grade (picture analogies, a 4 by 4 picture sudoku and a first logic grid with picture clues).",
+      "lessons": [
+        { "point": "1:find-the-differences", "title": "Find and count the differences", "objective": "Children compare picture pairs, circle every difference including things that are gone, count how many they found, and check their work by folding a mirror picture on the line." },
+        { "point": "1:mazes", "title": "Plan the route", "objective": "Children look at the whole maze first, plan the way before drawing it, follow tangled lines from start to end, and find a route that avoids the obstacles." },
+        { "point": "1:grid-copy", "title": "Draw it with the grid", "objective": "Children copy a drawing onto an empty grid one square at a time by matching what each square holds, then draw it once more without the grid." },
+        { "point": "1:picture-analogies", "title": "Picture puzzles: the same way", "objective": "Children say how the first two pictures go together (a baby and its mother, a tool and its job) and circle the picture that completes the second pair the same way." },
+        { "point": "1:picture-sudoku", "title": "Picture sudoku 4 by 4", "objective": "Children fill a 4 by 4 picture sudoku so that every row, column and box has each of the four pictures once, checking each row and column as they go." },
+        { "point": "1:logic-picture-clues", "title": "Logic with picture clues", "objective": "Children read picture clues, cross out on the grid what a child does not have and circle what the child has, until each child has exactly one picture." }
+      ]
+    },
+    {
+      "id": "g2-clues-and-reasons",
+      "grade": "2",
+      "title": "Clues and Reasons",
+      "why": "Grade 2 has only two thinking points of its own, so the unit opens with its own difference-finding and closes with its own logic grids, and carries two Grade 1 points up at their harder levels in between (the town maze and the picture-clue logic puzzles) as the bridge into three-clue logic grids.",
+      "lessons": [
+        { "point": "2:find-differences", "title": "Find 10 differences and write about them", "objective": "Children circle 10 differences in two pairs of pictures, then write one sentence about each of three differences, using the words in the strips." },
+        { "point": "1:mazes", "title": "The shortest way through town", "objective": "Children (a Grade 1 point carried up at its hardest level) compare several routes through a town maze, draw the shortest way and write how many street pieces it takes." },
+        { "point": "1:logic-picture-clues", "title": "Picture-clue logic, harder level", "objective": "Children (a Grade 1 point carried up at its hardest level) use every picture clue to cross out what cannot be and circle what must be, explaining to a partner which clue decided each answer." },
+        { "point": "2:logic-grid", "title": "Logic grids with three clues", "objective": "Children read yes, no and either-or clues, mark the grid with a check for what must be and an X for what cannot be, circle the picture each child has, and then read a solved grid to decide whether sentences are true or false." }
+      ]
+    },
+    {
+      "id": "g3-logic-lab",
+      "grade": "3",
+      "title": "Logic Lab",
+      "why": "Grade 3 centers that build up the reasoning load step by step: sorting by two attributes at once, then a grid where rows and columns each share an attribute, then a 6 by 6 sudoku, and last the logic grids with six clues and two pictures per child.",
+      "lessons": [
+        { "point": "3:two-attribute-sort", "title": "Two-circle sorts", "objective": "Children sort pictures and shapes into a two-circle diagram by two attributes at once, placing things that fit both rules in the middle and things that fit neither outside the circles." },
+        { "point": "3:two-attribute-sort~logic-cabinet", "title": "What completes the puzzle?", "objective": "Children find what the rows share and what the columns share in a picture grid and circle the one picture that fits the empty cell on both counts." },
+        { "point": "3:latin-square-sudoku", "title": "Big picture sudoku 6 by 6", "objective": "Children fill a 6 by 6 picture sudoku so that every row, column and box has each of the six pictures once, starting with the row, column or box that has the fewest empty cells." },
+        { "point": "3:logic-grids", "title": "Logic grids with six clues", "objective": "Children use every clue to cross out what cannot be true and check what must be true until each child has one answer, then solve puzzles where each child has one picture from each of two sets." }
+      ]
+    }
+  ],
+  "leftOut": [
+    { "point": "1:secret-code", "why": "No page of the point is published in English yet (G1-539 Picture Code, G1-540 Number Code, G1-542 Make Your Own Secret Code and G2-496 Complete the Key are built but have no published level), so a lesson would have no page to hand out. When they are published it fits Grade 1 after Picture puzzles, and G2-496 Complete the Key can join the Grade 2 unit." }
+  ]
+}

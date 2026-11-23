@@ -79,7 +79,7 @@ captured 2026-11-18T22:34:15Z** (three sampled titles gained their tail, nothing
 2. **DONE 2026-11-23: English checks and sub days for the whole year:** coverage gate (C-1), 120 week sub days (C-4,
    deploy 45), 24 checks of the year and 9 placement checks (C-2/C-3, deploys 46-47). Coverage: 3 gaps left, the three
    literacy plans under 28 weeks. **NEXT:** item 3 below.
-3. **Science, social studies, health, preschool and theme units in English.**
+3. **Science, social studies, health, preschool and theme units in English.** IN PROGRESS (Stage D, plan `lexical-singing-kahan.md`): D-0 standards and D-1 year designs DONE 2026-11-23 (deploy 48); NEXT D-2, the needed science and health types as noindex Level Sets; then D-3 units, D-4 preschool themes, D-5 new types. Open: K-374 crossing routine (`lcs-stage-d/FIX-LIST-LIVE-PAGES.md`).
 4. **German and Swedish to the whole year.**
 5. **The eight other languages, one at a time: fr, no, nl, fi, da, it, es-MX, pt-BR** (built noindex; indexing waits
    for the Search Console read of 2026-12-09).

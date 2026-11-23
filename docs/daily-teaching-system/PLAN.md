@@ -1584,3 +1584,56 @@ All are Level Sets: three levels, up to five copies a level, visible to teachers
   - The units live check did not know the C-4 ruling that week sub days are noindex and in no sitemap. It now asserts that ruling: it had reported 240 false failures.
   - `upload-teacher-files.sh --check` compared lists sorted differently on Git Bash and the server; it now uses `LC_ALL=C`.
 - **Next:** the approved plan's item 3: science, social studies, health, preschool and theme units in English.
+
+### 2026-11-23: Stage D begun (plan item 3): standards and year designs for science, social studies and health; live sort pages corrected (deploy 48)
+
+**Plan.** Stage D's plan is in `lexical-singing-kahan.md`, overwritten for Stage D. Its sub-stages:
+- D-0 standards;
+- D-1 year designs;
+- D-2 the needed types as noindex Level Sets;
+- D-3 units, notes, checks and plans;
+- D-4 preschool theme units (grade P);
+- D-5 new worksheet types.
+
+**Measured.** 77 points have no unit: science 35, social studies 11, health 8, thinking skills 19, SEL 1, art 3 (out of scope). The NGSS performance expectations were already in the en registry and crosswalked.
+
+**D-0 (commit `22c07dbcf`).**
+- **National frameworks (en):**
+  - the C3 Framework, Dimension 2: 103 indicators (K-2 and 3-5), wording from ASN, because socialstudies.org refuses automated requests;
+  - the NHES, 2024 edition: 72 indicators, every one checked against SHAPE America's page.
+- **Texas (en-tx):** TEKS Social Studies (439 statements) and TEKS Health (373), both read from the TEA PDFs. The ASN copies are of older adoptions.
+- **Crosswalk:** rows for the 20 social studies, health and SEL points.
+- **Checks:** curriculum pages unchanged; curricula gates 15 of 15 poisons; the class-results skill index rebuilt.
+
+**D-1 (same commit; records in `docs/daily-teaching-system/year/YEAR-DESIGN.en.{science,social,health}.md`).** One Opus designer per subject wrote the year; I read each one.
+
+| Subject | Sessions a week | Units per grade (K, 1, 2, 3) | Coverage |
+|---|---|---|---|
+| Science | 3 | 7, 6, 6, 5 (112 lessons) | every K–3 NGSS performance expectation; 3:planets left out (no K–5 expectation asks for it) |
+| Social studies | 2 | 5, 5, 5, 4 | every C3 K-2 indicator |
+| Health with feelings | 1 | 2, 2, 2, 2 | 30 of 33 PreK-2 indicators; 3 named with reasons |
+
+- **Thinking skills:** one unit per grade, with no year plan.
+- **Checker:** `check-design.js` gained NGSS, C3 and NHES codes, gates D7 (expectations and band indicators) and D8 (points of the area), and content-area poisons.
+- **Dump:** `dump-for-order.js` takes the content areas.
+
+**Live pages corrected** (commit `031d702c2`; found by the designers and checked against the data). The rule: retired items are never drawn again, and a page that never held one keeps its draw.
+- **Science sorts** (330 indexable decks, 11 languages):
+  - retired: Moon, cloud and a second sun (Day and Night); tomato, cucumber and corn (Fruits and Vegetables); mittens (Hot and Cold); rabbit, parrot and duck (Pets/Farm and Wild);
+  - added to Living and Non-living: a rock and a snowflake (every library cloud has a face).
+- **K-213:** astronaut + rocket and musician + trumpet are retired (pair-match gained retired pairs). The pages of K-205, K-232 and K-356 are byte-identical: 5,074 hashed pages.
+- **G2-379 (en):** "We do not get burned on sunny days." replaces the hot-day sentence.
+- **Republish** (batches `scisortfix` and `healthfix`, then the HANDOFF §6 order):
+  - 225 teaching blocks and 330 meter scripts restored, 0 lost on the re-audit;
+  - 330 titles and 24 descriptions restored to the baseline; the science-sort decks have no landing, so the repoint changed nothing;
+  - IDENTITY PASS.
+
+**Decided and kept, with reasons** (`lcs-stage-d/FIX-LIST-LIVE-PAGES.md`):
+- "Oceania": the earlier panel's ruling; its landings describe it. The teacher notes will say "some books call it Australia".
+- G1-207's four bins.
+- K-203's framing.
+- The brushing reason (naming the body part would give the answer away).
+
+**Open:** K-374's crossing routine gets a design pass before the Kindergarten health unit goes live. The US routine is left, right, left again, with a grown-up.
+
+**Next:** D-2. Publish the needed science and health types (117 types feed the `point:` lessons; most science and health ones are single core pages) as noindex Level Sets by the Year-pages recipe.

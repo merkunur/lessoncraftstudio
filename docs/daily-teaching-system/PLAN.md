@@ -1762,3 +1762,67 @@ About 20 science needs are investigation records, which one record factory (pred
 6. unit titles from the US search heads.
 
 Then batch 1 (Grade 1 pages), and so on.
+
+### 2026-11-23: Stage D-3 for Kindergarten is live: 7 science and 2 health units in English (deploy 52, commit `a73a75cfb`)
+
+**The units** (`scripts/units/year/place-ready-k.en.science.js`), each lesson on its teaching point and pages.
+
+*Science:* 31 lessons, with the Kindergarten science scope and sequence: about 28 weeks at three sessions a week.
+
+| Unit | Lessons |
+|---|---|
+| My Senses and My Body | 4 |
+| Weather and the Seasons | 5 |
+| Animals and Their Homes | 4 |
+| Pushes and Pulls | 5 |
+| Sink, Float, and Build a Boat | 4 |
+| Plants and Animals Grow | 4 |
+| Sunlight and Caring for Our Earth | 5 |
+
+*Health:* 11 lessons at one session a week. Two units are under the three a plan needs, so there is no health plan.
+
+| Unit | Lessons |
+|---|---|
+| My Feelings and My Friends | 5 |
+| Healthy and Safe Me | 6 |
+
+**Titles:** "Kindergarten Science Lesson Plans: …" and "Kindergarten Health Lesson Plans: …", the pattern of the indexed units. The new pages are indexable in English.
+
+**Teacher notes for all 42 lessons** (`scripts/units/notes/en-science-k.js`, `en-health-k.js`, `en-health-k2.js`):
+- Written from the pages by one Opus writer; one US Kindergarten teacher read them in four rounds, together with the pages.
+- **Hands-on routines:** every lesson carries one: the investigation, role-play or real-object sort the class does. It prints before the page on the unit page and in the guide.
+- **Guides:** every guide sheet fits after one trimming round. Safety lines, the crossing rule, "every feeling is okay" and "Stop is respected" were all kept.
+
+**Engine:**
+- **Rule P3 (two real assets):** a lesson that hands out pages may now also carry a hands-on routine, counted as a real asset. Most Kindergarten science lessons hand out one page, and the investigation is the lesson. Changed: `assemble.js`, `gates.js` P3 (two new poisons), `UnitPage.tsx`, `build-guide.js`. No existing lesson had a routine, so live units are unchanged.
+- **Pacing:** science 3 sessions a week, social studies 2, health 1.
+- **Coverage:** a content area is measured against its own design's teaching weeks.
+
+**Batch K2** (the four health lessons the designer marked teacher-led got pages; a routine alone is one asset):
+- **Pages:** K-708 calm-down tools, K-709 kind words and kind hands, K-710 my space bubble, K-711 germ busters (`dk-k2` factory; gate 44 of 44 poisons caught). One reviewer read them in three rounds, and the cough card was redrawn.
+- **Published:** Level Set `ydl`, 20 never-indexed pages. The three feelings codes are listed as print-only, so the site does not promise a screen.
+- **Points:** 4 teaching points, with NHES 8.2.1, 4.2.5, 4.2.4 and 7.2.2 rows.
+
+**Live pages corrected**, each republished in place in the HANDOFF §6 order with IDENTITY PASS:
+- **Recycling, English bin pages (K-357, K-366):**
+  - The problem: five recycling bins and no trash bin, yet the pages drew a sunscreen tube, a glue bottle, a toothbrush, a comb, a plastic spoon and a bolt. That teaches US children that everything is recyclable.
+  - The fix: those six are retired in English, and English level 3 holds 9 items with one metal item, the can (`levelOverrides`).
+  - Proof: `verify-recycling-us-curbside.js` passes with its poison caught; the other languages and faces are byte-identical (2,376 builds hashed).
+  - Republished: 19 pages.
+- **K-354, all 11 languages:** the "head" line ends on the top of the head, not the cheek (`primitives/body-figure.js`). 77 Level Set copies were republished; the indexed level-2 pages did not change.
+- **K-374, English:** done earlier today in batch K.
+
+**Sub days:** the Kindergarten week days were rebuilt for the new science plan with `build-en-weeks.js --grades=K`. That option is new; it keeps the other grades exactly as they are. Two orphaned page notes were removed (no K-202 page shows a tomato any more), and the P4 poison now picks a word only the page can carry.
+
+**Checks and coverage:**
+- **No unit checks:** the card check engine cannot read the Kindergarten science and health pages: they are not answer-carrying card pages.
+- **Frozen gaps:** the 10 new gaps (7 unit checks and the 3 checks of the year for Kindergarten science) are added once, as decision 7 allows for a new subject. 13 listed gaps in all.
+- **Open:** an observation check, or a card form of these pages.
+
+**Curriculum pages:** the Kindergarten ELA and Texas Grade 1 ELAR checklists now count the standards the new lessons teach. Only their body changed; titles and descriptions are unchanged.
+
+**Next:**
+1. Batch 1: the Grade 1 science pages (3 changes, 15 new) and health pages (2 changes, 3 new), then their units.
+2. Then grades 2 and 3, and social studies.
+3. The Texas reading of the new points.
+4. An observation check for the Kindergarten science units.

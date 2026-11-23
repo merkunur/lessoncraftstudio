@@ -174,6 +174,65 @@ function poolFor(bank, name) {
 }
 
 /** The pinned picture's src, or throws — a verb with `pic` must resolve through the colour index. */
+/** (second fix round 2026-11-23, review of the checks of the year) THE CHECKS: the bank's frames are few, three checks of the year
+ *  repeated their sentences ("Every day Mia ___ in the park.", "Yesterday Tom ___ at the zoo."), and the unit check could no
+ *  longer fill its form B once a frame is one item. An English check page of the two tenses (build-checks.js seeds it
+ *  "check|…": the unit check and the checks of the year) reads instead the sentences below, written for the checks: each
+ *  leads with its own time cue (Every day / Every morning …; Yesterday / Last night / Last week …), so that one form only is
+ *  right; the present takes -s or -es, the past an irregular form (the Grade 2 point, L.2.1.d); a card asks one sentence of
+ *  each, two different verbs. They stand in no published page, and every other page of the type is built exactly as before. */
+const YEAR_TENSE = {
+  now: [
+    ['Every day Sam {form} his dog.', 'walk', 'walks'],
+    ['Every morning Ana {form} her teeth.', 'brush', 'brushes'],
+    ['Every week Grandma {form} a cake.', 'bake', 'bakes'],
+    ['Every evening Kim {form} the dishes.', 'wash', 'washes'],
+    ['Every Saturday Leo {form} soccer.', 'play', 'plays'],
+    ['Every day our class {form} a song.', 'sing', 'sings'],
+    ['Every morning Dad {form} the cat.', 'feed', 'feeds'],
+    ['Every day Mia {form} rope at recess.', 'jump', 'jumps'],
+    ['Every summer Ben {form} the big hill.', 'climb', 'climbs'],
+    ['Every week Lily {form} a picture.', 'paint', 'paints'],
+    ['Every day Tom {form} the ball to his friend.', 'kick', 'kicks'],
+    ['Every Sunday Nora {form} in the pool.', 'swim', 'swims'],
+    ['Every night Mom {form} dinner.', 'cook', 'cooks'],
+    ['Every morning Grandpa {form} the plants.', 'water', 'waters'],
+    ['Every morning Leo {form} a glass of milk.', 'drink', 'drinks'],
+    ['Every night Ana {form} a book in bed.', 'read', 'reads'],
+    ['Every week Sam {form} his room.', 'clean', 'cleans'],
+    ['Every day Tom {form} his little sister.', 'help', 'helps'],
+  ],
+  past: [
+    ['Yesterday Ben {form} a red kite.', 'fly', 'flew'],
+    ['Last night we {form} pizza for dinner.', 'eat', 'ate'],
+    ['Last week Mia {form} a letter to Grandpa.', 'write', 'wrote'],
+    ['Yesterday the cat {form} under the bed.', 'hide', 'hid'],
+    ['Last summer we {form} to the beach.', 'go', 'went'],
+    ['Yesterday Sam {form} a big fish.', 'catch', 'caught'],
+    ['Last night the dog {form} a bone.', 'find', 'found'],
+    ['Yesterday Ana {form} her new bike.', 'ride', 'rode'],
+    ['Last week our team {form} the game.', 'win', 'won'],
+    ['Yesterday Dad {form} me a book.', 'buy', 'bought'],
+    ['Last night Grandma {form} us a story.', 'tell', 'told'],
+    ['Yesterday Kim {form} a picture of a horse.', 'draw', 'drew'],
+    ['Last week Leo {form} a sandcastle.', 'make', 'made'],
+    ['Yesterday the baby {form} a long nap.', 'take', 'took'],
+    ['Yesterday we {form} by the lake.', 'sit', 'sat'],
+    ['Last week Grandma {form} me a puzzle.', 'give', 'gave'],
+    ['Last night we {form} the full moon.', 'see', 'saw'],
+    ['Yesterday Leo {form} the ball far.', 'throw', 'threw'],
+  ],
+};
+{
+  const f = [], all = YEAR_TENSE.now.concat(YEAR_TENSE.past);
+  for (const [t, v, form] of all) if ((t.match(/\{form\}/g) || []).length !== 1 || !/^(Every \w+|Yesterday|Last \w+) /.test(t) || !/[.]$/.test(t)) f.push('"' + t + '": no cue that leads it, or not one gap');
+  for (const [t, v, form] of YEAR_TENSE.now) if (!/s$/.test(form) || !/^Every /.test(t)) f.push(v + ': not a present after "Every …"');
+  for (const [t, v, form] of YEAR_TENSE.past) if (/ed$/.test(form) || /^Every /.test(t)) f.push(v + ': not an irregular past after a past cue');
+  const verbs = all.map((x) => x[1]);
+  if (new Set(verbs).size !== verbs.length) f.push('a verb stands twice');
+  if (f.length) throw new Error('G2-317, the sentences of the checks of the year: ' + f.join('; '));
+}
+
 function pictureOf(v, loc) {
   const p = v.pic;
   if (!p) return null;
@@ -670,6 +729,14 @@ module.exports = {
       src: pictureOf(l.verb, loc), text: l.frame.text, hint: l.verb.inf, render: 'gap', padding: '0',
       attrs: `data-lcs-verb="${l.verb.inf}" data-lcs-col="${l.col}" data-lcs-form="${l.form}" data-lcs-frame="${l.frame.id}" data-lcs-answer="${l.form}"`,
     }).replace('<div class="ws-lane" data-lcs-lane', '<div data-lcs-lane');
+    // (second fix round 2026-11-23) an English check page: the sentences of YEAR_TENSE, a card = one present, one past
+    if (bank.mode === 'tense' && loc === 'en' && /^check\|/.test(String((ctx && ctx.rng && ctx.rng.seed) || ''))) {
+      const [c0, c1] = bank.columns.map((c) => c.key);
+      const row = (x, col, i) => ({ verb: { inf: x[1] }, frame: { text: x[0], id: 'year-' + col + '-' + i }, col, form: x[2] });
+      const now = ctx.rng.shuffle(YEAR_TENSE.now.map((x, i) => row(x, c0, i))), past = ctx.rng.shuffle(YEAR_TENSE.past.map((x, i) => row(x, c1, i)));
+      const cards = now.slice(0, 8).map((a, i) => `<div style="display:flex;flex-direction:column;gap:10px">${ctx.rng.shuffle([a, past[i]]).map(lane).join('')}</div>`);
+      return { bodyHtml: `<div data-lcs-check-page>${checkGrid(cards)}</div>`, meta: {} };
+    }
     if (bank.mode === 'tense') {
       // 2026-11-15 (the en / sv reviewers of the unit checks): one sentence per card let form A ask only the present and form
       // B only the past (sv: A two strong preterites, B two presents). Each card now asks BOTH tenses of the lesson — one

@@ -1107,6 +1107,13 @@ function makeVowelG2Type({ id, slug, mode, i18n }) {
  *            other spelling builds no word (the page's gapOk), the words of the rules and of the instruction are never a
  *            task, and never three cards of one sound in a row. */
 const G2V_CHECK_MODES = new Set(['shortlong', 'teams', 'diph', 'aror']);
+/** (fix round 2026-11-23, review of the placement checks) THE PLACEMENT CHECK OF BLENDING AND DECODING asks the vowel teams by
+ *  READING them: a picture and three words to circle, the word that names it and two words that differ in the vowel (boat,
+ *  bat, beat). Its page (build-checks.js seeds it "check|placement-blending-decoding|…") holds these four cards; any other
+ *  page is the page it was. Every right word names its picture; no wrong word does. */
+const PLACE_READ = [['boat', ['bat', 'beat']], ['coat', ['cot', 'cat']], ['leaf', ['left', 'loaf']], ['tree', ['tray', 'try']]];
+/** the sound each card's word reads (its kind: a part asks one long o and one long e, form B the same) */
+const PLACE_KIND = { boat: 'o', coat: 'o', leaf: 'e', tree: 'e' };
 function g2VowelCheckPage(mode, { difficulty, locale }, ctx) {
   if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`vowels-g2 check: the words are English words (no ${locale} bank)`);
   const { checkGrid } = require('../../lib/check-page.js');
@@ -1117,7 +1124,16 @@ function g2VowelCheckPage(mode, { difficulty, locale }, ctx) {
   const real = new Set(BANK.real || []), bad = new Set(BANK.bad || []), frag = new Set(BANK.badFragments || []);
   const cards = [];
   const choice = (w, okk, font) => pill(w, okk, key, font).replace('<span data-lcs-pill', `<span data-lcs-choice="${esc(w)}"${okk ? ' data-lcs-correct="1"' : ''} data-lcs-pill`);
-  if (mode === 'shortlong' || mode === 'aror') {
+  const readPlace = mode === 'teams' && /^check\|placement-blending-decoding\|/.test(String((rng && rng.seed) || ''));
+  if (readPlace) {
+    // the right word in each place of the three, never in the same place on every card
+    const at = rng.shuffle([0, 1, 2, rng.int(0, 2)]);
+    PLACE_READ.forEach(([w, wrong], i) => {
+      const three = rng.shuffle(wrong.slice()); three.splice(at[i], 0, w);
+      cards.push('<div data-lcs-readcheck="' + w + '" data-lcs-ckind="' + PLACE_KIND[w] + '" style="display:flex;align-items:center;justify-content:center;gap:26px;padding:6px 8px">' + img(w, 100) +
+        '<div data-lcs-three style="display:flex;flex-direction:column;align-items:flex-start;gap:4px">' + three.map((x) => pill(x, x === w, false, 30).replace('<span data-lcs-pill', '<span data-lcs-choice="' + x + '"' + (x === w ? ' data-lcs-correct="1"' : '') + ' data-lcs-pill')).join('') + '</div></div>');
+    });
+  } else if (mode === 'shortlong' || mode === 'aror') {
     const A = BANK.aror;
     const pool = mode === 'shortlong' ? SL.sentences : [...A.arorSentences, ...A.sentences];
     const isAr = (w) => A.words.ar.includes(w);

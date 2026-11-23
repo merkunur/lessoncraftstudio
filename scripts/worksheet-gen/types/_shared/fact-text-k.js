@@ -415,6 +415,73 @@ const CHECK_PLAN = {
 /** the third picture of a First/Then card in a check: a thing the text itself tells about (the ball and the carrot could be
  *  ruled out without listening, and form B's ball is the answer of its Dogs card) */
 const CHECK_THEN_OTHER = { cows: 'grass', butterflies: 'leaf', rain: 'cloud', 'apple-trees': 'bee' };
+/** (Stage C-2, 2026-11-22) THE CHECKS OF THE YEAR. The bank's ten texts all stand in a form of the unit check (CHECK_TEXTS), so
+ *  a check of the year built from them asked the unit check's boxes again. A page built for a check of the year (build-checks.js
+ *  seeds it "check|year-<grade>-<subject>-<time>|A…") reads instead the four texts below, written for those checks: two a form,
+ *  one question each (YEAR_FACT: its two wrong pictures are answers of the text's other questions, as in CHECK_FACT), the right
+ *  picture in the place YEAR_PLAN names. Only Find the Facts (K-645) reads them: it is the part the checks of the year take of
+ *  the unit. They follow the bank's own rules (faultsOf, checked when the factory loads), stand in no published page (the bank
+ *  is unchanged), and every other page of the factory is built exactly as before. */
+const YEAR_TEXTS = [
+  { id: 'bears', title: 'Bears', picture: { theme: 'camping', noun: 'bear' },
+    sentences: ['A bear lives in the forest.', 'It has a strong nose for finding food.', 'A bear catches fish in the river.', 'It also loves to eat sweet honey.'],
+    questions: [
+      { q: 'Where does a bear live?', sentence: 1, right: { theme: 'camping', noun: 'forest' }, wrong: [{ theme: 'summer', noun: 'beach' }, { theme: 'winter', noun: 'igloo' }] },
+      { q: 'What helps a bear find food?', sentence: 2, right: { theme: 'body parts', noun: 'nose' }, wrong: [{ theme: 'body parts', noun: 'ear' }, { theme: 'body parts', noun: 'hand' }] },
+      { q: 'What does a bear catch in the river?', sentence: 3, right: { theme: 'camping', noun: 'fish' }, wrong: [{ theme: 'vegetables', noun: 'carrot' }, { theme: 'toys', noun: 'ball' }] },
+      { q: 'What sweet food does a bear love?', sentence: 4, right: { theme: 'breakfast', noun: 'honey' }, wrong: [{ theme: 'breakfast', noun: 'cheese' }, { theme: 'vegetables', noun: 'corn' }] },
+    ],
+    topic: { right: { theme: 'camping', noun: 'bear' }, wrong: [{ theme: 'camping', noun: 'forest' }, { theme: 'camping', noun: 'fish' }] }, details: [3, 4] },
+  { id: 'frogs', title: 'Frogs', picture: { theme: 'forest creatures', noun: 'frog' },
+    sentences: ['A frog lives near a pond or a lake.', 'It has long back legs for jumping.', 'A frog catches bugs with its long, sticky tongue.', 'It can swim in the water, too.'],
+    questions: [
+      { q: 'Where does a frog live?', sentence: 1, right: { theme: 'camping', noun: 'lake' }, wrong: [{ theme: 'around the house', noun: 'bed' }, { theme: 'winter', noun: 'igloo' }] },
+      { q: 'What helps a frog jump?', sentence: 2, right: { theme: 'body parts', noun: 'leg' }, wrong: [{ theme: 'body parts', noun: 'ear' }, { theme: 'body parts', noun: 'nose' }] },
+      { q: 'What does a frog catch?', sentence: 3, right: { theme: 'insects and bugs', noun: 'mosquito' }, wrong: [{ theme: 'vegetables', noun: 'carrot' }, { theme: 'breakfast', noun: 'cheese' }] },
+      { q: 'What does a frog use to catch bugs?', sentence: 3, right: { theme: 'body parts', noun: 'tongue' }, wrong: [{ theme: 'body parts', noun: 'hand' }, { theme: 'body parts', noun: 'tooth' }] },
+    ],
+    topic: { right: { theme: 'forest creatures', noun: 'frog' }, wrong: [{ theme: 'camping', noun: 'lake' }, { theme: 'body parts', noun: 'tongue' }] }, details: [2, 3] },
+  { id: 'penguins', title: 'Penguins', picture: { theme: 'birds', noun: 'penguin' },
+    sentences: ['A penguin is a bird, but it cannot fly.', 'It swims fast in the cold sea.', 'A penguin dives down to catch fish.', 'A dad emperor penguin keeps the egg warm on his feet.'],
+    questions: [
+      { q: 'What kind of animal is a penguin?', sentence: 1, right: { theme: 'spring', noun: 'bird' }, wrong: [{ theme: 'pets', noun: 'cat' }, { theme: 'farm animals', noun: 'pig' }] },
+      { q: 'What does a penguin catch?', sentence: 3, right: { theme: 'ocean life', noun: 'fish' }, wrong: [{ theme: 'vegetables', noun: 'carrot' }, { theme: 'fruits', noun: 'apple' }] },
+      { q: 'What does a dad emperor penguin keep warm?', sentence: 4, right: { theme: 'At the Supermarket', noun: 'egg' }, wrong: [{ theme: 'toys', noun: 'ball' }, { theme: 'breakfast', noun: 'cheese' }] },
+      { q: 'Where does he keep the egg warm?', sentence: 4, right: { theme: 'body parts', noun: 'foot' }, wrong: [{ theme: 'body parts', noun: 'hand' }, { theme: 'body parts', noun: 'head' }] },
+    ],
+    topic: { right: { theme: 'birds', noun: 'penguin' }, wrong: [{ theme: 'ocean life', noun: 'fish' }, { theme: 'At the Supermarket', noun: 'egg' }] }, details: [3, 4] },
+  { id: 'elephants', title: 'Elephants', picture: { theme: 'zoo animals', noun: 'elephant' },
+    sentences: ['An elephant eats grass, leaves, and fruit.', 'Its long nose is called a trunk.', 'It sprays water on its back with its trunk.', 'An elephant flaps its big ears to stay cool.'],
+    questions: [
+      { q: 'What does an elephant eat?', sentence: 1, right: { theme: 'spring', noun: 'leaf' }, wrong: [{ theme: 'camping', noun: 'rock' }, { theme: 'toys', noun: 'ball' }] },
+      { q: "What is an elephant's trunk?", sentence: 2, right: { theme: 'body parts', noun: 'nose' }, wrong: [{ theme: 'body parts', noun: 'arm' }, { theme: 'body parts', noun: 'foot' }] },
+      { q: 'What does an elephant spray on its back?', sentence: 3, right: { theme: 'camping', noun: 'water' }, wrong: [{ theme: 'accessories', noun: 'hat' }, { theme: 'breakfast', noun: 'cheese' }] },
+      { q: 'What does an elephant flap to stay cool?', sentence: 4, right: { theme: 'body parts', noun: 'ear' }, wrong: [{ theme: 'body parts', noun: 'hand' }, { theme: 'body parts', noun: 'tooth' }] },
+    ],
+    topic: { right: { theme: 'zoo animals', noun: 'elephant' }, wrong: [{ theme: 'body parts', noun: 'nose' }, { theme: 'body parts', noun: 'ear' }] }, details: [2, 4] },
+];
+/** the question each text asks in a check of the year, and its two wrong pictures (answers of the text's other questions) */
+const YEAR_FACT = {
+  bears: ['What does a bear catch in the river?', ['forest', 'honey']],
+  frogs: ['What helps a frog jump?', ['tongue', 'lake']],
+  penguins: ['Where does he keep the egg warm?', ['bird', 'fish']],
+  elephants: ["What is an elephant's trunk?", ['ear', 'leaf']],
+};
+/** the texts of each form of a check of the year, each with the place of its right picture */
+const YEAR_PLAN = { A: [['bears', 1], ['frogs', 2]], B: [['penguins', 0], ['elephants', 1]] };
+{
+  const f = YEAR_TEXTS.flatMap(faultsOf);
+  for (const t of YEAR_TEXTS) {
+    if (TEXTS.some((x) => x.id === t.id || x.title === t.title)) f.push(t.id + ': a text of the bank (the checks of the year read texts of their own)');
+    const y = YEAR_FACT[t.id], q = y && t.questions.find((x) => x.q === y[0]);
+    if (!q) f.push(t.id + ': its question for the checks of the year is not one of its questions');
+    else for (const n of y[1]) { const p = t.questions.map((x) => x.right).find((x) => x.noun === n); if (!p || p.noun === q.right.noun) f.push(t.id + ': the wrong picture ' + n + ' is not the answer of another of its questions'); }
+  }
+  for (const form of ['A', 'B']) for (const [id] of YEAR_PLAN[form]) if (!YEAR_TEXTS.some((t) => t.id === id)) f.push('YEAR_PLAN ' + form + ': no text ' + id);
+  if (f.length) throw new Error('fact-text-k, the texts of the checks of the year: ' + f.join('; '));
+}
+/** a page built for a check of the year: its form; null for any other page */
+const yearFormOf = (ctx) => { const m = /^check\|year-[^|]+\|([AB])\d*\|/.exec(String((ctx && ctx.rng && ctx.rng.seed) || '')); return m ? m[1] : null; };
 /** the form a check page is built for: build-checks seeds its pages "check|<unit>|A…" or "…|B…"; none outside a check */
 const checkFormOf = (ctx) => { const m = /^check\|[^|]+\|([AB])\d*\|/.exec(String((ctx && ctx.rng && ctx.rng.seed) || '')); return m ? m[1] : null; };
 function factKCheckPage(mode, { difficulty, locale }, ctx) {
@@ -433,10 +500,13 @@ function factKCheckPage(mode, { difficulty, locale }, ctx) {
   const inForm = (x) => !form || CHECK_TEXTS[form].includes(x.id);
   const pool = (mode === 'change' ? TEXTS.filter((x) => x.change) : mode === 'pictures' ? TEXTS.filter((x) => x.match) : FIRST).filter(inForm);
   const cards = [];
-  const plan = form ? CHECK_PLAN[form][mode].map(([id, at]) => [TEXTS.find((x) => x.id === id), at]) : shuffle(pool, rng).map((x) => [x, null]);
+  // (Stage C-2) a page of Find the Facts for a check of the year reads the texts set aside for those checks
+  const yform = mode === 'facts' ? yearFormOf(ctx) : null;
+  const plan = yform ? YEAR_PLAN[yform].map(([id, at]) => [YEAR_TEXTS.find((x) => x.id === id), at])
+    : form ? CHECK_PLAN[form][mode].map(([id, at]) => [TEXTS.find((x) => x.id === id), at]) : shuffle(pool, rng).map((x) => [x, null]);
   for (const [t, at] of plan) {
     if (mode === 'facts') {
-      const fixed = CHECK_FACT[t.id];
+      const fixed = (yform ? YEAR_FACT : CHECK_FACT)[t.id];
       const q = fixed && t.questions.find((x) => x.q === fixed[0]);
       // the picture of a noun the text tells about: the answer of one of its questions (or its own picture)
       const own = (noun) => [...t.questions.map((x) => x.right), t.picture].find((p) => p.noun === noun);
@@ -458,4 +528,4 @@ function factKCheckPage(mode, { difficulty, locale }, ctx) {
   return { bodyHtml: `<div data-lcs-factkcheck="${mode}|${lv}"${key ? ' data-lcs-iskey="1"' : ''}>` + checkGrid(cards, { cols: 1 }) + `</div>`, meta: {} };
 }
 
-module.exports = { makeFactTextKType, faultsOf, TEXTS, LEVELS };
+module.exports = { makeFactTextKType, faultsOf, TEXTS, LEVELS, YEAR_TEXTS, YEAR_FACT, YEAR_PLAN };

@@ -374,6 +374,12 @@ const checkFormOf = (ctx) => { const m = /^check\|[^|]+\|([AB])\d*\|/.exec(Strin
 /** a paragraph's focus as the check prints it, where the bank's is far longer than its two wrong answers (review
  *  en.review-1119-read2: "how a spider's body is different from an insect's" beside two short answers) */
 const CHECK_FOCUS = { 'spiders|1': 'how spiders and insects differ' };
+/** (fix round 2026-11-23, review of the checks of the year) a sentence a check page prints in place of the bank's: "Hunters
+ *  on the Ice" opened with "Polar bears are meat eaters.", and its narrow answer (what a polar bear's main food is) read as
+ *  defensible; the check's paragraph opens with what it is about. Only the pages of the checks of the year and the placement
+ *  checks read it (the unit check never asked that paragraph); the bank is unchanged. */
+const CHECK_SENTENCES = { 'polar-bears|2': { 0: 'Polar bears are patient hunters.' } };
+const checkPart = (t, i, seed) => { const o = /^check\|(year|placement)-/.test(String(seed || '')) && CHECK_SENTENCES[t.id + '|' + (i + 1)]; return o ? { ...t.parts[i], sentences: t.parts[i].sentences.map((x, k) => o[k] || x) } : t.parts[i]; };
 function info2CheckPage(mode, { difficulty, locale }, ctx) {
   if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`info-text-g2 check: the informational texts are English texts (no ${locale} bank)`);
   const { checkGrid } = require('../../lib/check-page.js');
@@ -387,7 +393,7 @@ function info2CheckPage(mode, { difficulty, locale }, ctx) {
   // (the text id names the text AND the task: a part may take two tasks of its form's one text)
   const card = (t, task, inner) => `<div data-lcs-text="${att(t.id + '|' + task)}" data-lcs-cardkind="${att(task.replace(/\d+$/, ''))}" style="display:flex;flex-direction:column;gap:4px;padding:0 4px">${inner}</div>`;
   const page = (t, i) => `<div data-lcs-part="${i + 1}" style="display:flex;gap:8px">${tab(i + 1)}<div style="flex:1 1 auto;min-width:0">` +
-    `<div data-lcs-partbody style="font:700 ${F}px/1.38 'Nunito',sans-serif;color:${T.ink}">${esc(partText(t.parts[i]))}</div></div></div>`;
+    `<div data-lcs-partbody style="font:700 ${F}px/1.38 'Nunito',sans-serif;color:${T.ink}">${esc(partText(checkPart(t, i, rng && rng.seed)))}</div></div></div>`;
   const form = checkFormOf(ctx);
   const cards = [];
   for (const t of shuffle(form ? TEXTS.filter((x) => x.id === CHECK_TEXT[form][mode]) : TEXTS, rng)) {

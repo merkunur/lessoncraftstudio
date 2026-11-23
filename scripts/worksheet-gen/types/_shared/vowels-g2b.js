@@ -747,12 +747,28 @@ function makeVowelG2bType({ id, slug, mode, exerciseType, i18n }) {
  *            of the bank); every page starts with an oul word. because stays out: three parts of it can be called tricky.
  *            Never the sentences: written from memory with only a first letter, "C___ you help me?" takes can as well. */
 const G2B_CHECK_MODES = new Set(['diph', 'aror', 'erirur', 'syll', 'heart']);
+/** (fix round 2026-11-23, review of the placement checks) THE PLACEMENT CHECK OF SPELLING: the teacher says the word, a
+ *  sentence with it, and the word again (data-lcs-teacher-reads: on the key and the teacher pages, never on the child's
+ *  page); the child writes the word on the line. Form A and form B say their own words. */
+function placementDictation(words, form, key, rowH) {
+  const { checkGrid } = require('../../lib/check-page.js');
+  const { _parts } = require('./info-text.js');
+  const cards = words[form].map(([w, kind, says]) => '<div data-lcs-dictate="' + w + '" data-lcs-ckind="' + kind + '" data-lcs-teacher-reads="' + w + '. ' + says + ' ' + w + '." style="padding:10px 14px">' +
+    (key ? _parts.line({ w: 360, h: rowH, answer: w }) : _parts.line({ w: 360, h: rowH }).replace('<div data-lcs-line', '<div data-lcs-line data-lcs-answer="' + w + '"')) + '</div>');
+  return { bodyHtml: '<div data-lcs-dictation="1">' + checkGrid(cards, { cols: 1 }) + '</div>', meta: {} };
+}
+const PLACE_WORDS = {
+  A: [['girl', 'ir', 'The girl rode her red bike.'], ['nurse', 'ur', 'The nurse helped the sick boy.']],
+  B: [['fur', 'ur', 'My cat has soft fur.'], ['dirt', 'ir', 'The dog dug in the dirt.']],
+};
 function g2bCheckPage(mode, { difficulty, locale }, ctx) {
   if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`vowels-g2b check: the words are English words (no ${locale} bank)`);
   const { checkGrid } = require('../../lib/check-page.js');
   const lv = Number(difficulty) || 2, d = LEVELS[mode][lv] || LEVELS[mode][2], rng = ctx.rng, key = !!(ctx && ctx.answerKey);
   const cards = [];
   const withAnswer = (html, a) => (key ? html : html.replace('<div data-lcs-line', `<div data-lcs-line data-lcs-answer="${esc(a)}"`));
+  // (fix round 2026-11-23) the placement check of spelling: er, ir, ur words the teacher says (placementDictation)
+  { const m = mode === 'erirur' && /^check\|placement-spelling-patterns\|([AB])/.exec(String((rng && rng.seed) || '')); if (m) return placementDictation(PLACE_WORDS, m[1], key, 44); }
   if (READ_MODES.includes(mode)) {
     const R = RD[mode], U = unionOf(R), set = R.levels[lv], say = R.say[lv] || [];
     const pool = R.riddles.filter((r) => set.includes(spellIn(R, r.a)) && usableOn(R, r.text, lv, false) && !say.includes(r.a) &&

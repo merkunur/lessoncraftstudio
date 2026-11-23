@@ -1,0 +1,731 @@
+{
+ "$comment": "The blueprint of the placement checks (en). DRAFTED by scripts/assessments/placement/draft.js from its STEPS, the units (units.en.json) and the live unit checks (checks.en.json); read by build-checks.js --placement. Do not edit `checks` by hand: a hand ruling goes in `rulings` (per check id: drop, with a reason).",
+ "locale": "en",
+ "rules": {
+  "order": "steps in teaching order: grade, the unit's place in its plan, the lesson",
+  "alternates": "the other lessons of the step's unit that teach the same skill (the same point before \"#\")",
+  "stop": "stop after the first step in which the child misses two tasks, or the only task of a one-task step"
+ },
+ "checks": [
+  {
+   "id": "placement-counting-number-sense",
+   "path": "counting-number-sense",
+   "subject": "math",
+   "slug": "math-placement-test-counting-and-number-sense",
+   "grades": [
+    "K",
+    "1"
+   ],
+   "grade": "K",
+   "parts": [
+    {
+     "unit": "k-counting-to-10",
+     "lesson": "K:count-how-many",
+     "n": 4,
+     "title": "Count and write how many",
+     "type": "K-006",
+     "grade": "K"
+    },
+    {
+     "unit": "k-counting-to-10",
+     "lesson": "K:compare-groups#which-number-is-greater",
+     "n": 12,
+     "title": "Which number is greater?",
+     "type": "K-606",
+     "grade": "K",
+     "alts": [
+      {
+       "lesson": "K:compare-groups#match-them-up",
+       "n": 9,
+       "title": "Match them up: more, fewer, or the same",
+       "type": "K-641"
+      },
+      {
+       "lesson": "K:compare-groups",
+       "n": 10,
+       "title": "More and fewer",
+       "type": "K-008"
+      }
+     ]
+    },
+    {
+     "unit": "k-counting-in-order-to-20",
+     "lesson": "K:count-how-many#count-and-write-up-to-20",
+     "n": 2,
+     "title": "Count and write how many: up to 20",
+     "type": "K-640",
+     "grade": "K"
+    },
+    {
+     "unit": "k-counting-in-order-to-20",
+     "lesson": "K:count-forward-missing",
+     "n": 3,
+     "title": "Fill in the missing numbers",
+     "type": "K-020",
+     "grade": "K"
+    },
+    {
+     "unit": "g1-tens-and-ones",
+     "lesson": "1:compare-order-two-digit",
+     "n": 5,
+     "title": "Compare and order two-digit numbers",
+     "type": "G1-137",
+     "grade": "1"
+    },
+    {
+     "unit": "g1-hundreds-chart-skip-counting",
+     "lesson": "1:hundreds-chart",
+     "n": 2,
+     "title": "The hundreds chart",
+     "type": "G1-129",
+     "grade": "1"
+    },
+    {
+     "unit": "g1-hundreds-chart-skip-counting",
+     "lesson": "1:skip-counting",
+     "n": 4,
+     "title": "Count by tens, fives, and twos",
+     "type": "G1-123",
+     "grade": "1"
+    }
+   ]
+  },
+  {
+   "id": "placement-addition-subtraction-facts",
+   "path": "addition-subtraction-facts",
+   "subject": "math",
+   "slug": "math-placement-test-addition-and-subtraction-facts",
+   "grades": [
+    "K",
+    "1",
+    "2"
+   ],
+   "grade": "K",
+   "parts": [
+    {
+     "unit": "k-adding-and-taking-away-within-10",
+     "lesson": "K:combine-groups",
+     "n": 1,
+     "title": "How many altogether?",
+     "type": "K-028",
+     "grade": "K"
+    },
+    {
+     "unit": "k-adding-and-taking-away-within-10",
+     "lesson": "K:take-away",
+     "n": 2,
+     "title": "Take away: how many are left?",
+     "type": "K-451",
+     "grade": "K"
+    },
+    {
+     "unit": "g1-add-subtract-within-10",
+     "lesson": "1:fluency-within-20",
+     "n": 7,
+     "title": "Fact fluency within 10",
+     "type": "G1-214",
+     "grade": "1"
+    },
+    {
+     "unit": "g1-doubles-three-addends-number-walls",
+     "lesson": "1:fluency-within-20#make-ten-to-add",
+     "n": 3,
+     "title": "Make ten to add",
+     "type": "G1-439",
+     "grade": "1"
+    },
+    {
+     "unit": "g2-fact-strategies-within-20",
+     "lesson": "1:fact-families#think-addition-and-daily-facts",
+     "n": 4,
+     "title": "Think addition to subtract, and start the daily facts",
+     "type": "G1-566",
+     "grade": "2"
+    }
+   ],
+   "ruledOut": [
+    {
+     "unit": "g1-add-subtract-within-10",
+     "lesson": "1:make-10",
+     "reason": "[Stage C-3 build, 2026-11-23] Partners that make 10 (G1-106): its pages give few tasks (the partners of 10), and every one is already a box of a unit check or of a check of the year; the step before (taking away) and after (facts within 10) stay."
+    },
+    {
+     "unit": "g1-doubles-three-addends-number-walls",
+     "lesson": "1:near-doubles",
+     "reason": "[Stage C-3 build, 2026-11-23] Near doubles (G1-449): every near double its pages give is already a box of a unit check or of a check of the year (four checks of the year ask near doubles); the step after (make ten to add) asks the facts over ten."
+    }
+   ]
+  },
+  {
+   "id": "placement-place-value",
+   "path": "place-value",
+   "subject": "math",
+   "slug": "math-placement-test-place-value",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3"
+   ],
+   "grade": "K",
+   "parts": [
+    {
+     "unit": "k-teen-numbers-and-counting-to-100",
+     "lesson": "K:teen-numbers#ten-and-how-many-more",
+     "n": 4,
+     "title": "Ten and how many more?",
+     "type": "K-634",
+     "grade": "K",
+     "alts": [
+      {
+       "lesson": "K:teen-numbers#ten-and-some-more",
+       "n": 1,
+       "title": "Ten and some more",
+       "type": "K-627"
+      },
+      {
+       "lesson": "K:teen-numbers",
+       "n": 2,
+       "title": "Teen numbers on two ten-frames",
+       "type": "K-448"
+      },
+      {
+       "lesson": "K:teen-numbers#build-and-draw-a-teen-number",
+       "n": 3,
+       "title": "Build and draw a teen number",
+       "type": "K-637"
+      }
+     ]
+    },
+    {
+     "unit": "g1-tens-and-ones",
+     "lesson": "1:tens-and-ones",
+     "n": 3,
+     "title": "Tens and ones",
+     "type": "G1-120",
+     "grade": "1",
+     "alts": [
+      {
+       "lesson": "1:tens-and-ones#teen-numbers-one-ten-and-some-ones",
+       "n": 1,
+       "title": "Teen numbers: one ten and some ones",
+       "type": "G1-564"
+      },
+      {
+       "lesson": "1:tens-and-ones#count-the-tens",
+       "n": 2,
+       "title": "Count the tens: 10 to 90",
+       "type": "G1-563"
+      }
+     ]
+    },
+    {
+     "unit": "g1-hundreds-chart-skip-counting",
+     "lesson": "1:one-ten-more-less",
+     "n": 3,
+     "title": "1 more, 1 less, 10 more, 10 less",
+     "type": "G1-131",
+     "grade": "1"
+    },
+    {
+     "unit": "g2-place-value-to-1000",
+     "lesson": "2:read-build-3-digit",
+     "n": 4,
+     "title": "Hundreds, tens, and ones",
+     "type": "G2-222",
+     "grade": "2"
+    },
+    {
+     "unit": "g2-place-value-to-1000",
+     "lesson": "2:expanded-form-digit-value",
+     "n": 5,
+     "title": "Expanded form and the value of a digit",
+     "type": "G2-223",
+     "grade": "2"
+    },
+    {
+     "unit": "g2-place-value-to-1000",
+     "lesson": "2:compare-order-3-digit",
+     "n": 7,
+     "title": "Compare and order three-digit numbers",
+     "type": "G2-219",
+     "grade": "2"
+    },
+    {
+     "unit": "g2-place-value-to-1000",
+     "lesson": "2:hundred-more-less",
+     "n": 8,
+     "title": "100 more, 100 less",
+     "type": "G2-226",
+     "grade": "2"
+    },
+    {
+     "unit": "g3-rounding-adding-subtracting",
+     "lesson": "3:rounding",
+     "n": 2,
+     "title": "Round to the nearest hundred",
+     "type": "G3-388",
+     "grade": "3"
+    }
+   ]
+  },
+  {
+   "id": "placement-multiplication-facts",
+   "path": "multiplication-facts",
+   "subject": "math",
+   "slug": "math-placement-test-multiplication-facts",
+   "grades": [
+    "3"
+   ],
+   "grade": "3",
+   "parts": [
+    {
+     "unit": "g3-starting-multiplication",
+     "lesson": "3:mult-equal-groups",
+     "n": 1,
+     "title": "Multiplication as equal groups",
+     "type": "G3-302",
+     "grade": "3"
+    },
+    {
+     "unit": "g3-starting-multiplication",
+     "lesson": "3:times-tables",
+     "n": 4,
+     "title": "Multiplication facts for 2 and 5",
+     "type": "G3-364",
+     "grade": "3"
+    },
+    {
+     "unit": "g3-division",
+     "lesson": "3:mult-div-relationship",
+     "n": 3,
+     "title": "The missing factor and fact families",
+     "type": "G3-312",
+     "grade": "3"
+    },
+    {
+     "unit": "g3-division",
+     "lesson": "3:times-tables#multiply-by-tens",
+     "n": 7,
+     "title": "Multiply by multiples of 10",
+     "type": "G3-491",
+     "grade": "3"
+    }
+   ],
+   "ruledOut": [
+    {
+     "unit": "g2-equal-groups-equal-shares",
+     "lesson": "2:equal-groups-times",
+     "reason": "[Stage C-3 build, 2026-11-23] Equal groups (G2-210): its pages hold few different tasks, and form B finds no box of the kind and size of form A that a unit check or a check of the year has not used; the ladder starts at multiplication as equal groups (Grade 3)."
+    },
+    {
+     "unit": "g3-starting-multiplication",
+     "lesson": "3:commutative",
+     "reason": "[Stage C-3 build, 2026-11-23] Turn the array around (G3-314): form B finds no box of the kind and size of form A that a unit check or a check of the year has not used; the facts for 2 and 5 follow."
+    }
+   ]
+  },
+  {
+   "id": "placement-letters-sounds",
+   "path": "letters-sounds",
+   "subject": "literacy",
+   "slug": "phonics-placement-test-letters-and-sounds",
+   "grades": [
+    "K"
+   ],
+   "grade": "K",
+   "parts": [
+    {
+     "unit": "k-letters-and-handwriting",
+     "lesson": "K:letter-identification",
+     "n": 2,
+     "title": "Find the letter",
+     "type": "K-229",
+     "grade": "K"
+    },
+    {
+     "unit": "k-letters-and-handwriting",
+     "lesson": "K:letter-case",
+     "n": 3,
+     "title": "Uppercase and lowercase letters",
+     "type": "K-222",
+     "grade": "K"
+    },
+    {
+     "unit": "k-hearing-sounds-in-words",
+     "lesson": "K:beginning-sounds",
+     "n": 4,
+     "title": "Beginning sounds",
+     "type": "K-221",
+     "grade": "K"
+    },
+    {
+     "unit": "k-hearing-sounds-in-words",
+     "lesson": "K:sound-position",
+     "n": 5,
+     "title": "Ending sounds and middle sounds",
+     "type": "K-226",
+     "grade": "K"
+    },
+    {
+     "unit": "k-short-vowels-and-cvc-words",
+     "lesson": "K:short-o-u-e",
+     "n": 2,
+     "title": "Short o, short u, and short e",
+     "type": "K-662",
+     "grade": "K"
+    }
+   ],
+   "ruledOut": [
+    {
+     "unit": "k-short-vowels-and-cvc-words",
+     "lesson": "K:short-a-i",
+     "reason": "[Stage C-3 build, 2026-11-23] Short a and short i (K-661): form B finds no word of the kind of form A that a unit check or a check of the year has not used; short o, u, and e (the next step) asks reading short-vowel words."
+    }
+   ]
+  },
+  {
+   "id": "placement-blending-decoding",
+   "path": "blending-decoding",
+   "subject": "literacy",
+   "slug": "phonics-placement-test-blending-and-decoding",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3"
+   ],
+   "grade": "K",
+   "parts": [
+    {
+     "unit": "k-hearing-sounds-in-words",
+     "lesson": "K:cvc-build",
+     "n": 7,
+     "title": "Build the word",
+     "type": "K-231",
+     "grade": "K"
+    },
+    {
+     "unit": "k-short-vowels-and-cvc-words",
+     "lesson": "K:words-one-letter-apart",
+     "n": 4,
+     "title": "Which word matches: cat or cot?",
+     "type": "K-664",
+     "grade": "K"
+    },
+    {
+     "unit": "k-short-vowels-and-cvc-words",
+     "lesson": "K:digraphs-k",
+     "n": 5,
+     "title": "sh and ch",
+     "type": "K-378",
+     "grade": "K"
+    },
+    {
+     "unit": "g1-long-vowels-silent-e-and-vowel-teams",
+     "lesson": "1:silent-e",
+     "n": 1,
+     "title": "Silent e Changes the Vowel",
+     "type": "G1-584",
+     "grade": "1"
+    },
+    {
+     "unit": "g1-long-vowels-silent-e-and-vowel-teams",
+     "lesson": "1:long-a-ai-ay",
+     "n": 3,
+     "title": "Long a: ai and ay",
+     "type": "G1-585",
+     "grade": "1"
+    },
+    {
+     "unit": "g1-two-syllable-words",
+     "lesson": "1:syllables-split",
+     "n": 3,
+     "title": "Syllables",
+     "type": "G1-305",
+     "grade": "1"
+    },
+    {
+     "unit": "g2-long-vowels-and-vowel-teams",
+     "lesson": "2:vowel-teams-long-a-e-o",
+     "n": 3,
+     "title": "Vowel Teams for Long a, e, and o",
+     "type": "G2-531",
+     "grade": "2"
+    },
+    {
+     "unit": "g3-reading-long-words",
+     "lesson": "3:closed-open-syllables",
+     "n": 1,
+     "title": "Closed and open syllables",
+     "type": "G3-512",
+     "grade": "3"
+    }
+   ],
+   "ruledOut": [
+    {
+     "unit": "g1-digraphs-and-blends",
+     "lesson": "1:blends-start",
+     "reason": "[Stage C-3 build, 2026-11-23] Blends at the start (G1-493): every blend word its pages give is already a box of a unit check or of a check of the year."
+    },
+    {
+     "unit": "g1-digraphs-and-blends",
+     "lesson": "1:digraphs",
+     "reason": "[Stage C-3 build, 2026-11-23; fix round 2026-11-23] sh, ch, and th (G1-380): the Kindergarten step now asks sh and ch in two boxes a form (the shovel and the chick, the shirt and the cheese); a Grade 1 step of th alone cannot be built: the unit check asks the thumb and the tooth, and the bank holds one other th picture (the mouth), too few for two forms. The two reviewed sh and ch pictures left would ask the Kindergarten step again."
+    }
+   ]
+  },
+  {
+   "id": "placement-sight-words",
+   "path": "sight-words",
+   "subject": "literacy",
+   "slug": "sight-words-placement-test",
+   "grades": [
+    "K",
+    "1",
+    "3"
+   ],
+   "grade": "K",
+   "parts": [
+    {
+     "unit": "k-first-words-to-read",
+     "lesson": "K:sight-words-reading",
+     "n": 2,
+     "title": "Sight words",
+     "type": "K-389",
+     "grade": "K"
+    },
+    {
+     "unit": "g1-reading-sentences-and-stories",
+     "lesson": "1:cloze",
+     "n": 2,
+     "title": "Fill in the missing word",
+     "type": "G1-350",
+     "grade": "1"
+    },
+    {
+     "unit": "g1-two-syllable-words",
+     "lesson": "1:tricky-words-said-was-of-could",
+     "n": 4,
+     "title": "Tricky words: said, was, of, could",
+     "type": "G1-603",
+     "grade": "1"
+    },
+    {
+     "unit": "g3-reading-long-words",
+     "lesson": "3:tricky-words-enough-though-ocean",
+     "n": 4,
+     "title": "Tricky words: enough, though, ocean",
+     "type": "G3-518",
+     "grade": "3",
+     "startAt": {
+      "unit": "g2-bossy-r-and-longer-words",
+      "unitSlug": "bossy-r-and-longer-words-grade-2-unit",
+      "unitTitle": "Bossy R and Longer Words",
+      "lesson": "2:tricky-words-could-would-should",
+      "n": 4,
+      "title": "Tricky words: could, would, should",
+      "grade": "2",
+      "reason": "The Grade 2 lesson of tricky words (could, would, should) cannot be a step: its three words stand in the unit check and in the checks of the year, and a placement box repeats none. A child who passed the Grade 1 steps and stops at the Grade 3 step starts at that Grade 2 lesson, the first tricky words no step has checked."
+     }
+    }
+   ],
+   "ruledOut": [
+    {
+     "unit": "g2-bossy-r-and-longer-words",
+     "lesson": "2:tricky-words-could-would-should",
+     "reason": "[Stage C-3 build, 2026-11-23] Tricky words could, would, should (G2-548): form B finds no sentence of the kind of form A that a unit check or a check of the year has not used."
+    }
+   ]
+  },
+  {
+   "id": "placement-spelling-patterns",
+   "path": "spelling-patterns",
+   "subject": "literacy",
+   "slug": "spelling-placement-test-spelling-patterns",
+   "grades": [
+    "1",
+    "2",
+    "3"
+   ],
+   "grade": "1",
+   "parts": [
+    {
+     "unit": "g1-sounds-spelling-syllables",
+     "lesson": "1:spell-picture-words",
+     "n": 5,
+     "title": "Spell the picture word",
+     "type": "G1-260",
+     "grade": "1"
+    },
+    {
+     "unit": "g1-long-vowels-silent-e-and-vowel-teams",
+     "lesson": "1:long-e-ee-ea",
+     "n": 4,
+     "title": "Long e: ee and ea",
+     "type": "G1-586",
+     "grade": "1"
+    },
+    {
+     "unit": "g2-bossy-r-and-longer-words",
+     "lesson": "2:er-ir-ur",
+     "n": 2,
+     "title": "er, ir, and ur: One Sound, Three Spellings",
+     "type": "G2-545",
+     "grade": "2"
+    },
+    {
+     "unit": "g2-spelling-and-word-building",
+     "lesson": "2:spelling-rules",
+     "n": 1,
+     "title": "Spelling rules: which letters go here?",
+     "type": "G2-315",
+     "grade": "2"
+    },
+    {
+     "unit": "g3-reading-long-words",
+     "lesson": "3:suffixes-able-ment-ness-ful-less",
+     "n": 3,
+     "title": "Suffixes -able, -ment, -ness, -ful, -less",
+     "type": "G3-516",
+     "grade": "3"
+    }
+   ],
+   "ruledOut": [
+    {
+     "unit": "g1-digraphs-and-blends",
+     "lesson": "1:ck-ng-wh",
+     "reason": "[Stage C-3 build, 2026-11-23] ck, ng, and wh (G1-589): every word its pages give is already a box of a unit check or of a check of the year."
+    }
+   ]
+  },
+  {
+   "id": "placement-sentence-writing",
+   "path": "sentence-writing",
+   "subject": "literacy",
+   "slug": "writing-placement-test-sentence-writing",
+   "grades": [
+    "K",
+    "1",
+    "2",
+    "3"
+   ],
+   "grade": "K",
+   "parts": [
+    {
+     "unit": "k-words-and-sentences",
+     "lesson": "K:capital-letter",
+     "n": 3,
+     "title": "A sentence starts with a capital letter",
+     "type": "K-660",
+     "grade": "K"
+    },
+    {
+     "unit": "k-words-and-sentences",
+     "lesson": "K:period-or-question-mark",
+     "n": 4,
+     "title": "A period or a question mark?",
+     "type": "K-656",
+     "grade": "K"
+    },
+    {
+     "unit": "g1-reading-sentences-and-stories",
+     "lesson": "1:unscramble-sentence",
+     "n": 3,
+     "title": "Unscramble the sentence",
+     "type": "G1-282",
+     "grade": "1"
+    },
+    {
+     "unit": "g2-sentences-and-grammar",
+     "lesson": "2:sentence-boundaries",
+     "n": 1,
+     "title": "Capital letters and end marks",
+     "type": "G2-274",
+     "grade": "2"
+    },
+    {
+     "unit": "g3-sentences-and-conventions",
+     "lesson": "3:simple-compound-complex",
+     "n": 2,
+     "title": "Simple, compound, and complex sentences",
+     "type": "G3-522",
+     "grade": "3"
+    }
+   ],
+   "writing": "placement-sentence-writing"
+  }
+ ],
+ "rulings": {
+  "$comment": "Hand rulings of the placement blueprint, applied by draft.js on every draft: per check id, drop (a step by unit and lesson key), each with its reason.",
+  "placement-addition-subtraction-facts": {
+   "drop": [
+    {
+     "unit": "g1-add-subtract-within-10",
+     "lesson": "1:make-10",
+     "reason": "[Stage C-3 build, 2026-11-23] Partners that make 10 (G1-106): its pages give few tasks (the partners of 10), and every one is already a box of a unit check or of a check of the year; the step before (taking away) and after (facts within 10) stay."
+    },
+    {
+     "unit": "g1-doubles-three-addends-number-walls",
+     "lesson": "1:near-doubles",
+     "reason": "[Stage C-3 build, 2026-11-23] Near doubles (G1-449): every near double its pages give is already a box of a unit check or of a check of the year (four checks of the year ask near doubles); the step after (make ten to add) asks the facts over ten."
+    }
+   ]
+  },
+  "placement-multiplication-facts": {
+   "drop": [
+    {
+     "unit": "g2-equal-groups-equal-shares",
+     "lesson": "2:equal-groups-times",
+     "reason": "[Stage C-3 build, 2026-11-23] Equal groups (G2-210): its pages hold few different tasks, and form B finds no box of the kind and size of form A that a unit check or a check of the year has not used; the ladder starts at multiplication as equal groups (Grade 3)."
+    },
+    {
+     "unit": "g3-starting-multiplication",
+     "lesson": "3:commutative",
+     "reason": "[Stage C-3 build, 2026-11-23] Turn the array around (G3-314): form B finds no box of the kind and size of form A that a unit check or a check of the year has not used; the facts for 2 and 5 follow."
+    }
+   ]
+  },
+  "placement-letters-sounds": {
+   "drop": [
+    {
+     "unit": "k-short-vowels-and-cvc-words",
+     "lesson": "K:short-a-i",
+     "reason": "[Stage C-3 build, 2026-11-23] Short a and short i (K-661): form B finds no word of the kind of form A that a unit check or a check of the year has not used; short o, u, and e (the next step) asks reading short-vowel words."
+    }
+   ]
+  },
+  "placement-blending-decoding": {
+   "drop": [
+    {
+     "unit": "g1-digraphs-and-blends",
+     "lesson": "1:blends-start",
+     "reason": "[Stage C-3 build, 2026-11-23] Blends at the start (G1-493): every blend word its pages give is already a box of a unit check or of a check of the year."
+    },
+    {
+     "unit": "g1-digraphs-and-blends",
+     "lesson": "1:digraphs",
+     "reason": "[Stage C-3 build, 2026-11-23; fix round 2026-11-23] sh, ch, and th (G1-380): the Kindergarten step now asks sh and ch in two boxes a form (the shovel and the chick, the shirt and the cheese); a Grade 1 step of th alone cannot be built: the unit check asks the thumb and the tooth, and the bank holds one other th picture (the mouth), too few for two forms. The two reviewed sh and ch pictures left would ask the Kindergarten step again."
+    }
+   ]
+  },
+  "placement-sight-words": {
+   "drop": [
+    {
+     "unit": "g2-bossy-r-and-longer-words",
+     "lesson": "2:tricky-words-could-would-should",
+     "reason": "[Stage C-3 build, 2026-11-23] Tricky words could, would, should (G2-548): form B finds no sentence of the kind of form A that a unit check or a check of the year has not used."
+    }
+   ]
+  },
+  "placement-spelling-patterns": {
+   "drop": [
+    {
+     "unit": "g1-digraphs-and-blends",
+     "lesson": "1:ck-ng-wh",
+     "reason": "[Stage C-3 build, 2026-11-23] ck, ng, and wh (G1-589): every word its pages give is already a box of a unit check or of a check of the year."
+    }
+   ]
+  }
+ }
+}

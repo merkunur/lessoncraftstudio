@@ -496,12 +496,26 @@ function makeVowelType({ id, slug, mode, pair, i18n }) {
  *                     the check's direction line); ee/ea, which no rule tells, shows the picture of each word, as its page
  *                     does (no withdrawn picture; drawn 100 px: the letters are 34 px). Both spellings on a page, never three of
  *                     one in a row. The key leaves the gap empty: the check writes the letters in, in its answer colour. */
+/** (fix round 2026-11-23, review of the placement checks) THE PLACEMENT CHECK OF BLENDING AND DECODING asks long a by READING
+ *  it: a picture and three words to circle, the word that names the picture with ai, a short-a word and an ay word (rain, ran,
+ *  ray). Its page (build-checks.js seeds it "check|placement-blending-decoding|…") holds these four cards; any other page is
+ *  the page it was (the spelling ladder still asks the gap). Every right word names its picture; no wrong word does. */
+const PLACE_READ = [['rain', ['ran', 'ray']], ['train', ['trap', 'tray']], ['snail', ['snap', 'sail']], ['nail', ['nap', 'mail']]];
 function vowelCheckPage(mode, pair, { difficulty, locale }, ctx) {
   if (String(locale || 'en').slice(0, 2) !== 'en') throw new Error(`vowels-g1 check: the words are English words (no ${locale} bank)`);
   const { checkGrid } = require('../../lib/check-page.js');
   const lv = Number(difficulty) || 2, d = LEVELS[mode][lv] || LEVELS[mode][2], rng = ctx.rng;
   const cards = [];
-  if (mode === 'silente') {
+  const readPlace = mode === 'team' && pair === 'ai-ay' && /^check\|placement-blending-decoding\|/.test(String((rng && rng.seed) || ''));
+  if (readPlace) {
+    // the right word in each place of the three, never in the same place on every card
+    const at = rng.shuffle([0, 1, 2, rng.int(0, 2)]);
+    PLACE_READ.forEach(([w, wrong], i) => {
+      const three = rng.shuffle(wrong.slice()); three.splice(at[i], 0, w);
+      cards.push('<div data-lcs-readcheck="' + w + '" data-lcs-ckind="read" style="display:flex;align-items:center;justify-content:center;gap:26px;padding:6px 8px">' + img(w, 100) +
+        '<div data-lcs-three style="display:flex;flex-direction:column;align-items:flex-start;gap:4px">' + three.map((x) => pill(x, x === w, false, 30).replace('<span data-lcs-pill', '<span data-lcs-choice="' + x + '"' + (x === w ? ' data-lcs-correct="1"' : '') + ' data-lcs-pill')).join('') + '</div></div>');
+    });
+  } else if (mode === 'silente') {
     const shown = [], pairs = new Set();
     for (const x of shuffle(pictPool(d.vowels), rng)) { if (shown.length === 8) break; if (pairs.has(x.s) || WITHDRAWN.has(x.w)) continue; pairs.add(x.s); shown.push(x); }
     if (shown.length < 4) throw new Error(`vowels-g1 check: ${shown.length} pictured pairs`);

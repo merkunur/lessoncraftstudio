@@ -1,0 +1,6 @@
+/* (Stage C-2) the checks of the year: the list of their pages on the assessments hub (the rest of both pages uses the
+   look of the unit pages, components/units/units.css) */
+.un-hub-year { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 10px; }
+.un-hub-year a { display: inline-flex; align-items: center; min-height: 48px; padding: 10px 16px; border: 2px solid var(--teal-deep); border-radius: 12px; background: var(--paper); color: var(--teal-deep); font-weight: 800; text-decoration: none; }
+.un-hub-year a:hover { background: var(--teal-deep); color: #fff; }
+.un-year-teacher { margin-top: 12px; }

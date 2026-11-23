@@ -436,7 +436,28 @@
   "G1-618 otherWords": "[writing review 1119] Form B's two answers were form A's lures: form B takes the boxes that share the fewest words with form A's.",
   "G3-570 otherWords": "[writing review 1119] Form B reused form A's tired words and choices: the check now pairs the tired words (said with looked, big with nice, went with good), a form asks one word of each pair, and form B takes the box that shares the fewest words with form A's, the other word of the pair.",
   "K-020 sharesOk": "[review en-1119-final, 2026-11-19] Every counting strip to 20 holds the teens, so form B always shares numbers with form A; the gaps differ, which is what the part asks.",
-  "K-020 take": "[2026-11-19] Two strips per form asked the same missing number twice in one form (10 in both); one strip per form, with other gaps in form B."
+  "K-020 take": "[2026-11-19] Two strips per form asked the same missing number twice in one form (10 in both); one strip per form, with other gaps in form B.",
+  "year avoidAns K-634 K-627 K-448": "[Stage C-2, 2026-11-22] The unit check of Teen Numbers shares the teen numbers out among its parts (K-627 asks 13 and 14, K-634 never 3 or 4 more, K-448 15 to 17) so that no fact stands twice in it. A check of the year takes ONE part of the unit, so it may ask any teen number: with the shares in force, every teen box was used up by the unit check and the end check of Kindergarten had no teen-number part.",
+  "year seeds G3-309": "[Stage C-2, 2026-11-22] Divide by Sharing (G3-309) holds few different tasks on its pages, and half of them are boxes of its unit check: a check of the year builds 24 of its pages per form (not 8) to find a box for each form.",
+  "year take G3-309": "[Stage C-2, 2026-11-22] The end check of Grade 3 asks division (3.OA.A.2) with ONE box of Divide by Sharing (G3-309): with two, form B found no box of the same kind and size that the unit check and form A had not used (even from 24 pages), and the part fell to the missing factor. Two boxes of the type stay in its unit check.",
+  "year take G2-210": "[Stage C-2, second look, 2026-11-23] The end check of Grade 2 asks equal groups (2.OA.C.4) with ONE box of Equal Groups (G2-210), from 24 of its pages per form: its pages hold few different tasks, and with two boxes from eight pages form B found no box of the same kind and size that the unit check and form A had not used.",
+  "placement take seeds": "[Stage C-3, 2026-11-23] A placement step asks one box of these types, chosen from 24 of their pages per form: the unit checks and the 24 checks of the year already print most of their tasks (facts within 10 and 20, the times tables, the short-vowel, digraph and tricky-word pages), and no placement box may repeat one. A step of one box is enough for the stop rule (a one-task step stops on its miss).",
+  "G3-485 G3-488 G2-509 keyNote": "[fix round 2026-11-23, review of the checks of the year and the placement checks] The keys printed one order of the steps, one order of the side lengths and one equation, and so marked other right answers wrong (8 × 6 for 6 × 8; 17 + 65 = 82 for 82 − 17 = 65; the two steps of a story in the other order). The unit checks of these types carried the same keys: their keys are rebuilt too.",
+  "G2-317 onlyText": "[fix round 2026-11-23, review of the checks of the year and the placement checks] A sentence whose time words stood at its end or told no time for sure (\"Tom ___ the big box every time.\", \"Emma ___ every afternoon.\", \"After school Leo ___ at home.\", \"On Mondays …\") takes the past form too: every sentence of a card leads with the cue the lesson teaches (\"Every day …\", \"Yesterday …\", \"Last night …\") or ends with a past cue (\"… yesterday.\"). The unit check of Sentences and Grammar asked such sentences: it is rebuilt too.",
+  "year avoidAns K-221": "[fix round 2026-11-23, review of the checks of the year and the placement checks] A first sound spelled C or K (car, key) has two right letters for a child who has not met the spelling yet: the checks of the year ask no such picture (the vowels stay out, as in the unit).",
+  "year avoidAns K-075": "[fix round 2026-11-23, review of the checks of the year and the placement checks] Every count-the-sides box answered 4 (square, rectangle, parallelogram) in three checks of the year: a triangle, a pentagon or a hexagon is asked instead.",
+  "year avoidText persimmon": "[fix round 2026-11-23, review of the checks of the year and the placement checks] A word most six-year-olds do not know (persimmon) cannot test a or an.",
+  "year kindText mixKinds G1-292": "[fix round 2026-11-23, review of the checks of the year and the placement checks] In the a/an sort every first word went under a and every second under an, so the place gave the answer away: a part asks one card whose first word takes a and one whose first word takes an, and form B the same kinds.",
+  "year otherWords G2-358": "[fix round 2026-11-23, review of the checks of the year and the placement checks] Form B asked collect for gather after form A asked gather for collect: form B takes the card that shares the fewest words with form A.",
+  "year instruction K-368": "[fix round 2026-11-23, review of the checks of the year and the placement checks] The cards of a check of the year show three shapes and the teacher names one (K-368 yearShapeCheck): the entry check said \"I will read the three names\" over cards of two names, and a child who cannot read names yet circles the shape.",
+  "placement take two": "[fix round 2026-11-23, review of the checks of the year and the placement checks] A step of one task placed a child by one slip: the steps take two tasks where the lesson's worksheet gives two that no unit check and no check of the year asks (a step that still has one task says so on the teacher pages: give the matching task of the other form before stopping).",
+  "placement onlyText G3-491": "[fix round 2026-11-23, review of the checks of the year and the placement checks] Multiplying by multiples of 10 asked 8 × 8 and 6 × 4, facts no step of the ladder checks: its basic fact is a fact of 2 or of 5, the facts the step before asks.",
+  "placement instruction keyNote": "[fix round 2026-11-23, review of the checks of the year and the placement checks] The decoding steps of long a and the vowel teams READ the word (circle the word for the picture: rain, ran, ray), the spelling steps of short vowels and of er, ir, ur are DICTATED (the teacher says the word; vowels-g1, vowels-g2, G1-260, vowels-g2b PLACE_*), and the sight-words step asks high-frequency words in a sentence (G1-350 PLACE_SIGHT): each step tests what its ladder says.",
+  "G2-317 otherWords": "[fix round 2026-11-23] A card of two sentences drawn from one list printed the same sentence in form A and in form B (\"Yesterday Lily ___ a tall tower.\"): form B takes the card that shares the fewest words with form A.",
+  "placement take one": "[fix round 2026-11-23] Steps that cannot give two tasks a form once the unit checks and the checks of the year are taken out (taking away on the ten-frame K-451, expanded form G2-223, multiplication as equal groups G3-302, short o, u, and e K-662, silent e G1-584, ee and ea G1-586): one task, and the stop rule of the teacher pages says to give the matching task of the other form before stopping.",
+  "placement kindOnly G1-584": "[fix round 2026-11-23] The silent-e step (cap / cape) asks one picture a form; the unit check and the checks of the year already ask most of the pictured pairs, so form B may ask a short word where form A asks a silent-e word (each card asks both: the child reads cap and cape and circles the one that names the picture).",
+  "G2-317 kindOnly": "[second fix round 2026-11-23] An English check card of the two tenses asks one present and one past sentence of the checks' own list (G2-317 YEAR_TENSE): every card is of one kind, whatever the length of its sentences.",
+  "placement level G1-584": "[second fix round 2026-11-23] The silent-e step takes the lesson's hard page (o and u as well as a and i): every pictured pair of a and i (cap, tape, can, hat, plane, kite, slide) is already a box of the unit check or of a check of the year; note / not, rod / rode, cube / cub and tub / tube are not."
  },
  "blend": {
   "G3-364": [
@@ -540,7 +561,8 @@
   "G1-337": "^(hot|happy|wet|good|loud|clean|lost|sweet|sick|true) ",
   "G2-339": "^(Owl|Lion|Tiger|Wolf|Shark|Eagle|Cow|Horse|Sheep|Goat|Giraffe|Elephant|Zebra|Deer|Bear)\\s",
   "G3-357": "^(?!\\d 0 \\d −)",
-  "G3-326": "^(?!(0|42|49|56|63|70|77|84|91|98|105|112|119|126) )"
+  "G3-326": "^(?!(0|42|49|56|63|70|77|84|91|98|105|112|119|126) )",
+  "G2-317": "^\\s*(?:(?:Every \\w+|Yesterday|Last \\w+)\\b[^.]*|[^.]*\\b(?:yesterday|last \\w+))\\.\\s*\\(\\w+\\)\\s*(?:(?:Every \\w+|Yesterday|Last \\w+)\\b[^.]*|[^.]*\\b(?:yesterday|last \\w+))\\.\\s*\\(\\w+\\)\\s*$"
  },
  "avoidEcho": [
   "G3-312",
@@ -578,7 +600,10 @@
   "G2-557": "The reasons may stand in any order.",
   "G3-554": "An exclamation point is not right here: these sentences are statements.",
   "G3-498": "Accept the meaning in the child's own words. For the index, both page numbers.",
-  "G2-571": "A time word of two words (After that) earns the point when the child circles it whole or its first word (After)."
+  "G2-571": "A time word of two words (After that) earns the point when the child circles it whole or its first word (After).",
+  "G3-485": "Give the point for any two correct steps that reach the answer.",
+  "G3-488": "Either order of the two side lengths is right (for example 6 × 8 or 8 × 6).",
+  "G2-509": "Give the point for any correct equation that matches the bar model: a subtraction or the addition that goes with it (for example 82 − 17 = 65 or 17 + 65 = 82)."
  },
  "parity": [
   "G2-351"
@@ -889,7 +914,8 @@
   "G1-603",
   "K-658",
   "G1-618",
-  "G3-570"
+  "G3-570",
+  "G2-317"
  ],
  "otherNums": [
   "G1-147",
@@ -1064,7 +1090,8 @@
  "kindOnly": {
   "G2-372": "*",
   "K-677": "*",
-  "G1-616": "*"
+  "G1-616": "*",
+  "G2-317": "*"
  },
  "avoidHtml": {
   "G2-518": "data-lcs-regroup=\"(join|join-new|apart|compare)\""
@@ -1080,5 +1107,134 @@
  ],
  "dropType": {
   "K-019": "[review en-1119-final, 2026-11-19] A 1–10 strip is below a unit about counting in order to 20, and its few strips made form B ask what form A asks; the lesson's K-020 (Missing Numbers to 20) gives the part."
+ },
+ "year": {
+  "$comment": "Rulings for the checks of the year only (Stage C-2): build-checks.js --year lays them over the rulings of a part's source unit; a unit check never reads them.",
+  "avoidAns": {
+   "K-634": "^$",
+   "K-627": "^$",
+   "K-448": "^$",
+   "K-221": "^[AEIOUaeiouCcKk]$",
+   "K-075": "^4$"
+  },
+  "seeds": {
+   "G3-309": 24,
+   "G2-210": 24
+  },
+  "take": {
+   "G3-309": 1,
+   "G2-210": 1
+  },
+  "avoidText": [
+   "persimmon"
+  ],
+  "kindText": {
+   "G1-292": "^(\\S+) \\S+ a an → \\1\\|"
+  },
+  "mixKinds": [
+   "G1-292"
+  ],
+  "otherWords": [
+   "G2-358"
+  ],
+  "instruction": {
+   "K-368": "Look at the three shapes on each card. I will name one shape. Circle that shape."
+  }
+ },
+ "placement": {
+  "$comment": "Rulings for the placement checks only (Stage C-3): build-checks.js --placement lays them over the rulings of a step's source unit (and over the rulings for the checks of the year); a unit check and a check of the year never read them.",
+  "take": {
+   "K-451": 1,
+   "G1-106": 1,
+   "G1-449": 1,
+   "G1-566": 2,
+   "G2-210": 1,
+   "G3-302": 1,
+   "G3-314": 1,
+   "K-661": 1,
+   "G1-380": 1,
+   "G1-493": 1,
+   "G2-548": 1,
+   "G3-518": 1,
+   "G1-589": 1,
+   "G1-586": 1,
+   "K-028": 2,
+   "G1-439": 2,
+   "K-627": 2,
+   "G1-120": 2,
+   "G2-222": 2,
+   "G2-223": 1,
+   "G3-364": 2,
+   "G3-312": 2,
+   "G2-315": 2,
+   "G1-282": 2,
+   "G2-274": 2,
+   "K-378": 2,
+   "G1-585": 2,
+   "G2-531": 2,
+   "G1-350": 2,
+   "G1-260": 2,
+   "G2-545": 2,
+   "G1-305": 2,
+   "K-662": 1,
+   "G1-584": 1
+  },
+  "seeds": {
+   "K-451": 24,
+   "G1-106": 24,
+   "G1-449": 24,
+   "G1-566": 24,
+   "G2-210": 24,
+   "G3-302": 24,
+   "G3-314": 24,
+   "K-661": 24,
+   "G1-380": 24,
+   "G1-493": 24,
+   "G2-548": 24,
+   "G3-518": 24,
+   "G1-589": 24,
+   "G1-586": 24,
+   "K-028": 24,
+   "G1-439": 24,
+   "K-627": 24,
+   "G1-120": 24,
+   "G2-222": 24,
+   "G2-223": 24,
+   "G3-364": 24,
+   "G3-312": 24,
+   "G2-315": 24,
+   "G1-282": 24,
+   "G2-274": 24,
+   "K-378": 24,
+   "G1-585": 24,
+   "G2-531": 24,
+   "G1-350": 24,
+   "G1-260": 24,
+   "G2-545": 24,
+   "G1-305": 24,
+   "K-662": 24,
+   "G1-584": 24
+  },
+  "onlyText": {
+   "G3-491": "^\\s*(?:[25] × \\d+|\\d+ × [25]) ="
+  },
+  "kindOnly": {
+   "G1-350": "*",
+   "G1-584": "*"
+  },
+  "instruction": {
+   "G1-585": "Say the name of each picture. Circle the word that names it.",
+   "G2-531": "Say the name of each picture. Circle the word that names it.",
+   "G1-350": "Read each sentence. Circle the word that fits.",
+   "G1-260": "Listen to the word I say. Write it on the line.",
+   "G2-545": "Listen to the word I say. Write it on the line."
+  },
+  "keyNote": {
+   "G1-260": "Give the point when the word is spelled right.",
+   "G2-545": "Give the point when the word is spelled right."
+  },
+  "level": {
+   "G1-584": 3
+  }
  }
 }

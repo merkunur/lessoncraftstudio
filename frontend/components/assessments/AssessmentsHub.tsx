@@ -5,13 +5,14 @@
  * page's own strings (content/assessments/ui.<loc>.json). The page says what a unit check is and what it is not.
  * The same page for everyone: no cookie, no query. */
 import '@/components/units/units.css';
+import '@/components/assessments/assessments.css';
 import { baloo2, nunito } from '@/lib/fonts/direction-a';
 import { getTranslations } from 'next-intl/server';
 import { canonicalUrl, localePath } from '@/lib/seo/url';
 import { buildBreadcrumbSchema } from '@/lib/seo/breadcrumb-schema';
 import { getHreflangCode } from '@/lib/seo/hreflang';
 import BreadcrumbTrail from '@/components/breadcrumbs/BreadcrumbTrail';
-import { AssessmentUi, UnitCheck, checkFormHref } from '@/lib/assessments';
+import { AssessmentUi, UnitCheck, checkFormHref, listedPlacement, listedYearPages } from '@/lib/assessments';
 import { GRADE_ORDER, SUBJECT_ORDER, Unit, UnitPlan, fill, getUnitUi } from '@/lib/units';
 import { LEVEL_KEY } from '@/components/units/UnitsHub';
 
@@ -22,6 +23,10 @@ export default async function AssessmentsHub({ locale, ui, checks, units, plans 
     getTranslations({ locale, namespace: 'topicPage.breadcrumb' }),
     getUnitUi(locale),
   ]);
+  // (Stage C-2) the pages of the checks of the year: a grade and subject with at least one live check of the year
+  const yearPages = await listedYearPages(locale);
+  // (Stage C-3) the live placement checks
+  const placement = await listedPlacement(locale);
   const gradeLabel = (g: string) => (LEVEL_KEY[g] ? tLevel(LEVEL_KEY[g]) : g);
   const subjectLabel = (s: string) => unitUi?.[`subject_${s}`] || s;
   const url = canonicalUrl(localePath(locale, 'assessments'));
@@ -84,6 +89,28 @@ export default async function AssessmentsHub({ locale, ui, checks, units, plans 
             </ul>
           </nav>
         </header>
+
+        {yearPages.length ? (
+          <section className="un-hub-grade" id="checks-of-the-year" aria-labelledby="checks-of-the-year-title">
+            <h2 id="checks-of-the-year-title" className="un-hub-grade-title">{ui.yearHubTitle}</h2>
+            <p className="un-hub-lead">{ui.yearHubLead}</p>
+            <ul className="un-hub-year">
+              {yearPages.map((p) => (
+                <li key={p.slug}><a href={`/${locale}/assessments/${p.slug}`}>{fill(ui.yearHubLink, { grade: ui[`yearGrade_${p.grade}`], subject: ui[`yearSubject_${p.subject}`] })}</a></li>
+              ))}
+            </ul>
+          </section>
+        ) : null}
+
+        {placement.length ? (
+          <section className="un-hub-grade" id="placement-checks" aria-labelledby="placement-checks-title">
+            <h2 id="placement-checks-title" className="un-hub-grade-title">{ui.placeHubTitle}</h2>
+            <p className="un-hub-lead">{ui.placeHubLead}</p>
+            <ul className="un-hub-year">
+              {placement.map((c) => <li key={c.id}><a href={`/${locale}/assessments/placement/${c.slug}`}>{ui[`placeMetaTitle_${c.path}`]}</a></li>)}
+            </ul>
+          </section>
+        ) : null}
 
         {grades.map((g) => (
           <section key={g.grade} className="un-hub-grade" id={`grade-${g.grade.toLowerCase()}`} aria-labelledby={`grade-${g.grade.toLowerCase()}-title`}>

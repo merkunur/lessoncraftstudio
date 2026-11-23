@@ -347,6 +347,64 @@ const CHECK_PART_STORY = {
 /** the three panels a check retells where the page's own three (bme) hold two that look alike (review en.review-1119-read2:
  *  cat+bed and cat+pillow both read "Cat goes to sleep"): Dog plays with his ball, Dog runs out the door, Cat sleeps */
 const CHECK_RETELL = { 'cat-wants-a-nap': [1, 2, 3] };
+/** (fix round 2026-11-23, review of the checks of the year) THE CHECKS OF THE YEAR: the bank's five stories are the unit
+ *  check's (four) and a withdrawn one, so the end check of Kindergarten read Bear and the Bee and Duck's New Hat, and the
+ *  beginning check of Grade 1 read them again. A page built for the end check of Kindergarten (build-checks.js seeds it
+ *  "check|year-k-literacy-end|A…") reads instead a story set aside for it, one a form; the beginning check of Grade 1 keeps the
+ *  bank's. The stories follow the bank's own rules (storyKFaultsOf, checked when the factory loads), stand in no published
+ *  page (the bank is unchanged), and every other page of the factory is built exactly as before. */
+const YEAR_K_STORIES = [
+  { id: 'pig-and-the-kite', title: 'Pig and the Kite', hero: { name: 'Pig', picture: { theme: 'farm animals', noun: 'pig' } },
+    whoWrong: [{ theme: 'pets', noun: 'cat' }, { theme: 'farm animals', noun: 'duck' }],
+    place: { word: 'garden', picture: { theme: 'spring', noun: 'garden' }, wrong: [{ theme: 'camping', noun: 'lake' }, { theme: 'around the house', noun: 'bed' }] },
+    panels: [
+      { pics: [{ theme: 'farm animals', noun: 'pig' }, { theme: 'spring', noun: 'garden' }], text: 'Pig plays in the garden. The wind blows hard.' },
+      { pics: [{ theme: 'toys', noun: 'kite' }, { theme: 'tree', noun: 'oak' }], text: 'A kite is stuck in a tall tree.' },
+      { pics: [{ theme: 'farm animals', noun: 'horse' }, { theme: 'tree', noun: 'oak' }], text: 'Horse is tall. He pulls the kite down.' },
+      { pics: [{ theme: 'farm animals', noun: 'pig' }, { theme: 'toys', noun: 'kite' }], text: 'Pig and Horse fly the kite. Now Pig is happy.' },
+    ],
+    bme: [0, 2, 3], frames: ['the wind blows hard', 'Horse pulls the kite down', 'Pig and Horse fly the kite'],
+    labels: { who: 'Pig', where: 'garden', what: 'kite' },
+    easy: [
+      { q: 'Who plays in the garden?', right: { theme: 'farm animals', noun: 'pig' }, wrong: [{ theme: 'pets', noun: 'cat' }, { theme: 'farm animals', noun: 'duck' }] },
+      { q: 'Where does Pig play?', right: { theme: 'spring', noun: 'garden' }, wrong: [{ theme: 'camping', noun: 'lake' }, { theme: 'around the house', noun: 'bed' }] },
+      { q: 'Who pulls the kite down?', right: { theme: 'farm animals', noun: 'horse' }, wrong: [{ theme: 'farm animals', noun: 'cow' }, { theme: 'pets', noun: 'dog' }] },
+    ],
+    hard: [
+      { q: 'What is stuck in the tree?', right: { theme: 'toys', noun: 'kite' }, wrong: [{ theme: 'toys', noun: 'ball' }, { theme: 'accessories', noun: 'hat' }] },
+      { q: 'What is the kite stuck in?', right: { theme: 'tree', noun: 'oak' }, wrong: [{ theme: 'miscellaneous', noun: 'house' }, { theme: 'camping', noun: 'lake' }] },
+      { q: 'How does Pig feel at the end?', right: { theme: 'emotions', noun: 'happy' }, wrong: [{ theme: 'emotions', noun: 'sad' }, { theme: 'emotions', noun: 'angry' }] },
+    ] },
+  { id: 'hen-and-the-rain', title: 'Hen and the Rain', hero: { name: 'Hen', picture: { theme: 'farm animals', noun: 'hen' } },
+    whoWrong: [{ theme: 'pets', noun: 'dog' }, { theme: 'farm animals', noun: 'duck' }],
+    place: { word: 'lake', picture: { theme: 'camping', noun: 'lake' }, wrong: [{ theme: 'spring', noun: 'garden' }, { theme: 'miscellaneous', noun: 'house' }] },
+    panels: [
+      { pics: [{ theme: 'farm animals', noun: 'hen' }, { theme: 'camping', noun: 'lake' }], text: 'Hen walks to the lake. The sun is warm.' },
+      { pics: [{ theme: 'weather', noun: 'rainy' }, { theme: 'camping', noun: 'lake' }], text: 'Oh no! Rain falls on the lake.' },
+      { pics: [{ theme: 'forest creatures', noun: 'frog' }, { theme: 'accessories', noun: 'umbrella' }], text: 'Frog has a big umbrella. He holds it up high.' },
+      { pics: [{ theme: 'farm animals', noun: 'hen' }, { theme: 'forest creatures', noun: 'frog' }], text: 'Frog and Hen stay dry under it. Hen says thank you.' },
+    ],
+    bme: [0, 2, 3], frames: ['rain falls on the lake', 'Frog holds up his umbrella', 'Frog and Hen stay dry'],
+    labels: { who: 'Hen', where: 'lake', what: 'umbrella' },
+    easy: [
+      { q: 'Who walks to the lake?', right: { theme: 'farm animals', noun: 'hen' }, wrong: [{ theme: 'farm animals', noun: 'duck' }, { theme: 'pets', noun: 'cat' }] },
+      { q: 'Where does Hen walk?', right: { theme: 'camping', noun: 'lake' }, wrong: [{ theme: 'spring', noun: 'garden' }, { theme: 'miscellaneous', noun: 'house' }] },
+      { q: 'Who has an umbrella?', right: { theme: 'forest creatures', noun: 'frog' }, wrong: [{ theme: 'farm animals', noun: 'pig' }, { theme: 'pets', noun: 'dog' }] },
+    ],
+    hard: [
+      { q: 'What falls on the lake?', right: { theme: 'weather', noun: 'rainy' }, wrong: [{ theme: 'toys', noun: 'ball' }, { theme: 'spring', noun: 'leaf' }] },
+      { q: 'What does Frog hold up?', right: { theme: 'accessories', noun: 'umbrella' }, wrong: [{ theme: 'toys', noun: 'kite' }, { theme: 'accessories', noun: 'hat' }] },
+      { q: 'How does Hen feel at the end?', right: { theme: 'emotions', noun: 'happy' }, wrong: [{ theme: 'emotions', noun: 'sad' }, { theme: 'emotions', noun: 'angry' }] },
+    ] },
+];
+/** the story each form of a check of the year reads */
+const YEAR_K_CHECK = { 'year-k-literacy-end': { A: 'pig-and-the-kite', B: 'hen-and-the-rain' } };
+{
+  const all = STORIES.concat(YEAR_K_STORIES);
+  const f = YEAR_K_STORIES.flatMap((t) => storyKFaultsOf(t, all).concat(STORIES.some((x) => x.id === t.id || x.title === t.title) ? [t.id + ': a story of the bank'] : []));
+  for (const [id, forms] of Object.entries(YEAR_K_CHECK)) for (const k of ['A', 'B']) if (!YEAR_K_STORIES.some((t) => t.id === forms[k])) f.push(id + ' ' + k + ': no story ' + forms[k]);
+  if (f.length) throw new Error('story-k, the stories of the checks of the year: ' + f.join('; '));
+}
 /** the form a check page is built for: build-checks seeds its pages "check|<unit>|A…" or "…|B…"; none outside a check */
 const checkFormOf = (ctx) => { const m = /^check\|[^|]+\|([AB])\d*\|/.exec(String((ctx && ctx.rng && ctx.rng.seed) || '')); return m ? m[1] : null; };
 function storyKCheckPage(mode, { difficulty, locale }, ctx) {
@@ -363,7 +421,10 @@ function storyKCheckPage(mode, { difficulty, locale }, ctx) {
   // (review en.review-1119-read) the stories of a form: no story in both forms, so form B is no retelling of form A; inside
   // a form two parts may share a story. The Big Carrot is in no check. Outside a check (a probe) every other story.
   const form = checkFormOf(ctx);
-  const told = form ? CHECK_STORIES[form].map((id) => STORIES.find((x) => x.id === id)).filter(Boolean) : STORIES.filter((x) => !NO_CHECK_STORY.has(x.id));
+  // (fix round 2026-11-23) a page of a check of the year that has stories of its own (YEAR_K_CHECK): its form's story
+  const yk = /^check\|(year-[^|]+)\|([AB])/.exec(String((rng && rng.seed) || ''));
+  const yStory = yk && YEAR_K_CHECK[yk[1]] ? YEAR_K_STORIES.find((x) => x.id === YEAR_K_CHECK[yk[1]][yk[2]]) : null;
+  const told = yStory ? [yStory] : form ? CHECK_STORIES[form].map((id) => STORIES.find((x) => x.id === id)).filter(Boolean) : STORIES.filter((x) => !NO_CHECK_STORY.has(x.id));
   // a wrong picture is never a picture of a story read in the same form (form B offered the duck, the hero of the other
   // story read with it), and comes from the bank's own wrong animals and places
   const picsOf = (o) => [o.hero.picture, o.place.picture, ...o.panels.flatMap((p) => p.pics)].map(pk);
@@ -380,11 +441,11 @@ function storyKCheckPage(mode, { difficulty, locale }, ctx) {
   if (form) {
     // (review en.review-1119-read2) each part asks the story CHECK_PART_STORY names; a page of a check needs two cards, so a
     // part of one card (the retelling, the sentences) offers it twice in two orders with one text id: the check keeps the first
-    const P = CHECK_PART_STORY[form], t = STORIES.find((x) => x.id === P[mode]);
+    const P = CHECK_PART_STORY[form], t = yStory || STORIES.find((x) => x.id === P[mode]);
     const put = (right, wrong, where) => marked(picks(placed(right, shuffle(wrong, rng), where), where, key, LEVELS.who[1].opt));
     const cardAs = (id, reads, inner) => card(t, reads, inner).replace(`data-lcs-text="${att(t.id)}"`, `data-lcs-text="${att(id)}"`);
     // the number the retelling of this form gives each of its panels (1, 2, 3)
-    const frames = CHECK_RETELL[P.retell] || STORIES.find((x) => x.id === P.retell).bme;
+    const frames = yStory ? yStory.bme : CHECK_RETELL[P.retell] || STORIES.find((x) => x.id === P.retell).bme;
     if (mode === 'who') {
       const at = rng.int(0, 2), at2 = (at + 1 + rng.int(0, 1)) % 3;
       cards.push(cardAs(t.id + '|who', heard(t) + ' Who is the story about? Circle it.', put(t.hero.picture, wrongFor(t, t.hero.picture, animals), at)));

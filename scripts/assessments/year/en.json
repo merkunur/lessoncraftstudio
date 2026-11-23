@@ -1,0 +1,5832 @@
+{
+ "$comment": "The blueprint of the checks of the year (en). DRAFTED by scripts/assessments/year/draft.js from the plans (units.en.json) and the live unit checks (checks.en.json); read by scripts/assessments/build-checks.js --year. Do not edit `checks` by hand: a hand ruling goes in `rulings` (per check id: drop / add, each with a reason) and is applied on every draft.",
+ "locale": "en",
+ "rules": {
+  "end": "one part per unit: the part with the most tasks in its unit check (tie: the earlier part)",
+  "middle": "one part per unit whose last class day (lessons days||2, +3 per unit) is within the first half of the plan; topped up to 6 with second-best parts",
+  "beginning": "Grades 1-3: the previous grade's end list, at most 8 parts; Kindergarten: an entry check of K:numeral-formation, K:count-how-many, K:count-out-n, K:shape-naming, K:letter-identification, K:letter-case, K:beginning-sounds at level 1"
+ },
+ "checks": [
+  {
+   "id": "year-k-math-end",
+   "grade": "K",
+   "subject": "math",
+   "time": "end",
+   "slug": "kindergarten-math-beginning-middle-end-of-year",
+   "plan": "plan-k-math",
+   "parts": [
+    {
+     "unit": "k-position-size-patterns",
+     "lesson": "K:position-words",
+     "n": 1,
+     "title": "Position words",
+     "type": "K-064",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:scene-search",
+       "n": 2,
+       "title": "Find every one like it",
+       "type": "K-059"
+      },
+      {
+       "lesson": "K:compare-size-extremes",
+       "n": 3,
+       "title": "Biggest and tallest",
+       "type": "K-032"
+      },
+      {
+       "lesson": "K:order-by-size",
+       "n": 4,
+       "title": "Put them in order by size",
+       "type": "K-033"
+      },
+      {
+       "lesson": "K:patterns",
+       "n": 6,
+       "title": "What comes next?",
+       "type": "K-046"
+      }
+     ]
+    },
+    {
+     "unit": "k-counting-to-10",
+     "lesson": "K:compare-groups#which-number-is-greater",
+     "n": 12,
+     "title": "Which number is greater?",
+     "type": "K-606",
+     "rank": null,
+     "placed": "[Stage C-2, core skills, 2026-11-22] Comparing two numbers (K.CC.C.7) is a core skill of Kindergarten that no other part of the check asks. Writing the numerals is asked by the part on 11 to 20, counting objects by the tally part; the unit's own central lesson (writing 0 to 9) gives way.",
+     "alts": [
+      {
+       "lesson": "K:compare-groups",
+       "n": 10,
+       "title": "More and fewer",
+       "type": "K-008"
+      },
+      {
+       "lesson": "K:compare-groups#match-them-up",
+       "n": 9,
+       "title": "Match them up: more, fewer, or the same",
+       "type": "K-641"
+      }
+     ]
+    },
+    {
+     "unit": "k-shapes",
+     "lesson": "K:count-sides",
+     "n": 2,
+     "title": "Count the sides",
+     "type": "K-075",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:shape-naming",
+       "n": 1,
+       "title": "Name the shape",
+       "type": "K-368"
+      },
+      {
+       "lesson": "2:flat-or-solid",
+       "n": 3,
+       "title": "Flat or solid?",
+       "type": "G2-244"
+      },
+      {
+       "lesson": "2:solids-in-real-life#name-the-solid-shapes",
+       "n": 4,
+       "title": "Name the solid shapes",
+       "type": "K-644"
+      },
+      {
+       "lesson": "K:compose-shapes",
+       "n": 5,
+       "title": "Build shapes from pieces",
+       "type": "K-358"
+      }
+     ]
+    },
+    {
+     "unit": "k-counting-in-order-to-20",
+     "lesson": "K:numeral-formation#write-11-to-20",
+     "n": 1,
+     "title": "Write the numbers 11 to 20",
+     "type": "K-253",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:count-how-many#count-and-write-up-to-20",
+       "n": 2,
+       "title": "Count and write how many: up to 20",
+       "type": "K-640"
+      },
+      {
+       "lesson": "K:before-after-back",
+       "n": 5,
+       "title": "Before, after, and counting back",
+       "type": "K-021"
+      },
+      {
+       "lesson": "K:count-forward-missing",
+       "n": 3,
+       "title": "Fill in the missing numbers",
+       "type": "K-020"
+      },
+      {
+       "lesson": "K:count-on",
+       "n": 6,
+       "title": "Count on from a number",
+       "type": "K-444"
+      },
+      {
+       "lesson": "K:ordinal-position",
+       "n": 7,
+       "title": "First, second, third",
+       "type": "K-030"
+      }
+     ]
+    },
+    {
+     "unit": "k-sorting-tallies-days",
+     "lesson": "K:tally-marks",
+     "n": 2,
+     "title": "Tally marks",
+     "type": "K-014",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:classify-count-kinds",
+       "n": 1,
+       "title": "Count each kind",
+       "type": "K-013"
+      },
+      {
+       "lesson": "K:estimate",
+       "n": 3,
+       "title": "Take a good guess",
+       "type": "K-029"
+      }
+     ]
+    },
+    {
+     "unit": "k-adding-and-taking-away-within-10",
+     "lesson": "K:take-away",
+     "n": 2,
+     "title": "Take away: how many are left?",
+     "type": "K-451",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:combine-groups",
+       "n": 1,
+       "title": "How many altogether?",
+       "type": "K-028"
+      },
+      {
+       "lesson": "1:word-problems#adding-stories-within-10",
+       "n": 3,
+       "title": "Adding stories: some more come",
+       "type": "G1-238"
+      },
+      {
+       "lesson": "1:word-problems#take-away-stories-within-10",
+       "n": 4,
+       "title": "Take-away stories: some go away",
+       "type": "G1-239"
+      },
+      {
+       "lesson": "1:word-problems#two-kinds-together",
+       "n": 5,
+       "title": "Put-together stories: how many in all?",
+       "type": "K-643"
+      }
+     ]
+    },
+    {
+     "unit": "k-putting-together-number-bonds",
+     "lesson": "K:number-bonds-k",
+     "n": 1,
+     "title": "Number bonds to 5 and to 10",
+     "type": "K-273",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:number-bonds-k#take-apart-8-and-9",
+       "n": 3,
+       "title": "Take apart 8 and 9",
+       "type": "K-416"
+      },
+      {
+       "lesson": "1:make-10#how-many-more-to-make-10",
+       "n": 4,
+       "title": "How many more to make 10?",
+       "type": "G1-106"
+      },
+      {
+       "lesson": "K:number-bonds-k#partners-of-10",
+       "n": 5,
+       "title": "Partners of 10",
+       "type": "K-277"
+      },
+      {
+       "lesson": "K:fact-fluency-colour-code",
+       "n": 6,
+       "title": "Add and subtract to color",
+       "type": "K-268"
+      },
+      {
+       "lesson": "K:odd-even-pairing",
+       "n": 8,
+       "title": "Odd or even?",
+       "type": "K-016"
+      }
+     ]
+    },
+    {
+     "unit": "k-teen-numbers-and-counting-to-100",
+     "lesson": "K:teen-numbers#ten-and-how-many-more",
+     "n": 4,
+     "title": "Ten and how many more?",
+     "type": "K-634",
+     "rank": null,
+     "placed": "[Stage C-2, core skills, 2026-11-22] A teen number as ten ones and some more ones (K.NBT.A.1) is the core skill of this unit; without the ruling the part fell to counting to 50 (its teen-number pages were used up by the unit check).",
+     "alts": [
+      {
+       "lesson": "K:teen-numbers#ten-and-some-more",
+       "n": 1,
+       "title": "Ten and some more",
+       "type": "K-627"
+      },
+      {
+       "lesson": "K:teen-numbers",
+       "n": 2,
+       "title": "Teen numbers on two ten-frames",
+       "type": "K-448"
+      },
+      {
+       "lesson": "K:teen-numbers#build-and-draw-a-teen-number",
+       "n": 3,
+       "title": "Build and draw a teen number",
+       "type": "K-637"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "year-k-math-middle",
+   "grade": "K",
+   "subject": "math",
+   "time": "middle",
+   "slug": "kindergarten-math-beginning-middle-end-of-year",
+   "plan": "plan-k-math",
+   "parts": [
+    {
+     "unit": "k-position-size-patterns",
+     "lesson": "K:position-words",
+     "n": 1,
+     "title": "Position words",
+     "type": "K-064",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:compare-size-extremes",
+       "n": 3,
+       "title": "Biggest and tallest",
+       "type": "K-032"
+      },
+      {
+       "lesson": "K:order-by-size",
+       "n": 4,
+       "title": "Put them in order by size",
+       "type": "K-033"
+      },
+      {
+       "lesson": "K:patterns",
+       "n": 6,
+       "title": "What comes next?",
+       "type": "K-046"
+      }
+     ]
+    },
+    {
+     "unit": "k-position-size-patterns",
+     "lesson": "K:scene-search",
+     "n": 2,
+     "title": "Find every one like it",
+     "type": "K-059",
+     "rank": 2,
+     "alts": [
+      {
+       "lesson": "K:compare-size-extremes",
+       "n": 3,
+       "title": "Biggest and tallest",
+       "type": "K-032"
+      },
+      {
+       "lesson": "K:order-by-size",
+       "n": 4,
+       "title": "Put them in order by size",
+       "type": "K-033"
+      },
+      {
+       "lesson": "K:patterns",
+       "n": 6,
+       "title": "What comes next?",
+       "type": "K-046"
+      }
+     ]
+    },
+    {
+     "unit": "k-counting-to-10",
+     "lesson": "K:numeral-formation",
+     "n": 3,
+     "title": "Write the numbers 0 to 9",
+     "type": "K-237",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:subitize",
+       "n": 8,
+       "title": "How many? Look fast",
+       "type": "K-018"
+      },
+      {
+       "lesson": "K:compare-groups#match-them-up",
+       "n": 9,
+       "title": "Match them up: more, fewer, or the same",
+       "type": "K-641"
+      },
+      {
+       "lesson": "K:compare-groups#which-number-is-greater",
+       "n": 12,
+       "title": "Which number is greater?",
+       "type": "K-606"
+      },
+      {
+       "lesson": "K:count-out-n",
+       "n": 5,
+       "title": "Make a group of that many",
+       "type": "K-011"
+      },
+      {
+       "lesson": "K:conservation",
+       "n": 6,
+       "title": "Still the same number",
+       "type": "K-445"
+      },
+      {
+       "lesson": "K:compare-groups",
+       "n": 10,
+       "title": "More and fewer",
+       "type": "K-008"
+      },
+      {
+       "lesson": "K:one-more-one-less",
+       "n": 11,
+       "title": "One more, one less",
+       "type": "K-443"
+      }
+     ]
+    },
+    {
+     "unit": "k-counting-to-10",
+     "lesson": "K:count-how-many",
+     "n": 4,
+     "title": "Count and write how many",
+     "type": "K-006",
+     "rank": 2,
+     "alts": [
+      {
+       "lesson": "K:subitize",
+       "n": 8,
+       "title": "How many? Look fast",
+       "type": "K-018"
+      },
+      {
+       "lesson": "K:compare-groups#match-them-up",
+       "n": 9,
+       "title": "Match them up: more, fewer, or the same",
+       "type": "K-641"
+      },
+      {
+       "lesson": "K:compare-groups#which-number-is-greater",
+       "n": 12,
+       "title": "Which number is greater?",
+       "type": "K-606"
+      },
+      {
+       "lesson": "K:count-out-n",
+       "n": 5,
+       "title": "Make a group of that many",
+       "type": "K-011"
+      },
+      {
+       "lesson": "K:conservation",
+       "n": 6,
+       "title": "Still the same number",
+       "type": "K-445"
+      },
+      {
+       "lesson": "K:compare-groups",
+       "n": 10,
+       "title": "More and fewer",
+       "type": "K-008"
+      },
+      {
+       "lesson": "K:one-more-one-less",
+       "n": 11,
+       "title": "One more, one less",
+       "type": "K-443"
+      }
+     ]
+    },
+    {
+     "unit": "k-shapes",
+     "lesson": "K:shape-naming",
+     "n": 1,
+     "title": "Name the shape",
+     "type": "K-368",
+     "rank": 2,
+     "alts": [
+      {
+       "lesson": "2:flat-or-solid",
+       "n": 3,
+       "title": "Flat or solid?",
+       "type": "G2-244"
+      },
+      {
+       "lesson": "2:solids-in-real-life#name-the-solid-shapes",
+       "n": 4,
+       "title": "Name the solid shapes",
+       "type": "K-644"
+      },
+      {
+       "lesson": "K:compose-shapes",
+       "n": 5,
+       "title": "Build shapes from pieces",
+       "type": "K-358"
+      }
+     ]
+    },
+    {
+     "unit": "k-shapes",
+     "lesson": "K:count-sides",
+     "n": 2,
+     "title": "Count the sides",
+     "type": "K-075",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:flat-or-solid",
+       "n": 3,
+       "title": "Flat or solid?",
+       "type": "G2-244"
+      },
+      {
+       "lesson": "2:solids-in-real-life#name-the-solid-shapes",
+       "n": 4,
+       "title": "Name the solid shapes",
+       "type": "K-644"
+      },
+      {
+       "lesson": "K:compose-shapes",
+       "n": 5,
+       "title": "Build shapes from pieces",
+       "type": "K-358"
+      }
+     ]
+    }
+   ],
+   "taughtBy": {
+    "half": 69,
+    "of": 138,
+    "units": [
+     {
+      "unit": "k-position-size-patterns",
+      "lastDay": 15
+     },
+     {
+      "unit": "k-counting-to-10",
+      "lastDay": 42
+     },
+     {
+      "unit": "k-shapes",
+      "lastDay": 57
+     }
+    ]
+   }
+  },
+  {
+   "id": "year-k-math-beginning",
+   "grade": "K",
+   "subject": "math",
+   "time": "beginning",
+   "slug": "kindergarten-math-beginning-middle-end-of-year",
+   "plan": "plan-k-math",
+   "parts": [
+    {
+     "unit": "k-counting-to-10",
+     "lesson": "K:numeral-formation",
+     "n": 3,
+     "title": "Write the numbers 0 to 9",
+     "type": "K-237",
+     "rank": null,
+     "level": 1
+    },
+    {
+     "unit": "k-counting-to-10",
+     "lesson": "K:count-how-many",
+     "n": 4,
+     "title": "Count and write how many",
+     "type": "K-006",
+     "rank": null,
+     "level": 1
+    },
+    {
+     "unit": "k-counting-to-10",
+     "lesson": "K:count-out-n",
+     "n": 5,
+     "title": "Make a group of that many",
+     "type": "K-011",
+     "rank": null,
+     "level": 1
+    },
+    {
+     "unit": "k-shapes",
+     "lesson": "K:shape-naming",
+     "n": 1,
+     "title": "Name the shape",
+     "type": "K-368",
+     "rank": null,
+     "level": 1
+    }
+   ],
+   "from": "entry",
+   "firstWeeks": 10
+  },
+  {
+   "id": "year-k-literacy-end",
+   "grade": "K",
+   "subject": "literacy",
+   "time": "end",
+   "slug": "kindergarten-ela-beginning-middle-end-of-year",
+   "plan": "plan-k-literacy",
+   "parts": [
+    {
+     "unit": "k-letters-and-handwriting",
+     "lesson": "K:letter-identification",
+     "n": 2,
+     "title": "Find the letter",
+     "type": "K-229",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:letter-case",
+       "n": 3,
+       "title": "Uppercase and lowercase letters",
+       "type": "K-222"
+      },
+      {
+       "lesson": "K:letter-formation",
+       "n": 4,
+       "title": "Write the letters",
+       "type": "K-238"
+      },
+      {
+       "lesson": "K:alphabet-order",
+       "n": 5,
+       "title": "The alphabet in order",
+       "type": "K-223"
+      },
+      {
+       "lesson": "K:word-sentence-tracing",
+       "n": 6,
+       "title": "Trace and write words",
+       "type": "K-289"
+      }
+     ]
+    },
+    {
+     "unit": "k-how-books-and-print-work",
+     "lesson": "K:spoken-written-words",
+     "n": 3,
+     "title": "One spoken word, one written word",
+     "type": "K-669",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:spaces-between-words",
+       "n": 4,
+       "title": "Spaces between words: count the words",
+       "type": "K-671"
+      },
+      {
+       "lesson": "K:book-parts",
+       "n": 1,
+       "title": "Front cover, back cover, and title page",
+       "type": "K-665"
+      },
+      {
+       "lesson": "K:left-to-right",
+       "n": 2,
+       "title": "Read left to right, top to bottom",
+       "type": "K-667"
+      }
+     ]
+    },
+    {
+     "unit": "k-hearing-sounds-in-words",
+     "lesson": "K:sound-position",
+     "n": 5,
+     "title": "Ending sounds and middle sounds",
+     "type": "K-226",
+     "rank": null,
+     "placed": "[Stage C-2, core skills, 2026-11-22] By the end of Kindergarten the sounds of a word (RF.K.2.d) count more than its syllables: the part asks ending and middle sounds.",
+     "alts": [
+      {
+       "lesson": "K:segment-phonemes",
+       "n": 6,
+       "title": "Say it slowly: one sound, one box",
+       "type": "K-329"
+      },
+      {
+       "lesson": "K:cvc-build",
+       "n": 7,
+       "title": "Build the word",
+       "type": "K-231"
+      },
+      {
+       "lesson": "K:beginning-sounds",
+       "n": 4,
+       "title": "Beginning sounds",
+       "type": "K-221"
+      }
+     ]
+    },
+    {
+     "unit": "k-first-words-to-read",
+     "lesson": "K:sight-words-reading",
+     "n": 2,
+     "title": "Sight words",
+     "type": "K-389",
+     "rank": null,
+     "placed": "[Stage C-2, core skills, 2026-11-22] Reading the common sight words (RF.K.3.c) is asked nowhere else in the check; reading short-vowel words is asked by the short-vowel part.",
+     "alts": [
+      {
+       "lesson": "K:word-picture-match",
+       "n": 1,
+       "title": "Match words to pictures",
+       "type": "K-225"
+      }
+     ]
+    },
+    {
+     "unit": "k-short-vowels-and-cvc-words",
+     "lesson": "K:short-a-i",
+     "n": 1,
+     "title": "Short a and short i",
+     "type": "K-661",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:short-o-u-e",
+       "n": 2,
+       "title": "Short o, short u, and short e",
+       "type": "K-662"
+      },
+      {
+       "lesson": "K:words-one-letter-apart",
+       "n": 4,
+       "title": "Which word matches: cat or cot?",
+       "type": "K-664"
+      },
+      {
+       "lesson": "K:digraphs-k",
+       "n": 5,
+       "title": "sh and ch",
+       "type": "K-378"
+      }
+     ]
+    },
+    {
+     "unit": "k-sorting-words-telling-stories",
+     "lesson": "K:category-sort",
+     "n": 1,
+     "title": "Sort into groups",
+     "type": "K-042",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:opposites",
+       "n": 3,
+       "title": "Opposites",
+       "type": "K-351"
+      },
+      {
+       "lesson": "K:story-sequencing",
+       "n": 5,
+       "title": "First, next, last",
+       "type": "K-379"
+      }
+     ]
+    },
+    {
+     "unit": "k-reading-stories",
+     "lesson": "K:story-who-where",
+     "n": 1,
+     "title": "Who Is in the Story, and Where?",
+     "type": "K-650",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:story-questions",
+       "n": 3,
+       "title": "Ask and Answer Questions About a Story",
+       "type": "K-652"
+      },
+      {
+       "lesson": "K:compare-two-stories",
+       "n": 5,
+       "title": "Two stories, two adventures",
+       "type": "K-685"
+      },
+      {
+       "lesson": "K:retell-beginning-middle-end",
+       "n": 2,
+       "title": "Retell the Story: Beginning, Middle, End",
+       "type": "K-651"
+      },
+      {
+       "lesson": "K:pictures-and-words",
+       "n": 4,
+       "title": "The Pictures and the Words",
+       "type": "K-653"
+      }
+     ]
+    },
+    {
+     "unit": "k-words-and-sentences",
+     "lesson": "K:naming-and-action-words",
+     "n": 1,
+     "title": "Naming words and action words",
+     "type": "K-658",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:place-words",
+       "n": 2,
+       "title": "In, on top of, under, next to",
+       "type": "K-548"
+      },
+      {
+       "lesson": "K:capital-letter",
+       "n": 3,
+       "title": "A sentence starts with a capital letter",
+       "type": "K-660"
+      },
+      {
+       "lesson": "K:period-or-question-mark",
+       "n": 4,
+       "title": "A period or a question mark?",
+       "type": "K-656"
+      },
+      {
+       "lesson": "K:make-the-sentence-longer",
+       "n": 5,
+       "title": "Say more: make the sentence longer",
+       "type": "K-657"
+      }
+     ]
+    },
+    {
+     "unit": "k-reading-to-learn-fact-texts",
+     "lesson": "K:fact-text-key-details",
+     "n": 1,
+     "title": "Find the Facts",
+     "type": "K-645",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:fact-text-main-topic",
+       "n": 2,
+       "title": "What Is It All About?",
+       "type": "K-646"
+      },
+      {
+       "lesson": "K:first-then",
+       "n": 4,
+       "title": "First, Then",
+       "type": "K-648"
+      },
+      {
+       "lesson": "K:two-texts-one-topic",
+       "n": 5,
+       "title": "Two Texts, One Topic",
+       "type": "K-649"
+      },
+      {
+       "lesson": "K:pictures-and-text",
+       "n": 3,
+       "title": "Pictures That Teach",
+       "type": "K-647"
+      }
+     ]
+    },
+    {
+     "unit": "k-draw-and-write-opinions-facts-and-stories",
+     "lesson": "K:opinion-favorite-why",
+     "n": 1,
+     "title": "My favorite and why: an opinion",
+     "type": "K-673",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:authors-chair-add-detail",
+       "n": 4,
+       "title": "Author's chair: a friend asks, I add",
+       "type": "K-679"
+      },
+      {
+       "lesson": "K:fact-draw-label-write",
+       "n": 2,
+       "title": "Teach a fact: draw, label, and write",
+       "type": "K-675"
+      },
+      {
+       "lesson": "K:small-moment-draw-write",
+       "n": 3,
+       "title": "What happened to me: a small moment",
+       "type": "K-677"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "year-k-literacy-middle",
+   "grade": "K",
+   "subject": "literacy",
+   "time": "middle",
+   "slug": "kindergarten-ela-beginning-middle-end-of-year",
+   "plan": "plan-k-literacy",
+   "parts": [
+    {
+     "unit": "k-letters-and-handwriting",
+     "lesson": "K:letter-identification",
+     "n": 2,
+     "title": "Find the letter",
+     "type": "K-229",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:letter-formation",
+       "n": 4,
+       "title": "Write the letters",
+       "type": "K-238"
+      },
+      {
+       "lesson": "K:alphabet-order",
+       "n": 5,
+       "title": "The alphabet in order",
+       "type": "K-223"
+      },
+      {
+       "lesson": "K:word-sentence-tracing",
+       "n": 6,
+       "title": "Trace and write words",
+       "type": "K-289"
+      }
+     ]
+    },
+    {
+     "unit": "k-letters-and-handwriting",
+     "lesson": "K:letter-case",
+     "n": 3,
+     "title": "Uppercase and lowercase letters",
+     "type": "K-222",
+     "rank": 2,
+     "alts": [
+      {
+       "lesson": "K:letter-formation",
+       "n": 4,
+       "title": "Write the letters",
+       "type": "K-238"
+      },
+      {
+       "lesson": "K:alphabet-order",
+       "n": 5,
+       "title": "The alphabet in order",
+       "type": "K-223"
+      },
+      {
+       "lesson": "K:word-sentence-tracing",
+       "n": 6,
+       "title": "Trace and write words",
+       "type": "K-289"
+      }
+     ]
+    },
+    {
+     "unit": "k-how-books-and-print-work",
+     "lesson": "K:spoken-written-words",
+     "n": 3,
+     "title": "One spoken word, one written word",
+     "type": "K-669",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:book-parts",
+       "n": 1,
+       "title": "Front cover, back cover, and title page",
+       "type": "K-665"
+      },
+      {
+       "lesson": "K:left-to-right",
+       "n": 2,
+       "title": "Read left to right, top to bottom",
+       "type": "K-667"
+      }
+     ]
+    },
+    {
+     "unit": "k-how-books-and-print-work",
+     "lesson": "K:spaces-between-words",
+     "n": 4,
+     "title": "Spaces between words: count the words",
+     "type": "K-671",
+     "rank": 2,
+     "alts": [
+      {
+       "lesson": "K:book-parts",
+       "n": 1,
+       "title": "Front cover, back cover, and title page",
+       "type": "K-665"
+      },
+      {
+       "lesson": "K:left-to-right",
+       "n": 2,
+       "title": "Read left to right, top to bottom",
+       "type": "K-667"
+      }
+     ]
+    },
+    {
+     "unit": "k-hearing-sounds-in-words",
+     "lesson": "K:count-syllables",
+     "n": 2,
+     "title": "Clap the syllables",
+     "type": "K-233",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:beginning-sounds",
+       "n": 4,
+       "title": "Beginning sounds",
+       "type": "K-221"
+      },
+      {
+       "lesson": "K:sound-position",
+       "n": 5,
+       "title": "Ending sounds and middle sounds",
+       "type": "K-226"
+      },
+      {
+       "lesson": "K:cvc-build",
+       "n": 7,
+       "title": "Build the word",
+       "type": "K-231"
+      },
+      {
+       "lesson": "K:segment-phonemes",
+       "n": 6,
+       "title": "Say it slowly: one sound, one box",
+       "type": "K-329"
+      }
+     ]
+    },
+    {
+     "unit": "k-first-words-to-read",
+     "lesson": "K:word-picture-match",
+     "n": 1,
+     "title": "Match words to pictures",
+     "type": "K-225",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:sight-words-reading",
+       "n": 2,
+       "title": "Sight words",
+       "type": "K-389"
+      },
+      {
+       "lesson": "K:articles",
+       "n": 5,
+       "title": "A or an?",
+       "type": "K-288"
+      },
+      {
+       "lesson": "K:singular-plural",
+       "n": 4,
+       "title": "One and many",
+       "type": "K-302"
+      }
+     ]
+    }
+   ],
+   "taughtBy": {
+    "half": 67,
+    "of": 134,
+    "units": [
+     {
+      "unit": "k-letters-and-handwriting",
+      "lastDay": 17
+     },
+     {
+      "unit": "k-how-books-and-print-work",
+      "lastDay": 28
+     },
+     {
+      "unit": "k-hearing-sounds-in-words",
+      "lastDay": 45
+     },
+     {
+      "unit": "k-first-words-to-read",
+      "lastDay": 58
+     }
+    ]
+   }
+  },
+  {
+   "id": "year-k-literacy-beginning",
+   "grade": "K",
+   "subject": "literacy",
+   "time": "beginning",
+   "slug": "kindergarten-ela-beginning-middle-end-of-year",
+   "plan": "plan-k-literacy",
+   "parts": [
+    {
+     "unit": "k-letters-and-handwriting",
+     "lesson": "K:letter-identification",
+     "n": 2,
+     "title": "Find the letter",
+     "type": "K-229",
+     "rank": null,
+     "level": 1
+    },
+    {
+     "unit": "k-letters-and-handwriting",
+     "lesson": "K:letter-case",
+     "n": 3,
+     "title": "Uppercase and lowercase letters",
+     "type": "K-222",
+     "rank": null,
+     "level": 1
+    },
+    {
+     "unit": "k-hearing-sounds-in-words",
+     "lesson": "K:beginning-sounds",
+     "n": 4,
+     "title": "Beginning sounds",
+     "type": "K-221",
+     "rank": null,
+     "level": 1
+    }
+   ],
+   "from": "entry",
+   "firstWeeks": 10
+  },
+  {
+   "id": "year-1-math-end",
+   "grade": "1",
+   "subject": "math",
+   "time": "end",
+   "slug": "grade-1-math-beginning-middle-end-of-year",
+   "plan": "plan-1-math",
+   "parts": [
+    {
+     "unit": "g1-add-subtract-within-10",
+     "lesson": "1:add-within-10-models",
+     "n": 1,
+     "title": "Add two groups",
+     "type": "G1-101",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:fact-families",
+       "n": 5,
+       "title": "Fact families to 10",
+       "type": "G1-219"
+      },
+      {
+       "lesson": "1:missing-number-equations",
+       "n": 6,
+       "title": "Find the missing number",
+       "type": "G1-218"
+      },
+      {
+       "lesson": "1:fluency-within-20",
+       "n": 7,
+       "title": "Fact fluency within 10",
+       "type": "G1-214"
+      },
+      {
+       "lesson": "1:subtract-cross-out",
+       "n": 2,
+       "title": "Take away: how many are left?",
+       "type": "G1-103"
+      },
+      {
+       "lesson": "1:make-10",
+       "n": 3,
+       "title": "Partners that make 10",
+       "type": "G1-106"
+      },
+      {
+       "lesson": "1:count-on-back-hops",
+       "n": 4,
+       "title": "Count on and count back on a number line",
+       "type": "G1-116"
+      }
+     ]
+    },
+    {
+     "unit": "g1-doubles-three-addends-number-walls",
+     "lesson": "1:doubles-halves",
+     "n": 1,
+     "title": "Doubles and halves",
+     "type": "G1-287",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:near-doubles",
+       "n": 2,
+       "title": "Near doubles",
+       "type": "G1-449"
+      },
+      {
+       "lesson": "1:odd-even-pairs",
+       "n": 6,
+       "title": "Odd and even numbers",
+       "type": "G1-370"
+      },
+      {
+       "lesson": "1:number-walls",
+       "n": 8,
+       "title": "Addition pyramids (number walls)",
+       "type": "G1-266"
+      },
+      {
+       "lesson": "1:fluency-within-20#make-ten-to-add",
+       "n": 3,
+       "title": "Make ten to add",
+       "type": "G1-439"
+      },
+      {
+       "lesson": "1:fact-families#think-addition-to-subtract",
+       "n": 4,
+       "title": "Think addition to subtract",
+       "type": "G1-566"
+      },
+      {
+       "lesson": "1:add-three-addends",
+       "n": 7,
+       "title": "Add three groups",
+       "type": "G1-112"
+      }
+     ]
+    },
+    {
+     "unit": "g1-story-problems-within-20",
+     "lesson": "1:word-problems#find-the-missing-part",
+     "n": 2,
+     "title": "Find the missing part",
+     "type": "G1-567",
+     "rank": null,
+     "placed": "[fix round 2026-11-23, review of the checks of the year] The end check of Grade 1 asked story problems within 10, all pictured (4 + 4 apples): the end of the year asks the unit's story problems within 20 (1.OA.A.1): the missing part, then how many more, what happened in the middle, three numbers.",
+     "alts": [
+      {
+       "lesson": "1:word-problems#how-many-more-how-many-fewer",
+       "n": 4,
+       "title": "How many more? How many fewer?",
+       "type": "G1-511"
+      },
+      {
+       "lesson": "1:word-problems#what-happened-in-the-middle",
+       "n": 3,
+       "title": "What happened in the middle?",
+       "type": "G1-568"
+      },
+      {
+       "lesson": "1:add-three-addends#stories-with-three-numbers",
+       "n": 5,
+       "title": "Stories with three numbers",
+       "type": "G1-570"
+      }
+     ]
+    },
+    {
+     "unit": "g1-tens-and-ones",
+     "lesson": "1:tens-and-ones",
+     "n": 3,
+     "title": "Tens and ones",
+     "type": "G1-120",
+     "rank": null,
+     "placed": "[Stage C-2, core skills, 2026-11-22] Tens and ones (1.NBT.B.2) is the core skill of the unit; number words to 20 asked none of it.",
+     "alts": [
+      {
+       "lesson": "1:tens-and-ones#teen-numbers-one-ten-and-some-ones",
+       "n": 1,
+       "title": "Teen numbers: one ten and some ones",
+       "type": "G1-564"
+      },
+      {
+       "lesson": "1:tens-and-ones#count-the-tens",
+       "n": 2,
+       "title": "Count the tens: 10 to 90",
+       "type": "G1-563"
+      }
+     ]
+    },
+    {
+     "unit": "g1-tens-and-ones",
+     "lesson": "1:compare-order-two-digit",
+     "n": 5,
+     "title": "Compare and order two-digit numbers",
+     "type": "G1-137",
+     "rank": null,
+     "ruled": "[Stage C-2, second look, 2026-11-23] Comparing two-digit numbers (1.NBT.B.3) is a core skill of Grade 1: a second part of the unit Tens and Ones, beside tens and ones."
+    },
+    {
+     "unit": "g1-hundreds-chart-skip-counting",
+     "lesson": "1:skip-counting",
+     "n": 4,
+     "title": "Count by tens, fives, and twos",
+     "type": "G1-123",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:one-ten-more-less",
+       "n": 3,
+       "title": "1 more, 1 less, 10 more, 10 less",
+       "type": "G1-131"
+      },
+      {
+       "lesson": "1:number-line-placement",
+       "n": 1,
+       "title": "Find a number on the number line",
+       "type": "G1-275"
+      },
+      {
+       "lesson": "1:hundreds-chart",
+       "n": 2,
+       "title": "The hundreds chart",
+       "type": "G1-129"
+      }
+     ]
+    },
+    {
+     "unit": "g1-adding-within-100",
+     "lesson": "1:mental-math-to-100",
+     "n": 1,
+     "title": "Add tens to a number",
+     "type": "G1-558",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:mental-math-to-100#add-ones-to-a-two-digit-number",
+       "n": 3,
+       "title": "Add ones to a two-digit number",
+       "type": "G1-559"
+      },
+      {
+       "lesson": "2:add-with-blocks#add-two-two-digit-numbers-and-make-a-new-ten",
+       "n": 6,
+       "title": "Add two two-digit numbers and make a new ten",
+       "type": "G1-573"
+      },
+      {
+       "lesson": "1:mental-math-to-100#subtract-tens-from-tens",
+       "n": 2,
+       "title": "Subtract tens from tens",
+       "type": "G1-565"
+      },
+      {
+       "lesson": "2:add-with-blocks#add-two-two-digit-numbers",
+       "n": 5,
+       "title": "Add two two-digit numbers: tens with tens, ones with ones",
+       "type": "G2-203"
+      }
+     ]
+    },
+    {
+     "unit": "g1-time-calendar-coins",
+     "lesson": "1:time-set-hands",
+     "n": 2,
+     "title": "Draw the clock hands",
+     "type": "G1-233",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:coins",
+       "n": 6,
+       "title": "Count coins",
+       "type": "G1-228"
+      },
+      {
+       "lesson": "1:time-read#match-the-clocks",
+       "n": 3,
+       "title": "Match the clocks",
+       "type": "G1-150"
+      },
+      {
+       "lesson": "1:days-months-seasons",
+       "n": 4,
+       "title": "Yesterday, today, tomorrow, and the months",
+       "type": "G1-319"
+      },
+      {
+       "lesson": "1:ordinal-numbers",
+       "n": 5,
+       "title": "Ordinal numbers to tenth",
+       "type": "G1-315"
+      }
+     ]
+    },
+    {
+     "unit": "g1-shapes-measuring-graphs",
+     "lesson": "1:measure-length-units#no-gaps-no-overlaps",
+     "n": 4,
+     "title": "No gaps, no overlaps",
+     "type": "G1-574",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:sort-three-groups",
+       "n": 5,
+       "title": "Sort into three groups",
+       "type": "G1-160"
+      },
+      {
+       "lesson": "1:shape-attributes",
+       "n": 1,
+       "title": "What makes a shape that shape?",
+       "type": "G1-381"
+      },
+      {
+       "lesson": "1:measure-length-units",
+       "n": 3,
+       "title": "Measure length with squares",
+       "type": "G1-139"
+      },
+      {
+       "lesson": "1:picture-graphs-sort-count",
+       "n": 6,
+       "title": "Sort, count, and read a picture graph",
+       "type": "G1-141"
+      },
+      {
+       "lesson": "1:bar-graphs",
+       "n": 7,
+       "title": "Read and make a bar graph",
+       "type": "G1-143"
+      },
+      {
+       "lesson": "1:patterns-missing",
+       "n": 8,
+       "title": "Patterns: two are missing",
+       "type": "G1-155"
+      },
+      {
+       "lesson": "2:equal-shares-shapes#equal-shares-halves-and-fourths",
+       "n": 9,
+       "title": "Equal shares: fair or not?",
+       "type": "G2-232"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "year-1-math-middle",
+   "grade": "1",
+   "subject": "math",
+   "time": "middle",
+   "slug": "grade-1-math-beginning-middle-end-of-year",
+   "plan": "plan-1-math",
+   "parts": [
+    {
+     "unit": "g1-add-subtract-within-10",
+     "lesson": "1:add-within-10-models",
+     "n": 1,
+     "title": "Add two groups",
+     "type": "G1-101",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:missing-number-equations",
+       "n": 6,
+       "title": "Find the missing number",
+       "type": "G1-218"
+      },
+      {
+       "lesson": "1:fluency-within-20",
+       "n": 7,
+       "title": "Fact fluency within 10",
+       "type": "G1-214"
+      },
+      {
+       "lesson": "1:subtract-cross-out",
+       "n": 2,
+       "title": "Take away: how many are left?",
+       "type": "G1-103"
+      },
+      {
+       "lesson": "1:make-10",
+       "n": 3,
+       "title": "Partners that make 10",
+       "type": "G1-106"
+      },
+      {
+       "lesson": "1:count-on-back-hops",
+       "n": 4,
+       "title": "Count on and count back on a number line",
+       "type": "G1-116"
+      }
+     ]
+    },
+    {
+     "unit": "g1-add-subtract-within-10",
+     "lesson": "1:fact-families",
+     "n": 5,
+     "title": "Fact families to 10",
+     "type": "G1-219",
+     "rank": 2,
+     "alts": [
+      {
+       "lesson": "1:missing-number-equations",
+       "n": 6,
+       "title": "Find the missing number",
+       "type": "G1-218"
+      },
+      {
+       "lesson": "1:fluency-within-20",
+       "n": 7,
+       "title": "Fact fluency within 10",
+       "type": "G1-214"
+      },
+      {
+       "lesson": "1:subtract-cross-out",
+       "n": 2,
+       "title": "Take away: how many are left?",
+       "type": "G1-103"
+      },
+      {
+       "lesson": "1:make-10",
+       "n": 3,
+       "title": "Partners that make 10",
+       "type": "G1-106"
+      },
+      {
+       "lesson": "1:count-on-back-hops",
+       "n": 4,
+       "title": "Count on and count back on a number line",
+       "type": "G1-116"
+      }
+     ]
+    },
+    {
+     "unit": "g1-doubles-three-addends-number-walls",
+     "lesson": "1:doubles-halves",
+     "n": 1,
+     "title": "Doubles and halves",
+     "type": "G1-287",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:odd-even-pairs",
+       "n": 6,
+       "title": "Odd and even numbers",
+       "type": "G1-370"
+      },
+      {
+       "lesson": "1:number-walls",
+       "n": 8,
+       "title": "Addition pyramids (number walls)",
+       "type": "G1-266"
+      },
+      {
+       "lesson": "1:fluency-within-20#make-ten-to-add",
+       "n": 3,
+       "title": "Make ten to add",
+       "type": "G1-439"
+      },
+      {
+       "lesson": "1:fact-families#think-addition-to-subtract",
+       "n": 4,
+       "title": "Think addition to subtract",
+       "type": "G1-566"
+      },
+      {
+       "lesson": "1:add-three-addends",
+       "n": 7,
+       "title": "Add three groups",
+       "type": "G1-112"
+      }
+     ]
+    },
+    {
+     "unit": "g1-doubles-three-addends-number-walls",
+     "lesson": "1:near-doubles",
+     "n": 2,
+     "title": "Near doubles",
+     "type": "G1-449",
+     "rank": 2,
+     "alts": [
+      {
+       "lesson": "1:odd-even-pairs",
+       "n": 6,
+       "title": "Odd and even numbers",
+       "type": "G1-370"
+      },
+      {
+       "lesson": "1:number-walls",
+       "n": 8,
+       "title": "Addition pyramids (number walls)",
+       "type": "G1-266"
+      },
+      {
+       "lesson": "1:fluency-within-20#make-ten-to-add",
+       "n": 3,
+       "title": "Make ten to add",
+       "type": "G1-439"
+      },
+      {
+       "lesson": "1:fact-families#think-addition-to-subtract",
+       "n": 4,
+       "title": "Think addition to subtract",
+       "type": "G1-566"
+      },
+      {
+       "lesson": "1:add-three-addends",
+       "n": 7,
+       "title": "Add three groups",
+       "type": "G1-112"
+      }
+     ]
+    },
+    {
+     "unit": "g1-story-problems-within-20",
+     "lesson": "1:word-problems",
+     "n": 1,
+     "title": "Word problems within 10",
+     "type": "G1-240",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:word-problems#find-the-missing-part",
+       "n": 2,
+       "title": "Find the missing part",
+       "type": "G1-567"
+      },
+      {
+       "lesson": "1:word-problems#what-happened-in-the-middle",
+       "n": 3,
+       "title": "What happened in the middle?",
+       "type": "G1-568"
+      },
+      {
+       "lesson": "1:word-problems#how-many-more-how-many-fewer",
+       "n": 4,
+       "title": "How many more? How many fewer?",
+       "type": "G1-511"
+      },
+      {
+       "lesson": "1:add-three-addends#stories-with-three-numbers",
+       "n": 5,
+       "title": "Stories with three numbers",
+       "type": "G1-570"
+      }
+     ]
+    },
+    {
+     "unit": "g1-tens-and-ones",
+     "lesson": "1:number-words",
+     "n": 4,
+     "title": "Number words",
+     "type": "G1-223",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:compare-order-two-digit",
+       "n": 5,
+       "title": "Compare and order two-digit numbers",
+       "type": "G1-137"
+      },
+      {
+       "lesson": "1:tens-and-ones#teen-numbers-one-ten-and-some-ones",
+       "n": 1,
+       "title": "Teen numbers: one ten and some ones",
+       "type": "G1-564"
+      },
+      {
+       "lesson": "1:tens-and-ones#count-the-tens",
+       "n": 2,
+       "title": "Count the tens: 10 to 90",
+       "type": "G1-563"
+      },
+      {
+       "lesson": "1:tens-and-ones",
+       "n": 3,
+       "title": "Tens and ones",
+       "type": "G1-120"
+      },
+      {
+       "lesson": "1:number-of-the-day",
+       "n": 6,
+       "title": "Number of the day",
+       "type": "G1-243"
+      }
+     ]
+    }
+   ],
+   "taughtBy": {
+    "half": 75,
+    "of": 150,
+    "units": [
+     {
+      "unit": "g1-add-subtract-within-10",
+      "lastDay": 20
+     },
+     {
+      "unit": "g1-doubles-three-addends-number-walls",
+      "lastDay": 43
+     },
+     {
+      "unit": "g1-story-problems-within-20",
+      "lastDay": 58
+     },
+     {
+      "unit": "g1-tens-and-ones",
+      "lastDay": 74
+     }
+    ]
+   }
+  },
+  {
+   "id": "year-1-math-beginning",
+   "grade": "1",
+   "subject": "math",
+   "time": "beginning",
+   "slug": "grade-1-math-beginning-middle-end-of-year",
+   "plan": "plan-1-math",
+   "parts": [
+    {
+     "unit": "k-position-size-patterns",
+     "lesson": "K:position-words",
+     "n": 1,
+     "title": "Position words",
+     "type": "K-064",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:scene-search",
+       "n": 2,
+       "title": "Find every one like it",
+       "type": "K-059"
+      },
+      {
+       "lesson": "K:compare-size-extremes",
+       "n": 3,
+       "title": "Biggest and tallest",
+       "type": "K-032"
+      },
+      {
+       "lesson": "K:order-by-size",
+       "n": 4,
+       "title": "Put them in order by size",
+       "type": "K-033"
+      },
+      {
+       "lesson": "K:patterns",
+       "n": 6,
+       "title": "What comes next?",
+       "type": "K-046"
+      }
+     ]
+    },
+    {
+     "unit": "k-counting-to-10",
+     "lesson": "K:compare-groups#which-number-is-greater",
+     "n": 12,
+     "title": "Which number is greater?",
+     "type": "K-606",
+     "rank": null,
+     "placed": "[Stage C-2, core skills, 2026-11-22] Comparing two numbers (K.CC.C.7) is a core skill of Kindergarten that no other part of the check asks. Writing the numerals is asked by the part on 11 to 20, counting objects by the tally part; the unit's own central lesson (writing 0 to 9) gives way. (The beginning of the next grade asks this end list: the same lesson.)",
+     "alts": [
+      {
+       "lesson": "K:compare-groups",
+       "n": 10,
+       "title": "More and fewer",
+       "type": "K-008"
+      },
+      {
+       "lesson": "K:compare-groups#match-them-up",
+       "n": 9,
+       "title": "Match them up: more, fewer, or the same",
+       "type": "K-641"
+      }
+     ]
+    },
+    {
+     "unit": "k-shapes",
+     "lesson": "K:count-sides",
+     "n": 2,
+     "title": "Count the sides",
+     "type": "K-075",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:shape-naming",
+       "n": 1,
+       "title": "Name the shape",
+       "type": "K-368"
+      },
+      {
+       "lesson": "2:flat-or-solid",
+       "n": 3,
+       "title": "Flat or solid?",
+       "type": "G2-244"
+      },
+      {
+       "lesson": "2:solids-in-real-life#name-the-solid-shapes",
+       "n": 4,
+       "title": "Name the solid shapes",
+       "type": "K-644"
+      },
+      {
+       "lesson": "K:compose-shapes",
+       "n": 5,
+       "title": "Build shapes from pieces",
+       "type": "K-358"
+      }
+     ]
+    },
+    {
+     "unit": "k-counting-in-order-to-20",
+     "lesson": "K:numeral-formation#write-11-to-20",
+     "n": 1,
+     "title": "Write the numbers 11 to 20",
+     "type": "K-253",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:count-how-many#count-and-write-up-to-20",
+       "n": 2,
+       "title": "Count and write how many: up to 20",
+       "type": "K-640"
+      },
+      {
+       "lesson": "K:before-after-back",
+       "n": 5,
+       "title": "Before, after, and counting back",
+       "type": "K-021"
+      },
+      {
+       "lesson": "K:count-forward-missing",
+       "n": 3,
+       "title": "Fill in the missing numbers",
+       "type": "K-020"
+      },
+      {
+       "lesson": "K:count-on",
+       "n": 6,
+       "title": "Count on from a number",
+       "type": "K-444"
+      },
+      {
+       "lesson": "K:ordinal-position",
+       "n": 7,
+       "title": "First, second, third",
+       "type": "K-030"
+      }
+     ]
+    },
+    {
+     "unit": "k-sorting-tallies-days",
+     "lesson": "K:tally-marks",
+     "n": 2,
+     "title": "Tally marks",
+     "type": "K-014",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:classify-count-kinds",
+       "n": 1,
+       "title": "Count each kind",
+       "type": "K-013"
+      },
+      {
+       "lesson": "K:estimate",
+       "n": 3,
+       "title": "Take a good guess",
+       "type": "K-029"
+      }
+     ]
+    },
+    {
+     "unit": "k-adding-and-taking-away-within-10",
+     "lesson": "K:take-away",
+     "n": 2,
+     "title": "Take away: how many are left?",
+     "type": "K-451",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:combine-groups",
+       "n": 1,
+       "title": "How many altogether?",
+       "type": "K-028"
+      },
+      {
+       "lesson": "1:word-problems#adding-stories-within-10",
+       "n": 3,
+       "title": "Adding stories: some more come",
+       "type": "G1-238"
+      },
+      {
+       "lesson": "1:word-problems#take-away-stories-within-10",
+       "n": 4,
+       "title": "Take-away stories: some go away",
+       "type": "G1-239"
+      },
+      {
+       "lesson": "1:word-problems#two-kinds-together",
+       "n": 5,
+       "title": "Put-together stories: how many in all?",
+       "type": "K-643"
+      }
+     ]
+    },
+    {
+     "unit": "k-putting-together-number-bonds",
+     "lesson": "K:number-bonds-k",
+     "n": 1,
+     "title": "Number bonds to 5 and to 10",
+     "type": "K-273",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:number-bonds-k#take-apart-8-and-9",
+       "n": 3,
+       "title": "Take apart 8 and 9",
+       "type": "K-416"
+      },
+      {
+       "lesson": "1:make-10#how-many-more-to-make-10",
+       "n": 4,
+       "title": "How many more to make 10?",
+       "type": "G1-106"
+      },
+      {
+       "lesson": "K:number-bonds-k#partners-of-10",
+       "n": 5,
+       "title": "Partners of 10",
+       "type": "K-277"
+      },
+      {
+       "lesson": "K:fact-fluency-colour-code",
+       "n": 6,
+       "title": "Add and subtract to color",
+       "type": "K-268"
+      },
+      {
+       "lesson": "K:odd-even-pairing",
+       "n": 8,
+       "title": "Odd or even?",
+       "type": "K-016"
+      }
+     ]
+    },
+    {
+     "unit": "k-teen-numbers-and-counting-to-100",
+     "lesson": "K:teen-numbers#ten-and-how-many-more",
+     "n": 4,
+     "title": "Ten and how many more?",
+     "type": "K-634",
+     "rank": null,
+     "placed": "[Stage C-2, core skills, 2026-11-22] A teen number as ten ones and some more ones (K.NBT.A.1) is the core skill of this unit; without the ruling the part fell to counting to 50 (its teen-number pages were used up by the unit check). (The beginning of the next grade asks this end list: the same lessons.)",
+     "alts": [
+      {
+       "lesson": "K:teen-numbers#ten-and-some-more",
+       "n": 1,
+       "title": "Ten and some more",
+       "type": "K-627"
+      },
+      {
+       "lesson": "K:teen-numbers",
+       "n": 2,
+       "title": "Teen numbers on two ten-frames",
+       "type": "K-448"
+      },
+      {
+       "lesson": "K:teen-numbers#build-and-draw-a-teen-number",
+       "n": 3,
+       "title": "Build and draw a teen number",
+       "type": "K-637"
+      }
+     ]
+    }
+   ],
+   "from": "end-of-K"
+  },
+  {
+   "id": "year-1-literacy-end",
+   "grade": "1",
+   "subject": "literacy",
+   "time": "end",
+   "slug": "grade-1-ela-beginning-middle-end-of-year",
+   "plan": "plan-1-literacy",
+   "parts": [
+    {
+     "unit": "g1-sounds-spelling-syllables",
+     "lesson": "1:word-families-syllable-reading",
+     "n": 4,
+     "title": "Word families",
+     "type": "G1-330",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:phoneme-boxes",
+       "n": 2,
+       "title": "Sound boxes",
+       "type": "G1-312"
+      },
+      {
+       "lesson": "1:spell-picture-words",
+       "n": 5,
+       "title": "Spell the picture word",
+       "type": "G1-260"
+      }
+     ]
+    },
+    {
+     "unit": "g1-digraphs-and-blends",
+     "lesson": "1:digraphs",
+     "n": 1,
+     "title": "sh, ch, and th",
+     "type": "G1-380",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:ck-ng-wh",
+       "n": 2,
+       "title": "ck, ng, and wh",
+       "type": "G1-589"
+      },
+      {
+       "lesson": "1:blends-start",
+       "n": 3,
+       "title": "Blends at the start: st, fl, tr",
+       "type": "G1-493"
+      },
+      {
+       "lesson": "1:blends-end",
+       "n": 4,
+       "title": "Blends at the end: nd, mp, st, and nk",
+       "type": "G1-591"
+      }
+     ]
+    },
+    {
+     "unit": "g1-reading-sentences-and-stories",
+     "lesson": "1:cloze",
+     "n": 2,
+     "title": "Fill in the missing word",
+     "type": "G1-350",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:unscramble-sentence",
+       "n": 3,
+       "title": "Unscramble the sentence",
+       "type": "G1-282"
+      },
+      {
+       "lesson": "1:question-words",
+       "n": 4,
+       "title": "Who, what, where",
+       "type": "G1-353"
+      },
+      {
+       "lesson": "1:story-sequencing",
+       "n": 5,
+       "title": "What happens next?",
+       "type": "G1-400"
+      }
+     ]
+    },
+    {
+     "unit": "g1-reading-stories-characters-and-lessons",
+     "lesson": "1:story-key-details",
+     "n": 1,
+     "title": "Find the Answer in the Story",
+     "type": "G1-579",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:characters-setting-events",
+       "n": 2,
+       "title": "Characters, Setting, and Big Events",
+       "type": "G1-580"
+      },
+      {
+       "lesson": "1:retell-and-lesson",
+       "n": 3,
+       "title": "Retell the Story and Tell Its Lesson",
+       "type": "G1-581"
+      },
+      {
+       "lesson": "1:feeling-and-sense-words",
+       "n": 4,
+       "title": "Words That Show Feelings and Senses",
+       "type": "G1-582"
+      },
+      {
+       "lesson": "1:who-tells-the-story",
+       "n": 5,
+       "title": "Who Is Telling the Story?",
+       "type": "G1-583"
+      }
+     ]
+    },
+    {
+     "unit": "g1-long-vowels-silent-e-and-vowel-teams",
+     "lesson": "1:silent-e",
+     "n": 1,
+     "title": "Silent e Changes the Vowel",
+     "type": "G1-584",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:long-or-short-vowel",
+       "n": 2,
+       "title": "Long or short vowel?",
+       "type": "G1-495"
+      },
+      {
+       "lesson": "1:long-a-ai-ay",
+       "n": 3,
+       "title": "Long a: ai and ay",
+       "type": "G1-585"
+      },
+      {
+       "lesson": "1:long-e-ee-ea",
+       "n": 4,
+       "title": "Long e: ee and ea",
+       "type": "G1-586"
+      },
+      {
+       "lesson": "1:long-o-oa-ow",
+       "n": 5,
+       "title": "Long o: oa and ow",
+       "type": "G1-587"
+      }
+     ]
+    },
+    {
+     "unit": "g1-words-and-how-they-work",
+     "lesson": "1:articles",
+     "n": 4,
+     "title": "A or an: sort the words",
+     "type": "G1-292",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:alphabetical-order",
+       "n": 1,
+       "title": "ABC order",
+       "type": "G1-262"
+      },
+      {
+       "lesson": "1:word-classes",
+       "n": 2,
+       "title": "Nouns, verbs, and adjectives",
+       "type": "G1-293"
+      },
+      {
+       "lesson": "1:pronouns",
+       "n": 3,
+       "title": "He, she, it, they",
+       "type": "G1-352"
+      }
+     ]
+    },
+    {
+     "unit": "g1-writing-stories-opinions-and-facts",
+     "lesson": "1:revise-and-edit-checklist",
+     "n": 4,
+     "title": "Revise and edit with a checklist",
+     "type": "G1-622",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:opinion-and-reason",
+       "n": 2,
+       "title": "My opinion and a reason",
+       "type": "G1-618"
+      },
+      {
+       "lesson": "1:true-story-plan-and-draft",
+       "n": 1,
+       "title": "Write a true story: plan and draft",
+       "type": "G1-616"
+      },
+      {
+       "lesson": "1:all-about-a-topic",
+       "n": 3,
+       "title": "All about a topic: facts and a closing",
+       "type": "G1-620"
+      }
+     ]
+    },
+    {
+     "unit": "g1-word-meanings-and-word-parts",
+     "lesson": "1:opposites",
+     "n": 1,
+     "title": "Write the opposite",
+     "type": "G1-337",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:synonyms",
+       "n": 2,
+       "title": "Two words that mean the same thing",
+       "type": "G1-395"
+      },
+      {
+       "lesson": "1:shades-of-meaning",
+       "n": 3,
+       "title": "From a little to a lot",
+       "type": "G1-396"
+      },
+      {
+       "lesson": "1:root-words",
+       "n": 5,
+       "title": "Find the root word",
+       "type": "G1-397"
+      }
+     ]
+    },
+    {
+     "unit": "g1-reading-to-learn-informational-texts",
+     "lesson": "1:info-text-key-details",
+     "n": 1,
+     "title": "Facts in the text",
+     "type": "G1-575",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:main-topic-key-details",
+       "n": 2,
+       "title": "The main topic and key details",
+       "type": "G1-576"
+      },
+      {
+       "lesson": "1:text-features",
+       "n": 3,
+       "title": "Text features: titles, headings, bold words, pictures, captions, and a glossary",
+       "type": "G1-577"
+      }
+     ]
+    },
+    {
+     "unit": "g1-two-syllable-words",
+     "lesson": "1:syllable-vowel",
+     "n": 1,
+     "title": "Every syllable has a vowel",
+     "type": "G1-600",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:compound-and-two-part-words",
+       "n": 2,
+       "title": "Compound words and two-part words",
+       "type": "G1-602"
+      },
+      {
+       "lesson": "1:syllables-split",
+       "n": 3,
+       "title": "Syllables",
+       "type": "G1-305"
+      },
+      {
+       "lesson": "1:tricky-words-said-was-of-could",
+       "n": 4,
+       "title": "Tricky words: said, was, of, could",
+       "type": "G1-603"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "year-1-literacy-middle",
+   "grade": "1",
+   "subject": "literacy",
+   "time": "middle",
+   "slug": "grade-1-ela-beginning-middle-end-of-year",
+   "plan": "plan-1-literacy",
+   "parts": [
+    {
+     "unit": "g1-sounds-spelling-syllables",
+     "lesson": "1:phoneme-boxes",
+     "n": 2,
+     "title": "Sound boxes",
+     "type": "G1-312",
+     "rank": 2,
+     "alts": [
+      {
+       "lesson": "1:spell-picture-words",
+       "n": 5,
+       "title": "Spell the picture word",
+       "type": "G1-260"
+      }
+     ]
+    },
+    {
+     "unit": "g1-sounds-spelling-syllables",
+     "lesson": "1:word-families-syllable-reading",
+     "n": 4,
+     "title": "Word families",
+     "type": "G1-330",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:spell-picture-words",
+       "n": 5,
+       "title": "Spell the picture word",
+       "type": "G1-260"
+      }
+     ]
+    },
+    {
+     "unit": "g1-digraphs-and-blends",
+     "lesson": "1:digraphs",
+     "n": 1,
+     "title": "sh, ch, and th",
+     "type": "G1-380",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:blends-start",
+       "n": 3,
+       "title": "Blends at the start: st, fl, tr",
+       "type": "G1-493"
+      },
+      {
+       "lesson": "1:blends-end",
+       "n": 4,
+       "title": "Blends at the end: nd, mp, st, and nk",
+       "type": "G1-591"
+      }
+     ]
+    },
+    {
+     "unit": "g1-digraphs-and-blends",
+     "lesson": "1:ck-ng-wh",
+     "n": 2,
+     "title": "ck, ng, and wh",
+     "type": "G1-589",
+     "rank": 2,
+     "alts": [
+      {
+       "lesson": "1:blends-start",
+       "n": 3,
+       "title": "Blends at the start: st, fl, tr",
+       "type": "G1-493"
+      },
+      {
+       "lesson": "1:blends-end",
+       "n": 4,
+       "title": "Blends at the end: nd, mp, st, and nk",
+       "type": "G1-591"
+      }
+     ]
+    },
+    {
+     "unit": "g1-reading-sentences-and-stories",
+     "lesson": "1:cloze",
+     "n": 2,
+     "title": "Fill in the missing word",
+     "type": "G1-350",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:question-words",
+       "n": 4,
+       "title": "Who, what, where",
+       "type": "G1-353"
+      },
+      {
+       "lesson": "1:story-sequencing",
+       "n": 5,
+       "title": "What happens next?",
+       "type": "G1-400"
+      }
+     ]
+    },
+    {
+     "unit": "g1-reading-sentences-and-stories",
+     "lesson": "1:unscramble-sentence",
+     "n": 3,
+     "title": "Unscramble the sentence",
+     "type": "G1-282",
+     "rank": null,
+     "ruled": "[second fix round 2026-11-23] The middle check of Grade 1 kept five parts (word families could not be cut once the related checks keep apart): a second part of Reading Sentences and Stories, taught by the middle of the year (it ends on class day 42 of 135), unscramble the sentence (RF.1.1.a, L.1.1.j)."
+    },
+    {
+     "unit": "g1-reading-stories-characters-and-lessons",
+     "lesson": "1:story-key-details",
+     "n": 1,
+     "title": "Find the Answer in the Story",
+     "type": "G1-579",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:characters-setting-events",
+       "n": 2,
+       "title": "Characters, Setting, and Big Events",
+       "type": "G1-580"
+      },
+      {
+       "lesson": "1:retell-and-lesson",
+       "n": 3,
+       "title": "Retell the Story and Tell Its Lesson",
+       "type": "G1-581"
+      },
+      {
+       "lesson": "1:feeling-and-sense-words",
+       "n": 4,
+       "title": "Words That Show Feelings and Senses",
+       "type": "G1-582"
+      },
+      {
+       "lesson": "1:who-tells-the-story",
+       "n": 5,
+       "title": "Who Is Telling the Story?",
+       "type": "G1-583"
+      }
+     ]
+    }
+   ],
+   "taughtBy": {
+    "half": 67.5,
+    "of": 135,
+    "units": [
+     {
+      "unit": "g1-sounds-spelling-syllables",
+      "lastDay": 16
+     },
+     {
+      "unit": "g1-digraphs-and-blends",
+      "lastDay": 28
+     },
+     {
+      "unit": "g1-reading-sentences-and-stories",
+      "lastDay": 42
+     },
+     {
+      "unit": "g1-reading-stories-characters-and-lessons",
+      "lastDay": 55
+     }
+    ]
+   }
+  },
+  {
+   "id": "year-1-literacy-beginning",
+   "grade": "1",
+   "subject": "literacy",
+   "time": "beginning",
+   "slug": "grade-1-ela-beginning-middle-end-of-year",
+   "plan": "plan-1-literacy",
+   "parts": [
+    {
+     "unit": "k-letters-and-handwriting",
+     "lesson": "K:letter-identification",
+     "n": 2,
+     "title": "Find the letter",
+     "type": "K-229",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:letter-case",
+       "n": 3,
+       "title": "Uppercase and lowercase letters",
+       "type": "K-222"
+      },
+      {
+       "lesson": "K:letter-formation",
+       "n": 4,
+       "title": "Write the letters",
+       "type": "K-238"
+      },
+      {
+       "lesson": "K:alphabet-order",
+       "n": 5,
+       "title": "The alphabet in order",
+       "type": "K-223"
+      },
+      {
+       "lesson": "K:word-sentence-tracing",
+       "n": 6,
+       "title": "Trace and write words",
+       "type": "K-289"
+      }
+     ]
+    },
+    {
+     "unit": "k-how-books-and-print-work",
+     "lesson": "K:spoken-written-words",
+     "n": 3,
+     "title": "One spoken word, one written word",
+     "type": "K-669",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:spaces-between-words",
+       "n": 4,
+       "title": "Spaces between words: count the words",
+       "type": "K-671"
+      },
+      {
+       "lesson": "K:book-parts",
+       "n": 1,
+       "title": "Front cover, back cover, and title page",
+       "type": "K-665"
+      },
+      {
+       "lesson": "K:left-to-right",
+       "n": 2,
+       "title": "Read left to right, top to bottom",
+       "type": "K-667"
+      }
+     ]
+    },
+    {
+     "unit": "k-hearing-sounds-in-words",
+     "lesson": "K:sound-position",
+     "n": 5,
+     "title": "Ending sounds and middle sounds",
+     "type": "K-226",
+     "rank": null,
+     "placed": "[Stage C-2, core skills, 2026-11-22] By the end of Kindergarten the sounds of a word (RF.K.2.d) count more than its syllables: the part asks ending and middle sounds. (The beginning of the next grade asks this end list: the same lessons.)",
+     "alts": [
+      {
+       "lesson": "K:segment-phonemes",
+       "n": 6,
+       "title": "Say it slowly: one sound, one box",
+       "type": "K-329"
+      },
+      {
+       "lesson": "K:cvc-build",
+       "n": 7,
+       "title": "Build the word",
+       "type": "K-231"
+      },
+      {
+       "lesson": "K:beginning-sounds",
+       "n": 4,
+       "title": "Beginning sounds",
+       "type": "K-221"
+      }
+     ]
+    },
+    {
+     "unit": "k-first-words-to-read",
+     "lesson": "K:sight-words-reading",
+     "n": 2,
+     "title": "Sight words",
+     "type": "K-389",
+     "rank": null,
+     "placed": "[Stage C-2, core skills, 2026-11-22] Reading the common sight words (RF.K.3.c) is asked nowhere else in the check; reading short-vowel words is asked by the short-vowel part. (The beginning of the next grade asks this end list: the same lessons.)",
+     "alts": [
+      {
+       "lesson": "K:word-picture-match",
+       "n": 1,
+       "title": "Match words to pictures",
+       "type": "K-225"
+      }
+     ]
+    },
+    {
+     "unit": "k-short-vowels-and-cvc-words",
+     "lesson": "K:short-a-i",
+     "n": 1,
+     "title": "Short a and short i",
+     "type": "K-661",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:short-o-u-e",
+       "n": 2,
+       "title": "Short o, short u, and short e",
+       "type": "K-662"
+      },
+      {
+       "lesson": "K:words-one-letter-apart",
+       "n": 4,
+       "title": "Which word matches: cat or cot?",
+       "type": "K-664"
+      },
+      {
+       "lesson": "K:digraphs-k",
+       "n": 5,
+       "title": "sh and ch",
+       "type": "K-378"
+      }
+     ]
+    },
+    {
+     "unit": "k-sorting-words-telling-stories",
+     "lesson": "K:category-sort",
+     "n": 1,
+     "title": "Sort into groups",
+     "type": "K-042",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:opposites",
+       "n": 3,
+       "title": "Opposites",
+       "type": "K-351"
+      },
+      {
+       "lesson": "K:story-sequencing",
+       "n": 5,
+       "title": "First, next, last",
+       "type": "K-379"
+      }
+     ]
+    },
+    {
+     "unit": "k-reading-stories",
+     "lesson": "K:story-who-where",
+     "n": 1,
+     "title": "Who Is in the Story, and Where?",
+     "type": "K-650",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:story-questions",
+       "n": 3,
+       "title": "Ask and Answer Questions About a Story",
+       "type": "K-652"
+      },
+      {
+       "lesson": "K:compare-two-stories",
+       "n": 5,
+       "title": "Two stories, two adventures",
+       "type": "K-685"
+      },
+      {
+       "lesson": "K:retell-beginning-middle-end",
+       "n": 2,
+       "title": "Retell the Story: Beginning, Middle, End",
+       "type": "K-651"
+      },
+      {
+       "lesson": "K:pictures-and-words",
+       "n": 4,
+       "title": "The Pictures and the Words",
+       "type": "K-653"
+      }
+     ]
+    },
+    {
+     "unit": "k-words-and-sentences",
+     "lesson": "K:naming-and-action-words",
+     "n": 1,
+     "title": "Naming words and action words",
+     "type": "K-658",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "K:place-words",
+       "n": 2,
+       "title": "In, on top of, under, next to",
+       "type": "K-548"
+      },
+      {
+       "lesson": "K:capital-letter",
+       "n": 3,
+       "title": "A sentence starts with a capital letter",
+       "type": "K-660"
+      },
+      {
+       "lesson": "K:period-or-question-mark",
+       "n": 4,
+       "title": "A period or a question mark?",
+       "type": "K-656"
+      },
+      {
+       "lesson": "K:make-the-sentence-longer",
+       "n": 5,
+       "title": "Say more: make the sentence longer",
+       "type": "K-657"
+      }
+     ]
+    }
+   ],
+   "from": "end-of-K",
+   "cut": [
+    {
+     "unit": "k-reading-to-learn-fact-texts",
+     "lesson": "K:fact-text-key-details",
+     "reason": "a check of the beginning has at most 8 parts (plan C-2); the units taught last in Grade K go first"
+    },
+    {
+     "unit": "k-draw-and-write-opinions-facts-and-stories",
+     "lesson": "K:opinion-favorite-why",
+     "reason": "a check of the beginning has at most 8 parts (plan C-2); the units taught last in Grade K go first"
+    }
+   ]
+  },
+  {
+   "id": "year-2-math-end",
+   "grade": "2",
+   "subject": "math",
+   "time": "end",
+   "slug": "grade-2-math-beginning-middle-end-of-year",
+   "plan": "plan-2-math",
+   "parts": [
+    {
+     "unit": "g2-fact-strategies-within-20",
+     "lesson": "1:near-doubles#doubles-and-near-doubles",
+     "n": 2,
+     "title": "Doubles and near doubles",
+     "type": "G1-449",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:fact-families#think-addition-and-daily-facts",
+       "n": 4,
+       "title": "Think addition to subtract, and start the daily facts",
+       "type": "G1-566"
+      },
+      {
+       "lesson": "1:fluency-within-20#make-ten-sums-11-to-18",
+       "n": 1,
+       "title": "Make ten to add: sums from 11 to 18",
+       "type": "G1-439"
+      },
+      {
+       "lesson": "1:fluency-within-20#use-ten-to-subtract",
+       "n": 3,
+       "title": "Use ten to subtract",
+       "type": "G1-556"
+      }
+     ]
+    },
+    {
+     "unit": "g2-place-value-to-1000",
+     "lesson": "2:compare-order-3-digit",
+     "n": 7,
+     "title": "Compare and order three-digit numbers",
+     "type": "G2-219",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:hundred-more-less",
+       "n": 8,
+       "title": "100 more, 100 less",
+       "type": "G2-226"
+      },
+      {
+       "lesson": "2:bundle-ten-ones#ten-tens-make-one-hundred",
+       "n": 2,
+       "title": "Ten tens make one hundred",
+       "type": "G2-404"
+      },
+      {
+       "lesson": "2:read-build-3-digit",
+       "n": 4,
+       "title": "Hundreds, tens, and ones",
+       "type": "G2-222"
+      },
+      {
+       "lesson": "2:expanded-form-digit-value",
+       "n": 5,
+       "title": "Expanded form and the value of a digit",
+       "type": "G2-223"
+      }
+     ]
+    },
+    {
+     "unit": "g2-adding-and-subtracting-within-100",
+     "lesson": "2:subtract-with-blocks#subtract-and-open-a-ten",
+     "n": 5,
+     "title": "Subtract and open a ten",
+     "type": "G2-513",
+     "rank": null,
+     "placed": "[fix round 2026-11-23, review of the checks of the year] The column worksheet of the unit (G2-255, G2-256) never regroups (16 + 51, 69 − 37, 86 − 82): the end of Grade 2 adds and subtracts within 100 WITH regrouping (2.NBT.B.5). The part asks subtraction that opens a ten (57 − 28 on the tens-and-ones mat); its alternates add three or four two-digit numbers with a new ten, or jump on an open number line. Addition with regrouping is also asked by the part of Adding and Subtracting Within 1,000 (3-digit addition with carrying).",
+     "alts": [
+      {
+       "lesson": "2:column-method#add-three-and-four-two-digit-numbers",
+       "n": 8,
+       "title": "Add three and four two-digit numbers",
+       "type": "G2-514"
+      },
+      {
+       "lesson": "1:open-number-line",
+       "n": 3,
+       "title": "Jumps on an open number line",
+       "type": "G1-438"
+      }
+     ]
+    },
+    {
+     "unit": "g2-story-problems-within-100",
+     "lesson": "2:two-step-word-problems#one-step-stories-with-a-bar-model",
+     "n": 1,
+     "title": "One-step stories with a bar model",
+     "type": "G2-509",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:two-step-word-problems#what-was-there-at-the-start",
+       "n": 2,
+       "title": "What was there at the start?",
+       "type": "G2-510"
+      },
+      {
+       "lesson": "2:two-step-word-problems#compare-stories-more-and-fewer",
+       "n": 3,
+       "title": "Compare stories: more and fewer",
+       "type": "G2-512"
+      },
+      {
+       "lesson": "2:two-step-word-problems#two-step-stories",
+       "n": 4,
+       "title": "Two-step stories",
+       "type": "G2-511"
+      }
+     ]
+    },
+    {
+     "unit": "g2-add-subtract-within-1000",
+     "lesson": "3:column-regrouping#add-three-digit-numbers",
+     "n": 2,
+     "title": "Add three-digit numbers and make a new ten or hundred",
+     "type": "G3-361",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:column-method#subtract-three-digit-numbers",
+       "n": 4,
+       "title": "Subtract three-digit numbers with regrouping",
+       "type": "G2-502"
+      },
+      {
+       "lesson": "3:column-regrouping#subtract-across-a-zero",
+       "n": 5,
+       "title": "Subtract across zeros",
+       "type": "G3-362"
+      }
+     ]
+    },
+    {
+     "unit": "g2-measurement-time-money",
+     "lesson": "1:measure-length-units#same-length-two-units",
+     "n": 2,
+     "title": "Same length, two units",
+     "type": "G2-517",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:time-5-min-quarter",
+       "n": 6,
+       "title": "Tell time to the nearest five minutes",
+       "type": "G2-249"
+      },
+      {
+       "lesson": "1:coins#count-mixed-coins",
+       "n": 8,
+       "title": "Count mixed coins",
+       "type": "G1-229"
+      },
+      {
+       "lesson": "2:shopping-money",
+       "n": 9,
+       "title": "Shopping with money",
+       "type": "G2-291"
+      },
+      {
+       "lesson": "2:measure-with-ruler",
+       "n": 1,
+       "title": "Measure with a ruler",
+       "type": "G2-235"
+      },
+      {
+       "lesson": "2:compare-lengths",
+       "n": 4,
+       "title": "How much longer?",
+       "type": "G2-236"
+      },
+      {
+       "lesson": "2:compare-lengths#length-story-problems",
+       "n": 5,
+       "title": "Length story problems",
+       "type": "G2-518"
+      }
+     ]
+    },
+    {
+     "unit": "g2-graphs-and-grids",
+     "lesson": "2:bar-graphs",
+     "n": 1,
+     "title": "From tally marks to a bar graph",
+     "type": "G2-239",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:bar-graphs#make-a-graph-from-counts",
+       "n": 2,
+       "title": "Make a graph from counts",
+       "type": "G1-147"
+      },
+      {
+       "lesson": "2:grid-coordinates",
+       "n": 3,
+       "title": "Find a square on a grid",
+       "type": "G2-279"
+      },
+      {
+       "lesson": "2:line-plots",
+       "n": 4,
+       "title": "Read a line plot",
+       "type": "G2-240"
+      },
+      {
+       "lesson": "2:line-plots#measure-and-make-a-line-plot",
+       "n": 5,
+       "title": "Measure and make a line plot",
+       "type": "G2-516"
+      },
+      {
+       "lesson": "2:scaled-pictograph",
+       "n": 6,
+       "title": "Each picture counts as two",
+       "type": "G2-238"
+      }
+     ]
+    },
+    {
+     "unit": "g2-equal-groups-equal-shares",
+     "lesson": "2:odd-even",
+     "n": 1,
+     "title": "Odd and even with equal parts",
+     "type": "G2-351",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:equal-shares-shapes",
+       "n": 7,
+       "title": "Halves, thirds, and fourths",
+       "type": "G2-232"
+      },
+      {
+       "lesson": "2:fraction-of-a-set",
+       "n": 8,
+       "title": "A fraction of a group",
+       "type": "G2-233"
+      }
+     ]
+    },
+    {
+     "unit": "g2-equal-groups-equal-shares",
+     "lesson": "2:equal-groups-times",
+     "n": 2,
+     "title": "Equal groups",
+     "type": "G2-210",
+     "rank": null,
+     "ruled": "[Stage C-2, second look, 2026-11-23] Equal groups and arrays (2.OA.C.4) are a core skill of Grade 2: a second part of the unit Equal Groups, Equal Shares, beside halves, thirds, and fourths."
+    },
+    {
+     "unit": "g2-shapes-solids-symmetry",
+     "lesson": "2:3d-faces-edges-vertices",
+     "n": 3,
+     "title": "Faces, edges, and vertices (corners)",
+     "type": "G2-242",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:symmetry-line",
+       "n": 4,
+       "title": "Is it a line of symmetry?",
+       "type": "G2-247"
+      },
+      {
+       "lesson": "2:symmetry-complete",
+       "n": 5,
+       "title": "Finish the other half",
+       "type": "G2-264"
+      },
+      {
+       "lesson": "2:2d-attributes",
+       "n": 1,
+       "title": "Sort shapes by sides",
+       "type": "G2-241"
+      },
+      {
+       "lesson": "2:tangram-orientation",
+       "n": 6,
+       "title": "Which one matches the shadow?",
+       "type": "G2-347"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "year-2-math-middle",
+   "grade": "2",
+   "subject": "math",
+   "time": "middle",
+   "slug": "grade-2-math-beginning-middle-end-of-year",
+   "plan": "plan-2-math",
+   "parts": [
+    {
+     "unit": "g2-fact-strategies-within-20",
+     "lesson": "1:near-doubles#doubles-and-near-doubles",
+     "n": 2,
+     "title": "Doubles and near doubles",
+     "type": "G1-449",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:fluency-within-20#make-ten-sums-11-to-18",
+       "n": 1,
+       "title": "Make ten to add: sums from 11 to 18",
+       "type": "G1-439"
+      },
+      {
+       "lesson": "1:fluency-within-20#use-ten-to-subtract",
+       "n": 3,
+       "title": "Use ten to subtract",
+       "type": "G1-556"
+      }
+     ]
+    },
+    {
+     "unit": "g2-fact-strategies-within-20",
+     "lesson": "1:fact-families#think-addition-and-daily-facts",
+     "n": 4,
+     "title": "Think addition to subtract, and start the daily facts",
+     "type": "G1-566",
+     "rank": 2,
+     "alts": [
+      {
+       "lesson": "1:fluency-within-20#make-ten-sums-11-to-18",
+       "n": 1,
+       "title": "Make ten to add: sums from 11 to 18",
+       "type": "G1-439"
+      },
+      {
+       "lesson": "1:fluency-within-20#use-ten-to-subtract",
+       "n": 3,
+       "title": "Use ten to subtract",
+       "type": "G1-556"
+      }
+     ]
+    },
+    {
+     "unit": "g2-place-value-to-1000",
+     "lesson": "2:compare-order-3-digit",
+     "n": 7,
+     "title": "Compare and order three-digit numbers",
+     "type": "G2-219",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:hundred-more-less",
+       "n": 8,
+       "title": "100 more, 100 less",
+       "type": "G2-226"
+      },
+      {
+       "lesson": "2:bundle-ten-ones#ten-tens-make-one-hundred",
+       "n": 2,
+       "title": "Ten tens make one hundred",
+       "type": "G2-404"
+      },
+      {
+       "lesson": "2:read-build-3-digit",
+       "n": 4,
+       "title": "Hundreds, tens, and ones",
+       "type": "G2-222"
+      },
+      {
+       "lesson": "2:expanded-form-digit-value",
+       "n": 5,
+       "title": "Expanded form and the value of a digit",
+       "type": "G2-223"
+      }
+     ]
+    },
+    {
+     "unit": "g2-adding-and-subtracting-within-100",
+     "lesson": "2:column-method#add-three-and-four-two-digit-numbers",
+     "n": 8,
+     "title": "Add three and four two-digit numbers",
+     "type": "G2-514",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:hundreds-chart-moves",
+       "n": 2,
+       "title": "Jumps on the hundreds chart",
+       "type": "G2-321"
+      },
+      {
+       "lesson": "2:column-method",
+       "n": 6,
+       "title": "Add and subtract vertically",
+       "type": "G2-255"
+      },
+      {
+       "lesson": "2:number-line-not-from-zero",
+       "n": 1,
+       "title": "A number line that does not start at zero",
+       "type": "G2-305"
+      },
+      {
+       "lesson": "1:open-number-line",
+       "n": 3,
+       "title": "Jumps on an open number line",
+       "type": "G1-438"
+      },
+      {
+       "lesson": "2:subtract-with-blocks#subtract-and-open-a-ten",
+       "n": 5,
+       "title": "Subtract and open a ten",
+       "type": "G2-513"
+      }
+     ]
+    },
+    {
+     "unit": "g2-story-problems-within-100",
+     "lesson": "2:two-step-word-problems#one-step-stories-with-a-bar-model",
+     "n": 1,
+     "title": "One-step stories with a bar model",
+     "type": "G2-509",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:two-step-word-problems#what-was-there-at-the-start",
+       "n": 2,
+       "title": "What was there at the start?",
+       "type": "G2-510"
+      },
+      {
+       "lesson": "2:two-step-word-problems#compare-stories-more-and-fewer",
+       "n": 3,
+       "title": "Compare stories: more and fewer",
+       "type": "G2-512"
+      },
+      {
+       "lesson": "2:two-step-word-problems#two-step-stories",
+       "n": 4,
+       "title": "Two-step stories",
+       "type": "G2-511"
+      }
+     ]
+    },
+    {
+     "unit": "g2-add-subtract-within-1000",
+     "lesson": "3:column-regrouping#add-three-digit-numbers",
+     "n": 2,
+     "title": "Add three-digit numbers and make a new ten or hundred",
+     "type": "G3-361",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:column-method#subtract-three-digit-numbers",
+       "n": 4,
+       "title": "Subtract three-digit numbers with regrouping",
+       "type": "G2-502"
+      },
+      {
+       "lesson": "3:column-regrouping#subtract-across-a-zero",
+       "n": 5,
+       "title": "Subtract across zeros",
+       "type": "G3-362"
+      }
+     ]
+    }
+   ],
+   "taughtBy": {
+    "half": 85,
+    "of": 170,
+    "units": [
+     {
+      "unit": "g2-fact-strategies-within-20",
+      "lastDay": 12
+     },
+     {
+      "unit": "g2-place-value-to-1000",
+      "lastDay": 34
+     },
+     {
+      "unit": "g2-adding-and-subtracting-within-100",
+      "lastDay": 59
+     },
+     {
+      "unit": "g2-story-problems-within-100",
+      "lastDay": 70
+     },
+     {
+      "unit": "g2-add-subtract-within-1000",
+      "lastDay": 85
+     }
+    ]
+   }
+  },
+  {
+   "id": "year-2-math-beginning",
+   "grade": "2",
+   "subject": "math",
+   "time": "beginning",
+   "slug": "grade-2-math-beginning-middle-end-of-year",
+   "plan": "plan-2-math",
+   "parts": [
+    {
+     "unit": "g1-add-subtract-within-10",
+     "lesson": "1:add-within-10-models",
+     "n": 1,
+     "title": "Add two groups",
+     "type": "G1-101",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:fact-families",
+       "n": 5,
+       "title": "Fact families to 10",
+       "type": "G1-219"
+      },
+      {
+       "lesson": "1:missing-number-equations",
+       "n": 6,
+       "title": "Find the missing number",
+       "type": "G1-218"
+      },
+      {
+       "lesson": "1:fluency-within-20",
+       "n": 7,
+       "title": "Fact fluency within 10",
+       "type": "G1-214"
+      },
+      {
+       "lesson": "1:subtract-cross-out",
+       "n": 2,
+       "title": "Take away: how many are left?",
+       "type": "G1-103"
+      },
+      {
+       "lesson": "1:make-10",
+       "n": 3,
+       "title": "Partners that make 10",
+       "type": "G1-106"
+      },
+      {
+       "lesson": "1:count-on-back-hops",
+       "n": 4,
+       "title": "Count on and count back on a number line",
+       "type": "G1-116"
+      }
+     ]
+    },
+    {
+     "unit": "g1-doubles-three-addends-number-walls",
+     "lesson": "1:doubles-halves",
+     "n": 1,
+     "title": "Doubles and halves",
+     "type": "G1-287",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:near-doubles",
+       "n": 2,
+       "title": "Near doubles",
+       "type": "G1-449"
+      },
+      {
+       "lesson": "1:odd-even-pairs",
+       "n": 6,
+       "title": "Odd and even numbers",
+       "type": "G1-370"
+      },
+      {
+       "lesson": "1:number-walls",
+       "n": 8,
+       "title": "Addition pyramids (number walls)",
+       "type": "G1-266"
+      },
+      {
+       "lesson": "1:fluency-within-20#make-ten-to-add",
+       "n": 3,
+       "title": "Make ten to add",
+       "type": "G1-439"
+      },
+      {
+       "lesson": "1:fact-families#think-addition-to-subtract",
+       "n": 4,
+       "title": "Think addition to subtract",
+       "type": "G1-566"
+      },
+      {
+       "lesson": "1:add-three-addends",
+       "n": 7,
+       "title": "Add three groups",
+       "type": "G1-112"
+      }
+     ]
+    },
+    {
+     "unit": "g1-story-problems-within-20",
+     "lesson": "1:word-problems",
+     "n": 1,
+     "title": "Word problems within 10",
+     "type": "G1-240",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:word-problems#find-the-missing-part",
+       "n": 2,
+       "title": "Find the missing part",
+       "type": "G1-567"
+      },
+      {
+       "lesson": "1:word-problems#what-happened-in-the-middle",
+       "n": 3,
+       "title": "What happened in the middle?",
+       "type": "G1-568"
+      },
+      {
+       "lesson": "1:word-problems#how-many-more-how-many-fewer",
+       "n": 4,
+       "title": "How many more? How many fewer?",
+       "type": "G1-511"
+      },
+      {
+       "lesson": "1:add-three-addends#stories-with-three-numbers",
+       "n": 5,
+       "title": "Stories with three numbers",
+       "type": "G1-570"
+      }
+     ]
+    },
+    {
+     "unit": "g1-tens-and-ones",
+     "lesson": "1:tens-and-ones",
+     "n": 3,
+     "title": "Tens and ones",
+     "type": "G1-120",
+     "rank": null,
+     "placed": "[Stage C-2, core skills, 2026-11-22] Tens and ones (1.NBT.B.2) is the core skill of the unit; number words to 20 asked none of it. (The beginning of the next grade asks this end list: the same lessons.)",
+     "alts": [
+      {
+       "lesson": "1:tens-and-ones#teen-numbers-one-ten-and-some-ones",
+       "n": 1,
+       "title": "Teen numbers: one ten and some ones",
+       "type": "G1-564"
+      },
+      {
+       "lesson": "1:compare-order-two-digit",
+       "n": 5,
+       "title": "Compare and order two-digit numbers",
+       "type": "G1-137"
+      },
+      {
+       "lesson": "1:tens-and-ones#count-the-tens",
+       "n": 2,
+       "title": "Count the tens: 10 to 90",
+       "type": "G1-563"
+      }
+     ]
+    },
+    {
+     "unit": "g1-hundreds-chart-skip-counting",
+     "lesson": "1:skip-counting",
+     "n": 4,
+     "title": "Count by tens, fives, and twos",
+     "type": "G1-123",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:one-ten-more-less",
+       "n": 3,
+       "title": "1 more, 1 less, 10 more, 10 less",
+       "type": "G1-131"
+      },
+      {
+       "lesson": "1:number-line-placement",
+       "n": 1,
+       "title": "Find a number on the number line",
+       "type": "G1-275"
+      },
+      {
+       "lesson": "1:hundreds-chart",
+       "n": 2,
+       "title": "The hundreds chart",
+       "type": "G1-129"
+      }
+     ]
+    },
+    {
+     "unit": "g1-adding-within-100",
+     "lesson": "1:mental-math-to-100",
+     "n": 1,
+     "title": "Add tens to a number",
+     "type": "G1-558",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:mental-math-to-100#add-ones-to-a-two-digit-number",
+       "n": 3,
+       "title": "Add ones to a two-digit number",
+       "type": "G1-559"
+      },
+      {
+       "lesson": "2:add-with-blocks#add-two-two-digit-numbers-and-make-a-new-ten",
+       "n": 6,
+       "title": "Add two two-digit numbers and make a new ten",
+       "type": "G1-573"
+      },
+      {
+       "lesson": "1:mental-math-to-100#subtract-tens-from-tens",
+       "n": 2,
+       "title": "Subtract tens from tens",
+       "type": "G1-565"
+      },
+      {
+       "lesson": "2:add-with-blocks#add-two-two-digit-numbers",
+       "n": 5,
+       "title": "Add two two-digit numbers: tens with tens, ones with ones",
+       "type": "G2-203"
+      }
+     ]
+    },
+    {
+     "unit": "g1-time-calendar-coins",
+     "lesson": "1:time-set-hands",
+     "n": 2,
+     "title": "Draw the clock hands",
+     "type": "G1-233",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:coins",
+       "n": 6,
+       "title": "Count coins",
+       "type": "G1-228"
+      },
+      {
+       "lesson": "1:time-read#match-the-clocks",
+       "n": 3,
+       "title": "Match the clocks",
+       "type": "G1-150"
+      },
+      {
+       "lesson": "1:days-months-seasons",
+       "n": 4,
+       "title": "Yesterday, today, tomorrow, and the months",
+       "type": "G1-319"
+      },
+      {
+       "lesson": "1:ordinal-numbers",
+       "n": 5,
+       "title": "Ordinal numbers to tenth",
+       "type": "G1-315"
+      }
+     ]
+    },
+    {
+     "unit": "g1-shapes-measuring-graphs",
+     "lesson": "1:measure-length-units#no-gaps-no-overlaps",
+     "n": 4,
+     "title": "No gaps, no overlaps",
+     "type": "G1-574",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:sort-three-groups",
+       "n": 5,
+       "title": "Sort into three groups",
+       "type": "G1-160"
+      },
+      {
+       "lesson": "1:shape-attributes",
+       "n": 1,
+       "title": "What makes a shape that shape?",
+       "type": "G1-381"
+      },
+      {
+       "lesson": "1:measure-length-units",
+       "n": 3,
+       "title": "Measure length with squares",
+       "type": "G1-139"
+      },
+      {
+       "lesson": "1:picture-graphs-sort-count",
+       "n": 6,
+       "title": "Sort, count, and read a picture graph",
+       "type": "G1-141"
+      },
+      {
+       "lesson": "1:bar-graphs",
+       "n": 7,
+       "title": "Read and make a bar graph",
+       "type": "G1-143"
+      },
+      {
+       "lesson": "1:patterns-missing",
+       "n": 8,
+       "title": "Patterns: two are missing",
+       "type": "G1-155"
+      },
+      {
+       "lesson": "2:equal-shares-shapes#equal-shares-halves-and-fourths",
+       "n": 9,
+       "title": "Equal shares: fair or not?",
+       "type": "G2-232"
+      }
+     ]
+    }
+   ],
+   "from": "end-of-1"
+  },
+  {
+   "id": "year-2-literacy-end",
+   "grade": "2",
+   "subject": "literacy",
+   "time": "end",
+   "slug": "grade-2-ela-beginning-middle-end-of-year",
+   "plan": "plan-2-literacy",
+   "parts": [
+    {
+     "unit": "g2-long-vowels-and-vowel-teams",
+     "lesson": "2:vowel-sounds-oo-ou-ow-oi-oy",
+     "n": 4,
+     "title": "Vowel Sounds: oo, ou, ow, oi, and oy",
+     "type": "G2-532",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:digraphs",
+       "n": 1,
+       "title": "Review: find sh in sentences",
+       "type": "G2-372"
+      },
+      {
+       "lesson": "2:short-or-long-vowel",
+       "n": 2,
+       "title": "Short or Long Vowel?",
+       "type": "G2-530"
+      },
+      {
+       "lesson": "2:vowel-teams-long-a-e-o",
+       "n": 3,
+       "title": "Vowel Teams for Long a, e, and o",
+       "type": "G2-531"
+      }
+     ]
+    },
+    {
+     "unit": "g2-sentences-and-grammar",
+     "lesson": "2:verb-forms",
+     "n": 4,
+     "title": "Today and yesterday: verb forms",
+     "type": "G2-317",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:sentence-boundaries",
+       "n": 1,
+       "title": "Capital letters and end marks",
+       "type": "G2-274"
+      },
+      {
+       "lesson": "2:word-classes",
+       "n": 2,
+       "title": "Nouns, verbs, and adjectives: three bins",
+       "type": "G2-275"
+      },
+      {
+       "lesson": "2:plural-nouns",
+       "n": 3,
+       "title": "More than one: plural nouns",
+       "type": "G2-349"
+      },
+      {
+       "lesson": "2:pronouns",
+       "n": 5,
+       "title": "Who does the pronoun stand for?",
+       "type": "G2-353"
+      }
+     ]
+    },
+    {
+     "unit": "g2-bossy-r-and-longer-words",
+     "lesson": "2:bossy-r-ar-or",
+     "n": 1,
+     "title": "Bossy r: ar and or",
+     "type": "G2-533",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:er-ir-ur",
+       "n": 2,
+       "title": "er, ir, and ur: One Sound, Three Spellings",
+       "type": "G2-545"
+      },
+      {
+       "lesson": "2:long-vowels-two-syllable-words",
+       "n": 3,
+       "title": "Long vowels in two-syllable words",
+       "type": "G2-546"
+      },
+      {
+       "lesson": "2:tricky-words-could-would-should",
+       "n": 4,
+       "title": "Tricky words: could, would, should",
+       "type": "G2-548"
+      }
+     ]
+    },
+    {
+     "unit": "g2-spelling-and-word-building",
+     "lesson": "2:synonyms",
+     "n": 7,
+     "title": "Synonyms",
+     "type": "G2-358",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:spelling-rules",
+       "n": 1,
+       "title": "Spelling rules: which letters go here?",
+       "type": "G2-315"
+      },
+      {
+       "lesson": "2:root-words",
+       "n": 3,
+       "title": "Root words and word families",
+       "type": "G2-375"
+      },
+      {
+       "lesson": "2:synonyms~doing-stage",
+       "n": 8,
+       "title": "More exact words for \"said\"",
+       "type": "G2-374"
+      }
+     ]
+    },
+    {
+     "unit": "g2-stories-facts-and-writing",
+     "lesson": "2:read-and-answer",
+     "n": 1,
+     "title": "Read a story and answer questions",
+     "type": "G2-254",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:cloze-context",
+       "n": 2,
+       "title": "Fill in the story's missing words",
+       "type": "G2-350"
+      },
+      {
+       "lesson": "2:cursive-writing",
+       "n": 5,
+       "title": "Cursive letters and connections",
+       "type": "G2-377"
+      }
+     ]
+    },
+    {
+     "unit": "g2-writing-stories",
+     "lesson": "2:revise-edit-story",
+     "n": 4,
+     "title": "Revise and edit a story with a checklist",
+     "type": "G2-574",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:true-story-plan-draft",
+       "n": 3,
+       "title": "Plan and draft a true story",
+       "type": "G2-571"
+      }
+     ]
+    },
+    {
+     "unit": "g2-reading-to-learn-informational-texts",
+     "lesson": "2:main-topic-paragraphs",
+     "n": 1,
+     "title": "The Main Topic and Each Paragraph",
+     "type": "G2-519",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:text-features",
+       "n": 2,
+       "title": "Text Features: Glossary and Index",
+       "type": "G2-520"
+      },
+      {
+       "lesson": "2:diagram-and-text",
+       "n": 3,
+       "title": "What the Diagram Shows",
+       "type": "G2-521"
+      },
+      {
+       "lesson": "2:steps-in-order",
+       "n": 4,
+       "title": "Steps in Order: How It Is Made",
+       "type": "G2-522"
+      }
+     ]
+    },
+    {
+     "unit": "g2-writing-to-inform",
+     "lesson": "2:draft-facts-closing",
+     "n": 3,
+     "title": "Draft with facts and a closing",
+     "type": "G2-567",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:plan-informative-piece",
+       "n": 2,
+       "title": "Plan an informative piece",
+       "type": "G2-565"
+      },
+      {
+       "lesson": "2:research-class-report",
+       "n": 4,
+       "title": "Research with two books: a class report",
+       "type": "G2-569"
+      }
+     ]
+    },
+    {
+     "unit": "g2-stories-beginnings-endings-and-versions",
+     "lesson": "2:story-beginning-ending",
+     "n": 1,
+     "title": "How a story begins and ends",
+     "type": "G2-576",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:character-voices",
+       "n": 2,
+       "title": "Different voices for different characters",
+       "type": "G2-578"
+      },
+      {
+       "lesson": "2:two-versions-of-a-tale",
+       "n": 3,
+       "title": "Two versions of one tale",
+       "type": "G2-580"
+      }
+     ]
+    },
+    {
+     "unit": "g2-opinion-writing-and-letters",
+     "lesson": "2:friendly-letter",
+     "n": 3,
+     "title": "A friendly letter",
+     "type": "G2-561",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:capitals-special-names",
+       "n": 4,
+       "title": "Capitals for holidays, places, and brand names",
+       "type": "G2-563"
+      },
+      {
+       "lesson": "2:plan-an-opinion",
+       "n": 1,
+       "title": "Plan an opinion: reasons and linking words",
+       "type": "G2-557"
+      },
+      {
+       "lesson": "2:draft-an-opinion",
+       "n": 2,
+       "title": "Draft an opinion piece",
+       "type": "G2-560"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "year-2-literacy-middle",
+   "grade": "2",
+   "subject": "literacy",
+   "time": "middle",
+   "slug": "grade-2-ela-beginning-middle-end-of-year",
+   "plan": "plan-2-literacy",
+   "parts": [
+    {
+     "unit": "g2-long-vowels-and-vowel-teams",
+     "lesson": "2:vowel-teams-long-a-e-o",
+     "n": 3,
+     "title": "Vowel Teams for Long a, e, and o",
+     "type": "G2-531",
+     "rank": null,
+     "placed": "[fix round 2026-11-23, review of the checks of the year] Finding sh in sentences is the unit's review of Grade 1: the middle of Grade 2 asks the vowel teams for long a, e and o (RF.2.3.b), or short and long vowels.",
+     "alts": [
+      {
+       "lesson": "2:short-or-long-vowel",
+       "n": 2,
+       "title": "Short or Long Vowel?",
+       "type": "G2-530"
+      }
+     ]
+    },
+    {
+     "unit": "g2-long-vowels-and-vowel-teams",
+     "lesson": "2:vowel-sounds-oo-ou-ow-oi-oy",
+     "n": 4,
+     "title": "Vowel Sounds: oo, ou, ow, oi, and oy",
+     "type": "G2-532",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:digraphs",
+       "n": 1,
+       "title": "Review: find sh in sentences",
+       "type": "G2-372"
+      },
+      {
+       "lesson": "2:short-or-long-vowel",
+       "n": 2,
+       "title": "Short or Long Vowel?",
+       "type": "G2-530"
+      }
+     ]
+    },
+    {
+     "unit": "g2-sentences-and-grammar",
+     "lesson": "2:sentence-boundaries",
+     "n": 1,
+     "title": "Capital letters and end marks",
+     "type": "G2-274",
+     "rank": 2,
+     "alts": [
+      {
+       "lesson": "2:word-classes",
+       "n": 2,
+       "title": "Nouns, verbs, and adjectives: three bins",
+       "type": "G2-275"
+      },
+      {
+       "lesson": "2:plural-nouns",
+       "n": 3,
+       "title": "More than one: plural nouns",
+       "type": "G2-349"
+      },
+      {
+       "lesson": "2:pronouns",
+       "n": 5,
+       "title": "Who does the pronoun stand for?",
+       "type": "G2-353"
+      }
+     ]
+    },
+    {
+     "unit": "g2-sentences-and-grammar",
+     "lesson": "2:verb-forms",
+     "n": 4,
+     "title": "Today and yesterday: verb forms",
+     "type": "G2-317",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:word-classes",
+       "n": 2,
+       "title": "Nouns, verbs, and adjectives: three bins",
+       "type": "G2-275"
+      },
+      {
+       "lesson": "2:plural-nouns",
+       "n": 3,
+       "title": "More than one: plural nouns",
+       "type": "G2-349"
+      },
+      {
+       "lesson": "2:pronouns",
+       "n": 5,
+       "title": "Who does the pronoun stand for?",
+       "type": "G2-353"
+      }
+     ]
+    },
+    {
+     "unit": "g2-bossy-r-and-longer-words",
+     "lesson": "2:bossy-r-ar-or",
+     "n": 1,
+     "title": "Bossy r: ar and or",
+     "type": "G2-533",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:er-ir-ur",
+       "n": 2,
+       "title": "er, ir, and ur: One Sound, Three Spellings",
+       "type": "G2-545"
+      },
+      {
+       "lesson": "2:long-vowels-two-syllable-words",
+       "n": 3,
+       "title": "Long vowels in two-syllable words",
+       "type": "G2-546"
+      },
+      {
+       "lesson": "2:tricky-words-could-would-should",
+       "n": 4,
+       "title": "Tricky words: could, would, should",
+       "type": "G2-548"
+      }
+     ]
+    },
+    {
+     "unit": "g2-spelling-and-word-building",
+     "lesson": "2:synonyms",
+     "n": 7,
+     "title": "Synonyms",
+     "type": "G2-358",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:spelling-rules",
+       "n": 1,
+       "title": "Spelling rules: which letters go here?",
+       "type": "G2-315"
+      },
+      {
+       "lesson": "2:root-words",
+       "n": 3,
+       "title": "Root words and word families",
+       "type": "G2-375"
+      },
+      {
+       "lesson": "2:synonyms~doing-stage",
+       "n": 8,
+       "title": "More exact words for \"said\"",
+       "type": "G2-374"
+      }
+     ]
+    }
+   ],
+   "taughtBy": {
+    "half": 66.5,
+    "of": 133,
+    "units": [
+     {
+      "unit": "g2-long-vowels-and-vowel-teams",
+      "lastDay": 11
+     },
+     {
+      "unit": "g2-sentences-and-grammar",
+      "lastDay": 26
+     },
+     {
+      "unit": "g2-bossy-r-and-longer-words",
+      "lastDay": 37
+     },
+     {
+      "unit": "g2-spelling-and-word-building",
+      "lastDay": 60
+     }
+    ]
+   }
+  },
+  {
+   "id": "year-2-literacy-beginning",
+   "grade": "2",
+   "subject": "literacy",
+   "time": "beginning",
+   "slug": "grade-2-ela-beginning-middle-end-of-year",
+   "plan": "plan-2-literacy",
+   "parts": [
+    {
+     "unit": "g1-sounds-spelling-syllables",
+     "lesson": "1:word-families-syllable-reading",
+     "n": 4,
+     "title": "Word families",
+     "type": "G1-330",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:phoneme-boxes",
+       "n": 2,
+       "title": "Sound boxes",
+       "type": "G1-312"
+      },
+      {
+       "lesson": "1:spell-picture-words",
+       "n": 5,
+       "title": "Spell the picture word",
+       "type": "G1-260"
+      }
+     ]
+    },
+    {
+     "unit": "g1-digraphs-and-blends",
+     "lesson": "1:digraphs",
+     "n": 1,
+     "title": "sh, ch, and th",
+     "type": "G1-380",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:ck-ng-wh",
+       "n": 2,
+       "title": "ck, ng, and wh",
+       "type": "G1-589"
+      },
+      {
+       "lesson": "1:blends-start",
+       "n": 3,
+       "title": "Blends at the start: st, fl, tr",
+       "type": "G1-493"
+      },
+      {
+       "lesson": "1:blends-end",
+       "n": 4,
+       "title": "Blends at the end: nd, mp, st, and nk",
+       "type": "G1-591"
+      }
+     ]
+    },
+    {
+     "unit": "g1-reading-sentences-and-stories",
+     "lesson": "1:cloze",
+     "n": 2,
+     "title": "Fill in the missing word",
+     "type": "G1-350",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:unscramble-sentence",
+       "n": 3,
+       "title": "Unscramble the sentence",
+       "type": "G1-282"
+      },
+      {
+       "lesson": "1:question-words",
+       "n": 4,
+       "title": "Who, what, where",
+       "type": "G1-353"
+      },
+      {
+       "lesson": "1:story-sequencing",
+       "n": 5,
+       "title": "What happens next?",
+       "type": "G1-400"
+      }
+     ]
+    },
+    {
+     "unit": "g1-reading-stories-characters-and-lessons",
+     "lesson": "1:story-key-details",
+     "n": 1,
+     "title": "Find the Answer in the Story",
+     "type": "G1-579",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:characters-setting-events",
+       "n": 2,
+       "title": "Characters, Setting, and Big Events",
+       "type": "G1-580"
+      },
+      {
+       "lesson": "1:retell-and-lesson",
+       "n": 3,
+       "title": "Retell the Story and Tell Its Lesson",
+       "type": "G1-581"
+      },
+      {
+       "lesson": "1:feeling-and-sense-words",
+       "n": 4,
+       "title": "Words That Show Feelings and Senses",
+       "type": "G1-582"
+      },
+      {
+       "lesson": "1:who-tells-the-story",
+       "n": 5,
+       "title": "Who Is Telling the Story?",
+       "type": "G1-583"
+      }
+     ]
+    },
+    {
+     "unit": "g1-long-vowels-silent-e-and-vowel-teams",
+     "lesson": "1:silent-e",
+     "n": 1,
+     "title": "Silent e Changes the Vowel",
+     "type": "G1-584",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:long-or-short-vowel",
+       "n": 2,
+       "title": "Long or short vowel?",
+       "type": "G1-495"
+      },
+      {
+       "lesson": "1:long-a-ai-ay",
+       "n": 3,
+       "title": "Long a: ai and ay",
+       "type": "G1-585"
+      },
+      {
+       "lesson": "1:long-e-ee-ea",
+       "n": 4,
+       "title": "Long e: ee and ea",
+       "type": "G1-586"
+      },
+      {
+       "lesson": "1:long-o-oa-ow",
+       "n": 5,
+       "title": "Long o: oa and ow",
+       "type": "G1-587"
+      }
+     ]
+    },
+    {
+     "unit": "g1-words-and-how-they-work",
+     "lesson": "1:articles",
+     "n": 4,
+     "title": "A or an: sort the words",
+     "type": "G1-292",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:alphabetical-order",
+       "n": 1,
+       "title": "ABC order",
+       "type": "G1-262"
+      },
+      {
+       "lesson": "1:word-classes",
+       "n": 2,
+       "title": "Nouns, verbs, and adjectives",
+       "type": "G1-293"
+      },
+      {
+       "lesson": "1:pronouns",
+       "n": 3,
+       "title": "He, she, it, they",
+       "type": "G1-352"
+      }
+     ]
+    },
+    {
+     "unit": "g1-writing-stories-opinions-and-facts",
+     "lesson": "1:revise-and-edit-checklist",
+     "n": 4,
+     "title": "Revise and edit with a checklist",
+     "type": "G1-622",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:opinion-and-reason",
+       "n": 2,
+       "title": "My opinion and a reason",
+       "type": "G1-618"
+      },
+      {
+       "lesson": "1:true-story-plan-and-draft",
+       "n": 1,
+       "title": "Write a true story: plan and draft",
+       "type": "G1-616"
+      },
+      {
+       "lesson": "1:all-about-a-topic",
+       "n": 3,
+       "title": "All about a topic: facts and a closing",
+       "type": "G1-620"
+      }
+     ]
+    },
+    {
+     "unit": "g1-word-meanings-and-word-parts",
+     "lesson": "1:opposites",
+     "n": 1,
+     "title": "Write the opposite",
+     "type": "G1-337",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:synonyms",
+       "n": 2,
+       "title": "Two words that mean the same thing",
+       "type": "G1-395"
+      },
+      {
+       "lesson": "1:shades-of-meaning",
+       "n": 3,
+       "title": "From a little to a lot",
+       "type": "G1-396"
+      },
+      {
+       "lesson": "1:root-words",
+       "n": 5,
+       "title": "Find the root word",
+       "type": "G1-397"
+      }
+     ]
+    }
+   ],
+   "from": "end-of-1",
+   "cut": [
+    {
+     "unit": "g1-reading-to-learn-informational-texts",
+     "lesson": "1:info-text-key-details",
+     "reason": "a check of the beginning has at most 8 parts (plan C-2); the units taught last in Grade 1 go first"
+    },
+    {
+     "unit": "g1-two-syllable-words",
+     "lesson": "1:syllable-vowel",
+     "reason": "a check of the beginning has at most 8 parts (plan C-2); the units taught last in Grade 1 go first"
+    }
+   ]
+  },
+  {
+   "id": "year-3-math-end",
+   "grade": "3",
+   "subject": "math",
+   "time": "end",
+   "slug": "grade-3-math-beginning-middle-end-of-year",
+   "plan": "plan-3-math",
+   "parts": [
+    {
+     "unit": "g3-rounding-adding-subtracting",
+     "lesson": "3:estimate-by-rounding",
+     "n": 3,
+     "title": "Round, then estimate the sum",
+     "type": "G3-389",
+     "rank": null,
+     "placed": "[Stage C-2, core skills, 2026-11-22] Rounding (3.NBT.A.1) is a core skill of Grade 3 that the check did not ask; adding and subtracting within 1,000 are asked by the two-step story part.",
+     "alts": [
+      {
+       "lesson": "3:rounding",
+       "n": 2,
+       "title": "Round to the nearest hundred",
+       "type": "G3-388"
+      },
+      {
+       "lesson": "2:round-to-ten",
+       "n": 1,
+       "title": "Round to the nearest ten",
+       "type": "G2-346"
+      }
+     ]
+    },
+    {
+     "unit": "g3-starting-multiplication",
+     "lesson": "3:mult-equal-groups",
+     "n": 1,
+     "title": "Multiplication as equal groups",
+     "type": "G3-302",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "3:times-tables",
+       "n": 4,
+       "title": "Multiplication facts for 2 and 5",
+       "type": "G3-364"
+      },
+      {
+       "lesson": "3:commutative",
+       "n": 3,
+       "title": "Turn the array around",
+       "type": "G3-314"
+      }
+     ]
+    },
+    {
+     "unit": "g3-division",
+     "lesson": "3:division-sharing",
+     "n": 1,
+     "title": "Divide by sharing",
+     "type": "G3-309",
+     "rank": null,
+     "placed": "[Stage C-2, core skills, 2026-11-22] The part fell to multiplying by multiples of 10, so the check asked no division (3.OA.A.2, 3.OA.B.6). Its alternates are the division lessons of the unit only. [fix round 2026-11-23, review of the checks of the year] At the level the lesson hands out first it asked 8 ÷ 2 and 6 ÷ 3; the end of the year asks its hard page (three to five bins, three to six each: 24 ÷ 4, 30 ÷ 5).",
+     "level": 3,
+     "alts": [
+      {
+       "lesson": "3:division-remainder",
+       "n": 6,
+       "title": "Division with a remainder",
+       "type": "G3-377"
+      }
+     ]
+    },
+    {
+     "unit": "g3-division",
+     "lesson": "3:mult-div-relationship",
+     "n": 3,
+     "title": "The missing factor and fact families",
+     "type": "G3-312",
+     "rank": null,
+     "ruled": "[Stage C-2, second look, 2026-11-23] Division is asked with more than two easy facts: a second part of the unit Division (the missing factor and fact families, 3.OA.B.6), beside dividing by sharing."
+    },
+    {
+     "unit": "g3-story-problems-all-four-operations",
+     "lesson": "3:two-step-word-problems#two-step-stories-add-and-subtract",
+     "n": 2,
+     "title": "Two-step stories: add and subtract",
+     "type": "G3-485",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "3:two-step-word-problems#two-step-stories-multiply-or-divide",
+       "n": 3,
+       "title": "Two-step stories: multiply or divide",
+       "type": "G3-486"
+      },
+      {
+       "lesson": "3:two-step-word-problems#an-equation-with-a-letter-and-an-estimate",
+       "n": 4,
+       "title": "A letter for the unknown and an estimate to check the answer",
+       "type": "G3-487"
+      }
+     ]
+    },
+    {
+     "unit": "g3-time-temperature-mass-volume",
+     "lesson": "3:time-to-minute",
+     "n": 1,
+     "title": "Tell time to the minute",
+     "type": "G3-354",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "3:elapsed-duration",
+       "n": 2,
+       "title": "How much time passed?",
+       "type": "G3-344"
+      },
+      {
+       "lesson": "3:thermometer",
+       "n": 4,
+       "title": "Read a thermometer",
+       "type": "G3-345"
+      },
+      {
+       "lesson": "2:mass-grams",
+       "n": 5,
+       "title": "Read a scale in grams",
+       "type": "G2-261"
+      },
+      {
+       "lesson": "2:read-jugs",
+       "n": 6,
+       "title": "Read a measuring cup",
+       "type": "G2-260"
+      },
+      {
+       "lesson": "3:add-subtract-time",
+       "n": 3,
+       "title": "Add and subtract time",
+       "type": "G3-356"
+      }
+     ]
+    },
+    {
+     "unit": "g3-area-perimeter-volume",
+     "lesson": "3:area-model#area-of-a-rectangle-multiply-the-side-lengths",
+     "n": 2,
+     "title": "Area of a rectangle: multiply the side lengths",
+     "type": "G3-488",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "3:perimeter",
+       "n": 5,
+       "title": "Perimeter: walk the edge",
+       "type": "G3-337"
+      },
+      {
+       "lesson": "3:perimeter#find-the-missing-side",
+       "n": 6,
+       "title": "Perimeter: find the missing side",
+       "type": "G3-490"
+      },
+      {
+       "lesson": "3:volume-cubes",
+       "n": 8,
+       "title": "Count the cubes",
+       "type": "G3-346"
+      },
+      {
+       "lesson": "3:area-model",
+       "n": 1,
+       "title": "Area: count the squares",
+       "type": "G3-313"
+      },
+      {
+       "lesson": "3:same-area",
+       "n": 3,
+       "title": "Same area, different shape",
+       "type": "G3-338"
+      },
+      {
+       "lesson": "3:same-perimeter",
+       "n": 7,
+       "title": "Same perimeter, different area",
+       "type": "G3-339"
+      }
+     ]
+    },
+    {
+     "unit": "g3-fractions",
+     "lesson": "3:fraction-unit-build",
+     "n": 2,
+     "title": "Name and shade a fraction",
+     "type": "G3-315",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "3:fraction-number-line#unit-fractions-on-the-number-line",
+       "n": 4,
+       "title": "Unit fractions on the number line",
+       "type": "G3-481"
+      },
+      {
+       "lesson": "3:partition-equal-areas",
+       "n": 1,
+       "title": "Equal pieces",
+       "type": "G3-343"
+      },
+      {
+       "lesson": "3:whole-from-unit",
+       "n": 3,
+       "title": "Find the whole",
+       "type": "G3-321"
+      },
+      {
+       "lesson": "3:fraction-number-line",
+       "n": 5,
+       "title": "Fractions on a number line",
+       "type": "G3-317"
+      },
+      {
+       "lesson": "3:compare-fractions",
+       "n": 6,
+       "title": "Which fraction is greater?",
+       "type": "G3-319"
+      },
+      {
+       "lesson": "3:equivalent-fractions",
+       "n": 7,
+       "title": "Equivalent fractions: different names, same amount",
+       "type": "G3-318"
+      },
+      {
+       "lesson": "3:equivalent-fractions#whole-numbers-as-fractions",
+       "n": 8,
+       "title": "Whole numbers as fractions",
+       "type": "G3-492"
+      },
+      {
+       "lesson": "3:fraction-of-set",
+       "n": 9,
+       "title": "A fraction of a group",
+       "type": "G3-320"
+      }
+     ]
+    },
+    {
+     "unit": "g3-shapes-and-data",
+     "lesson": "3:symmetry",
+     "n": 3,
+     "title": "How many lines of symmetry?",
+     "type": "G3-342",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "3:right-angles",
+       "n": 1,
+       "title": "Right angles",
+       "type": "G3-341"
+      },
+      {
+       "lesson": "3:classify-quadrilaterals",
+       "n": 2,
+       "title": "Is it a rectangle?",
+       "type": "G3-340"
+      },
+      {
+       "lesson": "3:scaled-graphs",
+       "n": 4,
+       "title": "Graphs with a scale",
+       "type": "G3-333"
+      },
+      {
+       "lesson": "3:line-plot-halves",
+       "n": 5,
+       "title": "A line plot with halves",
+       "type": "G3-335"
+      },
+      {
+       "lesson": "3:line-plot-halves#measure-to-the-quarter-inch",
+       "n": 6,
+       "title": "Measure to the nearest quarter inch",
+       "type": "G3-493"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "year-3-math-middle",
+   "grade": "3",
+   "subject": "math",
+   "time": "middle",
+   "slug": "grade-3-math-beginning-middle-end-of-year",
+   "plan": "plan-3-math",
+   "parts": [
+    {
+     "unit": "g3-rounding-adding-subtracting",
+     "lesson": "3:estimate-by-rounding",
+     "n": 3,
+     "title": "Round, then estimate the sum",
+     "type": "G3-389",
+     "rank": 2,
+     "alts": [
+      {
+       "lesson": "3:arithmetic-patterns",
+       "n": 7,
+       "title": "Find the rule of a number pattern",
+       "type": "G3-326"
+      },
+      {
+       "lesson": "2:round-to-ten",
+       "n": 1,
+       "title": "Round to the nearest ten",
+       "type": "G2-346"
+      },
+      {
+       "lesson": "3:rounding",
+       "n": 2,
+       "title": "Round to the nearest hundred",
+       "type": "G3-388"
+      },
+      {
+       "lesson": "3:parity-of-sums",
+       "n": 6,
+       "title": "Is the sum odd or even?",
+       "type": "G3-386"
+      }
+     ]
+    },
+    {
+     "unit": "g3-rounding-adding-subtracting",
+     "lesson": "3:column-regrouping",
+     "n": 4,
+     "title": "Add and subtract with regrouping",
+     "type": "G3-357",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "3:arithmetic-patterns",
+       "n": 7,
+       "title": "Find the rule of a number pattern",
+       "type": "G3-326"
+      },
+      {
+       "lesson": "2:round-to-ten",
+       "n": 1,
+       "title": "Round to the nearest ten",
+       "type": "G2-346"
+      },
+      {
+       "lesson": "3:rounding",
+       "n": 2,
+       "title": "Round to the nearest hundred",
+       "type": "G3-388"
+      },
+      {
+       "lesson": "3:parity-of-sums",
+       "n": 6,
+       "title": "Is the sum odd or even?",
+       "type": "G3-386"
+      }
+     ]
+    },
+    {
+     "unit": "g3-starting-multiplication",
+     "lesson": "3:mult-equal-groups",
+     "n": 1,
+     "title": "Multiplication as equal groups",
+     "type": "G3-302",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "3:commutative",
+       "n": 3,
+       "title": "Turn the array around",
+       "type": "G3-314"
+      }
+     ]
+    },
+    {
+     "unit": "g3-starting-multiplication",
+     "lesson": "3:times-tables",
+     "n": 4,
+     "title": "Multiplication facts for 2 and 5",
+     "type": "G3-364",
+     "rank": 2,
+     "alts": [
+      {
+       "lesson": "3:commutative",
+       "n": 3,
+       "title": "Turn the array around",
+       "type": "G3-314"
+      }
+     ]
+    },
+    {
+     "unit": "g3-division",
+     "lesson": "3:division-sharing",
+     "n": 1,
+     "title": "Divide by sharing",
+     "type": "G3-309",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "3:times-tables#multiply-by-tens",
+       "n": 7,
+       "title": "Multiply by multiples of 10",
+       "type": "G3-491"
+      },
+      {
+       "lesson": "3:mult-div-relationship",
+       "n": 3,
+       "title": "The missing factor and fact families",
+       "type": "G3-312"
+      },
+      {
+       "lesson": "3:division-remainder",
+       "n": 6,
+       "title": "Division with a remainder",
+       "type": "G3-377"
+      }
+     ]
+    },
+    {
+     "unit": "g3-story-problems-all-four-operations",
+     "lesson": "3:two-step-word-problems#two-step-stories-add-and-subtract",
+     "n": 2,
+     "title": "Two-step stories: add and subtract",
+     "type": "G3-485",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "3:two-step-word-problems#two-step-stories-multiply-or-divide",
+       "n": 3,
+       "title": "Two-step stories: multiply or divide",
+       "type": "G3-486"
+      },
+      {
+       "lesson": "3:two-step-word-problems#an-equation-with-a-letter-and-an-estimate",
+       "n": 4,
+       "title": "A letter for the unknown and an estimate to check the answer",
+       "type": "G3-487"
+      }
+     ]
+    }
+   ],
+   "taughtBy": {
+    "half": 73.5,
+    "of": 147,
+    "units": [
+     {
+      "unit": "g3-rounding-adding-subtracting",
+      "lastDay": 21
+     },
+     {
+      "unit": "g3-starting-multiplication",
+      "lastDay": 37
+     },
+     {
+      "unit": "g3-division",
+      "lastDay": 56
+     },
+     {
+      "unit": "g3-story-problems-all-four-operations",
+      "lastDay": 67
+     }
+    ]
+   }
+  },
+  {
+   "id": "year-3-math-beginning",
+   "grade": "3",
+   "subject": "math",
+   "time": "beginning",
+   "slug": "grade-3-math-beginning-middle-end-of-year",
+   "plan": "plan-3-math",
+   "parts": [
+    {
+     "unit": "g2-fact-strategies-within-20",
+     "lesson": "1:near-doubles#doubles-and-near-doubles",
+     "n": 2,
+     "title": "Doubles and near doubles",
+     "type": "G1-449",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:fact-families#think-addition-and-daily-facts",
+       "n": 4,
+       "title": "Think addition to subtract, and start the daily facts",
+       "type": "G1-566"
+      },
+      {
+       "lesson": "1:fluency-within-20#make-ten-sums-11-to-18",
+       "n": 1,
+       "title": "Make ten to add: sums from 11 to 18",
+       "type": "G1-439"
+      },
+      {
+       "lesson": "1:fluency-within-20#use-ten-to-subtract",
+       "n": 3,
+       "title": "Use ten to subtract",
+       "type": "G1-556"
+      }
+     ]
+    },
+    {
+     "unit": "g2-place-value-to-1000",
+     "lesson": "2:compare-order-3-digit",
+     "n": 7,
+     "title": "Compare and order three-digit numbers",
+     "type": "G2-219",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:hundred-more-less",
+       "n": 8,
+       "title": "100 more, 100 less",
+       "type": "G2-226"
+      },
+      {
+       "lesson": "2:bundle-ten-ones#ten-tens-make-one-hundred",
+       "n": 2,
+       "title": "Ten tens make one hundred",
+       "type": "G2-404"
+      },
+      {
+       "lesson": "2:read-build-3-digit",
+       "n": 4,
+       "title": "Hundreds, tens, and ones",
+       "type": "G2-222"
+      },
+      {
+       "lesson": "2:expanded-form-digit-value",
+       "n": 5,
+       "title": "Expanded form and the value of a digit",
+       "type": "G2-223"
+      }
+     ]
+    },
+    {
+     "unit": "g2-adding-and-subtracting-within-100",
+     "lesson": "2:subtract-with-blocks#subtract-and-open-a-ten",
+     "n": 5,
+     "title": "Subtract and open a ten",
+     "type": "G2-513",
+     "rank": null,
+     "placed": "[fix round 2026-11-23, review of the checks of the year] The column worksheet of the unit (G2-255, G2-256) never regroups (16 + 51, 69 − 37, 86 − 82): the end of Grade 2 adds and subtracts within 100 WITH regrouping (2.NBT.B.5). The part asks subtraction that opens a ten (57 − 28 on the tens-and-ones mat); its alternates add three or four two-digit numbers with a new ten, or jump on an open number line. Addition with regrouping is also asked by the part of Adding and Subtracting Within 1,000 (3-digit addition with carrying).",
+     "alts": [
+      {
+       "lesson": "2:column-method#add-three-and-four-two-digit-numbers",
+       "n": 8,
+       "title": "Add three and four two-digit numbers",
+       "type": "G2-514"
+      },
+      {
+       "lesson": "1:open-number-line",
+       "n": 3,
+       "title": "Jumps on an open number line",
+       "type": "G1-438"
+      }
+     ]
+    },
+    {
+     "unit": "g2-story-problems-within-100",
+     "lesson": "2:two-step-word-problems#one-step-stories-with-a-bar-model",
+     "n": 1,
+     "title": "One-step stories with a bar model",
+     "type": "G2-509",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:two-step-word-problems#what-was-there-at-the-start",
+       "n": 2,
+       "title": "What was there at the start?",
+       "type": "G2-510"
+      },
+      {
+       "lesson": "2:two-step-word-problems#compare-stories-more-and-fewer",
+       "n": 3,
+       "title": "Compare stories: more and fewer",
+       "type": "G2-512"
+      },
+      {
+       "lesson": "2:two-step-word-problems#two-step-stories",
+       "n": 4,
+       "title": "Two-step stories",
+       "type": "G2-511"
+      }
+     ]
+    },
+    {
+     "unit": "g2-add-subtract-within-1000",
+     "lesson": "3:column-regrouping#add-three-digit-numbers",
+     "n": 2,
+     "title": "Add three-digit numbers and make a new ten or hundred",
+     "type": "G3-361",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:column-method#subtract-three-digit-numbers",
+       "n": 4,
+       "title": "Subtract three-digit numbers with regrouping",
+       "type": "G2-502"
+      },
+      {
+       "lesson": "3:column-regrouping#subtract-across-a-zero",
+       "n": 5,
+       "title": "Subtract across zeros",
+       "type": "G3-362"
+      }
+     ]
+    },
+    {
+     "unit": "g2-measurement-time-money",
+     "lesson": "1:measure-length-units#same-length-two-units",
+     "n": 2,
+     "title": "Same length, two units",
+     "type": "G2-517",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:time-5-min-quarter",
+       "n": 6,
+       "title": "Tell time to the nearest five minutes",
+       "type": "G2-249"
+      },
+      {
+       "lesson": "1:coins#count-mixed-coins",
+       "n": 8,
+       "title": "Count mixed coins",
+       "type": "G1-229"
+      },
+      {
+       "lesson": "2:shopping-money",
+       "n": 9,
+       "title": "Shopping with money",
+       "type": "G2-291"
+      },
+      {
+       "lesson": "2:measure-with-ruler",
+       "n": 1,
+       "title": "Measure with a ruler",
+       "type": "G2-235"
+      },
+      {
+       "lesson": "2:compare-lengths",
+       "n": 4,
+       "title": "How much longer?",
+       "type": "G2-236"
+      },
+      {
+       "lesson": "2:compare-lengths#length-story-problems",
+       "n": 5,
+       "title": "Length story problems",
+       "type": "G2-518"
+      }
+     ]
+    },
+    {
+     "unit": "g2-graphs-and-grids",
+     "lesson": "2:bar-graphs",
+     "n": 1,
+     "title": "From tally marks to a bar graph",
+     "type": "G2-239",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "1:bar-graphs#make-a-graph-from-counts",
+       "n": 2,
+       "title": "Make a graph from counts",
+       "type": "G1-147"
+      },
+      {
+       "lesson": "2:grid-coordinates",
+       "n": 3,
+       "title": "Find a square on a grid",
+       "type": "G2-279"
+      },
+      {
+       "lesson": "2:line-plots",
+       "n": 4,
+       "title": "Read a line plot",
+       "type": "G2-240"
+      },
+      {
+       "lesson": "2:line-plots#measure-and-make-a-line-plot",
+       "n": 5,
+       "title": "Measure and make a line plot",
+       "type": "G2-516"
+      },
+      {
+       "lesson": "2:scaled-pictograph",
+       "n": 6,
+       "title": "Each picture counts as two",
+       "type": "G2-238"
+      }
+     ]
+    },
+    {
+     "unit": "g2-equal-groups-equal-shares",
+     "lesson": "2:odd-even",
+     "n": 1,
+     "title": "Odd and even with equal parts",
+     "type": "G2-351",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:equal-groups-times",
+       "n": 2,
+       "title": "Equal groups",
+       "type": "G2-210"
+      },
+      {
+       "lesson": "2:equal-shares-shapes",
+       "n": 7,
+       "title": "Halves, thirds, and fourths",
+       "type": "G2-232"
+      },
+      {
+       "lesson": "2:fraction-of-a-set",
+       "n": 8,
+       "title": "A fraction of a group",
+       "type": "G2-233"
+      }
+     ]
+    }
+   ],
+   "from": "end-of-2",
+   "cut": [
+    {
+     "unit": "g2-shapes-solids-symmetry",
+     "lesson": "2:3d-faces-edges-vertices",
+     "reason": "a check of the beginning has at most 8 parts (plan C-2); the units taught last in Grade 2 go first"
+    }
+   ]
+  },
+  {
+   "id": "year-3-literacy-end",
+   "grade": "3",
+   "subject": "literacy",
+   "time": "end",
+   "slug": "grade-3-ela-beginning-middle-end-of-year",
+   "plan": "plan-3-literacy",
+   "parts": [
+    {
+     "unit": "g3-reading-long-words",
+     "lesson": "3:syllable-types-e-team-le",
+     "n": 2,
+     "title": "Silent-e, vowel-team, and consonant-le syllables",
+     "type": "G3-514",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "3:suffixes-able-ment-ness-ful-less",
+       "n": 3,
+       "title": "Suffixes -able, -ment, -ness, -ful, -less",
+       "type": "G3-516"
+      },
+      {
+       "lesson": "3:closed-open-syllables",
+       "n": 1,
+       "title": "Closed and open syllables",
+       "type": "G3-512"
+      },
+      {
+       "lesson": "3:tricky-words-enough-though-ocean",
+       "n": 4,
+       "title": "Tricky words: enough, though, ocean",
+       "type": "G3-518"
+      }
+     ]
+    },
+    {
+     "unit": "g3-words-and-their-meanings",
+     "lesson": "3:person-words",
+     "n": 2,
+     "title": "The person word: bake, baker",
+     "type": "G3-398",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:prefixes",
+       "n": 1,
+       "title": "Prefixes change the meaning",
+       "type": "G2-320"
+      },
+      {
+       "lesson": "3:root-words-in-context",
+       "n": 3,
+       "title": "Choose the right form of the word",
+       "type": "G3-399"
+      },
+      {
+       "lesson": "3:word-fields",
+       "n": 5,
+       "title": "Words for go and words for look",
+       "type": "G3-397"
+      }
+     ]
+    },
+    {
+     "unit": "g3-stories-evidence-lessons-characters",
+     "lesson": "3:story-evidence",
+     "n": 1,
+     "title": "Show Where the Story Says It",
+     "type": "G3-502",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "3:central-message",
+       "n": 2,
+       "title": "Retell a Story and Find Its Central Message",
+       "type": "G3-504"
+      },
+      {
+       "lesson": "3:characters-actions",
+       "n": 3,
+       "title": "Characters: Traits, Feelings, and Actions",
+       "type": "G3-506"
+      }
+     ]
+    },
+    {
+     "unit": "g3-reading-to-learn-informational-texts",
+     "lesson": "3:text-features-search-tools",
+     "n": 3,
+     "title": "Text Features and Search Tools",
+     "type": "G3-498",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "3:answer-with-evidence",
+       "n": 1,
+       "title": "Answer with Evidence",
+       "type": "G3-494"
+      },
+      {
+       "lesson": "3:main-idea-key-details",
+       "n": 2,
+       "title": "Main Idea and Key Details",
+       "type": "G3-497"
+      },
+      {
+       "lesson": "3:maps-diagrams-photos",
+       "n": 4,
+       "title": "Maps, Diagrams, and Photos",
+       "type": "G3-511"
+      },
+      {
+       "lesson": "3:events-cause-effect",
+       "n": 5,
+       "title": "Events in Order, Cause and Effect",
+       "type": "G3-501"
+      }
+     ]
+    },
+    {
+     "unit": "g3-opinion-writing",
+     "lesson": "3:linking-words",
+     "n": 2,
+     "title": "Reasons with linking words",
+     "type": "G3-550",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "3:revise-and-edit",
+       "n": 4,
+       "title": "Revise and edit an opinion piece",
+       "type": "G3-554"
+      },
+      {
+       "lesson": "3:opinion-and-reasons",
+       "n": 1,
+       "title": "State an opinion and plan the reasons",
+       "type": "G3-548"
+      },
+      {
+       "lesson": "3:concluding-statement",
+       "n": 3,
+       "title": "End with a concluding statement",
+       "type": "G3-552"
+      }
+     ]
+    },
+    {
+     "unit": "g3-parts-of-speech",
+     "lesson": "3:parts-of-speech",
+     "n": 1,
+     "title": "What each word does in a sentence",
+     "type": "G3-531",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "3:plural-nouns",
+       "n": 2,
+       "title": "Plural nouns: regular and irregular",
+       "type": "G3-533"
+      },
+      {
+       "lesson": "3:past-tense-verbs",
+       "n": 3,
+       "title": "Past tense: regular and irregular verbs",
+       "type": "G3-534"
+      },
+      {
+       "lesson": "3:subject-verb-agreement",
+       "n": 4,
+       "title": "Subjects and verbs agree",
+       "type": "G3-536"
+      }
+     ]
+    },
+    {
+     "unit": "g3-informative-writing-and-research",
+     "lesson": "3:take-notes-and-sort",
+     "n": 1,
+     "title": "Take notes and sort them",
+     "type": "G3-556",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "3:facts-definitions-details",
+       "n": 3,
+       "title": "Facts, definitions, and details",
+       "type": "G3-560"
+      },
+      {
+       "lesson": "3:introduce-and-group",
+       "n": 2,
+       "title": "Introduce a topic and group the facts",
+       "type": "G3-558"
+      }
+     ]
+    },
+    {
+     "unit": "g3-sentences-and-conventions",
+     "lesson": "3:simple-compound-complex",
+     "n": 2,
+     "title": "Simple, compound, and complex sentences",
+     "type": "G3-522",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "3:comparing-adjectives-adverbs",
+       "n": 3,
+       "title": "Better, best: comparing with adjectives and adverbs",
+       "type": "G3-525"
+      },
+      {
+       "lesson": "3:joining-words",
+       "n": 1,
+       "title": "Joining words: and, but, so, because, when",
+       "type": "G3-521"
+      },
+      {
+       "lesson": "3:possessive-nouns",
+       "n": 4,
+       "title": "Possessives: the dog's bone, the dogs' bones",
+       "type": "G3-526"
+      },
+      {
+       "lesson": "3:capitals-in-titles",
+       "n": 5,
+       "title": "Capitals in titles",
+       "type": "G3-528"
+      }
+     ]
+    },
+    {
+     "unit": "g3-narrative-writing",
+     "lesson": "3:words-for-effect",
+     "n": 4,
+     "title": "Revise for words that work",
+     "type": "G3-570",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "3:dialogue-and-description",
+       "n": 2,
+       "title": "Dialogue and description",
+       "type": "G3-566"
+      },
+      {
+       "lesson": "3:time-words-in-stories",
+       "n": 3,
+       "title": "Time words that order the events",
+       "type": "G3-568"
+      },
+      {
+       "lesson": "3:plan-a-story",
+       "n": 1,
+       "title": "Plan a story: characters, setting, problem",
+       "type": "G3-564"
+      }
+     ]
+    },
+    {
+     "unit": "g3-point-of-view-and-comparing-texts",
+     "lesson": "3:literal-nonliteral",
+     "n": 3,
+     "title": "Literal and nonliteral language",
+     "type": "G3-576",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "3:chapters-scenes-stanzas",
+       "n": 1,
+       "title": "Chapters, scenes, and stanzas",
+       "type": "G3-572"
+      },
+      {
+       "lesson": "3:point-of-view",
+       "n": 2,
+       "title": "Whose point of view?",
+       "type": "G3-574"
+      },
+      {
+       "lesson": "3:two-books-one-author",
+       "n": 4,
+       "title": "Two books by one author",
+       "type": "G3-577"
+      },
+      {
+       "lesson": "3:two-texts-one-topic",
+       "n": 5,
+       "title": "Two texts on one topic",
+       "type": "G3-579"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "year-3-literacy-middle",
+   "grade": "3",
+   "subject": "literacy",
+   "time": "middle",
+   "slug": "grade-3-ela-beginning-middle-end-of-year",
+   "plan": "plan-3-literacy",
+   "parts": [
+    {
+     "unit": "g3-reading-long-words",
+     "lesson": "3:syllable-types-e-team-le",
+     "n": 2,
+     "title": "Silent-e, vowel-team, and consonant-le syllables",
+     "type": "G3-514",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "3:closed-open-syllables",
+       "n": 1,
+       "title": "Closed and open syllables",
+       "type": "G3-512"
+      },
+      {
+       "lesson": "3:tricky-words-enough-though-ocean",
+       "n": 4,
+       "title": "Tricky words: enough, though, ocean",
+       "type": "G3-518"
+      }
+     ]
+    },
+    {
+     "unit": "g3-reading-long-words",
+     "lesson": "3:suffixes-able-ment-ness-ful-less",
+     "n": 3,
+     "title": "Suffixes -able, -ment, -ness, -ful, -less",
+     "type": "G3-516",
+     "rank": 2,
+     "alts": [
+      {
+       "lesson": "3:closed-open-syllables",
+       "n": 1,
+       "title": "Closed and open syllables",
+       "type": "G3-512"
+      },
+      {
+       "lesson": "3:tricky-words-enough-though-ocean",
+       "n": 4,
+       "title": "Tricky words: enough, though, ocean",
+       "type": "G3-518"
+      }
+     ]
+    },
+    {
+     "unit": "g3-words-and-their-meanings",
+     "lesson": "2:prefixes",
+     "n": 1,
+     "title": "Prefixes change the meaning",
+     "type": "G2-320",
+     "rank": 2,
+     "alts": [
+      {
+       "lesson": "3:root-words-in-context",
+       "n": 3,
+       "title": "Choose the right form of the word",
+       "type": "G3-399"
+      },
+      {
+       "lesson": "3:word-fields",
+       "n": 5,
+       "title": "Words for go and words for look",
+       "type": "G3-397"
+      }
+     ]
+    },
+    {
+     "unit": "g3-words-and-their-meanings",
+     "lesson": "3:person-words",
+     "n": 2,
+     "title": "The person word: bake, baker",
+     "type": "G3-398",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "3:root-words-in-context",
+       "n": 3,
+       "title": "Choose the right form of the word",
+       "type": "G3-399"
+      },
+      {
+       "lesson": "3:word-fields",
+       "n": 5,
+       "title": "Words for go and words for look",
+       "type": "G3-397"
+      }
+     ]
+    },
+    {
+     "unit": "g3-stories-evidence-lessons-characters",
+     "lesson": "3:story-evidence",
+     "n": 1,
+     "title": "Show Where the Story Says It",
+     "type": "G3-502",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "3:central-message",
+       "n": 2,
+       "title": "Retell a Story and Find Its Central Message",
+       "type": "G3-504"
+      },
+      {
+       "lesson": "3:characters-actions",
+       "n": 3,
+       "title": "Characters: Traits, Feelings, and Actions",
+       "type": "G3-506"
+      }
+     ]
+    },
+    {
+     "unit": "g3-reading-to-learn-informational-texts",
+     "lesson": "3:text-features-search-tools",
+     "n": 3,
+     "title": "Text Features and Search Tools",
+     "type": "G3-498",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "3:answer-with-evidence",
+       "n": 1,
+       "title": "Answer with Evidence",
+       "type": "G3-494"
+      },
+      {
+       "lesson": "3:main-idea-key-details",
+       "n": 2,
+       "title": "Main Idea and Key Details",
+       "type": "G3-497"
+      },
+      {
+       "lesson": "3:maps-diagrams-photos",
+       "n": 4,
+       "title": "Maps, Diagrams, and Photos",
+       "type": "G3-511"
+      },
+      {
+       "lesson": "3:events-cause-effect",
+       "n": 5,
+       "title": "Events in Order, Cause and Effect",
+       "type": "G3-501"
+      }
+     ]
+    }
+   ],
+   "taughtBy": {
+    "half": 61,
+    "of": 122,
+    "units": [
+     {
+      "unit": "g3-reading-long-words",
+      "lastDay": 11
+     },
+     {
+      "unit": "g3-words-and-their-meanings",
+      "lastDay": 26
+     },
+     {
+      "unit": "g3-stories-evidence-lessons-characters",
+      "lastDay": 37
+     },
+     {
+      "unit": "g3-reading-to-learn-informational-texts",
+      "lastDay": 50
+     }
+    ]
+   }
+  },
+  {
+   "id": "year-3-literacy-beginning",
+   "grade": "3",
+   "subject": "literacy",
+   "time": "beginning",
+   "slug": "grade-3-ela-beginning-middle-end-of-year",
+   "plan": "plan-3-literacy",
+   "parts": [
+    {
+     "unit": "g2-long-vowels-and-vowel-teams",
+     "lesson": "2:vowel-sounds-oo-ou-ow-oi-oy",
+     "n": 4,
+     "title": "Vowel Sounds: oo, ou, ow, oi, and oy",
+     "type": "G2-532",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:digraphs",
+       "n": 1,
+       "title": "Review: find sh in sentences",
+       "type": "G2-372"
+      },
+      {
+       "lesson": "2:short-or-long-vowel",
+       "n": 2,
+       "title": "Short or Long Vowel?",
+       "type": "G2-530"
+      },
+      {
+       "lesson": "2:vowel-teams-long-a-e-o",
+       "n": 3,
+       "title": "Vowel Teams for Long a, e, and o",
+       "type": "G2-531"
+      }
+     ]
+    },
+    {
+     "unit": "g2-sentences-and-grammar",
+     "lesson": "2:verb-forms",
+     "n": 4,
+     "title": "Today and yesterday: verb forms",
+     "type": "G2-317",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:sentence-boundaries",
+       "n": 1,
+       "title": "Capital letters and end marks",
+       "type": "G2-274"
+      },
+      {
+       "lesson": "2:word-classes",
+       "n": 2,
+       "title": "Nouns, verbs, and adjectives: three bins",
+       "type": "G2-275"
+      },
+      {
+       "lesson": "2:plural-nouns",
+       "n": 3,
+       "title": "More than one: plural nouns",
+       "type": "G2-349"
+      },
+      {
+       "lesson": "2:pronouns",
+       "n": 5,
+       "title": "Who does the pronoun stand for?",
+       "type": "G2-353"
+      }
+     ]
+    },
+    {
+     "unit": "g2-bossy-r-and-longer-words",
+     "lesson": "2:bossy-r-ar-or",
+     "n": 1,
+     "title": "Bossy r: ar and or",
+     "type": "G2-533",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:er-ir-ur",
+       "n": 2,
+       "title": "er, ir, and ur: One Sound, Three Spellings",
+       "type": "G2-545"
+      },
+      {
+       "lesson": "2:long-vowels-two-syllable-words",
+       "n": 3,
+       "title": "Long vowels in two-syllable words",
+       "type": "G2-546"
+      },
+      {
+       "lesson": "2:tricky-words-could-would-should",
+       "n": 4,
+       "title": "Tricky words: could, would, should",
+       "type": "G2-548"
+      }
+     ]
+    },
+    {
+     "unit": "g2-spelling-and-word-building",
+     "lesson": "2:synonyms",
+     "n": 7,
+     "title": "Synonyms",
+     "type": "G2-358",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:spelling-rules",
+       "n": 1,
+       "title": "Spelling rules: which letters go here?",
+       "type": "G2-315"
+      },
+      {
+       "lesson": "2:root-words",
+       "n": 3,
+       "title": "Root words and word families",
+       "type": "G2-375"
+      },
+      {
+       "lesson": "2:synonyms~doing-stage",
+       "n": 8,
+       "title": "More exact words for \"said\"",
+       "type": "G2-374"
+      }
+     ]
+    },
+    {
+     "unit": "g2-stories-facts-and-writing",
+     "lesson": "2:read-and-answer",
+     "n": 1,
+     "title": "Read a story and answer questions",
+     "type": "G2-254",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:cloze-context",
+       "n": 2,
+       "title": "Fill in the story's missing words",
+       "type": "G2-350"
+      },
+      {
+       "lesson": "2:cursive-writing",
+       "n": 5,
+       "title": "Cursive letters and connections",
+       "type": "G2-377"
+      }
+     ]
+    },
+    {
+     "unit": "g2-writing-stories",
+     "lesson": "2:revise-edit-story",
+     "n": 4,
+     "title": "Revise and edit a story with a checklist",
+     "type": "G2-574",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:true-story-plan-draft",
+       "n": 3,
+       "title": "Plan and draft a true story",
+       "type": "G2-571"
+      }
+     ]
+    },
+    {
+     "unit": "g2-reading-to-learn-informational-texts",
+     "lesson": "2:main-topic-paragraphs",
+     "n": 1,
+     "title": "The Main Topic and Each Paragraph",
+     "type": "G2-519",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:text-features",
+       "n": 2,
+       "title": "Text Features: Glossary and Index",
+       "type": "G2-520"
+      },
+      {
+       "lesson": "2:diagram-and-text",
+       "n": 3,
+       "title": "What the Diagram Shows",
+       "type": "G2-521"
+      },
+      {
+       "lesson": "2:steps-in-order",
+       "n": 4,
+       "title": "Steps in Order: How It Is Made",
+       "type": "G2-522"
+      }
+     ]
+    },
+    {
+     "unit": "g2-writing-to-inform",
+     "lesson": "2:draft-facts-closing",
+     "n": 3,
+     "title": "Draft with facts and a closing",
+     "type": "G2-567",
+     "rank": 1,
+     "alts": [
+      {
+       "lesson": "2:plan-informative-piece",
+       "n": 2,
+       "title": "Plan an informative piece",
+       "type": "G2-565"
+      },
+      {
+       "lesson": "2:research-class-report",
+       "n": 4,
+       "title": "Research with two books: a class report",
+       "type": "G2-569"
+      }
+     ]
+    }
+   ],
+   "from": "end-of-2",
+   "cut": [
+    {
+     "unit": "g2-stories-beginnings-endings-and-versions",
+     "lesson": "2:story-beginning-ending",
+     "reason": "a check of the beginning has at most 8 parts (plan C-2); the units taught last in Grade 2 go first"
+    },
+    {
+     "unit": "g2-opinion-writing-and-letters",
+     "lesson": "2:friendly-letter",
+     "reason": "a check of the beginning has at most 8 parts (plan C-2); the units taught last in Grade 2 go first"
+    }
+   ]
+  }
+ ],
+ "rulings": {
+  "$comment": "Hand rulings of the blueprint, applied by draft.js on every draft: per check id, drop (a part named by unit and lesson) or add, each with its reason.",
+  "year-k-math-end": {
+   "place": [
+    {
+     "unit": "k-counting-to-10",
+     "lessons": [
+      "K:compare-groups#which-number-is-greater",
+      "K:compare-groups",
+      "K:compare-groups#match-them-up"
+     ],
+     "reason": "[Stage C-2, core skills, 2026-11-22] Comparing two numbers (K.CC.C.7) is a core skill of Kindergarten that no other part of the check asks. Writing the numerals is asked by the part on 11 to 20, counting objects by the tally part; the unit's own central lesson (writing 0 to 9) gives way."
+    },
+    {
+     "unit": "k-teen-numbers-and-counting-to-100",
+     "lessons": [
+      "K:teen-numbers#ten-and-how-many-more",
+      "K:teen-numbers#ten-and-some-more",
+      "K:teen-numbers",
+      "K:teen-numbers#build-and-draw-a-teen-number"
+     ],
+     "reason": "[Stage C-2, core skills, 2026-11-22] A teen number as ten ones and some more ones (K.NBT.A.1) is the core skill of this unit; without the ruling the part fell to counting to 50 (its teen-number pages were used up by the unit check)."
+    }
+   ]
+  },
+  "year-k-literacy-end": {
+   "place": [
+    {
+     "unit": "k-hearing-sounds-in-words",
+     "lessons": [
+      "K:sound-position",
+      "K:segment-phonemes",
+      "K:cvc-build",
+      "K:beginning-sounds"
+     ],
+     "reason": "[Stage C-2, core skills, 2026-11-22] By the end of Kindergarten the sounds of a word (RF.K.2.d) count more than its syllables: the part asks ending and middle sounds."
+    },
+    {
+     "unit": "k-first-words-to-read",
+     "lessons": [
+      "K:sight-words-reading",
+      "K:word-picture-match"
+     ],
+     "reason": "[Stage C-2, core skills, 2026-11-22] Reading the common sight words (RF.K.3.c) is asked nowhere else in the check; reading short-vowel words is asked by the short-vowel part."
+    }
+   ]
+  },
+  "year-1-math-end": {
+   "place": [
+    {
+     "unit": "g1-tens-and-ones",
+     "lessons": [
+      "1:tens-and-ones",
+      "1:tens-and-ones#teen-numbers-one-ten-and-some-ones",
+      "1:compare-order-two-digit",
+      "1:tens-and-ones#count-the-tens"
+     ],
+     "reason": "[Stage C-2, core skills, 2026-11-22] Tens and ones (1.NBT.B.2) is the core skill of the unit; number words to 20 asked none of it."
+    },
+    {
+     "unit": "g1-story-problems-within-20",
+     "lessons": [
+      "1:word-problems#find-the-missing-part",
+      "1:word-problems#how-many-more-how-many-fewer",
+      "1:word-problems#what-happened-in-the-middle",
+      "1:add-three-addends#stories-with-three-numbers"
+     ],
+     "reason": "[fix round 2026-11-23, review of the checks of the year] The end check of Grade 1 asked story problems within 10, all pictured (4 + 4 apples): the end of the year asks the unit's story problems within 20 (1.OA.A.1): the missing part, then how many more, what happened in the middle, three numbers."
+    }
+   ],
+   "add": [
+    {
+     "unit": "g1-tens-and-ones",
+     "lesson": "1:compare-order-two-digit",
+     "reason": "[Stage C-2, second look, 2026-11-23] Comparing two-digit numbers (1.NBT.B.3) is a core skill of Grade 1: a second part of the unit Tens and Ones, beside tens and ones."
+    }
+   ]
+  },
+  "year-2-math-end": {
+   "place": [
+    {
+     "unit": "g2-adding-and-subtracting-within-100",
+     "lessons": [
+      "2:subtract-with-blocks#subtract-and-open-a-ten",
+      "2:column-method#add-three-and-four-two-digit-numbers",
+      "1:open-number-line"
+     ],
+     "reason": "[fix round 2026-11-23, review of the checks of the year] The column worksheet of the unit (G2-255, G2-256) never regroups (16 + 51, 69 − 37, 86 − 82): the end of Grade 2 adds and subtracts within 100 WITH regrouping (2.NBT.B.5). The part asks subtraction that opens a ten (57 − 28 on the tens-and-ones mat); its alternates add three or four two-digit numbers with a new ten, or jump on an open number line. Addition with regrouping is also asked by the part of Adding and Subtracting Within 1,000 (3-digit addition with carrying)."
+    }
+   ],
+   "add": [
+    {
+     "unit": "g2-equal-groups-equal-shares",
+     "lesson": "2:equal-groups-times",
+     "reason": "[Stage C-2, second look, 2026-11-23] Equal groups and arrays (2.OA.C.4) are a core skill of Grade 2: a second part of the unit Equal Groups, Equal Shares, beside halves, thirds, and fourths."
+    }
+   ]
+  },
+  "year-3-math-end": {
+   "place": [
+    {
+     "unit": "g3-rounding-adding-subtracting",
+     "lessons": [
+      "3:estimate-by-rounding",
+      "3:rounding",
+      "2:round-to-ten"
+     ],
+     "reason": "[Stage C-2, core skills, 2026-11-22] Rounding (3.NBT.A.1) is a core skill of Grade 3 that the check did not ask; adding and subtracting within 1,000 are asked by the two-step story part."
+    },
+    {
+     "unit": "g3-division",
+     "lessons": [
+      "3:division-sharing",
+      "3:mult-div-relationship",
+      "3:division-remainder"
+     ],
+     "reason": "[Stage C-2, core skills, 2026-11-22] The part fell to multiplying by multiples of 10, so the check asked no division (3.OA.A.2, 3.OA.B.6). Its alternates are the division lessons of the unit only. [fix round 2026-11-23, review of the checks of the year] At the level the lesson hands out first it asked 8 ÷ 2 and 6 ÷ 3; the end of the year asks its hard page (three to five bins, three to six each: 24 ÷ 4, 30 ÷ 5).",
+     "level": 3
+    }
+   ],
+   "add": [
+    {
+     "unit": "g3-division",
+     "lesson": "3:mult-div-relationship",
+     "reason": "[Stage C-2, second look, 2026-11-23] Division is asked with more than two easy facts: a second part of the unit Division (the missing factor and fact families, 3.OA.B.6), beside dividing by sharing."
+    }
+   ]
+  },
+  "year-1-math-beginning": {
+   "place": [
+    {
+     "unit": "k-counting-to-10",
+     "lessons": [
+      "K:compare-groups#which-number-is-greater",
+      "K:compare-groups",
+      "K:compare-groups#match-them-up"
+     ],
+     "reason": "[Stage C-2, core skills, 2026-11-22] Comparing two numbers (K.CC.C.7) is a core skill of Kindergarten that no other part of the check asks. Writing the numerals is asked by the part on 11 to 20, counting objects by the tally part; the unit's own central lesson (writing 0 to 9) gives way. (The beginning of the next grade asks this end list: the same lesson.)"
+    },
+    {
+     "unit": "k-teen-numbers-and-counting-to-100",
+     "lessons": [
+      "K:teen-numbers#ten-and-how-many-more",
+      "K:teen-numbers#ten-and-some-more",
+      "K:teen-numbers",
+      "K:teen-numbers#build-and-draw-a-teen-number"
+     ],
+     "reason": "[Stage C-2, core skills, 2026-11-22] A teen number as ten ones and some more ones (K.NBT.A.1) is the core skill of this unit; without the ruling the part fell to counting to 50 (its teen-number pages were used up by the unit check). (The beginning of the next grade asks this end list: the same lessons.)"
+    }
+   ]
+  },
+  "year-1-literacy-beginning": {
+   "place": [
+    {
+     "unit": "k-hearing-sounds-in-words",
+     "lessons": [
+      "K:sound-position",
+      "K:segment-phonemes",
+      "K:cvc-build",
+      "K:beginning-sounds"
+     ],
+     "reason": "[Stage C-2, core skills, 2026-11-22] By the end of Kindergarten the sounds of a word (RF.K.2.d) count more than its syllables: the part asks ending and middle sounds. (The beginning of the next grade asks this end list: the same lessons.)"
+    },
+    {
+     "unit": "k-first-words-to-read",
+     "lessons": [
+      "K:sight-words-reading",
+      "K:word-picture-match"
+     ],
+     "reason": "[Stage C-2, core skills, 2026-11-22] Reading the common sight words (RF.K.3.c) is asked nowhere else in the check; reading short-vowel words is asked by the short-vowel part. (The beginning of the next grade asks this end list: the same lessons.)"
+    }
+   ]
+  },
+  "year-2-math-beginning": {
+   "place": [
+    {
+     "unit": "g1-tens-and-ones",
+     "lessons": [
+      "1:tens-and-ones",
+      "1:tens-and-ones#teen-numbers-one-ten-and-some-ones",
+      "1:compare-order-two-digit",
+      "1:tens-and-ones#count-the-tens"
+     ],
+     "reason": "[Stage C-2, core skills, 2026-11-22] Tens and ones (1.NBT.B.2) is the core skill of the unit; number words to 20 asked none of it. (The beginning of the next grade asks this end list: the same lessons.)"
+    }
+   ]
+  },
+  "year-3-math-beginning": {
+   "place": [
+    {
+     "unit": "g2-adding-and-subtracting-within-100",
+     "lessons": [
+      "2:subtract-with-blocks#subtract-and-open-a-ten",
+      "2:column-method#add-three-and-four-two-digit-numbers",
+      "1:open-number-line"
+     ],
+     "reason": "[fix round 2026-11-23, review of the checks of the year] The column worksheet of the unit (G2-255, G2-256) never regroups (16 + 51, 69 − 37, 86 − 82): the end of Grade 2 adds and subtracts within 100 WITH regrouping (2.NBT.B.5). The part asks subtraction that opens a ten (57 − 28 on the tens-and-ones mat); its alternates add three or four two-digit numbers with a new ten, or jump on an open number line. Addition with regrouping is also asked by the part of Adding and Subtracting Within 1,000 (3-digit addition with carrying)."
+    }
+   ]
+  },
+  "year-2-literacy-middle": {
+   "place": [
+    {
+     "unit": "g2-long-vowels-and-vowel-teams",
+     "lessons": [
+      "2:vowel-teams-long-a-e-o",
+      "2:short-or-long-vowel"
+     ],
+     "reason": "[fix round 2026-11-23, review of the checks of the year] Finding sh in sentences is the unit's review of Grade 1: the middle of Grade 2 asks the vowel teams for long a, e and o (RF.2.3.b), or short and long vowels."
+    }
+   ]
+  },
+  "year-1-literacy-middle": {
+   "add": [
+    {
+     "unit": "g1-reading-sentences-and-stories",
+     "lesson": "1:unscramble-sentence",
+     "reason": "[second fix round 2026-11-23] The middle check of Grade 1 kept five parts (word families could not be cut once the related checks keep apart): a second part of Reading Sentences and Stories, taught by the middle of the year (it ends on class day 42 of 135), unscramble the sentence (RF.1.1.a, L.1.1.j)."
+    }
+   ]
+  }
+ }
+}

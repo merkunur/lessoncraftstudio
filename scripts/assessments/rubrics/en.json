@@ -246,5 +246,105 @@
         "secure": { "shows": "Every sentence has a capital and an end mark, and dialogue, where there is some, is in quotation marks with its comma or end mark inside.", "example": "\"Where is Nibbles?\" asked Mia." },
         "next": { "notYet": "Lesson 2, Quotation Marks in Dialogue, Level 1: circle the sentence that shows the exact words.", "nearly": "Quotation Marks in Dialogue, Level 2: circle the sentence written the right way and write two lines of dialogue.", "secure": "Quotation Marks in Dialogue, Level 3: the speaker comes first (Kim said, \"...\")." } }
     ]
+  },
+  "placement-sentence-writing": {
+    "type": "G1-621",
+    "level": 2,
+    "taskA": "facts:horses",
+    "taskB": "facts:rabbits",
+    "lines": 4,
+    "grade": "1",
+    "instruction": "Look at the picture. Write two or three sentences about it.",
+    "teacherNote": "The writing part of the sentence-writing placement check. Give it to every child, also to a child who stopped earlier on the steps: it is not a step of the ladder. Read the direction and the name of the picture aloud; the child writes alone. Its score places the child in the writing units only: a child with 2 on every point starts at the writing units of Grade 2.",
+    "points": [
+      {
+        "id": "about",
+        "name": "Tells about the picture",
+        "kind": "content",
+        "notYet": {
+          "shows": "A word or a list of words, or writing that does not tell about the picture.",
+          "example": "horse brown"
+        },
+        "nearly": {
+          "shows": "One sentence that tells about the picture.",
+          "example": "The horse is big."
+        },
+        "secure": {
+          "shows": "Two or three sentences, and each one tells something about the picture.",
+          "example": "The horse is big. It runs fast. It eats hay."
+        },
+        "next": {
+          "notYet": "Unit Draw and Write: Opinions, Facts, and Stories (Kindergarten), Lesson 2: Teach a fact: draw, label, and write.",
+          "nearly": "Unit Writing: Stories, Opinions, and Facts (Grade 1), Lesson 3: All about a topic: facts and a closing.",
+          "secure": "Start at Writing Stories (Grade 2), Lesson 1: Write about a picture."
+        }
+      },
+      {
+        "id": "complete",
+        "name": "Complete sentences",
+        "kind": "conventions",
+        "notYet": {
+          "shows": "Groups of words that are not sentences: no one who does something, or nothing that is done.",
+          "example": "big horse. run fast."
+        },
+        "nearly": {
+          "shows": "Some sentences are complete thoughts, and some are not.",
+          "example": "The horse is big. Run fast."
+        },
+        "secure": {
+          "shows": "Every sentence is a complete thought.",
+          "example": "The horse is big. It can run fast."
+        },
+        "next": {
+          "notYet": "Unit Draw and Write: Opinions, Facts, and Stories (Kindergarten), Lesson 3: What happened to me: a small moment.",
+          "nearly": "Unit Writing: Stories, Opinions, and Facts (Grade 1), Lesson 1: Write a true story: plan and draft.",
+          "secure": "No extra practice is needed for this point."
+        }
+      },
+      {
+        "id": "capitals",
+        "name": "Capital letters",
+        "kind": "conventions",
+        "notYet": {
+          "shows": "No sentence begins with a capital letter.",
+          "example": "the horse is big. it runs fast."
+        },
+        "nearly": {
+          "shows": "Some sentences begin with a capital letter, but not all of them.",
+          "example": "The horse is big. it runs fast."
+        },
+        "secure": {
+          "shows": "Each sentence begins with a capital letter, and the word I is a capital.",
+          "example": "The horse is big. I like it."
+        },
+        "next": {
+          "notYet": "Unit Writing: Stories, Opinions, and Facts (Grade 1), Lesson 4: Revise and edit with a checklist.",
+          "nearly": "Unit Writing Stories (Grade 2), Lesson 4: Revise and edit a story with a checklist.",
+          "secure": "No extra practice is needed for this point."
+        }
+      },
+      {
+        "id": "endmarks",
+        "name": "End marks",
+        "kind": "conventions",
+        "notYet": {
+          "shows": "No end marks at all.",
+          "example": "The horse is big It runs fast"
+        },
+        "nearly": {
+          "shows": "Some sentences end with a period, a question mark, or an exclamation point; some have none.",
+          "example": "The horse is big. It runs fast"
+        },
+        "secure": {
+          "shows": "Every sentence ends with the right end mark.",
+          "example": "The horse is big. Can it jump? It runs fast!"
+        },
+        "next": {
+          "notYet": "Unit Writing: Stories, Opinions, and Facts (Grade 1), Lesson 4: Revise and edit with a checklist.",
+          "nearly": "Unit Writing Stories (Grade 2), Lesson 4: Revise and edit a story with a checklist.",
+          "secure": "No extra practice is needed for this point."
+        }
+      }
+    ]
   }
 }

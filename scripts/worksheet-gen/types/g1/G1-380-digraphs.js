@@ -84,6 +84,18 @@ const CHECK_EN = {
     'furniture/chair', 'breakfast/cheese', 'easter/chocolate', 'furniture/bench', 'body parts/thumb', 'body parts/tooth'],
   start: ['clothing/shirt', 'clothing/shoe', 'clothing/shorts', 'ocean life/shark', 'beach/shovel', 'furniture/chair', 'breakfast/cheese', 'easter/chocolate'],
 };
+/** (fix round 2026-11-23, review of the placement checks) THE PLACEMENT CHECKS, English, the Kindergarten sort (K-378): two
+ *  boxes a form, one sh and one ch (form A the shovel and the chick, form B the shirt and the cheese). The unit check already
+ *  asks the three reviewed ch pictures (chair, cheese, chocolate), so the placement page reads its own: the chick (a picture
+ *  the bank does not hold) and the cheese in its other drawing (the supermarket's). Read only on a page of a placement check
+ *  (build-checks.js seeds it "check|placement-…"); every other page is the page it was. */
+const PLACEMENT_EN = {
+  start: ['beach/shovel', 'clothing/shirt'],
+  items: [
+    { team: 'ch', vocabKey: 'chick', theme: 'farm animals', noun: 'chick', word: 'chick', seg: ['ch', 'i', 'ck'], snd: ['tʃ', 'ɪ', 'k'], silent: [], stem: 'chick', picOpened: true },
+    { team: 'ch', vocabKey: 'cheese', theme: 'At the Supermarket', noun: 'cheese', word: 'cheese', seg: ['ch', 'ee', 's', 'e'], snd: ['tʃ', 'iː', 'z', ''], silent: ['e'], stem: 'cheese', picOpened: true },
+  ],
+};
 /** THE ITEM BANK, English: one card per reviewed picture of the set's teams (the page's validity rule, the bank's items),
  *  data-lcs-ckind naming its team, so that a check asks every team once in each form.
  *   base      the picture (96 px: as tall as two beads) beside the set's three choice beads, drawn ONCE in the page's column
@@ -93,8 +105,11 @@ const CHECK_EN = {
 function enCheckCards(B, d, rng) {
   const loc = 'en', two = d.mode === 'sort-two';
   const { teams, sounds } = teamsAndSounds(B, { set: two ? 'k' : 'exemplar' }, loc, two ? 2 : 3);
-  const allow = new Set(two ? CHECK_EN.start : CHECK_EN.base);
+  // (fix round 2026-11-23) a page of a placement check: the Kindergarten sort reads PLACEMENT_EN
+  const place = two && /^check\|placement-/.test(String((rng && rng.seed) || ''));
+  const allow = new Set(two ? (place ? PLACEMENT_EN.start : CHECK_EN.start) : CHECK_EN.base);
   const pool = facePools(B, loc, teams, sounds, (it, t) => allow.has(it.theme + '/' + it.noun) && !withdrawn(loc, it) && (two ? positionOf(it, t) === 'beginning' : ['beginning', 'end'].includes(positionOf(it, t))));
+  if (place) for (const it of PLACEMENT_EN.items) if (pool[it.team]) pool[it.team] = pool[it.team].concat([it]);
   const items = shuffle2(rng, teams.flatMap((t, col) => pool[t].map((it) => ({ it, t, col }))));
   if (teams.some((t) => pool[t].length < 2)) throw new Error(`${ID}: en check: a team with fewer than two reviewed pictures`);
   return items.map(({ it, t, col }) => {

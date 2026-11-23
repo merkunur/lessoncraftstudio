@@ -9,6 +9,12 @@
  *
  *   node scripts/assessments/build-teacher-pages.js --loc=en
  *     → out/teacher-files/<loc>/checks/<unit id>/teacher-pages.pdf
+ *
+ * (Stage C-2, 2026-11-22) --year: the teacher pages of the checks of the year (out/assessments/<loc>/year/checks.json):
+ * per part the unit and lesson it comes from and what to re-teach when a child misses it, with the unit's page
+ * (lib/year-pages.js). Three to five pages, like a unit check's.
+ *   node scripts/assessments/build-teacher-pages.js --loc=en --year
+ *     → out/teacher-files/<loc>/checks/<year check id>/teacher-pages.pdf
  */
 'use strict';
 const fs = require('fs');
@@ -22,7 +28,13 @@ const PAPER = loc === 'en' || loc === 'es' ? 'Letter' : 'A4';
 const HOST = 'www.lessoncraftstudio.com';
 const ROWS = 26;                                 // lines of the class record
 const ui = JSON.parse(fs.readFileSync(path.join(REPO, 'frontend', 'content', 'assessments', 'ui.' + loc + '.json'), 'utf8'));
-const checks = JSON.parse(fs.readFileSync(path.join(REPO, 'out', 'assessments', loc, 'checks.json'), 'utf8')).checks;
+const YEAR = process.argv.includes('--year');
+// (Stage C-3) --placement: the teacher pages of the placement checks (lib/placement-pages.js): the stop rule, the steps,
+// where to start per step, the writing guide of the sentence-writing check, a class record
+const PLACEMENT = process.argv.includes('--placement');
+const checks = JSON.parse(fs.readFileSync(path.join(REPO, 'out', 'assessments', loc, ...(YEAR ? ['year'] : PLACEMENT ? ['placement'] : []), 'checks.json'), 'utf8')).checks;
+const { yearHtml } = require('./lib/year-pages');
+const { placementHtml } = require('./lib/placement-pages');
 const units = new Map(JSON.parse(fs.readFileSync(path.join(REPO, 'frontend', 'content', 'units', 'units.' + loc + '.json'), 'utf8')).units.map((u) => [u.id, u]));
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const fill = (s, v) => s.replace(/\{(\w+)\}/g, (_, k) => (v[k] != null ? v[k] : '{' + k + '}'));
@@ -167,9 +179,11 @@ tr.sum { break-before: avoid; page-break-before: avoid; }
 (async () => {
   if (!checks.length) { console.log(loc + ': no check'); return; }
   const browser = await puppeteer.launch({ headless: 'new' });
-  for (const c of checks) {
+  // (fix round 2026-11-23) --unit=<id>[,<id>…]: the teacher pages of these checks only (the others are kept as they are)
+  const only = arg('unit', '') ? arg('unit', '').split(',') : null;
+  for (const c of checks.filter((x) => !only || only.includes(x.unit))) {
     const page = await browser.newPage();
-    await page.setContent(html(c), { waitUntil: 'networkidle0', timeout: 120000 });
+    await page.setContent(PLACEMENT ? placementHtml(c, { ui, loc, esc, fill, HOST, CSS, ROWS, readAloud, writingRows, rubricSection, RUBRICS }) : YEAR ? yearHtml(c, { ui, loc, esc, fill, HOST, CSS, ROWS, readAloud }) : html(c), { waitUntil: 'networkidle0', timeout: 120000 });
     await page.evaluate(() => document.fonts.ready);
     const dir = path.join(REPO, 'out', 'teacher-files', loc, 'checks', c.unit);
     fs.mkdirSync(dir, { recursive: true });
@@ -179,7 +193,10 @@ tr.sum { break-before: avoid; page-break-before: avoid; }
     // how to use + points · what next · class record (Wave 4: and one or two pages of How to score the writing)
     // a check with read-aloud parts adds its texts on a page or two of their own (Kindergarten stories, 2026-11-19)
     const reads = c.sections.some((x) => (x.readsA || []).length || (x.readsB || []).length);
-    const ok = c.writing ? pages >= 4 && pages <= 6 : reads ? pages >= 4 && pages <= 5 : pages === 3;
+    // (a check of the year: how to use and its parts, its texts to read aloud if any, what next, the class record — three
+    //  to five pages; a check of ten parts may take a second page for its parts)
+    // (a placement check: three to five pages; with its writing guide four to six, as a unit check with a writing part)
+    const ok = PLACEMENT ? (c.writing ? pages >= 4 && pages <= 6 : pages >= 3 && pages <= 5) : YEAR ? pages >= 3 && pages <= 5 : c.writing ? pages >= 4 && pages <= 6 : reads ? pages >= 4 && pages <= 5 : pages === 3;
     console.log((ok ? 'ok    ' : 'FAIL  ') + c.unit + ': ' + pages + ' page(s) → ' + path.relative(REPO, file));
     if (!ok) process.exitCode = 1;
     const shot = arg('shot', '');

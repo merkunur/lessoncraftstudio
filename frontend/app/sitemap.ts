@@ -21,7 +21,7 @@ import { listedUnits, unitSiblings } from '@/lib/units';
 import { listedSubPacks, subPackSiblings } from '@/lib/sub-plans';
 import { listedCurriculumPages } from '@/lib/curriculum-pages';
 import { getSchoolsUi } from '@/lib/schools';
-import { getAssessmentUi, listedChecks } from '@/lib/assessments';
+import { getAssessmentUi, listedChecks, listedPlacement, listedYearPages, PLACEMENT_LOCALES, YEAR_LOCALES } from '@/lib/assessments';
 import { READER_HUB_LOCALES, getReaderHubs, readerHubPaths } from '@/lib/readers';
 
 // ISR revalidation: sitemap revalidates every 30 minutes
@@ -438,6 +438,33 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
       for (const locale of liveAssessmentHubs) routes.push({ url: `${baseUrl}/${locale}/assessments`, lastModified: STATIC_CONTENT_DATE, changeFrequency: 'weekly', priority: 0.6, ...(assessmentAlternates ? { alternates: { languages: assessmentAlternates } } : {}) });
     } catch (err) {
       console.warn('[sitemap] assessments URLs failed; skipping:', (err as Error).message);
+    }
+
+    // The checks of the year (Daily Teaching System, Part 7.7, Stage C-2): /<locale>/assessments/<slug>, one page per grade
+    // and subject that has a live check of the year (content/assessments/year.<loc>.json through lib/assessments.ts, the
+    // file the route renders from). English only: hreflang en + x-default.
+    try {
+      for (const locale of YEAR_LOCALES) {
+        for (const p of await listedYearPages(locale)) {
+          const languages = buildHreflangAlternates([locale], (l) => `${baseUrl}/${l}/assessments/${p.slug}`, baseUrl);
+          routes.push({ url: `${baseUrl}/${locale}/assessments/${p.slug}`, lastModified: STATIC_CONTENT_DATE, changeFrequency: 'monthly', priority: 0.6, alternates: { languages } });
+        }
+      }
+    } catch (err) {
+      console.warn('[sitemap] checks-of-the-year URLs failed; skipping:', (err as Error).message);
+    }
+
+    // The placement checks (Daily Teaching System, Part 7.8, Stage C-3): /<locale>/assessments/placement/<slug>, one page per
+    // live placement check (content/assessments/placement.<loc>.json through lib/assessments.ts). English only.
+    try {
+      for (const locale of PLACEMENT_LOCALES) {
+        for (const c of await listedPlacement(locale)) {
+          const languages = buildHreflangAlternates([locale], (l) => `${baseUrl}/${l}/assessments/placement/${c.slug}`, baseUrl);
+          routes.push({ url: `${baseUrl}/${locale}/assessments/placement/${c.slug}`, lastModified: STATIC_CONTENT_DATE, changeFrequency: 'monthly', priority: 0.6, alternates: { languages } });
+        }
+      }
+    } catch (err) {
+      console.warn('[sitemap] placement URLs failed; skipping:', (err as Error).message);
     }
 
     // The reader hubs (Daily Teaching System, Part 8.2): /<locale>/readers and every set or level that has a page of

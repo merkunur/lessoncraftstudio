@@ -788,6 +788,39 @@ function faceVerifyInPage({ ID, TEAL, CORAL }) {
 }
 const FACE_VERIFY = Object.fromEntries(FACE_MODES.map((m) => [m, (page) => page.evaluate(faceVerifyInPage, { ID, TEAL: tokens.color.teal.toUpperCase(), CORAL: tokens.color.coral.toUpperCase() })]));
 
+/** (fix round 2026-11-23, review of the checks of the year) THE CHECKS OF THE YEAR: a card shows three shapes and the teacher
+ *  names one ("Circle the square."): the child circles the SHAPE, so a child who cannot read the names yet (the entry check of
+ *  Kindergarten asked "I will read the three names" over cards of two names) is checked on the shape alone. Built only for a
+ *  page of a check of the year (build-checks.js seeds it "check|year-…"); every other page is the page it was. Eight cards:
+ *  every core shape named twice, each time beside two other core shapes; at level 1 the shapes stand upright, from level 2
+ *  some are turned (the lesson's "some are turned and some are skinny"). The named shape carries data-lcs-correct; the words
+ *  the teacher says stand in data-lcs-teacher-reads (on the key and the teacher pages, never on the child's page). */
+function yearShapeCheck({ difficulty }, ctx) {
+  const { checkGrid } = require('../../lib/check-page.js');
+  const rng = ctx.rng, lv = Number(difficulty) || 2;
+  const R = 46;
+  const figure = (kind) => {
+    const turn = lv >= 2 && rng.next() < 0.5;
+    const o = kind === 'triangle' ? { kind, sub: lv >= 2 && rng.next() < 0.3 ? 'right' : 'equilateral', rot: turn ? rng.int(16, 44) : 0 }
+      : kind === 'rectangle' ? { kind, aspect: aspectDraw(rng, 1.6, 2.0), rot: turn ? rng.int(20, 70) : 0 }
+      : kind === 'square' ? { kind, rot: turn ? 45 : 0 } : { kind };
+    return flatShape(Object.assign({}, o, { R })).svg;
+  };
+  const box = 2 * R + 14;
+  const cards = rng.shuffle(CORE.flatMap((k) => [k, k])).map((kind) => {
+    // a square IS a rectangle: a card that asks for the rectangle never shows a square (two right answers otherwise);
+    // the hexagon (a Kindergarten shape) stands only beside the named one, so the rectangle card still varies
+    const others = rng.shuffle(CORE.concat(['hexagon']).filter((x) => x !== kind && !(kind === 'rectangle' && x === 'square'))).slice(0, 2);
+    const three = rng.shuffle([kind].concat(others));
+    const says = 'Circle the ' + kind + '.';
+    const opts = three.map((k) => '<span data-lcs-choice="' + k + '"' + (k === kind ? ' data-lcs-correct="1"' : '') +
+      ' style="display:inline-flex;align-items:center;justify-content:center;width:' + box + 'px;height:' + box + 'px">' + figure(k) + '</span>').join('');
+    return '<div data-lcs-shapecheck="' + kind + '" data-lcs-teacher-reads="' + esc(says) + '" style="display:flex;align-items:center;justify-content:center;padding:8px 12px">' +
+      '<div data-lcs-threeshapes style="display:flex;align-items:center;justify-content:space-around;gap:26px;width:100%">' + opts + '</div></div>';
+  });
+  return { bodyHtml: '<div data-lcs-shapes-yearcheck="' + lv + '">' + checkGrid(cards, { cols: 1 }) + '</div>', meta: {} };
+}
+
 module.exports = {
   id: ID,
   slug: KEY,
@@ -826,6 +859,13 @@ module.exports = {
     if (m.figs) return m.figs;
     if (m.riddles) return m.riddles;
     return m.answers || [];
+  },
+
+  /** (fix round 2026-11-23) the check page of the checks of the year (yearShapeCheck); any other check page is the build */
+  checkPage(args, ctx) {
+    const seed = String((ctx && ctx.rng && ctx.rng.seed) || '');
+    if (this.id !== ID || !/^check\|year-/.test(seed) || String((args && args.locale) || 'en').slice(0, 2) !== 'en') return this.build(args, ctx);
+    return yearShapeCheck(args, ctx);
   },
 
   build({ difficulty, locale }, ctx) {

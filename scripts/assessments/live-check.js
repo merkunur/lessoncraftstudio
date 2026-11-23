@@ -79,7 +79,56 @@ const dl = (kind, file) => '/api/quota/dl?kind=' + kind + '&loc=' + loc + '&file
     const sm = await req('/sitemap/3.xml');
     check(sm.body.includes('<loc>https://' + HOST + '/' + loc + '/assessments</loc>'), 'the hub is not in the sitemap');
   }
+  // (Stage C-2) the checks of the year: the page of each grade and subject with a live check answers 200, is indexable
+  // and self-canonical, links every part to its lesson, hands out the forms through the metered path and keeps the keys
+  // and teacher pages Teacher-only; a grade and subject without a live check has no page; the hub links every page
+  const yf = path.join(REPO, 'frontend', 'content', 'assessments', 'year.' + loc + '.json');
+  const year = fs.existsSync(yf) ? JSON.parse(fs.readFileSync(yf, 'utf8')).checks : [];
+  const yearPages = [...new Set(year.map((c) => c.slug))];
+  let liveYear = 0;
+  for (const slug of yearPages) {
+    const own = year.filter((c) => c.slug === slug), on = own.filter((c) => c.status === 'live');
+    const page = await req('/' + loc + '/assessments/' + slug);
+    if (!on.length) { check(page.status === 404, 'year page ' + slug + ': no live check, yet it answers ' + page.status); continue; }
+    liveYear += on.length;
+    const w = 'year page ' + slug;
+    check(page.status === 200, w + ': answers ' + page.status);
+    check(page.body.includes('<link rel="canonical" href="https://' + HOST + '/' + loc + '/assessments/' + slug + '"'), w + ': no canonical of its own');
+    check(/<meta name="robots" content="index, follow/.test(page.body), w + ': not indexable');
+    for (const c of own) {
+      check(page.body.includes('id="' + c.time + '"') === (c.status === 'live'), w + ': the ' + c.time + ' check is ' + (c.status === 'live' ? 'missing' : 'shown, though not live'));
+      if (c.status !== 'live') continue;
+      for (const p of c.parts) check(page.body.includes('#lesson-' + p.lesson + '"'), w + ' ' + c.time + ' part ' + p.part + ': no link to its lesson');
+      for (const [kind, name] of [['form', 'check-a'], ['form', 'check-b'], ['teacher', 'key-a'], ['teacher', 'key-b'], ['teacher', 'teacher-pages']]) {
+        const href = dl(kind, 'checks/' + c.id + '/' + name);
+        check(page.body.includes('href="' + amp(href) + '"'), w + ' ' + c.time + ': no link to ' + name);
+        const r = await req(href), to = r.headers.location || '';
+        if (kind === 'form') check((r.status === 302 && /\/auth\/signup\?from=download|\/pricing\?from=download-limit/.test(to)) || (r.status === 200 && /pdf/.test(r.headers['content-type'] || '')), w + ' ' + c.time + ' ' + name + ': answers ' + r.status + ' ' + to);
+        else check(r.status === 302 && /\/auth\/signup\?from=teacher-file/.test(to), w + ' ' + c.time + ' ' + name + ': a Teacher-only file answers ' + r.status + ' ' + to);
+      }
+    }
+    if (liveChecks.length && ui.hubTitle) { const hub = await req('/' + loc + '/assessments'); check(hub.body.includes('href="/' + loc + '/assessments/' + slug + '"'), 'the hub does not link to ' + slug); }
+    check((await req('/sitemap/3.xml')).body.includes('<loc>https://' + HOST + '/' + loc + '/assessments/' + slug + '</loc>'), w + ': not in the sitemap');
+  }
+  // (Stage C-3) the placement checks: a live one answers 200, indexable and self-canonical, links its steps to their lessons,
+  // hands out its forms through the metered path and keeps its keys and teacher pages Teacher-only; one that is not live is 404
+  const pf = path.join(REPO, 'frontend', 'content', 'assessments', 'placement.' + loc + '.json');
+  const placement = fs.existsSync(pf) ? JSON.parse(fs.readFileSync(pf, 'utf8')).checks : [];
+  for (const c of placement) {
+    const w = 'placement ' + c.id, page = await req('/' + loc + '/assessments/placement/' + c.slug);
+    if (c.status !== 'live') { check(page.status === 404, w + ': not live, yet it answers ' + page.status); continue; }
+    check(page.status === 200, w + ': answers ' + page.status);
+    check(page.body.includes('<link rel="canonical" href="https://' + HOST + '/' + loc + '/assessments/placement/' + c.slug + '"'), w + ': no canonical of its own');
+    check(/<meta name="robots" content="index, follow/.test(page.body), w + ': not indexable');
+    for (const s of c.steps) check(page.body.includes('#lesson-' + s.lesson + '"'), w + ' step ' + s.step + ': no link to its lesson');
+    for (const [kind, name] of [['form', 'check-a'], ['form', 'check-b'], ['teacher', 'key-a'], ['teacher', 'key-b'], ['teacher', 'teacher-pages']]) {
+      const href = dl(kind, 'checks/' + c.id + '/' + name), r = await req(href), to = r.headers.location || '';
+      check(page.body.includes('href="' + amp(href) + '"'), w + ': no link to ' + name);
+      if (kind === 'form') check((r.status === 302 && /\/auth\/signup\?from=download|\/pricing\?from=download-limit/.test(to)) || (r.status === 200 && /pdf/.test(r.headers['content-type'] || '')), w + ' ' + name + ': answers ' + r.status + ' ' + to);
+      else check(r.status === 302 && /\/auth\/signup\?from=teacher-file/.test(to), w + ' ' + name + ': a Teacher-only file answers ' + r.status + ' ' + to);
+    }
+  }
   const live = checks.filter((c) => c.status === 'live').length;
-  console.log(loc + ' unit checks: ' + live + ' live of ' + checks.length + ', ' + n + ' checks on the live site; ' + (bad ? bad + ' FAILED' : 'all pass'));
+  console.log(loc + ' unit checks: ' + live + ' live of ' + checks.length + (year.length ? '; checks of the year: ' + liveYear + ' live of ' + year.length : '') + ', ' + n + ' checks on the live site; ' + (bad ? bad + ' FAILED' : 'all pass'));
   process.exit(bad ? 1 : 0);
 })();

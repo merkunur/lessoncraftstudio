@@ -13,6 +13,18 @@
  *     → out/assessments/<loc>/checks.json   what was built (read by the next steps: the teacher pages, the unit page)
  *
  * A unit gets a check when at least MIN_SECTIONS of its lessons have such a type; the others are named in checks.json.
+ *
+ * (Stage C-2, 2026-11-22) THE CHECKS OF THE YEAR: --year builds the checks of the beginning, middle and end of the year
+ * from their blueprint (scripts/assessments/year/<loc>.json, written by year/draft.js). Each is a synthetic unit
+ * { id: 'year-<grade>-<subject>-<time>', title, grade, subject, lessons } whose lessons are copies of their source
+ * lessons carrying `unitId` (and taking only the worksheet type their unit check's part takes, at the blueprint's level).
+ * Every ruling of a lesson is read from its SOURCE unit (rulesFor(l.unitId || u.id)); the seeds are the year check's
+ * own (check|year-…|A), and no box may print what a box of a unit check prints (lib/task-print.js; the unit checks'
+ * prints: year/unit-tasks.<loc>.json, written by assemble.js --unit-tasks); where the pool allows, a check also keeps
+ * clear of the boxes of the checks of the year built before it (the order of the blueprint: end, middle, beginning).
+ *   node scripts/assessments/build-checks.js --loc=en --year [--unit=<year check id>] [--png] [--debug]
+ *     → out/assessments/<loc>/year/<id>/…, out/assessments/<loc>/year/checks.json, out/teacher-files/<loc>/checks/<id>/
+ * A unit build (without --year) is byte for byte what it was.
  */
 'use strict';
 const fs = require('fs');
@@ -29,6 +41,11 @@ const { splitShared } = require('./lib/reads');
 const arg = (k, d) => { const a = process.argv.find((x) => x.startsWith('--' + k + '=')); return a ? a.split('=').slice(1).join('=') : d; };
 const has = (k) => process.argv.includes('--' + k);
 const loc = arg('loc', 'en');
+// (Stage C-2) the checks of the year; (Stage C-3) the placement checks: a synthetic check of lessons across grades, built
+// by the same machinery (YEAR stands for both; PLACEMENT for what only the placement checks do)
+const PLACEMENT = has('placement');
+const YEAR = has('year') || PLACEMENT;
+const { taskPrint } = require('./lib/task-print');
 const MIN_SECTIONS = 3;
 // a page of another level than 2 may print a direction of its own (i18n/level-instructions.json): the check's part of a
 // lesson that hands out that level says that line, not the type's general one
@@ -116,7 +133,8 @@ const readsHtml = (s) => { const r = s.cards.map(readsOf); if (!r.some(Boolean))
   if (sp.shared) return '<div class="tc-reads">' + `<p class="tc-read"><b>${esc(ui.keyReadAloud)}</b> ${esc(sp.shared)}</p>` + sp.rest.map((t, i) => `<p class="tc-read"><b>(${i + 1})</b> ${esc(t)}</p>`).join('') + '</div>';
   return '<div class="tc-reads">' + r.map((t, i) => (t ? `<p class="tc-read"><b>${esc(ui.keyReadAloud)}${r.length > 1 ? ' (' + (i + 1) + ')' : ''}</b> ${esc(t)}</p>` : '')).join('') + '</div>'; };
 const sectionHtml = (s, n, key) => s.writing ? writingHtml(s, n, key) : `<section class="tc-section" data-tc-part="${n}"><p class="tc-instr"><span class="tc-part">${n}</span><span>${esc(s.instruction)}</span></p>` +
-  (key && (rules.keyNote || {})[s.type] ? `<p class="tc-keynote">${esc(rules.keyNote[s.type])}</p>` : '') + (key ? readsHtml(s) : '') +
+  // (a check of the year: the key note of the part's SOURCE unit, kept on the section; a unit check: its unit's list)
+  (key && (YEAR ? s.keyNote : (rules.keyNote || {})[s.type]) ? `<p class="tc-keynote">${esc(YEAR ? s.keyNote : rules.keyNote[s.type])}</p>` : '') + (key ? readsHtml(s) : '') +
   (s.styles || []).join('') + (key && (s.keyStyles || []).length ? '<style>' + s.keyStyles.map((r) => { const at = r.indexOf('{'); return r.slice(0, at).split(',').map((x) => '[data-tc-part="' + n + '"] ' + x.trim()).join(',') + r.slice(at); }).join('') + '</style>' : '') +                                                    // the style sheet a worksheet type carries in its page
   `<div class="tc-cards" style="grid-template-columns:repeat(${s.perRow},${s.w}px);grid-auto-rows:${s.h}px">${s.cards.map((c, i) => { const h0 = renumber(key && c.keyHtml ? c.keyHtml : c.html, i + 1); const h = s.cards.length > 1 && s.cards.some(readsOf) && !/ws-card-badge/.test(h0) ? h0.replace('data-tc-unit=""', 'data-tc-unit="" data-tc-row="' + (i + 1) + '"') : h0; return key && said(c) ? h.replace('data-tc-unit=""', 'data-tc-unit="" data-tc-says="' + esc(said(c)) + '"') : h; }).join('')}</div></section>`;
 const renumber = (html, n) => html.replace(/(<span class="ws-card-badge">)\d+(<\/span>)/, '$1' + n + '$2').replace(/data-lcs-card="\d+"/, 'data-lcs-card="' + n + '"')
@@ -167,7 +185,8 @@ function writingOf(u, R) {
   const tasks = (type.checkWrite({ theme: null, difficulty: R.level, locale: loc, unit: null }, { check: true }) || {}).tasks || [];
   if (R.taskA === R.taskB) throw new Error(u.id + ': the rubric gives both forms the task ' + R.taskA);
   const pick = (id) => { const t = tasks.find((x) => x.id === id); if (!t) throw new Error(u.id + ': the rubric names the task ' + id + ', which ' + R.type + ' at level ' + R.level + ' does not hold'); return t; };
-  const base = { writing: true, rubric: R, grade: String(u.grade), type: R.type, instruction: R.instruction };
+  // (a placement check spans grades: its rubric names the grade whose writing lines its part prints)
+  const base = { writing: true, rubric: R, grade: String(R.grade || u.grade), type: R.type, instruction: R.instruction };
   return { A: Object.assign({ task: pick(R.taskA) }, base), B: Object.assign({ task: pick(R.taskB) }, base) };
 }
 const pageHtml = (title, sections, first, opts) => buildPage({
@@ -338,6 +357,83 @@ const regroups = (c) => {
   for (let i = 0; i < Math.max(x.length, y.length); i++) { const a = x[i] || 0, b = y[i] || 0; carry = m[2] === '+' ? (a + b + carry >= 10 ? 1 : 0) : (a - carry < b ? 1 : 0); n += carry; }
   return n;
 };
+/** (Stage C-2) a box as the text listing of a check describes it (dump.json below: its words, its pictures, its answer),
+ *  and its print (lib/task-print.js): a check of the year never prints a box a unit check or an earlier check of the year
+ *  prints. The same text, pictures and answer as the listing writes them. */
+const boxText = (h) => h.replace(/<style[^]*?<\/style>/g, ' ').replace(/<svg[^]*?<\/svg>/g, ' ').replace(/<[^>]+>/g, ' ').replace(/&[a-z#0-9]+;/g, ' ').replace(/\s+/g, ' ').trim();
+const boxPics = (h) => [...h.matchAll(/src="[^"]*?([^"\/]+)\/([^"\/]+?)(?:@\dx)?\.(?:webp|png|svg)"/g)].map((m) => decodeURIComponent(m[1] + '/' + m[2]));
+// (computed afresh each time and leaving no trace on the card: textOf keeps its text on the card, and a card's key may
+// still change after the pool is filtered)
+// (a box that is a drawing only is told apart by its worksheet type and the fingerprint of its key, as the forms keep it)
+const sigOf = (c, type) => crypto.createHash('sha1').update(c.key.startsWith('n:') ? c.key : type + '|' + c.key).digest('hex').slice(0, 16);
+const printOf = (c, type) => { const kept = c._text; c._text = null; const t = textOf(c); c._text = kept; return taskPrint({ text: t || boxText(c.html).replace(/^\d+\s*/, ''), pictures: boxPics(c.html), answer: String(c.ans) }, { type, sig: sigOf(c, type) }); };
+// the prints a check of the year may not take: those of the unit checks always; those of the checks of the year built
+// before it where the pool allows (a type of few tasks — ten shapes to count the sides of — would otherwise be used up
+// by the unit check and the first check of the year; the forms of one check never share a task either way)
+let YEAR_EXCLUDE = null, YEAR_STRICT = null, YEAR_LOOSE = null;
+/** (fix round 2026-11-23) THE NO-REPEAT RULE between related checks: the three checks of the year of one grade and subject,
+ *  the end check of a grade and the beginning check of the next (the same subject), and every check of the year against
+ *  every placement check. Besides the print and the typed fingerprint, two stronger fingerprints of a box count there:
+ *  the same ITEM with the same WORD answer of the same worksheet type ("wa:", a card that prints words, without its options,
+ *  and an answer of three letters or more: the opposite of true asked among other words is the same task) and the same TEXT read ("tx:", data-lcs-text: a story or a passage read again with
+ *  another question). Kept hashed; gates.js (T19) reads them from the content files. */
+/** the words of a card without the element that holds its options (the parent of its first right option): what a choice
+ *  card asks, as text ("true" of "true: big, correct, false"; "Birds fly ___ in spring."); null for a card without options */
+const VOID_TAGS = new Set(['img', 'br', 'hr', 'input', 'meta', 'link', 'area', 'base', 'col', 'embed', 'source', 'track', 'wbr']);
+const askTextOf = (html) => {
+  const re = /<\/?([a-zA-Z][\w-]*)[^>]*>/g, stack = [];
+  let m, target = null;
+  while ((m = re.exec(html))) {
+    const name = m[1].toLowerCase();
+    if (m[0][1] === '/') { const open = stack.pop(); if (target && open === target) return (html.slice(0, target.start) + ' ' + html.slice(re.lastIndex)).replace(/<style[^]*?<\/style>/g, ' ').replace(/<svg[^]*?<\/svg>/g, ' ').replace(/<[^>]+>/g, ' ').replace(/&[a-z#0-9]+;/g, ' ').replace(/\s+/g, ' ').trim().toLowerCase(); continue; }
+    if (!target && /\sdata-lcs-correct(?:[=\s>\/]|$)/.test(m[0]) && !/data-lcs-correct="(?:0|false)"/.test(m[0])) { target = stack[stack.length - 1] || null; if (!target) return null; }
+    if (!/\/\s*>$/.test(m[0]) && !VOID_TAGS.has(name)) stack.push({ start: m.index });
+  }
+  return null;
+};
+const moreOf = (c, type) => {
+  const out = [];
+  const ans = String(c.ans).split('|').map((x) => x.replace(/^\d+:/, '').trim().toLowerCase()).join('|');
+  // (the item, not the answer alone: a card that prints words, as text without the element that holds its options
+  // (askTextOf; a card whose options the cutter does not mark: the SET of its words, in any order) and its answer; a closed set of answers — the names of four shapes, simple,
+  // compound, complex — is many items)
+  // (second fix round) a card that holds nothing but its options and its pictures: a picture the answer word names is that
+  // word's item, whatever its drawing (rock: camping/rock and beach/rock); other pictures (seven apples: odd) are the item
+  // with all their copies; a card that holds nothing but a drawing has no word item (its print and fingerprint compare it)
+  const all = boxPics(c.html).slice().sort(), named = all.some((x) => x.split('/')[1].replace(/_\d+$/, '').replace(/_/g, ' ').toLowerCase() === ans);
+  if (/\p{L}{3,}/u.test(ans) && /\p{L}/u.test(textOf(c))) { const item = askTextOf(c.html);
+    const what = item == null ? [...new Set(textOf(c).toLowerCase().split(/[^\p{L}\p{N}]+/u).filter(Boolean))].sort().join(' ') : item !== '' ? item : all.length ? (named ? '' : all.join(',')) : null;
+    if (what != null) out.push('wa:' + crypto.createHash('sha1').update(type + '|' + what + '|' + ans).digest('hex').slice(0, 16)); }
+  // (second fix round) the same TEXT is the same text whatever its paragraph or task: data-lcs-text names "<text>|<task>"
+  const t = textId(c);
+  if (t) out.push('tx:' + crypto.createHash('sha1').update(String(t).split('|')[0]).digest('hex').slice(0, 16));
+  // … the same PICTURE with the same answer word is the same box, whatever its options and their order (log lock, lock log)
+  // (every copy of a picture: seven apples are not nine apples)
+  if (all.length && /\p{L}{2,}/u.test(ans)) out.push('pa:' + crypto.createHash('sha1').update(all.join(',') + '|' + ans).digest('hex').slice(0, 16));
+  // … and a box of several sentences ("Every day Mia ___ in the park. (hop)"): every sentence with its verb is an item ('se:'),
+  // and its frame without the verb ('fr:', for the two forms of one check only: the same frame with another verb)
+  const sents = [...textOf(c).matchAll(/([^.?!()]*?[.?!])\s*\((\p{L}+)\)/gu)];
+  if (sents.length >= 2) for (const m of sents) { const fr = m[1].toLowerCase().replace(/\s+/g, ' ').trim(); out.push('se:' + crypto.createHash('sha1').update(type + '|' + fr + '|' + m[2].toLowerCase()).digest('hex').slice(0, 16), 'fr:' + crypto.createHash('sha1').update(type + '|' + fr).digest('hex').slice(0, 16)); }
+  return out;
+};
+/** (second fix round) the fingerprints that make two boxes ONE ITEM for a child taking form A and form B of one check: the
+ *  item with its answer, the picture with its answer, a sentence, a sentence frame (not the text read: two parts of one form
+ *  may read one text) */
+const itemKeys = (c, type) => (c._items && c._itemsType === type ? c._items : (c._itemsType = type, c._items = moreOf(c, type).filter((k) => /^(wa|pa|se|fr):/.test(k))));
+let ITEMS_A = new Set(), ITEMS_B = new Set();
+/** two checks of the year whose boxes the rule keeps apart (ids year-<k|1|2|3>-<subject>-<time>) */
+const YEAR_ID = /^year-(k|\d)-([a-z]+)-(beginning|middle|end)$/;
+const relatedYear = (a, b) => {
+  const x = YEAR_ID.exec(a), y = YEAR_ID.exec(b), G = ['k', '1', '2', '3'];
+  if (!x || !y || x[2] !== y[2] || a === b) return false;
+  if (x[1] === y[1]) return true;
+  const nx = G.indexOf(x[1]), ny = G.indexOf(y[1]);
+  // (second fix round) the beginning check of a grade is kept apart from the end AND the middle check of the grade before
+  return (ny === nx + 1 && x[3] !== 'beginning' && y[3] === 'beginning') || (nx === ny + 1 && y[3] !== 'beginning' && x[3] === 'beginning');
+};
+/** (a check of the year, for its reviewer) a key that draws its answer by a style (the sentence put in order, the person
+ *  word in its socket) has no answer the listing can print: the answer the card's own markup names is given instead */
+const keyReads = (c) => { if (!/^key:/.test(String(c.ans))) return {}; const v = [...c.html.matchAll(/data-lcs-(?:canonical|person)="([^"]+)"/g)].map((m) => unesc(m[1])); return v.length ? { keyReads: [...new Set(v)].join(' | ') } : {}; };
 /** the pictures of a task of words or sounds (cut-cards.js: keys t: and p:), by name: a picture stands once in a form,
  *  whatever the part (the zebra of the sound boxes is not spelled two parts further down) */
 const picsOf = (c) => (/^[tp]:/.test(c.key) ? (c._pics || (c._pics = [...new Set([...c.html.matchAll(/src="[^"]*?([^"\/]+)\/([^"\/]+?)(?:@\dx)?\.(?:webp|png|svg)"/g)].map((m) => decodeURIComponent(m[1] + '/' + m[2])))])) : []);
@@ -429,7 +525,7 @@ function chooseBOnce(plan, cardsA, usedA, usedB, soloB) {
       // (review sv.review-2) a figure of form A's box does not stand in form B's box; a word of as many sounds as form A's
       && !(plan.otherDrawings && drawingsOf(c).some((d) => cardsA.some((x) => drawingsOf(x).includes(d)))) && !(plan.sameSize && c.mag !== ca.mag) && !(plan.otherFirst && (c.given || [])[0] === (ca.given || [])[0])
       && !(plan.sameGap && Math.abs(gap(c) - gap(ca)) > 1) && !(plan.otherRest && (rest(c)[0] === rest(ca)[0] || rest(c)[1] === rest(ca)[1])) && !(plan.disjointForm && wordsOf(c).some((w) => inWords(WORDS_B, w)))
-      && !out.some((x) => x.key === c.key || (x.ans === c.ans && !(/^[tp]:/.test(c.key) && /^\d+$/.test(String(c.ans)) && c.mag === 0)) || (x.ask && x.ask === c.ask) || (c.mag > 0 && x.mag === c.mag)) && !(!plan.sharesOk && shares(plan, c, out.concat(cardsA))));
+      && !out.some((x) => x.key === c.key || (x.ans === c.ans && !(/^[tp]:/.test(c.key) && /^\d+$/.test(String(c.ans)) && c.mag === 0)) || (x.ask && x.ask === c.ask) || (c.mag > 0 && x.mag === c.mag)) && !(!plan.sharesOk && shares(plan, c, out.concat(cardsA))) && !(YEAR && textId(c) && cardsA.some((x) => textId(x) === textId(c))) && !itemKeys(c, plan.type).some((k) => ITEMS_A.has(k) || ITEMS_B.has(k) || cardsA.some((x) => itemKeys(x, plan.type).includes(k))) && !out.some((x) => itemKeys(x, plan.type).some((k) => itemKeys(c, plan.type).includes(k))));
     const asked = new Set(cardsA.map((x) => x.ans));
     const seenInA = (x) => (picsOf(x).some((p) => PICS_A.has(p)) ? 1 : 0);
     // (a task of sounds whose answer IS its size — four sounds — keeps that size in form B: another word of four sounds)
@@ -472,8 +568,38 @@ function chooseBOnce(plan, cardsA, usedA, usedB, soloB) {
   const grades = arg('grades', '') ? arg('grades', '').split(',') : null;
   const subject = arg('subject', '');
   const only = arg('unit', '');
-  const units = unitsFile.units.filter((u) => u.status === 'live' && (!only || u.id === only) && (!subject || u.subject === subject) && (!grades || grades.includes(String(u.grade))));
-  const outRoot = path.join(REPO, 'out', 'assessments', loc);
+  // (Stage C-2) --year: the checks of the year as synthetic units, in the order of their blueprint
+  const blueprint = YEAR ? JSON.parse(fs.readFileSync(path.join(__dirname, PLACEMENT ? 'placement' : 'year', loc + '.json'), 'utf8')) : null;
+  const yearUnit = (c) => {
+    const copy = (p, n) => {
+      const src = unitsFile.units.find((x) => x.id === p.unit), l = src && src.lessons.find((x) => (x.id || x.point) === p.lesson);
+      if (!l) throw new Error(c.id + ': the unit ' + p.unit + ' has no lesson ' + p.lesson + ' (run year/draft.js)');
+      const paper = (l.paper || []).map((x) => Object.assign({}, x)), own = paper.find((x) => x.type === p.type);
+      if (!own) throw new Error(c.id + ': lesson ' + p.lesson + ' of ' + p.unit + ' hands out no ' + p.type + ' (run year/draft.js)');
+      if (p.level) own.level = p.level;              // the Kindergarten entry check: the easy level
+      return Object.assign({}, l, { n, srcN: l.n, startAt: p.startAt || null, unitId: p.unit, unitTitle: src.title, unitSlug: src.slug, onlyType: p.type, paper: [own].concat(paper.filter((x) => x !== own)) });
+    };
+    // (a part's alternates: the other parts of its unit's check, best first, tried in its place when it gives no part)
+    const lessons = c.parts.map((p, i) => Object.assign(copy(p, i + 1), { alts: (p.alts || []).map((a) => copy(Object.assign({ unit: p.unit }, a), i + 1)) }));
+    const title = PLACEMENT ? fill(ui.placeCheckTitle, { path: ui['placePath_' + c.path] }) : fill(ui.yearCheckTitle, { grade: ui['yearGrade_' + c.grade], subject: ui['yearSubject_' + c.subject], time: ui['yearTime_' + c.time] });
+    return { id: c.id, slug: c.slug, title, grade: c.grade, subject: c.subject, status: 'live', year: c, lessons };
+  };
+  const units = YEAR ? blueprint.checks.filter((c) => (!only || c.id === only) && (!subject || c.subject === subject) && (!grades || grades.includes(String(c.grade)))).map(yearUnit)
+    : unitsFile.units.filter((u) => u.status === 'live' && (!only || u.id === only) && (!subject || u.subject === subject) && (!grades || grades.includes(String(u.grade))));
+  const outRoot = YEAR ? path.join(REPO, 'out', 'assessments', loc, PLACEMENT ? 'placement' : 'year') : path.join(REPO, 'out', 'assessments', loc);
+  // the prints no check of the year may take: every box of every unit check (both forms) and every box of the checks of
+  // the year that come before it in the blueprint (built in this run, or in an earlier one)
+  // … and the same TYPE with the same fingerprint of what a card asks ("ts:<type>|<sig>", from the committed checks file):
+  // a story page reads the same story in a part of the same kind whatever the order of its options, and the same fact
+  // of one type is one task
+  const typedSigs = (parts, cards) => parts.flatMap((t, i) => (cards[i] || []).map((sig) => 'ts:' + t + '|' + sig));
+  const unitPrints = YEAR ? (() => { const f = path.join(__dirname, 'year', 'unit-tasks.' + loc + '.json'); if (!fs.existsSync(f)) throw new Error('no ' + path.relative(REPO, f) + ' (run assemble.js --loc=' + loc + ' --unit-tasks first)'); const s = new Set(); for (const v of Object.values(JSON.parse(fs.readFileSync(f, 'utf8')).units)) for (const k of ['A', 'B']) for (const p of v[k].flat()) s.add(p);
+    for (const c of JSON.parse(fs.readFileSync(path.join(REPO, 'frontend', 'content', 'assessments', 'checks.' + loc + '.json'), 'utf8')).checks) for (const k of ['A', 'B']) for (const x of typedSigs(c.parts.map((p) => p.type), c.forms[k].cards)) s.add(x);
+    // (a placement check) … and every box of the checks of the year (their prints and their typed fingerprints)
+    if (PLACEMENT) { const yf = path.join(REPO, 'out', 'assessments', loc, 'year', 'checks.json'); if (!fs.existsSync(yf)) throw new Error('no ' + path.relative(REPO, yf) + ' (build the checks of the year first: a placement check keeps clear of their boxes)');
+      for (const c of JSON.parse(fs.readFileSync(yf, 'utf8')).checks) for (const k of ['A', 'B']) for (const x of c.forms[k].tasks.flat().concat(typedSigs(c.sections.map((q) => q.type), c.forms[k].sigs), (c.forms[k].more || []).flat(2))) s.add(x); }
+    return s; })() : null;
+  const yearPrintsBefore = YEAR ? (() => { const f = path.join(outRoot, 'checks.json'); return fs.existsSync(f) ? new Map(JSON.parse(fs.readFileSync(f, 'utf8')).checks.map((c) => [c.unit, ['A', 'B'].flatMap((k) => c.forms[k].tasks.flat().concat(typedSigs(c.sections.map((s) => s.type), c.forms[k].sigs), (c.forms[k].more || []).flat(2)))])) : new Map(); })() : null;
   fs.mkdirSync(outRoot, { recursive: true });
   const browser = await puppeteer.launch({ headless: 'new' });
   const page = await browser.newPage();
@@ -483,22 +609,54 @@ function chooseBOnce(plan, cardsA, usedA, usedB, soloB) {
   for (const u of units) {
     rules = rulesFor(u.id);
     if (rules.noCheck[u.id]) { console.log('--    ' + u.id + ': no check by a ruling: ' + rules.noCheck[u.id]); continue; }
+    if (YEAR) {
+      YEAR_LOOSE = new Set(unitPrints);
+      YEAR_STRICT = new Set(unitPrints);
+      for (const c of blueprint.checks) { if (c.id === u.id) break; for (const p of yearPrintsBefore.get(c.id) || []) { YEAR_STRICT.add(p); if (relatedYear(c.id, u.id)) YEAR_LOOSE.add(p); } }
+    }
     const dir = path.join(outRoot, u.id);
     fs.rmSync(dir, { recursive: true, force: true });
     fs.mkdirSync(dir, { recursive: true });
     // ---- the blueprint: one section per lesson that has a type of answer-carrying cards ----
-    const sections = { A: [], B: [] }, left = [], plans = [];
-    const usedA = new Set(), usedB = new Set();          // the facts a form has asked (a fact stands once in a form, and in one form only)
+    let sections, left, plans, usedA, usedB, soloA, soloB;
+    // (Stage C-2) a check of the year whose lesson gives no form B once every task of form A is known is chosen again from
+    // the start, that lesson skipped: its place takes its next alternate. A unit check is chosen once, as before.
+    const skip = new Set();
+    for (let attempt = 0; ; attempt++) {
+    sections = { A: [], B: [] }; left = []; plans = [];
+    usedA = new Set(); usedB = new Set();                // the facts a form has asked (a fact stands once in a form, and in one form only)
     PICS_A = new Set(); PICS_B = new Set(); WORDS_A = new Set(); WORDS_B = new Set(); TEXTS_A = new Set(); TEXTS_B = new Set();
+    ITEMS_A = new Set(); ITEMS_B = new Set();          // (second fix round) the items each form asks
     PAGE_INSTR = (/^[23]$/.test(String(u.grade)) && ui.pageInstructionReaders) || ui.pageInstruction;
-    const soloA = new Set(), soloB = new Set();          // the single numbers a form has asked (9 pictures: once in a form)
-    for (const l of u.lessons) {
-      let found = null;
+    soloA = new Set(); soloB = new Set();                // the single numbers a form has asked (9 pictures: once in a form)
+    const took = new Set();                              // (a check of the year: the lessons its parts are cut from)
+    for (const l0 of u.lessons) {
+      let found = null, dropped = false;
       const why = [];
+      // (Stage C-2) a part of a check of the year may name ALTERNATES: the other parts of its unit's check, best first. When
+      // its lesson cannot give a part (a worksheet of few tasks whose every box the unit check already prints), the first
+      // alternate that can stands in its place. A lesson of a unit check has none: one pass, as before.
+      for (const l of [l0].concat(l0.alts || [])) {
+      if (found) break;
+      if (l !== l0 && took.has(l.unitId + '|' + (l.id || l.point))) continue;
+      if (YEAR && skip.has(l.unitId + '|' + (l.id || l.point))) continue;
+      // (Stage C-2) every ruling of a lesson is its SOURCE unit's (a lesson of a check of the year carries unitId; a lesson
+      // of a unit check is its unit's own: the same rules as before)
+      rules = rulesFor(l.unitId || u.id);
+      // (a check of the year) the rulings for the checks of the year only (lists/<loc>.json → year), laid over the source
+      // unit's as a unit's own are laid over the language's: a unit check never reads them
+      // (Stage C-3: and for a placement check, the rulings for the placement checks only, lists/<loc>.json → placement)
+      for (const extra of [YEAR && baseRules.year, PLACEMENT && baseRules.placement]) if (extra) { const own = rules; rules = { ...own }; for (const [kind, v] of Object.entries(extra)) if (!kind.startsWith('$')) rules[kind] = Array.isArray(v) ? [...(own[kind] || []), ...v] : (v && typeof v === 'object') ? { ...(own[kind] || {}), ...v } : v; }
       // a ruling names a lesson by its key (its id, or its teaching point): the number of a lesson moves when lessons are added
-      const dropWhy = (rules.drop[u.id] || {})[l.id || l.point];
-      if (dropWhy) { left.push(l.n); if (has('debug')) console.log('      lesson ' + l.n + ' is left out by a ruling: ' + dropWhy); continue; }
+      const dropWhy = (rules.drop[l.unitId || u.id] || {})[l.id || l.point];
+      if (dropWhy) { if (l === l0) { dropped = true; if (has('debug')) console.log('      lesson ' + l.n + ' is left out by a ruling: ' + dropWhy); } continue; }
+      // (a check of the year: first clear of the boxes of the unit checks and of the earlier checks of the year, then, when that
+      // leaves the lesson without a part, clear of the unit checks' boxes only. A unit check: one pass, as before)
+      for (const excl of YEAR ? [YEAR_STRICT, YEAR_LOOSE] : [null]) {
+      if (found) break;
+      YEAR_EXCLUDE = excl;
       for (const p of l.paper || []) {
+        if (l.onlyType && p.type !== l.onlyType) continue;   // (a lesson of a check of the year: the type its unit check takes)
         const file = typeFiles.get(p.type);
         if (!file || !strings[p.type]) continue;
         if ((rules.dropType || {})[p.type]) { why.push(p.type + ': left out by a ruling (' + rules.dropType[p.type].slice(0, 60) + '…)'); continue; }
@@ -506,9 +664,13 @@ function chooseBOnce(plan, cardsA, usedA, usedB, soloB) {
         const poolOf = async (typeId, form) => {
           const file = typeFiles.get(typeId), type = require(file), p = { type: typeId };
           // the level the lesson hands out to everyone (its page for everyone is level 2 unless the lesson names another)
-          const lv = ((l.paper || []).find((x) => x.type === typeId) || {}).level || 2;
+          // (fix round 2026-11-23) a ruling `level` (checks of the year and placement only): the page of another level of the lesson's
+          // own worksheet (its hard page, where the end of the year asks more than the lesson's first page)
+          const lv = (rules.level || {})[typeId] || ((l.paper || []).find((x) => x.type === typeId) || {}).level || 2;
           let cols = 0; const cards = [], seen = new Set(), styles = [], keyStyles = [];
-          for (let k = 1; k <= SEEDS; k++) {
+          // (a ruling `seeds`, for the checks of the year only: a type whose pages hold few different tasks builds more pages to
+          // choose from, once the unit check's boxes are taken out)
+          for (let k = 1; k <= ((rules.seeds || {})[typeId] || SEEDS); k++) {
             const r = await cached({ file, typeId: type.id + (lv === 2 ? '' : '@' + lv), seed: 'check|' + u.id + '|' + form + (k > 1 ? k : ''), theme: (rules.theme || {})[typeId] || THEMES[form] }, (seed) => cutCards(page, { type, strings: strings[p.type], locale: loc, seed, theme: (rules.theme || {})[typeId] || THEMES[form], outDir: dir, difficulty: lv }));
             if (r.refused) return r;
             if (cols && r.cols !== cols) return { refused: 'its page changes its columns' };
@@ -548,6 +710,8 @@ function chooseBOnce(plan, cardsA, usedA, usedB, soloB) {
         const listed = (name) => (rules[name] || []).includes(p.type);
         const gcd = (x, y) => (y ? gcd(y, x % y) : x);
         for (const pool of [a, b]) {
+          // (Stage C-2) a check of the year never prints a box that a unit check or an earlier check of the year prints
+          if (YEAR_EXCLUDE) { const n0 = pool.cards.length; pool.cards = pool.cards.filter((c) => !YEAR_EXCLUDE.has(printOf(c, p.type)) && !YEAR_EXCLUDE.has('ts:' + p.type + '|' + sigOf(c, p.type)) && !moreOf(c, p.type).some((k) => YEAR_EXCLUDE.has(k))); if (has('debug') && pool.cards.length < n0) console.log('      [lesson ' + l.n + ', ' + p.type + '] ' + (n0 - pool.cards.length) + ' of ' + n0 + ' boxes of form ' + (pool === a ? 'A' : 'B') + '\'s pool are boxes of another check'); }
           if (listed('lowestTerms')) pool.cards = pool.cards.filter((c) => { const f = String(c.ans).split('|').map(Number); return !(f.length === 2 && f.every(Number.isInteger) && gcd(f[0], f[1]) > 1); });
           if ((rules.avoidAns || {})[p.type]) { const re = new RegExp(rules.avoidAns[p.type]); pool.cards = pool.cards.filter((c) => !re.test(String(c.ans))); }
           // (second review 2026-11-15) avoidHtml: a card whose markup matches is not taken (a figure that is its own mirror
@@ -578,6 +742,8 @@ function chooseBOnce(plan, cardsA, usedA, usedB, soloB) {
           if ((rules.kindAttr || {})[p.type]) for (const c of pool.cards) { const m = new RegExp('data-lcs-' + rules.kindAttr[p.type] + '="([^"]*)"').exec(c.html); if (m && !c.kinded) { c.kind += ' ·' + m[1]; c.kinded = 1; } }
           if (listed('kindFolder')) for (const c of pool.cards) if (!c.kinded) { const folder = (allPics(c)[0] || '').split('/')[0]; c.kind += /^(occupations|hospital|classroom)$/.test(folder) || /girl|boy/.test(allPics(c)[0] || '') ? ' ·person' : ' ·thing'; c.kinded = 1; }
           if (listed('kindRegroup')) for (const c of pool.cards) if (!c.kinded) { c.kind += ' ·r' + regroups(c); c.kinded = 1; }
+          // (fix round 2026-11-23) needRegroup: only sums and differences that regroup (the end of Grade 2: within 100 WITH regrouping)
+          if (listed('needRegroup')) pool.cards = pool.cards.filter((c) => regroups(c) > 0);
           if (listed('endMark')) for (const c of pool.cards) if (!c.kinded) { c.kind += /\?/.test(textOf(c)) ? ' ·?' : ' ·.'; c.kinded = 1; }
           // (review sv.review-1) further rulings on single types: a picture a type does not show; numbers a type does not
           // print (a number another part of the unit already asks); a kind of task named by what the box prints and
@@ -597,6 +763,8 @@ function chooseBOnce(plan, cardsA, usedA, usedB, soloB) {
           if (listed('notLongest')) pool.cards = pool.cards.filter((c) => { const lens = [...c.html.matchAll(/class="ws-pattern-chip"[^>]*data-lcs-len="(\d+)"/g)].map((m) => Number(m[1])); const den = Number((/data-lcs-den="(\d+)"/.exec(c.html) || [])[1]); return lens.length >= 3 && den < Math.max(...lens); });
           if (listed('pairKind')) { for (const c of pool.cards) { const g = c.given || []; c.pair = g.length === 4 ? (g[0] === g[2] ? 'top' : g[1] === g[3] ? 'bottom' : 'mixed') : 'mixed'; c.kind += ' ·' + c.pair; } pool.cards = pool.cards.filter((c) => c.pair !== 'mixed'); }
         }
+        // (Stage C-2) a check of the year whose pool is emptied by the boxes of other checks has no part of this type
+        if (YEAR_EXCLUDE && (a.cards.length < 1 || b.cards.length < 1)) { why.push(p.type + ': no box is left once the boxes of the unit checks (and of the earlier checks of the year) and the rulings are taken out'); continue; }
         if ((listed('lowestTerms') || (rules.avoidAns || {})[p.type] || (rules.avoidPicturesOf || {})[p.type] || (rules.avoidNums || {})[p.type] || (rules.nearWrong || {})[p.type] || listed('pairKind') || (rules.onlyPictures || {})[p.type] || (rules.onlyText || {})[p.type] || (rules.plainChunks || {})[p.type] || listed('avoidEcho')) && (a.cards.length < 2 || b.cards.length < 2)) { why.push(p.type + ': the rulings leave too few cards'); continue; }
         // a task of sounds whose answer is a number only the key writes (how many syllables, how many sounds): that
         // number is its size (a part does not ask the same count twice; form B asks about as many)
@@ -628,17 +796,25 @@ function chooseBOnce(plan, cardsA, usedA, usedB, soloB) {
         const plan = { lesson: l.n, lessonTitle: l.title, point: l.point, type: p.type, typeTitle: titles.join(' · '), types: [p.type].concat(more), sources: 1 + more.length, instruction: rules.instruction[p.type] || levelLine(p) || a.instruction, perRow: a.cols === 1 ? 1 : a.cols, cols: a.cols, take, a, b, furniture, distinctAnswers: listed('distinctAnswers'), small: !!((rules.onlyPictures || {})[p.type] || (rules.plainChunks || {})[p.type]), slotWide: (rules.slotWide || {})[p.type] || null, mixKinds: listed('mixKinds'), sameAnswer: listed('sameAnswer'), disjoint: listed('disjointWords'), sameGiven: listed('sameGiven'), sameLook: listed('sameLook'), sameGap: listed('sameGap'), otherRest: listed('otherRest'), otherLead: listed('otherLead'), otherDrawings: listed('otherDrawings'), sameSize: listed('sameSize'), otherFirst: listed('otherFirst'), posA: rules.posA && p.type in rules.posA ? rules.posA[p.type] : null, disjointForm: listed('disjointForm'), otherWords: listed('otherWords'), otherNums: listed('otherNums'), spreadPos: listed('spreadPos'), sameAnswerSet: listed('sameAnswerSet'), turnB: listed('turnB'), sharesOk: listed('sharesOk'), shapesOk: listed('shapesOk'), otherTask: listed('otherTask'), askAgain: listed('askAgain'), common: new Set(), avoid: rules.avoid && rules.avoid[p.type] ? rules.avoid[p.type] : [] };
         // the words every card of the type prints are no words of a task (list otherWords)
         { const all = a.cards.concat(b.cards); if (all.length) for (const w of new Set(wordsOf(all[0]))) if (all.every((c) => wordsOf(c).includes(w))) plan.common.add(w); }
+        // (Stage C-2) a part of a check of the year names its source unit and lesson; its key note is its source unit's
+        if (YEAR) Object.assign(plan, { unitId: l.unitId, unitTitle: l.unitTitle, unitSlug: l.unitSlug, srcN: l.srcN, lessonKey: l.id || l.point, startAt: l.startAt || null, keyNote: (rules.keyNote || {})[p.type] || null });
         const cardsA = chooseA(plan, usedA, soloA);
         if (!cardsA.length || chooseB(plan, cardsA, new Set([...usedA, ...cardsA.flatMap(facts)]), usedB, soloB).length < cardsA.length) { why.push(p.type + ': the two forms cannot both be filled (the same kind and size, no task twice)'); continue; }
-        for (const c of cardsA) { for (const k of facts(c)) usedA.add(k); if (solo(c)) soloA.add(solo(c)); for (const p of picsOf(c)) PICS_A.add(p); if (textId(c)) TEXTS_A.add(textId(c)); if (plan.disjointForm) for (const w of wordsOf(c)) WORDS_A.add(w); }
+        for (const c of cardsA) { for (const k of itemKeys(c, p.type)) ITEMS_A.add(k); for (const k of facts(c)) usedA.add(k); if (solo(c)) soloA.add(solo(c)); for (const p of picsOf(c)) PICS_A.add(p); if (textId(c)) TEXTS_A.add(textId(c)); if (plan.disjointForm) for (const w of wordsOf(c)) WORDS_A.add(w); }
         plan.cardsA = cardsA;
         found = plan;
         plans.push(plan);
         break;
       }
-      if (!found) { left.push(l.n); if (has('debug')) console.log('      lesson ' + l.n + ' „' + l.title + '“ has no section: ' + (why.join('; ') || 'no worksheet type')); }
+      }
+      if (found) took.add(l.unitId + '|' + (l.id || l.point));
+      else if (l !== l0 && has('debug')) console.log('      (lesson ' + l0.n + ': the alternate ' + l.unitId + ' lesson ' + l.srcN + ' gives no part either)');
+      }
+      if (dropped && !found) { left.push(l0.n); continue; }
+      if (!found) { left.push(l0.n); if (has('debug')) console.log('      lesson ' + l0.n + ' „' + l0.title + '“ has no section: ' + (why.join('; ') || 'no worksheet type')); }
     }
     // FORM B is chosen when every task of form A is known: no fact of A, of whatever part, is a task of B
+    const failedB = [];
     for (const plan of plans) {
       let cardsB = chooseB(plan, plan.cardsA, usedA, usedB, soloB);
       // a part of words or sounds: form B stands in another order than form A (2, 3, 1 syllables in both forms is a pattern),
@@ -647,11 +823,24 @@ function chooseBOnce(plan, cardsA, usedA, usedB, soloB) {
       // (turned only when the two forms would answer alike: a blind turn put "an, a" back into form A's "a, an")
       if (plan.turnB && cardsB.length === plan.cardsA.length && cardsB.length >= 2) { const seq = (cs) => cs.map((c) => String(c.ans)).join('¦'); if (seq(cardsB) === seq(plan.cardsA)) cardsB = cardsB.slice(1).concat(cardsB[0]); }
       else if (cardsB.length === plan.cardsA.length && cardsB.length >= 2 && /^[tp]:/.test(cardsB[0].key)) { const turned = cardsB.slice(1).concat(cardsB[0]); if (turned.every((c, i) => c.kind === plan.cardsA[i].kind && near(c, plan.cardsA[i]))) cardsB = turned; }
-      if (cardsB.length < plan.cardsA.length) { left.push(plan.lesson); left.sort((x, y) => x - y); if (has('debug')) console.log('      lesson ' + plan.lesson + ' has no section: form B cannot be filled once every task of form A is known'); continue; }
-      for (const c of cardsB) { for (const k of facts(c)) usedB.add(k); if (solo(c)) soloB.add(solo(c)); for (const p of picsOf(c)) PICS_B.add(p); if (textId(c)) TEXTS_B.add(textId(c)); if (plan.disjointForm) for (const w of wordsOf(c)) WORDS_B.add(w); }
+      if (cardsB.length < plan.cardsA.length) { left.push(plan.lesson); left.sort((x, y) => x - y); failedB.push(plan); if (has('debug')) console.log('      lesson ' + plan.lesson + ' has no section: form B cannot be filled once every task of form A is known'); continue; }
+      for (const c of cardsB) { for (const k of itemKeys(c, plan.type)) ITEMS_B.add(k); for (const k of facts(c)) usedB.add(k); if (solo(c)) soloB.add(solo(c)); for (const p of picsOf(c)) PICS_B.add(p); if (textId(c)) TEXTS_B.add(textId(c)); if (plan.disjointForm) for (const w of wordsOf(c)) WORDS_B.add(w); }
       const meta = { styles: [...new Set(plan.a.styles.concat(plan.b.styles))], keyStyles: [...new Set(plan.a.keyStyles.concat(plan.b.keyStyles))], lesson: plan.lesson, lessonTitle: plan.lessonTitle, point: plan.point, type: plan.type, types: plan.types, typeTitle: plan.typeTitle, instruction: plan.instruction, perRow: plan.perRow, cols: plan.cols };
+      if (YEAR) Object.assign(meta, { unitId: plan.unitId, unitTitle: plan.unitTitle, unitSlug: plan.unitSlug, srcN: plan.srcN, lessonKey: plan.lessonKey, startAt: plan.startAt, keyNote: plan.keyNote });
       sections.A.push(Object.assign({}, meta, { cards: plan.cardsA, w: plan.cardsA[0].w, h: Math.max(...plan.cardsA.map(tall)) }));
       sections.B.push(Object.assign({}, meta, { cards: cardsB, w: cardsB[0].w, h: Math.max(...cardsB.map(tall)) }));
+    }
+    // (Stage C-2) a check of the year: a lesson that gave no form B is skipped and the check chosen again, while its place
+    // still has an alternate to try
+    if (!YEAR || !failedB.length || attempt >= 12) break;
+    let more = false;
+    for (const plan of failedB) {
+      skip.add(plan.unitId + '|' + plan.lessonKey);
+      const l0 = u.lessons.find((x) => x.n === plan.lesson);
+      if ([l0].concat(l0.alts || []).some((x) => !skip.has(x.unitId + '|' + (x.id || x.point)))) more = true;
+    }
+    if (!more) break;
+    if (has('debug')) console.log('      (chosen again: ' + failedB.map((x) => 'lesson ' + x.lesson + ' takes its next alternate').join(', ') + ')');
     }
     // (Wave 4) a writing unit's check has ONE writing part after its cut parts (rubrics/<loc>.json); it counts as a part, so
     // such a unit needs one cut part less (two cut parts and the writing part are three parts)
@@ -788,6 +977,18 @@ function chooseBOnce(plan, cardsA, usedA, usedB, soloB) {
       }
       for (const f of ['_probe.html', '_page.html']) fs.rmSync(path.join(dir, f), { force: true });
       entry.forms[form] = { pages: pages.length, cards: sections[form].reduce((k, s) => k + s.cards.length, 0), sigs: sections[form].map((s) => s.cards.map((c) => crypto.createHash('sha1').update(c.key.startsWith('n:') ? c.key : s.type + '|' + c.key).digest('hex').slice(0, 16))), kinds: sections[form].map((s) => s.cards.map((c) => c.kind)), mags: sections[form].map((s) => s.cards.map((c) => c.mag)), pos: sections[form].map((s) => s.cards.map((c) => c.pos)) };
+      // (Stage C-2) the print of every box (lib/task-print.js): no box of a check of the year is a box of another check
+      if (YEAR) entry.forms[form].tasks = sections[form].map((s) => s.cards.map((c) => printOf(c, s.type)));
+      // (fix round 2026-11-23) … and the stronger fingerprints of the no-repeat rule (moreOf)
+      if (YEAR) entry.forms[form].more = sections[form].map((s) => s.cards.map((c) => moreOf(c, s.type)));
+    }
+    // (Stage C-2) a check of the year: its time, its plan and its page; each part's source unit and lesson; the parts of the
+    // blueprint that could not be built, by unit and lesson
+    if (YEAR) {
+      entry.year = PLACEMENT ? { time: 'placement', path: u.year.path, subject: u.year.subject, grades: u.year.grades, page: u.year.slug } : { time: u.year.time, plan: u.year.plan, page: u.year.slug };
+      entry.sections.forEach((x, i) => { const s = sections.A[i]; Object.assign(x, { unit: s.unitId, unitTitle: s.unitTitle, unitSlug: s.unitSlug, unitLesson: s.srcN, lessonKey: s.lessonKey }, s.startAt ? { startAt: s.startAt } : {}); });
+      entry.notBuilt = left.map((n) => { const l = u.lessons.find((x) => x.n === n); return { slot: n, unit: l.unitId, lesson: l.srcN, key: l.id || l.point, title: l.title }; });
+      yearPrintsBefore.set(u.id, ['A', 'B'].flatMap((k) => entry.forms[k].tasks.flat().concat(typedSigs(entry.sections.map((s) => s.type), entry.forms[k].sigs), entry.forms[k].more.flat(2))));
     }
     // (Wave 4) the writing part in the list: its place, its task in each form, its points (2 each); the totals count them
     if (writing) {
@@ -800,9 +1001,9 @@ function chooseBOnce(plan, cardsA, usedA, usedB, soloB) {
     {
       const text = (h) => h.replace(/<style[^]*?<\/style>/g, ' ').replace(/<svg[^]*?<\/svg>/g, ' ').replace(/<[^>]+>/g, ' ').replace(/&[a-z#0-9]+;/g, ' ').replace(/\s+/g, ' ').trim();
       const pics = (h) => [...h.matchAll(/src="[^"]*?([^"\/]+)\/([^"\/]+?)(?:@\dx)?\.(?:webp|png|svg)"/g)].map((m) => decodeURIComponent(m[1] + '/' + m[2]));
-      const box = (c) => { const t = textOf(c) || text(c.html).replace(/^\d+\s*/, ''), k = c.keyHtml ? text(c.keyHtml).replace(/^\d+\s*/, '') : t; return Object.assign({ text: t, pictures: pics(c.html), answer: String(c.ans) }, k !== t ? { keyText: k } : {}); };
+      const box = (c) => { const t = textOf(c) || text(c.html).replace(/^\d+\s*/, ''), k = c.keyHtml ? text(c.keyHtml).replace(/^\d+\s*/, '') : t; return Object.assign({ text: t, pictures: pics(c.html), answer: String(c.ans) }, k !== t ? { keyText: k } : {}, YEAR ? keyReads(c) : {}); };
       fs.writeFileSync(path.join(dir, 'dump.json'), JSON.stringify({ unit: u.id, title: u.title, grade: String(u.grade), subject: u.subject, notInTheCheck: left.map((n) => (u.lessons.find((l) => l.n === n) || {}).title),
-        parts: sections.A.map((s, i) => ({ part: i + 1, lesson: s.lessonTitle, worksheet: s.typeTitle, type: s.type, directionReadAloud: s.instruction, formA: s.cards.map(box), formB: sections.B[i].cards.map(box) })), ...(writing ? { writing: { part: sections.A.length + 1, type: writing.A.type, level: writing.A.rubric.level, directionReadAloud: writing.A.instruction, lines: writing.A.rubric.lines, formA: writing.A.task, formB: writing.B.task, rubric: writing.A.rubric.points } } : {}) }, null, 1) + '\n');
+        parts: sections.A.map((s, i) => ({ part: i + 1, lesson: s.lessonTitle, ...(YEAR ? { unit: s.unitTitle, unitId: s.unitId, unitLesson: s.srcN, keyNote: s.keyNote || undefined, readsA: s.cards.map(readsOf).filter(Boolean), readsB: sections.B[i].cards.map(readsOf).filter(Boolean) } : {}), worksheet: s.typeTitle, type: s.type, directionReadAloud: s.instruction, formA: s.cards.map(box), formB: sections.B[i].cards.map(box) })), ...(writing ? { writing: { part: sections.A.length + 1, type: writing.A.type, level: writing.A.rubric.level, directionReadAloud: writing.A.instruction, lines: writing.A.rubric.lines, formA: writing.A.task, formB: writing.B.task, rubric: writing.A.rubric.points } } : {}) }, null, 1) + '\n');
     }
     console.log('ok    ' + u.id + ': ' + entry.sections.length + ' parts of ' + u.lessons.length + ' lessons, ' + entry.forms.A.cards + ' cards, ' + entry.forms.A.pages + ' + ' + entry.forms.B.pages + ' page(s)' + (writing ? ', and a writing part' : '') + (left.length ? '; not in the check: lesson ' + left.join(', ') : ''));
   }
@@ -812,8 +1013,9 @@ function chooseBOnce(plan, cardsA, usedA, usedB, soloB) {
   const listFile = path.join(outRoot, 'checks.json');
   const ran = new Set(units.map((u) => u.id));
   const kept = fs.existsSync(listFile) ? JSON.parse(fs.readFileSync(listFile, 'utf8')).checks.filter((c) => !ran.has(c.unit)) : [];
-  const orderOf = new Map(unitsFile.units.map((u, i) => [u.id, i]));
-  const all = kept.concat(built).sort((x, y) => orderOf.get(x.unit) - orderOf.get(y.unit));
+  // (a check of the year stands in the order of its blueprint)
+  const orderOf = new Map(YEAR ? blueprint.checks.map((c, i) => [c.id, i]) : unitsFile.units.map((u, i) => [u.id, i]));
+  const all = (YEAR ? kept.filter((c) => orderOf.has(c.unit)) : kept).concat(built).sort((x, y) => orderOf.get(x.unit) - orderOf.get(y.unit));
   fs.writeFileSync(listFile, JSON.stringify({ locale: loc, checks: all }, null, 1) + '\n');
   console.log(loc + ': ' + built.length + ' check(s) of ' + units.length + ' unit(s) → ' + path.relative(REPO, outRoot));
 })().catch((e) => { console.error(String(e && e.stack || e)); process.exit(1); });

@@ -920,6 +920,27 @@ function VERIFY_FACE() {
   return [`mode "${mode}" has no verify branch`];
 }
 
+/** (fix round 2026-11-23, review of the placement checks) THE PLACEMENT CHECK OF SIGHT WORDS: a sentence and two
+ *  high-frequency words that look alike, the child circles the one that fits (the bank's picture words tested the
+ *  pictures, not the sight words). Each sentence takes one word only. Built only for a page of that check
+ *  (build-checks.js seeds it "check|placement-sight-words|…"); every other page is the page it was. */
+const PLACE_SIGHT = [
+  { a: 'We', right: 'were', wrong: 'where', b: 'at the park yesterday.' },
+  { a: 'She', right: 'said', wrong: 'sad', b: 'hello to me.' },
+  { a: '', right: 'Where', wrong: 'Were', b: 'is my red cap?' },
+  { a: 'Can you', right: 'give', wrong: 'live', b: 'me the ball?' },
+];
+function placementSightPage(ctx) {
+  const { checkGrid } = require('../../lib/check-page.js');
+  const rng = ctx.rng, at = rng.shuffle([0, 1, 0, 1]);
+  const opt = (w, ok) => '<span data-lcs-choice="' + w + '"' + (ok ? ' data-lcs-correct="1"' : '') + ' style="padding:2px 12px;border:3px solid transparent;border-radius:999px;background:#FFFFFF;font:800 24px/1.15 \'Nunito\',sans-serif">' + w + '</span>';
+  const cards = PLACE_SIGHT.map((x, i) => {
+    const two = at[i] ? [opt(x.wrong, false), opt(x.right, true)] : [opt(x.right, true), opt(x.wrong, false)];
+    return '<div data-lcs-sightcheck="' + x.right.toLowerCase() + '" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:6px 8px;padding:10px 12px;font:700 24px/1.3 \'Nunito\',sans-serif;color:#3A3530">' +
+      (x.a ? '<span>' + x.a + '</span>' : '') + '<span data-lcs-twochoice style="display:inline-flex;align-items:center;gap:8px">' + two.join('') + '</span><span>' + x.b + '</span></div>';
+  });
+  return { bodyHtml: '<div data-lcs-sight-placement="1">' + checkGrid(cards, { cols: 1 }) + '</div>', meta: {} };
+}
 module.exports = {
   id: ID,
   slug: 'fill-in-the-blank-sentences',
@@ -974,6 +995,8 @@ module.exports = {
    * Every other face gives the check its page as it is.
    */
   checkPage({ theme, difficulty, locale }, ctx) {
+    // (fix round 2026-11-23) the placement check of sight words asks high-frequency words in a sentence (placementSightPage)
+    if (this.id === 'G1-350' && /^check\|placement-sight-words\|/.test(String((ctx && ctx.rng && ctx.rng.seed) || '')) && String(locale || 'en').slice(0, 2) === 'en') return placementSightPage(ctx);
     const d = this.difficulty[difficulty] || this.difficulty[2];
     if (d.mode && d.mode !== 'base' && d.mode !== 'story' && d.mode !== 'plural') return this.build({ theme, difficulty, locale }, ctx);
     const { checkGrid } = require('../../lib/check-page.js');

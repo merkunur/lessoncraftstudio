@@ -3231,6 +3231,16 @@
    "none": "not yet read against this curriculum",
    "by": "authored"
   },
+  "K:five-senses": {
+   "rows": [
+    {
+     "id": "KD41",
+     "rel": "teaches",
+     "grade": "1-8"
+    }
+   ],
+   "by": "authored"
+  },
   "K:human-body": {
    "rows": [
     {
@@ -3239,6 +3249,62 @@
      "grade": "1-8"
     }
    ],
+   "by": "authored"
+  },
+  "K:seasons": {
+   "rows": [
+    {
+     "id": "KD51",
+     "rel": "teaches",
+     "grade": "1-8"
+    },
+    {
+     "id": "KD46",
+     "rel": "prepares",
+     "grade": "1-8"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:weather-temperature": {
+   "rows": [
+    {
+     "id": "KD43",
+     "rel": "teaches",
+     "grade": "1-8"
+    },
+    {
+     "id": "K11.A",
+     "rel": "prepares",
+     "grade": "1-8"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:wind-watch": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:rain-gauge": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:weather-ready": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:plant-needs": {
+   "rows": [
+    {
+     "id": "KD40",
+     "rel": "teaches",
+     "grade": "1-8"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:seed-journal": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "K:living-nonliving": {
@@ -3276,55 +3342,10 @@
    ],
    "by": "authored"
   },
-  "K:animal-babies": {
-   "rows": [
-    {
-     "id": "KD40",
-     "rel": "teaches",
-     "grade": "1-8"
-    },
-    {
-     "id": "KD41",
-     "rel": "prepares",
-     "grade": "1-8"
-    }
-   ],
-   "by": "authored"
-  },
-  "K:seasons": {
-   "rows": [
-    {
-     "id": "KD51",
-     "rel": "teaches",
-     "grade": "1-8"
-    },
-    {
-     "id": "KD46",
-     "rel": "prepares",
-     "grade": "1-8"
-    }
-   ],
-   "by": "authored"
-  },
   "K:day-night": {
    "rows": [
     {
      "id": "KD46",
-     "rel": "prepares",
-     "grade": "1-8"
-    }
-   ],
-   "by": "authored"
-  },
-  "K:weather-temperature": {
-   "rows": [
-    {
-     "id": "KD43",
-     "rel": "teaches",
-     "grade": "1-8"
-    },
-    {
-     "id": "K11.A",
      "rel": "prepares",
      "grade": "1-8"
     }
@@ -3341,14 +3362,65 @@
    ],
    "by": "authored"
   },
-  "K:five-senses": {
+  "K:body-needs": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:push-pull": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:push-strength": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:change-direction": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:ramp-to-target": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:compare-ramps": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:animal-babies": {
    "rows": [
     {
-     "id": "KD41",
+     "id": "KD40",
      "rel": "teaches",
+     "grade": "1-8"
+    },
+    {
+     "id": "KD41",
+     "rel": "prepares",
      "grade": "1-8"
     }
    ],
+   "by": "authored"
+  },
+  "K:sink-float": {
+   "rows": [
+    {
+     "id": "KD42",
+     "rel": "prepares",
+     "grade": "1-8"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:boat-plan": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:boat-test": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:boat-compare": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "K:recycling": {
@@ -3361,7 +3433,57 @@
    ],
    "by": "authored"
   },
-  "K:plant-needs": {
+  "K:sun-warms": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:make-shade": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:animal-food": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:animal-home": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:animals-change-land": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:five-senses": {
+   "rows": [
+    {
+     "id": "KD41",
+     "rel": "teaches",
+     "grade": "1-8"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:body-parts": {
+   "rows": [
+    {
+     "id": "KD41",
+     "rel": "teaches",
+     "grade": "1-8"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:weather": {
+   "rows": [
+    {
+     "id": "KD43",
+     "rel": "teaches",
+     "grade": "1-8"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:life-cycles": {
    "rows": [
     {
      "id": "KD40",
@@ -3371,11 +3493,11 @@
    ],
    "by": "authored"
   },
-  "K:sink-float": {
+  "1:plant-parts": {
    "rows": [
     {
-     "id": "KD42",
-     "rel": "prepares",
+     "id": "KD41",
+     "rel": "teaches",
      "grade": "1-8"
     }
    ],
@@ -3406,50 +3528,10 @@
    ],
    "by": "authored"
   },
-  "1:life-cycles": {
-   "rows": [
-    {
-     "id": "KD40",
-     "rel": "teaches",
-     "grade": "1-8"
-    }
-   ],
-   "by": "authored"
-  },
   "1:sink-float": {
    "rows": [
     {
      "id": "KD42",
-     "rel": "teaches",
-     "grade": "1-8"
-    }
-   ],
-   "by": "authored"
-  },
-  "1:body-parts": {
-   "rows": [
-    {
-     "id": "KD41",
-     "rel": "teaches",
-     "grade": "1-8"
-    }
-   ],
-   "by": "authored"
-  },
-  "1:five-senses": {
-   "rows": [
-    {
-     "id": "KD41",
-     "rel": "teaches",
-     "grade": "1-8"
-    }
-   ],
-   "by": "authored"
-  },
-  "1:weather": {
-   "rows": [
-    {
-     "id": "KD43",
      "rel": "teaches",
      "grade": "1-8"
     }
@@ -3471,36 +3553,11 @@
    ],
    "by": "authored"
   },
-  "1:plant-parts": {
-   "rows": [
-    {
-     "id": "KD41",
-     "rel": "teaches",
-     "grade": "1-8"
-    }
-   ],
-   "by": "authored"
-  },
   "1:sun-earth-moon": {
    "rows": [
     {
      "id": "KD46",
      "rel": "prepares",
-     "grade": "1-8"
-    }
-   ],
-   "by": "authored"
-  },
-  "2:materials": {
-   "rows": [
-    {
-     "id": "KD44",
-     "rel": "teaches",
-     "grade": "1-8"
-    },
-    {
-     "id": "KD39",
-     "rel": "teaches",
      "grade": "1-8"
     }
    ],
@@ -3520,6 +3577,31 @@
    "rows": [
     {
      "id": "KD40",
+     "rel": "teaches",
+     "grade": "1-8"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:sink-float": {
+   "rows": [
+    {
+     "id": "KD42",
+     "rel": "teaches",
+     "grade": "1-8"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:materials": {
+   "rows": [
+    {
+     "id": "KD44",
+     "rel": "teaches",
+     "grade": "1-8"
+    },
+    {
+     "id": "KD39",
      "rel": "teaches",
      "grade": "1-8"
     }
@@ -3561,16 +3643,6 @@
    ],
    "by": "authored"
   },
-  "2:sink-float": {
-   "rows": [
-    {
-     "id": "KD42",
-     "rel": "teaches",
-     "grade": "1-8"
-    }
-   ],
-   "by": "authored"
-  },
   "3:water-cycle": {
    "rows": [
     {
@@ -3606,21 +3678,21 @@
    ],
    "by": "authored"
   },
-  "3:planets": {
-   "rows": [
-    {
-     "id": "KD46",
-     "rel": "extends",
-     "grade": "1-8"
-    }
-   ],
-   "by": "authored"
-  },
   "3:investigation": {
    "rows": [
     {
      "id": "KD42",
      "rel": "teaches",
+     "grade": "1-8"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:planets": {
+   "rows": [
+    {
+     "id": "KD46",
+     "rel": "extends",
      "grade": "1-8"
     }
    ],
@@ -3756,10 +3828,10 @@
    ],
    "by": "authored"
   },
-  "K:healthy-food": {
+  "K:road-safety": {
    "rows": [
     {
-     "id": "KD34",
+     "id": "KD35",
      "rel": "teaches",
      "grade": "1-8"
     }
@@ -3776,27 +3848,19 @@
    ],
    "by": "authored"
   },
-  "K:road-safety": {
-   "rows": [
-    {
-     "id": "KD35",
-     "rel": "teaches",
-     "grade": "1-8"
-    }
-   ],
+  "K:sleep-play": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
-  "1:food-groups": {
-   "rows": [
-    {
-     "id": "KD34",
-     "rel": "teaches",
-     "grade": "1-8"
-    }
-   ],
+  "K:trusted-adults": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
-  "1:healthy-habits": {
+  "K:i-can": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:healthy-food": {
    "rows": [
     {
      "id": "KD34",
@@ -3816,7 +3880,17 @@
    ],
    "by": "authored"
   },
-  "2:healthy-habits-why": {
+  "1:healthy-habits": {
+   "rows": [
+    {
+     "id": "KD34",
+     "rel": "teaches",
+     "grade": "1-8"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:food-groups": {
    "rows": [
     {
      "id": "KD34",
@@ -3830,6 +3904,16 @@
    "rows": [
     {
      "id": "KD35",
+     "rel": "teaches",
+     "grade": "1-8"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:healthy-habits-why": {
+   "rows": [
+    {
+     "id": "KD34",
      "rel": "teaches",
      "grade": "1-8"
     }

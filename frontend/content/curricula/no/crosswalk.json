@@ -3321,6 +3321,16 @@
    "none": "not yet read against this curriculum",
    "by": "authored"
   },
+  "K:five-senses": {
+   "rows": [
+    {
+     "id": "KM13813",
+     "rel": "prepares",
+     "grade": "1-2"
+    }
+   ],
+   "by": "authored"
+  },
   "K:human-body": {
    "rows": [
     {
@@ -3329,6 +3339,52 @@
      "grade": "1-2"
     }
    ],
+   "by": "authored"
+  },
+  "K:seasons": {
+   "rows": [
+    {
+     "id": "KM13811",
+     "rel": "prepares",
+     "grade": "1-2"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:weather-temperature": {
+   "rows": [
+    {
+     "id": "KM13812",
+     "rel": "prepares",
+     "grade": "1-2"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:wind-watch": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:rain-gauge": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:weather-ready": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:plant-needs": {
+   "rows": [
+    {
+     "id": "KM13810",
+     "rel": "prepares",
+     "grade": "1-2"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:seed-journal": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "K:living-nonliving": {
@@ -3361,31 +3417,7 @@
    ],
    "by": "authored"
   },
-  "K:animal-babies": {
-   "none": "No aim in PART 2 is about young animals and their parents.",
-   "by": "authored"
-  },
-  "K:seasons": {
-   "rows": [
-    {
-     "id": "KM13811",
-     "rel": "prepares",
-     "grade": "1-2"
-    }
-   ],
-   "by": "authored"
-  },
   "K:day-night": {
-   "rows": [
-    {
-     "id": "KM13812",
-     "rel": "prepares",
-     "grade": "1-2"
-    }
-   ],
-   "by": "authored"
-  },
-  "K:weather-temperature": {
    "rows": [
     {
      "id": "KM13812",
@@ -3405,14 +3437,54 @@
    ],
    "by": "authored"
   },
-  "K:five-senses": {
+  "K:body-needs": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:push-pull": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:push-strength": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:change-direction": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:ramp-to-target": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:compare-ramps": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:animal-babies": {
+   "none": "No aim in PART 2 is about young animals and their parents.",
+   "by": "authored"
+  },
+  "K:sink-float": {
    "rows": [
     {
-     "id": "KM13813",
+     "id": "KM13809",
      "rel": "prepares",
      "grade": "1-2"
     }
    ],
+   "by": "authored"
+  },
+  "K:boat-plan": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:boat-test": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:boat-compare": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "K:recycling": {
@@ -3430,20 +3502,70 @@
    ],
    "by": "authored"
   },
-  "K:plant-needs": {
+  "K:sun-warms": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:make-shade": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:animal-food": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:animal-home": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:animals-change-land": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:five-senses": {
    "rows": [
     {
-     "id": "KM13810",
+     "id": "KM13813",
+     "rel": "teaches",
+     "grade": "1-2"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:body-parts": {
+   "rows": [
+    {
+     "id": "KM14727",
      "rel": "prepares",
      "grade": "1-2"
     }
    ],
    "by": "authored"
   },
-  "K:sink-float": {
+  "1:weather": {
    "rows": [
     {
-     "id": "KM13809",
+     "id": "KM13812",
+     "rel": "prepares",
+     "grade": "1-2"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:life-cycles": {
+   "rows": [
+    {
+     "id": "KM13811",
+     "rel": "prepares",
+     "grade": "1-2"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:plant-parts": {
+   "rows": [
+    {
+     "id": "KM13810",
      "rel": "prepares",
      "grade": "1-2"
     }
@@ -3475,16 +3597,6 @@
    ],
    "by": "authored"
   },
-  "1:life-cycles": {
-   "rows": [
-    {
-     "id": "KM13811",
-     "rel": "prepares",
-     "grade": "1-2"
-    }
-   ],
-   "by": "authored"
-  },
   "1:sink-float": {
    "rows": [
     {
@@ -3494,36 +3606,6 @@
     },
     {
      "id": "KM13806",
-     "rel": "prepares",
-     "grade": "1-2"
-    }
-   ],
-   "by": "authored"
-  },
-  "1:body-parts": {
-   "rows": [
-    {
-     "id": "KM14727",
-     "rel": "prepares",
-     "grade": "1-2"
-    }
-   ],
-   "by": "authored"
-  },
-  "1:five-senses": {
-   "rows": [
-    {
-     "id": "KM13813",
-     "rel": "teaches",
-     "grade": "1-2"
-    }
-   ],
-   "by": "authored"
-  },
-  "1:weather": {
-   "rows": [
-    {
-     "id": "KM13812",
      "rel": "prepares",
      "grade": "1-2"
     }
@@ -3550,7 +3632,17 @@
    ],
    "by": "authored"
   },
-  "1:plant-parts": {
+  "1:sun-earth-moon": {
+   "rows": [
+    {
+     "id": "KM13812",
+     "rel": "prepares",
+     "grade": "1-2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:plant-parts": {
    "rows": [
     {
      "id": "KM13810",
@@ -3560,10 +3652,25 @@
    ],
    "by": "authored"
   },
-  "1:sun-earth-moon": {
+  "2:life-cycles": {
    "rows": [
     {
-     "id": "KM13812",
+     "id": "KM13811",
+     "rel": "prepares",
+     "grade": "1-2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:sink-float": {
+   "rows": [
+    {
+     "id": "KM13809",
+     "rel": "teaches",
+     "grade": "1-2"
+    },
+    {
+     "id": "KM13806",
      "rel": "prepares",
      "grade": "1-2"
     }
@@ -3586,26 +3693,6 @@
      "id": "KM13618",
      "rel": "prepares",
      "grade": "1-4"
-    }
-   ],
-   "by": "authored"
-  },
-  "2:plant-parts": {
-   "rows": [
-    {
-     "id": "KM13810",
-     "rel": "prepares",
-     "grade": "1-2"
-    }
-   ],
-   "by": "authored"
-  },
-  "2:life-cycles": {
-   "rows": [
-    {
-     "id": "KM13811",
-     "rel": "prepares",
-     "grade": "1-2"
     }
    ],
    "by": "authored"
@@ -3645,21 +3732,6 @@
    ],
    "by": "authored"
   },
-  "2:sink-float": {
-   "rows": [
-    {
-     "id": "KM13809",
-     "rel": "teaches",
-     "grade": "1-2"
-    },
-    {
-     "id": "KM13806",
-     "rel": "prepares",
-     "grade": "1-2"
-    }
-   ],
-   "by": "authored"
-  },
   "3:water-cycle": {
    "rows": [
     {
@@ -3690,10 +3762,6 @@
    ],
    "by": "authored"
   },
-  "3:planets": {
-   "none": "The planets and the solar system are not named in any aim through 4. trinn in PART 2.",
-   "by": "authored"
-  },
   "3:investigation": {
    "rows": [
     {
@@ -3707,6 +3775,10 @@
      "grade": "3-4"
     }
    ],
+   "by": "authored"
+  },
+  "3:planets": {
+   "none": "The planets and the solar system are not named in any aim through 4. trinn in PART 2.",
    "by": "authored"
   },
   "K:birds-eye-view": {
@@ -3821,14 +3893,8 @@
    ],
    "by": "authored"
   },
-  "K:healthy-food": {
-   "rows": [
-    {
-     "id": "KM13623",
-     "rel": "prepares",
-     "grade": "1-4"
-    }
-   ],
+  "K:road-safety": {
+   "none": "Traffic belongs to kroppsøving in the Norwegian plan, a subject this registry does not hold.",
    "by": "authored"
   },
   "K:hygiene-habits": {
@@ -3846,11 +3912,19 @@
    ],
    "by": "authored"
   },
-  "K:road-safety": {
-   "none": "Traffic belongs to kroppsøving in the Norwegian plan, a subject this registry does not hold.",
+  "K:sleep-play": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
-  "1:food-groups": {
+  "K:trusted-adults": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:i-can": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:healthy-food": {
    "rows": [
     {
      "id": "KM13623",
@@ -3858,6 +3932,10 @@
      "grade": "1-4"
     }
    ],
+   "by": "authored"
+  },
+  "1:road-signs": {
+   "none": "Traffic belongs to kroppsøving in the Norwegian plan, a subject this registry does not hold.",
    "by": "authored"
   },
   "1:healthy-habits": {
@@ -3875,7 +3953,17 @@
    ],
    "by": "authored"
   },
-  "1:road-signs": {
+  "1:food-groups": {
+   "rows": [
+    {
+     "id": "KM13623",
+     "rel": "prepares",
+     "grade": "1-4"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:road-signs": {
    "none": "Traffic belongs to kroppsøving in the Norwegian plan, a subject this registry does not hold.",
    "by": "authored"
   },
@@ -3892,10 +3980,6 @@
      "grade": "3-4"
     }
    ],
-   "by": "authored"
-  },
-  "2:road-signs": {
-   "none": "Traffic belongs to kroppsøving in the Norwegian plan, a subject this registry does not hold.",
    "by": "authored"
   },
   "K:how-to-draw": {

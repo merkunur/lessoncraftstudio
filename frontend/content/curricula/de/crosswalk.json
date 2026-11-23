@@ -3596,8 +3596,46 @@
    "none": "not yet read against this curriculum",
    "by": "authored"
   },
+  "K:five-senses": {
+   "none": "the KMK has no Bildungsstandards for Sachunterricht",
+   "by": "authored"
+  },
   "K:human-body": {
    "none": "the KMK has no Bildungsstandards for Sachunterricht",
+   "by": "authored"
+  },
+  "K:seasons": {
+   "none": "the KMK has no Bildungsstandards for Sachunterricht",
+   "by": "authored"
+  },
+  "K:weather-temperature": {
+   "rows": [
+    {
+     "id": "M.5.1.2",
+     "rel": "prepares",
+     "grade": "1-4"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:wind-watch": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:rain-gauge": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:weather-ready": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:plant-needs": {
+   "none": "the KMK has no Bildungsstandards for Sachunterricht",
+   "by": "authored"
+  },
+  "K:seed-journal": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "K:living-nonliving": {
@@ -3612,41 +3650,39 @@
    "none": "the KMK has no Bildungsstandards for Sachunterricht",
    "by": "authored"
   },
-  "K:animal-babies": {
-   "none": "the KMK has no Bildungsstandards for Sachunterricht",
-   "by": "authored"
-  },
-  "K:seasons": {
-   "none": "the KMK has no Bildungsstandards for Sachunterricht",
-   "by": "authored"
-  },
   "K:day-night": {
    "none": "the KMK has no Bildungsstandards for Sachunterricht",
-   "by": "authored"
-  },
-  "K:weather-temperature": {
-   "rows": [
-    {
-     "id": "M.5.1.2",
-     "rel": "prepares",
-     "grade": "1-4"
-    }
-   ],
    "by": "authored"
   },
   "K:natural-made": {
    "none": "the KMK has no Bildungsstandards for Sachunterricht",
    "by": "authored"
   },
-  "K:five-senses": {
-   "none": "the KMK has no Bildungsstandards for Sachunterricht",
+  "K:body-needs": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
-  "K:recycling": {
-   "none": "the KMK has no Bildungsstandards for Sachunterricht",
+  "K:push-pull": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
-  "K:plant-needs": {
+  "K:push-strength": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:change-direction": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:ramp-to-target": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:compare-ramps": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:animal-babies": {
    "none": "the KMK has no Bildungsstandards for Sachunterricht",
    "by": "authored"
   },
@@ -3654,33 +3690,47 @@
    "none": "the KMK has no Bildungsstandards for Sachunterricht",
    "by": "authored"
   },
-  "1:animal-classes-coverings": {
+  "K:boat-plan": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:boat-test": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:boat-compare": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:recycling": {
    "none": "the KMK has no Bildungsstandards for Sachunterricht",
    "by": "authored"
   },
-  "1:habitats-needs": {
-   "none": "the KMK has no Bildungsstandards for Sachunterricht",
+  "K:sun-warms": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
-  "1:life-cycles": {
-   "none": "the KMK has no Bildungsstandards for Sachunterricht",
+  "K:make-shade": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
-  "1:sink-float": {
-   "rows": [
-    {
-     "id": "M.5.1.1",
-     "rel": "prepares",
-     "grade": "1-4"
-    }
-   ],
+  "K:animal-food": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
-  "1:body-parts": {
-   "none": "the KMK has no Bildungsstandards for Sachunterricht",
+  "K:animal-home": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:animals-change-land": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "1:five-senses": {
+   "none": "the KMK has no Bildungsstandards for Sachunterricht",
+   "by": "authored"
+  },
+  "1:body-parts": {
    "none": "the KMK has no Bildungsstandards for Sachunterricht",
    "by": "authored"
   },
@@ -3699,7 +3749,7 @@
    ],
    "by": "authored"
   },
-  "1:materials-recycling": {
+  "1:life-cycles": {
    "none": "the KMK has no Bildungsstandards for Sachunterricht",
    "by": "authored"
   },
@@ -3707,11 +3757,29 @@
    "none": "the KMK has no Bildungsstandards for Sachunterricht",
    "by": "authored"
   },
-  "1:sun-earth-moon": {
+  "1:animal-classes-coverings": {
    "none": "the KMK has no Bildungsstandards for Sachunterricht",
    "by": "authored"
   },
-  "2:materials": {
+  "1:habitats-needs": {
+   "none": "the KMK has no Bildungsstandards for Sachunterricht",
+   "by": "authored"
+  },
+  "1:sink-float": {
+   "rows": [
+    {
+     "id": "M.5.1.1",
+     "rel": "prepares",
+     "grade": "1-4"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:materials-recycling": {
+   "none": "the KMK has no Bildungsstandards for Sachunterricht",
+   "by": "authored"
+  },
+  "1:sun-earth-moon": {
    "none": "the KMK has no Bildungsstandards for Sachunterricht",
    "by": "authored"
   },
@@ -3720,6 +3788,20 @@
    "by": "authored"
   },
   "2:life-cycles": {
+   "none": "the KMK has no Bildungsstandards for Sachunterricht",
+   "by": "authored"
+  },
+  "2:sink-float": {
+   "rows": [
+    {
+     "id": "M.5.1.1",
+     "rel": "prepares",
+     "grade": "1-4"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:materials": {
    "none": "the KMK has no Bildungsstandards for Sachunterricht",
    "by": "authored"
   },
@@ -3735,16 +3817,6 @@
    "none": "the KMK has no Bildungsstandards for Sachunterricht",
    "by": "authored"
   },
-  "2:sink-float": {
-   "rows": [
-    {
-     "id": "M.5.1.1",
-     "rel": "prepares",
-     "grade": "1-4"
-    }
-   ],
-   "by": "authored"
-  },
   "3:water-cycle": {
    "none": "the KMK has no Bildungsstandards for Sachunterricht",
    "by": "authored"
@@ -3757,10 +3829,6 @@
    "none": "the KMK has no Bildungsstandards for Sachunterricht",
    "by": "authored"
   },
-  "3:planets": {
-   "none": "the KMK has no Bildungsstandards for Sachunterricht",
-   "by": "authored"
-  },
   "3:investigation": {
    "rows": [
     {
@@ -3769,6 +3837,10 @@
      "grade": "1-4"
     }
    ],
+   "by": "authored"
+  },
+  "3:planets": {
+   "none": "the KMK has no Bildungsstandards for Sachunterricht",
    "by": "authored"
   },
   "K:birds-eye-view": {
@@ -3860,7 +3932,7 @@
    "none": "the KMK has no Bildungsstandards for Sachunterricht",
    "by": "authored"
   },
-  "K:healthy-food": {
+  "K:road-safety": {
    "none": "the KMK has no Bildungsstandards for Sachunterricht",
    "by": "authored"
   },
@@ -3868,15 +3940,19 @@
    "none": "the KMK has no Bildungsstandards for Sachunterricht",
    "by": "authored"
   },
-  "K:road-safety": {
-   "none": "the KMK has no Bildungsstandards for Sachunterricht",
+  "K:sleep-play": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
-  "1:food-groups": {
-   "none": "the KMK has no Bildungsstandards for Sachunterricht",
+  "K:trusted-adults": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
-  "1:healthy-habits": {
+  "K:i-can": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:healthy-food": {
    "none": "the KMK has no Bildungsstandards for Sachunterricht",
    "by": "authored"
   },
@@ -3884,11 +3960,19 @@
    "none": "the KMK has no Bildungsstandards for Sachunterricht",
    "by": "authored"
   },
-  "2:healthy-habits-why": {
+  "1:healthy-habits": {
+   "none": "the KMK has no Bildungsstandards for Sachunterricht",
+   "by": "authored"
+  },
+  "1:food-groups": {
    "none": "the KMK has no Bildungsstandards for Sachunterricht",
    "by": "authored"
   },
   "2:road-signs": {
+   "none": "the KMK has no Bildungsstandards for Sachunterricht",
+   "by": "authored"
+  },
+  "2:healthy-habits-why": {
    "none": "the KMK has no Bildungsstandards for Sachunterricht",
    "by": "authored"
   },

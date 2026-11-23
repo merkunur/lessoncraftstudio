@@ -3473,6 +3473,16 @@
    "none": "not yet read against this curriculum",
    "by": "authored"
   },
+  "K:five-senses": {
+   "rows": [
+    {
+     "id": "SCI.3.10",
+     "rel": "prepares",
+     "grade": "1-3"
+    }
+   ],
+   "by": "authored"
+  },
   "K:human-body": {
    "rows": [
     {
@@ -3481,6 +3491,72 @@
      "grade": "1-3"
     }
    ],
+   "by": "authored"
+  },
+  "K:seasons": {
+   "rows": [
+    {
+     "id": "SCI.3.8",
+     "rel": "prepares",
+     "grade": "1-3"
+    },
+    {
+     "id": "STO.3.4",
+     "rel": "prepares",
+     "grade": "1-3"
+    },
+    {
+     "id": "SCI.3.7",
+     "rel": "prepares",
+     "grade": "1-3"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:weather-temperature": {
+   "rows": [
+    {
+     "id": "SCI.3.8",
+     "rel": "prepares",
+     "grade": "1-3"
+    },
+    {
+     "id": "SCI.3.4",
+     "rel": "prepares",
+     "grade": "1-3"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:wind-watch": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:rain-gauge": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:weather-ready": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:plant-needs": {
+   "rows": [
+    {
+     "id": "SCI.3.11",
+     "rel": "prepares",
+     "grade": "1-3"
+    },
+    {
+     "id": "SCI.3.5",
+     "rel": "prepares",
+     "grade": "1-3"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:seed-journal": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "K:living-nonliving": {
@@ -3528,55 +3604,10 @@
    ],
    "by": "authored"
   },
-  "K:animal-babies": {
-   "rows": [
-    {
-     "id": "SCI.3.5",
-     "rel": "prepares",
-     "grade": "1-3"
-    }
-   ],
-   "by": "authored"
-  },
-  "K:seasons": {
-   "rows": [
-    {
-     "id": "SCI.3.8",
-     "rel": "prepares",
-     "grade": "1-3"
-    },
-    {
-     "id": "STO.3.4",
-     "rel": "prepares",
-     "grade": "1-3"
-    },
-    {
-     "id": "SCI.3.7",
-     "rel": "prepares",
-     "grade": "1-3"
-    }
-   ],
-   "by": "authored"
-  },
   "K:day-night": {
    "rows": [
     {
      "id": "SCI.3.8",
-     "rel": "prepares",
-     "grade": "1-3"
-    }
-   ],
-   "by": "authored"
-  },
-  "K:weather-temperature": {
-   "rows": [
-    {
-     "id": "SCI.3.8",
-     "rel": "prepares",
-     "grade": "1-3"
-    },
-    {
-     "id": "SCI.3.4",
      "rel": "prepares",
      "grade": "1-3"
     }
@@ -3593,38 +3624,32 @@
    ],
    "by": "authored"
   },
-  "K:five-senses": {
-   "rows": [
-    {
-     "id": "SCI.3.10",
-     "rel": "prepares",
-     "grade": "1-3"
-    }
-   ],
+  "K:body-needs": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
-  "K:recycling": {
-   "rows": [
-    {
-     "id": "SCI.3.2",
-     "rel": "prepares",
-     "grade": "1-3"
-    },
-    {
-     "id": "GEO.3.7",
-     "rel": "prepares",
-     "grade": "1-3"
-    }
-   ],
+  "K:push-pull": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
-  "K:plant-needs": {
+  "K:push-strength": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:change-direction": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:ramp-to-target": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:compare-ramps": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:animal-babies": {
    "rows": [
-    {
-     "id": "SCI.3.11",
-     "rel": "prepares",
-     "grade": "1-3"
-    },
     {
      "id": "SCI.3.5",
      "rel": "prepares",
@@ -3642,6 +3667,113 @@
     },
     {
      "id": "SCI.3.2",
+     "rel": "prepares",
+     "grade": "1-3"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:boat-plan": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:boat-test": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:boat-compare": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:recycling": {
+   "rows": [
+    {
+     "id": "SCI.3.2",
+     "rel": "prepares",
+     "grade": "1-3"
+    },
+    {
+     "id": "GEO.3.7",
+     "rel": "prepares",
+     "grade": "1-3"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:sun-warms": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:make-shade": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:animal-food": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:animal-home": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:animals-change-land": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:five-senses": {
+   "rows": [
+    {
+     "id": "SCI.3.10",
+     "rel": "teaches",
+     "grade": "1-3"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:body-parts": {
+   "rows": [
+    {
+     "id": "SCI.3.10",
+     "rel": "prepares",
+     "grade": "1-3"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:weather": {
+   "rows": [
+    {
+     "id": "SCI.3.8",
+     "rel": "teaches",
+     "grade": "1-3"
+    },
+    {
+     "id": "MAT.3.13",
+     "rel": "teaches",
+     "grade": "1-3"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:life-cycles": {
+   "rows": [
+    {
+     "id": "SCI.3.5",
+     "rel": "teaches",
+     "grade": "1-3"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:plant-parts": {
+   "rows": [
+    {
+     "id": "SCI.3.5",
+     "rel": "prepares",
+     "grade": "1-3"
+    },
+    {
+     "id": "SCI.3.11",
      "rel": "prepares",
      "grade": "1-3"
     }
@@ -3668,16 +3800,6 @@
    ],
    "by": "authored"
   },
-  "1:life-cycles": {
-   "rows": [
-    {
-     "id": "SCI.3.5",
-     "rel": "teaches",
-     "grade": "1-3"
-    }
-   ],
-   "by": "authored"
-  },
   "1:sink-float": {
    "rows": [
     {
@@ -3689,41 +3811,6 @@
      "id": "SCI.5.1",
      "rel": "prepares",
      "grade": "4-5"
-    }
-   ],
-   "by": "authored"
-  },
-  "1:body-parts": {
-   "rows": [
-    {
-     "id": "SCI.3.10",
-     "rel": "prepares",
-     "grade": "1-3"
-    }
-   ],
-   "by": "authored"
-  },
-  "1:five-senses": {
-   "rows": [
-    {
-     "id": "SCI.3.10",
-     "rel": "teaches",
-     "grade": "1-3"
-    }
-   ],
-   "by": "authored"
-  },
-  "1:weather": {
-   "rows": [
-    {
-     "id": "SCI.3.8",
-     "rel": "teaches",
-     "grade": "1-3"
-    },
-    {
-     "id": "MAT.3.13",
-     "rel": "teaches",
-     "grade": "1-3"
     }
    ],
    "by": "authored"
@@ -3743,21 +3830,6 @@
    ],
    "by": "authored"
   },
-  "1:plant-parts": {
-   "rows": [
-    {
-     "id": "SCI.3.5",
-     "rel": "prepares",
-     "grade": "1-3"
-    },
-    {
-     "id": "SCI.3.11",
-     "rel": "prepares",
-     "grade": "1-3"
-    }
-   ],
-   "by": "authored"
-  },
   "1:sun-earth-moon": {
    "rows": [
     {
@@ -3767,21 +3839,6 @@
     },
     {
      "id": "SCI.5.8",
-     "rel": "prepares",
-     "grade": "4-5"
-    }
-   ],
-   "by": "authored"
-  },
-  "2:materials": {
-   "rows": [
-    {
-     "id": "SCI.3.2",
-     "rel": "teaches",
-     "grade": "1-3"
-    },
-    {
-     "id": "TEC.5.4",
      "rel": "prepares",
      "grade": "4-5"
     }
@@ -3809,6 +3866,36 @@
      "id": "SCI.3.5",
      "rel": "teaches",
      "grade": "1-3"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:sink-float": {
+   "rows": [
+    {
+     "id": "SCI.3.4",
+     "rel": "teaches",
+     "grade": "1-3"
+    },
+    {
+     "id": "SCI.5.1",
+     "rel": "prepares",
+     "grade": "4-5"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:materials": {
+   "rows": [
+    {
+     "id": "SCI.3.2",
+     "rel": "teaches",
+     "grade": "1-3"
+    },
+    {
+     "id": "TEC.5.4",
+     "rel": "prepares",
+     "grade": "4-5"
     }
    ],
    "by": "authored"
@@ -3849,21 +3936,6 @@
      "id": "SCI.3.11",
      "rel": "teaches",
      "grade": "1-3"
-    }
-   ],
-   "by": "authored"
-  },
-  "2:sink-float": {
-   "rows": [
-    {
-     "id": "SCI.3.4",
-     "rel": "teaches",
-     "grade": "1-3"
-    },
-    {
-     "id": "SCI.5.1",
-     "rel": "prepares",
-     "grade": "4-5"
     }
    ],
    "by": "authored"
@@ -3913,16 +3985,6 @@
    ],
    "by": "authored"
   },
-  "3:planets": {
-   "rows": [
-    {
-     "id": "SCI.5.8",
-     "rel": "prepares",
-     "grade": "4-5"
-    }
-   ],
-   "by": "authored"
-  },
   "3:investigation": {
    "rows": [
     {
@@ -3932,6 +3994,16 @@
     },
     {
      "id": "TEC.5.6",
+     "rel": "prepares",
+     "grade": "4-5"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:planets": {
+   "rows": [
+    {
+     "id": "SCI.5.8",
      "rel": "prepares",
      "grade": "4-5"
     }
@@ -4077,19 +4149,8 @@
    ],
    "by": "authored"
   },
-  "K:healthy-food": {
-   "rows": [
-    {
-     "id": "SCI.5.10",
-     "rel": "prepares",
-     "grade": "4-5"
-    },
-    {
-     "id": "SCI.3.4",
-     "rel": "prepares",
-     "grade": "1-3"
-    }
-   ],
+  "K:road-safety": {
+   "none": "Educazione stradale is not in the disciplines of this registry (in Italy: educazione civica, and the 'sicurezza' part of educazione fisica).",
    "by": "authored"
   },
   "K:hygiene-habits": {
@@ -4107,18 +4168,35 @@
    ],
    "by": "authored"
   },
-  "K:road-safety": {
-   "none": "Educazione stradale is not in the disciplines of this registry (in Italy: educazione civica, and the 'sicurezza' part of educazione fisica).",
+  "K:sleep-play": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
-  "1:food-groups": {
+  "K:trusted-adults": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:i-can": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:healthy-food": {
    "rows": [
     {
      "id": "SCI.5.10",
      "rel": "prepares",
      "grade": "4-5"
+    },
+    {
+     "id": "SCI.3.4",
+     "rel": "prepares",
+     "grade": "1-3"
     }
    ],
+   "by": "authored"
+  },
+  "1:road-signs": {
+   "none": "Educazione stradale is not in the disciplines of this registry (educazione civica in Italy).",
    "by": "authored"
   },
   "1:healthy-habits": {
@@ -4131,7 +4209,17 @@
    ],
    "by": "authored"
   },
-  "1:road-signs": {
+  "1:food-groups": {
+   "rows": [
+    {
+     "id": "SCI.5.10",
+     "rel": "prepares",
+     "grade": "4-5"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:road-signs": {
    "none": "Educazione stradale is not in the disciplines of this registry (educazione civica in Italy).",
    "by": "authored"
   },
@@ -4148,10 +4236,6 @@
      "grade": "1-3"
     }
    ],
-   "by": "authored"
-  },
-  "2:road-signs": {
-   "none": "Educazione stradale is not in the disciplines of this registry (educazione civica in Italy).",
    "by": "authored"
   },
   "K:how-to-draw": {

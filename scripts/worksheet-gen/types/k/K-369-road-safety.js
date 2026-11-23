@@ -201,9 +201,25 @@ const STEP_LAYOUT = { 4: [2, 2], 5: [3, 2], 6: [3, 3] };
  * nothing forces 'listen' / 'look-both' against the looks — so a routine carrying them has more than one valid
  * order and REFUSES. The count is of linear extensions (every permutation that keeps every forced pair).
  */
-const STEP_ACTION = { 'stop-kerb': 'arrive', 'look-left': 'L', 'look-right': 'R', 'look-both': 'both', 'wait-clear': 'wait', 'walk-across': 'walk', listen: 'listen' };
+/* THE GROWN-UP'S HAND (Batch K 2026-11-23, the American routine: stop at the curb, look left, look right, look left
+ * AGAIN, then cross, holding a grown-up's hand). Review round 1 (an American Kindergarten teacher; Safe Kids / NHTSA K-2
+ * pedestrian lessons): the hand is held on EVERY card from the curb (a routine is all-hand or no-hand). Each *-hand
+ * kind is its base action with the hand ('h'). The two left looks differ by the ↶ "again" swing ALONE: it swings back
+ * from the right, so the again-look (L2) is forced after the look right. The hand rule stays (a card without the hand
+ * before a card with it: the hand, once taken, is held until across). A routine without a hand card and without L2
+ * counts exactly as before. */
+const STEP_ACTION = { 'stop-kerb': 'arrive', 'look-left': 'L', 'look-right': 'R', 'look-both': 'both', 'wait-clear': 'wait', 'walk-across': 'walk', listen: 'listen',
+  'stop-kerb-hand': 'arriveh', 'look-left-hand': 'Lh', 'look-right-hand': 'Rh', 'look-left-again-hand': 'L2h', 'walk-across-hand': 'walkh' };
+const HAND_BASE = { arriveh: 'arrive', Lh: 'L', Rh: 'R', L2h: 'L2', walkh: 'walk' };
+const HAND_ACTIONS = new Set(Object.keys(HAND_BASE)), WALK_ACTIONS = new Set(['walk', 'walkh']);
+/** the forced pairs of the model (exported for the listed-order check and the gates) */
+const stepBefore = (a, b) => {
+  const x = HAND_BASE[a] || a, y = HAND_BASE[b] || b;
+  return (x === 'arrive' && ['L', 'R', 'both', 'walk', 'L2'].includes(y)) || (x === 'L' && y === 'R') || (x === 'R' && y === 'L2') ||
+    (!WALK_ACTIONS.has(a) && WALK_ACTIONS.has(b)) || (!HAND_ACTIONS.has(a) && HAND_ACTIONS.has(b));
+};
 function validOrderCount(actions) {
-  const before = (a, b) => (a === 'arrive' && ['L', 'R', 'both', 'walk'].includes(b)) || (a === 'L' && b === 'R') || (a !== 'walk' && b === 'walk');
+  const before = stepBefore;
   const n = actions.length; let count = 0;
   const used = Array(n).fill(false), seq = [];
   const rec = () => {
@@ -217,9 +233,13 @@ function buildCrossingSteps(block, d, loc, rng, seam) {
   const strings = faceStrings(block, 'crossing-steps', loc);
   const steps = block.steps;
   if (!Array.isArray(steps) || !STEP_LAYOUT[steps.length]) throw new Error(`K-369 ${loc}: steps ${JSON.stringify(steps)} (4-6 cards)`);
-  if (steps[0] !== 'stop-kerb' || steps[steps.length - 1] !== 'walk-across') throw new Error(`K-369 ${loc}: steps must start stop-kerb and end walk-across`);
+  if (!['stop-kerb', 'stop-kerb-hand'].includes(steps[0]) || !['walk-across', 'walk-across-hand'].includes(steps[steps.length - 1])) throw new Error(`K-369 ${loc}: steps must start stop-kerb and end walk-across`);
+  // THE HAND FROM THE CURB (review round 1, 2026-11-23): a routine with a grown-up's hand holds it on every card, from
+  // stopping at the curb (a grown-up who joins halfway teaches the wrong routine)
+  if (steps.some((k) => /-hand$/.test(k)) && !steps.every((k) => /-hand$/.test(k))) throw new Error(`K-369 ${loc}: the routine ${steps.join(',')} takes the grown-up's hand halfway (the hand is held on every card from the curb — refuse)`);
   for (const k of steps) if (!COMMON.stepKinds.includes(k)) throw new Error(`K-369 ${loc}: step "${k}"`);
-  if (d.cards !== steps.length) throw new Error(`K-369 ${loc}: the face prints ${d.cards} cards, the ${loc} routine has ${steps.length} steps (refuse; the row sets cards per routine)`);
+  // cards: 'routine' (K-374 since Batch K 2026-11-23) = as many cards as the locale's routine has steps (en 5, the rest 4)
+  if ((d.cards === 'routine' ? steps.length : d.cards) !== steps.length) throw new Error(`K-369 ${loc}: the face prints ${d.cards} cards, the ${loc} routine has ${steps.length} steps (refuse; the row sets cards per routine)`);
   for (const k of ['offBy', 'cardW', 'figH', 'minFrameH']) if (!(d[k] > 0)) throw new Error(`K-369 crossing-steps: config ${k} is ${d[k]}`);
   const n = steps.length;
   // NO ACTION TWICE (landing round 1, 2026-09-23, en/de/es/fr panels): the old routine looked left twice, and the
@@ -228,6 +248,10 @@ function buildCrossingSteps(block, d, loc, rng, seam) {
   if (new Set(steps).size !== steps.length) throw new Error(`K-369 ${loc}: the routine ${steps.join(',')} repeats an action (every card must carry a different action — refuse)`);
   const nOrders = validOrderCount(steps.map((k) => STEP_ACTION[k]));
   if (nOrders !== 1) throw new Error(`K-369 ${loc}: the routine ${steps.join(',')} has ${nOrders} valid orders by the drawn-action model (exactly one — refuse)`);
+  // the LISTED routine is the answer key, so it must itself be that one order (Batch K 2026-11-23: a hand card listed
+  // before the look right would count one order and key the wrong one)
+  const acts0 = steps.map((k) => STEP_ACTION[k]);
+  if (acts0.some((a, i) => acts0.slice(0, i).some((b) => stepBefore(a, b)))) throw new Error(`K-369 ${loc}: the routine ${steps.join(',')} is not listed in its one valid order (refuse)`);
   const kinds = steps.slice();
   let order = seam && seam.plan ? seam.plan.order : null;
   for (let t = 0; t < TRIES && !order; t++) {
@@ -534,19 +558,35 @@ async function faceVerify(page, mode) {
           return Math.sign(xs[ti] - others.reduce((a, b) => a + b, 0) / others.length);
         });
         const k = c.dataset.lcsStep;
-        const want = { 'look-left': [-1], 'look-left-again': [-1], 'look-right': [1], 'look-both': [-1, 1] }[k] || [];
+        const want = { 'look-left': [-1], 'look-left-again': [-1], 'look-left-hand': [-1], 'look-left-again-hand': [-1], 'look-right': [1], 'look-right-hand': [1], 'look-both': [-1, 1] }[k] || [];
+        const adults = c.querySelectorAll('[data-lcs-adult]').length;
+        if (/-hand$/.test(k) !== (adults === 1)) f.push(`${what}: ${adults} grown-ups drawn (a hand card draws one, every other card none)`);
+        // review round 2 (2026-11-23): no sight arrow touches the grown-up's silhouette (a look-right drawn across the
+        // grown-up reads "look at your grown-up"): points sampled along every arrow, against each part's box + 2 px
+        if (adults) {
+          const parts = [...c.querySelectorAll('[data-lcs-adult] > *')].map((e) => e.getBoundingClientRect());
+          const pts = [];
+          c.querySelectorAll('[data-lcs-sight] path, [data-lcs-sight] line, [data-lcs-sight] polygon').forEach((e) => {
+            const m = e.getScreenCTM(); const at = (x, y) => pts.push([m.a * x + m.c * y + m.e, m.b * x + m.d * y + m.f]);
+            if (e.tagName === 'path') { const L = e.getTotalLength(); for (let i = 0; i <= 40; i++) { const p = e.getPointAtLength(L * i / 40); at(p.x, p.y); } }
+            else if (e.tagName === 'line') { const a = ['x1', 'y1', 'x2', 'y2'].map((k2) => e[k2].baseVal.value); for (let i = 0; i <= 20; i++) at(a[0] + (a[2] - a[0]) * i / 20, a[1] + (a[3] - a[1]) * i / 20); }
+            else for (let i = 0; i < e.points.numberOfItems; i++) { const p = e.points.getItem(i); at(p.x, p.y); }
+          });
+          if (pts.some(([x, y]) => parts.some((r) => x > r.left - 2 && x < r.right + 2 && y > r.top - 2 && y < r.bottom + 2))) f.push(`${what}: a sight arrow touches the grown-up (it reads "look at your grown-up")`);
+        }
         const cars = c.querySelectorAll('[data-lcs-car] [data-lcs-pictogram="car"]').length;
         // what the frame DRAWS (never the step stamp): stance, head offset, each arrow's direction + straight/swung, the ahead mark
         const head = c.querySelector('[data-lcs-head]'), bag = c.querySelector('[data-lcs-bag]');
         const hx = head && bag ? Math.round((center(R(head)).x - center(R(bag)).x)) : 0;
         const swung = [...c.querySelectorAll('[data-lcs-sight]')].map((g) => (g.querySelector('path') ? 'swing' : 'straight'));
-        sigs.push({ what, sig: JSON.stringify([c.querySelectorAll('[data-lcs-step-fig] path').length, Math.sign(hx), dirs.slice().sort(), swung.sort(), c.querySelectorAll('[data-lcs-ahead]').length, cars]),
+        sigs.push({ what, sig: JSON.stringify([c.querySelectorAll('[data-lcs-step-fig] path').length, Math.sign(hx), dirs.slice().sort(), swung.sort(), c.querySelectorAll('[data-lcs-ahead]').length, cars, adults]),
           // the ACTION the frame shows, from the drawing (never the stamp): stance + sight directions + a passing car +
-          // the walk-ahead mark — an arrow's curve is NOT a different action (landing round 1: two look-left cards)
-          action: JSON.stringify([[...c.querySelectorAll('[data-lcs-step-fig] path')].filter((x) => !x.closest('[data-lcs-sight]')).length, dirs.slice().sort(), cars, c.querySelectorAll('[data-lcs-ahead]').length]) });
+          // the walk-ahead mark + the grown-up + the ↶ "again" swing (review round 1, 2026-11-23: the swing comes back
+          // from the right, so it is forced after the look right — the model's R -> L2 pair)
+          action: JSON.stringify([[...c.querySelectorAll('[data-lcs-step-fig] path')].filter((x) => !x.closest('[data-lcs-sight]')).length, dirs.slice().sort(), cars, c.querySelectorAll('[data-lcs-ahead]').length, adults, swung.includes('swing') ? 1 : 0]) });
         if (k === 'wait-clear' && cars !== 1) f.push(`${what}: wait until clear draws ${cars} passing cars (1)`);
         if (k !== 'wait-clear' && cars) f.push(`${what}: a passing car on a ${k} card`);
-        if (k === 'look-left-again' && !swung.includes('swing')) f.push(`${what}: look left AGAIN is drawn with a straight arrow (it must swing back from the right)`);
+        if ((k === 'look-left-again' || k === 'look-left-again-hand') && !swung.includes('swing')) f.push(`${what}: look left AGAIN is drawn with a straight arrow (it must swing back from the right)`);
         if (dirs.slice().sort().join() !== want.slice().sort().join()) f.push(`${what}: the drawn sight arrows point ${JSON.stringify(dirs)} (${JSON.stringify(want)}: the page's left IS the child's left)`);
         const boxes = c.querySelectorAll('.ws-blankbox');
         if (boxes.length !== 1) f.push(`${what}: ${boxes.length} numeral boxes`);
@@ -561,8 +601,12 @@ async function faceVerify(page, mode) {
       {
         // ONE VALID ORDER, from the DRAWING (verify runs in the page: the model is restated here): each card's action is
         // read off what it draws — the walk-ahead mark, a passing car, the sight arrows — never off the step stamp
-        const acts = sigs.map((x) => { const [, dirs, cars, ahead] = JSON.parse(x.action); return ahead ? 'walk' : cars ? 'wait' : dirs.join() === '-1' ? 'L' : dirs.join() === '1' ? 'R' : dirs.length === 2 ? 'both' : dirs.length ? '?' : 'arrive'; });
-        const before = (a, b) => (a === 'arrive' && ['L', 'R', 'both', 'walk'].includes(b)) || (a === 'L' && b === 'R') || (a !== 'walk' && b === 'walk');
+        // a card that draws the grown-up's hand is its base action with the hand ('h'); a swung left look is the again-look
+        const acts = sigs.map((x) => { const [, dirs, cars, ahead, adult, swing] = JSON.parse(x.action); const a = ahead ? 'walk' : cars ? 'wait' : dirs.join() === '-1' ? (swing ? 'L2' : 'L') : dirs.join() === '1' ? 'R' : dirs.length === 2 ? 'both' : dirs.length ? '?' : 'arrive'; return adult ? a + '+h' : a; });
+        const hand = (a) => /\+h$/.test(a);
+        if (acts.some(hand) && !acts.every(hand)) f.push(`the grown-up is drawn on only some cards [${acts.join(' ')}] (the hand is held on every card from the curb)`);
+        const WALK = ['walk', 'walk+h'];
+        const before = (a, b) => { const x = a.replace('+h', ''), y = b.replace('+h', ''); return (x === 'arrive' && ['L', 'R', 'both', 'walk', 'L2'].includes(y)) || (x === 'L' && y === 'R') || (x === 'R' && y === 'L2') || (!WALK.includes(a) && WALK.includes(b)) || (!hand(a) && hand(b)); };
         const n = acts.length; let count = 0; const used = Array(n).fill(false);
         const rec = (k) => { if (k === n) { count++; return; } for (let i = 0; i < n; i++) if (!used[i] && !acts.some((b, j) => !used[j] && j !== i && before(b, acts[i]))) { used[i] = true; rec(k + 1); used[i] = false; } };
         if (n && n <= 7) rec(0);

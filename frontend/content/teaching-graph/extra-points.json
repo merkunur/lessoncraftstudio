@@ -1116,6 +1116,153 @@
    "strand": "Phonological Awareness",
    "code": "RF.1.2.c",
    "skill": "Say the first, middle, and last sound of a spoken one-syllable word and mark where a given sound is heard"
+  },
+  {
+   "tp": "K:body-needs",
+   "grade": "K",
+   "strand": "Science",
+   "code": "NGSS:K-LS1-1",
+   "skill": "Tell the things a body needs to live (food, water, air) from the things that are only nice to have"
+  },
+  {
+   "tp": "K:wind-watch",
+   "grade": "K",
+   "strand": "Science",
+   "code": "NGSS:K-ESS2-1",
+   "skill": "Watch the wind with a streamer each day and record whether it hangs still, flutters or flies straight out"
+  },
+  {
+   "tp": "K:rain-gauge",
+   "grade": "K",
+   "strand": "Science",
+   "code": "NGSS:K-ESS2-1",
+   "skill": "Read a rain gauge and compare how much rain fell on different days"
+  },
+  {
+   "tp": "K:weather-ready",
+   "grade": "K",
+   "strand": "Science",
+   "code": "NGSS:K-ESS3-2",
+   "skill": "Choose what to wear or bring, and the safe thing to do, for each kind of weather, storms included"
+  },
+  {
+   "tp": "K:animal-food",
+   "grade": "K",
+   "strand": "Science",
+   "code": "NGSS:K-LS1-1",
+   "skill": "Tell what animals eat: plants, animals, or both"
+  },
+  {
+   "tp": "K:animal-home",
+   "grade": "K",
+   "strand": "Science",
+   "code": "NGSS:K-ESS3-1",
+   "skill": "Build a home that gives an animal what it needs: food, water and a place to hide"
+  },
+  {
+   "tp": "K:animals-change-land",
+   "grade": "K",
+   "strand": "Science",
+   "code": "NGSS:K-ESS2-2",
+   "skill": "Match a change in the land (a hole, an anthill, a dam, a nest) to the animal that made it"
+  },
+  {
+   "tp": "K:push-pull",
+   "grade": "K",
+   "strand": "Science",
+   "code": "NGSS:K-PS2-1",
+   "skill": "Tell a push from a pull"
+  },
+  {
+   "tp": "K:push-strength",
+   "grade": "K",
+   "strand": "Science",
+   "code": "NGSS:K-PS2-1",
+   "skill": "Compare a gentle and a hard push: the harder push makes the ball roll farther"
+  },
+  {
+   "tp": "K:change-direction",
+   "grade": "K",
+   "strand": "Science",
+   "code": "NGSS:K-PS2-1",
+   "skill": "Show how a push or a bump changes the direction a ball rolls"
+  },
+  {
+   "tp": "K:ramp-to-target",
+   "grade": "K",
+   "strand": "Science",
+   "code": "NGSS:K-PS2-2",
+   "skill": "Build a ramp that makes a ball hit a cup, test it, and change it when it does not work"
+  },
+  {
+   "tp": "K:compare-ramps",
+   "grade": "K",
+   "strand": "Science",
+   "code": "NGSS:K-2-ETS1-3",
+   "skill": "Test two ramps the same way and tell which one works better"
+  },
+  {
+   "tp": "K:boat-plan",
+   "grade": "K",
+   "strand": "Science",
+   "code": "NGSS:K-2-ETS1-2",
+   "skill": "Draw a plan for a boat that keeps a toy bear dry"
+  },
+  {
+   "tp": "K:boat-test",
+   "grade": "K",
+   "strand": "Science",
+   "code": "NGSS:K-2-ETS1-2",
+   "skill": "Build and test a boat, then choose a change that would help"
+  },
+  {
+   "tp": "K:boat-compare",
+   "grade": "K",
+   "strand": "Science",
+   "code": "NGSS:K-2-ETS1-3",
+   "skill": "Compare two boats by how many pennies each held before it sank"
+  },
+  {
+   "tp": "K:seed-journal",
+   "grade": "K",
+   "strand": "Science",
+   "code": "NGSS:K-LS1-1",
+   "skill": "Watch a bean seed grow and record what changes from day to day"
+  },
+  {
+   "tp": "K:sun-warms",
+   "grade": "K",
+   "strand": "Science",
+   "code": "NGSS:K-PS3-1",
+   "skill": "Observe that sunlight warms the ground and water: the sunny side is warmer than the shade"
+  },
+  {
+   "tp": "K:make-shade",
+   "grade": "K",
+   "strand": "Science",
+   "code": "NGSS:K-PS3-2",
+   "skill": "Build a shade that slows an ice cube melting in the sun"
+  },
+  {
+   "tp": "K:i-can",
+   "grade": "K",
+   "strand": "Health",
+   "code": "NHES.1.2.1",
+   "skill": "Name something I am good at and something I am learning, and the people who help me"
+  },
+  {
+   "tp": "K:sleep-play",
+   "grade": "K",
+   "strand": "Health",
+   "code": "NHES.1.2.5",
+   "skill": "Put a bedtime routine in order and choose play that moves the whole body: sleep and play help me grow"
+  },
+  {
+   "tp": "K:trusted-adults",
+   "grade": "K",
+   "strand": "Health",
+   "code": "NHES.3.2.1",
+   "skill": "Find the grown-ups who could help, and always check first with my grown-up"
   }
  ]
 }

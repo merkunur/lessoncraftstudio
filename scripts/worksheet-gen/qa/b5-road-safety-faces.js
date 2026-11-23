@@ -259,10 +259,11 @@ async function faceGate({ page, K, validateBank, fixture, quick, OUTDIR, bothSat
   // PR3 — an F2 look-left card whose chevron points right (the figure mirrored)
   {
     const C5 = require('../templates/components-b5.js');
-    const right = C5.rsCrossingCard({ step: 'look-right', w: 200, figH: 130, minFrameH: 196, box: { w: 64, h: 60 } });
+    // Batch K review round 1 (2026-11-23): the en routine is all-hand, so the poisons name the *-hand steps
+    const right = C5.rsCrossingCard({ step: 'look-right-hand', w: 200, figH: 130, minFrameH: 196, box: { w: 64, h: 60 } });
     const figR = /<div class="rs-cfig"[\s\S]*?<\/svg><\/div>/.exec(right)[0];
-    const fn = (h) => h.replace(/(data-lcs-step="look-left"[\s\S]*?)<div class="rs-cfig"[\s\S]*?<\/svg><\/div>/, (m, pre) => pre + figR);
-    J('K-374', 'PR3 an F2 look-left chevron pointing right', await gateOf(rewire('K-374', { fn }), 'PR3'), /look-left\): the drawn sight arrows point \[1\]/);
+    const fn = (h) => h.replace(/(data-lcs-step="look-left-hand"[\s\S]*?)<div class="rs-cfig"[\s\S]*?<\/svg><\/div>/, (m, pre) => pre + figR);
+    J('K-374', 'PR3 an F2 look-left chevron pointing right', await gateOf(rewire('K-374', { fn }), 'PR3'), /look-left-hand\): the drawn sight arrows point \[1\]/);
   }
   // BX1 — an F2 numeral box written in
   J('K-374', 'BX1 an F2 box written in', await gateOf(rewire('K-374', { fn: (h) => h.replace(/(<span class="ws-blankbox"[^>]*>)<\/span>/, '$13</span>') }), 'BX1'), /the numeral box is not empty/);
@@ -327,17 +328,25 @@ async function faceGate({ page, K, validateBank, fixture, quick, OUTDIR, bothSat
     const figOf = (step) => /<div class="rs-cfig"[\s\S]*?<\/svg><\/div>/.exec(C5.rsCrossingCard({ step, w: 200, figH: 130, minFrameH: 196, box: { w: 64, h: 60 } }))[0];
     const onCard = (step, fig) => (h) => h.replace(new RegExp(`(data-lcs-step="${step}"[\\s\\S]*?)<div class="rs-cfig"[\\s\\S]*?<\\/svg><\\/div>`), (m, pre) => pre + fig);
     // ID1 — the look-right card drawn with the look-left figure: identical frames FAIL
-    J('K-374', 'ID1 F2 look-right drawn as look-left', await gateOf(rewire('K-374', { fn: onCard('look-right', figOf('look-left')) }), 'ID1'), /draw the SAME frame/);
+    J('K-374', 'ID1 F2 look-right drawn as look-left', await gateOf(rewire('K-374', { fn: onCard('look-right-hand', figOf('look-left-hand')) }), 'ID1'), /draw the SAME frame/);
     // DA1 — landing round 1 (2026-09-23): the old routine's second look-left (drawn with the ↶ swing) in place of
     // look-right — a different FRAME but the same ACTION as card look-left: steps swappable -> "duplicate action"
-    J('K-374', 'DA1 F2 a second look-left (swing arrow) in place of look-right', await gateOf(rewire('K-374', { fn: onCard('look-right', figOf('look-left-again')) }), 'DA1'), /duplicate action — card \d \(look-left\) and card \d \(look-right\)|duplicate action — card \d \(look-right\) and card \d \(look-left\)/);
+    // (review round 1: the swing is the again-look's own action, so a second swing in place of the look right duplicates
+    // the again-look card)
+    J('K-374', 'DA1 F2 a second look-left (swing arrow) in place of look-right', await gateOf(rewire('K-374', { fn: onCard('look-right-hand', figOf('look-left-again-hand')) }), 'DA1'), /duplicate action — card \d \(look-(right|left-again)-hand\) and card \d \(look-(right|left-again)-hand\)/);
+    // HF1 (review round 1) — the hand not from the curb: the stop card drawn WITHOUT the grown-up
+    J('K-374', 'HF1 F2 the grown-up missing from the stop-at-the-curb card', await gateOf(rewire('K-374', { fn: onCard('stop-kerb-hand', figOf('stop-kerb')) }), 'HF1'), /the grown-up is drawn on only some cards/);
+    // AR1 (review round 2) — the grown-up raised into the look-right arc: the arrow touches the grown-up
+    J('K-374', 'AR1 F2 the look-right arrow touching the grown-up', await gateOf(rewire('K-374', { fn: (h) => h.replace(/(data-lcs-step="look-right-hand"[\s\S]*?data-lcs-adult="1" transform=")translate\(20 -28\.2\)/, '$1translate(20 -48.2)') }), 'AR1'), /a sight arrow touches the grown-up/);
+    // AG1 (review round 1) — the again-look drawn with a straight arrow: the two left looks are one action
+    J('K-374', 'AG1 F2 the again-look without its swing', await gateOf(rewire('K-374', { fn: onCard('look-left-again-hand', figOf('look-left-hand')) }), 'AG1'), /look left AGAIN is drawn with a straight arrow/);
     // UO1 / UO2 — ONE VALID ORDER (landing review 2026-09-23, da + no: stop <-> wait was swappable). The pre-review
     // 5-step routine with wait-clear REFUSES in the builder; a passing car drawn into the stop-kerb frame (a kerb
     // card forced against nothing) FAILS verify's drawn-action model. The shipped 4-step page is the control.
     const five = { ...en, steps: ['stop-kerb', 'look-left', 'look-right', 'wait-clear', 'walk-across'] };
     J('K-374', 'UO1 F2 the 5-step routine with wait-clear (builder)', await gateOf(rewire('K-374', { block: five, cfg: { cards: 5 } }), 'UO1'), /has 4 valid orders by the drawn-action model/);
     const carDiv = '<div class="rs-ccar" data-lcs-car style="position:absolute;left:3%;bottom:54px;line-height:0">' + require('../primitives/road-pictogram.js').car({ state: 'driving', w: 88, data: { passing: 1 } }).svg + '</div>';
-    J('K-374', 'UO2 F2 a passing car drawn on the stop-kerb card', await gateOf(rewire('K-374', { fn: (h) => h.replace(/(data-lcs-step="stop-kerb"[\s\S]*?)(<div class="rs-cfig")/, (m, pre, fig) => pre + carDiv + fig) }), 'UO2'), /valid orders \(exactly one/);
+    J('K-374', 'UO2 F2 a passing car drawn on the stop-kerb card', await gateOf(rewire('K-374', { fn: (h) => h.replace(/(data-lcs-step="stop-kerb-hand"[\s\S]*?)(<div class="rs-cfig")/, (m, pre, fig) => pre + carDiv + fig) }), 'UO2'), /valid orders \(exactly one/);
   }
   // AT4 AT5 — F3 straight across / every line the same way
   const L = ['stop', 'yield', 'crossing', 'school', 'no-entry', 'signal-ahead'];

@@ -255,22 +255,31 @@ function validateBank(block, loc, common = COMMON) {
   // rule 7 — steps
   const st = block.steps || [];
   if (st.length < 3 || st.length > 6) e(7, `steps length ${st.length} (3-6)`);
-  if (st[0] !== 'stop-kerb') e(7, `steps start "${st[0]}" (stop-kerb)`);
-  if (st[st.length - 1] !== 'walk-across') e(7, `steps end "${st[st.length - 1]}" (walk-across)`);
+  if (!['stop-kerb', 'stop-kerb-hand'].includes(st[0])) e(7, `steps start "${st[0]}" (stop-kerb)`);
+  // review round 1 (2026-11-23): the grown-up's hand is held on every card from the curb (all-hand or no-hand)
+  if (st.some((k) => /-hand$/.test(k)) && !st.every((k) => /-hand$/.test(k))) e(7, `steps ${st.join(',')} take the grown-up's hand halfway (the hand is held from the curb)`);
+  if (!['walk-across', 'walk-across-hand'].includes(st[st.length - 1])) e(7, `steps end "${st[st.length - 1]}" (walk-across)`);
   for (const k of st) if (!common.stepKinds.includes(k)) e(7, `step "${k}" is not a step kind`);
   if (new Set(st).size !== st.length) e(7, `steps ${st.join(',')} repeat an action (landing round 1: every card a different action)`);
   // ONE VALID ORDER (landing review 2026-09-23, da + no): the gate's OWN precedence model of the drawn actions —
   // arriving before any look / the walk, the near lane (left) before the far lane (right), walking last; a wait
   // (child on the kerb, car passing) is forced against nothing but the walk, so a routine carrying it is ambiguous
   {
-    const ACT = { 'stop-kerb': 'arrive', 'look-left': 'L', 'look-right': 'R', 'look-both': 'both', 'wait-clear': 'wait', 'walk-across': 'walk', listen: 'listen' };
+    // Batch K 2026-11-23 (review round 1): a *-hand card is its base action with the grown-up's hand; the hand is held
+    // from the curb (a card without it before a card with it), and the ↶ again-look (L2) swings back from the right, so
+    // it comes after the look right — the gate's own restatement of the drawn-action model
+    const ACT = { 'stop-kerb': 'arrive', 'look-left': 'L', 'look-right': 'R', 'look-both': 'both', 'wait-clear': 'wait', 'walk-across': 'walk', listen: 'listen',
+      'stop-kerb-hand': 'arrive+h', 'look-left-hand': 'L+h', 'look-right-hand': 'R+h', 'look-left-again-hand': 'L2+h', 'walk-across-hand': 'walk+h' };
     const acts = st.map((k) => ACT[k] || '?');
-    const before = (a, b) => (a === 'arrive' && ['L', 'R', 'both', 'walk'].includes(b)) || (a === 'L' && b === 'R') || (a !== 'walk' && b === 'walk');
+    const HAND = (a) => a.endsWith('+h'), WALK = (a) => a.replace('+h', '') === 'walk';
+    const before = (a, b) => { const x = a.replace('+h', ''), y = b.replace('+h', ''); return (x === 'arrive' && ['L', 'R', 'both', 'walk', 'L2'].includes(y)) || (x === 'L' && y === 'R') || (x === 'R' && y === 'L2') || (!WALK(a) && WALK(b)) || (!HAND(a) && HAND(b)); };
+    // the listed routine is the answer key: it must itself be the one valid order
+    if (acts.some((a, i) => acts.slice(0, i).some((b) => before(a, b)))) e(7, `steps ${st.join(',')} are not listed in their one valid order`);
     const perms = (xs) => (xs.length <= 1 ? [xs] : xs.flatMap((x, i) => perms([...xs.slice(0, i), ...xs.slice(i + 1)]).map((r) => [x, ...r])));
     const n = acts.length <= 7 ? perms(acts.map((_, i) => i)).filter((o) => o.every((a, i) => o.slice(i + 1).every((b) => !before(acts[b], acts[a])))).length : -1;
     if (n !== 1) e(7, `steps ${st.join(',')} have ${n} valid orders by the drawn-action model (exactly one)`);
   }
-  const il = st.indexOf('look-left'), ir = st.indexOf('look-right');
+  const il = st.findIndex((k) => k === 'look-left' || k === 'look-left-hand'), ir = st.findIndex((k) => k === 'look-right' || k === 'look-right-hand');
   if (ir >= 0 && (il < 0 || il > ir)) e(7, 'look-right comes before look-left (right-hand traffic: the near lane comes from the LEFT)');
   // rule 8 — chip words
   for (const a of ['ped', 'car']) for (const s of ['stop', 'go']) {
@@ -430,6 +439,10 @@ function dataPoisons(en) {
   P('P9 steps with look-right first', 'en', (b) => { b.steps = ['stop-kerb', 'look-right', 'look-left', 'walk-across']; }, /rule 7: en: look-right comes before look-left/);
   P('P9c the pre-review routine with wait-clear (stop <-> wait swappable)', 'en', (b) => { b.steps = ['stop-kerb', 'look-left', 'look-right', 'wait-clear', 'walk-across']; }, /rule 7: en: steps .* have 4 valid orders/);
   P('P9b steps looking left twice (one action on two cards)', 'en', (b) => { b.steps = ['stop-kerb', 'look-left', 'look-right', 'look-left', 'walk-across']; }, /rule 7: en: steps .* repeat an action/);
+  P('P9d the again-look listed before the look right (Batch K: the swing comes back from the right)', 'en', (b) => { b.steps = ['stop-kerb-hand', 'look-left-hand', 'look-left-again-hand', 'look-right-hand', 'walk-across-hand']; }, /rule 7: en: steps .* are not listed in their one valid order/);
+  P('P9e a crossing WITHOUT the hand after looks WITH it (the hand let go)', 'en', (b) => { b.steps = ['stop-kerb-hand', 'look-left-hand', 'look-right-hand', 'look-left-again-hand', 'walk-across']; }, /rule 7: en: steps .* take the grown-up's hand halfway/);
+  P('P9f the hand taken only at the again-look (the round-0 routine: not from the curb)', 'en', (b) => { b.steps = ['stop-kerb', 'look-left', 'look-right', 'look-left-again-hand', 'walk-across-hand']; }, /rule 7: en: steps .* take the grown-up's hand halfway/);
+  P('P9g the again-look without its swing (two plain left looks with the hand: one action twice)', 'en', (b) => { b.steps = ['stop-kerb-hand', 'look-left-hand', 'look-right-hand', 'look-left-hand', 'walk-across-hand']; }, /rule 7: en: steps .* repeat an action/);
   P('P10 stop situation "Here is a STOP sign."', 'en', (b) => { b.situations.stop[0] = 'Here is a STOP sign.'; }, /rule 4: en: role stop: the situation prints the sign's own word "stop"/);
   P('P11 a Vienna classes list with priority', 'de', (b) => { b.classes.push({ key: 'priority', label: 'Fixture D' }); }, /rule 3: de: a Vienna classes list carries "priority"/);
   P('P12 kindsPool with no-entry (filled red disc)', 'de', (b) => { b.kindsPool.push('no-entry'); }, /rule 3: de: kindsPool role no-entry is a filled red disc/);

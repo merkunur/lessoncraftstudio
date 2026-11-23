@@ -3669,6 +3669,16 @@
    "none": "not yet read against this curriculum",
    "by": "authored"
   },
+  "K:five-senses": {
+   "rows": [
+    {
+     "id": "SU.2.2.s3",
+     "rel": "prepares",
+     "grade": "1-2"
+    }
+   ],
+   "by": "authored"
+  },
   "K:human-body": {
    "rows": [
     {
@@ -3677,6 +3687,57 @@
      "grade": "1-2"
     }
    ],
+   "by": "authored"
+  },
+  "K:seasons": {
+   "rows": [
+    {
+     "id": "SU.6.1.s1",
+     "rel": "prepares",
+     "grade": "1-2"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:weather-temperature": {
+   "rows": [
+    {
+     "id": "SU.3.2.s3",
+     "rel": "prepares",
+     "grade": "1-2"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:wind-watch": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:rain-gauge": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:weather-ready": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:plant-needs": {
+   "rows": [
+    {
+     "id": "SU.3.1.s3",
+     "rel": "prepares",
+     "grade": "1-2"
+    },
+    {
+     "id": "SU.3.1.s2",
+     "rel": "prepares",
+     "grade": "1-2"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:seed-journal": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "K:living-nonliving": {
@@ -3719,26 +3780,6 @@
    ],
    "by": "authored"
   },
-  "K:animal-babies": {
-   "rows": [
-    {
-     "id": "SU.3.1.s1",
-     "rel": "prepares",
-     "grade": "1-2"
-    }
-   ],
-   "by": "authored"
-  },
-  "K:seasons": {
-   "rows": [
-    {
-     "id": "SU.6.1.s1",
-     "rel": "prepares",
-     "grade": "1-2"
-    }
-   ],
-   "by": "authored"
-  },
   "K:day-night": {
    "rows": [
     {
@@ -3748,16 +3789,6 @@
     },
     {
      "id": "SU.6.1.s1",
-     "rel": "prepares",
-     "grade": "1-2"
-    }
-   ],
-   "by": "authored"
-  },
-  "K:weather-temperature": {
-   "rows": [
-    {
-     "id": "SU.3.2.s3",
      "rel": "prepares",
      "grade": "1-2"
     }
@@ -3774,14 +3805,65 @@
    ],
    "by": "authored"
   },
-  "K:five-senses": {
+  "K:body-needs": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:push-pull": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:push-strength": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:change-direction": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:ramp-to-target": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:compare-ramps": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:animal-babies": {
    "rows": [
     {
-     "id": "SU.2.2.s3",
+     "id": "SU.3.1.s1",
      "rel": "prepares",
      "grade": "1-2"
     }
    ],
+   "by": "authored"
+  },
+  "K:sink-float": {
+   "rows": [
+    {
+     "id": "SU.3.2.s2",
+     "rel": "prepares",
+     "grade": "1-2"
+    },
+    {
+     "id": "SU.3.2.s3",
+     "rel": "prepares",
+     "grade": "1-2"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:boat-plan": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:boat-test": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:boat-compare": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "K:recycling": {
@@ -3799,31 +3881,81 @@
    ],
    "by": "authored"
   },
-  "K:plant-needs": {
+  "K:sun-warms": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:make-shade": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:animal-food": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:animal-home": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:animals-change-land": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:five-senses": {
    "rows": [
     {
-     "id": "SU.3.1.s3",
-     "rel": "prepares",
-     "grade": "1-2"
-    },
-    {
-     "id": "SU.3.1.s2",
-     "rel": "prepares",
+     "id": "SU.2.2.s3",
+     "rel": "teaches",
      "grade": "1-2"
     }
    ],
    "by": "authored"
   },
-  "K:sink-float": {
+  "1:body-parts": {
    "rows": [
     {
-     "id": "SU.3.2.s2",
-     "rel": "prepares",
+     "id": "SU.2.2.s2",
+     "rel": "teaches",
+     "grade": "1-2"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:weather": {
+   "rows": [
+    {
+     "id": "SU.3.2.s3",
+     "rel": "teaches",
      "grade": "1-2"
     },
     {
-     "id": "SU.3.2.s3",
-     "rel": "prepares",
+     "id": "M.4.1.g2",
+     "rel": "teaches",
+     "grade": "1-4"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:life-cycles": {
+   "rows": [
+    {
+     "id": "SU.3.1.s2",
+     "rel": "teaches",
+     "grade": "1-2"
+    },
+    {
+     "id": "SU.3.1.s1",
+     "rel": "teaches",
+     "grade": "1-2"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:plant-parts": {
+   "rows": [
+    {
+     "id": "SU.3.1.s2",
+     "rel": "teaches",
      "grade": "1-2"
     }
    ],
@@ -3854,21 +3986,6 @@
    ],
    "by": "authored"
   },
-  "1:life-cycles": {
-   "rows": [
-    {
-     "id": "SU.3.1.s2",
-     "rel": "teaches",
-     "grade": "1-2"
-    },
-    {
-     "id": "SU.3.1.s1",
-     "rel": "teaches",
-     "grade": "1-2"
-    }
-   ],
-   "by": "authored"
-  },
   "1:sink-float": {
    "rows": [
     {
@@ -3880,41 +3997,6 @@
      "id": "SU.3.2.s2",
      "rel": "prepares",
      "grade": "1-2"
-    }
-   ],
-   "by": "authored"
-  },
-  "1:body-parts": {
-   "rows": [
-    {
-     "id": "SU.2.2.s2",
-     "rel": "teaches",
-     "grade": "1-2"
-    }
-   ],
-   "by": "authored"
-  },
-  "1:five-senses": {
-   "rows": [
-    {
-     "id": "SU.2.2.s3",
-     "rel": "teaches",
-     "grade": "1-2"
-    }
-   ],
-   "by": "authored"
-  },
-  "1:weather": {
-   "rows": [
-    {
-     "id": "SU.3.2.s3",
-     "rel": "teaches",
-     "grade": "1-2"
-    },
-    {
-     "id": "M.4.1.g2",
-     "rel": "teaches",
-     "grade": "1-4"
     }
    ],
    "by": "authored"
@@ -3934,37 +4016,12 @@
    ],
    "by": "authored"
   },
-  "1:plant-parts": {
-   "rows": [
-    {
-     "id": "SU.3.1.s2",
-     "rel": "teaches",
-     "grade": "1-2"
-    }
-   ],
-   "by": "authored"
-  },
   "1:sun-earth-moon": {
    "rows": [
     {
      "id": "SU.3.2.s3",
      "rel": "teaches",
      "grade": "1-2"
-    }
-   ],
-   "by": "authored"
-  },
-  "2:materials": {
-   "rows": [
-    {
-     "id": "SU.3.2.s1",
-     "rel": "teaches",
-     "grade": "1-2"
-    },
-    {
-     "id": "SU.3.1.k3",
-     "rel": "prepares",
-     "grade": "3-4"
     }
    ],
    "by": "authored"
@@ -3985,6 +4042,36 @@
      "id": "SU.3.1.s1",
      "rel": "teaches",
      "grade": "1-2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:sink-float": {
+   "rows": [
+    {
+     "id": "SU.3.2.s3",
+     "rel": "teaches",
+     "grade": "1-2"
+    },
+    {
+     "id": "SU.3.2.s2",
+     "rel": "prepares",
+     "grade": "1-2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:materials": {
+   "rows": [
+    {
+     "id": "SU.3.2.s1",
+     "rel": "teaches",
+     "grade": "1-2"
+    },
+    {
+     "id": "SU.3.1.k3",
+     "rel": "prepares",
+     "grade": "3-4"
     }
    ],
    "by": "authored"
@@ -4034,21 +4121,6 @@
    ],
    "by": "authored"
   },
-  "2:sink-float": {
-   "rows": [
-    {
-     "id": "SU.3.2.s3",
-     "rel": "teaches",
-     "grade": "1-2"
-    },
-    {
-     "id": "SU.3.2.s2",
-     "rel": "prepares",
-     "grade": "1-2"
-    }
-   ],
-   "by": "authored"
-  },
   "3:water-cycle": {
    "rows": [
     {
@@ -4079,10 +4151,6 @@
    ],
    "by": "authored"
   },
-  "3:planets": {
-   "none": "the solar system is not in the NRW Sachunterricht plan",
-   "by": "authored"
-  },
   "3:investigation": {
    "rows": [
     {
@@ -4096,6 +4164,10 @@
      "grade": "3-4"
     }
    ],
+   "by": "authored"
+  },
+  "3:planets": {
+   "none": "the solar system is not in the NRW Sachunterricht plan",
    "by": "authored"
   },
   "K:birds-eye-view": {
@@ -4223,10 +4295,10 @@
    ],
    "by": "authored"
   },
-  "K:healthy-food": {
+  "K:road-safety": {
    "rows": [
     {
-     "id": "SU.2.1.s1",
+     "id": "SU.4.3.s2",
      "rel": "prepares",
      "grade": "1-2"
     }
@@ -4243,20 +4315,32 @@
    ],
    "by": "authored"
   },
-  "K:road-safety": {
+  "K:sleep-play": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:trusted-adults": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:i-can": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:healthy-food": {
    "rows": [
     {
-     "id": "SU.4.3.s2",
+     "id": "SU.2.1.s1",
      "rel": "prepares",
      "grade": "1-2"
     }
    ],
    "by": "authored"
   },
-  "1:food-groups": {
+  "1:road-signs": {
    "rows": [
     {
-     "id": "SU.2.1.s1",
+     "id": "SU.4.3.s2",
      "rel": "teaches",
      "grade": "1-2"
     }
@@ -4278,7 +4362,17 @@
    ],
    "by": "authored"
   },
-  "1:road-signs": {
+  "1:food-groups": {
+   "rows": [
+    {
+     "id": "SU.2.1.s1",
+     "rel": "teaches",
+     "grade": "1-2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:road-signs": {
    "rows": [
     {
      "id": "SU.4.3.s2",
@@ -4297,16 +4391,6 @@
     },
     {
      "id": "SU.2.1.s2",
-     "rel": "teaches",
-     "grade": "1-2"
-    }
-   ],
-   "by": "authored"
-  },
-  "2:road-signs": {
-   "rows": [
-    {
-     "id": "SU.4.3.s2",
      "rel": "teaches",
      "grade": "1-2"
     }

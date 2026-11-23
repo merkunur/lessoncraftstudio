@@ -3902,6 +3902,16 @@
    "none": "not yet read against this curriculum",
    "by": "authored"
   },
+  "K:five-senses": {
+   "rows": [
+    {
+     "id": "EF01CI02",
+     "rel": "prepares",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
   "K:human-body": {
    "rows": [
     {
@@ -3915,6 +3925,67 @@
      "grade": "P"
     }
    ],
+   "by": "authored"
+  },
+  "K:seasons": {
+   "rows": [
+    {
+     "id": "EF01GE11",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "EF01GE05",
+     "rel": "prepares",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:weather-temperature": {
+   "rows": [
+    {
+     "id": "EI03ET04",
+     "rel": "teaches",
+     "grade": "P"
+    },
+    {
+     "id": "EI03ET01",
+     "rel": "teaches",
+     "grade": "P"
+    },
+    {
+     "id": "EF01GE10",
+     "rel": "prepares",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:wind-watch": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:rain-gauge": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:weather-ready": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:plant-needs": {
+   "rows": [
+    {
+     "id": "EF02CI05",
+     "rel": "prepares",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:seed-journal": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "K:living-nonliving": {
@@ -3957,36 +4028,6 @@
    ],
    "by": "authored"
   },
-  "K:animal-babies": {
-   "rows": [
-    {
-     "id": "EF02CI04",
-     "rel": "prepares",
-     "grade": "2"
-    },
-    {
-     "id": "EF03CI05",
-     "rel": "prepares",
-     "grade": "3"
-    }
-   ],
-   "by": "authored"
-  },
-  "K:seasons": {
-   "rows": [
-    {
-     "id": "EF01GE11",
-     "rel": "teaches",
-     "grade": "1"
-    },
-    {
-     "id": "EF01GE05",
-     "rel": "prepares",
-     "grade": "1"
-    }
-   ],
-   "by": "authored"
-  },
   "K:day-night": {
    "rows": [
     {
@@ -3998,26 +4039,6 @@
      "id": "EF03CI08",
      "rel": "prepares",
      "grade": "3"
-    }
-   ],
-   "by": "authored"
-  },
-  "K:weather-temperature": {
-   "rows": [
-    {
-     "id": "EI03ET04",
-     "rel": "teaches",
-     "grade": "P"
-    },
-    {
-     "id": "EI03ET01",
-     "rel": "teaches",
-     "grade": "P"
-    },
-    {
-     "id": "EF01GE10",
-     "rel": "prepares",
-     "grade": "1"
     }
    ],
    "by": "authored"
@@ -4037,37 +4058,41 @@
    ],
    "by": "authored"
   },
-  "K:five-senses": {
-   "rows": [
-    {
-     "id": "EF01CI02",
-     "rel": "prepares",
-     "grade": "1"
-    }
-   ],
+  "K:body-needs": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
-  "K:recycling": {
-   "rows": [
-    {
-     "id": "EI03ET05",
-     "rel": "teaches",
-     "grade": "P"
-    },
-    {
-     "id": "EF01CI01",
-     "rel": "prepares",
-     "grade": "1"
-    }
-   ],
+  "K:push-pull": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
-  "K:plant-needs": {
+  "K:push-strength": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:change-direction": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:ramp-to-target": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:compare-ramps": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:animal-babies": {
    "rows": [
     {
-     "id": "EF02CI05",
+     "id": "EF02CI04",
      "rel": "prepares",
      "grade": "2"
+    },
+    {
+     "id": "EF03CI05",
+     "rel": "prepares",
+     "grade": "3"
     }
    ],
    "by": "authored"
@@ -4088,6 +4113,108 @@
      "id": "EF05CI01",
      "rel": "prepares",
      "grade": "5"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:boat-plan": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:boat-test": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:boat-compare": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:recycling": {
+   "rows": [
+    {
+     "id": "EI03ET05",
+     "rel": "teaches",
+     "grade": "P"
+    },
+    {
+     "id": "EF01CI01",
+     "rel": "prepares",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:sun-warms": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:make-shade": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:animal-food": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:animal-home": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:animals-change-land": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:five-senses": {
+   "rows": [
+    {
+     "id": "EF01CI02",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:body-parts": {
+   "rows": [
+    {
+     "id": "EF01CI02",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:weather": {
+   "rows": [
+    {
+     "id": "EF01GE10",
+     "rel": "prepares",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:life-cycles": {
+   "rows": [
+    {
+     "id": "EF03CI05",
+     "rel": "teaches",
+     "grade": "3"
+    },
+    {
+     "id": "EF02CI04",
+     "rel": "prepares",
+     "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:plant-parts": {
+   "rows": [
+    {
+     "id": "EF02CI06",
+     "rel": "teaches",
+     "grade": "2"
     }
    ],
    "by": "authored"
@@ -4117,57 +4244,12 @@
    ],
    "by": "authored"
   },
-  "1:life-cycles": {
-   "rows": [
-    {
-     "id": "EF03CI05",
-     "rel": "teaches",
-     "grade": "3"
-    },
-    {
-     "id": "EF02CI04",
-     "rel": "prepares",
-     "grade": "2"
-    }
-   ],
-   "by": "authored"
-  },
   "1:sink-float": {
    "rows": [
     {
      "id": "EF05CI01",
      "rel": "prepares",
      "grade": "5"
-    }
-   ],
-   "by": "authored"
-  },
-  "1:body-parts": {
-   "rows": [
-    {
-     "id": "EF01CI02",
-     "rel": "teaches",
-     "grade": "1"
-    }
-   ],
-   "by": "authored"
-  },
-  "1:five-senses": {
-   "rows": [
-    {
-     "id": "EF01CI02",
-     "rel": "teaches",
-     "grade": "1"
-    }
-   ],
-   "by": "authored"
-  },
-  "1:weather": {
-   "rows": [
-    {
-     "id": "EF01GE10",
-     "rel": "prepares",
-     "grade": "1"
     }
    ],
    "by": "authored"
@@ -4187,16 +4269,6 @@
    ],
    "by": "authored"
   },
-  "1:plant-parts": {
-   "rows": [
-    {
-     "id": "EF02CI06",
-     "rel": "teaches",
-     "grade": "2"
-    }
-   ],
-   "by": "authored"
-  },
   "1:sun-earth-moon": {
    "rows": [
     {
@@ -4208,21 +4280,6 @@
      "id": "EF03CI07",
      "rel": "prepares",
      "grade": "3"
-    }
-   ],
-   "by": "authored"
-  },
-  "2:materials": {
-   "rows": [
-    {
-     "id": "EF02CI01",
-     "rel": "teaches",
-     "grade": "2"
-    },
-    {
-     "id": "EF01CI01",
-     "rel": "prepares",
-     "grade": "1"
     }
    ],
    "by": "authored"
@@ -4248,6 +4305,31 @@
      "id": "EF02CI04",
      "rel": "prepares",
      "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:sink-float": {
+   "rows": [
+    {
+     "id": "EF05CI01",
+     "rel": "prepares",
+     "grade": "5"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:materials": {
+   "rows": [
+    {
+     "id": "EF02CI01",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "EF01CI01",
+     "rel": "prepares",
+     "grade": "1"
     }
    ],
    "by": "authored"
@@ -4287,16 +4369,6 @@
    ],
    "by": "authored"
   },
-  "2:sink-float": {
-   "rows": [
-    {
-     "id": "EF05CI01",
-     "rel": "prepares",
-     "grade": "5"
-    }
-   ],
-   "by": "authored"
-  },
   "3:water-cycle": {
    "rows": [
     {
@@ -4332,10 +4404,6 @@
    ],
    "by": "authored"
   },
-  "3:planets": {
-   "none": "No objective of the 1º to 5º ano asks for the order or the kinds of planets.",
-   "by": "authored"
-  },
   "3:investigation": {
    "rows": [
     {
@@ -4354,6 +4422,10 @@
      "grade": "5"
     }
    ],
+   "by": "authored"
+  },
+  "3:planets": {
+   "none": "No objective of the 1º to 5º ano asks for the order or the kinds of planets.",
    "by": "authored"
   },
   "K:birds-eye-view": {
@@ -4495,12 +4567,12 @@
    ],
    "by": "authored"
   },
-  "K:healthy-food": {
+  "K:road-safety": {
    "rows": [
     {
-     "id": "EI03CG04",
+     "id": "EF02GE03",
      "rel": "prepares",
-     "grade": "P"
+     "grade": "2"
     }
    ],
    "by": "authored"
@@ -4520,37 +4592,24 @@
    ],
    "by": "authored"
   },
-  "K:road-safety": {
-   "rows": [
-    {
-     "id": "EF02GE03",
-     "rel": "prepares",
-     "grade": "2"
-    }
-   ],
+  "K:sleep-play": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
-  "1:food-groups": {
-   "rows": [
-    {
-     "id": "EF05CI08",
-     "rel": "prepares",
-     "grade": "5"
-    }
-   ],
+  "K:trusted-adults": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
-  "1:healthy-habits": {
+  "K:i-can": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:healthy-food": {
    "rows": [
     {
-     "id": "EF01CI03",
+     "id": "EI03CG04",
      "rel": "prepares",
-     "grade": "1"
-    },
-    {
-     "id": "EF04CI08",
-     "rel": "prepares",
-     "grade": "4"
+     "grade": "P"
     }
    ],
    "by": "authored"
@@ -4570,12 +4629,27 @@
    ],
    "by": "authored"
   },
-  "2:healthy-habits-why": {
+  "1:healthy-habits": {
    "rows": [
     {
      "id": "EF01CI03",
-     "rel": "teaches",
+     "rel": "prepares",
      "grade": "1"
+    },
+    {
+     "id": "EF04CI08",
+     "rel": "prepares",
+     "grade": "4"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:food-groups": {
+   "rows": [
+    {
+     "id": "EF05CI08",
+     "rel": "prepares",
+     "grade": "5"
     }
    ],
    "by": "authored"
@@ -4596,6 +4670,16 @@
      "id": "EF02GE03",
      "rel": "prepares",
      "grade": "2"
+    }
+   ],
+   "by": "authored"
+  },
+  "2:healthy-habits-why": {
+   "rows": [
+    {
+     "id": "EF01CI03",
+     "rel": "teaches",
+     "grade": "1"
     }
    ],
    "by": "authored"

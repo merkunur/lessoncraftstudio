@@ -2349,6 +2349,40 @@
    ],
    "why": "Naming how I feel and matching faces to feeling words is expressing feelings, which NHES 4.2.1 (PreK-2) asks for; the C3 Framework holds no social-emotional indicator.",
    "review": "review-d0-social-health"
+  },
+  "K:i-can": {
+   "rows": [
+    {
+     "id": "NHES.1.2.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Drawing what I am good at and what I am learning, and circling who helps me, identifies strengths and assets that support health and well-being (NHES 1.2.1, PreK-2).",
+   "review": "batch-k 2026-11-23"
+  },
+  "K:sleep-play": {
+   "rows": [
+    {
+     "id": "NHES.1.2.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "NHES.7.2.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Ordering bath, pajamas and bed and circling the ways to play that move the whole body tell why sleep and play matter for health (NHES 1.2.5, PreK-2) and lead to practicing those behaviors (NHES 7.2.1).",
+   "review": "batch-k 2026-11-23"
+  },
+  "K:trusted-adults": {
+   "rows": [
+    {
+     "id": "NHES.3.2.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Circling the grown-ups who could help (a police officer, a firefighter, a doctor, a nurse, a teacher) among children, and the rule to check first with one's own grown-up, identify characteristics of trusted adults (NHES 3.2.1, PreK-2).",
+   "review": "batch-k 2026-11-23"
   }
  }
 }

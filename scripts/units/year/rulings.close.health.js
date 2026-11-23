@@ -22,7 +22,9 @@ const C = (note) => ({ rule: 'change', note });
 const B = (note) => ({ rule: 'build', note });
 module.exports = {
   en: {
-    "K-002": C("a picture-only face with a big drawing frame and four helper buttons; level 3's traced 'I can ...' line is new."),
+    "K-006": N("K-707", "built (Stage D-5 batch K, 2026-11-23): K-707, reviewed by one US Kindergarten teacher in two rounds"),
+    "K-005": N("K-706", "built (Stage D-5 batch K, 2026-11-23): K-706, reviewed by one US Kindergarten teacher in two rounds"),
+    "K-002": N("K-705", "built (Stage D-5 batch K, 2026-11-23): K-705, reviewed by one US Kindergarten teacher in two rounds"),
     "1-010": C("a fifth group (milk, yogurt, cheese) and a MyPlate plate as the sorting board."),
     "1-011": B("a MyPlate plate with five parts, a strip of food cards to glue, a drink to circle and a clock strip."),
     "1-012": C("a one-day habit-choice face of the same chart."),

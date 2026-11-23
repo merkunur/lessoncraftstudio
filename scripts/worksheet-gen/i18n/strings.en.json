@@ -913,7 +913,7 @@
   },
   "K-374": {
     "title": "Crossing the Road Safely: the Steps",
-    "instruction": "Write 1 to 4 in the boxes to show how to cross the road.",
+    "instruction": "Write 1 to 5 in the boxes to show how to cross the street with a grown-up.",
     "printTitle": "Crossing the Road Safely: The Steps"
   },
   "K-375": {
@@ -5985,5 +5985,89 @@
   "G1-625": {
     "title": "Two Words, One Sound",
     "instruction": "Two words can share a sound in the same place."
+  },
+  "K-687": {
+    "title": "What My Body Needs",
+    "instruction": "Circle each thing your body needs to live. Cross out each thing that is just nice to have."
+  },
+  "K-688": {
+    "title": "Wind Watch",
+    "instruction": "Each day, circle the streamer that looks like our streamer. Then draw a flag or a tree in that wind."
+  },
+  "K-689": {
+    "title": "Rain Gauge: How Much Rain Fell?",
+    "instruction": "After each rainy day, color the water up to the tape mark closest to the water. Circle the day with the most rain. If two are the same, circle both."
+  },
+  "K-690": {
+    "title": "Ready for the Weather",
+    "instruction": "Look at the weather in each row. Circle what you should do, wear, or bring."
+  },
+  "K-691": {
+    "title": "What Do Animals Eat?",
+    "instruction": "Circle every food each animal eats. Some animals eat plants and animals."
+  },
+  "K-692": {
+    "title": "A Home for a Frog",
+    "instruction": "Cut out the pictures. Glue in only what a frog needs. Then draw the frog."
+  },
+  "K-693": {
+    "title": "Animals Change the Land",
+    "instruction": "Look at each place before and after. Draw a line to the animal that made the change."
+  },
+  "K-694": {
+    "title": "Push or Pull?",
+    "instruction": "Look at each picture. Draw a line to push or to pull."
+  },
+  "K-695": {
+    "title": "A Harder Push, a Farther Roll",
+    "instruction": "Roll the ball with each push. Color its arrow and draw the ball where it stopped. If it rolled past the end, color the end box. Circle the push that sent it farthest."
+  },
+  "K-696": {
+    "title": "Change Its Direction",
+    "instruction": "We look down at the floor from above. The ball rolls and gets a push. Draw an arrow to show where it goes."
+  },
+  "K-697": {
+    "title": "Make the Ball Hit the Cup",
+    "instruction": "Draw the ramp you built. Circle if it worked or if you will try again. If you will try again, draw the change you will make."
+  },
+  "K-698": {
+    "title": "Which Ramp Works Better?",
+    "instruction": "Roll a ball down each ramp three times. Make a tally mark for each block that fell. Circle the ramp that worked better. If they are the same, circle both."
+  },
+  "K-699": {
+    "title": "Draw a Boat for the Bear",
+    "instruction": "Circle the things that floated in our test, and draw other things we tested in the empty boxes. Draw a boat that could carry our bear."
+  },
+  "K-700": {
+    "title": "We Test Our Boats",
+    "instruction": "Draw your boat in the water with our bear. After the test, circle whether our bear stayed dry or got wet."
+  },
+  "K-701": {
+    "title": "Which Boat Held More Pennies?",
+    "instruction": "Add pennies one at a time. Color one circle for each penny the boat held before it sank. If it held more, color the + more box (if both boats do, your teacher counts the pennies). Circle the boat that held more."
+  },
+  "K-702": {
+    "title": "My Bean Seed Journal",
+    "instruction": "Look at our bean seed every few days. Write the day, draw what you see in the cup, and circle taller or the same."
+  },
+  "K-703": {
+    "title": "Sun or Shade: Which Is Warmer?",
+    "instruction": "Feel each thing in the sun and in the shade. Color the circle of the warmer one red and the cooler one blue."
+  },
+  "K-704": {
+    "title": "Shade for an Ice Cube",
+    "instruction": "Circle what you will use (or draw something else in the empty box), and draw your shade over the ice cube. After the test, color how much ice was left under each shade."
+  },
+  "K-705": {
+    "title": "I Can Do It!",
+    "instruction": "Draw something you are good at and something you are learning. Circle every person who helps you, and draw your family in the empty box."
+  },
+  "K-706": {
+    "title": "Sleep and Play Help Me Grow",
+    "instruction": "Cut out the bedtime pictures and glue them in order. Circle the ways to play that move your whole body. Color the heart under your favorite way to move."
+  },
+  "K-707": {
+    "title": "Trusted Grown-Ups",
+    "instruction": "Circle each grown-up who could help you if you need help. Read the line at the bottom together. Then draw your own trusted grown-up."
   }
 }

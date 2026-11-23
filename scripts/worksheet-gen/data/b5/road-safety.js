@@ -49,7 +49,9 @@ const COMMON = {
     ['pedestrian-warning', 'footpath'], ['pedestrian-warning', 'shared-path'], ['footpath', 'shared-path'],
     ['bike-warning', 'bike-path'], ['bike-warning', 'shared-path'], ['bike-path', 'shared-path']],
   lightRule: { ped: { 0: 'stop', 1: 'go' }, ped3: { 0: 'stop', 2: 'go' }, car: { 0: 'stop', 1: 'stop', 2: 'go' } },
-  stepKinds: ['stop-kerb', 'look-left', 'look-right', 'look-both', 'wait-clear', 'walk-across', 'listen'],
+  // the *-hand kinds (Batch K 2026-11-23, review round 1): the child holds a grown-up's hand on every card (the American
+  // routine); a routine is all-hand or no-hand (the hand is taken at the curb)
+  stepKinds: ['stop-kerb', 'look-left', 'look-right', 'look-both', 'wait-clear', 'walk-across', 'listen', 'stop-kerb-hand', 'look-left-hand', 'look-right-hand', 'look-left-again-hand', 'walk-across-hand'],
   modes: ['base', 'colour-lights', 'crossing-steps', 'sign-meaning', 'sign-kinds', 'sign-quiz'],
 };
 
@@ -110,7 +112,11 @@ const ROAD_SAFETY = {
       'no-pedestrians': ['People may not cross the street on foot at this spot.', 'Walkers must not cross here. Use the crossing further on.'],
     },
     // landing round 1 (2026-09-23): no action twice (the second look-left made steps 2 / 4 swappable) — wait until clear
-    steps: ['stop-kerb', 'look-left', 'look-right', 'walk-across'],
+    // Batch K (2026-11-23): the American routine is stop at the curb, look left, look right, look left AGAIN, then cross.
+    // Review round 1 (an American Kindergarten teacher; Safe Kids / NHTSA K-2 pedestrian lessons): the child holds a
+    // grown-up's hand on EVERY card, from the curb; the two left looks differ by the ↶ "again" swing alone, which comes
+    // back from the right, so it is forced after the look right and exactly one order is valid (K-369 validOrderCount)
+    steps: ['stop-kerb-hand', 'look-left-hand', 'look-right-hand', 'look-left-again-hand', 'walk-across-hand'],
     listenStep: null,
     familyHead: 'Road Safety',
     signHead: 'Traffic Signs',
@@ -118,7 +124,7 @@ const ROAD_SAFETY = {
     strings: {
       base: { title: 'Road Safety: Read the Traffic Light', instruction: 'Look at the lamp that is on, then circle what to do.' },
       'colour-lights': { title: 'Road Safety: Color the Traffic Lights', instruction: 'Find the lamp with rays on each traffic light and color it the color it shines.' },
-      'crossing-steps': { title: 'Crossing the Road Safely: the Steps', instruction: 'Write 1 to 4 in the boxes to show how to cross the road.' },
+      'crossing-steps': { title: 'Crossing the Road Safely: the Steps', instruction: 'Write 1 to 5 in the boxes to show how to cross the street with a grown-up.' },
       'sign-meaning': { title: 'Road Safety: Traffic Signs and Their Meanings', instruction: 'Draw a line from each road sign to what it means.' },
       'sign-kinds': { title: 'Road Safety: Kinds of Traffic Signs', instruction: 'Write the letter of each road sign in the boxes of its group.' },
       'sign-quiz': { title: 'Road Safety Quiz: Which Sign Fits?', instruction: 'Read each sentence and circle the one road sign that fits it.' },

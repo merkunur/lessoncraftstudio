@@ -9542,6 +9542,66 @@
    "prerequisites": []
   },
   {
+   "id": "K:wind-watch",
+   "grade": "K",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Watch the wind with a streamer each day and record whether it hangs still, flutters or flies straight out",
+   "code": "NGSS:K-ESS2-1",
+   "types": [
+    "K-688"
+   ],
+   "families": [
+    "weather-symbols"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 5,
+   "prerequisites": []
+  },
+  {
+   "id": "K:rain-gauge",
+   "grade": "K",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Read a rain gauge and compare how much rain fell on different days",
+   "code": "NGSS:K-ESS2-1",
+   "types": [
+    "K-689"
+   ],
+   "families": [
+    "weather-symbols"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 6,
+   "prerequisites": []
+  },
+  {
+   "id": "K:weather-ready",
+   "grade": "K",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Choose what to wear or bring, and the safe thing to do, for each kind of weather, storms included",
+   "code": "NGSS:K-ESS3-2",
+   "types": [
+    "K-690"
+   ],
+   "families": [
+    "weather-symbols"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 7,
+   "prerequisites": []
+  },
+  {
    "id": "K:plant-needs",
    "grade": "K",
    "subject": "science",
@@ -9560,53 +9620,27 @@
     243
    ],
    "verdict": "gap",
-   "order": 5,
+   "order": 8,
    "prerequisites": []
   },
   {
-   "id": "K:living-nonliving",
+   "id": "K:seed-journal",
    "grade": "K",
    "subject": "science",
    "strand": "Science",
-   "sourceStrand": "Science — Life",
-   "skill": "Living and non-living things",
+   "skill": "Watch a bean seed grow and record what changes from day to day",
    "code": "NGSS:K-LS1-1",
    "types": [
-    "K-201"
+    "K-702"
    ],
    "families": [
-    "science-sort"
+    "plants"
    ],
    "activities": [],
-   "planned": [
-    242
-   ],
+   "planned": [],
    "verdict": "gap",
-   "order": 6,
-   "prerequisites": []
-  },
-  {
-   "id": "K:fruit-vegetable",
-   "grade": "K",
-   "subject": "science",
-   "strand": "Science",
-   "sourceStrand": "Science / Health",
-   "skill": "Fruits and vegetables (which part of the plant we eat)",
-   "code": "NGSS:K-LS1 (readiness: plants)",
-   "types": [
-    "K-202"
-   ],
-   "families": [
-    "science-sort"
-   ],
-   "activities": [
-    "mims-baskets.category-sort.l-k-5-a"
-   ],
-   "planned": [
-    231
-   ],
-   "verdict": "partial",
-   "order": 7,
+   "extra": true,
+   "order": 9,
    "prerequisites": []
   },
   {
@@ -9631,7 +9665,113 @@
     240
    ],
    "verdict": "gap",
-   "order": 8,
+   "order": 10,
+   "prerequisites": []
+  },
+  {
+   "id": "K:animal-food",
+   "grade": "K",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Tell what animals eat: plants, animals, or both",
+   "code": "NGSS:K-LS1-1",
+   "types": [
+    "K-691"
+   ],
+   "families": [
+    "habitats"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 11,
+   "prerequisites": []
+  },
+  {
+   "id": "K:animal-home",
+   "grade": "K",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Build a home that gives an animal what it needs: food, water and a place to hide",
+   "code": "NGSS:K-ESS3-1",
+   "types": [
+    "K-692"
+   ],
+   "families": [
+    "habitats"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 12,
+   "prerequisites": []
+  },
+  {
+   "id": "K:animals-change-land",
+   "grade": "K",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Match a change in the land (a hole, an anthill, a dam, a nest) to the animal that made it",
+   "code": "NGSS:K-ESS2-2",
+   "types": [
+    "K-693"
+   ],
+   "families": [
+    "habitats"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 13,
+   "prerequisites": []
+  },
+  {
+   "id": "K:living-nonliving",
+   "grade": "K",
+   "subject": "science",
+   "strand": "Science",
+   "sourceStrand": "Science — Life",
+   "skill": "Living and non-living things",
+   "code": "NGSS:K-LS1-1",
+   "types": [
+    "K-201"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [
+    242
+   ],
+   "verdict": "gap",
+   "order": 14,
+   "prerequisites": []
+  },
+  {
+   "id": "K:fruit-vegetable",
+   "grade": "K",
+   "subject": "science",
+   "strand": "Science",
+   "sourceStrand": "Science / Health",
+   "skill": "Fruits and vegetables (which part of the plant we eat)",
+   "code": "NGSS:K-LS1 (readiness: plants)",
+   "types": [
+    "K-202"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [
+    "mims-baskets.category-sort.l-k-5-a"
+   ],
+   "planned": [
+    231
+   ],
+   "verdict": "partial",
+   "order": 15,
    "prerequisites": []
   },
   {
@@ -9653,7 +9793,7 @@
     239
    ],
    "verdict": "gap",
-   "order": 9,
+   "order": 16,
    "prerequisites": []
   },
   {
@@ -9675,7 +9815,127 @@
     234
    ],
    "verdict": "gap",
-   "order": 10,
+   "order": 17,
+   "prerequisites": []
+  },
+  {
+   "id": "K:body-needs",
+   "grade": "K",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Tell the things a body needs to live (food, water, air) from the things that are only nice to have",
+   "code": "NGSS:K-LS1-1",
+   "types": [
+    "K-687"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 18,
+   "prerequisites": []
+  },
+  {
+   "id": "K:push-pull",
+   "grade": "K",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Tell a push from a pull",
+   "code": "NGSS:K-PS2-1",
+   "types": [
+    "K-694"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 19,
+   "prerequisites": []
+  },
+  {
+   "id": "K:push-strength",
+   "grade": "K",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Compare a gentle and a hard push: the harder push makes the ball roll farther",
+   "code": "NGSS:K-PS2-1",
+   "types": [
+    "K-695"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 20,
+   "prerequisites": []
+  },
+  {
+   "id": "K:change-direction",
+   "grade": "K",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Show how a push or a bump changes the direction a ball rolls",
+   "code": "NGSS:K-PS2-1",
+   "types": [
+    "K-696"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 21,
+   "prerequisites": []
+  },
+  {
+   "id": "K:ramp-to-target",
+   "grade": "K",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Build a ramp that makes a ball hit a cup, test it, and change it when it does not work",
+   "code": "NGSS:K-PS2-2",
+   "types": [
+    "K-697"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 22,
+   "prerequisites": []
+  },
+  {
+   "id": "K:compare-ramps",
+   "grade": "K",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Test two ramps the same way and tell which one works better",
+   "code": "NGSS:K-2-ETS1-3",
+   "types": [
+    "K-698"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 23,
    "prerequisites": []
   },
   {
@@ -9697,7 +9957,7 @@
     233
    ],
    "verdict": "gap",
-   "order": 11,
+   "order": 24,
    "prerequisites": []
   },
   {
@@ -9719,7 +9979,67 @@
     235
    ],
    "verdict": "gap",
-   "order": 12,
+   "order": 25,
+   "prerequisites": []
+  },
+  {
+   "id": "K:boat-plan",
+   "grade": "K",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Draw a plan for a boat that keeps a toy bear dry",
+   "code": "NGSS:K-2-ETS1-2",
+   "types": [
+    "K-699"
+   ],
+   "families": [
+    "sink-or-float"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 26,
+   "prerequisites": []
+  },
+  {
+   "id": "K:boat-test",
+   "grade": "K",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Build and test a boat, then choose a change that would help",
+   "code": "NGSS:K-2-ETS1-2",
+   "types": [
+    "K-700"
+   ],
+   "families": [
+    "sink-or-float"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 27,
+   "prerequisites": []
+  },
+  {
+   "id": "K:boat-compare",
+   "grade": "K",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Compare two boats by how many pennies each held before it sank",
+   "code": "NGSS:K-2-ETS1-3",
+   "types": [
+    "K-701"
+   ],
+   "families": [
+    "sink-or-float"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 28,
    "prerequisites": []
   },
   {
@@ -9743,7 +10063,47 @@
     241
    ],
    "verdict": "gap",
-   "order": 13,
+   "order": 29,
+   "prerequisites": []
+  },
+  {
+   "id": "K:sun-warms",
+   "grade": "K",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Observe that sunlight warms the ground and water: the sunny side is warmer than the shade",
+   "code": "NGSS:K-PS3-1",
+   "types": [
+    "K-703"
+   ],
+   "families": [
+    "earth-and-space"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 30,
+   "prerequisites": []
+  },
+  {
+   "id": "K:make-shade",
+   "grade": "K",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Build a shade that slows an ice cube melting in the sun",
+   "code": "NGSS:K-PS3-2",
+   "types": [
+    "K-704"
+   ],
+   "families": [
+    "earth-and-space"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 31,
    "prerequisites": []
   },
   {
@@ -9769,7 +10129,7 @@
     232
    ],
    "verdict": "gap",
-   "order": 14,
+   "order": 32,
    "prerequisites": []
   },
   {
@@ -9791,7 +10151,7 @@
     219
    ],
    "verdict": "gap",
-   "order": 15,
+   "order": 33,
    "prerequisites": []
   },
   {
@@ -9814,7 +10174,7 @@
     239
    ],
    "verdict": "gap",
-   "order": 16,
+   "order": 34,
    "prerequisites": []
   },
   {
@@ -9842,7 +10202,7 @@
     264
    ],
    "verdict": "gap",
-   "order": 17,
+   "order": 35,
    "prerequisites": []
   },
   {
@@ -9864,30 +10224,7 @@
     231
    ],
    "verdict": "gap",
-   "order": 18,
-   "prerequisites": []
-  },
-  {
-   "id": "1:animal-classes-coverings",
-   "grade": "1",
-   "subject": "science",
-   "strand": "Science",
-   "sourceStrand": "Life Science",
-   "skill": "Classify animals into groups (mammal, bird, fish, reptile, insect) by body covering (fur, feathers, scales, smooth skin)",
-   "code": "NGSS:1-LS1-1 / 1-LS3-1",
-   "types": [
-    "G1-201",
-    "G1-205"
-   ],
-   "families": [
-    "science-sort"
-   ],
-   "activities": [],
-   "planned": [
-    263
-   ],
-   "verdict": "gap",
-   "order": 19,
+   "order": 36,
    "prerequisites": []
   },
   {
@@ -9914,7 +10251,30 @@
     240
    ],
    "verdict": "gap",
-   "order": 20,
+   "order": 37,
+   "prerequisites": []
+  },
+  {
+   "id": "1:animal-classes-coverings",
+   "grade": "1",
+   "subject": "science",
+   "strand": "Science",
+   "sourceStrand": "Life Science",
+   "skill": "Classify animals into groups (mammal, bird, fish, reptile, insect) by body covering (fur, feathers, scales, smooth skin)",
+   "code": "NGSS:1-LS1-1 / 1-LS3-1",
+   "types": [
+    "G1-201",
+    "G1-205"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [
+    263
+   ],
+   "verdict": "gap",
+   "order": 38,
    "prerequisites": []
   },
   {
@@ -9939,7 +10299,7 @@
     235
    ],
    "verdict": "gap",
-   "order": 21,
+   "order": 39,
    "prerequisites": []
   },
   {
@@ -9962,7 +10322,7 @@
     265
    ],
    "verdict": "gap",
-   "order": 22,
+   "order": 40,
    "prerequisites": []
   },
   {
@@ -9985,7 +10345,7 @@
     262
    ],
    "verdict": "gap",
-   "order": 23,
+   "order": 41,
    "prerequisites": []
   },
   {
@@ -10007,7 +10367,7 @@
     231
    ],
    "verdict": "gap",
-   "order": 24,
+   "order": 42,
    "prerequisites": []
   },
   {
@@ -10029,94 +10389,7 @@
     264
    ],
    "verdict": "gap",
-   "order": 25,
-   "prerequisites": []
-  },
-  {
-   "id": "2:sink-float",
-   "grade": "2",
-   "subject": "science",
-   "strand": "Science",
-   "skill": "Predict and test sink or float; changing shape (a clay boat) changes floating",
-   "code": "NGSS:2-PS1-1 / 2-PS1-2",
-   "types": [
-    "G2-382",
-    "G2-383"
-   ],
-   "families": [
-    "sink-or-float"
-   ],
-   "activities": [],
-   "planned": [
-    235
-   ],
-   "verdict": "gap",
-   "order": 26,
-   "prerequisites": []
-  },
-  {
-   "id": "2:materials",
-   "grade": "2",
-   "subject": "science",
-   "strand": "Science",
-   "skill": "Group things by the material they are made of (paper, plastic, glass, metal, wood) for recycling",
-   "code": "NGSS:2-PS1-1",
-   "types": [
-    "G2-348"
-   ],
-   "families": [
-    "recycling"
-   ],
-   "activities": [
-    "ziggy-odd-one-out.category.l-1-5-a"
-   ],
-   "planned": [
-    265
-   ],
-   "verdict": "gap",
-   "order": 27,
-   "prerequisites": []
-  },
-  {
-   "id": "2:moon-phases",
-   "grade": "2",
-   "subject": "science",
-   "strand": "Science",
-   "skill": "Name the phases of the Moon",
-   "code": "NGSS:1-ESS1-1",
-   "types": [
-    "G2-367"
-   ],
-   "families": [
-    "earth-and-space"
-   ],
-   "activities": [],
-   "planned": [
-    262
-   ],
-   "verdict": "gap",
-   "order": 28,
-   "prerequisites": []
-  },
-  {
-   "id": "2:day-and-night",
-   "grade": "2",
-   "subject": "science",
-   "strand": "Science",
-   "skill": "Day and night come from the Earth turning toward or away from the Sun",
-   "code": "NGSS:1-ESS1-1",
-   "types": [
-    "G2-368"
-   ],
-   "families": [
-    "earth-and-space"
-   ],
-   "activities": [],
-   "planned": [
-    262
-   ],
-   "verdict": "gap",
-   "order": 29,
+   "order": 43,
    "prerequisites": []
   },
   {
@@ -10140,7 +10413,94 @@
     240
    ],
    "verdict": "gap",
-   "order": 30,
+   "order": 44,
+   "prerequisites": []
+  },
+  {
+   "id": "2:sink-float",
+   "grade": "2",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Predict and test sink or float; changing shape (a clay boat) changes floating",
+   "code": "NGSS:2-PS1-1 / 2-PS1-2",
+   "types": [
+    "G2-382",
+    "G2-383"
+   ],
+   "families": [
+    "sink-or-float"
+   ],
+   "activities": [],
+   "planned": [
+    235
+   ],
+   "verdict": "gap",
+   "order": 45,
+   "prerequisites": []
+  },
+  {
+   "id": "2:materials",
+   "grade": "2",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Group things by the material they are made of (paper, plastic, glass, metal, wood) for recycling",
+   "code": "NGSS:2-PS1-1",
+   "types": [
+    "G2-348"
+   ],
+   "families": [
+    "recycling"
+   ],
+   "activities": [
+    "ziggy-odd-one-out.category.l-1-5-a"
+   ],
+   "planned": [
+    265
+   ],
+   "verdict": "gap",
+   "order": 46,
+   "prerequisites": []
+  },
+  {
+   "id": "2:moon-phases",
+   "grade": "2",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Name the phases of the Moon",
+   "code": "NGSS:1-ESS1-1",
+   "types": [
+    "G2-367"
+   ],
+   "families": [
+    "earth-and-space"
+   ],
+   "activities": [],
+   "planned": [
+    262
+   ],
+   "verdict": "gap",
+   "order": 47,
+   "prerequisites": []
+  },
+  {
+   "id": "2:day-and-night",
+   "grade": "2",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Day and night come from the Earth turning toward or away from the Sun",
+   "code": "NGSS:1-ESS1-1",
+   "types": [
+    "G2-368"
+   ],
+   "families": [
+    "earth-and-space"
+   ],
+   "activities": [],
+   "planned": [
+    262
+   ],
+   "verdict": "gap",
+   "order": 48,
    "prerequisites": []
   },
   {
@@ -10161,7 +10521,7 @@
     315
    ],
    "verdict": "gap",
-   "order": 31,
+   "order": 49,
    "prerequisites": []
   },
   {
@@ -10182,7 +10542,7 @@
     231
    ],
    "verdict": "gap",
-   "order": 32,
+   "order": 50,
    "prerequisites": []
   },
   {
@@ -10203,7 +10563,7 @@
     264
    ],
    "verdict": "gap",
-   "order": 33,
+   "order": 51,
    "prerequisites": []
   },
   {
@@ -10224,7 +10584,7 @@
     235
    ],
    "verdict": "gap",
-   "order": 34,
+   "order": 52,
    "prerequisites": []
   },
   {
@@ -10246,7 +10606,7 @@
     314
    ],
    "verdict": "gap",
-   "order": 35,
+   "order": 53,
    "prerequisites": []
   },
   {
@@ -10543,6 +10903,66 @@
    "prerequisites": []
   },
   {
+   "id": "K:sleep-play",
+   "grade": "K",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Put a bedtime routine in order and choose play that moves the whole body: sleep and play help me grow",
+   "code": "NHES.1.2.5",
+   "types": [
+    "K-706"
+   ],
+   "families": [
+    "healthy-habits"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 3,
+   "prerequisites": []
+  },
+  {
+   "id": "K:trusted-adults",
+   "grade": "K",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Find the grown-ups who could help, and always check first with my grown-up",
+   "code": "NHES.3.2.1",
+   "types": [
+    "K-707"
+   ],
+   "families": [
+    "healthy-habits"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 4,
+   "prerequisites": []
+  },
+  {
+   "id": "K:i-can",
+   "grade": "K",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Name something I am good at and something I am learning, and the people who help me",
+   "code": "NHES.1.2.1",
+   "types": [
+    "K-705"
+   ],
+   "families": [
+    "all-about-me"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 5,
+   "prerequisites": []
+  },
+  {
    "id": "K:healthy-food",
    "grade": "K",
    "subject": "health",
@@ -10561,7 +10981,7 @@
     221
    ],
    "verdict": "gap",
-   "order": 3,
+   "order": 6,
    "prerequisites": []
   },
   {
@@ -10583,7 +11003,7 @@
     223
    ],
    "verdict": "gap",
-   "order": 4,
+   "order": 7,
    "prerequisites": []
   },
   {
@@ -10606,7 +11026,7 @@
     220
    ],
    "verdict": "gap",
-   "order": 5,
+   "order": 8,
    "prerequisites": []
   },
   {
@@ -10627,7 +11047,7 @@
     221
    ],
    "verdict": "gap",
-   "order": 6,
+   "order": 9,
    "prerequisites": []
   },
   {
@@ -10650,7 +11070,7 @@
     223
    ],
    "verdict": "gap",
-   "order": 7,
+   "order": 10,
    "prerequisites": []
   },
   {
@@ -10671,7 +11091,7 @@
     220
    ],
    "verdict": "gap",
-   "order": 8,
+   "order": 11,
    "prerequisites": []
   },
   {

@@ -4,11 +4,13 @@ const base = require('./K-369-road-safety.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[2], ...{"mode":"crossing-steps","cards":4,"offBy":3,"cardW":200,"figH":130,"minFrameH":196,"gap":20,"rowGap":18} };
+// cards 'routine' (Batch K 2026-11-23): as many cards as the locale's routine has steps (en 5 with the grown-up's hand,
+// every other locale 4); was 4. If the specs are regenerated, tools/b5var-rows/road-safety.js needs the same change.
+const D = { ...base.difficulty[2], ...{"mode":"crossing-steps","cards":"routine","offBy":3,"cardW":200,"figH":130,"minFrameH":196,"gap":20,"rowGap":18} };
 module.exports = {
   ...base,
   id: 'K-374',
   slug: 'crossing-the-road-safely-steps',
   difficulty: { 1: D, 2: D, 3: D },
-  i18n: { en: { title: "Crossing the Road Safely: the Steps", instruction: "Write 1 to 4 in the boxes to show how to cross the road." } },
+  i18n: { en: { title: "Crossing the Road Safely: the Steps", instruction: "Write 1 to 5 in the boxes to show how to cross the street with a grown-up." } },
 };

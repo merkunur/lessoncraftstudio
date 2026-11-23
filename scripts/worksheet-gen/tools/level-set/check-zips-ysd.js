@@ -1,7 +1,7 @@
 // Pre-upload check of the Year pages science and health Level Set waves (Stage D-2, 2026-11-23; prefixes ysa themeless,
-// ysb themed), cloned from check-zips-ylr.js: marker, level word, distinct copies, title/description band.
-// Some of these types have a screen version and an answer key (the sorts, the puzzles): allowed here.
-//   node tools/level-set/check-zips-ysd.js [--locales=en] [--poison]
+// ysb themed; Stage D-5 batch K: ydk), cloned from check-zips-ylr.js: marker, level word, distinct copies, title and
+// description band. Some of these types have a screen version and an answer key (the sorts, the puzzles): allowed here.
+//   node tools/level-set/check-zips-ysd.js [--prefixes=ysa,ysb] [--locales=en] [--poison]
 'use strict';
 const fs = require('fs');
 const path = require('path');
@@ -10,6 +10,7 @@ const AdmZip = require('adm-zip');
 const root = path.join(__dirname, '..', '..', 'out', 'staging');
 const LOCS = ((process.argv.find((a) => a.startsWith('--locales=')) || '').split('=')[1] || '').split(',').filter(Boolean);
 const POISON = process.argv.includes('--poison');
+const PREFIXES = ((process.argv.find((a) => a.startsWith('--prefixes=')) || '').split('=')[1] || 'ysa,ysb').split(',');
 function check(entries) {
   // entries: [{ wave, f, m, title, desc, thumb, hasPdf }]
   const out = [];
@@ -31,8 +32,9 @@ function check(entries) {
   }
   return out;
 }
+const waveRe = PREFIXES.map((p) => new RegExp('^wave-' + p + '-[a-z]{2}$'));
 const entries = [];
-const waves = fs.readdirSync(root).filter((d) => /^wave-ys[ab]-[a-z]{2}$/.test(d) && (!LOCS.length || LOCS.includes(d.slice(-2)))).sort();
+const waves = fs.readdirSync(root).filter((d) => waveRe.some((r) => r.test(d)) && (!LOCS.length || LOCS.includes(d.slice(-2)))).sort();
 for (const w of waves) for (const f of fs.readdirSync(path.join(root, w)).filter((x) => x.endsWith('.zip'))) {
   const z = new AdmZip(path.join(root, w, f));
   const html = z.readAsText('deck.html');
@@ -51,7 +53,7 @@ if (POISON) {
   ];
   let miss = 0;
   if (check(base).length) { console.log('control not clean: ' + check(base)[0]); miss++; }
-  for (const [name, spoil] of cases) { const es = base.map(clone); spoil(es); if (!check(es).length) { miss++; console.log('POISON NOT CAUGHT: ' + name); } }
+  for (const [name, spoil] of cases) { const es = base.map(clone); try { spoil(es); } catch (e) { console.log('poison could not be applied: ' + name); miss++; continue; } if (!check(es).length) { miss++; console.log('POISON NOT CAUGHT: ' + name); } }
   console.log(miss ? miss + ' poison problem(s)' : 'all ' + cases.length + ' poisons caught, the control is clean');
   process.exit(miss ? 1 : 0);
 }
@@ -59,6 +61,6 @@ const probs = check(entries);
 for (const p of probs) console.log(p);
 const per = {}; for (const e of entries) per[e.wave] = (per[e.wave] || 0) + 1;
 console.log(JSON.stringify(per));
-if (!waves.length) { console.log('FAIL no wave-ysa/ysb folder'); process.exit(1); }
+if (!waves.length) { console.log('FAIL no wave folder of ' + PREFIXES.join(', ')); process.exit(1); }
 console.log(`\n${entries.length} ZIPs checked in ${waves.length} waves, ${probs.length} problems`);
 process.exit(probs.length ? 1 : 0);

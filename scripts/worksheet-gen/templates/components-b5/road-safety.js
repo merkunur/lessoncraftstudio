@@ -143,9 +143,32 @@ function rsLightStreet({ items, w, minH, band = 12, tallest }) {
  *   swing  true: look-left AGAIN — the arrow is a ↶ that swings from the right over the head back to
  *          the left (the frame must differ from the first look-left, or cards 2 and 4 are undecidable)
  *   ahead  a chevron above the head (walk straight across)
+ *   adult  true (Batch K 2026-11-23, the American routine): the child holds a GROWN-UP'S HAND — the child moves left,
+ *          a grown-up seen from behind (1.3 x the child, no school bag, stamped data-lcs-adult) stands on the child's
+ *          right, an ink line joins the two hands. A card without the adult draws exactly what it drew before.
+ *          Review round 1 (2026-11-23): the hand is held on EVERY card from the curb, so the look RIGHT points past the
+ *          grown-up: the two stand a little apart and every sight arrow of an adult card carries a white halo (a
+ *          white line under the shaft, a white rim on the chevron) so it reads where it crosses the grown-up.
  * Stamps: <g data-lcs-sight data-lcs-dir> whose polygon's far vertex is the tip (the gate parses it).
  */
-function backChild({ stance = 'stand', look = 0, ahead = false, swing = false }) {
+/** the grown-up of the adult cards: seen from behind, standing or walking, feet on the child's ground line */
+function backAdult(stance) {
+  const P = [];
+  if (stance === 'walk') {
+    P.push(el('path', { d: 'M50,58 L58,58 L70,95 L62,97 Z', fill: T.ink }), el('path', { d: 'M42,58 L50,58 L38,97 L30,95 Z', fill: T.ink }));
+    P.push(el('path', { d: 'M38,28 H62 Q66,28 66,32 V60 H34 V32 Q34,28 38,28 Z', fill: T.ink }));
+  } else P.push(el('path', { d: STANDING_BODY, fill: T.ink }));
+  P.push(el('circle', { cx: 50, cy: 14, r: 11, fill: T.ink }));
+  return el('g', { 'data-lcs-adult': '1', transform: 'translate(20 -28.2) scale(1.3)' }, P.join(''));
+}
+function backChild({ stance = 'stand', look = 0, ahead = false, swing = false, adult = false, halo = false }) {
+  if (adult) {
+    // the child, moved left, holding the grown-up's hand: child's right hand (64,59) - 24 -> (40,59); the grown-up's
+    // left hand (36,59) x 1.3 + (20,-28.2) -> (66.8,48.5). The child is drawn LAST so its arrows lie over the grown-up.
+    const hand = el('path', { d: 'M40,59 Q54,58 66.8,48.5', fill: 'none', stroke: T.ink, 'stroke-width': 4.5, 'stroke-linecap': 'round', 'data-lcs-hand': '1' });
+    // the pair is drawn at 0.9 about the ground line so the look-left arrow and the grown-up both stay inside the frame
+    return el('g', { transform: 'translate(5 10) scale(0.9)' }, backAdult(stance) + hand + el('g', { transform: 'translate(-24 0)' }, backChild({ stance, look, ahead, swing, halo: true })));
+  }
   const P = [];
   const dx = look === -1 ? -5 : look === 1 ? 5 : 0;
   const hx = 50 + dx, hy = 14, hr = 12;
@@ -161,10 +184,24 @@ function backChild({ stance = 'stand', look = 0, ahead = false, swing = false })
   P.push(el('rect', { x: 43.5, y: 43, width: 13, height: 9, rx: 2.5, ry: 2.5, fill: 'none', stroke: T.ink, 'stroke-width': 1.6 }));
   P.push(el('circle', { cx: hx, cy: hy, r: hr, fill: T.ink, 'data-lcs-head': '1' }));
   const arrow = (dir) => {
+    // review round 2 (2026-11-23): on an adult card the look RIGHT arcs OVER the grown-up's head (on the child's right)
+    // and ends on the open road beyond them, never touching their silhouette, so it cannot read as "look at your
+    // grown-up". Child coordinates: the grown-up's head spans x 94.7..123.3, y -24.3..4.3; its body x 88.2..129.8 from
+    // y 8.2; the arc tops out near y -36 and its chevron sits at x 132..148 (faceVerify checks the clearance)
+    if (halo && dir === 1) {
+      const d = `M${fmt(hx + hr + 2)},${hy - 9} Q86,-44 134,-34`;
+      const tip = [147.7, -31.1], b1 = [132.4, -26.2], b2 = [135.6, -41.8];
+      return el('g', { 'data-lcs-sight': '1', 'data-lcs-dir': 1, 'data-lcs-over': '1' },
+        el('path', { d, fill: 'none', stroke: T.white, 'stroke-width': 9, 'stroke-linecap': 'round' }) +
+        el('path', { d, fill: 'none', stroke: T.ink, 'stroke-width': 4.5, 'stroke-linecap': 'round' }) +
+        el('polygon', { points: `${tip.join(',')} ${b1.join(',')} ${b2.join(',')}`, fill: T.ink, stroke: T.white, 'stroke-width': 3, 'stroke-linejoin': 'round', 'paint-order': 'stroke', 'data-lcs-sight-tip': '1' }));
+    }
     const x0 = hx + dir * (hr + 3), x1 = x0 + dir * 20, tip = x1 + dir * 14;
     return el('g', { 'data-lcs-sight': '1', 'data-lcs-dir': dir },
+      (halo ? el('line', { x1: fmt(x0), y1: hy, x2: fmt(x1 + dir * 1), y2: hy, stroke: T.white, 'stroke-width': 9, 'stroke-linecap': 'round' }) : '') +
       el('line', { x1: fmt(x0), y1: hy, x2: fmt(x1 + dir * 1), y2: hy, stroke: T.ink, 'stroke-width': 4.5, 'stroke-linecap': 'round' }) +
-      el('polygon', { points: `${fmt(tip)},${hy} ${fmt(x1)},${hy - 8} ${fmt(x1)},${hy + 8}`, fill: T.ink, 'data-lcs-sight-tip': '1' }));
+      el('polygon', halo ? { points: `${fmt(tip)},${hy} ${fmt(x1)},${hy - 8} ${fmt(x1)},${hy + 8}`, fill: T.ink, stroke: T.white, 'stroke-width': 3, 'stroke-linejoin': 'round', 'paint-order': 'stroke', 'data-lcs-sight-tip': '1' }
+        : { points: `${fmt(tip)},${hy} ${fmt(x1)},${hy - 8} ${fmt(x1)},${hy + 8}`, fill: T.ink, 'data-lcs-sight-tip': '1' }));
   };
   // the ↶ swing: from beside the right ear, up over the head, down to a chevron pointing LEFT
   const swingArrow = () => el('g', { 'data-lcs-sight': '1', 'data-lcs-dir': -1, 'data-lcs-swing': '1' },
@@ -188,10 +225,15 @@ function rsCrossingCard({ step, w, figH, minFrameH, box }) {
   // 'wait-clear' (landing round 1, 2026-09-23): the child stands still at the kerb while a CAR drives past on the near
   // lane — the frame that replaced the second look-left (two look-left cards differed only by an arrow's curve, so
   // steps 2 and 4 had two answers: every card must carry a different ACTION)
-  const FIG = { 'stop-kerb': {}, 'look-left': { look: -1 }, 'look-left-again': { look: -1, swing: true }, 'look-right': { look: 1 }, 'look-both': { look: 'both' }, 'walk-across': { stance: 'walk', ahead: true }, listen: {}, 'wait-clear': {} };
+  // the American routine (Batch K 2026-11-23; review round 1): the child holds a grown-up's hand on EVERY card, from
+  // stopping at the curb to walking across; the two left looks differ by the ↶ "again" swing alone, which comes back
+  // from the right and so is forced after the look right (validOrderCount in K-369)
+  const FIG = { 'stop-kerb': {}, 'look-left': { look: -1 }, 'look-left-again': { look: -1, swing: true }, 'look-right': { look: 1 }, 'look-both': { look: 'both' }, 'walk-across': { stance: 'walk', ahead: true }, listen: {}, 'wait-clear': {},
+    'stop-kerb-hand': { adult: true }, 'look-left-hand': { look: -1, adult: true }, 'look-right-hand': { look: 1, adult: true },
+    'look-left-again-hand': { look: -1, swing: true, adult: true }, 'walk-across-hand': { stance: 'walk', ahead: true, adult: true } };
   if (!FIG[step]) throw new Error(`rsCrossingCard: step "${step}"`);
   const NEAR = 44, FAR = 22;
-  const onRoad = step === 'walk-across';
+  const onRoad = step === 'walk-across' || step === 'walk-across-hand';
   const figBottom = onRoad ? NEAR + 18 : 6;
   const figSvg = svgRoot({ width: figH, height: fmt(figH * 1.18), viewBox: '0 -18 100 118', label: 'child' }, backChild(FIG[step]), { style: 'display:block;overflow:visible' });
   const zebra = `repeating-linear-gradient(to bottom, ${T.white} 0 12px, ${T.grid} 12px 22px)`;

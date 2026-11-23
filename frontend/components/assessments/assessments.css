@@ -4,3 +4,8 @@
 .un-hub-year a { display: inline-flex; align-items: center; min-height: 48px; padding: 10px 16px; border: 2px solid var(--teal-deep); border-radius: 12px; background: var(--paper); color: var(--teal-deep); font-weight: 800; text-decoration: none; }
 .un-hub-year a:hover { background: var(--teal-deep); color: #fff; }
 .un-year-teacher { margin-top: 12px; }
+/* (Stage C-3) the steps of a placement check: one column that never grows past the card, and the writing-part line
+   wraps (the unit pages' list keeps its "(2 tasks)" counts on one line, and a long line in such a span widened the list
+   past the card on a phone) */
+.un-place-steps { grid-template-columns: minmax(0, 1fr); }
+.un-place-steps .un-place-writing { white-space: normal; }

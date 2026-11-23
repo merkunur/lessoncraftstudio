@@ -73,7 +73,7 @@ export default async function PlacementPage({ locale, ui, check, units }: { loca
         <section className="un-check" id="steps" aria-labelledby="steps-title">
           <h2 id="steps-title">{fill(ui.placeCheckTitle, { path: crumb })}</h2>
           <p className="un-check-lead"><b>{ui.placeStop}</b>{check.steps.some((s) => s.tasks === 1) && ui.placeStopOne ? <> {ui.placeStopOne}</> : null}</p>
-          <ol className="un-check-parts">
+          <ol className="un-check-parts un-place-steps">
             {check.steps.map((s) => {
               const u = unitOf(s.unit);
               const line = fill(ui.placeStepLine, { step: s.step, grade: gradeLabel(s.grade), unit: u?.title ?? s.unit, lesson: s.lesson, title: s.title });
@@ -84,7 +84,7 @@ export default async function PlacementPage({ locale, ui, check, units }: { loca
                 </li>
               );
             })}
-            {check.writing && ui.placeWritingLine ? <li><span>{fill(ui.placeWritingLine, { n: check.writing.points.length })}</span></li> : null}
+            {check.writing && ui.placeWritingLine ? <li><span className="un-place-writing">{fill(ui.placeWritingLine, { n: check.writing.points.length })}</span></li> : null}
           </ol>
           <div className="un-check-files">
             <a className="un-check-btn" href={checkFormHref(locale, check.id, 'a')} rel="nofollow">{ui.formA} · {pages(check.forms.A.pages)}</a>

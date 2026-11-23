@@ -1554,3 +1554,33 @@ All are Level Sets: three levels, up to five copies a level, visible to teachers
   - Guest PDFs and binders are Teacher-only (anonymous → 302).
   - The C-4 teacher files were copied alone, because C-2's unfinished year-check files share the folder and the upload script replaces the whole folder. IDENTITY PASS.
 - **Next:** C-2 (checks of the year, builder still running), then C-3 (placement checks).
+
+### 2026-11-23: Stages C-2 and C-3 are live: 24 checks of the year and 9 placement checks, English (deploys 46–47, commit `982e19cef`)
+
+- **What:**
+  - Beginning, middle and end-of-year checks for every English grade and subject, forms A and B: 8 pages at `/en/assessments/<grade-subject>`.
+  - Nine placement ladders across grades: `/en/assessments/placement/<path>`.
+  - All indexable; listed on the assessments hub, whose title and description are unchanged.
+  - Record: PART-7-DESIGN.md §7.7/7.8.
+- **How:** built by one Opus builder with the unit-check engine, from the lessons' own worksheets. Worksheet types changed only in their check-only parts; every published page is byte-identical.
+- **Review (rule 2):** one US K–3 teacher and assessment coach found 25 issues, all fixed. My own reading of the rewritten dumps found five more; all fixed in a second round:
+  - a rectangle card showing a square;
+  - one box repeated between form A and form B;
+  - verb-form sentences repeated across three checks;
+  - texts read again from Grade 2 end to Grade 3 beginning;
+  - three placement descriptions claiming steps they do not ask.
+- **New gate T19 and stricter T11/T16:** no item repeats across checks, compared by picture and answer, by sentence and frame, and by text title. 73 poisons caught.
+- **Live unit checks corrected** (defect fixes, teacher files uploaded):
+  - g2-sentences-and-grammar;
+  - the key notes of g2-story-problems-within-100, g3-story-problems-all-four-operations and g3-area-perimeter-volume.
+- **Coverage ratchet:** 36 → 3 gaps. The three literacy plans under 28 weeks remain (they wait for the five design rows).
+- **Live (deploy 46):**
+  - assessments live check: 73 unit checks and 24 year checks live, 2,121 checks, all pass;
+  - units live check: 2,502 checks, all pass;
+  - IDENTITY PASS (287 pages, 11 shards);
+  - teacher files: 759 on the server = the PC.
+- **Fixed after deploy 46:**
+  - Phone render: the writing placement page's step list ran past its card (a no-wrap span), fixed in deploy 47.
+  - The units live check did not know the C-4 ruling that week sub days are noindex and in no sitemap. It now asserts that ruling: it had reported 240 false failures.
+  - `upload-teacher-files.sh --check` compared lists sorted differently on Git Bash and the server; it now uses `LC_ALL=C`.
+- **Next:** the approved plan's item 3: science, social studies, health, preschool and theme units in English.

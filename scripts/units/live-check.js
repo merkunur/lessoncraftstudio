@@ -73,7 +73,10 @@ const check = (ok, what) => { n++; if (!ok) { bad++; console.log('FAIL  ' + what
     check((r.body.match(/<h1[\s>]/g) || []).length === 1, who + ': ' + (r.body.match(/<h1[\s>]/g) || []).length + ' h1');
     check(r.body.includes('<link rel="canonical" href="https://www.lessoncraftstudio.com' + p + '"'), who + ': canonical is not the page itself');
     const robots = (/<meta name="robots" content="([^"]*)"/.exec(r.body) || [])[1] || '';
-    if (x.status === 'pilot') { check(/noindex/.test(robots) && /follow/.test(robots) && !/nofollow/.test(robots), who + ': a pilot must be noindex, follow; robots is "' + robots + '"'); check(!listed.includes(p + '<'), who + ': a pilot is in a sitemap'); }
+    // (Stage C-4) a week sub day is noindex, follow and in no sitemap even when live (120 near-identical titles would be
+    // thin pages for search; the 24 days of the year stay the search face, PART-5-DESIGN.md §5)
+    if (seg === 'sub-plans' && x.week && x.status === 'live') { check(/noindex/.test(robots) && /follow/.test(robots) && !/nofollow/.test(robots), who + ': a live week day must be noindex, follow; robots is "' + robots + '"'); check(!listed.includes(p + '<'), who + ': a week day is in a sitemap'); }
+    else if (x.status === 'pilot') { check(/noindex/.test(robots) && /follow/.test(robots) && !/nofollow/.test(robots), who + ': a pilot must be noindex, follow; robots is "' + robots + '"'); check(!listed.includes(p + '<'), who + ': a pilot is in a sitemap'); }
     else { check(!/noindex/.test(robots), who + ': a live page is noindex'); check(listed.includes('https://www.lessoncraftstudio.com' + p + '<'), who + ': a live page is in no sitemap'); }
     // tier truth: nothing a visitor reads in the page's own content says free
     const mainText = ((/<main[\s\S]*<\/main>/.exec(r.body) || [''])[0]).replace(/<script[\s\S]*?<\/script>/g, '').replace(/<[^>]+>/g, ' ');

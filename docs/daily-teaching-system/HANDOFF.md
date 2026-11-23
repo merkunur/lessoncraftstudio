@@ -68,7 +68,7 @@ captured 2026-11-18T22:34:15Z** (three sampled titles gained their tail, nothing
 
 0. **DONE 2026-11-22:** the maker release for the f1119 fixes (deploy 39), readers 12 → 63 with the `/en/readers`
    hubs (deploy 40), the homepage Reading Room (deploy 41) and the books' page-turn screen (deploy 42; PART-8-DESIGN.md
-   §6); PLAN.md entries of 2026-11-22. **NEXT:** item 2 below.
+   §6); PLAN.md entries of 2026-11-22. **NEXT:** item 3 below (item 2 done 2026-11-23).
 1. **English literacy year (12.3) with readers to 60 (8.2).** (a), (b) and (c) are DONE (B-2 live 2026-11-19, B-3 live
    2026-11-22, screen version included; PLAN.md entries of those dates). Measured 2026-11-19 (plan
    `C:\Users\rkgen\.claude\plans\lexical-singing-kahan.md`): the units are complete; what is open is (a) the design
@@ -76,8 +76,9 @@ captured 2026-11-18T22:34:15Z** (three sampled titles gained their tail, nothing
    NOT to be made, and five rows wait (PLAN.md §11, ruling of 2026-11-19); (b) **unit checks for the 31 English units
    that have none** (4 mathematics, 27 literacy) and the 4 pilot checks, in four waves (mathematics, literacy items,
    reading, writing with rubrics); (c) 48 more readers with hubs and a screen version.
-2. **English checks and sub days for the whole year** (item bank rest, year checks, placement checks, a sub day for
-   every week the units cover, the coverage gate).
+2. **DONE 2026-11-23: English checks and sub days for the whole year:** coverage gate (C-1), 120 week sub days (C-4,
+   deploy 45), 24 checks of the year and 9 placement checks (C-2/C-3, deploys 46-47). Coverage: 3 gaps left, the three
+   literacy plans under 28 weeks. **NEXT:** item 3 below.
 3. **Science, social studies, health, preschool and theme units in English.**
 4. **German and Swedish to the whole year.**
 5. **The eight other languages, one at a time: fr, no, nl, fi, da, it, es-MX, pt-BR** (built noindex; indexing waits

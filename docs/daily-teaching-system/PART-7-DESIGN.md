@@ -401,3 +401,69 @@ The open task for every language is unchanged: a second form of item for whole-p
 7. Free writing (a page of lines to write about a picture or oneself) has no one answer and stays out of the check, named on the teacher page; a task with a model answer (write the letter, the word, the missing number) is a part.
 
 **Tool:** `node scripts/assessments/probe-cut.js --types=<ids> [--loc=en] [--level=2] [--out=<folder>]` tries types through the cutter in isolation (several runs may go at once; it shares no file with `build-checks.js`) and says per type: refused and why, or the cards with their heights and answers.
+
+## 7.7 and 7.8 (Stage C-2/C-3, 2026-11-23): the checks of the year and the placement checks, English
+
+**Checks of the year (24):** beginning, middle and end of the year for each grade (K–3) and subject (mathematics, reading).
+- Blueprint `scripts/assessments/year/en.json`, written by `year/draft.js` from the plans, then hand-ruled (rulings in `lists/en.json`). Output `frontend/content/assessments/year.en.json`.
+- Each part is cut by the unit-check engine from a lesson's own worksheet. `build-checks.js --year` builds synthetic checks whose lessons span units, with seeds `check|year-<id>|A/B`, and each lesson takes its own unit's rulings.
+- **END:** one part per unit of the plan: the part with the most tasks in that unit's check.
+- **MIDDLE:** the units whose last class day falls in the first half of the plan, topped up to at least 6 parts (gate T13; fewer only with a ruling that says why).
+- **BEGINNING:** Grades 1–3 take at most 8 parts of the previous grade's end list. Kindergarten gets an entry check at the easy level (numerals, counting, shapes, letters, beginning sounds).
+- The teacher pages name the unit and lesson of every part and say "Re-teach <unit>, Lesson N".
+- Pages: `/en/assessments/<grade-subject>`, indexable, English only, shard 3. A page shows only live checks.
+
+**Placement checks (9):** one ladder per skill path, across grades: counting and number sense, addition and subtraction facts, place value, multiplication facts, letters and sounds, blending and decoding, sight words, spelling patterns, sentence writing.
+- Blueprint `scripts/assessments/placement/en.json` (`placement/draft.js`); output `frontend/content/assessments/placement.en.json`.
+- Each step is one part cut from the lesson that teaches it, at that lesson's level. "If the child stops here, start at: <unit>, lesson N" links to the unit page.
+- **Stop rule:** stop after the first step with two misses. In a step of one task, a child who misses it does the matching task of the other form first.
+- A step that cannot be cut without repeating a box is ruled out with its reason. The sight-words ladder has no Grade 2 step, so its Grade 3 step sends a child to the Grade 2 tricky-words lesson.
+- The sentence-writing check ends with a rubric writing part (G1-621) given to **every** child apart from the ladder. Its score places the child in the writing units only.
+- Pages: `/en/assessments/placement/<path>`, indexable. The word "test" stands in the titles (searched); the copy says "classroom placement check", with no percentiles.
+
+**The no-repeat rule (gate T19, poisons both ways).** No item repeats:
+- across the three checks of one grade and subject;
+- between the end check of a grade and the beginning check of the next grade, or the middle check of the grade before;
+- between year, placement and unit checks.
+
+What counts as the same item (`lib/task-print.js`):
+- the same picture with the same answer word, or the same target word, whatever the order of the options;
+- each sentence of a box with several sentences, and the same sentence frame;
+- the same text title, so another paragraph of the same text is the same text.
+
+Form B never repeats form A by the same measure (T11/T16).
+
+**Check-only parts of worksheet types.** A check of the year needs more items than the published pool holds. Texts, item pools and card shapes set aside for checks were added to:
+- story-k, story-g1, fact-text-k, info-text-g2;
+- the vowel factories, the digraph factory, G1-260, G1-350;
+- K-368 (three shapes per card; the teacher names one; a card asking for the rectangle never shows a square);
+- G2-317 (36 sentences, each with its own time cue).
+
+A dictated task uses `data-lcs-teacher-reads`: the words are printed on the key and the teacher pages, never on the child's page. Every published page of every touched type is proved byte-identical.
+
+**Review (rule 2).** One US K–3 teacher and assessment coach read both dumps and found 25 items. Among them:
+- repeated boxes across checks, and Crow and the Pitcher in both forms;
+- a /k/ picture spelled C or K, and verb forms where the past was also right;
+- Grade 2 "regrouping" without regrouping;
+- keys that accepted one order of steps only, and an a/an position tell;
+- blending steps that tested spelling, picture vocabulary in the sight-words ladder;
+- the writing part sending strong writers back to Kindergarten.
+
+All 25 were fixed at the source. My own reading of the rewritten dumps found more, also fixed:
+- a rectangle card with a square;
+- the lock/log box in forms A and B;
+- verb-form sentences repeated across three checks;
+- the same texts read again from the end of Grade 2 to the beginning of Grade 3;
+- three placement descriptions naming things the steps do not ask.
+
+Live unit checks corrected in the same work:
+- g2-sentences-and-grammar (verb forms with one right answer);
+- key notes accepting every right answer in g2-story-problems-within-100, g3-story-problems-all-four-operations and g3-area-perimeter-volume.
+
+**Recorded impossibilities:**
+- No Grade 1 th step: one unused th picture.
+- No by-100s counting step: no lesson that teaches it has a check part.
+- The syllable step of blending keeps two-syllable words: no unused three-syllable word.
+- Multiplication step 2 asks one ×2 fact: the ×5 facts are asked by the missing-factor step.
+
+**Coverage:** the 33 gaps `year:` and `placement:` are closed; `coverage-known.en.json` holds the three literacy plans under 28 weeks.

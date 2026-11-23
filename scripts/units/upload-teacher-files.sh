@@ -10,6 +10,8 @@
 #
 # Built by: node scripts/units/build-guide.js --loc=<loc>   and   node scripts/sub-plans/build-pack.js --loc=<loc>
 set -euo pipefail
+# one sort order on both machines: Git Bash and the server collate "week-1/" and "week-10" differently
+export LC_ALL=C
 LOC="${1:?usage: upload-teacher-files.sh <locale> [--check]}"
 MODE="${2:-}"
 [[ "$LOC" =~ ^[a-z]{2}$ ]] || { echo "not a locale: $LOC"; exit 1; }
@@ -22,7 +24,7 @@ DEST="/var/www/lcs-media/teacher-files/$LOC"
 
 LOCAL="$(cd "$SRC" && find . -type f -name '*.pdf' -printf '%P %s\n' | sort)"
 [ -n "$LOCAL" ] || { echo "no PDF under $SRC"; exit 1; }
-remote_list() { ssh -i "$KEY" "$HOST" "if [ -d '$DEST' ]; then cd '$DEST' && find . -type f -name '*.pdf' -printf '%P %s\n' | sort; fi"; }
+remote_list() { ssh -i "$KEY" "$HOST" "if [ -d '$DEST' ]; then cd '$DEST' && find . -type f -name '*.pdf' -printf '%P %s\n' | LC_ALL=C sort; fi"; }
 
 if [ "$MODE" = "--check" ]; then
   if [ "$LOCAL" = "$(remote_list)" ]; then echo "$LOC: the server holds the same $(echo "$LOCAL" | wc -l) file(s) as the PC"; exit 0; fi

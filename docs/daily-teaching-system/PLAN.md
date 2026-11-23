@@ -1704,4 +1704,6 @@ About 20 science needs are investigation records, which one record factory (pred
 - So a unit is placed only when its lessons have their pages: the new types are built grade by grade first (D-5 batches), then each grade's units (D-3), the rhythm the literacy units followed.
 - **First batch:** Kindergarten science (5 changes, 13 new types) and Kindergarten health (1 change, 2 new), with K-374's crossing routine (left, right, left again, with a grown-up).
 
+**Deploy 50 (commit `26725d809`).** `build-points.js` orders a subject without an authored order by its strand's place in `sequence.json`, so the new Science subject moved the `order` of 37 science and health points; no other field changed. Teaching-graph gate G1 caught it on deploy 49. That gate is warn-only in `deploy.sh`, and the rule now is to run `build-points.js` whenever `sequence.json` changes. IDENTITY PASS.
+
 **Next:** D-5 batch K. Design the 21 Kindergarten pages from the work list, then build, review, publish noindex, and place the seven Kindergarten science and two health units.

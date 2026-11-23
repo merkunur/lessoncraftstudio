@@ -9438,6 +9438,28 @@
    "prerequisites": []
   },
   {
+   "id": "K:five-senses",
+   "grade": "K",
+   "subject": "science",
+   "strand": "Science",
+   "sourceStrand": "Science — Five Senses",
+   "skill": "The five senses: which body part we use for each experience",
+   "code": "NGSS:K-LS1 (readiness: senses)",
+   "types": [
+    "K-355"
+   ],
+   "families": [
+    "five-senses"
+   ],
+   "activities": [],
+   "planned": [
+    232
+   ],
+   "verdict": "gap",
+   "order": 1,
+   "prerequisites": []
+  },
+  {
    "id": "K:human-body",
    "grade": "K",
    "subject": "science",
@@ -9462,100 +9484,7 @@
     219
    ],
    "verdict": "gap",
-   "order": 1,
-   "prerequisites": []
-  },
-  {
-   "id": "K:living-nonliving",
-   "grade": "K",
-   "subject": "science",
-   "strand": "Science",
-   "sourceStrand": "Science — Life",
-   "skill": "Living and non-living things",
-   "code": "NGSS:K-LS1-1",
-   "types": [
-    "K-201"
-   ],
-   "families": [
-    "science-sort"
-   ],
-   "activities": [],
-   "planned": [
-    242
-   ],
-   "verdict": "gap",
    "order": 2,
-   "prerequisites": []
-  },
-  {
-   "id": "K:fruit-vegetable",
-   "grade": "K",
-   "subject": "science",
-   "strand": "Science",
-   "sourceStrand": "Science / Health",
-   "skill": "Fruits and vegetables (which part of the plant we eat)",
-   "code": "NGSS:K-LS1 (readiness: plants)",
-   "types": [
-    "K-202"
-   ],
-   "families": [
-    "science-sort"
-   ],
-   "activities": [
-    "mims-baskets.category-sort.l-k-5-a"
-   ],
-   "planned": [
-    231
-   ],
-   "verdict": "partial",
-   "order": 3,
-   "prerequisites": []
-  },
-  {
-   "id": "K:animal-groups-homes",
-   "grade": "K",
-   "subject": "science",
-   "strand": "Science",
-   "sourceStrand": "Science — Animals & Habitats",
-   "skill": "Pets, farm and wild animals; where animals live (animal homes)",
-   "code": "NGSS:K-ESS3-1",
-   "types": [
-    "K-204",
-    "K-209",
-    "K-383"
-   ],
-   "families": [
-    "habitats",
-    "science-sort"
-   ],
-   "activities": [],
-   "planned": [
-    240
-   ],
-   "verdict": "gap",
-   "order": 4,
-   "prerequisites": []
-  },
-  {
-   "id": "K:animal-babies",
-   "grade": "K",
-   "subject": "science",
-   "strand": "Science",
-   "sourceStrand": "Science — Animals",
-   "skill": "Animal babies and their parents (alike and different)",
-   "code": "NGSS:1-LS3-1 (readiness)",
-   "types": [
-    "K-205"
-   ],
-   "families": [
-    "science-match"
-   ],
-   "activities": [],
-   "planned": [
-    233
-   ],
-   "verdict": "gap",
-   "order": 5,
    "prerequisites": []
   },
   {
@@ -9583,29 +9512,7 @@
     238
    ],
    "verdict": "gap",
-   "order": 6,
-   "prerequisites": []
-  },
-  {
-   "id": "K:day-night",
-   "grade": "K",
-   "subject": "science",
-   "strand": "Science",
-   "sourceStrand": "Science — Sky",
-   "skill": "Day and night: what belongs to the day sky and to the night",
-   "code": "NGSS:1-ESS1-1 (readiness)",
-   "types": [
-    "K-208"
-   ],
-   "families": [
-    "science-sort"
-   ],
-   "activities": [],
-   "planned": [
-    239
-   ],
-   "verdict": "gap",
-   "order": 7,
+   "order": 3,
    "prerequisites": []
   },
   {
@@ -9631,7 +9538,122 @@
     239
    ],
    "verdict": "gap",
+   "order": 4,
+   "prerequisites": []
+  },
+  {
+   "id": "K:plant-needs",
+   "grade": "K",
+   "subject": "science",
+   "strand": "Science",
+   "sourceStrand": "Science — Plants",
+   "skill": "What plants need to grow (water and light)",
+   "code": "NGSS:K-LS1-1",
+   "types": [
+    "K-376"
+   ],
+   "families": [
+    "plants"
+   ],
+   "activities": [],
+   "planned": [
+    243
+   ],
+   "verdict": "gap",
+   "order": 5,
+   "prerequisites": []
+  },
+  {
+   "id": "K:living-nonliving",
+   "grade": "K",
+   "subject": "science",
+   "strand": "Science",
+   "sourceStrand": "Science — Life",
+   "skill": "Living and non-living things",
+   "code": "NGSS:K-LS1-1",
+   "types": [
+    "K-201"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [
+    242
+   ],
+   "verdict": "gap",
+   "order": 6,
+   "prerequisites": []
+  },
+  {
+   "id": "K:fruit-vegetable",
+   "grade": "K",
+   "subject": "science",
+   "strand": "Science",
+   "sourceStrand": "Science / Health",
+   "skill": "Fruits and vegetables (which part of the plant we eat)",
+   "code": "NGSS:K-LS1 (readiness: plants)",
+   "types": [
+    "K-202"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [
+    "mims-baskets.category-sort.l-k-5-a"
+   ],
+   "planned": [
+    231
+   ],
+   "verdict": "partial",
+   "order": 7,
+   "prerequisites": []
+  },
+  {
+   "id": "K:animal-groups-homes",
+   "grade": "K",
+   "subject": "science",
+   "strand": "Science",
+   "sourceStrand": "Science — Animals & Habitats",
+   "skill": "Pets, farm and wild animals; where animals live (animal homes)",
+   "code": "NGSS:K-ESS3-1",
+   "types": [
+    "K-204",
+    "K-209",
+    "K-383"
+   ],
+   "families": [
+    "habitats",
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [
+    240
+   ],
+   "verdict": "gap",
    "order": 8,
+   "prerequisites": []
+  },
+  {
+   "id": "K:day-night",
+   "grade": "K",
+   "subject": "science",
+   "strand": "Science",
+   "sourceStrand": "Science — Sky",
+   "skill": "Day and night: what belongs to the day sky and to the night",
+   "code": "NGSS:1-ESS1-1 (readiness)",
+   "types": [
+    "K-208"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [
+    239
+   ],
+   "verdict": "gap",
+   "order": 9,
    "prerequisites": []
   },
   {
@@ -9653,29 +9675,51 @@
     234
    ],
    "verdict": "gap",
-   "order": 9,
+   "order": 10,
    "prerequisites": []
   },
   {
-   "id": "K:five-senses",
+   "id": "K:animal-babies",
    "grade": "K",
    "subject": "science",
    "strand": "Science",
-   "sourceStrand": "Science — Five Senses",
-   "skill": "The five senses: which body part we use for each experience",
-   "code": "NGSS:K-LS1 (readiness: senses)",
+   "sourceStrand": "Science — Animals",
+   "skill": "Animal babies and their parents (alike and different)",
+   "code": "NGSS:1-LS3-1 (readiness)",
    "types": [
-    "K-355"
+    "K-205"
    ],
    "families": [
-    "five-senses"
+    "science-match"
    ],
    "activities": [],
    "planned": [
-    232
+    233
    ],
    "verdict": "gap",
-   "order": 10,
+   "order": 11,
+   "prerequisites": []
+  },
+  {
+   "id": "K:sink-float",
+   "grade": "K",
+   "subject": "science",
+   "strand": "Science",
+   "sourceStrand": "Science — Materials",
+   "skill": "Things that float and things that sink",
+   "code": "NGSS:K-PS (readiness: sink or float)",
+   "types": [
+    "K-384"
+   ],
+   "families": [
+    "sink-or-float"
+   ],
+   "activities": [],
+   "planned": [
+    235
+   ],
+   "verdict": "gap",
+   "order": 12,
    "prerequisites": []
   },
   {
@@ -9699,101 +9743,78 @@
     241
    ],
    "verdict": "gap",
-   "order": 11,
-   "prerequisites": []
-  },
-  {
-   "id": "K:plant-needs",
-   "grade": "K",
-   "subject": "science",
-   "strand": "Science",
-   "sourceStrand": "Science — Plants",
-   "skill": "What plants need to grow (water and light)",
-   "code": "NGSS:K-LS1-1",
-   "types": [
-    "K-376"
-   ],
-   "families": [
-    "plants"
-   ],
-   "activities": [],
-   "planned": [
-    243
-   ],
-   "verdict": "gap",
-   "order": 12,
-   "prerequisites": []
-  },
-  {
-   "id": "K:sink-float",
-   "grade": "K",
-   "subject": "science",
-   "strand": "Science",
-   "sourceStrand": "Science — Materials",
-   "skill": "Things that float and things that sink",
-   "code": "NGSS:K-PS (readiness: sink or float)",
-   "types": [
-    "K-384"
-   ],
-   "families": [
-    "sink-or-float"
-   ],
-   "activities": [],
-   "planned": [
-    235
-   ],
-   "verdict": "gap",
    "order": 13,
    "prerequisites": []
   },
   {
-   "id": "1:animal-classes-coverings",
+   "id": "1:five-senses",
    "grade": "1",
    "subject": "science",
    "strand": "Science",
    "sourceStrand": "Life Science",
-   "skill": "Classify animals into groups (mammal, bird, fish, reptile, insect) by body covering (fur, feathers, scales, smooth skin)",
-   "code": "NGSS:1-LS1-1 / 1-LS3-1",
+   "skill": "Which sense for each thing: sort by sense, choose the body part, odd one out, write the sense word, I can hear / see ...",
+   "code": "NGSS:1-LS1-1 (senses) / HEALTH",
    "types": [
-    "G1-201",
-    "G1-205"
+    "G1-357",
+    "G1-358",
+    "G1-359",
+    "G1-360",
+    "G1-361"
    ],
    "families": [
-    "science-sort"
+    "five-senses"
    ],
    "activities": [],
    "planned": [
-    263
+    232
    ],
    "verdict": "gap",
    "order": 14,
    "prerequisites": []
   },
   {
-   "id": "1:habitats-needs",
+   "id": "1:body-parts",
    "grade": "1",
    "subject": "science",
    "strand": "Science",
    "sourceStrand": "Life Science",
-   "skill": "Where animals live, who does not live here, what animals eat, what animals need (food and a home)",
-   "code": "NGSS:K-LS1-1 / K-ESS3-1",
+   "skill": "Name the parts of the body (label the figure)",
+   "code": "HEALTH:body / vocabulary",
    "types": [
-    "G1-202",
-    "G1-206",
-    "G1-398",
-    "G1-406",
-    "G1-407"
+    "G1-356"
    ],
    "families": [
-    "habitats",
-    "science-sort"
+    "human-body"
    ],
    "activities": [],
    "planned": [
-    240
+    219
    ],
    "verdict": "gap",
    "order": 15,
+   "prerequisites": []
+  },
+  {
+   "id": "1:weather",
+   "grade": "1",
+   "subject": "science",
+   "strand": "Science",
+   "sourceStrand": "Earth Science",
+   "skill": "Weather symbols and words; read a weekly forecast",
+   "code": "NGSS:K-ESS2-1",
+   "types": [
+    "G1-362",
+    "G1-363"
+   ],
+   "families": [
+    "weather-symbols"
+   ],
+   "activities": [],
+   "planned": [
+    239
+   ],
+   "verdict": "gap",
+   "order": 16,
    "prerequisites": []
   },
   {
@@ -9821,7 +9842,79 @@
     264
    ],
    "verdict": "gap",
-   "order": 16,
+   "order": 17,
+   "prerequisites": []
+  },
+  {
+   "id": "1:plant-parts",
+   "grade": "1",
+   "subject": "science",
+   "strand": "Science",
+   "sourceStrand": "Life Science",
+   "skill": "Name the parts of a plant (root, stem, leaf, flower) and what each does",
+   "code": "NGSS:1-LS1-1",
+   "types": [
+    "G1-376"
+   ],
+   "families": [
+    "plants"
+   ],
+   "activities": [],
+   "planned": [
+    231
+   ],
+   "verdict": "gap",
+   "order": 18,
+   "prerequisites": []
+  },
+  {
+   "id": "1:animal-classes-coverings",
+   "grade": "1",
+   "subject": "science",
+   "strand": "Science",
+   "sourceStrand": "Life Science",
+   "skill": "Classify animals into groups (mammal, bird, fish, reptile, insect) by body covering (fur, feathers, scales, smooth skin)",
+   "code": "NGSS:1-LS1-1 / 1-LS3-1",
+   "types": [
+    "G1-201",
+    "G1-205"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [
+    263
+   ],
+   "verdict": "gap",
+   "order": 19,
+   "prerequisites": []
+  },
+  {
+   "id": "1:habitats-needs",
+   "grade": "1",
+   "subject": "science",
+   "strand": "Science",
+   "sourceStrand": "Life Science",
+   "skill": "Where animals live, who does not live here, what animals eat, what animals need (food and a home)",
+   "code": "NGSS:K-LS1-1 / K-ESS3-1",
+   "types": [
+    "G1-202",
+    "G1-206",
+    "G1-398",
+    "G1-406",
+    "G1-407"
+   ],
+   "families": [
+    "habitats",
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [
+    240
+   ],
+   "verdict": "gap",
+   "order": 20,
    "prerequisites": []
   },
   {
@@ -9846,78 +9939,7 @@
     235
    ],
    "verdict": "gap",
-   "order": 17,
-   "prerequisites": []
-  },
-  {
-   "id": "1:body-parts",
-   "grade": "1",
-   "subject": "science",
-   "strand": "Science",
-   "sourceStrand": "Life Science",
-   "skill": "Name the parts of the body (label the figure)",
-   "code": "HEALTH:body / vocabulary",
-   "types": [
-    "G1-356"
-   ],
-   "families": [
-    "human-body"
-   ],
-   "activities": [],
-   "planned": [
-    219
-   ],
-   "verdict": "gap",
-   "order": 18,
-   "prerequisites": []
-  },
-  {
-   "id": "1:five-senses",
-   "grade": "1",
-   "subject": "science",
-   "strand": "Science",
-   "sourceStrand": "Life Science",
-   "skill": "Which sense for each thing: sort by sense, choose the body part, odd one out, write the sense word, I can hear / see ...",
-   "code": "NGSS:1-LS1-1 (senses) / HEALTH",
-   "types": [
-    "G1-357",
-    "G1-358",
-    "G1-359",
-    "G1-360",
-    "G1-361"
-   ],
-   "families": [
-    "five-senses"
-   ],
-   "activities": [],
-   "planned": [
-    232
-   ],
-   "verdict": "gap",
-   "order": 19,
-   "prerequisites": []
-  },
-  {
-   "id": "1:weather",
-   "grade": "1",
-   "subject": "science",
-   "strand": "Science",
-   "sourceStrand": "Earth Science",
-   "skill": "Weather symbols and words; read a weekly forecast",
-   "code": "NGSS:K-ESS2-1",
-   "types": [
-    "G1-362",
-    "G1-363"
-   ],
-   "families": [
-    "weather-symbols"
-   ],
-   "activities": [],
-   "planned": [
-    239
-   ],
-   "verdict": "gap",
-   "order": 20,
+   "order": 21,
    "prerequisites": []
   },
   {
@@ -9938,28 +9960,6 @@
    "activities": [],
    "planned": [
     265
-   ],
-   "verdict": "gap",
-   "order": 21,
-   "prerequisites": []
-  },
-  {
-   "id": "1:plant-parts",
-   "grade": "1",
-   "subject": "science",
-   "strand": "Science",
-   "sourceStrand": "Life Science",
-   "skill": "Name the parts of a plant (root, stem, leaf, flower) and what each does",
-   "code": "NGSS:1-LS1-1",
-   "types": [
-    "G1-376"
-   ],
-   "families": [
-    "plants"
-   ],
-   "activities": [],
-   "planned": [
-    231
    ],
    "verdict": "gap",
    "order": 22,
@@ -9989,29 +9989,6 @@
    "prerequisites": []
   },
   {
-   "id": "2:materials",
-   "grade": "2",
-   "subject": "science",
-   "strand": "Science",
-   "skill": "Group things by the material they are made of (paper, plastic, glass, metal, wood) for recycling",
-   "code": "NGSS:2-PS1-1",
-   "types": [
-    "G2-348"
-   ],
-   "families": [
-    "recycling"
-   ],
-   "activities": [
-    "ziggy-odd-one-out.category.l-1-5-a"
-   ],
-   "planned": [
-    265
-   ],
-   "verdict": "gap",
-   "order": 24,
-   "prerequisites": []
-  },
-  {
    "id": "2:plant-parts",
    "grade": "2",
    "subject": "science",
@@ -10030,7 +10007,7 @@
     231
    ],
    "verdict": "gap",
-   "order": 25,
+   "order": 24,
    "prerequisites": []
   },
   {
@@ -10052,7 +10029,52 @@
     264
    ],
    "verdict": "gap",
+   "order": 25,
+   "prerequisites": []
+  },
+  {
+   "id": "2:sink-float",
+   "grade": "2",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Predict and test sink or float; changing shape (a clay boat) changes floating",
+   "code": "NGSS:2-PS1-1 / 2-PS1-2",
+   "types": [
+    "G2-382",
+    "G2-383"
+   ],
+   "families": [
+    "sink-or-float"
+   ],
+   "activities": [],
+   "planned": [
+    235
+   ],
+   "verdict": "gap",
    "order": 26,
+   "prerequisites": []
+  },
+  {
+   "id": "2:materials",
+   "grade": "2",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Group things by the material they are made of (paper, plastic, glass, metal, wood) for recycling",
+   "code": "NGSS:2-PS1-1",
+   "types": [
+    "G2-348"
+   ],
+   "families": [
+    "recycling"
+   ],
+   "activities": [
+    "ziggy-odd-one-out.category.l-1-5-a"
+   ],
+   "planned": [
+    265
+   ],
+   "verdict": "gap",
+   "order": 27,
    "prerequisites": []
   },
   {
@@ -10073,7 +10095,7 @@
     262
    ],
    "verdict": "gap",
-   "order": 27,
+   "order": 28,
    "prerequisites": []
   },
   {
@@ -10094,7 +10116,7 @@
     262
    ],
    "verdict": "gap",
-   "order": 28,
+   "order": 29,
    "prerequisites": []
   },
   {
@@ -10116,28 +10138,6 @@
    ],
    "planned": [
     240
-   ],
-   "verdict": "gap",
-   "order": 29,
-   "prerequisites": []
-  },
-  {
-   "id": "2:sink-float",
-   "grade": "2",
-   "subject": "science",
-   "strand": "Science",
-   "skill": "Predict and test sink or float; changing shape (a clay boat) changes floating",
-   "code": "NGSS:2-PS1-1 / 2-PS1-2",
-   "types": [
-    "G2-382",
-    "G2-383"
-   ],
-   "families": [
-    "sink-or-float"
-   ],
-   "activities": [],
-   "planned": [
-    235
    ],
    "verdict": "gap",
    "order": 30,
@@ -10207,6 +10207,27 @@
    "prerequisites": []
   },
   {
+   "id": "3:investigation",
+   "grade": "3",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Run a fair test: predict, test, record what happened and draw a conclusion (sink or float)",
+   "code": "NGSS:3-5 SEP (plan and carry out investigations)",
+   "types": [
+    "G3-400"
+   ],
+   "families": [
+    "sink-or-float"
+   ],
+   "activities": [],
+   "planned": [
+    235
+   ],
+   "verdict": "gap",
+   "order": 34,
+   "prerequisites": []
+  },
+  {
    "id": "3:planets",
    "grade": "3",
    "subject": "science",
@@ -10223,27 +10244,6 @@
    "activities": [],
    "planned": [
     314
-   ],
-   "verdict": "gap",
-   "order": 34,
-   "prerequisites": []
-  },
-  {
-   "id": "3:investigation",
-   "grade": "3",
-   "subject": "science",
-   "strand": "Science",
-   "skill": "Run a fair test: predict, test, record what happened and draw a conclusion (sink or float)",
-   "code": "NGSS:3-5 SEP (plan and carry out investigations)",
-   "types": [
-    "G3-400"
-   ],
-   "families": [
-    "sink-or-float"
-   ],
-   "activities": [],
-   "planned": [
-    235
    ],
    "verdict": "gap",
    "order": 35,
@@ -10497,22 +10497,24 @@
    "prerequisites": []
   },
   {
-   "id": "K:healthy-food",
+   "id": "K:road-safety",
    "grade": "K",
    "subject": "health",
-   "strand": "Health",
-   "sourceStrand": "Health — Nutrition",
-   "skill": "Everyday foods and sometimes foods",
-   "code": "HEALTH",
+   "strand": "Health & Safety",
+   "sourceStrand": "Road Safety",
+   "skill": "Read the traffic light / pedestrian signal and cross the road in the right steps (stop, look, listen, cross)",
+   "code": "SS:road-safety",
    "types": [
-    "K-203"
+    "K-369",
+    "K-373",
+    "K-374"
    ],
    "families": [
-    "science-sort"
+    "road-safety"
    ],
    "activities": [],
    "planned": [
-    221
+    223
    ],
    "verdict": "gap",
    "order": 1,
@@ -10541,38 +10543,15 @@
    "prerequisites": []
   },
   {
-   "id": "K:road-safety",
+   "id": "K:healthy-food",
    "grade": "K",
    "subject": "health",
-   "strand": "Health & Safety",
-   "sourceStrand": "Road Safety",
-   "skill": "Read the traffic light / pedestrian signal and cross the road in the right steps (stop, look, listen, cross)",
-   "code": "SS:road-safety",
-   "types": [
-    "K-369",
-    "K-373",
-    "K-374"
-   ],
-   "families": [
-    "road-safety"
-   ],
-   "activities": [],
-   "planned": [
-    223
-   ],
-   "verdict": "gap",
-   "order": 3,
-   "prerequisites": []
-  },
-  {
-   "id": "1:food-groups",
-   "grade": "1",
-   "subject": "health",
    "strand": "Health",
-   "skill": "Sort foods into the four food groups",
-   "code": "HEALTH:nutrition",
+   "sourceStrand": "Health — Nutrition",
+   "skill": "Everyday foods and sometimes foods",
+   "code": "HEALTH",
    "types": [
-    "G1-207"
+    "K-203"
    ],
    "families": [
     "science-sort"
@@ -10580,6 +10559,28 @@
    "activities": [],
    "planned": [
     221
+   ],
+   "verdict": "gap",
+   "order": 3,
+   "prerequisites": []
+  },
+  {
+   "id": "1:road-signs",
+   "grade": "1",
+   "subject": "health",
+   "strand": "Health & Safety",
+   "sourceStrand": "Social Studies / Safety",
+   "skill": "Road safety: traffic signs and what they mean",
+   "code": "SS:road-safety",
+   "types": [
+    "G1-384"
+   ],
+   "families": [
+    "road-safety"
+   ],
+   "activities": [],
+   "planned": [
+    223
    ],
    "verdict": "gap",
    "order": 4,
@@ -10609,46 +10610,24 @@
    "prerequisites": []
   },
   {
-   "id": "1:road-signs",
+   "id": "1:food-groups",
    "grade": "1",
    "subject": "health",
-   "strand": "Health & Safety",
-   "sourceStrand": "Social Studies / Safety",
-   "skill": "Road safety: traffic signs and what they mean",
-   "code": "SS:road-safety",
+   "strand": "Health",
+   "skill": "Sort foods into the four food groups",
+   "code": "HEALTH:nutrition",
    "types": [
-    "G1-384"
+    "G1-207"
    ],
    "families": [
-    "road-safety"
+    "science-sort"
    ],
    "activities": [],
    "planned": [
-    223
+    221
    ],
    "verdict": "gap",
    "order": 6,
-   "prerequisites": []
-  },
-  {
-   "id": "2:healthy-habits-why",
-   "grade": "2",
-   "subject": "health",
-   "strand": "Health",
-   "skill": "Why we do healthy habits (what each habit protects)",
-   "code": "HEALTH",
-   "types": [
-    "G2-379"
-   ],
-   "families": [
-    "healthy-habits"
-   ],
-   "activities": [],
-   "planned": [
-    220
-   ],
-   "verdict": "gap",
-   "order": 7,
    "prerequisites": []
   },
   {
@@ -10669,6 +10648,27 @@
    "activities": [],
    "planned": [
     223
+   ],
+   "verdict": "gap",
+   "order": 7,
+   "prerequisites": []
+  },
+  {
+   "id": "2:healthy-habits-why",
+   "grade": "2",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Why we do healthy habits (what each habit protects)",
+   "code": "HEALTH",
+   "types": [
+    "G2-379"
+   ],
+   "families": [
+    "healthy-habits"
+   ],
+   "activities": [],
+   "planned": [
+    220
    ],
    "verdict": "gap",
    "order": 8,

@@ -3740,6 +3740,33 @@
    "none": "not yet read against this curriculum",
    "by": "authored"
   },
+  "K:animal-groups-homes": {
+   "rows": [
+    {
+     "id": "SU.3.1.s1",
+     "rel": "prepares",
+     "grade": "1-2"
+    },
+    {
+     "id": "SU.3.1.s3",
+     "rel": "prepares",
+     "grade": "1-2"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:animal-food": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:animal-home": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:animals-change-land": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "K:living-nonliving": {
    "rows": [
     {
@@ -3759,21 +3786,6 @@
     },
     {
      "id": "SU.2.1.s1",
-     "rel": "prepares",
-     "grade": "1-2"
-    }
-   ],
-   "by": "authored"
-  },
-  "K:animal-groups-homes": {
-   "rows": [
-    {
-     "id": "SU.3.1.s1",
-     "rel": "prepares",
-     "grade": "1-2"
-    },
-    {
-     "id": "SU.3.1.s3",
      "rel": "prepares",
      "grade": "1-2"
     }
@@ -3889,18 +3901,6 @@
    "none": "not yet read against this curriculum",
    "by": "authored"
   },
-  "K:animal-food": {
-   "none": "not yet read against this curriculum",
-   "by": "authored"
-  },
-  "K:animal-home": {
-   "none": "not yet read against this curriculum",
-   "by": "authored"
-  },
-  "K:animals-change-land": {
-   "none": "not yet read against this curriculum",
-   "by": "authored"
-  },
   "1:five-senses": {
    "rows": [
     {
@@ -3961,16 +3961,6 @@
    ],
    "by": "authored"
   },
-  "1:animal-classes-coverings": {
-   "rows": [
-    {
-     "id": "SU.3.1.s1",
-     "rel": "teaches",
-     "grade": "1-2"
-    }
-   ],
-   "by": "authored"
-  },
   "1:habitats-needs": {
    "rows": [
     {
@@ -3980,6 +3970,16 @@
     },
     {
      "id": "SU.3.1.s3",
+     "rel": "teaches",
+     "grade": "1-2"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:animal-classes-coverings": {
+   "rows": [
+    {
+     "id": "SU.3.1.s1",
      "rel": "teaches",
      "grade": "1-2"
     }
@@ -4046,6 +4046,26 @@
    ],
    "by": "authored"
   },
+  "2:habitats-adaptations": {
+   "rows": [
+    {
+     "id": "SU.3.1.s1",
+     "rel": "teaches",
+     "grade": "1-2"
+    },
+    {
+     "id": "SU.3.1.s3",
+     "rel": "teaches",
+     "grade": "1-2"
+    },
+    {
+     "id": "SU.3.1.k1",
+     "rel": "prepares",
+     "grade": "3-4"
+    }
+   ],
+   "by": "authored"
+  },
   "2:sink-float": {
    "rows": [
     {
@@ -4095,26 +4115,6 @@
     },
     {
      "id": "SU.3.2.k5",
-     "rel": "prepares",
-     "grade": "3-4"
-    }
-   ],
-   "by": "authored"
-  },
-  "2:habitats-adaptations": {
-   "rows": [
-    {
-     "id": "SU.3.1.s1",
-     "rel": "teaches",
-     "grade": "1-2"
-    },
-    {
-     "id": "SU.3.1.s3",
-     "rel": "teaches",
-     "grade": "1-2"
-    },
-    {
-     "id": "SU.3.1.k1",
      "rel": "prepares",
      "grade": "3-4"
     }
@@ -4323,7 +4323,23 @@
    "none": "not yet read against this curriculum",
    "by": "authored"
   },
+  "K:germ-busters": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "K:i-can": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:calm-down": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:kind-words": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:space-bubble": {
    "none": "not yet read against this curriculum",
    "by": "authored"
   },

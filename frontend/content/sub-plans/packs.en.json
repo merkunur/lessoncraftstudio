@@ -95,6 +95,8 @@
      "title": "Same and Different",
      "instruction": "Look at each row. Circle the picture that is different.",
      "core": "visual-discrimination-animals-k039",
+     "hard": "visual-discrimination-hard-dinosaurs-k039",
+     "easy": "visual-discrimination-easy-tools-k039",
      "script": {
       "say": "\"In each row, the animals are the same, but one is a different animal. Find the one that is different and circle it.\"",
       "first": "Do the first row together. Point to the pictures one by one: \"Same… same… same… different!\" Ask a child to say what is different about it. Circle it together.",
@@ -1299,6 +1301,8 @@
      "title": "Picture Sudoku",
      "instruction": "Every row, column, and box needs all four pictures — draw or write what goes in each empty cell.",
      "core": "visual-logic-toys-g1158",
+     "hard": "visual-logic-hard-weather-g1158",
+     "easy": "visual-logic-easy-emotions-g1158",
      "script": {
       "say": "\"This is a picture puzzle. Each row across, each column down, and each small box needs all four pictures, one of each. Find out which picture is missing in each empty space, and draw it or write its first letter.\"",
       "first": "Do one empty space together. Pick a row that has only one empty space and name the three pictures that are already in it. Ask, \"Which one is missing?\" Draw it in. Tell the children to always look for the row, column, or box that is almost full.",
@@ -2134,6 +2138,8 @@
      "title": "Picture Sudoku",
      "instruction": "Every row, column, and box needs all four pictures — draw or write what goes in each empty cell.",
      "core": "visual-logic-toys-g1158",
+     "hard": "visual-logic-hard-weather-g1158",
+     "easy": "visual-logic-easy-emotions-g1158",
      "script": {
       "say": "\"This is a picture puzzle. Each row across, each column down, and each small box needs all four pictures, one of each. Find out which picture is missing in each empty space, and draw it or write its first letter.\"",
       "first": "Do one empty space together. Pick a row that has only one empty space and name the three pictures that are already in it. Ask, \"Which one is missing?\" Draw it in. Tell the children to always look for the row, column, or box that is almost full.",
@@ -2845,6 +2851,8 @@
      "title": "Big Picture Sudoku",
      "instruction": "Every row, column, and box needs all six pictures — fill the empty cells.",
      "core": "visual-logic-animals-g3348",
+     "hard": "visual-logic-hard-body-parts-g3348",
+     "easy": "visual-logic-easy-occupations-g3348",
      "script": {
       "say": "\"This is a picture sudoku with six animals. Every row, every column, and every box with a thick border needs all six animals, each one exactly one time. Draw the missing animals in the empty cells. A quick sketch is enough.\"",
       "first": "Hold up the page and show a row, a column, and one of the boxes with a thick border. Find a row or a box together that has only one or two empty cells. Ask, \"Which animals are already here? Which ones are missing?\" If two are missing, look up and down the column of an empty cell to see which of the two is already there. Fill in one cell together. Tell the children that this puzzle takes time and that it is fine if they do not finish it today.",
@@ -3422,6 +3430,8 @@
      "title": "Match the Shadow",
      "instruction": "Draw a line from each picture to its shadow.",
      "core": "visual-matching-toys-k057",
+     "hard": "visual-matching-hard-vegetables-k057",
+     "easy": "visual-matching-easy-desserts-and-sweets-k057",
      "script": {
       "say": "\"Each picture on the left has a shadow on the right. A shadow is dark and shows only the shape. Draw a line from each picture to its shadow.\"",
       "first": "Do the first one together: look at the outline of the first picture and ask, \"Which shadow has the same shape?\" Draw the line from dot to dot. Tell the children to look at the edges: the ears, the wheels, the tail.",
@@ -3491,15 +3501,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:seasons",
-     "type": "K-207",
-     "title": "Summer and Winter Clothes",
-     "instruction": "Draw a line from each item of clothing to the right group.",
-     "core": "science-sort-k207",
+     "point": "K:transport-flying",
+     "type": "K-206",
+     "title": "Things That Fly",
+     "instruction": "Draw a line from each picture to the group it belongs to.",
+     "core": "science-sort-k206",
+     "hard": "science-sort-hard-k206-7",
+     "easy": "science-sort-easy-k206-2",
      "script": {
-      "say": "\"At the top are clothes. At the bottom are two boxes: Summer and Winter. Draw a line from each piece of clothing to the season we wear it in.\"",
-      "first": "Read the two boxes aloud and name every piece of clothing together. Do the first one together: ask, \"Do we wear this when it is hot or when it is cold?\" Draw the line to its box.",
-      "stuck": "Ask the child, \"Would you wear this to the beach or in the snow?\" Where you live, winter may not mean snow; let the child explain."
+      "say": "\"At the top of the page there are pictures. At the bottom there are labeled boxes. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this go? Does it fly?\" Draw the line from the dot under the picture to its box.",
+      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
      }
     }
    ]
@@ -3613,6 +3625,8 @@
      "title": "Living and Non-living Things",
      "instruction": "Draw a line from each picture to the group it belongs to.",
      "core": "science-sort-k201",
+     "hard": "science-sort-hard-k201-7",
+     "easy": "science-sort-easy-k201-2",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are two boxes, Living and Non-living. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Does it grow and need water and air? Then it is living.\" Plants are living too, even though they do not walk or run. Draw the line from the dot under the picture to its box.",
@@ -3726,14 +3740,16 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:fruit-vegetable",
-     "type": "K-202",
-     "title": "Fruits and Vegetables",
-     "instruction": "Draw a line from each food to the group it belongs to.",
-     "core": "science-sort-k202",
+     "point": "K:healthy-food",
+     "type": "K-203",
+     "title": "Healthy and Not Healthy Foods",
+     "instruction": "Draw a line from each picture to the group it belongs to.",
+     "core": "science-sort-k203",
+     "hard": "science-sort-hard-k203-7",
+     "easy": "science-sort-easy-k203-2",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes, Fruits and Vegetables. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this a fruit or a vegetable?\" Draw the line from the dot under the picture to its box. A tomato is a fruit to a scientist and a vegetable in the kitchen; either box is right for it.",
+      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes, Healthy and Not Healthy. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this good for our body every day, or is it a treat for once in a while?\" Draw the line from the dot under the picture to its box. A treat is fine once in a while; the page only asks which foods to eat every day.",
       "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
      }
     }
@@ -3842,15 +3858,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:animal-groups-homes",
-     "type": "K-204",
-     "title": "Pets and Wild Animals",
-     "instruction": "Draw a line from each animal to the group it belongs to.",
-     "core": "science-sort-k204",
+     "point": "K:feelings",
+     "type": "K-334",
+     "title": "Which Face Shows the Feeling?",
+     "instruction": "Read the feeling word and circle the one face in the row that shows it.",
+     "core": "feelings-k334",
+     "hard": "feelings-hard-k334-3",
+     "easy": "feelings-easy-k334-2",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes for two kinds of animals. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the two boxes aloud, Pets and Wild Animals, and name every animal together. Do the first one together: ask, \"Can this animal live in a house with people, or does it live in the wild?\" Draw the line from the dot under it to its box. A rabbit can be a pet or wild; either box is right for it.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
+      "say": "\"Each row has a feeling word and three faces. Circle the face that shows that feeling.\"",
+      "first": "Read every feeling word on the page aloud: tired, angry, happy, scared, surprised, sad. Make each face for the class. Do the first row together: read the word, look at the three faces, and circle the one that matches.",
+      "stuck": "Read the word for the child and make the face. Ask the child to point to the face on the page that looks like yours."
      }
     }
    ]
@@ -3964,15 +3982,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:animal-babies",
-     "type": "K-205",
-     "title": "Animal Babies",
-     "instruction": "Draw a line from each grown-up animal to its baby.",
-     "core": "science-match-k205",
+     "point": "K:living-nonliving",
+     "type": "K-201",
+     "title": "Living and Non-living Things",
+     "instruction": "Draw a line from each picture to the group it belongs to.",
+     "core": "science-sort-k201-2",
+     "hard": "science-sort-hard-k201-8",
+     "easy": "science-sort-easy-k201-3",
      "script": {
-      "say": "\"On the left are grown-up animals. On the right are their babies, but they are mixed up. Draw a line from each grown-up animal to its own baby.\"",
-      "first": "Name the grown-up animals together, then the babies. Do the first one together: point to the first grown-up animal and ask, \"Which baby belongs to it? How do you know?\" Draw the line from dot to dot. Some babies look very different from their parents, like a caterpillar and a butterfly.",
-      "stuck": "Point to one baby and ask what kind of animal it will be when it grows up. If the child does not know, say what the baby is called: a calf is a baby cow, a foal is a baby horse, a chick is a baby hen."
+      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes, Living and Non-living. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Does it grow and need water and air? Then it is living.\" Plants are living too, even though they do not walk or run. Draw the line from the dot under the picture to its box.",
+      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
      }
     }
    ]
@@ -4099,15 +4119,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:day-night",
-     "type": "K-208",
-     "title": "Day and Night",
-     "instruction": "Draw a line from each picture to the group it belongs to.",
-     "core": "science-sort-k208",
+     "point": "K:seasons",
+     "type": "K-207",
+     "title": "Summer and Winter Clothes",
+     "instruction": "Draw a line from each item of clothing to the right group.",
+     "core": "science-sort-k207",
+     "hard": "science-sort-hard-k207-7",
+     "easy": "science-sort-easy-k207-2",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes, Day and Night. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Do we see this in the day or at night?\" Draw the line from the dot under the picture to its box. Some things can be seen in the day and at night, like the moon; let the child choose and say why.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
+      "say": "\"At the top are clothes. At the bottom are two boxes: Summer and Winter. Draw a line from each piece of clothing to the season we wear it in.\"",
+      "first": "Read the two boxes aloud and name every piece of clothing together. Do the first one together: ask, \"Do we wear this when it is hot or when it is cold?\" Draw the line to its box.",
+      "stuck": "Ask the child, \"Would you wear this to the beach or in the snow?\" Where you live, winter may not mean snow; let the child explain."
      }
     }
    ]
@@ -4132,6 +4154,8 @@
      "title": "Find the Different Size",
      "instruction": "Look at each row. Circle the one that is a different size.",
      "core": "visual-discrimination-animals-k044",
+     "hard": "visual-discrimination-hard-bakery-k044",
+     "easy": "visual-discrimination-easy-miscellaneous-k044",
      "script": {
       "say": "\"In each row, the pictures are the same, but one is a different size. Find it and circle it.\"",
       "first": "Do the first row together. Point to the pictures one by one: \"Same size… same size… this one is smaller!\" Circle it together.",
@@ -4229,15 +4253,16 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:transport-flying",
-     "type": "K-206",
-     "title": "Things That Fly",
-     "instruction": "Draw a line from each picture to the group it belongs to.",
-     "core": "science-sort-k206",
+     "point": "K:feelings",
+     "type": "K-333",
+     "title": "Feels Good or Feels Bad? Sort the Faces",
+     "instruction": "Draw a line from each face to the box that says whether the feeling feels good or bad.",
+     "core": "feelings-k333",
+     "easy": "feelings-easy-k333-2",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are labeled boxes. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this go? Does it fly?\" Draw the line from the dot under the picture to its box.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
+      "say": "\"Each face shows a feeling. Some feelings feel good, and some feel bad. Draw a line from each face to the box Feels good or Feels bad.\"",
+      "first": "Make each face on the page with your own face and let the class name the feeling: happy, sad, scared, and so on. Do the first one together: \"Does that feeling feel good or bad?\" Draw the line to its box.",
+      "stuck": "Make the face yourself and ask the child to make it too. Ask, \"When do you feel like this? Is it a nice feeling?\""
      }
     }
    ]
@@ -4350,6 +4375,8 @@
      "title": "Match the Shadow",
      "instruction": "Draw a line from each picture to its shadow.",
      "core": "visual-matching-vehicles-k057",
+     "hard": "visual-matching-hard-furniture-k057-2",
+     "easy": "visual-matching-easy-winter-k057-2",
      "script": {
       "say": "\"Each picture on the left has a shadow on the right. A shadow is dark and shows only the shape. Draw a line from each picture to its shadow.\"",
       "first": "Do the first one together: look at the outline of the first picture and ask, \"Which shadow has the same shape?\" Draw the line from dot to dot. Tell the children to look at the edges: the ears, the wheels, the tail.",
@@ -4359,14 +4386,16 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:healthy-food",
-     "type": "K-203",
-     "title": "Healthy and Not Healthy Foods",
-     "instruction": "Draw a line from each picture to the group it belongs to.",
-     "core": "science-sort-k203",
+     "point": "K:animal-groups-homes",
+     "type": "K-204",
+     "title": "Pets and Wild Animals",
+     "instruction": "Draw a line from each animal to the group it belongs to.",
+     "core": "science-sort-k204",
+     "hard": "science-sort-hard-k204-7",
+     "easy": "science-sort-easy-k204-2",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes, Healthy and Not Healthy. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this good for our body every day, or is it a treat for once in a while?\" Draw the line from the dot under the picture to its box. A treat is fine once in a while; the page only asks which foods to eat every day.",
+      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes for two kinds of animals. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the two boxes aloud, Pets and Wild Animals, and name every animal together. Do the first one together: ask, \"Can this animal live in a house with people, or does it live in the wild?\" Draw the line from the dot under it to its box. A rabbit can be a pet or wild; either box is right for it.",
       "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
      }
     }
@@ -4493,15 +4522,15 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:natural-made",
-     "type": "K-214",
-     "title": "Natural and Man-made",
-     "instruction": "Draw a line from each picture to the group it belongs to.",
-     "core": "science-sort-k214",
+     "point": "K:seasons",
+     "type": "K-338",
+     "title": "Which Season Is It?",
+     "instruction": "Look at the three pictures on each card and circle the season sign they belong to.",
+     "core": "seasons-k338",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes, Natural and Man-made. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Did people make this, or is it found in nature?\" Draw the line from the dot under the picture to its box.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
+      "say": "\"Each card has three pictures that belong to one season. Under them are four signs: a snowflake for winter, a flower for spring, a sun for summer, and a leaf for fall. Circle the sign of the season.\"",
+      "first": "Point to the four signs and name the seasons together. Do the first card together: name the three pictures and ask, \"When do we see these?\" Circle the sign.",
+      "stuck": "Ask the child about one picture at a time: \"Is it hot or cold then? Are there flowers or falling leaves?\""
      }
     }
    ]
@@ -4627,17 +4656,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:feelings",
-     "type": "K-334",
-     "title": "Which Face Shows the Feeling?",
-     "instruction": "Read the feeling word and circle the one face in the row that shows it.",
-     "core": "feelings-k334",
-     "hard": "feelings-hard-k334-3",
-     "easy": "feelings-easy-k334-2",
+     "point": "K:transport-flying",
+     "type": "K-210",
+     "title": "Land, Water, and Air Transportation",
+     "instruction": "Draw a line from each vehicle to where it travels.",
+     "core": "science-sort-k210",
+     "hard": "science-sort-hard-k210-7",
+     "easy": "science-sort-easy-k210-2",
      "script": {
-      "say": "\"Each row has a feeling word and three faces. Circle the face that shows that feeling.\"",
-      "first": "Read every feeling word on the page aloud: tired, angry, happy, scared, surprised, sad. Make each face for the class. Do the first row together: read the word, look at the three faces, and circle the one that matches.",
-      "stuck": "Read the word for the child and make the face. Ask the child to point to the face on the page that looks like yours."
+      "say": "\"At the top of the page there are pictures. At the bottom there are labeled boxes. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this go? Does it fly?\" Draw the line from the dot under the picture to its box.",
+      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
      }
     }
    ]
@@ -4662,6 +4691,8 @@
      "title": "Find the Different Size",
      "instruction": "Look at each row. Circle the one that is a different size.",
      "core": "visual-discrimination-shapes-k044",
+     "hard": "visual-discrimination-hard-sea-life-bw-2-k044-2",
+     "easy": "visual-discrimination-easy-apparel-bw-k044-2",
      "script": {
       "say": "\"In each row, the pictures are the same, but one is a different size. Find it and circle it.\"",
       "first": "Do the first row together. Point to the pictures one by one: \"Same size… same size… this one is smaller!\" Circle it together.",
@@ -4764,15 +4795,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:seasons",
-     "type": "K-338",
-     "title": "Which Season Is It?",
-     "instruction": "Look at the three pictures on each card and circle the season sign they belong to.",
-     "core": "seasons-k338",
+     "point": "K:feelings",
+     "type": "K-331",
+     "title": "How Do You Feel? Circle the Face",
+     "instruction": "Look at the picture, think how you would feel, and circle the face that matches.",
+     "core": "feelings-k331-3",
+     "hard": "feelings-hard-k331-15",
+     "easy": "feelings-easy-k331-9",
      "script": {
-      "say": "\"Each card has three pictures that belong to one season. Under them are four signs: a snowflake for winter, a flower for spring, a sun for summer, and a leaf for fall. Circle the sign of the season.\"",
-      "first": "Point to the four signs and name the seasons together. Do the first card together: name the three pictures and ask, \"When do we see these?\" Circle the sign.",
-      "stuck": "Ask the child about one picture at a time: \"Is it hot or cold then? Are there flowers or falling leaves?\""
+      "say": "\"Look at each picture. Think about how it would make you feel. Then circle the face that shows that feeling.\"",
+      "first": "Look at the first picture together and ask what it shows. Ask, \"How does that make you feel?\" Let two or three children answer; they may not all feel the same, and that is fine. Each child circles the face that matches their own answer.",
+      "stuck": "Ask the child what the picture shows and when they have seen one. Then point to each face and name the feeling it shows. There is no wrong answer on this page; any face the child can explain is right."
      }
     }
    ]
@@ -4898,14 +4931,16 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:living-nonliving",
-     "type": "K-201",
-     "title": "Living and Non-living Things",
+     "point": "K:healthy-food",
+     "type": "K-203",
+     "title": "Healthy and Not Healthy Foods",
      "instruction": "Draw a line from each picture to the group it belongs to.",
-     "core": "science-sort-k201-2",
+     "core": "science-sort-k203-2",
+     "hard": "science-sort-hard-k203-8",
+     "easy": "science-sort-easy-k203-3",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes, Living and Non-living. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Does it grow and need water and air? Then it is living.\" Plants are living too, even though they do not walk or run. Draw the line from the dot under the picture to its box.",
+      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes, Healthy and Not Healthy. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this good for our body every day, or is it a treat for once in a while?\" Draw the line from the dot under the picture to its box. A treat is fine once in a while; the page only asks which foods to eat every day.",
       "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
      }
     }
@@ -5032,15 +5067,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:animal-groups-homes",
-     "type": "K-209",
-     "title": "Farm and Wild Animals",
-     "instruction": "Draw a line from each animal to the group it belongs to.",
-     "core": "science-sort-k209",
+     "point": "K:seasons",
+     "type": "K-207",
+     "title": "Summer and Winter Clothes",
+     "instruction": "Draw a line from each item of clothing to the right group.",
+     "core": "science-sort-k207-2",
+     "hard": "science-sort-hard-k207-8",
+     "easy": "science-sort-easy-k207-3",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes for two kinds of animals. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the two boxes aloud, Farm Animals and Wild Animals, and name every animal together. Do the first one together: ask, \"Does this animal live on a farm, or in the wild?\" Draw the line from the dot under it to its box.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
+      "say": "\"At the top are clothes. At the bottom are two boxes: Summer and Winter. Draw a line from each piece of clothing to the season we wear it in.\"",
+      "first": "Read the two boxes aloud and name every piece of clothing together. Do the first one together: ask, \"Do we wear this when it is hot or when it is cold?\" Draw the line to its box.",
+      "stuck": "Ask the child, \"Would you wear this to the beach or in the snow?\" Where you live, winter may not mean snow; let the child explain."
      }
     }
    ]
@@ -5079,6 +5116,8 @@
      "title": "Parts of the Body",
      "instruction": "Copy each word from the bank onto the line that points to that part of the body.",
      "core": "human-body-k354",
+     "hard": "human-body-hard-k354-12",
+     "easy": "human-body-easy-k354-7",
      "script": {
       "say": "\"Look at the picture. Each line points to a part of the body. The words are in the box at the top. Copy the right word onto each line.\"",
       "first": "Read the words in the box aloud and have the children touch that part of their own body for each one. Do the first line together: follow it with your finger to the part it points to, say its name, find the word in the box, and copy it onto the line letter by letter.",
@@ -5165,14 +5204,16 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:fruit-vegetable",
-     "type": "K-202",
-     "title": "Fruits and Vegetables",
-     "instruction": "Draw a line from each food to the group it belongs to.",
-     "core": "science-sort-k202-2",
+     "point": "K:living-nonliving",
+     "type": "K-201",
+     "title": "Living and Non-living Things",
+     "instruction": "Draw a line from each picture to the group it belongs to.",
+     "core": "science-sort-k201-3",
+     "hard": "science-sort-hard-k201-9",
+     "easy": "science-sort-easy-k201-4",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes, Fruits and Vegetables. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this a fruit or a vegetable?\" Draw the line from the dot under the picture to its box. If a food can be called both, either box is right when the child can say why.",
+      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes, Living and Non-living. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Does it grow and need water and air? Then it is living.\" Plants are living too, even though they do not walk or run. Draw the line from the dot under the picture to its box.",
       "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
      }
     }
@@ -5290,6 +5331,8 @@
      "title": "What Is It?",
      "instruction": "Only part of the picture is showing. Circle the whole picture it belongs to.",
      "core": "visual-discrimination-animals-k069",
+     "hard": "visual-discrimination-hard-occupations-k069",
+     "easy": "visual-discrimination-easy-breakfast-k069",
      "script": {
       "say": "\"In each row only a small part of a picture is showing. Which whole picture does it belong to? Circle it.\"",
       "first": "Do the first row together: look at the small part and ask, \"What could this be? An ear, a tail, a head?\" Look at the three whole pictures and circle the one the part belongs to.",
@@ -5299,16 +5342,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:feelings",
-     "type": "K-333",
-     "title": "Feels Good or Feels Bad? Sort the Faces",
-     "instruction": "Draw a line from each face to the box that says whether the feeling feels good or bad.",
-     "core": "feelings-k333",
-     "easy": "feelings-easy-k333-2",
+     "point": "K:animal-groups-homes",
+     "type": "K-209",
+     "title": "Farm and Wild Animals",
+     "instruction": "Draw a line from each animal to the group it belongs to.",
+     "core": "science-sort-k209",
+     "hard": "science-sort-hard-k209-7",
+     "easy": "science-sort-easy-k209-2",
      "script": {
-      "say": "\"Each face shows a feeling. Some feelings feel good, and some feel bad. Draw a line from each face to the box Feels good or Feels bad.\"",
-      "first": "Make each face on the page with your own face and let the class name the feeling: happy, sad, scared, and so on. Do the first one together: \"Does that feeling feel good or bad?\" Draw the line to its box.",
-      "stuck": "Make the face yourself and ask the child to make it too. Ask, \"When do you feel like this? Is it a nice feeling?\""
+      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes for two kinds of animals. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the two boxes aloud, Farm Animals and Wild Animals, and name every animal together. Do the first one together: ask, \"Does this animal live on a farm, or in the wild?\" Draw the line from the dot under it to its box.",
+      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
      }
     }
    ]
@@ -5440,15 +5484,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:animal-babies",
-     "type": "K-205",
-     "title": "Animal Babies",
-     "instruction": "Draw a line from each grown-up animal to its baby.",
-     "core": "science-match-k205-2",
+     "point": "K:feelings",
+     "type": "K-331",
+     "title": "How Do You Feel? Circle the Face",
+     "instruction": "Look at the picture, think how you would feel, and circle the face that matches.",
+     "core": "feelings-k331-4",
+     "hard": "feelings-hard-k331-16",
+     "easy": "feelings-easy-k331-10",
      "script": {
-      "say": "\"On the left are grown-up animals. On the right are their babies, but they are mixed up. Draw a line from each grown-up animal to its own baby.\"",
-      "first": "Name the grown-up animals together, then the babies. Do the first one together: point to the first grown-up animal and ask, \"Which baby belongs to it? How do you know?\" Draw the line from dot to dot. Some babies look very different from their parents, like a caterpillar and a butterfly.",
-      "stuck": "Point to one baby and ask what kind of animal it will be when it grows up. If the child does not know, say what the baby is called: a calf is a baby cow, a foal is a baby horse, a chick is a baby hen."
+      "say": "\"Look at each picture. Think about how it would make you feel. Then circle the face that shows that feeling.\"",
+      "first": "Look at the first picture together and ask what it shows. Ask, \"How does that make you feel?\" Let two or three children answer; they may not all feel the same, and that is fine. Each child circles the face that matches their own answer.",
+      "stuck": "Ask the child what the picture shows and when they have seen one. Then point to each face and name the feeling it shows. There is no wrong answer on this page; any face the child can explain is right."
      }
     }
    ]
@@ -5569,10 +5615,12 @@
      "key": "closing",
      "minutes": 10,
      "point": "K:transport-flying",
-     "type": "K-210",
-     "title": "Land, Water, and Air Transportation",
-     "instruction": "Draw a line from each vehicle to where it travels.",
-     "core": "science-sort-k210",
+     "type": "K-206",
+     "title": "Things That Fly",
+     "instruction": "Draw a line from each picture to the group it belongs to.",
+     "core": "science-sort-k206-2",
+     "hard": "science-sort-hard-k206-8",
+     "easy": "science-sort-easy-k206-3",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are labeled boxes. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this go? Does it fly?\" Draw the line from the dot under the picture to its box.",
@@ -5704,15 +5752,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:day-night",
-     "type": "K-208",
-     "title": "Day and Night",
-     "instruction": "Draw a line from each picture to the group it belongs to.",
-     "core": "science-sort-k208-2",
+     "point": "K:seasons",
+     "type": "K-207",
+     "title": "Summer and Winter Clothes",
+     "instruction": "Draw a line from each item of clothing to the right group.",
+     "core": "science-sort-k207-3",
+     "hard": "science-sort-hard-k207-9",
+     "easy": "science-sort-easy-k207-4",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes, Day and Night. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Do we see this in the day or at night?\" Draw the line from the dot under the picture to its box. Some things can be seen in the day and at night, like the moon; let the child choose and say why.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
+      "say": "\"At the top are clothes. At the bottom are two boxes: Summer and Winter. Draw a line from each piece of clothing to the season we wear it in.\"",
+      "first": "Read the two boxes aloud and name every piece of clothing together. Do the first one together: ask, \"Do we wear this when it is hot or when it is cold?\" Draw the line to its box.",
+      "stuck": "Ask the child, \"Would you wear this to the beach or in the snow?\" Where you live, winter may not mean snow; let the child explain."
      }
     }
    ]
@@ -5838,15 +5888,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:seasons",
-     "type": "K-207",
-     "title": "Summer and Winter Clothes",
-     "instruction": "Draw a line from each item of clothing to the right group.",
-     "core": "science-sort-k207-2",
+     "point": "K:healthy-food",
+     "type": "K-203",
+     "title": "Healthy and Not Healthy Foods",
+     "instruction": "Draw a line from each picture to the group it belongs to.",
+     "core": "science-sort-k203-3",
+     "hard": "science-sort-hard-k203-9",
+     "easy": "science-sort-easy-k203-4",
      "script": {
-      "say": "\"At the top are clothes. At the bottom are two boxes: Summer and Winter. Draw a line from each piece of clothing to the season we wear it in.\"",
-      "first": "Read the two boxes aloud and name every piece of clothing together. Do the first one together: ask, \"Do we wear this when it is hot or when it is cold?\" Draw the line to its box.",
-      "stuck": "Ask the child, \"Would you wear this to the beach or in the snow?\" Where you live, winter may not mean snow; let the child explain."
+      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes, Healthy and Not Healthy. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this good for our body every day, or is it a treat for once in a while?\" Draw the line from the dot under the picture to its box. A treat is fine once in a while; the page only asks which foods to eat every day.",
+      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
      }
     }
    ]
@@ -5976,14 +6028,16 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:healthy-food",
-     "type": "K-203",
-     "title": "Healthy and Not Healthy Foods",
-     "instruction": "Draw a line from each picture to the group it belongs to.",
-     "core": "science-sort-k203-2",
+     "point": "K:animal-groups-homes",
+     "type": "K-204",
+     "title": "Pets and Wild Animals",
+     "instruction": "Draw a line from each animal to the group it belongs to.",
+     "core": "science-sort-k204-2",
+     "hard": "science-sort-hard-k204-8",
+     "easy": "science-sort-easy-k204-3",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes, Healthy and Not Healthy. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this good for our body every day, or is it a treat for once in a while?\" Draw the line from the dot under the picture to its box. A treat is fine once in a while; the page only asks which foods to eat every day.",
+      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes for two kinds of animals. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the two boxes aloud, Pets and Wild Animals, and name every animal together. Do the first one together: ask, \"Can this animal live in a house with people, or does it live in the wild?\" Draw the line from the dot under it to its box. A rabbit can be a pet or wild; either box is right for it.",
       "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
      }
     }
@@ -6112,14 +6166,16 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:natural-made",
-     "type": "K-214",
-     "title": "Natural and Man-made",
-     "instruction": "Draw a line from each picture to the group it belongs to.",
-     "core": "science-sort-k214-2",
+     "point": "K:fruit-vegetable",
+     "type": "K-202",
+     "title": "Fruits and Vegetables",
+     "instruction": "Draw a line from each food to the group it belongs to.",
+     "core": "science-sort-k202",
+     "hard": "science-sort-hard-k202-7",
+     "easy": "science-sort-easy-k202-2",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes, Natural and Man-made. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Did people make this, or is it found in nature?\" Draw the line from the dot under the picture to its box.",
+      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes, Fruits and Vegetables. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this a fruit or a vegetable?\" Draw the line from the dot under the picture to its box. If a food can be called both, either box is right when the child can say why.",
       "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
      }
     }
@@ -6249,17 +6305,16 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:feelings",
-     "type": "K-331",
-     "title": "How Do You Feel? Circle the Face",
-     "instruction": "Look at the picture, think how you would feel, and circle the face that matches.",
-     "core": "feelings-k331-3",
-     "hard": "feelings-hard-k331-15",
-     "easy": "feelings-easy-k331-9",
+     "point": "K:animal-babies",
+     "type": "K-205",
+     "title": "Animal Babies",
+     "instruction": "Draw a line from each grown-up animal to its baby.",
+     "core": "science-match-k205",
+     "easy": "science-match-easy-k205-2",
      "script": {
-      "say": "\"Look at each picture. Think about how it would make you feel. Then circle the face that shows that feeling.\"",
-      "first": "Look at the first picture together and ask what it shows. Ask, \"How does that make you feel?\" Let two or three children answer; they may not all feel the same, and that is fine. Each child circles the face that matches their own answer.",
-      "stuck": "Ask the child what the picture shows and when they have seen one. Then point to each face and name the feeling it shows. There is no wrong answer on this page; any face the child can explain is right."
+      "say": "\"On the left are grown-up animals. On the right are their babies, but they are mixed up. Draw a line from each grown-up animal to its own baby.\"",
+      "first": "Name the grown-up animals together, then the babies. Do the first one together: point to the first grown-up animal and ask, \"Which baby belongs to it? How do you know?\" Draw the line from dot to dot. Some babies look very different from their parents, like a caterpillar and a butterfly.",
+      "stuck": "Point to one baby and ask what kind of animal it will be when it grows up. If the child does not know, say what the baby is called: a calf is a baby cow, a foal is a baby horse, a chick is a baby hen."
      }
     }
    ]
@@ -6374,27 +6429,31 @@
      "key": "logic",
      "minutes": 10,
      "point": "K:shadow-closure",
-     "type": "K-069",
-     "title": "What Is It?",
-     "instruction": "Only part of the picture is showing. Circle the whole picture it belongs to.",
-     "core": "visual-discrimination-shapes-k069",
+     "type": "K-057",
+     "title": "Match the Shadow",
+     "instruction": "Draw a line from each picture to its shadow.",
+     "core": "visual-matching-body-parts-k057-2",
+     "hard": "visual-matching-hard-activities-k057-3",
+     "easy": "visual-matching-easy-hospital-k057-3",
      "script": {
-      "say": "\"In each row only a small part of a picture is showing. Which whole picture does it belong to? Circle it.\"",
-      "first": "Do the first row together: look at the small part and ask, \"What could this be? An ear, a tail, a head?\" Look at the three whole pictures and circle the one the part belongs to.",
-      "stuck": "Have the child find the part on each of the three pictures: \"Does this one have it?\""
+      "say": "\"Each picture on the left has a shadow on the right. A shadow is dark and shows only the shape. Draw a line from each picture to its shadow.\"",
+      "first": "Do the first one together: look at the outline of the first picture and ask, \"Which shadow has the same shape?\" Draw the line from dot to dot. Tell the children to look at the edges: the ears, the wheels, the tail.",
+      "stuck": "Have the child trace the outside of the picture with a finger, then trace the shadows until one has the same shape."
      }
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:animal-groups-homes",
-     "type": "K-204",
-     "title": "Pets and Wild Animals",
-     "instruction": "Draw a line from each animal to the group it belongs to.",
-     "core": "science-sort-k204-2",
+     "point": "K:transport-flying",
+     "type": "K-210",
+     "title": "Land, Water, and Air Transportation",
+     "instruction": "Draw a line from each vehicle to where it travels.",
+     "core": "science-sort-k210-2",
+     "hard": "science-sort-hard-k210-8",
+     "easy": "science-sort-easy-k210-3",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes for two kinds of animals. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the two boxes aloud, Pets and Wild Animals, and name every animal together. Do the first one together: ask, \"Can this animal live in a house with people, or does it live in the wild?\" Draw the line from the dot under it to its box. A rabbit can be a pet or wild; either box is right for it.",
+      "say": "\"At the top of the page there are pictures. At the bottom there are labeled boxes. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this go? Does it fly?\" Draw the line from the dot under the picture to its box.",
       "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
      }
     }
@@ -6522,14 +6581,16 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:living-nonliving",
-     "type": "K-201",
-     "title": "Living and Non-living Things",
+     "point": "K:day-night",
+     "type": "K-208",
+     "title": "Day and Night",
      "instruction": "Draw a line from each picture to the group it belongs to.",
-     "core": "science-sort-k201-3",
+     "core": "science-sort-k208",
+     "hard": "science-sort-hard-k208-7",
+     "easy": "science-sort-easy-k208-2",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes, Living and Non-living. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Does it grow and need water and air? Then it is living.\" Plants are living too, even though they do not walk or run. Draw the line from the dot under the picture to its box.",
+      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes, Day and Night. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Do we see this in the day or at night?\" Draw the line from the dot under the picture to its box. Some things can be seen in the day and at night, like the moon; let the child choose and say why.",
       "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
      }
     }
@@ -6550,32 +6611,33 @@
     {
      "key": "morning",
      "minutes": 10,
-     "point": "K:pre-writing-strokes",
-     "type": "K-385",
-     "title": "Down Lines, Slants and Crosses",
-     "instruction": "Trace each line with your pencil. Start at the orange dot and follow the arrow.",
-     "core": "pre-writing-desserts-and-sweets-k385-2",
-     "hard": "pre-writing-hard-farm-animals-bw-k385-2",
-     "easy": "pre-writing-easy-occupations-k385-3",
+     "point": "K:same-different-visual",
+     "type": "K-044",
+     "title": "Find the Different Size",
+     "instruction": "Look at each row. Circle the one that is a different size.",
+     "core": "visual-discrimination-food-bw-k044-2",
+     "hard": "visual-discrimination-hard-colors-k044-3",
+     "easy": "visual-discrimination-easy-spring-k044-3",
      "script": {
-      "say": "\"Today your pencil goes for a walk. Each line starts at an orange dot. Follow the arrow and stay on the line as well as you can.\"",
-      "first": "Hold up the page and trace the first line with your finger, from the orange dot in the direction of the arrow. Have the children trace it in the air with a finger, then on the page with a finger, and only then with a pencil. Remind them to go slowly: this is not a race.",
-      "stuck": "Check the grip: the pencil is pinched between the thumb and the pointer finger and rests on the middle finger. If a child starts at the wrong end, put your finger on the orange dot and say, \"Start here.\" A wobbly line is fine; do not have the child erase."
+      "say": "\"In each row, the pictures are the same, but one is a different size. Find it and circle it.\"",
+      "first": "Do the first row together. Point to the pictures one by one: \"Same size… same size… this one is smaller!\" Circle it together.",
+      "stuck": "Have the child point to two pictures at a time and ask, \"Are they the same size?\""
      }
     },
     {
      "key": "reading",
      "minutes": 15,
-     "point": "K:articles",
-     "type": "K-306",
-     "title": "Circle the Right Word: Four Pictures",
-     "instruction": "Say each picture word, then circle the word that belongs with it.",
-     "core": "articles-household-bw-k306-4",
-     "easy": "articles-easy-spring-k306-3",
+     "point": "K:human-body",
+     "type": "K-354",
+     "title": "Parts of the Body",
+     "instruction": "Copy each word from the bank onto the line that points to that part of the body.",
+     "core": "human-body-k354-2",
+     "hard": "human-body-hard-k354-13",
+     "easy": "human-body-easy-k354-8",
      "script": {
-      "say": "\"Under each picture are two little words: a and an. Say the name of the picture with a in front of it, then with an. Circle the one that sounds right.\"",
-      "first": "Name the pictures together: cup, bed, umbrella, bottle. Do the first one together: \"a cup, an cup. Which sounds right?\" Circle a. Tell the children that an goes in front of words that start with a, e, i, o, or u. For your own reference: a cup, a bed, an umbrella, a bottle.",
-      "stuck": "Say both choices for the child, slowly, and let the child hear which one is easier to say. Ask, \"Does the word start with a, e, i, o, or u?\""
+      "say": "\"Look at the picture. Each line points to a part of the body. The words are in the box at the top. Copy the right word onto each line.\"",
+      "first": "Read the words in the box aloud and have the children touch that part of their own body for each one. Do the first line together: follow it with your finger to the part it points to, say its name, find the word in the box, and copy it onto the line letter by letter.",
+      "stuck": "Have the child touch the part on their own body and say its name. Then find the word in the box together; the first letter helps: \"Hand starts with h. Where is the word that starts with h?\""
      }
     },
     {
@@ -6611,15 +6673,15 @@
     {
      "key": "math",
      "minutes": 10,
-     "point": "K:compare-size-extremes",
-     "type": "K-037",
-     "title": "Long and Short",
-     "instruction": "Circle the LONGEST one in each row.",
-     "core": "comparing-sizes-toys-k037",
+     "point": "K:tally-marks",
+     "type": "K-025",
+     "title": "Tally Match",
+     "instruction": "Draw a line from each number to its tally marks.",
+     "core": "tally-counting-k025",
      "script": {
-      "say": "\"In each row, some shapes are long and some are short. Look at all of them. Then circle the LONGEST one.\"",
-      "first": "Do the first row together. Move your finger from one end of each shape to the other and ask, \"Is this the longest? Is there a longer one?\" Circle the longest together. Remind the children to look at every shape in the row before they circle.",
-      "stuck": "Have the child point to two pictures at a time and say which of the two is bigger, keeping a finger on the winner, until the row is done. The picture under the finger at the end gets the circle."
+      "say": "\"On the left are numbers. On the right are tally marks. Draw a line from each number to its tally marks.\"",
+      "first": "Draw a bundle of five tally marks on the board. Count the first group of marks together and find its number on the left. Draw the line.",
+      "stuck": "Have the child touch each mark and count. For a bundle with a line across, say \"five\" and count on from there: six, seven…"
      }
     },
     {
@@ -6657,15 +6719,15 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:fruit-vegetable",
-     "type": "K-202",
-     "title": "Fruits and Vegetables",
-     "instruction": "Draw a line from each food to the group it belongs to.",
-     "core": "science-sort-k202-3",
+     "point": "K:animal-babies",
+     "type": "K-205",
+     "title": "Animal Babies",
+     "instruction": "Draw a line from each grown-up animal to its baby.",
+     "core": "science-match-k205-2",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes, Fruits and Vegetables. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this a fruit or a vegetable?\" Draw the line from the dot under the picture to its box. A tomato is a fruit to a scientist and a vegetable in the kitchen; either box is right for it.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
+      "say": "\"On the left are grown-up animals. On the right are their babies, but they are mixed up. Draw a line from each grown-up animal to its own baby.\"",
+      "first": "Name the grown-up animals together, then the babies. Do the first one together: point to the first grown-up animal and ask, \"Which baby belongs to it? How do you know?\" Draw the line from dot to dot. Some babies look very different from their parents, like a caterpillar and a butterfly.",
+      "stuck": "Point to one baby and ask what kind of animal it will be when it grows up. If the child does not know, say what the baby is called: a calf is a baby cow, a foal is a baby horse, a chick is a baby hen."
      }
     }
    ]
@@ -6685,33 +6747,32 @@
     {
      "key": "morning",
      "minutes": 10,
-     "point": "K:count-forward-missing",
-     "type": "K-632",
-     "title": "Count On from Any Number",
-     "instruction": "Count along the strip. Write each missing number.",
-     "core": "number-charts-birds-bw-2-k632-3",
-     "hard": "number-charts-hard-vehicles-bw-2-k632-2",
-     "easy": "number-charts-easy-food-bw-k632-2",
+     "point": "K:pre-writing-strokes",
+     "type": "K-385",
+     "title": "Down Lines, Slants and Crosses",
+     "instruction": "Trace each line with your pencil. Start at the orange dot and follow the arrow.",
+     "core": "pre-writing-desserts-and-sweets-k385-2",
+     "hard": "pre-writing-hard-farm-animals-bw-k385-2",
+     "easy": "pre-writing-easy-occupations-k385-3",
      "script": {
-      "say": "\"Some numbers on these number strips are missing. Count along the strip and write each number that is missing.\"",
-      "first": "Write the numbers 1 to 100 in rows of ten on the board, or point to the class hundred chart. The strips on this page start at big numbers. Read the first strip aloud together, pointing to each box, and clap at each empty box. Ask, \"What number goes here?\" Write it in. The children do the other strips the same way.",
-      "stuck": "Have the child read the first number of the strip and count on aloud from it, touching each box; the number they say at the empty box is the one to write. A child who does not know how to write a number may copy it from the board."
+      "say": "\"Today your pencil goes for a walk. Each line starts at an orange dot. Follow the arrow and stay on the line as well as you can.\"",
+      "first": "Hold up the page and trace the first line with your finger, from the orange dot in the direction of the arrow. Have the children trace it in the air with a finger, then on the page with a finger, and only then with a pencil. Remind them to go slowly: this is not a race.",
+      "stuck": "Check the grip: the pencil is pinched between the thumb and the pointer finger and rests on the middle finger. If a child starts at the wrong end, put your finger on the orange dot and say, \"Start here.\" A wobbly line is fine; do not have the child erase."
      }
     },
     {
      "key": "reading",
      "minutes": 15,
-     "point": "K:story-sequencing",
-     "type": "K-379",
-     "title": "Story Sequencing: Number the Pictures",
-     "instruction": "Look at what changes in each story, then write the numbers in the boxes to put the pictures in order.",
-     "core": "story-sequencing-k379-4",
-     "hard": "story-sequencing-hard-k379-15",
-     "easy": "story-sequencing-easy-k379-10",
+     "point": "K:articles",
+     "type": "K-306",
+     "title": "Circle the Right Word: Four Pictures",
+     "instruction": "Say each picture word, then circle the word that belongs with it.",
+     "core": "articles-household-bw-k306-4",
+     "easy": "articles-easy-spring-k306-3",
      "script": {
-      "say": "\"Each row shows a little story in four pictures, but the pictures are out of order. Look at what changes. Write 1 under what happens first, then 2, 3, and 4.\"",
-      "first": "Do the first story together. Ask a child to say what is happening in each picture. Ask, \"Which one happens first? How do you know?\" Write a 1 in the box under it, then find 2, 3, and 4 together. Have a child tell the whole story in order.",
-      "stuck": "Ask the child to find the picture where the story starts, where nothing has happened yet. Then ask, \"What happens after that?\" Have the child tell the story aloud; if it makes sense, the order is right."
+      "say": "\"Under each picture are two little words: a and an. Say the name of the picture with a in front of it, then with an. Circle the one that sounds right.\"",
+      "first": "Name the pictures together: cup, bed, umbrella, bottle. Do the first one together: \"a cup, an cup. Which sounds right?\" Circle a. Tell the children that an goes in front of words that start with a, e, i, o, or u. For your own reference: a cup, a bed, an umbrella, a bottle.",
+      "stuck": "Say both choices for the child, slowly, and let the child hear which one is easier to say. Ask, \"Does the word start with a, e, i, o, or u?\""
      }
     },
     {
@@ -6793,15 +6854,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:seasons",
-     "type": "K-207",
-     "title": "Summer and Winter Clothes",
-     "instruction": "Draw a line from each item of clothing to the right group.",
-     "core": "science-sort-k207-3",
+     "point": "K:natural-made",
+     "type": "K-214",
+     "title": "Natural and Man-made",
+     "instruction": "Draw a line from each picture to the group it belongs to.",
+     "core": "science-sort-k214",
+     "hard": "science-sort-hard-k214-7",
+     "easy": "science-sort-easy-k214-2",
      "script": {
-      "say": "\"At the top are clothes. At the bottom are two boxes: Summer and Winter. Draw a line from each piece of clothing to the season we wear it in.\"",
-      "first": "Read the two boxes aloud and name every piece of clothing together. Do the first one together: ask, \"Do we wear this when it is hot or when it is cold?\" Draw the line to its box.",
-      "stuck": "Ask the child, \"Would you wear this to the beach or in the snow?\" Where you live, winter may not mean snow; let the child explain."
+      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes, Natural and Man-made. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Did people make this, or is it found in nature?\" Draw the line from the dot under the picture to its box.",
+      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
      }
     }
    ]
@@ -6821,31 +6884,33 @@
     {
      "key": "morning",
      "minutes": 10,
-     "point": "K:numeral-formation",
-     "type": "K-237",
-     "title": "Trace the Number 2",
-     "instruction": "Trace each number. Start at the orange dot and follow the arrows.",
-     "core": "number-tracing-k237-4-2",
-     "hard": "number-tracing-hard-k237-49-3",
-     "easy": "number-tracing-easy-k237-27-3",
+     "point": "K:count-forward-missing",
+     "type": "K-632",
+     "title": "Count On from Any Number",
+     "instruction": "Count along the strip. Write each missing number.",
+     "core": "number-charts-birds-bw-2-k632-3",
+     "hard": "number-charts-hard-vehicles-bw-2-k632-2",
+     "easy": "number-charts-easy-food-bw-k632-2",
      "script": {
-      "say": "\"Now we practice writing numbers. Start at the orange dot and follow the arrows. Trace each number in the row.\"",
-      "first": "Write the first number of the page big on the board and say where it starts and which way it goes. Have the children write it in the air with you. They trace the number on the page and then write their own.",
-      "stuck": "Show the child where the number starts and guide the first stroke with your finger on the page. A number written backward is common at this age; show the right way once and move on."
+      "say": "\"Some numbers on these number strips are missing. Count along the strip and write each number that is missing.\"",
+      "first": "Write the numbers 1 to 100 in rows of ten on the board, or point to the class hundred chart. The strips on this page start at big numbers. Read the first strip aloud together, pointing to each box, and clap at each empty box. Ask, \"What number goes here?\" Write it in. The children do the other strips the same way.",
+      "stuck": "Have the child read the first number of the strip and count on aloud from it, touching each box; the number they say at the empty box is the one to write. A child who does not know how to write a number may copy it from the board."
      }
     },
     {
      "key": "reading",
      "minutes": 15,
-     "point": "K:word-picture-match",
-     "type": "K-225",
-     "title": "Match Word to Picture",
-     "instruction": "Draw a line from each word to the picture it names.",
-     "core": "picture-vocabulary-k225-5",
+     "point": "K:story-sequencing",
+     "type": "K-379",
+     "title": "Story Sequencing: Number the Pictures",
+     "instruction": "Look at what changes in each story, then write the numbers in the boxes to put the pictures in order.",
+     "core": "story-sequencing-k379-4",
+     "hard": "story-sequencing-hard-k379-15",
+     "easy": "story-sequencing-easy-k379-10",
      "script": {
-      "say": "\"Read each word. Then draw a line from the word to its picture.\"",
-      "first": "Read the words on the page aloud and have the class read each one after you. Name the pictures together: egg, bun (the bread), fox, ham, ox (it looks like a cow), bus. Do the first word together and draw the line.",
-      "stuck": "Have the child say the sound of each letter and then say the sounds faster. If that does not work, ask for the first sound only and look for the pictures that begin with it. Read the word for the child if they are still stuck."
+      "say": "\"Each row shows a little story in four pictures, but the pictures are out of order. Look at what changes. Write 1 under what happens first, then 2, 3, and 4.\"",
+      "first": "Do the first story together. Ask a child to say what is happening in each picture. Ask, \"Which one happens first? How do you know?\" Write a 1 in the box under it, then find 2, 3, and 4 together. Have a child tell the whole story in order.",
+      "stuck": "Ask the child to find the picture where the story starts, where nothing has happened yet. Then ask, \"What happens after that?\" Have the child tell the story aloud; if it makes sense, the order is right."
      }
     },
     {
@@ -6881,15 +6946,15 @@
     {
      "key": "math",
      "minutes": 10,
-     "point": "K:tally-marks",
-     "type": "K-025",
-     "title": "Tally Match",
-     "instruction": "Draw a line from each number to its tally marks.",
-     "core": "tally-counting-k025",
+     "point": "K:compare-size-extremes",
+     "type": "K-037",
+     "title": "Long and Short",
+     "instruction": "Circle the LONGEST one in each row.",
+     "core": "comparing-sizes-toys-k037",
      "script": {
-      "say": "\"On the left are numbers. On the right are tally marks. Draw a line from each number to its tally marks.\"",
-      "first": "Draw a bundle of five tally marks on the board. Count the first group of marks together and find its number on the left. Draw the line.",
-      "stuck": "Have the child touch each mark and count. For a bundle with a line across, say \"five\" and count on from there: six, seven…"
+      "say": "\"In each row, some shapes are long and some are short. Look at all of them. Then circle the LONGEST one.\"",
+      "first": "Do the first row together. Move your finger from one end of each shape to the other and ask, \"Is this the longest? Is there a longer one?\" Circle the longest together. Remind the children to look at every shape in the row before they circle.",
+      "stuck": "Have the child point to two pictures at a time and say which of the two is bigger, keeping a finger on the winner, until the row is done. The picture under the finger at the end gets the circle."
      }
     },
     {
@@ -6927,14 +6992,16 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:transport-flying",
-     "type": "K-206",
-     "title": "Things That Fly",
-     "instruction": "Draw a line from each picture to the group it belongs to.",
-     "core": "science-sort-k206-2",
+     "point": "K:animal-groups-homes",
+     "type": "K-209",
+     "title": "Farm and Wild Animals",
+     "instruction": "Draw a line from each animal to the group it belongs to.",
+     "core": "science-sort-k209-2",
+     "hard": "science-sort-hard-k209-8",
+     "easy": "science-sort-easy-k209-3",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are labeled boxes. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this go? Does it fly?\" Draw the line from the dot under the picture to its box.",
+      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes for two kinds of animals. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the two boxes aloud, Farm Animals and Wild Animals, and name every animal together. Do the first one together: ask, \"Does this animal live on a farm, or in the wild?\" Draw the line from the dot under it to its box.",
       "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
      }
     }
@@ -7345,6 +7412,8 @@
      "title": "Sort the Animals",
      "instruction": "Draw a line from each animal to the group it belongs to.",
      "core": "science-sort-g1201",
+     "hard": "science-sort-hard-g1201-7",
+     "easy": "science-sort-easy-g1201-2",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Mammals, Birds, and Reptiles. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Does it have fur, feathers, or scales? Does it lay eggs or feed its babies milk?\" Draw the line from the dot under the picture to its box. Mammals have fur or hair, birds have feathers, and reptiles have dry scales.",
@@ -7480,6 +7549,8 @@
      "title": "Where Do Animals Live?",
      "instruction": "Draw a line from each animal to where it lives.",
      "core": "science-sort-g1202",
+     "hard": "science-sort-hard-g1202-7",
+     "easy": "science-sort-easy-g1202-2",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Land, Water, and Air. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this animal spend most of its time: on land, in the water, or in the air?\" Draw the line from the dot under the picture to its box. An animal that flies lives on land too, so Air and Land are both right for it, and a crab lives in the water and on land, so Water and Land are both right for it, when the child can say why.",
@@ -7618,6 +7689,8 @@
      "title": "Sink or Float?",
      "instruction": "Draw a line from each object to the group you think it belongs to.",
      "core": "science-sort-g1204",
+     "hard": "science-sort-hard-g1204-7",
+     "easy": "science-sort-easy-g1204-2",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Float and Sink. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"If we put this in water, would it float on top or sink to the bottom?\" Draw the line from the dot under the picture to its box. This page asks what the children think; a child who can say why has done the page well.",
@@ -7755,6 +7828,8 @@
      "title": "Sort by Food Group",
      "instruction": "Draw a line from each food to its food group.",
      "core": "science-sort-g1207",
+     "hard": "science-sort-hard-g1207-7",
+     "easy": "science-sort-easy-g1207-2",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fruits, Vegetables, Grains, and Protein. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this a fruit, a vegetable, a grain like bread or pasta, or a protein like eggs, meat, or fish?\" Draw the line from the dot under the picture to its box. If a food fits two groups, either box is right when the child can say why.",
@@ -8458,6 +8533,8 @@
      "title": "Animal Coverings",
      "instruction": "Draw a line from each animal to its body covering.",
      "core": "science-sort-g1205",
+     "hard": "science-sort-hard-g1205-7",
+     "easy": "science-sort-easy-g1205-2",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fur, Feathers, and Scales. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"What covers this animal's body: fur, feathers, or scales?\" Draw the line from the dot under the picture to its box. Fur is soft hair, feathers have a stem with soft sides, and scales are small, hard plates on the skin.",
@@ -8595,6 +8672,8 @@
      "title": "What Animals Eat",
      "instruction": "Draw a line from each animal to the group it belongs to.",
      "core": "science-sort-g1206",
+     "hard": "science-sort-hard-g1206-7",
+     "easy": "science-sort-easy-g1206-2",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Plant Eaters and Meat Eaters. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"What does this animal eat: plants or other animals?\" Draw the line from the dot under the picture to its box.",
@@ -8873,6 +8952,8 @@
      "title": "Sink or Float?",
      "instruction": "Draw a line from each object to the group you think it belongs to.",
      "core": "science-sort-g1204-2",
+     "hard": "science-sort-hard-g1204-8",
+     "easy": "science-sort-easy-g1204-3",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Float and Sink. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"If we put this in water, would it float on top or sink to the bottom?\" Draw the line from the dot under the picture to its box. This page asks what the children think; a child who can say why has done the page well.",
@@ -9296,6 +9377,8 @@
      "title": "Sort by Food Group",
      "instruction": "Draw a line from each food to its food group.",
      "core": "science-sort-g1207-2",
+     "hard": "science-sort-hard-g1207-8",
+     "easy": "science-sort-easy-g1207-3",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fruits, Vegetables, Grains, and Protein. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this a fruit, a vegetable, a grain like bread or pasta, or a protein like eggs, meat, or fish?\" Draw the line from the dot under the picture to its box. A tomato can be called a fruit or a vegetable; either box is right for it.",
@@ -9718,6 +9801,8 @@
      "title": "Sort the Animals",
      "instruction": "Draw a line from each animal to the group it belongs to.",
      "core": "science-sort-g1201-2",
+     "hard": "science-sort-hard-g1201-8",
+     "easy": "science-sort-easy-g1201-3",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Mammals, Birds, and Reptiles. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Does it have fur, feathers, or scales? Does it lay eggs or feed its babies milk?\" Draw the line from the dot under the picture to its box. Mammals have fur or hair, birds have feathers, and reptiles have dry scales.",
@@ -9856,6 +9941,8 @@
      "title": "Where Do Animals Live?",
      "instruction": "Draw a line from each animal to where it lives.",
      "core": "science-sort-g1202-2",
+     "hard": "science-sort-hard-g1202-8",
+     "easy": "science-sort-easy-g1202-3",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Land, Water, and Air. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this animal spend most of its time: on land, in the water, or in the air?\" Draw the line from the dot under the picture to its box. An animal that flies lives on land too, so Air and Land are both right for it when the child can say why.",
@@ -10137,6 +10224,8 @@
      "title": "Sink or Float?",
      "instruction": "Draw a line from each object to the group you think it belongs to.",
      "core": "science-sort-g1204-3",
+     "hard": "science-sort-hard-g1204-9",
+     "easy": "science-sort-easy-g1204-4",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Float and Sink. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"If we put this in water, would it float on top or sink to the bottom?\" Draw the line from the dot under the picture to its box. This page asks what the children think; a child who can say why has done the page well.",
@@ -10417,6 +10506,8 @@
      "title": "Sort by Food Group",
      "instruction": "Draw a line from each food to its food group.",
      "core": "science-sort-g1207-3",
+     "hard": "science-sort-hard-g1207-9",
+     "easy": "science-sort-easy-g1207-4",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fruits, Vegetables, Grains, and Protein. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this a fruit, a vegetable, a grain like bread or pasta, or a protein like eggs, meat, or fish?\" Draw the line from the dot under the picture to its box. If a food fits two groups, either box is right when the child can say why.",
@@ -10557,6 +10648,8 @@
      "title": "Animal Coverings",
      "instruction": "Draw a line from each animal to its body covering.",
      "core": "science-sort-g1205-2",
+     "hard": "science-sort-hard-g1205-8",
+     "easy": "science-sort-easy-g1205-3",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fur, Feathers, and Scales. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"What covers this animal's body: fur, feathers, or scales?\" Draw the line from the dot under the picture to its box. Fur is soft hair, feathers have a stem with soft sides, and scales are small, hard plates on the skin.",
@@ -10697,6 +10790,8 @@
      "title": "What Animals Eat",
      "instruction": "Draw a line from each animal to the group it belongs to.",
      "core": "science-sort-g1206-2",
+     "hard": "science-sort-hard-g1206-8",
+     "easy": "science-sort-easy-g1206-3",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Plant Eaters and Meat Eaters. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"What does this animal eat: plants or other animals?\" Draw the line from the dot under the picture to its box.",
@@ -10978,6 +11073,8 @@
      "title": "Sort the Animals",
      "instruction": "Draw a line from each animal to the group it belongs to.",
      "core": "science-sort-g1201-3",
+     "hard": "science-sort-hard-g1201-9",
+     "easy": "science-sort-easy-g1201-4",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Mammals, Birds, and Reptiles. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Does it have fur, feathers, or scales? Does it lay eggs or feed its babies milk?\" Draw the line from the dot under the picture to its box. Mammals have fur or hair, birds have feathers, and reptiles have dry scales.",
@@ -11118,6 +11215,8 @@
      "title": "Where Do Animals Live?",
      "instruction": "Draw a line from each animal to where it lives.",
      "core": "science-sort-g1202-3",
+     "hard": "science-sort-hard-g1202-9",
+     "easy": "science-sort-easy-g1202-4",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Land, Water, and Air. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this animal spend most of its time: on land, in the water, or in the air?\" Draw the line from the dot under the picture to its box. An animal that flies lives on land too, so Air and Land are both right for it when the child can say why.",
@@ -11863,6 +11962,8 @@
      "title": "Sort the Animals",
      "instruction": "Draw a line from each animal to the group it belongs to.",
      "core": "science-sort-g1201",
+     "hard": "science-sort-hard-g1201-7",
+     "easy": "science-sort-easy-g1201-2",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Mammals, Birds, and Reptiles. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Does it have fur, feathers, or scales? Does it lay eggs or feed its babies milk?\" Draw the line from the dot under the picture to its box. Mammals have fur or hair, birds have feathers, and reptiles have dry scales.",
@@ -12019,6 +12120,8 @@
      "title": "Where Do Animals Live?",
      "instruction": "Draw a line from each animal to where it lives.",
      "core": "science-sort-g1202",
+     "hard": "science-sort-hard-g1202-7",
+     "easy": "science-sort-easy-g1202-2",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Land, Water, and Air. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this animal spend most of its time: on land, in the water, or in the air?\" Draw the line from the dot under the picture to its box. An animal that flies lives on land too, so Air and Land are both right for it, and a crab lives in the water and on land, so Water and Land are both right for it, when the child can say why.",
@@ -12175,6 +12278,8 @@
      "title": "Sort by Food Group",
      "instruction": "Draw a line from each food to its food group.",
      "core": "science-sort-g1207",
+     "hard": "science-sort-hard-g1207-7",
+     "easy": "science-sort-easy-g1207-2",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fruits, Vegetables, Grains, and Protein. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this a fruit, a vegetable, a grain like bread or pasta, or a protein like eggs, meat, or fish?\" Draw the line from the dot under the picture to its box. If a food fits two groups, either box is right when the child can say why.",
@@ -12329,6 +12434,8 @@
      "title": "Sink or Float?",
      "instruction": "Draw a line from each object to the group you think it belongs to.",
      "core": "science-sort-g1204",
+     "hard": "science-sort-hard-g1204-7",
+     "easy": "science-sort-easy-g1204-2",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Float and Sink. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"If we put this in water, would it float on top or sink to the bottom?\" Draw the line from the dot under the picture to its box. This page asks what the children think; a child who can say why has done the page well.",
@@ -13423,6 +13530,8 @@
      "title": "Animal Coverings",
      "instruction": "Draw a line from each animal to its body covering.",
      "core": "science-sort-g1205",
+     "hard": "science-sort-hard-g1205-7",
+     "easy": "science-sort-easy-g1205-2",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fur, Feathers, and Scales. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"What covers this animal's body: fur, feathers, or scales?\" Draw the line from the dot under the picture to its box. Fur is soft hair, feathers have a stem with soft sides, and scales are small, hard plates on the skin.",
@@ -13579,6 +13688,8 @@
      "title": "What Animals Eat",
      "instruction": "Draw a line from each animal to the group it belongs to.",
      "core": "science-sort-g1206",
+     "hard": "science-sort-hard-g1206-7",
+     "easy": "science-sort-easy-g1206-2",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Plant Eaters and Meat Eaters. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"What does this animal eat: plants or other animals?\" Draw the line from the dot under the picture to its box.",
@@ -13735,6 +13846,8 @@
      "title": "Sort by Food Group",
      "instruction": "Draw a line from each food to its food group.",
      "core": "science-sort-g1207-2",
+     "hard": "science-sort-hard-g1207-8",
+     "easy": "science-sort-easy-g1207-3",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fruits, Vegetables, Grains, and Protein. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this a fruit, a vegetable, a grain like bread or pasta, or a protein like eggs, meat, or fish?\" Draw the line from the dot under the picture to its box. A tomato can be called a fruit or a vegetable; either box is right for it.",
@@ -14047,6 +14160,8 @@
      "title": "Sink or Float?",
      "instruction": "Draw a line from each object to the group you think it belongs to.",
      "core": "science-sort-g1204-2",
+     "hard": "science-sort-hard-g1204-8",
+     "easy": "science-sort-easy-g1204-3",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Float and Sink. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"If we put this in water, would it float on top or sink to the bottom?\" Draw the line from the dot under the picture to its box. This page asks what the children think; a child who can say why has done the page well.",
@@ -14673,6 +14788,8 @@
      "title": "Sort the Animals",
      "instruction": "Draw a line from each animal to the group it belongs to.",
      "core": "science-sort-g1201-2",
+     "hard": "science-sort-hard-g1201-8",
+     "easy": "science-sort-easy-g1201-3",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Mammals, Birds, and Reptiles. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Does it have fur, feathers, or scales? Does it lay eggs or feed its babies milk?\" Draw the line from the dot under the picture to its box. Mammals have fur or hair, birds have feathers, and reptiles have dry scales.",
@@ -14829,6 +14946,8 @@
      "title": "Where Do Animals Live?",
      "instruction": "Draw a line from each animal to where it lives.",
      "core": "science-sort-g1202-2",
+     "hard": "science-sort-hard-g1202-8",
+     "easy": "science-sort-easy-g1202-3",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Land, Water, and Air. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this animal spend most of its time: on land, in the water, or in the air?\" Draw the line from the dot under the picture to its box. An animal that flies lives on land too, so Air and Land are both right for it when the child can say why.",
@@ -15299,6 +15418,8 @@
      "title": "Sort by Food Group",
      "instruction": "Draw a line from each food to its food group.",
      "core": "science-sort-g1207-3",
+     "hard": "science-sort-hard-g1207-9",
+     "easy": "science-sort-easy-g1207-4",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fruits, Vegetables, Grains, and Protein. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this a fruit, a vegetable, a grain like bread or pasta, or a protein like eggs, meat, or fish?\" Draw the line from the dot under the picture to its box. If a food fits two groups, either box is right when the child can say why.",
@@ -15613,6 +15734,8 @@
      "title": "Sink or Float?",
      "instruction": "Draw a line from each object to the group you think it belongs to.",
      "core": "science-sort-g1204-3",
+     "hard": "science-sort-hard-g1204-9",
+     "easy": "science-sort-easy-g1204-4",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Float and Sink. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"If we put this in water, would it float on top or sink to the bottom?\" Draw the line from the dot under the picture to its box. This page asks what the children think; a child who can say why has done the page well.",
@@ -16082,6 +16205,8 @@
      "title": "Animal Coverings",
      "instruction": "Draw a line from each animal to its body covering.",
      "core": "science-sort-g1205-2",
+     "hard": "science-sort-hard-g1205-8",
+     "easy": "science-sort-easy-g1205-3",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fur, Feathers, and Scales. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"What covers this animal's body: fur, feathers, or scales?\" Draw the line from the dot under the picture to its box. Fur is soft hair, feathers have a stem with soft sides, and scales are small, hard plates on the skin.",
@@ -17487,6 +17612,8 @@
      "title": "Sort the Animals",
      "instruction": "Draw a line from each animal to the group it belongs to.",
      "core": "science-sort-g1201",
+     "hard": "science-sort-hard-g1201-7",
+     "easy": "science-sort-easy-g1201-2",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Mammals, Birds, and Reptiles. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Does it have fur, feathers, or scales? Does it lay eggs or feed its babies milk?\" Draw the line from the dot under the picture to its box. Mammals have fur or hair, birds have feathers, and reptiles have dry scales.",
@@ -17643,6 +17770,8 @@
      "title": "Where Do Animals Live?",
      "instruction": "Draw a line from each animal to where it lives.",
      "core": "science-sort-g1202",
+     "hard": "science-sort-hard-g1202-7",
+     "easy": "science-sort-easy-g1202-2",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Land, Water, and Air. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this animal spend most of its time: on land, in the water, or in the air?\" Draw the line from the dot under the picture to its box. An animal that flies lives on land too, so Air and Land are both right for it, and a crab lives in the water and on land, so Water and Land are both right for it, when the child can say why.",
@@ -17799,6 +17928,8 @@
      "title": "Sort by Food Group",
      "instruction": "Draw a line from each food to its food group.",
      "core": "science-sort-g1207",
+     "hard": "science-sort-hard-g1207-7",
+     "easy": "science-sort-easy-g1207-2",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fruits, Vegetables, Grains, and Protein. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this a fruit, a vegetable, a grain like bread or pasta, or a protein like eggs, meat, or fish?\" Draw the line from the dot under the picture to its box. If a food fits two groups, either box is right when the child can say why.",
@@ -19211,6 +19342,8 @@
      "title": "Animal Coverings",
      "instruction": "Draw a line from each animal to its body covering.",
      "core": "science-sort-g1205",
+     "hard": "science-sort-hard-g1205-7",
+     "easy": "science-sort-easy-g1205-2",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fur, Feathers, and Scales. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"What covers this animal's body: fur, feathers, or scales?\" Draw the line from the dot under the picture to its box. Fur is soft hair, feathers have a stem with soft sides, and scales are small, hard plates on the skin.",
@@ -19367,6 +19500,8 @@
      "title": "Where Do Animals Live?",
      "instruction": "Draw a line from each animal to where it lives.",
      "core": "science-sort-g1202-2",
+     "hard": "science-sort-hard-g1202-8",
+     "easy": "science-sort-easy-g1202-3",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Land, Water, and Air. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this animal spend most of its time: on land, in the water, or in the air?\" Draw the line from the dot under the picture to its box. An animal that flies lives on land too, so Air and Land are both right for it when the child can say why.",
@@ -19677,6 +19812,8 @@
      "title": "Sort by Food Group",
      "instruction": "Draw a line from each food to its food group.",
      "core": "science-sort-g1207-2",
+     "hard": "science-sort-hard-g1207-8",
+     "easy": "science-sort-easy-g1207-3",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fruits, Vegetables, Grains, and Protein. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this a fruit, a vegetable, a grain like bread or pasta, or a protein like eggs, meat, or fish?\" Draw the line from the dot under the picture to its box. A tomato can be called a fruit or a vegetable; either box is right for it.",
@@ -20305,6 +20442,8 @@
      "title": "Sort the Animals",
      "instruction": "Draw a line from each animal to the group it belongs to.",
      "core": "science-sort-g1201-2",
+     "hard": "science-sort-hard-g1201-8",
+     "easy": "science-sort-easy-g1201-3",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Mammals, Birds, and Reptiles. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Does it have fur, feathers, or scales? Does it lay eggs or feed its babies milk?\" Draw the line from the dot under the picture to its box. Mammals have fur or hair, birds have feathers, and reptiles have dry scales.",
@@ -20777,6 +20916,8 @@
      "title": "Animal Coverings",
      "instruction": "Draw a line from each animal to its body covering.",
      "core": "science-sort-g1205-2",
+     "hard": "science-sort-hard-g1205-8",
+     "easy": "science-sort-easy-g1205-3",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fur, Feathers, and Scales. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"What covers this animal's body: fur, feathers, or scales?\" Draw the line from the dot under the picture to its box. Fur is soft hair, feathers have a stem with soft sides, and scales are small, hard plates on the skin.",

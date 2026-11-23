@@ -34,6 +34,9 @@ const { pagesOf } = require('../../units/catalog.js');
 const { planWeeks, refused, HOLIDAY_PAGE, SKIP_PAGE } = require('../position.js');
 const OUT = path.join(REPO, 'frontend', 'content', 'sub-plans', 'defs', 'en.json');
 const PLAN_ONLY = process.argv.includes('--plan');
+// --grades=K (2026-11-23): rebuild the week days of these grades only and keep every other grade's week days as they
+// are in the file (a new plan of a grade, such as Kindergarten science, must not reshuffle the other grades' days).
+const ONLY = ((process.argv.find((a) => a.startsWith('--grades=')) || '').split('=')[1] || '').split(',').filter(Boolean);
 const readJson = (f) => JSON.parse(fs.readFileSync(f, 'utf8'));
 
 const GRADES = {
@@ -159,7 +162,7 @@ function takePages(used, type, level) {
 const hasPage = (used, type, level) => { const pg = pages.get(type); return !!pg && pg[level === 'hard' ? 'hard' : 'core'].some((y) => !used.has(y.slug) && !HOLIDAY_PAGE.test(y.slug) && !SKIP_PAGE.has(y.slug)); };
 
 const weekPacks = [], plan = [], report = {};
-for (const grade of ['K', '1', '2', '3']) {
+for (const grade of ['K', '1', '2', '3'].filter((g) => !ONLY.length || ONLY.includes(g))) {
   const G = GRADES[grade];
   const N = Math.max(...unitsFile.plans.filter((p) => String(p.grade) === grade).map((p) => p.weeks));
   const pool = parsePool(grade);
@@ -245,5 +248,6 @@ for (const [g, R] of Object.entries(report)) {
 fs.mkdirSync(path.join(REPO, 'out', 'sub-plans'), { recursive: true });
 fs.writeFileSync(path.join(REPO, 'out', 'sub-plans', 'weeks-plan.json'), JSON.stringify(plan, null, 1) + '\n');
 if (PLAN_ONLY) { console.log('plan only: out/sub-plans/weeks-plan.json (' + plan.length + ' blocks); nothing written'); process.exit(0); }
-fs.writeFileSync(OUT, JSON.stringify({ $comment: file.$comment, packs: fixed.concat(weekPacks) }, null, 1) + '\n');
+const allWeeks = ONLY.length ? ['K', '1', '2', '3'].flatMap((g) => (ONLY.includes(g) ? weekPacks.filter((p) => String(p.grade) === g) : file.packs.filter((p) => p.position === 'week' && String(p.grade) === g))) : weekPacks;
+fs.writeFileSync(OUT, JSON.stringify({ $comment: file.$comment, packs: fixed.concat(allWeeks) }, null, 1) + '\n');
 console.log('en: ' + fixed.length + ' days kept, ' + weekPacks.length + ' week days → ' + path.relative(REPO, OUT));

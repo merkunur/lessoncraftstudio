@@ -1263,6 +1263,34 @@
    "strand": "Health",
    "code": "NHES.3.2.1",
    "skill": "Find the grown-ups who could help, and always check first with my grown-up"
+  },
+  {
+   "tp": "K:calm-down",
+   "grade": "K",
+   "strand": "Health",
+   "code": "NHES.8.2.1",
+   "skill": "Use a calm-down tool (smell the flower, blow out the candle; count to 5; squeeze and let go) and ask for a break or for help"
+  },
+  {
+   "tp": "K:kind-words",
+   "grade": "K",
+   "strand": "Health",
+   "code": "NHES.4.2.5",
+   "skill": "Tell a kind act from an unkind one and use kind words and kind hands"
+  },
+  {
+   "tp": "K:space-bubble",
+   "grade": "K",
+   "strand": "Health",
+   "code": "NHES.4.2.4",
+   "skill": "Ask before touching, accept \"yes\" and \"no, thank you\", and stop when someone says \"Stop, please\""
+  },
+  {
+   "tp": "K:germ-busters",
+   "grade": "K",
+   "strand": "Health",
+   "code": "NHES.7.2.2",
+   "skill": "Know when to wash hands (after the bathroom, before eating, after coughing or sneezing, after playing outside) and wash for 20 seconds"
   }
  ]
 }

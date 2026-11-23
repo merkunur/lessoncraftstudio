@@ -31,6 +31,15 @@ const arg = (k, d) => { const a = process.argv.find((x) => x.startsWith('--' + k
 const has = (k) => process.argv.includes('--' + k);
 const loc = arg('loc', 'en');
 const TARGET_WEEKS = 28;
+// A content area (science, social studies, health; Stage D) is measured against the teaching weeks its own year design
+// gives the grade (scripts/units/year/design.<loc>.<subject>.json pacing.teachingWeeks: 28, and 26 in Grade 3); the daily
+// subjects keep 28.
+const targetWeeks = (subject, grade) => {
+  const f = path.join(__dirname, 'year', 'design.' + loc + '.' + subject + '.json');
+  if (['math', 'literacy'].includes(subject) || !fs.existsSync(f)) return TARGET_WEEKS;
+  const tw = (JSON.parse(fs.readFileSync(f, 'utf8')).pacing || {}).teachingWeeks || {};
+  return tw[String(grade)] || TARGET_WEEKS;
+};
 const TIMES = ['beginning', 'middle', 'end'];
 const PATHS = ['counting-number-sense', 'addition-subtraction-facts', 'place-value', 'multiplication-facts', 'letters-sounds', 'blending-decoding', 'sight-words', 'spelling-patterns', 'sentence-writing'];
 const PATH_WORDS = { 'counting-number-sense': 'Counting and number sense', 'addition-subtraction-facts': 'Addition and subtraction facts', 'place-value': 'Place value', 'multiplication-facts': 'Multiplication facts', 'letters-sounds': 'Letters and sounds', 'blending-decoding': 'Blending and decoding', 'sight-words': 'Sight words', 'spelling-patterns': 'Spelling patterns', 'sentence-writing': 'Sentence writing' };
@@ -57,12 +66,12 @@ function measure(F) {
     const holes = []; for (let w = 1; w <= plan.weeks; w++) if (!weeks.has(w)) holes.push(w);
     const noCheck = plan.units.filter((r) => units.has(r.id) && !liveCheck.has(r.id)).map((r) => r.id);
     const yearMissing = TIMES.filter((t) => !year.has(g + '-' + plan.subject + ':' + t));
-    if (plan.weeks < TARGET_WEEKS) gaps.push('weeks:' + plan.id);
+    if (plan.weeks < targetWeeks(plan.subject, g)) gaps.push('weeks:' + plan.id);
     holes.forEach((w) => gaps.push('hole:' + plan.id + ':' + w));
     noCheck.forEach((u) => gaps.push('check:' + u));
     yearMissing.forEach((t) => gaps.push('year:' + g + '-' + plan.subject + ':' + t));
     longest.set(g, Math.max(longest.get(g) || 0, plan.weeks));
-    rows.push({ plan: plan.id, grade: g, subject: plan.subject, weeks: plan.weeks, units: plan.units.length, holes, noCheck, yearMissing });
+    rows.push({ plan: plan.id, grade: g, subject: plan.subject, target: targetWeeks(plan.subject, g), weeks: plan.weeks, units: plan.units.length, holes, noCheck, yearMissing });
   }
   const subRows = [];
   for (const [g, n] of longest) {
@@ -99,7 +108,7 @@ function report(m) {
   L.push('| Grade | Subject | Weeks (of ' + TARGET_WEEKS + ') | Units | Weeks no unit covers | Units without a check | Checks of the year missing | Complete |');
   L.push('|---|---|---|---|---|---|---|---|');
   for (const r of m.rows) {
-    const done = r.weeks >= TARGET_WEEKS && !r.holes.length && !r.noCheck.length && !r.yearMissing.length;
+    const done = r.weeks >= r.target && !r.holes.length && !r.noCheck.length && !r.yearMissing.length;
     L.push('| ' + GRADE_WORDS[r.grade] + ' | ' + r.subject + ' | ' + r.weeks + ' | ' + r.units + ' | ' + (r.holes.length ? runs(r.holes) : 'none') + ' | ' + (r.noCheck.length ? r.noCheck.join(', ') : 'none') + ' | ' + (r.yearMissing.length ? r.yearMissing.join(', ') : 'none') + ' | ' + (done ? 'yes' : 'no') + ' |');
   }
   L.push('');

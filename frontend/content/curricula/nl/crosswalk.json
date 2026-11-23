@@ -3307,6 +3307,28 @@
    "none": "not yet read against this curriculum",
    "by": "authored"
   },
+  "K:animal-groups-homes": {
+   "rows": [
+    {
+     "id": "KD40",
+     "rel": "teaches",
+     "grade": "1-8"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:animal-food": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:animal-home": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:animals-change-land": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "K:living-nonliving": {
    "rows": [
     {
@@ -3324,16 +3346,6 @@
      "rel": "teaches",
      "grade": "1-8"
     },
-    {
-     "id": "KD40",
-     "rel": "teaches",
-     "grade": "1-8"
-    }
-   ],
-   "by": "authored"
-  },
-  "K:animal-groups-homes": {
-   "rows": [
     {
      "id": "KD40",
      "rel": "teaches",
@@ -3441,18 +3453,6 @@
    "none": "not yet read against this curriculum",
    "by": "authored"
   },
-  "K:animal-food": {
-   "none": "not yet read against this curriculum",
-   "by": "authored"
-  },
-  "K:animal-home": {
-   "none": "not yet read against this curriculum",
-   "by": "authored"
-  },
-  "K:animals-change-land": {
-   "none": "not yet read against this curriculum",
-   "by": "authored"
-  },
   "1:five-senses": {
    "rows": [
     {
@@ -3503,6 +3503,16 @@
    ],
    "by": "authored"
   },
+  "1:habitats-needs": {
+   "rows": [
+    {
+     "id": "KD40",
+     "rel": "teaches",
+     "grade": "1-8"
+    }
+   ],
+   "by": "authored"
+  },
   "1:animal-classes-coverings": {
    "rows": [
     {
@@ -3512,16 +3522,6 @@
     },
     {
      "id": "KD41",
-     "rel": "teaches",
-     "grade": "1-8"
-    }
-   ],
-   "by": "authored"
-  },
-  "1:habitats-needs": {
-   "rows": [
-    {
-     "id": "KD40",
      "rel": "teaches",
      "grade": "1-8"
     }
@@ -3583,6 +3583,21 @@
    ],
    "by": "authored"
   },
+  "2:habitats-adaptations": {
+   "rows": [
+    {
+     "id": "KD40",
+     "rel": "teaches",
+     "grade": "1-8"
+    },
+    {
+     "id": "KD41",
+     "rel": "teaches",
+     "grade": "1-8"
+    }
+   ],
+   "by": "authored"
+  },
   "2:sink-float": {
    "rows": [
     {
@@ -3622,21 +3637,6 @@
    "rows": [
     {
      "id": "KD46",
-     "rel": "teaches",
-     "grade": "1-8"
-    }
-   ],
-   "by": "authored"
-  },
-  "2:habitats-adaptations": {
-   "rows": [
-    {
-     "id": "KD40",
-     "rel": "teaches",
-     "grade": "1-8"
-    },
-    {
-     "id": "KD41",
      "rel": "teaches",
      "grade": "1-8"
     }
@@ -3856,7 +3856,23 @@
    "none": "not yet read against this curriculum",
    "by": "authored"
   },
+  "K:germ-busters": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "K:i-can": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:calm-down": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:kind-words": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:space-bubble": {
    "none": "not yet read against this curriculum",
    "by": "authored"
   },

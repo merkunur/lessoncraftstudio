@@ -2383,6 +2383,54 @@
    ],
    "why": "Circling the grown-ups who could help (a police officer, a firefighter, a doctor, a nurse, a teacher) among children, and the rule to check first with one's own grown-up, identify characteristics of trusted adults (NHES 3.2.1, PreK-2).",
    "review": "batch-k 2026-11-23"
+  },
+  "K:calm-down": {
+   "rows": [
+    {
+     "id": "NHES.8.2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "NHES.4.2.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Saying \"I need a break, please.\" or \"Can you help me?\" makes a request that supports health and well-being (NHES 8.2.1, PreK-2); naming the feeling first leads to expressing feelings and needs (NHES 4.2.1).",
+   "review": "batch-k 2026-11-23"
+  },
+  "K:kind-words": {
+   "rows": [
+    {
+     "id": "NHES.4.2.5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Circling the kind act in each scene (helping up, building together, sharing) and tracing kind words demonstrate ways to show kindness and compassion (NHES 4.2.5, PreK-2).",
+   "review": "batch-k 2026-11-23"
+  },
+  "K:space-bubble": {
+   "rows": [
+    {
+     "id": "NHES.4.2.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Asking \"May I give you a hug?\", accepting either answer and stopping at \"Stop, please.\" communicate and respect the boundaries of self and others (NHES 4.2.4, PreK-2).",
+   "review": "batch-k 2026-11-23"
+  },
+  "K:germ-busters": {
+   "rows": [
+    {
+     "id": "NHES.7.2.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "NHES.7.2.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Choosing the times to wash and washing for two \"Happy Birthday\" songs demonstrate practices that support the health of self and others (NHES 7.2.2) and identify a healthy practice (NHES 7.2.1), PreK-2.",
+   "review": "batch-k 2026-11-23"
   }
  }
 }

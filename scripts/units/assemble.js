@@ -250,11 +250,16 @@ function assemble(loc, opt = {}) {
 
       // two real assets: worksheet types, a tool, practice on screen. Practice on screen is an activity, or a page with
       // a Check button that is NOT one of the pages the lesson hands out on paper (the same page twice is one asset).
-      const real = paper.length + (tool ? 1 : 0) + (screen && (screen.kind === 'activity' || !paper.some((r) => r.core === screen.slug)) ? 1 : 0) + (led ? 1 : 0);
+      // A lesson that hands out pages may ALSO have a hands-on routine (2026-11-23, Stage D-3: a Kindergarten science
+      // investigation, a role-play, a sort with real objects; the page records it). It is a real asset like a led lesson's,
+      // with the same floor: what the class does, with what, 120 characters or more.
+      const handsOn = !led && tx.routine ? tx.routine : null;
+      if (handsOn && handsOn.length < 120) { bad(lw + ': a hands-on routine needs 120 characters or more'); continue; }
+      const real = paper.length + (tool ? 1 : 0) + (screen && (screen.kind === 'activity' || !paper.some((r) => r.core === screen.slug)) ? 1 : 0) + (led ? 1 : 0) + (handsOn ? 1 : 0);
       if (real < 2) bad(lw + ': fewer than two real assets (' + real + ')');
       const lesson = { n: lessons.length + 1, point: L.point, title: tx.title, objective: tx.objective, standards, paper };
       if (L.id) lesson.id = L.id;
-      if (led) { lesson.led = true; lesson.routine = tx.routine; }
+      if (led) { lesson.led = true; lesson.routine = tx.routine; } else if (handsOn) lesson.routine = handsOn;
       if (tool) lesson.tool = tool;
       if (screen) lesson.screen = screen;
       if (exit) lesson.exit = exit;

@@ -20,10 +20,12 @@
  *   top-left. Every anchor lies inside its own drawn shape (asserted by
  *   qa/verify-body-figure.js against the geometry, not eyeballed).
  *   Deviations from the design table, each measured in the build record:
- *     head  (122,86)/(178,86)  not (118,72): at y 72 a horizontal leader runs
- *           through the ear bump (y 53..79) 5.4 px from the ear anchor;
- *           at y 86 the ring (r 7 px) sits on the lower cheek, inside the
- *           disc by >= 1.4 units, 7 units below the ear.
+ *     head  (140,26)/(160,26), the TOP of the head (review round 3, 2026-11-23, an American
+ *           Kindergarten teacher: the old (122,86)/(178,86) ring sat on the lower CHEEK, so
+ *           children copied "head" onto a line pointing at the cheek). Inside the head disc
+ *           (39 units from its centre) and inside the hair cap above the fringe (47); the
+ *           r 7 px ring keeps >= 2.8 units under the cap's top. head and hair never share a
+ *           page (K-354 NESTED_REGIONS), so the two pins never sit side by side.
  *     hair  (130,34)/(170,34)  not (128,30): at (128,30) the ring's top
  *           (22.2) reaches the cap's outer arc (23.6 - 4); at (130,34) the
  *           whole ring is inside the cap and above the fringe (47).
@@ -101,7 +103,7 @@ const FOOT = { cx: 178, cy: 522, rx: 26, ry: 18 };
 const TOES = [[160, 537, 7], [172, 540, 6], [183, 540, 5.5], [193, 538, 5], [202, 535, 4.5]];
 
 const ANCHORS = {
-  head: { L: { x: 122, y: 86 }, R: { x: 178, y: 86 } },
+  head: { L: { x: 140, y: 26 }, R: { x: 160, y: 26 } },   // the top of the head (review round 3; was the cheek, 122/178,86)
   hair: { L: { x: 130, y: 34 }, R: { x: 170, y: 34 } },
   eye: { L: { x: 133, y: 66 }, R: { x: 167, y: 66 } },
   ear: { L: { x: 100, y: 66 }, R: { x: 200, y: 66 } },

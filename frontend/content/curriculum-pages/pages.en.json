@@ -2426,7 +2426,7 @@
     "taught": 43,
     "near": 0,
     "open": 22,
-    "lessons": 54
+    "lessons": 56
    },
    "groups": [
     {
@@ -3186,6 +3186,20 @@
          "unitGrade": "K",
          "n": 2,
          "title": "Which one does not belong?"
+        },
+        {
+         "unit": "plants-and-animals-grow-kindergarten-unit",
+         "unitTitle": "Plants and Animals Grow",
+         "unitGrade": "K",
+         "n": 3,
+         "title": "Fruits and Vegetables: Food from Plants"
+        },
+        {
+         "unit": "sunlight-and-caring-for-our-earth-kindergarten-unit",
+         "unitTitle": "Sunlight and Caring for Our Earth",
+         "unitGrade": "K",
+         "n": 4,
+         "title": "Natural or Made by People?"
         }
        ]
       },
@@ -6850,7 +6864,7 @@
     "taught": 41,
     "near": 6,
     "open": 37,
-    "lessons": 47
+    "lessons": 48
    },
    "groups": [
     {
@@ -6861,18 +6875,13 @@
        "state": "near",
        "text": "Children match faces to feeling words, circle the face that shows how they feel, and draw a face for a feeling.",
        "rel": "prepares",
-       "papers": [
+       "lessons": [
         {
-         "title": "Feelings: Match the Face to the Word",
-         "core": "feelings-k319"
-        },
-        {
-         "title": "How Do You Feel? Circle the Face",
-         "core": "feelings-k331"
-        },
-        {
-         "title": "Draw the Feeling Face",
-         "core": "feelings-k332"
+         "unit": "my-feelings-and-my-friends-kindergarten-unit",
+         "unitTitle": "My Feelings and My Friends",
+         "unitGrade": "K",
+         "n": 1,
+         "title": "How Do I Feel? Naming Feelings"
         }
        ]
       }

@@ -1713,6 +1713,22 @@
    ],
    "words": []
   },
+  "feelings-k331-4": {
+   "pictures": [
+    "angry",
+    "hammock",
+    "happy",
+    "playground",
+    "rocket",
+    "sad",
+    "scared",
+    "snowman",
+    "surprised",
+    "tired",
+    "wolf"
+   ],
+   "words": []
+  },
   "feelings-k333": {
    "pictures": [
     "content",
@@ -2133,6 +2149,15 @@
     "elbow",
     "eye",
     "hand"
+   ]
+  },
+  "human-body-k354-2": {
+   "pictures": [],
+   "words": [
+    "arm",
+    "hand",
+    "neck",
+    "shoulder"
    ]
   },
   "hundreds-chart-puzzles-g1310": {
@@ -3343,10 +3368,6 @@
    "pictures": [],
    "words": []
   },
-  "number-tracing-k237-4-2": {
-   "pictures": [],
-   "words": []
-  },
   "number-tracing-tools-k467-2": {
    "pictures": [
     "bolt",
@@ -3809,23 +3830,6 @@
     "fan",
     "hen",
     "jam"
-   ]
-  },
-  "picture-vocabulary-k225-5": {
-   "pictures": [
-    "bun",
-    "bus",
-    "egg",
-    "fox",
-    "ham",
-    "ox"
-   ],
-   "words": [
-    "bun",
-    "bus",
-    "egg",
-    "fox",
-    "ham"
    ]
   },
   "picture-writing-at-the-supermarket-g2278-101": {
@@ -5674,32 +5678,6 @@
     "vegetables"
    ]
   },
-  "science-sort-k202-2": {
-   "pictures": [
-    "banana",
-    "broccoli",
-    "carrot",
-    "cherry",
-    "lettuce",
-    "pear"
-   ],
-   "words": [
-    "vegetables"
-   ]
-  },
-  "science-sort-k202-3": {
-   "pictures": [
-    "broccoli",
-    "cucumber",
-    "peach",
-    "strawberry",
-    "tomato",
-    "watermelon"
-   ],
-   "words": [
-    "vegetables"
-   ]
-  },
   "science-sort-k203": {
    "pictures": [
     "broccoli",
@@ -5719,6 +5697,17 @@
     "lollipop",
     "milk",
     "tomato"
+   ],
+   "words": []
+  },
+  "science-sort-k203-3": {
+   "pictures": [
+    "carrot",
+    "donut",
+    "lollipop",
+    "orange",
+    "soda",
+    "water"
    ],
    "words": []
   },
@@ -5810,17 +5799,6 @@
    ],
    "words": []
   },
-  "science-sort-k208-2": {
-   "pictures": [
-    "bird",
-    "comet",
-    "kite",
-    "moon",
-    "star",
-    "sunny"
-   ],
-   "words": []
-  },
   "science-sort-k209": {
    "pictures": [
     "bear",
@@ -5829,6 +5807,17 @@
     "goat",
     "monkey",
     "sheep"
+   ],
+   "words": []
+  },
+  "science-sort-k209-2": {
+   "pictures": [
+    "chicken",
+    "giraffe",
+    "horse",
+    "lion",
+    "monkey",
+    "pig"
    ],
    "words": []
   },
@@ -5845,6 +5834,20 @@
    ],
    "words": []
   },
+  "science-sort-k210-2": {
+   "pictures": [
+    "bicycle",
+    "bus",
+    "helicopter",
+    "jet",
+    "rocket",
+    "sailboat",
+    "ship",
+    "submarine",
+    "train"
+   ],
+   "words": []
+  },
   "science-sort-k214": {
    "pictures": [
     "car",
@@ -5853,17 +5856,6 @@
     "house",
     "leaf",
     "sun"
-   ],
-   "words": []
-  },
-  "science-sort-k214-2": {
-   "pictures": [
-    "ball",
-    "cloud",
-    "cup",
-    "flower",
-    "house",
-    "leaf"
    ],
    "words": []
   },
@@ -7060,6 +7052,15 @@
    ],
    "words": []
   },
+  "visual-discrimination-food-bw-k044-2": {
+   "pictures": [
+    "cheese",
+    "donut",
+    "popcorn",
+    "pretzel"
+   ],
+   "words": []
+  },
   "visual-discrimination-k080": {
    "pictures": [
     "cone",
@@ -7077,19 +7078,6 @@
     "moon",
     "parallelogram",
     "rectangle"
-   ],
-   "words": []
-  },
-  "visual-discrimination-shapes-k069": {
-   "pictures": [
-    "cylinder",
-    "heart",
-    "moon",
-    "parallelogram",
-    "pyramid",
-    "star",
-    "trapezoid",
-    "triangle"
    ],
    "words": []
   },
@@ -7116,6 +7104,16 @@
     "scooter",
     "van",
     "yacht"
+   ],
+   "words": []
+  },
+  "visual-matching-body-parts-k057-2": {
+   "pictures": [
+    "elbow",
+    "eyebrow",
+    "face",
+    "muscles",
+    "nose"
    ],
    "words": []
   },

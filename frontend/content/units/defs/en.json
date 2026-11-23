@@ -4347,6 +4347,383 @@
      ]
     }
    ]
+  },
+  {
+   "id": "k-senses-and-body",
+   "slug": "my-senses-and-my-body-kindergarten-unit",
+   "status": "live",
+   "grade": "K",
+   "subject": "science",
+   "title": "My Senses and My Body",
+   "metaTitle": "Kindergarten Science Lesson Plans: My Senses and My Body",
+   "metaDescription": "A Kindergarten science unit: 4 lessons on the five senses, the parts of the body, what a body needs to live, and living or not living, each with a hands-on routine.",
+   "lessons": [
+    {
+     "point": "K:five-senses",
+     "types": [
+      "K-355"
+     ]
+    },
+    {
+     "point": "K:human-body",
+     "types": [
+      "K-354",
+      "K-363"
+     ]
+    },
+    {
+     "point": "K:body-needs",
+     "types": [
+      "K-687"
+     ]
+    },
+    {
+     "point": "K:living-nonliving",
+     "types": [
+      "K-201"
+     ]
+    }
+   ],
+   "weeks": 4
+  },
+  {
+   "id": "k-weather-and-seasons",
+   "slug": "weather-and-the-seasons-kindergarten-unit",
+   "status": "live",
+   "grade": "K",
+   "subject": "science",
+   "title": "Weather and the Seasons",
+   "metaTitle": "Kindergarten Science Lesson Plans: Weather and the Seasons",
+   "metaDescription": "A Kindergarten science unit: 5 lessons on weather words and the class weather chart, wind, a rain gauge, the four seasons, and getting ready for stormy weather.",
+   "lessons": [
+    {
+     "point": "K:weather-temperature",
+     "types": [
+      "K-364",
+      "K-365"
+     ]
+    },
+    {
+     "point": "K:wind-watch",
+     "types": [
+      "K-688"
+     ]
+    },
+    {
+     "point": "K:rain-gauge",
+     "types": [
+      "K-689"
+     ]
+    },
+    {
+     "point": "K:seasons",
+     "types": [
+      "K-322",
+      "K-207"
+     ]
+    },
+    {
+     "point": "K:weather-ready",
+     "types": [
+      "K-690"
+     ]
+    }
+   ],
+   "weeks": 4
+  },
+  {
+   "id": "k-animals-and-homes",
+   "slug": "animals-and-their-homes-kindergarten-unit",
+   "status": "live",
+   "grade": "K",
+   "subject": "science",
+   "title": "Animals and Their Homes",
+   "metaTitle": "Kindergarten Science Lesson Plans: Animals and Their Homes",
+   "metaDescription": "A Kindergarten science unit: 4 lessons on where animals live, what animals eat, building a home for an animal, and how animals change the land around them.",
+   "lessons": [
+    {
+     "point": "K:animal-groups-homes",
+     "types": [
+      "K-204",
+      "K-383"
+     ]
+    },
+    {
+     "point": "K:animal-food",
+     "types": [
+      "K-691"
+     ]
+    },
+    {
+     "point": "K:animal-home",
+     "types": [
+      "K-692"
+     ]
+    },
+    {
+     "point": "K:animals-change-land",
+     "types": [
+      "K-693"
+     ]
+    }
+   ],
+   "weeks": 4
+  },
+  {
+   "id": "k-pushes-and-pulls",
+   "slug": "pushes-and-pulls-kindergarten-unit",
+   "status": "live",
+   "grade": "K",
+   "subject": "science",
+   "title": "Pushes and Pulls",
+   "metaTitle": "Kindergarten Science Lesson Plans: Pushes and Pulls",
+   "metaDescription": "A Kindergarten science unit: 5 lessons on pushes and pulls, harder pushes, changing direction, and building and testing ramps, each with a hands-on test.",
+   "lessons": [
+    {
+     "point": "K:push-pull",
+     "types": [
+      "K-694"
+     ]
+    },
+    {
+     "point": "K:push-strength",
+     "types": [
+      "K-695"
+     ]
+    },
+    {
+     "point": "K:change-direction",
+     "types": [
+      "K-696"
+     ]
+    },
+    {
+     "point": "K:ramp-to-target",
+     "types": [
+      "K-697"
+     ]
+    },
+    {
+     "point": "K:compare-ramps",
+     "types": [
+      "K-698"
+     ]
+    }
+   ],
+   "weeks": 4
+  },
+  {
+   "id": "k-sink-float-boats",
+   "slug": "sink-float-and-build-a-boat-kindergarten-unit",
+   "status": "live",
+   "grade": "K",
+   "subject": "science",
+   "title": "Sink, Float, and Build a Boat",
+   "metaTitle": "Kindergarten Science Lesson Plans: Sink, Float, and Build a Boat",
+   "metaDescription": "A Kindergarten science and engineering unit: 4 lessons on testing what sinks or floats, planning a boat for a bear, building and testing it, and comparing boats.",
+   "lessons": [
+    {
+     "point": "K:sink-float",
+     "types": [
+      "K-384"
+     ]
+    },
+    {
+     "point": "K:boat-plan",
+     "types": [
+      "K-699"
+     ]
+    },
+    {
+     "point": "K:boat-test",
+     "types": [
+      "K-700"
+     ]
+    },
+    {
+     "point": "K:boat-compare",
+     "types": [
+      "K-701"
+     ]
+    }
+   ],
+   "weeks": 4
+  },
+  {
+   "id": "k-plants-and-animals-grow",
+   "slug": "plants-and-animals-grow-kindergarten-unit",
+   "status": "live",
+   "grade": "K",
+   "subject": "science",
+   "title": "Plants and Animals Grow",
+   "metaTitle": "Kindergarten Science Lesson Plans: Plants and Animals Grow",
+   "metaDescription": "A Kindergarten science unit: 4 lessons on what plants need, a bean seed journal, fruits and vegetables as food from plants, and animal babies and their needs.",
+   "lessons": [
+    {
+     "point": "K:plant-needs",
+     "types": [
+      "K-376"
+     ]
+    },
+    {
+     "point": "K:seed-journal",
+     "types": [
+      "K-702"
+     ]
+    },
+    {
+     "point": "K:fruit-vegetable",
+     "types": [
+      "K-202"
+     ]
+    },
+    {
+     "point": "K:animal-babies",
+     "types": [
+      "K-205"
+     ]
+    }
+   ],
+   "weeks": 4
+  },
+  {
+   "id": "k-sunlight-and-earth-care",
+   "slug": "sunlight-and-caring-for-our-earth-kindergarten-unit",
+   "status": "live",
+   "grade": "K",
+   "subject": "science",
+   "title": "Sunlight and Caring for Our Earth",
+   "metaTitle": "Kindergarten Science Lesson Plans: Sunlight and Caring for Our Earth",
+   "metaDescription": "A Kindergarten science unit: 5 lessons on day and night, sun and shade, making shade for an ice cube, natural or made by people, and recycling and reusing.",
+   "lessons": [
+    {
+     "point": "K:day-night",
+     "types": [
+      "K-208"
+     ]
+    },
+    {
+     "point": "K:sun-warms",
+     "types": [
+      "K-703"
+     ]
+    },
+    {
+     "point": "K:make-shade",
+     "types": [
+      "K-704"
+     ]
+    },
+    {
+     "point": "K:natural-made",
+     "types": [
+      "K-214"
+     ]
+    },
+    {
+     "point": "K:recycling",
+     "types": [
+      "K-357",
+      "K-366"
+     ]
+    }
+   ],
+   "weeks": 4
+  },
+  {
+   "id": "k-feelings-and-friends",
+   "slug": "my-feelings-and-my-friends-kindergarten-unit",
+   "status": "live",
+   "grade": "K",
+   "subject": "health",
+   "title": "My Feelings and My Friends",
+   "metaTitle": "Kindergarten Health Lesson Plans: My Feelings and My Friends",
+   "metaDescription": "A Kindergarten health unit: 5 lessons on naming feelings, calm-down tools and asking for help, what I am good at, kind words and kind hands, and asking first.",
+   "lessons": [
+    {
+     "point": "K:feelings",
+     "types": [
+      "K-319",
+      "K-331"
+     ]
+    },
+    {
+     "point": "K:calm-down",
+     "types": [
+      "K-708"
+     ]
+    },
+    {
+     "point": "K:i-can",
+     "types": [
+      "K-705"
+     ]
+    },
+    {
+     "point": "K:kind-words",
+     "types": [
+      "K-709"
+     ]
+    },
+    {
+     "point": "K:space-bubble",
+     "types": [
+      "K-710"
+     ]
+    }
+   ],
+   "weeks": 13
+  },
+  {
+   "id": "k-healthy-and-safe",
+   "slug": "healthy-and-safe-me-kindergarten-unit",
+   "status": "live",
+   "grade": "K",
+   "subject": "health",
+   "title": "Healthy and Safe Me",
+   "metaTitle": "Kindergarten Health Lesson Plans: Healthy and Safe Me",
+   "metaDescription": "A Kindergarten health unit: 6 lessons on caring for my body, washing hands, everyday and sometimes foods, sleep and play, trusted grown-ups, and crossing the street.",
+   "lessons": [
+    {
+     "point": "K:hygiene-habits",
+     "types": [
+      "K-380",
+      "K-382"
+     ]
+    },
+    {
+     "point": "K:germ-busters",
+     "types": [
+      "K-711"
+     ]
+    },
+    {
+     "point": "K:healthy-food",
+     "types": [
+      "K-203"
+     ]
+    },
+    {
+     "point": "K:sleep-play",
+     "types": [
+      "K-706"
+     ]
+    },
+    {
+     "point": "K:trusted-adults",
+     "types": [
+      "K-707"
+     ]
+    },
+    {
+     "point": "K:road-safety",
+     "types": [
+      "K-374",
+      "K-373"
+     ]
+    }
+   ],
+   "weeks": 15
   }
  ],
  "plans": [
@@ -4509,6 +4886,24 @@
     "g3-sentences-and-conventions",
     "g3-narrative-writing",
     "g3-point-of-view-and-comparing-texts"
+   ]
+  },
+  {
+   "id": "plan-k-science",
+   "slug": "kindergarten-science-scope-and-sequence",
+   "grade": "K",
+   "subject": "science",
+   "title": "Kindergarten Science Scope and Sequence",
+   "metaTitle": "Kindergarten Science Scope and Sequence with Pacing Guide ({weeks} Weeks)",
+   "metaDescription": "{units} Kindergarten science units in teaching order, about {weeks} weeks of three science sessions a week, with each unit's lessons and its NGSS standards.",
+   "units": [
+    "k-senses-and-body",
+    "k-weather-and-seasons",
+    "k-animals-and-homes",
+    "k-pushes-and-pulls",
+    "k-sink-float-boats",
+    "k-plants-and-animals-grow",
+    "k-sunlight-and-earth-care"
    ]
   }
  ]

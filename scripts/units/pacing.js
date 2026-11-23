@@ -30,6 +30,13 @@ function lessonDays(grade, lesson) {
   return lesson.tool && levels && lesson.exit && lesson.maker ? 3 : 2;
 }
 const unitDays = (grade, lessons) => lessons.reduce((n, l) => n + lessonDays(grade, l), 0) + UNIT_END_DAYS;
-const sessionsAWeek = (grade, ctx) => (ctx && ctx.loc === 'sv' && ctx.subject === 'math' && String(grade) === 'K' ? 3 : 5);
+// The content areas (Stage D, 2026-11-23) have fewer sessions a week than the daily blocks: science 3, social studies 2,
+// health 1, in every grade (the year designs' `pacing.daysPerWeek`, scripts/units/year/design.en.<subject>.json,
+// read by one US teacher-reviewer per subject). A lesson is still two sessions, and a unit still ends with three.
+const SUBJECT_SESSIONS = { science: 3, social: 2, health: 1 };
+const sessionsAWeek = (grade, ctx) => {
+  if (ctx && SUBJECT_SESSIONS[ctx.subject]) return SUBJECT_SESSIONS[ctx.subject];
+  return ctx && ctx.loc === 'sv' && ctx.subject === 'math' && String(grade) === 'K' ? 3 : 5;
+};
 const unitWeeks = (grade, lessons, ctx) => Math.max(1, Math.round(unitDays(grade, lessons) / sessionsAWeek(grade, ctx)));
 module.exports = { UNIT_END_DAYS, lessonDays, unitDays, unitWeeks, sessionsAWeek };

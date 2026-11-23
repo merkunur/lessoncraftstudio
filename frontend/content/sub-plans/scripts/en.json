@@ -1134,9 +1134,6 @@
     },
     "picture-vocabulary-k225-4": {
      "first": "Read the words on the page aloud and have the class read each one after you. Name the pictures together: cap, fan, bee, hen, hot (the hot sun), jam. Do the first word together and draw the line."
-    },
-    "picture-vocabulary-k225-5": {
-     "first": "Read the words on the page aloud and have the class read each one after you. Name the pictures together: egg, bun (the bread), fox, ham, ox (it looks like a cow), bus. Do the first word together and draw the line."
     }
    }
   },
@@ -2431,15 +2428,7 @@
   "K:fruit-vegetable": {
    "say": "\"At the top of the page there are pictures. At the bottom there are two boxes, Fruits and Vegetables. Draw a line from each picture to the box where it belongs.\"",
    "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this a fruit or a vegetable?\" Draw the line from the dot under the picture to its box. If a food can be called both, either box is right when the child can say why.",
-   "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box.",
-   "byPage": {
-    "science-sort-k202": {
-     "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this a fruit or a vegetable?\" Draw the line from the dot under the picture to its box. A tomato is a fruit to a scientist and a vegetable in the kitchen; either box is right for it."
-    },
-    "science-sort-k202-3": {
-     "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this a fruit or a vegetable?\" Draw the line from the dot under the picture to its box. A tomato is a fruit to a scientist and a vegetable in the kitchen; either box is right for it."
-    }
-   }
+   "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
   },
   "K:healthy-food": {
    "say": "\"At the top of the page there are pictures. At the bottom there are two boxes, Healthy and Not Healthy. Draw a line from each picture to the box where it belongs.\"",
@@ -2453,6 +2442,11 @@
    "byType": {
     "K-344": {
      "say": "\"This page is about your face. Each line points to a part of the face. Copy the right word from the box onto each line. Then draw your own face in the big box.\""
+    }
+   },
+   "byPage": {
+    "human-body-k354-2": {
+     "stuck": "Have the child touch the part on their own body and say its name. Then find the word in the box together; the first letter helps: \"Hand starts with h. Where is the word that starts with h?\""
     }
    }
   },

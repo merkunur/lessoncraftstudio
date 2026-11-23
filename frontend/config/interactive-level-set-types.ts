@@ -71,7 +71,7 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
  * variation code the slug ends with (`…-k332-3` → "k332").
  */
 export const LEVEL_SET_PRINT_ONLY_VARIATIONS: Readonly<Record<string, readonly string[]>> = {
-  feelings: ['k332'],
+  feelings: ['k332', 'k708', 'k709', 'k710'],   // k708-k710: Kindergarten health pages, print only (Stage D-5 batch K2, 2026-11-23)
   opposites: ['g1336'],   // Pair Up: sorting words into written pairs (Level Set 2026-09-28)
   'question-words': ['g2357'],   // Ask About the Picture: open questions (Level Set 2026-09-29)
   'read-and-do': ['g1342'],   // Read and Draw: open drawing (Level Set 2026-09-30)

@@ -109,7 +109,7 @@ function Lesson({ lesson, locale, ui, codeLinks, readers }: { lesson: UnitLesson
           </div>
         ) : null}
 
-        {lesson.led && lesson.routine ? (
+        {lesson.routine ? (
           <div className="un-slot un-slot-routine">
             <h4 className="un-slot-name">{ui.slotRoutine}</h4>
             <p className="un-slot-text un-routine">{lesson.routine}</p>

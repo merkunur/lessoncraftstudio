@@ -49,7 +49,7 @@ if (POISON) {
     ['an indexable copy', (es) => { es[0].m.indexable = true; }],
     ['a level-1 copy without its level word', (es) => { const e = es.find((x) => x.m.settings.difficulty === 1); e.m.exercise_mode = null; }],
     ['a description out of the band', (es) => { es[0].desc = 'short'; }],
-    ['two copies that print one page', (es) => { const a = es[0]; const b = es.find((x) => x !== a && x.m.settings.worksheet_type === a.m.settings.worksheet_type && x.m.settings.difficulty === a.m.settings.difficulty && x.wave === a.wave); b.thumb = a.thumb; }],
+    ['two copies that print one page', (es) => { const same = (a, x) => x !== a && x.m.settings.worksheet_type === a.m.settings.worksheet_type && x.m.settings.difficulty === a.m.settings.difficulty && x.wave === a.wave; const a = es.find((y) => es.some((x) => same(y, x))); const b = es.find((x) => same(a, x)); b.thumb = a.thumb; }],
   ];
   let miss = 0;
   if (check(base).length) { console.log('control not clean: ' + check(base)[0]); miss++; }

@@ -10943,6 +10943,26 @@
    "prerequisites": []
   },
   {
+   "id": "K:germ-busters",
+   "grade": "K",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Know when to wash hands (after the bathroom, before eating, after coughing or sneezing, after playing outside) and wash for 20 seconds",
+   "code": "NHES.7.2.2",
+   "types": [
+    "K-711"
+   ],
+   "families": [
+    "healthy-habits"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 5,
+   "prerequisites": []
+  },
+  {
    "id": "K:i-can",
    "grade": "K",
    "subject": "health",
@@ -10959,7 +10979,67 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 5,
+   "order": 6,
+   "prerequisites": []
+  },
+  {
+   "id": "K:calm-down",
+   "grade": "K",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Use a calm-down tool (smell the flower, blow out the candle; count to 5; squeeze and let go) and ask for a break or for help",
+   "code": "NHES.8.2.1",
+   "types": [
+    "K-708"
+   ],
+   "families": [
+    "feelings"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 7,
+   "prerequisites": []
+  },
+  {
+   "id": "K:kind-words",
+   "grade": "K",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Tell a kind act from an unkind one and use kind words and kind hands",
+   "code": "NHES.4.2.5",
+   "types": [
+    "K-709"
+   ],
+   "families": [
+    "feelings"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 8,
+   "prerequisites": []
+  },
+  {
+   "id": "K:space-bubble",
+   "grade": "K",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Ask before touching, accept \"yes\" and \"no, thank you\", and stop when someone says \"Stop, please\"",
+   "code": "NHES.4.2.4",
+   "types": [
+    "K-710"
+   ],
+   "families": [
+    "feelings"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 9,
    "prerequisites": []
   },
   {
@@ -10981,7 +11061,7 @@
     221
    ],
    "verdict": "gap",
-   "order": 6,
+   "order": 10,
    "prerequisites": []
   },
   {
@@ -11003,7 +11083,7 @@
     223
    ],
    "verdict": "gap",
-   "order": 7,
+   "order": 11,
    "prerequisites": []
   },
   {
@@ -11026,7 +11106,7 @@
     220
    ],
    "verdict": "gap",
-   "order": 8,
+   "order": 12,
    "prerequisites": []
   },
   {
@@ -11047,7 +11127,7 @@
     221
    ],
    "verdict": "gap",
-   "order": 9,
+   "order": 13,
    "prerequisites": []
   },
   {
@@ -11070,7 +11150,7 @@
     223
    ],
    "verdict": "gap",
-   "order": 10,
+   "order": 14,
    "prerequisites": []
   },
   {
@@ -11091,7 +11171,7 @@
     220
    ],
    "verdict": "gap",
-   "order": 11,
+   "order": 15,
    "prerequisites": []
   },
   {

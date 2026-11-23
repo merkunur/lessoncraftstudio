@@ -1552,8 +1552,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:seasons",
-     "type": "K-207"
+     "point": "K:transport-flying",
+     "type": "K-206"
     }
    ]
   },
@@ -1662,8 +1662,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:fruit-vegetable",
-     "type": "K-202"
+     "point": "K:healthy-food",
+     "type": "K-203"
     }
    ]
   },
@@ -1717,8 +1717,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:animal-groups-homes",
-     "type": "K-204"
+     "point": "K:feelings",
+     "type": "K-334"
     }
    ]
   },
@@ -1773,8 +1773,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:animal-babies",
-     "type": "K-205"
+     "point": "K:living-nonliving",
+     "type": "K-201"
     }
    ]
   },
@@ -1835,8 +1835,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:day-night",
-     "type": "K-208"
+     "point": "K:seasons",
+     "type": "K-207"
     }
    ]
   },
@@ -1896,8 +1896,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:transport-flying",
-     "type": "K-206"
+     "point": "K:feelings",
+     "type": "K-333"
     }
    ]
   },
@@ -1957,8 +1957,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:healthy-food",
-     "type": "K-203"
+     "point": "K:animal-groups-homes",
+     "type": "K-204"
     }
    ]
   },
@@ -2018,8 +2018,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:natural-made",
-     "type": "K-214"
+     "point": "K:seasons",
+     "type": "K-338"
     }
    ]
   },
@@ -2080,8 +2080,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:feelings",
-     "type": "K-334"
+     "point": "K:transport-flying",
+     "type": "K-210"
     }
    ]
   },
@@ -2142,8 +2142,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:seasons",
-     "type": "K-338"
+     "point": "K:feelings",
+     "type": "K-331"
     }
    ]
   },
@@ -2203,8 +2203,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:living-nonliving",
-     "type": "K-201"
+     "point": "K:healthy-food",
+     "type": "K-203"
     }
    ]
   },
@@ -2264,8 +2264,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:animal-groups-homes",
-     "type": "K-209"
+     "point": "K:seasons",
+     "type": "K-207"
     }
    ]
   },
@@ -2325,8 +2325,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:fruit-vegetable",
-     "type": "K-202"
+     "point": "K:living-nonliving",
+     "type": "K-201"
     }
    ]
   },
@@ -2387,8 +2387,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:feelings",
-     "type": "K-333"
+     "point": "K:animal-groups-homes",
+     "type": "K-209"
     }
    ]
   },
@@ -2449,8 +2449,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:animal-babies",
-     "type": "K-205"
+     "point": "K:feelings",
+     "type": "K-331"
     }
    ]
   },
@@ -2511,7 +2511,7 @@
      "key": "closing",
      "minutes": 10,
      "point": "K:transport-flying",
-     "type": "K-210"
+     "type": "K-206"
     }
    ]
   },
@@ -2571,8 +2571,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:day-night",
-     "type": "K-208"
+     "point": "K:seasons",
+     "type": "K-207"
     }
    ]
   },
@@ -2632,8 +2632,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:seasons",
-     "type": "K-207"
+     "point": "K:healthy-food",
+     "type": "K-203"
     }
    ]
   },
@@ -2695,8 +2695,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:healthy-food",
-     "type": "K-203"
+     "point": "K:animal-groups-homes",
+     "type": "K-204"
     }
    ]
   },
@@ -2756,8 +2756,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:natural-made",
-     "type": "K-214"
+     "point": "K:fruit-vegetable",
+     "type": "K-202"
     }
    ]
   },
@@ -2818,8 +2818,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:feelings",
-     "type": "K-331"
+     "point": "K:animal-babies",
+     "type": "K-205"
     }
    ]
   },
@@ -2874,13 +2874,13 @@
      "key": "logic",
      "minutes": 10,
      "point": "K:shadow-closure",
-     "type": "K-069"
+     "type": "K-057"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:animal-groups-homes",
-     "type": "K-204"
+     "point": "K:transport-flying",
+     "type": "K-210"
     }
    ]
   },
@@ -2940,8 +2940,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:living-nonliving",
-     "type": "K-201"
+     "point": "K:day-night",
+     "type": "K-208"
     }
    ]
   },
@@ -2959,14 +2959,14 @@
     {
      "key": "morning",
      "minutes": 10,
-     "point": "K:pre-writing-strokes",
-     "type": "K-385"
+     "point": "K:same-different-visual",
+     "type": "K-044"
     },
     {
      "key": "reading",
      "minutes": 15,
-     "point": "K:articles",
-     "type": "K-306"
+     "point": "K:human-body",
+     "type": "K-354"
     },
     {
      "key": "phonics",
@@ -2983,8 +2983,8 @@
     {
      "key": "math",
      "minutes": 10,
-     "point": "K:compare-size-extremes",
-     "type": "K-037"
+     "point": "K:tally-marks",
+     "type": "K-025"
     },
     {
      "key": "numbers",
@@ -3002,8 +3002,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:fruit-vegetable",
-     "type": "K-202"
+     "point": "K:animal-babies",
+     "type": "K-205"
     }
    ]
   },
@@ -3021,14 +3021,14 @@
     {
      "key": "morning",
      "minutes": 10,
-     "point": "K:count-forward-missing",
-     "type": "K-632"
+     "point": "K:pre-writing-strokes",
+     "type": "K-385"
     },
     {
      "key": "reading",
      "minutes": 15,
-     "point": "K:story-sequencing",
-     "type": "K-379"
+     "point": "K:articles",
+     "type": "K-306"
     },
     {
      "key": "phonics",
@@ -3063,8 +3063,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:seasons",
-     "type": "K-207"
+     "point": "K:natural-made",
+     "type": "K-214"
     }
    ]
   },
@@ -3082,15 +3082,14 @@
     {
      "key": "morning",
      "minutes": 10,
-     "point": "K:numeral-formation",
-     "type": "K-237",
-     "title": "Trace the Number 2"
+     "point": "K:count-forward-missing",
+     "type": "K-632"
     },
     {
      "key": "reading",
      "minutes": 15,
-     "point": "K:word-picture-match",
-     "type": "K-225"
+     "point": "K:story-sequencing",
+     "type": "K-379"
     },
     {
      "key": "phonics",
@@ -3108,8 +3107,8 @@
     {
      "key": "math",
      "minutes": 10,
-     "point": "K:tally-marks",
-     "type": "K-025"
+     "point": "K:compare-size-extremes",
+     "type": "K-037"
     },
     {
      "key": "numbers",
@@ -3127,8 +3126,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:transport-flying",
-     "type": "K-206"
+     "point": "K:animal-groups-homes",
+     "type": "K-209"
     }
    ]
   },

@@ -3987,6 +3987,33 @@
    "none": "not yet read against this curriculum",
    "by": "authored"
   },
+  "K:animal-groups-homes": {
+   "rows": [
+    {
+     "id": "ML.M5.2",
+     "rel": "teaches",
+     "grade": "M5"
+    },
+    {
+     "id": "QM.2.C7",
+     "rel": "prepares",
+     "grade": "1-3"
+    }
+   ],
+   "by": "authored"
+  },
+  "K:animal-food": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:animal-home": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:animals-change-land": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "K:living-nonliving": {
    "rows": [
     {
@@ -4006,21 +4033,6 @@
    "rows": [
     {
      "id": "QM.2.C16",
-     "rel": "prepares",
-     "grade": "1-3"
-    }
-   ],
-   "by": "authored"
-  },
-  "K:animal-groups-homes": {
-   "rows": [
-    {
-     "id": "ML.M5.2",
-     "rel": "teaches",
-     "grade": "M5"
-    },
-    {
-     "id": "QM.2.C7",
      "rel": "prepares",
      "grade": "1-3"
     }
@@ -4125,18 +4137,6 @@
    "none": "not yet read against this curriculum",
    "by": "authored"
   },
-  "K:animal-food": {
-   "none": "not yet read against this curriculum",
-   "by": "authored"
-  },
-  "K:animal-home": {
-   "none": "not yet read against this curriculum",
-   "by": "authored"
-  },
-  "K:animals-change-land": {
-   "none": "not yet read against this curriculum",
-   "by": "authored"
-  },
   "1:five-senses": {
    "none": "No objective of PART 2 names the senses (the 2020 cycle 2 programme leaves them to the maternelle).",
    "by": "authored"
@@ -4191,16 +4191,6 @@
    ],
    "by": "authored"
   },
-  "1:animal-classes-coverings": {
-   "rows": [
-    {
-     "id": "QM.2.A1",
-     "rel": "teaches",
-     "grade": "1-3"
-    }
-   ],
-   "by": "authored"
-  },
   "1:habitats-needs": {
    "rows": [
     {
@@ -4215,6 +4205,16 @@
     },
     {
      "id": "QM.2.C6",
+     "rel": "teaches",
+     "grade": "1-3"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:animal-classes-coverings": {
+   "rows": [
+    {
+     "id": "QM.2.A1",
      "rel": "teaches",
      "grade": "1-3"
     }
@@ -4291,6 +4291,21 @@
    ],
    "by": "authored"
   },
+  "2:habitats-adaptations": {
+   "rows": [
+    {
+     "id": "QM.2.C7",
+     "rel": "teaches",
+     "grade": "1-3"
+    },
+    {
+     "id": "QM.2.C6",
+     "rel": "teaches",
+     "grade": "1-3"
+    }
+   ],
+   "by": "authored"
+  },
   "2:sink-float": {
    "rows": [
     {
@@ -4327,21 +4342,6 @@
      "id": "HG.CP.H1.2",
      "rel": "teaches",
      "grade": "1"
-    }
-   ],
-   "by": "authored"
-  },
-  "2:habitats-adaptations": {
-   "rows": [
-    {
-     "id": "QM.2.C7",
-     "rel": "teaches",
-     "grade": "1-3"
-    },
-    {
-     "id": "QM.2.C6",
-     "rel": "teaches",
-     "grade": "1-3"
     }
    ],
    "by": "authored"
@@ -4581,7 +4581,23 @@
    "none": "not yet read against this curriculum",
    "by": "authored"
   },
+  "K:germ-busters": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "K:i-can": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:calm-down": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:kind-words": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:space-bubble": {
    "none": "not yet read against this curriculum",
    "by": "authored"
   },

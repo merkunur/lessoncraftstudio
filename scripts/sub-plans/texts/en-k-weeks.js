@@ -78,9 +78,8 @@ module.exports = {
     'K:fruit-vegetable': (() => {
       const NOTE = 'If a food can be called both, either box is right when the child can say why.';
       const s = sortScript('two boxes, Fruits and Vegetables', 'ask, "Is this a fruit or a vegetable?"', NOTE);
-      // the pages that show a tomato
-      const tomato = { first: s.first.replace(NOTE, 'A tomato is a fruit to a scientist and a vegetable in the kitchen; either box is right for it.') };
-      s.byPage = { 'science-sort-k202': tomato, 'science-sort-k202-3': tomato };
+      // (the tomato notes of science-sort-k202 and -k202-3 are gone: tomato, cucumber and corn were retired from these
+      // pages on 2026-11-23 and the pages republished, so no K-202 page shows a tomato)
       return s;
     })(),
     'K:healthy-food': sortScript('two boxes, Healthy and Not Healthy', 'ask, "Is this good for our body every day, or is it a treat for once in a while?"', 'A treat is fine once in a while; the page only asks which foods to eat every day.'),
@@ -90,6 +89,10 @@ module.exports = {
       stuck: 'Have the child touch the part on their own body and say its name. Then find the word in the box together; the first letter helps: "Eye starts with e. Where is the word that starts with e?" Eye and ear both start with e: eye ends with e, ear ends with r.',
       byType: {
         'K-344': { say: '"This page is about your face. Each line points to a part of the face. Copy the right word from the box onto each line. Then draw your own face in the big box."' },
+      },
+      // a page whose word box is arm, hand, neck, shoulder (no eye or ear): its own first-letter example
+      byPage: {
+        'human-body-k354-2': { stuck: 'Have the child touch the part on their own body and say its name. Then find the word in the box together; the first letter helps: "Hand starts with h. Where is the word that starts with h?"' },
       },
     },
     'K:living-nonliving': sortScript('two boxes, Living and Non-living', 'ask, "Does it grow and need water and air? Then it is living." Plants are living too, even though they do not walk or run.'),
@@ -439,7 +442,6 @@ module.exports = {
         'picture-vocabulary-k225-2': { first: 'Read the words on the page aloud and have the class read each one after you. Name the pictures together: bus, can (a soup can), key, fig, fox, bun (the bread). Do the first word together and draw the line.' },
         'picture-vocabulary-k225-3': { first: 'Read the words on the page aloud and have the class read each one after you. Name the pictures together: bag, dog, fan, bun (the bread), egg, key. Do the first word together and draw the line.' },
         'picture-vocabulary-k225-4': { first: 'Read the words on the page aloud and have the class read each one after you. Name the pictures together: cap, fan, bee, hen, hot (the hot sun), jam. Do the first word together and draw the line.' },
-        'picture-vocabulary-k225-5': { first: 'Read the words on the page aloud and have the class read each one after you. Name the pictures together: egg, bun (the bread), fox, ham, ox (it looks like a cow), bus. Do the first word together and draw the line.' },
       },
     },
     'K:word-sentence-tracing': {

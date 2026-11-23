@@ -4323,6 +4323,46 @@
    ],
    "by": "code"
   },
+  "K:animal-groups-homes": {
+   "rows": [
+    {
+     "id": "K-ESS3-1",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
+  "K:animal-food": {
+   "rows": [
+    {
+     "id": "K-LS1-1",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
+  "K:animal-home": {
+   "rows": [
+    {
+     "id": "K-ESS3-1",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
+  "K:animals-change-land": {
+   "rows": [
+    {
+     "id": "K-ESS2-2",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
   "K:living-nonliving": {
    "rows": [
     {
@@ -4347,16 +4387,6 @@
     }
    ],
    "by": "review"
-  },
-  "K:animal-groups-homes": {
-   "rows": [
-    {
-     "id": "K-ESS3-1",
-     "rel": "teaches",
-     "grade": "K"
-    }
-   ],
-   "by": "code"
   },
   "K:day-night": {
    "rows": [
@@ -4523,36 +4553,6 @@
    ],
    "by": "code"
   },
-  "K:animal-food": {
-   "rows": [
-    {
-     "id": "K-LS1-1",
-     "rel": "teaches",
-     "grade": "K"
-    }
-   ],
-   "by": "code"
-  },
-  "K:animal-home": {
-   "rows": [
-    {
-     "id": "K-ESS3-1",
-     "rel": "teaches",
-     "grade": "K"
-    }
-   ],
-   "by": "code"
-  },
-  "K:animals-change-land": {
-   "rows": [
-    {
-     "id": "K-ESS2-2",
-     "rel": "teaches",
-     "grade": "K"
-    }
-   ],
-   "by": "code"
-  },
   "1:five-senses": {
    "rows": [
     {
@@ -4618,21 +4618,6 @@
    ],
    "by": "review"
   },
-  "1:animal-classes-coverings": {
-   "rows": [
-    {
-     "id": "1-LS1-1",
-     "rel": "teaches",
-     "grade": "1"
-    },
-    {
-     "id": "4-LS1-1",
-     "rel": "prepares",
-     "grade": "4"
-    }
-   ],
-   "by": "review"
-  },
   "1:habitats-needs": {
    "rows": [
     {
@@ -4647,6 +4632,21 @@
     }
    ],
    "by": "code"
+  },
+  "1:animal-classes-coverings": {
+   "rows": [
+    {
+     "id": "1-LS1-1",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "4-LS1-1",
+     "rel": "prepares",
+     "grade": "4"
+    }
+   ],
+   "by": "review"
   },
   "1:sink-float": {
    "rows": [
@@ -4718,6 +4718,21 @@
    ],
    "by": "code"
   },
+  "2:habitats-adaptations": {
+   "rows": [
+    {
+     "id": "2-LS4-1",
+     "rel": "teaches",
+     "grade": "2"
+    },
+    {
+     "id": "3-LS4-3",
+     "rel": "prepares",
+     "grade": "3"
+    }
+   ],
+   "by": "review"
+  },
   "2:sink-float": {
    "rows": [
     {
@@ -4774,21 +4789,6 @@
      "id": "5-ESS1-2",
      "rel": "prepares",
      "grade": "5"
-    }
-   ],
-   "by": "review"
-  },
-  "2:habitats-adaptations": {
-   "rows": [
-    {
-     "id": "2-LS4-1",
-     "rel": "teaches",
-     "grade": "2"
-    },
-    {
-     "id": "3-LS4-3",
-     "rel": "prepares",
-     "grade": "3"
     }
    ],
    "by": "review"
@@ -5020,10 +5020,60 @@
    ],
    "by": "review"
   },
+  "K:germ-busters": {
+   "rows": [
+    {
+     "id": "NHES.7.2.2",
+     "rel": "teaches",
+     "grade": "P-2"
+    },
+    {
+     "id": "NHES.7.2.1",
+     "rel": "teaches",
+     "grade": "P-2"
+    }
+   ],
+   "by": "review"
+  },
   "K:i-can": {
    "rows": [
     {
      "id": "NHES.1.2.1",
+     "rel": "teaches",
+     "grade": "P-2"
+    }
+   ],
+   "by": "review"
+  },
+  "K:calm-down": {
+   "rows": [
+    {
+     "id": "NHES.8.2.1",
+     "rel": "teaches",
+     "grade": "P-2"
+    },
+    {
+     "id": "NHES.4.2.1",
+     "rel": "prepares",
+     "grade": "P-2"
+    }
+   ],
+   "by": "review"
+  },
+  "K:kind-words": {
+   "rows": [
+    {
+     "id": "NHES.4.2.5",
+     "rel": "teaches",
+     "grade": "P-2"
+    }
+   ],
+   "by": "review"
+  },
+  "K:space-bubble": {
+   "rows": [
+    {
+     "id": "NHES.4.2.4",
      "rel": "teaches",
      "grade": "P-2"
     }

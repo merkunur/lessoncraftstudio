@@ -1,8 +1,18 @@
 {
- "$comment": "The coverage gaps of en frozen by scripts/units/coverage.js --freeze. This list may only SHRINK: a gap that is closed is taken off it (the gate fails until it is), and no new gap may be added to make a build pass.",
+ "$comment": "The coverage gaps of en frozen by scripts/units/coverage.js --freeze. This list may only SHRINK: a gap that is closed is taken off it (the gate fails until it is), and no new gap may be added to make a build pass. 2026-11-23: the ten Kindergarten science gaps (7 unit checks, the 3 checks of the year) were added ONCE as a new subject was first measured (Stage D, plan decision 7): the card-based check engine cannot read the science pages yet; an observation check or a card form of the pages closes them.",
  "gaps": [
+  "check:k-animals-and-homes",
+  "check:k-plants-and-animals-grow",
+  "check:k-pushes-and-pulls",
+  "check:k-senses-and-body",
+  "check:k-sink-float-boats",
+  "check:k-sunlight-and-earth-care",
+  "check:k-weather-and-seasons",
   "weeks:plan-1-literacy",
   "weeks:plan-2-literacy",
-  "weeks:plan-3-literacy"
+  "weeks:plan-3-literacy",
+  "year:K-science:beginning",
+  "year:K-science:end",
+  "year:K-science:middle"
  ]
 }

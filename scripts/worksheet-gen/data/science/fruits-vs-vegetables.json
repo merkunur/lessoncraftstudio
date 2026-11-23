@@ -88,7 +88,9 @@
     {
       "theme": "vegetables",
       "noun": "tomato",
-      "bin": "vegetables"
+      "bin": "vegetables",
+      "retired": true,
+      "retiredWhy": "2026-11-23 science review: a tomato is the fruit of its plant (G2-363 says so)"
     },
     {
       "theme": "vegetables",
@@ -103,12 +105,16 @@
     {
       "theme": "vegetables",
       "noun": "corn",
-      "bin": "vegetables"
+      "bin": "vegetables",
+      "retired": true,
+      "retiredWhy": "2026-11-23 science review: corn is the seed (a grain) of its plant"
     },
     {
       "theme": "vegetables",
       "noun": "cucumber",
-      "bin": "vegetables"
+      "bin": "vegetables",
+      "retired": true,
+      "retiredWhy": "2026-11-23 science review: a cucumber is the fruit of its plant"
     },
     {
       "theme": "vegetables",

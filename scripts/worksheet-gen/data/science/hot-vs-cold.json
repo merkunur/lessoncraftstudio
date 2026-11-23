@@ -103,7 +103,9 @@
     {
       "theme": "winter",
       "noun": "mittens",
-      "bin": "cold"
+      "bin": "cold",
+      "retired": true,
+      "retiredWhy": "2026-11-23 science review: mittens are not cold; they keep hands warm"
     }
   ]
 }

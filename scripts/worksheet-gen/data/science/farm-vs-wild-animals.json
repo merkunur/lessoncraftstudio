@@ -63,7 +63,9 @@
     {
       "theme": "farm animals",
       "noun": "duck",
-      "bin": "farm"
+      "bin": "farm",
+      "retired": true,
+      "retiredWhy": "2026-11-23 science review: wild ducks are common on ponds"
     },
     {
       "theme": "farm animals",

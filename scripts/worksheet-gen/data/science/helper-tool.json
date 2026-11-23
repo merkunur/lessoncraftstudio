@@ -59,7 +59,9 @@
       "right": {
         "theme": "music",
         "noun": "trumpet"
-      }
+      },
+      "retired": true,
+      "retiredWhy": "2026-11-23 social studies review: a musician is no community helper"
     },
     {
       "left": {
@@ -99,7 +101,9 @@
       "right": {
         "theme": "space",
         "noun": "rocket"
-      }
+      },
+      "retired": true,
+      "retiredWhy": "2026-11-23 social studies review: an astronaut is no community helper and a rocket is no tool"
     },
     {
       "left": {

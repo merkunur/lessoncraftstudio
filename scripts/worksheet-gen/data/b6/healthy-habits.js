@@ -79,7 +79,7 @@ const HEALTHY_HABITS = {
       'brush-teeth': 'It keeps our smile clean and bright.',
       sleep: 'Our body and brain rest and get ready for a new day.',
       'move-body': 'It makes us fit, fast and strong.',
-      'sun-protect': 'We do not get burnt on a hot, sunny day.',
+      'sun-protect': 'We do not get burned on sunny days.',   // 2026-11-23: not only hot days burn; American "burned"
       'drink-water': 'Our body needs it to work well.',
       'blow-nose': 'We can breathe easily again.',
     },

@@ -291,7 +291,7 @@ const REASON_READ = {
     'brush-teeth': ['It keeps our smile clean and bright.', 'brush-teeth'],
     sleep: ['Our body and brain rest and get ready for a new day.', 'sleep'],
     'move-body': ['It makes us fit, fast and strong.', 'move-body'],
-    'sun-protect': ['We do not get burnt on a hot, sunny day.', 'sun-protect'],
+    'sun-protect': ['We do not get burned on sunny days.', 'sun-protect'],
     'drink-water': ['Our body needs it to work well.', 'drink-water'],
     'blow-nose': ['We can breathe easily again.', 'blow-nose'],
   },

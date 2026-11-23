@@ -1,5 +1,5 @@
 {
-  "_note": "Living vs non-living things. K-2 biology. Living = grows/eats/breathes; non-living = made objects. All keys verified in cache manifest.",
+  "_note": "Living vs non-living things. K-2 biology. Living = grows/eats/breathes; non-living = made objects and natural things (rock, snowflake). All keys verified in cache manifest.",
   "bins": [
     {
       "key": "living",
@@ -119,6 +119,18 @@
       "theme": "kitchen tools",
       "noun": "spoon",
       "bin": "nonliving"
+    },
+    {
+      "theme": "camping",
+      "noun": "rock",
+      "bin": "nonliving",
+      "added": "2026-11-23 science review: a natural non-living thing (every non-living picture was a made object)"
+    },
+    {
+      "theme": "winter",
+      "noun": "snowflake",
+      "bin": "nonliving",
+      "added": "2026-11-23 science review: a natural non-living thing (every non-living picture was a made object); not the cloud: every library cloud has a face"
     }
   ]
 }

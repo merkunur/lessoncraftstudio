@@ -53,7 +53,9 @@
     {
       "theme": "pets",
       "noun": "rabbit",
-      "bin": "pets"
+      "bin": "pets",
+      "retired": true,
+      "retiredWhy": "2026-11-23 science review: wild rabbits are common in the US"
     },
     {
       "theme": "pets",
@@ -63,7 +65,9 @@
     {
       "theme": "pets",
       "noun": "parrot",
-      "bin": "pets"
+      "bin": "pets",
+      "retired": true,
+      "retiredWhy": "2026-11-23 science review: parrots live wild too"
     },
     {
       "theme": "pets",

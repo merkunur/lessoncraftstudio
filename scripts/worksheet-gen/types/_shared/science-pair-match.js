@@ -28,27 +28,35 @@ function makeSciencePairMatch(cfg) {
     difficulty: cfg.difficulty || { 1: { pairs: 4 }, 2: { pairs: 5 }, 3: { pairs: 5 } },
     i18n: cfg.i18n,
 
-    build({ difficulty }, ctx) {
+    build({ difficulty, locale }, ctx) {
       const rng = ctx.rng;
       const d = this.difficulty[difficulty] || this.difficulty[2];
-      const n = Math.min(d.pairs, allPairs.length);
+      // a RETIRED pair (data `retired: true` or `retired: [locales]`; 2026-11-23: K-213's astronaut + rocket and musician +
+      // trumpet are no community helper with a tool) is never drawn: a draw that holds one is drawn again, as a draw
+      // holding a conflict is, so a page that never held one keeps the draw it shipped with
+      const loc2 = String(locale || 'en').slice(0, 2);
+      const retired = (p) => p.retired === true || (Array.isArray(p.retired) && p.retired.includes(loc2));
+      const livePairs = allPairs.filter((p) => !retired(p));
+      const n = Math.min(d.pairs, livePairs.length);
       // two pairs whose tools each fit both people never share a page (data `conflicts`: the farmer picture HOLDS a rake —
       // with the gardener and his rake on the page the farmer had two tools; 2026-11-02). A draw holding both is drawn
       // again, so a page that never held them keeps the draw it shipped with
       const conflicts = cfg.data.conflicts || [];
       const clash = (ps) => conflicts.some((c) => c.every((noun) => ps.some((p) => p.left.noun === noun)));
+      const bad = (ps) => clash(ps) || ps.some(retired);
       let pairs = rng.sample(allPairs, n);
-      for (let g = 0; g < 200 && clash(pairs); g++) pairs = rng.sample(allPairs, n);
-      if (clash(pairs)) throw new Error(cfg.id + ': no page of ' + n + ' pairs without a conflict');
+      for (let g = 0; g < 200 && bad(pairs); g++) pairs = rng.sample(allPairs, n);
+      for (let g = 0; g < 200 && bad(pairs); g++) pairs = rng.sample(livePairs, n);
+      if (bad(pairs)) throw new Error(cfg.id + ': no page of ' + n + ' pairs without a conflict');
       // makers (2026-11-02): each PAIR is a slot (tap the left picture: another pair of the list comes with its own right
       // picture); a choice that brings a conflict is refused. The KEY numbers the left pictures and gives each right one
       // its partner's number; the SCREEN makes each left picture an item that answers its right one. Catalogue unchanged
       const asItem = (p) => ({ theme: p.left.theme, noun: p.left.noun, p });
       const drawn = pairs;
-      pairs = slot.anyPictures(ctx, drawn.map(asItem), allPairs.map(asItem), 'pair').map((x) => x.p);
+      pairs = slot.anyPictures(ctx, drawn.map(asItem), livePairs.map(asItem), 'pair').map((x) => x.p);
       // a pair brings its partner (the doctor her thermometer): the gates read the partner as part of the swapped item
       if (ctx && ctx.slotsOut && ctx.slotsOut.pair) ctx.slotsOut.pair.partners = Object.fromEntries(allPairs.map((p) => [p.left.theme + '/' + p.left.noun, [p.right.noun]]));
-      if (clash(pairs)) { pairs = slot.anyPictures(ctx && { ...ctx, overrides: null }, drawn.map(asItem), allPairs.map(asItem), 'pair').map((x) => x.p); slot.refuse(ctx, 'pair'); }
+      if (clash(pairs)) { pairs = slot.anyPictures(ctx && { ...ctx, overrides: null }, drawn.map(asItem), livePairs.map(asItem), 'pair').map((x) => x.p); slot.refuse(ctx, 'pair'); }
       const key = !!(ctx && ctx.answerKey), scr = !key && !!(ctx && ctx.screen);
 
       // right column deranged: no baby sits straight across from its grown-up

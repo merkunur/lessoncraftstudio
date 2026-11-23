@@ -53,7 +53,9 @@
     {
       "theme": "weather",
       "noun": "cloud",
-      "bin": "day"
+      "bin": "day",
+      "retired": true,
+      "retiredWhy": "2026-11-23 science review: clouds are in the night sky too"
     },
     {
       "theme": "spring",
@@ -63,7 +65,9 @@
     {
       "theme": "space",
       "noun": "moon",
-      "bin": "night"
+      "bin": "night",
+      "retired": true,
+      "retiredWhy": "2026-11-23 science review: the Moon is often in the day sky too"
     },
     {
       "theme": "shapes",
@@ -83,7 +87,9 @@
     {
       "theme": "weather",
       "noun": "sunny",
-      "bin": "day"
+      "bin": "day",
+      "retired": true,
+      "retiredWhy": "2026-11-23 science review: a second smiling sun beside the sun reads as the same picture twice"
     },
     {
       "theme": "space",

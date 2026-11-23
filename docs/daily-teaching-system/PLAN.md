@@ -1707,3 +1707,58 @@ About 20 science needs are investigation records, which one record factory (pred
 **Deploy 50 (commit `26725d809`).** `build-points.js` orders a subject without an authored order by its strand's place in `sequence.json`, so the new Science subject moved the `order` of 37 science and health points; no other field changed. Teaching-graph gate G1 caught it on deploy 49. That gate is warn-only in `deploy.sh`, and the rule now is to run `build-points.js` whenever `sequence.json` changes. IDENTITY PASS.
 
 **Next:** D-5 batch K. Design the 21 Kindergarten pages from the work list, then build, review, publish noindex, and place the seven Kindergarten science and two health units.
+
+### 2026-11-23: Stage D-5 batch K is live: 21 new Kindergarten science and health page types; K-374's crossing routine completed (deploy 51, commit `4606f3457`)
+
+**What was built:** the 21 Kindergarten lines of the work lists, 18 science and 3 health (`lcs-stage-d/batch-k/LINES.md`).
+- **Types:** K-687 to K-707, English only, each in an existing family (`types/_shared/dk-kinder.js`, `data/science/dk-kinder.js`).
+- **Topics:** what the body needs; wind watch; rain gauge; ready for the weather; what animals eat; a home for a frog; animals change the land; push or pull; a harder push; change its direction; make the ball hit the cup; which ramp works better; draw, test and compare boats; a bean seed journal; sun or shade; shade for an ice cube; I can do it; sleep and play; trusted grown-ups.
+- **Who did the work:** one Opus builder from the work list, and one American Kindergarten reviewer who read every text and every picture in two rounds. Every must-fix and should-fix finding was applied at its source:
+  - **Round 1 (53 findings):**
+    - the bear goes, since no food is safely wrong for a bear;
+    - the banded worm reads as a snake and is retired; the frog eats a cricket;
+    - a sunny day no longer stands for "hot";
+    - the bedtime strip has one order (bath, pajamas, bed);
+    - the bench is gone;
+    - K-707 is redesigned: circle the grown-ups who could help, among children, plus "Always check first with your grown-up before you go anywhere with anyone."
+  - **Round 2 (16 findings):** the beaver is never the extra animal beside the hole; a toddler replaces the jogger; the "look right" arrow arcs over the grown-up.
+
+**Gates:**
+- `qa/verify-dk-kinder.js`: 1,825 assertions, 400 seeds a level, 42 of 42 poisons caught.
+- Every family gate the batch touched passes, except weather-symbols. Its frozen G3-345 hash failed the same way before this batch.
+
+**K-374, a live page in English only:**
+- **The routine:** the US crossing routine in five cards: stop at the curb, look left, look right, look left again, then cross. The grown-up holds the child's hand on every card.
+- **One order:** exactly one order is valid. This is proved in the builder, in the page's own check and in the road-safety gate (85 of 85 poisons caught).
+- **Untouched pages:** every other page of the K-369 family is byte-identical (9,504 pages hashed).
+- **The other languages are unchanged:** no locale file records the second look or the grown-up, and any adoption would need a native check per language.
+- **Republished in place** in the HANDOFF §6 order:
+  - injections audit: 0 lost;
+  - identity restore: the indexed description is back to its baseline (it still quotes the old instruction, by the rule);
+  - repoint: missing 0, and the second pass changes nothing;
+  - IDENTITY PASS.
+- **The landing:** it still says "four cards"; landing text is changed only when you ask.
+
+**Published:** the Level Set `year-sci-k` (prefix `ydk`), 165 never-indexed pages in English:
+- **Copies:** capped per level at the pages that differ in content. Open drawing and record pages print one page.
+- **Audit:** 165 of 165 clean.
+- **Class sheets:** 21.
+
+**Teaching points:** 21 new points (`scripts/units/year/add-points-k.en.science.js`).
+- **Science:** each point carries its NGSS performance expectation, which the English crosswalk reads.
+- **Health:** NHES 1.2.1, 1.2.5 and 3.2.1 rows in the English overrides.
+- **Texas and every other curriculum:** "not yet read" until the Kindergarten units place these points; then the Texas reading follows.
+- **Pathways:** `habitats` joins the Science strand.
+- **Work lists:** the 21 lines are marked built. Still to build: science 48, plus 12 changes; health 18, plus 3.
+
+**PC and server cleaned:** all published staging ZIPs are removed, 116 GB of older waves included. The rule is that every published staging folder is deleted after the publish.
+
+**Next:** D-3 for Kindergarten, placing the seven Kindergarten science units and the two health units:
+1. teacher notes for every lesson, including the teacher-led ones, read by one reviewer;
+2. `place-ready`, assemble, plans, guides;
+3. unit checks;
+4. coverage for the new subjects (gaps frozen once);
+5. the Texas reading of the points;
+6. unit titles from the US search heads.
+
+Then batch 1 (Grade 1 pages), and so on.

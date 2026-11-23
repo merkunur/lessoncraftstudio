@@ -4,7 +4,7 @@ const base = require('../k/K-355-five-senses.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[2], ...{"layout":"sort","perBin":2,"bins":5,"cols":5,"iconPx":64,"maxPerSense":2,"pool":"strong","organInBin":true,"zone":260} };
+const D = { ...base.difficulty[2], ...{"layout":"sort","perBin":2,"bins":5,"cols":5,"iconPx":64,"maxPerSense":2,"pool":"strong","organInBin":true,"zone":260,"senseMax":{"smell":1}} };
 module.exports = {
   ...base,
   id: 'G1-357',

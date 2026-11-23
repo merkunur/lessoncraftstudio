@@ -110,7 +110,10 @@ module.exports = {
   difficulty: {
     1: { perBin: 1, rowLen: 2, tile: 124, iconPx: 100, cols: [1, 2], maxAlignedPerRow: 1, allowWeak: false, writeNames: false, binH: 160, namePx: 22, rowGap: 51 },
     2: { perBin: 2, rowLen: 4, tile: 112, iconPx: 88, cols: [0, 1, 2, 3], maxAlignedPerRow: 1, allowWeak: false, writeNames: false, binH: 160, namePx: 22, rowGap: 63 },
-    3: { perBin: 3, rowLen: 6, tile: 84, iconPx: 64, cols: null, maxAlignedPerRow: null, allowWeak: true, writeNames: true, binH: 190, namePx: 22, rowGap: 20 },
+    // level 3 keeps the season names in the boxes (2026-11-23 D-2 teacher review: the boxes dropped their names for
+    // writing lines that nothing asked the child to fill, and writing Winter / Spring / Summer / Fall alone is not K work):
+    // the level is the same sort with twelve pictures
+    3: { perBin: 3, rowLen: 6, tile: 84, iconPx: 64, cols: null, maxAlignedPerRow: null, allowWeak: true, writeNames: false, binH: 190, namePx: 22, rowGap: 20 },
   },
   i18n: {
     en: {
@@ -161,7 +164,11 @@ module.exports = {
     const items = [];
     for (const season of KEYS) {
       const pool = this._pool(neutral, block, season, d.allowWeak);
-      const picked = sampleEntries(rng, pool, d.perBin, `K-322 ${loc} ${season}`);
+      // a marker retired from the sort (data `retiredOnSort`, the camping tent) is never drawn: a draw that holds one is
+      // drawn again, so a page that never held one keeps the draw it shipped with
+      let picked = sampleEntries(rng, pool, d.perBin, `K-322 ${loc} ${season}`);
+      for (let g = 0; g < 200 && picked.some((it) => it.retiredOnSort); g++) picked = rng.sample(pool, d.perBin);
+      if (picked.some((it) => it.retiredOnSort)) picked = sampleEntries(rng, pool.filter((it) => !it.retiredOnSort), d.perBin, `K-322 ${loc} ${season}`);
       for (const it of picked) items.push({ theme: it.theme, noun: it.noun, season });
     }
     const nouns = new Set(items.map((it) => it.noun));

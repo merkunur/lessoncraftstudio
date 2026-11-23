@@ -4,7 +4,7 @@ const base = require('../k/K-357-recycling.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[2], ...{"layout":"odd","rows":4,"items":4,"box":120,"iconPx":84,"boxMax":150,"organicOdd":true} };
+const D = { ...base.difficulty[2], ...{"layout":"odd","rows":4,"items":4,"box":120,"iconPx":84,"boxMax":150,"organicOdd":true,"organicTrio":false} };
 module.exports = {
   ...base,
   id: 'G2-348',

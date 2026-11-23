@@ -34,7 +34,7 @@ const ROWS = [
     { layout: 'color', legend: 5, figureH: 660, regionPool: ['hair', 'head', 'arm', 'hand', 'leg', 'foot'], swatch: 36, wordPx: 22 },
     'Parts of the Body: Color by Legend', 'Read the legend and color each part of the body in the color written next to its name.'],
   ['g1', 'G1-356', 'human-body-write-the-word', 'K-354-human-body.js', 2,
-    { layout: 'write', labels: 6, faceMax: 2, leadMin: 4, boxes: true, box: 44, gap: 4, maxLetters: 8, figureH: 520, markerMin: 30 },
+    { layout: 'write', labels: 6, faceMax: 2, leadMin: 4, boxes: true, box: 44, gap: 4, maxLetters: 8, figureH: 520, markerMin: 30, exclude: ['head'] },   // exclude: 2026-11-23 D-2 (a disc on the cheek reads head / face / nose)
     'Parts of the Body: Write the Word', 'Find each numbered part on the figure and write its name, one letter in each box.',
     { gradeBand: 'G1' }],
   ['k', 'K-362', 'human-body-what-is-missing', 'K-354-human-body.js', 2,

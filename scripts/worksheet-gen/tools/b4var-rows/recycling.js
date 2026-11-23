@@ -44,7 +44,7 @@ const ROWS = [
     { layout: 'write', rows: 8, tile: 64, iconPx: 52, rulingW: 400, glyphH: 30, bankPx: 18, bank: true },
     'Recycling Sort: What Is It Made Of?', 'What is each thing made of? Write the word from the bank on the line.', G1],
   ['g2', 'G2-348', 'recycling-odd-one-out-by-material', 'K-357-recycling.js', 2,
-    { layout: 'odd', rows: 4, items: 4, box: 120, iconPx: 84, boxMax: 150, organicOdd: true },
+    { layout: 'odd', rows: 4, items: 4, box: 120, iconPx: 84, boxMax: 150, organicOdd: true, organicTrio: false },   // organicTrio: 2026-11-23 D-2 (three foods are not "made of the same material")
     'Recycling Sort: Odd One Out', 'In each row three things are made of the same material. Circle the one that is different.', G2],
   ['k', 'K-367', 'recycling-color-the-bins', 'K-357-recycling.js', 2,
     { layout: 'color', bins: 'locale', binH: 330, examples: 2, pic: 84, legendPx: 17, legendOrder: 'shuffled' },

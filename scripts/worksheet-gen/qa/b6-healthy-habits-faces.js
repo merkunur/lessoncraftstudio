@@ -88,9 +88,14 @@ function pooled(spec, face, n, ok) {
     rows.push(`F1 pooled ${n}: own slot 0 %, worst step-in-slot ${(100 * worst).toFixed(1)} % (<= 35)`);
   }
   if (face.mode === 'brushing-teeth') {
-    let lo = 1, hi = 0; for (const p of ['before', 'during', 'after']) for (let i = 0; i < 7; i++) { const x = pct(`${p}@${i}`, n); lo = Math.min(lo, x); hi = Math.max(hi, x); }
-    ok(lo >= 0.15 && hi <= 0.55, `pooled F2: a phase in one reading slot ${(100 * lo).toFixed(1)}..${(100 * hi).toFixed(1)} % (15..55)`);
-    rows.push(`F2 pooled ${n}: phase-in-slot ${(100 * lo).toFixed(1)}..${(100 * hi).toFixed(1)} % (15..55)`);
+    // one slot a card, and the floor is HALF a phase's share of the cards (2026-11-23 D-2: spit dropped, 6 cards, before 2 ·
+    // during 3 · after 1; the fixed 15 % floor was half of 2/7 for the shipped 7-card mix, and a 1-card phase sits at 1/6)
+    const nCards = Object.keys(COMMON.PHASE_OF).length;
+    const share = (p) => Object.values(COMMON.PHASE_OF).filter((x) => x === p).length / nCards;
+    let lo = 1, hi = 0, under = [];
+    for (const p of ['before', 'during', 'after']) for (let i = 0; i < nCards; i++) { const x = pct(`${p}@${i}`, n); lo = Math.min(lo, x); hi = Math.max(hi, x); if (x < share(p) / 2) under.push(`${p}@${i} ${(100 * x).toFixed(1)} %`); }
+    ok(!under.length && hi <= 0.55, `pooled F2: a phase in one reading slot ${(100 * lo).toFixed(1)}..${(100 * hi).toFixed(1)} % (each >= half its share, <= 55)${under.length ? ' under: ' + under.join(', ') : ''}`);
+    rows.push(`F2 pooled ${n}: phase-in-slot ${(100 * lo).toFixed(1)}..${(100 * hi).toFixed(1)} % (each >= half its share, <= 55)`);
   }
   if (face.mode === 'stop-the-germs') {
     const all = pct('L', 4 * n);
@@ -133,7 +138,7 @@ async function faceGate({ page, K, quick, OUTDIR, validateBank }) {
     for (const [k, t] of own.m.reasons) ok(t === en.reasons[k], `${f.id}: the reason card stamped ${k} prints "${t}"`);
     ok(own.m.title === en.strings[f.mode].title && own.m.instr === en.strings[f.mode].instruction, `${f.id}: printed title / instruction ≠ the bank`);
     // printed literals === the bank
-    if (f.mode === 'brushing-teeth') for (const k of ['before', 'during', 'after']) ok(own.m.text.split('\n').filter((l) => l.trim() === en.phases[k]).length === 7, `${f.id}: the chip "${en.phases[k]}" is not printed once per card`);
+    if (f.mode === 'brushing-teeth') for (const k of ['before', 'during', 'after']) ok(own.m.text.split('\n').filter((l) => l.trim() === en.phases[k]).length === Object.keys(COMMON.PHASE_OF).length, `${f.id}: the chip "${en.phases[k]}" is not printed once per card`);
     if (f.mode === 'why-habits') for (const h of COMMON.reasonD2) ok(own.m.text.includes(en.reasons[h]), `${f.id}: the reason for ${h} is not printed verbatim`);
     if (f.mode === 'habit-chart') {
       for (const h of COMMON.chartRows) ok(own.m.text.includes(en.labels[h]), `${f.id}: the label for ${h} is not printed verbatim`);
@@ -166,14 +171,16 @@ async function faceGate({ page, K, quick, OUTDIR, validateBank }) {
   await J('P14 F1 rinse drawn without its falling bubbles', 'K-382', { doctor: (h) => h.replace(/(<g data-lcs-hands="rinse"[\s\S]*?)<g data-lcs-part="bubbles">[\s\S]*?<\/g>/, '$1') }, /reads as wet|distinct steps|draw 4 distinct/);
   await J('FO1 F1 printed in the routine order', 'K-382', { plan: { order: COMMON.handSteps.slice() } }, /own reading slot/);
   // FIX ROUND 2: rinse-brush / open-tube are DROPPED (two right answers); the spit brush lies down; the state cards
-  await J('P15 F2 the spit brush held up above the head again', 'G1-403', { doctor: (h) => h.replace(/(<g data-lcs-brush="spit"[\s\S]*?)(<g data-lcs-part="brush")/, '$1<g transform="translate(-10 -62)">$2').replace(/(<g data-lcs-brush="spit"[\s\S]*?)(<g data-lcs-part="drops">)/, '$1</g>$2') }, /holds the brush up/);
+  // 2026-11-23 D-2: the spit card is DROPPED (a child spits during brushing too), so P15 (its brush held up) has no card to
+  // poison; P15 now puts the dropped spit card back
+  await J('P15 F2 the dropped spit card put back', 'G1-403', { plan: { kinds: ['paste-on-brush', 'chewing', 'spit', 'outside', 'dirty-teeth', 'inside'] } }, /dropped card "spit"/);
   await J('P15b F2 plaque drawn on the clean tooth (both cues)', 'G1-403', { doctor: (h) => { const pq = /<g data-lcs-part="plaque">[\s\S]*?<\/g>/.exec(h)[0]; return h.replace(/(<g data-lcs-brush="clean-teeth"[^>]*>)/, `$1${pq}`); } }, /no brushing card can be read/);
   await J('FD3 F2 the dropped rinse-brush card put back', 'G1-403', { plan: { kinds: ['paste-on-brush', 'chewing', 'spit', 'outside', 'dirty-teeth', 'inside', 'rinse-brush'] } }, /dropped card "rinse-brush"/);
   await J('FD4 F2 the dropped open-tube card put back', 'G1-403', { plan: { kinds: ['open-tube', 'chewing', 'spit', 'outside', 'paste-on-brush', 'inside', 'clean-teeth'] } }, /dropped card "open-tube"/);
   await J('P16 F2 chip order varied in one cell', 'G1-403', { doctor: (h) => h.replace(/(<span class="hh-chip" data-lcs-chip="before"[^>]*>[^<]*<\/span>)(<span class="hh-chip" data-lcs-chip="during"[^>]*>[^<]*<\/span>)/, '$2$1') }, /chips are not identical/);
-  await J('FS1 F2 a card stamp swapped (the drawing wins)', 'G1-403', { doctor: (h) => h.replace('data-lcs-brush="spit"', 'data-lcs-brush="open-tube"') }, /drawn "spit", stamped "open-tube"/);
+  await J('FS1 F2 a card stamp swapped (the drawing wins)', 'G1-403', { doctor: (h) => h.replace('data-lcs-brush="clean-teeth"', 'data-lcs-brush="open-tube"') }, /drawn "clean-teeth", stamped "open-tube"/);
   await J('FD2 F2 the dropped brush-in-cup card put back', 'G1-403', { plan: { kinds: ['open-tube', 'chewing', 'spit', 'outside', 'paste-on-brush', 'inside', 'brush-in-cup'] } }, /dropped card "brush-in-cup"/);
-  await J('FG1 F2 sorted by phase (a staircase)', 'G1-403', { plan: { kinds: ['paste-on-brush', 'dirty-teeth', 'chewing', 'outside', 'inside', 'spit', 'clean-teeth'] } }, /same-phase neighbours|staircase/);
+  await J('FG1 F2 sorted by phase (a staircase)', 'G1-403', { plan: { kinds: ['paste-on-brush', 'dirty-teeth', 'chewing', 'outside', 'inside', 'clean-teeth'] } }, /same-phase neighbours|staircase/);
   await J('P17 F3 healthy side LRLR', 'G1-404', { plan: { keys: ['cough', 'tissue', 'cup', 'soap'], sides: ['L', 'R', 'L', 'R'] } }, /alternates LRLR/);
   const spray = '<g data-lcs-part="spray"><circle cx="72" cy="14" r="2.2" fill="#3A3530"/><circle cx="78" cy="18" r="2.2" fill="#3A3530"/></g>';
   await J('FC1 F3 the spray added to the elbow cough', 'G1-404', { doctor: (h) => h.replace(/(<g data-lcs-pictogram="habit" data-lcs-pose="cough-elbow"[^>]*>)/, `$1${spray}`) }, /0 healthy tiles/);

@@ -83,7 +83,7 @@
 const { bank: loadBank } = require('../../lib/b4-common.js');
 const { withFixedTheme } = require('../_shared/fixed-theme.js');
 const C4 = require('../../templates/components-b4.js');
-const { bodyFigure, ANCHORS, ANCHOR_IDS, LABEL_MIN_H, MAX_H, MARKER_MIN_GAP, REGIONS, FEATURES, anchorUnit } = require('../../primitives/body-figure.js');
+const { bodyFigure, ANCHORS, ANCHOR_IDS, LABEL_MIN_H, MAX_H, MARKER_MIN_GAP, REGIONS, FEATURES, anchorUnit, markerUnit } = require('../../primitives/body-figure.js');
 const tokens = require('../../primitives/_tokens.js');
 const FACTS = require('../../data/b4/body-facts.json');
 /** Regions that CONTAIN another region on the drawn figure. Two legend rows may never claim the
@@ -94,6 +94,18 @@ const FACTS = require('../../data/b4/body-facts.json');
  *  would cap the legend at 3 against legend:5 (measured before this was written). */
 const NESTED_REGIONS = [['head', 'hair']];
 const nestedWith = (id) => NESTED_REGIONS.filter((p) => p.includes(id)).flat().filter((x) => x !== id);
+/**
+ * Two parts of ONE limb whose pins sit a finger apart (2026-11-23 D-2 teacher review): the knee pin and the leg pin
+ * (just under the knee mark), the arm pin and the elbow pin (on a straight arm with no drawn bend) could be swapped, so
+ * the label face (K-354) and the write face (G1-356) never print both words of a pair; nor hair and head (the head pin
+ * on the cheek beside the hair pin), the write face's nested fence now on the label face too.
+ */
+// ...and foot + toe, hand + finger (2026-11-23 D-2 round 2: two rings side by side on one foot, on one hand). Each page
+// keeps ONE word of each pair in every draw (splitKeep, re-picked each try): rejecting draws that held a pair left most 8-label pages to the
+// fixed fallback set. The label and write faces only; the other faces never draw from this pool.
+const SPLIT_PAIRS = [['arm', 'elbow'], ['leg', 'knee'], ['foot', 'toe'], ['hand', 'finger'], ...NESTED_REGIONS];
+const splitClash = (ids) => SPLIT_PAIRS.some((p) => p.every((x) => ids.includes(x)));
+const splitKeep = (rng, pool) => { const drop = new Set(); for (const pr of SPLIT_PAIRS) { const both = pr.filter((x) => pool.includes(x)); if (both.length === 2) drop.add(rng.pick(both)); } return pool.filter((id) => !drop.has(id)); };
 const { fileUri } = require('../../image-cache/resolve.js');
 const { COLOR_WORDS } = require('../../data/color-words.js');
 const { SWATCH } = require('../../templates/components-b2.js');
@@ -110,12 +122,16 @@ const K_FLOOR = 56;
 const LEAD_SET = ['arm', 'leg', 'hand', 'foot', 'knee', 'elbow', 'shoulder', 'neck', 'head', 'finger', 'toe'];
 const FACE_SET = ['eye', 'ear', 'nose', 'mouth', 'hair'];
 const TRIES = 40;
+const COMPOSE_TRIES = 3000;
+/** The write face's fixed set when it excludes the head (G1-356): eye L for head L, shoulder R for arm R. */
+const WRITE_FALLBACK = { 3: [['eye', 'L'], ['leg', 'L'], ['foot', 'L'], ['shoulder', 'R'], ['hand', 'R'], ['ear', 'R']] };   // shoulder, not arm: fi käsivarsi is 9 letters
 const BANK_TRIES = 20;
 /** The design's fixed sets (the composer's fallback after TRIES rejections), per lanes-a-side. */
 const FALLBACK = {
+  // (2026-11-23: no set holds both words of a SPLIT_PAIRS pair — 3 lost knee R; 4 is the sweep-clean set searched in round 2)
   2: [['head', 'L'], ['foot', 'L'], ['arm', 'R'], ['knee', 'R']],
-  3: [['head', 'L'], ['leg', 'L'], ['foot', 'L'], ['arm', 'R'], ['hand', 'R'], ['knee', 'R']],
-  4: [['head', 'L'], ['elbow', 'L'], ['leg', 'L'], ['foot', 'L'], ['shoulder', 'R'], ['arm', 'R'], ['hand', 'R'], ['knee', 'R']],
+  3: [['head', 'L'], ['leg', 'L'], ['foot', 'L'], ['arm', 'R'], ['hand', 'R'], ['ear', 'R']],
+  4: [['head', 'L'], ['ear', 'L'], ['shoulder', 'L'], ['arm', 'L'], ['eye', 'R'], ['hand', 'R'], ['leg', 'R'], ['foot', 'R']],
 };
 /* ---- the faces (Phase 2) */
 const FACE_LAYOUTS = ['count', 'color', 'write', 'missing', 'pairs'];
@@ -574,10 +590,13 @@ const TYPE = {
     const pool = ANCHOR_IDS.filter((id) => !refused.has(id));
     if (pool.length < d.labels) throw new Error(`${ID}: ${loc} refuses ${refused.size} words, ${pool.length} left < ${d.labels} labels (refuse)`);
     const stageOf = (targets) => C4.bodyLabelStage({ targets, figureH: d.figureH, laneW: d.laneW, laneH: d.laneH, glyphH: d.glyphH, w: BODY_W, h: STAGE_H, gapX: GAP_X });
-    for (let t = 0; t < (d.fixed ? 0 : TRIES); t++) {   // `fixed:true` = the gate's seam onto the design's fixed set (never a shipped config)
-      const ids = rng.sample(pool, d.labels);
+    // COMPOSE_TRIES (2026-11-23): the SPLIT_PAIRS fence refuses most 8-label draws, so 40 draws sent nine level-3 pages in
+    // ten to the one fixed set; a page that found its set within 40 draws finds the same set at the same draw
+    for (let t = 0; t < (d.fixed ? 0 : COMPOSE_TRIES); t++) {   // `fixed:true` = the gate's seam onto the design's fixed set (never a shipped config)
+      const ids = rng.sample(splitKeep(rng, pool), d.labels);   // one word of each SPLIT_PAIRS pair, drawn again each try
       const faces = ids.filter((id) => FACE_SET.includes(id)).length, leads = ids.filter((id) => LEAD_SET.includes(id)).length;
       if (faces > d.faceMax || leads < d.leadMin) continue;
+      if (splitClash(ids)) continue;
       const order = rng.shuffle(ids);
       const targets = order.map((id, i) => ({ id, side: i < d.perSide ? 'L' : 'R' }));
       try { return { targets, stage: stageOf(targets) }; } catch (e) { if (e.code !== 'LEADER_CROSS') throw e; }
@@ -723,8 +742,11 @@ const TYPE = {
   _writePool(bankLoc, d, loc, refused) {
     const PW = bankLoc.partWords;
     if (!PW) throw new Error(`${ID}: ${loc} bank has no partWords (refuse)`);
+    // d.exclude (G1-356, 2026-11-23 D-2 teacher review): with no bank, a numbered disc on the head sits on the cheek, and
+    // "face" or "nose" fit its four boxes as well as "head" — the write face never asks for the head
+    const ex = new Set(Array.isArray(d.exclude) ? d.exclude : []);
     return ANCHOR_IDS.filter((id) => {
-      if (refused.has(id)) return false;
+      if (refused.has(id) || ex.has(id)) return false;
       const w = literal(PW, id, 'partWords', loc).normalize('NFC');
       return SINGLE_TOKEN.test(w) && letterCount(w) <= d.maxLetters;
     });
@@ -751,14 +773,17 @@ const TYPE = {
     if (figW + FACE_GAP + rowsW > BODY_W + 0.5) throw new Error(`${ID}: figure ${figW.toFixed(1)} + rows ${rowsW} > the body ${BODY_W}`);
     const stackH = d.labels * rowH + (d.labels - 1) * rowGap;
     if (stackH > FI_BODY - (d.bank ? 70 : 0)) throw new Error(`${ID}: ${d.labels} rows of ${rowH} exceed the ${FI_BODY} body`);
-    const pool = this._writePool(bankLoc, d, loc, refused);
+    const pool0 = this._writePool(bankLoc, d, loc, refused);
+    const pool = pool0;
     if (pool.length < d.labels) throw new Error(`${ID}: ${loc} eligible pool ${pool.length} < ${d.labels} labels (refuse)`);
     const PW = bankLoc.partWords;
     let picked = null;
-    const markersOf = (ids, sides) => ids.map((id) => ({ id, side: sides[id], a: anchorUnit(id, sides[id]) }))
+    const markersOf = (ids, sides) => ids.map((id) => ({ id, side: sides[id], a: markerUnit(id, sides[id]) }))
       .sort((p, q) => p.a.y - q.a.y || p.a.x - q.a.x).map((m, i) => ({ id: m.id, side: m.side, n: i + 1 }));
-    for (let t = 0; t < (d.fixed ? 0 : TRIES) && !picked; t++) {
-      const ids = rng.sample(pool, d.labels);
+    // COMPOSE_TRIES (2026-11-23 round 2): with the head excluded and the SPLIT_PAIRS fence, 40 draws left 2 pages in 1,980
+    // without a set (a page that found its set within 40 finds the same set)
+    for (let t = 0; t < (d.fixed ? 0 : COMPOSE_TRIES) && !picked; t++) {
+      const ids = rng.sample(splitKeep(rng, pool), d.labels);   // one word of each SPLIT_PAIRS pair, drawn again each try
       const faces = ids.filter((id) => FACE_SET.includes(id)).length, leads = ids.filter((id) => LEAD_SET.includes(id)).length;
       if (faces > d.faceMax || leads < d.leadMin) continue;
       const seen = new Set(); let dup = false;
@@ -774,14 +799,15 @@ const TYPE = {
       const nSeen = new Set(); let nested = false;
       for (const id of ids) { if (nestedWith(id).some((o) => nSeen.has(o))) nested = true; nSeen.add(id); }
       if (nested) continue;
+      if (splitClash(ids)) continue;   // nor arm + elbow, leg + knee (SPLIT_PAIRS)
       const sides = {}; for (const id of ids) sides[id] = ANCHORS[id].L ? rng.pick(['L', 'R']) : '';
       const markers = markersOf(ids, sides);
       try { picked = { markers, fig: bodyFigure({ h: d.figureH, fill: 'cream', markers }) }; } catch (e) { if (!/markers .* apart/.test(e.message)) throw e; }
     }
     if (!picked) {
-      const fb = FALLBACK[d.labels / 2];
+      const fb = (Array.isArray(d.exclude) && d.exclude.length ? WRITE_FALLBACK : FALLBACK)[d.labels / 2];
       if (!fb) throw new Error(`${ID}: no marker set passed the spacing in ${TRIES} draws and no fallback for ${d.labels} labels`);
-      for (const [id] of fb) if (!pool.includes(id)) throw new Error(`${ID}: ${loc}: no marker set passed the spacing in ${TRIES} draws and the fallback needs "${id}" outside the eligible pool (refuse)`);
+      for (const [id] of fb) if (!pool0.includes(id)) throw new Error(`${ID}: ${loc}: no marker set passed the spacing in ${TRIES} draws and the fallback needs "${id}" outside the eligible pool (refuse)`);
       const sides = {}; for (const [id, side] of fb) sides[id] = ANCHORS[id].L ? side : '';
       const markers = markersOf(fb.map(([id]) => id), sides);
       picked = { markers, fig: bodyFigure({ h: d.figureH, fill: 'cream', markers }), fallback: true };

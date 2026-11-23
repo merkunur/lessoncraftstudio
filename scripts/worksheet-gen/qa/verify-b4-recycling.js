@@ -948,7 +948,10 @@ async function main() {
         sets.add(b.meta.items.slice().sort().join(','));
       }
       ok(sets.size >= 2, `sweep: only ${sets.size} distinct item sets over 20 seeds`);
-      for (const [key, s] of Object.entries(perBin)) ok(s.size >= 3, `sweep: bin ${key} shows only ${s.size} distinct items over 20 seeds`);
+      // >= 3 distinct items a bin, or EVERY live item where the bin has fewer (2026-11-23 D-2: the en Metal bin is the
+      // curbside cans bin — the cooking pot and the painted nut are retired for en — so it holds the can and the bolt)
+      const liveOf = (key) => GLOBAL.items.filter((it) => TYPE._bin(it, en) === key && !TYPE._retiredHere(it, 'en')).length;
+      for (const [key, s] of Object.entries(perBin)) ok(s.size >= Math.min(3, liveOf(key)), `sweep: bin ${key} shows only ${s.size} distinct items over 20 seeds (live ${liveOf(key)})`);
       console.log(`sweep: 20 seeds clean, ${sets.size} distinct item sets; per bin ${Object.entries(perBin).map(([k, s]) => `${k} ${s.size}`).join(' · ')}`);
     }
 

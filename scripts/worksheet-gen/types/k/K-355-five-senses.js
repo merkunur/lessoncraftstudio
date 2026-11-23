@@ -129,6 +129,15 @@ module.exports = {
     const i = fams.findIndex((f) => f.includes(noun));
     return i >= 0 ? i : null;
   },
+  /** An item retired on THIS type (data `retiredIn: [type ids]`, 2026-11-23 D-2 teacher review: the sponge reads as cheese,
+   *  the pillow as a bag of chips; onion, garlic, lemon and popcorn have two senses on the one-sense faces). It is never
+   *  drawn: the pool and its shuffle are unchanged and a retired item is SKIPPED (or drawn again), so a page that never
+   *  held one keeps every draw it shipped with, and the faces that do not name it keep theirs. */
+  _retiredHere(it) { return Array.isArray(it.retiredIn) && it.retiredIn.includes(this.id); },
+  /** The most items of one sense a face page takes: `d.senseMax` (a face config, e.g. G1-357 / G1-358 `{smell:1}` —
+   *  2026-11-23, onion + garlic retired leave smell the flower family alone, one a page), else none. A config, never
+   *  inferred from the pool, so a pool that cannot fill what the config asks still REFUSES. */
+  _senseMax(d, s) { return d.senseMax && Number.isInteger(d.senseMax[s]) ? d.senseMax[s] : Infinity; },
   /** Items of one sense admitted by the pool: strong + (strong+signed) this locale's signedOk. */
   _itemsFor(global, block, sense, pool, loc) {
     if (!POOLS.includes(pool)) throw new Error(`K-355: pool "${pool}" is not one of ${POOLS.join(' | ')}`);
@@ -169,7 +178,9 @@ module.exports = {
         .filter((it) => { const f = this._familyOf(global, it.noun); return f === null || !usedFamilies.has(f); });
       if (!pool.length) throw new Error(`K-355 ${loc} ${s}: no admitted item left after the family fence (pool ${d.pool}; refuse)`);
       if ((perSense[s] || 0) + 1 > d.maxPerSense) throw new Error(`K-355: more than maxPerSense ${d.maxPerSense} items of ${s}`);
-      const it = rng.pick(pool);
+      let it = rng.pick(pool);
+      for (let g = 0; g < 200 && this._retiredHere(it); g++) it = rng.pick(pool);
+      if (this._retiredHere(it)) { const live = pool.filter((x) => !this._retiredHere(x)); if (!live.length) throw new Error(`K-355 ${loc} ${s}: no unretired item left (refuse)`); it = rng.pick(live); }
       usedNouns.add(it.noun);
       const f = this._familyOf(global, it.noun);
       if (f !== null) usedFamilies.add(f);
@@ -236,6 +247,7 @@ module.exports = {
     const out = [];
     for (const it of cands) {
       if (out.length === n) break;
+      if (this._retiredHere(it)) continue;
       const f = this._familyOf(global, it.noun);
       if (f !== null && state.families.has(f)) continue;
       out.push(it);
@@ -261,7 +273,9 @@ module.exports = {
     let items = [];
     for (const s of SENSES) {
       // smell: at most one flower-family item per page, so a perBin of 3 caps at min(perBin, co-occurrable)
-      const want = Math.min(d.perBin, s === 'smell' ? Math.max(1, Math.min(d.perBin, 2)) : d.perBin);
+      // ...and never more than the sense's live items can give (G1-357, 2026-11-23: onion + garlic retired leave smell the
+      // flower family alone, one a page)
+      const want = Math.min(d.perBin, s === 'smell' ? Math.max(1, Math.min(d.perBin, 2)) : d.perBin, this._senseMax(d, s));
       items = items.concat(this._sampleSense(global, block, s, want, d.pool, loc, rng, state, 'sort'));
     }
     const strip = rng.shuffle(items);
@@ -279,7 +293,7 @@ module.exports = {
     if (stack > STACK_CEILING) throw new Error(`K-355 sort: stack ${stack} > the ${STACK_CEILING} fi budget`);
     const bodyHtml = C4.senseSortStage({
       rows, bins, tile, iconPx: d.iconPx, gap, organPx, zone: d.zone, binH,
-      stamps: { pool: d.pool, 'max-per-sense': d.maxPerSense, 'per-bin': d.perBin, cols: d.cols, 'organ-in-bin': d.organInBin ? 1 : 0 },
+      stamps: { pool: d.pool, 'max-per-sense': d.maxPerSense, 'per-bin': d.perBin, cols: d.cols, 'organ-in-bin': d.organInBin ? 1 : 0, ...(d.senseMax ? { 'sense-max': Object.entries(d.senseMax).map(([k, v]) => k + ':' + v).join(',') } : {}) },
     });
     return { bodyHtml, meta: { layout: 'sort', items: strip.map((it) => it.theme + '/' + it.noun), senses: strip.map((it) => it.sense), bins: order, stack } };
   },
@@ -299,8 +313,13 @@ module.exports = {
     // {2,2,2,1,1} for 8: every sense at least minPerSense, the extras spread one per sense over a shuffled order
     const extra = d.items - 5 * d.minPerSense;
     if (extra < 0 || extra > 5) throw new Error(`K-355 which: items ${d.items} cannot spread over 5 senses at minPerSense ${d.minPerSense}`);
+    // the extras go to the first senses of a shuffled order that can still hold one more (2026-11-23: smell holds one on
+    // G1-358 once onion and garlic are retired); with every sense able, the first `extra` senses take one, as shipped
     const spread = rng.shuffle(SENSES);
-    const counts = Object.fromEntries(SENSES.map((s) => [s, d.minPerSense + (spread.indexOf(s) < extra ? 1 : 0)]));
+    const counts = Object.fromEntries(SENSES.map((s) => [s, d.minPerSense]));
+    let left = extra;
+    for (const s of spread) { if (!left) break; if (counts[s] + 1 <= this._senseMax(d, s)) { counts[s]++; left--; } }
+    if (left) throw new Error(`K-355 ${loc} which: the senses cannot hold ${d.items} items (refuse)`);
     for (const s of SENSES) if (counts[s] > d.maxPerSense) throw new Error(`K-355 which: ${counts[s]} items of ${s} > maxPerSense ${d.maxPerSense}`);
     const state = this._newState();
     let items = [];
@@ -342,17 +361,23 @@ module.exports = {
     const state = this._newState();
     const oddPer = {};
     const rows = [];
-    for (const s of rowSenses) {
+    // an intruder never starves a sense still to come as a majority row (2026-11-23 D-2 round 2: lemon + popcorn retired
+    // leave taste 7 items, two taste rows need 6); a sense that can spare one is tried as shipped, so a page this never
+    // touched keeps every draw
+    const left = (x) => { const keys = new Set(); for (const it of this._itemsFor(global, block, x, d.pool, loc)) { if (this._retiredHere(it) || state.nouns.has(it.noun)) continue; const f = this._familyOf(global, it.noun); if (f !== null && state.families.has(f)) continue; keys.add(f === null ? 'n:' + it.noun : 'f:' + f); } return keys.size; };
+    rowSenses.forEach((s, ri) => {
       const majority = this._sampleSense(global, block, s, d.items - 1, d.pool, loc, rng, state, 'odd majority');
       const others = rng.shuffle(SENSES.filter((x) => x !== s && (oddPer[x] || 0) < d.maxPerSense));
+      const still = (x) => rowSenses.slice(ri + 1).filter((y) => y === x).length * (d.items - 1);
       let odd = null;
       for (const x of others) {
+        if (still(x) && left(x) - 1 < still(x)) continue;
         try { odd = this._sampleSense(global, block, x, 1, d.pool, loc, rng, state, 'odd intruder')[0]; break; } catch (e) { /* that sense is exhausted on this page — try the next */ }
       }
       if (!odd) throw new Error(`K-355 ${loc} odd: no intruder left for a ${s} row under maxPerSense ${d.maxPerSense} (refuse)`);
       oddPer[odd.sense] = (oddPer[odd.sense] || 0) + 1;
       rows.push({ sense: s, majority, odd });
-    }
+    });
     // the odd column: never identical on 3 consecutive rows, never the same in more than ceil(rows/2) rows
     const cap = Math.ceil(d.rows / 2);
     let cols = null;
@@ -522,7 +547,8 @@ module.exports = {
           if (t.textContent.trim()) fails.push(`${what}: prints text`);
         });
         for (const s of SENSES) {
-          const want = s === 'smell' ? Math.min(perBin, 2) : perBin;
+          const capS = Object.fromEntries(String(root.dataset.lcsSenseMax || '').split(',').filter(Boolean).map((x) => x.split(':')));
+          const want = Math.min(s === 'smell' ? Math.min(perBin, 2) : perBin, capS[s] != null ? +capS[s] : Infinity);
           if ((count[s] || 0) !== want) fails.push(`${count[s] || 0} tiles of ${s} ≠ perBin ${want}`);
           if ((count[s] || 0) > maxPerSense) fails.push(`${count[s]} tiles of ${s} > maxPerSense ${maxPerSense}`);
         }

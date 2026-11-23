@@ -178,7 +178,8 @@ const FACE_BUILD = {
     for (const k of ['before', 'during', 'after']) if (!String(ph[k] || '').trim()) throw new Error(`K-380 ${loc}: phases.${k} missing (refuse)`);
     for (const k of Object.keys(COMMON.PHASE_OF)) if (/rinse-mouth|mouth-rinse|mouthwash/.test(k)) throw new Error('K-380: a mouth-rinse card in PHASE_OF');
     const kinds0 = HP.BRUSH_KINDS.filter((k) => COMMON.PHASE_OF[k] && !(COMMON.DROPPED_BRUSH || {})[k]);
-    for (const p of ['before', 'during', 'after']) if (kinds0.filter((k) => COMMON.PHASE_OF[k] === p).length < 2) throw new Error(`K-380 brushing-teeth: fewer than 2 ${p} cards`);
+    // every phase has a card (2026-11-23: it was >= 2 a phase; with spit dropped AFTER has the clean teeth alone)
+    for (const p of ['before', 'during', 'after']) if (kinds0.filter((k) => COMMON.PHASE_OF[k] === p).length < 1) throw new Error(`K-380 brushing-teeth: no ${p} card`);
     let kinds = seam && seam.plan ? seam.plan.kinds : null;
     for (let t = 0; t < FACE_TRIES && !kinds; t++) { const o = rng.shuffle(kinds0); if (!phaseOrderTell(o, COMMON.PHASE_OF)) kinds = o; }
     if (!kinds) throw new Error(`K-380 ${loc}: no brushing order in ${FACE_TRIES} tries (refuse)`);
@@ -359,7 +360,7 @@ function faceVerify(page, mode) {
       if (kinds.every(Boolean) && kinds.length === cells.length) {
         if (new Set(kinds).size !== kinds.length) fails.push('a brushing card is drawn twice');
         for (const k of kinds) if (C.DROPPED_BRUSH[k]) fails.push(`the dropped card "${k}" is on the page (${C.DROPPED_BRUSH[k]})`);
-        for (const p of ['before', 'during', 'after']) if (kinds.filter((k) => C.PHASE_OF[k] === p).length < 2) fails.push(`fewer than 2 ${p} cards`);
+        for (const p of ['before', 'during', 'after']) if (kinds.filter((k) => C.PHASE_OF[k] === p).length < 1) fails.push(`no ${p} card`);
         const ph = kinds.map((k) => C.PHASE_OF[k]);
         if (ph.some((x) => !x)) fails.push('a card with no phase in PHASE_OF');
         let adj = 0; for (let i = 0; i + 1 < ph.length; i++) if (ph[i] === ph[i + 1]) adj++;

@@ -709,7 +709,10 @@ module.exports = {
   difficulty: {
     1: { layout: 'fork', streets: 4, ped: 4, car: 0, amber: false, lampD: 64, pillWords: true },
     2: { layout: 'fork', streets: 6, ped: 3, car: 3, amber: false, lampD: 56, pillWords: true },
-    3: { layout: 'fork', streets: 6, ped: 3, car: 3, amber: true, lampD: 56, pillWords: false },
+    // level 3 lights no AMBER lamp (2026-11-23 D-2 teacher review: a yellow light beside a moving car and a stopped car
+    // has no one right picture: yellow means slow down and get ready to stop, and a child can defend either car). The level
+    // is the level-2 page without the word pills
+    3: { layout: 'fork', streets: 6, ped: 3, car: 3, amber: false, lampD: 56, pillWords: false },
   },
   i18n: {
     en: {

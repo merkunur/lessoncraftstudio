@@ -4,7 +4,7 @@ const base = require('../k/K-380-healthy-habits.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[2], ...{"mode":"brushing-teeth","layout":"phase-chips","cards":7,"rowMin":136} };
+const D = { ...base.difficulty[2], ...{"mode":"brushing-teeth","layout":"phase-chips","cards":6,"rowMin":136} };
 module.exports = {
   ...base,
   id: 'G1-403',

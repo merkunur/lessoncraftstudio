@@ -95,7 +95,9 @@
     {
       "theme": "zoo animals",
       "noun": "bear",
-      "bin": "wild"
+      "bin": "wild",
+      "retired": true,
+      "retiredWhy": "2026-11-23 D-2 teacher review: the round light-orange bear with rosy cheeks reads as a teddy bear (a toy), not a wild animal"
     },
     {
       "theme": "zoo animals",

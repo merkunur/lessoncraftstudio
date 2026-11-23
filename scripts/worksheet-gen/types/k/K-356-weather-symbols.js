@@ -76,6 +76,8 @@ const BANK = 'weather-symbols';
 const THEME = 'weather';
 const KEYS = ['sun', 'cloud', 'rain', 'storm', 'snow', 'rainbow'];
 const D1_KEYS = ['sun', 'rain', 'snow', 'cloud'];
+/** forecast face: a symbol another strip day ALSO shows (the rain cloud is a cloud; a storm brings rain) */
+const FORECAST_OVERLAPS = { cloud: ['rain', 'storm'], rain: ['storm'] };
 const FACES = ['write', 'diary', 'thermometer', 'water-cycle', 'forecast'];
 const CYCLE_KEYS = ['evaporation', 'condensation', 'precipitation', 'collection'];
 const PAGE_INNER = 675;          // the .ws-page inner width (README chrome ruling)
@@ -439,10 +441,15 @@ const type = {
     if (labels.some((n) => typeof n !== 'string' || !n.trim())) throw new Error(`K-356 ${loc} forecast: a day label is empty (refuse)`);
     // literals before the first draw: every ask must exist for every symbol the strip could carry
     const asks = Object.fromEntries(KEYS.map((k) => [k, this._ask(block, loc, k)]));
-    const strip = rng.sample(KEYS.slice(), 5);   // five DISTINCT symbols of the six (single answer by construction)
+    // 2026-11-23 D-2 teacher review: a RAINBOW is no forecast symbol, so the strip is the five forecast symbols; and a
+    // question another day also answers is never asked — a rain cloud and a storm cloud are cloudy too, and a storm
+    // brings rain ("Which day is cloudy?" fitted the cloud AND the rain day). The asks are the days only one picture fits.
+    const strip = rng.sample(KEYS.filter((k) => k !== 'rainbow'), 5);   // five DISTINCT forecast symbols (single answer by construction)
+    const askable = strip.filter((k) => !(FORECAST_OVERLAPS[k] || []).some((o) => strip.includes(o)));
+    if (askable.length < d.asks) throw new Error(`K-356 forecast: ${askable.length} days only one picture fits < ${d.asks} asks (refuse)`);
     let pick = null;
     for (let t = 0; t < TRIES && !pick; t++) {
-      const p = rng.sample(strip.slice(), d.asks);
+      const p = rng.sample(askable.slice(), d.asks);
       const at = p.map((k) => strip.indexOf(k));
       const ascending = at.every((v, i) => i === 0 || v > at[i - 1]);
       if (!ascending) pick = p;
@@ -846,6 +853,7 @@ const type = {
           headers.push(name);
         });
         if (new Set(stripConcepts).size !== stripConcepts.length) fails.push(`strip concepts ${stripConcepts.join(',')} repeat (an ask would have two days)`);
+        if (stripConcepts.includes('rainbow')) fails.push('a rainbow on the forecast strip (no forecast symbol)');
         if (new Set(headers).size !== headers.length) fails.push('two strip headers print the same name');
         const qs = [...root.querySelectorAll('[data-lcs-q]')];
         if (qs.length !== asks) fails.push(`${qs.length} questions ≠ stamp ${asks}`);
@@ -856,6 +864,9 @@ const type = {
           const c = q.dataset.lcsConcept;
           if (!KEYS.includes(c)) fails.push(`${what}: concept "${c}"`);
           qConcepts.push(c);
+          // 2026-11-23: an ask another day also answers (cloudy beside a rain or storm cloud; rainy beside a storm)
+          const OVER = { cloud: ['rain', 'storm'], rain: ['storm'] };
+          if ((OVER[c] || []).some((o) => stripConcepts.includes(o))) fails.push(`${what}: "${c}" is asked while the strip shows ${OVER[c].filter((o) => stripConcepts.includes(o)).join(' + ')} (two right days)`);
           const hits = stripConcepts.filter((x) => x === c).length;
           if (hits !== 1) fails.push(`${what}: "${c}" appears ${hits} times in the strip (one day exactly)`);
           if (askBy === 'word') {

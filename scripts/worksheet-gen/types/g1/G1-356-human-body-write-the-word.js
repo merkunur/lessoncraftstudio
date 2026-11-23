@@ -4,7 +4,7 @@ const base = require('../k/K-354-human-body.js');
 // One object for all three levels: the waves ship d2 only, so a face must
 // render identically whichever level is asked for. Spreading the base entry
 // (not a JSON literal) carries function-valued params through intact.
-const D = { ...base.difficulty[2], ...{"layout":"write","labels":6,"faceMax":2,"leadMin":4,"boxes":true,"box":44,"gap":4,"maxLetters":8,"figureH":520,"markerMin":30} };
+const D = { ...base.difficulty[2], ...{"layout":"write","labels":6,"faceMax":2,"leadMin":4,"boxes":true,"box":44,"gap":4,"maxLetters":8,"figureH":520,"markerMin":30,"exclude":["head"]} };
 module.exports = {
   ...base,
   id: 'G1-356',

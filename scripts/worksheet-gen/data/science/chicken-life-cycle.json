@@ -1,8 +1,9 @@
 {
   "_note": "Chicken life-cycle stages in CORRECT order (egg -> chick -> hen). The only complete staged set in the current image library; butterfly/frog/plant life cycles are dropped (missing chrysalis/tadpole/sprout art) per the buildable-now ruling.",
+  "stagesWhy": "2026-11-23 D-2 teacher review: the egg stage was three brown store eggs in a carton (food from the shop, not a hen's egg that will hatch). The library has no colour egg in a nest, and a black-and-white picture never sits beside colour ones, so the whole cycle is the line-art set: eggs in a nest (home and nature bw) -> chick -> hen (animals bw 4, one style).",
   "stages": [
-    { "theme": "At the Supermarket", "noun": "egg" },
-    { "theme": "farm animals", "noun": "chick" },
-    { "theme": "farm animals", "noun": "hen" }
+    { "theme": "home and nature bw", "noun": "nest" },
+    { "theme": "animals bw 4", "noun": "chick" },
+    { "theme": "animals bw 4", "noun": "chicken" }
   ]
 }

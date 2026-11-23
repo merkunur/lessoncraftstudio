@@ -532,7 +532,9 @@ async function main() {
     // 3. renders
     for (const d of [1, 2, 3]) {
       const r = await renderWith(page, TYPE, { difficulty: d, baseName: `K-354-gate-d${d}-en` });
-      assertRender(`d${d}`, r, TYPE.difficulty[d], en);
+      // d3: eight bank words may take two rows (2026-11-23 D-2 round 2: measured on HEAD, 88 of 200 en level-3 banks run to
+      // >= 34 letters, the two-row width; the fence moved this seed onto one). The page-fit asserts still hold the stack
+      assertRender(`d${d}`, r, TYPE.difficulty[d], en, d === 3 ? { bankRows: 2 } : {});
       pngs.push(r.png);
       console.log(`render d${d}: verify ${r.verify.length} lints ${r.lints.length} body ${Math.round(r.m.body.h)} px bank ${Math.round(r.m.banner.h)} lanes ${r.m.lanes.map((l) => l.id + l.side + '@' + Math.round(l.top)).join(' ')} lowest ${Math.round(r.m.lowest)} vs foot ${Math.round(r.m.foot)}`);
     }
@@ -922,8 +924,9 @@ async function main() {
     }
     // PW — a bank word ≠ the bank literal (verify() is blind by design; the node cross-check sees it)
     {
-      const { r, own } = await gateFindings(page, rewired(en, (h) => h.replace(/data-lcs-bank="arm"><span>arm<\/span>/, 'data-lcs-bank="arm"><span>arms</span>')), 2, 'K-354-gate-poison-PW', en);
-      const a = judge('PW node', own, /bank word arm prints "arms" ≠ bank "arm"/, `verify ${r.verify.length} (blind by design)`);
+      // the first bank word on the page gains an "s" (2026-11-23 D-2 round 2: it was "arm", which the fenced draw may not hold)
+      const { r, own } = await gateFindings(page, rewired(en, (h) => h.replace(/data-lcs-bank="([a-z]+)"><span>\1<\/span>/, 'data-lcs-bank="$1"><span>$1s</span>')), 2, 'K-354-gate-poison-PW', en);
+      const a = judge('PW node', own, /bank word ([a-z]+) prints "\1s" ≠ bank "\1"/, `verify ${r.verify.length} (blind by design)`);
       if (a) killed++;
     }
     // PC — a leader run past a foreign ring: the head-L lane end moved onto the leg ring's height (the leg is L too on the fallback page)

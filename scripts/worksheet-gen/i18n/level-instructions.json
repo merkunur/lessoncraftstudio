@@ -8286,5 +8286,35 @@
       "en": "A sound can come first or last in a word."
     }
   },
-  "G1-625": {}
+  "G1-625": {},
+  "G1-376": {
+    "3": {
+      "en": "Follow each numbered tag to a part of the plant. Write the name of that part on the line with the same number.",
+      "de": "Folge jedem Strich von der Zahl zur Pflanze und schreibe den Namen des Teils in die Zeile mit derselben Zahl.",
+      "es": "Sigue cada etiqueta con número hasta una parte de la planta y escribe el nombre de esa parte en la línea con el mismo número.",
+      "fr": "Suis chaque étiquette numérotée jusqu’à une partie de la plante et écris le nom de cette partie sur la ligne du même numéro.",
+      "it": "Segui ogni etichetta numerata fino a una parte della pianta e scrivi il nome di quella parte sulla riga con lo stesso numero.",
+      "pt": "Siga cada etiqueta numerada até uma parte da planta e escreva o nome dessa parte na linha com o mesmo número.",
+      "nl": "Volg elk nummer langs het lijntje naar een deel van de plant en schrijf de naam van dat deel op de lijn met hetzelfde nummer.",
+      "sv": "Följ varje numrerad lapp till en del av växten och skriv delens namn på raden med samma siffra.",
+      "da": "Følg hver streg fra tallet hen til planten, og skriv navnet på delen på linjen med samme tal.",
+      "no": "Følg hver nummerert lapp til en del av planten og skriv navnet på delen på streken med samme tall.",
+      "fi": "Seuraa jokaista numeroitua lappua kasvin osaan ja kirjoita osan nimi viivalle, jolla on sama numero."
+    }
+  },
+  "G1-377": {
+    "1": {
+      "en": "The egg is 1 and the butterfly is 4: write 2 and 3 in the boxes as the butterfly grows.",
+      "de": "Das Ei ist die 1 und der Schmetterling die 4: Schreibe 2 und 3 der Reihe nach in die leeren Kästchen.",
+      "es": "El huevo es el 1 y la mariposa es el 4: escribe el 2 y el 3 en los cuadros vacíos, en el orden en que crece la mariposa.",
+      "fr": "L’œuf porte le 1 et le papillon le 4 : écris le 2 et le 3 dans les cases vides, dans l’ordre.",
+      "it": "L’uovo è il numero 1 e la farfalla il numero 4: scrivi 2 e 3 nei riquadri vuoti, in ordine.",
+      "pt": "O ovo é o 1 e a borboleta é o 4: escreva 2 e 3 nos quadrinhos na ordem em que ela cresce.",
+      "nl": "Het ei is 1 en de vlinder is 4: schrijf 2 en 3 in de lege vakjes, in de goede volgorde.",
+      "sv": "Ägget är 1 och fjärilen är 4: skriv 2 och 3 i rutorna i rätt ordning.",
+      "da": "Ægget er 1, og sommerfuglen er 4: skriv 2 og 3 i de tomme felter, i den rækkefølge ægget udvikler sig.",
+      "no": "Egget er 1, og sommerfuglen er 4: skriv 2 og 3 i de tomme rutene i riktig rekkefølge.",
+      "fi": "Muna on 1 ja perhonen on 4: kirjoita ruutuihin 2 ja 3 oikeassa järjestyksessä."
+    }
+  }
 }

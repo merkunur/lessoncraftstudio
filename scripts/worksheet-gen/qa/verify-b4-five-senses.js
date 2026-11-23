@@ -637,7 +637,9 @@ function assertFace(name, r, d, face, opts) {
   const F = r.m.face;
   let note = '';
   if (face === 'sort') {
-    const want = SENSES.reduce((n, s) => n + (s === 'smell' ? Math.min(d.perBin, 2) : d.perBin), 0);
+    // d.senseMax (2026-11-23 D-2: G1-357 takes one smell tile, the flower family alone once onion + garlic are retired)
+    const capOf = (s) => (d.senseMax && Number.isInteger(d.senseMax[s]) ? d.senseMax[s] : Infinity);
+    const want = SENSES.reduce((n, s) => n + Math.min(s === 'smell' ? Math.min(d.perBin, 2) : d.perBin, capOf(s)), 0);
     ok(F.tiles.length === want, `${name}: ${F.tiles.length} tiles ≠ ${want}`);
     ok(F.tiles.every((t) => Math.abs(t.px - d.iconPx) < 0.6) && d.iconPx >= 44, `${name}: tile pictures ${JSON.stringify(F.tiles.map((t) => Math.round(t.px)))} ≠ ${d.iconPx} (≥ 44)`);
     ok(F.bins.length === 5 && F.bins.every((b) => b.organPx >= 44 - 0.6 && b.organPx <= 44.6), `${name}: bin organs ${JSON.stringify(F.bins.map((b) => Math.round(b.organPx)))} ≠ 44 (the nose ruling: never below 44)`);
@@ -991,9 +993,10 @@ async function main() {
     { const r = await pvRender('PR3', 'sort', (h) => h.replace(/(<div class="ws-bin fs-bin"[^>]*data-lcs-bin="smell"><span class="fs-bin-label" data-lcs-bin-label>)[^<]+/, '$1Nase'));
       const found = collect(() => assertFace('PR3', r, faceD('sort'), 'sort', { block: en, loc: 'en' }));
       if (judge('PR3', found, /pill "Nase" ≠ verbs\.smell/)) killed++; }
-    // PR4 — F1 two flower-family tiles (the smell tiles re-pictured as rose + lilac) → the family fence
-    { const r = await pvRender('PR4', 'sort', (h) => { let i = 0; const subs = [['flowers/rose', 'rose'], ['flowers/lilac', 'lilac']];
-        return h.replace(/<span class="fs-item" style="[^"]*" data-lcs-tile="smell" data-lcs-item="[^"]+"><img class="ws-icon" src="[^"]+"/g, (m) => { const [ref, noun] = subs[i++] || subs[1]; return m.replace(/data-lcs-item="[^"]+"/, `data-lcs-item="${ref}"`).replace(/src="[^"]+"/, `src="${fileUri('flowers', noun)}"`); }); });
+    // PR4 — F1 two flower-family tiles (the smell tile and the first hear tile re-pictured as rose + lilac; 2026-11-23 the
+    // sort face carries ONE smell tile) → the family fence
+    { const r = await pvRender('PR4', 'sort', (h) => { let i = 0, hear = 0; const subs = [['flowers/rose', 'rose'], ['flowers/lilac', 'lilac']];
+        return h.replace(/<span class="fs-item" style="[^"]*" data-lcs-tile="(smell|hear)" data-lcs-item="[^"]+"><img class="ws-icon" src="[^"]+"/g, (m, sense) => { if (sense === 'hear' && hear++) return m; const [ref, noun] = subs[i++] || subs[1]; return m.replace(/data-lcs-item="[^"]+"/, `data-lcs-item="${ref}"`).replace(/src="[^"]+"/, `src="${fileUri('flowers', noun)}"`); }); });
       const found = collect(() => assertFace('PR4', r, faceD('sort'), 'sort', { block: en, loc: 'en' }));
       if (judge('PR4', found, /two items of family 0 on the page/)) killed++; }
     // PR12 — F1 the factory's flex-wrap strip: one row of ten tiles that wraps → verify "strip row wraps"

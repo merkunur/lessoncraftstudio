@@ -63,7 +63,9 @@
     {
       "theme": "weather",
       "noun": "cloud",
-      "bin": "natural"
+      "bin": "natural",
+      "retired": true,
+      "retiredWhy": "2026-11-23 D-2 teacher review: the pink puffy cloud with a smiling face reads as cotton candy (made by people)"
     },
     {
       "theme": "vehicles",

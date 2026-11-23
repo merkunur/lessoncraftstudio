@@ -68,7 +68,9 @@ const SEASONS = {
         { theme: 'summer', noun: 'pool', opened: true },
         { theme: 'summer', noun: 'seashell', opened: true },
         { theme: 'summer', noun: 'surfboard', opened: true },
-        { theme: 'summer', noun: 'tent', opened: true },
+        // 2026-11-23 D-2 teacher review: a tent (camping) is not tied to ONE season, and the sort asks for the one season a
+        // picture belongs to. The base sort (K-322) draws it no more; the faces keep their own reviewed draws.
+        { theme: 'summer', noun: 'tent', opened: true, retiredOnSort: 'camping happens in spring, summer and fall: two right seasons' },
       ],
       autumn: [
         { theme: 'thanksgivinng', noun: 'acorn', opened: true },

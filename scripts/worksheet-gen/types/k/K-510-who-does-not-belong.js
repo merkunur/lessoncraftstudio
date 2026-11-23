@@ -19,7 +19,9 @@ const T = require('../../primitives/_tokens.js').color;
 
 const CAT = require('../../data/literacy/category-vocab.json');
 const FLY = require('../../data/science/can-fly-vs-cannot.json');
-const FOOD = require('../../data/science/food-groups.json');
+// level 3: foods with two food groups (tomato, cucumber, corn) are retired, lettuce + celery join (2026-11-23 D-2 round 2,
+// the same list as G1-207; a tomato among the fruits had no one picture that does not belong)
+const FOOD = require('../_shared/food-groups-one-group.js').oneGroupFoods(require('../../data/science/food-groups.json'));
 const D = {
   1: { groups: [[CAT, 'Animals'], [CAT, 'Fruits'], [CAT, 'Vehicles']], pick: 3, members: 3 },
   2: { groups: [[CAT, 'Animals'], [CAT, 'Fruits'], [CAT, 'Vehicles'], [FLY, 'canfly']], pick: 3, members: 4 },

@@ -14,7 +14,7 @@ const S = HEALTHY_HABITS.en.strings;
 const ROWS = [
   ['k', 'K-382', 'hand-washing-steps', BASE, 2, { mode: 'hand-washing-steps', layout: 'steps-write', cards: 5, rowMin: 200 },
     S['hand-washing-steps'].title, S['hand-washing-steps'].instruction],
-  ['g1', 'G1-403', 'brushing-teeth-before-during-after', BASE, 2, { mode: 'brushing-teeth', layout: 'phase-chips', cards: 7, rowMin: 136 },
+  ['g1', 'G1-403', 'brushing-teeth-before-during-after', BASE, 2, { mode: 'brushing-teeth', layout: 'phase-chips', cards: 6, rowMin: 136 },   // 6: 2026-11-23 D-2, spit dropped
     S['brushing-teeth'].title, S['brushing-teeth'].instruction, { gradeBand: 'G1' }],
   ['g1', 'G1-404', 'stop-the-germs', BASE, 2, { mode: 'stop-the-germs', layout: 'choice-pairs', rows: 4, germPairs: ['cough', 'tissue', 'cup', 'soap'], rowMin: 140 },
     S['stop-the-germs'].title, S['stop-the-germs'].instruction, { gradeBand: 'G1' }],

@@ -92,12 +92,16 @@
     {
       "theme": "zoo animals",
       "noun": "tiger",
-      "bin": "wild"
+      "bin": "wild",
+      "retired": true,
+      "retiredWhy": "2026-11-23 D-2 teacher review: the tiger is drawn as a cub with an orange striped coat, the twin of the striped kitten on the Pets side"
     },
     {
       "theme": "zoo animals",
       "noun": "bear",
-      "bin": "wild"
+      "bin": "wild",
+      "retired": true,
+      "retiredWhy": "2026-11-23 D-2 teacher review: the round light-orange bear with rosy cheeks reads as a teddy bear (a toy), so a child puts it under Pets"
     },
     {
       "theme": "zoo animals",

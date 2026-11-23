@@ -144,6 +144,11 @@ module.exports = {
     const hit = block.bins.find((b) => Array.isArray(b.materials) && b.materials.includes(item.material) && (item.packaging || !b.packagingOnly));
     return hit ? hit.key : null;
   },
+  /** An item retired on THIS type in this language (data `retiredIn`: "TYPE" = every language, "TYPE:loc" = one; 2026-11-23 D-2
+   *  teacher review: pictures whose material reads two ways — the ketchup-red bottle, the milk and oil bottles, the pail, the
+   *  painted nut — a pot in a US curbside bin, a popcorn box beside paper AND cardboard). It is never drawn: the bank and its
+   *  shuffle are unchanged and a retired item is SKIPPED, so a page that never held one keeps every draw it shipped with. */
+  _retiredHere(it, loc) { return Array.isArray(it.retiredIn) && (it.retiredIn.includes(this.id) || it.retiredIn.includes(this.id + ':' + loc)); },
   /** The items of the global bank that resolve to `binKey` in this locale. */
   _poolFor(binKey, block, global) {
     return ((global || GLOBAL).items || []).filter((it) => this._bin(it, block) === binKey);
@@ -228,7 +233,7 @@ module.exports = {
     const conflicts = (it) => usedFam.has(it.family) || (!d.twinsAllowed && usedVocab.has(it.vocabKey)) ||
       neverBoth.some((pair) => pair.has(it.id) && [...pair].some((x) => x !== it.id && usedIds.has(x)));
     const take = (binKey) => {
-      const it = order.find((x) => !used.has(x) && this._bin(x, block) === binKey && !conflicts(x));
+      const it = order.find((x) => !used.has(x) && this._bin(x, block) === binKey && !conflicts(x) && !this._retiredHere(x, loc));
       if (!it) return null;
       used.add(it); usedFam.add(it.family); usedVocab.add(it.vocabKey); usedIds.add(it.id);
       chosen.push(Object.assign({ bin: binKey }, it));
@@ -371,7 +376,7 @@ module.exports = {
     // carry it (sv metall = 1 item), else the extra moves on; no bin able to take it = refuse
     const binOrder = rng.shuffle(bins);
     const count = Object.fromEntries(keys.map((k) => [k, 1]));
-    const poolN = Object.fromEntries(keys.map((k) => [k, this._poolFor(k, block, global).length]));
+    const poolN = Object.fromEntries(keys.map((k) => [k, this._poolFor(k, block, global).filter((it) => !this._retiredHere(it, loc)).length]));
     for (let i = 0, extra = d.rows - N, guard = 0; extra > 0; i++, guard++) {
       if (guard > 10 * d.rows) throw new Error(`K-357 ${loc} which: no bin can take the extra rows (pools ${JSON.stringify(poolN)}; refuse)`);
       const k = binOrder[i % N].key;
@@ -381,7 +386,7 @@ module.exports = {
     const order = rng.shuffle(global.items);
     const picked = [];
     for (const b of bins) {
-      const pool = this._poolFor(b.key, block, global);
+      const pool = this._poolFor(b.key, block, global).filter((it) => !this._retiredHere(it, loc));
       for (let i = 0; i < count[b.key]; i++) {
         const it = this._take(st, order, pool);
         if (!it) throw new Error(`K-357 ${loc} which: bin ${b.key} cannot give ${count[b.key]} items under the fences (pool ${pool.length}; refuse, never a filler)`);
@@ -423,14 +428,17 @@ module.exports = {
     const words = [...new Set(Object.values(mw).filter((v) => typeof v === 'string' && v.trim()))];
     if (words.length < 2) throw new Error(`K-357 ${loc} write: materialWords has ${words.length} distinct value(s) < 2 (refuse)`);
     for (const w of words) if (!/^\p{L}[\p{L}'’-]*$/u.test(w) || [...w].length > 12) throw new Error(`K-357 ${loc} write: material word "${w}" is not a single word of <= 12 graphemes (refuse)`);
-    const pool = this._materialPool(block, global);
+    const pool = this._materialPool(block, global).filter((it) => !this._retiredHere(it, loc));
+    // a word never takes more rows than its live items can give (one a family; 2026-11-23: cardboard is the package alone
+    // once the popcorn box is retired); with every word able, the rows fall as shipped
+    const capOf = (w) => new Set(pool.filter((it) => mw[it.material] === w).map((it) => it.family)).size;
     // each distinct word >= 1 and <= perWordMax times (3, lifted to ceil(rows / words) for a 2-word bank: es)
     const perWordMax = Math.max(3, Math.ceil(d.rows / words.length));
     if (words.length > d.rows) throw new Error(`K-357 ${loc} write: ${words.length} bank words > ${d.rows} rows (every word must be used)`);
     const wordOrder = rng.shuffle(words);
     const count = Object.fromEntries(words.map((w) => [w, 1]));
     let remaining = d.rows - words.length;
-    for (let i = 0; remaining > 0; i++) { const w = wordOrder[i % words.length]; if (count[w] < perWordMax) { count[w]++; remaining--; } if (i > 10 * d.rows) throw new Error('K-357 write: the words cannot fill the rows'); }
+    for (let i = 0; remaining > 0; i++) { const w = wordOrder[i % words.length]; if (count[w] < perWordMax && count[w] < capOf(w)) { count[w]++; remaining--; } if (i > 10 * d.rows) throw new Error('K-357 write: the words cannot fill the rows'); }
     const st = this._fence(global);
     const order = rng.shuffle(global.items);
     const picked = [];
@@ -470,18 +478,23 @@ module.exports = {
     const stack = d.rows * rowMin + (d.rows - 1) * GAP;
     if (stack > STACK_CEILING) throw new Error(`K-357 odd: ${d.rows} rows of ${rowMin} = ${stack} > the ${STACK_CEILING} fi budget`);
     if (4 * d.boxMax > PAGE_W - 24 - 12) throw new Error(`K-357 odd: four boxes of ${d.boxMax} do not fit the card`);
-    const classes = this._trioClasses(global, block, loc);
+    const classes0 = this._trioClasses(global, block, loc);
+    const classes = Object.fromEntries(Object.entries(classes0).map(([k, v]) => [k, v.filter((it) => !this._retiredHere(it, loc))]));
     const clsOf = (m) => (m === 'cardboard' ? 'paper' : m);
     const names = Object.keys(classes);
+    // `organicTrio: false` (G2-348, 2026-11-23 D-2 teacher review): a row of three FOODS is not "made of the same
+    // material"; food may still be the one that is different, never the three that match
+    if (d.organicTrio !== undefined && typeof d.organicTrio !== 'boolean') throw new Error('K-357 odd: organicTrio must be a boolean');
+    const trioNames = d.organicTrio === false ? names.filter((x) => x !== 'organic') : names;
     for (const c of names) if (new Set(classes[c].map((it) => it.family)).size < 3) throw new Error(`K-357 odd: class ${c} has < 3 families (the trio floor)`);
-    if (d.rows > names.length) throw new Error(`K-357 odd: ${d.rows} rows > ${names.length} trio classes`);
+    if (d.rows > trioNames.length) throw new Error(`K-357 odd: ${d.rows} rows > ${trioNames.length} trio classes`);
     // compose under a bounded retry: the odd of an early row must not starve a LATER trio class (metal = 4 items over 4
     // families: two metal odds leave 2 for a metal trio — the 20-seed sweep found it), so an odd class that is still to
     // come as a trio must keep >= 4 admissible items; a composition that dead-ends re-rolls the trio order
     let cards = null, trio = null, lastErr = null;
     for (let attempt = 0; attempt < 40 && !cards; attempt++) {
       try {
-        trio = rng.shuffle(names).slice(0, d.rows);
+        trio = rng.shuffle(trioNames).slice(0, d.rows);
         const st = this._fence(global);
         const order = rng.shuffle(global.items);
         const out = [];
@@ -569,7 +582,7 @@ module.exports = {
     const st = this._fence(global);
     const order = rng.shuffle(global.items);
     const shelves = bins.map((b) => {
-      const pool = this._poolFor(b.key, block, global);
+      const pool = this._poolFor(b.key, block, global).filter((it) => !this._retiredHere(it, loc));   // retiredIn (K-367, round 2)
       const items = [];
       for (let i = 0; i < d.examples; i++) {
         const it = this._take(st, order, pool);

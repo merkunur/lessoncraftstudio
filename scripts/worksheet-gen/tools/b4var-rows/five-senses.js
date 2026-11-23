@@ -29,10 +29,10 @@
 const G1 = { gradeBand: 'G1' };
 const ROWS = [
   ['g1', 'G1-357', 'five-senses-sort-by-sense', 'K-355-five-senses.js', 2,
-    { layout: 'sort', perBin: 2, bins: 5, cols: 5, iconPx: 64, maxPerSense: 2, pool: 'strong', organInBin: true, zone: 260 },
+    { layout: 'sort', perBin: 2, bins: 5, cols: 5, iconPx: 64, maxPerSense: 2, pool: 'strong', organInBin: true, zone: 260, senseMax: { smell: 1 } },   // senseMax: 2026-11-23 D-2 (onion + garlic retired)
     'Five Senses: Sort by Sense', 'Look at each picture and draw a line from its dot to the box of the sense you use for it.', G1],
   ['g1', 'G1-358', 'five-senses-which-sense', 'K-355-five-senses.js', 2,
-    { layout: 'which', items: 8, chipOrder: 'fixed', tile: 60, chipPx: 46, pic: 60, pool: 'strong', maxPerSense: 2, minPerSense: 1 },
+    { layout: 'which', items: 8, chipOrder: 'fixed', tile: 60, chipPx: 46, pic: 60, pool: 'strong', maxPerSense: 2, minPerSense: 1, senseMax: { smell: 1 } },
     'Five Senses: Which Sense?', 'Which sense do you use for each picture? Circle the body part you use.', G1],
   ['g1', 'G1-359', 'five-senses-which-one-does-not-belong', 'K-355-five-senses.js', 2,
     { layout: 'odd', rows: 5, items: 4, box: 96, pic: 72, boxMax: 120, majorityRows: { hear: 2, taste: 2, see: 1 }, pool: 'strong', maxPerSense: 2 },

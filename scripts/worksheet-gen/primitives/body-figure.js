@@ -115,10 +115,20 @@ const ANCHORS = {
   finger: { L: { x: 30, y: 346 }, R: { x: 270, y: 346 } },
   leg: { L: { x: 124, y: 452 }, R: { x: 176, y: 452 } },
   knee: { L: { x: 124, y: 404 }, R: { x: 176, y: 404 } },
-  foot: { L: { x: 122, y: 520 }, R: { x: 178, y: 520 } },
+  // foot (122,516)/(178,516), not (122,520)/(178,520): 2026-11-23 D-2 teacher review (G1-356) — a pin on the middle of the
+  // front-view foot sat by the toes, so "foot" and "toes" both fit its four boxes; 4 units up it sits on the top of the foot
+  // (the oval spans y 504..540, the toe discs 530..546)
+  foot: { L: { x: 122, y: 516 }, R: { x: 178, y: 516 } },
   toe: { L: { x: 102, y: 537 }, R: { x: 198, y: 537 } },
 };
 const ANCHOR_IDS = Object.keys(ANCHORS);
+/**
+ * Where a numbered MARKER sits when it is not on its anchor (the write face, G1-356). 2026-11-23 D-2 teacher review: the
+ * ear is 9 units wide, so a r 13 px disc on the ear anchor hid the whole ear and its left half lay on the face — the
+ * child saw a disc on the cheek. 8 units out, the disc sits beside the head where the ear is. The ring + leader of
+ * the label face still point at the anchor (inside the ear).
+ */
+const MARKER_AT = { ear: { L: { x: 92, y: 66 }, R: { x: 208, y: 66 } } };
 const REGIONS = ['hair', 'head', 'neck', 'torso', 'arm-L', 'arm-R', 'hand-L', 'hand-R', 'leg-L', 'leg-R', 'foot-L', 'foot-R'];
 const FEATURES = ['ear-L', 'ear-R', 'nose', 'mouth'];
 const HIDEABLE = ['arm-L', 'arm-R', 'hand-L', 'hand-R', 'leg-L', 'leg-R', 'foot-L', 'foot-R', 'hair', 'mouth', 'nose', 'ear-L', 'ear-R'];
@@ -330,7 +340,7 @@ function bodyFigure({ h = 504, fill = 'cream', hide = [], markers = [], id } = {
   // markers (coral disc + white numeral) — the only numerals a figure ever prints
   const markerPts = [];
   for (const m of markers) {
-    const a = anchorUnit(m.id, m.side);
+    const a = markerUnit(m.id, m.side);
     const r = MARKER_R / scale;
     markerPts.push({ id: m.id, x: a.x, y: a.y });
     parts.push(el('g', { 'data-lcs-marker': m.id, 'data-lcs-n': m.n, 'data-lcs-side': m.side || '' },
@@ -370,6 +380,13 @@ function bodyFigure({ h = 504, fill = 'cream', hide = [], markers = [], id } = {
   return { svg, width, height: h, scale, anchors, regions, obstacles: obs };
 }
 
+/** A marker's centre in figure units: MARKER_AT when the id has one, else its anchor. */
+function markerUnit(id, side) {
+  const m = MARKER_AT[id];
+  if (m) { if (side !== 'L' && side !== 'R') throw new Error(`body-figure: marker ${id} needs a side L|R`); return m[side]; }
+  return anchorUnit(id, side);
+}
+
 /** An anchor in figure units for (id, side) — side-free ids ignore the side; a bilateral id without a side throws. */
 function anchorUnit(id, side) {
   const a = ANCHORS[id];
@@ -378,5 +395,5 @@ function anchorUnit(id, side) {
   return a;
 }
 
-module.exports = { bodyFigure, ANCHORS, ANCHOR_IDS, REGIONS, FEATURES, HIDEABLE, OWN_REGIONS, MIN_H, LABEL_MIN_H, MAX_H, MARKER_R, MARKER_MIN_GAP, VB_W, VB_H, MID, anchorUnit,
+module.exports = { bodyFigure, ANCHORS, ANCHOR_IDS, REGIONS, FEATURES, HIDEABLE, OWN_REGIONS, MIN_H, LABEL_MIN_H, MAX_H, MARKER_R, MARKER_MIN_GAP, VB_W, VB_H, MID, anchorUnit, markerUnit, MARKER_AT,
   _geometry: { HEAD, HAIR_OUT, FRINGE, EAR, EYE, NOSE, NECK, TORSO, ARM, PALM, FINGERS, FINGER_R, FINGER_BASE, THUMB, LEG, FOOT, TOES, unit } };

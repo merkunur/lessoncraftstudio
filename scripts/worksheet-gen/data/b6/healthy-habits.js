@@ -128,9 +128,11 @@ const COMMON = {
   // brush up (a pause DURING brushing). F2 is now before: paste-on-brush, dirty-teeth · during: chewing, outside,
   // inside · after: spit (the brush laid DOWN on the rim), clean-teeth. The states dirty / clean teeth have one phase
   // in every locale; the three surfaces stay (the design's "brush every side", KAI in de).
+  // 2026-11-23 D-2 teacher review (US K-3): the child bending over the sink to spit reads as DURING brushing too (children
+  // spit while they brush), so spit left PHASE_OF for DROPPED_BRUSH: F2 ships 6 cards, before 2 · during 3 · after 1.
   PHASE_OF: {
     'paste-on-brush': 'before', 'dirty-teeth': 'before', chewing: 'during', outside: 'during', inside: 'during',
-    spit: 'after', 'clean-teeth': 'after',
+    'clean-teeth': 'after',
   },
   /**
    * DROPPED from F2 (lead review 2026-09-23): a brush standing in a cup by the sink reads equally as "take the
@@ -141,6 +143,7 @@ const COMMON = {
     'brush-in-cup': 'take the brush (before) or put it away (after): two right answers',
     'open-tube': 'fix round 2: a hand on the cap reads as opening (before) or closing (after): two right answers',
     'rinse-brush': 'fix round 2: a brush under the tap reads as wetting it first (before) or rinsing it (after); the foam cue did not hold in 3 panels',
+    spit: '2026-11-23 D-2 teacher review: a child spitting at the sink reads as during brushing (children spit while they brush) or after: two right answers',
   },
   kaiSlots: ['chewing', 'outside', 'inside'],
   GERM_PAIRS: [

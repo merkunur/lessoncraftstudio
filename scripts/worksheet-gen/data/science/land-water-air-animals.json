@@ -1,5 +1,5 @@
 {
-  "_note": "Sort animals by where they live: Land / Water / Air. K-1. Three bins. Sea mammals (dolphin/whale) live in water; classify by habitat not biology at this grade. All keys verified in cache manifest.",
+  "_note": "Sort animals by where they live: Land / Water / Air. K-1. Three bins. Sea mammals (dolphin/whale) live in water; classify by habitat not biology at this grade. All keys verified in cache manifest. 2026-11-23 D-2 teacher review: no animal LIVES in the air (birds, bees and butterflies fly but live and nest on land), so G1-202 sorts by Land / Water only (its type file sets maxBins 2) and keeps one-home animals: crab and seal are retired, shark and jellyfish added to Water.",
   "bins": [
     {
       "key": "land",
@@ -104,11 +104,25 @@
     {
       "theme": "ocean life",
       "noun": "crab",
-      "bin": "water"
+      "bin": "water",
+      "retired": true,
+      "retiredWhy": "2026-11-23 D-2 teacher review: a crab lives in the sea and on the beach: two homes"
     },
     {
       "theme": "ocean life",
       "noun": "seal",
+      "bin": "water",
+      "retired": true,
+      "retiredWhy": "2026-11-23 D-2 teacher review: a seal lives in the water and on land (it rests and has its pups on ice and beaches): two homes"
+    },
+    {
+      "theme": "ocean life",
+      "noun": "shark",
+      "bin": "water"
+    },
+    {
+      "theme": "ocean life",
+      "noun": "jellyfish",
       "bin": "water"
     },
     {

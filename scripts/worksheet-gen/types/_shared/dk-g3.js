@@ -114,7 +114,6 @@ SC.pendulum = () => `<rect x="20" y="88" width="80" height="8" fill="${T.creamDe
   `<path d="M52 70 q14 10 28 6 q12 -4 22 -16" fill="none" stroke="${T.inkSoft}" stroke-width="1.5" stroke-dasharray="3 3"/>`;
 SC.ramp = () => `<rect x="4" y="74" width="26" height="12" rx="1.5" fill="${T.coral}" stroke="${T.ink}" stroke-width="1.5" data-g3-books="1"/><path d="M7 77 H27 M7 80 H27" stroke="#FFFFFF" stroke-width="1"/>` +
   `<path d="M28 74 L92 87" stroke="${CC.codeBrown}" stroke-width="5" stroke-linecap="round"/><path d="M2 88 H118" stroke="${T.grid}" stroke-width="3"/>` + img({ theme: 'toys', noun: 'car' }, 26, 56, 24, 18) + `<path d="M96 84 H116" stroke="${T.inkSoft}" stroke-width="1.5" stroke-dasharray="3 3"/>`;
-  `<path d="M28 56 L84 86" stroke="${CC.codeBrown}" stroke-width="5" stroke-linecap="round"/><path d="M2 88 H118" stroke="${T.grid}" stroke-width="3"/>` + img({ theme: 'toys', noun: 'car' }, 34, 46, 24, 18) + `<path d="M88 82 H112" stroke="${T.inkSoft}" stroke-width="1.5" stroke-dasharray="3 3"/>`;
 const SWATCH = {
   tile: () => `<rect x="8" y="8" width="84" height="84" fill="#FFFFFF" stroke="${T.inkSoft}" stroke-width="2"/>` + [36, 64].map((v) => `<path d="M${v} 8 V92 M8 ${v} H92" stroke="${T.grid}" stroke-width="2"/>`).join(''),
   carpet: () => `<rect x="8" y="8" width="84" height="84" rx="6" fill="${T.coralSoft}" stroke="${T.coral}" stroke-width="2"/>` + Array.from({ length: 49 }, (_, k) => `<circle cx="${16 + (k % 7) * 11}" cy="${16 + Math.floor(k / 7) * 11}" r="2.4" fill="${T.coral}" opacity=".6"/>`).join(''),

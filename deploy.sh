@@ -341,7 +341,7 @@ node /opt/lessoncraftstudio/scripts/audit-activity-coverage.js > /tmp/lcs-activi
 # WARN-only (Daily Teaching System, Part 1): the content graph — every worksheet type under a teaching point, the
 # authored order and prerequisites consistent, every tool, activity and landing the 11 language indexes name exists.
 # It becomes a hard gate when units ship (Part 3). docs/daily-teaching-system/graph/README.md
-node /opt/lessoncraftstudio/scripts/teaching-graph/gates.js --warn > /tmp/lcs-teaching-graph.txt 2>&1; tail -4 /tmp/lcs-teaching-graph.txt
+node /opt/lessoncraftstudio/scripts/teaching-graph/gates.js --warn > /tmp/lcs-teaching-graph.txt 2>&1 || { tail -20 /tmp/lcs-teaching-graph.txt; echo "ERROR: the content-graph gate crashed (it does not fail on warnings). Most likely a page type reads the picture cache while it loads, and the server has none: node scripts/worksheet-gen/tools/check-types-load-without-cache.js"; exit 1; }; tail -4 /tmp/lcs-teaching-graph.txt
 # HARD since Part 4.4 (2026-11-11: live unit pages show national objectives; it was WARN-only in Part 2): the
 # curriculum registries — every node cites its source, every crosswalk row names an existing objective and can be
 # shown without an invented id. It reads committed files only. docs/daily-teaching-system/curricula/README.md

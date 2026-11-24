@@ -1992,3 +1992,43 @@ Then batch 1 (Grade 1 pages), and so on.
 **Next:**
 1. Social studies, K–3: design rows, pages, units.
 2. D-4, preschool theme units.
+
+### 2026-11-24: Stage D-5 batch SK and Stage D-3 for Kindergarten social studies are live: 15 new Kindergarten social studies page types and 5 units in English; a live K-213 page that showed its own answer is fixed in 11 languages (deploy 57, commit `c16df101d`)
+
+**Batch SK, the pages** (`types/_shared/dk-social-k.js`, `dk-social-k-art.js`, `data/social/dk-social-k.js`, `data/social/globe-americas.js`, K-712 … K-726):
+- **Thirteen lines of the Kindergarten social studies year** (8 new, 5 changes of a close page, each a new type):
+  - our class rules; taking turns and sharing; many kinds of families; family traditions (birthday, Thanksgiving, Diwali, Lunar New Year); long ago and today;
+  - choosing one thing; who makes it, who does it (goods and services);
+  - our flag (13 stripes, 50 stars in rows of 6 and 5, 10 : 19); Martin Luther King Jr. (small at a lectern before a crowd of many skin tones, no likeness); fair for everyone;
+  - land and water on a globe (Natural Earth land, the Americas facing the child, 27% land); a neighborhood map (north up, a picture key); hot places, cold places.
+- **The two teacher-led lessons** get their page too: who helps at our school (one helper per problem) and our class vote (two rows of ten boxes per book, numbered 1-20; the tie rule "If two books tie for the most votes, we vote again on just those two"; the star by the winner).
+- Every page with people varies the skin tones; the families, traditions and Dr. King rules of the brief hold; nine codes in playable families are print only (`LEVEL_SET_PRINT_ONLY_VARIATIONS`).
+- **Built by one Opus agent; fixed by two more; read by one US Kindergarten teacher in three rounds:**
+  - Round 1 (pages): 5 must-fix (helping up read as a push; the diya read as a boat; the bookshelf gave the librarian away; columns of ten could not hold a class vote; the tie rule fired on two losing books) and 34 should-fix (lines that always crossed on two-pair levels, the cherry pie, the red key door, the fire station that read as a garage, "the one you give up", blank bands, …).
+  - Round 2 (pages): 0 must-fix, 11 should-fix (vote boxes too small for a crayon, cut hair that read as bugs, the tear picture, word pictures for fair / kind / share, the water-or-land question back on level 3, three drawing boxes).
+  - Round 3 (teacher text): 7 must-fix (six guest scripts that started on a picture a copy may not show; "goods you can hold", a house) and 24 should-fix (no child tells about a classmate's family; a child may pass; political globes; Alaska; "in many places in our country"; how the ballots become one count; the fill order of the boxes).
+- **The gate** `qa/verify-dk-social-k.js`: 20,531 assertions at 400 seeds a level, 149/149 poisons, a layout sweep of the generator's seeds.
+- **Byte identity:** 54,882 existing pages hash the same with and without the batch (every family it joins or sits beside in 11 languages, the earlier batches in English, the 33 themed types with real themes; the maze family in English: one river-maze build takes up to 13 s). The builder's own hash runs had been left running for hours on that family.
+- **Level Set `ydp`:** 136 noindex English pages (the 15 new types and K-563, the room plan seen from above, which the lesson hands out and which had no English page: it gained `levelSetWords`, its pages unchanged); check-zips 0 problems, audit 136/136.
+
+**The teaching points:** 15 new points with their C3 Framework indicators (`add-points-k.en.social.js`; English rows `teaches` or `prepares` with reasons; the other curricula "not yet read"); 571 points, all 1,604 types sit under one; every curriculum rebuilt.
+
+**Stage D-3 for Kindergarten social studies, the units** (`place-ready-k.en.social.js`): Me and My School; My Family; Helpers, Needs and Wants; Our Country and Being Fair; Maps, Places and Getting Around (20 lessons, each with its page and routine).
+- **Year plan `plan-k-social`, 28 weeks.** Social studies has two sessions a week, so a unit of four lessons is 5.5 weeks; summing rounded units claimed 30 weeks inside the design's 28 and stretched the Kindergarten sub-day year to 30. Social studies plans now share the half week where one unit ends and the next begins (`assemble.js`, gate P7 likewise); every other plan is byte-identical.
+- **20 teacher notes** (`notes/en-social-k.js`), every lesson with its routine; all five guides fit.
+- **Sub days:** the Kindergarten week days rebuilt; 10 days gain a social studies closing page a guest teacher can run, with ten new guest-teacher scripts; K-502 (copy the grid picture) covers the first weeks' writing block now that the family words are a lesson of weeks 6-11. No day's title, description or address changed.
+- **Coverage:** 8 gaps frozen once (decision 7): 5 unit checks and the 3 checks of the year (the card engine cannot read these pages).
+
+**A live fault fixed (K-213, Community Helpers and Their Tools, 11 languages):** the library mechanic works at a car with a wrench in his hand, and the page asked the child to match him to the wrench. The pair is retired, and a retired pair's tool never stands as the level-1 leftover either (a wrench beside the carpenter, a trumpet beside the teacher could be defended as theirs). New gate `qa/verify-k213-helper-pairs.js` (4/4 poisons). Republished in place: 77 pages (batch `mechfix`), then 44 level-1 copies (`mech2fix`); each followed by the HANDOFF §6 order, IDENTITY PASS both times. The worksheet maker "sorting" still serves the mechanic, the musician and the astronaut until the next maker release.
+
+**Also fixed: the teacher guides' footer.** `build-guide.js` measured a lesson sheet by its scroll height, but the footer sits absolutely at the foot, so a sheet without the box for own notes could run its teacher note into the footer's rule and still "fit" (28 live English guides, 1-23 px). A lesson sheet's flow now ends above the footer's top, and a third fitting step sets the note a little smaller (10.5 pt) where that box is already gone. Found by the agent fitting the new guides. All 110 English, 30 German and 41 Swedish guides fit and were uploaded again.
+
+**Live, after the deploy:** teacher files uploaded (en 801, de 192, sv 222; `--check` equal; every guide was rebuilt by the new fit rule); units live check 2,964 checks pass; assessments live check 73 unit checks and 24 checks of the year, 2,121 checks pass; the 5 unit pages and the plan page: 200, indexable, self-canonical, in the sitemap; the teacher guide redirects anonymous visitors (302 to sign-up); a ydp page answers noindex in the header and the page; identity check PASS: 287 pages and 11 shards unchanged (sitemap 3 grew 5,014 → 5,088). Payment canary OK.
+
+**Open:**
+- The maker release (the sorting maker's K-213 data).
+- Unit checks for the science, health and social studies units (an observation check or a card form).
+- The Texas reading of the new points.
+- The library nurse's red-cross cap (the owner's word).
+
+**Next:** social studies Grade 1 (batch S1), then Grades 2 and 3; then D-4, preschool theme units.

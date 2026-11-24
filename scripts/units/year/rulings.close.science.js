@@ -22,6 +22,27 @@ const C = (note) => ({ rule: 'change', note });
 const B = (note) => ({ rule: 'build', note });
 module.exports = {
   en: {
+    "3-089": N("G3-581", "built (Stage D-5 batch 3, 2026-11-24): G3-581, reviewed by one US third-grade teacher in two rounds"),
+    "3-090": N("G3-582", "built (Stage D-5 batch 3, 2026-11-24): G3-582, reviewed by one US third-grade teacher in two rounds"),
+    "3-091": N("G3-583", "built (Stage D-5 batch 3, 2026-11-24): G3-583, reviewed by one US third-grade teacher in two rounds"),
+    "3-092": N("G3-584", "built (Stage D-5 batch 3, 2026-11-24): G3-584, reviewed by one US third-grade teacher in two rounds"),
+    "3-093": N("G3-585", "built (Stage D-5 batch 3, 2026-11-24): G3-585, reviewed by one US third-grade teacher in two rounds"),
+    "3-094": N("G3-586", "built (Stage D-5 batch 3, 2026-11-24): G3-586, reviewed by one US third-grade teacher in two rounds"),
+    "3-095": N("G3-587", "built (Stage D-5 batch 3, 2026-11-24): G3-587, reviewed by one US third-grade teacher in two rounds"),
+    "3-096": N("G3-588", "built (Stage D-5 batch 3, 2026-11-24): G3-588, reviewed by one US third-grade teacher in two rounds"),
+    "3-097": N("G3-589", "built (Stage D-5 batch 3, 2026-11-24): G3-589, reviewed by one US third-grade teacher in two rounds"),
+    "3-098": N("G3-590", "built (Stage D-5 batch 3, 2026-11-24): G3-590, reviewed by one US third-grade teacher in two rounds"),
+    "3-100": N("G3-591", "built (Stage D-5 batch 3, 2026-11-24): G3-591, reviewed by one US third-grade teacher in two rounds"),
+    "3-101": N("G3-592", "built (Stage D-5 batch 3, 2026-11-24): G3-592, reviewed by one US third-grade teacher in two rounds"),
+    "3-102": N("G3-593", "built (Stage D-5 batch 3, 2026-11-24): G3-593, reviewed by one US third-grade teacher in two rounds"),
+    "3-105": N("G3-594", "built (Stage D-5 batch 3, 2026-11-24): G3-594, reviewed by one US third-grade teacher in two rounds"),
+    "3-106": N("G3-595", "built (Stage D-5 batch 3, 2026-11-24): G3-595, reviewed by one US third-grade teacher in two rounds"),
+    "3-107": N("G3-596", "built (Stage D-5 batch 3, 2026-11-24): G3-596, reviewed by one US third-grade teacher in two rounds"),
+    "3-108": N("G3-597", "built (Stage D-5 batch 3, 2026-11-24): G3-597, reviewed by one US third-grade teacher in two rounds"),
+    "3-109": N("G3-598", "built (Stage D-5 batch 3, 2026-11-24): G3-598, reviewed by one US third-grade teacher in two rounds"),
+    "3-110": N("G3-599", "built (Stage D-5 batch 3, 2026-11-24): G3-599, reviewed by one US third-grade teacher in two rounds"),
+    "3-111": N("G3-600", "built (Stage D-5 batch 3, 2026-11-24): G3-600, reviewed by one US third-grade teacher in two rounds"),
+    "3-112": N("G3-601", "built (Stage D-5 batch 3, 2026-11-24): G3-601, reviewed by one US third-grade teacher in two rounds"),
     "2-061": N("G2-584", "built (Stage D-5 batch 2, 2026-11-24): G2-584, reviewed by one US second-grade teacher in three rounds"),
     "2-063": N("G2-585", "built (Stage D-5 batch 2, 2026-11-24): G2-585, reviewed by one US second-grade teacher in three rounds"),
     "2-064": N("G2-586", "built (Stage D-5 batch 2, 2026-11-24): G2-586, reviewed by one US second-grade teacher in three rounds"),
@@ -79,9 +100,6 @@ module.exports = {
     "K-013": N("K-693", "built (Stage D-5 batch K, 2026-11-23): K-693, reviewed by one US Kindergarten teacher in two rounds"),
     "K-014": N("K-694", "built (Stage D-5 batch K, 2026-11-23): K-694, reviewed by one US Kindergarten teacher in two rounds"),
     "K-020": N("K-699", "built (Stage D-5 batch K, 2026-11-23): K-699, reviewed by one US Kindergarten teacher in two rounds"),
-    "3-097": C("a weather-data mode of the graph-tasks bar-fill (school days, highs in °F on a scaled axis) with the table and two comparison questions."),
-    "3-098": C("a monthly climate mode with the season boxes."),
-    "3-109": C("a two-background tally table and bar graph for the camouflage game."),
   },
 };
 void N;

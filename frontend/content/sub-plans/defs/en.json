@@ -8121,10 +8121,10 @@
      "type": "G3-373"
     },
     {
-     "key": "social",
+     "key": "science",
      "minutes": 15,
-     "point": "1:map-key",
-     "type": "G2-505"
+     "point": "2:plant-parts",
+     "type": "G2-363"
     },
     {
      "key": "logic",
@@ -8190,8 +8190,8 @@
     {
      "key": "social",
      "minutes": 15,
-     "point": "2:family-relationships",
-     "type": "G2-362"
+     "point": "1:map-key",
+     "type": "G2-505"
     },
     {
      "key": "logic",
@@ -8257,10 +8257,10 @@
      "type": "G3-323"
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "2:life-cycles",
-     "type": "G2-366"
+     "point": "2:family-relationships",
+     "type": "G2-362"
     },
     {
      "key": "logic",
@@ -8324,10 +8324,10 @@
      "type": "G2-323"
     },
     {
-     "key": "social",
+     "key": "science",
      "minutes": 15,
-     "point": "3:continents-oceans",
-     "type": "G3-396"
+     "point": "2:life-cycles",
+     "type": "G2-366"
     },
     {
      "key": "logic",
@@ -8460,10 +8460,10 @@
      "type": "G2-240"
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "1:animal-classes-coverings",
-     "type": "G1-205"
+     "point": "3:continents-oceans",
+     "type": "G3-396"
     },
     {
      "key": "logic",
@@ -8530,8 +8530,8 @@
     {
      "key": "science",
      "minutes": 15,
-     "point": "1:habitats-needs",
-     "type": "G1-202"
+     "point": "1:animal-classes-coverings",
+     "type": "G1-205"
     },
     {
      "key": "logic",
@@ -8598,10 +8598,10 @@
      "type": "G3-374"
     },
     {
-     "key": "social",
+     "key": "science",
      "minutes": 15,
-     "point": "2:cardinal-directions",
-     "type": "G2-371"
+     "point": "2:day-and-night",
+     "type": "G2-368"
     },
     {
      "key": "logic",
@@ -8667,8 +8667,8 @@
     {
      "key": "science",
      "minutes": 15,
-     "point": "1:food-groups",
-     "type": "G1-207"
+     "point": "1:habitats-needs",
+     "type": "G1-202"
     },
     {
      "key": "logic",
@@ -8734,8 +8734,8 @@
     {
      "key": "social",
      "minutes": 15,
-     "point": "2:continents",
-     "type": "G2-370"
+     "point": "2:cardinal-directions",
+     "type": "G2-371"
     },
     {
      "key": "logic",
@@ -8802,10 +8802,10 @@
      "type": "G3-375"
     },
     {
-     "key": "social",
+     "key": "science",
      "minutes": 15,
-     "point": "1:map-key",
-     "type": "G1-379"
+     "point": "1:food-groups",
+     "type": "G1-207"
     },
     {
      "key": "logic",
@@ -8871,8 +8871,8 @@
     {
      "key": "social",
      "minutes": 15,
-     "point": "3:continents-oceans",
-     "type": "G3-396"
+     "point": "2:continents",
+     "type": "G2-370"
     },
     {
      "key": "logic",
@@ -8936,10 +8936,10 @@
      "type": "G2-323"
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "1:animal-classes-coverings",
-     "type": "G1-201"
+     "point": "2:road-signs",
+     "type": "G2-361"
     },
     {
      "key": "logic",
@@ -9008,8 +9008,8 @@
     {
      "key": "social",
      "minutes": 15,
-     "point": "2:cardinal-directions",
-     "type": "G2-369"
+     "point": "1:map-key",
+     "type": "G1-379"
     },
     {
      "key": "logic",
@@ -9073,10 +9073,10 @@
      "type": "G2-506"
     },
     {
-     "key": "social",
+     "key": "science",
      "minutes": 15,
-     "point": "1:map-key",
-     "type": "G2-505"
+     "point": "2:sink-float",
+     "type": "G2-382"
     },
     {
      "key": "logic",
@@ -9144,7 +9144,7 @@
      "key": "science",
      "minutes": 15,
      "point": "1:animal-classes-coverings",
-     "type": "G1-205"
+     "type": "G1-201"
     },
     {
      "key": "logic",

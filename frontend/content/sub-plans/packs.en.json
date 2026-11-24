@@ -18540,19 +18540,17 @@
      }
     },
     {
-     "key": "social",
+     "key": "science",
      "minutes": 15,
-     "point": "1:map-key",
-     "type": "G2-505",
-     "title": "Fix the Arrow Program",
-     "instruction": "Follow the arrows from the flag: each arrow is one step. One arrow is wrong: the path does not end on the star. Circle the wrong arrow and draw the correct arrow in the box under it.",
-     "core": "maps-g2505",
-     "hard": "maps-hard-g2505-11",
-     "easy": "maps-easy-g2505-6",
+     "point": "2:plant-parts",
+     "type": "G2-363",
+     "title": "Parts of a Plant We Eat",
+     "instruction": "Look at each food. Circle the part of the plant that we eat.",
+     "core": "plants-g2363-2",
      "script": {
-      "say": "\"Follow the arrows from the flag: each arrow is one step. One arrow is wrong: the path does not end on the star. Find the wrong arrow and fix it.\"",
-      "first": "Do the first puzzle on the board: put a finger on the flag and move one square for each arrow, saying \"up, right, right.\" See where you land. Then find the arrow that takes the path the wrong way and cross it out.",
-      "stuck": "Have the child move a finger one square per arrow and stop when the path goes off course: that arrow is the wrong one."
+      "say": "\"We eat different parts of plants: roots, stems, leaves, flowers, fruits, and seeds. Look at each food and circle the part of the plant we eat.\"",
+      "first": "Draw a plant on the board and label its parts. Name the first food on the page together and ask, \"Does it grow under the ground, is it the stem, a leaf, a flower, a fruit, or a seed?\" Circle the word.",
+      "stuck": "Ask the child where the food grows: under the ground (roots), the long part that holds the plant up (stem), the flat green part (leaf), the part bees visit (flower), the part with seeds inside (fruit), or the seed itself. Let the child choose and say why."
      }
     },
     {
@@ -18700,17 +18698,17 @@
     {
      "key": "social",
      "minutes": 15,
-     "point": "2:family-relationships",
-     "type": "G2-362",
-     "title": "Family Relationships: Riddles",
-     "instruction": "Read each riddle and write the right family word from the box on the line; one word can fit more than one riddle.",
-     "core": "family-g2362-2",
-     "hard": "family-hard-g2362-11",
-     "easy": "family-easy-g2362-8",
+     "point": "1:map-key",
+     "type": "G2-505",
+     "title": "Fix the Arrow Program",
+     "instruction": "Follow the arrows from the flag: each arrow is one step. One arrow is wrong: the path does not end on the star. Circle the wrong arrow and draw the correct arrow in the box under it.",
+     "core": "maps-g2505",
+     "hard": "maps-hard-g2505-11",
+     "easy": "maps-easy-g2505-6",
      "script": {
-      "say": "\"Now it is time to read and think. Each sentence is a riddle about one child's family. Read the riddle and work it out step by step. Then write the right family word from the box on the line. Some words fit more than one riddle.\"",
-      "first": "Draw a family tree on the board with stick people: the child the riddles are about at the bottom; the mom and the dad above the child; a grandma and a grandpa above each parent; an aunt or an uncle beside each parent; and a cousin under the aunt. Read the first riddle aloud and follow it on the tree together, one step at a time, and write the word. Keep to the family on the page, not the children's own families.",
-      "stuck": "Have the child cover the end of the riddle and say who its first part names (\"the dad\"), then add the last word (\"his brother\"). Following the riddle on the tree on the board helps. The children of an aunt or an uncle are cousins."
+      "say": "\"Follow the arrows from the flag: each arrow is one step. One arrow is wrong: the path does not end on the star. Find the wrong arrow and fix it.\"",
+      "first": "Do the first puzzle on the board: put a finger on the flag and move one square for each arrow, saying \"up, right, right.\" See where you land. Then find the arrow that takes the path the wrong way and cross it out.",
+      "stuck": "Have the child move a finger one square per arrow and stop when the path goes off course: that arrow is the wrong one."
      }
     },
     {
@@ -18856,17 +18854,19 @@
      }
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "2:life-cycles",
-     "type": "G2-366",
-     "title": "Metamorphosis: Which Animal Will It Become?",
-     "instruction": "Look at each stage and write its letter in a box under the animal it will grow into; some boxes stay empty.",
-     "core": "animal-life-cycles-g2366",
+     "point": "2:family-relationships",
+     "type": "G2-362",
+     "title": "Family Relationships: Riddles",
+     "instruction": "Read each riddle and write the right family word from the box on the line; one word can fit more than one riddle.",
+     "core": "family-g2362-2",
+     "hard": "family-hard-g2362-11",
+     "easy": "family-easy-g2362-8",
      "script": {
-      "say": "\"Look at each stage, like an egg, a tadpole, or a caterpillar. Write its letter in a box under the animal it will grow into. Some boxes stay empty.\"",
-      "first": "Name the grown-up animals together, then look at the first stage and ask, \"What will this become?\" Write its letter in a box under that animal.",
-      "stuck": "Ask the child which animal the stage looks a little like, or say what the stage is called: a tadpole becomes a frog, a caterpillar becomes a butterfly."
+      "say": "\"Now it is time to read and think. Each sentence is a riddle about one child's family. Read the riddle and work it out step by step. Then write the right family word from the box on the line. Some words fit more than one riddle.\"",
+      "first": "Draw a family tree on the board with stick people: the child the riddles are about at the bottom; the mom and the dad above the child; a grandma and a grandpa above each parent; an aunt or an uncle beside each parent; and a cousin under the aunt. Read the first riddle aloud and follow it on the tree together, one step at a time, and write the word. Keep to the family on the page, not the children's own families.",
+      "stuck": "Have the child cover the end of the riddle and say who its first part names (\"the dad\"), then add the last word (\"his brother\"). Following the riddle on the tree on the board helps. The children of an aunt or an uncle are cousins."
      }
     },
     {
@@ -19012,19 +19012,17 @@
      }
     },
     {
-     "key": "social",
+     "key": "science",
      "minutes": 15,
-     "point": "3:continents-oceans",
-     "type": "G3-396",
-     "title": "Continents and Oceans",
-     "instruction": "Find each continent and ocean on the map. Write its number in the box next to its name.",
-     "core": "maps-g3396-2",
-     "hard": "maps-hard-g3396-9",
-     "easy": "maps-easy-g3396-6",
+     "point": "2:life-cycles",
+     "type": "G2-366",
+     "title": "Metamorphosis: Which Animal Will It Become?",
+     "instruction": "Look at each stage and write its letter in a box under the animal it will grow into; some boxes stay empty.",
+     "core": "animal-life-cycles-g2366",
      "script": {
-      "say": "\"The map shows the continents and the oceans, each with a number. Find each one on the map and write its number in the box next to its name.\"",
-      "first": "Read the names aloud together. Point to North America: \"This is where the United States is.\" Find its number and write it next to North America together. The oceans are the big blue areas.",
-      "stuck": "Give clues: \"The Pacific is the biggest ocean, on the left and right. Antarctica is the icy land at the bottom.\" Let the child find each one."
+      "say": "\"Look at each stage, like an egg, a tadpole, or a caterpillar. Write its letter in a box under the animal it will grow into. Some boxes stay empty.\"",
+      "first": "Name the grown-up animals together, then look at the first stage and ask, \"What will this become?\" Write its letter in a box under that animal.",
+      "stuck": "Ask the child which animal the stage looks a little like, or say what the stage is called: a tadpole becomes a frog, a caterpillar becomes a butterfly."
      }
     },
     {
@@ -19326,19 +19324,19 @@
      }
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "1:animal-classes-coverings",
-     "type": "G1-205",
-     "title": "Animal Coverings",
-     "instruction": "Draw a line from each animal to its body covering.",
-     "core": "science-sort-g1205",
-     "hard": "science-sort-hard-g1205-7",
-     "easy": "science-sort-easy-g1205-2",
+     "point": "3:continents-oceans",
+     "type": "G3-396",
+     "title": "Continents and Oceans",
+     "instruction": "Find each continent and ocean on the map. Write its number in the box next to its name.",
+     "core": "maps-g3396-2",
+     "hard": "maps-hard-g3396-9",
+     "easy": "maps-easy-g3396-6",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fur, Feathers, and Scales. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"What covers this animal's body: fur, feathers, or scales?\" Draw the line from the dot under the picture to its box. Fur is soft hair, feathers have a stem with soft sides, and scales are small, hard plates on the skin.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
+      "say": "\"The map shows the continents and the oceans, each with a number. Find each one on the map and write its number in the box next to its name.\"",
+      "first": "Read the names aloud together. Point to North America: \"This is where the United States is.\" Find its number and write it next to North America together. The oceans are the big blue areas.",
+      "stuck": "Give clues: \"The Pacific is the biggest ocean, on the left and right. Antarctica is the icy land at the bottom.\" Let the child find each one."
      }
     },
     {
@@ -19486,16 +19484,16 @@
     {
      "key": "science",
      "minutes": 15,
-     "point": "1:habitats-needs",
-     "type": "G1-202",
-     "title": "Where Do Animals Live?",
-     "instruction": "Draw a line from each animal to where it lives.",
-     "core": "science-sort-g1202-2",
-     "hard": "science-sort-hard-g1202-8",
-     "easy": "science-sort-easy-g1202-3",
+     "point": "1:animal-classes-coverings",
+     "type": "G1-205",
+     "title": "Animal Coverings",
+     "instruction": "Draw a line from each animal to its body covering.",
+     "core": "science-sort-g1205",
+     "hard": "science-sort-hard-g1205-7",
+     "easy": "science-sort-easy-g1205-2",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Land, Water, and Air. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this animal spend most of its time: on land, in the water, or in the air?\" Draw the line from the dot under the picture to its box. An animal that flies lives on land too, so Air and Land are both right for it when the child can say why.",
+      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fur, Feathers, and Scales. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"What covers this animal's body: fur, feathers, or scales?\" Draw the line from the dot under the picture to its box. Fur is soft hair, feathers have a stem with soft sides, and scales are small, hard plates on the skin.",
       "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
      }
     },
@@ -19640,19 +19638,17 @@
      }
     },
     {
-     "key": "social",
+     "key": "science",
      "minutes": 15,
-     "point": "2:cardinal-directions",
-     "type": "G2-371",
-     "title": "Cardinal Directions on a Map",
-     "instruction": "Start at the first picture on the map, look the way the word says, and circle the one of the three pictures that lies that way.",
-     "core": "maps-g2371",
-     "hard": "maps-hard-g2371-12",
-     "easy": "maps-easy-g2371-7",
+     "point": "2:day-and-night",
+     "type": "G2-368",
+     "title": "Why Do We Have Day and Night?",
+     "instruction": "Look where the Sun is. At each numbered pin, is it day or night? Circle the word in the table.",
+     "core": "earth-and-space-g2368-2",
      "script": {
-      "say": "\"Look at the map. Start at the first picture of each question, look the way the word says, and circle the picture you see in that direction.\"",
-      "first": "Find the compass rose on the map together and say the four directions. Read the first question aloud, put a finger on its first picture, and move the finger the way the word says. Circle the picture you reach. Use the map key to name the pictures.",
-      "stuck": "Have the child point to the direction on the compass rose first, then move a finger the same way across the map."
+      "say": "\"Look where the Sun is. The side of Earth that faces the Sun has day; the other side has night. At each numbered pin, is it day or night? Circle the word in the table.\"",
+      "first": "Point from the Sun on the page to Earth and show the side that faces it. Do the first pin together: \"Does it face the Sun?\" Circle day or night.",
+      "stuck": "Have the child trace a line from the Sun to the pin: if Earth is in the way, it is night there."
      }
     },
     {
@@ -19798,16 +19794,16 @@
     {
      "key": "science",
      "minutes": 15,
-     "point": "1:food-groups",
-     "type": "G1-207",
-     "title": "Sort by Food Group",
-     "instruction": "Draw a line from each food to its food group.",
-     "core": "science-sort-g1207-2",
-     "hard": "science-sort-hard-g1207-8",
-     "easy": "science-sort-easy-g1207-3",
+     "point": "1:habitats-needs",
+     "type": "G1-202",
+     "title": "Where Do Animals Live?",
+     "instruction": "Draw a line from each animal to where it lives.",
+     "core": "science-sort-g1202-2",
+     "hard": "science-sort-hard-g1202-8",
+     "easy": "science-sort-easy-g1202-3",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fruits, Vegetables, Grains, and Protein. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this a fruit, a vegetable, a grain like bread or pasta, or a protein like eggs, meat, or fish?\" Draw the line from the dot under the picture to its box. A tomato can be called a fruit or a vegetable; either box is right for it.",
+      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Land, Water, and Air. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this animal spend most of its time: on land, in the water, or in the air?\" Draw the line from the dot under the picture to its box. An animal that flies lives on land too, so Air and Land are both right for it when the child can say why.",
       "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
      }
     },
@@ -19956,17 +19952,17 @@
     {
      "key": "social",
      "minutes": 15,
-     "point": "2:continents",
-     "type": "G2-370",
-     "title": "Label the Continents",
-     "instruction": "Write the name of each numbered continent on its line. Use the names in the box.",
-     "core": "maps-g2370-2",
-     "hard": "maps-hard-g2370-9",
-     "easy": "maps-easy-g2370-6",
+     "point": "2:cardinal-directions",
+     "type": "G2-371",
+     "title": "Cardinal Directions on a Map",
+     "instruction": "Start at the first picture on the map, look the way the word says, and circle the one of the three pictures that lies that way.",
+     "core": "maps-g2371",
+     "hard": "maps-hard-g2371-12",
+     "easy": "maps-easy-g2371-7",
      "script": {
-      "say": "\"The map shows the seven continents, each with a number. Write the name of each continent on its line. The names are in the box.\"",
-      "first": "Read the seven names in the box aloud together. Point to North America on the map: \"This is where the United States is.\" Find its number together and write North America on that line. The children do the rest, crossing each name out of the box when they use it.",
-      "stuck": "Give clues: \"Antarctica is the icy one at the bottom. South America is under North America. Africa is the big one in the middle.\" Let the child find each one on the map."
+      "say": "\"Look at the map. Start at the first picture of each question, look the way the word says, and circle the picture you see in that direction.\"",
+      "first": "Find the compass rose on the map together and say the four directions. Read the first question aloud, put a finger on its first picture, and move the finger the way the word says. Circle the picture you reach. Use the map key to name the pictures.",
+      "stuck": "Have the child point to the direction on the compass rose first, then move a finger the same way across the map."
      }
     },
     {
@@ -20112,19 +20108,19 @@
      }
     },
     {
-     "key": "social",
+     "key": "science",
      "minutes": 15,
-     "point": "1:map-key",
-     "type": "G1-379",
-     "title": "Read the Map Key",
-     "instruction": "Find each thing from the map key on the map, then write how many there are in its box.",
-     "core": "maps-g1379",
-     "hard": "maps-hard-g1379-12",
-     "easy": "maps-easy-g1379-7",
+     "point": "1:food-groups",
+     "type": "G1-207",
+     "title": "Sort by Food Group",
+     "instruction": "Draw a line from each food to its food group.",
+     "core": "science-sort-g1207-2",
+     "hard": "science-sort-hard-g1207-8",
+     "easy": "science-sort-easy-g1207-3",
      "script": {
-      "say": "\"The map key shows little pictures and what they stand for. Find each thing from the key on the map, and write how many there are in its box.\"",
-      "first": "Read the map key aloud together. Find the first thing of the key on the map together and count it; write the number in its box. Tell the children to cross off each one they count so they do not count it twice.",
-      "stuck": "Have the child look at one picture of the key and find all of them on the map, one at a time."
+      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fruits, Vegetables, Grains, and Protein. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this a fruit, a vegetable, a grain like bread or pasta, or a protein like eggs, meat, or fish?\" Draw the line from the dot under the picture to its box. A tomato can be called a fruit or a vegetable; either box is right for it.",
+      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
      }
     },
     {
@@ -20272,17 +20268,17 @@
     {
      "key": "social",
      "minutes": 15,
-     "point": "3:continents-oceans",
-     "type": "G3-396",
-     "title": "Continents and Oceans",
-     "instruction": "Find each continent and ocean on the map. Write its number in the box next to its name.",
-     "core": "maps-g3396-3",
-     "hard": "maps-hard-g3396-10",
-     "easy": "maps-easy-g3396-7",
+     "point": "2:continents",
+     "type": "G2-370",
+     "title": "Label the Continents",
+     "instruction": "Write the name of each numbered continent on its line. Use the names in the box.",
+     "core": "maps-g2370-2",
+     "hard": "maps-hard-g2370-9",
+     "easy": "maps-easy-g2370-6",
      "script": {
-      "say": "\"The map shows the continents and the oceans, each with a number. Find each one on the map and write its number in the box next to its name.\"",
-      "first": "Read the names aloud together. Point to North America: \"This is where the United States is.\" Find its number and write it next to North America together. The oceans are the big blue areas.",
-      "stuck": "Give clues: \"The Pacific is the biggest ocean, on the left and right. Antarctica is the icy land at the bottom.\" Let the child find each one."
+      "say": "\"The map shows the seven continents, each with a number. Write the name of each continent on its line. The names are in the box.\"",
+      "first": "Read the seven names in the box aloud together. Point to North America on the map: \"This is where the United States is.\" Find its number together and write North America on that line. The children do the rest, crossing each name out of the box when they use it.",
+      "stuck": "Give clues: \"Antarctica is the icy one at the bottom. South America is under North America. Africa is the big one in the middle.\" Let the child find each one on the map."
      }
     },
     {
@@ -20426,19 +20422,17 @@
      }
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "1:animal-classes-coverings",
-     "type": "G1-201",
-     "title": "Sort the Animals",
-     "instruction": "Draw a line from each animal to the group it belongs to.",
-     "core": "science-sort-g1201-2",
-     "hard": "science-sort-hard-g1201-8",
-     "easy": "science-sort-easy-g1201-3",
+     "point": "2:road-signs",
+     "type": "G2-361",
+     "title": "Road Safety Quiz: Which Sign Fits?",
+     "instruction": "Read each sentence and circle the one road sign that fits it.",
+     "core": "road-safety-g2361-2",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Mammals, Birds, and Reptiles. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Does it have fur, feathers, or scales? Does it lay eggs or feed its babies milk?\" Draw the line from the dot under the picture to its box. Mammals have fur or hair, birds have feathers, and reptiles have dry scales.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
+      "say": "\"Read each sentence. Circle the one road sign that fits it.\"",
+      "first": "Read the first sentence aloud and look at the three signs next to it. Ask, \"Which sign tells drivers about this?\" Circle it together. Read each sentence aloud for children who need it.",
+      "stuck": "Read the sentence again and name the three signs; ask which one would help in that place."
      }
     },
     {
@@ -20586,17 +20580,17 @@
     {
      "key": "social",
      "minutes": 15,
-     "point": "2:cardinal-directions",
-     "type": "G2-369",
-     "title": "North, East, South, West: Label the Four Directions",
-     "instruction": "The orange tip on each compass rose points north; write the three missing letters in the empty boxes.",
-     "core": "maps-g2369-2",
-     "hard": "maps-hard-g2369-11",
-     "easy": "maps-easy-g2369-8",
+     "point": "1:map-key",
+     "type": "G1-379",
+     "title": "Read the Map Key",
+     "instruction": "Find each thing from the map key on the map, then write how many there are in its box.",
+     "core": "maps-g1379",
+     "hard": "maps-hard-g1379-12",
+     "easy": "maps-easy-g1379-7",
      "script": {
-      "say": "\"The four directions are north, east, south, and west. On a compass rose, north is at the tip that points up. Write the three missing letters in the empty boxes.\"",
-      "first": "Draw a compass rose on the board: N at the top, S at the bottom, E on the right, W on the left. Say \"Never Eat Soggy Waffles\" going round from the top. On the page the orange tip points north, and it may not point up: turn the page so the orange tip points up, then fill in the boxes. Do the first rose together.",
-      "stuck": "Have the child put a finger on the orange tip and say north, then go around clockwise: east, south, west."
+      "say": "\"The map key shows little pictures and what they stand for. Find each thing from the key on the map, and write how many there are in its box.\"",
+      "first": "Read the map key aloud together. Find the first thing of the key on the map together and count it; write the number in its box. Tell the children to cross off each one they count so they do not count it twice.",
+      "stuck": "Have the child look at one picture of the key and find all of them on the map, one at a time."
      }
     },
     {
@@ -20742,19 +20736,17 @@
      }
     },
     {
-     "key": "social",
+     "key": "science",
      "minutes": 15,
-     "point": "1:map-key",
-     "type": "G2-505",
-     "title": "Fix the Arrow Program",
-     "instruction": "Follow the arrows from the flag: each arrow is one step. One arrow is wrong: the path does not end on the star. Circle the wrong arrow and draw the correct arrow in the box under it.",
-     "core": "maps-g2505-2",
-     "hard": "maps-hard-g2505-12",
-     "easy": "maps-easy-g2505-7",
+     "point": "2:sink-float",
+     "type": "G2-382",
+     "title": "Make Clay Float: A Change the Shape Experiment",
+     "instruction": "Color the ring where each clay shape ends up, circle the thing that floats, then draw your own clay boat in the big tank.",
+     "core": "sink-or-float-g2382-2",
      "script": {
-      "say": "\"Follow the arrows from the flag: each arrow is one step. One arrow is wrong: the path does not end on the star. Find the wrong arrow and fix it.\"",
-      "first": "Do the first puzzle on the board: put a finger on the flag and move one square for each arrow, saying \"up, right, right.\" See where you land. Then find the arrow that takes the path the wrong way and cross it out.",
-      "stuck": "Have the child move a finger one square per arrow and stop when the path goes off course: that arrow is the wrong one."
+      "say": "\"The same clay can sink or float: a ball of clay sinks, a clay boat floats. Color the ring where each clay shape ends up, circle the thing that floats, then draw your own clay boat.\"",
+      "first": "Talk about the pictures: a ball and a flat boat made of the same clay. Ask, \"Which one floats? Why?\" Do the first part together.",
+      "stuck": "Ask the child, \"Is it flat and wide like a boat, or a tight ball?\""
      }
     },
     {
@@ -20903,15 +20895,15 @@
      "key": "science",
      "minutes": 15,
      "point": "1:animal-classes-coverings",
-     "type": "G1-205",
-     "title": "Animal Coverings",
-     "instruction": "Draw a line from each animal to its body covering.",
-     "core": "science-sort-g1205-2",
-     "hard": "science-sort-hard-g1205-8",
-     "easy": "science-sort-easy-g1205-3",
+     "type": "G1-201",
+     "title": "Sort the Animals",
+     "instruction": "Draw a line from each animal to the group it belongs to.",
+     "core": "science-sort-g1201-2",
+     "hard": "science-sort-hard-g1201-8",
+     "easy": "science-sort-easy-g1201-3",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fur, Feathers, and Scales. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"What covers this animal's body: fur, feathers, or scales?\" Draw the line from the dot under the picture to its box. Fur is soft hair, feathers have a stem with soft sides, and scales are small, hard plates on the skin.",
+      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Mammals, Birds, and Reptiles. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Does it have fur, feathers, or scales? Does it lay eggs or feed its babies milk?\" Draw the line from the dot under the picture to its box. Mammals have fur or hair, birds have feathers, and reptiles have dry scales.",
       "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
      }
     },

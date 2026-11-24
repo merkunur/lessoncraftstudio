@@ -22,6 +22,13 @@ const C = (note) => ({ rule: 'change', note });
 const B = (note) => ({ rule: 'build', note });
 module.exports = {
   en: {
+    "3-026": N("G3-602", "built (Stage D-5 batch 3, 2026-11-24): G3-602, reviewed by one US third-grade teacher in two rounds"),
+    "3-027": N("G3-603", "built (Stage D-5 batch 3, 2026-11-24): G3-603, reviewed by one US third-grade teacher in two rounds"),
+    "3-028": N("G3-604", "built (Stage D-5 batch 3, 2026-11-24): G3-604, reviewed by one US third-grade teacher in two rounds"),
+    "3-029": N("G3-605", "built (Stage D-5 batch 3, 2026-11-24): G3-605, reviewed by one US third-grade teacher in two rounds"),
+    "3-030": N("G3-606", "built (Stage D-5 batch 3, 2026-11-24): G3-606, reviewed by one US third-grade teacher in two rounds"),
+    "3-031": N("G3-607", "built (Stage D-5 batch 3, 2026-11-24): G3-607, reviewed by one US third-grade teacher in two rounds"),
+    "3-032": N("G3-608", "built (Stage D-5 batch 3, 2026-11-24): G3-608, reviewed by one US third-grade teacher in two rounds"),
     "2-015": N("G2-605", "built (Stage D-5 batch 2, 2026-11-24): G2-605, reviewed by one US second-grade teacher in three rounds"),
     "2-017": N("G2-606", "built (Stage D-5 batch 2, 2026-11-24): G2-606, reviewed by one US second-grade teacher in three rounds"),
     "2-018": N("G2-607", "built (Stage D-5 batch 2, 2026-11-24): G2-607, reviewed by one US second-grade teacher in three rounds"),
@@ -39,9 +46,6 @@ module.exports = {
     "K-006": N("K-707", "built (Stage D-5 batch K, 2026-11-23): K-707, reviewed by one US Kindergarten teacher in two rounds"),
     "K-005": N("K-706", "built (Stage D-5 batch K, 2026-11-23): K-706, reviewed by one US Kindergarten teacher in two rounds"),
     "K-002": N("K-705", "built (Stage D-5 batch K, 2026-11-23): K-705, reviewed by one US Kindergarten teacher in two rounds"),
-    "3-026": B("a six-frame comic of a germ's trip with the frames to circle where a habit stops it and the habit to write."),
-    "3-030": B("a goal-plan page with a 21-day tracker and a look-back on the back."),
-    "3-031": B("a home escape-plan page on that grid plate. (G1-530 is not yet published in English.)"),
   },
 };
 void N;

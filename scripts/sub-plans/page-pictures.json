@@ -1580,6 +1580,14 @@
     "table"
    ]
   },
+  "earth-and-space-g2368-2": {
+   "pictures": [],
+   "words": [
+    "earth",
+    "sun",
+    "table"
+   ]
+  },
   "fact-families-g1209": {
    "pictures": [],
    "words": []
@@ -2417,21 +2425,11 @@
     "star"
    ]
   },
-  "maps-g2505-2": {
-   "pictures": [],
-   "words": [
-    "star"
-   ]
-  },
   "maps-g3396": {
    "pictures": [],
    "words": []
   },
   "maps-g3396-2": {
-   "pictures": [],
-   "words": []
-  },
-  "maps-g3396-3": {
    "pictures": [],
    "words": []
   },
@@ -6292,6 +6290,16 @@
   "sink-or-float-g2382": {
    "pictures": [
     "nail",
+    "ship"
+   ],
+   "words": [
+    "boat",
+    "tank"
+   ]
+  },
+  "sink-or-float-g2382-2": {
+   "pictures": [
+    "metal-nail",
     "ship"
    ],
    "words": [

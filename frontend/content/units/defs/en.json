@@ -5433,6 +5433,318 @@
     }
    ],
    "weeks": 11
+  },
+  {
+   "id": "g3-forces-and-motion",
+   "slug": "forces-and-motion-grade-3-unit",
+   "status": "live",
+   "grade": "3",
+   "subject": "science",
+   "title": "Forces and Motion",
+   "metaTitle": "Grade 3 Science Lesson Plans: Forces and Motion",
+   "metaDescription": "A Grade 3 science unit: 4 lessons on running a fair test, balanced and unbalanced forces, predicting the swings of a pendulum, and how friction slows a car.",
+   "lessons": [
+    {
+     "point": "3:investigation",
+     "types": [
+      "G3-400"
+     ]
+    },
+    {
+     "point": "3:balanced-forces",
+     "types": [
+      "G3-581"
+     ],
+     "days": 3
+    },
+    {
+     "point": "3:predict-the-swing",
+     "types": [
+      "G3-582"
+     ],
+     "days": 3
+    },
+    {
+     "point": "3:friction",
+     "types": [
+      "G3-583"
+     ]
+    }
+   ],
+   "weeks": 4
+  },
+  {
+   "id": "g3-magnets-and-static-electricity",
+   "slug": "magnets-and-static-electricity-grade-3-unit",
+   "status": "live",
+   "grade": "3",
+   "subject": "science",
+   "title": "Magnets and Static Electricity",
+   "metaTitle": "Grade 3 Science Lesson Plans: Magnets and Static Electricity",
+   "metaDescription": "A Grade 3 science unit: 5 lessons on static electricity, what magnets pull, magnet force from a distance, and designing a magnet solution to a problem.",
+   "lessons": [
+    {
+     "point": "3:static-electricity",
+     "types": [
+      "G3-584"
+     ]
+    },
+    {
+     "point": "3:what-magnets-pull",
+     "types": [
+      "G3-585"
+     ]
+    },
+    {
+     "point": "3:magnet-distance",
+     "types": [
+      "G3-586"
+     ],
+     "days": 3
+    },
+    {
+     "point": "3:magnet-problem",
+     "types": [
+      "G3-587"
+     ]
+    },
+    {
+     "point": "3:compare-magnet-solutions",
+     "types": [
+      "G3-588"
+     ],
+     "days": 3
+    }
+   ],
+   "weeks": 5
+  },
+  {
+   "id": "g3-weather-and-climate",
+   "slug": "weather-and-climate-grade-3-unit",
+   "status": "live",
+   "grade": "3",
+   "subject": "science",
+   "title": "Weather and Climate",
+   "metaTitle": "Grade 3 Science Lesson Plans: Weather and Climate",
+   "metaDescription": "A Grade 3 science unit: 6 lessons on weather data and graphs, the weather of each season, the water cycle, world climates, and designs that reduce weather damage.",
+   "lessons": [
+    {
+     "point": "3:weather-data",
+     "types": [
+      "G3-589"
+     ],
+     "days": 3
+    },
+    {
+     "point": "3:seasons-weather",
+     "types": [
+      "G3-590"
+     ]
+    },
+    {
+     "point": "3:water-cycle",
+     "types": [
+      "G3-385"
+     ]
+    },
+    {
+     "point": "3:climates-of-the-world",
+     "types": [
+      "G3-591"
+     ],
+     "days": 3
+    },
+    {
+     "point": "3:weather-problem",
+     "types": [
+      "G3-592"
+     ]
+    },
+    {
+     "point": "3:reduce-weather-damage",
+     "types": [
+      "G3-593"
+     ],
+     "days": 3
+    }
+   ],
+   "weeks": 6
+  },
+  {
+   "id": "g3-life-cycles-and-traits",
+   "slug": "life-cycles-and-traits-grade-3-unit",
+   "status": "live",
+   "grade": "3",
+   "subject": "science",
+   "title": "Life Cycles and Traits",
+   "metaTitle": "Grade 3 Science Lesson Plans: Life Cycles and Traits",
+   "metaDescription": "A Grade 3 science unit: 5 lessons on butterfly and frog life cycles, flowers and seeds, raising mealworms, traits from parents, and traits the environment changes.",
+   "lessons": [
+    {
+     "point": "3:life-cycles-compare",
+     "types": [
+      "G3-393"
+     ]
+    },
+    {
+     "point": "3:flower-parts",
+     "types": [
+      "G3-392"
+     ]
+    },
+    {
+     "point": "3:mealworm-life-cycle",
+     "types": [
+      "G3-594"
+     ],
+     "days": 3
+    },
+    {
+     "point": "3:traits-from-parents",
+     "types": [
+      "G3-595"
+     ],
+     "days": 3
+    },
+    {
+     "point": "3:traits-environment",
+     "types": [
+      "G3-596"
+     ]
+    }
+   ],
+   "weeks": 5
+  },
+  {
+   "id": "g3-surviving-in-a-changing-world",
+   "slug": "surviving-in-a-changing-world-grade-3-unit",
+   "status": "live",
+   "grade": "3",
+   "subject": "science",
+   "title": "Surviving in a Changing World",
+   "metaTitle": "Grade 3 Science Lesson Plans: Surviving in a Changing World",
+   "metaDescription": "A Grade 3 science unit: 5 lessons on animals that live in groups, camouflage, which living things survive in a habitat, fossils, and when a habitat changes.",
+   "lessons": [
+    {
+     "point": "3:animals-in-groups",
+     "types": [
+      "G3-597"
+     ]
+    },
+    {
+     "point": "3:camouflage",
+     "types": [
+      "G3-598"
+     ],
+     "days": 3
+    },
+    {
+     "point": "3:survive-well-or-not",
+     "types": [
+      "G3-599"
+     ]
+    },
+    {
+     "point": "3:fossils",
+     "types": [
+      "G3-600"
+     ],
+     "days": 3
+    },
+    {
+     "point": "3:habitat-change",
+     "types": [
+      "G3-601"
+     ]
+    }
+   ],
+   "weeks": 5
+  },
+  {
+   "id": "g3-healthy-body-healthy-choices",
+   "slug": "healthy-body-healthy-choices-grade-3-unit",
+   "status": "live",
+   "grade": "3",
+   "subject": "health",
+   "title": "Healthy Body, Healthy Choices",
+   "metaTitle": "Grade 3 Health Lesson Plans: Healthy Body, Healthy Choices",
+   "metaDescription": "A Grade 3 health unit: 5 lessons on how germs spread, planning MyPlate meals, sleep, screens and play, what sways our choices, and a health goal to track.",
+   "lessons": [
+    {
+     "point": "3:how-germs-spread",
+     "types": [
+      "G3-602"
+     ]
+    },
+    {
+     "point": "3:myplate-day",
+     "types": [
+      "G3-603"
+     ]
+    },
+    {
+     "point": "3:sleep-screens-play",
+     "types": [
+      "G3-604"
+     ]
+    },
+    {
+     "point": "3:what-sways-my-choices",
+     "types": [
+      "G3-605"
+     ]
+    },
+    {
+     "point": "3:goal-plan-track",
+     "types": [
+      "G3-606"
+     ]
+    }
+   ],
+   "weeks": 13
+  },
+  {
+   "id": "g3-safe-kind-and-ready-to-help",
+   "slug": "safe-kind-and-ready-to-help-grade-3-unit",
+   "status": "live",
+   "grade": "3",
+   "subject": "health",
+   "title": "Safe, Kind and Ready to Help",
+   "metaTitle": "Grade 3 Health Lesson Plans: Safe, Kind and Ready to Help",
+   "metaDescription": "A Grade 3 health unit: 5 lessons on naming and calming big feelings, solving a conflict, saying no, a home fire escape plan, and trusted adults who can help.",
+   "lessons": [
+    {
+     "point": "3:big-feelings",
+     "types": [
+      "G3-609"
+     ]
+    },
+    {
+     "point": "3:solve-a-conflict",
+     "types": [
+      "G3-610"
+     ]
+    },
+    {
+     "point": "3:say-no-walk-away",
+     "types": [
+      "G3-611"
+     ]
+    },
+    {
+     "point": "3:fire-escape-plan",
+     "types": [
+      "G3-607"
+     ]
+    },
+    {
+     "point": "3:who-can-help",
+     "types": [
+      "G3-608"
+     ]
+    }
+   ],
+   "weeks": 13
   }
  ],
  "plans": [
@@ -5647,6 +5959,22 @@
     "g2-heating-and-cooling",
     "g2-plants-and-pollinators",
     "g2-habitats"
+   ]
+  },
+  {
+   "id": "plan-3-science",
+   "slug": "grade-3-science-scope-and-sequence",
+   "grade": "3",
+   "subject": "science",
+   "title": "Grade 3 Science Scope and Sequence",
+   "metaTitle": "Grade 3 Science Scope and Sequence with Pacing Guide ({weeks} Weeks)",
+   "metaDescription": "{units} Grade 3 science units in teaching order, about {weeks} weeks of three science sessions a week, with each unit's lessons and its NGSS standards.",
+   "units": [
+    "g3-forces-and-motion",
+    "g3-magnets-and-static-electricity",
+    "g3-weather-and-climate",
+    "g3-life-cycles-and-traits",
+    "g3-surviving-in-a-changing-world"
    ]
   }
  ]

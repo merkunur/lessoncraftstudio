@@ -4379,6 +4379,26 @@
    ],
    "by": "authored"
   },
+  "3:weather-data": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:seasons-weather": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:climates-of-the-world": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:weather-problem": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:reduce-weather-damage": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "3:flower-parts": {
    "rows": [
     {
@@ -4397,6 +4417,66 @@
      "grade": "1-3"
     }
    ],
+   "by": "authored"
+  },
+  "3:mealworm-life-cycle": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:traits-from-parents": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:traits-environment": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:animals-in-groups": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:camouflage": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:survive-well-or-not": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:habitat-change": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:balanced-forces": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:predict-the-swing": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:friction": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:static-electricity": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:what-magnets-pull": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:magnet-distance": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:magnet-problem": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:compare-magnet-solutions": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "3:investigation": {
@@ -4422,6 +4502,10 @@
      "grade": "1-3"
     }
    ],
+   "by": "authored"
+  },
+  "3:fossils": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "K:birds-eye-view": {
@@ -4781,6 +4865,46 @@
    "by": "authored"
   },
   "2:health-poster": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:how-germs-spread": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:myplate-day": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:sleep-screens-play": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:what-sways-my-choices": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:goal-plan-track": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:fire-escape-plan": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:who-can-help": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:say-no-walk-away": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:big-feelings": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:solve-a-conflict": {
    "none": "not yet read against this curriculum",
    "by": "authored"
   },

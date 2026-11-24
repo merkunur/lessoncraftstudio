@@ -208,8 +208,10 @@ const WATER_CYCLE_HEAD = { en: 'water cycle', de: 'wasserkreislauf', es: 'ciclo 
 const MODE_TOKENS = { en: { write: /write/i, diary: /chart|week/i, thermometer: /warm|cold|hot/i, 'water-cycle': /water cycle/i, forecast: /forecast/i } };
 /** G3-345 bodies hashed BEFORE the additive thermometer options landed (2026-09-21, seedEpoch 1, theme null).
  *  Re-frozen 2026-11-03: the CARD (not the primitive) gained its °C unit above the scale and after the answer — the
- *  primitive's defaults are untouched (PR12 still proves a flipped default drifts all three). */
-const G3_345_FROZEN = { 1: '17d94707827bc0a1526bcb5f01f28c4cc21c4342', 2: '15f0bf3df58f86f5b1b3d34744197e202a813b1e', 3: '38b50a24f42dc84181eed57810ce7d93eeac7d97' };
+ *  primitive's defaults are untouched (PR12 still proves a flipped default drifts all three).
+ *  Re-frozen 2026-11-24: on 2026-11-19 (1825b5ff8, review en-1119-math) the English CARD switched to degrees Fahrenheit
+ *  (THERMO_F in measurement-tasks.js); the primitive is unchanged since 2026-10-09, so PR12 still guards it. */
+const G3_345_FROZEN = { 1: '01c810756257ddc5347ed7d551ad936efda897d0', 2: '1588095867879919fd581b8539cc618a2bcd91ed', 3: '0f671a496470962c757f799e3b3eb6682031b7da' };
 
 freeClaim.selfTest();
 

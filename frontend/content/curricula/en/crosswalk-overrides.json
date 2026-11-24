@@ -2611,6 +2611,106 @@
    ],
    "why": "A class poster for a healthy choice encourages others to make health-promoting choices (NHES 8.2.3, PreK-2).",
    "review": "batch-k 2026-11-23"
+  },
+  "3:how-germs-spread": {
+   "rows": [
+    {
+     "id": "NHES.1.5.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Explaining how germs spread and how washing, covering a cough and using your own cup stop them explains ways to prevent illness (NHES 1.5.3, grades 3-5).",
+   "review": "batch-k 2026-11-23"
+  },
+  "3:myplate-day": {
+   "rows": [
+    {
+     "id": "NHES.5.5.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Planning a day of meals with all five food groups and choosing water or milk chooses a health-promoting option (NHES 5.5.4, grades 3-5).",
+   "review": "batch-k 2026-11-23"
+  },
+  "3:sleep-screens-play": {
+   "rows": [
+    {
+     "id": "NHES.7.5.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Looking at the hours of sleep, screens and active play in a day examines practices that support health (NHES 7.5.1, grades 3-5).",
+   "review": "batch-k 2026-11-23"
+  },
+  "3:what-sways-my-choices": {
+   "rows": [
+    {
+     "id": "NHES.2.5.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Working out how family, friends, ads and videos sway a choice determines how influences affect the health of self and others (NHES 2.5.2, grades 3-5).",
+   "review": "batch-k 2026-11-23"
+  },
+  "3:goal-plan-track": {
+   "rows": [
+    {
+     "id": "NHES.6.5.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A goal plan with steps, things needed, helpers and a tracking chart develops a plan with actions, resources and progress-tracking (NHES 6.5.3, grades 3-5).",
+   "review": "batch-k 2026-11-23"
+  },
+  "3:fire-escape-plan": {
+   "rows": [
+    {
+     "id": "NHES.7.5.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Drawing and practising a home escape plan demonstrates a practice that supports the safety of self and others (NHES 7.5.2, grades 3-5).",
+   "review": "batch-k 2026-11-23"
+  },
+  "3:who-can-help": {
+   "rows": [
+    {
+     "id": "NHES.3.5.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Matching each situation to the right trusted adult or resource determines which helpers are appropriate in various situations (NHES 3.5.1, grades 3-5).",
+   "review": "batch-k 2026-11-23"
+  },
+  "3:big-feelings": {
+   "rows": [
+    {
+     "id": "NHES.4.5.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Naming a feeling, calming down and saying what you feel and need uses communication skills to express feelings and needs (NHES 4.5.1, grades 3-5).",
+   "review": "batch-k 2026-11-23"
+  },
+  "3:solve-a-conflict": {
+   "rows": [
+    {
+     "id": "NHES.4.5.6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Calming down, telling each side and finding a fair solution demonstrates strategies to resolve conflict (NHES 4.5.6, grades 3-5).",
+   "review": "batch-k 2026-11-23"
+  },
+  "3:say-no-walk-away": {
+   "rows": [
+    {
+     "id": "NHES.4.5.5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Saying no clearly, giving a reason and walking away demonstrates refusal skills (NHES 4.5.5, grades 3-5).",
+   "review": "batch-k 2026-11-23"
   }
  }
 }

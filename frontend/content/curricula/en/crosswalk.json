@@ -5198,6 +5198,56 @@
    ],
    "by": "review"
   },
+  "3:weather-data": {
+   "rows": [
+    {
+     "id": "3-ESS2-1",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:seasons-weather": {
+   "rows": [
+    {
+     "id": "3-ESS2-1",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:climates-of-the-world": {
+   "rows": [
+    {
+     "id": "3-ESS2-2",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:weather-problem": {
+   "rows": [
+    {
+     "id": "3-5-ETS1-1",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:reduce-weather-damage": {
+   "rows": [
+    {
+     "id": "3-ESS3-1",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
   "3:flower-parts": {
    "rows": [
     {
@@ -5212,6 +5262,156 @@
    "rows": [
     {
      "id": "3-LS1-1",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:mealworm-life-cycle": {
+   "rows": [
+    {
+     "id": "3-LS1-1",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:traits-from-parents": {
+   "rows": [
+    {
+     "id": "3-LS3-1",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:traits-environment": {
+   "rows": [
+    {
+     "id": "3-LS3-2",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:animals-in-groups": {
+   "rows": [
+    {
+     "id": "3-LS2-1",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:camouflage": {
+   "rows": [
+    {
+     "id": "3-LS4-2",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:survive-well-or-not": {
+   "rows": [
+    {
+     "id": "3-LS4-3",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:habitat-change": {
+   "rows": [
+    {
+     "id": "3-LS4-4",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:balanced-forces": {
+   "rows": [
+    {
+     "id": "3-PS2-1",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:predict-the-swing": {
+   "rows": [
+    {
+     "id": "3-PS2-2",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:friction": {
+   "rows": [
+    {
+     "id": "3-PS2-1",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:static-electricity": {
+   "rows": [
+    {
+     "id": "3-PS2-3",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:what-magnets-pull": {
+   "rows": [
+    {
+     "id": "3-PS2-3",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:magnet-distance": {
+   "rows": [
+    {
+     "id": "3-PS2-3",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:magnet-problem": {
+   "rows": [
+    {
+     "id": "3-PS2-4",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:compare-magnet-solutions": {
+   "rows": [
+    {
+     "id": "3-5-ETS1-2",
      "rel": "teaches",
      "grade": "3"
     }
@@ -5236,6 +5436,16 @@
   "3:planets": {
    "none": "No K-5 NGSS performance expectation asks for the order or kinds of planets; the solar system is a middle-school topic, and grade 5 Earth-and-space standards are about star brightness and shadow/day-night patterns.",
    "by": "review"
+  },
+  "3:fossils": {
+   "rows": [
+    {
+     "id": "3-LS4-1",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
   },
   "K:birds-eye-view": {
    "rows": [
@@ -5741,6 +5951,106 @@
      "id": "NHES.8.2.3",
      "rel": "teaches",
      "grade": "P-2"
+    }
+   ],
+   "by": "review"
+  },
+  "3:how-germs-spread": {
+   "rows": [
+    {
+     "id": "NHES.1.5.3",
+     "rel": "teaches",
+     "grade": "3-5"
+    }
+   ],
+   "by": "review"
+  },
+  "3:myplate-day": {
+   "rows": [
+    {
+     "id": "NHES.5.5.4",
+     "rel": "teaches",
+     "grade": "3-5"
+    }
+   ],
+   "by": "review"
+  },
+  "3:sleep-screens-play": {
+   "rows": [
+    {
+     "id": "NHES.7.5.1",
+     "rel": "teaches",
+     "grade": "3-5"
+    }
+   ],
+   "by": "review"
+  },
+  "3:what-sways-my-choices": {
+   "rows": [
+    {
+     "id": "NHES.2.5.2",
+     "rel": "teaches",
+     "grade": "3-5"
+    }
+   ],
+   "by": "review"
+  },
+  "3:goal-plan-track": {
+   "rows": [
+    {
+     "id": "NHES.6.5.3",
+     "rel": "teaches",
+     "grade": "3-5"
+    }
+   ],
+   "by": "review"
+  },
+  "3:fire-escape-plan": {
+   "rows": [
+    {
+     "id": "NHES.7.5.2",
+     "rel": "teaches",
+     "grade": "3-5"
+    }
+   ],
+   "by": "review"
+  },
+  "3:who-can-help": {
+   "rows": [
+    {
+     "id": "NHES.3.5.1",
+     "rel": "teaches",
+     "grade": "3-5"
+    }
+   ],
+   "by": "review"
+  },
+  "3:say-no-walk-away": {
+   "rows": [
+    {
+     "id": "NHES.4.5.5",
+     "rel": "teaches",
+     "grade": "3-5"
+    }
+   ],
+   "by": "review"
+  },
+  "3:big-feelings": {
+   "rows": [
+    {
+     "id": "NHES.4.5.1",
+     "rel": "teaches",
+     "grade": "3-5"
+    }
+   ],
+   "by": "review"
+  },
+  "3:solve-a-conflict": {
+   "rows": [
+    {
+     "id": "NHES.4.5.6",
+     "rel": "teaches",
+     "grade": "3-5"
     }
    ],
    "by": "review"

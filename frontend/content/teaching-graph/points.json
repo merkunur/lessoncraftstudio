@@ -11305,6 +11305,106 @@
    "prerequisites": []
   },
   {
+   "id": "3:weather-data",
+   "grade": "3",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Record the class's weather in a table and a bar graph of daily highs in degrees Fahrenheit, and compare",
+   "code": "NGSS:3-ESS2-1",
+   "types": [
+    "G3-589"
+   ],
+   "families": [
+    "weather-symbols"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 89,
+   "prerequisites": []
+  },
+  {
+   "id": "3:seasons-weather",
+   "grade": "3",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Graph a city's monthly highs and rainfall and describe the weather of each season",
+   "code": "NGSS:3-ESS2-1",
+   "types": [
+    "G3-590"
+   ],
+   "families": [
+    "weather-symbols"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 90,
+   "prerequisites": []
+  },
+  {
+   "id": "3:climates-of-the-world",
+   "grade": "3",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Compare the climates of places around the world from their temperature and rainfall",
+   "code": "NGSS:3-ESS2-2",
+   "types": [
+    "G3-591"
+   ],
+   "families": [
+    "weather-symbols"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 91,
+   "prerequisites": []
+  },
+  {
+   "id": "3:weather-problem",
+   "grade": "3",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Define a problem a weather hazard causes, with criteria and constraints for a solution",
+   "code": "NGSS:3-5-ETS1-1",
+   "types": [
+    "G3-592"
+   ],
+   "families": [
+    "weather-symbols"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 92,
+   "prerequisites": []
+  },
+  {
+   "id": "3:reduce-weather-damage",
+   "grade": "3",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Test designs that reduce the damage of a weather hazard and make a claim with evidence",
+   "code": "NGSS:3-ESS3-1",
+   "types": [
+    "G3-593"
+   ],
+   "families": [
+    "weather-symbols"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 93,
+   "prerequisites": []
+  },
+  {
    "id": "3:flower-parts",
    "grade": "3",
    "subject": "science",
@@ -11322,7 +11422,7 @@
     231
    ],
    "verdict": "gap",
-   "order": 89,
+   "order": 94,
    "prerequisites": []
   },
   {
@@ -11343,7 +11443,307 @@
     264
    ],
    "verdict": "gap",
-   "order": 90,
+   "order": 95,
+   "prerequisites": []
+  },
+  {
+   "id": "3:mealworm-life-cycle",
+   "grade": "3",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Observe mealworms through their life cycle and record each stage with dated drawings and lengths",
+   "code": "NGSS:3-LS1-1",
+   "types": [
+    "G3-594"
+   ],
+   "families": [
+    "animal-life-cycles"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 96,
+   "prerequisites": []
+  },
+  {
+   "id": "3:traits-from-parents",
+   "grade": "3",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Find which traits young animals get from their parents and how brothers and sisters differ",
+   "code": "NGSS:3-LS3-1",
+   "types": [
+    "G3-595"
+   ],
+   "families": [
+    "animal-life-cycles"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 97,
+   "prerequisites": []
+  },
+  {
+   "id": "3:traits-environment",
+   "grade": "3",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Tell traits that come from parents from traits the environment changes",
+   "code": "NGSS:3-LS3-2",
+   "types": [
+    "G3-596"
+   ],
+   "families": [
+    "animal-life-cycles"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 98,
+   "prerequisites": []
+  },
+  {
+   "id": "3:animals-in-groups",
+   "grade": "3",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Explain with evidence how living in a group helps animals survive",
+   "code": "NGSS:3-LS2-1",
+   "types": [
+    "G3-597"
+   ],
+   "families": [
+    "habitats"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 99,
+   "prerequisites": []
+  },
+  {
+   "id": "3:camouflage",
+   "grade": "3",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Count which colored moths are found least on each background and explain why matching helps them survive",
+   "code": "NGSS:3-LS4-2",
+   "types": [
+    "G3-598"
+   ],
+   "families": [
+    "habitats"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 100,
+   "prerequisites": []
+  },
+  {
+   "id": "3:survive-well-or-not",
+   "grade": "3",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Sort living things by whether they survive well, less well or not at all in a habitat, with evidence",
+   "code": "NGSS:3-LS4-3",
+   "types": [
+    "G3-599"
+   ],
+   "families": [
+    "habitats"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 101,
+   "prerequisites": []
+  },
+  {
+   "id": "3:habitat-change",
+   "grade": "3",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Judge solutions to a problem caused by a change to a habitat, with a claim and evidence",
+   "code": "NGSS:3-LS4-4",
+   "types": [
+    "G3-601"
+   ],
+   "families": [
+    "habitats"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 102,
+   "prerequisites": []
+  },
+  {
+   "id": "3:balanced-forces",
+   "grade": "3",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Draw force arrows and tell balanced forces (the object stays still) from unbalanced forces (it starts to move)",
+   "code": "NGSS:3-PS2-1",
+   "types": [
+    "G3-581"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 103,
+   "prerequisites": []
+  },
+  {
+   "id": "3:predict-the-swing",
+   "grade": "3",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Count a pendulum's swings in several trials, find the pattern and use it to predict",
+   "code": "NGSS:3-PS2-2",
+   "types": [
+    "G3-582"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 104,
+   "prerequisites": []
+  },
+  {
+   "id": "3:friction",
+   "grade": "3",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Measure how far a car rolls on different surfaces and explain that friction slows it down",
+   "code": "NGSS:3-PS2-1",
+   "types": [
+    "G3-583"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 105,
+   "prerequisites": []
+  },
+  {
+   "id": "3:static-electricity",
+   "grade": "3",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Test what a rubbed balloon moves without touching it: static electricity",
+   "code": "NGSS:3-PS2-3",
+   "types": [
+    "G3-584"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 106,
+   "prerequisites": []
+  },
+  {
+   "id": "3:what-magnets-pull",
+   "grade": "3",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Predict and test which objects a magnet pulls: things with iron or steel, not every metal",
+   "code": "NGSS:3-PS2-3",
+   "types": [
+    "G3-585"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 107,
+   "prerequisites": []
+  },
+  {
+   "id": "3:magnet-distance",
+   "grade": "3",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Measure how a magnet's pull changes with distance and whether it works through paper, cardboard and water",
+   "code": "NGSS:3-PS2-3",
+   "types": [
+    "G3-586"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 108,
+   "prerequisites": []
+  },
+  {
+   "id": "3:magnet-problem",
+   "grade": "3",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Define a problem a magnet could solve, with the criteria and constraints of a good solution",
+   "code": "NGSS:3-PS2-4",
+   "types": [
+    "G3-587"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 109,
+   "prerequisites": []
+  },
+  {
+   "id": "3:compare-magnet-solutions",
+   "grade": "3",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Sketch solutions, score them against the criteria and constraints, and test the best one",
+   "code": "NGSS:3-5-ETS1-2",
+   "types": [
+    "G3-588"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 110,
    "prerequisites": []
   },
   {
@@ -11364,7 +11764,7 @@
     235
    ],
    "verdict": "gap",
-   "order": 91,
+   "order": 111,
    "prerequisites": []
   },
   {
@@ -11386,7 +11786,27 @@
     314
    ],
    "verdict": "gap",
-   "order": 92,
+   "order": 112,
+   "prerequisites": []
+  },
+  {
+   "id": "3:fossils",
+   "grade": "3",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Tell what fossils show about the living things and environments of long ago",
+   "code": "NGSS:3-LS4-1",
+   "types": [
+    "G3-600"
+   ],
+   "families": [
+    "earth-and-space"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 113,
    "prerequisites": []
   },
   {
@@ -12312,6 +12732,206 @@
    "verdict": "gap",
    "extra": true,
    "order": 33,
+   "prerequisites": []
+  },
+  {
+   "id": "3:how-germs-spread",
+   "grade": "3",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Explain how germs spread and how each habit stops them",
+   "code": "NHES.1.5.3",
+   "types": [
+    "G3-602"
+   ],
+   "families": [
+    "healthy-habits"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 34,
+   "prerequisites": []
+  },
+  {
+   "id": "3:myplate-day",
+   "grade": "3",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Plan a day of meals with all five MyPlate food groups and everyday drinks",
+   "code": "NHES.5.5.4",
+   "types": [
+    "G3-603"
+   ],
+   "families": [
+    "healthy-habits"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 35,
+   "prerequisites": []
+  },
+  {
+   "id": "3:sleep-screens-play",
+   "grade": "3",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Look at the hours of sleep, screens and active play in my day and choose one change",
+   "code": "NHES.7.5.1",
+   "types": [
+    "G3-604"
+   ],
+   "families": [
+    "healthy-habits"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 36,
+   "prerequisites": []
+  },
+  {
+   "id": "3:what-sways-my-choices",
+   "grade": "3",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Work out how family, friends, ads and videos sway my health choices and my friends'",
+   "code": "NHES.2.5.2",
+   "types": [
+    "G3-605"
+   ],
+   "families": [
+    "healthy-habits"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 37,
+   "prerequisites": []
+  },
+  {
+   "id": "3:goal-plan-track",
+   "grade": "3",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Plan a health goal with steps, things I need and helpers, track it and look back",
+   "code": "NHES.6.5.3",
+   "types": [
+    "G3-606"
+   ],
+   "families": [
+    "healthy-habits"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 38,
+   "prerequisites": []
+  },
+  {
+   "id": "3:fire-escape-plan",
+   "grade": "3",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Draw a home fire escape plan with two ways out of every room and a meeting place",
+   "code": "NHES.7.5.2",
+   "types": [
+    "G3-607"
+   ],
+   "families": [
+    "healthy-habits"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 39,
+   "prerequisites": []
+  },
+  {
+   "id": "3:who-can-help",
+   "grade": "3",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Choose the trusted adult or resource that fits each situation, and ask clearly for help",
+   "code": "NHES.3.5.1",
+   "types": [
+    "G3-608"
+   ],
+   "families": [
+    "healthy-habits"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 40,
+   "prerequisites": []
+  },
+  {
+   "id": "3:say-no-walk-away",
+   "grade": "3",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Say no clearly, give a reason and walk away from an unsafe choice",
+   "code": "NHES.4.5.5",
+   "types": [
+    "G3-611"
+   ],
+   "families": [
+    "healthy-habits"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 41,
+   "prerequisites": []
+  },
+  {
+   "id": "3:big-feelings",
+   "grade": "3",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Name a big feeling, calm it, and say what I feel and need",
+   "code": "NHES.4.5.1",
+   "types": [
+    "G3-609"
+   ],
+   "families": [
+    "feelings"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 42,
+   "prerequisites": []
+  },
+  {
+   "id": "3:solve-a-conflict",
+   "grade": "3",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Work out a conflict: calm down, take turns telling, find a fair solution",
+   "code": "NHES.4.5.6",
+   "types": [
+    "G3-610"
+   ],
+   "families": [
+    "feelings"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 43,
    "prerequisites": []
   },
   {

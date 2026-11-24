@@ -1919,3 +1919,76 @@ Then batch 1 (Grade 1 pages), and so on.
 1. Batch 3: Grade 3 science and health pages, then their units.
 2. Social studies.
 3. The Texas reading of the new points; an observation check for the science units.
+
+### 2026-11-24: Stage D-5 batch 3 and Stage D-3 for Grade 3 are live: 31 new Grade 3 science and health page types and 7 units in English; every K-3 science and health line is built (deploy 56, commit `aa7900c5b`)
+
+**Batch 3, the pages** (`types/_shared/dk-g3.js`, `dk-g3-health.js`, `data/science/dk-g3.js`, G3-581 … G3-611):
+- **Science, 21 types:**
+  - forces: balanced and unbalanced forces, predict the swing (a pendulum), friction;
+  - magnets and static electricity: balloon tricks, what magnets pull, magnet force from a distance, a problem magnets could solve, design and compare magnet solutions;
+  - weather and climate: our weather data (°F; a °F/°C thermometer at level 3), the weather of each season (Seattle, NOAA 1991–2020 normals), climates around the world, define a weather problem, which design reduces the damage;
+  - life cycles and traits: raise mealworms, traits from parents, traits the environment changes;
+  - surviving in a changing world: animals in groups, camouflage, survive well / less well / not at all (a desert), fossils, when a habitat changes.
+- **Health, 10 types:** the germ's trip, fuel for the day (MyPlate), sleep, screens and play, what sways my choices, a goal plan with a 21-day tracker, a home fire escape plan, who can help, and the three lessons the design marks teacher-led (big feelings, working it out, saying no and walking away). G3-609 and G3-610 sit in the playable feelings family and are print only (`LEVEL_SET_PRINT_ONLY_VARIATIONS`).
+- **Built by one Opus agent; read by one US third-grade teacher in two rounds:**
+  - Round 1: 2 must-fix, both in the desert sort. The water hole "dried up", so the horse could also go in "cannot survive", and the columns did not hold three cards. There were also 29 should-fixes:
+    - graphs with unit lines 2 mm apart;
+    - fair-test steps (the same pull, the car from the top);
+    - "Never put a magnet in your mouth.";
+    - "costs very little" taught as a criterion;
+    - drawings that read wrong (a spoon, a safety pin, a fern, dog ears).
+  - Round 2: 1 must-fix (the sunflower needs the water hole too: "Plants that need water often can grow only right next to the water hole.") and 3 should-fix.
+  - The notes writer found four more page faults, and all were fixed:
+    - a house on posts among the real designs;
+    - the fever habit no frame fitted;
+    - the pendulum graph too short for a 3-inch string;
+    - the criteria-versus-limits mix-up.
+- **The gate:**
+  - `qa/verify-dk-g3.js`: 7,159 assertions at 400 seeds a level and 129/129 poisons. It includes a glue area measured against every card stacked in its column, a clearance from every cut line, and the spacing of graph lines.
+  - The G3-586 ruler measures 360.00 pt for 5 inches in the PDF.
+  - 54,036 existing pages are byte-identical.
+- **Level Set `ydo`:** 125 noindex English pages; check-zips 0 problems; audit 125/125 clean.
+- **Live check:** the library "spoon" the builder first used reads as plastic, but no live page makes a material claim about it; batch 3 draws its own all-wood spoon. The library `hospital/nurse` wears an old cap with a red cross; batch 3 draws its own school nurse.
+
+**The teaching points:**
+- 31 new points (21 NGSS, 10 NHES grades 3–5), added by `add-points-3.en.science.js`. That makes 556 points; all 1,589 types sit under one.
+- Every curriculum is rebuilt; the curriculum pages are unchanged.
+
+**Stage D-3 for Grade 3, the units** (`place-ready-3.en.science.js`):
+- **Science, 5 units:** Forces and Motion; Magnets and Static Electricity; Weather and Climate; Life Cycles and Traits; Surviving in a Changing World.
+  - Year plan `plan-3-science`: 25 of the 26 teaching weeks the design gives Grade 3 (the state test weeks take the science block).
+  - Eleven investigations run on three sessions.
+- **Health, 2 units:** Healthy Body, Healthy Choices; Safe, Kind and Ready to Help.
+- **35 teacher notes** (`notes/en-science-3.js`, `en-health-3.js`):
+  - They plan ahead: mealworms six weeks before, the °F log from the first weeks of school, beans four weeks before.
+  - They keep magnets away from devices and mouths, and teach no misconception ("all metals stick", "a mealworm is a worm").
+  - They were updated after both page rounds, and all 7 guides fit.
+- **Sub days:** the Grade 3 week days are rebuilt for the new plan. No day's title, description or address changed.
+- **Coverage:** 9 new gaps are frozen once (decision 7):
+  - 5 unit checks and the 3 checks of the year (the card engine cannot read these pages);
+  - `weeks:plan-3-science` (76 sessions are 25.3 weeks, and units round to whole weeks).
+- **The work lists:** science and health have no K–3 line left to build or change.
+
+**Also fixed:**
+- `verify-b4-weather-symbols.js` failed on stale G3-345 hashes. The English thermometer card switched to °F on 2026-11-19 (1825b5ff8, review en-1119-math), but the hashes were not updated. They are re-frozen (57/57 poisons; PR12 still guards the primitive, unchanged since 2026-10-09).
+- The 11-18 skip list (`C:\Users\rkgen\lcs-skip-types.txt`) named G3-581, an id never committed or published. It is taken off, because batch 3 now owns the id.
+- **The first run of deploy 56 stopped at 09:55 and printed no error** (`3a193c54e`). `dk-g3.js` kept a dead statement after the ramp scene's closing `;` (a second, steeper ramp, never drawn). It looked up a picture while the module loaded. The server has no picture cache, so `teaching-graph/gates.js` crashed, and under `set -e` the deploy ended with the error only in `/tmp`. The same stop happened on 2026-11-15.
+  - The line is removed; all 3,720 batch-3 pages hash the same before and after.
+  - The PC gate run now always includes `check-types-load-without-cache.js` and its poison.
+  - deploy.sh's content-graph line prints an ERROR naming that check when it crashes, tested both ways.
+  - Deploy waits now watch the deploy process, not words in the log: the first wait sat 57 minutes on a deploy that had already stopped.
+  - The second run (`/root/deploy-56b.log`) completed in 16 minutes; payment canary OK.
+- **Live, after the deploy:**
+  - 795 teacher files uploaded (`--check` equal);
+  - units live check: 2,898 checks pass; assessments live check: 73 unit checks and 24 checks of the year, 2,121 checks pass;
+  - the 7 new unit pages: 200, indexable, self-canonical, in the sitemap; the teacher guide redirects anonymous visitors (302 to sign-up);
+  - identity check PASS: 287 pages and 11 shards unchanged (sitemap 3 grew 5,014 → 5,082).
+
+**Open:**
+- The library nurse's red-cross cap: it is used live as a word picture (letter of the week, pronouns, the Italian rhyming bank). Changing a library picture needs the owner's word.
+- Unit checks for the science and health units (an observation check or a card form).
+- The Texas reading of the new points.
+
+**Next:**
+1. Social studies, K–3: design rows, pages, units.
+2. D-4, preschool theme units.

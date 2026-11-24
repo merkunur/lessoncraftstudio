@@ -22,12 +22,14 @@ const C = (note) => ({ rule: 'change', note });
 const B = (note) => ({ rule: 'build', note });
 module.exports = {
   en: {
+    "1-009": N("G1-644", "built (Stage D-5 batch 1, 2026-11-24): G1-644, reviewed by one US first-grade teacher in three rounds"),
+    "1-010": N("G1-645", "built (Stage D-5 batch 1, 2026-11-24): G1-645, reviewed by one US first-grade teacher in three rounds"),
+    "1-011": N("G1-646", "built (Stage D-5 batch 1, 2026-11-24): G1-646, reviewed by one US first-grade teacher in three rounds"),
+    "1-012": N("G1-647", "built (Stage D-5 batch 1, 2026-11-24): G1-647, reviewed by one US first-grade teacher in three rounds"),
+    "1-014": N("G1-648", "built (Stage D-5 batch 1, 2026-11-24): G1-648, reviewed by one US first-grade teacher in three rounds"),
     "K-006": N("K-707", "built (Stage D-5 batch K, 2026-11-23): K-707, reviewed by one US Kindergarten teacher in two rounds"),
     "K-005": N("K-706", "built (Stage D-5 batch K, 2026-11-23): K-706, reviewed by one US Kindergarten teacher in two rounds"),
     "K-002": N("K-705", "built (Stage D-5 batch K, 2026-11-23): K-705, reviewed by one US Kindergarten teacher in two rounds"),
-    "1-010": C("a fifth group (milk, yogurt, cheese) and a MyPlate plate as the sorting board."),
-    "1-011": B("a MyPlate plate with five parts, a strip of food cards to glue, a drink to circle and a clock strip."),
-    "1-012": C("a one-day habit-choice face of the same chart."),
     "2-019": B("a goal page (goal pictures to circle, three step boxes, a 'My helper' box, a 14-day strip of suns)."),
     "2-024": C("a weather-protection match (four weathers, six protections, many lines allowed)."),
     "3-026": B("a six-frame comic of a germ's trip with the frames to circle where a habit stops it and the habit to write."),

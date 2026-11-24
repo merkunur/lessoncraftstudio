@@ -80,7 +80,11 @@ const check = (ok, what) => { n++; if (!ok) { bad++; console.log('FAIL  ' + what
     else { check(!/noindex/.test(robots), who + ': a live page is noindex'); check(listed.includes('https://www.lessoncraftstudio.com' + p + '<'), who + ': a live page is in no sitemap'); }
     // tier truth: nothing a visitor reads in the page's own content says free
     const mainText = ((/<main[\s\S]*<\/main>/.exec(r.body) || [''])[0]).replace(/<script[\s\S]*?<\/script>/g, '').replace(/<[^>]+>/g, ' ');
-    check(mainText.length > 500 && !/\bfree\b/i.test(mainText), who + ': the page\'s content is missing or says free');
+    // the auditable exemption of gates.js P5 (FREE_ON_THE_PAGE): a unit whose ad-detective lesson teaches the "free prize"
+    // trick its page prints may name it; any other "free" on the page still fails
+    const adLesson = seg === 'units' && (x.lessons || []).some((l) => l.point === '2:ad-detective');
+    const freeText = adLesson ? mainText.replace(/\bfree (prize|prizes|toy|toys)\b/gi, '') : mainText;
+    check(mainText.length > 500 && !/\bfree\b/i.test(freeText), who + ': the page\'s content is missing or says free');
     // the gate, as an anonymous visitor
     const gate = '/api/quota/dl?kind=teacher&loc=' + loc + '&file=' + encodeURIComponent(file);
     const probe = await req(gate + '&probe=1');

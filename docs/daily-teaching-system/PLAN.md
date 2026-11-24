@@ -1877,3 +1877,45 @@ Then batch 1 (Grade 1 pages), and so on.
 2. Then Grade 3, and social studies.
 3. The Texas reading of the new points.
 4. An observation check for the science units.
+
+### 2026-11-24: Stage D-5 batch 2 and Stage D-3 for Grade 2 are live: 30 new Grade 2 science and health page types and 8 units in English; celery replaced by asparagus as the stem we eat (deploy 55, commit `21ba5b241`)
+
+**Batch 2, the pages** (`types/_shared/dk-g2.js`, `dk-g2-health.js`, `data/science/dk-g2.js`, G2-584 … G2-613):
+- **Science, 21 types:** materials (describe materials, the best material for an umbrella, take it apart and build again), land and water (a land-and-water map, a landform model map, where water is on Earth, the globe toss), Earth changes (fast and slow changes, water shapes the land, stop the sand, which solution is best), heating and cooling (where ice melts fastest, melt it and freeze it back, changes we cannot undo, a claim with evidence), plants (light and water, seeds on the move, be a pollinator), habitats (a schoolyard survey, desert, rain forest and ocean, plants for every habitat).
+- **Health, 9 types:** healthy in three ways, who helps me choose, ad detective (invented brands), a health goal and its look back, nurse, doctor or dentist, stop-think-choose (helmets, life jackets), ready for sun, heat and cold, our health poster.
+- **Built by one Opus agent; read by one US second-grade teacher in two rounds:**
+  - Round 1: 1 must-fix (the life jacket read as a box on the head) and 20 should-fix.
+  - Round 2: 4 should-fix, among them a line at every unit on every Grade 2 bar graph (2.MD.D.10) and pollen only from a flower of the same kind.
+- **The gate catches what the review cannot:**
+  - `qa/verify-dk-g2.js`: 8,239 assertions, 91/91 poisons.
+  - It now sweeps the generator's own seeds 1–400 through the page QA. The first Level Set run found an empty band on one G2-607 copy that the gate's seeds had not reached; the draw box now takes up the slack.
+  - The 33,552 existing pages are byte-identical.
+- **Level Set `ydn`:** 156 noindex English pages; `check-zips-ysd.js` 0 problems. The healthy-habits `levelSetShort` became "Builds healthy habits for every day." (a description was one letter under the band).
+
+**The teaching points:**
+- 30 new points (21 NGSS, 9 NHES), added by `add-points-2.en.science.js`. 525 points; all 1,558 types sit under one.
+- The design's melt-and-freeze sentence was corrected: ice refreezes in the freezer, not the refrigerator.
+
+**Stage D-3 for Grade 2, the units** (`place-ready-2.en.science.js`):
+- **Science, 6 units:** Properties of Materials; Land and Water on Earth; Earth Changes, Fast and Slow; Heating and Cooling; Plants, Pollinators, and Life Cycles; Habitats: Many Kinds of Life. Year plan `plan-2-science`: 28 weeks, the design's whole year, with nine investigations on three sessions.
+- **Health, 2 units:** Healthy Choices and Goals; Safe Choices and Caring Friends.
+- **39 teacher notes** (`notes/en-science-2.js`, `en-health-2.js`): read by the same teacher, 3 should-fix (a plant test spread over three weeks, a lake that soaked into sand, the ad words). All 8 guides fit.
+- **Gate P5 (tier truth):** an auditable exemption for the ad-detective lesson only. Its page teaches the "free prize" trick, so "free prize" and "free toy" are taken out before the test there; two new poisons, 52 in all.
+- **Sub days:** the Grade 2 week days were rebuilt for the new plan. Week 19's closing block had run out of points, so two find-the-differences types joined the Grade 2 closing pool.
+- **Coverage:** 9 new gaps frozen once (6 unit checks and the 3 checks of the year; the card engine cannot read these pages).
+
+**A live correction (found by the notes writer):**
+- **The defect:** G2-363 "Parts of a Plant We Eat" keyed CELERY as the stem we eat; a celery stalk is a leaf stalk.
+- **The fix:** asparagus takes celery's place in the plant bank (`data/b5/plants.js`), with distractors root and seed only and a padded draw, so no other card moves.
+  - Plants gate: 319 assertions, 63/63 poisons; an all-language sweep of 4,400 pages found no celery.
+  - de and da printed no stem card (their native panels had refused celery), so they stay exactly as published.
+- **Republished:** 18 live G2-363 copies in 9 languages (one card and its chips per page). The HANDOFF section 6 order ran clean: no injections or search-title tails lost, identity restored, canonicals repointed (second pass 0), identity PASS (287 pages, 11 shards). The sub-day picture list now reads asparagus.
+- **The Grade 1 plant-parts note** now says the celery stalk in the colored-water demo "carries water the way a stem does".
+- **Open (landing text is outside the fix rule):** the G2-363 landings still name celery in their text and, in English, in the meta description.
+
+**Live checks after deploy 55:** units live check 2,810 checks pass (the 8 Grade 2 units and the plan: 200, indexable, self-canonical, in sitemap 3; 787 English teacher files uploaded, Teacher-only), after the live check took the same ad-lesson exemption as gate P5 (`scripts/units/live-check.js`); assessments 73 unit checks, 24 checks of the year, 2,121 checks pass; payment canary OK; identity PASS; sitemap 3 grew 5,014 → 5,073.
+
+**Next:**
+1. Batch 3: Grade 3 science and health pages, then their units.
+2. Social studies.
+3. The Texas reading of the new points; an observation check for the science units.

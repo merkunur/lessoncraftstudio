@@ -1826,3 +1826,54 @@ Then batch 1 (Grade 1 pages), and so on.
 2. Then grades 2 and 3, and social studies.
 3. The Texas reading of the new points.
 4. An observation check for the Kindergarten science units.
+
+### 2026-11-24: Stage D-5 batch 1 and Stage D-3 for Grade 1 are live: 27 new Grade 1 science and health page types and 8 units in English; the plain clear jar retired from the recycling pages (deploy 53, commit `6723e9b38`)
+
+**Batch 1, the pages** (`types/_shared/dk-g1.js`, `dk-g1-health.js`, `data/science/dk-g1.js`, G1-626 … G1-652):
+- **Science, 18 types:** sound (stations, sound makes things move, cup telephones), light (peep box, does light go through, mirrors, shadows near and far, a message with light), sky (my shadow through the day, Moon journal, day sky and night sky, how long is the day), animals and plants (parents and young, design like an animal, like parents but not exactly, seedlings and their parent), engineering (design a raft, test two rafts).
+- **Health, 9 types:** ask a grown-up first, MyPlate food groups, build a MyPlate lunch, which habit will I grow, health helpers, and four pages for the design's teacher-led lessons (whole-body listening, fire safety and 911, say no / go away / tell, help a friend). G1-649 sits in the playable feelings family and is listed print-only.
+- **Built by one Opus agent; read by one US first-grade teacher in three rounds:**
+  - Round 1: 2 must-fix, 14 should-fix. The must-fixes:
+    - **The daylight chart:** in whole hours, December and January tie on the first school days of the month, so the class now reads the 21st of each month and ties circle all of them.
+    - **The seedlings page:** the "grown bean plant" was a daisy.
+  - Round 2: 2 should-fix (the tie wording; the pharmacist read as a cashier).
+  - Four new drawings: a bean plant, gummy vitamins, a spray cleaner, a pharmacy counter.
+  - Gate `qa/verify-dk-g1.js`: 7,330 assertions, 68 of 68 poisons. The 28,620 existing pages are byte-identical.
+- **Level Set `ydm`:** 167 noindex English pages (content-distinct copies only), `check-zips-ysd.js` 0 problems.
+
+**The teaching points:**
+- 27 new points (18 NGSS, 9 NHES), added by `scripts/units/year/add-points-1.en.science.js`. 495 points; every type sits under one.
+- The year design's daylight wording was corrected to the page: hours of daylight on the 21st, to the nearest hour.
+
+**Stage D-3 for Grade 1, the units** (`scripts/units/year/place-ready-1.en.science.js`):
+- **Science, 6 units:** Sound and Vibrations; Light, Shadows, and Signals; Weather and Sky Patterns; Animal Bodies, Homes, and Families; Plants and Young Living Things; Materials and Rafts. Year plan `plan-1-science`, 27 weeks.
+- **Health, 2 units:** Staying Safe and Getting Help; Healthy Habits and Healthy Food.
+- **Teacher notes for all 39 lessons** (`notes/en-science-1.js`, `en-health-1.js`): every lesson has a hands-on routine.
+  - Read by the same teacher in two rounds: 15 should-fix, then 2.
+  - Planning ahead is now in the routines: the bean plant 8 to 10 weeks ahead, the Moon journal from a new Moon with morning looks, rafts kept for the test.
+  - No note names a page its lesson does not hand out. All 8 guides fit.
+- **Engine: an investigation's third session.**
+  - The science design gives nine Grade 1 investigations three sessions. A content-area lesson with a hands-on routine may now claim it in its unit definition (`"days": 3` → `investigateDays: 3`, from Grade 1 on).
+  - Changed: `pacing.js`, `assemble.js`, `gates.js` P9 (two new poisons, 50 in all), `UnitPage.tsx` (Day 3 "Finish the investigation"), `lib/units.ts`, `ui.{en,de,sv}.json`.
+  - Grade 1 science went from 25 to 27 weeks.
+- **Sub days:** the Grade 1 week days were rebuilt for the new plan (`build-en-weeks.js --grades=1`).
+- **Coverage:**
+  - No unit checks: the card engine cannot read these pages, as for Kindergarten.
+  - Ten gaps were frozen once (decision 7): 6 unit checks, the 3 checks of the year, and `weeks:plan-1-science`. The plan is 83 sessions = 27.7 weeks; each unit rounds to whole weeks.
+
+**A live correction (found by the notes review):**
+- **The defect:** the plain clear jar with a blue screw lid was keyed "glass", but a US child can fairly call it a plastic peanut-butter jar.
+- **The retirement:** it is retired on K-357, K-366, K-367 and G1-364 in every language but es (glass and plastic share a bin and a word there, as for sauce), and on G2-348 in every language.
+- **G2-348:** its glass trio was always the jar, jam and honey, so glass is now never a trio, only an odd one, and plastic (seven families) fills a second row, never beside its first.
+- **Gate:** `verify-b4-recycling.js` 5,554 assertions, 58 of 58 poisons (PR17, PR18 new).
+- **Republished:** 183 live copies in 11 languages (154 more were compared and unchanged): G2-348 66, K-357 68, K-366 23, G1-364 22, K-367 4; no printed word changed. The HANDOFF section 6 order ran clean: no injections or search-title tails lost, identity restored, canonicals repointed in 11 languages (second pass 0), identity PASS (287 pages, 11 shards).
+
+**Live checks after deploy 53:** units live check 2,711 checks pass (the 8 new units and the plan: 200, indexable, self-canonical, in sitemap 3; teacher files Teacher-only after the upload of 778 English teacher files); assessments live check 73 unit checks, 24 checks of the year, 2,121 checks pass; the payment canary OK. A US word was found on the live page by reading it: the five-senses note said "sweets"; it now says "candy, cookies" (deploy 54).
+
+**Also deployed:** G1-391 Moon Phases in Order (English), "the lit part of the Moon grows or shrinks" (commit `04ba3bb81`).
+
+**Next:**
+1. Batch 2: Grade 2 science and health pages, then their units.
+2. Then Grade 3, and social studies.
+3. The Texas reading of the new points.
+4. An observation check for the science units.

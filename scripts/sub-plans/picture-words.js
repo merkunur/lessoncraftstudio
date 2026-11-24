@@ -41,6 +41,15 @@ const DRAWN = {
   'K-338': ['snowflake', 'flower', 'sun', 'leaf'],
   'K-370': ['star'],
   'K-375': ['star'],
+  // the Kindergarten social studies pages (Stage D-5 batch SK, 2026-11-24): drawn scenes, people and objects
+  'K-712': ['hall', 'lockers', 'door', 'easel', 'rug', 'blocks', 'book', 'toy car'],
+  'K-713': ['slide', 'crayons', 'teddy bear', 'tower', 'blocks', 'cookies', 'picnic', 'drawing', 'line'],
+  'K-716': ['washboard', 'tub', 'candle', 'candle holder', 'horse', 'buggy', 'telephone', 'phone', 'cell phone', 'car'],
+  'K-717': ['coin', 'hand', 'book', 'books'],
+  'K-718': ['baker', 'hat', 'apron', 'rolling pin', 'builder', 'hard hat', 'hammer', 'barber', 'scissors', 'comb', 'barber pole', 'mail carrier', 'cap', 'bag', 'letters', 'letter', 'haircut', 'chair'],
+  'K-719': ['stripes', 'stripe', 'stars', 'star', 'crayon', 'crayons'],
+  'K-721': ['swing', 'swings', 'crackers', 'ball', 'game', 'play', 'crayons'],
+  'K-724': ['beach', 'snow', 'snowy place', 'mountain', 'town', 'palm tree', 'sailboat'],
 };
 // the example words of a point's rule, each with its reason
 const EXAMPLES = {

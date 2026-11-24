@@ -180,48 +180,6 @@
     "toucan"
    ]
   },
-  "all-about-me-k342-5": {
-   "pictures": [
-    "ant",
-    "butterfly",
-    "caterpillar",
-    "cereal",
-    "croissant",
-    "dolphin",
-    "dragonfly",
-    "jellyfish",
-    "juice",
-    "ladybug",
-    "muffin",
-    "octopus",
-    "pancake",
-    "sausage",
-    "seal",
-    "shark",
-    "whale",
-    "worm"
-   ],
-   "words": [
-    "ant",
-    "butterfly",
-    "caterpillar",
-    "cereal",
-    "croissant",
-    "dolphin",
-    "dragonfly",
-    "jellyfish",
-    "juice",
-    "ladybug",
-    "muffin",
-    "octopus",
-    "pancake",
-    "sausage",
-    "seal",
-    "shark",
-    "whale",
-    "worm"
-   ]
-  },
   "all-about-me-k344": {
    "pictures": [
     "face"
@@ -1676,8 +1634,10 @@
    "pictures": [],
    "words": []
   },
-  "family-k375-6": {
-   "pictures": [],
+  "family-k716": {
+   "pictures": [
+    "lamp"
+   ],
    "words": []
   },
   "feelings-k331": {
@@ -1729,22 +1689,6 @@
    ],
    "words": []
   },
-  "feelings-k331-4": {
-   "pictures": [
-    "angry",
-    "hammock",
-    "happy",
-    "playground",
-    "rocket",
-    "sad",
-    "scared",
-    "snowman",
-    "surprised",
-    "tired",
-    "wolf"
-   ],
-   "words": []
-  },
   "feelings-k333": {
    "pictures": [
     "content",
@@ -1765,6 +1709,18 @@
     "surprised",
     "tired"
    ],
+   "words": []
+  },
+  "feelings-k712": {
+   "pictures": [],
+   "words": []
+  },
+  "feelings-k713": {
+   "pictures": [],
+   "words": []
+  },
+  "feelings-k721": {
+   "pictures": [],
    "words": []
   },
   "find-the-differences-g1412": {
@@ -1903,6 +1859,10 @@
    "words": []
   },
   "find-the-differences-k399-10": {
+   "pictures": [],
+   "words": []
+  },
+  "find-the-differences-k399-11": {
    "pictures": [],
    "words": []
   },
@@ -2778,19 +2738,6 @@
     "milk"
    ]
   },
-  "maze-puzzles-k406-7": {
-   "pictures": [
-    "hat",
-    "penguin",
-    "sled",
-    "snowflake",
-    "snowman"
-   ],
-   "words": [
-    "penguin",
-    "snowman"
-   ]
-  },
   "maze-puzzles-k407": {
    "pictures": [
     "boat",
@@ -3004,6 +2951,16 @@
     "purse",
     "purses"
    ]
+  },
+  "money-k717": {
+   "pictures": [
+    "ball",
+    "dinosaur",
+    "kite",
+    "lemonade",
+    "truck"
+   ],
+   "words": []
   },
   "money-vehicles-g2290": {
    "pictures": [
@@ -4384,6 +4341,12 @@
     "watermelons"
    ]
   },
+  "read-and-color-k719": {
+   "pictures": [],
+   "words": [
+    "stars"
+   ]
+  },
   "read-and-do-farm-animals-g1339": {
    "pictures": [
     "dog",
@@ -5460,18 +5423,27 @@
    ],
    "words": []
   },
-  "science-match-k205-2": {
+  "science-match-k213": {
    "pictures": [
-    "butterfly",
-    "calf",
-    "caterpillar",
-    "chick",
-    "cow",
-    "duck",
-    "duckling",
-    "foal",
-    "hen",
-    "horse"
+    "book",
+    "carpenter",
+    "doctor",
+    "farmer",
+    "firefighter",
+    "hammer",
+    "ladder",
+    "teacher",
+    "thermometer",
+    "tractor"
+   ],
+   "words": []
+  },
+  "science-match-k718": {
+   "pictures": [
+    "bread",
+    "envelope",
+    "house",
+    "mailbox"
    ],
    "words": []
   },
@@ -5691,17 +5663,6 @@
    ],
    "words": []
   },
-  "science-sort-k201-3": {
-   "pictures": [
-    "book",
-    "cup",
-    "dog",
-    "flower",
-    "frog",
-    "spoon"
-   ],
-   "words": []
-  },
   "science-sort-k202": {
    "pictures": [
     "banana",
@@ -5737,17 +5698,6 @@
    ],
    "words": []
   },
-  "science-sort-k203-3": {
-   "pictures": [
-    "carrot",
-    "donut",
-    "lollipop",
-    "orange",
-    "soda",
-    "water"
-   ],
-   "words": []
-  },
   "science-sort-k204": {
    "pictures": [
     "dog",
@@ -5759,17 +5709,6 @@
    ],
    "words": []
   },
-  "science-sort-k204-2": {
-   "pictures": [
-    "elephant",
-    "giraffe",
-    "goldfish",
-    "parrot",
-    "rabbit",
-    "zebra"
-   ],
-   "words": []
-  },
   "science-sort-k206": {
    "pictures": [
     "airplane",
@@ -5778,17 +5717,6 @@
     "fish",
     "owl",
     "rabbit"
-   ],
-   "words": []
-  },
-  "science-sort-k206-2": {
-   "pictures": [
-    "airplane",
-    "bird",
-    "cat",
-    "fish",
-    "helicopter",
-    "horse"
    ],
    "words": []
   },
@@ -5814,17 +5742,6 @@
    ],
    "words": []
   },
-  "science-sort-k207-3": {
-   "pictures": [
-    "boots",
-    "coat",
-    "sandals",
-    "scarf",
-    "shorts",
-    "swimsuit"
-   ],
-   "words": []
-  },
   "science-sort-k208": {
    "pictures": [
     "bat",
@@ -5847,41 +5764,14 @@
    ],
    "words": []
   },
-  "science-sort-k209-2": {
+  "science-sort-k212": {
    "pictures": [
-    "chicken",
-    "giraffe",
-    "horse",
-    "lion",
-    "monkey",
-    "pig"
-   ],
-   "words": []
-  },
-  "science-sort-k210": {
-   "pictures": [
-    "boat",
-    "bus",
-    "canoe",
-    "car",
-    "helicopter",
-    "motorcycle",
-    "rocket",
-    "submarine"
-   ],
-   "words": []
-  },
-  "science-sort-k210-2": {
-   "pictures": [
-    "bicycle",
-    "bus",
-    "helicopter",
-    "jet",
-    "rocket",
-    "sailboat",
-    "ship",
-    "submarine",
-    "train"
+    "ball",
+    "bread",
+    "doll",
+    "shirt",
+    "television",
+    "water"
    ],
    "words": []
   },
@@ -5893,6 +5783,15 @@
     "house",
     "leaf",
     "sun"
+   ],
+   "words": []
+  },
+  "science-sort-k724": {
+   "pictures": [
+    "coat",
+    "flip-flops",
+    "mittens",
+    "sandals"
    ],
    "words": []
   },
@@ -6196,11 +6095,12 @@
    ],
    "words": []
   },
-  "singular-plural-food-bw-3-k302-2": {
+  "singular-plural-classroom-k287-3": {
    "pictures": [
-    "egg",
-    "glass",
-    "soda"
+    "folder",
+    "globe",
+    "ruler",
+    "teacher"
    ],
    "words": []
   },
@@ -7115,6 +7015,19 @@
     "moon",
     "parallelogram",
     "rectangle"
+   ],
+   "words": []
+  },
+  "visual-discrimination-shapes-k069": {
+   "pictures": [
+    "cylinder",
+    "heart",
+    "moon",
+    "parallelogram",
+    "pyramid",
+    "star",
+    "trapezoid",
+    "triangle"
    ],
    "words": []
   },

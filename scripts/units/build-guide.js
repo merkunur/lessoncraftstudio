@@ -115,6 +115,10 @@ table { border-collapse: collapse; width: 100%; }
 .lesson.tight .note { margin-top: 4mm; }
 .lesson.tight .mine { margin-top: 4mm; }
 .lesson.nomine .mine { display: none; }
+/* a sheet still over its foot without that box (its teacher note would run into the footer's rule): the note is set a
+   little smaller, never cut (2026-11-24) */
+.lesson.squeeze .note { margin-top: 4mm; padding: 3mm 4mm; font-size: 10.5pt; line-height: 1.38; }
+.lesson.squeeze .note dt { margin-top: 1.6mm; }
 .lesson .no { font-size: 11pt; font-weight: 700; color: #146b5e; letter-spacing: 0.04em; text-transform: uppercase; }
 .lesson h2 { font-size: 24pt; margin-top: 1mm; }
 .lesson .obj { margin-top: 2.5mm; font-size: 12.5pt; max-width: 160mm; }
@@ -172,11 +176,21 @@ footer { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8.5pt; col
       // own scroll height is the measure there).
       const where = sec.querySelector(':scope > .where');
       if (where) { const limit = where.getBoundingClientRect().top; const end = Math.max(...[...sec.children].filter((c) => c !== where).map((c) => c.getBoundingClientRect().bottom)); return end > limit + 0.5 ? { sheet: i + 1, by: Math.round(end - limit) } : null; }
+      // the footer is placed absolutely at the foot, so the sheet's scroll height never sees it: a sheet without the box
+      // for own notes could run its teacher note into the footer's rule and "fit" (2026-11-24, found while fitting the
+      // Kindergarten social studies guides). Nothing in the flow but that box may end below the footer's top (2 px clear).
+      const foot = sec.querySelector(':scope > footer');
+      if (foot) {
+        const limit = foot.getBoundingClientRect().top - 2;
+        const flow = [...sec.children].filter((c) => c !== foot && !c.classList.contains('mine') && getComputedStyle(c).display !== 'none');
+        const end = flow.length ? Math.max(...flow.map((c) => c.getBoundingClientRect().bottom)) : 0;
+        if (end > limit + 0.5) return { sheet: i + 1, by: Math.round(end - limit) };
+      }
       return sec.scrollHeight > sec.clientHeight + 1 ? { sheet: i + 1, by: sec.scrollHeight - sec.clientHeight } : null;
     }).filter(Boolean));
     let over = await runsOver();
     if (over.some((o) => o.sheet === 1)) { await page.evaluate(() => document.querySelector('section.cover').classList.add('tight')); over = await runsOver(); }
-    for (const cls of ['tight', 'nomine']) {
+    for (const cls of ['tight', 'nomine', 'squeeze']) {
       const sheets = over.filter((o) => o.sheet > 1).map((o) => o.sheet);
       if (!sheets.length) break;
       await page.evaluate((list, c) => { const all = [...document.querySelectorAll('section.page')]; for (const n of list) if (all[n - 1].classList.contains('lesson')) all[n - 1].classList.add(c); }, sheets, cls);

@@ -5745,6 +5745,194 @@
     }
    ],
    "weeks": 13
+  },
+  {
+   "id": "k-me-and-my-school",
+   "slug": "me-and-my-school-kindergarten-social-studies-unit",
+   "status": "live",
+   "grade": "K",
+   "subject": "social",
+   "title": "Me and My School",
+   "metaTitle": "Kindergarten Social Studies Lesson Plans: Me and My School",
+   "metaDescription": "A Kindergarten social studies unit: 4 lessons on our class rules, taking turns and sharing, the helpers at our school, and our classroom seen from above.",
+   "lessons": [
+    {
+     "point": "K:class-rules",
+     "types": [
+      "K-712"
+     ]
+    },
+    {
+     "point": "K:take-turns-share",
+     "types": [
+      "K-713"
+     ]
+    },
+    {
+     "point": "K:school-helpers",
+     "types": [
+      "K-725"
+     ]
+    },
+    {
+     "point": "K:birds-eye-view",
+     "types": [
+      "K-377",
+      "K-563"
+     ]
+    }
+   ],
+   "weeks": 6
+  },
+  {
+   "id": "k-my-family",
+   "slug": "my-family-kindergarten-social-studies-unit",
+   "status": "live",
+   "grade": "K",
+   "subject": "social",
+   "title": "My Family",
+   "metaTitle": "Kindergarten Social Studies Lesson Plans: My Family",
+   "metaDescription": "A Kindergarten social studies unit: 4 lessons on who is in my family, the many kinds of families, family traditions, and life long ago and today.",
+   "lessons": [
+    {
+     "point": "K:family",
+     "types": [
+      "K-370",
+      "K-375"
+     ]
+    },
+    {
+     "point": "K:many-kinds-of-families",
+     "types": [
+      "K-714"
+     ]
+    },
+    {
+     "point": "K:family-traditions",
+     "types": [
+      "K-715"
+     ]
+    },
+    {
+     "point": "K:long-ago-today",
+     "types": [
+      "K-716"
+     ]
+    }
+   ],
+   "weeks": 6
+  },
+  {
+   "id": "k-helpers-needs-wants",
+   "slug": "helpers-needs-and-wants-kindergarten-social-studies-unit",
+   "status": "live",
+   "grade": "K",
+   "subject": "social",
+   "title": "Helpers, Needs and Wants",
+   "metaTitle": "Kindergarten Social Studies Lesson Plans: Helpers, Needs and Wants",
+   "metaDescription": "A Kindergarten social studies unit: 4 lessons on community helpers and their tools, needs and wants, choosing one thing, and the goods and services workers make.",
+   "lessons": [
+    {
+     "point": "K:community-helpers",
+     "types": [
+      "K-213"
+     ]
+    },
+    {
+     "point": "K:wants-needs",
+     "types": [
+      "K-212"
+     ]
+    },
+    {
+     "point": "K:choosing-one-thing",
+     "types": [
+      "K-717"
+     ]
+    },
+    {
+     "point": "K:goods-and-services",
+     "types": [
+      "K-718"
+     ]
+    }
+   ],
+   "weeks": 6
+  },
+  {
+   "id": "k-our-country-being-fair",
+   "slug": "our-country-and-being-fair-kindergarten-social-studies-unit",
+   "status": "live",
+   "grade": "K",
+   "subject": "social",
+   "title": "Our Country and Being Fair",
+   "metaTitle": "Kindergarten Social Studies Lesson Plans: Our Country and Being Fair",
+   "metaDescription": "A Kindergarten social studies unit: 4 lessons on the United States and its flag, Martin Luther King Jr., being fair to everyone, and a class vote.",
+   "lessons": [
+    {
+     "point": "K:our-flag",
+     "types": [
+      "K-719"
+     ]
+    },
+    {
+     "point": "K:martin-luther-king",
+     "types": [
+      "K-720"
+     ]
+    },
+    {
+     "point": "K:fair-for-everyone",
+     "types": [
+      "K-721"
+     ]
+    },
+    {
+     "point": "K:class-vote",
+     "types": [
+      "K-726"
+     ]
+    }
+   ],
+   "weeks": 6
+  },
+  {
+   "id": "k-maps-places-getting-around",
+   "slug": "maps-places-and-getting-around-kindergarten-social-studies-unit",
+   "status": "live",
+   "grade": "K",
+   "subject": "social",
+   "title": "Maps, Places and Getting Around",
+   "metaTitle": "Kindergarten Social Studies Lesson Plans: Maps and Places",
+   "metaDescription": "A Kindergarten social studies unit: 4 lessons on land and water on the globe, a neighborhood map, travel on land, water and air, and hot and cold places.",
+   "lessons": [
+    {
+     "point": "K:land-and-water",
+     "types": [
+      "K-722"
+     ]
+    },
+    {
+     "point": "K:neighborhood-map",
+     "types": [
+      "K-723"
+     ]
+    },
+    {
+     "point": "K:transport-flying",
+     "types": [
+      "K-210",
+      "K-206"
+     ]
+    },
+    {
+     "point": "K:hot-cold-places",
+     "types": [
+      "K-724"
+     ]
+    }
+   ],
+   "weeks": 6
   }
  ],
  "plans": [
@@ -5975,6 +6163,22 @@
     "g3-weather-and-climate",
     "g3-life-cycles-and-traits",
     "g3-surviving-in-a-changing-world"
+   ]
+  },
+  {
+   "id": "plan-k-social",
+   "slug": "kindergarten-social-studies-scope-and-sequence",
+   "grade": "K",
+   "subject": "social",
+   "title": "Kindergarten Social Studies Scope and Sequence",
+   "metaTitle": "Kindergarten Social Studies Scope, Sequence and Pacing ({weeks} Weeks)",
+   "metaDescription": "{units} Kindergarten social studies units in teaching order, about {weeks} weeks of two social studies sessions a week, with each unit's lessons and its C3 standards.",
+   "units": [
+    "k-me-and-my-school",
+    "k-my-family",
+    "k-helpers-needs-wants",
+    "k-our-country-being-fair",
+    "k-maps-places-getting-around"
    ]
   }
  ]

@@ -113,7 +113,9 @@
       "right": {
         "theme": "tools",
         "noun": "spanner"
-      }
+      },
+      "retired": true,
+      "retiredWhy": "2026-11-24 Kindergarten social studies notes: the library mechanic works at a car with a wrench in his hand, so the page shows its own answer"
     }
   ],
   "conflicts": [

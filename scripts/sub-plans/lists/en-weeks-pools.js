@@ -22,7 +22,10 @@ module.exports = {
     phonics: 'K:rhyme K-352; K:rhyme K-232; K:count-syllables K-234 once; K:count-syllables K-233 once; K:beginning-sounds K-228; K:beginning-sounds K-328 once; K:sound-position K-227 once;'
       + 'K:cvc-build K-224; K:cvc-build K-231; K:digraphs-k K-378 once',
     writing: 'K:pre-writing-strokes K-419 to12; K:pre-writing-strokes K-420 to12; K:pre-writing-strokes K-424 to12; K:pre-writing-strokes K-431 to12; K:letter-formation K-238; K:word-sentence-tracing K-284; K:word-sentence-tracing K-291;'
-      + 'K:all-about-me-personal K-345; K:all-about-me-personal K-342; K:family K-375; K:singular-plural K-287',
+      + 'K:all-about-me-personal K-345; K:all-about-me-personal K-342; K:family K-375; K:singular-plural K-287;'
+      // copying a picture square by square (a point no plan teaches): the first weeks' writing block, now that the family
+      // words are a social studies lesson of weeks 6-11 (2026-11-24)
+      + 'K:grid-copy K-502 to4',
     math: 'K:position-words K-064; K:scene-search K-371; K:scene-search K-070; K:draw-shapes K-372; K:compare-size-extremes K-035; K:compare-size-extremes K-037; K:order-by-size K-034; K:order-by-size K-036; K:count-how-many K-640 from12; K:count-how-many K-027 from12; K:count-how-many K-002;'
       + 'K:compare-groups K-606 from12; K:compare-groups K-009; K:subitize K-018; K:conservation K-445; K:one-more-one-less K-443; K:combine-groups K-028; K:take-away K-451; K:tally-marks K-015; K:tally-marks K-025;'
       + 'K:number-bonds-k K-243; K:number-bonds-k K-274; K:teen-numbers K-448; K:teen-numbers K-637; K:shape-naming K-368',
@@ -31,7 +34,10 @@ module.exports = {
     logic: 'K:patterns K-048; K:patterns K-049; K:patterns K-050; K:patterns K-053; K:mazes K-405; K:mazes K-406; K:mazes K-407; K:same-different-visual K-058; K:same-different-visual K-080; K:same-different-visual K-062;'
       + 'K:spot-the-difference K-399; K:spot-the-difference K-400; K:shadow-closure K-057; K:shadow-closure K-069',
     closing: 'K:feelings K-331; K:feelings K-334; K:feelings K-333; K:seasons K-207; K:seasons K-338; K:living-nonliving K-201; K:fruit-vegetable K-202; K:animal-groups-homes K-204; K:animal-groups-homes K-209;'
-      + 'K:animal-babies K-205; K:day-night K-208; K:transport-flying K-206; K:transport-flying K-210; K:healthy-food K-203; K:natural-made K-214',
+      + 'K:animal-babies K-205; K:day-night K-208; K:transport-flying K-206; K:transport-flying K-210; K:healthy-food K-203; K:natural-made K-214;'
+      // the Kindergarten social studies pages a guest teacher can run at the seats after one example (2026-11-24, Stage
+      // D-3); the families, traditions, Dr. King, school-walk and class-vote pages need the class teacher's talk and stay out
+      + 'K:class-rules K-712; K:take-turns-share K-713; K:long-ago-today K-716; K:goods-and-services K-718; K:fair-for-everyone K-721; K:hot-cold-places K-724; K:our-flag K-719; K:choosing-one-thing K-717; K:community-helpers K-213; K:wants-needs K-212',
   },
   1: {
     morning: 'K:count-forward-missing K-632; K:number-bonds-k K-243; K:number-bonds-k K-274; 1:missing-number-equations G1-218; 1:missing-number-equations G1-215; 1:fluency-within-20 G1-214; 1:fluency-within-20 G1-208; 1:fluency-within-20 G1-216; 1:fluency-within-20 G1-217;'

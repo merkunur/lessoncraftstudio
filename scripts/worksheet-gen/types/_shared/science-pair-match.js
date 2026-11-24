@@ -74,7 +74,11 @@ function makeSciencePairMatch(cfg) {
         const freed = drawn.filter((q) => !pairs.includes(q));
         const fits = (q) => !pairs.includes(q) && !clash(pairs.concat([q]));
         for (let q of rng.sample(rest, Math.min(d.extra, rest.length))) {
-          if (!fits(q)) { const k = freed.findIndex(fits); q = k >= 0 ? freed.splice(k, 1)[0] : null; }
+          // a RETIRED pair's tool never stands as the leftover either (2026-11-24: a wrench beside the carpenter or the
+          // farmer, a trumpet beside the teacher could be defended as theirs): it is drawn again from the live rest, so a
+          // page whose leftover was a live pair keeps the draw it shipped with
+          if (retired(q)) { const alt = rest.filter((x) => !retired(x)); q = alt.length ? rng.pick(alt) : null; }
+          if (q && !fits(q)) { const k = freed.findIndex(fits); q = k >= 0 ? freed.splice(k, 1)[0] : null; }
           const at = rng.int(0, rightList.length);
           if (q) rightList.splice(at, 0, { p: q, src: -1 });
         }

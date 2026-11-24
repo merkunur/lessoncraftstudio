@@ -36,7 +36,7 @@ const readJson = (f, fallback) => { try { return JSON.parse(fs.readFileSync(f, '
 /** the registry a language's pages cite (a state layer is chosen by the page, not here) */
 const REGISTRY_OF = { en: 'en', de: 'de', fr: 'fr', es: 'es', pt: 'pt', it: 'it', nl: 'nl', sv: 'sv', da: 'da', no: 'no', fi: 'fi' };
 const { pagesOf } = require('./catalog.js');
-const { lessonDays, unitDays, unitWeeks } = require('./pacing.js');
+const { lessonDays, unitDays, unitWeeks, sessionsAWeek } = require('./pacing.js');
 const MIN_LESSONS = 4;
 /** the picture themes of a holiday, as the pages' addresses name them in en, de and sv */
 const HOLIDAY_COPY = /(?:^|-)(?:christmas|easter|thanksgiving|valentine|halloween|4th-of-july|weihnachten|ostern|erntedankfest|valentinstag|4-juli|jul|pask|alla-hjartans-dag)(?:-|$)/;
@@ -293,6 +293,14 @@ function assemble(loc, opt = {}) {
     for (const k of ['id', 'slug', 'title', 'metaTitle', 'metaDescription', 'grade', 'subject']) if (!p[k]) bad(where + ': no ' + k);
     if ((p.units || []).length < MIN_PLAN_UNITS) bad(where + ': ' + (p.units || []).length + ' units (at least ' + MIN_PLAN_UNITS + ')');
     let week = 0;
+    // SOCIAL STUDIES has two sessions a week (pacing.js), so a unit of four lessons (2 + 2 + 2 + 2 sessions and the three
+    // of its end) is five and a half weeks: the next unit starts in the middle of that week, and the plan counts the weeks
+    // its SESSIONS fill (2026-11-24, the Kindergarten social studies plan: 55 sessions are 28 weeks, not the 30 that five
+    // rounded units would claim inside the year design's 28 teaching weeks). A unit still says "about N weeks" (its own
+    // rounding). The other subjects keep whole-unit weeks: their live plans state their weeks in indexed titles.
+    const sharedWeeks = p.subject === 'social';
+    let sessions = 0;
+    const spw = sessionsAWeek(p.grade, { loc, subject: p.subject });
     const rows = [];
     for (const id of p.units || []) {
       const u = units.find((x) => x.id === id);
@@ -301,8 +309,11 @@ function assemble(loc, opt = {}) {
       if (planned.has(id)) bad(where + ': ' + id + ' is in two plans');
       planned.add(id);
       const standards = [...new Set(u.lessons.flatMap((l) => l.standards.filter((x) => x.rel === 'teaches' && x.code).map((x) => x.code)))];
-      rows.push({ id: u.id, slug: u.slug, title: u.title, weeks: u.weeks, from: week + 1, to: week + u.weeks, lessons: u.lessons.map((l) => l.title), standards });
-      week += u.weeks;
+      const from = sharedWeeks ? Math.floor(sessions / spw) + 1 : week + 1;
+      const to = sharedWeeks ? Math.ceil((sessions + u.days) / spw) : week + u.weeks;
+      rows.push({ id: u.id, slug: u.slug, title: u.title, weeks: u.weeks, from, to, lessons: u.lessons.map((l) => l.title), standards });
+      sessions += u.days;
+      week = sharedWeeks ? to : week + u.weeks;
     }
     for (const u of units) if (u.grade === p.grade && u.subject === p.subject && !(p.units || []).includes(u.id)) bad(where + ': the unit ' + u.id + ' of this grade and subject is not in the plan');
     const live = rows.length > 0 && rows.every((r) => units.find((x) => x.id === r.id).status === 'live');

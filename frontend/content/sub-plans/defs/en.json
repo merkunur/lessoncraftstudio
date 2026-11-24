@@ -1472,8 +1472,8 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:family",
-     "type": "K-375"
+     "point": "K:grid-copy",
+     "type": "K-502"
     },
     {
      "key": "math",
@@ -1552,8 +1552,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:transport-flying",
-     "type": "K-206"
+     "point": "K:healthy-food",
+     "type": "K-203"
     }
    ]
   },
@@ -1638,8 +1638,9 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:family",
-     "type": "K-375"
+     "point": "K:letter-formation",
+     "type": "K-238",
+     "title": "Trace the Letter J j"
     },
     {
      "key": "math",
@@ -1662,8 +1663,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:healthy-food",
-     "type": "K-203"
+     "point": "K:class-rules",
+     "type": "K-712"
     }
    ]
   },
@@ -1717,8 +1718,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:feelings",
-     "type": "K-334"
+     "point": "K:take-turns-share",
+     "type": "K-713"
     }
    ]
   },
@@ -1742,15 +1743,15 @@
     {
      "key": "reading",
      "minutes": 15,
-     "point": "K:family",
-     "type": "K-370"
+     "point": "K:shadow-closure",
+     "type": "K-069"
     },
     {
      "key": "writing",
      "minutes": 15,
      "point": "K:letter-formation",
      "type": "K-238",
-     "title": "Trace the Letter J j"
+     "title": "Trace the Letter K k"
     },
     {
      "key": "math",
@@ -1773,8 +1774,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:living-nonliving",
-     "type": "K-201"
+     "point": "K:feelings",
+     "type": "K-334"
     }
    ]
   },
@@ -1799,8 +1800,8 @@
     {
      "key": "reading",
      "minutes": 15,
-     "point": "K:word-sentence-tracing",
-     "type": "K-239"
+     "point": "K:family",
+     "type": "K-370"
     },
     {
      "key": "phonics",
@@ -1811,8 +1812,8 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:all-about-me-personal",
-     "type": "K-345"
+     "point": "K:word-sentence-tracing",
+     "type": "K-284"
     },
     {
      "key": "math",
@@ -1921,8 +1922,8 @@
     {
      "key": "reading",
      "minutes": 15,
-     "point": "K:letter-identification",
-     "type": "K-229"
+     "point": "K:family",
+     "type": "K-370"
     },
     {
      "key": "phonics",
@@ -1933,8 +1934,8 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:word-sentence-tracing",
-     "type": "K-284"
+     "point": "K:all-about-me-personal",
+     "type": "K-345"
     },
     {
      "key": "math",
@@ -1951,8 +1952,8 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:shadow-closure",
-     "type": "K-057"
+     "point": "K:spot-the-difference",
+     "type": "K-399"
     },
     {
      "key": "closing",
@@ -1994,8 +1995,8 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:all-about-me-personal",
-     "type": "K-342"
+     "point": "K:word-sentence-tracing",
+     "type": "K-291"
     },
     {
      "key": "math",
@@ -2012,14 +2013,14 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:spot-the-difference",
-     "type": "K-399"
+     "point": "K:patterns",
+     "type": "K-053"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:seasons",
-     "type": "K-338"
+     "point": "K:long-ago-today",
+     "type": "K-716"
     }
    ]
   },
@@ -2055,9 +2056,8 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:letter-formation",
-     "type": "K-238",
-     "title": "Trace the Letter K k"
+     "point": "K:family",
+     "type": "K-375"
     },
     {
      "key": "math",
@@ -2074,14 +2074,14 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:patterns",
-     "type": "K-053"
+     "point": "K:same-different-visual",
+     "type": "K-058"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:transport-flying",
-     "type": "K-210"
+     "point": "K:seasons",
+     "type": "K-338"
     }
    ]
   },
@@ -2099,8 +2099,8 @@
     {
      "key": "morning",
      "minutes": 10,
-     "point": "K:same-different-visual",
-     "type": "K-044"
+     "point": "K:pre-writing-strokes",
+     "type": "K-421"
     },
     {
      "key": "reading",
@@ -2117,8 +2117,9 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:family",
-     "type": "K-375"
+     "point": "K:letter-formation",
+     "type": "K-238",
+     "title": "Trace the Letter L l"
     },
     {
      "key": "math",
@@ -2142,8 +2143,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:feelings",
-     "type": "K-331"
+     "point": "K:community-helpers",
+     "type": "K-213"
     }
    ]
   },
@@ -2197,14 +2198,14 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:spot-the-difference",
-     "type": "K-400"
+     "point": "K:shadow-closure",
+     "type": "K-057"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:healthy-food",
-     "type": "K-203"
+     "point": "K:wants-needs",
+     "type": "K-212"
     }
    ]
   },
@@ -2222,8 +2223,8 @@
     {
      "key": "morning",
      "minutes": 10,
-     "point": "K:pre-writing-strokes",
-     "type": "K-421"
+     "point": "K:position-words",
+     "type": "K-067"
     },
     {
      "key": "reading",
@@ -2240,8 +2241,8 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:word-sentence-tracing",
-     "type": "K-291"
+     "point": "K:all-about-me-personal",
+     "type": "K-342"
     },
     {
      "key": "math",
@@ -2258,14 +2259,14 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:same-different-visual",
-     "type": "K-058"
+     "point": "K:spot-the-difference",
+     "type": "K-400"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:seasons",
-     "type": "K-207"
+     "point": "K:choosing-one-thing",
+     "type": "K-717"
     }
    ]
   },
@@ -2283,14 +2284,14 @@
     {
      "key": "morning",
      "minutes": 10,
-     "point": "K:position-words",
-     "type": "K-067"
+     "point": "K:count-forward-missing",
+     "type": "K-019"
     },
     {
      "key": "reading",
      "minutes": 15,
-     "point": "K:human-body",
-     "type": "K-354"
+     "point": "K:letter-identification",
+     "type": "K-229"
     },
     {
      "key": "phonics",
@@ -2301,8 +2302,8 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:all-about-me-personal",
-     "type": "K-345"
+     "point": "K:word-sentence-tracing",
+     "type": "K-284"
     },
     {
      "key": "math",
@@ -2319,14 +2320,14 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:patterns",
-     "type": "K-048"
+     "point": "K:same-different-visual",
+     "type": "K-080"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:living-nonliving",
-     "type": "K-201"
+     "point": "K:healthy-food",
+     "type": "K-203"
     }
    ]
   },
@@ -2344,14 +2345,14 @@
     {
      "key": "morning",
      "minutes": 10,
-     "point": "K:count-forward-missing",
-     "type": "K-019"
+     "point": "K:pre-writing-strokes",
+     "type": "K-422"
     },
     {
      "key": "reading",
      "minutes": 15,
-     "point": "K:family",
-     "type": "K-370"
+     "point": "K:human-body",
+     "type": "K-354"
     },
     {
      "key": "phonics",
@@ -2362,9 +2363,8 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:letter-formation",
-     "type": "K-238",
-     "title": "Trace the Letter L l"
+     "point": "K:family",
+     "type": "K-375"
     },
     {
      "key": "math",
@@ -2381,14 +2381,14 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:shadow-closure",
-     "type": "K-069"
+     "point": "K:patterns",
+     "type": "K-048"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:animal-groups-homes",
-     "type": "K-209"
+     "point": "K:goods-and-services",
+     "type": "K-718"
     }
    ]
   },
@@ -2425,7 +2425,7 @@
      "key": "writing",
      "minutes": 15,
      "point": "K:word-sentence-tracing",
-     "type": "K-284"
+     "type": "K-291"
     },
     {
      "key": "math",
@@ -2449,8 +2449,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:feelings",
-     "type": "K-331"
+     "point": "K:living-nonliving",
+     "type": "K-201"
     }
    ]
   },
@@ -2468,8 +2468,8 @@
     {
      "key": "morning",
      "minutes": 10,
-     "point": "K:pre-writing-strokes",
-     "type": "K-422"
+     "point": "K:position-words",
+     "type": "K-065"
     },
     {
      "key": "reading",
@@ -2487,7 +2487,7 @@
      "key": "writing",
      "minutes": 15,
      "point": "K:all-about-me-personal",
-     "type": "K-342"
+     "type": "K-345"
     },
     {
      "key": "math",
@@ -2505,13 +2505,13 @@
      "key": "logic",
      "minutes": 10,
      "point": "K:same-different-visual",
-     "type": "K-080"
+     "type": "K-058"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:transport-flying",
-     "type": "K-206"
+     "point": "K:our-flag",
+     "type": "K-719"
     }
    ]
   },
@@ -2547,8 +2547,9 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:word-sentence-tracing",
-     "type": "K-291"
+     "point": "K:letter-formation",
+     "type": "K-238",
+     "title": "Trace the Letter M m"
     },
     {
      "key": "math",
@@ -2571,8 +2572,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:seasons",
-     "type": "K-207"
+     "point": "K:feelings",
+     "type": "K-331"
     }
    ]
   },
@@ -2590,14 +2591,14 @@
     {
      "key": "morning",
      "minutes": 10,
-     "point": "K:position-words",
-     "type": "K-065"
+     "point": "K:pre-writing-strokes",
+     "type": "K-246"
     },
     {
      "key": "reading",
      "minutes": 15,
-     "point": "K:singular-plural",
-     "type": "K-302"
+     "point": "K:word-sentence-tracing",
+     "type": "K-239"
     },
     {
      "key": "phonics",
@@ -2608,8 +2609,8 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:family",
-     "type": "K-375"
+     "point": "K:singular-plural",
+     "type": "K-287"
     },
     {
      "key": "math",
@@ -2626,14 +2627,14 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:patterns",
-     "type": "K-049"
+     "point": "K:shadow-closure",
+     "type": "K-069"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:healthy-food",
-     "type": "K-203"
+     "point": "K:fair-for-everyone",
+     "type": "K-721"
     }
    ]
   },
@@ -2669,9 +2670,8 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:letter-formation",
-     "type": "K-238",
-     "title": "Trace the Letter M m"
+     "point": "K:family",
+     "type": "K-375"
     },
     {
      "key": "math",
@@ -2688,15 +2688,14 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:mazes",
-     "type": "K-407",
-     "title": "Paddle the Kayak to the Cabin"
+     "point": "K:patterns",
+     "type": "K-049"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:animal-groups-homes",
-     "type": "K-204"
+     "point": "K:seasons",
+     "type": "K-207"
     }
    ]
   },
@@ -2714,8 +2713,8 @@
     {
      "key": "morning",
      "minutes": 10,
-     "point": "K:pre-writing-strokes",
-     "type": "K-246"
+     "point": "K:same-different-visual",
+     "type": "K-044"
     },
     {
      "key": "reading",
@@ -2732,8 +2731,8 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:word-sentence-tracing",
-     "type": "K-284"
+     "point": "K:all-about-me-personal",
+     "type": "K-342"
     },
     {
      "key": "math",
@@ -2750,8 +2749,9 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:same-different-visual",
-     "type": "K-058"
+     "point": "K:mazes",
+     "type": "K-407",
+     "title": "Paddle the Kayak to the Cabin"
     },
     {
      "key": "closing",
@@ -2794,8 +2794,8 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:all-about-me-personal",
-     "type": "K-345"
+     "point": "K:word-sentence-tracing",
+     "type": "K-284"
     },
     {
      "key": "math",
@@ -2812,8 +2812,8 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:patterns",
-     "type": "K-050"
+     "point": "K:spot-the-difference",
+     "type": "K-400"
     },
     {
      "key": "closing",
@@ -2855,8 +2855,8 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:word-sentence-tracing",
-     "type": "K-291"
+     "point": "K:family",
+     "type": "K-375"
     },
     {
      "key": "math",
@@ -2873,14 +2873,14 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:shadow-closure",
-     "type": "K-057"
+     "point": "K:patterns",
+     "type": "K-050"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:transport-flying",
-     "type": "K-210"
+     "point": "K:animal-groups-homes",
+     "type": "K-209"
     }
    ]
   },
@@ -2916,8 +2916,9 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:family",
-     "type": "K-375"
+     "point": "K:letter-formation",
+     "type": "K-238",
+     "title": "Trace the Letter N n"
     },
     {
      "key": "math",
@@ -2934,8 +2935,9 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:spot-the-difference",
-     "type": "K-400"
+     "point": "K:mazes",
+     "type": "K-405",
+     "title": "Help the Boy on the Bike Reach the Slide"
     },
     {
      "key": "closing",
@@ -2965,8 +2967,8 @@
     {
      "key": "reading",
      "minutes": 15,
-     "point": "K:human-body",
-     "type": "K-354"
+     "point": "K:articles",
+     "type": "K-306"
     },
     {
      "key": "phonics",
@@ -2977,8 +2979,8 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:singular-plural",
-     "type": "K-287"
+     "point": "K:word-sentence-tracing",
+     "type": "K-291"
     },
     {
      "key": "math",
@@ -2995,15 +2997,14 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:mazes",
-     "type": "K-405",
-     "title": "Help the Boy on the Bike Reach the Slide"
+     "point": "K:patterns",
+     "type": "K-053"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:animal-babies",
-     "type": "K-205"
+     "point": "K:transport-flying",
+     "type": "K-206"
     }
    ]
   },
@@ -3027,8 +3028,8 @@
     {
      "key": "reading",
      "minutes": 15,
-     "point": "K:articles",
-     "type": "K-306"
+     "point": "K:human-body",
+     "type": "K-354"
     },
     {
      "key": "phonics",
@@ -3040,7 +3041,7 @@
      "key": "writing",
      "minutes": 15,
      "point": "K:all-about-me-personal",
-     "type": "K-342"
+     "type": "K-345"
     },
     {
      "key": "math",
@@ -3057,8 +3058,8 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:patterns",
-     "type": "K-053"
+     "point": "K:shadow-closure",
+     "type": "K-057"
     },
     {
      "key": "closing",
@@ -3100,9 +3101,8 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:letter-formation",
-     "type": "K-238",
-     "title": "Trace the Letter N n"
+     "point": "K:singular-plural",
+     "type": "K-287"
     },
     {
      "key": "math",
@@ -3119,15 +3119,14 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:mazes",
-     "type": "K-406",
-     "title": "Help the Penguin Get to the Snowman"
+     "point": "K:spot-the-difference",
+     "type": "K-399"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:animal-groups-homes",
-     "type": "K-209"
+     "point": "K:hot-cold-places",
+     "type": "K-724"
     }
    ]
   },

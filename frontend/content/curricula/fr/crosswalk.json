@@ -4660,6 +4660,14 @@
    ],
    "by": "authored"
   },
+  "K:land-and-water": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:neighborhood-map": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "K:family": {
    "rows": [
     {
@@ -4673,6 +4681,46 @@
      "grade": "1"
     }
    ],
+   "by": "authored"
+  },
+  "K:many-kinds-of-families": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:family-traditions": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:long-ago-today": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:class-rules": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:take-turns-share": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:martin-luther-king": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:fair-for-everyone": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:choosing-one-thing": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:class-vote": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:our-flag": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "K:transport-flying": {
@@ -4689,6 +4737,10 @@
    "none": "No objective of PART 2 is about wants and needs; the registry holds no enseignement moral et civique.",
    "by": "authored"
   },
+  "K:hot-cold-places": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "K:community-helpers": {
    "rows": [
     {
@@ -4697,6 +4749,14 @@
      "grade": "1-3"
     }
    ],
+   "by": "authored"
+  },
+  "K:goods-and-services": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "K:school-helpers": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "1:map-key": {

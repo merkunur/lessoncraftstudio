@@ -1406,6 +1406,12 @@
   "K-210": {
    "family": "science-sort"
   },
+  "K-212": {
+   "family": "science-sort"
+  },
+  "K-213": {
+   "family": "science-match"
+  },
   "K-214": {
    "family": "science-sort"
   },
@@ -1690,6 +1696,30 @@
   },
   "K-660": {
    "family": "capitals-punctuation"
+  },
+  "K-712": {
+   "family": "feelings"
+  },
+  "K-713": {
+   "family": "feelings"
+  },
+  "K-716": {
+   "family": "family"
+  },
+  "K-717": {
+   "family": "money"
+  },
+  "K-718": {
+   "family": "science-match"
+  },
+  "K-719": {
+   "family": "read-and-color"
+  },
+  "K-721": {
+   "family": "feelings"
+  },
+  "K-724": {
+   "family": "science-sort"
   }
  }
 }

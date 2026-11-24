@@ -19,6 +19,58 @@ const sortScript = (bins, example, note) => ({
 module.exports = {
   loc: 'en',
   points: {
+    // ---- the Kindergarten social studies points (Stage D-3, 2026-11-24): the closing block of the weeks after their
+    // lesson, written from the pages (lcs-stage-d/batch-sk/TEXT-DUMP.md; K-213 and K-212 from their generators) ----
+    'K:class-rules': {
+      say: '"Each row shows the same child two times. In one picture the child follows a class rule. Circle that picture, and put an X on the other one."',
+      first: 'Do the first row together. Ask, "Which picture keeps everyone safe or helps us learn?" (walking in the hall, raising a hand, listening at story time, cleaning up the blocks). Have the children say the rule in their own words, then circle that picture and cross out the other.',
+      stuck: 'Point to each picture and ask, "What is the child doing? Is that what we do in our class?" Say the rule for the child ("We walk in the hall.") and let the child find the picture that shows it.',
+    },
+    'K:take-turns-share': {
+      say: '"Look at each picture. If the friends are taking turns, sharing or helping, circle it. If someone is not being kind, put an X on it."',
+      first: 'Do one picture together. Ask, "What is happening here? Is that kind?" Talk about what the child does, never about a bad child. If a picture shows grabbing, say: "Grabbing a toy is not kind. What could the child do instead?"',
+      stuck: 'Ask how the other friend in the picture feels: a happy friend usually means a kind picture, a sad friend means someone was not kind. Some pages have more kind pictures than others, so look at each picture on its own.',
+    },
+    'K:long-ago-today': {
+      say: '"The pictures on the left are things from long ago. The pictures on the right are things we use today. Draw a line from each long-ago thing to the thing that does the same job today."',
+      first: 'Name the long-ago things on your page together. Do the top one together: "What job does this do? Which thing on the right does that job today?"',
+      stuck: 'Ask, "What job does this do?" (washing clothes, giving light at night, getting from place to place, talking to someone far away). Then have the child find the picture on the right that does the same job.',
+    },
+    'K:community-helpers': {
+      say: '"Each helper on the left uses one of the tools on the right. Draw a line from each helper to the tool they use."',
+      first: 'Name each helper and each tool on your page together. Do the top helper together: "What does this helper do at work? Which tool helps with that job?" If there is one more tool than helpers, one tool belongs to no one on the page; it gets no line.',
+      stuck: 'Ask, "What does this helper do at work? What do they hold to do it?" Let the child act it out, then find that tool.',
+    },
+    'K:wants-needs': {
+      say: '"Draw a line from each picture to Needs or to Wants. Needs are things we must have to live. Wants are things that are nice to have."',
+      first: 'Point to the words Needs and Wants and read them aloud. Do the first picture together: "Can we live without this? Then is it a need or a want?"',
+      stuck: 'Ask, "Could you live without it?" Food, water, clothes and a home are needs; toys and treats are wants.',
+    },
+    'K:choosing-one-thing': {
+      say: '"In each row you can have only one thing. Circle the one you choose and put an X on the one you do not pick. There is no wrong answer."',
+      first: 'The small "1" at the start of a row is not a choice. Read the first row together and say what the 1 means: a hand with a coin, "You have one coin. You can buy one of these, not both."; a hand with a book, "You can take home one book."; just the 1, "Recess has time for one thing." Ask, "Which do you choose?" Two children who choose differently are both right.',
+      stuck: 'Ask, "Which one would you like more?" Then help the child put an X on the other one: "That is the one you give up." Check only that every row has one circle and one X.',
+    },
+    'K:goods-and-services': {
+      say: '"Each worker on the left makes something or does something. Draw a line from each worker to what they make or do."',
+      first: 'Name the workers on your page together by what they wear and hold (a tall white hat and a rolling pin: a baker; a hard hat and a hammer: a builder; a striped pole, scissors and a comb: a barber; a cap and a bag of letters: a mail carrier). Do the top worker together: "What does this worker make or do?"',
+      stuck: 'Ask, "What is this worker holding? What would they make or do with it?"',
+    },
+    'K:our-flag': {
+      say: '"This is the flag of our country, the United States. If your flag has red dots, color the stripes with the dots red. Color it like the small flag: red and white stripes, red at the top and the bottom. Color the box blue around the stars, and leave the stars white."',
+      first: 'Look at the small colored flag together and name the stripes from the top: red, white, red. Each child needs a red crayon and a blue one; the white stripes and the stars stay white.',
+      stuck: 'Have the child put a finger on a stripe of the small flag and find the same stripe on the big one. A stripe colored by mistake is fine; go on to the next stripe together.',
+    },
+    'K:fair-for-everyone': {
+      say: '"The two pictures in each row show the same moment. Circle the picture that is fair to everyone."',
+      first: 'Do the first row together. Ask, "In which picture does everyone get a turn, or the same?" Talk about what the children do (keeping the swing, sharing the crackers, letting a friend play), never about a bad child.',
+      stuck: 'Ask how each child in the picture feels. In the fair picture everyone can smile; in the other one someone is left out, still waiting, or has none.',
+    },
+    'K:hot-cold-places': {
+      say: '"One big picture is a snowy, cold place and the other is a hot beach. Draw a line from each thing to the place where people would use it."',
+      first: 'Name the two places together and ask what the weather is like in each. Do the first thing together: "Would people use this in the snow or at the beach? Why?"',
+      stuck: 'Ask, "Would this keep you warm, or help you stay cool?" Things for cold, snowy days go with the snowy place; things for hot, sunny days go with the beach.',
+    },
     // ---- new points ----
     'K:animal-babies': {
       say: '"On the left are grown-up animals. On the right are their babies, but they are mixed up. Draw a line from each grown-up animal to its own baby."',
@@ -295,7 +347,8 @@ module.exports = {
           stuck: 'Read the word for the child and ask who that person is to the child with the star. If a child says their own family does not look like this one, say, "Every family is different. This page is about this child\'s family."',
         },
       },
-      byPage: pages(['family-k375-2', 'family-k375-3', 'family-k375-4', 'family-k375-5', 'family-k375-6'], {
+      // (2026-11-24: family-k375-6 is handed out no more since the family words became a social studies lesson of weeks 6-11)
+      byPage: pages(['family-k375-2', 'family-k375-3', 'family-k375-4', 'family-k375-5'], {
         first: 'Look at the family tree together. The child with the star is the one the words are about. Read the family words on the page aloud. Do number 1 together: find the person with the 1 on the tree, find the word with the 1, trace it, and write it again on line 1.',
         stuck: 'Have the child put a finger on the number next to the word and find the same number on the tree. Read the word for the child. If a child says their own family does not look like this one, say, "Every family is different. This page is about this child\'s family."',
       }),

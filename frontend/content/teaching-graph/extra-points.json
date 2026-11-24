@@ -1907,6 +1907,111 @@
    "strand": "Health",
    "code": "NHES.4.5.5",
    "skill": "Say no clearly, give a reason and walk away from an unsafe choice"
+  },
+  {
+   "tp": "K:class-rules",
+   "grade": "K",
+   "strand": "Social Studies",
+   "code": "D2.Civ.12.K-2",
+   "skill": "Tell the picture that follows a class rule from the one that does not, and say how the rule helps us"
+  },
+  {
+   "tp": "K:take-turns-share",
+   "grade": "K",
+   "strand": "Social Studies",
+   "code": "D2.Civ.7.K-2",
+   "skill": "Tell taking turns, sharing and helping from acts that are not kind"
+  },
+  {
+   "tp": "K:many-kinds-of-families",
+   "grade": "K",
+   "strand": "Social Studies",
+   "code": "D2.Civ.6.K-2",
+   "skill": "Families come in many kinds, and every one is a family; the people who care for me"
+  },
+  {
+   "tp": "K:family-traditions",
+   "grade": "K",
+   "strand": "Social Studies",
+   "code": "D2.Geo.6.K-2",
+   "skill": "Traditions families may keep: a birthday, Thanksgiving, Diwali, Lunar New Year, and my own family's"
+  },
+  {
+   "tp": "K:long-ago-today",
+   "grade": "K",
+   "strand": "Social Studies",
+   "code": "D2.His.2.K-2",
+   "skill": "Things from long ago and things we use today that do the same job"
+  },
+  {
+   "tp": "K:choosing-one-thing",
+   "grade": "K",
+   "strand": "Social Studies",
+   "code": "D2.Eco.2.K-2",
+   "skill": "When I can have only one thing, I choose one and give up the other"
+  },
+  {
+   "tp": "K:goods-and-services",
+   "grade": "K",
+   "strand": "Social Studies",
+   "code": "D2.Eco.3.K-2",
+   "skill": "Workers make goods (bread, a house) or do services (a haircut, bringing the mail)"
+  },
+  {
+   "tp": "K:our-flag",
+   "grade": "K",
+   "strand": "Social Studies",
+   "code": "D2.Civ.5.K-2",
+   "skill": "Our country, the United States of America, and its flag: 13 stripes and 50 stars"
+  },
+  {
+   "tp": "K:martin-luther-king",
+   "grade": "K",
+   "strand": "Social Studies",
+   "code": "D2.Civ.14.K-2",
+   "skill": "Martin Luther King Jr. worked peacefully, with many others, to change unfair laws"
+  },
+  {
+   "tp": "K:fair-for-everyone",
+   "grade": "K",
+   "strand": "Social Studies",
+   "code": "D2.Civ.8.K-2",
+   "skill": "Tell a fair moment from an unfair one, and show how to make it fair"
+  },
+  {
+   "tp": "K:land-and-water",
+   "grade": "K",
+   "strand": "Social Studies",
+   "code": "D2.Geo.3.K-2",
+   "skill": "A globe shows land and water, and there is more water than land"
+  },
+  {
+   "tp": "K:neighborhood-map",
+   "grade": "K",
+   "strand": "Social Studies",
+   "code": "D2.Geo.2.K-2",
+   "skill": "Read a neighborhood map seen from above with a picture key, and find a path along the streets"
+  },
+  {
+   "tp": "K:hot-cold-places",
+   "grade": "K",
+   "strand": "Social Studies",
+   "code": "D2.Geo.4.K-2",
+   "skill": "A hot place and a cold place change what people wear and do outside"
+  },
+  {
+   "tp": "K:school-helpers",
+   "grade": "K",
+   "strand": "Social Studies",
+   "code": "D2.Civ.1.K-2",
+   "skill": "The people who help at school and the problem each one helps with"
+  },
+  {
+   "tp": "K:class-vote",
+   "grade": "K",
+   "strand": "Social Studies",
+   "code": "D2.Civ.11.K-2",
+   "skill": "A class vote: each child votes once, we count together, and the most votes wins"
   }
  ]
 }

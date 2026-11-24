@@ -3,9 +3,9 @@
  "counts": {
   "A": 12,
   "use": 0,
-  "B": 0,
-  "C": 10,
-  "D": 52
+  "B": 13,
+  "C": 7,
+  "D": 42
  },
  "A": [
   {
@@ -176,9 +176,42 @@
   }
  ],
  "use": [],
- "B": {},
- "C": {
-  "K-323": [
+ "B": {
+  "K-712": [
+   {
+    "key": "en-K-001",
+    "loc": "en",
+    "grade": "K",
+    "unit": "Me and My School",
+    "title": "Our class rules",
+    "source": "new",
+    "fit": "none",
+    "types": [
+     "K-712"
+    ],
+    "differs": "No class-rules page exists. Build picture pairs (walking and running in the hall, raising a hand and shouting out, cleaning up and leaving the blocks) to circle and cross out; the choice rows of G1-404 (drawn children, circle the healthy way) are the closest layout.",
+    "ruling": "use",
+    "note": "built (Stage D-5 batch SK, 2026-11-24): K-712, reviewed by one US Kindergarten teacher in two rounds"
+   }
+  ],
+  "K-713": [
+   {
+    "key": "en-K-002",
+    "loc": "en",
+    "grade": "K",
+    "unit": "Me and My School",
+    "title": "Taking turns and sharing",
+    "source": "new",
+    "fit": "none",
+    "types": [
+     "K-713"
+    ],
+    "differs": "No kind-or-unkind choice page exists. Build pictures of children at play (taking turns, sharing, helping / grabbing, pushing) to circle or cross out, on the choice rows of G1-404.",
+    "ruling": "use",
+    "note": "built (Stage D-5 batch SK, 2026-11-24): K-713, reviewed by one US Kindergarten teacher in two rounds"
+   }
+  ],
+  "K-714": [
    {
     "key": "en-K-005",
     "loc": "en",
@@ -188,15 +221,67 @@
     "source": "new",
     "fit": "close",
     "types": [
+     "K-714",
      "K-323",
      "G1-387"
     ],
     "differs": "Drawing one's own family has a frame: K-323 All About Me has a family drawing box, G1-387 a family tree template to draw the people who matter and write their names. No page shows many kinds of families (one parent, two fathers, grandparents raising grandchildren, a foster family). Change: a ring of six family pictures around a drawing frame; the family pictures are new art.",
-    "ruling": "change",
-    "note": "a ring of six family pictures around a drawing frame; the family pictures are new art."
+    "ruling": "use",
+    "note": "built (Stage D-5 batch SK, 2026-11-24): K-714, reviewed by one US Kindergarten teacher in two rounds"
    }
   ],
-  "K-213": [
+  "K-715": [
+   {
+    "key": "en-K-006",
+    "loc": "en",
+    "grade": "K",
+    "unit": "My Family",
+    "title": "Family traditions",
+    "source": "new",
+    "fit": "none",
+    "types": [
+     "K-715"
+    ],
+    "differs": "No traditions page exists. Build four tradition scenes and four objects to match (party hat, pie, diya lamp, red envelope) on the pair layout of K-205, and a frame to draw the family's own tradition; the diya and the red envelope are not in the library.",
+    "ruling": "use",
+    "note": "built (Stage D-5 batch SK, 2026-11-24): K-715, reviewed by one US Kindergarten teacher in two rounds"
+   }
+  ],
+  "K-716": [
+   {
+    "key": "en-K-007",
+    "loc": "en",
+    "grade": "K",
+    "unit": "My Family",
+    "title": "Long ago and today",
+    "source": "new",
+    "fit": "none",
+    "types": [
+     "K-716"
+    ],
+    "differs": "No long-ago-and-today page exists. Build four then-and-now object pairs (washboard and washing machine, candle and lamp, horse and buggy and car, wall telephone and cell phone) on the pair layout of K-205; the old objects are new art.",
+    "ruling": "use",
+    "note": "built (Stage D-5 batch SK, 2026-11-24): K-716, reviewed by one US Kindergarten teacher in two rounds"
+   }
+  ],
+  "K-717": [
+   {
+    "key": "en-K-010",
+    "loc": "en",
+    "grade": "K",
+    "unit": "Helpers, Needs and Wants",
+    "title": "Choosing one thing",
+    "source": "new",
+    "fit": "none",
+    "types": [
+     "K-717"
+    ],
+    "differs": "No choice (opportunity cost) page exists. Build rows of two pictures a child cannot both have, one to circle and one to X, any choice right, and a drawing box for level 3.",
+    "ruling": "use",
+    "note": "built (Stage D-5 batch SK, 2026-11-24): K-717, reviewed by one US Kindergarten teacher in two rounds"
+   }
+  ],
+  "K-718": [
    {
     "key": "en-K-011",
     "loc": "en",
@@ -206,14 +291,103 @@
     "source": "new",
     "fit": "close",
     "types": [
+     "K-718",
      "K-213"
     ],
     "differs": "K-213 draws lines from helpers to their TOOLS; nothing matches a worker to the goods or the service they produce (baker and bread, builder and house, barber and haircut, mail carrier and letter). Change: a worker-to-product pair bank on the same pair layout (baker, barber and mail carrier pictures are in the occupations theme).",
-    "ruling": "change",
-    "note": "a worker-to-product pair bank on the same pair layout (baker, barber and mail carrier pictures are in the occupations theme)."
+    "ruling": "use",
+    "note": "built (Stage D-5 batch SK, 2026-11-24): K-718, reviewed by one US Kindergarten teacher in two rounds"
    }
   ],
-  "K-207": [
+  "K-719": [
+   {
+    "key": "en-K-012",
+    "loc": "en",
+    "grade": "K",
+    "unit": "Our Country and Being Fair",
+    "title": "Our country and its flag",
+    "source": "new",
+    "fit": "none",
+    "types": [
+     "K-719"
+    ],
+    "differs": "No flag page exists. Build a U.S. flag outline (13 stripes, a box of 50 stars) to color beside a small colored model, the red stripes dotted at level 1; the library's 4th of July flag is a color picture, not line art.",
+    "ruling": "use",
+    "note": "built (Stage D-5 batch SK, 2026-11-24): K-719, reviewed by one US Kindergarten teacher in two rounds"
+   }
+  ],
+  "K-720": [
+   {
+    "key": "en-K-013",
+    "loc": "en",
+    "grade": "K",
+    "unit": "Our Country and Being Fair",
+    "title": "Martin Luther King Jr.",
+    "source": "new",
+    "fit": "none",
+    "types": [
+     "K-720"
+    ],
+    "differs": "No civil-rights page exists. Build a picture of Martin Luther King Jr. speaking to a crowd and a drawing frame for children playing fairly (new art).",
+    "ruling": "use",
+    "note": "built (Stage D-5 batch SK, 2026-11-24): K-720, reviewed by one US Kindergarten teacher in two rounds"
+   }
+  ],
+  "K-721": [
+   {
+    "key": "en-K-014",
+    "loc": "en",
+    "grade": "K",
+    "unit": "Our Country and Being Fair",
+    "title": "Fair for everyone",
+    "source": "new",
+    "fit": "none",
+    "types": [
+     "K-721"
+    ],
+    "differs": "No fair-or-unfair page exists. Build picture pairs of the same moment (keeping the swing / taking turns, all the crackers / shared crackers, left out / everyone in) to circle, on the choice rows of G1-404.",
+    "ruling": "use",
+    "note": "built (Stage D-5 batch SK, 2026-11-24): K-721, reviewed by one US Kindergarten teacher in two rounds"
+   }
+  ],
+  "K-722": [
+   {
+    "key": "en-K-015",
+    "loc": "en",
+    "grade": "K",
+    "unit": "Maps, Places and Getting Around",
+    "title": "Land and water on the globe",
+    "source": "new",
+    "fit": "close",
+    "types": [
+     "K-722",
+     "G2-370"
+    ],
+    "differs": "G2-370 labels the continents on a flat world map, so land and sea are drawn, but no page colors land and water, and nothing shows the round Earth with the Americas facing the child. Far: a color-the-land-and-water face of the maps family (a round outline, a blue dot in each ocean for level 1, a star for the United States at level 3).",
+    "ruling": "use",
+    "note": "built (Stage D-5 batch SK, 2026-11-24): K-722, reviewed by one US Kindergarten teacher in two rounds"
+   }
+  ],
+  "K-723": [
+   {
+    "key": "en-K-016",
+    "loc": "en",
+    "grade": "K",
+    "unit": "Maps, Places and Getting Around",
+    "title": "A map of a neighborhood",
+    "source": "new",
+    "fit": "close",
+    "types": [
+     "K-723",
+     "G1-379",
+     "G1-422"
+    ],
+    "differs": "G1-379 reads a picture key on a map drawn from above (house, tree, pond, bench, bridge ... on an island) and G1-422 draws the shortest way along town streets; there is no neighborhood map with a school, a park, a fire station and a store, and no task to circle or X places from the key. Far: a neighborhood face of the maps family (buildings as plan symbols, a dotted path to trace at level 1).",
+    "ruling": "use",
+    "note": "built (Stage D-5 batch SK, 2026-11-24): K-723, reviewed by one US Kindergarten teacher in two rounds"
+   }
+  ],
+  "K-724": [
    {
     "key": "en-K-018",
     "loc": "en",
@@ -223,13 +397,16 @@
     "source": "new",
     "fit": "close",
     "types": [
+     "K-724",
      "K-207"
     ],
     "differs": "K-207 sorts clothing into Summer and Winter (swimsuit, sandals, shorts / coat, mittens, scarf ...), the same idea as dressing for a place, but with season words, not a snowy mountain town and a beach town, and with no things to play with (sled, beach ball). Change: two place pictures as the groups, clothes and play items, no words.",
-    "ruling": "change",
-    "note": "two place pictures as the groups, clothes and play items, no words."
+    "ruling": "use",
+    "note": "built (Stage D-5 batch SK, 2026-11-24): K-724, reviewed by one US Kindergarten teacher in two rounds"
    }
-  ],
+  ]
+ },
+ "C": {
   "G1-531": [
    {
     "key": "en-2-038",
@@ -352,125 +529,6 @@
   ]
  },
  "D": [
-  {
-   "key": "en-K-001",
-   "loc": "en",
-   "grade": "K",
-   "unit": "Me and My School",
-   "title": "Our class rules",
-   "source": "new",
-   "fit": "none",
-   "types": [],
-   "differs": "No class-rules page exists. Build picture pairs (walking and running in the hall, raising a hand and shouting out, cleaning up and leaving the blocks) to circle and cross out; the choice rows of G1-404 (drawn children, circle the healthy way) are the closest layout."
-  },
-  {
-   "key": "en-K-002",
-   "loc": "en",
-   "grade": "K",
-   "unit": "Me and My School",
-   "title": "Taking turns and sharing",
-   "source": "new",
-   "fit": "none",
-   "types": [],
-   "differs": "No kind-or-unkind choice page exists. Build pictures of children at play (taking turns, sharing, helping / grabbing, pushing) to circle or cross out, on the choice rows of G1-404."
-  },
-  {
-   "key": "en-K-006",
-   "loc": "en",
-   "grade": "K",
-   "unit": "My Family",
-   "title": "Family traditions",
-   "source": "new",
-   "fit": "none",
-   "types": [],
-   "differs": "No traditions page exists. Build four tradition scenes and four objects to match (party hat, pie, diya lamp, red envelope) on the pair layout of K-205, and a frame to draw the family's own tradition; the diya and the red envelope are not in the library."
-  },
-  {
-   "key": "en-K-007",
-   "loc": "en",
-   "grade": "K",
-   "unit": "My Family",
-   "title": "Long ago and today",
-   "source": "new",
-   "fit": "none",
-   "types": [],
-   "differs": "No long-ago-and-today page exists. Build four then-and-now object pairs (washboard and washing machine, candle and lamp, horse and buggy and car, wall telephone and cell phone) on the pair layout of K-205; the old objects are new art."
-  },
-  {
-   "key": "en-K-010",
-   "loc": "en",
-   "grade": "K",
-   "unit": "Helpers, Needs and Wants",
-   "title": "Choosing one thing",
-   "source": "new",
-   "fit": "none",
-   "types": [],
-   "differs": "No choice (opportunity cost) page exists. Build rows of two pictures a child cannot both have, one to circle and one to X, any choice right, and a drawing box for level 3."
-  },
-  {
-   "key": "en-K-012",
-   "loc": "en",
-   "grade": "K",
-   "unit": "Our Country and Being Fair",
-   "title": "Our country and its flag",
-   "source": "new",
-   "fit": "none",
-   "types": [],
-   "differs": "No flag page exists. Build a U.S. flag outline (13 stripes, a box of 50 stars) to color beside a small colored model, the red stripes dotted at level 1; the library's 4th of July flag is a color picture, not line art."
-  },
-  {
-   "key": "en-K-013",
-   "loc": "en",
-   "grade": "K",
-   "unit": "Our Country and Being Fair",
-   "title": "Martin Luther King Jr.",
-   "source": "new",
-   "fit": "none",
-   "types": [],
-   "differs": "No civil-rights page exists. Build a picture of Martin Luther King Jr. speaking to a crowd and a drawing frame for children playing fairly (new art)."
-  },
-  {
-   "key": "en-K-014",
-   "loc": "en",
-   "grade": "K",
-   "unit": "Our Country and Being Fair",
-   "title": "Fair for everyone",
-   "source": "new",
-   "fit": "none",
-   "types": [],
-   "differs": "No fair-or-unfair page exists. Build picture pairs of the same moment (keeping the swing / taking turns, all the crackers / shared crackers, left out / everyone in) to circle, on the choice rows of G1-404."
-  },
-  {
-   "key": "en-K-015",
-   "loc": "en",
-   "grade": "K",
-   "unit": "Maps, Places and Getting Around",
-   "title": "Land and water on the globe",
-   "source": "new",
-   "fit": "close",
-   "types": [
-    "G2-370"
-   ],
-   "differs": "G2-370 labels the continents on a flat world map, so land and sea are drawn, but no page colors land and water, and nothing shows the round Earth with the Americas facing the child. Far: a color-the-land-and-water face of the maps family (a round outline, a blue dot in each ocean for level 1, a star for the United States at level 3).",
-   "ruling": "build",
-   "note": "a color-the-land-and-water face of the maps family (a round outline, a blue dot in each ocean for level 1, a star for the United States at level 3)."
-  },
-  {
-   "key": "en-K-016",
-   "loc": "en",
-   "grade": "K",
-   "unit": "Maps, Places and Getting Around",
-   "title": "A map of a neighborhood",
-   "source": "new",
-   "fit": "close",
-   "types": [
-    "G1-379",
-    "G1-422"
-   ],
-   "differs": "G1-379 reads a picture key on a map drawn from above (house, tree, pond, bench, bridge ... on an island) and G1-422 draws the shortest way along town streets; there is no neighborhood map with a school, a park, a fire station and a store, and no task to circle or X places from the key. Far: a neighborhood face of the maps family (buildings as plan symbols, a dotted path to trace at level 1).",
-   "ruling": "build",
-   "note": "a neighborhood face of the maps family (buildings as plan symbols, a dotted path to trace at level 1)."
-  },
   {
    "key": "en-1-019",
    "loc": "en",

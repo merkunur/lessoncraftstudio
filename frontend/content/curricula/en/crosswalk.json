@@ -5462,8 +5462,148 @@
    ],
    "by": "review"
   },
+  "K:land-and-water": {
+   "rows": [
+    {
+     "id": "D2.Geo.3.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "K:neighborhood-map": {
+   "rows": [
+    {
+     "id": "D2.Geo.2.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    },
+    {
+     "id": "D2.Geo.1.K-2",
+     "rel": "prepares",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
   "K:family": {
    "none": "The C3 Framework names no family members, kinship words or family tree in its K-2 indicators (civics, economics, geography, history).",
+   "by": "review"
+  },
+  "K:many-kinds-of-families": {
+   "rows": [
+    {
+     "id": "D2.Civ.6.K-2",
+     "rel": "prepares",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "K:family-traditions": {
+   "rows": [
+    {
+     "id": "D2.Geo.6.K-2",
+     "rel": "prepares",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "K:long-ago-today": {
+   "rows": [
+    {
+     "id": "D2.His.2.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "K:class-rules": {
+   "rows": [
+    {
+     "id": "D2.Civ.12.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    },
+    {
+     "id": "D2.Civ.3.K-2",
+     "rel": "prepares",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "K:take-turns-share": {
+   "rows": [
+    {
+     "id": "D2.Civ.7.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "K:martin-luther-king": {
+   "rows": [
+    {
+     "id": "D2.Civ.14.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    },
+    {
+     "id": "D2.Civ.8.K-2",
+     "rel": "prepares",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "K:fair-for-everyone": {
+   "rows": [
+    {
+     "id": "D2.Civ.8.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "K:choosing-one-thing": {
+   "rows": [
+    {
+     "id": "D2.Eco.2.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    },
+    {
+     "id": "D2.Eco.1.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "K:class-vote": {
+   "rows": [
+    {
+     "id": "D2.Civ.11.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "K:our-flag": {
+   "rows": [
+    {
+     "id": "D2.Civ.5.K-2",
+     "rel": "prepares",
+     "grade": "K-2"
+    }
+   ],
    "by": "review"
   },
   "K:transport-flying": {
@@ -5491,8 +5631,43 @@
    ],
    "by": "review"
   },
+  "K:hot-cold-places": {
+   "rows": [
+    {
+     "id": "D2.Geo.4.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
   "K:community-helpers": {
    "rows": [
+    {
+     "id": "D2.Civ.2.K-2",
+     "rel": "prepares",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "K:goods-and-services": {
+   "rows": [
+    {
+     "id": "D2.Eco.3.K-2",
+     "rel": "prepares",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "K:school-helpers": {
+   "rows": [
+    {
+     "id": "D2.Civ.1.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    },
     {
      "id": "D2.Civ.2.K-2",
      "rel": "prepares",

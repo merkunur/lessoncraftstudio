@@ -162,13 +162,21 @@ function run(d) {
       }
       if (p.units.length < 3) fail('P7', w + ': ' + p.units.length + ' units (at least 3)');
       let week = 0;
+      // social studies (two sessions a week) shares the half week where one unit ends and the next begins: its rows are
+      // counted from the sessions (scripts/units/assemble.js, 2026-11-24); every other plan counts whole-unit weeks
+      const shared = p.subject === 'social';
+      const spw = PACE.sessionsAWeek(p.grade, { loc: l, subject: p.subject });
+      let sessions = 0;
       for (const r of p.units) {
         const u = L.units.find((x) => x.id === r.id);
         if (!u) { fail('P7', w + ': ' + r.id + ' is no unit'); continue; }
         if (u.grade !== p.grade || u.subject !== p.subject) fail('P7', w + ': ' + r.id + ' is a unit of another grade or subject');
         if (inPlan.has(r.id)) fail('P7', w + ': ' + r.id + ' is in two plans'); inPlan.set(r.id, p.id);
         if (r.slug !== u.slug || r.title !== u.title || r.weeks !== u.weeks || r.lessons.join('|') !== u.lessons.map((x) => x.title).join('|')) fail('P7', w + ': the row of ' + r.id + ' is not what the unit says');
-        if (r.from !== week + 1 || r.to !== week + r.weeks) fail('P7', w + ': the weeks of ' + r.id + ' do not follow the unit before it');
+        const from = shared ? Math.floor(sessions / spw) + 1 : week + 1;
+        const to = shared ? Math.ceil((sessions + u.days) / spw) : week + r.weeks;
+        if (r.from !== from || r.to !== to) fail('P7', w + ': the weeks of ' + r.id + ' do not follow the unit before it');
+        sessions += u.days;
         week = r.to;
         if (p.status === 'live' && u.status !== 'live') fail('P7', w + ': the plan is live and its unit ' + r.id + ' is not');
       }

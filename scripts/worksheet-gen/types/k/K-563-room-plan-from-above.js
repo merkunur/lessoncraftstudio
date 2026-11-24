@@ -26,6 +26,9 @@ module.exports = {
   exerciseType: 'maps',
   themeAxis: { applicable: false },
   difficulty: D,
+  // what makes one Level Set copy different from another (tools/level-set/build-waves.js): the furniture on the page;
+  // meta.letters is a map, not a list (2026-11-24, the Kindergarten social studies Level Set ydp). Pages unchanged.
+  levelSetWords(m) { return (m.things || []).map(String); },
   i18n: { en: { title: 'The Room from Above', instruction: 'Each thing is drawn from the side. Draw a line to the same thing in the room seen from above.' } },
 
   build({ difficulty }, ctx) {

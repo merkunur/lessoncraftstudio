@@ -3319,17 +3319,17 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:family",
-     "type": "K-375",
-     "title": "Family Words: Trace and Write",
-     "instruction": "Find the person with the same number on the tree, trace their family word and write it again on the line.",
-     "core": "family-k375-2",
-     "hard": "family-hard-k375-13",
-     "easy": "family-easy-k375-8",
+     "point": "K:grid-copy",
+     "type": "K-502",
+     "title": "Draw It Twice as Big",
+     "instruction": "Look at the picture on the small grid. Color the same squares on the big grid, where every square is twice as big.",
+     "core": "grid-copy-k502",
+     "hard": "grid-copy-hard-k502-11",
+     "easy": "grid-copy-easy-k502-6",
      "script": {
-      "say": "\"This page shows a family. Each person on the family tree has a number. Find the person with the same number, trace the family word, and write it again on the line.\"",
-      "first": "Look at the family tree together. The child with the star is the one the words are about. Read the family words on the page aloud. Do number 1 together: find the person with the 1 on the tree, find the word with the 1, trace it, and write it again on line 1.",
-      "stuck": "Have the child put a finger on the number next to the word and find the same number on the tree. Read the word for the child. If a child says their own family does not look like this one, say, \"Every family is different. This page is about this child's family.\""
+      "say": "\"Look at the picture on the small grid. Color the same squares on the big grid, where every square is twice as big.\"",
+      "first": "Find the top-left colored square on the small grid together and count which row and which column it is in. Find the same row and column on the big grid and color that square. Tell the children to do one row at a time.",
+      "stuck": "Have the child put one finger on a colored square and another on the same row and column of the empty grid."
      }
     },
     {
@@ -3501,16 +3501,16 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:transport-flying",
-     "type": "K-206",
-     "title": "Things That Fly",
+     "point": "K:healthy-food",
+     "type": "K-203",
+     "title": "Healthy and Not Healthy Foods",
      "instruction": "Draw a line from each picture to the group it belongs to.",
-     "core": "science-sort-k206",
-     "hard": "science-sort-hard-k206-7",
-     "easy": "science-sort-easy-k206-2",
+     "core": "science-sort-k203",
+     "hard": "science-sort-hard-k203-7",
+     "easy": "science-sort-easy-k203-2",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are labeled boxes. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this go? Does it fly?\" Draw the line from the dot under the picture to its box.",
+      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes, Healthy and Not Healthy. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this good for our body every day, or is it a treat for once in a while?\" Draw the line from the dot under the picture to its box. A treat is fine once in a while; the page only asks which foods to eat every day.",
       "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
      }
     }
@@ -3678,17 +3678,17 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:family",
-     "type": "K-375",
-     "title": "Family Words: Trace and Write",
-     "instruction": "Find the person with the same number on the tree, trace their family word and write it again on the line.",
-     "core": "family-k375-3",
-     "hard": "family-hard-k375-14",
-     "easy": "family-easy-k375-9",
+     "point": "K:letter-formation",
+     "type": "K-238",
+     "title": "Trace the Letter J j",
+     "instruction": "Trace each letter, then write one on your own at the end of the line. Start at the orange dot and follow the arrows.",
+     "core": "letter-tracing-k238-11-j",
+     "hard": "letter-tracing-hard-k238-56-c",
+     "easy": "letter-tracing-easy-k238-30-c",
      "script": {
-      "say": "\"This page shows a family. Each person on the family tree has a number. Find the person with the same number, trace the family word, and write it again on the line.\"",
-      "first": "Look at the family tree together. The child with the star is the one the words are about. Read the family words on the page aloud. Do number 1 together: find the person with the 1 on the tree, find the word with the 1, trace it, and write it again on line 1.",
-      "stuck": "Have the child put a finger on the number next to the word and find the same number on the tree. Read the word for the child. If a child says their own family does not look like this one, say, \"Every family is different. This page is about this child's family.\""
+      "say": "\"Now we practice writing letters. Start at the orange dot and follow the arrows. Trace the letters first. Then write one all by yourself on the empty line.\"",
+      "first": "Write the first letter of the page big on the board, saying where you start and which way you go. Have the children write it in the air with you. Then they trace the letters on the page. Walk around and watch where each child starts.",
+      "stuck": "Put your finger on the orange dot: \"Start here. Which way does the arrow point?\" If the letter the child writes alone is far from the model, have the child trace one more and try again. Do not ask for a perfect letter."
      }
     },
     {
@@ -3740,17 +3740,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:healthy-food",
-     "type": "K-203",
-     "title": "Healthy and Not Healthy Foods",
-     "instruction": "Draw a line from each picture to the group it belongs to.",
-     "core": "science-sort-k203",
-     "hard": "science-sort-hard-k203-7",
-     "easy": "science-sort-easy-k203-2",
+     "point": "K:class-rules",
+     "type": "K-712",
+     "title": "Our Class Rules",
+     "instruction": "Look at the two pictures in each row. Circle the picture that follows a class rule. Cross out the one that does not.",
+     "core": "feelings-k712",
+     "hard": "feelings-hard-k712-11",
+     "easy": "feelings-easy-k712-6",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes, Healthy and Not Healthy. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this good for our body every day, or is it a treat for once in a while?\" Draw the line from the dot under the picture to its box. A treat is fine once in a while; the page only asks which foods to eat every day.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
+      "say": "\"Each row shows the same child two times. In one picture the child follows a class rule. Circle that picture, and put an X on the other one.\"",
+      "first": "Do the first row together. Ask, \"Which picture keeps everyone safe or helps us learn?\" (walking in the hall, raising a hand, listening at story time, cleaning up the blocks). Have the children say the rule in their own words, then circle that picture and cross out the other.",
+      "stuck": "Point to each picture and ask, \"What is the child doing? Is that what we do in our class?\" Say the rule for the child (\"We walk in the hall.\") and let the child find the picture that shows it."
      }
     }
    ]
@@ -3858,17 +3858,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:feelings",
-     "type": "K-334",
-     "title": "Which Face Shows the Feeling?",
-     "instruction": "Read the feeling word and circle the one face in the row that shows it.",
-     "core": "feelings-k334",
-     "hard": "feelings-hard-k334-3",
-     "easy": "feelings-easy-k334-2",
+     "point": "K:take-turns-share",
+     "type": "K-713",
+     "title": "Taking Turns and Sharing",
+     "instruction": "Look at each picture. Circle the friends who take turns, share or help. Cross out the pictures that are not kind.",
+     "core": "feelings-k713",
+     "hard": "feelings-hard-k713-11",
+     "easy": "feelings-easy-k713-6",
      "script": {
-      "say": "\"Each row has a feeling word and three faces. Circle the face that shows that feeling.\"",
-      "first": "Read every feeling word on the page aloud: tired, angry, happy, scared, surprised, sad. Make each face for the class. Do the first row together: read the word, look at the three faces, and circle the one that matches.",
-      "stuck": "Read the word for the child and make the face. Ask the child to point to the face on the page that looks like yours."
+      "say": "\"Look at each picture. If the friends are taking turns, sharing or helping, circle it. If someone is not being kind, put an X on it.\"",
+      "first": "Do one picture together. Ask, \"What is happening here? Is that kind?\" Talk about what the child does, never about a bad child. If a picture shows grabbing, say: \"Grabbing a toy is not kind. What could the child do instead?\"",
+      "stuck": "Ask how the other friend in the picture feels: a happy friend usually means a kind picture, a sad friend means someone was not kind. Some pages have more kind pictures than others, so look at each picture on its own."
      }
     }
    ]
@@ -3904,17 +3904,17 @@
     {
      "key": "reading",
      "minutes": 15,
-     "point": "K:family",
-     "type": "K-370",
-     "title": "Family Members: Who Is Who?",
-     "instruction": "Find each person on the family tree and write their number in the box next to their family word.",
-     "core": "family-k370",
-     "hard": "family-hard-k370-12",
-     "easy": "family-easy-k370-7",
+     "point": "K:shadow-closure",
+     "type": "K-069",
+     "title": "What Is It?",
+     "instruction": "Only part of the picture is showing. Circle the whole picture it belongs to.",
+     "core": "visual-discrimination-animals-k069",
+     "hard": "visual-discrimination-hard-occupations-k069",
+     "easy": "visual-discrimination-easy-breakfast-k069",
      "script": {
-      "say": "\"This page shows a family tree. Each person has a number. Under the tree are family words. Write each person's number in the box next to their family word.\"",
-      "first": "Look at the family tree together. The child with the star is the one the words are about: each word says who a person is to that child. Read the family words aloud. Do the first one together: ask, for example, \"Which person is the mom?\" Find her number on the tree and write it in the box next to the word.",
-      "stuck": "Read the word for the child and ask who that person is to the child with the star. If a child says their own family does not look like this one, say, \"Every family is different. This page is about this child's family.\""
+      "say": "\"In each row only a small part of a picture is showing. Which whole picture does it belong to? Circle it.\"",
+      "first": "Do the first row together: look at the small part and ask, \"What could this be? An ear, a tail, a head?\" Look at the three whole pictures and circle the one the part belongs to.",
+      "stuck": "Have the child find the part on each of the three pictures: \"Does this one have it?\""
      }
     },
     {
@@ -3922,11 +3922,11 @@
      "minutes": 15,
      "point": "K:letter-formation",
      "type": "K-238",
-     "title": "Trace the Letter J j",
+     "title": "Trace the Letter K k",
      "instruction": "Trace each letter, then write one on your own at the end of the line. Start at the orange dot and follow the arrows.",
-     "core": "letter-tracing-k238-11-j",
-     "hard": "letter-tracing-hard-k238-56-c",
-     "easy": "letter-tracing-easy-k238-30-c",
+     "core": "letter-tracing-k238-12-k",
+     "hard": "letter-tracing-hard-k238-57-d",
+     "easy": "letter-tracing-easy-k238-31-d",
      "script": {
       "say": "\"Now we practice writing letters. Start at the orange dot and follow the arrows. Trace the letters first. Then write one all by yourself on the empty line.\"",
       "first": "Write the first letter of the page big on the board, saying where you start and which way you go. Have the children write it in the air with you. Then they trace the letters on the page. Walk around and watch where each child starts.",
@@ -3982,17 +3982,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:living-nonliving",
-     "type": "K-201",
-     "title": "Living and Non-living Things",
-     "instruction": "Draw a line from each picture to the group it belongs to.",
-     "core": "science-sort-k201-2",
-     "hard": "science-sort-hard-k201-8",
-     "easy": "science-sort-easy-k201-3",
+     "point": "K:feelings",
+     "type": "K-334",
+     "title": "Which Face Shows the Feeling?",
+     "instruction": "Read the feeling word and circle the one face in the row that shows it.",
+     "core": "feelings-k334",
+     "hard": "feelings-hard-k334-3",
+     "easy": "feelings-easy-k334-2",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes, Living and Non-living. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Does it grow and need water and air? Then it is living.\" Plants are living too, even though they do not walk or run. Draw the line from the dot under the picture to its box.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
+      "say": "\"Each row has a feeling word and three faces. Circle the face that shows that feeling.\"",
+      "first": "Read every feeling word on the page aloud: tired, angry, happy, scared, surprised, sad. Make each face for the class. Do the first row together: read the word, look at the three faces, and circle the one that matches.",
+      "stuck": "Read the word for the child and make the face. Ask the child to point to the face on the page that looks like yours."
      }
     }
    ]
@@ -4028,17 +4028,17 @@
     {
      "key": "reading",
      "minutes": 15,
-     "point": "K:word-sentence-tracing",
-     "type": "K-239",
-     "title": "Sight Words: Read, Trace, Write",
-     "instruction": "Read the word. Trace it. Then write it yourself on the empty line.",
-     "core": "sight-words-k239-3",
-     "hard": "sight-words-hard-k239-63",
-     "easy": "sight-words-easy-k239-29",
+     "point": "K:family",
+     "type": "K-370",
+     "title": "Family Members: Who Is Who?",
+     "instruction": "Find each person on the family tree and write their number in the box next to their family word.",
+     "core": "family-k370",
+     "hard": "family-hard-k370-12",
+     "easy": "family-easy-k370-7",
      "script": {
-      "say": "\"These are words we see all the time. Read the word, trace it, and then write it yourself on the empty line.\"",
-      "first": "Read the words on the page aloud and have the class read each one after you. Do the first word together: read it, write it on the board, trace over it with your finger, and write it once more next to it. Tell the children to say the word each time they finish writing it.",
-      "stuck": "Read the word for the child and have the child say it back while pointing to it. For the writing, have the child copy one letter at a time and keep the letters close together."
+      "say": "\"This page shows a family tree. Each person has a number. Under the tree are family words. Write each person's number in the box next to their family word.\"",
+      "first": "Look at the family tree together. The child with the star is the one the words are about: each word says who a person is to that child. Read the family words aloud. Do the first one together: ask, for example, \"Which person is the mom?\" Find her number on the tree and write it in the box next to the word.",
+      "stuck": "Read the word for the child and ask who that person is to the child with the star. If a child says their own family does not look like this one, say, \"Every family is different. This page is about this child's family.\""
      }
     },
     {
@@ -4060,16 +4060,17 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:all-about-me-personal",
-     "type": "K-345",
-     "title": "I Can: Check What You Can Do",
-     "instruction": "Read each sentence and check the things you can do. Then write one thing you want to learn.",
-     "core": "all-about-me-k345-2",
-     "hard": "all-about-me-hard-k345-2",
+     "point": "K:word-sentence-tracing",
+     "type": "K-284",
+     "title": "Trace and Write the Words",
+     "instruction": "Say the picture word. Trace the dashed letters, then write the word yourself on the empty lines.",
+     "core": "word-tracing-animals-k284",
+     "hard": "word-tracing-hard-at-the-supermarket-k284-191",
+     "easy": "word-tracing-easy-at-the-supermarket-k284-2",
      "script": {
-      "say": "\"This page is about what YOU can do. Listen to each sentence. If you can do it, put a check in its box. At the bottom, write one thing you want to learn.\"",
-      "first": "Read each sentence aloud while the children point to it: \"I can paint a picture. I can brush my teeth…\" After each one, pause so that every child can check the box or leave it empty. Tell them there is no wrong answer. For the last line, write \"I want to learn to\" on the board and let children say their ideas first.",
-      "stuck": "Read the sentence again and ask the child, \"Can you do that?\" For the last line, a child may draw the thing and write the first letter or one word with your help."
+      "say": "\"Say the name of each picture. Its word is written next to it. Trace the dashed letters, then write the word yourself on the empty lines.\"",
+      "first": "Name the pictures together and read each word aloud. Do the first word together: read it, trace over it with your finger, and write it once more on the board, saying each letter.",
+      "stuck": "Read the word for the child and have the child say it back while pointing to it. For the writing, have the child copy one letter at a time and keep the letters close together."
      }
     },
     {
@@ -4296,15 +4297,17 @@
     {
      "key": "reading",
      "minutes": 15,
-     "point": "K:letter-identification",
-     "type": "K-229",
-     "title": "Find the Letter",
-     "instruction": "Circle every letter that matches the one in the box.",
-     "core": "letter-knowledge-k229-5",
+     "point": "K:family",
+     "type": "K-370",
+     "title": "Family Members: Who Is Who?",
+     "instruction": "Find each person on the family tree and write their number in the box next to their family word.",
+     "core": "family-k370-2",
+     "hard": "family-hard-k370-13",
+     "easy": "family-easy-k370-8",
      "script": {
-      "say": "\"Look at the letter in the box. Your job is to find every letter in the row that is the same, and circle it.\"",
-      "first": "Do the first row together. Point to the letter in the box and say its name. Move your finger along the row and stop at each letter: \"Is this one the same? Look closely.\" Circle the ones that match. Tell the children that some letters look almost alike, so they have to look closely.",
-      "stuck": "Cover the row with a sheet of paper and uncover one letter at a time. Have the child hold a finger under the letter in the box and compare. If the child circles a letter that only looks similar, put the two side by side and ask what is different."
+      "say": "\"This page shows a family tree. Each person has a number. Under the tree are family words. Write each person's number in the box next to their family word.\"",
+      "first": "Look at the family tree together. The child with the star is the one the words are about: each word says who a person is to that child. Read the family words aloud. Do the first one together: ask, for example, \"Which person is the mom?\" Find her number on the tree and write it in the box next to the word.",
+      "stuck": "Read the word for the child and ask who that person is to the child with the star. If a child says their own family does not look like this one, say, \"Every family is different. This page is about this child's family.\""
      }
     },
     {
@@ -4324,17 +4327,16 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:word-sentence-tracing",
-     "type": "K-284",
-     "title": "Trace and Write the Words",
-     "instruction": "Say the picture word. Trace the dashed letters, then write the word yourself on the empty lines.",
-     "core": "word-tracing-animals-k284",
-     "hard": "word-tracing-hard-at-the-supermarket-k284-191",
-     "easy": "word-tracing-easy-at-the-supermarket-k284-2",
+     "point": "K:all-about-me-personal",
+     "type": "K-345",
+     "title": "I Can: Check What You Can Do",
+     "instruction": "Read each sentence and check the things you can do. Then write one thing you want to learn.",
+     "core": "all-about-me-k345-2",
+     "hard": "all-about-me-hard-k345-2",
      "script": {
-      "say": "\"Say the name of each picture. Its word is written next to it. Trace the dashed letters, then write the word yourself on the empty lines.\"",
-      "first": "Name the pictures together and read each word aloud. Do the first word together: read it, trace over it with your finger, and write it once more on the board, saying each letter.",
-      "stuck": "Read the word for the child and have the child say it back while pointing to it. For the writing, have the child copy one letter at a time and keep the letters close together."
+      "say": "\"This page is about what YOU can do. Listen to each sentence. If you can do it, put a check in its box. At the bottom, write one thing you want to learn.\"",
+      "first": "Read each sentence aloud while the children point to it: \"I can paint a picture. I can brush my teeth…\" After each one, pause so that every child can check the box or leave it empty. Tell them there is no wrong answer. For the last line, write \"I want to learn to\" on the board and let children say their ideas first.",
+      "stuck": "Read the sentence again and ask the child, \"Can you do that?\" For the last line, a child may draw the thing and write the first letter or one word with your help."
      }
     },
     {
@@ -4370,17 +4372,17 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:shadow-closure",
-     "type": "K-057",
-     "title": "Match the Shadow",
-     "instruction": "Draw a line from each picture to its shadow.",
-     "core": "visual-matching-vehicles-k057",
-     "hard": "visual-matching-hard-furniture-k057-2",
-     "easy": "visual-matching-easy-winter-k057-2",
+     "point": "K:spot-the-difference",
+     "type": "K-399",
+     "title": "What Is Missing?",
+     "instruction": "Circle the 3 empty places in the bottom picture where something from the top picture is missing, and check a box for each.",
+     "core": "find-the-differences-k399-9",
+     "hard": "find-the-differences-hard-k399-18",
+     "easy": "find-the-differences-easy-k399-3",
      "script": {
-      "say": "\"Each picture on the left has a shadow on the right. A shadow is dark and shows only the shape. Draw a line from each picture to its shadow.\"",
-      "first": "Do the first one together: look at the outline of the first picture and ask, \"Which shadow has the same shape?\" Draw the line from dot to dot. Tell the children to look at the edges: the ears, the wheels, the tail.",
-      "stuck": "Have the child trace the outside of the picture with a finger, then trace the shadows until one has the same shape."
+      "say": "\"The two pictures are the same, but three things are missing from the bottom picture. Find each empty place, circle it, and check a box for each one.\"",
+      "first": "Hold up the page and compare the two pictures with the class, from the top down. Find one thing that is missing together and circle the empty place in the bottom picture. Check the first box.",
+      "stuck": "Have the child pick one thing in the top picture and look for it in the bottom picture: \"Is it there?\" There are three missing things; the three boxes help them count."
      }
     },
     {
@@ -4460,15 +4462,17 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:all-about-me-personal",
-     "type": "K-342",
-     "title": "My Favorite Things: Circle and Write",
-     "instruction": "In each row, circle your favorite picture and copy its word onto the line.",
-     "core": "all-about-me-k342-3",
+     "point": "K:word-sentence-tracing",
+     "type": "K-291",
+     "title": "Trace the Longer Words",
+     "instruction": "These words are long. Trace each one, then write it yourself.",
+     "core": "word-tracing-toys-k291",
+     "hard": "word-tracing-hard-things-that-fly-k291-165",
+     "easy": "word-tracing-easy-around-the-house-k291-15",
      "script": {
-      "say": "\"In each row there are pictures of different things. Circle the one you like best. Then copy its word on the line.\"",
-      "first": "Do the first row together: name the pictures, ask a few children which one they like best, and show how to circle one. Then show how to copy its word onto the line, letter by letter. Everyone circles their own favorite; there is no right answer.",
-      "stuck": "Have the child put a finger under the word and copy one letter at a time, moving the finger along. If the child cannot choose, say, \"Pick the one you would like to have today.\""
+      "say": "\"These words are long. Read each word with me, trace it, and then write it yourself on the empty line.\"",
+      "first": "Name the pictures together and read each long word aloud, clapping its parts: \"skate-board.\" Do the first word together: trace it with your finger and write it on the board, one part at a time.",
+      "stuck": "Read the word for the child and have the child say it back while pointing to it. For the writing, have the child copy one letter at a time and keep the letters close together."
      }
     },
     {
@@ -4506,31 +4510,31 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:spot-the-difference",
-     "type": "K-399",
-     "title": "What Is Missing?",
-     "instruction": "Circle the 3 empty places in the bottom picture where something from the top picture is missing, and check a box for each.",
-     "core": "find-the-differences-k399-9",
-     "hard": "find-the-differences-hard-k399-18",
-     "easy": "find-the-differences-easy-k399-3",
+     "point": "K:patterns",
+     "type": "K-053",
+     "title": "Growing Patterns",
+     "instruction": "The pattern grows. Circle the group that comes next.",
+     "core": "patterns-fruits-k053",
      "script": {
-      "say": "\"The two pictures are the same, but three things are missing from the bottom picture. Find each empty place, circle it, and check a box for each one.\"",
-      "first": "Hold up the page and compare the two pictures with the class, from the top down. Find one thing that is missing together and circle the empty place in the bottom picture. Check the first box.",
-      "stuck": "Have the child pick one thing in the top picture and look for it in the bottom picture: \"Is it there?\" There are three missing things; the three boxes help them count."
+      "say": "\"These patterns grow: each box has one more than the box before. Count the boxes. Circle the group that comes next.\"",
+      "first": "Do the first row together: count the pictures in each box aloud, \"one, two, three.\" Ask, \"So how many come next?\" Count the groups at the end of the row and circle the one with four.",
+      "stuck": "Have the child touch each picture and say its name aloud from the start of the row, then say the next word before looking at the choices. If the child cannot name a picture, give it a simple name."
      }
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:seasons",
-     "type": "K-338",
-     "title": "Which Season Is It?",
-     "instruction": "Look at the three pictures on each card and circle the season sign they belong to.",
-     "core": "seasons-k338",
+     "point": "K:long-ago-today",
+     "type": "K-716",
+     "title": "Long Ago and Today",
+     "instruction": "Draw a line from each thing from long ago to the thing we use today that does the same job.",
+     "core": "family-k716",
+     "hard": "family-hard-k716-7",
+     "easy": "family-easy-k716-2",
      "script": {
-      "say": "\"Each card has three pictures that belong to one season. Under them are four signs: a snowflake for winter, a flower for spring, a sun for summer, and a leaf for fall. Circle the sign of the season.\"",
-      "first": "Point to the four signs and name the seasons together. Do the first card together: name the three pictures and ask, \"When do we see these?\" Circle the sign.",
-      "stuck": "Ask the child about one picture at a time: \"Is it hot or cold then? Are there flowers or falling leaves?\""
+      "say": "\"The pictures on the left are things from long ago. The pictures on the right are things we use today. Draw a line from each long-ago thing to the thing that does the same job today.\"",
+      "first": "Name the long-ago things on your page together. Do the top one together: \"What job does this do? Which thing on the right does that job today?\"",
+      "stuck": "Ask, \"What job does this do?\" (washing clothes, giving light at night, getting from place to place, talking to someone far away). Then have the child find the picture on the right that does the same job."
      }
     }
    ]
@@ -4594,17 +4598,17 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:letter-formation",
-     "type": "K-238",
-     "title": "Trace the Letter K k",
-     "instruction": "Trace each letter, then write one on your own at the end of the line. Start at the orange dot and follow the arrows.",
-     "core": "letter-tracing-k238-12-k",
-     "hard": "letter-tracing-hard-k238-57-d",
-     "easy": "letter-tracing-easy-k238-31-d",
+     "point": "K:family",
+     "type": "K-375",
+     "title": "Family Words: Trace and Write",
+     "instruction": "Find the person with the same number on the tree, trace their family word and write it again on the line.",
+     "core": "family-k375-2",
+     "hard": "family-hard-k375-13",
+     "easy": "family-easy-k375-8",
      "script": {
-      "say": "\"Now we practice writing letters. Start at the orange dot and follow the arrows. Trace the letters first. Then write one all by yourself on the empty line.\"",
-      "first": "Write the first letter of the page big on the board, saying where you start and which way you go. Have the children write it in the air with you. Then they trace the letters on the page. Walk around and watch where each child starts.",
-      "stuck": "Put your finger on the orange dot: \"Start here. Which way does the arrow point?\" If the letter the child writes alone is far from the model, have the child trace one more and try again. Do not ask for a perfect letter."
+      "say": "\"This page shows a family. Each person on the family tree has a number. Find the person with the same number, trace the family word, and write it again on the line.\"",
+      "first": "Look at the family tree together. The child with the star is the one the words are about. Read the family words on the page aloud. Do number 1 together: find the person with the 1 on the tree, find the word with the 1, trace it, and write it again on line 1.",
+      "stuck": "Have the child put a finger on the number next to the word and find the same number on the tree. Read the word for the child. If a child says their own family does not look like this one, say, \"Every family is different. This page is about this child's family.\""
      }
     },
     {
@@ -4642,31 +4646,29 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:patterns",
-     "type": "K-053",
-     "title": "Growing Patterns",
-     "instruction": "The pattern grows. Circle the group that comes next.",
-     "core": "patterns-fruits-k053",
+     "point": "K:same-different-visual",
+     "type": "K-058",
+     "title": "Find the Pairs",
+     "instruction": "Every picture has a twin. Draw a line to join the two pictures in each pair.",
+     "core": "visual-matching-shapes-k058",
      "script": {
-      "say": "\"These patterns grow: each box has one more than the box before. Count the boxes. Circle the group that comes next.\"",
-      "first": "Do the first row together: count the pictures in each box aloud, \"one, two, three.\" Ask, \"So how many come next?\" Count the groups at the end of the row and circle the one with four.",
-      "stuck": "Have the child touch each picture and say its name aloud from the start of the row, then say the next word before looking at the choices. If the child cannot name a picture, give it a simple name."
+      "say": "\"Every picture on this page has a twin, a picture that looks just the same. Draw a line to join the two pictures of each pair.\"",
+      "first": "Point to the first picture and ask, \"Where is its twin?\" Find it together and draw the line. Tell the children to cross off nothing: each picture is in one pair only.",
+      "stuck": "Have the child name one picture and look for the same name somewhere else on the page."
      }
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:transport-flying",
-     "type": "K-210",
-     "title": "Land, Water, and Air Transportation",
-     "instruction": "Draw a line from each vehicle to where it travels.",
-     "core": "science-sort-k210",
-     "hard": "science-sort-hard-k210-7",
-     "easy": "science-sort-easy-k210-2",
+     "point": "K:seasons",
+     "type": "K-338",
+     "title": "Which Season Is It?",
+     "instruction": "Look at the three pictures on each card and circle the season sign they belong to.",
+     "core": "seasons-k338",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are labeled boxes. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this go? Does it fly?\" Draw the line from the dot under the picture to its box.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
+      "say": "\"Each card has three pictures that belong to one season. Under them are four signs: a snowflake for winter, a flower for spring, a sun for summer, and a leaf for fall. Circle the sign of the season.\"",
+      "first": "Point to the four signs and name the seasons together. Do the first card together: name the three pictures and ask, \"When do we see these?\" Circle the sign.",
+      "stuck": "Ask the child about one picture at a time: \"Is it hot or cold then? Are there flowers or falling leaves?\""
      }
     }
    ]
@@ -4686,17 +4688,17 @@
     {
      "key": "morning",
      "minutes": 10,
-     "point": "K:same-different-visual",
-     "type": "K-044",
-     "title": "Find the Different Size",
-     "instruction": "Look at each row. Circle the one that is a different size.",
-     "core": "visual-discrimination-shapes-k044",
-     "hard": "visual-discrimination-hard-sea-life-bw-2-k044-2",
-     "easy": "visual-discrimination-easy-apparel-bw-k044-2",
+     "point": "K:pre-writing-strokes",
+     "type": "K-421",
+     "title": "Round and Round",
+     "instruction": "Start at each dot and trace round and round, like the letter o.",
+     "core": "picture-tracing-k421",
+     "hard": "picture-tracing-hard-k421-12",
+     "easy": "picture-tracing-easy-k421-2",
      "script": {
-      "say": "\"In each row, the pictures are the same, but one is a different size. Find it and circle it.\"",
-      "first": "Do the first row together. Point to the pictures one by one: \"Same size… same size… this one is smaller!\" Circle it together.",
-      "stuck": "Have the child point to two pictures at a time and ask, \"Are they the same size?\""
+      "say": "\"Start at each dot and trace round and round, like the letter o.\"",
+      "first": "Draw a big circle on the board, starting at the top and going to the left, like the letter o. Have the children draw circles in the air. Then they trace each round picture on the page from its dot.",
+      "stuck": "Check the grip: the pencil is pinched between the thumb and the pointer finger and rests on the middle finger. If a child starts at the wrong end, put your finger on the orange dot and say, \"Start here.\" A wobbly line is fine; do not have the child erase."
      }
     },
     {
@@ -4731,17 +4733,17 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:family",
-     "type": "K-375",
-     "title": "Family Words: Trace and Write",
-     "instruction": "Find the person with the same number on the tree, trace their family word and write it again on the line.",
-     "core": "family-k375-4",
-     "hard": "family-hard-k375-15",
-     "easy": "family-easy-k375-10",
+     "point": "K:letter-formation",
+     "type": "K-238",
+     "title": "Trace the Letter L l",
+     "instruction": "Trace each letter, then write one on your own at the end of the line. Start at the orange dot and follow the arrows.",
+     "core": "letter-tracing-k238-13-l",
+     "hard": "letter-tracing-hard-k238-58-e",
+     "easy": "letter-tracing-easy-k238-32-e",
      "script": {
-      "say": "\"This page shows a family. Each person on the family tree has a number. Find the person with the same number, trace the family word, and write it again on the line.\"",
-      "first": "Look at the family tree together. The child with the star is the one the words are about. Read the family words on the page aloud. Do number 1 together: find the person with the 1 on the tree, find the word with the 1, trace it, and write it again on line 1.",
-      "stuck": "Have the child put a finger on the number next to the word and find the same number on the tree. Read the word for the child. If a child says their own family does not look like this one, say, \"Every family is different. This page is about this child's family.\""
+      "say": "\"Now we practice writing letters. Start at the orange dot and follow the arrows. Trace the letters first. Then write one all by yourself on the empty line.\"",
+      "first": "Write the first letter of the page big on the board, saying where you start and which way you go. Have the children write it in the air with you. Then they trace the letters on the page. Walk around and watch where each child starts.",
+      "stuck": "Put your finger on the orange dot: \"Start here. Which way does the arrow point?\" If the letter the child writes alone is far from the model, have the child trace one more and try again. Do not ask for a perfect letter."
      }
     },
     {
@@ -4795,17 +4797,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:feelings",
-     "type": "K-331",
-     "title": "How Do You Feel? Circle the Face",
-     "instruction": "Look at the picture, think how you would feel, and circle the face that matches.",
-     "core": "feelings-k331-3",
-     "hard": "feelings-hard-k331-15",
-     "easy": "feelings-easy-k331-9",
+     "point": "K:community-helpers",
+     "type": "K-213",
+     "title": "Community Helpers and Their Tools",
+     "instruction": "Draw a line from each helper to the tool they use.",
+     "core": "science-match-k213",
+     "hard": "science-match-hard-k213-7",
+     "easy": "science-match-easy-k213-2",
      "script": {
-      "say": "\"Look at each picture. Think about how it would make you feel. Then circle the face that shows that feeling.\"",
-      "first": "Look at the first picture together and ask what it shows. Ask, \"How does that make you feel?\" Let two or three children answer; they may not all feel the same, and that is fine. Each child circles the face that matches their own answer.",
-      "stuck": "Ask the child what the picture shows and when they have seen one. Then point to each face and name the feeling it shows. There is no wrong answer on this page; any face the child can explain is right."
+      "say": "\"Each helper on the left uses one of the tools on the right. Draw a line from each helper to the tool they use.\"",
+      "first": "Name each helper and each tool on your page together. Do the top helper together: \"What does this helper do at work? Which tool helps with that job?\" If there is one more tool than helpers, one tool belongs to no one on the page; it gets no line.",
+      "stuck": "Ask, \"What does this helper do at work? What do they hold to do it?\" Let the child act it out, then find that tool."
      }
     }
    ]
@@ -4915,33 +4917,33 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:spot-the-difference",
-     "type": "K-400",
-     "title": "Picture Pairs: Find the Difference",
-     "instruction": "Each row shows the same close-up twice; circle the one place that is different in the right picture and check the box of that row.",
-     "core": "find-the-differences-k400-5",
-     "hard": "find-the-differences-hard-k400-8",
-     "easy": "find-the-differences-easy-k400-3",
+     "point": "K:shadow-closure",
+     "type": "K-057",
+     "title": "Match the Shadow",
+     "instruction": "Draw a line from each picture to its shadow.",
+     "core": "visual-matching-vehicles-k057",
+     "hard": "visual-matching-hard-furniture-k057-2",
+     "easy": "visual-matching-easy-winter-k057-2",
      "script": {
-      "say": "\"Each row shows the same picture two times, but one place in the right picture is different. Circle it, and check the box of that row.\"",
-      "first": "Do the first row together: compare the left and the right picture, part by part, and find the one difference. Circle it in the right picture and check the box of the row.",
-      "stuck": "Have the child cover half of each picture with a hand and compare one half at a time."
+      "say": "\"Each picture on the left has a shadow on the right. A shadow is dark and shows only the shape. Draw a line from each picture to its shadow.\"",
+      "first": "Do the first one together: look at the outline of the first picture and ask, \"Which shadow has the same shape?\" Draw the line from dot to dot. Tell the children to look at the edges: the ears, the wheels, the tail.",
+      "stuck": "Have the child trace the outside of the picture with a finger, then trace the shadows until one has the same shape."
      }
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:healthy-food",
-     "type": "K-203",
-     "title": "Healthy and Not Healthy Foods",
+     "point": "K:wants-needs",
+     "type": "K-212",
+     "title": "Wants and Needs",
      "instruction": "Draw a line from each picture to the group it belongs to.",
-     "core": "science-sort-k203-2",
-     "hard": "science-sort-hard-k203-8",
-     "easy": "science-sort-easy-k203-3",
+     "core": "science-sort-k212",
+     "hard": "science-sort-hard-k212-7",
+     "easy": "science-sort-easy-k212-2",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes, Healthy and Not Healthy. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this good for our body every day, or is it a treat for once in a while?\" Draw the line from the dot under the picture to its box. A treat is fine once in a while; the page only asks which foods to eat every day.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
+      "say": "\"Draw a line from each picture to Needs or to Wants. Needs are things we must have to live. Wants are things that are nice to have.\"",
+      "first": "Point to the words Needs and Wants and read them aloud. Do the first picture together: \"Can we live without this? Then is it a need or a want?\"",
+      "stuck": "Ask, \"Could you live without it?\" Food, water, clothes and a home are needs; toys and treats are wants."
      }
     }
    ]
@@ -4961,17 +4963,15 @@
     {
      "key": "morning",
      "minutes": 10,
-     "point": "K:pre-writing-strokes",
-     "type": "K-421",
-     "title": "Round and Round",
-     "instruction": "Start at each dot and trace round and round, like the letter o.",
-     "core": "picture-tracing-k421",
-     "hard": "picture-tracing-hard-k421-12",
-     "easy": "picture-tracing-easy-k421-2",
+     "point": "K:position-words",
+     "type": "K-067",
+     "title": "Inside and Outside",
+     "instruction": "Circle every picture INSIDE the big shape.",
+     "core": "position-words-vehicles-k067",
      "script": {
-      "say": "\"Start at each dot and trace round and round, like the letter o.\"",
-      "first": "Draw a big circle on the board, starting at the top and going to the left, like the letter o. Have the children draw circles in the air. Then they trace each round picture on the page from its dot.",
-      "stuck": "Check the grip: the pencil is pinched between the thumb and the pointer finger and rests on the middle finger. If a child starts at the wrong end, put your finger on the orange dot and say, \"Start here.\" A wobbly line is fine; do not have the child erase."
+      "say": "\"There is a big shape on the page. Circle every picture that is INSIDE the big shape.\"",
+      "first": "Trace the edge of the big shape with your finger. Ask, \"Which pictures are inside the line? Which are outside?\" Find one inside together and circle it.",
+      "stuck": "Have the child trace the edge of the shape with a finger: a picture inside the line gets a circle."
      }
     },
     {
@@ -5007,17 +5007,15 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:word-sentence-tracing",
-     "type": "K-291",
-     "title": "Trace the Longer Words",
-     "instruction": "These words are long. Trace each one, then write it yourself.",
-     "core": "word-tracing-toys-k291",
-     "hard": "word-tracing-hard-things-that-fly-k291-165",
-     "easy": "word-tracing-easy-around-the-house-k291-15",
+     "point": "K:all-about-me-personal",
+     "type": "K-342",
+     "title": "My Favorite Things: Circle and Write",
+     "instruction": "In each row, circle your favorite picture and copy its word onto the line.",
+     "core": "all-about-me-k342-3",
      "script": {
-      "say": "\"These words are long. Read each word with me, trace it, and then write it yourself on the empty line.\"",
-      "first": "Name the pictures together and read each long word aloud, clapping its parts: \"skate-board.\" Do the first word together: trace it with your finger and write it on the board, one part at a time.",
-      "stuck": "Read the word for the child and have the child say it back while pointing to it. For the writing, have the child copy one letter at a time and keep the letters close together."
+      "say": "\"In each row there are pictures of different things. Circle the one you like best. Then copy its word on the line.\"",
+      "first": "Do the first row together: name the pictures, ask a few children which one they like best, and show how to circle one. Then show how to copy its word onto the line, letter by letter. Everyone circles their own favorite; there is no right answer.",
+      "stuck": "Have the child put a finger under the word and copy one letter at a time, moving the finger along. If the child cannot choose, say, \"Pick the one you would like to have today.\""
      }
     },
     {
@@ -5053,31 +5051,33 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:same-different-visual",
-     "type": "K-058",
-     "title": "Find the Pairs",
-     "instruction": "Every picture has a twin. Draw a line to join the two pictures in each pair.",
-     "core": "visual-matching-shapes-k058",
+     "point": "K:spot-the-difference",
+     "type": "K-400",
+     "title": "Picture Pairs: Find the Difference",
+     "instruction": "Each row shows the same close-up twice; circle the one place that is different in the right picture and check the box of that row.",
+     "core": "find-the-differences-k400-5",
+     "hard": "find-the-differences-hard-k400-8",
+     "easy": "find-the-differences-easy-k400-3",
      "script": {
-      "say": "\"Every picture on this page has a twin, a picture that looks just the same. Draw a line to join the two pictures of each pair.\"",
-      "first": "Point to the first picture and ask, \"Where is its twin?\" Find it together and draw the line. Tell the children to cross off nothing: each picture is in one pair only.",
-      "stuck": "Have the child name one picture and look for the same name somewhere else on the page."
+      "say": "\"Each row shows the same picture two times, but one place in the right picture is different. Circle it, and check the box of that row.\"",
+      "first": "Do the first row together: compare the left and the right picture, part by part, and find the one difference. Circle it in the right picture and check the box of the row.",
+      "stuck": "Have the child cover half of each picture with a hand and compare one half at a time."
      }
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:seasons",
-     "type": "K-207",
-     "title": "Summer and Winter Clothes",
-     "instruction": "Draw a line from each item of clothing to the right group.",
-     "core": "science-sort-k207-2",
-     "hard": "science-sort-hard-k207-8",
-     "easy": "science-sort-easy-k207-3",
+     "point": "K:choosing-one-thing",
+     "type": "K-717",
+     "title": "Choosing One Thing",
+     "instruction": "You can have only one thing in each row. Circle the one you choose. Put an X on the one you do not pick. There is no wrong answer.",
+     "core": "money-k717",
+     "hard": "money-hard-k717-10",
+     "easy": "money-easy-k717-5",
      "script": {
-      "say": "\"At the top are clothes. At the bottom are two boxes: Summer and Winter. Draw a line from each piece of clothing to the season we wear it in.\"",
-      "first": "Read the two boxes aloud and name every piece of clothing together. Do the first one together: ask, \"Do we wear this when it is hot or when it is cold?\" Draw the line to its box.",
-      "stuck": "Ask the child, \"Would you wear this to the beach or in the snow?\" Where you live, winter may not mean snow; let the child explain."
+      "say": "\"In each row you can have only one thing. Circle the one you choose and put an X on the one you do not pick. There is no wrong answer.\"",
+      "first": "The small \"1\" at the start of a row is not a choice. Read the first row together and say what the 1 means: a hand with a coin, \"You have one coin. You can buy one of these, not both.\"; a hand with a book, \"You can take home one book.\"; just the 1, \"Recess has time for one thing.\" Ask, \"Which do you choose?\" Two children who choose differently are both right.",
+      "stuck": "Ask, \"Which one would you like more?\" Then help the child put an X on the other one: \"That is the one you give up.\" Check only that every row has one circle and one X."
      }
     }
    ]
@@ -5097,31 +5097,31 @@
     {
      "key": "morning",
      "minutes": 10,
-     "point": "K:position-words",
-     "type": "K-067",
-     "title": "Inside and Outside",
-     "instruction": "Circle every picture INSIDE the big shape.",
-     "core": "position-words-vehicles-k067",
+     "point": "K:count-forward-missing",
+     "type": "K-019",
+     "title": "Missing Numbers to 10",
+     "instruction": "Count along the strip. Write each missing number.",
+     "core": "number-charts-sea-life-bw-2-k019-2",
+     "hard": "number-charts-hard-insects-and-bugs-k019-3",
+     "easy": "number-charts-easy-things-that-fly-k019-3",
      "script": {
-      "say": "\"There is a big shape on the page. Circle every picture that is INSIDE the big shape.\"",
-      "first": "Trace the edge of the big shape with your finger. Ask, \"Which pictures are inside the line? Which are outside?\" Find one inside together and circle it.",
-      "stuck": "Have the child trace the edge of the shape with a finger: a picture inside the line gets a circle."
+      "say": "\"Some numbers on these number strips are missing. Count along the strip and write each number that is missing.\"",
+      "first": "Write the numbers 1 to 10 on the board. Count the first strip aloud together, pointing to each box, and clap at the empty box: \"one, two, (clap), four.\" Ask, \"What number goes here?\" Write it in. The children do the other strips the same way.",
+      "stuck": "Have the child read the first number of the strip and count on aloud from it, touching each box; the number they say at the empty box is the one to write. A child who does not know how to write a number may copy it from the board."
      }
     },
     {
      "key": "reading",
      "minutes": 15,
-     "point": "K:human-body",
-     "type": "K-354",
-     "title": "Parts of the Body",
-     "instruction": "Copy each word from the bank onto the line that points to that part of the body.",
-     "core": "human-body-k354",
-     "hard": "human-body-hard-k354-12",
-     "easy": "human-body-easy-k354-7",
+     "point": "K:letter-identification",
+     "type": "K-229",
+     "title": "Find the Letter",
+     "instruction": "Circle every letter that matches the one in the box.",
+     "core": "letter-knowledge-k229-5",
      "script": {
-      "say": "\"Look at the picture. Each line points to a part of the body. The words are in the box at the top. Copy the right word onto each line.\"",
-      "first": "Read the words in the box aloud and have the children touch that part of their own body for each one. Do the first line together: follow it with your finger to the part it points to, say its name, find the word in the box, and copy it onto the line letter by letter.",
-      "stuck": "Have the child touch the part on their own body and say its name. Then find the word in the box together; the first letter helps: \"Eye starts with e. Where is the word that starts with e?\" Eye and ear both start with e: eye ends with e, ear ends with r."
+      "say": "\"Look at the letter in the box. Your job is to find every letter in the row that is the same, and circle it.\"",
+      "first": "Do the first row together. Point to the letter in the box and say its name. Move your finger along the row and stop at each letter: \"Is this one the same? Look closely.\" Circle the ones that match. Tell the children that some letters look almost alike, so they have to look closely.",
+      "stuck": "Cover the row with a sheet of paper and uncover one letter at a time. Have the child hold a finger under the letter in the box and compare. If the child circles a letter that only looks similar, put the two side by side and ask what is different."
      }
     },
     {
@@ -5143,16 +5143,17 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:all-about-me-personal",
-     "type": "K-345",
-     "title": "I Can: Check What You Can Do",
-     "instruction": "Read each sentence and check the things you can do. Then write one thing you want to learn.",
-     "core": "all-about-me-k345-3",
-     "hard": "all-about-me-hard-k345-3",
+     "point": "K:word-sentence-tracing",
+     "type": "K-284",
+     "title": "Trace and Write the Words",
+     "instruction": "Say the picture word. Trace the dashed letters, then write the word yourself on the empty lines.",
+     "core": "word-tracing-at-the-supermarket-k284-97",
+     "hard": "word-tracing-hard-things-that-fly-k284-196",
+     "easy": "word-tracing-easy-things-that-fly-k284-7",
      "script": {
-      "say": "\"This page is about what YOU can do. Listen to each sentence. If you can do it, put a check in its box. At the bottom, write one thing you want to learn.\"",
-      "first": "Read each sentence aloud while the children point to it: \"I can paint a picture. I can brush my teeth…\" After each one, pause so that every child can check the box or leave it empty. Tell them there is no wrong answer. For the last line, write \"I want to learn to\" on the board and let children say their ideas first.",
-      "stuck": "Read the sentence again and ask the child, \"Can you do that?\" For the last line, a child may draw the thing and write the first letter or one word with your help."
+      "say": "\"Say the name of each picture. Its word is written next to it. Trace the dashed letters, then write the word yourself on the empty lines.\"",
+      "first": "Name the pictures together and read each word aloud. Do the first word together: read it, trace over it with your finger, and write it once more on the board, saying each letter.",
+      "stuck": "Read the word for the child and have the child say it back while pointing to it. For the writing, have the child copy one letter at a time and keep the letters close together."
      }
     },
     {
@@ -5190,30 +5191,30 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:patterns",
-     "type": "K-048",
-     "title": "AABB Patterns",
-     "instruction": "Look at the pattern. Circle what comes next.",
-     "core": "patterns-vehicles-k048",
+     "point": "K:same-different-visual",
+     "type": "K-080",
+     "title": "Which Shape Is Different?",
+     "instruction": "Look at each row. Circle the shape that does not belong.",
+     "core": "visual-discrimination-k080",
      "script": {
-      "say": "\"A pattern is something that repeats, over and over. Say the pattern out loud. Then circle what comes next.\"",
-      "first": "Do the first row together. Point to each picture and have the class say its name like a chant. On this page each picture comes two times, and then the next picture comes two times. Stop at the box with the question mark and ask, \"What comes next?\" Circle it among the choices.",
-      "stuck": "Have the child touch each picture and say its name aloud from the start of the row, then say the next word before looking at the choices. If the child cannot name a picture, give it a simple name."
+      "say": "\"In each row the shapes are the same, but one shape does not belong. Find it and circle it.\"",
+      "first": "Do the first row together. Point to the shapes one by one: \"same… same… this one is different!\" Ask a child to say what is different about it. Circle it.",
+      "stuck": "Have the child name each shape in the row; the one with a different name gets the circle."
      }
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:living-nonliving",
-     "type": "K-201",
-     "title": "Living and Non-living Things",
+     "point": "K:healthy-food",
+     "type": "K-203",
+     "title": "Healthy and Not Healthy Foods",
      "instruction": "Draw a line from each picture to the group it belongs to.",
-     "core": "science-sort-k201-3",
-     "hard": "science-sort-hard-k201-9",
-     "easy": "science-sort-easy-k201-4",
+     "core": "science-sort-k203-2",
+     "hard": "science-sort-hard-k203-8",
+     "easy": "science-sort-easy-k203-3",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes, Living and Non-living. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Does it grow and need water and air? Then it is living.\" Plants are living too, even though they do not walk or run. Draw the line from the dot under the picture to its box.",
+      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes, Healthy and Not Healthy. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this good for our body every day, or is it a treat for once in a while?\" Draw the line from the dot under the picture to its box. A treat is fine once in a while; the page only asks which foods to eat every day.",
       "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
      }
     }
@@ -5234,33 +5235,33 @@
     {
      "key": "morning",
      "minutes": 10,
-     "point": "K:count-forward-missing",
-     "type": "K-019",
-     "title": "Missing Numbers to 10",
-     "instruction": "Count along the strip. Write each missing number.",
-     "core": "number-charts-sea-life-bw-2-k019-2",
-     "hard": "number-charts-hard-insects-and-bugs-k019-3",
-     "easy": "number-charts-easy-things-that-fly-k019-3",
+     "point": "K:pre-writing-strokes",
+     "type": "K-422",
+     "title": "Down, Across, Slanted",
+     "instruction": "Look at the arrow above each column. Trace one column at a time: down, then across, then slanted.",
+     "core": "picture-tracing-k422",
+     "hard": "picture-tracing-hard-k422-12",
+     "easy": "picture-tracing-easy-k422-2",
      "script": {
-      "say": "\"Some numbers on these number strips are missing. Count along the strip and write each number that is missing.\"",
-      "first": "Write the numbers 1 to 10 on the board. Count the first strip aloud together, pointing to each box, and clap at the empty box: \"one, two, (clap), four.\" Ask, \"What number goes here?\" Write it in. The children do the other strips the same way.",
-      "stuck": "Have the child read the first number of the strip and count on aloud from it, touching each box; the number they say at the empty box is the one to write. A child who does not know how to write a number may copy it from the board."
+      "say": "\"Each column has an arrow at the top. Trace the lines in that column the way the arrow points: down, then across, then slanted.\"",
+      "first": "Point to the three arrows and show each way with your hand: down, across, slanted. Trace the first line of the first column in the air with the class, from the top down. Tell the children to do one column at a time.",
+      "stuck": "Check the grip: the pencil is pinched between the thumb and the pointer finger and rests on the middle finger. If a child starts at the wrong end, put your finger on the orange dot and say, \"Start here.\" A wobbly line is fine; do not have the child erase."
      }
     },
     {
      "key": "reading",
      "minutes": 15,
-     "point": "K:family",
-     "type": "K-370",
-     "title": "Family Members: Who Is Who?",
-     "instruction": "Find each person on the family tree and write their number in the box next to their family word.",
-     "core": "family-k370-2",
-     "hard": "family-hard-k370-13",
-     "easy": "family-easy-k370-8",
+     "point": "K:human-body",
+     "type": "K-354",
+     "title": "Parts of the Body",
+     "instruction": "Copy each word from the bank onto the line that points to that part of the body.",
+     "core": "human-body-k354",
+     "hard": "human-body-hard-k354-12",
+     "easy": "human-body-easy-k354-7",
      "script": {
-      "say": "\"This page shows a family tree. Each person has a number. Under the tree are family words. Write each person's number in the box next to their family word.\"",
-      "first": "Look at the family tree together. The child with the star is the one the words are about: each word says who a person is to that child. Read the family words aloud. Do the first one together: ask, for example, \"Which person is the mom?\" Find her number on the tree and write it in the box next to the word.",
-      "stuck": "Read the word for the child and ask who that person is to the child with the star. If a child says their own family does not look like this one, say, \"Every family is different. This page is about this child's family.\""
+      "say": "\"Look at the picture. Each line points to a part of the body. The words are in the box at the top. Copy the right word onto each line.\"",
+      "first": "Read the words in the box aloud and have the children touch that part of their own body for each one. Do the first line together: follow it with your finger to the part it points to, say its name, find the word in the box, and copy it onto the line letter by letter.",
+      "stuck": "Have the child touch the part on their own body and say its name. Then find the word in the box together; the first letter helps: \"Eye starts with e. Where is the word that starts with e?\" Eye and ear both start with e: eye ends with e, ear ends with r."
      }
     },
     {
@@ -5280,17 +5281,17 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:letter-formation",
-     "type": "K-238",
-     "title": "Trace the Letter L l",
-     "instruction": "Trace each letter, then write one on your own at the end of the line. Start at the orange dot and follow the arrows.",
-     "core": "letter-tracing-k238-13-l",
-     "hard": "letter-tracing-hard-k238-58-e",
-     "easy": "letter-tracing-easy-k238-32-e",
+     "point": "K:family",
+     "type": "K-375",
+     "title": "Family Words: Trace and Write",
+     "instruction": "Find the person with the same number on the tree, trace their family word and write it again on the line.",
+     "core": "family-k375-3",
+     "hard": "family-hard-k375-14",
+     "easy": "family-easy-k375-9",
      "script": {
-      "say": "\"Now we practice writing letters. Start at the orange dot and follow the arrows. Trace the letters first. Then write one all by yourself on the empty line.\"",
-      "first": "Write the first letter of the page big on the board, saying where you start and which way you go. Have the children write it in the air with you. Then they trace the letters on the page. Walk around and watch where each child starts.",
-      "stuck": "Put your finger on the orange dot: \"Start here. Which way does the arrow point?\" If the letter the child writes alone is far from the model, have the child trace one more and try again. Do not ask for a perfect letter."
+      "say": "\"This page shows a family. Each person on the family tree has a number. Find the person with the same number, trace the family word, and write it again on the line.\"",
+      "first": "Look at the family tree together. The child with the star is the one the words are about. Read the family words on the page aloud. Do number 1 together: find the person with the 1 on the tree, find the word with the 1, trace it, and write it again on line 1.",
+      "stuck": "Have the child put a finger on the number next to the word and find the same number on the tree. Read the word for the child. If a child says their own family does not look like this one, say, \"Every family is different. This page is about this child's family.\""
      }
     },
     {
@@ -5326,33 +5327,31 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:shadow-closure",
-     "type": "K-069",
-     "title": "What Is It?",
-     "instruction": "Only part of the picture is showing. Circle the whole picture it belongs to.",
-     "core": "visual-discrimination-animals-k069",
-     "hard": "visual-discrimination-hard-occupations-k069",
-     "easy": "visual-discrimination-easy-breakfast-k069",
+     "point": "K:patterns",
+     "type": "K-048",
+     "title": "AABB Patterns",
+     "instruction": "Look at the pattern. Circle what comes next.",
+     "core": "patterns-vehicles-k048",
      "script": {
-      "say": "\"In each row only a small part of a picture is showing. Which whole picture does it belong to? Circle it.\"",
-      "first": "Do the first row together: look at the small part and ask, \"What could this be? An ear, a tail, a head?\" Look at the three whole pictures and circle the one the part belongs to.",
-      "stuck": "Have the child find the part on each of the three pictures: \"Does this one have it?\""
+      "say": "\"A pattern is something that repeats, over and over. Say the pattern out loud. Then circle what comes next.\"",
+      "first": "Do the first row together. Point to each picture and have the class say its name like a chant. On this page each picture comes two times, and then the next picture comes two times. Stop at the box with the question mark and ask, \"What comes next?\" Circle it among the choices.",
+      "stuck": "Have the child touch each picture and say its name aloud from the start of the row, then say the next word before looking at the choices. If the child cannot name a picture, give it a simple name."
      }
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:animal-groups-homes",
-     "type": "K-209",
-     "title": "Farm and Wild Animals",
-     "instruction": "Draw a line from each animal to the group it belongs to.",
-     "core": "science-sort-k209",
-     "hard": "science-sort-hard-k209-7",
-     "easy": "science-sort-easy-k209-2",
+     "point": "K:goods-and-services",
+     "type": "K-718",
+     "title": "Who Makes It? Who Does It?",
+     "instruction": "Draw a line from each worker to what they make or do.",
+     "core": "science-match-k718",
+     "hard": "science-match-hard-k718-7",
+     "easy": "science-match-easy-k718-2",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes for two kinds of animals. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the two boxes aloud, Farm Animals and Wild Animals, and name every animal together. Do the first one together: ask, \"Does this animal live on a farm, or in the wild?\" Draw the line from the dot under it to its box.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
+      "say": "\"Each worker on the left makes something or does something. Draw a line from each worker to what they make or do.\"",
+      "first": "Name the workers on your page together by what they wear and hold (a tall white hat and a rolling pin: a baker; a hard hat and a hammer: a builder; a striped pole, scissors and a comb: a barber; a cap and a bag of letters: a mail carrier). Do the top worker together: \"What does this worker make or do?\"",
+      "stuck": "Ask, \"What is this worker holding? What would they make or do with it?\""
      }
     }
    ]
@@ -5421,15 +5420,15 @@
      "key": "writing",
      "minutes": 15,
      "point": "K:word-sentence-tracing",
-     "type": "K-284",
-     "title": "Trace and Write the Words",
-     "instruction": "Say the picture word. Trace the dashed letters, then write the word yourself on the empty lines.",
-     "core": "word-tracing-at-the-supermarket-k284-97",
-     "hard": "word-tracing-hard-things-that-fly-k284-196",
-     "easy": "word-tracing-easy-things-that-fly-k284-7",
+     "type": "K-291",
+     "title": "Trace the Longer Words",
+     "instruction": "These words are long. Trace each one, then write it yourself.",
+     "core": "word-tracing-classroom-b-w-k291-111",
+     "hard": "word-tracing-hard-beach-bw-k291-177",
+     "easy": "word-tracing-easy-classroom-k291-27",
      "script": {
-      "say": "\"Say the name of each picture. Its word is written next to it. Trace the dashed letters, then write the word yourself on the empty lines.\"",
-      "first": "Name the pictures together and read each word aloud. Do the first word together: read it, trace over it with your finger, and write it once more on the board, saying each letter.",
+      "say": "\"These words are long. Read each word with me, trace it, and then write it yourself on the empty line.\"",
+      "first": "Name the pictures together and read each long word aloud, clapping its parts: \"skate-board.\" Do the first word together: trace it with your finger and write it on the board, one part at a time.",
       "stuck": "Read the word for the child and have the child say it back while pointing to it. For the writing, have the child copy one letter at a time and keep the letters close together."
      }
     },
@@ -5484,17 +5483,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:feelings",
-     "type": "K-331",
-     "title": "How Do You Feel? Circle the Face",
-     "instruction": "Look at the picture, think how you would feel, and circle the face that matches.",
-     "core": "feelings-k331-4",
-     "hard": "feelings-hard-k331-16",
-     "easy": "feelings-easy-k331-10",
+     "point": "K:living-nonliving",
+     "type": "K-201",
+     "title": "Living and Non-living Things",
+     "instruction": "Draw a line from each picture to the group it belongs to.",
+     "core": "science-sort-k201-2",
+     "hard": "science-sort-hard-k201-8",
+     "easy": "science-sort-easy-k201-3",
      "script": {
-      "say": "\"Look at each picture. Think about how it would make you feel. Then circle the face that shows that feeling.\"",
-      "first": "Look at the first picture together and ask what it shows. Ask, \"How does that make you feel?\" Let two or three children answer; they may not all feel the same, and that is fine. Each child circles the face that matches their own answer.",
-      "stuck": "Ask the child what the picture shows and when they have seen one. Then point to each face and name the feeling it shows. There is no wrong answer on this page; any face the child can explain is right."
+      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes, Living and Non-living. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Does it grow and need water and air? Then it is living.\" Plants are living too, even though they do not walk or run. Draw the line from the dot under the picture to its box.",
+      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
      }
     }
    ]
@@ -5514,17 +5513,15 @@
     {
      "key": "morning",
      "minutes": 10,
-     "point": "K:pre-writing-strokes",
-     "type": "K-422",
-     "title": "Down, Across, Slanted",
-     "instruction": "Look at the arrow above each column. Trace one column at a time: down, then across, then slanted.",
-     "core": "picture-tracing-k422",
-     "hard": "picture-tracing-hard-k422-12",
-     "easy": "picture-tracing-easy-k422-2",
+     "point": "K:position-words",
+     "type": "K-065",
+     "title": "Left and Right",
+     "instruction": "Circle every picture on the LEFT side of the line.",
+     "core": "position-words-fruits-k065",
      "script": {
-      "say": "\"Each column has an arrow at the top. Trace the lines in that column the way the arrow points: down, then across, then slanted.\"",
-      "first": "Point to the three arrows and show each way with your hand: down, across, slanted. Trace the first line of the first column in the air with the class, from the top down. Tell the children to do one column at a time.",
-      "stuck": "Check the grip: the pencil is pinched between the thumb and the pointer finger and rests on the middle finger. If a child starts at the wrong end, put your finger on the orange dot and say, \"Start here.\" A wobbly line is fine; do not have the child erase."
+      "say": "\"There is a line down the middle of the page. Circle every picture on the LEFT side of the line.\"",
+      "first": "Have the children hold up their left hand: the thumb and pointer finger make an L. Point to the left side of the page. Find one picture on the left together and circle it.",
+      "stuck": "Have the child hold up the L hand and lay it next to the page on the left side. Everything on that side of the line gets a circle."
      }
     },
     {
@@ -5559,14 +5556,15 @@
      "key": "writing",
      "minutes": 15,
      "point": "K:all-about-me-personal",
-     "type": "K-342",
-     "title": "My Favorite Things: Circle and Write",
-     "instruction": "In each row, circle your favorite picture and copy its word onto the line.",
-     "core": "all-about-me-k342-4",
+     "type": "K-345",
+     "title": "I Can: Check What You Can Do",
+     "instruction": "Read each sentence and check the things you can do. Then write one thing you want to learn.",
+     "core": "all-about-me-k345-3",
+     "hard": "all-about-me-hard-k345-3",
      "script": {
-      "say": "\"In each row there are pictures of different things. Circle the one you like best. Then copy its word on the line.\"",
-      "first": "Do the first row together: name the pictures, ask a few children which one they like best, and show how to circle one. Then show how to copy its word onto the line, letter by letter. Everyone circles their own favorite; there is no right answer.",
-      "stuck": "Have the child put a finger under the word and copy one letter at a time, moving the finger along. If the child cannot choose, say, \"Pick the one you would like to have today.\""
+      "say": "\"This page is about what YOU can do. Listen to each sentence. If you can do it, put a check in its box. At the bottom, write one thing you want to learn.\"",
+      "first": "Read each sentence aloud while the children point to it: \"I can paint a picture. I can brush my teeth…\" After each one, pause so that every child can check the box or leave it empty. Tell them there is no wrong answer. For the last line, write \"I want to learn to\" on the board and let children say their ideas first.",
+      "stuck": "Read the sentence again and ask the child, \"Can you do that?\" For the last line, a child may draw the thing and write the first letter or one word with your help."
      }
     },
     {
@@ -5601,30 +5599,30 @@
      "key": "logic",
      "minutes": 10,
      "point": "K:same-different-visual",
-     "type": "K-080",
-     "title": "Which Shape Is Different?",
-     "instruction": "Look at each row. Circle the shape that does not belong.",
-     "core": "visual-discrimination-k080",
+     "type": "K-058",
+     "title": "Find the Pairs",
+     "instruction": "Every picture has a twin. Draw a line to join the two pictures in each pair.",
+     "core": "visual-matching-toys-k058",
      "script": {
-      "say": "\"In each row the shapes are the same, but one shape does not belong. Find it and circle it.\"",
-      "first": "Do the first row together. Point to the shapes one by one: \"same… same… this one is different!\" Ask a child to say what is different about it. Circle it.",
-      "stuck": "Have the child name each shape in the row; the one with a different name gets the circle."
+      "say": "\"Every picture on this page has a twin, a picture that looks just the same. Draw a line to join the two pictures of each pair.\"",
+      "first": "Point to the first picture and ask, \"Where is its twin?\" Find it together and draw the line. Tell the children to cross off nothing: each picture is in one pair only.",
+      "stuck": "Have the child name one picture and look for the same name somewhere else on the page."
      }
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:transport-flying",
-     "type": "K-206",
-     "title": "Things That Fly",
-     "instruction": "Draw a line from each picture to the group it belongs to.",
-     "core": "science-sort-k206-2",
-     "hard": "science-sort-hard-k206-8",
-     "easy": "science-sort-easy-k206-3",
+     "point": "K:our-flag",
+     "type": "K-719",
+     "title": "Our Flag",
+     "instruction": "Color the flag like the small flag: red and white stripes, red at the top and the bottom. Color the box blue around the stars. Leave the stars white.",
+     "core": "read-and-color-k719",
+     "hard": "read-and-color-hard-k719-3",
+     "easy": "read-and-color-easy-k719-2",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are labeled boxes. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this go? Does it fly?\" Draw the line from the dot under the picture to its box.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
+      "say": "\"This is the flag of our country, the United States. If your flag has red dots, color the stripes with the dots red. Color it like the small flag: red and white stripes, red at the top and the bottom. Color the box blue around the stars, and leave the stars white.\"",
+      "first": "Look at the small colored flag together and name the stripes from the top: red, white, red. Each child needs a red crayon and a blue one; the white stripes and the stars stay white.",
+      "stuck": "Have the child put a finger on a stripe of the small flag and find the same stripe on the big one. A stripe colored by mistake is fine; go on to the next stripe together."
      }
     }
    ]
@@ -5690,17 +5688,17 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:word-sentence-tracing",
-     "type": "K-291",
-     "title": "Trace the Longer Words",
-     "instruction": "These words are long. Trace each one, then write it yourself.",
-     "core": "word-tracing-classroom-b-w-k291-111",
-     "hard": "word-tracing-hard-beach-bw-k291-177",
-     "easy": "word-tracing-easy-classroom-k291-27",
+     "point": "K:letter-formation",
+     "type": "K-238",
+     "title": "Trace the Letter M m",
+     "instruction": "Trace each letter, then write one on your own at the end of the line. Start at the orange dot and follow the arrows.",
+     "core": "letter-tracing-k238-14-m",
+     "hard": "letter-tracing-hard-k238-59-f",
+     "easy": "letter-tracing-easy-k238-33-f",
      "script": {
-      "say": "\"These words are long. Read each word with me, trace it, and then write it yourself on the empty line.\"",
-      "first": "Name the pictures together and read each long word aloud, clapping its parts: \"skate-board.\" Do the first word together: trace it with your finger and write it on the board, one part at a time.",
-      "stuck": "Read the word for the child and have the child say it back while pointing to it. For the writing, have the child copy one letter at a time and keep the letters close together."
+      "say": "\"Now we practice writing letters. Start at the orange dot and follow the arrows. Trace the letters first. Then write one all by yourself on the empty line.\"",
+      "first": "Write the first letter of the page big on the board, saying where you start and which way you go. Have the children write it in the air with you. Then they trace the letters on the page. Walk around and watch where each child starts.",
+      "stuck": "Put your finger on the orange dot: \"Start here. Which way does the arrow point?\" If the letter the child writes alone is far from the model, have the child trace one more and try again. Do not ask for a perfect letter."
      }
     },
     {
@@ -5752,17 +5750,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:seasons",
-     "type": "K-207",
-     "title": "Summer and Winter Clothes",
-     "instruction": "Draw a line from each item of clothing to the right group.",
-     "core": "science-sort-k207-3",
-     "hard": "science-sort-hard-k207-9",
-     "easy": "science-sort-easy-k207-4",
+     "point": "K:feelings",
+     "type": "K-331",
+     "title": "How Do You Feel? Circle the Face",
+     "instruction": "Look at the picture, think how you would feel, and circle the face that matches.",
+     "core": "feelings-k331-3",
+     "hard": "feelings-hard-k331-15",
+     "easy": "feelings-easy-k331-9",
      "script": {
-      "say": "\"At the top are clothes. At the bottom are two boxes: Summer and Winter. Draw a line from each piece of clothing to the season we wear it in.\"",
-      "first": "Read the two boxes aloud and name every piece of clothing together. Do the first one together: ask, \"Do we wear this when it is hot or when it is cold?\" Draw the line to its box.",
-      "stuck": "Ask the child, \"Would you wear this to the beach or in the snow?\" Where you live, winter may not mean snow; let the child explain."
+      "say": "\"Look at each picture. Think about how it would make you feel. Then circle the face that shows that feeling.\"",
+      "first": "Look at the first picture together and ask what it shows. Ask, \"How does that make you feel?\" Let two or three children answer; they may not all feel the same, and that is fine. Each child circles the face that matches their own answer.",
+      "stuck": "Ask the child what the picture shows and when they have seen one. Then point to each face and name the feeling it shows. There is no wrong answer on this page; any face the child can explain is right."
      }
     }
    ]
@@ -5782,31 +5780,33 @@
     {
      "key": "morning",
      "minutes": 10,
-     "point": "K:position-words",
-     "type": "K-065",
-     "title": "Left and Right",
-     "instruction": "Circle every picture on the LEFT side of the line.",
-     "core": "position-words-fruits-k065",
+     "point": "K:pre-writing-strokes",
+     "type": "K-246",
+     "title": "Loops, Eights and Spirals",
+     "instruction": "Trace each line with your pencil. Start at the orange dot and follow the arrow.",
+     "core": "pre-writing-vegetables-bw-2-k246-2",
+     "hard": "pre-writing-hard-beach-bw-k246-2",
+     "easy": "pre-writing-easy-objects-bw-k246-2",
      "script": {
-      "say": "\"There is a line down the middle of the page. Circle every picture on the LEFT side of the line.\"",
-      "first": "Have the children hold up their left hand: the thumb and pointer finger make an L. Point to the left side of the page. Find one picture on the left together and circle it.",
-      "stuck": "Have the child hold up the L hand and lay it next to the page on the left side. Everything on that side of the line gets a circle."
+      "say": "\"Today your pencil goes for a walk. Each line starts at an orange dot. Follow the arrow and stay on the line as well as you can.\"",
+      "first": "Hold up the page and trace the first line with your finger, from the orange dot in the direction of the arrow. Have the children trace it in the air with a finger, then on the page with a finger, and only then with a pencil. Remind them to go slowly: this is not a race.",
+      "stuck": "Check the grip: the pencil is pinched between the thumb and the pointer finger and rests on the middle finger. If a child starts at the wrong end, put your finger on the orange dot and say, \"Start here.\" A wobbly line is fine; do not have the child erase."
      }
     },
     {
      "key": "reading",
      "minutes": 15,
-     "point": "K:singular-plural",
-     "type": "K-302",
-     "title": "One and Many: First Words",
-     "instruction": "One or many? Trace the word that names more than one.",
-     "core": "singular-plural-food-bw-3-k302-2",
-     "hard": "singular-plural-hard-tools-bw-k302-2",
-     "easy": "singular-plural-easy-apparel-bw-k302-2",
+     "point": "K:word-sentence-tracing",
+     "type": "K-239",
+     "title": "Sight Words: Read, Trace, Write",
+     "instruction": "Read the word. Trace it. Then write it yourself on the empty line.",
+     "core": "sight-words-k239-3",
+     "hard": "sight-words-hard-k239-63",
+     "easy": "sight-words-easy-k239-29",
      "script": {
-      "say": "\"One means just one thing. Many means more than one. The word for one is written for you. Trace the word for many.\"",
-      "first": "Read the first word aloud and show one finger. Then show two fingers and say the word for many. Point to the s at the end: \"We add s when there is more than one.\" Trace the word for many together. Read each word on the page aloud with the class before they trace.",
-      "stuck": "Read the word for one and the word for many for the child and have the child point to the part that is different. Then trace one letter at a time."
+      "say": "\"These are words we see all the time. Read the word, trace it, and then write it yourself on the empty line.\"",
+      "first": "Read the words on the page aloud and have the class read each one after you. Do the first word together: read it, write it on the board, trace over it with your finger, and write it once more next to it. Tell the children to say the word each time they finish writing it.",
+      "stuck": "Read the word for the child and have the child say it back while pointing to it. For the writing, have the child copy one letter at a time and keep the letters close together."
      }
     },
     {
@@ -5826,17 +5826,17 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:family",
-     "type": "K-375",
-     "title": "Family Words: Trace and Write",
-     "instruction": "Find the person with the same number on the tree, trace their family word and write it again on the line.",
-     "core": "family-k375-5",
-     "hard": "family-hard-k375-16",
-     "easy": "family-easy-k375-11",
+     "point": "K:singular-plural",
+     "type": "K-287",
+     "title": "Singular and Plural",
+     "instruction": "Read the word for one. Then trace the word for many and write it yourself on the empty line.",
+     "core": "singular-plural-sea-life-bw-2-k287-2",
+     "hard": "singular-plural-hard-kitchen-tools-k287-3",
+     "easy": "singular-plural-easy-food-bw-k287-2",
      "script": {
-      "say": "\"This page shows a family. Each person on the family tree has a number. Find the person with the same number, trace the family word, and write it again on the line.\"",
-      "first": "Look at the family tree together. The child with the star is the one the words are about. Read the family words on the page aloud. Do number 1 together: find the person with the 1 on the tree, find the word with the 1, trace it, and write it again on line 1.",
-      "stuck": "Have the child put a finger on the number next to the word and find the same number on the tree. Read the word for the child. If a child says their own family does not look like this one, say, \"Every family is different. This page is about this child's family.\""
+      "say": "\"The word for one is written for you. Read it with me. Then trace the word for many, and write it yourself on the empty line.\"",
+      "first": "Read the first word aloud and show one finger. Then show two fingers and say the word for many. Point to the s at the end: \"We add s when there is more than one.\" Trace the word for many together. Read each word on the page aloud with the class before they trace.",
+      "stuck": "Read the word for one and the word for many for the child and have the child point to the part that is different. \"Octopus\" gets -es: octopuses. Then trace one letter at a time."
      }
     },
     {
@@ -5874,31 +5874,33 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:patterns",
-     "type": "K-049",
-     "title": "Complete the Pattern",
-     "instruction": "A picture is missing. Circle what belongs in the empty box.",
-     "core": "patterns-toys-k049",
+     "point": "K:shadow-closure",
+     "type": "K-069",
+     "title": "What Is It?",
+     "instruction": "Only part of the picture is showing. Circle the whole picture it belongs to.",
+     "core": "visual-discrimination-shapes-k069",
+     "hard": "visual-discrimination-hard-breakfast-k069-2",
+     "easy": "visual-discrimination-easy-post-office-k069-2",
      "script": {
-      "say": "\"Each row is a pattern, but one picture is missing. Find the empty box. Circle the picture that belongs in it.\"",
-      "first": "Do the first row together. Point to each shape and have the class say its name like a chant. Stop at the empty box and ask, \"What goes here?\" Say the pattern again with that shape and circle it among the choices at the end of the row.",
-      "stuck": "Have the child touch each picture and say its name aloud from the start of the row, then say the next word before looking at the choices. If the child cannot name a picture, give it a simple name."
+      "say": "\"In each row only a small part of a picture is showing. Which whole picture does it belong to? Circle it.\"",
+      "first": "Do the first row together: look at the small part and ask, \"What could this be? An ear, a tail, a head?\" Look at the three whole pictures and circle the one the part belongs to.",
+      "stuck": "Have the child find the part on each of the three pictures: \"Does this one have it?\""
      }
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:healthy-food",
-     "type": "K-203",
-     "title": "Healthy and Not Healthy Foods",
-     "instruction": "Draw a line from each picture to the group it belongs to.",
-     "core": "science-sort-k203-3",
-     "hard": "science-sort-hard-k203-9",
-     "easy": "science-sort-easy-k203-4",
+     "point": "K:fair-for-everyone",
+     "type": "K-721",
+     "title": "Fair for Everyone",
+     "instruction": "Look at the two pictures in each row. They show the same moment. Circle the picture that is fair to everyone.",
+     "core": "feelings-k721",
+     "hard": "feelings-hard-k721-8",
+     "easy": "feelings-easy-k721-3",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes, Healthy and Not Healthy. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this good for our body every day, or is it a treat for once in a while?\" Draw the line from the dot under the picture to its box. A treat is fine once in a while; the page only asks which foods to eat every day.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
+      "say": "\"The two pictures in each row show the same moment. Circle the picture that is fair to everyone.\"",
+      "first": "Do the first row together. Ask, \"In which picture does everyone get a turn, or the same?\" Talk about what the children do (keeping the swing, sharing the crackers, letting a friend play), never about a bad child.",
+      "stuck": "Ask how each child in the picture feels. In the fair picture everyone can smile; in the other one someone is left out, still waiting, or has none."
      }
     }
    ]
@@ -5964,17 +5966,17 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:letter-formation",
-     "type": "K-238",
-     "title": "Trace the Letter M m",
-     "instruction": "Trace each letter, then write one on your own at the end of the line. Start at the orange dot and follow the arrows.",
-     "core": "letter-tracing-k238-14-m",
-     "hard": "letter-tracing-hard-k238-59-f",
-     "easy": "letter-tracing-easy-k238-33-f",
+     "point": "K:family",
+     "type": "K-375",
+     "title": "Family Words: Trace and Write",
+     "instruction": "Find the person with the same number on the tree, trace their family word and write it again on the line.",
+     "core": "family-k375-4",
+     "hard": "family-hard-k375-15",
+     "easy": "family-easy-k375-10",
      "script": {
-      "say": "\"Now we practice writing letters. Start at the orange dot and follow the arrows. Trace the letters first. Then write one all by yourself on the empty line.\"",
-      "first": "Write the first letter of the page big on the board, saying where you start and which way you go. Have the children write it in the air with you. Then they trace the letters on the page. Walk around and watch where each child starts.",
-      "stuck": "Put your finger on the orange dot: \"Start here. Which way does the arrow point?\" If the letter the child writes alone is far from the model, have the child trace one more and try again. Do not ask for a perfect letter."
+      "say": "\"This page shows a family. Each person on the family tree has a number. Find the person with the same number, trace the family word, and write it again on the line.\"",
+      "first": "Look at the family tree together. The child with the star is the one the words are about. Read the family words on the page aloud. Do number 1 together: find the person with the 1 on the tree, find the word with the 1, trace it, and write it again on line 1.",
+      "stuck": "Have the child put a finger on the number next to the word and find the same number on the tree. Read the word for the child. If a child says their own family does not look like this one, say, \"Every family is different. This page is about this child's family.\""
      }
     },
     {
@@ -6012,33 +6014,31 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:mazes",
-     "type": "K-407",
-     "title": "Paddle the Kayak to the Cabin",
-     "instruction": "Help the boat sail along the stream to the teddy bear on the dock. Draw a line through the water.",
-     "core": "maze-puzzles-k407-6",
-     "hard": "maze-puzzles-hard-k407-11",
-     "easy": "maze-puzzles-easy-k407-3",
+     "point": "K:patterns",
+     "type": "K-049",
+     "title": "Complete the Pattern",
+     "instruction": "A picture is missing. Circle what belongs in the empty box.",
+     "core": "patterns-toys-k049",
      "script": {
-      "say": "\"Time for a maze. Draw a line along the blue water from the start to the goal, and stay inside the water.\"",
-      "first": "Hold up the page, read its title aloud, and show where the water starts, at the arrow, and where it ends. Trace the water with your finger and stop at each place where it splits: \"Which way leads to the goal?\" Tell the children to find the whole way with a finger before they draw.",
-      "stuck": "Tell the child that a dead end is part of every maze: go back to the last place where the path split and try the other way. Starting from the goal and working backward also helps."
+      "say": "\"Each row is a pattern, but one picture is missing. Find the empty box. Circle the picture that belongs in it.\"",
+      "first": "Do the first row together. Point to each shape and have the class say its name like a chant. Stop at the empty box and ask, \"What goes here?\" Say the pattern again with that shape and circle it among the choices at the end of the row.",
+      "stuck": "Have the child touch each picture and say its name aloud from the start of the row, then say the next word before looking at the choices. If the child cannot name a picture, give it a simple name."
      }
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:animal-groups-homes",
-     "type": "K-204",
-     "title": "Pets and Wild Animals",
-     "instruction": "Draw a line from each animal to the group it belongs to.",
-     "core": "science-sort-k204-2",
-     "hard": "science-sort-hard-k204-8",
-     "easy": "science-sort-easy-k204-3",
+     "point": "K:seasons",
+     "type": "K-207",
+     "title": "Summer and Winter Clothes",
+     "instruction": "Draw a line from each item of clothing to the right group.",
+     "core": "science-sort-k207-2",
+     "hard": "science-sort-hard-k207-8",
+     "easy": "science-sort-easy-k207-3",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes for two kinds of animals. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the two boxes aloud, Pets and Wild Animals, and name every animal together. Do the first one together: ask, \"Can this animal live in a house with people, or does it live in the wild?\" Draw the line from the dot under it to its box. A rabbit can be a pet or wild; either box is right for it.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
+      "say": "\"At the top are clothes. At the bottom are two boxes: Summer and Winter. Draw a line from each piece of clothing to the season we wear it in.\"",
+      "first": "Read the two boxes aloud and name every piece of clothing together. Do the first one together: ask, \"Do we wear this when it is hot or when it is cold?\" Draw the line to its box.",
+      "stuck": "Ask the child, \"Would you wear this to the beach or in the snow?\" Where you live, winter may not mean snow; let the child explain."
      }
     }
    ]
@@ -6058,17 +6058,17 @@
     {
      "key": "morning",
      "minutes": 10,
-     "point": "K:pre-writing-strokes",
-     "type": "K-246",
-     "title": "Loops, Eights and Spirals",
-     "instruction": "Trace each line with your pencil. Start at the orange dot and follow the arrow.",
-     "core": "pre-writing-vegetables-bw-2-k246-2",
-     "hard": "pre-writing-hard-beach-bw-k246-2",
-     "easy": "pre-writing-easy-objects-bw-k246-2",
+     "point": "K:same-different-visual",
+     "type": "K-044",
+     "title": "Find the Different Size",
+     "instruction": "Look at each row. Circle the one that is a different size.",
+     "core": "visual-discrimination-shapes-k044",
+     "hard": "visual-discrimination-hard-sea-life-bw-2-k044-2",
+     "easy": "visual-discrimination-easy-apparel-bw-k044-2",
      "script": {
-      "say": "\"Today your pencil goes for a walk. Each line starts at an orange dot. Follow the arrow and stay on the line as well as you can.\"",
-      "first": "Hold up the page and trace the first line with your finger, from the orange dot in the direction of the arrow. Have the children trace it in the air with a finger, then on the page with a finger, and only then with a pencil. Remind them to go slowly: this is not a race.",
-      "stuck": "Check the grip: the pencil is pinched between the thumb and the pointer finger and rests on the middle finger. If a child starts at the wrong end, put your finger on the orange dot and say, \"Start here.\" A wobbly line is fine; do not have the child erase."
+      "say": "\"In each row, the pictures are the same, but one is a different size. Find it and circle it.\"",
+      "first": "Do the first row together. Point to the pictures one by one: \"Same size… same size… this one is smaller!\" Circle it together.",
+      "stuck": "Have the child point to two pictures at a time and ask, \"Are they the same size?\""
      }
     },
     {
@@ -6104,17 +6104,15 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:word-sentence-tracing",
-     "type": "K-284",
-     "title": "Trace and Write the Words",
-     "instruction": "Say the picture word. Trace the dashed letters, then write the word yourself on the empty lines.",
-     "core": "word-tracing-things-that-fly-k284-102",
-     "hard": "word-tracing-hard-accessories-k284-197",
-     "easy": "word-tracing-easy-accessories-k284-8",
+     "point": "K:all-about-me-personal",
+     "type": "K-342",
+     "title": "My Favorite Things: Circle and Write",
+     "instruction": "In each row, circle your favorite picture and copy its word onto the line.",
+     "core": "all-about-me-k342-4",
      "script": {
-      "say": "\"Say the name of each picture. Its word is written next to it. Trace the dashed letters, then write the word yourself on the empty lines.\"",
-      "first": "Name the pictures together and read each word aloud. Do the first word together: read it, trace over it with your finger, and write it once more on the board, saying each letter.",
-      "stuck": "Read the word for the child and have the child say it back while pointing to it. For the writing, have the child copy one letter at a time and keep the letters close together."
+      "say": "\"In each row there are pictures of different things. Circle the one you like best. Then copy its word on the line.\"",
+      "first": "Do the first row together: name the pictures, ask a few children which one they like best, and show how to circle one. Then show how to copy its word onto the line, letter by letter. Everyone circles their own favorite; there is no right answer.",
+      "stuck": "Have the child put a finger under the word and copy one letter at a time, moving the finger along. If the child cannot choose, say, \"Pick the one you would like to have today.\""
      }
     },
     {
@@ -6152,15 +6150,17 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:same-different-visual",
-     "type": "K-058",
-     "title": "Find the Pairs",
-     "instruction": "Every picture has a twin. Draw a line to join the two pictures in each pair.",
-     "core": "visual-matching-toys-k058",
+     "point": "K:mazes",
+     "type": "K-407",
+     "title": "Paddle the Kayak to the Cabin",
+     "instruction": "Help the boat sail along the stream to the teddy bear on the dock. Draw a line through the water.",
+     "core": "maze-puzzles-k407-6",
+     "hard": "maze-puzzles-hard-k407-11",
+     "easy": "maze-puzzles-easy-k407-3",
      "script": {
-      "say": "\"Every picture on this page has a twin, a picture that looks just the same. Draw a line to join the two pictures of each pair.\"",
-      "first": "Point to the first picture and ask, \"Where is its twin?\" Find it together and draw the line. Tell the children to cross off nothing: each picture is in one pair only.",
-      "stuck": "Have the child name one picture and look for the same name somewhere else on the page."
+      "say": "\"Time for a maze. Draw a line along the blue water from the start to the goal, and stay inside the water.\"",
+      "first": "Hold up the page, read its title aloud, and show where the water starts, at the arrow, and where it ends. Trace the water with your finger and stop at each place where it splits: \"Which way leads to the goal?\" Tell the children to find the whole way with a finger before they draw.",
+      "stuck": "Tell the child that a dead end is part of every maze: go back to the last place where the path split and try the other way. Starting from the goal and working backward also helps."
      }
     },
     {
@@ -6244,16 +6244,17 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:all-about-me-personal",
-     "type": "K-345",
-     "title": "I Can: Check What You Can Do",
-     "instruction": "Read each sentence and check the things you can do. Then write one thing you want to learn.",
-     "core": "all-about-me-k345-4",
-     "hard": "all-about-me-hard-k345-4",
+     "point": "K:word-sentence-tracing",
+     "type": "K-284",
+     "title": "Trace and Write the Words",
+     "instruction": "Say the picture word. Trace the dashed letters, then write the word yourself on the empty lines.",
+     "core": "word-tracing-things-that-fly-k284-102",
+     "hard": "word-tracing-hard-accessories-k284-197",
+     "easy": "word-tracing-easy-accessories-k284-8",
      "script": {
-      "say": "\"This page is about what YOU can do. Listen to each sentence. If you can do it, put a check in its box. At the bottom, write one thing you want to learn.\"",
-      "first": "Read each sentence aloud while the children point to it: \"I can paint a picture. I can brush my teeth…\" After each one, pause so that every child can check the box or leave it empty. Tell them there is no wrong answer. For the last line, write \"I want to learn to\" on the board and let children say their ideas first.",
-      "stuck": "Read the sentence again and ask the child, \"Can you do that?\" For the last line, a child may draw the thing and write the first letter or one word with your help."
+      "say": "\"Say the name of each picture. Its word is written next to it. Trace the dashed letters, then write the word yourself on the empty lines.\"",
+      "first": "Name the pictures together and read each word aloud. Do the first word together: read it, trace over it with your finger, and write it once more on the board, saying each letter.",
+      "stuck": "Read the word for the child and have the child say it back while pointing to it. For the writing, have the child copy one letter at a time and keep the letters close together."
      }
     },
     {
@@ -6291,15 +6292,16 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:patterns",
-     "type": "K-050",
-     "title": "Big and Small Patterns",
-     "instruction": "Look at the pattern. Circle what comes next.",
-     "core": "patterns-shapes-k050",
+     "point": "K:spot-the-difference",
+     "type": "K-400",
+     "title": "Picture Pairs: Find the Difference",
+     "instruction": "Each row shows the same close-up twice; circle the one place that is different in the right picture and check the box of that row.",
+     "core": "find-the-differences-k400-6",
+     "hard": "find-the-differences-hard-k400-9",
      "script": {
-      "say": "\"A pattern is something that repeats, over and over. Say the pattern out loud. Then circle what comes next.\"",
-      "first": "Do the first row together. Point to each picture and say \"big\" or \"small\" like a chant: \"big, small, big, small…\" Stop at the box with the question mark and ask, \"What comes next: a big one or a small one?\" Circle it among the choices.",
-      "stuck": "Have the child touch each picture and say its name aloud from the start of the row, then say the next word before looking at the choices. If the child cannot name a picture, give it a simple name."
+      "say": "\"Each row shows the same picture two times, but one place in the right picture is different. Circle it, and check the box of that row.\"",
+      "first": "Do the first row together: compare the left and the right picture, part by part, and find the one difference. Circle it in the right picture and check the box of the row.",
+      "stuck": "Have the child cover half of each picture with a hand and compare one half at a time."
      }
     },
     {
@@ -6380,17 +6382,17 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:word-sentence-tracing",
-     "type": "K-291",
-     "title": "Trace the Longer Words",
-     "instruction": "These words are long. Trace each one, then write it yourself.",
-     "core": "word-tracing-insects-and-bugs-k291-132",
-     "hard": "word-tracing-hard-education-bw-k291-187",
-     "easy": "word-tracing-easy-fruits-k291-42",
+     "point": "K:family",
+     "type": "K-375",
+     "title": "Family Words: Trace and Write",
+     "instruction": "Find the person with the same number on the tree, trace their family word and write it again on the line.",
+     "core": "family-k375-5",
+     "hard": "family-hard-k375-16",
+     "easy": "family-easy-k375-11",
      "script": {
-      "say": "\"These words are long. Read each word with me, trace it, and then write it yourself on the empty line.\"",
-      "first": "Name the pictures together and read each long word aloud, clapping its parts: \"skate-board.\" Do the first word together: trace it with your finger and write it on the board, one part at a time.",
-      "stuck": "Read the word for the child and have the child say it back while pointing to it. For the writing, have the child copy one letter at a time and keep the letters close together."
+      "say": "\"This page shows a family. Each person on the family tree has a number. Find the person with the same number, trace the family word, and write it again on the line.\"",
+      "first": "Look at the family tree together. The child with the star is the one the words are about. Read the family words on the page aloud. Do number 1 together: find the person with the 1 on the tree, find the word with the 1, trace it, and write it again on line 1.",
+      "stuck": "Have the child put a finger on the number next to the word and find the same number on the tree. Read the word for the child. If a child says their own family does not look like this one, say, \"Every family is different. This page is about this child's family.\""
      }
     },
     {
@@ -6428,32 +6430,30 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:shadow-closure",
-     "type": "K-057",
-     "title": "Match the Shadow",
-     "instruction": "Draw a line from each picture to its shadow.",
-     "core": "visual-matching-body-parts-k057-2",
-     "hard": "visual-matching-hard-activities-k057-3",
-     "easy": "visual-matching-easy-hospital-k057-3",
+     "point": "K:patterns",
+     "type": "K-050",
+     "title": "Big and Small Patterns",
+     "instruction": "Look at the pattern. Circle what comes next.",
+     "core": "patterns-shapes-k050",
      "script": {
-      "say": "\"Each picture on the left has a shadow on the right. A shadow is dark and shows only the shape. Draw a line from each picture to its shadow.\"",
-      "first": "Do the first one together: look at the outline of the first picture and ask, \"Which shadow has the same shape?\" Draw the line from dot to dot. Tell the children to look at the edges: the ears, the wheels, the tail.",
-      "stuck": "Have the child trace the outside of the picture with a finger, then trace the shadows until one has the same shape."
+      "say": "\"A pattern is something that repeats, over and over. Say the pattern out loud. Then circle what comes next.\"",
+      "first": "Do the first row together. Point to each picture and say \"big\" or \"small\" like a chant: \"big, small, big, small…\" Stop at the box with the question mark and ask, \"What comes next: a big one or a small one?\" Circle it among the choices.",
+      "stuck": "Have the child touch each picture and say its name aloud from the start of the row, then say the next word before looking at the choices. If the child cannot name a picture, give it a simple name."
      }
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:transport-flying",
-     "type": "K-210",
-     "title": "Land, Water, and Air Transportation",
-     "instruction": "Draw a line from each vehicle to where it travels.",
-     "core": "science-sort-k210-2",
-     "hard": "science-sort-hard-k210-8",
-     "easy": "science-sort-easy-k210-3",
+     "point": "K:animal-groups-homes",
+     "type": "K-209",
+     "title": "Farm and Wild Animals",
+     "instruction": "Draw a line from each animal to the group it belongs to.",
+     "core": "science-sort-k209",
+     "hard": "science-sort-hard-k209-7",
+     "easy": "science-sort-easy-k209-2",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are labeled boxes. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this go? Does it fly?\" Draw the line from the dot under the picture to its box.",
+      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes for two kinds of animals. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the two boxes aloud, Farm Animals and Wild Animals, and name every animal together. Do the first one together: ask, \"Does this animal live on a farm, or in the wild?\" Draw the line from the dot under it to its box.",
       "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
      }
     }
@@ -6520,15 +6520,17 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:family",
-     "type": "K-375",
-     "title": "Family Words: Trace and Write",
-     "instruction": "Find the person with the same number on the tree, trace their family word and write it again on the line.",
-     "core": "family-k375-6",
+     "point": "K:letter-formation",
+     "type": "K-238",
+     "title": "Trace the Letter N n",
+     "instruction": "Trace each letter, then write one on your own at the end of the line. Start at the orange dot and follow the arrows.",
+     "core": "letter-tracing-k238-15-n",
+     "hard": "letter-tracing-hard-k238-60-g",
+     "easy": "letter-tracing-easy-k238-34-g",
      "script": {
-      "say": "\"This page shows a family. Each person on the family tree has a number. Find the person with the same number, trace the family word, and write it again on the line.\"",
-      "first": "Look at the family tree together. The child with the star is the one the words are about. Read the family words on the page aloud. Do number 1 together: find the person with the 1 on the tree, find the word with the 1, trace it, and write it again on line 1.",
-      "stuck": "Have the child put a finger on the number next to the word and find the same number on the tree. Read the word for the child. If a child says their own family does not look like this one, say, \"Every family is different. This page is about this child's family.\""
+      "say": "\"Now we practice writing letters. Start at the orange dot and follow the arrows. Trace the letters first. Then write one all by yourself on the empty line.\"",
+      "first": "Write the first letter of the page big on the board, saying where you start and which way you go. Have the children write it in the air with you. Then they trace the letters on the page. Walk around and watch where each child starts.",
+      "stuck": "Put your finger on the orange dot: \"Start here. Which way does the arrow point?\" If the letter the child writes alone is far from the model, have the child trace one more and try again. Do not ask for a perfect letter."
      }
     },
     {
@@ -6566,16 +6568,17 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:spot-the-difference",
-     "type": "K-400",
-     "title": "Picture Pairs: Find the Difference",
-     "instruction": "Each row shows the same close-up twice; circle the one place that is different in the right picture and check the box of that row.",
-     "core": "find-the-differences-k400-6",
-     "hard": "find-the-differences-hard-k400-9",
+     "point": "K:mazes",
+     "type": "K-405",
+     "title": "Help the Boy on the Bike Reach the Slide",
+     "instruction": "Help the hedgehog get to the apple tree. Draw a line along the way.",
+     "core": "maze-puzzles-k405-14",
+     "hard": "maze-puzzles-hard-k405-26",
+     "easy": "maze-puzzles-easy-k405-4",
      "script": {
-      "say": "\"Each row shows the same picture two times, but one place in the right picture is different. Circle it, and check the box of that row.\"",
-      "first": "Do the first row together: compare the left and the right picture, part by part, and find the one difference. Circle it in the right picture and check the box of the row.",
-      "stuck": "Have the child cover half of each picture with a hand and compare one half at a time."
+      "say": "\"Time for a maze. Find the way along the light path from the animal to its goal. Use your finger first, then your pencil.\"",
+      "first": "Hold up the page and show where the path starts, at the animal with the arrow, and where it ends. Trace the beginning of the way with your finger and stop at the first place where the path splits: \"Which way? Let's try one.\" Tell the children to find the whole way with a finger before they draw.",
+      "stuck": "Tell the child that a dead end is part of every maze: go back to the last place where the path split and try the other way. Starting from the goal and working backward also helps."
      }
     },
     {
@@ -6627,17 +6630,16 @@
     {
      "key": "reading",
      "minutes": 15,
-     "point": "K:human-body",
-     "type": "K-354",
-     "title": "Parts of the Body",
-     "instruction": "Copy each word from the bank onto the line that points to that part of the body.",
-     "core": "human-body-k354-2",
-     "hard": "human-body-hard-k354-13",
-     "easy": "human-body-easy-k354-8",
+     "point": "K:articles",
+     "type": "K-306",
+     "title": "Circle the Right Word: Four Pictures",
+     "instruction": "Say each picture word, then circle the word that belongs with it.",
+     "core": "articles-household-bw-k306-4",
+     "easy": "articles-easy-spring-k306-3",
      "script": {
-      "say": "\"Look at the picture. Each line points to a part of the body. The words are in the box at the top. Copy the right word onto each line.\"",
-      "first": "Read the words in the box aloud and have the children touch that part of their own body for each one. Do the first line together: follow it with your finger to the part it points to, say its name, find the word in the box, and copy it onto the line letter by letter.",
-      "stuck": "Have the child touch the part on their own body and say its name. Then find the word in the box together; the first letter helps: \"Hand starts with h. Where is the word that starts with h?\""
+      "say": "\"Under each picture are two little words: a and an. Say the name of the picture with a in front of it, then with an. Circle the one that sounds right.\"",
+      "first": "Name the pictures together: cup, bed, umbrella, bottle. Do the first one together: \"a cup, an cup. Which sounds right?\" Circle a. Tell the children that an goes in front of words that start with a, e, i, o, or u. For your own reference: a cup, a bed, an umbrella, a bottle.",
+      "stuck": "Say both choices for the child, slowly, and let the child hear which one is easier to say. Ask, \"Does the word start with a, e, i, o, or u?\""
      }
     },
     {
@@ -6657,17 +6659,17 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:singular-plural",
-     "type": "K-287",
-     "title": "Singular and Plural",
-     "instruction": "Read the word for one. Then trace the word for many and write it yourself on the empty line.",
-     "core": "singular-plural-sea-life-bw-2-k287-2",
-     "hard": "singular-plural-hard-kitchen-tools-k287-3",
-     "easy": "singular-plural-easy-food-bw-k287-2",
+     "point": "K:word-sentence-tracing",
+     "type": "K-291",
+     "title": "Trace the Longer Words",
+     "instruction": "These words are long. Trace each one, then write it yourself.",
+     "core": "word-tracing-insects-and-bugs-k291-132",
+     "hard": "word-tracing-hard-education-bw-k291-187",
+     "easy": "word-tracing-easy-fruits-k291-42",
      "script": {
-      "say": "\"The word for one is written for you. Read it with me. Then trace the word for many, and write it yourself on the empty line.\"",
-      "first": "Read the first word aloud and show one finger. Then show two fingers and say the word for many. Point to the s at the end: \"We add s when there is more than one.\" Trace the word for many together. Read each word on the page aloud with the class before they trace.",
-      "stuck": "Read the word for one and the word for many for the child and have the child point to the part that is different. \"Octopus\" gets -es: octopuses. Then trace one letter at a time."
+      "say": "\"These words are long. Read each word with me, trace it, and then write it yourself on the empty line.\"",
+      "first": "Name the pictures together and read each long word aloud, clapping its parts: \"skate-board.\" Do the first word together: trace it with your finger and write it on the board, one part at a time.",
+      "stuck": "Read the word for the child and have the child say it back while pointing to it. For the writing, have the child copy one letter at a time and keep the letters close together."
      }
     },
     {
@@ -6703,31 +6705,31 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:mazes",
-     "type": "K-405",
-     "title": "Help the Boy on the Bike Reach the Slide",
-     "instruction": "Help the hedgehog get to the apple tree. Draw a line along the way.",
-     "core": "maze-puzzles-k405-14",
-     "hard": "maze-puzzles-hard-k405-26",
-     "easy": "maze-puzzles-easy-k405-4",
+     "point": "K:patterns",
+     "type": "K-053",
+     "title": "Growing Patterns",
+     "instruction": "The pattern grows. Circle the group that comes next.",
+     "core": "patterns-vehicles-k053",
      "script": {
-      "say": "\"Time for a maze. Find the way along the light path from the animal to its goal. Use your finger first, then your pencil.\"",
-      "first": "Hold up the page and show where the path starts, at the animal with the arrow, and where it ends. Trace the beginning of the way with your finger and stop at the first place where the path splits: \"Which way? Let's try one.\" Tell the children to find the whole way with a finger before they draw.",
-      "stuck": "Tell the child that a dead end is part of every maze: go back to the last place where the path split and try the other way. Starting from the goal and working backward also helps."
+      "say": "\"These patterns grow: each box has one more than the box before. Count the boxes. Circle the group that comes next.\"",
+      "first": "Do the first row together: count the pictures in each box aloud, \"one, two, three.\" Ask, \"So how many come next?\" Count the groups at the end of the row and circle the one with four.",
+      "stuck": "Have the child touch each picture and say its name aloud from the start of the row, then say the next word before looking at the choices. If the child cannot name a picture, give it a simple name."
      }
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:animal-babies",
-     "type": "K-205",
-     "title": "Animal Babies",
-     "instruction": "Draw a line from each grown-up animal to its baby.",
-     "core": "science-match-k205-2",
+     "point": "K:transport-flying",
+     "type": "K-206",
+     "title": "Things That Fly",
+     "instruction": "Draw a line from each picture to the group it belongs to.",
+     "core": "science-sort-k206",
+     "hard": "science-sort-hard-k206-7",
+     "easy": "science-sort-easy-k206-2",
      "script": {
-      "say": "\"On the left are grown-up animals. On the right are their babies, but they are mixed up. Draw a line from each grown-up animal to its own baby.\"",
-      "first": "Name the grown-up animals together, then the babies. Do the first one together: point to the first grown-up animal and ask, \"Which baby belongs to it? How do you know?\" Draw the line from dot to dot. Some babies look very different from their parents, like a caterpillar and a butterfly.",
-      "stuck": "Point to one baby and ask what kind of animal it will be when it grows up. If the child does not know, say what the baby is called: a calf is a baby cow, a foal is a baby horse, a chick is a baby hen."
+      "say": "\"At the top of the page there are pictures. At the bottom there are labeled boxes. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this go? Does it fly?\" Draw the line from the dot under the picture to its box.",
+      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
      }
     }
    ]
@@ -6763,16 +6765,17 @@
     {
      "key": "reading",
      "minutes": 15,
-     "point": "K:articles",
-     "type": "K-306",
-     "title": "Circle the Right Word: Four Pictures",
-     "instruction": "Say each picture word, then circle the word that belongs with it.",
-     "core": "articles-household-bw-k306-4",
-     "easy": "articles-easy-spring-k306-3",
+     "point": "K:human-body",
+     "type": "K-354",
+     "title": "Parts of the Body",
+     "instruction": "Copy each word from the bank onto the line that points to that part of the body.",
+     "core": "human-body-k354-2",
+     "hard": "human-body-hard-k354-13",
+     "easy": "human-body-easy-k354-8",
      "script": {
-      "say": "\"Under each picture are two little words: a and an. Say the name of the picture with a in front of it, then with an. Circle the one that sounds right.\"",
-      "first": "Name the pictures together: cup, bed, umbrella, bottle. Do the first one together: \"a cup, an cup. Which sounds right?\" Circle a. Tell the children that an goes in front of words that start with a, e, i, o, or u. For your own reference: a cup, a bed, an umbrella, a bottle.",
-      "stuck": "Say both choices for the child, slowly, and let the child hear which one is easier to say. Ask, \"Does the word start with a, e, i, o, or u?\""
+      "say": "\"Look at the picture. Each line points to a part of the body. The words are in the box at the top. Copy the right word onto each line.\"",
+      "first": "Read the words in the box aloud and have the children touch that part of their own body for each one. Do the first line together: follow it with your finger to the part it points to, say its name, find the word in the box, and copy it onto the line letter by letter.",
+      "stuck": "Have the child touch the part on their own body and say its name. Then find the word in the box together; the first letter helps: \"Hand starts with h. Where is the word that starts with h?\""
      }
     },
     {
@@ -6795,14 +6798,15 @@
      "key": "writing",
      "minutes": 15,
      "point": "K:all-about-me-personal",
-     "type": "K-342",
-     "title": "My Favorite Things: Circle and Write",
-     "instruction": "In each row, circle your favorite picture and copy its word onto the line.",
-     "core": "all-about-me-k342-5",
+     "type": "K-345",
+     "title": "I Can: Check What You Can Do",
+     "instruction": "Read each sentence and check the things you can do. Then write one thing you want to learn.",
+     "core": "all-about-me-k345-4",
+     "hard": "all-about-me-hard-k345-4",
      "script": {
-      "say": "\"In each row there are pictures of different things. Circle the one you like best. Then copy its word on the line.\"",
-      "first": "Do the first row together: name the pictures, ask a few children which one they like best, and show how to circle one. Then show how to copy its word onto the line, letter by letter. Everyone circles their own favorite; there is no right answer.",
-      "stuck": "Have the child put a finger under the word and copy one letter at a time, moving the finger along. If the child cannot choose, say, \"Pick the one you would like to have today.\""
+      "say": "\"This page is about what YOU can do. Listen to each sentence. If you can do it, put a check in its box. At the bottom, write one thing you want to learn.\"",
+      "first": "Read each sentence aloud while the children point to it: \"I can paint a picture. I can brush my teeth…\" After each one, pause so that every child can check the box or leave it empty. Tell them there is no wrong answer. For the last line, write \"I want to learn to\" on the board and let children say their ideas first.",
+      "stuck": "Read the sentence again and ask the child, \"Can you do that?\" For the last line, a child may draw the thing and write the first letter or one word with your help."
      }
     },
     {
@@ -6840,15 +6844,17 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:patterns",
-     "type": "K-053",
-     "title": "Growing Patterns",
-     "instruction": "The pattern grows. Circle the group that comes next.",
-     "core": "patterns-vehicles-k053",
+     "point": "K:shadow-closure",
+     "type": "K-057",
+     "title": "Match the Shadow",
+     "instruction": "Draw a line from each picture to its shadow.",
+     "core": "visual-matching-body-parts-k057-2",
+     "hard": "visual-matching-hard-activities-k057-3",
+     "easy": "visual-matching-easy-hospital-k057-3",
      "script": {
-      "say": "\"These patterns grow: each box has one more than the box before. Count the boxes. Circle the group that comes next.\"",
-      "first": "Do the first row together: count the pictures in each box aloud, \"one, two, three.\" Ask, \"So how many come next?\" Count the groups at the end of the row and circle the one with four.",
-      "stuck": "Have the child touch each picture and say its name aloud from the start of the row, then say the next word before looking at the choices. If the child cannot name a picture, give it a simple name."
+      "say": "\"Each picture on the left has a shadow on the right. A shadow is dark and shows only the shape. Draw a line from each picture to its shadow.\"",
+      "first": "Do the first one together: look at the outline of the first picture and ask, \"Which shadow has the same shape?\" Draw the line from dot to dot. Tell the children to look at the edges: the ears, the wheels, the tail.",
+      "stuck": "Have the child trace the outside of the picture with a finger, then trace the shadows until one has the same shape."
      }
     },
     {
@@ -6930,17 +6936,17 @@
     {
      "key": "writing",
      "minutes": 15,
-     "point": "K:letter-formation",
-     "type": "K-238",
-     "title": "Trace the Letter N n",
-     "instruction": "Trace each letter, then write one on your own at the end of the line. Start at the orange dot and follow the arrows.",
-     "core": "letter-tracing-k238-15-n",
-     "hard": "letter-tracing-hard-k238-60-g",
-     "easy": "letter-tracing-easy-k238-34-g",
+     "point": "K:singular-plural",
+     "type": "K-287",
+     "title": "Singular and Plural",
+     "instruction": "Read the word for one. Then trace the word for many and write it yourself on the empty line.",
+     "core": "singular-plural-classroom-k287-3",
+     "hard": "singular-plural-hard-animals-bw-2-k287-4",
+     "easy": "singular-plural-easy-things-that-fly-k287-3",
      "script": {
-      "say": "\"Now we practice writing letters. Start at the orange dot and follow the arrows. Trace the letters first. Then write one all by yourself on the empty line.\"",
-      "first": "Write the first letter of the page big on the board, saying where you start and which way you go. Have the children write it in the air with you. Then they trace the letters on the page. Walk around and watch where each child starts.",
-      "stuck": "Put your finger on the orange dot: \"Start here. Which way does the arrow point?\" If the letter the child writes alone is far from the model, have the child trace one more and try again. Do not ask for a perfect letter."
+      "say": "\"The word for one is written for you. Read it with me. Then trace the word for many, and write it yourself on the empty line.\"",
+      "first": "Read the first word aloud and show one finger. Then show two fingers and say the word for many. Point to the s at the end: \"We add s when there is more than one.\" Trace the word for many together. Read each word on the page aloud with the class before they trace.",
+      "stuck": "Read the word for one and the word for many for the child and have the child point to the part that is different. Then trace one letter at a time."
      }
     },
     {
@@ -6976,33 +6982,33 @@
     {
      "key": "logic",
      "minutes": 10,
-     "point": "K:mazes",
-     "type": "K-406",
-     "title": "Help the Penguin Get to the Snowman",
-     "instruction": "Help the puppy get to the ball. Draw a line along the wide road and stay between its edges.",
-     "core": "maze-puzzles-k406-7",
-     "hard": "maze-puzzles-hard-k406-12",
-     "easy": "maze-puzzles-easy-k406-4",
+     "point": "K:spot-the-difference",
+     "type": "K-399",
+     "title": "What Is Missing?",
+     "instruction": "Circle the 3 empty places in the bottom picture where something from the top picture is missing, and check a box for each.",
+     "core": "find-the-differences-k399-11",
+     "hard": "find-the-differences-hard-k399-20",
+     "easy": "find-the-differences-easy-k399-5",
      "script": {
-      "say": "\"Time for a maze. Help the animal get to its goal. Draw a line along the wide road and stay between its edges.\"",
-      "first": "Hold up the page, read its title aloud, and show where the road starts, at the animal with the arrow, and where it ends. Trace the road with your finger and stop at each place where it splits: \"Which way leads to the goal?\" Tell the children to find the whole way with a finger before they draw.",
-      "stuck": "Tell the child that a dead end is part of every maze: go back to the last place where the path split and try the other way. Starting from the goal and working backward also helps."
+      "say": "\"The two pictures are the same, but three things are missing from the bottom picture. Find each empty place, circle it, and check a box for each one.\"",
+      "first": "Hold up the page and compare the two pictures with the class, from the top down. Find one thing that is missing together and circle the empty place in the bottom picture. Check the first box.",
+      "stuck": "Have the child pick one thing in the top picture and look for it in the bottom picture: \"Is it there?\" There are three missing things; the three boxes help them count."
      }
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:animal-groups-homes",
-     "type": "K-209",
-     "title": "Farm and Wild Animals",
-     "instruction": "Draw a line from each animal to the group it belongs to.",
-     "core": "science-sort-k209-2",
-     "hard": "science-sort-hard-k209-8",
-     "easy": "science-sort-easy-k209-3",
+     "point": "K:hot-cold-places",
+     "type": "K-724",
+     "title": "Hot Places, Cold Places",
+     "instruction": "Draw a line from each thing to the place where people would use it.",
+     "core": "science-sort-k724",
+     "hard": "science-sort-hard-k724-8",
+     "easy": "science-sort-easy-k724-3",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are two boxes for two kinds of animals. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the two boxes aloud, Farm Animals and Wild Animals, and name every animal together. Do the first one together: ask, \"Does this animal live on a farm, or in the wild?\" Draw the line from the dot under it to its box.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? Where?\" Then let the child choose the box."
+      "say": "\"One big picture is a snowy, cold place and the other is a hot beach. Draw a line from each thing to the place where people would use it.\"",
+      "first": "Name the two places together and ask what the weather is like in each. Do the first thing together: \"Would people use this in the snow or at the beach? Why?\"",
+      "stuck": "Ask, \"Would this keep you warm, or help you stay cool?\" Things for cold, snowy days go with the snowy place; things for hot, sunny days go with the beach."
      }
     }
    ]

@@ -2711,6 +2711,176 @@
    ],
    "why": "Saying no clearly, giving a reason and walking away demonstrates refusal skills (NHES 4.5.5, grades 3-5).",
    "review": "batch-k 2026-11-23"
+  },
+  "K:class-rules": {
+   "rows": [
+    {
+     "id": "D2.Civ.12.K-2",
+     "rel": "teaches"
+    },
+    {
+     "id": "D2.Civ.3.K-2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Choosing, in each pair of the same moment, the picture that follows a class rule (walking in the hall, raising a hand, cleaning up, listening at story time) identifies how rules work in the classroom and school (D2.Civ.12, K-2); saying which picture keeps everyone safe or helps us learn leads up to the purposes of rules (D2.Civ.3, K-2).",
+   "review": "batch-sk 2026-11-24"
+  },
+  "K:take-turns-share": {
+   "rows": [
+    {
+     "id": "D2.Civ.7.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Telling friends who take turns, share and help from acts that are not kind (grabbing, pushing, knocking down a tower), and drawing myself helping a friend, apply civic virtues in school settings (D2.Civ.7, K-2).",
+   "review": "batch-sk 2026-11-24"
+  },
+  "K:many-kinds-of-families": {
+   "rows": [
+    {
+     "id": "D2.Civ.6.K-2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Seeing six kinds of family (one parent, two fathers, a grandmother raising grandchildren, a foster family, a big family) and drawing the people who care for me name the family as the first group whose members share tasks and care; D2.Civ.6 (K-2) asks how communities accomplish common tasks and fill roles, which the page leads up to but does not ask.",
+   "review": "batch-sk 2026-11-24"
+  },
+  "K:family-traditions": {
+   "rows": [
+    {
+     "id": "D2.Geo.6.K-2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Matching each tradition's object (a party hat, a pie, a diya, a red envelope) to the family scene that keeps it, and drawing my own family's tradition, identify cultural practices; D2.Geo.6 (K-2) ties cultural characteristics to specific places, which the page does not ask.",
+   "review": "batch-sk 2026-11-24"
+  },
+  "K:long-ago-today": {
+   "rows": [
+    {
+     "id": "D2.His.2.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Matching each long-ago thing (a washboard and tub, a candle, a horse and buggy, a wall telephone) to the thing that does the same job today compares life in the past to life today (D2.His.2, K-2).",
+   "review": "batch-sk 2026-11-24"
+  },
+  "K:choosing-one-thing": {
+   "rows": [
+    {
+     "id": "D2.Eco.2.K-2",
+     "rel": "teaches"
+    },
+    {
+     "id": "D2.Eco.1.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "With one coin, one recess or one library book, the child chooses one thing and crosses out the one given up: the limit makes the decision (D2.Eco.1, K-2), and the choice and the thing given up are its benefit and its cost (D2.Eco.2, K-2).",
+   "review": "batch-sk 2026-11-24"
+  },
+  "K:goods-and-services": {
+   "rows": [
+    {
+     "id": "D2.Eco.3.K-2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Matching each worker (a baker, a builder, a barber, a mail carrier) to the good they make or the service they do names goods and services and who produces them; D2.Eco.3 (K-2) asks for the skills and knowledge each job needs, which the lesson only begins (\"what did each worker have to learn?\").",
+   "review": "batch-sk 2026-11-24"
+  },
+  "K:our-flag": {
+   "rows": [
+    {
+     "id": "D2.Civ.5.K-2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Coloring the flag of the United States and counting its 13 stripes name the country and its symbol; D2.Civ.5 (K-2) asks what governments are and what they do, which the lesson only begins (leaders who make rules for the whole country).",
+   "review": "batch-sk 2026-11-24"
+  },
+  "K:martin-luther-king": {
+   "rows": [
+    {
+     "id": "D2.Civ.14.K-2",
+     "rel": "teaches"
+    },
+    {
+     "id": "D2.Civ.8.K-2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The true story of Martin Luther King Jr., who worked peacefully with many others to change laws that kept Black people and white people apart, describes how people have tried to improve their communities (D2.Civ.14, K-2); drawing children playing a fair game leads up to fairness and equality (D2.Civ.8, K-2).",
+   "review": "batch-sk 2026-11-24"
+  },
+  "K:fair-for-everyone": {
+   "rows": [
+    {
+     "id": "D2.Civ.8.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Choosing, in each pair of the same moment, the one that is fair to everyone (taking turns on the swing, crackers shared, everyone in the game) and drawing how to make an unfair moment fair describe fairness and equality (D2.Civ.8, K-2).",
+   "review": "batch-sk 2026-11-24"
+  },
+  "K:land-and-water": {
+   "rows": [
+    {
+     "id": "D2.Geo.3.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Coloring the water and the land of a globe that shows North and South America, and finding the United States on the class globe, use a globe to identify environmental characteristics of places (D2.Geo.3, K-2).",
+   "review": "batch-sk 2026-11-24"
+  },
+  "K:neighborhood-map": {
+   "rows": [
+    {
+     "id": "D2.Geo.2.K-2",
+     "rel": "teaches"
+    },
+    {
+     "id": "D2.Geo.1.K-2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Finding the school and the park on a map with a picture key and drawing a path along the streets from a house to the school use a map to describe places and how they connect (D2.Geo.2, K-2); drawing my own house and a path onto the map leads up to constructing a map (D2.Geo.1, K-2).",
+   "review": "batch-sk 2026-11-24"
+  },
+  "K:hot-cold-places": {
+   "rows": [
+    {
+     "id": "D2.Geo.4.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sending each thing (a coat, mittens, a sled, a swimsuit, sandals, a beach ball) to the snowy town or the beach town where people use it explains how weather and climate affect people's lives in a place (D2.Geo.4, K-2).",
+   "review": "batch-sk 2026-11-24"
+  },
+  "K:school-helpers": {
+   "rows": [
+    {
+     "id": "D2.Civ.1.K-2",
+     "rel": "teaches"
+    },
+    {
+     "id": "D2.Civ.2.K-2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "After a school walk on which each adult says what they are in charge of, matching each problem (a hurt knee, a spill, a book to find, an empty lunch tray, going home early) to the school helper who handles it describes the roles and responsibilities of people in authority at school (D2.Civ.1, K-2), and leads up to how all people play important roles in a community (D2.Civ.2, K-2).",
+   "review": "batch-sk 2026-11-24"
+  },
+  "K:class-vote": {
+   "rows": [
+    {
+     "id": "D2.Civ.11.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Voting once, counting the votes together on a class graph and reading the book that won, even when my own book did not win, show how people work together to make decisions in the classroom (D2.Civ.11, K-2).",
+   "review": "batch-sk 2026-11-24"
   }
  }
 }

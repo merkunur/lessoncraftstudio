@@ -1,5 +1,5 @@
 {
- "$comment": "The coverage gaps of en frozen by scripts/units/coverage.js --freeze. This list may only SHRINK: a gap that is closed is taken off it (the gate fails until it is), and no new gap may be added to make a build pass. 2026-11-23: the ten Kindergarten science gaps (7 unit checks, the 3 checks of the year) were added ONCE as a new subject was first measured (Stage D, plan decision 7): the card-based check engine cannot read the science pages yet; an observation check or a card form of the pages closes them. 2026-11-24: the ten Grade 1 science gaps were added ONCE as the Grade 1 science plan was first measured (decision 7): 6 unit checks and the 3 checks of the year for the same reason as Kindergarten, and weeks:plan-1-science because the plan fills 27 of 28 weeks (its 83 sessions are 27.7 weeks; each unit rounds to whole weeks). 2026-11-24: the nine Grade 2 science gaps were added ONCE as the Grade 2 science plan was first measured (decision 7): 6 unit checks and the 3 checks of the year, for the same reason (the plan itself fills its 28 weeks). 2026-11-24: the nine Grade 3 science gaps were added ONCE as the Grade 3 science plan was first measured (decision 7): 5 unit checks and the 3 checks of the year for the same reason as Kindergarten, and weeks:plan-3-science because the plan fills 25 of the 26 teaching weeks its design gives Grade 3 (the state test weeks take the science block; its 76 sessions are 25.3 weeks; each unit rounds to whole weeks).",
+ "$comment": "The coverage gaps of en frozen by scripts/units/coverage.js --freeze. This list may only SHRINK: a gap that is closed is taken off it (the gate fails until it is), and no new gap may be added to make a build pass. 2026-11-24: the eight Kindergarten social studies gaps were added ONCE as the Kindergarten social studies plan was first measured (decision 7): 5 unit checks and the 3 checks of the year, for the same reason (the card engine cannot read the social studies pages: record pages, drawings and matches of drawn pictures; an observation check or a card form closes them). The plan fills its 28 weeks: its 55 sessions share the half week where one unit ends and the next begins (scripts/units/assemble.js).",
  "gaps": [
   "check:g1-animal-bodies-homes-families",
   "check:g1-light-shadows-signals",
@@ -19,6 +19,11 @@
   "check:g3-surviving-in-a-changing-world",
   "check:g3-weather-and-climate",
   "check:k-animals-and-homes",
+  "check:k-helpers-needs-wants",
+  "check:k-maps-places-getting-around",
+  "check:k-me-and-my-school",
+  "check:k-my-family",
+  "check:k-our-country-being-fair",
   "check:k-plants-and-animals-grow",
   "check:k-pushes-and-pulls",
   "check:k-senses-and-body",
@@ -41,6 +46,9 @@
   "year:3-science:middle",
   "year:K-science:beginning",
   "year:K-science:end",
-  "year:K-science:middle"
+  "year:K-science:middle",
+  "year:K-social:beginning",
+  "year:K-social:end",
+  "year:K-social:middle"
  ]
 }

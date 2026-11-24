@@ -11833,6 +11833,46 @@
    "prerequisites": []
   },
   {
+   "id": "K:land-and-water",
+   "grade": "K",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "A globe shows land and water, and there is more water than land",
+   "code": "D2.Geo.3.K-2",
+   "types": [
+    "K-722"
+   ],
+   "families": [
+    "maps"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 2,
+   "prerequisites": []
+  },
+  {
+   "id": "K:neighborhood-map",
+   "grade": "K",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Read a neighborhood map seen from above with a picture key, and find a path along the streets",
+   "code": "D2.Geo.2.K-2",
+   "types": [
+    "K-723"
+   ],
+   "families": [
+    "maps"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 3,
+   "prerequisites": []
+  },
+  {
    "id": "K:family",
    "grade": "K",
    "subject": "social",
@@ -11852,7 +11892,207 @@
     237
    ],
    "verdict": "gap",
-   "order": 2,
+   "order": 4,
+   "prerequisites": []
+  },
+  {
+   "id": "K:many-kinds-of-families",
+   "grade": "K",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Families come in many kinds, and every one is a family; the people who care for me",
+   "code": "D2.Civ.6.K-2",
+   "types": [
+    "K-714"
+   ],
+   "families": [
+    "family"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 5,
+   "prerequisites": []
+  },
+  {
+   "id": "K:family-traditions",
+   "grade": "K",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Traditions families may keep: a birthday, Thanksgiving, Diwali, Lunar New Year, and my own family's",
+   "code": "D2.Geo.6.K-2",
+   "types": [
+    "K-715"
+   ],
+   "families": [
+    "family"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 6,
+   "prerequisites": []
+  },
+  {
+   "id": "K:long-ago-today",
+   "grade": "K",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Things from long ago and things we use today that do the same job",
+   "code": "D2.His.2.K-2",
+   "types": [
+    "K-716"
+   ],
+   "families": [
+    "family"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 7,
+   "prerequisites": []
+  },
+  {
+   "id": "K:class-rules",
+   "grade": "K",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Tell the picture that follows a class rule from the one that does not, and say how the rule helps us",
+   "code": "D2.Civ.12.K-2",
+   "types": [
+    "K-712"
+   ],
+   "families": [
+    "feelings"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 8,
+   "prerequisites": []
+  },
+  {
+   "id": "K:take-turns-share",
+   "grade": "K",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Tell taking turns, sharing and helping from acts that are not kind",
+   "code": "D2.Civ.7.K-2",
+   "types": [
+    "K-713"
+   ],
+   "families": [
+    "feelings"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 9,
+   "prerequisites": []
+  },
+  {
+   "id": "K:martin-luther-king",
+   "grade": "K",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Martin Luther King Jr. worked peacefully, with many others, to change unfair laws",
+   "code": "D2.Civ.14.K-2",
+   "types": [
+    "K-720"
+   ],
+   "families": [
+    "feelings"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 10,
+   "prerequisites": []
+  },
+  {
+   "id": "K:fair-for-everyone",
+   "grade": "K",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Tell a fair moment from an unfair one, and show how to make it fair",
+   "code": "D2.Civ.8.K-2",
+   "types": [
+    "K-721"
+   ],
+   "families": [
+    "feelings"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 11,
+   "prerequisites": []
+  },
+  {
+   "id": "K:choosing-one-thing",
+   "grade": "K",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "When I can have only one thing, I choose one and give up the other",
+   "code": "D2.Eco.2.K-2",
+   "types": [
+    "K-717"
+   ],
+   "families": [
+    "money"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 12,
+   "prerequisites": []
+  },
+  {
+   "id": "K:class-vote",
+   "grade": "K",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "A class vote: each child votes once, we count together, and the most votes wins",
+   "code": "D2.Civ.11.K-2",
+   "types": [
+    "K-726"
+   ],
+   "families": [
+    "graphing-data"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 13,
+   "prerequisites": []
+  },
+  {
+   "id": "K:our-flag",
+   "grade": "K",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Our country, the United States of America, and its flag: 13 stripes and 50 stars",
+   "code": "D2.Civ.5.K-2",
+   "types": [
+    "K-719"
+   ],
+   "families": [
+    "read-and-color"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 14,
    "prerequisites": []
   },
   {
@@ -11875,7 +12115,7 @@
     247
    ],
    "verdict": "gap",
-   "order": 3,
+   "order": 15,
    "prerequisites": []
   },
   {
@@ -11896,7 +12136,27 @@
     245
    ],
    "verdict": "gap",
-   "order": 4,
+   "order": 16,
+   "prerequisites": []
+  },
+  {
+   "id": "K:hot-cold-places",
+   "grade": "K",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "A hot place and a cold place change what people wear and do outside",
+   "code": "D2.Geo.4.K-2",
+   "types": [
+    "K-724"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 17,
    "prerequisites": []
   },
   {
@@ -11917,7 +12177,47 @@
     236
    ],
    "verdict": "gap",
-   "order": 5,
+   "order": 18,
+   "prerequisites": []
+  },
+  {
+   "id": "K:goods-and-services",
+   "grade": "K",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Workers make goods (bread, a house) or do services (a haircut, bringing the mail)",
+   "code": "D2.Eco.3.K-2",
+   "types": [
+    "K-718"
+   ],
+   "families": [
+    "science-match"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 19,
+   "prerequisites": []
+  },
+  {
+   "id": "K:school-helpers",
+   "grade": "K",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "The people who help at school and the problem each one helps with",
+   "code": "D2.Civ.1.K-2",
+   "types": [
+    "K-725"
+   ],
+   "families": [
+    "science-match"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 20,
    "prerequisites": []
   },
   {
@@ -11942,7 +12242,7 @@
     266
    ],
    "verdict": "gap",
-   "order": 6,
+   "order": 21,
    "prerequisites": []
   },
   {
@@ -11965,7 +12265,7 @@
     237
    ],
    "verdict": "gap",
-   "order": 7,
+   "order": 22,
    "prerequisites": []
   },
   {
@@ -11989,7 +12289,7 @@
     286
    ],
    "verdict": "gap",
-   "order": 8,
+   "order": 23,
    "prerequisites": []
   },
   {
@@ -12010,7 +12310,7 @@
     287
    ],
    "verdict": "gap",
-   "order": 9,
+   "order": 24,
    "prerequisites": []
   },
   {
@@ -12032,7 +12332,7 @@
     237
    ],
    "verdict": "gap",
-   "order": 10,
+   "order": 25,
    "prerequisites": []
   },
   {
@@ -12053,7 +12353,7 @@
     287
    ],
    "verdict": "gap",
-   "order": 11,
+   "order": 26,
    "prerequisites": []
   },
   {

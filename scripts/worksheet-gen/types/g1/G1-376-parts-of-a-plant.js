@@ -296,6 +296,7 @@ const TYPE = {
       if (d.forceSlots) slots = d.forceSlots.slice();
       const html = items.map((it, i) => {
         const dis = rng.shuffle(it.allow.slice()).slice(0, C - 1);
+        for (let k = 0; k < (it.rngPad || 0); k++) rng.next();   // a replaced item keeps the old item's number of draws (celery -> asparagus, 2026-11-24): the later cards do not move
         const chips = [];
         let q = 0;
         for (let s = 0; s < C; s++) chips.push(s === slots[i] ? it.part : dis[q++]);

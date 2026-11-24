@@ -4868,6 +4868,26 @@
    ],
    "by": "code"
   },
+  "2:land-water-map": {
+   "rows": [
+    {
+     "id": "2-ESS2-2",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:landform-model": {
+   "rows": [
+    {
+     "id": "2-ESS2-2",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
   "2:plant-parts": {
    "rows": [
     {
@@ -4882,6 +4902,36 @@
     }
    ],
    "by": "review"
+  },
+  "2:plants-light-water": {
+   "rows": [
+    {
+     "id": "2-LS2-1",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:seeds-on-the-move": {
+   "rows": [
+    {
+     "id": "2-LS2-2",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:be-a-pollinator": {
+   "rows": [
+    {
+     "id": "2-LS2-2",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
   },
   "2:life-cycles": {
    "rows": [
@@ -4912,6 +4962,106 @@
     }
    ],
    "by": "review"
+  },
+  "2:schoolyard-survey": {
+   "rows": [
+    {
+     "id": "2-LS4-1",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:compare-habitats": {
+   "rows": [
+    {
+     "id": "2-LS4-1",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:plants-for-habitats": {
+   "rows": [
+    {
+     "id": "2-LS4-1",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:describe-materials": {
+   "rows": [
+    {
+     "id": "2-PS1-1",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:best-material": {
+   "rows": [
+    {
+     "id": "2-PS1-2",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:take-apart-build": {
+   "rows": [
+    {
+     "id": "2-PS1-3",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:ice-melt-fastest": {
+   "rows": [
+    {
+     "id": "2-PS1-4",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:melt-freeze-back": {
+   "rows": [
+    {
+     "id": "2-PS1-4",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:changes-cannot-undo": {
+   "rows": [
+    {
+     "id": "2-PS1-4",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:change-back-claim": {
+   "rows": [
+    {
+     "id": "2-PS1-4",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
   },
   "2:sink-float": {
    "rows": [
@@ -4972,6 +5122,66 @@
     }
    ],
    "by": "review"
+  },
+  "2:water-on-earth": {
+   "rows": [
+    {
+     "id": "2-ESS2-3",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:globe-toss": {
+   "rows": [
+    {
+     "id": "2-ESS2-3",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:fast-slow-changes": {
+   "rows": [
+    {
+     "id": "2-ESS1-1",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:water-shapes-land": {
+   "rows": [
+    {
+     "id": "2-ESS1-1",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
+  },
+  "2:stop-the-sand": {
+   "rows": [
+    {
+     "id": "K-2-ETS1-3",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
+  "2:best-solution": {
+   "rows": [
+    {
+     "id": "2-ESS2-1",
+     "rel": "teaches",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
   },
   "3:water-cycle": {
    "rows": [
@@ -5439,6 +5649,96 @@
     },
     {
      "id": "NHES.1.2.3",
+     "rel": "teaches",
+     "grade": "P-2"
+    }
+   ],
+   "by": "review"
+  },
+  "2:three-ways-healthy": {
+   "rows": [
+    {
+     "id": "NHES.1.2.2",
+     "rel": "teaches",
+     "grade": "P-2"
+    }
+   ],
+   "by": "review"
+  },
+  "2:who-helps-me-choose": {
+   "rows": [
+    {
+     "id": "NHES.2.2.1",
+     "rel": "teaches",
+     "grade": "P-2"
+    }
+   ],
+   "by": "review"
+  },
+  "2:ad-detective": {
+   "rows": [
+    {
+     "id": "NHES.2.2.2",
+     "rel": "teaches",
+     "grade": "P-2"
+    }
+   ],
+   "by": "review"
+  },
+  "2:health-goal": {
+   "rows": [
+    {
+     "id": "NHES.6.2.2",
+     "rel": "teaches",
+     "grade": "P-2"
+    }
+   ],
+   "by": "review"
+  },
+  "2:nurse-doctor-dentist": {
+   "rows": [
+    {
+     "id": "NHES.1.2.7",
+     "rel": "teaches",
+     "grade": "P-2"
+    }
+   ],
+   "by": "review"
+  },
+  "2:how-did-my-goal-go": {
+   "rows": [
+    {
+     "id": "NHES.6.2.6",
+     "rel": "teaches",
+     "grade": "P-2"
+    }
+   ],
+   "by": "review"
+  },
+  "2:stop-think-choose": {
+   "rows": [
+    {
+     "id": "NHES.5.2.3",
+     "rel": "teaches",
+     "grade": "P-2"
+    }
+   ],
+   "by": "review"
+  },
+  "2:sun-heat-cold": {
+   "rows": [
+    {
+     "id": "NHES.1.2.6",
+     "rel": "teaches",
+     "grade": "P-2"
+    }
+   ],
+   "by": "review"
+  },
+  "2:health-poster": {
+   "rows": [
+    {
+     "id": "NHES.8.2.3",
      "rel": "teaches",
      "grade": "P-2"
     }

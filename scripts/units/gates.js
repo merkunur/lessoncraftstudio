@@ -35,6 +35,12 @@ const path = require('path');
 const REPO = path.join(__dirname, '..', '..');
 const C = path.join(REPO, 'frontend', 'content');
 const LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+// P5 exemptions, an auditable list (never a loosened pattern): a lesson whose PAGE teaches a trick that is named with the
+// word, where the word is about the ad on the page and never about our material. Only the phrase is taken out before the
+// test; any other "free" in the same text still fails. 2026-11-24: G2-607 Ad Detective prints the trick "a free prize" and
+// a cereal box with a "FREE TOY" burst (2:ad-detective, NHES 2.2.2).
+const FREE_ON_THE_PAGE = { en: { '2:ad-detective': /\bfree (prize|prizes|toy|toys)\b/gi } };
+const freeIn = (l, point, s) => { const ex = FREE_ON_THE_PAGE[l] && FREE_ON_THE_PAGE[l][point]; return FREE[l].test(ex ? s.replace(ex, '') : s); };
 const FREE = { en: /\bfree\b/i, de: /\b(kostenlos|gratis|umsonst)\b/i, fr: /\b(gratuit|gratuite|gratuits|gratuites|gratuitement)\b/i, es: /\b(gratis|gratuit[oa]s?)\b/i, pt: /\b(grátis|gratuit[oa]s?)\b/i, it: /\b(gratis|gratuit[oaie])\b/i, nl: /\b(gratis|kosteloos)\b/i, sv: /\b(gratis|kostnadsfri\w*)\b/i, da: /\b(gratis)\b/i, no: /\b(gratis)\b/i, fi: /(ilmai[ns]\w*|maksut\w*)/i };
 // strings a language may still lack while its teacher has not read them (the page leaves the sentence out where the
 // key is missing); empty since the day plan of Part 4.8 was read in German and Swedish
@@ -123,7 +129,7 @@ function run(d) {
         if (!n.mistake || n.mistake.length < 60) fail('P3', lw + ': the note names no mistake');
         if (!n.words || !QUOTED.test(n.words)) fail('P3', lw + ': the note gives no words to use (nothing in quotation marks)');
         if (!n.watch || n.watch.length < 40) fail('P3', lw + ': the note does not say what to watch for');
-        for (const s of [x.title, x.objective, n.mistake, n.words, n.watch]) if (s && FREE[l].test(s)) fail('P5', lw + ': "' + s.slice(0, 60) + '" says free');
+        for (const s of [x.title, x.objective, n.mistake, n.words, n.watch]) if (s && freeIn(l, x.point, s)) fail('P5', lw + ': "' + s.slice(0, 60) + '" says free');
         // a lesson stands once in a language: by its id where it has one (a further lesson on a point), else by its point
         const key = x.id || x.point;
         if (x.id != null && !(typeof x.id === 'string' && x.id.startsWith(x.point + '#'))) fail('P2', lw + ': the lesson id "' + x.id + '" does not begin with its point');
@@ -285,6 +291,8 @@ const POISONS = [
   ['a pack without a math block', 'P4', (d) => { d.loc.en.packs[0].blocks = d.loc.en.packs[0].blocks.filter((b) => b.key !== 'math'); }],
   ['a script that says nothing aloud', 'P4', (d) => { d.loc.en.packs[0].blocks[1].script.say = 'Introduce the page and explain the task to the class.'; }],
   ['a string that says free', 'P5', (d) => { d.loc.en.uiU.teacherLead = 'Download the whole unit free.'; }],
+  ['an ad lesson that says free beside its trick', 'P5', (d) => { const x = d.loc.en.units.flatMap((u) => u.lessons).find((y) => y.point === '2:ad-detective'); x.note.watch += ' This lesson is free.'; }],
+  ['a free prize outside the ad lesson', 'P5', (d) => { const x = d.loc.en.units.flatMap((u) => u.lessons).find((y) => y.point && y.point !== '2:ad-detective'); x.note.watch += ' Every child gets a free prize.'; }],
   ['a script that says free', 'P5', (d) => { d.loc.en.packs[0].blocks[0].script.stuck += ' This page is free for everyone.'; }],
   ['an empty string of the page', 'P6', (d) => { d.loc.en.uiS.bundleBtn = ' '; }],
   ['a block kind the ui file does not name', 'P6', (d) => { delete d.loc.en.uiS.block_logic; }],

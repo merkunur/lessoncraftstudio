@@ -1061,7 +1061,7 @@
         "stamme"
       ],
       "refuseItems": [
-        "celery"
+        "asparagus"
       ],
       "refuse": [],
       "instructionBans": {
@@ -3907,6 +3907,7 @@
     "maps: EN \"Key\" is \"Signaturforklaring\" in Danish school atlases; compass letters are N-Ø-S-V (never E/W); Danish schools teach 7 verdensdele with Australien inside Oceanien and 5 verdenshave (Det Nordlige/Sydlige Ishav). The EN key word \"flower bed\" became da \"blomster\": \"blomsterbed\" overflowed its key card (verify: card word wider than its card).",
     "plants F2: EN title \"Plant Life Cycle: From Seed to Plant\" carries the science-sequence genre (\"life cycle\") on a plant face; da uses the measured Danish head \"Fra frø til plante\" (no livscyklus). Note da \"frø\" is BOTH seed (neuter, frøet) and frog (common, frøen): every frog title uses \"Frøens\", every plant title uses \"frø\" only as seed.",
     "2d-shapes riddles: EN uses \"like the corner of a book\" as the right-angle cue; in Danish that image is not a school phrase, so da riddles use hjørner + \"lige lange sider\" only. EN F2 instruction \"color the shape it has\" is vague about WHICH shape; da names both literals (\"cirkel eller rektangel\") as the gate requires.",
-    "digraphs: REFUSED for da as the design expects (all 6 ids). Danish has no digraph teaching unit in indskolingen; the nearest measured Danish demand is \"stumme bogstaver\" (Alinea hæfter) and \"lange og korte vokaler\", a different teaching point from the English digraph, so it is NOT shipped silently as a re-target; it is a candidate for a separate Danish face set if the operator wants it."
+    "digraphs: REFUSED for da as the design expects (all 6 ids). Danish has no digraph teaching unit in indskolingen; the nearest measured Danish demand is \"stumme bogstaver\" (Alinea hæfter) and \"lange og korte vokaler\", a different teaching point from the English digraph, so it is NOT shipped silently as a re-target; it is a candidate for a separate Danish face set if the operator wants it.",
+    "G2-363 plants eat (da): refuseItems asparagus — kept as published 2026-11-24: this locale printed no stem card; a stem card can come with its own units. Celery, which this locale refused before, is blocked for every locale since 2026-11-24 (its stalk is a leaf stalk); asparagus took its place in the shared bank, and da keeps the no-stem mix it was published with."
   ]
 }

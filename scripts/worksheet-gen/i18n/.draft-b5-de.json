@@ -1069,7 +1069,7 @@
         "Knospe"
       ],
       "refuseItems": [
-        "celery"
+        "asparagus"
       ],
       "refuse": [],
       "instructionBans": {
@@ -5859,6 +5859,7 @@
     "Layout, measured on the de renders (the draft validator does not render): G3-392 (Aufbau der Blüte) wrapped its one-row word bank with the textbook set Kronblatt / Kelchblatt / Staubblatt / Stempel / Stiel + decoy Wurzel (47 letters vs the EN 32); de prints \"Kelch\" (the Grundschule label for the green leaves under the flower) so the bank holds one row; a builder who wants Kelchblatt back needs a two-row bank at G3. G2-367 (Mondphasen benennen) wrapped with \"zunehmender Mond / abnehmender Mond\"; de prints Neumond / zunehmend / Vollmond / abnehmend. G2-376 failed verify while a gloss said \"aus dem Papier\" (the prefix token \"aus\" printed in a row); every de gloss now avoids ein / aus / um as words.",
     "G2-363 plants eat (de): the celery card is refused for German (refuseItems celery, mixNoStem): the eaten part is botanically the Blattstiel, and a German child meets Sellerie mostly as the Knollensellerie ROOT, so \"Stängel\" is not a single honest answer. Every other food card reads cleanly in German (Radieschen, Erbsen, Möhre/Karotte, Gurke, Spinat, Salat, Blumenkohl).",
     "G3-398 who-does-it (de): an \"-er\" title would lie: Fotograf, the -in forms (Lehrerin, Näherin, Tänzerin) and umlaut agents (Bäcker, Gärtner, Sänger, Läuferin) are not \"word + -er\"; de titles it \"Wer macht das? Personenwörter bilden\". Portraits opened: the carpenter holds a plank in a hard hat (Zimmermann, not the transparent Tischler), so it is not an agent in de.",
-    "K-370 family (EN): the relation-riddle frame \"Mia's mom's mom is Mia's ___.\" stacks two Saxon genitives, which German cannot do naturally (\"Mias Mamas Mama\"); de uses \"Die Mama von Mias Mama ist Mias ___.\" Recorded because a literal rebuild from the EN frame would ship ungrammatical German."
+    "K-370 family (EN): the relation-riddle frame \"Mia's mom's mom is Mia's ___.\" stacks two Saxon genitives, which German cannot do naturally (\"Mias Mamas Mama\"); de uses \"Die Mama von Mias Mama ist Mias ___.\" Recorded because a literal rebuild from the EN frame would ship ungrammatical German.",
+    "G2-363 plants eat (de): refuseItems asparagus — kept as published 2026-11-24: this locale printed no stem card; a stem card can come with its own units. Celery, which this locale refused before, is blocked for every locale since 2026-11-24 (its stalk is a leaf stalk); asparagus took its place in the shared bank, and de keeps the no-stem mix it was published with."
   ]
 }

@@ -5081,6 +5081,358 @@
     }
    ],
    "weeks": 15
+  },
+  {
+   "id": "g2-properties-of-materials",
+   "slug": "properties-of-materials-grade-2-unit",
+   "status": "live",
+   "grade": "2",
+   "subject": "science",
+   "title": "Properties of Materials",
+   "metaTitle": "Grade 2 Science Lesson Plans: Properties of Materials",
+   "metaDescription": "A Grade 2 science unit: 5 lessons on sorting by material, testing properties, shaping clay to float, the best material for a job, and building something new.",
+   "lessons": [
+    {
+     "point": "2:materials",
+     "types": [
+      "G2-348"
+     ]
+    },
+    {
+     "point": "2:describe-materials",
+     "types": [
+      "G2-584"
+     ],
+     "days": 3
+    },
+    {
+     "point": "2:sink-float",
+     "types": [
+      "G2-382",
+      "G2-383"
+     ]
+    },
+    {
+     "point": "2:best-material",
+     "types": [
+      "G2-585"
+     ],
+     "days": 3
+    },
+    {
+     "point": "2:take-apart-build",
+     "types": [
+      "G2-586"
+     ]
+    }
+   ],
+   "weeks": 5
+  },
+  {
+   "id": "g2-land-and-water",
+   "slug": "land-and-water-on-earth-grade-2-unit",
+   "status": "live",
+   "grade": "2",
+   "subject": "science",
+   "title": "Land and Water on Earth",
+   "metaTitle": "Grade 2 Science Lesson Plans: Land and Water on Earth",
+   "metaDescription": "A Grade 2 science unit: 4 lessons on mapping land and water, a landform model, where water is found on Earth, and a globe toss to see if there is more water or land.",
+   "lessons": [
+    {
+     "point": "2:land-water-map",
+     "types": [
+      "G2-587"
+     ]
+    },
+    {
+     "point": "2:landform-model",
+     "types": [
+      "G2-588"
+     ],
+     "days": 3
+    },
+    {
+     "point": "2:water-on-earth",
+     "types": [
+      "G2-589"
+     ]
+    },
+    {
+     "point": "2:globe-toss",
+     "types": [
+      "G2-590"
+     ]
+    }
+   ],
+   "weeks": 4
+  },
+  {
+   "id": "g2-earth-changes",
+   "slug": "earth-changes-fast-and-slow-grade-2-unit",
+   "status": "live",
+   "grade": "2",
+   "subject": "science",
+   "title": "Earth Changes, Fast and Slow",
+   "metaTitle": "Grade 2 Science Lesson Plans: Earth Changes, Fast and Slow",
+   "metaDescription": "A Grade 2 science unit: 6 lessons on day and night, the Moon in a month, fast and slow Earth changes, water shaping land, and ways to stop sand washing away.",
+   "lessons": [
+    {
+     "point": "2:day-and-night",
+     "types": [
+      "G2-368"
+     ]
+    },
+    {
+     "point": "2:moon-phases",
+     "types": [
+      "G2-367"
+     ]
+    },
+    {
+     "point": "2:fast-slow-changes",
+     "types": [
+      "G2-591"
+     ]
+    },
+    {
+     "point": "2:water-shapes-land",
+     "types": [
+      "G2-592"
+     ],
+     "days": 3
+    },
+    {
+     "point": "2:stop-the-sand",
+     "types": [
+      "G2-593"
+     ],
+     "days": 3
+    },
+    {
+     "point": "2:best-solution",
+     "types": [
+      "G2-594"
+     ]
+    }
+   ],
+   "weeks": 6
+  },
+  {
+   "id": "g2-heating-and-cooling",
+   "slug": "heating-and-cooling-grade-2-unit",
+   "status": "live",
+   "grade": "2",
+   "subject": "science",
+   "title": "Heating and Cooling",
+   "metaTitle": "Grade 2 Science Lesson Plans: Heating and Cooling",
+   "metaDescription": "A Grade 2 science unit: 4 lessons on where ice melts fastest, melting and freezing, changes we cannot undo, and a claim with evidence about changing back.",
+   "lessons": [
+    {
+     "point": "2:ice-melt-fastest",
+     "types": [
+      "G2-595"
+     ],
+     "days": 3
+    },
+    {
+     "point": "2:melt-freeze-back",
+     "types": [
+      "G2-596"
+     ]
+    },
+    {
+     "point": "2:changes-cannot-undo",
+     "types": [
+      "G2-597"
+     ]
+    },
+    {
+     "point": "2:change-back-claim",
+     "types": [
+      "G2-598"
+     ]
+    }
+   ],
+   "weeks": 4
+  },
+  {
+   "id": "g2-plants-and-pollinators",
+   "slug": "plants-pollinators-and-life-cycles-grade-2-unit",
+   "status": "live",
+   "grade": "2",
+   "subject": "science",
+   "title": "Plants, Pollinators, and Life Cycles",
+   "metaTitle": "Grade 2 Science Lesson Plans: Plants, Pollinators, and Life Cycles",
+   "metaDescription": "A Grade 2 science unit: 5 lessons on plant parts we eat, what plants need to grow, how seeds travel, being a pollinator, and life cycles from egg to grown-up.",
+   "lessons": [
+    {
+     "point": "2:plant-parts",
+     "types": [
+      "G2-363",
+      "G2-364"
+     ]
+    },
+    {
+     "point": "2:plants-light-water",
+     "types": [
+      "G2-599"
+     ],
+     "days": 3
+    },
+    {
+     "point": "2:seeds-on-the-move",
+     "types": [
+      "G2-600"
+     ],
+     "days": 3
+    },
+    {
+     "point": "2:be-a-pollinator",
+     "types": [
+      "G2-601"
+     ]
+    },
+    {
+     "point": "2:life-cycles",
+     "types": [
+      "G2-365",
+      "G2-366"
+     ]
+    }
+   ],
+   "weeks": 5
+  },
+  {
+   "id": "g2-habitats",
+   "slug": "habitats-many-kinds-of-life-grade-2-unit",
+   "status": "live",
+   "grade": "2",
+   "subject": "science",
+   "title": "Habitats: Many Kinds of Life",
+   "metaTitle": "Grade 2 Science Lesson Plans: Habitats: Many Kinds of Life",
+   "metaDescription": "A Grade 2 science unit: 4 lessons on habitats and adaptations, a schoolyard survey of living things, comparing desert, rain forest, and ocean, and plant habitats.",
+   "lessons": [
+    {
+     "point": "2:habitats-adaptations",
+     "types": [
+      "G2-380",
+      "G2-381"
+     ]
+    },
+    {
+     "point": "2:schoolyard-survey",
+     "types": [
+      "G2-602"
+     ],
+     "days": 3
+    },
+    {
+     "point": "2:compare-habitats",
+     "types": [
+      "G2-603"
+     ]
+    },
+    {
+     "point": "2:plants-for-habitats",
+     "types": [
+      "G2-604"
+     ]
+    }
+   ],
+   "weeks": 4
+  },
+  {
+   "id": "g2-healthy-choices-and-goals",
+   "slug": "healthy-choices-and-goals-grade-2-unit",
+   "status": "live",
+   "grade": "2",
+   "subject": "health",
+   "title": "Healthy Choices and Goals",
+   "metaTitle": "Grade 2 Health Lesson Plans: Healthy Choices and Goals",
+   "metaDescription": "A Grade 2 health unit: 7 lessons on body, feelings, and friendships, why habits matter, what influences choices, reading ads, setting a goal, and seeing a doctor.",
+   "lessons": [
+    {
+     "point": "2:three-ways-healthy",
+     "types": [
+      "G2-605"
+     ]
+    },
+    {
+     "point": "2:healthy-habits-why",
+     "types": [
+      "G2-379"
+     ]
+    },
+    {
+     "point": "2:who-helps-me-choose",
+     "types": [
+      "G2-606"
+     ]
+    },
+    {
+     "point": "2:ad-detective",
+     "types": [
+      "G2-607"
+     ]
+    },
+    {
+     "point": "2:health-goal",
+     "types": [
+      "G2-608"
+     ]
+    },
+    {
+     "point": "2:nurse-doctor-dentist",
+     "types": [
+      "G2-609"
+     ]
+    },
+    {
+     "point": "2:how-did-my-goal-go",
+     "types": [
+      "G2-610"
+     ]
+    }
+   ],
+   "weeks": 17
+  },
+  {
+   "id": "g2-safe-choices-caring-friends",
+   "slug": "safe-choices-and-caring-friends-grade-2-unit",
+   "status": "live",
+   "grade": "2",
+   "subject": "health",
+   "title": "Safe Choices and Caring Friends",
+   "metaTitle": "Grade 2 Health Lesson Plans: Safe Choices and Caring Friends",
+   "metaDescription": "A Grade 2 health unit: 4 lessons on road signs, stopping to think about helmets and life jackets, getting ready for sun, heat, and cold, and a class health poster.",
+   "lessons": [
+    {
+     "point": "2:road-signs",
+     "types": [
+      "G2-360",
+      "G2-361"
+     ]
+    },
+    {
+     "point": "2:stop-think-choose",
+     "types": [
+      "G2-611"
+     ]
+    },
+    {
+     "point": "2:sun-heat-cold",
+     "types": [
+      "G2-612"
+     ]
+    },
+    {
+     "point": "2:health-poster",
+     "types": [
+      "G2-613"
+     ]
+    }
+   ],
+   "weeks": 11
   }
  ],
  "plans": [
@@ -5278,6 +5630,23 @@
     "g1-animal-bodies-homes-families",
     "g1-plants-and-young",
     "g1-materials-and-rafts"
+   ]
+  },
+  {
+   "id": "plan-2-science",
+   "slug": "grade-2-science-scope-and-sequence",
+   "grade": "2",
+   "subject": "science",
+   "title": "Grade 2 Science Scope and Sequence",
+   "metaTitle": "Grade 2 Science Scope and Sequence with Pacing Guide ({weeks} Weeks)",
+   "metaDescription": "{units} Grade 2 science units in teaching order, about {weeks} weeks of three science sessions a week, with each unit's lessons and its NGSS standards.",
+   "units": [
+    "g2-properties-of-materials",
+    "g2-land-and-water",
+    "g2-earth-changes",
+    "g2-heating-and-cooling",
+    "g2-plants-and-pollinators",
+    "g2-habitats"
    ]
   }
  ]

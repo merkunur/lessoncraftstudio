@@ -20,7 +20,7 @@
  *                <= 90 chars, containing no part word and no partStems entry
  *   partStems    the job-leak list: inflected / compound forms of the part words
  *   forbidden    the locale's WRONG-register part words (de Blume, Stengel …)
- *   refuseItems  F3 item ids this locale will not print (e.g. ['celery'])
+ *   refuseItems  F3 item ids this locale will not print (e.g. ['asparagus'])
  *   refuse       faces this locale will not ship (layout names)
  *   strings      { base: {title, instruction}, needs|cycle|eat|jobs|flower: {title, instruction} }
  *                keyed by LAYOUT until the emitter allocates the face ids (§1: K-371+ /
@@ -91,7 +91,13 @@ const PLANTS_NEUTRAL = {
     { theme: 'vegetables', noun: 'cabbage', part: 'leaf', depicts: 'leaf', allow: ['root', 'flower', 'fruit', 'seed'], picOpened: true },
     { theme: 'vegetables', noun: 'broccoli', part: 'flower', depicts: 'flower', allow: ['root', 'fruit', 'seed'], picOpened: true },
     { theme: 'vegetables', noun: 'cauliflower', part: 'flower', depicts: 'flower', allow: ['root', 'fruit', 'seed'], picOpened: true },
-    { theme: 'vegetables', noun: 'celery', part: 'stem', depicts: 'stem', allow: ['root', 'flower', 'fruit', 'seed'], picOpened: true },
+    // stem: ASPARAGUS (2026-11-24, live fix): celery stood here, keyed as the stem we eat, but its stalk is a LEAF stalk
+    // (the card already refused "leaf" as a chip), a fact a teacher can contradict. A spear IS a young stem. Same index,
+    // so no other card's draw moves. allow = root and seed only: the scales are tiny leaves (no "leaf"), the library's
+    // red tip reads as a bud (no "flower", opened at 96 px) and could be called a berry (no "fruit"). rngPad 2: its
+    // two-item shuffle takes 1 draw where celery's four took 3, so 2 draws are burned and every later card keeps its chips.
+    // de and da refuse it (refuseItems ['asparagus'], kept as published 2026-11-24: this locale printed no stem card; a stem card can come with its own units).
+    { theme: 'vegetables', noun: 'asparagus', part: 'stem', depicts: 'stem', allow: ['root', 'seed'], rngPad: 2, picOpened: true },
     { theme: 'vegetables', noun: 'corn', part: 'seed', depicts: 'seed', allow: ['root', 'stem'], picOpened: true },   // flower OUT (faces build, opened): an ear of corn IS an inflorescence and baby corn is eaten whole as one
 
     // peas OUT (landing review 2026-09-23, en/es/it/pt): the only picture is an OPEN POD — botanically the fruit —
@@ -102,7 +108,8 @@ const PLANTS_NEUTRAL = {
     { theme: 'vegetables', noun: 'eggplant', part: 'fruit', depicts: 'fruit', allow: ['root', 'leaf', 'stem'], picOpened: true },
     { theme: 'At the Supermarket', noun: 'pepper', part: 'fruit', depicts: 'fruit', allow: ['root', 'leaf', 'stem'], picOpened: true },
   ],
-  EAT_BLOCKED: ['peas', 'asparagus', 'potato', 'onion', 'garlic', 'leek', 'mushroom', 'turnip', 'pumpkin', 'squash', 'bell_pepper', 'chilli_pepper', 'green_beans'],
+  EAT_BLOCKED: ['peas', 'celery', 'potato',   // celery: a leaf stalk, not a stem (2026-11-24); asparagus took its place
+    'onion', 'garlic', 'leek', 'mushroom', 'turnip', 'pumpkin', 'squash', 'bell_pepper', 'chilli_pepper', 'green_beans'],
   STAGES: ['seed', 'sprout', 'seedling', 'young', 'flowering', 'fruiting'],
   JOB_PARTS: ['root', 'stem', 'leaf', 'flower', 'seed'],   // fruit only with a validator-clean literal
   LAYOUTS: ['needs', 'cycle', 'eat', 'jobs', 'flower'],

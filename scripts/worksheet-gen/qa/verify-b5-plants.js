@@ -116,6 +116,12 @@ function validateNeutral(N) {
     if (it.part === 'flower' && (it.allow || []).some((a) => a === 'stem' || a === 'leaf')) push(`${what}: a flower item allows stem/leaf (rule 4)`);
     if (['tomato', 'cucumber', 'eggplant', 'pepper'].includes(it.noun) && (it.allow || []).some((a) => a === 'seed' || a === 'flower')) push(`${what}: a fruit item allows seed/flower (rule 4)`);
     if (it.noun === 'corn' && (it.allow || []).includes('flower')) push(`${what}: allows flower (an ear of corn IS an inflorescence and baby corn is eaten whole; faces build, rule 4)`);
+    // the stem card (2026-11-24, celery -> asparagus): a leaf or flower chip is arguable on a stem we eat (celery's stalk IS a leaf
+    // stalk; the asparagus tip reads as a bud and its scales are tiny leaves); the red asparagus tip could be called a berry
+    if (it.part === 'stem' && (it.allow || []).some((a) => a === 'leaf' || a === 'flower')) push(`${what}: a stem item allows leaf/flower (rule 4)`);
+    if (it.noun === 'asparagus' && (it.allow || []).includes('fruit')) push(`${what}: allows fruit (the red tip could be called a berry; rule 4)`);
+    // an rngPad keeps a replaced item's number of draws (celery's 4-item shuffle took 3): the live cards after it must not move
+    if (it.rngPad != null && (it.allow.length - 1) + it.rngPad !== 3) push(`${what}: the draw count ${(it.allow.length - 1) + it.rngPad} ≠ 3 (celery's: the later cards would move)`);
     pic(it.theme, it.noun, what);
   }
   const nouns = N.EAT.map((x) => x.theme + '/' + x.noun);
@@ -581,8 +587,19 @@ async function main() {
     const clone = (o) => JSON.parse(JSON.stringify(o));
     const nPoison = (fn) => { const n = clone(N); fn(n); return validateNeutral(n); };
     judge('P1 carrot allows leaf', nPoison((n) => { n.EAT.find((x) => x.noun === 'carrot').allow.push('leaf'); }), /carrot: a root item allows leaf/);
-    judge('P2 celery one distractor', nPoison((n) => { n.EAT.find((x) => x.noun === 'celery').allow = ['root']; }), /celery: allow has 1 distractors/);
-    judge('P3 asparagus', nPoison((n) => { n.EAT.push({ theme: 'vegetables', noun: 'asparagus', part: 'stem', allow: ['root', 'fruit'], picOpened: true }); }), /asparagus: a blocked noun/);
+    judge('P2 asparagus one distractor', nPoison((n) => { const a = n.EAT.find((x) => x.noun === 'asparagus'); a.allow = ['root']; a.rngPad = 3; }), /asparagus: allow has 1 distractors/);
+    judge('P3 the stem card pictures celery (a leaf stalk)', nPoison((n) => { n.EAT.find((x) => x.noun === 'asparagus').noun = 'celery'; }), /celery: a blocked noun/);
+    judge('P20 the stem card allows leaf', nPoison((n) => { const a = n.EAT.find((x) => x.noun === 'asparagus'); a.allow = ['root', 'seed', 'leaf']; a.rngPad = 1; }), /a stem item allows leaf\/flower/);
+    judge('P21 asparagus allows fruit', nPoison((n) => { const a = n.EAT.find((x) => x.noun === 'asparagus'); a.allow = ['root', 'seed', 'fruit']; a.rngPad = 1; }), /asparagus: allows fruit/);
+    judge('P22 the asparagus draw count not padded', nPoison((n) => { delete n.EAT.find((x) => x.noun === 'asparagus').rngPad; n.EAT.find((x) => x.noun === 'asparagus').rngPad = 0; }), /draw count 1 ≠ 3/);
+    // the eat face in EVERY locale, 400 seeds: no card pictures a blocked food (celery), and the stem card is asparagus
+    { const EATF = loadFace('eat'); const locs = ['en', 'de', 'es', 'pt', 'fr', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+      const eatFaults = (html) => { const f = []; for (const m of html.matchAll(/data-lcs-food="([^"]+)" data-lcs-part="([^"]+)"/g)) { const noun = m[1].split('/').pop(); if (N.EAT_BLOCKED.includes(noun)) f.push(`a card pictures ${m[1]}, a blocked food`); if (m[2] === 'stem' && m[1] !== 'vegetables/asparagus') f.push(`the stem card is ${m[1]}, not asparagus`); } return f; };
+      let pages = 0, bad = []; for (const loc of locs) for (let v = 1; v <= (quick ? 40 : 400); v++) { const r = EATF.build({ theme: null, difficulty: 2, locale: loc, unit: null }, { rng: makeRng(instanceSeed({ typeId: EATF.id, theme: null, difficulty: 2, seedEpoch: 1, variant: v })), variant: v }); pages++; for (const x of eatFaults(r.bodyHtml)) bad.push(`${loc} v${v}: ${x}`); }
+      ok(!bad.length, `eat face, every locale: ${bad.slice(0, 3).join(' | ')}`); log.push(`  eat face food check: ${pages} pages in 11 locales, ${bad.length} findings`);
+      const one = EATF.build({ theme: null, difficulty: 2, locale: 'en', unit: null }, { rng: makeRng(instanceSeed({ typeId: EATF.id, theme: null, difficulty: 2, seedEpoch: 1, variant: 1 })), variant: 1 }).bodyHtml;
+      ok(!eatFaults(one).length, 'P23 control: the real eat page');
+      judge('P23 a stem card whose picture is celery', eatFaults(one.replace('data-lcs-food="vegetables/asparagus"', 'data-lcs-food="vegetables/celery"')), /pictures vegetables\/celery, a blocked food/); }
     judge('P4 bell_pepper', nPoison((n) => { n.EAT.push({ theme: 'vegetables', noun: 'bell_pepper', part: 'fruit', allow: ['root', 'leaf'], picOpened: true }); }), /bell_pepper: (a blocked noun|the picture does not resolve|no vocab key)/);
     const locBlock = (loc, words, extra = {}) => ({ ...clone(banks.en), partWords: words, forbidden: [], ...extra });
     const DE = { root: 'Wurzel', stem: 'Stängel', leaf: 'Blatt', flower: 'Blüte', fruit: 'Frucht', seed: 'Samen' };

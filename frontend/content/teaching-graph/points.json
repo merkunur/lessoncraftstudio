@@ -10709,6 +10709,46 @@
    "prerequisites": []
   },
   {
+   "id": "2:land-water-map",
+   "grade": "2",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Color a map of land and water with a key and label a lake, a river, a hill and the ocean",
+   "code": "NGSS:2-ESS2-2",
+   "types": [
+    "G2-587"
+   ],
+   "families": [
+    "maps"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 60,
+   "prerequisites": []
+  },
+  {
+   "id": "2:landform-model",
+   "grade": "2",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Make a model of landforms and draw it as a map",
+   "code": "NGSS:2-ESS2-2",
+   "types": [
+    "G2-588"
+   ],
+   "families": [
+    "maps"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 61,
+   "prerequisites": []
+  },
+  {
    "id": "2:plant-parts",
    "grade": "2",
    "subject": "science",
@@ -10727,7 +10767,67 @@
     231
    ],
    "verdict": "gap",
-   "order": 60,
+   "order": 62,
+   "prerequisites": []
+  },
+  {
+   "id": "2:plants-light-water",
+   "grade": "2",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Test whether plants need light and water to grow",
+   "code": "NGSS:2-LS2-1",
+   "types": [
+    "G2-599"
+   ],
+   "families": [
+    "plants"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 63,
+   "prerequisites": []
+  },
+  {
+   "id": "2:seeds-on-the-move",
+   "grade": "2",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Find how seeds travel by wind, water, animals and people",
+   "code": "NGSS:2-LS2-2",
+   "types": [
+    "G2-600"
+   ],
+   "families": [
+    "plants"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 64,
+   "prerequisites": []
+  },
+  {
+   "id": "2:be-a-pollinator",
+   "grade": "2",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Model how animals move pollen from flower to flower",
+   "code": "NGSS:2-LS2-2",
+   "types": [
+    "G2-601"
+   ],
+   "families": [
+    "plants"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 65,
    "prerequisites": []
   },
   {
@@ -10749,7 +10849,7 @@
     264
    ],
    "verdict": "gap",
-   "order": 61,
+   "order": 66,
    "prerequisites": []
   },
   {
@@ -10773,7 +10873,207 @@
     240
    ],
    "verdict": "gap",
-   "order": 62,
+   "order": 67,
+   "prerequisites": []
+  },
+  {
+   "id": "2:schoolyard-survey",
+   "grade": "2",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Survey the living things in the schoolyard and count the kinds",
+   "code": "NGSS:2-LS4-1",
+   "types": [
+    "G2-602"
+   ],
+   "families": [
+    "habitats"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 68,
+   "prerequisites": []
+  },
+  {
+   "id": "2:compare-habitats",
+   "grade": "2",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Compare the living things of a desert, a rain forest and an ocean",
+   "code": "NGSS:2-LS4-1",
+   "types": [
+    "G2-603"
+   ],
+   "families": [
+    "habitats"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 69,
+   "prerequisites": []
+  },
+  {
+   "id": "2:plants-for-habitats",
+   "grade": "2",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Match plants to the habitats they grow in",
+   "code": "NGSS:2-LS4-1",
+   "types": [
+    "G2-604"
+   ],
+   "families": [
+    "habitats"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 70,
+   "prerequisites": []
+  },
+  {
+   "id": "2:describe-materials",
+   "grade": "2",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Test materials and describe them by their properties: hard or soft, bends, rough or smooth, soaks up water",
+   "code": "NGSS:2-PS1-1",
+   "types": [
+    "G2-584"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 71,
+   "prerequisites": []
+  },
+  {
+   "id": "2:best-material",
+   "grade": "2",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Test materials to find the best one for a job, and tell why",
+   "code": "NGSS:2-PS1-2",
+   "types": [
+    "G2-585"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 72,
+   "prerequisites": []
+  },
+  {
+   "id": "2:take-apart-build",
+   "grade": "2",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Build something new from the pieces of something taken apart",
+   "code": "NGSS:2-PS1-3",
+   "types": [
+    "G2-586"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 73,
+   "prerequisites": []
+  },
+  {
+   "id": "2:ice-melt-fastest",
+   "grade": "2",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Test where ice melts fastest and record the results",
+   "code": "NGSS:2-PS1-4",
+   "types": [
+    "G2-595"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 74,
+   "prerequisites": []
+  },
+  {
+   "id": "2:melt-freeze-back",
+   "grade": "2",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Melt and freeze things and find which changes can be undone",
+   "code": "NGSS:2-PS1-4",
+   "types": [
+    "G2-596"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 75,
+   "prerequisites": []
+  },
+  {
+   "id": "2:changes-cannot-undo",
+   "grade": "2",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Find changes from heating that cannot be undone",
+   "code": "NGSS:2-PS1-4",
+   "types": [
+    "G2-597"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 76,
+   "prerequisites": []
+  },
+  {
+   "id": "2:change-back-claim",
+   "grade": "2",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Make a claim with evidence: can the change be undone?",
+   "code": "NGSS:2-PS1-4",
+   "types": [
+    "G2-598"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 77,
    "prerequisites": []
   },
   {
@@ -10795,7 +11095,7 @@
     235
    ],
    "verdict": "gap",
-   "order": 63,
+   "order": 78,
    "prerequisites": []
   },
   {
@@ -10818,7 +11118,7 @@
     265
    ],
    "verdict": "gap",
-   "order": 64,
+   "order": 79,
    "prerequisites": []
   },
   {
@@ -10839,7 +11139,7 @@
     262
    ],
    "verdict": "gap",
-   "order": 65,
+   "order": 80,
    "prerequisites": []
   },
   {
@@ -10860,7 +11160,127 @@
     262
    ],
    "verdict": "gap",
-   "order": 66,
+   "order": 81,
+   "prerequisites": []
+  },
+  {
+   "id": "2:water-on-earth",
+   "grade": "2",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Find where water is on Earth and whether it is solid or liquid, salty or fresh",
+   "code": "NGSS:2-ESS2-3",
+   "types": [
+    "G2-589"
+   ],
+   "families": [
+    "earth-and-space"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 82,
+   "prerequisites": []
+  },
+  {
+   "id": "2:globe-toss",
+   "grade": "2",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Toss a globe, tally water or land, and find that Earth has more water",
+   "code": "NGSS:2-ESS2-3",
+   "types": [
+    "G2-590"
+   ],
+   "families": [
+    "earth-and-space"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 83,
+   "prerequisites": []
+  },
+  {
+   "id": "2:fast-slow-changes",
+   "grade": "2",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Sort Earth changes into fast ones (earthquakes, volcanoes, landslides) and slow ones",
+   "code": "NGSS:2-ESS1-1",
+   "types": [
+    "G2-591"
+   ],
+   "families": [
+    "earth-and-space"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 84,
+   "prerequisites": []
+  },
+  {
+   "id": "2:water-shapes-land",
+   "grade": "2",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Show how moving water slowly shapes the land, in a tray model",
+   "code": "NGSS:2-ESS1-1",
+   "types": [
+    "G2-592"
+   ],
+   "families": [
+    "earth-and-space"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 85,
+   "prerequisites": []
+  },
+  {
+   "id": "2:stop-the-sand",
+   "grade": "2",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Test ways to stop sand from washing away and compare them",
+   "code": "NGSS:K-2-ETS1-3",
+   "types": [
+    "G2-593"
+   ],
+   "families": [
+    "earth-and-space"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 86,
+   "prerequisites": []
+  },
+  {
+   "id": "2:best-solution",
+   "grade": "2",
+   "subject": "science",
+   "strand": "Science",
+   "skill": "Compare solutions that keep wind or water from changing the land, and choose one with a reason",
+   "code": "NGSS:2-ESS2-1",
+   "types": [
+    "G2-594"
+   ],
+   "families": [
+    "earth-and-space"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 87,
    "prerequisites": []
   },
   {
@@ -10881,7 +11301,7 @@
     315
    ],
    "verdict": "gap",
-   "order": 67,
+   "order": 88,
    "prerequisites": []
   },
   {
@@ -10902,7 +11322,7 @@
     231
    ],
    "verdict": "gap",
-   "order": 68,
+   "order": 89,
    "prerequisites": []
   },
   {
@@ -10923,7 +11343,7 @@
     264
    ],
    "verdict": "gap",
-   "order": 69,
+   "order": 90,
    "prerequisites": []
   },
   {
@@ -10944,7 +11364,7 @@
     235
    ],
    "verdict": "gap",
-   "order": 70,
+   "order": 91,
    "prerequisites": []
   },
   {
@@ -10966,7 +11386,7 @@
     314
    ],
    "verdict": "gap",
-   "order": 71,
+   "order": 92,
    "prerequisites": []
   },
   {
@@ -11712,6 +12132,186 @@
    ],
    "verdict": "gap",
    "order": 24,
+   "prerequisites": []
+  },
+  {
+   "id": "2:three-ways-healthy",
+   "grade": "2",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Sort healthy actions into body, feelings and friendships",
+   "code": "NHES.1.2.2",
+   "types": [
+    "G2-605"
+   ],
+   "families": [
+    "healthy-habits"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 25,
+   "prerequisites": []
+  },
+  {
+   "id": "2:who-helps-me-choose",
+   "grade": "2",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Name the people and things that influence my choices",
+   "code": "NHES.2.2.1",
+   "types": [
+    "G2-606"
+   ],
+   "families": [
+    "healthy-habits"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 26,
+   "prerequisites": []
+  },
+  {
+   "id": "2:ad-detective",
+   "grade": "2",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Find what an ad wants me to do and how it tries to make me want it",
+   "code": "NHES.2.2.2",
+   "types": [
+    "G2-607"
+   ],
+   "families": [
+    "healthy-habits"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 27,
+   "prerequisites": []
+  },
+  {
+   "id": "2:health-goal",
+   "grade": "2",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Choose a health goal and a helper",
+   "code": "NHES.6.2.2",
+   "types": [
+    "G2-608"
+   ],
+   "families": [
+    "healthy-habits"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 28,
+   "prerequisites": []
+  },
+  {
+   "id": "2:nurse-doctor-dentist",
+   "grade": "2",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Tell when to see the nurse, the doctor or the dentist",
+   "code": "NHES.1.2.7",
+   "types": [
+    "G2-609"
+   ],
+   "families": [
+    "healthy-habits"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 29,
+   "prerequisites": []
+  },
+  {
+   "id": "2:how-did-my-goal-go",
+   "grade": "2",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Look back on a health goal: what helped and what to try next",
+   "code": "NHES.6.2.6",
+   "types": [
+    "G2-610"
+   ],
+   "families": [
+    "healthy-habits"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 30,
+   "prerequisites": []
+  },
+  {
+   "id": "2:stop-think-choose",
+   "grade": "2",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Stop, think about the choices and what could happen, then choose (helmets, life jackets)",
+   "code": "NHES.5.2.3",
+   "types": [
+    "G2-611"
+   ],
+   "families": [
+    "healthy-habits"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 31,
+   "prerequisites": []
+  },
+  {
+   "id": "2:sun-heat-cold",
+   "grade": "2",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Get ready for sun, heat and cold",
+   "code": "NHES.1.2.6",
+   "types": [
+    "G2-612"
+   ],
+   "families": [
+    "healthy-habits"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 32,
+   "prerequisites": []
+  },
+  {
+   "id": "2:health-poster",
+   "grade": "2",
+   "subject": "health",
+   "strand": "Health",
+   "skill": "Make a poster that encourages others to make a healthy choice",
+   "code": "NHES.8.2.3",
+   "types": [
+    "G2-613"
+   ],
+   "families": [
+    "healthy-habits"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 33,
    "prerequisites": []
   },
   {

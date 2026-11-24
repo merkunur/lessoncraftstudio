@@ -5018,10 +5018,10 @@
      "type": "G1-567"
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "2:plant-parts",
-     "type": "G2-363"
+     "point": "2:family-relationships",
+     "type": "G2-362"
     },
     {
      "key": "logic",
@@ -5086,10 +5086,10 @@
      "type": "G1-310"
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "2:habitats-adaptations",
-     "type": "G2-381"
+     "point": "2:cardinal-directions",
+     "type": "G2-369"
     },
     {
      "key": "logic",
@@ -5155,8 +5155,8 @@
     {
      "key": "social",
      "minutes": 15,
-     "point": "2:family-relationships",
-     "type": "G2-362"
+     "point": "2:continents",
+     "type": "G2-370"
     },
     {
      "key": "logic",
@@ -5220,10 +5220,10 @@
      "type": "G1-229"
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "2:life-cycles",
-     "type": "G2-365"
+     "point": "2:road-signs",
+     "type": "G2-361"
     },
     {
      "key": "logic",
@@ -5559,8 +5559,8 @@
     {
      "key": "social",
      "minutes": 15,
-     "point": "2:cardinal-directions",
-     "type": "G2-369"
+     "point": "1:family-generations",
+     "type": "G1-385"
     },
     {
      "key": "logic",
@@ -5626,8 +5626,8 @@
     {
      "key": "social",
      "minutes": 15,
-     "point": "2:continents",
-     "type": "G2-370"
+     "point": "2:family-relationships",
+     "type": "G2-362"
     },
     {
      "key": "logic",
@@ -5693,8 +5693,8 @@
     {
      "key": "social",
      "minutes": 15,
-     "point": "1:family-generations",
-     "type": "G1-385"
+     "point": "2:cardinal-directions",
+     "type": "G2-371"
     },
     {
      "key": "logic",
@@ -5761,14 +5761,14 @@
     {
      "key": "social",
      "minutes": 15,
-     "point": "2:road-signs",
-     "type": "G2-361"
+     "point": "1:map-key",
+     "type": "G1-379"
     },
     {
      "key": "logic",
      "minutes": 15,
-     "point": "1:map-key",
-     "type": "G1-528"
+     "point": "2:find-differences",
+     "type": "G2-388"
     },
     {
      "key": "closing",
@@ -5829,8 +5829,8 @@
     {
      "key": "social",
      "minutes": 15,
-     "point": "2:family-relationships",
-     "type": "G2-362"
+     "point": "2:continents",
+     "type": "G2-370"
     },
     {
      "key": "logic",
@@ -5897,20 +5897,20 @@
     {
      "key": "science",
      "minutes": 15,
-     "point": "2:life-cycles",
-     "type": "G2-366"
+     "point": "1:animal-classes-coverings",
+     "type": "G1-205"
     },
     {
      "key": "logic",
      "minutes": 15,
-     "point": "2:find-differences",
-     "type": "G2-388"
+     "point": "K:grid-copy",
+     "type": "K-502"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:days-months-seasons",
-     "type": "G1-321"
+     "point": "1:find-the-differences",
+     "type": "G1-415"
     }
    ]
   },
@@ -5962,22 +5962,23 @@
      "type": "G1-569"
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "1:animal-classes-coverings",
-     "type": "G1-205"
+     "point": "2:road-signs",
+     "type": "G2-361"
     },
     {
      "key": "logic",
      "minutes": 15,
-     "point": "K:grid-copy",
-     "type": "K-502"
+     "point": "1:mazes",
+     "type": "G1-425",
+     "title": "Bring the Fish to the Coral Safely"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:find-the-differences",
-     "type": "G1-415"
+     "point": "2:find-differences",
+     "type": "G2-389"
     }
    ]
   },
@@ -6037,15 +6038,14 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "1:mazes",
-     "type": "G1-425",
-     "title": "Bring the Fish to the Coral Safely"
+     "point": "1:map-key",
+     "type": "G1-528"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:time-read",
-     "type": "G1-148"
+     "point": "1:days-months-seasons",
+     "type": "G1-321"
     }
    ]
   },
@@ -6105,14 +6105,15 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "2:find-differences",
-     "type": "G2-389"
+     "point": "1:mazes",
+     "type": "G1-420",
+     "title": "Help the Tortoise Find the Watermelon"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:feelings",
-     "type": "K-331"
+     "point": "1:time-read",
+     "type": "G1-148"
     }
    ]
   },
@@ -6166,21 +6167,20 @@
     {
      "key": "social",
      "minutes": 15,
-     "point": "2:cardinal-directions",
-     "type": "G2-371"
+     "point": "2:family-relationships",
+     "type": "G2-362"
     },
     {
      "key": "logic",
      "minutes": 15,
-     "point": "1:mazes",
-     "type": "G1-420",
-     "title": "Help the Tortoise Find the Watermelon"
+     "point": "2:find-differences",
+     "type": "G2-389"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:time-read",
-     "type": "G1-149"
+     "point": "K:feelings",
+     "type": "K-331"
     }
    ]
   },
@@ -6233,22 +6233,22 @@
      "type": "G1-443"
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "1:sink-float",
-     "type": "G1-204"
+     "point": "1:family-generations",
+     "type": "G1-386"
     },
     {
      "key": "logic",
      "minutes": 15,
-     "point": "1:map-key",
-     "type": "G1-528"
+     "point": "K:grid-copy",
+     "type": "K-502"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:grid-copy",
-     "type": "K-502"
+     "point": "1:mazes",
+     "type": "G1-421"
     }
    ]
   },
@@ -6300,23 +6300,22 @@
      "type": "G1-310"
     },
     {
-     "key": "social",
+     "key": "science",
      "minutes": 15,
-     "point": "1:family-generations",
-     "type": "G1-386"
+     "point": "2:plant-parts",
+     "type": "G2-363"
     },
     {
      "key": "logic",
      "minutes": 15,
-     "point": "1:mazes",
-     "type": "G1-424",
-     "title": "Help the Lemur Pick Up Every Banana"
+     "point": "2:find-differences",
+     "type": "G2-389"
     },
     {
      "key": "closing",
      "minutes": 10,
      "point": "1:time-read",
-     "type": "G1-477"
+     "type": "G1-149"
     }
    ]
   },
@@ -6368,16 +6367,17 @@
      "type": "G1-571"
     },
     {
-     "key": "social",
+     "key": "science",
      "minutes": 15,
-     "point": "2:continents",
-     "type": "G2-370"
+     "point": "1:sink-float",
+     "type": "G1-204"
     },
     {
      "key": "logic",
      "minutes": 15,
-     "point": "2:find-differences",
-     "type": "G2-389"
+     "point": "1:mazes",
+     "type": "G1-424",
+     "title": "Help the Lemur Pick Up Every Banana"
     },
     {
      "key": "closing",
@@ -6437,21 +6437,20 @@
     {
      "key": "social",
      "minutes": 15,
-     "point": "2:family-relationships",
-     "type": "G2-362"
+     "point": "2:cardinal-directions",
+     "type": "G2-369"
     },
     {
      "key": "logic",
      "minutes": 15,
-     "point": "1:mazes",
-     "type": "G1-425",
-     "title": "Bring the Butterfly to the Rose Safely"
+     "point": "2:find-differences",
+     "type": "G2-389"
     },
     {
      "key": "closing",
      "minutes": 10,
      "point": "1:time-read",
-     "type": "G1-148"
+     "type": "G1-477"
     }
    ]
   },
@@ -6505,8 +6504,8 @@
     {
      "key": "science",
      "minutes": 15,
-     "point": "1:animal-classes-coverings",
-     "type": "G1-201"
+     "point": "2:life-cycles",
+     "type": "G2-365"
     },
     {
      "key": "logic",
@@ -6572,20 +6571,21 @@
     {
      "key": "science",
      "minutes": 15,
-     "point": "1:habitats-needs",
-     "type": "G1-202"
+     "point": "1:animal-classes-coverings",
+     "type": "G1-201"
     },
     {
      "key": "logic",
      "minutes": 15,
-     "point": "K:grid-copy",
-     "type": "K-502"
+     "point": "1:map-key",
+     "type": "G1-528"
     },
     {
      "key": "closing",
      "minutes": 10,
      "point": "1:mazes",
-     "type": "G1-421"
+     "type": "G1-424",
+     "title": "Help the Foal Pick Up Every Apple"
     }
    ]
   },
@@ -6637,10 +6637,10 @@
      "type": "G1-229"
     },
     {
-     "key": "social",
+     "key": "science",
      "minutes": 15,
-     "point": "1:map-key",
-     "type": "G1-379"
+     "point": "2:habitats-adaptations",
+     "type": "G2-381"
     },
     {
      "key": "logic",
@@ -6651,8 +6651,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "2:time-5-min-quarter",
-     "type": "G2-250"
+     "point": "K:grid-copy",
+     "type": "K-502"
     }
    ]
   },
@@ -6706,21 +6706,21 @@
     {
      "key": "social",
      "minutes": 15,
-     "point": "2:cardinal-directions",
-     "type": "G2-369"
+     "point": "2:continents",
+     "type": "G2-370"
     },
     {
      "key": "logic",
      "minutes": 15,
-     "point": "2:find-differences",
-     "type": "G2-389"
+     "point": "1:mazes",
+     "type": "G1-425",
+     "title": "Bring the Butterfly to the Rose Safely"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:mazes",
-     "type": "G1-424",
-     "title": "Help the Foal Pick Up Every Apple"
+     "point": "2:find-differences",
+     "type": "G2-389"
     }
    ]
   },
@@ -6774,8 +6774,8 @@
     {
      "key": "science",
      "minutes": 15,
-     "point": "1:food-groups",
-     "type": "G1-207"
+     "point": "1:habitats-needs",
+     "type": "G1-202"
     },
     {
      "key": "logic",
@@ -6786,8 +6786,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:time-read",
-     "type": "G1-149"
+     "point": "2:time-5-min-quarter",
+     "type": "G2-250"
     }
    ]
   },
@@ -6839,10 +6839,10 @@
      "type": "G1-347"
     },
     {
-     "key": "social",
+     "key": "science",
      "minutes": 15,
-     "point": "1:family-generations",
-     "type": "G1-385"
+     "point": "2:plant-parts",
+     "type": "G2-363"
     },
     {
      "key": "logic",
@@ -6854,8 +6854,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "2:time-5-min-quarter",
-     "type": "G2-249"
+     "point": "1:time-read",
+     "type": "G1-148"
     }
    ]
   },
@@ -6907,10 +6907,10 @@
      "type": "G1-277"
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "1:sink-float",
-     "type": "G1-204"
+     "point": "2:road-signs",
+     "type": "G2-361"
     },
     {
      "key": "logic",
@@ -6921,8 +6921,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:time-read",
-     "type": "G1-477"
+     "point": "2:time-5-min-quarter",
+     "type": "G2-249"
     }
    ]
   },
@@ -6989,8 +6989,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "2:time-5-min-quarter",
-     "type": "G2-250"
+     "point": "2:find-differences",
+     "type": "G2-389"
     }
    ]
   },
@@ -7042,16 +7042,16 @@
      "type": "G2-511"
     },
     {
-     "key": "social",
+     "key": "science",
      "minutes": 15,
-     "point": "2:continents",
-     "type": "G2-370"
+     "point": "1:food-groups",
+     "type": "G1-207"
     },
     {
      "key": "logic",
      "minutes": 15,
-     "point": "2:find-differences",
-     "type": "G2-389"
+     "point": "1:map-key",
+     "type": "G1-528"
     },
     {
      "key": "closing",
@@ -7109,16 +7109,16 @@
      "type": "G1-443"
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "1:animal-classes-coverings",
-     "type": "G1-205"
+     "point": "1:family-generations",
+     "type": "G1-385"
     },
     {
      "key": "logic",
      "minutes": 15,
-     "point": "1:map-key",
-     "type": "G1-528"
+     "point": "1:mazes",
+     "type": "G1-425"
     },
     {
      "key": "closing",

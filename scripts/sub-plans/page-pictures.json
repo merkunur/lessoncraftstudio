@@ -1847,6 +1847,28 @@
     "sun"
    ]
   },
+  "find-the-differences-g2389-13": {
+   "pictures": [],
+   "words": [
+    "balloon",
+    "elephant",
+    "koala",
+    "monkey",
+    "sun",
+    "zebra"
+   ]
+  },
+  "find-the-differences-g2389-14": {
+   "pictures": [],
+   "words": [
+    "backpack",
+    "cloud",
+    "forklift",
+    "pigeon",
+    "suitcase",
+    "train"
+   ]
+  },
   "find-the-differences-g2389-8": {
    "pictures": [],
    "words": [
@@ -2675,6 +2697,21 @@
     "garage",
     "puddle",
     "rock"
+   ]
+  },
+  "maze-puzzles-g1425-9": {
+   "pictures": [
+    "acorn",
+    "ant",
+    "cookie",
+    "leaf",
+    "spider"
+   ],
+   "words": [
+    "ant",
+    "cookie",
+    "puddle",
+    "spider"
    ]
   },
   "maze-puzzles-k405": {
@@ -3892,14 +3929,29 @@
   },
   "plants-g2363": {
    "pictures": [
+    "asparagus",
     "carrot",
     "cauliflower",
-    "celery",
     "corn",
     "eggplant",
     "lettuce",
     "radish",
     "spinach"
+   ],
+   "words": [
+    "flower"
+   ]
+  },
+  "plants-g2363-2": {
+   "pictures": [
+    "asparagus",
+    "beetroot",
+    "broccoli",
+    "cabbage",
+    "corn",
+    "lettuce",
+    "pepper",
+    "radish"
    ],
    "words": [
     "flower"
@@ -5359,6 +5411,22 @@
     "cars"
    ]
   },
+  "road-safety-g2361-2": {
+   "pictures": [],
+   "words": [
+    "bicycle",
+    "bicycles",
+    "cars",
+    "lights"
+   ]
+  },
+  "road-safety-g2361-3": {
+   "pictures": [],
+   "words": [
+    "bicycles",
+    "cars"
+   ]
+  },
   "rounding-g3387": {
    "pictures": [],
    "words": []
@@ -5501,17 +5569,6 @@
     "fork",
     "hammer",
     "leaf"
-   ],
-   "words": []
-  },
-  "science-sort-g1204-3": {
-   "pictures": [
-    "apple",
-    "duck",
-    "fork",
-    "leaf",
-    "rock",
-    "scissors"
    ],
    "words": []
   },
@@ -6816,12 +6873,6 @@
     "clock"
    ]
   },
-  "telling-time-g1149-3": {
-   "pictures": [],
-   "words": [
-    "clock"
-   ]
-  },
   "telling-time-g1477": {
    "pictures": [],
    "words": [
@@ -6829,12 +6880,6 @@
    ]
   },
   "telling-time-g1477-2": {
-   "pictures": [],
-   "words": [
-    "clock"
-   ]
-  },
-  "telling-time-g1477-3": {
    "pictures": [],
    "words": [
     "clock"
@@ -6871,12 +6916,6 @@
    ]
   },
   "telling-time-g2250-3": {
-   "pictures": [],
-   "words": [
-    "clock"
-   ]
-  },
-  "telling-time-g2250-4": {
    "pictures": [],
    "words": [
     "clock"

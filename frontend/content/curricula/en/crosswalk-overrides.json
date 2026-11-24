@@ -2521,6 +2521,96 @@
    ],
    "why": "Friendly reminders and invitations to play are ways to support others in making health-promoting choices (NHES 8.2.2, PreK-2).",
    "review": "batch-k 2026-11-23"
+  },
+  "2:three-ways-healthy": {
+   "rows": [
+    {
+     "id": "NHES.1.2.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sorting healthy actions into body, feelings and friendships identifies dimensions of wellness (NHES 1.2.2, PreK-2).",
+   "review": "batch-k 2026-11-23"
+  },
+  "2:who-helps-me-choose": {
+   "rows": [
+    {
+     "id": "NHES.2.2.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Naming the family, friends, media and other things that shape a choice identifies influences on health (NHES 2.2.1, PreK-2).",
+   "review": "batch-k 2026-11-23"
+  },
+  "2:ad-detective": {
+   "rows": [
+    {
+     "id": "NHES.2.2.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding what an ad wants and how it tries to persuade determines how an influence affects health (NHES 2.2.2, PreK-2).",
+   "review": "batch-k 2026-11-23"
+  },
+  "2:health-goal": {
+   "rows": [
+    {
+     "id": "NHES.6.2.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Choosing a health goal and someone to help identifies a goal that supports health (NHES 6.2.2, PreK-2).",
+   "review": "batch-k 2026-11-23"
+  },
+  "2:nurse-doctor-dentist": {
+   "rows": [
+    {
+     "id": "NHES.1.2.7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Telling when to see the nurse, the doctor or the dentist explains when it is important to seek health care (NHES 1.2.7, PreK-2).",
+   "review": "batch-k 2026-11-23"
+  },
+  "2:how-did-my-goal-go": {
+   "rows": [
+    {
+     "id": "NHES.6.2.6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Looking back on a goal, what helped and what to try next, reflects on the results of goal-setting (NHES 6.2.6, PreK-2).",
+   "review": "batch-k 2026-11-23"
+  },
+  "2:stop-think-choose": {
+   "rows": [
+    {
+     "id": "NHES.5.2.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Stopping to think about the choices and what could happen describes options and outcomes for a health decision (NHES 5.2.3, PreK-2).",
+   "review": "batch-k 2026-11-23"
+  },
+  "2:sun-heat-cold": {
+   "rows": [
+    {
+     "id": "NHES.1.2.6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Getting ready for sun, heat and cold identifies how the environment affects health (NHES 1.2.6, PreK-2).",
+   "review": "batch-k 2026-11-23"
+  },
+  "2:health-poster": {
+   "rows": [
+    {
+     "id": "NHES.8.2.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A class poster for a healthy choice encourages others to make health-promoting choices (NHES 8.2.3, PreK-2).",
+   "review": "batch-k 2026-11-23"
   }
  }
 }

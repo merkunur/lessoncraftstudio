@@ -22,6 +22,15 @@ const C = (note) => ({ rule: 'change', note });
 const B = (note) => ({ rule: 'build', note });
 module.exports = {
   en: {
+    "2-015": N("G2-605", "built (Stage D-5 batch 2, 2026-11-24): G2-605, reviewed by one US second-grade teacher in three rounds"),
+    "2-017": N("G2-606", "built (Stage D-5 batch 2, 2026-11-24): G2-606, reviewed by one US second-grade teacher in three rounds"),
+    "2-018": N("G2-607", "built (Stage D-5 batch 2, 2026-11-24): G2-607, reviewed by one US second-grade teacher in three rounds"),
+    "2-019": N("G2-608", "built (Stage D-5 batch 2, 2026-11-24): G2-608, reviewed by one US second-grade teacher in three rounds"),
+    "2-020": N("G2-609", "built (Stage D-5 batch 2, 2026-11-24): G2-609, reviewed by one US second-grade teacher in three rounds"),
+    "2-021": N("G2-610", "built (Stage D-5 batch 2, 2026-11-24): G2-610, reviewed by one US second-grade teacher in three rounds"),
+    "2-023": N("G2-611", "built (Stage D-5 batch 2, 2026-11-24): G2-611, reviewed by one US second-grade teacher in three rounds"),
+    "2-024": N("G2-612", "built (Stage D-5 batch 2, 2026-11-24): G2-612, reviewed by one US second-grade teacher in three rounds"),
+    "2-025": N("G2-613", "built (Stage D-5 batch 2, 2026-11-24): G2-613, reviewed by one US second-grade teacher in three rounds"),
     "1-009": N("G1-644", "built (Stage D-5 batch 1, 2026-11-24): G1-644, reviewed by one US first-grade teacher in three rounds"),
     "1-010": N("G1-645", "built (Stage D-5 batch 1, 2026-11-24): G1-645, reviewed by one US first-grade teacher in three rounds"),
     "1-011": N("G1-646", "built (Stage D-5 batch 1, 2026-11-24): G1-646, reviewed by one US first-grade teacher in three rounds"),
@@ -30,8 +39,6 @@ module.exports = {
     "K-006": N("K-707", "built (Stage D-5 batch K, 2026-11-23): K-707, reviewed by one US Kindergarten teacher in two rounds"),
     "K-005": N("K-706", "built (Stage D-5 batch K, 2026-11-23): K-706, reviewed by one US Kindergarten teacher in two rounds"),
     "K-002": N("K-705", "built (Stage D-5 batch K, 2026-11-23): K-705, reviewed by one US Kindergarten teacher in two rounds"),
-    "2-019": B("a goal page (goal pictures to circle, three step boxes, a 'My helper' box, a 14-day strip of suns)."),
-    "2-024": C("a weather-protection match (four weathers, six protections, many lines allowed)."),
     "3-026": B("a six-frame comic of a germ's trip with the frames to circle where a habit stops it and the habit to write."),
     "3-030": B("a goal-plan page with a 21-day tracker and a look-back on the back."),
     "3-031": B("a home escape-plan page on that grid plate. (G1-530 is not yet published in English.)"),

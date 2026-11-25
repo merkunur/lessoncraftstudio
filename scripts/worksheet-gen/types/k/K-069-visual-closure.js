@@ -38,7 +38,7 @@ module.exports = {
     const rng = ctx.rng;
     const pool = labelSafeNouns(theme).filter((n) => PM.has(theme, n.noun));
     const px = 76, INK = 84;   // choices at 76 px; the part: the drawing's top, its ink box fitted into 84 px
-    const cards = [], used = new Set();
+    const cards = [], used = new Set(), rows = [];
     for (let i = 0; i < d.rows; i++) {
       // a target not used before on the page, and two choices its part cannot be read as
       // ... and whose visible part shows enough of the drawing to recognise (not a thin mast or an antenna)
@@ -58,7 +58,18 @@ module.exports = {
         `<span class="ws-pattern-slot" style="width:${px + 30}px;height:${px + 30}px" data-lcs-part="${target.vocabKey}">` +
         `<span style="display:block;position:relative;width:${Math.round(inkW)}px;height:${clipH}px;overflow:hidden" data-lcs-ink-h="${Math.round(inkH)}">` +
         `<img class="ws-icon" src="${fileUri(theme, target.noun)}" alt="" style="position:absolute;left:${(-img * e.leftFrac).toFixed(1)}px;top:${(-img * e.topFrac).toFixed(1)}px;width:${img.toFixed(1)}px;height:${img.toFixed(1)}px;max-width:none;display:block"></span></span>`;
-      const chips = rng.shuffle([target, d1, d2]).map((n) =>
+      rows.push({ prompt, target, order: rng.shuffle([target, d1, d2]) });
+    }
+    // 2026-11-25 (the US teacher-reviewer of the Thinking Skills units, on the live easier breakfast page): the right
+    // picture sat LAST in all four rows, so a child could circle the last one every time. When every row puts the
+    // answer in the same place, rows 2 on move it one place further each (a swap, no new randomness): a page whose
+    // answers already move is drawn exactly as before.
+    const at = rows.map((r) => r.order.indexOf(r.target));
+    if (rows.length > 1 && at.every((p) => p === at[0])) {
+      rows.forEach((r, i) => { const to = (at[0] + i) % 3; [r.order[at[0]], r.order[to]] = [r.order[to], r.order[at[0]]]; });
+    }
+    for (const { prompt, target, order } of rows) {
+      const chips = order.map((n) =>
         `<span class="ws-pattern-chip" style="width:${px + 18}px;height:${px + 18}px"` +
         `${n.vocabKey === target.vocabKey ? ' data-lcs-correct="1"' : ''} data-lcs-opt="${n.vocabKey}">` +
         `<img class="ws-icon" src="${fileUri(theme, n.noun)}" alt="" style="width:${px - 8}px;height:${px - 8}px"></span>`).join('');
@@ -84,6 +95,9 @@ module.exports = {
         if (h >= ink - 2) fails.push(`row ${i + 1}: prompt is not actually clipped`);
         if (h < 18) fails.push(`row ${i + 1}: the part is only ${Math.round(h)} px high`);
       });
+      // the answer may not sit in the same place in every row (a child could circle by position)
+      const at = [...document.querySelectorAll('[data-lcs-card]')].map((card) => [...card.querySelectorAll('.ws-pattern-chip')].findIndex((c) => c.dataset.lcsCorrect));
+      if (at.length > 1 && at.every((p) => p === at[0])) fails.push(`the answer is choice ${at[0] + 1} in every row`);
       return fails;
     });
   },

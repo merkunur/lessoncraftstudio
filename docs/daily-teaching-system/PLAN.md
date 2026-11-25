@@ -2077,3 +2077,54 @@ Then batch 1 (Grade 1 pages), and so on.
 - The library nurse's red-cross cap.
 
 **Next:** social studies Grade 2 (batch S2), then Grade 3; then D-4, preschool theme units.
+
+### 2026-11-25: Stage D-5 batch S2 and Stage D-3 for Grade 2 social studies are live: 17 new Grade 2 social studies page types, a teacher-led class market, and 5 units in English; two live guest scripts fixed (deploy 60, commit `5ee250ccb`)
+
+**Batch S2, the pages** (`types/_shared/dk-social-2.js`, `dk-social-2-art.js`, `data/social/dk-social-2.js`, map data `dk-social-2-geo.js` from Natural Earth 1:110m; G2-614 … G2-630):
+- **Sixteen lines of the Grade 2 social studies year:**
+  - civics: my view, your view (a class agreement); laws in our community; local, state and national government ("Our state is ___." in the State box, one grown-up figure set with a flag by the lectern, no likeness); services our government provides;
+  - geography: how places change (nature or people; a hill in winter and in spring, no sea ice); when disaster strikes (a flood in "this town", exactly 3 changes, an emergency kit, the hurricane coasts); winter traditions families may keep (five traditions, symbols, and "the country where it began" for Lunar New Year, Kwanzaa and Las Posadas); where things come from (labels and a world map);
+  - economics: made here, sold there; why countries trade (each island gives one thing and gets one); tools and skills for the job (the worker on every card, a tool in the hand, know-how in a thought bubble); what it costs to make (a lemonade stand, "they have $___ left over"); what banks do ("You saved $100. The bank added $1.");
+  - history: two stories of the same day; questions about an old photograph (Main Street about 1910, a horse-drawn wagon); why did the town change? (four sample towns, the sentence that says the town grew and tells why).
+- **The teacher-led class market** gets its record page with practice trays of real US coins at real size.
+- Seven codes in playable families are print only (`LEVEL_SET_PRINT_ONLY_VARIATIONS`).
+- **Built by one Opus agent; read by one US second-grade teacher in three rounds:**
+  - Round 1: 4 must-fix and 29 should-fix:
+    - the sea-ice pair with a polar bear;
+    - "where it is widely kept" (two right countries);
+    - the "United States" label lying on Mexico (the check read an attribute the page never wrote);
+    - a horse that did not read as a horse;
+    - grown-ups no taller than the children;
+    - a tools-and-skills tell;
+    - frames that broke with some answers.
+  - Round 2: 9 should-fix. Fixing round 1 made new tells: nine tools ended "for …" and seven skills held "to" (84% and 82% sort the cards); a recipe card in a thought bubble; tools floating beside the hand; Ms. Cole read as a man; sign words past their signs.
+  - Round 3: 1 should-fix, a tape measure in a skill's bubble (a clock in another).
+- **The gate** `qa/verify-dk-social-2.js`: 43,404 assertions at 400 seeds a level (2,000 for G2-627 and the match and split types), 149/149 poisons.
+  - Every word of the G2-627 bank is measured: at most 72% against the 75% limit.
+  - A label may not lie on any asked country's shape.
+  - A tool's drawing touches the worker's hand.
+  - No skill bubble draws a tool.
+- **Byte identity:** 41,610 existing pages hash the same; the only string keys added are G2-614 … G2-630. The money family gains a Level Set sentence (`levelSetShort`, never-indexed pages only), because the Class Market Day description fell under 120.
+- **Level Set `ydr`:** 127 noindex English pages. check-zips 0 problems, no page dropped as the same, audit 127/127, 17 class sheets.
+
+**The teaching points:** 17 new points with their C3 indicators (`add-points-2.en.social.js`); 2:class-market teaches D2.Eco.5.K-2 with the market page; 606 points, all 1,639 types under one. The Money Mat now shows on both market lessons (1:prices-market, 2:class-market).
+
+**Stage D-3 for Grade 2 social studies, the units** (`place-ready-2.en.social.js`): Our Class and Our Community; Maps and Our World; Communities Near and Far; History of Our Community; Producers, Consumers and Money.
+- 20 lessons; the class market takes three sessions (make the goods, write the prices, the market).
+- **Year plan `plan-2-social`:** 28 weeks.
+- **20 teacher notes** (`notes/en-social-2.js`, written by one Opus agent and reviewed by the same teacher: 14 should-fix): partners share one copy; the menorah's helper candle is "set higher or apart"; the two-stories routine without a second adult; the bank lends some of the money people saved.
+- **The guides:** all five fit. Three sheets ran past their foot until their routine, mistake, words and watch were shortened (the sheet does not print the objective).
+- **Sub days:** 13 Grade 2 social pages a guest teacher can run join the social block, with their scripts. The class agreement, the flood, the winter traditions and the market stay out. All 144 packs keep their titles, descriptions and addresses; 32 packs rebuilt.
+- **Coverage:** 8 gaps frozen once (decision 7).
+
+**Fixed live in the same deploy** (found by the notes review): the 2:cardinal-directions guest script said north is "the tip that points up", but the roses are turned on Levels 2-3; the 2:continents script named a word box that Level 3 does not have. Both scripts ship in Grade 2 and Grade 3 weeks (4 Grade 3 packs rebuilt).
+
+**Live, after the deploy:** English teacher files uploaded (813, `--check` equal); units live check 3,096 checks pass; assessments live check 2,121 checks pass. The 5 unit pages and the plan page answer 200, indexable, self-canonical and in the sitemap, and their teacher files are Teacher-only. A ydr page answers noindex in the header and the page, with its PDF through the metered address. Identity check PASS: 287 pages and 11 shards unchanged (sitemap 3 grew 5,094 → 5,100). Payment canary OK. Server publish staging cleaned (11 GB → 4.5 GB: this batch and 397 dry-run folders older than 14 days).
+
+**Open (unchanged):**
+- The maker release (the sorting maker's K-213 data).
+- Unit checks for the science, health and social studies units.
+- The Texas reading of the new points.
+- The library nurse's red-cross cap.
+
+**Next:** social studies Grade 3 (batch S3; the 14 lines left in the social work list), then D-4, preschool theme units.

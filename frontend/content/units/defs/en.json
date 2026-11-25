@@ -8085,6 +8085,220 @@
      }
     }
    ]
+  },
+  {
+   "id": "k-look-closely-and-think",
+   "slug": "look-closely-and-think-kindergarten-critical-thinking-unit",
+   "status": "pilot",
+   "grade": "K",
+   "subject": "thinking",
+   "title": "Look Closely and Think",
+   "metaTitle": "Kindergarten Critical Thinking Lesson Plans: Visual Skills and Mazes",
+   "metaDescription": "A Kindergarten critical thinking unit: 6 lessons on same and different, spot the difference, shadow matching, visual closure, mazes, grid copying and picture grids.",
+   "lessons": [
+    {
+     "point": "K:same-different-visual",
+     "types": [
+      "K-039",
+      "K-058"
+     ]
+    },
+    {
+     "point": "K:spot-the-difference",
+     "types": [
+      "K-397",
+      "K-399"
+     ]
+    },
+    {
+     "point": "K:shadow-closure",
+     "types": [
+      "K-057",
+      "K-069"
+     ]
+    },
+    {
+     "point": "K:mazes",
+     "types": [
+      "K-405"
+     ]
+    },
+    {
+     "point": "K:grid-copy",
+     "types": [
+      "K-286"
+     ]
+    },
+    {
+     "point": "K:matrix-logic",
+     "types": [
+      "K-068"
+     ]
+    }
+   ],
+   "weeks": 3
+  },
+  {
+   "id": "g1-detective-thinking",
+   "slug": "detective-thinking-grade-1-logic-puzzles-unit",
+   "status": "pilot",
+   "grade": "1",
+   "subject": "thinking",
+   "title": "Detective Thinking",
+   "metaTitle": "Grade 1 Critical Thinking Lesson Plans: Logic Puzzles and Mazes",
+   "metaDescription": "A Grade 1 critical thinking unit: 6 lessons on counting differences, planning a maze route, drawing with a grid, picture analogies, 4 by 4 sudoku and logic puzzles.",
+   "lessons": [
+    {
+     "point": "1:find-the-differences",
+     "types": [
+      "G1-413",
+      "G1-415"
+     ]
+    },
+    {
+     "point": "1:mazes",
+     "types": [
+      "G1-420",
+      "G1-423",
+      "G1-425"
+     ]
+    },
+    {
+     "point": "1:grid-copy",
+     "types": [
+      "G1-416"
+     ],
+     "titles": {
+      "G1-416": "Draw a Picture with the Grid"
+     }
+    },
+    {
+     "point": "1:picture-analogies",
+     "types": [
+      "G1-157"
+     ]
+    },
+    {
+     "point": "1:picture-sudoku",
+     "types": [
+      "G1-158"
+     ],
+     "avoid": [
+      "visual-logic-easy-emotions-g1158"
+     ]
+    },
+    {
+     "point": "1:logic-picture-clues",
+     "types": [
+      "G1-349"
+     ]
+    }
+   ],
+   "weeks": 3
+  },
+  {
+   "id": "g2-clues-and-reasons",
+   "slug": "clues-and-reasons-grade-2-logic-puzzles-unit",
+   "status": "pilot",
+   "grade": "2",
+   "subject": "thinking",
+   "title": "Clues and Reasons",
+   "metaTitle": "Grade 2 Critical Thinking Lesson Plans: Logic Puzzles and Clues",
+   "metaDescription": "A Grade 2 critical thinking unit: 4 lessons on finding and writing about differences, the shortest way through a town maze, and logic puzzles with three clues.",
+   "lessons": [
+    {
+     "point": "2:find-differences",
+     "types": [
+      "G2-388",
+      "G2-389"
+     ],
+     "standards": [
+      "L.2.1.f",
+      "W.2.2"
+     ],
+     "standardsRel": {
+      "L.2.1.f": "prepares"
+     }
+    },
+    {
+     "point": "1:mazes",
+     "types": [
+      "G1-422"
+     ],
+     "id": "1:mazes#shortest-way",
+     "core": {
+      "G1-422": 3
+     }
+    },
+    {
+     "point": "1:logic-picture-clues",
+     "types": [
+      "G1-349"
+     ],
+     "id": "1:logic-picture-clues#harder-level",
+     "core": {
+      "G1-349": 3
+     },
+     "avoid": [
+      "logic-puzzles-vehicles-g1349",
+      "logic-puzzles-easy-farm-animals-g1349",
+      "logic-puzzles-hard-zoo-animals-g1349",
+      "logic-puzzles-farm-animals-g1349-2"
+     ]
+    },
+    {
+     "point": "2:logic-grid",
+     "types": [
+      "G2-319",
+      "G2-344",
+      "G2-345"
+     ],
+     "activity": null
+    }
+   ],
+   "weeks": 2
+  },
+  {
+   "id": "g3-logic-lab",
+   "slug": "logic-lab-grade-3-logic-puzzles-unit",
+   "status": "pilot",
+   "grade": "3",
+   "subject": "thinking",
+   "title": "Logic Lab",
+   "metaTitle": "Grade 3 Critical Thinking Lesson Plans: Logic Grids and Sudoku",
+   "metaDescription": "A Grade 3 critical thinking unit: 4 lessons on Venn diagram sorts, picture grids with two rules, 6 by 6 picture sudoku, and logic grids with six clues.",
+   "lessons": [
+    {
+     "point": "3:two-attribute-sort",
+     "types": [
+      "G3-353"
+     ],
+     "activity": null
+    },
+    {
+     "point": "3:two-attribute-sort~logic-cabinet",
+     "types": [
+      "G3-351"
+     ]
+    },
+    {
+     "point": "3:latin-square-sudoku",
+     "types": [
+      "G3-348"
+     ],
+     "avoid": [
+      "visual-logic-easy-occupations-g3348"
+     ]
+    },
+    {
+     "point": "3:logic-grids",
+     "types": [
+      "G3-378",
+      "G3-379"
+     ]
+    }
+   ],
+   "weeks": 2
   }
  ],
  "plans": [

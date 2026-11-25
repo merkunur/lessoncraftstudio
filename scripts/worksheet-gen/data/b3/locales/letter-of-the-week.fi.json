@@ -68,25 +68,6 @@
           ]
         },
         {
-          "theme": "vegetables",
-          "noun": "turnip",
-          "key": "turnip",
-          "word": "nauris",
-          "graphemes": [
-            "n",
-            "a",
-            "u",
-            "r",
-            "i",
-            "s"
-          ],
-          "pos": 0,
-          "split": [
-            "nau",
-            "ris"
-          ]
-        },
-        {
           "theme": "toys",
           "noun": "dice",
           "key": "dice",

@@ -10,9 +10,35 @@ const loadVocab = () => platform.vocab();
 const CACHE = path.join(__dirname, '..', 'cache');
 const MANIFEST = path.join(CACHE, 'manifest.json');
 
+// Pictures that show ANOTHER thing than their word: not a look-alike a child might name otherwise (lib/picture-refusals.js
+// keeps those off the pages that name a picture), but a different animal or object. They leave the cache as it is read,
+// so no page can draw or name them, whatever path it takes to a theme's pictures.
+//   2026-11-25 (the pre-K designer, reading the things-that-fly word cards): Things That Fly/firefly is a HOUSEFLY (red
+//   compound eyes, a hairy body, no light).
+//   2026-11-25 (the pre-K reviewer, the same day, every picture opened): kitchen tools/timer is a ringing ALARM CLOCK;
+//   vegetables/turnip is a solid red BEET (the black-and-white turnip, a white bulb, stays; the letter-of-the-week rows
+//   that pinned the colour one for "nauris" and "navet" left their banks).
+// A picture that shows a thing the vocabulary HAS a word for keeps its place under that word instead (RENAMED_PICTURES):
+// its pages keep their layout and print the right word.
+//   2026-11-25: space bw/sky is a crescent MOON with two stars (the theme has no other moon).
+// (space/venus, a banded orange planet, was weighed and KEPT: Venus is drawn with swirled cloud bands in picture books
+// too; a stylized look-alike, as lib/picture-refusals.js treats the squids.)
+// The live printable pages that showed a wrong picture were regenerated and republished in place (11 languages).
+const WRONG_PICTURES = { 'Things That Fly': ['firefly'], 'kitchen tools': ['timer'], vegetables: ['turnip'] };
+const RENAMED_PICTURES = { 'space bw': { sky: 'moon' } };
 let _manifest = null;
 function manifest() {
-  if (!_manifest) _manifest = platform.readJson(MANIFEST);
+  if (!_manifest) {
+    _manifest = platform.readJson(MANIFEST);
+    for (const [theme, nouns] of Object.entries(WRONG_PICTURES)) {
+      const t = _manifest.themes && _manifest.themes[theme];
+      if (t && t.nouns) for (const n of nouns) delete t.nouns[n];
+    }
+    for (const [theme, names] of Object.entries(RENAMED_PICTURES)) {
+      const t = _manifest.themes && _manifest.themes[theme];
+      if (t && t.nouns) for (const [n, key] of Object.entries(names)) if (t.nouns[n]) t.nouns[n] = Object.assign({}, t.nouns[n], { vocabKey: key });
+    }
+  }
   return _manifest;
 }
 

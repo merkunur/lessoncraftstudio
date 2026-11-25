@@ -2522,12 +2522,6 @@
           "word": "nez"
         },
         {
-          "theme": "vegetables",
-          "noun": "turnip",
-          "key": "turnip",
-          "word": "navet"
-        },
-        {
           "theme": "pets",
           "noun": "cat",
           "key": "cat",
@@ -5279,12 +5273,6 @@
           "noun": "truck",
           "key": "truck",
           "word": "camion"
-        },
-        {
-          "theme": "vegetables",
-          "noun": "turnip",
-          "key": "turnip",
-          "word": "navet"
         },
         {
           "theme": "ocean life",

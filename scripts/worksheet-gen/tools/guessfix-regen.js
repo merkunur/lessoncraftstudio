@@ -26,6 +26,7 @@ const LIVE = argv.find((a) => !a.startsWith('--'));
 if (!LIVE) throw new Error('usage: guessfix-regen.js <live.jsonl> [--locales=..] [--dry-run]');
 const arg = (n, d) => { const h = argv.find((a) => a.startsWith('--' + n + '=')); return h ? h.slice(n.length + 3) : d; };
 const DRY = argv.includes('--dry-run');
+const ONLY_LIVE = argv.includes('--only-live');
 const TAG = arg('tag', 'guess');   // batch name: waves/_fix-<tag>-*, out/staging/_<tag>fix/ (default = the 2026-11-01 guessability batch)
 const NOTE = arg('note', '2026-11-01 guessability fix');
 const ONLY = arg('locales', '') ? new Set(arg('locales').split(',')) : null;
@@ -133,9 +134,13 @@ for (const key of Object.keys(groups).sort()) {
     // never as the old staged one copied over as fresh (2026-11-15: 67 failed live pages; an old nl K-329 differed from live)
     if (fs.existsSync(z)) fs.unlinkSync(z);
   }
+  // --only-live (2026-11-25, the wrong-pictures round: 699 live pages in waves of 18,994): render only the live pages of
+  // the pinned waves (cli.js --ids). The enumeration, every deck id and every slot's theme stay the whole wave's.
+  const idsFile = path.join(WG, 'out', 'staging', '_' + TAG + 'fix', 'ids-' + key.replace(/[^a-z0-9]+/gi, '-') + '.txt');
+  if (ONLY_LIVE) { fs.mkdirSync(path.dirname(idsFile), { recursive: true }); fs.writeFileSync(idsFile, decks.map((d) => d.deck_id).join('\n') + '\n'); }
   for (const f of files) {
     let out;
-    try { out = node(['cli.js', 'generate', '--wave', f, '--force']); } catch (e) { out = String(e.stdout || '') + String(e.stderr || e.message); }
+    try { out = node(['cli.js', 'generate', '--wave', f, '--force'].concat(ONLY_LIVE ? ['--ids=' + idsFile] : [])); } catch (e) { out = String(e.stdout || '') + String(e.stderr || e.message); }
     console.log('  ' + f + ': ' + out.split(/\r?\n/).filter((l) => /zipped:|failed:/.test(l)).join(' '));
     if (!/failed: 0/.test(out)) failures.push(f + ': ' + out.split(/\r?\n/).filter((l) => /^FAIL|fail/i.test(l)).slice(0, 5).join(' | '));
   }

@@ -48,6 +48,9 @@ function parseArgs(argv) {
     else if (a === '--wave') args.wave = argv[++i];
     else if (a === '--limit') args.limit = Number(argv[++i]);
     else if (a.startsWith('--types=')) args.types = a.slice(8).split(',').map((t) => t.trim()).filter(Boolean);
+    // --ids=<file>: render only these deck ids (one a line) of the enumeration; every id, slot and theme stays what the
+    // whole wave gives it (tools/guessfix-regen.js --only-live: a repair renders the live pages, not the whole wave)
+    else if (a.startsWith('--ids=')) args.ids = new Set(fs.readFileSync(a.slice(6), 'utf8').split(/\r?\n/).map((x) => x.trim()).filter(Boolean));
     else args._.push(a);
   }
   return args;
@@ -143,6 +146,7 @@ async function generate(args) {
   try {
     for (let i = 0; i < list.length; i++) {
       const it = list[i];
+      if (args.ids && !args.ids.has(it.deckId)) continue;
       const zipPath = path.join(stagingDir, it.deckId + '.zip');
       if (!args.force && fs.existsSync(zipPath)) { state.skippedExisting++; continue; }
 

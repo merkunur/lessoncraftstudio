@@ -2216,3 +2216,123 @@ Then batch 1 (Grade 1 pages), and so on.
 - The library nurse's red-cross cap.
 
 **Next:** D-4, preschool theme units.
+
+### 2026-11-25: Stage D-4 is live: the preschool theme year in English, 30 theme units over 33 weeks (deploys 62-63, commits `9978036fc`, `a61796da4`)
+
+**What a theme unit is** (plan decision 5):
+- One theme (Farm, Five Senses, Winter …), one week (Winter, Transportation and Spring take two), grade P, subject `theme`.
+- Four daily blocks, always in this order: literacy and language, math, science and our world, fine motor and art.
+- Each block is a named lesson "<Kindergarten readiness point>#p-<theme>" that hands out EXACT live pages. A themed copy carries the theme in its address; every page was looked at.
+- Each block has a hands-on routine, a line for each day of the week, a teacher note and one line on the theme's observation checklist.
+- No unit check: the observation checklist is the measure. The blocks' standards show as the Kindergarten objectives they build toward ("Later grade").
+
+**Search demand:**
+- A US autocomplete harvest (`scripts/seo-research/harvest-preschool-themes.js`, 528 probes, `docs/SEO/daily-system-demand/preschool-themes.en.json`).
+- Teachers type "<theme> theme preschool lesson plans" (34 exact phrasings) and "preschool themes by month" / "preschool themes for <month>".
+- A theme is `/en/units/<theme>-theme-preschool-lesson-plans`, titled "<Name> Theme Preschool Lesson Plans for One Week". The year is `/en/units/preschool-themes-by-month`.
+- Each description says what the children explore that week (the designer's line), so no two theme pages share one.
+
+**The year** (`scripts/units/year/design.en.theme.json`):
+- **Design:** one US pre-K teacher-designer (Opus) built it from the live English pages.
+  - 49 colour picture themes were measured; the themes carry themed copies of up to 52 Kindergarten types.
+  - 186 pages, all looked at on contact sheets; no page is handed out twice in the year.
+- **The year by month:**
+  - September: Back to School · All About Me · Feelings · My Family and My Home.
+  - October: Apples and Fruits · Community Helpers (Fire Prevention Week) · Farm · Fall and Forest Animals.
+  - November: Construction and Tools · Pets · Thanksgiving.
+  - December: Toys · Cooking and Baking · Space.
+  - January: Winter (2 weeks) · Clothing · Healthy Eating.
+  - February: Post Office · Friendship and Valentine's Day · Doctors and Healthy Habits · Weather.
+  - March: Transportation (2 weeks) · Plants and Gardens.
+  - April: Bugs · Spring (2 weeks: baby animals, then birds) · Frogs and the Pond.
+  - May: Zoo Animals · Ocean · Beach and Summer · Camping.
+- **The designer's holiday ruling** (a public pre-K and Head Start, families of many faiths):
+  - Thanksgiving, and Friendship and Valentine's Day, stay.
+  - Christmas and Easter are not weeks, and no Christmas or Easter page is used.
+  - The library has no Halloween pictures.
+- **Left out, each with a reason** (25 themes in all):
+  - dinosaurs, shapes and music (no science page);
+  - My Body (the body-parts pictures do not suit 3- and 4-year-olds);
+  - Sports (dropped by the review: adult equipment, a race that centers winning).
+- **The review:** one US pre-K coach read every text and every contact sheet. 130 findings (60 must-fix, 70 should-fix); every one was applied or answered.
+  - Notes written from page titles, not pictures: the dot-to-dots described wrongly, a kitten called a fox, an oven called a pot.
+  - Safety: raw carrot and broccoli tastings for 3-year-olds, an acorn on a balance scale, a sun-hot slide, raw dough, a collected bird's nest.
+  - The bean-in-the-dark test as written would have "proved" the dark plant grew best.
+  - No phonological work at all: now a syllable-clap or first-sound line in every word-card week, and a read-aloud in every literacy routine.
+  - Order: Community Helpers moved into Fire Prevention Week; Post Office now comes before Valentine's Day.
+  - No food as a play material.
+- **Swaps:** 9 pages were swapped where the review found wrong pictures on the cards (see below).
+
+**The engine:**
+- **`assemble.js`:** a theme branch.
+  - Exact pages; a page is handed out once in the year; the four blocks in order; 5 day lines a week; the checklist line.
+  - The 106 K-3 units stay byte-identical in en, de and sv.
+- **`pacing.js`:** a theme is its week or two, with no end days.
+- **The unit page:**
+  - the strand above each block;
+  - the days of the week (Week 1, Monday … for two-week themes);
+  - "Open the page";
+  - the checklist line in the note;
+  - an "Observation checklist (PDF)" button in place of the unit check.
+- **The plan page:** "September · Week 1".
+- **The teacher guide:**
+  - one week-at-a-glance grid per week (blocks × Monday to Friday, every cell the block's own day line);
+  - the block sheets;
+  - the observation checklist as the last page, and alone as `observation-checklist.pdf`.
+  - All 30 guides fit after the day lines moved from the block sheets onto the grid; with them on the sheets, only 4 of 31 fitted.
+- **The year plan PDF:** three sheets, with the four blocks on one line per theme.
+- **Coverage:** a theme plan is measured by its checklist; preschool has no sub days. 72 gaps, unchanged; the theme plan is complete (33 of 33 weeks).
+- **Units gates:** P9 for themes and P5 on the day lines, with 4 new poisons (56/56 caught).
+- **`live-check.js`:** the checklist file behind the gate.
+- **Other readers of the units:**
+  - the homepage and topic pictures stay on the K-3 files;
+  - `build-checks.js` skips themes;
+  - `build-looks.js`: the preschool look is the week grid, with no standards picture;
+  - the curriculum pages leave the theme blocks out. Without that, the Kindergarten counting lines would have listed preschool dot-to-dots in place of their Kindergarten lessons; `pages.en.json` is unchanged.
+- The hub eyebrow reads "Preschool through Grade 3" (title and description unchanged).
+
+**Live:**
+- **Deploy 62:** the 30 themes went up as pilots. The units live check passed 3,551 checks, and I read the phone and desktop renders. Three fixes came from that reading:
+  - the strand was hidden by the number badge;
+  - "an easier and a harder page" is never true of a theme;
+  - the month badge covered the theme titles on the plan page.
+- **Deploy 63:** the fixes and the switch to live.
+  - The units live check passes 3,552 checks.
+  - The 30 themes and the plan answer 200, indexable, self-canonical and in the sitemap; their guides and checklists are Teacher-only.
+  - Identity check PASS (287 pages, 11 shards).
+  - The teacher files are uploaded (879, `--check` equal) and the looks are uploaded.
+- **The sitemap cache** (from the morning's fix) kept the 31 new addresses out of `/sitemap/3.xml` for its 30 minutes. `deploy.sh` now empties it at its end (`a84adcf7e`).
+
+**Wrong library pictures fixed live the same day** (commit `a899347eb`; found by the pre-K designer and the pre-K coach, every picture opened):
+- **Removed** from the image cache as it is read (`image-cache/resolve.js` WRONG_PICTURES): no page can draw or name them.
+  - Things That Fly/firefly is a housefly.
+  - kitchen tools/timer is a ringing alarm clock.
+  - vegetables/turnip (colour) is a red beet. The black-and-white turnip, a white bulb, stays.
+- **Renamed** (RENAMED_PICTURES): space bw/sky is a crescent moon, so it keeps its place under the word moon. A first removal had left Finnish card pages short of nouns.
+- **Kept:** space/venus, a banded planet, was weighed and kept as a look-alike (Venus is drawn with swirled cloud bands), like the squids.
+- **Banks:** the letter-of-the-week rows that pinned the beet for "nauris" (fi) and "navet" (fr) left their banks and drafts.
+- **Faster republish:** `cli.js generate --ids` and `guessfix-regen.js --only-live` render only the live pages of a pinned wave. On three pages of a 149-id wave the output is pixel-identical to a full-wave run, and 699 live pages took about 70 minutes instead of a wave set of 18,994.
+- **What was republished:** 450 Level Set pages in 11 languages (447 noindex, 3 indexable), live titles kept. A pixel comparison with the live PDFs dropped 125 pages that never printed one of these pictures, and the 123 Venus-only pages were left out.
+- The HANDOFF section 6 order ran on the server after the 13 folders:
+  - the injections audit found one page that had lost its teaching block and meter (restored; audit again 0);
+  - one pt page had lost its title tail; the identity restore set 43 titles and 35 descriptions back to their live values (396 were already right, 0 errors);
+  - 11 pages had no version older than the baseline: each kept the title and description of its previous version;
+  - the canonical repoint changed 0 files on its second pass in all 11 languages;
+  - identity PASS (287 pages, 11 shards).
+  - Spot check at the origin: three republished pages (en, fi indexable, sv) answer 200 with their robots, and their live PDFs are pixel-identical to the rebuilt pages and differ from the old ones.
+  - Server and PC staging deleted (logs kept in lcs-stage-d/picfix/server-logs).
+- **Open:**
+  - One fi page (K-307, things that fly) keeps the housefly: its rebuilt page trips the frame lint, though the pictures sit inside their cards.
+  - 97 app pages still show the pictures (app decks are not regenerated).
+  - The makers draw from the old library until the maker release.
+
+**Open (unchanged):**
+- The maker release (the sorting maker's K-213 data, and now the wrong pictures).
+- Unit checks for the science, health and social studies units.
+- The Texas reading of the new points.
+- The library nurse's red-cross cap.
+- Recorded, not changed (deck titles are metadata):
+  - three picture-tracing scene names that do not match their pictures ("The Toy Box", "The Toy Street", "The Tool Shed");
+  - "trousers" on the English clothing cards (the British-wording session).
+
+**Next:** the last piece of item 3, D-3 for the thinking-skills units (plan decision 4; designed 2026-11-23 in `scripts/units/year/thinking-units.en.json`, never placed): K Look Closely, Think It Through; G1 Detective Thinking; G2 Clues and Reasons; G3 Logic Lab (20 lessons, no year plan, unit checks). Then item 4, German and Swedish to the whole year.

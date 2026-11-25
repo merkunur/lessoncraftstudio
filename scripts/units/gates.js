@@ -129,7 +129,8 @@ function run(d) {
         if (!n.mistake || n.mistake.length < 60) fail('P3', lw + ': the note names no mistake');
         if (!n.words || !QUOTED.test(n.words)) fail('P3', lw + ': the note gives no words to use (nothing in quotation marks)');
         if (!n.watch || n.watch.length < 40) fail('P3', lw + ': the note does not say what to watch for');
-        for (const s of [x.title, x.objective, n.mistake, n.words, n.watch]) if (s && freeIn(l, x.point, s)) fail('P5', lw + ': "' + s.slice(0, 60) + '" says free');
+        // (2026-11-25) the routine too: the unit page prints it under "What the class does" (deploy 58 found one there)
+        for (const s of [x.title, x.objective, x.routine, n.mistake, n.words, n.watch]) if (s && freeIn(l, x.point, s)) fail('P5', lw + ': "' + s.slice(0, 60) + '" says free');
         // a lesson stands once in a language: by its id where it has one (a further lesson on a point), else by its point
         const key = x.id || x.point;
         if (x.id != null && !(typeof x.id === 'string' && x.id.startsWith(x.point + '#'))) fail('P2', lw + ': the lesson id "' + x.id + '" does not begin with its point');

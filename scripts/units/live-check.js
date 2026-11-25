@@ -69,7 +69,9 @@ const check = (ok, what) => { n++; if (!ok) { bad++; console.log('FAIL  ' + what
     const who = seg + ' ' + x.id;
     check(r.status === 200, who + ': page answers ' + r.status);
     const title = (/<title>([^<]*)<\/title>/.exec(r.body) || [])[1] || '';
-    check(title.replace(/&amp;/g, '&') === x.metaTitle, who + ': title is "' + title + '"');
+    // (2026-11-25) every entity React writes in a title, not only &amp; (an apostrophe arrives as &#x27;)
+    const plainTitle = title.replace(/&#x27;|&#39;/g, "'").replace(/&quot;/g, '"').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
+    check(plainTitle === x.metaTitle, who + ': title is "' + title + '"');
     check((r.body.match(/<h1[\s>]/g) || []).length === 1, who + ': ' + (r.body.match(/<h1[\s>]/g) || []).length + ' h1');
     check(r.body.includes('<link rel="canonical" href="https://www.lessoncraftstudio.com' + p + '"'), who + ': canonical is not the page itself');
     const robots = (/<meta name="robots" content="([^"]*)"/.exec(r.body) || [])[1] || '';

@@ -233,7 +233,8 @@ function lawArt(id, k) {
 /** one leader at a lectern: a grown-up in a jacket (a role, never a person's likeness), a small flag on a pole beside the
  *  lectern (review round 1, row 7: the S1 figure with puffs or a cap read as a child giving a speech) */
 function leaderOne(look) {
-  const o = grownUp(look, { s: 0.82, x: 44, y: 99, look: 0, la: [-6, 8, -2, 18], ra: [6, 8, 2, 18], tie: look.sex !== 'f' });
+  // 2026-11-25 picture fix: the leader stands BEHIND the lectern, feet above its foot (at y 99 the shoes showed under it)
+  const o = grownUp(look, { s: 0.82, x: 44, y: 94, look: 0, la: [-6, 8, -2, 18], ra: [6, 8, 2, 18], tie: look.sex !== 'f' });
   return rect(0, 0, 100, 100, '#EAF2EE') + rect(0, 86, 100, 14, '#E6DBC6') + line(0, 86, 100, 86, OUT, 1) + flagPole(80, 96, 62, 17) + o.svg +
     g('data-s2-drawn="lectern"', path('M28,62 L60,62 L56,96 L32,96 Z', '#8B5E3C', 1.6) + orect(24, 58, 40, 6, '#B07A4E', 1.2) + line(44, 58, 41, 46, OUT, 1.2) + `<ellipse cx="40.5" cy="44.5" rx="2.2" ry="3" fill="${OUT}"/>`);
 }
@@ -245,7 +246,8 @@ function leaderGroup(looks, rows) {
   for (let r = 0; r < rows; r++) {
     const y = rows === 2 ? (r === 0 ? 64 : 90) : 88, sc = rows === 2 ? (r === 0 ? 0.44 : 0.52) : 0.6;
     const xs = Array.from({ length: n }, (_, q) => 11 + q * (60 / (n - 1)));
-    s += xs.map((x, q) => grownUp(looks[r * n + q], { s: sc, x, y, look: 0, la: [-4, 6, 2, 13], ra: [4, 6, -2, 13], tie: looks[r * n + q].sex !== 'f' }).svg).join('');
+    // 2026-11-25 picture fix: the members stand behind the desk, feet 2 units above its foot (at its foot the shoes showed a sliver)
+    s += xs.map((x, q) => grownUp(looks[r * n + q], { s: sc, x, y: y - 2, look: 0, la: [-4, 6, 2, 13], ra: [4, 6, -2, 13], tie: looks[r * n + q].sex !== 'f' }).svg).join('');
     s += g('data-s2-drawn="long-desk"', orect(1, y - (rows === 2 ? 22 : 30), 80, rows === 2 ? 9 : 12, '#B07A4E', 1.2) + orect(3, y - (rows === 2 ? 13 : 18), 76, rows === 2 ? 13 : 18, '#8B5E3C', 1.1));
   }
   return s;
@@ -316,7 +318,7 @@ function placeArt(id, x, y, w, h, k, kind, u = h) {
     const sr = Math.max(h * 0.3, 24), sx = Math.min(x + w * 0.84, x + w - sr - 2), sy = Math.max(gy - h * 0.62, y + sr + 2);
     s += g('data-s2-sign="ROAD WORK"', line(sx, gy - 2, sx, sy + sr, OUT, 1.6) + path(`M${f1(sx)},${f1(sy - sr)} L${f1(sx + sr)},${f1(sy)} L${f1(sx)},${f1(sy + sr)} L${f1(sx - sr)},${f1(sy)} Z`, '#F08A24', 1.2) + signText(sx, sy - 1.5, 'ROAD', 9.5) + signText(sx, sy + 8.5, 'WORK', 9.5));
   } else s += house(x + w * 0.2, gy - h * 0.45, w * 0.6, h * 0.45, '#F4EBD9');   // a plain house (no place to circle)
-  if (k && k.skin && ['library', 'school', 'toys', 'pizza', 'park'].includes(id)) s += P({ ...k, age: id === 'library' || id === 'pizza' ? 'adult' : 'child', s: u * (id === 'library' || id === 'pizza' ? 0.0045 : 0.005), x: x + w * (id === 'park' ? 0.36 : 0.12), y: gy - 1, look: 1 });
+  if (k && k.skin && ['library', 'school', 'toys', 'pizza', 'park'].includes(id)) s += P({ ...k, age: id === 'library' || id === 'pizza' ? 'adult' : 'child', s: u * (id === 'library' || id === 'pizza' ? 0.0045 : 0.005), x: x + w * (id === 'park' ? 0.23 : 0.12), y: gy - 1, look: 1 });   // 2026-11-25 picture fix: the park child beside the bench (at 0.36 it stood across it)
   return open + s + '</g>';
 }
 /** the town picture (0 0 W H): the lots above and below the street, the road work in the street at `roadAt` (0..1) */
@@ -524,8 +526,9 @@ function tellerArt(id, look) {
   }
   if (id === 'librarian') {
     // Ms. Lin behind the library desk, a badge on a lanyard, the shelves behind her
-    const p = grownUp({ ...look, sex: 'f' }, { s: AS, x: 32, y: 66, badge: true, glasses: true, look: 1, la: [-5, 8, -3, 17], ra: [5, 8, 3, 17] });
-    return bg + g('data-s2-drawn="shelf"', orect(58, 6, 38, 54, '#B07A4E', 1.2) + [12, 28, 44].map((y) => [0, 1, 2, 3, 4].map((q) => rect(61 + q * 6.6, y, 5.4, 13, ['#C0504D', '#4F81BD', '#9BBB59', '#F79646', '#8064A2'][q])).join('') + line(58, y + 13, 96, y + 13, OUT, 1)).join('')) + p.svg + g('data-s2-drawn="desk"', orect(6, 47, 52, 13, '#8B5E3C', 1.2) + orect(4, 44, 56, 4, '#B07A4E', 1));
+    // 2026-11-25 picture fix: the desk reaches the floor and Ms. Lin stands behind it (her shoes showed under the desk)
+    const p = grownUp({ ...look, sex: 'f' }, { s: AS, x: 32, y: 65, badge: true, glasses: true, look: 1, la: [-5, 8, -3, 17], ra: [5, 8, 3, 17] });
+    return bg + g('data-s2-drawn="shelf"', orect(58, 6, 38, 54, '#B07A4E', 1.2) + [12, 28, 44].map((y) => [0, 1, 2, 3, 4].map((q) => rect(61 + q * 6.6, y, 5.4, 13, ['#C0504D', '#4F81BD', '#9BBB59', '#F79646', '#8064A2'][q])).join('') + line(58, y + 13, 96, y + 13, OUT, 1)).join('')) + p.svg + g('data-s2-drawn="desk"', orect(6, 47, 52, 20, '#8B5E3C', 1.2) + orect(4, 44, 56, 4, '#B07A4E', 1));
   }
   if (id === 'boy' && look.parade) {
     // Leo sits on his dad's shoulders (his story says so), waving a little flag; dad holds his legs
@@ -737,7 +740,8 @@ function bankArt(id, k, statement = { start: 100, added: 1 }) {
   // the bill: in the banker's hand, held out toward the parent's open hand (just below it, palm up)
   const bill = g('data-s2-drawn="bill-held-out" data-s2-giver="banker"', orect(bh[0] - 16, bh[1] - 5, 16, 9, '#D6EBC8', 1) + signText(bh[0] - 8, bh[1] + 2.4, '$', 9, '#2E6B45'));
   const openHand = g('data-s2-drawn="open-hand"', `<path d="M${f1(ph[0] - 3)},${f1(ph[1] - 1)} q3,3 7,0" fill="none" stroke="${OUT}" stroke-width="1"/>`);
-  return room + bk.svg + g('data-s2-drawn="desk"', orect(104, 70, 50, 26, '#8B5E3C', 1.3)) + P(child) + pa.svg + openHand + bill +
+  // 2026-11-25 picture fix: the desk reaches the floor (its foot below the banker's feet), so it hides his legs; his shoes showed under it
+  return room + bk.svg + g('data-s2-drawn="desk"', orect(104, 74, 50, 30, '#8B5E3C', 1.3)) + P(child) + pa.svg + openHand + bill +
     bubble(2, 2, 58, 34, hd.x - 4, hd.y - 8, true, g('data-s2-drawn="roof-fixed"', house(17, 19, 28, 13, '#F7EEDD', '#A8483A') + path('M24,13 L30,10 L32,14 Z', C.roofHole, 0.8) + line(42, 34, 37, 10, '#8B5E3C', 1.6) + line(46, 34, 41, 10, '#8B5E3C', 1.6)));
 }
 

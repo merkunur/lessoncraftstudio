@@ -715,11 +715,45 @@ function s1VerifyInPage(OPT) {
     const lo = Math.min(...parts.map((r) => r.left)) - k.left, hi = k.right - Math.max(...parts.map((r) => r.right)); if (lo < OPT.keyMargin || hi < OPT.keyMargin) f.push(`the coin key runs to ${Math.round(Math.min(lo, hi))} px from the card's border (at least ${OPT.keyMargin}: a quarter inch)`); } }
   // the jar has as many parts as the price (one part for each $1 week)
   R.querySelectorAll('svg[data-s1-art="jar"]').forEach((s) => { const n = s.querySelectorAll('[data-s1-jarline]').length + 1, p = Number(s.dataset.s1Parts); const w = R.querySelector('[data-s1-weeks]'); if (n !== p || !w || Number(w.dataset.dkAnswer) !== p) f.push(`the jar has ${n} parts for a price of $${p}`); });
+  // 2026-11-25 picture fix (the bakery class, batch S3's live finding): a person who stands at furniture (a lectern, the library checkout desk; the classroom tables are open: legs show)
+  // stands BEHIND it: the furniture comes after the person in document order and hides the person's lower body,
+  // measured: every point of the lowest 40% of the figure drawn below the furniture's top lies inside the furniture's
+  // shapes, and the feet are no lower than its foot. A person drawn after it whose feet stand more than OPT.frontGap px
+  // below its foot is in front of it and is not judged. Each drawing of people at furniture (OPT.atFurniture: its name ->
+  // the people in it at furniture) judges at least that many, wherever a page draws it (else the check measured nothing).
+  {
+    const FURN = '[data-s1-drawn="lectern"], [data-s1-drawn="checkout-desk"]';
+    const rr0 = (e) => e.getBoundingClientRect();
+    const shapesOf = (e) => (e.matches('path, rect, circle, ellipse, polygon') ? [e] : [...e.querySelectorAll('path, rect, circle, ellipse, polygon')]).filter((x) => x.getAttribute('fill') !== 'none');
+    const inAny = (els, X, Y) => els.some((x) => { const q0 = new DOMPoint(X, Y).matrixTransform(x.getScreenCTM().inverse()); return x.isPointInFill(q0) || x.isPointInStroke(q0); });
+    let pairs = 0; const per = new Map();
+    R.querySelectorAll(FURN).forEach((F) => {
+      const svg = F.closest('svg'), fb = rr0(F), fs0 = shapesOf(F), name = F.getAttribute('data-s1-drawn');
+      [...svg.querySelectorAll('[data-sk-skin]')].forEach((P0) => {
+        if (F.contains(P0)) return;
+        const pb = rr0(P0), ov = Math.min(pb.right, fb.right) - Math.max(pb.left, fb.left);
+        if (ov < pb.width * 0.4 || pb.bottom <= fb.top + 1) return;
+        const after = !(P0.compareDocumentPosition(F) & Node.DOCUMENT_POSITION_FOLLOWING);
+        if (after && pb.bottom > fb.bottom + OPT.frontGap) return;
+        pairs++; per.set(svg, (per.get(svg) || 0) + 1);
+        const who = P0.dataset.skPerson || ('a ' + (P0.dataset.skAge || 'person'));
+        if (after) { f.push(`${who} at the ${name} is drawn after it (the person reads as standing inside the ${name})`); return; }
+        if (pb.bottom > fb.bottom + 0.5) { f.push(`${who} at the ${name}: the feet are ${(pb.bottom - fb.bottom).toFixed(1)} px below its foot (in front of it, though drawn behind it)`); return; }
+        const ps = shapesOf(P0); let shown = 0;
+        for (let Y = Math.max(fb.top, pb.bottom - OPT.lowerBody * pb.height) + 1; Y < pb.bottom; Y += 1.5) for (let X = pb.left + 0.5; X < pb.right; X += 1.5) if (inAny(ps, X, Y) && !inAny(fs0, X, Y)) shown++;
+        if (shown > OPT.legsShown) f.push(`${who} at the ${name}: ${shown} points of the lower body show past it (at most ${OPT.legsShown})`);
+      });
+    });
+    R.querySelectorAll('svg[data-s1-art]').forEach((sv) => { const a0 = sv.getAttribute('data-s1-art'), want = (OPT.atFurniture || {})[a0] || 0; if ((per.get(sv) || 0) < want) f.push(`${per.get(sv) || 0} people at furniture judged in "${a0}" (it draws ${want}: the check would measure nothing)`); });
+    void pairs; void mode; void lv;
+  }
   return f;
 }
 
 /** the bank's values the page checks need (passed into page.evaluate) */
-const S1_OPT = { earR: String(f1(KA.BODY.child.r * 0.22)), printMin: 28, adultRatio: 1.38, maxInnerBand: 48, keyMargin: 24, maxBottomGap: 96, changeMaxW: 0.25, changeMaxH: 0.45, changeGap: 0.025, stateMinFrac: 0.35, nameLineMin: 460, workerMin: 140, coinPx: Object.fromEntries(B.US_COINS.map((c) => [c.id, Math.round(c.mm / 25.4 * 96 * 10) / 10])), minDraw: 230, quarterPx: Math.round(B.QUARTER_MM / 25.4 * 96 * 10) / 10, parkChanges: { 1: 3, 2: 5, 3: 5 }, greys: ['#FFFFFF', ...['g1', 'g2', 'g3', 'g4', 'g5', 'g6', 'g7', 'g8', 'g9'].map((k) => A.S1_SCENE[k])] };
+/** 2026-11-25 picture fix: the people at furniture each drawing judges at least (by its name; measured) */
+const ATFURN_S1 = { 'leader:mayor': 1, 'leader:governor': 1, 'leader:president': 1, 'leader:principal': 1, 'place:library': 1 };
+const S1_OPT = { legsShown: 2, frontGap: 3, lowerBody: 0.4, atFurniture: ATFURN_S1, earR: String(f1(KA.BODY.child.r * 0.22)), printMin: 28, adultRatio: 1.38, maxInnerBand: 48, keyMargin: 24, maxBottomGap: 96, changeMaxW: 0.25, changeMaxH: 0.45, changeGap: 0.025, stateMinFrac: 0.35, nameLineMin: 460, workerMin: 140, coinPx: Object.fromEntries(B.US_COINS.map((c) => [c.id, Math.round(c.mm / 25.4 * 96 * 10) / 10])), minDraw: 230, quarterPx: Math.round(B.QUARTER_MM / 25.4 * 96 * 10) / 10, parkChanges: { 1: 3, 2: 5, 3: 5 }, greys: ['#FFFFFF', ...['g1', 'g2', 'g3', 'g4', 'g5', 'g6', 'g7', 'g8', 'g9'].map((k) => A.S1_SCENE[k])] };
 /** makeS1Type({ id, slug, mode, exerciseType, difficulty, i18n, words }) */
 function makeS1Type({ id, slug, mode, exerciseType, difficulty, i18n }) {
   if (!MODES[mode]) throw new Error('dk-social-1: unknown mode ' + mode);

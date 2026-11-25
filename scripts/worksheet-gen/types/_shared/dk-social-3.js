@@ -828,6 +828,35 @@ function s3VerifyInPage(OPT) {
     if (!ss.length) f.push('no story sentences (the story-size check would measure nothing)');
     ss.forEach((e) => { const fs0 = parseFloat(getComputedStyle(e).fontSize); if (fs0 < OPT.storyMin) f.push(`a story sentence at ${fs0}px (at least ${OPT.storyMin})`); });
   }
+  // live fix (2026-11-25, the owner's bakery): a person who stands at furniture (a counter, a desk, a lectern, a long
+  // council desk) stands BEHIND it: the furniture comes after the person in document order and hides the person's lower
+  // body, measured: every point of the person's lower body (the lowest 40% of the figure) drawn below the furniture's top
+  // lies inside the furniture's shapes (and the
+  // feet are no lower than the furniture's foot). The S2 lectern and long desk that G3-619 borrows are judged too.
+  {
+    const FURN = '[data-s3-front="people"], [data-s2-drawn="lectern"], [data-s2-drawn="long-desk"]';
+    const shapesOf = (e) => (e.matches('path, rect, circle, ellipse, polygon') ? [e] : [...e.querySelectorAll('path, rect, circle, ellipse, polygon')]).filter((x) => x.getAttribute('fill') !== 'none');
+    const inAny = (els, X, Y) => els.some((x) => { const q0 = new DOMPoint(X, Y).matrixTransform(x.getScreenCTM().inverse()); return x.isPointInFill(q0) || x.isPointInStroke(q0); });
+    let pairs = 0;
+    R.querySelectorAll(FURN).forEach((F) => {
+      const svg = F.closest('svg'), fb = rr(F), fs0 = shapesOf(F), name = F.dataset.s3Drawn || F.dataset.s2Drawn;
+      [...svg.querySelectorAll('[data-sk-skin]')].forEach((P0) => {
+        const pb = rr(P0), ov = Math.min(pb.right, fb.right) - Math.max(pb.left, fb.left);
+        if (ov < pb.width * 0.4 || pb.bottom <= fb.top + 1) return;   // not at this furniture
+        const after = !(P0.compareDocumentPosition(F) & Node.DOCUMENT_POSITION_FOLLOWING);
+        if (after && pb.bottom > fb.bottom + OPT.frontGap) return;     // drawn after it AND standing in front of it (feet nearer the viewer): not at it
+        pairs++;
+        const who = P0.dataset.skPerson || ('a ' + (P0.dataset.skAge || 'person'));
+        if (after) { f.push(`${who} at the ${name} is drawn after it (the person reads as standing inside the ${name})`); return; }
+        if (pb.bottom > fb.bottom + 0.5) { f.push(`${who} at the ${name}: the feet are ${(pb.bottom - fb.bottom).toFixed(1)} px below its foot (in front of it, though drawn behind it)`); return; }
+        const ps = shapesOf(P0); let shown = 0;
+        for (let Y = Math.max(fb.top, pb.bottom - OPT.lowerBody * pb.height) + 1; Y < pb.bottom; Y += 1.5) for (let X = pb.left + 0.5; X < pb.right; X += 1.5) if (inAny(ps, X, Y) && !inAny(fs0, X, Y)) shown++;
+        if (shown > OPT.legsShown) f.push(`${who} at the ${name}: ${shown} points of the lower body show past it (at most ${OPT.legsShown})`);
+      });
+    });
+    const want = (OPT.atFurniture[mode] || {})[R.dataset.dkLevel] || 0;
+    if (pairs < want) f.push(`${pairs} people at furniture judged (this page draws at least ${want}: the check would measure nothing)`);
+  }
   // a column of a sort holds the same number of lines as every other column of the page
   const cols = [...R.querySelectorAll('[data-s3-column]')].map((c) => c.querySelectorAll('[data-dk-writerow]').length);
   if (cols.length && new Set(cols).size > 1) f.push(`the columns hold ${cols.join(', ')} lines (the same number in each: a column's count would tell)`);
@@ -835,7 +864,11 @@ function s3VerifyInPage(OPT) {
 }
 const S3_OPT = { pxin: IN, distTol: 0.75, placeR: GEO.PLACE_R, many: 60, few: 12, siteNear: 26, siteFar: 40, mineFar: 120, virtueW: 239.5, fullLine: 560, ruleLine: 520, from: B.TIMELINE_FROM, to: B.TIMELINE_TO,
   // review round 2
-  fillBand: 30, stackGap: 20, plateThick: 0.3 * IN, plateLong: 1.6 * IN, plateLine: 1.2 * IN, keyLine: 1.5 * IN, storyMin: 18 };
+  fillBand: 30, stackGap: 20, plateThick: 0.3 * IN, plateLong: 1.6 * IN, plateLine: 1.2 * IN, keyLine: 1.5 * IN, storyMin: 18,
+  // live fix: points of a person's lower body that may show past the furniture (its outline's anti-aliasing), and the
+  // people at furniture every copy of a page draws (by mode and level; the check fails a page that finds fewer)
+  legsShown: 2, frontGap: 3, lowerBody: 0.4,
+  atFurniture: { 's3-resources': { 1: 2, 2: 2, 3: 2 }, 's3-levels': { 1: 19, 2: 19, 3: 19 }, 's3-ways': { 1: 3, 2: 3, 3: 3 }, 's3-changelaw': { 2: 3, 3: 3 }, 's3-thennow': { 2: 1, 3: 1 } } };
 /** makeS3Type({ id, slug, mode, exerciseType, difficulty, i18n }) */
 function makeS3Type({ id, slug, mode, exerciseType, difficulty, i18n }) {
   if (!MODES[mode]) throw new Error('dk-social-3: unknown mode ' + mode);

@@ -744,6 +744,14 @@ async function main() {
       // review round 2
       await pr('PR24 a tool floating beside the hand of the worker', 'G2-627', 1, (h) => h.replace('data-s2-drawn="tool-in-hand"', 'data-s2-drawn="tool-in-hand" transform="translate(40 -40)"'), /floats beside the worker's hand/);
       await pr('PR25 a sign word running past its sign', 'G2-625', 1, (h) => h.replace(/(<g data-s2-sign="HARDWARE"><rect x="[0-9.]+" y="[0-9.]+" width=")([0-9.]+)"/, '$150"'), /runs past its sign/);
+      // 2026-11-25 picture fix: every person at furniture stands behind it (drawn before it, feet hidden by it), measured
+      const furnitureFirst = (h, art, furn) => { const i = h.indexOf('data-s2-art="' + art + '"'), e = h.indexOf('</svg>', i), seg = h.slice(i, e), fm = new RegExp('<g data-s2-drawn="' + furn + '">[\\s\\S]*?</g>').exec(seg)[0], noF = seg.replace(fm, ''), p0 = noF.indexOf('<g transform="translate('); return h.slice(0, i) + noF.slice(0, p0) + fm + noF.slice(p0) + h.slice(e); };
+      const unmark = (h, art) => { const i = h.indexOf('data-s2-art="' + art + '"'), e = h.indexOf('</svg>', i); return h.slice(0, i) + h.slice(i, e).replace(/data-sk-skin="/g, 'data-x-skin="') + h.slice(e); };
+      await pr('PR26 the library desk drawn before the librarian', 'G2-624', 1, (h) => furnitureFirst(h, 'teller:librarian', 'desk'), /at the desk is drawn after it/);
+      await pr('PR27 the loan desk short again (the banker\'s shoes under it)', 'G2-629', 2, (h) => h.replace('<rect x="104" y="74" width="50" height="30"', '<rect x="104" y="70" width="50" height="26"'), /at the desk: the feet are [0-9.]+ px below its foot/);
+      await pr('PR28 the leader below the lectern\'s foot again', 'G2-616', 1, (h) => h.split('<g transform="translate(44 94)').join('<g transform="translate(44 99)'), /at the lectern: the feet are [0-9.]+ px below its foot/);
+      await pr('PR29 the park bench moved under the child', 'G2-617', 2, (h) => { const i = h.indexOf('data-s2-art="town"'), e = h.indexOf('</svg>', i), seg = h.slice(i, e); const b = /<g data-s2-drawn="bench"><rect x="([0-9.]+)" y="[0-9.]+" width="([0-9.]+)"/.exec(seg), c = /<g transform="translate\(([0-9.]+) /.exec(seg.slice(b.index)); return h.slice(0, i) + seg.replace('<g data-s2-drawn="bench">', `<g data-s2-drawn="bench" transform="translate(${(+c[1] - (+b[1] + +b[2] / 2)).toFixed(1)} 0)">`) + h.slice(e); }, /at the bench is drawn after it/);
+      await pr('PR30 the loan scene\'s people unmarked (the check measures nothing)', 'G2-629', 3, (h) => unmark(h, 'bank:loan'), /people at furniture judged in "bank:loan"/);
     } finally { await browser.close(); }
     console.log('stacks (level 1-3, copy 1, measured on what is drawn): ' + stacks.join(', '));
     console.log(`layout sweep: ${swept} distinct pages of the generator's seeds 1..${QUICK ? 30 : SEEDS} judged by each type's own verify`);

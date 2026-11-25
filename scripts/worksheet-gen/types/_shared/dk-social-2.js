@@ -636,9 +636,43 @@ function s2VerifyInPage(OPT) {
   // the old photograph is black and white
   R.querySelectorAll('svg[data-s2-art="old-photo"]').forEach((sv) => { const bw = new Set(OPT.greys.map((x) => x.toUpperCase())); if ([...sv.querySelectorAll('[fill],[stroke]')].some((e) => ['fill', 'stroke'].some((a) => { const v = (e.getAttribute(a) || '').toUpperCase(); return v.startsWith('#') && !bw.has(v); }))) f.push('the old photograph is not black and white'); });
   void lv;
+  // 2026-11-25 picture fix (the bakery class, batch S3's live finding): a person who stands at furniture (a lectern, a long desk, a desk, a counter, a stand, a bench)
+  // stands BEHIND it: the furniture comes after the person in document order and hides the person's lower body,
+  // measured: every point of the lowest 40% of the figure drawn below the furniture's top lies inside the furniture's
+  // shapes, and the feet are no lower than its foot. A person drawn after it whose feet stand more than OPT.frontGap px
+  // below its foot is in front of it and is not judged. Each drawing of people at furniture (OPT.atFurniture: its name ->
+  // the people in it at furniture) judges at least that many, wherever a page draws it (else the check measured nothing).
+  {
+    const FURN = '[data-s2-drawn="lectern"], [data-s2-drawn="long-desk"], [data-s2-drawn="desk"], [data-s2-drawn="counter"], [data-s2-drawn="stand"], [data-s2-drawn="bench"]';
+    const rr0 = (e) => e.getBoundingClientRect();
+    const shapesOf = (e) => (e.matches('path, rect, circle, ellipse, polygon') ? [e] : [...e.querySelectorAll('path, rect, circle, ellipse, polygon')]).filter((x) => x.getAttribute('fill') !== 'none');
+    const inAny = (els, X, Y) => els.some((x) => { const q0 = new DOMPoint(X, Y).matrixTransform(x.getScreenCTM().inverse()); return x.isPointInFill(q0) || x.isPointInStroke(q0); });
+    let pairs = 0; const per = new Map();
+    R.querySelectorAll(FURN).forEach((F) => {
+      const svg = F.closest('svg'), fb = rr0(F), fs0 = shapesOf(F), name = F.getAttribute('data-s2-drawn');
+      [...svg.querySelectorAll('[data-sk-skin]')].forEach((P0) => {
+        if (F.contains(P0)) return;
+        const pb = rr0(P0), ov = Math.min(pb.right, fb.right) - Math.max(pb.left, fb.left);
+        if (ov < pb.width * 0.4 || pb.bottom <= fb.top + 1) return;
+        const after = !(P0.compareDocumentPosition(F) & Node.DOCUMENT_POSITION_FOLLOWING);
+        if (after && pb.bottom > fb.bottom + OPT.frontGap) return;
+        pairs++; per.set(svg, (per.get(svg) || 0) + 1);
+        const who = P0.dataset.skPerson || ('a ' + (P0.dataset.skAge || 'person'));
+        if (after) { f.push(`${who} at the ${name} is drawn after it (the person reads as standing inside the ${name})`); return; }
+        if (pb.bottom > fb.bottom + 0.5) { f.push(`${who} at the ${name}: the feet are ${(pb.bottom - fb.bottom).toFixed(1)} px below its foot (in front of it, though drawn behind it)`); return; }
+        const ps = shapesOf(P0); let shown = 0;
+        for (let Y = Math.max(fb.top, pb.bottom - OPT.lowerBody * pb.height) + 1; Y < pb.bottom; Y += 1.5) for (let X = pb.left + 0.5; X < pb.right; X += 1.5) if (inAny(ps, X, Y) && !inAny(fs0, X, Y)) shown++;
+        if (shown > OPT.legsShown) f.push(`${who} at the ${name}: ${shown} points of the lower body show past it (at most ${OPT.legsShown})`);
+      });
+    });
+    R.querySelectorAll('svg[data-s2-art]').forEach((sv) => { const a0 = sv.getAttribute('data-s2-art'), want = (OPT.atFurniture || {})[a0] || 0; if ((per.get(sv) || 0) < want) f.push(`${per.get(sv) || 0} people at furniture judged in "${a0}" (it draws ${want}: the check would measure nothing)`); });
+    void pairs; void mode; void lv;
+  }
   return f;
 }
-const S2_OPT = { flood: B.FLOOD_CHANGES, minLine: 60, vennLine: 80, innerBand: 60, adultRatio: 1.2, minSymbol: 70, signMargin: 1, greys: ['#FFFFFF', ...['g1', 'g2', 'g3', 'g4', 'g5', 'g6', 'g7', 'g8', 'g9'].map((k) => A1.S1_SCENE[k])] };
+/** 2026-11-25 picture fix: the people at furniture each drawing judges at least (by its name; measured) */
+const ATFURN_S2 = { 'leader:mayor': 1, 'leader:governor': 1, 'leader:president': 1, 'leader:council': 4, 'leader:congress': 8, 'teller:librarian': 1, 'bank:loan': 1, 'bank:safe': 1, stand: 2 };
+const S2_OPT = { legsShown: 2, frontGap: 3, lowerBody: 0.4, atFurniture: ATFURN_S2, flood: B.FLOOD_CHANGES, minLine: 60, vennLine: 80, innerBand: 60, adultRatio: 1.2, minSymbol: 70, signMargin: 1, greys: ['#FFFFFF', ...['g1', 'g2', 'g3', 'g4', 'g5', 'g6', 'g7', 'g8', 'g9'].map((k) => A1.S1_SCENE[k])] };
 /** makeS2Type({ id, slug, mode, exerciseType, difficulty, i18n }) */
 function makeS2Type({ id, slug, mode, exerciseType, difficulty, i18n }) {
   if (!MODES[mode]) throw new Error('dk-social-2: unknown mode ' + mode);

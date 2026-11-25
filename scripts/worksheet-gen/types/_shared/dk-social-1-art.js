@@ -234,7 +234,8 @@ function virtueIcon(v) {
 /** a leader at a lectern (all four drawn alike: the printed role word tells them apart, never a prop that shows the
  *  place) — 0 0 100 100 */
 function leaderArt(look) {
-  const o = { age: 'adult', s: 0.78, x: 50, y: 98, ...look, look: 0, la: [-6, 8, -2, 18], ra: [6, 8, 2, 18] };
+  // 2026-11-25 picture fix: the leader stands BEHIND the lectern, feet above its foot (at y 98 the shoes showed under it)
+  const o = { age: 'adult', s: 0.78, x: 50, y: 94, ...look, look: 0, la: [-6, 8, -2, 18], ra: [6, 8, 2, 18] };
   return rect(0, 0, 100, 100, '#EAF2EE') + rect(0, 86, 100, 14, '#E6DBC6') + P(o) +
     g('data-s1-drawn="lectern"', path('M34,62 L66,62 L62,96 L38,96 Z', '#8B5E3C', 1.6) + orect(30, 58, 40, 6, '#B07A4E', 1.2) + line(50, 58, 47, 46, OUT, 1.2) + `<ellipse cx="46.5" cy="44.5" rx="2.2" ry="3" fill="${OUT}"/>`);
 }

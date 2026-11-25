@@ -764,6 +764,12 @@ async function main() {
       await pr('PR35 the up-down street\'s plate off its street', 'G3-616', 1, (h) => h.replace('<g data-s3-streetname="down">', '<g data-s3-streetname="down" transform="translate(70 0)">'), /down street's name plate is not on its street/);
       await pr('PR36 the land key without "other land"', 'G3-617', 2, (h) => h.replace(/<rect[^>]*data-s3-keyfill="#EFEBDD"\/>/, ''), /colour #EFEBDD has no key entry/);
       await pr('PR37 a land-map colour the key does not name', 'G3-617', 1, (h) => h.replace(/(data-s3-art="us-land"[\s\S]*?fill=")#D9D9D9"/, '$1#E2E0DA"'), /colour #E2E0DA has no key entry/);
+      // live fix (2026-11-25): a person at furniture stands behind it, measured; the check proves it found the people
+      const counterFirst = (h) => { const k = h.indexOf('data-s3-art="bakery"'), seg = h.slice(k), cg = /<g data-s3-drawn="counter" data-s3-front="people">[\s\S]*?<\/g>/.exec(seg)[0], noC = seg.replace(cg, ''), p0 = noC.indexOf('<g transform="translate('); return h.slice(0, k) + noC.slice(0, p0) + cg + noC.slice(p0); };
+      await pr('PR38 the bakery counter drawn before the baker and the cashier', 'G3-627', 2, counterFirst, /at the counter is drawn after it/);
+      await pr('PR39 the cashier stands in front of the counter, drawn behind it', 'G3-627', 1, (h) => h.replace('<g transform="translate(252 128)', '<g transform="translate(252 142)'), /at the counter: the feet are [0-9.]+ px below its foot/);
+      await pr('PR40 the bakery without its people (the check measures nothing)', 'G3-627', 3, (h) => { const k = h.indexOf('data-s3-art="bakery"'); return h.slice(0, k) + h.slice(k).replace(/data-sk-skin="/g, 'data-x-skin="'); }, /0 people at furniture judged/);
+      await pr('PR41 batch S2\'s leader below the lectern\'s foot', 'G3-619', 1, (h) => h.split('<g transform="translate(44 94)').join('<g transform="translate(44 99)'), /at the lectern: the feet are [0-9.]+ px below its foot/);
     } finally { await browser.close(); }
     console.log('stacks (level 1-3, copy 1, measured on what is drawn): ' + stacks.join(', '));
     console.log(`layout sweep: ${swept} distinct pages of the generator's seeds 1..${QUICK ? 30 : SEEDS} judged by each type's own verify`);

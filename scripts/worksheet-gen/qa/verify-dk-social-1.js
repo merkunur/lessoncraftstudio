@@ -814,6 +814,12 @@ async function main() {
     await pr('PR45 "Coins:" back at the card\'s border (level 3)', 'G1-670', 3, (h) => h.replace('align-self:flex-start;margin-left:26px', 'align-self:flex-start;margin-left:2px'), /"Coins:" sits \d+ px from the card's border/);
     await pr('PR46 the coin key run to the card\'s border (level 3)', 'G1-670', 3, (h) => h.replace('gap:10px;justify-content:center', 'gap:30px;justify-content:center'), /the coin key runs to -?\d+ px from the card's border/);
     await pr('PR47 "Coins:" in the row with the coins (level 3)', 'G1-670', 3, (h) => h.replace(/(<span class="s1-q" data-dk-box data-s1-coinlabel="1"[^>]*>Coins:<\/span>)(<div class="dk-row" style="gap:10px;justify-content:center">)/, '$2$1'), /"Coins:" is not on its own line/);
+    // 2026-11-25 picture fix: every person at furniture stands behind it (drawn before it, feet hidden by it), measured
+    const furnitureFirst = (h, art, furn) => { const i = h.indexOf('data-s1-art="' + art + '"'), e = h.indexOf('</svg>', i), seg = h.slice(i, e), fm = new RegExp('<g data-s1-drawn="' + furn + '">[\\s\\S]*?</g>').exec(seg)[0], noF = seg.replace(fm, ''), p0 = noF.indexOf('<g transform="translate('); return h.slice(0, i) + noF.slice(0, p0) + fm + noF.slice(p0) + h.slice(e); };
+      const unmark = (h, art) => { const i = h.indexOf('data-s1-art="' + art + '"'), e = h.indexOf('</svg>', i); return h.slice(0, i) + h.slice(i, e).replace(/data-sk-skin="/g, 'data-x-skin="') + h.slice(e); };
+    await pr('PR48 the leader below the lectern\'s foot again', 'G1-655', 2, (h) => h.split('<g transform="translate(50 94)').join('<g transform="translate(50 98)'), /at the lectern: the feet are [0-9.]+ px below its foot/);
+    await pr('PR49 the lectern drawn before the leader', 'G1-655', 1, (h) => furnitureFirst(h, 'leader:mayor', 'lectern'), /at the lectern is drawn after it/);
+    await pr('PR50 the leader unmarked (the check measures nothing)', 'G1-655', 3, (h) => unmark(h, 'leader:president'), /people at furniture judged in "leader:president"/);
   } finally { await browser.close(); }
 
   console.log(`stacks (level 1-3, copy 1, measured on what is drawn): ${stacks.join(' · ')}`);

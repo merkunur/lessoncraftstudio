@@ -145,7 +145,7 @@ function changeArt(id, looks) {
   // the crosswalk: a neighbor speaks at a microphone, a clipboard of signatures in hand; three council members at their desk
   let s = rect(0, 0, 170, 100, '#F4EBD9') + rect(0, 86, 170, 14, '#E6DBC6') + line(0, 86, 170, 86, OUT, 1);
   s += [0, 1, 2].map((i) => grownUp({ ...looks[i] }, { s: 0.44, x: 92 + i * 26, y: 74, look: -1, tie: looks[i].sex !== 'f' }).svg).join('');
-  s += g('data-s3-drawn="council-desk"', orect(80, 56, 84, 8, '#B07A4E', 1.2) + orect(82, 64, 80, 22, '#8B5E3C', 1.1));
+  s += g('data-s3-drawn="council-desk" data-s3-front="people"', orect(80, 56, 84, 8, '#B07A4E', 1.2) + orect(82, 64, 80, 22, '#8B5E3C', 1.1));
   // review round 1: the signature sheet held at chest height, clear of the face
   const nb = grownUp({ ...looks[3] }, { s: 0.6, x: 34, y: 96, look: 1, la: [-2, 14, 6, 23], tie: looks[3].sex !== 'f' }), h2 = nb.hand('l');
   s += g('data-s3-drawn="microphone"', line(52, 86, 52, 50, '#5A5A5A', 1.6) + `<ellipse cx="50" cy="47" rx="2.4" ry="3.2" fill="${OUT}"/>`) + nb.svg + g('data-s3-drawn="signatures"', orect(h2[0] - 5, h2[1] - 10, 12, 14, '#FFFFFF', 1) + rect(h2[0] - 2, h2[1] - 12, 6, 2.6, '#8C8C8C') + [0, 1, 2].map((q) => `<path d="M${f1(h2[0] - 3)},${f1(h2[1] - 6 + q * 3.6)} q2,-2 4,0 q2,2 4,0" fill="none" stroke="${OUT}" stroke-width="0.7"/>`).join(''));
@@ -341,7 +341,26 @@ function serviceIcon(id, looks) {
 }
 /** a leader card's picture: one grown-up at a lectern (the mayor, the governor, the president) or a group at a long desk
  *  (the city council, the state legislature, Congress) — batch S2's drawings, a role and never a likeness */
-const leaderIcon = (id, looks) => (['council', 'legislature', 'congress'].includes(id) ? A2.leaderGroup(looks.slice(1, id === 'congress' ? 9 : 5), id === 'congress' ? 2 : 1) : A2.leaderOne(looks[0]));
+const leaderIcon = (id, looks) => (['council', 'legislature', 'congress'].includes(id) ? leaderGroup3(looks.slice(1, id === 'congress' ? 9 : 5), id === 'congress' ? 2 : 1) : leaderOne3(looks[0]));
+// live fix (2026-11-25): batch S2's leaderOne and leaderGroup, redrawn here with the people standing BEHIND the lectern
+// and the long desk (their feet above its foot, so it hides them): S2's leader stood 3 units below the lectern's foot,
+// its members' shoes a sliver below the desk. The S2 file is not edited (its pages are live; reported, not fixed).
+function leaderOne3(look) {
+  const o = grownUp(look, { s: 0.82, x: 44, y: 94, look: 0, la: [-6, 8, -2, 18], ra: [6, 8, 2, 18], tie: look.sex !== 'f' });
+  return rect(0, 0, 100, 100, '#EAF2EE') + rect(0, 86, 100, 14, '#E6DBC6') + line(0, 86, 100, 86, OUT, 1) + flagPole(80, 96, 62, 17) + o.svg +
+    g('data-s2-drawn="lectern"', path('M28,62 L60,62 L56,96 L32,96 Z', '#8B5E3C', 1.6) + orect(24, 58, 40, 6, '#B07A4E', 1.2) + line(44, 58, 41, 46, OUT, 1.2) + `<ellipse cx="40.5" cy="44.5" rx="2.2" ry="3" fill="${OUT}"/>`);
+}
+function leaderGroup3(looks, rows) {
+  let s = rect(0, 0, 100, 100, '#EAF2EE') + rect(0, 82, 100, 18, '#E6DBC6') + flagPole(86, 84, rows === 2 ? 72 : 64, 11);
+  const n = looks.length / rows;
+  for (let r = 0; r < rows; r++) {
+    const y = rows === 2 ? (r === 0 ? 64 : 90) : 88, sc = rows === 2 ? (r === 0 ? 0.44 : 0.52) : 0.6;
+    const xs = Array.from({ length: n }, (_, q) => 11 + q * (60 / (n - 1)));
+    s += xs.map((x, q) => grownUp(looks[r * n + q], { s: sc, x, y: y - 2, look: 0, la: [-4, 6, 2, 13], ra: [4, 6, -2, 13], tie: looks[r * n + q].sex !== 'f' }).svg).join('');
+    s += g('data-s2-drawn="long-desk"', orect(1, y - (rows === 2 ? 22 : 30), 80, rows === 2 ? 9 : 12, '#B07A4E', 1.2) + orect(3, y - (rows === 2 ? 13 : 18), 76, rows === 2 ? 13 : 18, '#8B5E3C', 1.1));
+  }
+  return s;
+}
 
 /* ================================================================ G3-620: three columns holding up a roof */
 /** a building (w x h px): a roof with its words, three columns, the steps */
@@ -416,7 +435,7 @@ function taxServiceArt(id, looks) {
 function decideArt(id, looks) {
   const bg = rect(0, 0, 100, 70, '#EEF6F8') + rect(0, 60, 100, 10, '#E6DBC6');
   if (id === 'class') return bg + [0, 1, 2, 3].map((i) => P({ ...looks[i], age: 'child', s: 0.42, x: 16 + i * 22, y: 66, look: 0, ra: i % 2 ? [4, -6, 6, -16] : undefined })).join('');
-  if (id === 'council') return bg + [0, 1, 2].map((i) => grownUp(looks[i], { s: 0.32, x: 52 + i * 18, y: 50, look: -1, tie: looks[i].sex !== 'f' }).svg).join('') + orect(42, 38, 56, 6, '#B07A4E', 1) + orect(44, 44, 52, 16, '#8B5E3C', 1) + grownUp(looks[3], { s: 0.42, x: 16, y: 66, look: 1, ra: [4, -4, 6, -14], tie: looks[3].sex !== 'f' }).svg;
+  if (id === 'council') return bg + [0, 1, 2].map((i) => grownUp(looks[i], { s: 0.32, x: 52 + i * 18, y: 50, look: -1, tie: looks[i].sex !== 'f' }).svg).join('') + g('data-s3-drawn="council-desk" data-s3-front="people"', orect(42, 38, 56, 6, '#B07A4E', 1) + orect(44, 44, 52, 16, '#8B5E3C', 1)) + grownUp(looks[3], { s: 0.42, x: 16, y: 66, look: 1, ra: [4, -4, 6, -14], tie: looks[3].sex !== 'f' }).svg;
   return bg + g('data-s3-drawn="ballot-box"', orect(52, 38, 32, 22, C.ballotBox, 1.2) + rect(60, 37, 16, 3, OUT) + orect(62, 26, 12, 14, '#FFFFFF', 1) + `<path d="M64,33 L67,36 L72,29" fill="none" stroke="${OUT}" stroke-width="1.2"/>`) + grownUp(looks[0], { s: 0.42, x: 30, y: 66, look: 1, ra: [5, 2, 12, -2], tie: looks[0].sex !== 'f' }).svg;
 }
 
@@ -470,7 +489,7 @@ function thenPhotoArt(id, looks) {
     s += sign(116, 14, 168, 28, 'TELEGRAPH', 20, '#FFFFFF', OUT);
     s += line(330, 50, 330, 186, '#8B5E3C', 4) + line(316, 60, 344, 60, '#8B5E3C', 3) + line(290, 64, 400, 56, OUT, 0.9) + line(290, 70, 400, 62, OUT, 0.9);
     const clerk = grownUp({ ...looks[0], sex: 'm' }, { s: 1.0, x: 200, y: 160, look: 0, la: [-6, 6, -8, 10], ra: [6, 6, 10, 9], tie: true });
-    s += clerk.svg + g('data-s3-drawn="counter"', orect(60, 150, 290, 16, '#8B5E3C', 1.4) + orect(70, 166, 270, 40, '#B07A4E', 1.2));
+    s += clerk.svg + g('data-s3-drawn="counter" data-s3-front="people"', orect(60, 150, 290, 16, '#8B5E3C', 1.4) + orect(70, 166, 270, 40, '#B07A4E', 1.2));
     s += g('data-s3-drawn="telegraph-key"', orect(214, 140, 40, 10, '#5A5A5A', 1) + line(222, 138, 248, 134, OUT, 2) + circ(248, 134, 3, OUT, 0.5));
     s += g('data-s3-drawn="letters"', orect(90, 128, 34, 22, '#FFFFFF', 1) + `<path d="M90,128 L107,141 L124,128" fill="none" stroke="${OUT}" stroke-width="1"/>` + orect(128, 132, 30, 18, '#FFFFFF', 1));
     return toGrey(s);
@@ -490,11 +509,15 @@ function bakeryArt(looks) {
   s += g('data-s3-drawn="building"', orect(6, 26, 300, 112, C.bakeryWall, 1.6) + Array.from({ length: 10 }, (_, q) => path(`M${6 + q * 30},26 L${36 + q * 30},26 L${36 + q * 30},36 Q${21 + q * 30},42 ${6 + q * 30},36 Z`, q % 2 ? '#FFFFFF' : C.bakeryAwning, 0.9)).join('') + sign(106, 5, 100, 18, 'BAKERY', 13));
   s += g('data-s3-drawn="oven"', orect(14, 56, 58, 70, C.ovenGrey, 1.4) + orect(20, 80, 46, 30, C.ovenDark, 1.2) + orect(24, 64, 38, 8, '#C9CDD2', 0.9) + `<path d="M28,96 Q43,86 58,96" fill="#F7A21B" stroke="${OUT}" stroke-width="0.8"/>`);
   s += g('data-s3-drawn="mixer"', orect(78, 94, 36, 6, '#5A6470', 1) + orect(104, 56, 9, 40, C.mixerRed, 1.1) + orect(80, 52, 34, 11, C.mixerRed, 1.2, ' rx="4"') + line(90, 63, 90, 78, '#9AA4AE', 2) + path('M82,76 L100,76 L97,93 L85,93 Z', '#C9CDD2', 1.2));
-  s += g('data-s3-drawn="counter"', orect(120, 100, 180, 38, C.counter3, 1.4));
+  // the baker and the cashier stand BEHIND the counter (2026-11-25, the owner's reading of the page): they are drawn
+  // first and the counter after them, so it hides their legs; the dough, the register, the bread and the salt sit on it
   const baker = grownUp(looks[0], { s: 0.82, x: 150, y: 128, look: 1, la: [-4, 8, 4, 14], ra: [4, 8, 10, 14] }), bh = baker.head();
-  s += baker.svg + g('data-s3-drawn="dough"', `<ellipse cx="158" cy="97" rx="12" ry="5" fill="#F3E6C4" stroke="${OUT}" stroke-width="1"/>`) + g('data-s3-drawn="baker-hat"', path(`M${f1(bh.x - bh.r * 0.9)},${f1(bh.y - bh.r * 0.7)} L${f1(bh.x - bh.r)},${f1(bh.y - bh.r * 2)} Q${f1(bh.x)},${f1(bh.y - bh.r * 2.7)} ${f1(bh.x + bh.r)},${f1(bh.y - bh.r * 2)} L${f1(bh.x + bh.r * 0.9)},${f1(bh.y - bh.r * 0.7)} Z`, '#FFFFFF', 1));
+  s += baker.svg + g('data-s3-drawn="baker-hat"', path(`M${f1(bh.x - bh.r * 0.9)},${f1(bh.y - bh.r * 0.7)} L${f1(bh.x - bh.r)},${f1(bh.y - bh.r * 2)} Q${f1(bh.x)},${f1(bh.y - bh.r * 2.7)} ${f1(bh.x + bh.r)},${f1(bh.y - bh.r * 2)} L${f1(bh.x + bh.r * 0.9)},${f1(bh.y - bh.r * 0.7)} Z`, '#FFFFFF', 1));
   const cashier = grownUp(looks[1], { s: 0.82, x: 252, y: 128, look: -1, la: [-4, 8, -8, 14], tie: looks[1].sex !== 'f' });
-  s += cashier.svg + g('data-s3-drawn="cash-register"', orect(206, 88, 30, 14, '#5A6470', 1.2) + orect(212, 80, 18, 8, '#DDEFF5', 1));
+  s += cashier.svg;
+  s += g('data-s3-drawn="counter" data-s3-front="people"', orect(120, 100, 180, 38, C.counter3, 1.4));
+  s += g('data-s3-drawn="dough"', `<ellipse cx="158" cy="97" rx="12" ry="5" fill="#F3E6C4" stroke="${OUT}" stroke-width="1"/>`);
+  s += g('data-s3-drawn="cash-register"', orect(206, 88, 30, 14, '#5A6470', 1.2) + orect(212, 80, 18, 8, '#DDEFF5', 1));
   s += g('data-s3-drawn="bread"', [[272, 93], [288, 95]].map(([x, y]) => `<ellipse cx="${x}" cy="${y}" rx="9" ry="5" fill="${C.breadBrown}" stroke="${OUT}" stroke-width="1"/>`).join(''));
   s += g('data-s3-drawn="flour-sacks"', [[84, 116], [102, 118]].map(([x, y]) => path(`M${x - 8},${y + 18} L${x - 9},${y + 2} Q${x},${y - 4} ${x + 9},${y + 2} L${x + 8},${y + 18} Z`, '#F7F4EE', 1.2)).join(''));
   s += g('data-s3-drawn="water-tap"', line(116, 60, 116, 52, '#9AA4AE', 3) + line(116, 52, 126, 52, '#9AA4AE', 3) + `<path d="M126,55 L126,62" stroke="${C.waterBlue}" stroke-width="2"/>`);

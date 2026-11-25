@@ -2257,6 +2257,132 @@
    "strand": "Social Studies",
    "code": "D2.Eco.5.K-2",
    "skill": "Run a class market: set and write prices, buy and sell with coins, and record what I bought and how I paid"
+  },
+  {
+   "tp": "3:civic-virtues",
+   "grade": "3",
+   "strand": "Social Studies",
+   "code": "D2.Civ.7.3-5",
+   "skill": "Name the civic virtue a school situation calls for (honesty, respect, responsibility, fairness, courage) and write what a good citizen would do"
+  },
+  {
+   "tp": "3:constitution",
+   "grade": "3",
+   "strand": "Social Studies",
+   "code": "D2.Civ.3.3-5",
+   "skill": "Tell what the U.S. Constitution and the Bill of Rights are, and write a class constitution with rules and reasons"
+  },
+  {
+   "tp": "3:changing-laws",
+   "grade": "3",
+   "strand": "Social Studies",
+   "code": "D2.Civ.12.3-5",
+   "skill": "Read how people changed laws (the 19th Amendment, the Americans with Disabilities Act, a crosswalk) and record who, what they did and what changed"
+  },
+  {
+   "tp": "3:map-scale",
+   "grade": "3",
+   "strand": "Social Studies",
+   "code": "D2.Geo.3.3-5",
+   "skill": "Measure distances on a map with a ruler and its scale, and compare a town map with a state map"
+  },
+  {
+   "tp": "3:grid-map",
+   "grade": "3",
+   "strand": "Social Studies",
+   "code": "D2.Geo.1.3-5",
+   "skill": "Draw a map of our community on a lettered and numbered grid with a title, a key, a compass rose and a scale, and write grid squares"
+  },
+  {
+   "tp": "3:where-people-live",
+   "grade": "3",
+   "strand": "Social Studies",
+   "code": "D2.Geo.6.3-5",
+   "skill": "Compare a population map with a physical map and tell where many or few people live and why"
+  },
+  {
+   "tp": "3:towns-near-resources",
+   "grade": "3",
+   "strand": "Social Studies",
+   "code": "D2.Geo.8.3-5",
+   "skill": "Choose a good site for a town on a map, write what each site offers and name the worst site"
+  },
+  {
+   "tp": "3:levels-of-government",
+   "grade": "3",
+   "strand": "Social Studies",
+   "code": "D2.Civ.1.3-5",
+   "skill": "Sort leaders and services into local, state and national government, and tell which level to ask about a problem"
+  },
+  {
+   "tp": "3:three-branches",
+   "grade": "3",
+   "strand": "Social Studies",
+   "code": "D2.Civ.5.3-5",
+   "skill": "Place Congress, the president and the courts under the three branches, for the nation and the state"
+  },
+  {
+   "tp": "3:taxes-services",
+   "grade": "3",
+   "strand": "Social Studies",
+   "code": "D2.Eco.12.3-5",
+   "skill": "Trace how taxes become services and write which level of government provides each"
+  },
+  {
+   "tp": "3:ways-to-decide",
+   "grade": "3",
+   "strand": "Social Studies",
+   "code": "D2.Civ.11.3-5",
+   "skill": "Compare a class vote, a town council meeting and an election: who decides, how, and how people have a say"
+  },
+  {
+   "tp": "3:community-problem",
+   "grade": "3",
+   "strand": "Social Studies",
+   "code": "D2.Civ.13.3-5",
+   "skill": "Weigh solutions to a community problem by cost and benefit and write a letter to the city council"
+  },
+  {
+   "tp": "3:primary-secondary",
+   "grade": "3",
+   "strand": "Social Studies",
+   "code": "D2.His.9.3-5",
+   "skill": "Sort sources into primary and secondary and tell what each can tell about the past"
+  },
+  {
+   "tp": "3:double-timeline",
+   "grade": "3",
+   "strand": "Social Studies",
+   "code": "D2.His.1.3-5",
+   "skill": "Place a town's events and the nation's events on two timelines and find events that happened at about the same time"
+  },
+  {
+   "tp": "3:then-and-now",
+   "grade": "3",
+   "strand": "Social Studies",
+   "code": "D2.His.2.3-5",
+   "skill": "Compare life in a town around 1900 with life today and write what changed and what stayed the same"
+  },
+  {
+   "tp": "3:economic-resources",
+   "grade": "3",
+   "strand": "Social Studies",
+   "code": "D2.Eco.3.3-5",
+   "skill": "Sort the resources a business uses into natural, human and capital resources"
+  },
+  {
+   "tp": "3:cause-effect-history",
+   "grade": "3",
+   "strand": "Social Studies",
+   "code": "D2.His.14.3-5",
+   "skill": "Link causes to effects in a town's history and write the likely cause of a change in our community"
+  },
+  {
+   "tp": "3:deciding-together",
+   "grade": "3",
+   "strand": "Social Studies",
+   "code": "D2.Civ.9.3-5",
+   "skill": "Deliberate on a class question: list reasons for and against each choice, listen to every side and reach a decision most can accept"
   }
  ]
 }

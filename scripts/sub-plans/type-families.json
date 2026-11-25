@@ -1317,6 +1317,51 @@
   "G3-569": {
    "family": "story-sequencing"
   },
+  "G3-612": {
+   "family": "feelings"
+  },
+  "G3-614": {
+   "family": "reading-comprehension",
+   "kind": "lesson"
+  },
+  "G3-617": {
+   "family": "maps"
+  },
+  "G3-618": {
+   "family": "maps"
+  },
+  "G3-619": {
+   "family": "science-sort"
+  },
+  "G3-620": {
+   "family": "science-sort"
+  },
+  "G3-621": {
+   "family": "science-sort"
+  },
+  "G3-622": {
+   "family": "reading-comprehension",
+   "kind": "lesson"
+  },
+  "G3-623": {
+   "family": "sentence-building"
+  },
+  "G3-624": {
+   "family": "science-sort"
+  },
+  "G3-625": {
+   "family": "family"
+  },
+  "G3-626": {
+   "family": "family"
+  },
+  "G3-627": {
+   "family": "science-sort"
+  },
+  "G3-628": {
+   "family": "reading-comprehension",
+   "kind": "lesson"
+  },
   "K-002": {
    "family": "counting-pictures"
   },

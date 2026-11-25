@@ -16829,17 +16829,17 @@
     {
      "key": "social",
      "minutes": 15,
-     "point": "3:continents-oceans",
-     "type": "G3-396",
-     "title": "Continents and Oceans",
-     "instruction": "Find each continent and ocean on the map. Write its number in the box next to its name.",
-     "core": "maps-g3396",
-     "hard": "maps-hard-g3396-8",
-     "easy": "maps-easy-g3396-5",
+     "point": "3:civic-virtues",
+     "type": "G3-612",
+     "title": "Civic Virtues at School",
+     "instruction": "Read each situation. Write the virtue it calls for. Use each word one time. Then write what a good citizen would do.",
+     "core": "feelings-g3612",
+     "hard": "feelings-hard-g3612-11",
+     "easy": "feelings-easy-g3612-6",
      "script": {
-      "say": "\"The map shows the continents and the oceans, each with a number. Find each one on the map and write its number in the box next to its name.\"",
-      "first": "Read the names aloud together. Point to North America: \"This is where the United States is.\" Find its number and write it next to North America together. The oceans are the big blue areas.",
-      "stuck": "Give clues: \"The Pacific is the biggest ocean, on the left and right. Antarctica is the icy land at the bottom.\" Let the child find each one."
+      "say": "\"Read each situation. Write the virtue it calls for, using each word in the word box one time. Then write what a good citizen would do.\"",
+      "first": "Read the word box aloud: each virtue and what it means. Read the first situation aloud and ask, \"Which virtue does this call for?\" Find the word that fits and write it together. Then finish \"A good citizen would\" together with something kind and true to do, such as \"tell the truth\" or \"give everyone a turn.\" If your page asks for a situation of your own for a partner, any real school moment is right.",
+      "stuck": "Read the meanings in the word box with the child, one at a time, and ask, \"Does this one fit?\" A tight stomach, a fast heart, or shaking hands in the situation means it takes courage. Owning up to something you did: honesty. A job or a promise you said you would do: responsibility. Sharing turns or things with others: fairness. Someone new or different (new words, a new lunch, an idea unlike your own): respect."
      }
     },
     {
@@ -17296,17 +17296,19 @@
      }
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "2:moon-phases",
-     "type": "G2-367",
-     "title": "Name the Moon Phases",
-     "instruction": "Look at each moon. Write its name on the lines. Use each word in the word bank twice.",
-     "core": "earth-and-space-g2367",
+     "point": "3:continents-oceans",
+     "type": "G3-396",
+     "title": "Continents and Oceans",
+     "instruction": "Find each continent and ocean on the map. Write its number in the box next to its name.",
+     "core": "maps-g3396",
+     "hard": "maps-hard-g3396-8",
+     "easy": "maps-easy-g3396-5",
      "script": {
-      "say": "\"Look at each moon. Write its name on the lines: new moon, first quarter, full moon, or last quarter. Use each word in the word bank twice.\"",
-      "first": "Read the word bank aloud. Draw a full moon (all bright) and a new moon (dark) on the board. A quarter moon shows half of the circle bright. Do the first moon on the page together.",
-      "stuck": "Ask the child, \"Is it all bright, all dark, or half bright?\" A half-bright moon is a quarter: first quarter when the right side is bright, last quarter when the left side is."
+      "say": "\"The map shows the continents and the oceans, each with a number. If your page has names, write each number in the box next to its name. If it has numbered lines, write each name on the line with its number.\"",
+      "first": "Point to North America: \"This is where the United States is.\" Find its number together, then write it in its box, or write \"North America\" on its line. The oceans are the big shaded areas around the white land.",
+      "stuck": "Give clues: \"The Pacific is the biggest ocean, on the left and right. Antarctica is the icy land at the bottom.\" Let the child find each one."
      }
     },
     {
@@ -17453,15 +17455,15 @@
     {
      "key": "science",
      "minutes": 15,
-     "point": "2:day-and-night",
-     "type": "G2-368",
-     "title": "Why Do We Have Day and Night?",
-     "instruction": "Look where the Sun is. At each numbered pin, is it day or night? Circle the word in the table.",
-     "core": "earth-and-space-g2368",
+     "point": "2:moon-phases",
+     "type": "G2-367",
+     "title": "Name the Moon Phases",
+     "instruction": "Look at each moon. Write its name on the lines. Use each word in the word bank twice.",
+     "core": "earth-and-space-g2367",
      "script": {
-      "say": "\"Look where the Sun is. The side of Earth that faces the Sun has day; the other side has night. At each numbered pin, is it day or night? Circle the word in the table.\"",
-      "first": "Point from the Sun on the page to Earth and show the side that faces it. Do the first pin together: \"Does it face the Sun?\" Circle day or night.",
-      "stuck": "Have the child trace a line from the Sun to the pin: if Earth is in the way, it is night there."
+      "say": "\"Look at each moon. Write its name on the lines: new moon, first quarter, full moon, or last quarter. Use each word in the word bank twice.\"",
+      "first": "Read the word bank aloud. Draw a full moon (all bright) and a new moon (dark) on the board. A quarter moon shows half of the circle bright. Do the first moon on the page together.",
+      "stuck": "Ask the child, \"Is it all bright, all dark, or half bright?\" A half-bright moon is a quarter: first quarter when the right side is bright, last quarter when the left side is."
      }
     },
     {
@@ -17609,17 +17611,15 @@
     {
      "key": "science",
      "minutes": 15,
-     "point": "1:animal-classes-coverings",
-     "type": "G1-201",
-     "title": "Sort the Animals",
-     "instruction": "Draw a line from each animal to the group it belongs to.",
-     "core": "science-sort-g1201",
-     "hard": "science-sort-hard-g1201-7",
-     "easy": "science-sort-easy-g1201-2",
+     "point": "2:day-and-night",
+     "type": "G2-368",
+     "title": "Why Do We Have Day and Night?",
+     "instruction": "Look where the Sun is. At each numbered pin, is it day or night? Circle the word in the table.",
+     "core": "earth-and-space-g2368",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Mammals, Birds, and Reptiles. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Does it have fur, feathers, or scales? Does it lay eggs or feed its babies milk?\" Draw the line from the dot under the picture to its box. Mammals have fur or hair, birds have feathers, and reptiles have dry scales.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
+      "say": "\"Look where the Sun is. The side of Earth that faces the Sun has day; the other side has night. At each numbered pin, is it day or night? Circle the word in the table.\"",
+      "first": "Point from the Sun on the page to Earth and show the side that faces it. Do the first pin together: \"Does it face the Sun?\" Circle day or night.",
+      "stuck": "Have the child trace a line from the Sun to the pin: if Earth is in the way, it is night there."
      }
     },
     {
@@ -17765,19 +17765,19 @@
      }
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "1:habitats-needs",
-     "type": "G1-202",
-     "title": "Where Do Animals Live?",
-     "instruction": "Draw a line from each animal to where it lives.",
-     "core": "science-sort-g1202",
-     "hard": "science-sort-hard-g1202-7",
-     "easy": "science-sort-easy-g1202-2",
+     "point": "3:where-people-live",
+     "type": "G3-617",
+     "title": "Where People Live and Why",
+     "instruction": "Find each letter on both maps. Circle many people or few people. Use the land map to write a reason.",
+     "core": "maps-g3617",
+     "hard": "maps-hard-g3617-11",
+     "easy": "maps-easy-g3617-6",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Land, Water, and Air. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this animal spend most of its time: on land, in the water, or in the air?\" Draw the line from the dot under the picture to its box. An animal that flies lives on land too, so Air and Land are both right for it, and a crab lives in the water and on land, so Water and Land are both right for it, when the child can say why.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
+      "say": "\"Find each letter on both maps. Circle many people or few people, then use the land map to write a reason.\"",
+      "first": "Read the keys under the maps aloud: one dot is 100,000 people; then mountains (the little peaks), desert (the dashes), plains (flat land), and other land. Do the first letter together: find it on the map of where people live and ask, \"Are the dots crowded here or far apart?\" Circle many or few. Then find it on the land map: \"Is there water nearby? What is the land like?\" Write the reason together; if your page has reason words, use them. Every letter by the ocean or a Great Lake has many people; every letter in the mountains or the desert has few.",
+      "stuck": "Have the child put a finger on the letter on the dot map: many dots close by means many people. On the land map: by an ocean or a lake there is water and a port; a desert is dry; mountains are cold and steep. If your page asks where many people live in our state, any true place and reason is right."
      }
     },
     {
@@ -17923,19 +17923,19 @@
      }
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "1:food-groups",
-     "type": "G1-207",
-     "title": "Sort by Food Group",
-     "instruction": "Draw a line from each food to its food group.",
-     "core": "science-sort-g1207",
-     "hard": "science-sort-hard-g1207-7",
-     "easy": "science-sort-easy-g1207-2",
+     "point": "3:towns-near-resources",
+     "type": "G3-618",
+     "title": "Towns Grow Near Resources",
+     "instruction": "Look at the sample state. Write what each site has. Then write which site is the worst place for a town, and why.",
+     "core": "maps-g3618",
+     "hard": "maps-hard-g3618-10",
+     "easy": "maps-easy-g3618-6",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fruits, Vegetables, Grains, and Protein. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this a fruit, a vegetable, a grain like bread or pasta, or a protein like eggs, meat, or fish?\" Draw the line from the dot under the picture to its box. If a food fits two groups, either box is right when the child can say why.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
+      "say": "\"This is a sample state, made up for the page. Look at its land and water, and decide where a town could start and grow.\"",
+      "first": "Read the words on the map aloud together: forest, mine, dry, rocky land, farmland, river, harbor, sea. Find each lettered site and ask, \"What is near it?\" Say, \"A town needs water first.\" If your page asks for the better place, it is the site that is not in the dry, rocky land; then circle what that site has. If your page asks what each site has, do the first site together; the worst place is the site in the dry, rocky land, because it has no water. If your page asks about our own town, any true resource is right, such as a river or farmland.",
+      "stuck": "Point to one site at a time and ask, \"Is there water here? Could people grow food? Is there a harbor?\" The site by the river has river water and rich soil for farms; the site by the harbor has a harbor."
      }
     },
     {
@@ -18081,19 +18081,19 @@
      }
     },
     {
-     "key": "social",
+     "key": "science",
      "minutes": 15,
-     "point": "2:cardinal-directions",
-     "type": "G2-369",
-     "title": "North, East, South, West: Label the Four Directions",
-     "instruction": "The orange tip on each compass rose points north; write the three missing letters in the empty boxes.",
-     "core": "maps-g2369",
-     "hard": "maps-hard-g2369-10",
-     "easy": "maps-easy-g2369-7",
+     "point": "1:animal-classes-coverings",
+     "type": "G1-201",
+     "title": "Sort the Animals",
+     "instruction": "Draw a line from each animal to the group it belongs to.",
+     "core": "science-sort-g1201",
+     "hard": "science-sort-hard-g1201-7",
+     "easy": "science-sort-easy-g1201-2",
      "script": {
-      "say": "\"The four directions are north, east, south, and west. On these compass roses the orange tip always points north, even when it does not point up. Write the three missing letters in the empty boxes.\"",
-      "first": "Draw a compass rose on the board: N at the top, S at the bottom, E on the right, W on the left. Say \"Never Eat Soggy Waffles\" going around clockwise from N. On the page, north is wherever the orange tip points, and on some roses it points down, left, or right. Do the first rose together: put a finger on the orange tip, say \"north,\" then go around clockwise and say east, south, west, writing each missing letter where it falls.",
-      "stuck": "Have the child put a finger on the orange tip and say north, then go around clockwise: east, south, west."
+      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Mammals, Birds, and Reptiles. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Does it have fur, feathers, or scales? Does it lay eggs or feed its babies milk?\" Draw the line from the dot under the picture to its box. Mammals have fur or hair, birds have feathers, and reptiles have dry scales.",
+      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
      }
     },
     {
@@ -18239,19 +18239,19 @@
      }
     },
     {
-     "key": "social",
+     "key": "science",
      "minutes": 15,
-     "point": "2:continents",
-     "type": "G2-370",
-     "title": "Label the Continents",
-     "instruction": "Write the name of each numbered continent on its line. Use the names in the box.",
-     "core": "maps-g2370",
-     "hard": "maps-hard-g2370-8",
-     "easy": "maps-easy-g2370-5",
+     "point": "1:habitats-needs",
+     "type": "G1-202",
+     "title": "Where Do Animals Live?",
+     "instruction": "Draw a line from each animal to where it lives.",
+     "core": "science-sort-g1202",
+     "hard": "science-sort-hard-g1202-7",
+     "easy": "science-sort-easy-g1202-2",
      "script": {
-      "say": "\"The map shows the seven continents, each with a number. Write the name of each continent on its line. If your page has a box of names, use it.\"",
-      "first": "Say the seven names together: North America, South America, Europe, Asia, Africa, Oceania, Antarctica (if your page has a box of names, read them from it). Point to North America on the map: \"This is where the United States is.\" Find its number together and write North America on that line. The children do the rest; with a box, they cross out each name when they use it.",
-      "stuck": "Give clues: \"Antarctica is the icy one at the bottom. South America is under North America. Africa is the big one in the middle.\" Let the child find each one on the map."
+      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Land, Water, and Air. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this animal spend most of its time: on land, in the water, or in the air?\" Draw the line from the dot under the picture to its box. An animal that flies lives on land too, so Air and Land are both right for it, and a crab lives in the water and on land, so Water and Land are both right for it, when the child can say why.",
+      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
      }
     },
     {
@@ -18399,15 +18399,17 @@
     {
      "key": "social",
      "minutes": 15,
-     "point": "2:road-signs",
-     "type": "G2-361",
-     "title": "Road Safety Quiz: Which Sign Fits?",
-     "instruction": "Read each sentence and circle the one road sign that fits it.",
-     "core": "road-safety-g2361",
+     "point": "3:levels-of-government",
+     "type": "G3-619",
+     "title": "Three Levels of Government",
+     "instruction": "Read each card. Write each leader and each service in the right column: local, state or national.",
+     "core": "science-sort-g3619",
+     "hard": "science-sort-hard-g3619-3",
+     "easy": "science-sort-easy-g3619-2",
      "script": {
-      "say": "\"Read each sentence. Circle the one road sign that fits it.\"",
-      "first": "Read the first sentence aloud and look at the three signs next to it. Ask, \"Which sign tells drivers about this?\" Circle it together. Read each sentence aloud for children who need it.",
-      "stuck": "Read the sentence again and name the three signs; ask which one would help in that place."
+      "say": "\"Read each card and write it in the right column: local, state, or national.\"",
+      "first": "Read the three column names aloud and say, \"Local means our town or city. State means our state. National means our whole country.\" Read the cards aloud and do the first one together. Answers: local: the mayor, the city council, a city park, the fire department, trash pickup; state: the governor, the state legislature, a state highway, a driver's license; national: the president, Congress, the mail, a national park, coins and paper money. If your page asks which level to ask about something broken in a city park, the answer is local, because the city takes care of its parks.",
+      "stuck": "Have the child look for a clue word on the card, such as city, state, or national. With no clue word, ask, \"Does it lead or serve one town, one state, or the whole country?\""
      }
     },
     {
@@ -18551,17 +18553,19 @@
      }
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "2:plant-parts",
-     "type": "G2-363",
-     "title": "Parts of a Plant We Eat",
-     "instruction": "Look at each food. Circle the part of the plant that we eat.",
-     "core": "plants-g2363-2",
+     "point": "3:three-branches",
+     "type": "G3-620",
+     "title": "Three Branches",
+     "instruction": "Read each card. Write it under its branch, for our national government and for our state government. Write the three job cards in the national chart.",
+     "core": "science-sort-g3620",
+     "hard": "science-sort-hard-g3620-3",
+     "easy": "science-sort-easy-g3620-2",
      "script": {
-      "say": "\"We eat different parts of plants: roots, stems, leaves, flowers, fruits, and seeds. Look at each food and circle the part of the plant we eat.\"",
-      "first": "Draw a plant on the board and label its parts. Name the first food on the page together and ask, \"Does it grow under the ground, is it the stem, a leaf, a flower, a fruit, or a seed?\" Circle the word.",
-      "stuck": "Ask the child where the food grows: under the ground (roots), the long part that holds the plant up (stem), the flat green part (leaf), the part bees visit (flower), the part with seeds inside (fruit), or the seed itself. Let the child choose and say why."
+      "say": "\"Our government has three branches: legislative makes the laws, executive carries them out, judicial decides what laws mean. Write each card under its branch.\"",
+      "first": "Read the sentence that says what check means, then the cards. Do the first card together. Answers: legislative: Congress, makes the laws, the state legislature; executive: the president, carries out laws, the governor; judicial: the Supreme Court, decides what laws mean, the state courts. If your page has a chart for our state, the three job cards go in the national chart. If your page asks for another way one branch can check another (the veto is printed), help with one: \"Congress can pass a bill again over a veto,\" or \"The courts can decide a law goes against the Constitution.\"",
+      "stuck": "Read the card with the child and ask, \"Does it make laws, carry them out, or decide what they mean?\" Then find that branch's box."
      }
     },
     {
@@ -18709,17 +18713,17 @@
     {
      "key": "social",
      "minutes": 15,
-     "point": "1:map-key",
-     "type": "G2-505",
-     "title": "Fix the Arrow Program",
-     "instruction": "Follow the arrows from the flag: each arrow is one step. One arrow is wrong: the path does not end on the star. Circle the wrong arrow and draw the correct arrow in the box under it.",
-     "core": "maps-g2505",
-     "hard": "maps-hard-g2505-11",
-     "easy": "maps-easy-g2505-6",
+     "point": "3:taxes-services",
+     "type": "G3-621",
+     "title": "Where Taxes Go",
+     "instruction": "Follow the arrows. Draw or write a service in each box and the level of government that pays for it. Then finish the sentence.",
+     "core": "science-sort-g3621",
+     "hard": "science-sort-hard-g3621-4",
+     "easy": "science-sort-easy-g3621-2",
      "script": {
-      "say": "\"Follow the arrows from the flag: each arrow is one step. One arrow is wrong: the path does not end on the star. Find the wrong arrow and fix it.\"",
-      "first": "Do the first puzzle on the board: put a finger on the flag and move one square for each arrow, saying \"up, right, right.\" See where you land. Then find the arrow that takes the path the wrong way and cross it out.",
-      "stuck": "Have the child move a finger one square per arrow and stop when the path goes off course: that arrow is the wrong one."
+      "say": "\"People and businesses pay taxes. Each level of government collects its own and uses it for services.\"",
+      "first": "Read the labels on the three buildings: \"local: our town,\" \"state: our state,\" \"national: our country.\" If your page shows three services with pictures, read each one and ask, \"Who pays for this?\" Answers, for the services your page shows: a fire truck, new books for the library, trash pickup: local; highway patrol cars: state; soldiers who keep us safe, astronauts exploring space: national. If your page has empty service boxes, children draw or write any three real services and their levels, such as a fire station, local; a state park, state; the army, national. Police and schools are mostly local.",
+      "stuck": "Read the building labels with the child again and ask, \"Who takes care of this?\" For the last sentence, help with a true one: \"Without taxes, the town would not have money for its library.\" If your page asks what our town should spend more on, every honest answer is right."
      }
     },
     {
@@ -18865,19 +18869,17 @@
      }
     },
     {
-     "key": "social",
+     "key": "science",
      "minutes": 15,
-     "point": "2:family-relationships",
-     "type": "G2-362",
-     "title": "Family Relationships: Riddles",
-     "instruction": "Read each riddle and write the right family word from the box on the line; one word can fit more than one riddle.",
-     "core": "family-g2362-2",
-     "hard": "family-hard-g2362-11",
-     "easy": "family-easy-g2362-8",
+     "point": "2:plant-parts",
+     "type": "G2-363",
+     "title": "Parts of a Plant We Eat",
+     "instruction": "Look at each food. Circle the part of the plant that we eat.",
+     "core": "plants-g2363-2",
      "script": {
-      "say": "\"Now it is time to read and think. Each sentence is a riddle about one child's family. Read the riddle and work it out step by step. Then write the right family word from the box on the line. Some words fit more than one riddle.\"",
-      "first": "Draw a family tree on the board with stick people: the child the riddles are about at the bottom; the mom and the dad above the child; a grandma and a grandpa above each parent; an aunt or an uncle beside each parent; and a cousin under the aunt. Read the first riddle aloud and follow it on the tree together, one step at a time, and write the word. Keep to the family on the page, not the children's own families.",
-      "stuck": "Have the child cover the end of the riddle and say who its first part names (\"the dad\"), then add the last word (\"his brother\"). Following the riddle on the tree on the board helps. The children of an aunt or an uncle are cousins."
+      "say": "\"We eat different parts of plants: roots, stems, leaves, flowers, fruits, and seeds. Look at each food and circle the part of the plant we eat.\"",
+      "first": "Draw a plant on the board and label its parts. Name the first food on the page together and ask, \"Does it grow under the ground, is it the stem, a leaf, a flower, a fruit, or a seed?\" Circle the word.",
+      "stuck": "Ask the child where the food grows: under the ground (roots), the long part that holds the plant up (stem), the flat green part (leaf), the part bees visit (flower), the part with seeds inside (fruit), or the seed itself. Let the child choose and say why."
      }
     },
     {
@@ -19023,17 +19025,19 @@
      }
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "2:life-cycles",
-     "type": "G2-366",
-     "title": "Metamorphosis: Which Animal Will It Become?",
-     "instruction": "Look at each stage and write its letter in a box under the animal it will grow into; some boxes stay empty.",
-     "core": "animal-life-cycles-g2366",
+     "point": "2:family-relationships",
+     "type": "G2-362",
+     "title": "Family Relationships: Riddles",
+     "instruction": "Read each riddle and write the right family word from the box on the line; one word can fit more than one riddle.",
+     "core": "family-g2362-2",
+     "hard": "family-hard-g2362-11",
+     "easy": "family-easy-g2362-8",
      "script": {
-      "say": "\"Look at each stage, like an egg, a tadpole, or a caterpillar. Write its letter in a box under the animal it will grow into. Some boxes stay empty.\"",
-      "first": "Name the grown-up animals together, then look at the first stage and ask, \"What will this become?\" Write its letter in a box under that animal.",
-      "stuck": "Ask the child which animal the stage looks a little like, or say what the stage is called: a tadpole becomes a frog, a caterpillar becomes a butterfly."
+      "say": "\"Now it is time to read and think. Each sentence is a riddle about one child's family. Read the riddle and work it out step by step. Then write the right family word from the box on the line. Some words fit more than one riddle.\"",
+      "first": "Draw a family tree on the board with stick people: the child the riddles are about at the bottom; the mom and the dad above the child; a grandma and a grandpa above each parent; an aunt or an uncle beside each parent; and a cousin under the aunt. Read the first riddle aloud and follow it on the tree together, one step at a time, and write the word. Keep to the family on the page, not the children's own families.",
+      "stuck": "Have the child cover the end of the riddle and say who its first part names (\"the dad\"), then add the last word (\"his brother\"). Following the riddle on the tree on the board helps. The children of an aunt or an uncle are cousins."
      }
     },
     {
@@ -19181,15 +19185,17 @@
     {
      "key": "science",
      "minutes": 15,
-     "point": "2:sink-float",
-     "type": "G2-383",
-     "title": "Floating Facts: Sink or Float True or False",
-     "instruction": "Read each sentence and circle true or false.",
-     "core": "sink-or-float-g2383",
+     "point": "1:food-groups",
+     "type": "G1-207",
+     "title": "Sort by Food Group",
+     "instruction": "Draw a line from each food to its food group.",
+     "core": "science-sort-g1207",
+     "hard": "science-sort-hard-g1207-7",
+     "easy": "science-sort-easy-g1207-2",
      "script": {
-      "say": "\"Read each sentence about things that sink and float, and circle true or false.\"",
-      "first": "Name the pictures at the top together. Read the first sentence aloud and ask, \"Is that true?\" Talk about it, then circle.",
-      "stuck": "Ask the child what happens to that thing in a bathtub or a pool."
+      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fruits, Vegetables, Grains, and Protein. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this a fruit, a vegetable, a grain like bread or pasta, or a protein like eggs, meat, or fish?\" Draw the line from the dot under the picture to its box. If a food fits two groups, either box is right when the child can say why.",
+      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
      }
     },
     {
@@ -19337,17 +19343,17 @@
     {
      "key": "social",
      "minutes": 15,
-     "point": "3:continents-oceans",
-     "type": "G3-396",
-     "title": "Continents and Oceans",
-     "instruction": "Find each continent and ocean on the map. Write its number in the box next to its name.",
-     "core": "maps-g3396-2",
-     "hard": "maps-hard-g3396-9",
-     "easy": "maps-easy-g3396-6",
+     "point": "3:community-problem",
+     "type": "G3-623",
+     "title": "A Community Problem",
+     "instruction": "Read about the problem. Write three solutions, with a cost and a benefit for each. Then write a letter to the city council.",
+     "core": "sentence-building-g3623",
+     "hard": "sentence-building-hard-g3623-3",
+     "easy": "sentence-building-easy-g3623-2",
      "script": {
-      "say": "\"The map shows the continents and the oceans, each with a number. Find each one on the map and write its number in the box next to its name.\"",
-      "first": "Read the names aloud together. Point to North America: \"This is where the United States is.\" Find its number and write it next to North America together. The oceans are the big blue areas.",
-      "stuck": "Give clues: \"The Pacific is the biggest ocean, on the left and right. Antarctica is the icy land at the bottom.\" Let the child find each one."
+      "say": "\"In this sample town, a busy street runs between the homes and the park, and there is no crosswalk. Choose a way to make crossing safe, then write a letter to the city council.\"",
+      "first": "Read the problem aloud and look at the picture together. Talk about three ways to fix it: a sign that says SLOW costs the least; a guard who helps children cross is paid each day and helps before and after school; a crosswalk with a light costs the most to build but stops cars whenever people need to cross, all day and night. If your page lists the three solutions, circle one; if it has an empty table, write three solutions with a cost and a benefit for each. Start the letter together: \"We noticed there is no crosswalk by the park.\" Any solution is right when its reason fits. If your page asks who would carry out the plan, it is city workers.",
+      "stuck": "Ask, \"Which way would you choose, and why?\" Have the child say it aloud, then write it after \"We suggest\" and \"because.\""
      }
     },
     {
@@ -19493,19 +19499,19 @@
      }
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "1:animal-classes-coverings",
-     "type": "G1-205",
-     "title": "Animal Coverings",
-     "instruction": "Draw a line from each animal to its body covering.",
-     "core": "science-sort-g1205",
-     "hard": "science-sort-hard-g1205-7",
-     "easy": "science-sort-easy-g1205-2",
+     "point": "3:primary-secondary",
+     "type": "G3-624",
+     "title": "Primary or Secondary?",
+     "instruction": "Read each source. Write its name in the right column: primary or secondary.",
+     "core": "science-sort-g3624",
+     "hard": "science-sort-hard-g3624-7",
+     "easy": "science-sort-easy-g3624-2",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fur, Feathers, and Scales. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"What covers this animal's body: fur, feathers, or scales?\" Draw the line from the dot under the picture to its box. Fur is soft hair, feathers have a stem with soft sides, and scales are small, hard plates on the skin.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
+      "say": "\"A primary source is made at the time by someone who was there. A secondary source is made later by someone who studied the past. Write each source in the right column.\"",
+      "first": "Write those two sentences on the board: not every page prints them. Read the first source and its line aloud and ask, \"When was it made? Was the maker there?\" Write it in its column together. Answers, for the sources your page shows: primary: the diary, the photograph of the new school, the soldier's letter, the map drawn in 1870, the newspaper from the day the bridge opened. Secondary: the textbook page, the encyclopedia article, the museum sign. If your page asks which source best tells what school was like in 1900, it is the diary, because the girl was there in 1900.",
+      "stuck": "Ask the two questions again. Old does not mean primary: the encyclopedia article was written in 1955, long after the town began, by someone who studied it."
      }
     },
     {
@@ -19649,17 +19655,19 @@
      }
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "2:day-and-night",
-     "type": "G2-368",
-     "title": "Why Do We Have Day and Night?",
-     "instruction": "Look where the Sun is. At each numbered pin, is it day or night? Circle the word in the table.",
-     "core": "earth-and-space-g2368-2",
+     "point": "3:double-timeline",
+     "type": "G3-625",
+     "title": "A Double Timeline",
+     "instruction": "Write each event's letter above its year on its timeline. Then draw a line between each two events, one on each timeline, that happened within five years of each other.",
+     "core": "family-g3625",
+     "hard": "family-hard-g3625-11",
+     "easy": "family-easy-g3625-6",
      "script": {
-      "say": "\"Look where the Sun is. The side of Earth that faces the Sun has day; the other side has night. At each numbered pin, is it day or night? Circle the word in the table.\"",
-      "first": "Point from the Sun on the page to Earth and show the side that faces it. Do the first pin together: \"Does it face the Sun?\" Circle day or night.",
-      "stuck": "Have the child trace a line from the Sun to the pin: if Earth is in the way, it is night there."
+      "say": "\"Write each event's letter above its year on its own timeline: the sample town or the United States. Then join the events, one on each timeline, that happened within five years of each other.\"",
+      "first": "Read the events and their years aloud. Show the marks: each long mark with a number is ten years, and each short mark between is five. Do the first event together: find its year on its own timeline and write the letter above it. The two joining lines: the railroad (1869) with the town's first school (1870), and the vote (1920) with the town library (1920). If your page asks for two events from our town, any true event with its year is right, such as the year our school opened if the class knows it.",
+      "stuck": "Have the child find the ten years first: 1869 is just before the 1870 mark, almost on it: one year short. Then check which timeline the event belongs on, the town or the United States, and write the letter there."
      }
     },
     {
@@ -19803,19 +19811,19 @@
      }
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "1:habitats-needs",
-     "type": "G1-202",
-     "title": "Where Do Animals Live?",
-     "instruction": "Draw a line from each animal to where it lives.",
-     "core": "science-sort-g1202-2",
-     "hard": "science-sort-hard-g1202-8",
-     "easy": "science-sort-easy-g1202-3",
+     "point": "3:then-and-now",
+     "type": "G3-626",
+     "title": "Life Then and Now",
+     "instruction": "Read about life around 1900 and look at each photo. Write what it is like today. Then finish the sentences.",
+     "core": "family-g3626",
+     "hard": "family-hard-g3626-7",
+     "easy": "family-easy-g3626-2",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Land, Water, and Air. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this animal spend most of its time: on land, in the water, or in the air?\" Draw the line from the dot under the picture to its box. An animal that flies lives on land too, so Air and Land are both right for it when the child can say why.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
+      "say": "\"These sample photos are drawings of life around 1900, more than 100 years ago. Read about each one and write what it is like today.\"",
+      "first": "Read the first row's title and its \"About 1900\" text aloud and look at its photo. Ask, \"What is it like today?\" and write it together on the Today lines. Then finish the two sentences under the rows: what changed most, and something that stayed the same. Any true answer about life today is right; children write about most places today, not about their own homes. If your page asks which change mattered most, every honest reason is right.",
+      "stuck": "Read the \"About 1900\" text again and ask, \"Do we still do that? What do we use now?\" For what stayed the same, say, \"People still walk, write letters, and learn with a teacher.\""
      }
     },
     {
@@ -19963,17 +19971,17 @@
     {
      "key": "social",
      "minutes": 15,
-     "point": "2:cardinal-directions",
-     "type": "G2-371",
-     "title": "Cardinal Directions on a Map",
-     "instruction": "Start at the first picture on the map, look the way the word says, and circle the one of the three pictures that lies that way.",
-     "core": "maps-g2371",
-     "hard": "maps-hard-g2371-12",
-     "easy": "maps-easy-g2371-7",
+     "point": "3:economic-resources",
+     "type": "G3-627",
+     "title": "Resources at the Bakery",
+     "instruction": "Look at the bakery. Write each card in its column: natural, human or capital resources.",
+     "core": "science-sort-g3627",
+     "hard": "science-sort-hard-g3627-4",
+     "easy": "science-sort-easy-g3627-2",
      "script": {
-      "say": "\"Look at the map. Start at the first picture of each question, look the way the word says, and circle the picture you see in that direction.\"",
-      "first": "Find the compass rose on the map together, or the north arrow if your page has only that, and say the four directions: north is the way it points, south the other way, east to the right of north, and west to the left. Read the first question aloud, put a finger on its first picture, and move the finger the way the word says. Circle the picture you reach. Use the map key to name the pictures.",
-      "stuck": "Have the child show the direction on the compass rose or the north arrow first, then move a finger the same way across the map."
+      "say": "\"A bakery needs resources to make bread. Natural resources come from nature, human resources are people and their work, and capital resources are things people made that help make goods. Write each card in its column.\"",
+      "first": "Look at the bakery picture together and read the cards aloud. Do the first card together: \"Is it from nature, a person's work, or a thing people made?\" Answers, for the cards your page shows: natural: wheat grown on a farm, the water for the dough, salt; human: the skill of the baker, a cashier's work; capital: an oven, the mixer, a van that delivers bread, the bakery building. If your page asks about a business in our town, any business works; one true example under each kind is enough.",
+      "stuck": "Ask the three questions one at a time: \"Does it come from nature? Is it a person and their work? Is it a thing people made to help make goods?\" The oven and the van were made by people, so they are capital."
      }
     },
     {
@@ -20119,19 +20127,19 @@
      }
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "1:food-groups",
-     "type": "G1-207",
-     "title": "Sort by Food Group",
-     "instruction": "Draw a line from each food to its food group.",
-     "core": "science-sort-g1207-2",
-     "hard": "science-sort-hard-g1207-8",
-     "easy": "science-sort-easy-g1207-3",
+     "point": "2:cardinal-directions",
+     "type": "G2-369",
+     "title": "North, East, South, West: Label the Four Directions",
+     "instruction": "The orange tip on each compass rose points north; write the three missing letters in the empty boxes.",
+     "core": "maps-g2369",
+     "hard": "maps-hard-g2369-10",
+     "easy": "maps-easy-g2369-7",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fruits, Vegetables, Grains, and Protein. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this a fruit, a vegetable, a grain like bread or pasta, or a protein like eggs, meat, or fish?\" Draw the line from the dot under the picture to its box. A tomato can be called a fruit or a vegetable; either box is right for it.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
+      "say": "\"The four directions are north, east, south, and west. On these compass roses the orange tip always points north, even when it does not point up. Write the three missing letters in the empty boxes.\"",
+      "first": "Draw a compass rose on the board: N at the top, S at the bottom, E on the right, W on the left. Say \"Never Eat Soggy Waffles\" going around clockwise from N. On the page, north is wherever the orange tip points, and on some roses it points down, left, or right. Do the first rose together: put a finger on the orange tip, say \"north,\" then go around clockwise and say east, south, west, writing each missing letter where it falls.",
+      "stuck": "Have the child put a finger on the orange tip and say north, then go around clockwise: east, south, west."
      }
     },
     {
@@ -20283,9 +20291,9 @@
      "type": "G2-370",
      "title": "Label the Continents",
      "instruction": "Write the name of each numbered continent on its line. Use the names in the box.",
-     "core": "maps-g2370-2",
-     "hard": "maps-hard-g2370-9",
-     "easy": "maps-easy-g2370-6",
+     "core": "maps-g2370",
+     "hard": "maps-hard-g2370-8",
+     "easy": "maps-easy-g2370-5",
      "script": {
       "say": "\"The map shows the seven continents, each with a number. Write the name of each continent on its line. If your page has a box of names, use it.\"",
       "first": "Say the seven names together: North America, South America, Europe, Asia, Africa, Oceania, Antarctica (if your page has a box of names, read them from it). Point to North America on the map: \"This is where the United States is.\" Find its number together and write North America on that line. The children do the rest; with a box, they cross out each name when they use it.",
@@ -20439,7 +20447,7 @@
      "type": "G2-361",
      "title": "Road Safety Quiz: Which Sign Fits?",
      "instruction": "Read each sentence and circle the one road sign that fits it.",
-     "core": "road-safety-g2361-2",
+     "core": "road-safety-g2361",
      "script": {
       "say": "\"Read each sentence. Circle the one road sign that fits it.\"",
       "first": "Read the first sentence aloud and look at the three signs next to it. Ask, \"Which sign tells drivers about this?\" Circle it together. Read each sentence aloud for children who need it.",
@@ -20592,16 +20600,16 @@
      "key": "social",
      "minutes": 15,
      "point": "1:map-key",
-     "type": "G1-379",
-     "title": "Read the Map Key",
-     "instruction": "Find each thing from the map key on the map, then write how many there are in its box.",
-     "core": "maps-g1379",
-     "hard": "maps-hard-g1379-12",
-     "easy": "maps-easy-g1379-7",
+     "type": "G2-505",
+     "title": "Fix the Arrow Program",
+     "instruction": "Follow the arrows from the flag: each arrow is one step. One arrow is wrong: the path does not end on the star. Circle the wrong arrow and draw the correct arrow in the box under it.",
+     "core": "maps-g2505",
+     "hard": "maps-hard-g2505-11",
+     "easy": "maps-easy-g2505-6",
      "script": {
-      "say": "\"The map key shows little pictures and what they stand for. Find each thing from the key on the map, and write how many there are in its box.\"",
-      "first": "Read the map key aloud together. Find the first thing of the key on the map together and count it; write the number in its box. Tell the children to cross off each one they count so they do not count it twice.",
-      "stuck": "Have the child look at one picture of the key and find all of them on the map, one at a time."
+      "say": "\"Follow the arrows from the flag: each arrow is one step. One arrow is wrong: the path does not end on the star. Find the wrong arrow and fix it.\"",
+      "first": "Do the first puzzle on the board: put a finger on the flag and move one square for each arrow, saying \"up, right, right.\" See where you land. Then find the arrow that takes the path the wrong way and cross it out.",
+      "stuck": "Have the child move a finger one square per arrow and stop when the path goes off course: that arrow is the wrong one."
      }
     },
     {
@@ -20749,15 +20757,15 @@
     {
      "key": "science",
      "minutes": 15,
-     "point": "2:sink-float",
-     "type": "G2-382",
-     "title": "Make Clay Float: A Change the Shape Experiment",
-     "instruction": "Color the ring where each clay shape ends up, circle the thing that floats, then draw your own clay boat in the big tank.",
-     "core": "sink-or-float-g2382-2",
+     "point": "2:life-cycles",
+     "type": "G2-366",
+     "title": "Metamorphosis: Which Animal Will It Become?",
+     "instruction": "Look at each stage and write its letter in a box under the animal it will grow into; some boxes stay empty.",
+     "core": "animal-life-cycles-g2366",
      "script": {
-      "say": "\"The same clay can sink or float: a ball of clay sinks, a clay boat floats. Color the ring where each clay shape ends up, circle the thing that floats, then draw your own clay boat.\"",
-      "first": "Talk about the pictures: a ball and a flat boat made of the same clay. Ask, \"Which one floats? Why?\" Do the first part together.",
-      "stuck": "Ask the child, \"Is it flat and wide like a boat, or a tight ball?\""
+      "say": "\"Look at each stage, like an egg, a tadpole, or a caterpillar. Write its letter in a box under the animal it will grow into. Some boxes stay empty.\"",
+      "first": "Name the grown-up animals together, then look at the first stage and ask, \"What will this become?\" Write its letter in a box under that animal.",
+      "stuck": "Ask the child which animal the stage looks a little like, or say what the stage is called: a tadpole becomes a frog, a caterpillar becomes a butterfly."
      }
     },
     {
@@ -20905,17 +20913,15 @@
     {
      "key": "science",
      "minutes": 15,
-     "point": "1:animal-classes-coverings",
-     "type": "G1-201",
-     "title": "Sort the Animals",
-     "instruction": "Draw a line from each animal to the group it belongs to.",
-     "core": "science-sort-g1201-2",
-     "hard": "science-sort-hard-g1201-8",
-     "easy": "science-sort-easy-g1201-3",
+     "point": "2:sink-float",
+     "type": "G2-383",
+     "title": "Floating Facts: Sink or Float True or False",
+     "instruction": "Read each sentence and circle true or false.",
+     "core": "sink-or-float-g2383",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Mammals, Birds, and Reptiles. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Does it have fur, feathers, or scales? Does it lay eggs or feed its babies milk?\" Draw the line from the dot under the picture to its box. Mammals have fur or hair, birds have feathers, and reptiles have dry scales.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
+      "say": "\"Read each sentence about things that sink and float, and circle true or false.\"",
+      "first": "Name the pictures at the top together. Read the first sentence aloud and ask, \"Is that true?\" Talk about it, then circle.",
+      "stuck": "Ask the child what happens to that thing in a bathtub or a pool."
      }
     },
     {

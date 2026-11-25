@@ -3235,6 +3235,186 @@
    ],
    "why": "Running a class market with written price tags, then recording what each shopper bought, its price and the coins paid (with practice trays that pay each price exactly) identify the prices of products in a local market (D2.Eco.5, K-2).",
    "review": "batch-s2 2026-11-25"
+  },
+  "3:civic-virtues": {
+   "rows": [
+    {
+     "id": "D2.Civ.7.3-5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Naming the virtue each school situation calls for and writing what a good citizen would do apply civic virtues and democratic principles in school settings (D2.Civ.7, 3-5).",
+   "review": "batch-s3 2026-11-25"
+  },
+  "3:constitution": {
+   "rows": [
+    {
+     "id": "D2.Civ.3.3-5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading that the Constitution is the plan for our national government and that the Bill of Rights protects freedoms, then writing class rules with their reasons, examine the origins and purposes of rules, laws and key U.S. constitutional provisions (D2.Civ.3, 3-5).",
+   "review": "batch-s3 2026-11-25"
+  },
+  "3:changing-laws": {
+   "rows": [
+    {
+     "id": "D2.Civ.12.3-5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading how people won the vote for women, the Americans with Disabilities Act and a local crosswalk, and recording who acted, what they did and what changed, explain how rules and laws change society and how people change rules and laws (D2.Civ.12, 3-5).",
+   "review": "batch-s3 2026-11-25"
+  },
+  "3:map-scale": {
+   "rows": [
+    {
+     "id": "D2.Geo.3.3-5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Measuring distances with a ruler and a map scale and comparing what a town map and a state map show use maps of different scales to describe the locations of cultural and environmental characteristics (D2.Geo.3, 3-5).",
+   "review": "batch-s3 2026-11-25"
+  },
+  "3:grid-map": {
+   "rows": [
+    {
+     "id": "D2.Geo.1.3-5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Drawing a community map on a grid with a title, a key, a compass rose and a scale, and writing grid squares for a partner, construct maps and other graphic representations of both familiar and unfamiliar places (D2.Geo.1, 3-5).",
+   "review": "batch-s3 2026-11-25"
+  },
+  "3:where-people-live": {
+   "rows": [
+    {
+     "id": "D2.Geo.6.3-5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Comparing a population dot map with a physical map and writing why many people live along coasts, rivers and lakes and few in deserts and high mountains describe how environmental and cultural characteristics influence population distribution (D2.Geo.6, 3-5).",
+   "review": "batch-s3 2026-11-25"
+  },
+  "3:towns-near-resources": {
+   "rows": [
+    {
+     "id": "D2.Geo.8.3-5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Writing what each site on a sample state map offers (river water and soil, a harbor, or dry, rocky land) and choosing the better and the worst place to start a town explain how human settlements and movements relate to the locations and use of natural resources (D2.Geo.8, 3-5).",
+   "review": "batch-s3 2026-11-25"
+  },
+  "3:levels-of-government": {
+   "rows": [
+    {
+     "id": "D2.Civ.1.3-5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Writing each leader and service under local, state or national government and choosing the level to contact about a problem distinguish the responsibilities and powers of government officials at various levels (D2.Civ.1, 3-5).",
+   "review": "batch-s3 2026-11-25"
+  },
+  "3:three-branches": {
+   "rows": [
+    {
+     "id": "D2.Civ.5.3-5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Placing Congress, the president and the courts (and the state legislature, the governor and the state courts) under the legislative, executive and judicial branches explain the origins, functions and structure of government (D2.Civ.5, 3-5).",
+   "review": "batch-s3 2026-11-25"
+  },
+  "3:taxes-services": {
+   "rows": [
+    {
+     "id": "D2.Eco.12.3-5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Tracing taxes from people and businesses to a government and on to a service, and labeling the level that provides it, explain the ways in which the government pays for the goods and services it provides (D2.Eco.12, 3-5).",
+   "review": "batch-s3 2026-11-25"
+  },
+  "3:ways-to-decide": {
+   "rows": [
+    {
+     "id": "D2.Civ.11.3-5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Filling a chart of who decides, how, and how people have a say in a class vote, a council meeting and an election compare procedures for making decisions in a variety of settings (D2.Civ.11, 3-5).",
+   "review": "batch-s3 2026-11-25"
+  },
+  "3:community-problem": {
+   "rows": [
+    {
+     "id": "D2.Civ.13.3-5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Listing solutions to a community problem with a cost and a benefit for each and proposing one in a letter to the city council explain how policies are developed to address public problems (D2.Civ.13, 3-5).",
+   "review": "batch-s3 2026-11-25"
+  },
+  "3:primary-secondary": {
+   "rows": [
+    {
+     "id": "D2.His.9.3-5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sorting a diary, an old photograph, a letter, a textbook page and other sources into primary and secondary summarize how different kinds of historical sources are used to explain events in the past (D2.His.9, 3-5).",
+   "review": "batch-s3 2026-11-25"
+  },
+  "3:double-timeline": {
+   "rows": [
+    {
+     "id": "D2.His.1.3-5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Placing a sample town's events and national events on parallel timelines and joining those within five years create and use a chronological sequence of related events to compare developments that happened at the same time (D2.His.1, 3-5).",
+   "review": "batch-s3 2026-11-25"
+  },
+  "3:then-and-now": {
+   "rows": [
+    {
+     "id": "D2.His.2.3-5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Comparing getting around, lighting, sending messages and school around 1900 with today, and writing what changed and what stayed the same, compare life in specific historical time periods to life today (D2.His.2, 3-5).",
+   "review": "batch-s3 2026-11-25"
+  },
+  "3:economic-resources": {
+   "rows": [
+    {
+     "id": "D2.Eco.3.3-5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Writing the resources a bakery uses under natural, human and capital resources identify examples of the variety of resources that are used to produce goods and services (D2.Eco.3, 3-5).",
+   "review": "batch-s3 2026-11-25"
+  },
+  "3:cause-effect-history": {
+   "rows": [
+    {
+     "id": "D2.His.14.3-5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Linking each cause in a sample town's history to its effect and writing the likely cause of a change in our community explain probable causes and effects of events and developments (D2.His.14, 3-5).",
+   "review": "batch-s3 2026-11-25"
+  },
+  "3:deciding-together": {
+   "rows": [
+    {
+     "id": "D2.Civ.9.3-5",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Listing a reason for and against each choice, asking another group a question, and recording the decision the class reached and why I can accept it use deliberative processes when making decisions or reaching judgments as a group (D2.Civ.9, 3-5).",
+   "review": "batch-s3 2026-11-25"
   }
  }
 }

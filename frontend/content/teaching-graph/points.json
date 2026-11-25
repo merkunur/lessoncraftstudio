@@ -13057,6 +13057,366 @@
    "prerequisites": []
   },
   {
+   "id": "3:map-scale",
+   "grade": "3",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Measure distances on a map with a ruler and its scale, and compare a town map with a state map",
+   "code": "D2.Geo.3.3-5",
+   "types": [
+    "G3-615"
+   ],
+   "families": [
+    "maps"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 62,
+   "prerequisites": []
+  },
+  {
+   "id": "3:grid-map",
+   "grade": "3",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Draw a map of our community on a lettered and numbered grid with a title, a key, a compass rose and a scale, and write grid squares",
+   "code": "D2.Geo.1.3-5",
+   "types": [
+    "G3-616"
+   ],
+   "families": [
+    "maps"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 63,
+   "prerequisites": []
+  },
+  {
+   "id": "3:where-people-live",
+   "grade": "3",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Compare a population map with a physical map and tell where many or few people live and why",
+   "code": "D2.Geo.6.3-5",
+   "types": [
+    "G3-617"
+   ],
+   "families": [
+    "maps"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 64,
+   "prerequisites": []
+  },
+  {
+   "id": "3:towns-near-resources",
+   "grade": "3",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Choose a good site for a town on a map, write what each site offers and name the worst site",
+   "code": "D2.Geo.8.3-5",
+   "types": [
+    "G3-618"
+   ],
+   "families": [
+    "maps"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 65,
+   "prerequisites": []
+  },
+  {
+   "id": "3:community-problem",
+   "grade": "3",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Weigh solutions to a community problem by cost and benefit and write a letter to the city council",
+   "code": "D2.Civ.13.3-5",
+   "types": [
+    "G3-623"
+   ],
+   "families": [
+    "sentence-building"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 66,
+   "prerequisites": []
+  },
+  {
+   "id": "3:changing-laws",
+   "grade": "3",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Read how people changed laws (the 19th Amendment, the Americans with Disabilities Act, a crosswalk) and record who, what they did and what changed",
+   "code": "D2.Civ.12.3-5",
+   "types": [
+    "G3-614"
+   ],
+   "families": [
+    "reading-comprehension"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 67,
+   "prerequisites": []
+  },
+  {
+   "id": "3:ways-to-decide",
+   "grade": "3",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Compare a class vote, a town council meeting and an election: who decides, how, and how people have a say",
+   "code": "D2.Civ.11.3-5",
+   "types": [
+    "G3-622"
+   ],
+   "families": [
+    "reading-comprehension"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 68,
+   "prerequisites": []
+  },
+  {
+   "id": "3:cause-effect-history",
+   "grade": "3",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Link causes to effects in a town's history and write the likely cause of a change in our community",
+   "code": "D2.His.14.3-5",
+   "types": [
+    "G3-628"
+   ],
+   "families": [
+    "reading-comprehension"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 69,
+   "prerequisites": []
+  },
+  {
+   "id": "3:double-timeline",
+   "grade": "3",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Place a town's events and the nation's events on two timelines and find events that happened at about the same time",
+   "code": "D2.His.1.3-5",
+   "types": [
+    "G3-625"
+   ],
+   "families": [
+    "family"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 70,
+   "prerequisites": []
+  },
+  {
+   "id": "3:then-and-now",
+   "grade": "3",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Compare life in a town around 1900 with life today and write what changed and what stayed the same",
+   "code": "D2.His.2.3-5",
+   "types": [
+    "G3-626"
+   ],
+   "families": [
+    "family"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 71,
+   "prerequisites": []
+  },
+  {
+   "id": "3:civic-virtues",
+   "grade": "3",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Name the civic virtue a school situation calls for (honesty, respect, responsibility, fairness, courage) and write what a good citizen would do",
+   "code": "D2.Civ.7.3-5",
+   "types": [
+    "G3-612"
+   ],
+   "families": [
+    "feelings"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 72,
+   "prerequisites": []
+  },
+  {
+   "id": "3:constitution",
+   "grade": "3",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Tell what the U.S. Constitution and the Bill of Rights are, and write a class constitution with rules and reasons",
+   "code": "D2.Civ.3.3-5",
+   "types": [
+    "G3-613"
+   ],
+   "families": [
+    "feelings"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 73,
+   "prerequisites": []
+  },
+  {
+   "id": "3:deciding-together",
+   "grade": "3",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Deliberate on a class question: list reasons for and against each choice, listen to every side and reach a decision most can accept",
+   "code": "D2.Civ.9.3-5",
+   "types": [
+    "G3-629"
+   ],
+   "families": [
+    "feelings"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 74,
+   "prerequisites": []
+  },
+  {
+   "id": "3:levels-of-government",
+   "grade": "3",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Sort leaders and services into local, state and national government, and tell which level to ask about a problem",
+   "code": "D2.Civ.1.3-5",
+   "types": [
+    "G3-619"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 75,
+   "prerequisites": []
+  },
+  {
+   "id": "3:three-branches",
+   "grade": "3",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Place Congress, the president and the courts under the three branches, for the nation and the state",
+   "code": "D2.Civ.5.3-5",
+   "types": [
+    "G3-620"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 76,
+   "prerequisites": []
+  },
+  {
+   "id": "3:taxes-services",
+   "grade": "3",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Trace how taxes become services and write which level of government provides each",
+   "code": "D2.Eco.12.3-5",
+   "types": [
+    "G3-621"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 77,
+   "prerequisites": []
+  },
+  {
+   "id": "3:primary-secondary",
+   "grade": "3",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Sort sources into primary and secondary and tell what each can tell about the past",
+   "code": "D2.His.9.3-5",
+   "types": [
+    "G3-624"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 78,
+   "prerequisites": []
+  },
+  {
+   "id": "3:economic-resources",
+   "grade": "3",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Sort the resources a business uses into natural, human and capital resources",
+   "code": "D2.Eco.3.3-5",
+   "types": [
+    "G3-627"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 79,
+   "prerequisites": []
+  },
+  {
    "id": "K:road-safety",
    "grade": "K",
    "subject": "health",

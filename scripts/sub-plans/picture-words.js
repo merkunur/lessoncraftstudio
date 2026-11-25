@@ -66,6 +66,10 @@ const DRAWN = {
   'G2-627': ['baker', 'farmer', 'builder', 'oven', 'mixer', 'rolling pin', 'whisk', 'tractor', 'watering can', 'shovel', 'wheelbarrow', 'drill', 'hammer', 'saw', 'ladder', 'bread', 'loaf', 'bowl', 'flour', 'dough', 'board', 'sun', 'soil', 'seed', 'sprout', 'sprouts', 'cow', 'bricks', 'wall'],
   'G2-628': ['lemonade stand', 'sign', 'cups', 'sugar', 'poster paper', 'marker', 'price tag', 'lemons', 'kite', 'ball'],
   'G2-629': ['bank', 'teller', 'banker', 'vault', 'money', 'envelope', 'desk', 'house', 'roof'],
+  // batch S3 (2026-11-25): what the Grade 3 social studies pages draw, read from their renders (lcs-stage-d/batch-s3)
+  'G3-621': ['fire truck', 'books', 'trash truck', 'car', 'cars', 'highway', 'soldiers', 'astronaut', 'astronauts', 'rocket', 'money', 'shop'],
+  'G3-623': ['street', 'car', 'cars', 'houses', 'park', 'trees'],
+  'G3-627': ['bakery', 'oven', 'mixer', 'salt', 'wheat', 'van', 'bread', 'flour', 'baker', 'cashier'],
 };
 // the example words of a point's rule, each with its reason
 const EXAMPLES = {

@@ -6637,5 +6637,77 @@
   "G2-630": {
     "title": "Class Market Day",
     "instruction": "After our market, write what you bought, what it cost and how many of each coin you paid with. Then circle the coins that pay each price exactly."
+  },
+  "G3-612": {
+    "title": "Civic Virtues at School",
+    "instruction": "Read each situation. Write the virtue it calls for. Use each word one time. Then write what a good citizen would do."
+  },
+  "G3-613": {
+    "title": "Our Class Constitution",
+    "instruction": "Read the first words of the Constitution and the three freedoms. Then write four rules for our class and why we need each one."
+  },
+  "G3-614": {
+    "title": "How People Change Laws",
+    "instruction": "Read the three stories. Fill in the chart: who wanted each change, what they did, and what changed."
+  },
+  "G3-615": {
+    "title": "Using a Map Scale",
+    "instruction": "Use a ruler. Measure from dot to dot to the nearest half inch. Write the inches and the miles. Then circle the map."
+  },
+  "G3-616": {
+    "title": "Our Community Grid Map",
+    "instruction": "Draw our school's neighborhood on the grid. Fill in the title, the compass rose, the scale and the key. Check off each place. Then write the squares of four places for a partner."
+  },
+  "G3-617": {
+    "title": "Where People Live and Why",
+    "instruction": "Find each letter on both maps. Circle many people or few people. Use the land map to write a reason."
+  },
+  "G3-618": {
+    "title": "Towns Grow Near Resources",
+    "instruction": "Look at the sample state. Write what each site has. Then write which site is the worst place for a town, and why."
+  },
+  "G3-619": {
+    "title": "Three Levels of Government",
+    "instruction": "Read each card. Write each leader and each service in the right column: local, state or national."
+  },
+  "G3-620": {
+    "title": "Three Branches",
+    "instruction": "Read each card. Write it under its branch, for our national government and for our state government. Write the three job cards in the national chart."
+  },
+  "G3-621": {
+    "title": "Where Taxes Go",
+    "instruction": "Follow the arrows. Draw or write a service in each box and the level of government that pays for it. Then finish the sentence."
+  },
+  "G3-622": {
+    "title": "Ways to Decide",
+    "instruction": "Read the three texts. Fill in the chart: who decides, how they decide, and how people have a say."
+  },
+  "G3-623": {
+    "title": "A Community Problem",
+    "instruction": "Read about the problem. Write three solutions, with a cost and a benefit for each. Then write a letter to the city council."
+  },
+  "G3-624": {
+    "title": "Primary or Secondary?",
+    "instruction": "Read each source. Write its name in the right column: primary or secondary."
+  },
+  "G3-625": {
+    "title": "A Double Timeline",
+    "instruction": "Write each event's letter above its year on its timeline. Then draw a line between each two events, one on each timeline, that happened within five years of each other."
+  },
+  "G3-626": {
+    "title": "Life Then and Now",
+    "instruction": "Read about life around 1900 and look at each photo. Write what it is like today. Then finish the sentences."
+  },
+  "G3-627": {
+    "title": "Resources at the Bakery",
+    "instruction": "Look at the bakery. Write each card in its column: natural, human or capital resources."
+  },
+  "G3-628": {
+    "title": "Causes and Effects in a Town's History",
+    "instruction": "Read the story. Draw a line from each cause to its effect. Use each effect one time."
+  },
+  "G3-629": {
+    "title": "Deciding Together",
+    "instruction": "Write our question and our three choices, with a reason for and against each. Write the question you asked another group, the choice the class reached and why you can accept it."
   }
 }

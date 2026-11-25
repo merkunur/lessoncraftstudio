@@ -7382,8 +7382,8 @@
     {
      "key": "social",
      "minutes": 15,
-     "point": "3:continents-oceans",
-     "type": "G3-396"
+     "point": "3:civic-virtues",
+     "type": "G3-612"
     },
     {
      "key": "logic",
@@ -7581,10 +7581,10 @@
      "type": "G2-239"
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "2:moon-phases",
-     "type": "G2-367"
+     "point": "3:continents-oceans",
+     "type": "G3-396"
     },
     {
      "key": "logic",
@@ -7650,8 +7650,8 @@
     {
      "key": "science",
      "minutes": 15,
-     "point": "2:day-and-night",
-     "type": "G2-368"
+     "point": "2:moon-phases",
+     "type": "G2-367"
     },
     {
      "key": "logic",
@@ -7717,8 +7717,8 @@
     {
      "key": "science",
      "minutes": 15,
-     "point": "1:animal-classes-coverings",
-     "type": "G1-201"
+     "point": "2:day-and-night",
+     "type": "G2-368"
     },
     {
      "key": "logic",
@@ -7782,10 +7782,10 @@
      "type": "G2-304"
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "1:habitats-needs",
-     "type": "G1-202"
+     "point": "3:where-people-live",
+     "type": "G3-617"
     },
     {
      "key": "logic",
@@ -7850,10 +7850,10 @@
      "type": "G2-401"
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "1:food-groups",
-     "type": "G1-207"
+     "point": "3:towns-near-resources",
+     "type": "G3-618"
     },
     {
      "key": "logic",
@@ -7917,10 +7917,10 @@
      "type": "G3-370"
     },
     {
-     "key": "social",
+     "key": "science",
      "minutes": 15,
-     "point": "2:cardinal-directions",
-     "type": "G2-369"
+     "point": "1:animal-classes-coverings",
+     "type": "G1-201"
     },
     {
      "key": "logic",
@@ -7986,10 +7986,10 @@
      "type": "G2-229"
     },
     {
-     "key": "social",
+     "key": "science",
      "minutes": 15,
-     "point": "2:continents",
-     "type": "G2-370"
+     "point": "1:habitats-needs",
+     "type": "G1-202"
     },
     {
      "key": "logic",
@@ -8055,8 +8055,8 @@
     {
      "key": "social",
      "minutes": 15,
-     "point": "2:road-signs",
-     "type": "G2-361"
+     "point": "3:levels-of-government",
+     "type": "G3-619"
     },
     {
      "key": "logic",
@@ -8120,10 +8120,10 @@
      "type": "G3-373"
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "2:plant-parts",
-     "type": "G2-363"
+     "point": "3:three-branches",
+     "type": "G3-620"
     },
     {
      "key": "logic",
@@ -8189,8 +8189,8 @@
     {
      "key": "social",
      "minutes": 15,
-     "point": "1:map-key",
-     "type": "G2-505"
+     "point": "3:taxes-services",
+     "type": "G3-621"
     },
     {
      "key": "logic",
@@ -8256,10 +8256,10 @@
      "type": "G3-323"
     },
     {
-     "key": "social",
+     "key": "science",
      "minutes": 15,
-     "point": "2:family-relationships",
-     "type": "G2-362"
+     "point": "2:plant-parts",
+     "type": "G2-363"
     },
     {
      "key": "logic",
@@ -8323,10 +8323,10 @@
      "type": "G2-323"
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "2:life-cycles",
-     "type": "G2-366"
+     "point": "2:family-relationships",
+     "type": "G2-362"
     },
     {
      "key": "logic",
@@ -8392,8 +8392,8 @@
     {
      "key": "science",
      "minutes": 15,
-     "point": "2:sink-float",
-     "type": "G2-383"
+     "point": "1:food-groups",
+     "type": "G1-207"
     },
     {
      "key": "logic",
@@ -8461,8 +8461,8 @@
     {
      "key": "social",
      "minutes": 15,
-     "point": "3:continents-oceans",
-     "type": "G3-396"
+     "point": "3:community-problem",
+     "type": "G3-623"
     },
     {
      "key": "logic",
@@ -8527,10 +8527,10 @@
      "type": "G2-233"
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "1:animal-classes-coverings",
-     "type": "G1-205"
+     "point": "3:primary-secondary",
+     "type": "G3-624"
     },
     {
      "key": "logic",
@@ -8597,10 +8597,10 @@
      "type": "G3-374"
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "2:day-and-night",
-     "type": "G2-368"
+     "point": "3:double-timeline",
+     "type": "G3-625"
     },
     {
      "key": "logic",
@@ -8664,10 +8664,10 @@
      "type": "G2-511"
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "1:habitats-needs",
-     "type": "G1-202"
+     "point": "3:then-and-now",
+     "type": "G3-626"
     },
     {
      "key": "logic",
@@ -8733,8 +8733,8 @@
     {
      "key": "social",
      "minutes": 15,
-     "point": "2:cardinal-directions",
-     "type": "G2-371"
+     "point": "3:economic-resources",
+     "type": "G3-627"
     },
     {
      "key": "logic",
@@ -8801,10 +8801,10 @@
      "type": "G3-375"
     },
     {
-     "key": "science",
+     "key": "social",
      "minutes": 15,
-     "point": "1:food-groups",
-     "type": "G1-207"
+     "point": "2:cardinal-directions",
+     "type": "G2-369"
     },
     {
      "key": "logic",
@@ -9008,7 +9008,7 @@
      "key": "social",
      "minutes": 15,
      "point": "1:map-key",
-     "type": "G1-379"
+     "type": "G2-505"
     },
     {
      "key": "logic",
@@ -9074,8 +9074,8 @@
     {
      "key": "science",
      "minutes": 15,
-     "point": "2:sink-float",
-     "type": "G2-382"
+     "point": "2:life-cycles",
+     "type": "G2-366"
     },
     {
      "key": "logic",
@@ -9142,8 +9142,8 @@
     {
      "key": "science",
      "minutes": 15,
-     "point": "1:animal-classes-coverings",
-     "type": "G1-201"
+     "point": "2:sink-float",
+     "type": "G2-383"
     },
     {
      "key": "logic",

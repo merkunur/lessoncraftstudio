@@ -1538,14 +1538,6 @@
     "table"
    ]
   },
-  "earth-and-space-g2368-2": {
-   "pictures": [],
-   "words": [
-    "earth",
-    "sun",
-    "table"
-   ]
-  },
   "fact-families-g1209": {
    "pictures": [],
    "words": []
@@ -1607,6 +1599,26 @@
    "pictures": [],
    "words": []
   },
+  "family-g3625": {
+   "pictures": [],
+   "words": [
+    "airplane",
+    "train"
+   ]
+  },
+  "family-g3626": {
+   "pictures": [],
+   "words": [
+    "candles",
+    "cars",
+    "horses",
+    "lamps",
+    "lights",
+    "oil",
+    "telephone",
+    "trains"
+   ]
+  },
   "family-k370": {
    "pictures": [],
    "words": []
@@ -1652,6 +1664,15 @@
     "fish",
     "play",
     "plays"
+   ]
+  },
+  "feelings-g3612": {
+   "pictures": [],
+   "words": [
+    "coach",
+    "fish",
+    "student",
+    "table"
    ]
   },
   "feelings-k331": {
@@ -2381,14 +2402,6 @@
    ],
    "words": []
   },
-  "maps-g1379": {
-   "pictures": [],
-   "words": [
-    "bed",
-    "bench",
-    "flower"
-   ]
-  },
   "maps-g1659": {
    "pictures": [],
    "words": [
@@ -2413,10 +2426,6 @@
    ]
   },
   "maps-g2370": {
-   "pictures": [],
-   "words": []
-  },
-  "maps-g2370-2": {
    "pictures": [],
    "words": []
   },
@@ -2468,9 +2477,20 @@
    "pictures": [],
    "words": []
   },
-  "maps-g3396-2": {
+  "maps-g3617": {
    "pictures": [],
-   "words": []
+   "words": [
+    "lake",
+    "mountains",
+    "river"
+   ]
+  },
+  "maps-g3618": {
+   "pictures": [],
+   "words": [
+    "forest",
+    "river"
+   ]
   },
   "maps-spring-g1528-3": {
    "pictures": [
@@ -5597,22 +5617,6 @@
     "birds"
    ]
   },
-  "science-sort-g1201-2": {
-   "pictures": [
-    "cat",
-    "cobra",
-    "gecko",
-    "iguana",
-    "penguin",
-    "pig",
-    "swan",
-    "tiger",
-    "vulture"
-   ],
-   "words": [
-    "birds"
-   ]
-  },
   "science-sort-g1202": {
    "pictures": [
     "bee",
@@ -5624,20 +5628,6 @@
     "horse",
     "lion",
     "octopus"
-   ],
-   "words": []
-  },
-  "science-sort-g1202-2": {
-   "pictures": [
-    "bee",
-    "cat",
-    "flamingo",
-    "horse",
-    "octopus",
-    "parrot",
-    "rabbit",
-    "seal",
-    "whale"
    ],
    "words": []
   },
@@ -5765,6 +5755,41 @@
     "nails",
     "rolling pin",
     "tractor"
+   ]
+  },
+  "science-sort-g3619": {
+   "pictures": [],
+   "words": [
+    "paper"
+   ]
+  },
+  "science-sort-g3620": {
+   "pictures": [],
+   "words": [
+    "branch",
+    "branches"
+   ]
+  },
+  "science-sort-g3621": {
+   "pictures": [],
+   "words": []
+  },
+  "science-sort-g3624": {
+   "pictures": [],
+   "words": [
+    "museum"
+   ]
+  },
+  "science-sort-g3627": {
+   "pictures": [],
+   "words": [
+    "baker",
+    "bread",
+    "cashier",
+    "mixer",
+    "oven",
+    "salt",
+    "van"
    ]
   },
   "science-sort-k201": {
@@ -6176,6 +6201,12 @@
     "student"
    ]
   },
+  "sentence-building-g3623": {
+   "pictures": [],
+   "words": [
+    "cars"
+   ]
+  },
   "sentence-building-tools-bw-g1249-2": {
    "pictures": [
     "axe",
@@ -6316,16 +6347,6 @@
   "sink-or-float-g2382": {
    "pictures": [
     "nail",
-    "ship"
-   ],
-   "words": [
-    "boat",
-    "tank"
-   ]
-  },
-  "sink-or-float-g2382-2": {
-   "pictures": [
-    "metal-nail",
     "ship"
    ],
    "words": [

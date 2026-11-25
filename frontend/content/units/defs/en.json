@@ -6309,6 +6309,173 @@
     }
    ],
    "weeks": 6
+  },
+  {
+   "id": "g3-citizens-rules-and-laws",
+   "slug": "citizens-rules-and-laws-grade-3-social-studies-unit",
+   "status": "live",
+   "grade": "3",
+   "subject": "social",
+   "title": "Citizens, Rules and Laws",
+   "metaTitle": "Grade 3 Social Studies Lesson Plans: Citizens, Rules and Laws",
+   "metaDescription": "A Grade 3 social studies unit: 4 lessons on civic virtues at school, the Constitution and a class constitution, deciding together, and how people change laws.",
+   "lessons": [
+    {
+     "point": "3:civic-virtues",
+     "types": [
+      "G3-612"
+     ]
+    },
+    {
+     "point": "3:constitution",
+     "types": [
+      "G3-613"
+     ]
+    },
+    {
+     "point": "3:deciding-together",
+     "types": [
+      "G3-629"
+     ]
+    },
+    {
+     "point": "3:changing-laws",
+     "types": [
+      "G3-614"
+     ]
+    }
+   ],
+   "weeks": 6
+  },
+  {
+   "id": "g3-maps-world-and-state",
+   "slug": "maps-of-our-world-and-our-state-grade-3-social-studies-unit",
+   "status": "live",
+   "grade": "3",
+   "subject": "social",
+   "title": "Maps of Our World and Our State",
+   "metaTitle": "Grade 3 Social Studies Lesson Plans: Maps of Our World and Our State",
+   "metaDescription": "A Grade 3 social studies unit: 5 lessons on continents and oceans, map scale, a grid map of our community, where people live and why, and towns near resources.",
+   "lessons": [
+    {
+     "point": "3:continents-oceans",
+     "types": [
+      "G3-396"
+     ]
+    },
+    {
+     "point": "3:map-scale",
+     "types": [
+      "G3-615"
+     ]
+    },
+    {
+     "point": "3:grid-map",
+     "types": [
+      "G3-616"
+     ],
+     "days": 3
+    },
+    {
+     "point": "3:where-people-live",
+     "types": [
+      "G3-617"
+     ]
+    },
+    {
+     "point": "3:towns-near-resources",
+     "types": [
+      "G3-618"
+     ]
+    }
+   ],
+   "weeks": 7
+  },
+  {
+   "id": "g3-how-our-government-works",
+   "slug": "how-our-government-works-grade-3-social-studies-unit",
+   "status": "live",
+   "grade": "3",
+   "subject": "social",
+   "title": "How Our Government Works",
+   "metaTitle": "Grade 3 Social Studies Lesson Plans: How Our Government Works",
+   "metaDescription": "A Grade 3 social studies unit: 5 lessons on local, state and national government, the three branches, how taxes pay for services, ways to decide, and a community problem.",
+   "lessons": [
+    {
+     "point": "3:levels-of-government",
+     "types": [
+      "G3-619"
+     ]
+    },
+    {
+     "point": "3:three-branches",
+     "types": [
+      "G3-620"
+     ]
+    },
+    {
+     "point": "3:taxes-services",
+     "types": [
+      "G3-621"
+     ]
+    },
+    {
+     "point": "3:ways-to-decide",
+     "types": [
+      "G3-622"
+     ]
+    },
+    {
+     "point": "3:community-problem",
+     "types": [
+      "G3-623"
+     ]
+    }
+   ],
+   "weeks": 7
+  },
+  {
+   "id": "g3-our-community-then-and-now",
+   "slug": "our-community-then-and-now-grade-3-social-studies-unit",
+   "status": "live",
+   "grade": "3",
+   "subject": "social",
+   "title": "Our Community Then and Now",
+   "metaTitle": "Grade 3 Social Studies Lesson Plans: Our Community Then and Now",
+   "metaDescription": "A Grade 3 social studies unit: 5 lessons on primary and secondary sources, a double timeline, life then and now, resources and jobs, and causes and effects in history.",
+   "lessons": [
+    {
+     "point": "3:primary-secondary",
+     "types": [
+      "G3-624"
+     ]
+    },
+    {
+     "point": "3:double-timeline",
+     "types": [
+      "G3-625"
+     ]
+    },
+    {
+     "point": "3:then-and-now",
+     "types": [
+      "G3-626"
+     ]
+    },
+    {
+     "point": "3:economic-resources",
+     "types": [
+      "G3-627"
+     ]
+    },
+    {
+     "point": "3:cause-effect-history",
+     "types": [
+      "G3-628"
+     ]
+    }
+   ],
+   "weeks": 7
   }
  ],
  "plans": [
@@ -6587,6 +6754,21 @@
     "g2-communities-near-and-far",
     "g2-history-of-our-community",
     "g2-producers-consumers-money"
+   ]
+  },
+  {
+   "id": "plan-3-social",
+   "slug": "grade-3-social-studies-scope-and-sequence",
+   "grade": "3",
+   "subject": "social",
+   "title": "Grade 3 Social Studies Scope and Sequence",
+   "metaTitle": "Grade 3 Social Studies Scope, Sequence and Pacing ({weeks} Weeks)",
+   "metaDescription": "{units} Grade 3 social studies units in teaching order, about {weeks} weeks of two social studies sessions a week, with each unit's lessons and its C3 standards.",
+   "units": [
+    "g3-citizens-rules-and-laws",
+    "g3-maps-world-and-state",
+    "g3-how-our-government-works",
+    "g3-our-community-then-and-now"
    ]
   }
  ]

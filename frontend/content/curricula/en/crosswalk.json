@@ -6090,6 +6090,186 @@
    ],
    "by": "review"
   },
+  "3:map-scale": {
+   "rows": [
+    {
+     "id": "D2.Geo.3.3-5",
+     "rel": "teaches",
+     "grade": "3-5"
+    }
+   ],
+   "by": "review"
+  },
+  "3:grid-map": {
+   "rows": [
+    {
+     "id": "D2.Geo.1.3-5",
+     "rel": "teaches",
+     "grade": "3-5"
+    }
+   ],
+   "by": "review"
+  },
+  "3:where-people-live": {
+   "rows": [
+    {
+     "id": "D2.Geo.6.3-5",
+     "rel": "teaches",
+     "grade": "3-5"
+    }
+   ],
+   "by": "review"
+  },
+  "3:towns-near-resources": {
+   "rows": [
+    {
+     "id": "D2.Geo.8.3-5",
+     "rel": "teaches",
+     "grade": "3-5"
+    }
+   ],
+   "by": "review"
+  },
+  "3:community-problem": {
+   "rows": [
+    {
+     "id": "D2.Civ.13.3-5",
+     "rel": "teaches",
+     "grade": "3-5"
+    }
+   ],
+   "by": "review"
+  },
+  "3:changing-laws": {
+   "rows": [
+    {
+     "id": "D2.Civ.12.3-5",
+     "rel": "teaches",
+     "grade": "3-5"
+    }
+   ],
+   "by": "review"
+  },
+  "3:ways-to-decide": {
+   "rows": [
+    {
+     "id": "D2.Civ.11.3-5",
+     "rel": "teaches",
+     "grade": "3-5"
+    }
+   ],
+   "by": "review"
+  },
+  "3:cause-effect-history": {
+   "rows": [
+    {
+     "id": "D2.His.14.3-5",
+     "rel": "teaches",
+     "grade": "3-5"
+    }
+   ],
+   "by": "review"
+  },
+  "3:double-timeline": {
+   "rows": [
+    {
+     "id": "D2.His.1.3-5",
+     "rel": "teaches",
+     "grade": "3-5"
+    }
+   ],
+   "by": "review"
+  },
+  "3:then-and-now": {
+   "rows": [
+    {
+     "id": "D2.His.2.3-5",
+     "rel": "teaches",
+     "grade": "3-5"
+    }
+   ],
+   "by": "review"
+  },
+  "3:civic-virtues": {
+   "rows": [
+    {
+     "id": "D2.Civ.7.3-5",
+     "rel": "teaches",
+     "grade": "3-5"
+    }
+   ],
+   "by": "review"
+  },
+  "3:constitution": {
+   "rows": [
+    {
+     "id": "D2.Civ.3.3-5",
+     "rel": "teaches",
+     "grade": "3-5"
+    }
+   ],
+   "by": "review"
+  },
+  "3:deciding-together": {
+   "rows": [
+    {
+     "id": "D2.Civ.9.3-5",
+     "rel": "teaches",
+     "grade": "3-5"
+    }
+   ],
+   "by": "review"
+  },
+  "3:levels-of-government": {
+   "rows": [
+    {
+     "id": "D2.Civ.1.3-5",
+     "rel": "teaches",
+     "grade": "3-5"
+    }
+   ],
+   "by": "review"
+  },
+  "3:three-branches": {
+   "rows": [
+    {
+     "id": "D2.Civ.5.3-5",
+     "rel": "teaches",
+     "grade": "3-5"
+    }
+   ],
+   "by": "review"
+  },
+  "3:taxes-services": {
+   "rows": [
+    {
+     "id": "D2.Eco.12.3-5",
+     "rel": "teaches",
+     "grade": "3-5"
+    }
+   ],
+   "by": "review"
+  },
+  "3:primary-secondary": {
+   "rows": [
+    {
+     "id": "D2.His.9.3-5",
+     "rel": "teaches",
+     "grade": "3-5"
+    }
+   ],
+   "by": "review"
+  },
+  "3:economic-resources": {
+   "rows": [
+    {
+     "id": "D2.Eco.3.3-5",
+     "rel": "teaches",
+     "grade": "3-5"
+    }
+   ],
+   "by": "review"
+  },
   "K:road-safety": {
    "rows": [
     {

@@ -2128,3 +2128,91 @@ Then batch 1 (Grade 1 pages), and so on.
 - The library nurse's red-cross cap.
 
 **Next:** social studies Grade 3 (batch S3; the 14 lines left in the social work list), then D-4, preschool theme units.
+
+### 2026-11-25: Stage D-5 batch S3 and Stage D-3 for Grade 3 social studies are live: 18 new Grade 3 social studies page types, a teacher-led deliberation, and 4 units in English; every social studies line of the year is built (deploy 61, commit `edf41c363`)
+
+**Batch S3, the pages** (`types/_shared/dk-social-3.js`, `dk-social-3-art.js`, `data/social/dk-social-3.js`, map data `dk-social-3-geo.js`; G3-612 … G3-629):
+- **Civics:**
+  - civic virtues at school (each situation calls for one of five virtues; "Use each word one time" on every level; respect is "treating people well when their ways are different from yours");
+  - our class constitution ("We the People", signed September 17, 1787; speech, religion and the press; "We the students of Room __");
+  - how people change laws (the 19th Amendment in 1920, the Americans with Disabilities Act in 1990, a sample town's crosswalk; grown-up marchers, seated wheelchair users);
+  - three levels of government; three branches (what "check" means, on every level);
+  - where taxes go (Level 1 services print no level word and none is paid by a fee: the mail and the driver's license left the pool);
+  - ways to decide (the election names a mayor or a governor, never the president);
+  - a community problem (a letter to the city council).
+- **Geography:**
+  - using a map scale (the scale bar is a true printed inch; every asked distance runs along a street; it still rounds right printed at 97%; on Level 3 the school sits between the two places of the trip);
+  - our community's grid map (a record page; blank street plates the class fills in);
+  - where people live and why (one dot per 100,000 people from the 2020 Census county centers; Natural Earth 1:50m land; the Appalachian shading is clipped back from the Atlantic coast so no big East Coast city reads as mountains; the key names every color);
+  - towns grow near resources (the ranking task left the page: only the worst site is a closed answer; the mine sits far from every site).
+- **History and economics:**
+  - primary or secondary;
+  - a double timeline (the pairs within five years are railroad and school, vote and library, on every copy);
+  - life then and now (gray sample photos, about 1900);
+  - resources at the bakery ("the water for the dough": the tap is capital);
+  - causes and effects in a town's history.
+- **The teacher-led deliberation** gets its record page (G3-629: "I can accept it because" on every level).
+- Nine codes in playable families are print only.
+- **Built by one Opus agent; read by one US third-grade teacher in three rounds** (5 must-fix + 24 should-fix; 2 + 12; 0 + 2), with the notes writer's 11 page findings and mine. Round 2's must-fixes were made by round 1's fixes: a trip that became trivial, and "our country" shared by a service and a building label.
+- **The gate** `qa/verify-dk-social-3.js`: 44,953 assertions, 163/163 poisons, tells measured on every word (max 75.0%), stacks 736-740 px.
+- **Byte identity:** 55,641 existing pages hash the same.
+- **Level Set `yds`:** 128 noindex English pages; check-zips 0 problems; audit 128/128; 18 class sheets.
+
+**The teaching points:** 18 new points with their C3 indicators (`add-points-3.en.social.js`); 624 points.
+
+**Stage D-3 for Grade 3 social studies, the units** (`place-ready-3.en.social.js`): Citizens, Rules and Laws; Maps of Our World and Our State; How Our Government Works; Our Community Then and Now.
+- 19 lessons, with the live G3-396 for continents and oceans; the grid map takes three sessions.
+- **Year plan `plan-3-social`:** 26 weeks.
+- **19 teacher notes** (`notes/en-social-3.js`) by one Opus agent, reviewed by the same teacher (6 should-fix): Seneca Falls asked for women's rights, the vote among them; "cold" is a right reason for the Great Basin; not every state has an income or a sales tax; the 1900 slate pair.
+- **The guides:** all four fit.
+- **Sub days:**
+  - 14 Grade 3 social pages a guest teacher can run join the Grade 3 social block, with their scripts (reviewed: 4 should-fix).
+  - The class constitution, the map scale, the grid map and the deliberation stay out.
+  - The live 3:continents-oceans script now fits Level 3 (numbered lines; the oceans are pale, not blue).
+  - All 144 packs keep their titles, descriptions and addresses; 25 Grade 3 packs rebuilt.
+- **Coverage:** 7 gaps frozen once (decision 7).
+- **The social studies work list:** D to build 0. Every K-3 social studies line is built.
+
+**Live, after the deploy:**
+- English teacher files uploaded (818, `--check` equal).
+- Units live check: 3,151 checks pass. Assessments live check: 2,121 checks pass.
+- The 4 unit pages and the plan page answer 200, indexable, self-canonical and in the sitemap; their teacher files are Teacher-only.
+- A yds page answers noindex in the header and in the page; its PDF comes through the metered address.
+- Payment canary OK.
+
+**Fixed live the same day: people stood in front of their furniture** (the owner's reading of G3-627 Resources at the Bakery, commit `4cb8f6d8a`):
+- **The defect:** the baker and the cashier were drawn over the counter, their legs on its front face.
+- **The audit:** every Stage D social studies drawing of people at furniture was checked. The same defect was in seven types, all in their source drawings:
+  - G3-627 and G3-619 (batch S3);
+  - G2-616 (lectern, long desk), G2-617 (the park child stood across the bench, now beside it), G2-624 (the library desk now reaches the floor; the librarian's shoes showed 12.6 px under it) and G2-629 (the loan desk) (batch S2);
+  - G1-655 (lectern) (batch S1).
+- **The rule now:** a person is drawn before the furniture, with the feet no lower than its foot.
+- **The gate:** a measured check in `s1/s2/s3VerifyInPage`, on every rendered page and in each 400-seed layout sweep.
+  - Each drawing must judge a minimum number of people, so the check cannot pass by finding nothing.
+  - Poisons: S3 167/167, S2 154/154, S1 190/190.
+- **Byte identity:** 75,942 pages of the four social factories and their families were hashed. Only these drawings differ.
+- **The republish:**
+  - The 38 live English noindex copies were regenerated under their wave ids. A pixel comparison with the live PDFs showed 30 changed (8 copies draw no such scene); words and titles are unchanged.
+  - The 30 were republished in place, then the section 6 chain ran:
+    - injections: lost ones restored, the re-audit found 0 lost;
+    - lost tails 0; identity restore: 30 pages with no pre-baseline version (they are newer than the baseline);
+    - repoint of science-sort, science-match, reading-comprehension and money: 20 files, second pass 0;
+    - identity PASS (287 pages, 11 shards).
+  - The six unit guides that show these pages' thumbnails were rebuilt, and the teacher files uploaded (818, equal).
+- **Not needed:** the class sheets and week packs carry no page drawings, so they were not rebuilt.
+
+**Sitemaps served from an nginx cache** (commit `09f3df1b2`, Search Console: "/sitemap/4.xml could not be read"):
+- **The cause:** Googlebot got a 504 after 60 s on 4.xml during deploy 61's check-and-reload window. Shards 0 and 6 took 20-22 s, and AhrefsBot cut 6.xml off at 30 s.
+- **The fix:** `scripts/publish-cli/patch-nginx-sitemap-cache.py` serves `/sitemap.xml` and `/sitemap/<n>.xml` from an nginx cache:
+  - valid 30 minutes;
+  - the stored copy is served at once while it refreshes in the background, and also while Next.js is down or slow;
+  - one fill at a time; only 200 answers are stored.
+- **Verified:** all 11 shards answer 200 HIT at full size and parse.
+
+**Open (unchanged):**
+- The maker release (the sorting maker's K-213 data).
+- Unit checks for the science, health and social studies units.
+- The Texas reading of the new points.
+- The library nurse's red-cross cap.
+
+**Next:** D-4, preschool theme units.

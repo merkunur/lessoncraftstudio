@@ -253,9 +253,11 @@ export default async function UnitPage({ locale, unit, ui, plan }: { locale: str
   const inside = [
     fill(ui.insideLessons, { n: count.lessons }),
     fill(theme && ui.insidePagesTheme ? ui.insidePagesTheme : ui.insidePages, { n: count.pages }),
-    count.tools ? fill(ui.insideTools, { n: count.tools }) : null,
-    count.screen ? fill(ui.insideScreen, { n: count.screen }) : null,
-    count.exit ? fill(ui.insideExit, { n: count.exit }) : null,
+    // a count of one takes its singular line where the language has one ("1 classroom tool", not "1 classroom tools":
+    // 2026-11-25, seen on 14 live English units)
+    count.tools ? fill((count.tools === 1 && ui.insideTools_one) || ui.insideTools, { n: count.tools }) : null,
+    count.screen ? fill((count.screen === 1 && ui.insideScreen_one) || ui.insideScreen, { n: count.screen }) : null,
+    count.exit ? fill((count.exit === 1 && ui.insideExit_one) || ui.insideExit, { n: count.exit }) : null,
     count.makers === count.lessons ? ui.insideMakers : null,
   ].filter(Boolean) as string[];
 

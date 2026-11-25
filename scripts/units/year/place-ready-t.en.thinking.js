@@ -33,7 +33,7 @@ const jsonLike = (raw, obj) => {
   return out + (/\r?\n$/.test(raw) ? (raw.includes('\r\n') ? '\r\n' : '\n') : '');
 };
 const L = (point, types, extra) => Object.assign({ point, types }, extra || {});
-const U = (id, slug, grade, title, metaTitle, desc, lessons) => ({ id, slug, status: 'pilot', grade, subject: 'thinking', title, metaTitle, metaDescription: desc, lessons });
+const U = (id, slug, grade, title, metaTitle, desc, lessons) => ({ id, slug, status: 'live', grade, subject: 'thinking', title, metaTitle, metaDescription: desc, lessons });
 // the four pages the Grade 1 picture-clue lesson hands out (core, easy, hard, exit): the Grade 2 lesson on the same point takes others
 const G1_349_TAKEN = ['logic-puzzles-vehicles-g1349', 'logic-puzzles-easy-farm-animals-g1349', 'logic-puzzles-hard-zoo-animals-g1349', 'logic-puzzles-farm-animals-g1349-2'];
 const UNITS = [

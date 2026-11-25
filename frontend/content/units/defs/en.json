@@ -8089,7 +8089,7 @@
   {
    "id": "k-look-closely-and-think",
    "slug": "look-closely-and-think-kindergarten-critical-thinking-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "K",
    "subject": "thinking",
    "title": "Look Closely and Think",
@@ -8141,7 +8141,7 @@
   {
    "id": "g1-detective-thinking",
    "slug": "detective-thinking-grade-1-logic-puzzles-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "1",
    "subject": "thinking",
    "title": "Detective Thinking",
@@ -8199,7 +8199,7 @@
   {
    "id": "g2-clues-and-reasons",
    "slug": "clues-and-reasons-grade-2-logic-puzzles-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "2",
    "subject": "thinking",
    "title": "Clues and Reasons",
@@ -8261,7 +8261,7 @@
   {
    "id": "g3-logic-lab",
    "slug": "logic-lab-grade-3-logic-puzzles-unit",
-   "status": "pilot",
+   "status": "live",
    "grade": "3",
    "subject": "thinking",
    "title": "Logic Lab",

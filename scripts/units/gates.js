@@ -47,7 +47,7 @@ const FREE = { en: /\bfree\b/i, de: /\b(kostenlos|gratis|umsonst)\b/i, fr: /\b(g
 // strings of a product that exists in English only so far: German and Swedish get them with that product
 // (slotScreenBook: the readers, whose books exist in English only, 2026-11-22)
 // (the preschool theme units, Stage D-4, 2026-11-25: English only so far; German and Swedish get them with their themes)
-const ENGLISH_FIRST = new Set(['slotScreenBook', 'subject_theme', 'strand_literacy', 'strand_math', 'strand_science', 'strand_motor', 'weekdays', 'themeWeekTitle', 'themeWeekDay', 'pageOpen', 'noteCheck', 'themeUnitEnd', 'checklistBtn', 'guideChecklist', 'guideChecklistLead', 'themePlanLead', 'themePlanHonest']);
+const ENGLISH_FIRST = new Set(['slotScreenBook', 'subject_theme', 'strand_literacy', 'strand_math', 'strand_science', 'strand_motor', 'weekdays', 'themeWeekTitle', 'themeWeekDay', 'pageOpen', 'noteCheck', 'themeUnitEnd', 'checklistBtn', 'guideChecklist', 'guideChecklistLead', 'themePlanLead', 'themePlanHonest', 'insidePagesTheme', 'themeTeacherLead']);
 // the sub-plan strings of the week days and the sub binder pages (Part 5.4), which exist in English only so far
 const SUB_ENGLISH_FIRST = /^(week[A-Z]|hubWeek|binder[A-Z]|block_social$)/;
 // words by which a plan would claim to fill the school year (a plan of ours fills some weeks of it)

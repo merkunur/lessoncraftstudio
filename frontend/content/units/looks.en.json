@@ -113,6 +113,22 @@
     "height": 828
    }
   },
+  "P": {
+   "unit": {
+    "slug": "back-to-school-theme-preschool-lesson-plans",
+    "title": "Back to School Theme",
+    "src": "/teaching-looks/en/gp-unit.b20ef200.webp",
+    "width": 640,
+    "height": 828
+   },
+   "plan": {
+    "slug": "preschool-themes-by-month",
+    "title": "Preschool Themes by Month",
+    "src": "/teaching-looks/en/gp-plan.a7586b27.webp",
+    "width": 640,
+    "height": 828
+   }
+  },
   "K": {
    "unit": {
     "slug": "position-words-size-and-patterns-kindergarten-unit",

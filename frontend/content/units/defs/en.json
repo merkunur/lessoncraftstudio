@@ -6480,7 +6480,7 @@
   {
    "id": "p-theme-school",
    "slug": "back-to-school-theme-preschool-lesson-plans",
-   "status": "pilot",
+   "status": "live",
    "grade": "P",
    "subject": "theme",
    "month": "September",
@@ -6530,7 +6530,7 @@
   {
    "id": "p-theme-all-about-me",
    "slug": "all-about-me-theme-preschool-lesson-plans",
-   "status": "pilot",
+   "status": "live",
    "grade": "P",
    "subject": "theme",
    "month": "September",
@@ -6583,7 +6583,7 @@
   {
    "id": "p-theme-feelings",
    "slug": "feelings-theme-preschool-lesson-plans",
-   "status": "pilot",
+   "status": "live",
    "grade": "P",
    "subject": "theme",
    "month": "September",
@@ -6636,7 +6636,7 @@
   {
    "id": "p-theme-family",
    "slug": "my-family-and-my-home-theme-preschool-lesson-plans",
-   "status": "pilot",
+   "status": "live",
    "grade": "P",
    "subject": "theme",
    "month": "September",
@@ -6698,7 +6698,7 @@
   {
    "id": "p-theme-apples-fruits",
    "slug": "apples-and-fruits-theme-preschool-lesson-plans",
-   "status": "pilot",
+   "status": "live",
    "grade": "P",
    "subject": "theme",
    "month": "October",
@@ -6750,7 +6750,7 @@
   {
    "id": "p-theme-community-helpers",
    "slug": "community-helpers-theme-preschool-lesson-plans",
-   "status": "pilot",
+   "status": "live",
    "grade": "P",
    "subject": "theme",
    "month": "October",
@@ -6809,7 +6809,7 @@
   {
    "id": "p-theme-farm",
    "slug": "farm-theme-preschool-lesson-plans",
-   "status": "pilot",
+   "status": "live",
    "grade": "P",
    "subject": "theme",
    "month": "October",
@@ -6866,7 +6866,7 @@
   {
    "id": "p-theme-fall-forest",
    "slug": "fall-and-forest-animals-theme-preschool-lesson-plans",
-   "status": "pilot",
+   "status": "live",
    "grade": "P",
    "subject": "theme",
    "month": "October",
@@ -6917,7 +6917,7 @@
   {
    "id": "p-theme-construction",
    "slug": "construction-and-tools-theme-preschool-lesson-plans",
-   "status": "pilot",
+   "status": "live",
    "grade": "P",
    "subject": "theme",
    "month": "November",
@@ -6969,7 +6969,7 @@
   {
    "id": "p-theme-pets",
    "slug": "pets-theme-preschool-lesson-plans",
-   "status": "pilot",
+   "status": "live",
    "grade": "P",
    "subject": "theme",
    "month": "November",
@@ -7020,7 +7020,7 @@
   {
    "id": "p-theme-thanksgiving",
    "slug": "thanksgiving-theme-preschool-lesson-plans",
-   "status": "pilot",
+   "status": "live",
    "grade": "P",
    "subject": "theme",
    "month": "November",
@@ -7067,7 +7067,7 @@
   {
    "id": "p-theme-toys",
    "slug": "toys-theme-preschool-lesson-plans",
-   "status": "pilot",
+   "status": "live",
    "grade": "P",
    "subject": "theme",
    "month": "December",
@@ -7118,7 +7118,7 @@
   {
    "id": "p-theme-cooking-baking",
    "slug": "cooking-and-baking-theme-preschool-lesson-plans",
-   "status": "pilot",
+   "status": "live",
    "grade": "P",
    "subject": "theme",
    "month": "December",
@@ -7175,7 +7175,7 @@
   {
    "id": "p-theme-space",
    "slug": "space-theme-preschool-lesson-plans",
-   "status": "pilot",
+   "status": "live",
    "grade": "P",
    "subject": "theme",
    "month": "December",
@@ -7228,7 +7228,7 @@
   {
    "id": "p-theme-winter",
    "slug": "winter-theme-preschool-lesson-plans",
-   "status": "pilot",
+   "status": "live",
    "grade": "P",
    "subject": "theme",
    "month": "January",
@@ -7289,7 +7289,7 @@
   {
    "id": "p-theme-clothes",
    "slug": "clothing-theme-preschool-lesson-plans",
-   "status": "pilot",
+   "status": "live",
    "grade": "P",
    "subject": "theme",
    "month": "January",
@@ -7341,7 +7341,7 @@
   {
    "id": "p-theme-healthy-food",
    "slug": "healthy-eating-theme-preschool-lesson-plans",
-   "status": "pilot",
+   "status": "live",
    "grade": "P",
    "subject": "theme",
    "month": "January",
@@ -7387,7 +7387,7 @@
   {
    "id": "p-theme-post-office",
    "slug": "post-office-theme-preschool-lesson-plans",
-   "status": "pilot",
+   "status": "live",
    "grade": "P",
    "subject": "theme",
    "month": "February",
@@ -7436,7 +7436,7 @@
   {
    "id": "p-theme-friendship-valentines",
    "slug": "friendship-and-valentines-day-theme-preschool-lesson-plans",
-   "status": "pilot",
+   "status": "live",
    "grade": "P",
    "subject": "theme",
    "month": "February",
@@ -7483,7 +7483,7 @@
   {
    "id": "p-theme-doctors-healthy-habits",
    "slug": "doctors-and-healthy-habits-theme-preschool-lesson-plans",
-   "status": "pilot",
+   "status": "live",
    "grade": "P",
    "subject": "theme",
    "month": "February",
@@ -7535,7 +7535,7 @@
   {
    "id": "p-theme-weather",
    "slug": "weather-theme-preschool-lesson-plans",
-   "status": "pilot",
+   "status": "live",
    "grade": "P",
    "subject": "theme",
    "month": "February",
@@ -7591,7 +7591,7 @@
   {
    "id": "p-theme-transportation",
    "slug": "transportation-theme-preschool-lesson-plans",
-   "status": "pilot",
+   "status": "live",
    "grade": "P",
    "subject": "theme",
    "month": "March",
@@ -7646,7 +7646,7 @@
   {
    "id": "p-theme-plants-gardens",
    "slug": "plants-and-gardens-theme-preschool-lesson-plans",
-   "status": "pilot",
+   "status": "live",
    "grade": "P",
    "subject": "theme",
    "month": "March",
@@ -7701,7 +7701,7 @@
   {
    "id": "p-theme-bugs",
    "slug": "bugs-theme-preschool-lesson-plans",
-   "status": "pilot",
+   "status": "live",
    "grade": "P",
    "subject": "theme",
    "month": "April",
@@ -7752,7 +7752,7 @@
   {
    "id": "p-theme-spring-babies-birds",
    "slug": "spring-theme-preschool-lesson-plans",
-   "status": "pilot",
+   "status": "live",
    "grade": "P",
    "subject": "theme",
    "month": "April",
@@ -7822,7 +7822,7 @@
   {
    "id": "p-theme-pond",
    "slug": "frogs-and-the-pond-theme-preschool-lesson-plans",
-   "status": "pilot",
+   "status": "live",
    "grade": "P",
    "subject": "theme",
    "month": "April",
@@ -7873,7 +7873,7 @@
   {
    "id": "p-theme-zoo",
    "slug": "zoo-animals-theme-preschool-lesson-plans",
-   "status": "pilot",
+   "status": "live",
    "grade": "P",
    "subject": "theme",
    "month": "May",
@@ -7928,7 +7928,7 @@
   {
    "id": "p-theme-ocean",
    "slug": "ocean-theme-preschool-lesson-plans",
-   "status": "pilot",
+   "status": "live",
    "grade": "P",
    "subject": "theme",
    "month": "May",
@@ -7985,7 +7985,7 @@
   {
    "id": "p-theme-beach-summer",
    "slug": "beach-and-summer-theme-preschool-lesson-plans",
-   "status": "pilot",
+   "status": "live",
    "grade": "P",
    "subject": "theme",
    "month": "May",
@@ -8037,7 +8037,7 @@
   {
    "id": "p-theme-camping",
    "slug": "camping-theme-preschool-lesson-plans",
-   "status": "pilot",
+   "status": "live",
    "grade": "P",
    "subject": "theme",
    "month": "May",

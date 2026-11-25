@@ -119,7 +119,8 @@ function Lesson({ lesson, locale, ui, codeLinks, readers }: { lesson: UnitLesson
   return (
     <section className="un-lesson" id={`lesson-${lesson.n}`} aria-labelledby={`lesson-${lesson.n}-title`}>
       <header className="un-lesson-head">
-        <p className="un-lesson-no">{block || fill(ui.lessonWord, { n: lesson.n })}</p>
+        <p className="un-lesson-no">{fill(ui.lessonWord, { n: lesson.n })}</p>
+        {block ? <p className="un-lesson-strand">{block}</p> : null}
         <h3 id={`lesson-${lesson.n}-title`} className="un-lesson-title">{lesson.title}</h3>
         <p className="un-lesson-objective">{lesson.objective}</p>
         <Standards lesson={lesson} ui={ui} codeLinks={codeLinks} />
@@ -238,6 +239,8 @@ export default async function UnitPage({ locale, unit, ui, plan }: { locale: str
   const gradeLabel = LEVEL_KEY[unit.grade] ? tLevel(LEVEL_KEY[unit.grade]) : unit.grade;
   const subjectLabel = ui[`subject_${unit.subject}`] || unit.subject;
   const url = canonicalUrl(localePath(locale, 'units', unit.slug));
+  // a preschool theme (Stage D-4) has no unit check: its teacher keeps an observation checklist during the week
+  const theme = unit.subject === THEME_SUBJECT;
 
   const count = {
     lessons: unit.lessons.length,
@@ -249,7 +252,7 @@ export default async function UnitPage({ locale, unit, ui, plan }: { locale: str
   };
   const inside = [
     fill(ui.insideLessons, { n: count.lessons }),
-    fill(ui.insidePages, { n: count.pages }),
+    fill(theme && ui.insidePagesTheme ? ui.insidePagesTheme : ui.insidePages, { n: count.pages }),
     count.tools ? fill(ui.insideTools, { n: count.tools }) : null,
     count.screen ? fill(ui.insideScreen, { n: count.screen }) : null,
     count.exit ? fill(ui.insideExit, { n: count.exit }) : null,
@@ -258,8 +261,6 @@ export default async function UnitPage({ locale, unit, ui, plan }: { locale: str
 
   const guideHref = teacherFileHref(locale, unitGuideFile(unit));
   const pdfs = unitPdfList(locale, unit);
-  // a preschool theme (Stage D-4) has no unit check: its teacher keeps an observation checklist during the week
-  const theme = unit.subject === THEME_SUBJECT;
   const checklistHref = theme ? teacherFileHref(locale, unitChecklistFile(unit)) : null;
   const unitEnd = theme ? ui.themeUnitEnd : check ? ui.unitEnd : ui.unitEndOwn;
 
@@ -331,7 +332,7 @@ export default async function UnitPage({ locale, unit, ui, plan }: { locale: str
 
           <section className="un-teacher" aria-labelledby="un-teacher-title">
             <h2 id="un-teacher-title">{ui.teacherTitle}</h2>
-            <p>{ui.teacherLead}</p>
+            <p>{theme && ui.themeTeacherLead ? ui.themeTeacherLead : ui.teacherLead}</p>
             <UnitBundleButton
               locale={locale}
               guideHref={guideHref}

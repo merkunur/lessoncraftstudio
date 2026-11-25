@@ -71,7 +71,7 @@ export default async function UnitPlanPage({ locale, plan, ui }: { locale: strin
 
         <section aria-labelledby="un-plan-table-title">
           <h2 id="un-plan-table-title" className="un-lessons-title">{ui.planTableTitle}</h2>
-          <ol className="un-plan">
+          <ol className={theme ? "un-plan un-plan-months" : "un-plan"}>
             {plan.units.map((r) => (
               <li key={r.id} className="un-plan-row">
                 <p className="un-plan-weeks">{weeksOf(r)}</p>

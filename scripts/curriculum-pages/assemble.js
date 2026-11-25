@@ -65,6 +65,10 @@ function assemble(loc) {
   const lessonsOf = new Map();
   for (const u of unitsFile.units) {
     if (u.status !== 'live') continue;
+    // a PRESCHOOL THEME block (Stage D-4) practises the earliest step of a Kindergarten readiness point; it does not
+    // teach the Kindergarten objective (its own page shows that row as "Later grade"), so it is no lesson of a
+    // standards checklist: a Kindergarten line keeps its Kindergarten lessons
+    if (u.subject === 'theme') continue;
     const d = unitDefs.get(u.id);
     for (const l of u.lessons) {
       // (the definition of THIS lesson: by its id where a point carries several lessons)

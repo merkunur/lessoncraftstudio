@@ -2673,7 +2673,7 @@
    "subject": "literacy",
    "title": "Short Vowels and CVC Words",
    "metaTitle": "Kindergarten Lesson Plans: Short Vowels and CVC Words",
-   "metaDescription": "A Kindergarten phonics unit: 5 lessons on short a and i, short o, u, and e, changing one sound to make a new word, look-alike words, and sh and ch.",
+   "metaDescription": "A Kindergarten phonics unit: 7 lessons on short a and i, short o, u, and e, changing one sound to make a new word, look-alike words, and sh and ch.",
    "weeks": 3,
    "lessons": [
     {
@@ -2706,6 +2706,32 @@
       "K-378"
      ],
      "activity": null
+    },
+    {
+     "point": "K:vowels-consonants",
+     "types": [
+      "K-230"
+     ],
+     "standards": [
+      "RF.K.3.b"
+     ],
+     "standardsRel": {
+      "RF.K.3.b": "reviews"
+     }
+    },
+    {
+     "point": "K:read-decodable-text",
+     "types": [
+      "K-628"
+     ],
+     "titles": {
+      "K-628": "A Little Book to Fold and Read"
+     },
+     "prefer": [
+      "readers-k628-tedinbed",
+      "readers-k628-tenredhens",
+      "readers-k628-theredbug"
+     ]
     }
    ]
   },
@@ -3720,9 +3746,21 @@
    "subject": "literacy",
    "title": "Reading to Learn: Informational Texts",
    "metaTitle": "Grade 2 Lesson Plans: Reading to Learn from Informational Texts",
-   "metaDescription": "A Grade 2 reading unit on informational texts: 5 lessons on the main topic, text features, diagrams, steps in order, and comparing two animal fact files.",
+   "metaDescription": "A Grade 2 reading unit on informational texts: 6 lessons on the main topic, text features, diagrams, steps in order, and comparing two animal fact files.",
    "weeks": 3,
    "lessons": [
+    {
+     "point": "2:mystery-animal",
+     "types": [
+      "G2-343"
+     ],
+     "standards": [
+      "L.1.5.b"
+     ],
+     "standardsRel": {
+      "L.1.5.b": "reviews"
+     }
+    },
     {
      "point": "2:main-topic-paragraphs",
      "types": [

@@ -12392,8 +12392,8 @@
    "subject": "literacy",
    "title": "Short Vowels and CVC Words",
    "metaTitle": "Kindergarten Lesson Plans: Short Vowels and CVC Words",
-   "metaDescription": "A Kindergarten phonics unit: 5 lessons on short a and i, short o, u, and e, changing one sound to make a new word, look-alike words, and sh and ch.",
-   "days": 13,
+   "metaDescription": "A Kindergarten phonics unit: 7 lessons on short a and i, short o, u, and e, changing one sound to make a new word, look-alike words, and sh and ch.",
+   "days": 17,
    "weeks": 3,
    "lessons": [
     {
@@ -12600,6 +12600,89 @@
       "mistake": "Children hear /sh/ and /ch/ as the same sound, or say one for the other: \"shair\" for chair, \"chip\" for ship. This is most common in children whose home language has only one of the two sounds, such as Spanish. Others name the picture with a different word (boat for ship) and then cannot find its sound.",
       "words": "Say: \"Two letters, one sound. sh says /sh/, the quiet sound. ch says /ch/, like a sneeze.\" Stretch the first sound: \"shhhh-ip.\" You can hold /sh/; you cannot hold /ch/. Ask: \"Can you hold the sound?\"",
       "watch": "Name every picture together before anyone draws a line, so that all children sort the same words. Have each child say the word before drawing the line. A child who sorts by looking and not by saying will not hear the difference; say the pairs together and feel the mouth: ship, chip; shoe, chew."
+     },
+     "days": 2
+    },
+    {
+     "n": 6,
+     "point": "K:vowels-consonants",
+     "title": "Vowels and Consonants",
+     "objective": "Children sort letters into vowels and consonants and find the vowel in short words they can read.",
+     "standards": [
+      {
+       "rel": "reviews",
+       "framework": "Common Core",
+       "code": "RF.K.3.b",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-230",
+       "title": "Vowels and Consonants",
+       "core": "letter-knowledge-k230"
+      }
+     ],
+     "routine": "Day 1: say the vowels a, e, i, o, u and write them in red on chart paper; all the other letters are consonants. Hold up letter cards one at a time: the class stands for a vowel and stays seated for a consonant. Then write cat, pig and sun on the board; children tap the sounds, find the vowel in the middle of each word and say its short sound. Day 2: sort the first tile together (say it, check the red list, write it in its box), then children finish the page.",
+     "exit": {
+      "slug": "letter-knowledge-k230-2",
+      "title": "Vowels and Consonants"
+     },
+     "maker": {
+      "id": "alphabet",
+      "name": "Alphabet & Letters",
+      "slug": "alphabet-worksheet-maker",
+      "template": "K-230"
+     },
+     "note": {
+      "mistake": "Children forget e or put y with the vowels, or sort by how a letter looks (round letters as vowels). In a word they point to the first letter instead of the vowel in the middle.",
+      "words": "Say: \"A, e, i, o, u are the vowels. Every word we sound out has one.\" \"Is it a vowel? Check our red list.\" For words: \"Tap the sounds: /k/ /a/ /t/. Which sound is in the middle? That is the vowel.\" Children write each letter from the row in the Vowels box or the Consonants box (or cut the tiles apart and glue them); the letters change from copy to copy.",
+      "watch": "Right: every vowel in the Vowels box and all the other letters in the Consonants box. A child who puts w there needs the red list again. If a child says \"sometimes y,\" agree, but y starts yes as a consonant, so here it goes with the consonants. In the words on the board, the child points to the middle letter and says its short sound."
+     },
+     "days": 2
+    },
+    {
+     "n": 7,
+     "point": "K:read-decodable-text",
+     "title": "Read a Decodable Book",
+     "objective": "Children read a little book made only of short-vowel words they can sound out and heart words they have learned, page by page, and draw what each page says.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "RF.K.3",
+       "title": null
+      },
+      {
+       "rel": "ahead",
+       "framework": "Common Core",
+       "code": "RF.1.3.b",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-628",
+       "title": "A Little Book to Fold and Read",
+       "core": "readers-k628-tedinbed",
+       "screen": 1
+      }
+     ],
+     "routine": "Day 1: read the book's heart words (a, the) from the board together. Fold a book step by step while children fold theirs (top half back, then left half back), and read the cover. Partners take turns reading a page, a finger under each word, sounding out any word they don't know right away; you listen in on one pair at a time. Day 2: children reread their book, draw what each page says, and read it to a friend or take it home.",
+     "screen": {
+      "kind": "page",
+      "slug": "readers-k628-theredbug",
+      "title": "A Little Book to Fold and Read",
+      "book": 1
+     },
+     "exit": {
+      "slug": "readers-k628-tenredhens",
+      "title": "A Little Book to Fold and Read"
+     },
+     "note": {
+      "mistake": "Children guess a word from its first letter instead of sounding it all the way through, mix up short e with short a or i (\"bad\" for \"bed\"), or skip the small heart words. After folding, some read the pages out of order.",
+      "words": "Say: \"Point to each word as you read it.\" \"Sound it out, then say it fast: /b/ /e/ /d/, bed.\" \"Does that make sense? Read the sentence again.\" The books of this lesson are Set 5 (short e and s as in is, with the earlier short vowels and heart words like a and the), for example Ted in Bed; each has a cover and three pages to read and draw, numbered in the corners so the order shows after folding.",
+      "watch": "Right: the child reads each sentence aloud with few errors and fixes a word that does not make sense; each drawing shows what its page says (Ted in bed, the mug). Note the words a child had to sound out slowly: those are the ones to practice. The screen version shows the book page by page."
      },
      "days": 2
     }
@@ -17773,12 +17856,47 @@
    "subject": "literacy",
    "title": "Reading to Learn: Informational Texts",
    "metaTitle": "Grade 2 Lesson Plans: Reading to Learn from Informational Texts",
-   "metaDescription": "A Grade 2 reading unit on informational texts: 5 lessons on the main topic, text features, diagrams, steps in order, and comparing two animal fact files.",
-   "days": 13,
+   "metaDescription": "A Grade 2 reading unit on informational texts: 6 lessons on the main topic, text features, diagrams, steps in order, and comparing two animal fact files.",
+   "days": 15,
    "weeks": 3,
    "lessons": [
     {
      "n": 1,
+     "point": "2:mystery-animal",
+     "title": "Clues to a Mystery Animal",
+     "objective": "Children read clues one at a time, ask and answer questions about the details, and use them to find a mystery animal.",
+     "standards": [
+      {
+       "rel": "reviews",
+       "framework": "Common Core",
+       "code": "L.1.5.b",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G2-343",
+       "title": "Who Am I? Mystery Animal",
+       "core": "animal-fact-file-forest-creatures-g2343",
+       "landing": "who-am-i-mystery-animal"
+      }
+     ],
+     "routine": "Day 1: post six animal pictures, think of one, and give one clue at a time (\"I live in water.\" \"I have fins.\"). After each clue, children ask a question back (\"Does it have a shell?\") and the class crosses off animals on the chart until one is left. Then a child leads a round. Day 2: the page; partners read each card aloud, one clue at a time, before they choose.",
+     "maker": {
+      "id": "stories-writing",
+      "name": "Stories & Writing",
+      "slug": "story-and-writing-worksheet-maker",
+      "template": "G2-343"
+     },
+     "note": {
+      "mistake": "Children stop at the first clue that fits (\"I live on land\" fits several animals) and write the first animal it matches. Some read \"I cannot\" as \"I can\" and choose the opposite.",
+      "words": "Say: \"Read one clue. Which animals in the picture bank still fit? Point to them, or cover the others with counters.\" \"Read the next clue. Who is left?\" \"Which clue told you?\" Each card has five clues told by the animal (what kind of animal it is, where it lives, what it eats, its body, whether it can fly or swim); the bank holds six animals, and each of the three cards has one answer.",
+      "watch": "Right: the animal's name on the line and a drawing of it in the box on every card, and the child can point to the clue that ruled out the last other animal. Have a child who reads \"I cannot fly\" as \"I can fly\" reread that clue aloud with a finger under each word."
+     },
+     "days": 2
+    },
+    {
+     "n": 2,
      "point": "2:main-topic-paragraphs",
      "title": "The Main Topic and Each Paragraph",
      "objective": "Children name the main topic of an informational text of three paragraphs and tell what each paragraph is mostly about.",
@@ -17817,7 +17935,7 @@
      "days": 2
     },
     {
-     "n": 2,
+     "n": 3,
      "point": "2:text-features",
      "title": "Text Features: Glossary and Index",
      "objective": "Children name the features of an informational text (title, headings, bold words, captions, glossary, index) and use them to find facts quickly.",
@@ -17857,7 +17975,7 @@
      "days": 2
     },
     {
-     "n": 3,
+     "n": 4,
      "point": "2:diagram-and-text",
      "title": "What the Diagram Shows",
      "objective": "Children read a diagram with labels and arrows together with a text, answer questions from the diagram, and tell what the diagram adds to the text.",
@@ -17897,7 +18015,7 @@
      "days": 2
     },
     {
-     "n": 4,
+     "n": 5,
      "point": "2:steps-in-order",
      "title": "Steps in Order: How It Is Made",
      "objective": "Children describe the steps of a how-it-is-made text in order with the words first, next, then, and finally, and tell why one step has to come before another.",
@@ -17937,7 +18055,7 @@
      "days": 2
     },
     {
-     "n": 5,
+     "n": 6,
      "point": "2:compare-two-animals",
      "title": "Two Animals: Same and Different",
      "objective": "Children compare the facts of two animal fact files, sort them into same and different, and write what they found in sentences that name both animals.",
@@ -37003,11 +37121,14 @@
       "Short o, short u, and short e",
       "Change one sound to make a new word",
       "Which word matches: cat or cot?",
-      "sh and ch"
+      "sh and ch",
+      "Vowels and Consonants",
+      "Read a Decodable Book"
      ],
      "standards": [
       "RF.K.2.d",
       "RF.K.2.e",
+      "RF.K.3",
       "RF.K.3.b",
       "RF.K.3.d"
      ]
@@ -37497,6 +37618,7 @@
      "from": 19,
      "to": 21,
      "lessons": [
+      "Clues to a Mystery Animal",
       "The Main Topic and Each Paragraph",
       "Text Features: Glossary and Index",
       "What the Diagram Shows",

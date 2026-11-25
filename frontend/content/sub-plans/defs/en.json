@@ -2412,8 +2412,8 @@
     {
      "key": "reading",
      "minutes": 15,
-     "point": "K:story-sequencing",
-     "type": "K-379"
+     "point": "K:word-picture-match",
+     "type": "K-225"
     },
     {
      "key": "phonics",
@@ -2474,8 +2474,8 @@
     {
      "key": "reading",
      "minutes": 15,
-     "point": "K:word-picture-match",
-     "type": "K-225"
+     "point": "K:story-sequencing",
+     "type": "K-379"
     },
     {
      "key": "phonics",
@@ -2535,8 +2535,8 @@
     {
      "key": "reading",
      "minutes": 15,
-     "point": "K:story-sequencing",
-     "type": "K-379"
+     "point": "K:word-sentence-tracing",
+     "type": "K-239"
     },
     {
      "key": "phonics",
@@ -2597,8 +2597,8 @@
     {
      "key": "reading",
      "minutes": 15,
-     "point": "K:word-sentence-tracing",
-     "type": "K-239"
+     "point": "K:story-sequencing",
+     "type": "K-379"
     },
     {
      "key": "phonics",

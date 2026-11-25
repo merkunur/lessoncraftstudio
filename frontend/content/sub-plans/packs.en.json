@@ -5387,17 +5387,15 @@
     {
      "key": "reading",
      "minutes": 15,
-     "point": "K:story-sequencing",
-     "type": "K-379",
-     "title": "Story Sequencing: Number the Pictures",
-     "instruction": "Look at what changes in each story, then write the numbers in the boxes to put the pictures in order.",
-     "core": "story-sequencing-k379-2",
-     "hard": "story-sequencing-hard-k379-13",
-     "easy": "story-sequencing-easy-k379-8",
+     "point": "K:word-picture-match",
+     "type": "K-225",
+     "title": "Match Word to Picture",
+     "instruction": "Draw a line from each word to the picture it names.",
+     "core": "picture-vocabulary-k225-4",
      "script": {
-      "say": "\"Each row shows a little story in four pictures, but the pictures are out of order. Look at what changes. Write 1 under what happens first, then 2, 3, and 4.\"",
-      "first": "Do the first story together. Ask a child to say what is happening in each picture. Ask, \"Which one happens first? How do you know?\" Write a 1 in the box under it, then find 2, 3, and 4 together. Have a child tell the whole story in order.",
-      "stuck": "Ask the child to find the picture where the story starts, where nothing has happened yet. Then ask, \"What happens after that?\" Have the child tell the story aloud; if it makes sense, the order is right."
+      "say": "\"Read each word. Then draw a line from the word to its picture.\"",
+      "first": "Read the words on the page aloud and have the class read each one after you. Name the pictures together: cap, fan, bee, hen, hot (the hot sun), jam. Do the first word together and draw the line.",
+      "stuck": "Have the child say the sound of each letter and then say the sounds faster. If that does not work, ask for the first sound only and look for the pictures that begin with it. Read the word for the child if they are still stuck."
      }
     },
     {
@@ -5527,15 +5525,17 @@
     {
      "key": "reading",
      "minutes": 15,
-     "point": "K:word-picture-match",
-     "type": "K-225",
-     "title": "Match Word to Picture",
-     "instruction": "Draw a line from each word to the picture it names.",
-     "core": "picture-vocabulary-k225-4",
+     "point": "K:story-sequencing",
+     "type": "K-379",
+     "title": "Story Sequencing: Number the Pictures",
+     "instruction": "Look at what changes in each story, then write the numbers in the boxes to put the pictures in order.",
+     "core": "story-sequencing-k379-2",
+     "hard": "story-sequencing-hard-k379-13",
+     "easy": "story-sequencing-easy-k379-8",
      "script": {
-      "say": "\"Read each word. Then draw a line from the word to its picture.\"",
-      "first": "Read the words on the page aloud and have the class read each one after you. Name the pictures together: cap, fan, bee, hen, hot (the hot sun), jam. Do the first word together and draw the line.",
-      "stuck": "Have the child say the sound of each letter and then say the sounds faster. If that does not work, ask for the first sound only and look for the pictures that begin with it. Read the word for the child if they are still stuck."
+      "say": "\"Each row shows a little story in four pictures, but the pictures are out of order. Look at what changes. Write 1 under what happens first, then 2, 3, and 4.\"",
+      "first": "Do the first story together. Ask a child to say what is happening in each picture. Ask, \"Which one happens first? How do you know?\" Write a 1 in the box under it, then find 2, 3, and 4 together. Have a child tell the whole story in order.",
+      "stuck": "Ask the child to find the picture where the story starts, where nothing has happened yet. Then ask, \"What happens after that?\" Have the child tell the story aloud; if it makes sense, the order is right."
      }
     },
     {
@@ -5658,17 +5658,17 @@
     {
      "key": "reading",
      "minutes": 15,
-     "point": "K:story-sequencing",
-     "type": "K-379",
-     "title": "Story Sequencing: Number the Pictures",
-     "instruction": "Look at what changes in each story, then write the numbers in the boxes to put the pictures in order.",
-     "core": "story-sequencing-k379-3",
-     "hard": "story-sequencing-hard-k379-14",
-     "easy": "story-sequencing-easy-k379-9",
+     "point": "K:word-sentence-tracing",
+     "type": "K-239",
+     "title": "Sight Words: Read, Trace, Write",
+     "instruction": "Read the word. Trace it. Then write it yourself on the empty line.",
+     "core": "sight-words-k239-3",
+     "hard": "sight-words-hard-k239-63",
+     "easy": "sight-words-easy-k239-29",
      "script": {
-      "say": "\"Each row shows a little story in four pictures, but the pictures are out of order. Look at what changes. Write 1 under what happens first, then 2, 3, and 4.\"",
-      "first": "Do the first story together. Ask a child to say what is happening in each picture. Ask, \"Which one happens first? How do you know?\" Write a 1 in the box under it, then find 2, 3, and 4 together. Have a child tell the whole story in order.",
-      "stuck": "Ask the child to find the picture where the story starts, where nothing has happened yet. Then ask, \"What happens after that?\" Have the child tell the story aloud; if it makes sense, the order is right."
+      "say": "\"These are words we see all the time. Read the word, trace it, and then write it yourself on the empty line.\"",
+      "first": "Read the words on the page aloud and have the class read each one after you. Do the first word together: read it, write it on the board, trace over it with your finger, and write it once more next to it. Tell the children to say the word each time they finish writing it.",
+      "stuck": "Read the word for the child and have the child say it back while pointing to it. For the writing, have the child copy one letter at a time and keep the letters close together."
      }
     },
     {
@@ -5796,17 +5796,17 @@
     {
      "key": "reading",
      "minutes": 15,
-     "point": "K:word-sentence-tracing",
-     "type": "K-239",
-     "title": "Sight Words: Read, Trace, Write",
-     "instruction": "Read the word. Trace it. Then write it yourself on the empty line.",
-     "core": "sight-words-k239-3",
-     "hard": "sight-words-hard-k239-63",
-     "easy": "sight-words-easy-k239-29",
+     "point": "K:story-sequencing",
+     "type": "K-379",
+     "title": "Story Sequencing: Number the Pictures",
+     "instruction": "Look at what changes in each story, then write the numbers in the boxes to put the pictures in order.",
+     "core": "story-sequencing-k379-3",
+     "hard": "story-sequencing-hard-k379-14",
+     "easy": "story-sequencing-easy-k379-9",
      "script": {
-      "say": "\"These are words we see all the time. Read the word, trace it, and then write it yourself on the empty line.\"",
-      "first": "Read the words on the page aloud and have the class read each one after you. Do the first word together: read it, write it on the board, trace over it with your finger, and write it once more next to it. Tell the children to say the word each time they finish writing it.",
-      "stuck": "Read the word for the child and have the child say it back while pointing to it. For the writing, have the child copy one letter at a time and keep the letters close together."
+      "say": "\"Each row shows a little story in four pictures, but the pictures are out of order. Look at what changes. Write 1 under what happens first, then 2, 3, and 4.\"",
+      "first": "Do the first story together. Ask a child to say what is happening in each picture. Ask, \"Which one happens first? How do you know?\" Write a 1 in the box under it, then find 2, 3, and 4 together. Have a child tell the whole story in order.",
+      "stuck": "Ask the child to find the picture where the story starts, where nothing has happened yet. Then ask, \"What happens after that?\" Have the child tell the story aloud; if it makes sense, the order is right."
      }
     },
     {

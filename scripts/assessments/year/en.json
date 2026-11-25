@@ -3633,26 +3633,26 @@
     {
      "unit": "g2-reading-to-learn-informational-texts",
      "lesson": "2:main-topic-paragraphs",
-     "n": 1,
+     "n": 2,
      "title": "The Main Topic and Each Paragraph",
      "type": "G2-519",
      "rank": 1,
      "alts": [
       {
        "lesson": "2:text-features",
-       "n": 2,
+       "n": 3,
        "title": "Text Features: Glossary and Index",
        "type": "G2-520"
       },
       {
        "lesson": "2:diagram-and-text",
-       "n": 3,
+       "n": 4,
        "title": "What the Diagram Shows",
        "type": "G2-521"
       },
       {
        "lesson": "2:steps-in-order",
-       "n": 4,
+       "n": 5,
        "title": "Steps in Order: How It Is Made",
        "type": "G2-522"
       }
@@ -5544,26 +5544,26 @@
     {
      "unit": "g2-reading-to-learn-informational-texts",
      "lesson": "2:main-topic-paragraphs",
-     "n": 1,
+     "n": 2,
      "title": "The Main Topic and Each Paragraph",
      "type": "G2-519",
      "rank": 1,
      "alts": [
       {
        "lesson": "2:text-features",
-       "n": 2,
+       "n": 3,
        "title": "Text Features: Glossary and Index",
        "type": "G2-520"
       },
       {
        "lesson": "2:diagram-and-text",
-       "n": 3,
+       "n": 4,
        "title": "What the Diagram Shows",
        "type": "G2-521"
       },
       {
        "lesson": "2:steps-in-order",
-       "n": 4,
+       "n": 5,
        "title": "Steps in Order: How It Is Made",
        "type": "G2-522"
       }

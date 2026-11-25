@@ -2439,7 +2439,7 @@
      "part": 5,
      "lesson": 6,
      "title": "Odd and even numbers",
-     "type": "G1-370",
+     "type": "G1-369",
      "tasks": 2
     },
     {
@@ -2479,8 +2479,8 @@
        "007058a32bea892b"
       ],
       [
-       "38c32f92aa8b4cef",
-       "e65ab172cce57b9e"
+       "ee86c50b57ef1d0e",
+       "607b4b287620ef12"
       ],
       [
        "12089eafdce93a11"
@@ -2506,8 +2506,8 @@
        null
       ],
       [
-       1,
-       0
+       0,
+       1
       ],
       [
        null
@@ -2590,8 +2590,8 @@
        "b4f5c02b0f3cfe9a"
       ],
       [
-       "31d639803b53952f",
-       "ad273397192e9714"
+       "da2bd9d10f797771",
+       "55450ca6266ef50b"
       ],
       [
        "2f57eedffe811a3e"
@@ -2617,8 +2617,8 @@
        null
       ],
       [
-       1,
-       0
+       0,
+       1
       ],
       [
        null
@@ -3725,41 +3725,34 @@
     },
     {
      "part": 3,
-     "lesson": 4,
-     "title": "No gaps, no overlaps",
-     "type": "G1-574",
-     "tasks": 2
-    },
-    {
-     "part": 4,
      "lesson": 5,
      "title": "Sort into three groups",
      "type": "G1-160",
      "tasks": 2
     },
     {
-     "part": 5,
+     "part": 4,
      "lesson": 6,
      "title": "Sort, count, and read a picture graph",
      "type": "G1-141",
      "tasks": 1
     },
     {
-     "part": 6,
+     "part": 5,
      "lesson": 7,
      "title": "Read and make a bar graph",
      "type": "G1-143",
      "tasks": 1
     },
     {
-     "part": 7,
+     "part": 6,
      "lesson": 8,
      "title": "Patterns: two are missing",
      "type": "G1-155",
      "tasks": 1
     },
     {
-     "part": 8,
+     "part": 7,
      "lesson": 9,
      "title": "Equal shares: fair or not?",
      "type": "G2-232",
@@ -3767,7 +3760,8 @@
     }
    ],
    "notCovered": [
-    2
+    2,
+    4
    ],
    "forms": {
     "A": {
@@ -3778,10 +3772,6 @@
       ],
       [
        "a74c35b3cf68db87"
-      ],
-      [
-       "d93e3b9b384aeb7b",
-       "b5b1e774dec3d3ea"
       ],
       [
        "b08356729109b70f",
@@ -3808,10 +3798,6 @@
        null
       ],
       [
-       4,
-       0
-      ],
-      [
        2,
        0
       ],
@@ -3836,10 +3822,6 @@
        "?"
       ],
       [
-       "choose 3",
-       "choose 1"
-      ],
-      [
        "choose 1",
        "choose 1"
       ],
@@ -3862,10 +3844,6 @@
       ],
       [
        6
-      ],
-      [
-       0,
-       0
       ],
       [
        0,
@@ -3895,10 +3873,6 @@
        "c2f5cef80f01e4a9"
       ],
       [
-       "39637b89431488f0",
-       "d2828223ee35a8be"
-      ],
-      [
        "9142ad9765d3d55c",
        "9f771389c8f7e445"
       ],
@@ -3921,10 +3895,6 @@
       ],
       [
        null
-      ],
-      [
-       8,
-       0
       ],
       [
        1,
@@ -3951,10 +3921,6 @@
        "?"
       ],
       [
-       "choose 3",
-       "choose 1"
-      ],
-      [
        "choose 1",
        "choose 1"
       ],
@@ -3977,10 +3943,6 @@
       ],
       [
        7
-      ],
-      [
-       0,
-       0
       ],
       [
        0,
@@ -8239,7 +8201,9 @@
     }
    ],
    "notCovered": [
-    3
+    3,
+    6,
+    7
    ],
    "forms": {
     "A": {
@@ -12191,35 +12155,36 @@
    "parts": [
     {
      "part": 1,
-     "lesson": 1,
+     "lesson": 2,
      "title": "The Main Topic and Each Paragraph",
      "type": "G2-519",
      "tasks": 1
     },
     {
      "part": 2,
-     "lesson": 2,
+     "lesson": 3,
      "title": "Text Features: Glossary and Index",
      "type": "G2-520",
      "tasks": 1
     },
     {
      "part": 3,
-     "lesson": 3,
+     "lesson": 4,
      "title": "What the Diagram Shows",
      "type": "G2-521",
      "tasks": 1
     },
     {
      "part": 4,
-     "lesson": 4,
+     "lesson": 5,
      "title": "Steps in Order: How It Is Made",
      "type": "G2-522",
      "tasks": 1
     }
    ],
    "notCovered": [
-    5
+    1,
+    6
    ],
    "forms": {
     "A": {

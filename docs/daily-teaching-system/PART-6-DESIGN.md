@@ -144,4 +144,4 @@ The breadcrumb's home link on every page pointed to `/<locale>/`, which answers 
 
 ### Still to build in Part 6
 
-Nothing until more languages have units: a checklist needs lessons behind it (French, Spanish, Portuguese and Italian after their units, PLAN §5 rule 12). A Swedish schools page when a Swedish school asks.
+Nothing until more languages have units: a checklist needs lessons behind it (French, Spanish, Portuguese and Italian after their units). A Swedish schools page when a Swedish school asks.

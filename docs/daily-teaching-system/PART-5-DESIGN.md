@@ -76,13 +76,9 @@ One reviewer in two roles (an American K–1 teacher; a guest teacher who has on
 - Printed wording on the worksheets that is British or not a US school term ("tick", "break", "cupboard", "work out", the titles "Word Classes", "Word Fields", "Number Walls") is explained in the scripts and recorded for the content-fix session; three sentences of the verb page G2-335 take two right answers (the script says so).
 - The literacy catalogue above Grade 2 is thin: Grade 3 word work and writing use Grade 2 types at their harder level.
 
-## 3. Measurement (rule 12 of the plan)
+## 3. The next markets
 
-Sub plans are live in English. Rule 12 allows two more markets before the read; a pack needs the units of its language for the review rule, so the only markets that can follow now are German (5.3: single lessons by grade and subject, the form the harvest found there) and Swedish (no indexable pack pages unless a native reviewer finds the search words). French full days wait for the French units. The Search Console read is on **2026-12-09** (the same read as the units):
-
-- **Pages:** `/en/sub-plans` and the 24 pack pages (sitemap shard 3).
-- **Read:** impressions, clicks and average position per page; the queries that show a pack page (expected heads: "emergency sub plans" with a grade, "sub plans" with a grade, "no prep sub plans"); beside them the 28-day numbers of the baseline (`docs/SEO/daily-system-baseline/`), to see that no old page lost what a pack page gained.
-- **Decides:** which form each market gets in 5.3 (PLAN §12, Part 0.3, point 3), and whether a third day per time of year is worth writing. A pack page with impressions and no clicks gets a new title before anything else is built.
+Sub plans are live in English. A pack needs the units of its language for the review rule, so the markets that can follow are German (5.3: single lessons by grade and subject, the form the harvest found there) and Swedish (no indexable pack pages unless a native reviewer finds the search words). French full days wait for the French units. Every language is indexable as soon as it is ready (operator 2026-11-25: no staged release).
 
 ## 4. Part 5.3 (2026-11-11): German, single substitute lessons
 

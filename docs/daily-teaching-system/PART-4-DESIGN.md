@@ -85,7 +85,7 @@ Not changed, and why: an activity that practices the next lesson's skill stays w
 - **Unit pages** gained the hub in the breadcrumb, "Unit n of N in the <plan>", and links to the unit before and after.
 - **Sitemap shard 3** lists the hub, the live units and the live plans of a language, read from the same file the routes render (a pilot is never listed). hreflang as on the routes: only between live siblings.
 - **"In a lesson plan" blocks**: on a worksheet landing (the static renderer `scripts/seo-landing/render-landing-html.js`; inline styles, so a landing in no live unit is byte-identical and every `<head>` is untouched: measured on one landing of each kind) and on an activity page. English: 197 landings and 102 activities link to their unit and lesson. Level Set hub pages and deck pages do not carry the block (a deck page would need a republish of every deck).
-- **Decided here (standing delegation):** the 36 English units went live after both reviews were applied; the site navigation gets no "Lesson plans" entry yet (it is baked into 200,000 deck pages; the entry comes when sub packs and tests give that menu more than one item, Part 5 or 7); the Search Console read for units, plans and hub is due **2026-12-09** (four weeks), together with the pages that gained a block.
+- **Decided here (standing delegation):** the 36 English units went live after both reviews were applied; the site navigation gets no "Lesson plans" entry yet (it is baked into 200,000 deck pages; the entry comes when sub packs and tests give that menu more than one item, Part 5 or 7).
 
 ## 7. The review of the hub, the year plans and the new strings (rule #2)
 

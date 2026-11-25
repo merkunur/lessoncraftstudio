@@ -2147,6 +2147,16 @@
    ],
    "by": "code"
   },
+  "K:act-out-verbs": {
+   "rows": [
+    {
+     "id": "L.K.5.d",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
   "K:alphabet-order": {
    "rows": [
     {
@@ -2900,6 +2910,16 @@
    "rows": [
     {
      "id": "RL.1.6",
+     "rel": "teaches",
+     "grade": "1"
+    }
+   ],
+   "by": "code"
+  },
+  "1:book-talk": {
+   "rows": [
+    {
+     "id": "SL.1.1.a",
      "rel": "teaches",
      "grade": "1"
     }

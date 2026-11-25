@@ -6286,6 +6286,16 @@
    "none": "not yet read against this curriculum",
    "why": "The point was added on 2026-11-25 for the new Grade 3 social studies pages of the English year (Stage D-5 batch S3); no unit teaches it yet. Read it against the wording when the Grade 3 social studies units are placed and this language gets its pages.",
    "review": "batch-s3 2026-11-25"
+  },
+  "K:act-out-verbs": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-25 for an English lesson that waited for its page (acting out action words with close meanings; the rules of a book talk); read it against the wording when this language's units are designed.",
+   "review": "year-design 2026-11-25"
+  },
+  "1:book-talk": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-25 for an English lesson that waited for its page (acting out action words with close meanings; the rules of a book talk); read it against the wording when this language's units are designed.",
+   "review": "year-design 2026-11-25"
   }
  }
 }

@@ -9617,5 +9617,27 @@
     "3": {
       "en": "Write our question and choices with reasons for and against. Write the question you asked, the choice the class reached and why you can accept it. Then write whether your mind changed, and why."
     }
+  },
+  "K-728": {
+    "1": {
+      "en": "Listen to the two words and act them out. Then circle the word that fits the picture."
+    },
+    "2": {
+      "en": "Listen to the two words and act them out. Then circle the word that fits the picture."
+    },
+    "3": {
+      "en": "Listen to the three words and act them out. Then circle the word that is most like the picture."
+    }
+  },
+  "G1-678": {
+    "1": {
+      "en": "Read how a book talk sounds. Check our question. After the talk, check what you did."
+    },
+    "2": {
+      "en": "Read how a book talk sounds. Circle the reply that goes with what was just said. After the talk, check what you did."
+    },
+    "3": {
+      "en": "Check our question. After the talk, write what the person before you said and how you added on."
+    }
   }
 }

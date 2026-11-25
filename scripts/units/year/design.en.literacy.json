@@ -189,7 +189,8 @@
             "days": 2,
             "tool": "Name Sticks",
             "source": "teacher-led",
-            "page": "Routine: after the teacher reads a story aloud, groups of four sit knee to knee. The teacher draws a name stick and asks one question (Which character changed?). The first child answers; each next child starts with I agree with ... because or I want to add .... Listen for: turn taking, eyes on the speaker, and answers that link to the one before."
+            "page": "Routine: after the teacher reads a story aloud, groups of four sit knee to knee. The teacher draws a name stick and asks one question (Which character changed?). The first child answers; each next child starts with I agree with ... because or I want to add .... Listen for: turn taking, eyes on the speaker, and answers that link to the one before.",
+            "placed": "1:book-talk"
           }
         ]
       },
@@ -2167,7 +2168,8 @@
             "days": 2,
             "tool": "Picture Word Wall",
             "source": "teacher-led",
-            "page": "Routine: the teacher shows a picture card and says one verb (walk, march, tiptoe, stomp); the class acts it out in place. Then two children act two verbs side by side and the class tells the difference (quiet or loud, slow or fast). Second day: toss, throw, fling and nibble, munch, gobble. Listen for: children choosing the exact verb when they describe a classmate's action."
+            "page": "Routine: the teacher shows a picture card and says one verb (walk, march, tiptoe, stomp); the class acts it out in place. Then two children act two verbs side by side and the class tells the difference (quiet or loud, slow or fast). Second day: toss, throw, fling and nibble, munch, gobble. Listen for: children choosing the exact verb when they describe a classmate's action.",
+            "placed": "K:act-out-verbs"
           }
         ]
       },

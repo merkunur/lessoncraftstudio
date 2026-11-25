@@ -4257,8 +4257,8 @@
     {
      "key": "phonics",
      "minutes": 20,
-     "point": "1:opposites",
-     "type": "G1-307"
+     "point": "1:phoneme-boxes",
+     "type": "G1-312"
     },
     {
      "key": "writing",
@@ -4564,8 +4564,8 @@
     {
      "key": "phonics",
      "minutes": 20,
-     "point": "1:phoneme-boxes",
-     "type": "G1-312"
+     "point": "1:opposites",
+     "type": "G1-307"
     },
     {
      "key": "writing",

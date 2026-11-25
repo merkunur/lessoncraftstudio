@@ -2383,6 +2383,20 @@
    "strand": "Social Studies",
    "code": "D2.Civ.9.3-5",
    "skill": "Deliberate on a class question: list reasons for and against each choice, listen to every side and reach a decision most can accept"
+  },
+  {
+   "tp": "K:act-out-verbs",
+   "grade": "K",
+   "strand": "Language",
+   "code": "L.K.5.d",
+   "skill": "Act out action words with close meanings (walk, march, tiptoe, stomp; nibble, gobble) and tell how they differ: quiet or loud, slow or fast"
+  },
+  {
+   "tp": "1:book-talk",
+   "grade": "1",
+   "strand": "Speaking and Listening",
+   "code": "SL.1.1.a",
+   "skill": "Take part in a small-group book talk by its rules: look at and listen to the speaker, talk one at a time, and add on to what was just said"
   }
  ]
 }

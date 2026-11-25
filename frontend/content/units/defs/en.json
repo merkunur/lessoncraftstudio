@@ -2743,7 +2743,7 @@
    "subject": "literacy",
    "title": "Sorting, Opposites, and Story Order",
    "metaTitle": "Kindergarten Reading Lesson Plans: Sorting, Opposites, and Story Order",
-   "metaDescription": "A three-week Kindergarten unit: 5 lessons on sorting pictures into groups, which one does not belong, opposites, words with two meanings, and putting a story in order.",
+   "metaDescription": "A three-week Kindergarten unit: 6 lessons on sorting pictures into groups, which one does not belong, opposites, words with two meanings, and putting a story in order.",
    "weeks": 3,
    "lessons": [
     {
@@ -2777,6 +2777,12 @@
      "types": [
       "K-379",
       "K-381"
+     ]
+    },
+    {
+     "point": "K:act-out-verbs",
+     "types": [
+      "K-728"
      ]
     }
    ]
@@ -3106,7 +3112,7 @@
    "subject": "literacy",
    "title": "Reading Stories: Characters and Lessons",
    "metaTitle": "Grade 1 Lesson Plans: Stories, Characters, and Lessons",
-   "metaDescription": "A Grade 1 reading unit on short stories: 5 lessons on key details, characters and setting, retelling and the lesson, feeling words, and who tells the story.",
+   "metaDescription": "A Grade 1 reading unit on short stories: 6 lessons on key details, characters and setting, retelling and the lesson, feeling words, and who tells the story.",
    "weeks": 3,
    "lessons": [
     {
@@ -3137,6 +3143,12 @@
      "point": "1:who-tells-the-story",
      "types": [
       "G1-583"
+     ]
+    },
+    {
+     "point": "1:book-talk",
+     "types": [
+      "G1-678"
      ]
     }
    ]

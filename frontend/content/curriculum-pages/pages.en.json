@@ -2423,10 +2423,10 @@
    "metaDescription": "Kindergarten ELA standards checklist: the Common Core reading, writing, and language codes, the lessons and worksheets that teach them, and the codes we do not cover yet.",
    "counts": {
     "objectives": 65,
-    "taught": 43,
+    "taught": 44,
     "near": 0,
-    "open": 22,
-    "lessons": 58
+    "open": 21,
+    "lessons": 59
    },
    "groups": [
     {
@@ -3230,12 +3230,25 @@
          "title": "Write the opposite"
         }
        ]
+      },
+      {
+       "code": "L.K.5.d",
+       "state": "taught",
+       "text": "Children act out action words with close meanings and tell how one action is different from another: quiet or loud, slow or fast.",
+       "lessons": [
+        {
+         "unit": "sorting-opposites-and-story-order-kindergarten-unit",
+         "unitTitle": "Sorting, Opposites, and Story Order",
+         "unitGrade": "K",
+         "n": 6,
+         "title": "Walk, March, Tiptoe: Act It Out"
+        }
+       ]
       }
      ],
      "open": [
       "L.K.4.b",
       "L.K.5.c",
-      "L.K.5.d",
       "L.K.6"
      ]
     }
@@ -3259,10 +3272,10 @@
    "metaDescription": "First grade ELA standards checklist: the Common Core reading, writing, and language codes, the lessons and worksheets that teach them, and the codes we do not cover yet.",
    "counts": {
     "objectives": 73,
-    "taught": 42,
+    "taught": 43,
     "near": 1,
-    "open": 30,
-    "lessons": 56
+    "open": 29,
+    "lessons": 57
    },
    "groups": [
     {
@@ -3772,9 +3785,23 @@
     },
     {
      "title": "Speaking and Listening",
-     "items": [],
+     "items": [
+      {
+       "code": "SL.1.1.a",
+       "state": "taught",
+       "text": "Children take turns in a small-group book talk, listen to the speaker, and add on to what the last speaker said about the story.",
+       "lessons": [
+        {
+         "unit": "reading-stories-characters-and-lessons-grade-1-unit",
+         "unitTitle": "Reading Stories: Characters and Lessons",
+         "unitGrade": "1",
+         "n": 6,
+         "title": "Book Talk: Listen, Then Add On"
+        }
+       ]
+      }
+     ],
      "open": [
-      "SL.1.1.a",
       "SL.1.1.b",
       "SL.1.1.c",
       "SL.1.2",
@@ -6875,15 +6902,43 @@
    "metaDescription": "First grade ELAR TEKS checklist for Texas: the reading and language arts expectations, the lessons and worksheets that teach them, and the ones we do not cover yet.",
    "counts": {
     "objectives": 84,
-    "taught": 41,
+    "taught": 43,
     "near": 6,
-    "open": 37,
-    "lessons": 48
+    "open": 35,
+    "lessons": 49
    },
    "groups": [
     {
      "title": "Knowledge and skills (1)",
      "items": [
+      {
+       "code": "1.1.C",
+       "state": "taught",
+       "text": "Children take turns in a small-group book talk, listen to the speaker, and add on to what the last speaker said about the story.",
+       "lessons": [
+        {
+         "unit": "reading-stories-characters-and-lessons-grade-1-unit",
+         "unitTitle": "Reading Stories: Characters and Lessons",
+         "unitGrade": "1",
+         "n": 6,
+         "title": "Book Talk: Listen, Then Add On"
+        }
+       ]
+      },
+      {
+       "code": "1.1.D",
+       "state": "taught",
+       "text": "Children take turns in a small-group book talk, listen to the speaker, and add on to what the last speaker said about the story.",
+       "lessons": [
+        {
+         "unit": "reading-stories-characters-and-lessons-grade-1-unit",
+         "unitTitle": "Reading Stories: Characters and Lessons",
+         "unitGrade": "1",
+         "n": 6,
+         "title": "Book Talk: Listen, Then Add On"
+        }
+       ]
+      },
       {
        "code": "1.1.E",
        "state": "near",
@@ -6902,9 +6957,7 @@
      ],
      "open": [
       "1.1.A",
-      "1.1.B",
-      "1.1.C",
-      "1.1.D"
+      "1.1.B"
      ]
     },
     {

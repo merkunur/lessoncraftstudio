@@ -9580,17 +9580,15 @@
     {
      "key": "phonics",
      "minutes": 20,
-     "point": "1:opposites",
-     "type": "G1-307",
-     "title": "Opposites: Write the Opposite Word",
-     "instruction": "Read the word on each card. Find its opposite in the word bank and write it on the line.",
-     "core": "opposites-g1307",
-     "hard": "opposites-hard-g1307-12",
-     "easy": "opposites-easy-g1307-7",
+     "point": "1:phoneme-boxes",
+     "type": "G1-312",
+     "title": "Sound Strip: How Many Sounds?",
+     "instruction": "Say the word slowly. Write one sound in each box, starting from the left. Leave the boxes you do not need empty.",
+     "core": "sound-boxes-camping-g1312-5",
      "script": {
-      "say": "\"Read the word on each card. Find its opposite in the word bank and write it on the line.\"",
-      "first": "Read the words in the bank aloud. Read the first card together and ask, \"What is the opposite of day?\" Find night in the bank and write it on the line.",
-      "stuck": "Act the word out for the child, or ask, \"What is the other end of this word?\""
+      "say": "\"Say the word for each picture slowly, like a turtle. Write one sound in each box, starting on the left. If the word has fewer sounds than boxes, leave the last boxes empty.\"",
+      "first": "Name the pictures together: fish, fox, hat, vest, bear, raccoon. Do \"hat\" on the board: say h-a-t, one finger for each sound, and write one sound in each box. Leave the boxes you do not need empty.",
+      "stuck": "Have the child say the word slowly and push a finger forward for each sound. Two letters that make one sound, such as sh, go in one box together. A child who fills every box, whether the word needs them all or not, is spelling letter by letter and not listening for sounds; say the word together again and tap one box for each sound."
      }
     },
     {
@@ -10287,15 +10285,17 @@
     {
      "key": "phonics",
      "minutes": 20,
-     "point": "1:phoneme-boxes",
-     "type": "G1-312",
-     "title": "Sound Strip: How Many Sounds?",
-     "instruction": "Say the word slowly. Write one sound in each box, starting from the left. Leave the boxes you do not need empty.",
-     "core": "sound-boxes-camping-g1312-5",
+     "point": "1:opposites",
+     "type": "G1-307",
+     "title": "Opposites: Write the Opposite Word",
+     "instruction": "Read the word on each card. Find its opposite in the word bank and write it on the line.",
+     "core": "opposites-g1307",
+     "hard": "opposites-hard-g1307-12",
+     "easy": "opposites-easy-g1307-7",
      "script": {
-      "say": "\"Say the word for each picture slowly, like a turtle. Write one sound in each box, starting on the left. If the word has fewer sounds than boxes, leave the last boxes empty.\"",
-      "first": "Name the pictures together: fish, fox, hat, vest, bear, raccoon. Do \"hat\" on the board: say h-a-t, one finger for each sound, and write one sound in each box. Leave the boxes you do not need empty.",
-      "stuck": "Have the child say the word slowly and push a finger forward for each sound. Two letters that make one sound, such as sh, go in one box together. A child who fills every box, whether the word needs them all or not, is spelling letter by letter and not listening for sounds; say the word together again and tap one box for each sound."
+      "say": "\"Read the word on each card. Find its opposite in the word bank and write it on the line.\"",
+      "first": "Read the words in the bank aloud. Read the first card together and ask, \"What is the opposite of day?\" Find night in the bank and write it on the line.",
+      "stuck": "Act the word out for the child, or ask, \"What is the other end of this word?\""
      }
     },
     {

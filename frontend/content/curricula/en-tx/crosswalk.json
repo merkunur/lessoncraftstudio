@@ -2496,6 +2496,16 @@
    ],
    "by": "authored"
   },
+  "K:act-out-verbs": {
+   "rows": [
+    {
+     "id": "ELAR.K.3.C",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "authored"
+  },
   "K:alphabet-order": {
    "rows": [
     {
@@ -3426,6 +3436,21 @@
     {
      "id": "ELAR.1.10.E",
      "rel": "prepares",
+     "grade": "1"
+    }
+   ],
+   "by": "authored"
+  },
+  "1:book-talk": {
+   "rows": [
+    {
+     "id": "ELAR.1.1.D",
+     "rel": "teaches",
+     "grade": "1"
+    },
+    {
+     "id": "ELAR.1.1.C",
+     "rel": "teaches",
      "grade": "1"
     }
    ],

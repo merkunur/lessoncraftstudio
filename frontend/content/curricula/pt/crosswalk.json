@@ -2493,6 +2493,10 @@
    "none": "not yet read against this curriculum",
    "by": "authored"
   },
+  "K:act-out-verbs": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "K:alphabet-order": {
    "rows": [
     {
@@ -3048,6 +3052,10 @@
    "by": "authored"
   },
   "1:who-tells-the-story": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:book-talk": {
    "none": "not yet read against this curriculum",
    "by": "authored"
   },

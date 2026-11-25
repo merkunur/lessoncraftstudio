@@ -8387,7 +8387,8 @@
    ],
    "notCovered": [
     2,
-    4
+    4,
+    6
    ],
    "forms": {
     "A": {
@@ -9886,7 +9887,9 @@
      "tasks": 1
     }
    ],
-   "notCovered": [],
+   "notCovered": [
+    6
+   ],
    "forms": {
     "A": {
      "pages": 3,

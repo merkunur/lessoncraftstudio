@@ -12696,8 +12696,8 @@
    "subject": "literacy",
    "title": "Sorting, Opposites, and Story Order",
    "metaTitle": "Kindergarten Reading Lesson Plans: Sorting, Opposites, and Story Order",
-   "metaDescription": "A three-week Kindergarten unit: 5 lessons on sorting pictures into groups, which one does not belong, opposites, words with two meanings, and putting a story in order.",
-   "days": 13,
+   "metaDescription": "A three-week Kindergarten unit: 6 lessons on sorting pictures into groups, which one does not belong, opposites, words with two meanings, and putting a story in order.",
+   "days": 15,
    "weeks": 3,
    "lessons": [
     {
@@ -12939,6 +12939,40 @@
       "mistake": "Children number the pictures from left to right as they are printed, without looking at what happens in them. Or they find the first picture and guess the other two.",
       "words": "Ask: \"What is different in this picture? What happened before that?\" Tell the story with the three words: \"FIRST the seed is in the ground. NEXT a leaf comes up. LAST there is a flower.\" Have the child tell it back the same way.",
       "watch": "Have each child tell the story aloud from the finished page. If the telling makes sense, the order is right; a child who cannot tell it has numbered boxes, not ordered a story."
+     },
+     "days": 2
+    },
+    {
+     "n": 6,
+     "point": "K:act-out-verbs",
+     "title": "Walk, March, Tiptoe: Act It Out",
+     "objective": "Children act out action words with close meanings and tell how one action is different from another: quiet or loud, slow or fast.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "L.K.5.d",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "K-728",
+       "title": "Walk, March, Tiptoe: Act It Out",
+       "core": "synonyms-k728",
+       "easy": "synonyms-easy-k728-5",
+       "hard": "synonyms-hard-k728-9"
+      }
+     ],
+     "routine": "Day 1: say one moving word at a time (walk, march, tiptoe, sneak, stomp, crawl, creep, run, dash) and have the class act it out in place. Then two children act out two words side by side, and the class tells the difference: \"Which one is quiet? Which one is fast?\" Day 2: the same with eating words (nibble, eat, munch, gobble), drinking words (sip, drink, slurp, gulp), talking words (whisper, talk, shout), and tap, knock, bang. Then the page: read each row aloud, act out each word, and circle.",
+     "exit": {
+      "slug": "synonyms-k728-2",
+      "title": "Walk, March, Tiptoe: Act It Out"
+     },
+     "note": {
+      "mistake": "Children act every word the same way, or say two words mean the same thing (\"march is just walking\"). On the page, some circle the word they like best instead of the one that fits the picture.",
+      "words": "Say: \"Show me tiptoe. Now show me stomp. Which one is quiet like the mouse? Which one is loud like the drum?\" \"How is march different from walk? Lift your knees and swing your arms.\" Each row shows a mouse (quiet), a drum (loud), a snail (slow), or a rabbit (fast); read the words aloud and point to each one as you say it. On the harder page each row has three words: the one at the end of the scale fits the picture (the quietest, loudest, slowest, or fastest), wherever it is printed. The middle word (walk, talk, eat, drink, knock) is never the answer.",
+      "watch": "Right: the child acts out each word so a classmate can tell them apart, and circles the word that fits the picture. Listen for children who name an action exactly (\"You are stomping!\") when they describe a classmate. In the drawing box, the child draws one of the actions so you can see how it moves."
      },
      "days": 2
     }
@@ -14589,8 +14623,8 @@
    "subject": "literacy",
    "title": "Reading Stories: Characters and Lessons",
    "metaTitle": "Grade 1 Lesson Plans: Stories, Characters, and Lessons",
-   "metaDescription": "A Grade 1 reading unit on short stories: 5 lessons on key details, characters and setting, retelling and the lesson, feeling words, and who tells the story.",
-   "days": 13,
+   "metaDescription": "A Grade 1 reading unit on short stories: 6 lessons on key details, characters and setting, retelling and the lesson, feeling words, and who tells the story.",
+   "days": 15,
    "weeks": 3,
    "lessons": [
     {
@@ -14784,6 +14818,40 @@
       "mistake": "Children think the character named in a sentence is the one who says it: \"Now Finn was glad\" is told by the narrator, not said by Finn. Some skip the quotation marks, or think the words \"said Fay\" are spoken by Fay.",
       "words": "Say: \"The narrator tells the story. The characters talk. Quotation marks show the words a character says out loud.\" Read one story as a play: one child plays each character and reads only the words inside the quotation marks, and you read the rest as the narrator. Then ask about single sentences: \"Who says this? How do you know?\" On Level 1 children circle the narrator or a character for six sentences. On Level 2 they write a letter in a box: N for the narrator or the first letter of the character's name. On Level 3 they also write one thing a character could say next. On screen, Lumen's Lighthouse Windows asks who is telling what was seen.",
       "watch": "Words inside quotation marks belong to a character, and the words \"said Fay\" belong to the narrator. On the page the spoken sentences are printed without \"said ...\", so each has one right answer. On Level 3 accept any words that fit the character and the end of the story; quotation marks around them are a bonus in Grade 1."
+     },
+     "days": 2
+    },
+    {
+     "n": 6,
+     "point": "1:book-talk",
+     "title": "Book Talk: Listen, Then Add On",
+     "objective": "Children take turns in a small-group book talk, listen to the speaker, and add on to what the last speaker said about the story.",
+     "standards": [
+      {
+       "rel": "teaches",
+       "framework": "Common Core",
+       "code": "SL.1.1.a",
+       "title": null
+      }
+     ],
+     "paper": [
+      {
+       "type": "G1-678",
+       "title": "Book Talk: Listen, Then Add On",
+       "core": "reading-comprehension-g1678",
+       "easy": "reading-comprehension-easy-g1678-5",
+       "hard": "reading-comprehension-hard-g1678-9"
+      }
+     ],
+     "routine": "Day 1 (use the easier or core page: they have the model talk): after you read a story aloud, groups of four sit knee to knee. Read the rules and the two talk stems together, then have three children read the model talk aloud. Draw a name stick and ask one question (Which character changed?). The first child answers; each next child starts with \"I agree with ... because\" or \"I want to add ...\". Go around the group twice, so the first child also adds on. Day 2: a new story and question; after the talk, children check what they did.",
+     "exit": {
+      "slug": "reading-comprehension-g1678-2",
+      "title": "Book Talk: Listen, Then Add On"
+     },
+     "note": {
+      "mistake": "Children wait for their turn and then say their own idea with no link to what was just said, or they repeat the last speaker word for word. Some talk while another child is talking.",
+      "words": "Say: \"Look at the person talking.\" \"Start with a talk stem: I agree with Ava because ... I want to add ...\" \"What did Leo just say? What can you add to it?\" The easier and harder pages have the class question to check. On the core page, the child circles the reply that goes with what was just said (it gives a reason or a detail from the story); the other two are about the child's own life or about another tale. The harder page is the child's record of who talked before them, what that child said, and how they added on.",
+      "watch": "Right: the child links to the last speaker (\"I agree with Ava because ...\" or \"I want to add ...\") and adds a reason or a detail from the story. Keep track of turns: every child talks at least twice. The check marks are the child's own, and nothing on the record is right or wrong."
      },
      "days": 2
     }
@@ -37145,12 +37213,14 @@
       "Which one does not belong?",
       "Opposites",
       "Words with two meanings",
-      "First, next, last"
+      "First, next, last",
+      "Walk, March, Tiptoe: Act It Out"
      ],
      "standards": [
       "L.K.4.a",
       "L.K.5.a",
-      "L.K.5.b"
+      "L.K.5.b",
+      "L.K.5.d"
      ]
     },
     {
@@ -37329,14 +37399,16 @@
       "Characters, Setting, and Big Events",
       "Retell the Story and Tell Its Lesson",
       "Words That Show Feelings and Senses",
-      "Who Is Telling the Story?"
+      "Who Is Telling the Story?",
+      "Book Talk: Listen, Then Add On"
      ],
      "standards": [
       "RL.1.1",
       "RL.1.2",
       "RL.1.3",
       "RL.1.4",
-      "RL.1.6"
+      "RL.1.6",
+      "SL.1.1.a"
      ]
     },
     {

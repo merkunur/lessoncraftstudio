@@ -44,5 +44,26 @@ module.exports = {
         watch: 'Right: the animal\'s name on the line and a drawing of it in the box on every card, and the child can point to the clue that ruled out the last other animal. Have a child who reads "I cannot fly" as "I can fly" reread that clue aloud with a finger under each word.',
       },
     },
+    // the two rows that waited for a page got one on 2026-11-25 (operator: "fix both of them"): K-728 and G1-678 (types/_shared/talk-verbs.js)
+    'K:act-out-verbs': {
+      title: 'Walk, March, Tiptoe: Act It Out',
+      objective: 'Children act out action words with close meanings and tell how one action is different from another: quiet or loud, slow or fast.',
+      routine: 'Day 1: say one moving word at a time (walk, march, tiptoe, sneak, stomp, crawl, creep, run, dash) and have the class act it out in place. Then two children act out two words side by side, and the class tells the difference: "Which one is quiet? Which one is fast?" Day 2: the same with eating words (nibble, eat, munch, gobble), drinking words (sip, drink, slurp, gulp), talking words (whisper, talk, shout), and tap, knock, bang. Then the page: read each row aloud, act out each word, and circle.',
+      note: {
+        mistake: 'Children act every word the same way, or say two words mean the same thing ("march is just walking"). On the page, some circle the word they like best instead of the one that fits the picture.',
+        words: 'Say: "Show me tiptoe. Now show me stomp. Which one is quiet like the mouse? Which one is loud like the drum?" "How is march different from walk? Lift your knees and swing your arms." Each row shows a mouse (quiet), a drum (loud), a snail (slow), or a rabbit (fast); read the words aloud and point to each one as you say it. On the harder page each row has three words: the one at the end of the scale fits the picture (the quietest, loudest, slowest, or fastest), wherever it is printed. The middle word (walk, talk, eat, drink, knock) is never the answer.',
+        watch: 'Right: the child acts out each word so a classmate can tell them apart, and circles the word that fits the picture. Listen for children who name an action exactly ("You are stomping!") when they describe a classmate. In the drawing box, the child draws one of the actions so you can see how it moves.',
+      },
+    },
+    '1:book-talk': {
+      title: 'Book Talk: Listen, Then Add On',
+      objective: 'Children take turns in a small-group book talk, listen to the speaker, and add on to what the last speaker said about the story.',
+      routine: 'Day 1 (use the easier or core page: they have the model talk): after you read a story aloud, groups of four sit knee to knee. Read the rules and the two talk stems together, then have three children read the model talk aloud. Draw a name stick and ask one question (Which character changed?). The first child answers; each next child starts with "I agree with ... because" or "I want to add ...". Go around the group twice, so the first child also adds on. Day 2: a new story and question; after the talk, children check what they did.',
+      note: {
+        mistake: 'Children wait for their turn and then say their own idea with no link to what was just said, or they repeat the last speaker word for word. Some talk while another child is talking.',
+        words: 'Say: "Look at the person talking." "Start with a talk stem: I agree with Ava because ... I want to add ..." "What did Leo just say? What can you add to it?" The easier and harder pages have the class question to check. On the core page, the child circles the reply that goes with what was just said (it gives a reason or a detail from the story); the other two are about the child\'s own life or about another tale. The harder page is the child\'s record of who talked before them, what that child said, and how they added on.',
+        watch: 'Right: the child links to the last speaker ("I agree with Ava because ..." or "I want to add ...") and adds a reason or a detail from the story. Keep track of turns: every child talks at least twice. The check marks are the child\'s own, and nothing on the record is right or wrong.',
+      },
+    },
   },
 };

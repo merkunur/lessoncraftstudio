@@ -1570,10 +1570,6 @@
    "pictures": [],
    "words": []
   },
-  "family-g1385-2": {
-   "pictures": [],
-   "words": []
-  },
   "family-g1386": {
    "pictures": [],
    "words": []
@@ -1607,11 +1603,7 @@
    "pictures": [],
    "words": []
   },
-  "family-g2362-4": {
-   "pictures": [],
-   "words": []
-  },
-  "family-g2362-5": {
+  "family-g2625": {
    "pictures": [],
    "words": []
   },
@@ -2110,10 +2102,6 @@
    "pictures": [],
    "words": []
   },
-  "grid-coordinates-g2279-4": {
-   "pictures": [],
-   "words": []
-  },
   "grid-coordinates-g2302": {
    "pictures": [],
    "words": []
@@ -2135,6 +2123,10 @@
    "words": []
   },
   "grid-coordinates-g2308": {
+   "pictures": [],
+   "words": []
+  },
+  "grid-coordinates-g2308-2": {
    "pictures": [],
    "words": []
   },
@@ -2359,6 +2351,36 @@
    ],
    "words": []
   },
+  "maps-forest-creatures-g1528-5": {
+   "pictures": [
+    "ant",
+    "bat",
+    "beaver",
+    "bee",
+    "cardinal",
+    "caterpillar",
+    "eagle",
+    "earthworm",
+    "fox",
+    "grasshopper",
+    "hawk",
+    "hedgehog",
+    "ladybug",
+    "lizard",
+    "owl",
+    "porcupine",
+    "rabbit",
+    "raccoon",
+    "snail",
+    "spider",
+    "squirrel",
+    "turkey",
+    "turtle",
+    "weasel",
+    "wolf"
+   ],
+   "words": []
+  },
   "maps-g1379": {
    "pictures": [],
    "words": [
@@ -2390,21 +2412,11 @@
     "rose"
    ]
   },
-  "maps-g2369-2": {
-   "pictures": [],
-   "words": [
-    "rose"
-   ]
-  },
   "maps-g2370": {
    "pictures": [],
    "words": []
   },
   "maps-g2370-2": {
-   "pictures": [],
-   "words": []
-  },
-  "maps-g2370-3": {
    "pictures": [],
    "words": []
   },
@@ -2422,6 +2434,34 @@
    "pictures": [],
    "words": [
     "star"
+   ]
+  },
+  "maps-g2618": {
+   "pictures": [],
+   "words": [
+    "flowers",
+    "garden",
+    "rain"
+   ]
+  },
+  "maps-g2621": {
+   "pictures": [
+    "avocado",
+    "banana",
+    "t-shirt"
+   ],
+   "words": [
+    "avocados",
+    "bananas",
+    "star",
+    "t shirt"
+   ]
+  },
+  "maps-g2623": {
+   "pictures": [],
+   "words": [
+    "fish",
+    "island"
    ]
   },
   "maps-g3396": {
@@ -2694,21 +2734,6 @@
     "garage",
     "puddle",
     "rock"
-   ]
-  },
-  "maze-puzzles-g1425-9": {
-   "pictures": [
-    "acorn",
-    "ant",
-    "cookie",
-    "leaf",
-    "spider"
-   ],
-   "words": [
-    "ant",
-    "cookie",
-    "puddle",
-    "spider"
    ]
   },
   "maze-puzzles-k405": {
@@ -3010,6 +3035,26 @@
     "liberty",
     "price tag"
    ]
+  },
+  "money-g2628": {
+   "pictures": [
+    "ball",
+    "kite",
+    "lemon"
+   ],
+   "words": [
+    "ball",
+    "cup",
+    "cups",
+    "kite",
+    "lemonade",
+    "lemons",
+    "paper"
+   ]
+  },
+  "money-g2629": {
+   "pictures": [],
+   "words": []
   },
   "money-k717": {
    "pictures": [
@@ -4810,6 +4855,12 @@
     "table"
    ]
   },
+  "reading-comprehension-g2624": {
+   "pictures": [],
+   "words": [
+    "books"
+   ]
+  },
   "reading-comprehension-g3494": {
    "pictures": [
     "penguin"
@@ -5444,13 +5495,6 @@
     "lights"
    ]
   },
-  "road-safety-g2361-3": {
-   "pictures": [],
-   "words": [
-    "bicycles",
-    "cars"
-   ]
-  },
   "rounding-g3387": {
    "pictures": [],
    "words": []
@@ -5483,6 +5527,20 @@
     "shoes",
     "sun",
     "teeth"
+   ]
+  },
+  "science-match-g2615": {
+   "pictures": [],
+   "words": [
+    "dogs",
+    "helmet"
+   ]
+  },
+  "science-match-g2615-2": {
+   "pictures": [],
+   "words": [
+    "dogs",
+    "helmet"
    ]
   },
   "science-match-k205": {
@@ -5594,17 +5652,6 @@
    ],
    "words": []
   },
-  "science-sort-g1204-2": {
-   "pictures": [
-    "ball",
-    "bolt",
-    "duck",
-    "fork",
-    "hammer",
-    "leaf"
-   ],
-   "words": []
-  },
   "science-sort-g1205": {
    "pictures": [
     "chameleon",
@@ -5662,21 +5709,6 @@
     "vegetables"
    ]
   },
-  "science-sort-g1207-3": {
-   "pictures": [
-    "bread",
-    "cucumber",
-    "egg",
-    "ham",
-    "pasta",
-    "pear",
-    "potato",
-    "strawberry"
-   ],
-   "words": [
-    "vegetables"
-   ]
-  },
   "science-sort-g1666": {
    "pictures": [
     "apple",
@@ -5691,6 +5723,48 @@
     "bus",
     "kite",
     "tooth"
+   ]
+  },
+  "science-sort-g2616": {
+   "pictures": [],
+   "words": []
+  },
+  "science-sort-g2617": {
+   "pictures": [],
+   "words": [
+    "pizza"
+   ]
+  },
+  "science-sort-g2622": {
+   "pictures": [
+    "airplane",
+    "banana",
+    "corn"
+   ],
+   "words": [
+    "airplanes",
+    "bananas",
+    "chocolate",
+    "corn",
+    "farmers"
+   ]
+  },
+  "science-sort-g2627": {
+   "pictures": [
+    "hammer",
+    "mixer",
+    "tractor"
+   ],
+   "words": [
+    "baker",
+    "bread",
+    "cows",
+    "farmer",
+    "hammer",
+    "mixer",
+    "nails",
+    "rolling pin",
+    "tractor"
    ]
   },
   "science-sort-k201": {

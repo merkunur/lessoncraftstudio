@@ -27,6 +27,75 @@ module.exports = {
   loc: 'en',
   points: {
     // ---- new points ----
+    // ---- the Grade 2 social studies points (Stage D-3, 2026-11-25): the social studies block of the weeks after their
+    // lesson, written from the pages (lcs-stage-d/batch-s2/TEXT-DUMP.md and the bank after review round 2, every copy
+    // and level). The class agreement, the flood, the winter traditions and the teacher-led class market are not in a
+    // guest teacher's day. ----
+    '2:community-laws': {
+      say: '"Each law stops a problem: read each law and write the letter of the problem it stops."',
+      first: 'Say, "A law is a rule for everyone in a community." Read the problems in the box at the top aloud, with their letters. Read the first law aloud and look at its picture together: it shows people keeping the law. Ask, "What could happen if no one kept this law?" Find that problem in the box and write its letter together. If your page says "Use each letter one time," each problem goes with one law. If your page asks why our community needs one law, any true reason is right.',
+      stuck: 'Read the law with the child and ask, "What could go wrong if no one kept this law?" Then read the problems one at a time and ask, "Is it this one?"',
+    },
+    '2:levels-of-government': {
+      say: '"Write each leader in the right box: local, state, or national."',
+      first: 'Read the sentence at the top and the names of the three boxes aloud: our country, our state, our town or city. The boxes sit inside each other, so write each leader in the smallest box it fits. Say, "The mayor leads a town or city. The governor leads a state. The president leads our whole country." Do the first leader card together. On the line "Our state is," the children write the name of our state. If your page has the city council and Congress, say, "Both are groups of people who make laws: the city council for a town or city, Congress for our whole country." If the page asks for one job of each level, any true job is right.',
+      stuck: 'Read the leader card with the child and ask, "Does this leader lead a town or city, a state, or the whole country?" Then point to the box with that name.',
+    },
+    '2:government-services': {
+      say: '"Circle every government service in the town: work the town, the state, or the country does for everyone."',
+      first: 'Read the sentence at the top aloud. Look at the town together and read its signs. A school, a park, a library, a fire station, road work, and a mail carrier are government services; a store that sells things is a business, so it gets no circle, and the house gets no circle either. Ask about the first place, "Is it for everyone, or does it sell things?" and circle together. If your page asks who a service helps, any true answer is right, such as "The library helps kids who want books."',
+      stuck: 'Point to one place at a time and ask, "Can everyone use it, or does it sell things to make money?" If your page shows a mail carrier, point to it: it has no sign.',
+    },
+    '2:places-change': {
+      say: '"Each pair of pictures shows one place before and after: circle who changed it, nature or people."',
+      first: 'Read the first sentence aloud and look at its two pictures together. Ask, "What is different? Did people do it, or did nature do it, like the weather or the seasons?" Circle together. Building and planting are things people do. If your page asks why it changed, the sentence tells what happened, so use it to write the reason together. If it asks for a place near our school, any real change the child has seen is right.',
+      stuck: 'Read the sentence again and ask, "Would this happen if no people were there?" If yes, nature changed it; if people had to do it, people changed it.',
+    },
+    '2:where-it-comes-from': {
+      say: '"Find the country of each label on the map, circle it, and draw a line from it to the star, the United States."',
+      first: 'Read each thing and its label aloud. Show the star on the map: it is the United States, our country. Do the first label together: find the country\'s name on the map, follow its short line to the land if it has one, and circle the land, not the name. Then draw a line from that country to the star. If your page asks for one thing in our classroom, first find one or two things together whose label names a country, such as a box of crayons, and read the label aloud; any child who finds no other label uses that one.',
+      stuck: 'Read the label with the child and find the country\'s name on the map together. Point from the name to the land, then circle the land.',
+    },
+    '2:made-here-sold-there': {
+      say: '"Write each thing in the right arrow: made in other countries and sold here, or made here and sold in other countries."',
+      first: 'Read the two arrows aloud and point: one goes into the United States, the other goes out to other countries. Read the first card and its fact aloud and ask, "Is it grown or made in the United States, or in another country?" Write its name in the right arrow together. If your page asks you to finish two sentences, any thing from the right arrow is right.',
+      stuck: 'Read the fact on the card again and ask, "Does it say the United States, or another country?" Made in the United States goes out; made in another country comes in.',
+    },
+    '2:why-countries-trade': {
+      say: '"Draw an arrow from the island that has a thing to the island that needs it."',
+      first: 'Read the line for each island aloud and point to the person\'s thought bubble on each island: it shows what that island needs. Do the first one together: "Sunny Island has fruit and needs fish. Which island has fish?" Draw the arrow from that island to Sunny Island. Each island gives one thing and gets one thing. Then any true ending for "Countries trade because" is right, such as "they need things other countries have."',
+      stuck: 'Ask, "What does this island need? Which island has it?" Find the line that says that island has it, and draw the arrow from there.',
+    },
+    '2:two-accounts': {
+      say: '"Two people tell about the same day: underline in blue what both stories say, and in orange what only one story says."',
+      first: 'The children need a blue and an orange crayon. Read both stories aloud while the children follow. Read the first sentence of the first story and ask, "Does the other story say this too, maybe in other words?" If yes, underline it in blue; if only one story says it, in orange. Do the first sentence together. If your page asks for only one of each, find one blue and one orange. Say, "Neither person is wrong. Each one tells what they saw and did."',
+      stuck: 'Read one sentence with the child, then look for the same fact in the other story together. The words can be different and still tell the same thing. If the page asks why they noticed different things, ask, "What was each person doing that day?"',
+    },
+    '2:old-photo-questions': {
+      say: '"Look closely at this picture of a main street long ago, about 1910, and then do each part of the page."',
+      first: 'Read the caption aloud. Look at the picture together and name a few things: the HARDWARE and BANK signs, the streetcar on its rails, the horse and wagon, the old car, the people in hats. Ask, "What is different from a street today?" If your page has a list of five things, find the first one together and circle it. Then say a question together, such as "I wonder why people rode in a wagon," and let each child write their own. If the page asks how we could find out, the child might ask an older person or look in a book.',
+      stuck: 'Point to one thing in the picture and ask, "Do we see this on a street today?" Then help the child start a question: "I wonder why …"',
+    },
+    '2:why-town-changed': {
+      say: '"Read the story of the town, circle the most likely reason it grew, and copy the sentence that says the town grew and tells why."',
+      first: 'Look at the two pictures together: the town at first and later. Read the story aloud while the children follow, then read each reason. Ask, "Which reason does the story tell about?" Circle it together. Then ask, "Which sentence says the town grew and tells why?" It starts with "Because of"; let the children copy it. If your page asks why another reason is less likely, any answer that uses the story is right, such as "The story never says that."',
+      stuck: 'Read each reason with the child and ask, "Does the story say this?" Only one of the reasons is in the story.',
+    },
+    '2:tools-and-skills': {
+      say: '"Color the box blue for each tool or machine a worker uses, and orange for each skill a worker knows."',
+      first: 'The children need a blue and an orange crayon. Read the key at the top aloud. Read the first card aloud and look at its picture: is the worker holding a thing, or thinking, with a thought bubble? A thing the worker uses is a tool or machine: blue. Something the worker knows, in the bubble, is a skill: orange. Color the first box together. If your page asks how a machine helps the baker make more bread, any true reason is right, such as "it works faster than hands."',
+      stuck: 'Read the card with the child and ask, "Is the worker using this thing, or thinking about something they know?" Using a thing is blue; knowing is orange.',
+    },
+    '2:cost-to-make': {
+      say: '"Circle what the children must buy, add the costs, and find the lowest price per cup that brings in more than they must pay."',
+      first: 'Read the story aloud: it says what the children need. Read the price list together; some things on it are not needed. Circle the first needed thing together and write its price in the first box, then add all the prices. For the prices per cup, say, "10 cups at $1 a cup bring in $10." At 50 cents a cup, 2 cups make a dollar, so 10 cups bring in $5; at 20 cents, count by 20s to 200 cents: $2. Circle the lowest price that brings in more than the total. If your page asks you to choose a price, any price that brings in more, with a reason, is right.',
+      stuck: 'Ask, "Do they need this to make or sell lemonade?" For a price per cup, count with the child, one cup at a time, until you reach 10 cups.',
+    },
+    '2:what-banks-do': {
+      say: '"A bank keeps money safe, pays savers a little extra called interest, and lends money: write the right sentence next to each picture."',
+      first: 'Read the sentences at the top aloud. Say what each picture on your page shows. A child giving money to the bank, with a big round vault door behind, shows that the bank keeps money safe. The savings paper where the bank added $1 shows that the bank pays savers interest. A banker holding money out to a parent, who is thinking about their house, shows that the bank lends money. Do the first picture together and copy its sentence. If your page asks why a family might borrow money, any real need is right, such as fixing a roof.',
+      stuck: 'Point to the picture and ask, "Is someone putting money in the bank, getting a little extra, or borrowing money?" Then find the sentence that says that.',
+    },
     '1:bar-model': {
       say: '"Each bar shows a whole and its two parts. One number is missing. Write the missing number in the box."',
       first: 'Draw a bar on the board split into two parts, with 60 on top as the whole and 20 in one part. Ask, "What goes with 20 to make 60?" Count on by tens together: 30, 40, 50, 60: forty. Write it in the empty part. Tell the children to check whether the missing number is a part or the whole.',
@@ -53,21 +122,21 @@ module.exports = {
       stuck: 'Have the child count each kind first: hundreds, tens, ones. If there are more than nine ones, circle ten of them: that is one more ten.',
     },
     '2:cardinal-directions': {
-      say: '"The four directions are north, east, south, and west. On a compass rose, north is at the tip that points up. Write the three missing letters in the empty boxes."',
-      first: 'Draw a compass rose on the board: N at the top, S at the bottom, E on the right, W on the left. Say "Never Eat Soggy Waffles" going round from the top. On the page the orange tip points north, and it may not point up: turn the page so the orange tip points up, then fill in the boxes. Do the first rose together.',
+      say: '"The four directions are north, east, south, and west. On these compass roses the orange tip always points north, even when it does not point up. Write the three missing letters in the empty boxes."',
+      first: 'Draw a compass rose on the board: N at the top, S at the bottom, E on the right, W on the left. Say "Never Eat Soggy Waffles" going around clockwise from N. On the page, north is wherever the orange tip points, and on some roses it points down, left, or right. Do the first rose together: put a finger on the orange tip, say "north," then go around clockwise and say east, south, west, writing each missing letter where it falls.',
       stuck: 'Have the child put a finger on the orange tip and say north, then go around clockwise: east, south, west.',
       byType: {
         'G2-371': {
           say: '"Look at the map. Start at the first picture of each question, look the way the word says, and circle the picture you see in that direction."',
-          first: 'Find the compass rose on the map together and say the four directions. Read the first question aloud, put a finger on its first picture, and move the finger the way the word says. Circle the picture you reach. Use the map key to name the pictures.',
-          stuck: 'Have the child point to the direction on the compass rose first, then move a finger the same way across the map.',
+          first: 'Find the compass rose on the map together, or the north arrow if your page has only that, and say the four directions: north is the way it points, south the other way, east to the right of north, and west to the left. Read the first question aloud, put a finger on its first picture, and move the finger the way the word says. Circle the picture you reach. Use the map key to name the pictures.',
+          stuck: 'Have the child show the direction on the compass rose or the north arrow first, then move a finger the same way across the map.',
         },
       },
     },
     '2:character-challenge': text('write the answer to each question."', 'Ask the class, "What is the character\'s problem? What does the character do about it?"'),
     '2:continents': {
-      say: '"The map shows the seven continents, each with a number. Write the name of each continent on its line. The names are in the box."',
-      first: 'Read the seven names in the box aloud together. Point to North America on the map: "This is where the United States is." Find its number together and write North America on that line. The children do the rest, crossing each name out of the box when they use it.',
+      say: '"The map shows the seven continents, each with a number. Write the name of each continent on its line. If your page has a box of names, use it."',
+      first: 'Say the seven names together: North America, South America, Europe, Asia, Africa, Oceania, Antarctica (if your page has a box of names, read them from it). Point to North America on the map: "This is where the United States is." Find its number together and write North America on that line. The children do the rest; with a box, they cross out each name when they use it.',
       stuck: 'Give clues: "Antarctica is the icy one at the bottom. South America is under North America. Africa is the big one in the middle." Let the child find each one on the map.',
     },
     '2:diagram-and-text': text('use the diagram to answer the questions. Questions 1 to 3 ask about the diagram; the others ask about the text."', 'Show the children how to follow the arrows of the diagram from the first picture to the last.'),

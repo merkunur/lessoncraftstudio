@@ -5906,8 +5906,178 @@
    ],
    "by": "review"
   },
+  "2:places-change": {
+   "rows": [
+    {
+     "id": "D2.Geo.10.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "2:disaster-ready": {
+   "rows": [
+    {
+     "id": "D2.Geo.12.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "2:where-it-comes-from": {
+   "rows": [
+    {
+     "id": "D2.Geo.11.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "2:why-countries-trade": {
+   "rows": [
+    {
+     "id": "D2.Eco.14.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "2:class-agreement": {
+   "rows": [
+    {
+     "id": "D2.Civ.10.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "2:two-accounts": {
+   "rows": [
+    {
+     "id": "D2.His.6.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "2:why-town-changed": {
+   "rows": [
+    {
+     "id": "D2.His.16.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
   "2:family-relationships": {
    "none": "The C3 Framework names no family relationships in its K-2 indicators (civics, economics, geography, history).",
+   "by": "review"
+  },
+  "2:winter-traditions": {
+   "rows": [
+    {
+     "id": "D2.Geo.6.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "2:old-photo-questions": {
+   "rows": [
+    {
+     "id": "D2.His.12.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "2:cost-to-make": {
+   "rows": [
+    {
+     "id": "D2.Eco.7.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "2:what-banks-do": {
+   "rows": [
+    {
+     "id": "D2.Eco.9.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "2:class-market": {
+   "rows": [
+    {
+     "id": "D2.Eco.5.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "2:levels-of-government": {
+   "rows": [
+    {
+     "id": "D2.Civ.5.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "2:government-services": {
+   "rows": [
+    {
+     "id": "D2.Eco.12.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "2:made-here-sold-there": {
+   "rows": [
+    {
+     "id": "D2.Eco.15.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "2:tools-and-skills": {
+   "rows": [
+    {
+     "id": "D2.Eco.13.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "2:community-laws": {
+   "rows": [
+    {
+     "id": "D2.Civ.3.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
    "by": "review"
   },
   "3:continents-oceans": {

@@ -625,6 +625,23 @@
   "G1-666": "1:goods-services-near-far",
   "G1-667": "1:jobs-earning-money",
   "G1-670": "1:prices-market",
-  "G1-668": "1:saving-goal"
+  "G1-668": "1:saving-goal",
+  "G2-614": "2:class-agreement",
+  "G2-615": "2:community-laws",
+  "G2-616": "2:levels-of-government",
+  "G2-617": "2:government-services",
+  "G2-618": "2:places-change",
+  "G2-619": "2:disaster-ready",
+  "G2-620": "2:winter-traditions",
+  "G2-621": "2:where-it-comes-from",
+  "G2-622": "2:made-here-sold-there",
+  "G2-623": "2:why-countries-trade",
+  "G2-624": "2:two-accounts",
+  "G2-625": "2:old-photo-questions",
+  "G2-626": "2:why-town-changed",
+  "G2-627": "2:tools-and-skills",
+  "G2-628": "2:cost-to-make",
+  "G2-629": "2:what-banks-do",
+  "G2-630": "2:class-market"
  }
 }

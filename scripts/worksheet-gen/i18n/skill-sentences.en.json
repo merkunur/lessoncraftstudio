@@ -167,7 +167,8 @@
   },
   "money": {
     "full": "Counting real coin values from largest to smallest builds the money sense children use in everyday life.",
-    "short": "Builds coin counting and money sense."
+    "short": "Builds coin counting and money sense.",
+    "levelSetShort": "Builds coin counting and money sense for everyday life."
   },
   "word-problems": {
     "full": "Reading a short story, checking the picture, and writing the answer turns arithmetic into real problem solving.",

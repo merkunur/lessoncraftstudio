@@ -2138,6 +2138,125 @@
    "strand": "Social Studies",
    "code": "D2.Eco.10.K-2",
    "skill": "Save a little each week toward a goal and tell why people save"
+  },
+  {
+   "tp": "2:class-agreement",
+   "grade": "2",
+   "strand": "Social Studies",
+   "code": "D2.Civ.10.K-2",
+   "skill": "Write the class rule I think matters most and why, compare it with a partner's, and help write a class agreement"
+  },
+  {
+   "tp": "2:community-laws",
+   "grade": "2",
+   "strand": "Social Studies",
+   "code": "D2.Civ.3.K-2",
+   "skill": "Match each community law to the problem it prevents, and tell why the community needs it"
+  },
+  {
+   "tp": "2:levels-of-government",
+   "grade": "2",
+   "strand": "Social Studies",
+   "code": "D2.Civ.5.K-2",
+   "skill": "Tell what a government is, sort the mayor, city council, governor, president and Congress into local, state and national, and write a job of each"
+  },
+  {
+   "tp": "2:government-services",
+   "grade": "2",
+   "strand": "Social Studies",
+   "code": "D2.Eco.12.K-2",
+   "skill": "Find the services a government provides in a town (a library, a park, a fire station, road repair, a public school, mail) and who uses them"
+  },
+  {
+   "tp": "2:places-change",
+   "grade": "2",
+   "strand": "Social Studies",
+   "code": "D2.Geo.10.K-2",
+   "skill": "Compare before-and-after pictures of places and tell whether nature or people changed each one"
+  },
+  {
+   "tp": "2:disaster-ready",
+   "grade": "2",
+   "strand": "Social Studies",
+   "code": "D2.Geo.12.K-2",
+   "skill": "Find what a flood changed in a town, fill a family emergency kit, and find the coasts where hurricanes most often come ashore"
+  },
+  {
+   "tp": "2:winter-traditions",
+   "grade": "2",
+   "strand": "Social Studies",
+   "code": "D2.Geo.6.K-2",
+   "skill": "Match winter traditions families may keep (Hanukkah, Christmas, Kwanzaa, Las Posadas, Lunar New Year) to their symbols and to the country where each began"
+  },
+  {
+   "tp": "2:where-it-comes-from",
+   "grade": "2",
+   "strand": "Social Studies",
+   "code": "D2.Geo.11.K-2",
+   "skill": "Read where everyday things were grown or made, find each country on a world map, and connect it to our community"
+  },
+  {
+   "tp": "2:made-here-sold-there",
+   "grade": "2",
+   "strand": "Social Studies",
+   "code": "D2.Eco.15.K-2",
+   "skill": "Sort products into made abroad and sold here, and made here and sold abroad"
+  },
+  {
+   "tp": "2:why-countries-trade",
+   "grade": "2",
+   "strand": "Social Studies",
+   "code": "D2.Eco.14.K-2",
+   "skill": "Draw the trades that let islands that each make one thing meet every need, and tell why countries trade"
+  },
+  {
+   "tp": "2:two-accounts",
+   "grade": "2",
+   "strand": "Social Studies",
+   "code": "D2.His.6.K-2",
+   "skill": "Read two accounts of the same day, mark what both say and what only one says, and tell why they differ"
+  },
+  {
+   "tp": "2:old-photo-questions",
+   "grade": "2",
+   "strand": "Social Studies",
+   "code": "D2.His.12.K-2",
+   "skill": "Look closely at an old photograph of a main street, say what I see and think, and write questions about how the town changed"
+  },
+  {
+   "tp": "2:why-town-changed",
+   "grade": "2",
+   "strand": "Social Studies",
+   "code": "D2.His.16.K-2",
+   "skill": "Read a short town history, choose the most likely reason the town grew, and copy the clue that shows it"
+  },
+  {
+   "tp": "2:tools-and-skills",
+   "grade": "2",
+   "strand": "Social Studies",
+   "code": "D2.Eco.13.K-2",
+   "skill": "Sort what producers need into tools and machines, and skills learned by study and practice"
+  },
+  {
+   "tp": "2:cost-to-make",
+   "grade": "2",
+   "strand": "Social Studies",
+   "code": "D2.Eco.7.K-2",
+   "skill": "List and add what a lemonade stand must pay for before it sells, and find the lowest price per cup that brings in more than the costs"
+  },
+  {
+   "tp": "2:what-banks-do",
+   "grade": "2",
+   "strand": "Social Studies",
+   "code": "D2.Eco.9.K-2",
+   "skill": "Match each picture to what a bank does: keeps money safe, pays savers interest, lends money"
+  },
+  {
+   "tp": "2:class-market",
+   "grade": "2",
+   "strand": "Social Studies",
+   "code": "D2.Eco.5.K-2",
+   "skill": "Run a class market: set and write prices, buy and sell with coins, and record what I bought and how I paid"
   }
  ]
 }

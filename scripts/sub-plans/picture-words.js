@@ -51,6 +51,21 @@ const DRAWN = {
   'K-719': ['stripes', 'stripe', 'stars', 'star', 'crayon', 'crayons'],
   'K-721': ['swing', 'swings', 'crackers', 'ball', 'game', 'play', 'crayons'],
   'K-724': ['beach', 'snow', 'snowy place', 'mountain', 'town', 'palm tree', 'sailboat'],
+  // the Grade 2 social studies pages of the guest teacher pool (Stage D-5 batch S2, 2026-11-25, after review round 1):
+  // drawn scenes, people and objects, read from the sheets of every level
+  'G2-615': ['traffic light', 'car', 'crosswalk', 'sidewalk', 'dog', 'leash', 'collar', 'park', 'tree', 'trees', 'trash can', 'wrapper', 'helmet', 'bike'],
+  'G2-616': ['lectern', 'flag', 'desk', 'map', 'town hall', 'houses'],
+  'G2-617': ['school', 'flag', 'library', 'fire station', 'fire truck', 'park', 'trees', 'slide', 'bench', 'road', 'cones', 'hard hat', 'vest', 'mail carrier', 'mailbox', 'house', 'houses', 'toy store', 'teddy bear', 'ball', 'pizza', 'pizza shop'],
+  'G2-618': ['hill', 'tree', 'trees', 'snow', 'grass', 'flowers', 'desert', 'cactus', 'sun', 'pond', 'ice', 'beach', 'lighthouse', 'waves', 'sand', 'village', 'boats', 'city', 'buildings', 'field', 'fence', 'house', 'houses', 'road', 'garden', 'sunflower'],
+  'G2-621': ['star', 'map', 'coffee beans', 'sack'],
+  'G2-622': ['cocoa pod', 'cocoa beans', 'coffee beans', 'soybeans', 'map', 'globe'],
+  'G2-623': ['island', 'islands', 'sun', 'fruit', 'trees', 'basket', 'fish', 'boat', 'fishing boat', 'snow', 'hills', 'sheep', 'yarn', 'wool'],
+  'G2-624': ['library', 'girl', 'grandpa', 'librarian', 'badge', 'desk', 'shelves', 'books', 'boy', 'dad', 'flag', 'drum', 'slide', 'swings', 'wrench', 'vest', 'cap'],
+  'G2-625': ['street', 'streetcar', 'rails', 'wire', 'horse', 'wagon', 'driver', 'car', 'man', 'men', 'women', 'hat', 'hats', 'coats', 'skirts', 'street lamp', 'bank'],
+  'G2-626': ['farms', 'houses', 'fields', 'tree', 'river', 'rowboat', 'boat', 'store', 'school', 'road', 'shops', 'street'],
+  'G2-627': ['baker', 'farmer', 'builder', 'oven', 'mixer', 'rolling pin', 'whisk', 'tractor', 'watering can', 'shovel', 'wheelbarrow', 'drill', 'hammer', 'saw', 'ladder', 'bread', 'loaf', 'bowl', 'flour', 'dough', 'board', 'sun', 'soil', 'seed', 'sprout', 'sprouts', 'cow', 'bricks', 'wall'],
+  'G2-628': ['lemonade stand', 'sign', 'cups', 'sugar', 'poster paper', 'marker', 'price tag', 'lemons', 'kite', 'ball'],
+  'G2-629': ['bank', 'teller', 'banker', 'vault', 'money', 'envelope', 'desk', 'house', 'roof'],
 };
 // the example words of a point's rule, each with its reason
 const EXAMPLES = {

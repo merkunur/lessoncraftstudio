@@ -3065,6 +3065,176 @@
    ],
    "why": "Coloring a savings jar week by week toward a kite and choosing why the child saved (to buy it later, not to spend today) explain why people save (D2.Eco.10, K-2).",
    "review": "batch-s1 2026-11-24"
+  },
+  "2:class-agreement": {
+   "rows": [
+    {
+     "id": "D2.Civ.10.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Writing the rule each child thinks matters most and why, writing a partner's rule and reason, and sorting the two into \"only me\", \"both of us\" and \"only my partner\" compare the child's own point of view with another's (D2.Civ.10, K-2).",
+   "review": "batch-s2 2026-11-25"
+  },
+  "2:community-laws": {
+   "rows": [
+    {
+     "id": "D2.Civ.3.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Matching each community law (stop at a red light, a leash in the park, no litter, a bike helmet) to the one problem it prevents, and finishing \"Our community needs this law because ___.\", explain the need for and purposes of rules outside of school (D2.Civ.3, K-2).",
+   "review": "batch-s2 2026-11-25"
+  },
+  "2:levels-of-government": {
+   "rows": [
+    {
+     "id": "D2.Civ.5.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading that a government is the people who make laws and run services for a place, writing each leader in the local, state or national box, and writing one job of each level explain what governments are and some of their functions (D2.Civ.5, K-2).",
+   "review": "batch-s2 2026-11-25"
+  },
+  "2:government-services": {
+   "rows": [
+    {
+     "id": "D2.Eco.12.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Circling the services a government provides in a town picture (a library, a park, a fire station, road repair, a public school, a mail carrier) apart from businesses, and finishing \"The ___ helps ___.\" for two of them, describe examples of the services governments provide (D2.Eco.12, K-2).",
+   "review": "batch-s2 2026-11-25"
+  },
+  "2:places-change": {
+   "rows": [
+    {
+     "id": "D2.Geo.10.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Comparing before-and-after pictures of places (a tree bare in winter and in leaf in spring, a desert after a rare rain, an empty lot that became a garden, a village that grew into a city) and telling whether nature or people changed each describe changes in the physical and cultural characteristics of world regions (D2.Geo.10, K-2).",
+   "review": "batch-s2 2026-11-25"
+  },
+  "2:disaster-ready": {
+   "rows": [
+    {
+     "id": "D2.Geo.12.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Circling what a flood changed in a town (water on the road, a closed school, helpers in a boat), filling a family emergency kit, coloring the Atlantic and Gulf coasts where hurricanes most often come ashore and writing how neighbors help identify ways a disaster may affect people living in a place (D2.Geo.12, K-2).",
+   "review": "batch-s2 2026-11-25"
+  },
+  "2:winter-traditions": {
+   "rows": [
+    {
+     "id": "D2.Geo.6.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Matching winter traditions families may keep to their symbols (a menorah, a decorated tree, a kinara, a piñata, a red envelope) and drawing a line from Lunar New Year, Kwanzaa and Las Posadas to the country where each began identify cultural characteristics of specific places (D2.Geo.6, K-2).",
+   "review": "batch-s2 2026-11-25"
+  },
+  "2:where-it-comes-from": {
+   "rows": [
+    {
+     "id": "D2.Geo.11.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading sample labels (bananas grown in Ecuador, avocados grown in Mexico, a T-shirt made in Vietnam, coffee grown in Colombia), finding each country on a world map and drawing a line to the United States explain how buying products connects people to distant places (D2.Geo.11, K-2).",
+   "review": "batch-s2 2026-11-25"
+  },
+  "2:made-here-sold-there": {
+   "rows": [
+    {
+     "id": "D2.Eco.15.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Writing each product under the arrow into the United States (bananas, cocoa, coffee) or the arrow out of it (airplanes, soybeans, corn), and finishing \"The United States sells ___ / buys ___\", describe products produced abroad and sold domestically and products produced domestically and sold abroad (D2.Eco.15, K-2).",
+   "review": "batch-s2 2026-11-25"
+  },
+  "2:why-countries-trade": {
+   "rows": [
+    {
+     "id": "D2.Eco.14.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Drawing the trades that let islands that each make one thing (fruit, fish, wool) meet every island's need, and finishing \"Countries trade because ___.\", describe why people in one country trade goods with people in other countries (D2.Eco.14, K-2).",
+   "review": "batch-s2 2026-11-25"
+  },
+  "2:two-accounts": {
+   "rows": [
+    {
+     "id": "D2.His.6.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading a child's and a librarian's accounts of the day a library opened, marking what both say and what only one says, and finishing \"They noticed different things because ___.\" compare different accounts of the same event (D2.His.6, K-2).",
+   "review": "batch-s2 2026-11-25"
+  },
+  "2:old-photo-questions": {
+   "rows": [
+    {
+     "id": "D2.His.12.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding what a sample photograph of a main street about 1910 shows (a horse-drawn wagon, early cars, a streetcar), writing what it shows about life then, and writing questions and how to find out generate questions about a historical source as it relates to how a town changed (D2.His.12, K-2).",
+   "review": "batch-s2 2026-11-25"
+  },
+  "2:why-town-changed": {
+   "rows": [
+    {
+     "id": "D2.His.16.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading a short history of a sample town, circling the most likely reason it grew among two or three, copying the sentence that says the town grew and tells why, and writing why another reason is less likely select which reasons are more likely than others to explain a historical development (D2.His.16, K-2).",
+   "review": "batch-s2 2026-11-25"
+  },
+  "2:tools-and-skills": {
+   "rows": [
+    {
+     "id": "D2.Eco.13.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Coloring what a baker, a farmer and a builder need as tools and machines (an oven, a tractor, a drill) or skills (the steps to make bread, a good time to plant seeds, how to read a building plan), and writing how a tool helps the baker make more, describe examples of capital goods and human capital (D2.Eco.13, K-2).",
+   "review": "batch-s2 2026-11-25"
+  },
+  "2:cost-to-make": {
+   "rows": [
+    {
+     "id": "D2.Eco.7.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Circling what a lemonade stand must buy before it can sell (and leaving out what it does not need), adding those costs, finding the lowest price per cup that brings in more than they must pay and writing what is left over at a chosen price describe examples of costs of production (D2.Eco.7, K-2).",
+   "review": "batch-s2 2026-11-25"
+  },
+  "2:what-banks-do": {
+   "rows": [
+    {
+     "id": "D2.Eco.9.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Writing under each picture what the bank does there (keeps money safe, pays savers interest, a little extra such as $1 on $100 saved, lends money) and why a family might borrow and must pay it back describe the role of banks in an economy (D2.Eco.9, K-2).",
+   "review": "batch-s2 2026-11-25"
+  },
+  "2:class-market": {
+   "rows": [
+    {
+     "id": "D2.Eco.5.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Running a class market with written price tags, then recording what each shopper bought, its price and the coins paid (with practice trays that pay each price exactly) identify the prices of products in a local market (D2.Eco.5, K-2).",
+   "review": "batch-s2 2026-11-25"
   }
  }
 }

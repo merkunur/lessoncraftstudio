@@ -12674,6 +12674,146 @@
    "prerequisites": []
   },
   {
+   "id": "2:places-change",
+   "grade": "2",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Compare before-and-after pictures of places and tell whether nature or people changed each one",
+   "code": "D2.Geo.10.K-2",
+   "types": [
+    "G2-618"
+   ],
+   "families": [
+    "maps"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 43,
+   "prerequisites": []
+  },
+  {
+   "id": "2:disaster-ready",
+   "grade": "2",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Find what a flood changed in a town, fill a family emergency kit, and find the coasts where hurricanes most often come ashore",
+   "code": "D2.Geo.12.K-2",
+   "types": [
+    "G2-619"
+   ],
+   "families": [
+    "maps"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 44,
+   "prerequisites": []
+  },
+  {
+   "id": "2:where-it-comes-from",
+   "grade": "2",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Read where everyday things were grown or made, find each country on a world map, and connect it to our community",
+   "code": "D2.Geo.11.K-2",
+   "types": [
+    "G2-621"
+   ],
+   "families": [
+    "maps"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 45,
+   "prerequisites": []
+  },
+  {
+   "id": "2:why-countries-trade",
+   "grade": "2",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Draw the trades that let islands that each make one thing meet every need, and tell why countries trade",
+   "code": "D2.Eco.14.K-2",
+   "types": [
+    "G2-623"
+   ],
+   "families": [
+    "maps"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 46,
+   "prerequisites": []
+  },
+  {
+   "id": "2:class-agreement",
+   "grade": "2",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Write the class rule I think matters most and why, compare it with a partner's, and help write a class agreement",
+   "code": "D2.Civ.10.K-2",
+   "types": [
+    "G2-614"
+   ],
+   "families": [
+    "all-about-me"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 47,
+   "prerequisites": []
+  },
+  {
+   "id": "2:two-accounts",
+   "grade": "2",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Read two accounts of the same day, mark what both say and what only one says, and tell why they differ",
+   "code": "D2.His.6.K-2",
+   "types": [
+    "G2-624"
+   ],
+   "families": [
+    "reading-comprehension"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 48,
+   "prerequisites": []
+  },
+  {
+   "id": "2:why-town-changed",
+   "grade": "2",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Read a short town history, choose the most likely reason the town grew, and copy the clue that shows it",
+   "code": "D2.His.16.K-2",
+   "types": [
+    "G2-626"
+   ],
+   "families": [
+    "reading-comprehension"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 49,
+   "prerequisites": []
+  },
+  {
    "id": "2:family-relationships",
    "grade": "2",
    "subject": "social",
@@ -12692,7 +12832,207 @@
     237
    ],
    "verdict": "gap",
-   "order": 43,
+   "order": 50,
+   "prerequisites": []
+  },
+  {
+   "id": "2:winter-traditions",
+   "grade": "2",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Match winter traditions families may keep (Hanukkah, Christmas, Kwanzaa, Las Posadas, Lunar New Year) to their symbols and to the country where each began",
+   "code": "D2.Geo.6.K-2",
+   "types": [
+    "G2-620"
+   ],
+   "families": [
+    "family"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 51,
+   "prerequisites": []
+  },
+  {
+   "id": "2:old-photo-questions",
+   "grade": "2",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Look closely at an old photograph of a main street, say what I see and think, and write questions about how the town changed",
+   "code": "D2.His.12.K-2",
+   "types": [
+    "G2-625"
+   ],
+   "families": [
+    "family"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 52,
+   "prerequisites": []
+  },
+  {
+   "id": "2:cost-to-make",
+   "grade": "2",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "List and add what a lemonade stand must pay for before it sells, and find the lowest price per cup that brings in more than the costs",
+   "code": "D2.Eco.7.K-2",
+   "types": [
+    "G2-628"
+   ],
+   "families": [
+    "money"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 53,
+   "prerequisites": []
+  },
+  {
+   "id": "2:what-banks-do",
+   "grade": "2",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Match each picture to what a bank does: keeps money safe, pays savers interest, lends money",
+   "code": "D2.Eco.9.K-2",
+   "types": [
+    "G2-629"
+   ],
+   "families": [
+    "money"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 54,
+   "prerequisites": []
+  },
+  {
+   "id": "2:class-market",
+   "grade": "2",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Run a class market: set and write prices, buy and sell with coins, and record what I bought and how I paid",
+   "code": "D2.Eco.5.K-2",
+   "types": [
+    "G2-630"
+   ],
+   "families": [
+    "money"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 55,
+   "prerequisites": []
+  },
+  {
+   "id": "2:levels-of-government",
+   "grade": "2",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Tell what a government is, sort the mayor, city council, governor, president and Congress into local, state and national, and write a job of each",
+   "code": "D2.Civ.5.K-2",
+   "types": [
+    "G2-616"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 56,
+   "prerequisites": []
+  },
+  {
+   "id": "2:government-services",
+   "grade": "2",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Find the services a government provides in a town (a library, a park, a fire station, road repair, a public school, mail) and who uses them",
+   "code": "D2.Eco.12.K-2",
+   "types": [
+    "G2-617"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 57,
+   "prerequisites": []
+  },
+  {
+   "id": "2:made-here-sold-there",
+   "grade": "2",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Sort products into made abroad and sold here, and made here and sold abroad",
+   "code": "D2.Eco.15.K-2",
+   "types": [
+    "G2-622"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 58,
+   "prerequisites": []
+  },
+  {
+   "id": "2:tools-and-skills",
+   "grade": "2",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Sort what producers need into tools and machines, and skills learned by study and practice",
+   "code": "D2.Eco.13.K-2",
+   "types": [
+    "G2-627"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 59,
+   "prerequisites": []
+  },
+  {
+   "id": "2:community-laws",
+   "grade": "2",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Match each community law to the problem it prevents, and tell why the community needs it",
+   "code": "D2.Civ.3.K-2",
+   "types": [
+    "G2-615"
+   ],
+   "families": [
+    "science-match"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 60,
    "prerequisites": []
   },
   {
@@ -12713,7 +13053,7 @@
     287
    ],
    "verdict": "gap",
-   "order": 44,
+   "order": 61,
    "prerequisites": []
   },
   {

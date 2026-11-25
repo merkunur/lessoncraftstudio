@@ -6122,6 +6122,193 @@
     }
    ],
    "weeks": 6
+  },
+  {
+   "id": "g2-our-class-and-community",
+   "slug": "our-class-and-our-community-grade-2-social-studies-unit",
+   "status": "live",
+   "grade": "2",
+   "subject": "social",
+   "title": "Our Class and Our Community",
+   "metaTitle": "Grade 2 Social Studies Lesson Plans: Our Class and Our Community",
+   "metaDescription": "A Grade 2 social studies unit: 4 lessons on a class agreement, laws in our community, local, state and national government, and services government provides.",
+   "lessons": [
+    {
+     "point": "2:class-agreement",
+     "types": [
+      "G2-614"
+     ]
+    },
+    {
+     "point": "2:community-laws",
+     "types": [
+      "G2-615"
+     ]
+    },
+    {
+     "point": "2:levels-of-government",
+     "types": [
+      "G2-616"
+     ]
+    },
+    {
+     "point": "2:government-services",
+     "types": [
+      "G2-617"
+     ]
+    }
+   ],
+   "weeks": 6
+  },
+  {
+   "id": "g2-maps-and-our-world",
+   "slug": "maps-and-our-world-grade-2-social-studies-unit",
+   "status": "live",
+   "grade": "2",
+   "subject": "social",
+   "title": "Maps and Our World",
+   "metaTitle": "Grade 2 Social Studies Lesson Plans: Maps and Our World",
+   "metaDescription": "A Grade 2 social studies unit: 4 lessons on north, south, east and west, the seven continents, how places change, and getting ready when disaster strikes.",
+   "lessons": [
+    {
+     "point": "2:cardinal-directions",
+     "types": [
+      "G2-369",
+      "G2-371"
+     ]
+    },
+    {
+     "point": "2:continents",
+     "types": [
+      "G2-370"
+     ]
+    },
+    {
+     "point": "2:places-change",
+     "types": [
+      "G2-618"
+     ]
+    },
+    {
+     "point": "2:disaster-ready",
+     "types": [
+      "G2-619"
+     ]
+    }
+   ],
+   "weeks": 6
+  },
+  {
+   "id": "g2-communities-near-and-far",
+   "slug": "communities-near-and-far-grade-2-social-studies-unit",
+   "status": "live",
+   "grade": "2",
+   "subject": "social",
+   "title": "Communities Near and Far",
+   "metaTitle": "Grade 2 Social Studies Lesson Plans: Communities Near and Far",
+   "metaDescription": "A Grade 2 social studies unit: 4 lessons on winter traditions families may keep, where things come from, made here and sold there, and why countries trade.",
+   "lessons": [
+    {
+     "point": "2:winter-traditions",
+     "types": [
+      "G2-620"
+     ]
+    },
+    {
+     "point": "2:where-it-comes-from",
+     "types": [
+      "G2-621"
+     ]
+    },
+    {
+     "point": "2:made-here-sold-there",
+     "types": [
+      "G2-622"
+     ]
+    },
+    {
+     "point": "2:why-countries-trade",
+     "types": [
+      "G2-623"
+     ]
+    }
+   ],
+   "weeks": 6
+  },
+  {
+   "id": "g2-history-of-our-community",
+   "slug": "history-of-our-community-grade-2-social-studies-unit",
+   "status": "live",
+   "grade": "2",
+   "subject": "social",
+   "title": "History of Our Community",
+   "metaTitle": "Grade 2 Social Studies Lesson Plans: History of Our Community",
+   "metaDescription": "A Grade 2 social studies unit: 4 lessons on aunts, cousins and grandparents, two stories of the same day, questions about an old photograph, and why a town changed.",
+   "lessons": [
+    {
+     "point": "2:family-relationships",
+     "types": [
+      "G2-362"
+     ]
+    },
+    {
+     "point": "2:two-accounts",
+     "types": [
+      "G2-624"
+     ]
+    },
+    {
+     "point": "2:old-photo-questions",
+     "types": [
+      "G2-625"
+     ]
+    },
+    {
+     "point": "2:why-town-changed",
+     "types": [
+      "G2-626"
+     ]
+    }
+   ],
+   "weeks": 6
+  },
+  {
+   "id": "g2-producers-consumers-money",
+   "slug": "producers-consumers-and-money-grade-2-social-studies-unit",
+   "status": "live",
+   "grade": "2",
+   "subject": "social",
+   "title": "Producers, Consumers and Money",
+   "metaTitle": "Grade 2 Social Studies Lesson Plans: Producers, Consumers and Money",
+   "metaDescription": "A Grade 2 social studies unit: 4 lessons on tools and skills for the job, what it costs to make something, what banks do, and a three-session class market day.",
+   "lessons": [
+    {
+     "point": "2:tools-and-skills",
+     "types": [
+      "G2-627"
+     ]
+    },
+    {
+     "point": "2:cost-to-make",
+     "types": [
+      "G2-628"
+     ]
+    },
+    {
+     "point": "2:what-banks-do",
+     "types": [
+      "G2-629"
+     ]
+    },
+    {
+     "point": "2:class-market",
+     "types": [
+      "G2-630"
+     ],
+     "days": 3
+    }
+   ],
+   "weeks": 6
   }
  ],
  "plans": [
@@ -6384,6 +6571,22 @@
     "g1-maps-and-places",
     "g1-our-country-symbols-stories",
     "g1-goods-services-money"
+   ]
+  },
+  {
+   "id": "plan-2-social",
+   "slug": "grade-2-social-studies-scope-and-sequence",
+   "grade": "2",
+   "subject": "social",
+   "title": "Grade 2 Social Studies Scope and Sequence",
+   "metaTitle": "Grade 2 Social Studies Scope, Sequence and Pacing ({weeks} Weeks)",
+   "metaDescription": "{units} Grade 2 social studies units in teaching order, about {weeks} weeks of two social studies sessions a week, with each unit's lessons and its C3 standards.",
+   "units": [
+    "g2-our-class-and-community",
+    "g2-maps-and-our-world",
+    "g2-communities-near-and-far",
+    "g2-history-of-our-community",
+    "g2-producers-consumers-money"
    ]
   }
  ]

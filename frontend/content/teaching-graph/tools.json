@@ -142,7 +142,9 @@
     "money-mat": {
       "points": [
         "1:coins",
-        "2:shopping-money"
+        "2:shopping-money",
+        "1:prices-market",
+        "2:class-market"
       ]
     },
     "choral-counting": {

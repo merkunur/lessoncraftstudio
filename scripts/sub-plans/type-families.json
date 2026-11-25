@@ -977,6 +977,47 @@
    "family": "reading-comprehension",
    "kind": "story"
   },
+  "G2-615": {
+   "family": "science-match"
+  },
+  "G2-616": {
+   "family": "science-sort"
+  },
+  "G2-617": {
+   "family": "science-sort"
+  },
+  "G2-618": {
+   "family": "maps"
+  },
+  "G2-621": {
+   "family": "maps"
+  },
+  "G2-622": {
+   "family": "science-sort"
+  },
+  "G2-623": {
+   "family": "maps"
+  },
+  "G2-624": {
+   "family": "reading-comprehension",
+   "kind": "lesson"
+  },
+  "G2-625": {
+   "family": "family"
+  },
+  "G2-626": {
+   "family": "reading-comprehension",
+   "kind": "lesson"
+  },
+  "G2-627": {
+   "family": "science-sort"
+  },
+  "G2-628": {
+   "family": "money"
+  },
+  "G2-629": {
+   "family": "money"
+  },
   "G3-301": {
    "family": "arrays-multiplication"
   },

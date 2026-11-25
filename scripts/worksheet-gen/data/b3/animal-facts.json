@@ -124,7 +124,7 @@
     "noun": "pig"
    },
    "class": "mammal",
-   "covering": "skin",
+   "covering": null,
    "diet": "both",
    "habitat": "land",
    "legs": 4,
@@ -409,7 +409,7 @@
     "noun": "butterfly"
    },
    "class": "insect",
-   "covering": "skin",
+   "covering": null,
    "diet": "plants",
    "habitat": "air",
    "legs": 6,
@@ -424,7 +424,7 @@
     "noun": "bee"
    },
    "class": "insect",
-   "covering": "skin",
+   "covering": null,
    "diet": "plants",
    "habitat": "air",
    "legs": 6,
@@ -499,7 +499,7 @@
     "noun": "elephant"
    },
    "class": "mammal",
-   "covering": "skin",
+   "covering": null,
    "diet": "plants",
    "habitat": "land",
    "legs": 4,
@@ -799,7 +799,7 @@
     "noun": "shark"
    },
    "class": "fish",
-   "covering": "skin",
+   "covering": null,
    "diet": "meat",
    "habitat": "water",
    "legs": 0,
@@ -866,5 +866,5 @@
   "insects and bugs": "bee",
   "reptiles and Amphibians": "tortoise"
  },
- "_note": "nt20-C G2-318 (authored 2026-09-14): K-2 honest values; null = ambiguous at K-2 or outside the chip set (drops the animal from every non-base face, never invents). fox diet = meat and rabbit = plants agree with what-animals-eat.json; a bird habitat is air where the bank says so. The five data/science banks are a cross-check (tools/gate-fact-file-data.js), never the ceiling. · 2026-11-04: swim/fly kept only where a K-2 teacher can confirm the answer at once (a sheep, a cow, a cat CAN swim; whether a panda or a fox swims is trivia; a hen flies a little) — every other value null: the faces print a fact only where it is known, and an unknown fact rules nothing out on the mystery cards. Review: turtle/tortoise not taught (one word in de/it/fi, opposite answers); hippopotamus not taught (hippos walk the river bed)."
+ "_note": "nt20-C G2-318 (authored 2026-09-14): K-2 honest values; null = ambiguous at K-2 or outside the chip set (drops the animal from every non-base face, never invents). fox diet = meat and rabbit = plants agree with what-animals-eat.json; a bird habitat is air where the bank says so. The five data/science banks are a cross-check (tools/gate-fact-file-data.js), never the ceiling. · 2026-11-04: swim/fly kept only where a K-2 teacher can confirm the answer at once (a sheep, a cow, a cat CAN swim; whether a panda or a fox swims is trivia; a hen flies a little) — every other value null: the faces print a fact only where it is known, and an unknown fact rules nothing out on the mystery cards. Review: turtle/tortoise not taught (one word in de/it/fi, opposite answers); hippopotamus not taught (hippos walk the river bed). · 2026-11-25 (the US teacher-reviewer of the G2-343 mystery page): \"skin\" prints as smooth skin in every language, which is false for the bee (fuzzy), the butterfly (scaly wings, hairy body), the elephant (wrinkled), the shark (rough) and the pig (bristles): their covering is null; frog and hippopotamus keep it."
 }

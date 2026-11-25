@@ -545,8 +545,12 @@ module.exports = {
     if (!(nB >= nP + 1 && nB <= 8)) throw new Error(`G2-318: bankSize ${nB} must be puzzles+1..8`);
     if (!(nC >= 3 && nC <= table.fields.length)) throw new Error(`G2-318: cluesPrinted ${nC} outside 3..${table.fields.length}`);
     const nouns = assertAnimalTheme(table, theme, loc);
-    // an animal takes part when it has at least as many known facts as a card prints clues
-    const pool0 = facePool(bankLoc, table, theme, nouns, []).filter((k) => table.fields.filter((f) => known(table.animals[k], f)).length >= nC);
+    // a clue a card may print about an animal: a known fact, but never "I live in the air" (2026-11-25, the US teacher-
+    // reviewer: an eagle nests in a tree or on a cliff; "air" sorts birds on the fact file's chips, but as an animal's own
+    // sentence on a reading-for-details card it teaches a misconception). The other cards may still print their habitat.
+    const clueFields = (k) => table.fields.filter((f) => known(table.animals[k], f) && !(f === 'habitat' && table.animals[k][f] === 'air'));
+    // an animal takes part when it has at least as many printable facts as a card prints clues
+    const pool0 = facePool(bankLoc, table, theme, nouns, []).filter((k) => clueFields(k).length >= nC);
     // the bank renders on ONE row only for short names (design: <= 9 letters, measured 106 px) — a long name drops the ANIMAL from the bank
     const pool = pool0.filter((k) => len(bankLoc.animals[k].name) <= maxName);
     if (pool.length < nB) throw new Error(`G2-318: theme "${theme}" has ${pool.length} verifiable animals with names <= ${maxName} letters < bank ${nB} — the mystery face refuses this theme`);
@@ -563,7 +567,7 @@ module.exports = {
         const others = bank.filter((k) => k !== tk);
         // a random nC-subset of the target's KNOWN fields whose clues contradict EVERY other bank animal (an animal whose fact
         // is unknown is not ruled out by that clue)
-        const kf = table.fields.filter((f) => known(table.animals[tk], f));
+        const kf = clueFields(tk);
         let fields = null;
         for (let u = 0; u < 60 && !fields; u++) {
           const sub = rng.sample(kf, nC);
@@ -1113,7 +1117,7 @@ function VERIFY_MYSTERY() {
     const clues = [...c.querySelectorAll('[data-lcs-clue]')];
     if (clues.length !== +ds.lcsClues || clues.length !== +c.dataset.lcsClues) fails.push(`card ${n}: ${clues.length} clues, want ${ds.lcsClues}`);
     const cf = new Set();
-    const parsed = clues.map((cl) => { const [f, v] = cl.dataset.lcsClue.split('='); if (cf.has(f)) fails.push(`card ${n}: field ${f} twice`); cf.add(f); if (!cl.textContent.trim() || !/[.?!]$/.test(cl.textContent.trim())) fails.push(`card ${n}: clue "${cl.textContent.trim()}" is not a sentence`); if (cl.scrollWidth > cl.clientWidth + 0.6) fails.push(`card ${n}: clue clipped`); return [f, v]; });
+    const parsed = clues.map((cl) => { const [f, v] = cl.dataset.lcsClue.split('='); if (cf.has(f)) fails.push(`card ${n}: field ${f} twice`); cf.add(f); if (f === 'habitat' && v === 'air') fails.push(`card ${n}: prints "I live in the air"`); if (!cl.textContent.trim() || !/[.?!]$/.test(cl.textContent.trim())) fails.push(`card ${n}: clue "${cl.textContent.trim()}" is not a sentence`); if (cl.scrollWidth > cl.clientWidth + 0.6) fails.push(`card ${n}: clue clipped`); return [f, v]; });
     // the filter: EXACTLY one bank profile survives every clue, and it is the stamped answer
     const survivors = Object.keys(profiles).filter((k) => parsed.every(([f, v]) => profiles[k][f] === v || profiles[k][f] === 'null'));
     if (survivors.length !== 1 || survivors[0] !== ans) fails.push(`card ${n}: the clues leave [${survivors.join(',')}], stamped answer ${ans}`);

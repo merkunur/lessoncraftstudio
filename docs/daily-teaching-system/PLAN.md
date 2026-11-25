@@ -2438,3 +2438,59 @@ Then batch 1 (Grade 1 pages), and so on.
 - Recorded, not changed: the tracing scene names, and "trousers" on the clothing cards.
 
 **Next:** item 3 is complete. Item 4: German and Swedish to the whole year, then the other 8 languages in the ruled order, each indexable when built.
+
+### 2026-11-25: Stage E begins (item 4); E-0, three waiting English rows placed; the staged release struck; animal fact files fixed live (deploy 66, commits `7901da5cf`, `2cdf88790`, `1ccb4d365`)
+
+**Two operator rulings of 2026-11-25:**
+- **No staged release.** "Strike it from PLAN.md, HANDOFF.md and memory and everywhere else." The measurement stop of §5 rule 12 and its date were my own invention, which had spread into the handoff, the design docs, memory and the session goal as if they were his instruction. Rule 12 now reads "No staged release": every language is built in the ruled order and is indexable as soon as its pages are ready (commit `7901da5cf`; memory `feedback_no_staged_release.md`).
+- **A lesson goes into the unit the year design gives it, and that unit's description gets the new lesson count** (count only; titles stay). This frees the five English design rows that had waited since 2026-11-19, and the 24 German and Swedish lessons that belong to live units.
+
+**Stage E** (plan `lexical-singing-kahan.md`, approved): German and Swedish mathematics to the whole year.
+- 46 open lessons (de 27, sv 19): 8 on pages that exist, 8 waiting for a generator change, 30 for a new page type.
+- 24 go into live units; 22 into 7 units not yet placed.
+- Order: E-0 the English rows, E-1 the 8 generator changes, E-2 the 30 types in three batches (DE-A, DE-B, SV), E-3 the units.
+
+**E-0, the English rows:**
+- **Placed:**
+  - k-short-vowels-and-cvc-words (5 → 7 lessons): Vowels and Consonants (K-230) and Read a Decodable Book (the Set 5 books of K-628) at the end.
+  - g2-reading-to-learn-informational-texts (5 → 6): Clues to a Mystery Animal (G2-343) first, as the design has it.
+- **Where they go:** every check names lessons by number.
+  - The Kindergarten pair inserted first would renumber lessons that a check of the year and two placement checks name.
+  - The mystery animal placed last would be taught on day 98, after the middle-of-year sub day that reviews it (day 90). First, its two checks of the year only needed their numbers moved up by one, and their forms stayed identical.
+- **Downstream:**
+  - Both unit checks were rebuilt with identical forms (the new lessons are named as not in the check).
+  - The Kindergarten sub days of weeks 17–20 trade reading blocks (gate P8; titles unchanged).
+  - Three curriculum pages list the new lessons (titles unchanged).
+  - Weeks and plan titles are unchanged.
+- **The review** (one US K-2 teacher): 6 must-fix and 11 should-fix, applied after checking each on the pages.
+  - "Every word we read has one" breaks on y-words.
+  - The fold books print no pictures.
+  - Set 5 is short e (not all five vowels).
+  - One picture bank serves three cards, so crossing out spoils it.
+  - A Grade 1 standard was shown as "prepares" in Grade 2; both lessons now show "reviews".
+- **Still waiting for a page:** Walk, march, tiptoe (L.K.5.d) and Book talk (SL.1.1.a) are teacher-led, and no tool or screen practice models them (the Picture Word Wall holds nouns; Name Sticks is a classroom tool).
+- **Open:** RF.K.4 and RI.2.1 are not crosswalk rows of these points yet.
+
+**Animal fact files fixed live** (`2cdf88790`, found by the same reviewer on the live G2-343):
+- **What was wrong:**
+  - The live mystery pages, built in September, still printed "I cannot swim" for the eagle and the ant, which the 2026-11-04 fact fix had retired.
+  - "I live in the air" teaches a misconception on a card. A mystery card now never prints an "air" habitat (on 1,405 seeds: 615 old pages carried it, 0 now; pages without it are identical).
+  - "skin" prints as smooth skin in every language, which is false for the bee, butterfly, elephant, shark and pig. Their covering is now null (frog and hippo keep it).
+- **The rebuild:** all 66 live fact-file pages were rebuilt from today's data and compared by pixels and text.
+  - Republished: the 11 mystery pages, and the 4 Norwegian hedgehog pages that still called the hedgehog "piggsvin" (a porcupine).
+  - The other 25 differ only in where a title breaks or in the French space before a colon, and stay as they are.
+- The HANDOFF section 6 order ran on the server: injections intact, lost tails 0, the identity restore put back the 4 Norwegian titles and descriptions (15 named, 11 already right), the canonical repoint ran last with a second pass of 0 in all 11 languages, and identity PASS. The live English mystery page is pixel-identical to the rebuild and prints neither retired fact.
+
+**Also fixed live the same day:**
+- K-069 answer positions (`35ad1f01b`, 7 pages).
+- "1 classroom tool" in the singular on every unit page.
+
+**Live (deploy 66):** units live check 3,596 checks pass; assessments live check 2,120 checks pass (73 unit checks, 24 checks of the year); both units show their new lessons and counts; identity PASS (287 pages, 11 shards). Teacher files uploaded (883, --check equal).
+
+**Open:**
+- The Norwegian deck titles of the four hedgehog pages still say "piggsvin" (indexed titles; only the operator can allow that change).
+- The maker release: K-213's pairs, the wrong pictures, K-069 positions, and now the fact-file data and the air rule.
+- Unit checks for science, social studies, health and thinking.
+- The Texas reading; the nurse's cap; the tracing scene names; "trousers".
+
+**Next:** E-1, the 8 generator changes.

@@ -2032,3 +2032,48 @@ Then batch 1 (Grade 1 pages), and so on.
 - The library nurse's red-cross cap (the owner's word).
 
 **Next:** social studies Grade 1 (batch S1), then Grades 2 and 3; then D-4, preschool theme units.
+
+### 2026-11-25: Stage D-5 batch S1 and Stage D-3 for Grade 1 social studies are live: 18 new Grade 1 social studies page types, a Grade 1 market page with real coins, and 5 units in English (deploys 58 and 59, commits `f65feb81b` and `9cde8fc0e`)
+
+**Batch S1, the pages** (`types/_shared/dk-social-1.js`, `dk-social-1-art.js`, `data/social/dk-social-1.js`, G1-653 … G1-670):
+- **Sixteen lines of the Grade 1 social studies year:**
+  - rules in different places; being a good citizen (honest, kind, fair, responsible); leaders and their jobs (principal, mayor, governor, president);
+  - clues in an old postcard; ask someone older (every question "When you were little,"); school and play long ago and today;
+  - city, suburb and small town; work that fits the land; caring for our park (one object per change; a clean-up day with one visitor who is not helping);
+  - symbols of the United States; George Washington and Abraham Lincoln (a painting, the quarter front and back at real size, a letter, the Lincoln Memorial); why we have the Fourth of July; people who made life fairer (Rosa Parks, Ruby Bridges, Helen Keller, Dr. King, small and true, no likeness);
+  - goods and services (and what our town makes); jobs and earning money; saving for a goal (a goal of $20 or less).
+- **The teacher-led class meeting** gets its page: three talking rules, "I heard ___ say ___. I think ___.", a job chart every first-grade class has, no wrong answer.
+- **G1-670 Prices at the Market,** built to the line: a market stall where each thing has a price tag and a tray of real US coins at real size (today's nickel), exactly one set of coins paying each price; levels to 10, 25 and 50 cents; then "which costs more". The first plan used G2-472 under a Grade 1 id; the notes writer found it was the Grade 2 page (numbered coins, prices to 99 cents, no items), so the line got its own page.
+- Ten codes in playable families are print only (`LEVEL_SET_PRINT_ONLY_VARIATIONS`).
+- **Built by one Opus agent; fixed by two more; read by one US first-grade teacher in three rounds:**
+  - Round 1: 11 must-fix and 32 should-fix. Among them: a rule naming its own picture; "fair" defensible in the lunch-box story; the interview never asking about the past; "a school today" giving its answer; the quarter that could pass for a penny; wrappers that read as bugs and a bag that read as a duck; counts that did not match the objects.
+  - Round 2: 1 must-fix (a clean-up helper who did nothing visible) and 13 should-fix.
+  - Round 3: today's nickel read as headphones, redrawn with hair falling to the collar.
+- **The gate** `qa/verify-dk-social-1.js`: 45,384 assertions at 400 seeds a level, 187/187 poisons, a layout sweep of the generator's seeds.
+- **Byte identity:** 50,604 existing pages hash the same; the only string keys added are G1-653 … G1-670. G1-530 (draw your own map) gains `levelSetWords` with its pages byte-identical.
+- **Level Set `ydq`:** 164 noindex English pages: the 18 types, and G1-530, which the map lesson hands out and which had no English page. check-zips 0 problems, audit 164/164.
+
+**The teaching points:** 18 new points with their C3 indicators (`add-points-1.en.social.js`); 1:prices-market teaches D2.Eco.5.K-2 with the new page; 589 points, all 1,622 types under one.
+
+**Stage D-3 for Grade 1 social studies, the units** (`place-ready-1.en.social.js`): Rules and Good Citizens; Families Long Ago and Today; Maps and Places; Our Country's Symbols and Stories; Goods, Services and Money.
+- 20 lessons; "Read the map key" takes three sessions (the third finishes the child's own map).
+- **Year plan `plan-1-social`:** 28 weeks, 56 sessions sharing half weeks.
+- **20 teacher notes** (`notes/en-social-1.js`, reviewed by the same teacher: 1 must-fix, the baker's rolling pin, and 11 should-fix). The map-key note names the tool its unit page shows, The Rail That Waits.
+- **The guides:** all five fit. The two lessons with two and three page types needed shorter notes, because their thumbnails fill two rows.
+- **Sub days:** the Grade 1 week days rebuilt. 12 Grade 1 social pages a guest teacher can run join the closing block, with their scripts. Not in a guest's day: the meeting, the interview, and the three lessons that need the teacher's own story. All 144 packs keep their titles, descriptions and addresses.
+- **Coverage:** 8 gaps frozen once (decision 7).
+
+**Found by the live check of deploy 58, fixed in deploy 59:**
+- The Lincoln routine said slavery was "when some people were not free". That is true history, but the unit page allows no "free"; it now says "enslaved: made to work without pay and not allowed to leave".
+- Gate P5 never read a lesson's routine, which the page prints; it does now (poison caught; every en, de and sv routine passes).
+- The live check decoded only `&amp;` in a title, so a correct apostrophe failed; it decodes every entity now.
+
+**Live, after the deploy:** English teacher files uploaded (807, `--check` equal); units live check 3,030 checks pass; assessments live check 2,121 checks pass. The 5 unit pages and the plan page answer 200, indexable, self-canonical and in the sitemap, and their teacher files are Teacher-only. A ydq page answers noindex in the header and the page, with its PDF through the metered address. Identity check PASS: 287 pages and 11 shards unchanged (sitemap 3 grew 5,014 → 5,094). Payment canary OK. Server publish staging cleaned (2.2 GB of finished batches).
+
+**Open (unchanged):**
+- The maker release (the sorting maker's K-213 data).
+- Unit checks for the science, health and social studies units.
+- The Texas reading of the new points.
+- The library nurse's red-cross cap.
+
+**Next:** social studies Grade 2 (batch S2), then Grade 3; then D-4, preschool theme units.

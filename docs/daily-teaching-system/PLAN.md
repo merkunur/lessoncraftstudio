@@ -2336,3 +2336,107 @@ Then batch 1 (Grade 1 pages), and so on.
   - "trousers" on the English clothing cards (the British-wording session).
 
 **Next:** the last piece of item 3, D-3 for the thinking-skills units (plan decision 4; designed 2026-11-23 in `scripts/units/year/thinking-units.en.json`, never placed): K Look Closely, Think It Through; G1 Detective Thinking; G2 Clues and Reasons; G3 Logic Lab (20 lessons, no year plan, unit checks). Then item 4, German and Swedish to the whole year.
+
+### 2026-11-25: Stage D-3, the four Thinking Skills units are live in English (deploys 64-65, commits `d959b34f1`, `c51f82733`); K-069 answer positions fixed live (`35ad1f01b`)
+
+**What a Thinking Skills unit is** (plan decision 4):
+- One unit per grade, K-3, for morning work and centers.
+- No year plan: a teacher uses it beside the plans, at any time of year. Coverage does not count it (72 gaps, unchanged).
+- No standard (readiness), except one Grade 2 lesson that PREPARES CCSS L.2.1.f and W.2.2 (its page asks for one sentence after a printed starter; `standardsRel`, the registry row stays "teaches").
+- No unit check: the card engine reads too few of these pages (K and Grade 1: one lesson each; Grades 2 and 3: none; three are needed). Every lesson keeps its check-up page.
+
+**The four units** (design `scripts/units/year/thinking-units.en.json`, 2026-11-23; placed by `scripts/units/year/place-ready-t.en.thinking.js`):
+- **K, Look Closely and Think** (6 lessons, about 3 weeks):
+  - Same or Different?
+  - Spot What Changed
+  - Shadows and Peekaboo Pictures
+  - Find the Way Through a Maze
+  - Copy the Picture Square by Square
+  - What Fits the Gap?
+- **Grade 1, Detective Thinking** (6 lessons, about 3 weeks):
+  - Find and Count the Differences
+  - Plan the Route
+  - Draw It with the Grid
+  - Picture Analogies: Big and Little
+  - 4x4 Picture Sudoku
+  - Logic with Picture Clues
+- **Grade 2, Clues and Reasons** (4 lessons, about 2 weeks):
+  - Find 10 Differences and Write About Them
+  - The Shortest Way Through Town
+  - Picture Clue Logic: Every Clue Says No
+  - Logic Grids with Three Clues
+  - Two Grade 1 points are carried up one level, as lessons with their own ids (`1:mazes#shortest-way`, `1:logic-picture-clues#harder-level`); the second avoids the four pages the Grade 1 lesson hands out.
+- **Grade 3, Logic Lab** (4 lessons, about 2 weeks):
+  - Venn Diagram Sorts
+  - What Completes the Puzzle?
+  - 6x6 Picture Sudoku
+  - Logic Grids with Six Clues
+
+**The pages:**
+- 29 existing types, all published in English at their levels.
+- I read every type on contact sheets (first page of each level) and from its settings (rows, pairs, clues and pictures per level).
+- Where the design said more than the page does, the lesson says what the page does: G1-157 pairs every picture with itself at another size, so the lesson teaches size analogies, and the design's baby-and-mother pairs stay in the spoken warm-up.
+
+**Notes:**
+- 20 teacher notes (`scripts/units/notes/en-thinking-k3.js`), each with a hands-on routine. A routine counts as the second asset of a one-type lesson.
+- Fitted to their guide sheets: three or more page types fill a sheet, so those notes are shorter.
+- G1-416's title carries a placeholder in the middle ("Draw {L} with the Grid"), so the lesson labels it "Draw a Picture with the Grid".
+
+**Search:**
+- A US autocomplete harvest (`scripts/seo-research/harvest-thinking-skills.js`, 428 probes, `docs/SEO/daily-system-demand/thinking-skills.en.json`).
+- "critical thinking activities/worksheets for kindergarten" is the K head; "logic puzzles for 1st/2nd/3rd grade" is the strongest head of Grades 1-3.
+- The titles:
+  - Kindergarten Critical Thinking Lesson Plans: Visual Skills and Mazes
+  - Grade 1 Critical Thinking Lesson Plans: Logic Puzzles and Mazes
+  - Grade 2 Critical Thinking Lesson Plans: Logic Puzzles and Clues
+  - Grade 3 Critical Thinking Lesson Plans: Logic Grids and Sudoku
+
+**Screen practice:**
+- Two lessons name no activity (`activity: null`). The activities linked to their points are one-category sorts of Kindergarten and Grade 1 (ziggy-odd-one-out L.1.5.a, mims-baskets L.K.5.a), below a logic grid or a Venn sort.
+- The logic-grid lesson practices on a screen copy of its own page.
+
+**The review** (one US K-3 teacher, Opus; notes, routines and the nine contact sheets; `lcs-stage-d/thinking/REVIEW.md`): 10 must-fix and 23 should-fix findings, all applied after I reproduced them on the pages.
+- The town maze puts ONE dot in the middle of each street piece, and its key shows a piece with one dot "= 1". The note had taught "count the pieces, not the dots", which would have marked right answers wrong.
+- An either-or clue names ONE child and TWO pictures and crosses out the third picture. The note had taught two children and one picture.
+- On the true-or-false page, a "does not have" sentence over an X is true. The note's "What is in that box?" walked children into that trap; it now asks whether the box says the same as the sentence.
+- Three notes described choices or a game the pages do not have.
+- "Hidden pictures" means hidden-object puzzles to a US teacher, so the lesson is now "Shadows and Peekaboo Pictures" and the K description says "visual closure".
+- US register: Venn diagram, medium, 6x6.
+- The routine of Find and Count the Differences has the teacher change three things, not a child.
+- Two easier sudoku pages with look-alike pictures (yellow emoji faces; six small people in red and white) are harder than their core page, so the lessons do not hand them out.
+- The Venus picture on one Grade 3 sort page was weighed again and kept (the morning's ruling; the sort works by the picture).
+
+**Found on live pages and fixed the same day:**
+- **K-069 What Is It?** (`35ad1f01b`): the easier breakfast page had the right picture LAST in all four rows.
+  - The type now moves the answer when every row put it in one place: a swap, no new randomness. On 7,200 pages (6 themes, 3 levels, 400 seeds), 6,992 are byte-identical and the 208 with the tell (2.9%) move it. The type's verify refuses the tell.
+  - Live: 183 K-069 pages in 11 languages were rebuilt (live pages only) and compared pixel by pixel with the live PDFs; 16 differed. I read all 16 side by side:
+    - 7 had the tell and are republished in place (noindex, live titles kept): breakfast de/en/es, music fi, furniture it, miscellaneous and tools nl.
+    - The other 9 differ only because the morning's picture round changed their theme's pool. Their live answers already move, so they stay.
+  - The HANDOFF section 6 order on the server:
+    - injections 0 lost;
+    - lost tails 0;
+    - the 7 pages have no version older than the baseline, so each was compared with its previous version: title, description, canonical and robots are the same;
+    - repoint 0 (no landing);
+    - identity PASS.
+  - The live English breakfast PDF is pixel-identical to the rebuilt page.
+- **"1 classroom tools for the projector" / "1 activities and pages that children do on a screen"** (seen on the Grade 3 pilot; 14 live English units carry one tool and 10 one screen practice; German and Swedish share the line): `UnitPage` takes `insideTools_one`, `insideScreen_one` and `insideExit_one` when the count is 1, in en, de and sv.
+
+**Live:**
+- **Deploy 64:** the four units as pilots.
+  - The units live check passed 3,596 checks.
+  - I read the phone (390) and desktop (1280) renders: no overflow; the blank thumbnails in a full-page shot are lazy-loaded images that answer 200.
+  - The teacher guides were uploaded: 883 files, `--check` equal.
+- **Deploy 65:** the switch to live.
+  - The units live check passes 3,596 checks.
+  - The four pages answer 200, indexable, self-canonical and in the sitemap; the hub shows a "Thinking skills" section per grade (hub title and description unchanged).
+  - Grade 3 reads "1 classroom tool for the projector".
+  - Identity check PASS (287 pages, 11 shards).
+
+**Open (unchanged):**
+- The maker release: K-213's retired pairs and the morning's wrong pictures, and now K-069's answer positions. Makers draw from the type code, so a maker page with the tell keeps it until the release.
+- Unit checks for the science, health, social studies and thinking units: the card engine cannot read these pages.
+- The Texas reading of the new points.
+- The library nurse's red-cross cap.
+- Recorded, not changed: the tracing scene names, and "trousers" on the clothing cards.
+
+**Next:** item 3 is complete. Item 4: German and Swedish to the whole year. The other 8 languages wait for the 2026-12-09 Search Console read.

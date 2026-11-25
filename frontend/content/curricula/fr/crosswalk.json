@@ -4774,6 +4774,18 @@
    ],
    "by": "authored"
   },
+  "1:city-suburb-town": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:work-fits-land": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:fourth-of-july": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "1:family-generations": {
    "rows": [
     {
@@ -4787,6 +4799,66 @@
      "grade": "1"
     }
    ],
+   "by": "authored"
+  },
+  "1:old-postcard-clues": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:ask-someone-older": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:school-play-long-ago": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:rules-in-places": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:good-citizen": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:people-made-fairer": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:class-meeting": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:saving-goal": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:prices-market": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:us-symbols": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:washington-lincoln": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:goods-services-near-far": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:leaders-jobs": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:jobs-earning-money": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "1:caring-for-places": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "2:cardinal-directions": {

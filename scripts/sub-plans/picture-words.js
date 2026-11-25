@@ -42,6 +42,7 @@ const DRAWN = {
   'K-370': ['star'],
   'K-375': ['star'],
   // the Kindergarten social studies pages (Stage D-5 batch SK, 2026-11-24): drawn scenes, people and objects
+  'G1-661': ['flowers', 'flower bed', 'pond', 'bench', 'trash can', 'tree', 'dog', 'park'],
   'K-712': ['hall', 'lockers', 'door', 'easel', 'rug', 'blocks', 'book', 'toy car'],
   'K-713': ['slide', 'crayons', 'teddy bear', 'tower', 'blocks', 'cookies', 'picnic', 'drawing', 'line'],
   'K-716': ['washboard', 'tub', 'candle', 'candle holder', 'horse', 'buggy', 'telephone', 'phone', 'cell phone', 'car'],

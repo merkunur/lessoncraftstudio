@@ -287,9 +287,9 @@
       "key": "en-1-036",
       "fit": "exact",
       "types": [
-        "G2-472"
+        "G1-670"
       ],
-      "differs": "Circle the coins from the tray that pay each price exactly (any coins that make it are right): level 1 pennies, nickels and dimes, two to four coins a price, under 50 cents; level 2 quarters too, under a dollar. These cover the need's levels 2 and 3; there is no level with prices to 10 cents, the prices are cards, not a market stall, and 'which costs more' is not asked.",
+      "differs": "Built for this line in Stage D-5 batch S1 (2026-11-25): a market stall where each thing has a price tag and a tray of real US coins at real size, exactly one set paying the price; level 1 prices to 10 cents with pennies and a nickel, level 2 to 25 cents with dimes, level 3 to 50 cents with all four coins; then which costs more. It replaces G2-472, whose coins and prices are Grade 2.",
       "published": "yes"
     },
     {

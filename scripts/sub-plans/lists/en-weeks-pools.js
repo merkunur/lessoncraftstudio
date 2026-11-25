@@ -57,7 +57,9 @@ module.exports = {
     logic: '1:mazes G1-420; 1:mazes G1-421; 1:mazes G1-424; 1:mazes G1-425; K:patterns K-049; K:patterns K-053; K:mazes K-405; K:mazes K-406; K:mazes K-411; K:spot-the-difference K-399; K:spot-the-difference K-400;'
       + '1:map-key G1-528; K:grid-copy K-299; K:grid-copy K-300; K:grid-copy K-502',
     closing: 'K:feelings K-331; K:feelings K-334; 1:story-sequencing G1-401; 1:find-the-differences G1-415; 1:animal-classes-coverings G1-201; 1:animal-classes-coverings G1-205; 1:habitats-needs G1-202; 1:habitats-needs G1-206;'
-      + '1:sink-float G1-204; 1:food-groups G1-207; 1:family-generations G1-385; 1:family-generations G1-386',
+      + '1:sink-float G1-204; 1:food-groups G1-207; 1:family-generations G1-385; 1:family-generations G1-386;'
+      + '1:rules-in-places G1-653; 1:good-citizen G1-654; 1:leaders-jobs G1-655; 1:school-play-long-ago G1-658; 1:city-suburb-town G1-659; 1:work-fits-land G1-660;'
+      + '1:caring-for-places G1-661; 1:us-symbols G1-662; 1:goods-services-near-far G1-666; 1:jobs-earning-money G1-667; 1:prices-market G1-670; 1:saving-goal G1-668',
   },
   2: {
     morning: '1:fluency-within-20 G1-216; 1:fluency-within-20 G1-217; 1:number-of-the-day G1-257; 1:number-of-the-day G1-256; 2:skip-count-5-10-100 G2-304; 2:skip-count-5-10-100 G2-314; 2:hundred-more-less G2-226; 2:calendar G2-277; 2:calendar G2-298; 2:calendar G2-297;'

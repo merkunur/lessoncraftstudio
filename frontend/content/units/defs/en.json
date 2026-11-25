@@ -5933,6 +5933,195 @@
     }
    ],
    "weeks": 6
+  },
+  {
+   "id": "g1-rules-and-good-citizens",
+   "slug": "rules-and-good-citizens-grade-1-social-studies-unit",
+   "status": "live",
+   "grade": "1",
+   "subject": "social",
+   "title": "Rules and Good Citizens",
+   "metaTitle": "Grade 1 Social Studies Lesson Plans: Rules and Good Citizens",
+   "metaDescription": "A Grade 1 social studies unit: 4 lessons on rules in different places, a class meeting with talking rules, being a good citizen, and leaders and their jobs.",
+   "lessons": [
+    {
+     "point": "1:rules-in-places",
+     "types": [
+      "G1-653"
+     ]
+    },
+    {
+     "point": "1:class-meeting",
+     "types": [
+      "G1-669"
+     ]
+    },
+    {
+     "point": "1:good-citizen",
+     "types": [
+      "G1-654"
+     ]
+    },
+    {
+     "point": "1:leaders-jobs",
+     "types": [
+      "G1-655"
+     ]
+    }
+   ],
+   "weeks": 6
+  },
+  {
+   "id": "g1-families-long-ago-and-today",
+   "slug": "families-long-ago-and-today-grade-1-social-studies-unit",
+   "status": "live",
+   "grade": "1",
+   "subject": "social",
+   "title": "Families Long Ago and Today",
+   "metaTitle": "Grade 1 Social Studies Lesson Plans: Families Long Ago and Today",
+   "metaDescription": "A Grade 1 social studies unit: 4 lessons on family generations, clues in an old postcard, asking someone older, and school and play long ago and today.",
+   "lessons": [
+    {
+     "point": "1:family-generations",
+     "types": [
+      "G1-385",
+      "G1-386"
+     ]
+    },
+    {
+     "point": "1:old-postcard-clues",
+     "types": [
+      "G1-656"
+     ]
+    },
+    {
+     "point": "1:ask-someone-older",
+     "types": [
+      "G1-657"
+     ]
+    },
+    {
+     "point": "1:school-play-long-ago",
+     "types": [
+      "G1-658"
+     ]
+    }
+   ],
+   "weeks": 6
+  },
+  {
+   "id": "g1-maps-and-places",
+   "slug": "maps-and-places-grade-1-social-studies-unit",
+   "status": "live",
+   "grade": "1",
+   "subject": "social",
+   "title": "Maps and Places",
+   "metaTitle": "Grade 1 Social Studies Lesson Plans: Maps and Places",
+   "metaDescription": "A Grade 1 social studies unit: 4 lessons on reading a map key and making a map, city, suburb and small town, work that fits the land, and caring for places.",
+   "lessons": [
+    {
+     "point": "1:map-key",
+     "types": [
+      "G1-379",
+      "G1-528",
+      "G1-530"
+     ],
+     "days": 3
+    },
+    {
+     "point": "1:city-suburb-town",
+     "types": [
+      "G1-659"
+     ]
+    },
+    {
+     "point": "1:work-fits-land",
+     "types": [
+      "G1-660"
+     ]
+    },
+    {
+     "point": "1:caring-for-places",
+     "types": [
+      "G1-661"
+     ]
+    }
+   ],
+   "weeks": 6
+  },
+  {
+   "id": "g1-our-country-symbols-stories",
+   "slug": "our-countrys-symbols-and-stories-grade-1-social-studies-unit",
+   "status": "live",
+   "grade": "1",
+   "subject": "social",
+   "title": "Our Country's Symbols and Stories",
+   "metaTitle": "Grade 1 Social Studies Lesson Plans: Our Country's Symbols and Stories",
+   "metaDescription": "A Grade 1 social studies unit: 4 lessons on the symbols of the United States, Washington and Lincoln, the Fourth of July, and people who made life fairer.",
+   "lessons": [
+    {
+     "point": "1:us-symbols",
+     "types": [
+      "G1-662"
+     ]
+    },
+    {
+     "point": "1:washington-lincoln",
+     "types": [
+      "G1-663"
+     ]
+    },
+    {
+     "point": "1:fourth-of-july",
+     "types": [
+      "G1-664"
+     ]
+    },
+    {
+     "point": "1:people-made-fairer",
+     "types": [
+      "G1-665"
+     ]
+    }
+   ],
+   "weeks": 6
+  },
+  {
+   "id": "g1-goods-services-money",
+   "slug": "goods-services-and-money-grade-1-social-studies-unit",
+   "status": "live",
+   "grade": "1",
+   "subject": "social",
+   "title": "Goods, Services and Money",
+   "metaTitle": "Grade 1 Social Studies Lesson Plans: Goods, Services and Money",
+   "metaDescription": "A Grade 1 social studies unit: 4 lessons on goods and services near and far, jobs and earning money, prices at the market, and saving for a goal.",
+   "lessons": [
+    {
+     "point": "1:goods-services-near-far",
+     "types": [
+      "G1-666"
+     ]
+    },
+    {
+     "point": "1:jobs-earning-money",
+     "types": [
+      "G1-667"
+     ]
+    },
+    {
+     "point": "1:prices-market",
+     "types": [
+      "G1-670"
+     ]
+    },
+    {
+     "point": "1:saving-goal",
+     "types": [
+      "G1-668"
+     ]
+    }
+   ],
+   "weeks": 6
   }
  ],
  "plans": [
@@ -6179,6 +6368,22 @@
     "k-helpers-needs-wants",
     "k-our-country-being-fair",
     "k-maps-places-getting-around"
+   ]
+  },
+  {
+   "id": "plan-1-social",
+   "slug": "grade-1-social-studies-scope-and-sequence",
+   "grade": "1",
+   "subject": "social",
+   "title": "Grade 1 Social Studies Scope and Sequence",
+   "metaTitle": "Grade 1 Social Studies Scope, Sequence and Pacing ({weeks} Weeks)",
+   "metaDescription": "{units} Grade 1 social studies units in teaching order, about {weeks} weeks of two social studies sessions a week, with each unit's lessons and its C3 standards.",
+   "units": [
+    "g1-rules-and-good-citizens",
+    "g1-families-long-ago-and-today",
+    "g1-maps-and-places",
+    "g1-our-country-symbols-stories",
+    "g1-goods-services-money"
    ]
   }
  ]

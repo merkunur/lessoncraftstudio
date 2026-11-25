@@ -25,6 +25,8 @@ module.exports = {
   themeAxis: { applicable: false },
   difficulty: D,
   i18n: { en: { title: 'Draw Your Own Map', instruction: 'Draw a map. In the key, draw each symbol you used and write what it means.' } },
+  // The Level Set builder tells copies apart by a list of words; this open page differs by level only (Stage D-5, 2026-11-24).
+  levelSetWords(m) { return [String(m.plate), String(m.rows)]; },
 
   build({ difficulty, locale }) {
     const d = D[difficulty] || D[2], L = String(locale || 'en').slice(0, 2);

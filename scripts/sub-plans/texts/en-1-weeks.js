@@ -21,6 +21,70 @@ const story = (task) => ({
 module.exports = {
   loc: 'en',
   points: {
+    // ---- the Grade 1 social studies points (Stage D-3, 2026-11-25): the closing block of the weeks after their lesson,
+    // written from the pages (lcs-stage-d/batch-s1/TEXT-DUMP.md after review round 3). The teacher-led class meeting, the
+    // interview with someone older and the three lessons that need the teacher's own story (Washington and Lincoln, the
+    // Fourth of July, people who made life fairer) are not in a guest teacher's day. ----
+    '1:rules-in-places': {
+      say: '"Each rule belongs to a place. Read each rule with me. Then draw a line from the rule to the place where it belongs."',
+      first: 'Read the names of the places aloud and point to each picture. Do the first rule together: read it, ask, "Where do people need this rule?" and draw the line together. If your page also asks you to write a rule, say one together first: "We take turns on the slide so that everyone gets a turn."',
+      stuck: 'Read the rule with the child and ask, "Where would someone say this to you?" Point to each place in turn and ask, "Here?" Then ask why the rule is there: to keep us safe, to let everyone hear, or to be fair.',
+    },
+    '1:good-citizen': {
+      say: '"Each box tells a short story. Circle what a good citizen does. Then circle the word that tells how."',
+      first: 'Read the words on the page aloud and say what each one means: honest, you tell the truth; kind, you are nice to others; fair, everyone gets a turn or a share; responsible, you do the job you said you would do. Read the first story and both choices aloud, then ask, "Which one is what a good citizen does?" Circle it together, then circle the word that tells how.',
+      stuck: 'Read the story again and ask, "What did the child do: tell the truth, help someone, share, or do a job?" Then read the two words beside it and let the child choose. If the child has a good reason for the other word, say, "Yes, that is true too," and ask which word fits best.',
+    },
+    '1:leaders-jobs': {
+      say: '"Draw a line from each leader to what that leader leads."',
+      first: 'Say what each leader does: the principal leads a school, the mayor leads a town or a city, the governor leads a state, and the president leads our whole country. Name the pictures on the page together. Do the first line together. If your page asks "Who says it?", read each sentence aloud and let the children circle the leader.',
+      stuck: 'Ask, "Who leads our school? Our town? Our state? Our whole country?" Go from the smallest place, the school, to the biggest, the whole country.',
+    },
+    '1:school-play-long-ago': {
+      say: '"Look at each picture and read each sentence. Is it from long ago or today? Circle long ago or today."',
+      first: 'Ask the class, "How did children go to school and play long ago, when your great-grandparents were little?" Read the words under the first picture aloud and ask, "Do children do that today?" Circle together. Read the sentences aloud for the children who need it. If the page asks which school the child would like, any answer with a reason is right.',
+      stuck: 'Ask, "Have you seen one of these at school or at home?" Something children use today is today; something we see only in old pictures is long ago.',
+    },
+    '1:city-suburb-town': {
+      say: '"Each picture shows a place, and each place has a letter. Read each sentence and write the letter of the place it tells about."',
+      first: 'Look at the places on your page together and ask the children what they see in each one: tall buildings and a subway in the city, houses with garages near a shopping center in the suburb, fields and a silo in the farm town. Read the first sentence aloud and ask, "Which picture shows that?" Write the letter together. If the page asks where the child lives and gets food, any true answer is right.',
+      stuck: 'Read the sentence again and ask, "What is it about?" Then find that thing in the pictures together and write the letter of that place.',
+    },
+    '1:work-fits-land': {
+      say: '"Draw a line from each worker to the land where the work is done."',
+      first: 'Name the pictures of the land together: a forest, the ocean coast, and on some pages flat farmland and snowy mountains. Read the workers aloud. Do the first one together: "A person who fishes. Which land is by the ocean?" Draw the line. If the page asks for sentences about one place, the child picks any place on the page.',
+      stuck: 'Ask, "What does this worker need for the job: trees, the ocean, snow, or a big flat field? Which picture has it?"',
+    },
+    '1:caring-for-places': {
+      say: '"The first picture shows a park in the morning. The next picture shows the same park in the evening. Circle the things people changed."',
+      first: 'Look at the morning picture together and name what is there: the flowers, the pond, the bench, the trash can, the tree. Then look at the evening picture and ask, "What is different? Did a person do that?" Find the first change together. The page says how many changes to find. If there is a clean-up-day picture, circle each person who is helping; someone just walking a dog is visiting, not helping. If the page asks how our class can help, any helpful idea is right.',
+      stuck: 'Point to one thing in the morning picture, the pond for example, and ask, "Is it the same in the evening?" Go through the park one thing at a time.',
+    },
+    '1:us-symbols': {
+      say: '"Each picture shows a symbol of the United States. Read about it. Then trace or write its name."',
+      first: 'Name the symbols on your page together: the flag, the bald eagle, the Statue of Liberty, the Liberty Bell. Read each sentence aloud for the children who need it. Do the first one together. On some pages the names are in a word box at the top. If the page asks for a symbol for our class, any drawing with what it stands for is right.',
+      stuck: 'Read the sentence again and ask, "Which picture does that tell about?" Then find its name in the word box, or trace the name under the picture.',
+    },
+    '1:goods-services-near-far': {
+      say: '"Goods are things people make or grow. Services are work someone does for you. Color the box yellow for goods and green for services."',
+      first: 'Hold up a pencil: "Someone made this. It is a good." Then say, "When someone does work for you, that is a service." Name each picture on the page together and do the first one together. If your page has a town map, read the labels aloud: a good from a place on the map is from our town; a good grown far away is not.',
+      stuck: 'Ask, "Is it a thing someone made or grew, or is it work someone does for you?" Bananas are a good; a haircut is a service.',
+    },
+    '1:jobs-earning-money': {
+      say: '"Draw a line from each sentence to the worker who says it. Then circle what a family can spend its pay on."',
+      first: 'Say, "People work at jobs and get paid money. Then they can buy what they need." Read each sentence aloud and name the workers in the pictures together. Do the first line together. Then point to each picture of the last part and ask, "Can a family buy this with money?" The sun, a hug, and a rainbow cannot be bought. If the page asks for a job the child would like, any job is right.',
+      stuck: 'Read the sentence with the child and ask, "Who does that work?" Point to each worker and ask what that person does.',
+    },
+    '1:prices-market': {
+      say: '"Each thing at the market has a price tag. Circle the coins that pay the price exactly. Then circle the one that costs more."',
+      first: 'Look at the coins at the top together and name each coin and what it is worth: a penny is 1 cent, a nickel 5 cents, a dime 10 cents, a quarter 25 cents. Do the first thing together: read its price, start with the biggest coin that fits, and count on aloud as you circle each coin. Some coins are left over. Then read the two prices in "Which costs more?" and circle the bigger one.',
+      stuck: 'Have the child find each coin of the tray in the coins at the top. Start with the biggest coin that fits, add the next coin that still fits, and count on aloud until you reach the price.',
+    },
+    '1:saving-goal': {
+      say: '"The child in the story saves one dollar each week. Color one part of the jar for each week until the jar is full. Then answer the questions and circle why the child saved."',
+      first: 'Read the story aloud and ask, "How much does the child save each week? How much does the thing cost?" Color one part together and say, "One week, one dollar." Count the weeks aloud as you color. The number of colored parts is the number of weeks. If the page asks for the child\'s own goal, it costs $20 or less, and any goal is right.',
+      stuck: 'Color one part with the child and say, "One week, one dollar." Keep going, one part at a time, until the jar is full. Then count the colored parts together.',
+    },
     // ---- new points ----
     '1:add-three-addends': {
       say: '"Each problem adds three numbers. Look for two numbers that make ten, add them first, and then add the third number."',

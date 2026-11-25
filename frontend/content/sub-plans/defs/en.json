@@ -3370,8 +3370,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:family-generations",
-     "type": "G1-385"
+     "point": "1:rules-in-places",
+     "type": "G1-653"
     }
    ]
   },
@@ -3425,14 +3425,14 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "1:map-key",
-     "type": "G1-528"
+     "point": "K:grid-copy",
+     "type": "K-299"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:feelings",
-     "type": "K-334"
+     "point": "1:good-citizen",
+     "type": "G1-654"
     }
    ]
   },
@@ -3486,14 +3486,15 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "K:grid-copy",
-     "type": "K-299"
+     "point": "1:mazes",
+     "type": "G1-421",
+     "title": "Help the Earthworm Reach the Leaf"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:find-the-differences",
-     "type": "G1-415"
+     "point": "1:leaders-jobs",
+     "type": "G1-655"
     }
    ]
   },
@@ -3547,15 +3548,14 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "1:mazes",
-     "type": "G1-421",
-     "title": "Help the Earthworm Reach the Leaf"
+     "point": "K:patterns",
+     "type": "K-053"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:feelings",
-     "type": "K-331"
+     "point": "1:family-generations",
+     "type": "G1-385"
     }
    ]
   },
@@ -3609,14 +3609,14 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "K:patterns",
-     "type": "K-053"
+     "point": "K:mazes",
+     "type": "K-406"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:family-generations",
-     "type": "G1-386"
+     "point": "K:feelings",
+     "type": "K-334"
     }
    ]
   },
@@ -3670,8 +3670,8 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "K:mazes",
-     "type": "K-406"
+     "point": "K:spot-the-difference",
+     "type": "K-400"
     },
     {
      "key": "closing",
@@ -3731,14 +3731,14 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "K:spot-the-difference",
-     "type": "K-400"
+     "point": "1:mazes",
+     "type": "G1-424"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:story-sequencing",
-     "type": "G1-401"
+     "point": "1:school-play-long-ago",
+     "type": "G1-658"
     }
    ]
   },
@@ -3792,8 +3792,8 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "1:mazes",
-     "type": "G1-424"
+     "point": "K:mazes",
+     "type": "K-411"
     },
     {
      "key": "closing",
@@ -3853,14 +3853,14 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "K:mazes",
-     "type": "K-411"
+     "point": "K:patterns",
+     "type": "K-049"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:feelings",
-     "type": "K-331"
+     "point": "1:story-sequencing",
+     "type": "G1-401"
     }
    ]
   },
@@ -3914,14 +3914,14 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "K:patterns",
-     "type": "K-049"
+     "point": "1:map-key",
+     "type": "G1-528"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:story-sequencing",
-     "type": "G1-401"
+     "point": "K:feelings",
+     "type": "K-331"
     }
    ]
   },
@@ -3981,8 +3981,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:family-generations",
-     "type": "G1-385"
+     "point": "1:city-suburb-town",
+     "type": "G1-659"
     }
    ]
   },
@@ -4036,8 +4036,8 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "1:map-key",
-     "type": "G1-528"
+     "point": "1:mazes",
+     "type": "G1-425"
     },
     {
      "key": "closing",
@@ -4097,14 +4097,14 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "1:mazes",
-     "type": "G1-425"
+     "point": "K:spot-the-difference",
+     "type": "K-399"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:story-sequencing",
-     "type": "G1-401"
+     "point": "1:work-fits-land",
+     "type": "G1-660"
     }
    ]
   },
@@ -4128,8 +4128,8 @@
     {
      "key": "reading",
      "minutes": 20,
-     "point": "1:read-and-follow",
-     "type": "G1-341"
+     "point": "1:story-sequencing",
+     "type": "G1-400"
     },
     {
      "key": "phonics",
@@ -4158,8 +4158,9 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "K:spot-the-difference",
-     "type": "K-399"
+     "point": "K:mazes",
+     "type": "K-405",
+     "title": "Help the Pig Reach the Mud Puddle"
     },
     {
      "key": "closing",
@@ -4189,8 +4190,8 @@
     {
      "key": "reading",
      "minutes": 20,
-     "point": "1:characters-setting-events",
-     "type": "G1-580"
+     "point": "1:read-and-follow",
+     "type": "G1-341"
     },
     {
      "key": "phonics",
@@ -4219,15 +4220,14 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "K:mazes",
-     "type": "K-405",
-     "title": "Help the Pig Reach the Mud Puddle"
+     "point": "K:patterns",
+     "type": "K-053"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:food-groups",
-     "type": "G1-207"
+     "point": "1:caring-for-places",
+     "type": "G1-661"
     }
    ]
   },
@@ -4251,8 +4251,8 @@
     {
      "key": "reading",
      "minutes": 20,
-     "point": "1:story-sequencing",
-     "type": "G1-400"
+     "point": "1:characters-setting-events",
+     "type": "G1-580"
     },
     {
      "key": "phonics",
@@ -4262,9 +4262,9 @@
     },
     {
      "key": "writing",
-     "minutes": 20,
-     "point": "1:joining-words",
-     "type": "G1-594"
+     "minutes": 25,
+     "point": "1:true-story-plan-and-draft",
+     "type": "G1-616"
     },
     {
      "key": "math",
@@ -4281,14 +4281,15 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "K:patterns",
-     "type": "K-053"
+     "point": "1:mazes",
+     "type": "G1-420",
+     "title": "Help the Tortoise Find the Watermelon"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:habitats-needs",
-     "type": "G1-206"
+     "point": "1:us-symbols",
+     "type": "G1-662"
     }
    ]
   },
@@ -4323,9 +4324,9 @@
     },
     {
      "key": "writing",
-     "minutes": 25,
-     "point": "1:true-story-plan-and-draft",
-     "type": "G1-616"
+     "minutes": 20,
+     "point": "1:spell-picture-words",
+     "type": "G1-301"
     },
     {
      "key": "math",
@@ -4342,15 +4343,14 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "1:mazes",
-     "type": "G1-420",
-     "title": "Help the Tortoise Find the Watermelon"
+     "point": "K:spot-the-difference",
+     "type": "K-400"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:animal-classes-coverings",
-     "type": "G1-205"
+     "point": "1:family-generations",
+     "type": "G1-386"
     }
    ]
   },
@@ -4386,8 +4386,8 @@
     {
      "key": "writing",
      "minutes": 20,
-     "point": "1:spell-picture-words",
-     "type": "G1-301"
+     "point": "1:pronouns",
+     "type": "G1-372"
     },
     {
      "key": "math",
@@ -4410,8 +4410,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:family-generations",
-     "type": "G1-386"
+     "point": "1:find-the-differences",
+     "type": "G1-415"
     }
    ]
   },
@@ -4447,8 +4447,8 @@
     {
      "key": "writing",
      "minutes": 20,
-     "point": "1:pronouns",
-     "type": "G1-372"
+     "point": "1:unscramble-sentence",
+     "type": "G1-283"
     },
     {
      "key": "math",
@@ -4465,14 +4465,15 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "K:spot-the-difference",
-     "type": "K-400"
+     "point": "K:mazes",
+     "type": "K-406",
+     "title": "Help the Kitten Get to the Milk"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:habitats-needs",
-     "type": "G1-202"
+     "point": "1:school-play-long-ago",
+     "type": "G1-658"
     }
    ]
   },
@@ -4508,8 +4509,8 @@
     {
      "key": "writing",
      "minutes": 20,
-     "point": "1:unscramble-sentence",
-     "type": "G1-283"
+     "point": "1:question-words",
+     "type": "G1-374"
     },
     {
      "key": "math",
@@ -4526,15 +4527,14 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "K:mazes",
-     "type": "K-406",
-     "title": "Help the Kitten Get to the Milk"
+     "point": "1:map-key",
+     "type": "G1-528"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:animal-classes-coverings",
-     "type": "G1-201"
+     "point": "K:feelings",
+     "type": "K-331"
     }
    ]
   },
@@ -4570,8 +4570,8 @@
     {
      "key": "writing",
      "minutes": 20,
-     "point": "1:question-words",
-     "type": "G1-374"
+     "point": "1:spell-picture-words",
+     "type": "G1-304"
     },
     {
      "key": "math",
@@ -4595,8 +4595,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:habitats-needs",
-     "type": "G1-206"
+     "point": "1:goods-services-near-far",
+     "type": "G1-666"
     }
    ]
   },
@@ -4632,8 +4632,8 @@
     {
      "key": "writing",
      "minutes": 20,
-     "point": "1:spell-picture-words",
-     "type": "G1-304"
+     "point": "1:joining-words",
+     "type": "G1-594"
     },
     {
      "key": "math",
@@ -4650,8 +4650,8 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "1:map-key",
-     "type": "G1-528"
+     "point": "K:spot-the-difference",
+     "type": "K-399"
     },
     {
      "key": "closing",
@@ -4693,8 +4693,8 @@
     {
      "key": "writing",
      "minutes": 20,
-     "point": "1:verb-tense",
-     "type": "G1-595"
+     "point": "1:pronouns",
+     "type": "G1-352"
     },
     {
      "key": "math",
@@ -4718,8 +4718,8 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:family-generations",
-     "type": "G1-385"
+     "point": "1:jobs-earning-money",
+     "type": "G1-667"
     }
    ]
   },
@@ -4743,8 +4743,8 @@
     {
      "key": "reading",
      "minutes": 20,
-     "point": "1:read-and-follow",
-     "type": "G1-242"
+     "point": "1:story-sequencing",
+     "type": "G1-402"
     },
     {
      "key": "phonics",
@@ -4755,8 +4755,8 @@
     {
      "key": "writing",
      "minutes": 20,
-     "point": "1:pronouns",
-     "type": "G1-352"
+     "point": "1:verb-tense",
+     "type": "G1-595"
     },
     {
      "key": "math",
@@ -4773,14 +4773,15 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "K:spot-the-difference",
-     "type": "K-399"
+     "point": "1:mazes",
+     "type": "G1-424",
+     "title": "Help the Bee Pick Up Every Sunflower"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:sink-float",
-     "type": "G1-204"
+     "point": "1:prices-market",
+     "type": "G1-670"
     }
    ]
   },
@@ -4804,8 +4805,8 @@
     {
      "key": "reading",
      "minutes": 20,
-     "point": "1:story-sequencing",
-     "type": "G1-402"
+     "point": "1:read-and-follow",
+     "type": "G1-242"
     },
     {
      "key": "phonics",
@@ -4816,8 +4817,8 @@
     {
      "key": "writing",
      "minutes": 20,
-     "point": "1:capitals-names-days-months",
-     "type": "G1-593"
+     "point": "1:unscramble-sentence",
+     "type": "G1-249"
     },
     {
      "key": "math",
@@ -4834,9 +4835,8 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "1:mazes",
-     "type": "G1-424",
-     "title": "Help the Bee Pick Up Every Sunflower"
+     "point": "K:grid-copy",
+     "type": "K-502"
     },
     {
      "key": "closing",
@@ -4878,8 +4878,8 @@
     {
      "key": "writing",
      "minutes": 20,
-     "point": "1:unscramble-sentence",
-     "type": "G1-249"
+     "point": "1:capitals-names-days-months",
+     "type": "G1-593"
     },
     {
      "key": "math",
@@ -4896,14 +4896,14 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "K:grid-copy",
-     "type": "K-502"
+     "point": "K:spot-the-difference",
+     "type": "K-400"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:habitats-needs",
-     "type": "G1-202"
+     "point": "1:saving-goal",
+     "type": "G1-668"
     }
    ]
   },
@@ -4957,15 +4957,15 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "K:mazes",
-     "type": "K-405",
-     "title": "Help the Boy on the Bike Reach the Slide"
+     "point": "1:mazes",
+     "type": "G1-425",
+     "title": "Bring the Fish to the Coral Safely"
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:family-generations",
-     "type": "G1-386"
+     "point": "1:habitats-needs",
+     "type": "G1-206"
     }
    ]
   },

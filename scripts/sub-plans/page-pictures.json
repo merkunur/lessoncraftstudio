@@ -1574,21 +1574,26 @@
    "pictures": [],
    "words": []
   },
-  "family-g1385-3": {
-   "pictures": [],
-   "words": []
-  },
   "family-g1386": {
    "pictures": [],
    "words": []
   },
-  "family-g1386-2": {
+  "family-g1658": {
    "pictures": [],
-   "words": []
+   "words": [
+    "computer",
+    "pen",
+    "play",
+    "tablet"
+   ]
   },
-  "family-g1386-3": {
+  "family-g1658-2": {
    "pictures": [],
-   "words": []
+   "words": [
+    "pen",
+    "play",
+    "school bus"
+   ]
   },
   "family-g2362": {
    "pictures": [],
@@ -1639,6 +1644,23 @@
     "lamp"
    ],
    "words": []
+  },
+  "feelings-g1653": {
+   "pictures": [],
+   "words": [
+    "books",
+    "hand",
+    "pool"
+   ]
+  },
+  "feelings-g1654": {
+   "pictures": [],
+   "words": [
+    "ball",
+    "fish",
+    "play",
+    "plays"
+   ]
   },
   "feelings-k331": {
    "pictures": [
@@ -2345,6 +2367,23 @@
     "flower"
    ]
   },
+  "maps-g1659": {
+   "pictures": [],
+   "words": [
+    "car",
+    "corn",
+    "garage",
+    "subway"
+   ]
+  },
+  "maps-g1660": {
+   "pictures": [],
+   "words": [
+    "farmer",
+    "forest",
+    "mountains"
+   ]
+  },
   "maps-g2369": {
    "pictures": [],
    "words": [
@@ -2950,6 +2989,26 @@
    "words": [
     "purse",
     "purses"
+   ]
+  },
+  "money-g1668": {
+   "pictures": [
+    "kite"
+   ],
+   "words": [
+    "jar",
+    "kite"
+   ]
+  },
+  "money-g1670": {
+   "pictures": [
+    "apple",
+    "cookie",
+    "orange"
+   ],
+   "words": [
+    "liberty",
+    "price tag"
    ]
   },
   "money-k717": {
@@ -5173,6 +5232,10 @@
     "toast"
    ]
   },
+  "recycling-g1661": {
+   "pictures": [],
+   "words": []
+  },
   "rhyming-words-g1309-2-at": {
    "pictures": [
     "cap",
@@ -5408,6 +5471,20 @@
    "pictures": [],
    "words": []
   },
+  "science-match-g1655": {
+   "pictures": [],
+   "words": []
+  },
+  "science-match-g1667": {
+   "pictures": [],
+   "words": [
+    "bread",
+    "rainbow",
+    "shoes",
+    "sun",
+    "teeth"
+   ]
+  },
   "science-match-k205": {
    "pictures": [
     "butterfly",
@@ -5506,20 +5583,6 @@
    ],
    "words": []
   },
-  "science-sort-g1202-3": {
-   "pictures": [
-    "bee",
-    "butterfly",
-    "dolphin",
-    "elephant",
-    "lion",
-    "octopus",
-    "parrot",
-    "rabbit",
-    "whale"
-   ],
-   "words": []
-  },
   "science-sort-g1204": {
    "pictures": [
     "boat",
@@ -5558,22 +5621,6 @@
     "feathers"
    ]
   },
-  "science-sort-g1205-2": {
-   "pictures": [
-    "bear",
-    "chameleon",
-    "fish",
-    "fox",
-    "gecko",
-    "lion",
-    "owl",
-    "parrot",
-    "peacock"
-   ],
-   "words": [
-    "feathers"
-   ]
-  },
   "science-sort-g1206": {
    "pictures": [
     "cow",
@@ -5581,17 +5628,6 @@
     "eagle",
     "elephant",
     "shark",
-    "tiger"
-   ],
-   "words": []
-  },
-  "science-sort-g1206-2": {
-   "pictures": [
-    "cow",
-    "eagle",
-    "horse",
-    "shark",
-    "sheep",
     "tiger"
    ],
    "words": []
@@ -5639,6 +5675,22 @@
    ],
    "words": [
     "vegetables"
+   ]
+  },
+  "science-sort-g1666": {
+   "pictures": [
+    "apple",
+    "banana",
+    "bread",
+    "kite"
+   ],
+   "words": [
+    "apples",
+    "bananas",
+    "bread",
+    "bus",
+    "kite",
+    "tooth"
    ]
   },
   "science-sort-k201": {
@@ -7777,6 +7829,20 @@
     "fish",
     "pizza",
     "taco"
+   ]
+  },
+  "write-the-word-g1662": {
+   "pictures": [
+    "eagle",
+    "statue"
+   ],
+   "words": [
+    "bell",
+    "bird",
+    "eagle",
+    "liberty",
+    "stars",
+    "statue"
    ]
   },
   "write-the-word-miscellaneous-g1304-3": {

@@ -2881,6 +2881,190 @@
    ],
    "why": "Voting once, counting the votes together on a class graph and reading the book that won, even when my own book did not win, show how people work together to make decisions in the classroom (D2.Civ.11, K-2).",
    "review": "batch-sk 2026-11-24"
+  },
+  "1:rules-in-places": {
+   "rows": [
+    {
+     "id": "D2.Civ.3.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Matching each rule to its place (the library, the pool, the bus, the classroom) and finishing \"We ___ so that ___.\" explain the need for and purposes of rules in settings inside and outside of school (D2.Civ.3, K-2).",
+   "review": "batch-s1 2026-11-24"
+  },
+  "1:class-meeting": {
+   "rows": [
+    {
+     "id": "D2.Civ.9.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "A class meeting with agreed talking rules, where each speaker says back what the last one said before adding an idea and the class decides how the class jobs work, follows agreed-upon rules for discussions while making a group decision (D2.Civ.9, K-2).",
+   "review": "batch-s1 2026-11-24"
+  },
+  "1:good-citizen": {
+   "rows": [
+    {
+     "id": "D2.Civ.7.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Choosing what a good citizen does in short school stories and naming the virtue it shows (honest, kind, fair, responsible) apply civic virtues in school settings (D2.Civ.7, K-2).",
+   "review": "batch-s1 2026-11-24"
+  },
+  "1:leaders-jobs": {
+   "rows": [
+    {
+     "id": "D2.Civ.1.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Matching the principal, the mayor, the governor and the president to the school, town, state and country they lead, and to what each does, describes the roles and responsibilities of people in authority (D2.Civ.1, K-2).",
+   "review": "batch-s1 2026-11-24"
+  },
+  "1:old-postcard-clues": {
+   "rows": [
+    {
+     "id": "D2.His.11.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Finding on the front and back of an old postcard who made it, when and where (a studio name, a year, a town sign) identifies the maker, date and place of a historical source from the source itself (D2.His.11, K-2).",
+   "review": "batch-s1 2026-11-24"
+  },
+  "1:ask-someone-older": {
+   "rows": [
+    {
+     "id": "D2.His.10.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Asking an older person planned questions about their childhood and writing \"I learned that ___.\" use a person's memories as a source to study the past (D2.His.10, K-2).",
+   "review": "batch-s1 2026-11-24"
+  },
+  "1:school-play-long-ago": {
+   "rows": [
+    {
+     "id": "D2.His.2.K-2",
+     "rel": "teaches"
+    },
+    {
+     "id": "D2.His.4.K-2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Sorting pictures and sentences in a child's voice into long ago and today compares life in the past to life today (D2.His.2, K-2); the sentences told by children of each time lead up to comparing their perspectives (D2.His.4, K-2).",
+   "review": "batch-s1 2026-11-24"
+  },
+  "1:city-suburb-town": {
+   "rows": [
+    {
+     "id": "D2.Geo.8.K-2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Telling a city, a suburb and a small town apart and matching sentences about life in each lead up to comparing how people in different communities use near and distant places to meet their needs (D2.Geo.8, K-2).",
+   "review": "batch-s1 2026-11-24"
+  },
+  "1:work-fits-land": {
+   "rows": [
+    {
+     "id": "D2.Geo.9.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Matching each kind of land to the work people do there (farming on open fields, fishing by the sea, and so on) describes how the physical environment of a place connects to the work found there (D2.Geo.9, K-2).",
+   "review": "batch-s1 2026-11-24"
+  },
+  "1:caring-for-places": {
+   "rows": [
+    {
+     "id": "D2.Geo.5.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Circling what people changed in the same park after a careless day and after a clean-up day, and planning one way to care for the schoolyard, describe how human activities affect a place (D2.Geo.5, K-2).",
+   "review": "batch-s1 2026-11-24"
+  },
+  "1:us-symbols": {
+   "rows": [
+    {
+     "id": "D2.Civ.8.K-2",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Naming the flag, the bald eagle, the Statue of Liberty and the Liberty Bell and reading what they stand for (freedom, one star for each state) lead up to the democratic principles such as equality and fairness that D2.Civ.8 (K-2) asks the child to describe.",
+   "review": "batch-s1 2026-11-24"
+  },
+  "1:washington-lincoln": {
+   "rows": [
+    {
+     "id": "D2.His.9.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Writing whether each source about George Washington or Abraham Lincoln is a painting, a coin, a letter or a building identifies different kinds of historical sources (D2.His.9, K-2).",
+   "review": "batch-s1 2026-11-24"
+  },
+  "1:fourth-of-july": {
+   "rows": [
+    {
+     "id": "D2.His.14.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Choosing the real reasons the colonists gave in 1776 (to make their own laws, to choose their own leaders, no taxes they had no say in) and telling one in their own words give reasons for an event of the past (D2.His.14, K-2).",
+   "review": "batch-s1 2026-11-24"
+  },
+  "1:people-made-fairer": {
+   "rows": [
+    {
+     "id": "D2.His.3.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading one true fact about Rosa Parks, Ruby Bridges, Helen Keller and Martin Luther King Jr. and writing a question to one of them generate questions about individuals who shaped a significant change (D2.His.3, K-2).",
+   "review": "batch-s1 2026-11-24"
+  },
+  "1:goods-services-near-far": {
+   "rows": [
+    {
+     "id": "D2.Eco.4.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Sorting goods from services and telling what is made in a sample town from what comes from other places describe the goods and services produced in the local community and in others (D2.Eco.4, K-2).",
+   "review": "batch-s1 2026-11-24"
+  },
+  "1:jobs-earning-money": {
+   "rows": [
+    {
+     "id": "D2.Eco.6.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Matching each worker to \"I am paid to ___.\" and naming what a family spends its pay on explain how people earn income (D2.Eco.6, K-2).",
+   "review": "batch-s1 2026-11-24"
+  },
+  "1:prices-market": {
+   "rows": [
+    {
+     "id": "D2.Eco.5.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Reading the price tag of each thing at a market stall, paying it exactly with real US coins and circling the one that costs more identify the prices of products in a local market (D2.Eco.5, K-2).",
+   "review": "batch-s1 2026-11-24"
+  },
+  "1:saving-goal": {
+   "rows": [
+    {
+     "id": "D2.Eco.10.K-2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Coloring a savings jar week by week toward a kite and choosing why the child saved (to buy it later, not to spend today) explain why people save (D2.Eco.10, K-2).",
+   "review": "batch-s1 2026-11-24"
   }
  }
 }

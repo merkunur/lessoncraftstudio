@@ -2012,6 +2012,132 @@
    "strand": "Social Studies",
    "code": "D2.Civ.11.K-2",
    "skill": "A class vote: each child votes once, we count together, and the most votes wins"
+  },
+  {
+   "tp": "1:rules-in-places",
+   "grade": "1",
+   "strand": "Social Studies",
+   "code": "D2.Civ.3.K-2",
+   "skill": "Match a rule to the place it is for, and tell why the rule is there"
+  },
+  {
+   "tp": "1:class-meeting",
+   "grade": "1",
+   "strand": "Social Studies",
+   "code": "D2.Civ.9.K-2",
+   "skill": "Hold a class meeting with talking rules, say back what a classmate said, and decide together"
+  },
+  {
+   "tp": "1:good-citizen",
+   "grade": "1",
+   "strand": "Social Studies",
+   "code": "D2.Civ.7.K-2",
+   "skill": "Choose what a good citizen does at school and name the virtue: honest, kind, fair, responsible"
+  },
+  {
+   "tp": "1:leaders-jobs",
+   "grade": "1",
+   "strand": "Social Studies",
+   "code": "D2.Civ.1.K-2",
+   "skill": "Match each leader to the place they lead (school, town, state, country) and to what they do"
+  },
+  {
+   "tp": "1:old-postcard-clues",
+   "grade": "1",
+   "strand": "Social Studies",
+   "code": "D2.His.11.K-2",
+   "skill": "Find who made an old postcard, when and where, from the clues on the card itself"
+  },
+  {
+   "tp": "1:ask-someone-older",
+   "grade": "1",
+   "strand": "Social Studies",
+   "code": "D2.His.10.K-2",
+   "skill": "Ask an older person about their childhood and tell one thing the answers teach about the past"
+  },
+  {
+   "tp": "1:school-play-long-ago",
+   "grade": "1",
+   "strand": "Social Studies",
+   "code": "D2.His.4.K-2",
+   "skill": "Sort how children went to school and played long ago and today"
+  },
+  {
+   "tp": "1:city-suburb-town",
+   "grade": "1",
+   "strand": "Social Studies",
+   "code": "D2.Geo.8.K-2",
+   "skill": "Tell a city, a suburb and a small town apart and how people live in each"
+  },
+  {
+   "tp": "1:work-fits-land",
+   "grade": "1",
+   "strand": "Social Studies",
+   "code": "D2.Geo.9.K-2",
+   "skill": "Match the land (fields, sea, forest, mountains) to the work people do there"
+  },
+  {
+   "tp": "1:caring-for-places",
+   "grade": "1",
+   "strand": "Social Studies",
+   "code": "D2.Geo.5.K-2",
+   "skill": "Find what people changed in a park, and how people can care for the places we share"
+  },
+  {
+   "tp": "1:us-symbols",
+   "grade": "1",
+   "strand": "Social Studies",
+   "code": "D2.Civ.8.K-2",
+   "skill": "Name the symbols of the United States (the flag, the bald eagle, the Statue of Liberty, the Liberty Bell) and what they stand for"
+  },
+  {
+   "tp": "1:washington-lincoln",
+   "grade": "1",
+   "strand": "Social Studies",
+   "code": "D2.His.9.K-2",
+   "skill": "Tell kinds of historical sources apart (a painting, a coin, a letter, a building) and the president each is about"
+  },
+  {
+   "tp": "1:fourth-of-july",
+   "grade": "1",
+   "strand": "Social Studies",
+   "code": "D2.His.14.K-2",
+   "skill": "Tell why the colonists declared independence on July 4, 1776"
+  },
+  {
+   "tp": "1:people-made-fairer",
+   "grade": "1",
+   "strand": "Social Studies",
+   "code": "D2.His.3.K-2",
+   "skill": "Ask questions about people who made life fairer (Rosa Parks, Ruby Bridges, Helen Keller, Martin Luther King Jr.)"
+  },
+  {
+   "tp": "1:goods-services-near-far",
+   "grade": "1",
+   "strand": "Social Studies",
+   "code": "D2.Eco.4.K-2",
+   "skill": "Sort goods and services, and tell what our town makes and what comes from far away"
+  },
+  {
+   "tp": "1:jobs-earning-money",
+   "grade": "1",
+   "strand": "Social Studies",
+   "code": "D2.Eco.6.K-2",
+   "skill": "Match workers to what they are paid for, and what a family spends its pay on"
+  },
+  {
+   "tp": "1:prices-market",
+   "grade": "1",
+   "strand": "Social Studies",
+   "code": "D2.Eco.5.K-2",
+   "skill": "Read the price tags at a market, pay each price exactly with US coins, and tell which costs more"
+  },
+  {
+   "tp": "1:saving-goal",
+   "grade": "1",
+   "strand": "Social Studies",
+   "code": "D2.Eco.10.K-2",
+   "skill": "Save a little each week toward a goal and tell why people save"
   }
  ]
 }

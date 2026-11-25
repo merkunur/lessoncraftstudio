@@ -12246,6 +12246,66 @@
    "prerequisites": []
   },
   {
+   "id": "1:city-suburb-town",
+   "grade": "1",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Tell a city, a suburb and a small town apart and how people live in each",
+   "code": "D2.Geo.8.K-2",
+   "types": [
+    "G1-659"
+   ],
+   "families": [
+    "maps"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 22,
+   "prerequisites": []
+  },
+  {
+   "id": "1:work-fits-land",
+   "grade": "1",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Match the land (fields, sea, forest, mountains) to the work people do there",
+   "code": "D2.Geo.9.K-2",
+   "types": [
+    "G1-660"
+   ],
+   "families": [
+    "maps"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 23,
+   "prerequisites": []
+  },
+  {
+   "id": "1:fourth-of-july",
+   "grade": "1",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Tell why the colonists declared independence on July 4, 1776",
+   "code": "D2.His.14.K-2",
+   "types": [
+    "G1-664"
+   ],
+   "families": [
+    "reading-comprehension"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 24,
+   "prerequisites": []
+  },
+  {
    "id": "1:family-generations",
    "grade": "1",
    "subject": "social",
@@ -12265,7 +12325,307 @@
     237
    ],
    "verdict": "gap",
-   "order": 22,
+   "order": 25,
+   "prerequisites": []
+  },
+  {
+   "id": "1:old-postcard-clues",
+   "grade": "1",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Find who made an old postcard, when and where, from the clues on the card itself",
+   "code": "D2.His.11.K-2",
+   "types": [
+    "G1-656"
+   ],
+   "families": [
+    "family"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 26,
+   "prerequisites": []
+  },
+  {
+   "id": "1:ask-someone-older",
+   "grade": "1",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Ask an older person about their childhood and tell one thing the answers teach about the past",
+   "code": "D2.His.10.K-2",
+   "types": [
+    "G1-657"
+   ],
+   "families": [
+    "family"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 27,
+   "prerequisites": []
+  },
+  {
+   "id": "1:school-play-long-ago",
+   "grade": "1",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Sort how children went to school and played long ago and today",
+   "code": "D2.His.4.K-2",
+   "types": [
+    "G1-658"
+   ],
+   "families": [
+    "family"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 28,
+   "prerequisites": []
+  },
+  {
+   "id": "1:rules-in-places",
+   "grade": "1",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Match a rule to the place it is for, and tell why the rule is there",
+   "code": "D2.Civ.3.K-2",
+   "types": [
+    "G1-653"
+   ],
+   "families": [
+    "feelings"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 29,
+   "prerequisites": []
+  },
+  {
+   "id": "1:good-citizen",
+   "grade": "1",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Choose what a good citizen does at school and name the virtue: honest, kind, fair, responsible",
+   "code": "D2.Civ.7.K-2",
+   "types": [
+    "G1-654"
+   ],
+   "families": [
+    "feelings"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 30,
+   "prerequisites": []
+  },
+  {
+   "id": "1:people-made-fairer",
+   "grade": "1",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Ask questions about people who made life fairer (Rosa Parks, Ruby Bridges, Helen Keller, Martin Luther King Jr.)",
+   "code": "D2.His.3.K-2",
+   "types": [
+    "G1-665"
+   ],
+   "families": [
+    "feelings"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 31,
+   "prerequisites": []
+  },
+  {
+   "id": "1:class-meeting",
+   "grade": "1",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Hold a class meeting with talking rules, say back what a classmate said, and decide together",
+   "code": "D2.Civ.9.K-2",
+   "types": [
+    "G1-669"
+   ],
+   "families": [
+    "feelings"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 32,
+   "prerequisites": []
+  },
+  {
+   "id": "1:saving-goal",
+   "grade": "1",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Save a little each week toward a goal and tell why people save",
+   "code": "D2.Eco.10.K-2",
+   "types": [
+    "G1-668"
+   ],
+   "families": [
+    "money"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 33,
+   "prerequisites": []
+  },
+  {
+   "id": "1:prices-market",
+   "grade": "1",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Read the price tags at a market, pay each price exactly with US coins, and tell which costs more",
+   "code": "D2.Eco.5.K-2",
+   "types": [
+    "G1-670"
+   ],
+   "families": [
+    "money"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 34,
+   "prerequisites": []
+  },
+  {
+   "id": "1:us-symbols",
+   "grade": "1",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Name the symbols of the United States (the flag, the bald eagle, the Statue of Liberty, the Liberty Bell) and what they stand for",
+   "code": "D2.Civ.8.K-2",
+   "types": [
+    "G1-662"
+   ],
+   "families": [
+    "write-the-word"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 35,
+   "prerequisites": []
+  },
+  {
+   "id": "1:washington-lincoln",
+   "grade": "1",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Tell kinds of historical sources apart (a painting, a coin, a letter, a building) and the president each is about",
+   "code": "D2.His.9.K-2",
+   "types": [
+    "G1-663"
+   ],
+   "families": [
+    "write-the-word"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 36,
+   "prerequisites": []
+  },
+  {
+   "id": "1:goods-services-near-far",
+   "grade": "1",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Sort goods and services, and tell what our town makes and what comes from far away",
+   "code": "D2.Eco.4.K-2",
+   "types": [
+    "G1-666"
+   ],
+   "families": [
+    "science-sort"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 37,
+   "prerequisites": []
+  },
+  {
+   "id": "1:leaders-jobs",
+   "grade": "1",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Match each leader to the place they lead (school, town, state, country) and to what they do",
+   "code": "D2.Civ.1.K-2",
+   "types": [
+    "G1-655"
+   ],
+   "families": [
+    "science-match"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 38,
+   "prerequisites": []
+  },
+  {
+   "id": "1:jobs-earning-money",
+   "grade": "1",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Match workers to what they are paid for, and what a family spends its pay on",
+   "code": "D2.Eco.6.K-2",
+   "types": [
+    "G1-667"
+   ],
+   "families": [
+    "science-match"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 39,
+   "prerequisites": []
+  },
+  {
+   "id": "1:caring-for-places",
+   "grade": "1",
+   "subject": "social",
+   "strand": "Social Studies",
+   "skill": "Find what people changed in a park, and how people can care for the places we share",
+   "code": "D2.Geo.5.K-2",
+   "types": [
+    "G1-661"
+   ],
+   "families": [
+    "recycling"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 40,
    "prerequisites": []
   },
   {
@@ -12289,7 +12649,7 @@
     286
    ],
    "verdict": "gap",
-   "order": 23,
+   "order": 41,
    "prerequisites": []
   },
   {
@@ -12310,7 +12670,7 @@
     287
    ],
    "verdict": "gap",
-   "order": 24,
+   "order": 42,
    "prerequisites": []
   },
   {
@@ -12332,7 +12692,7 @@
     237
    ],
    "verdict": "gap",
-   "order": 25,
+   "order": 43,
    "prerequisites": []
   },
   {
@@ -12353,7 +12713,7 @@
     287
    ],
    "verdict": "gap",
-   "order": 26,
+   "order": 44,
    "prerequisites": []
   },
   {

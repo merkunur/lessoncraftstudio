@@ -5691,11 +5691,196 @@
    ],
    "by": "review"
   },
+  "1:city-suburb-town": {
+   "rows": [
+    {
+     "id": "D2.Geo.8.K-2",
+     "rel": "prepares",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "1:work-fits-land": {
+   "rows": [
+    {
+     "id": "D2.Geo.9.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "1:fourth-of-july": {
+   "rows": [
+    {
+     "id": "D2.His.14.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
   "1:family-generations": {
    "rows": [
     {
      "id": "D2.His.1.K-2",
      "rel": "prepares",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "1:old-postcard-clues": {
+   "rows": [
+    {
+     "id": "D2.His.11.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "1:ask-someone-older": {
+   "rows": [
+    {
+     "id": "D2.His.10.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "1:school-play-long-ago": {
+   "rows": [
+    {
+     "id": "D2.His.2.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    },
+    {
+     "id": "D2.His.4.K-2",
+     "rel": "prepares",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "1:rules-in-places": {
+   "rows": [
+    {
+     "id": "D2.Civ.3.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "1:good-citizen": {
+   "rows": [
+    {
+     "id": "D2.Civ.7.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "1:people-made-fairer": {
+   "rows": [
+    {
+     "id": "D2.His.3.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "1:class-meeting": {
+   "rows": [
+    {
+     "id": "D2.Civ.9.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "1:saving-goal": {
+   "rows": [
+    {
+     "id": "D2.Eco.10.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "1:prices-market": {
+   "rows": [
+    {
+     "id": "D2.Eco.5.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "1:us-symbols": {
+   "rows": [
+    {
+     "id": "D2.Civ.8.K-2",
+     "rel": "prepares",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "1:washington-lincoln": {
+   "rows": [
+    {
+     "id": "D2.His.9.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "1:goods-services-near-far": {
+   "rows": [
+    {
+     "id": "D2.Eco.4.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "1:leaders-jobs": {
+   "rows": [
+    {
+     "id": "D2.Civ.1.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "1:jobs-earning-money": {
+   "rows": [
+    {
+     "id": "D2.Eco.6.K-2",
+     "rel": "teaches",
+     "grade": "K-2"
+    }
+   ],
+   "by": "review"
+  },
+  "1:caring-for-places": {
+   "rows": [
+    {
+     "id": "D2.Geo.5.K-2",
+     "rel": "teaches",
      "grade": "K-2"
     }
    ],

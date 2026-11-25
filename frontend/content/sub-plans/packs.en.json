@@ -7550,17 +7550,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:family-generations",
-     "type": "G1-385",
-     "title": "Family Generations: Oldest to Youngest",
-     "instruction": "In each row, write 1, 2 and 3 in the boxes to put the family words in order from the oldest generation to the youngest.",
-     "core": "family-g1385",
-     "hard": "family-hard-g1385-12",
-     "easy": "family-easy-g1385-7",
+     "point": "1:rules-in-places",
+     "type": "G1-653",
+     "title": "Rules in Different Places",
+     "instruction": "Read each rule. Draw a line from the rule to the place where it belongs.",
+     "core": "feelings-g1653",
+     "hard": "feelings-hard-g1653-6",
+     "easy": "feelings-easy-g1653-2",
      "script": {
-      "say": "\"In each row there are family words. Write 1, 2, and 3 to put them in order, from the oldest generation to the youngest.\"",
-      "first": "Talk about a family: grandparents are the oldest generation, then parents, aunts, and uncles, then children like brothers, sisters, and cousins. Read the first row aloud together and ask, \"Who is the oldest?\" Write 1 under that word, then 2 and 3.",
-      "stuck": "Ask the child about each word: \"Is that a grandparent, a parent, or a child?\" Grandparents get 1, parents 2, children 3. Every family is different; this page is about the words."
+      "say": "\"Each rule belongs to a place. Read each rule with me. Then draw a line from the rule to the place where it belongs.\"",
+      "first": "Read the names of the places aloud and point to each picture. Do the first rule together: read it, ask, \"Where do people need this rule?\" and draw the line together. If your page also asks you to write a rule, say one together first: \"We take turns on the slide so that everyone gets a turn.\"",
+      "stuck": "Read the rule with the child and ask, \"Where would someone say this to you?\" Point to each place in turn and ask, \"Here?\" Then ask why the rule is there: to keep us safe, to let everyone hear, or to be fair."
      }
     }
    ]
@@ -7674,33 +7674,31 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "1:map-key",
-     "type": "G1-528",
-     "title": "Treasure Hunt: Follow the Steps",
-     "instruction": "Start at the flag. Follow the steps. Circle the picture where you land.",
-     "core": "maps-clothing-g1528",
-     "hard": "maps-hard-occupations-g1528",
-     "easy": "maps-easy-dinosaurs-g1528",
+     "point": "K:grid-copy",
+     "type": "K-299",
+     "title": "Copy the Picture Using Letters and Numbers",
+     "instruction": "Use the letter and number of each square to copy the picture.",
+     "core": "grid-copy-k299",
      "script": {
-      "say": "\"Start at the flag on the grid. Follow the steps, one at a time: each step says which way to move and how many squares. Circle the picture where you land.\"",
-      "first": "Put your finger on the flag and read the first step aloud: \"Move 1 square right.\" Move the finger together and stop. Read the next step and move again. Tell the children to count the squares, not the lines, and to keep the finger on the page until the last step.",
-      "stuck": "Have the child say each step aloud and point with a finger. Check right and left: \"Which hand is your right hand? Move that way.\""
+      "say": "\"Use the letter and number of each square to copy the picture onto the empty grid.\"",
+      "first": "Point to the letters across the top and the numbers down the side. Find one colored square together, say its letter and number, and color the same square on the empty grid. Tell the children to do one row at a time.",
+      "stuck": "Have the child put one finger on a colored square and another on the same row and column of the empty grid."
      }
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:feelings",
-     "type": "K-334",
-     "title": "Which Face Shows the Feeling?",
-     "instruction": "Read the feeling word and circle the one face in the row that shows it.",
-     "core": "feelings-k334",
-     "hard": "feelings-hard-k334-3",
-     "easy": "feelings-easy-k334-2",
+     "point": "1:good-citizen",
+     "type": "G1-654",
+     "title": "Being a Good Citizen",
+     "instruction": "Read each story. Circle what a good citizen does. Then circle the word that tells how.",
+     "core": "feelings-g1654",
+     "hard": "feelings-hard-g1654-7",
+     "easy": "feelings-easy-g1654-2",
      "script": {
-      "say": "\"Each row has a feeling word and three faces. Circle the face that shows that feeling.\"",
-      "first": "Read every feeling word on the page aloud: tired, angry, happy, scared, surprised, sad. Make each face for the class. Do the first row together: read the word, look at the three faces, and circle the one that matches.",
-      "stuck": "Read the word for the child and make the face. Ask the child to point to the face on the page that looks like yours."
+      "say": "\"Each box tells a short story. Circle what a good citizen does. Then circle the word that tells how.\"",
+      "first": "Read the words on the page aloud and say what each one means: honest, you tell the truth; kind, you are nice to others; fair, everyone gets a turn or a share; responsible, you do the job you said you would do. Read the first story and both choices aloud, then ask, \"Which one is what a good citizen does?\" Circle it together, then circle the word that tells how.",
+      "stuck": "Read the story again and ask, \"What did the child do: tell the truth, help someone, share, or do a job?\" Then read the two words beside it and let the child choose. If the child has a good reason for the other word, say, \"Yes, that is true too,\" and ask which word fits best."
      }
     }
    ]
@@ -7815,31 +7813,33 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "K:grid-copy",
-     "type": "K-299",
-     "title": "Copy the Picture Using Letters and Numbers",
-     "instruction": "Use the letter and number of each square to copy the picture.",
-     "core": "grid-copy-k299",
+     "point": "1:mazes",
+     "type": "G1-421",
+     "title": "Help the Earthworm Reach the Leaf",
+     "instruction": "Help the ant go down and up through the tunnels to the raspberry. Draw a line along the way.",
+     "core": "maze-puzzles-g1421-5",
+     "hard": "maze-puzzles-hard-g1421-9",
+     "easy": "maze-puzzles-easy-g1421-3",
      "script": {
-      "say": "\"Use the letter and number of each square to copy the picture onto the empty grid.\"",
-      "first": "Point to the letters across the top and the numbers down the side. Find one colored square together, say its letter and number, and color the same square on the empty grid. Tell the children to do one row at a time.",
-      "stuck": "Have the child put one finger on a colored square and another on the same row and column of the empty grid."
+      "say": "\"Time for a maze. Before you pick up your pencil, look at the whole picture and find the start and the end.\"",
+      "first": "Hold up the page and show the start and the end. Tell the children to trace the way with a finger first and to draw only when the finger has found a way.",
+      "stuck": "Suggest starting from the end and working backward. A wrong turn does not need to be erased; tell the child to go back to the last place where the path split and try the other way."
      }
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:find-the-differences",
-     "type": "G1-415",
-     "title": "Mirror Pictures: Fold and Check",
-     "instruction": "Picture 2 is flipped like a mirror; circle the 4 things or empty places that still differ, check a box for each, then fold on the line to check.",
-     "core": "find-the-differences-g1415-12",
-     "hard": "find-the-differences-hard-g1415-22",
-     "easy": "find-the-differences-easy-g1415-4",
+     "point": "1:leaders-jobs",
+     "type": "G1-655",
+     "title": "Leaders and Their Jobs",
+     "instruction": "Draw a line from each leader to what that leader leads. Then circle the leader who says each sentence.",
+     "core": "science-match-g1655",
+     "hard": "science-match-hard-g1655-7",
+     "easy": "science-match-easy-g1655-2",
      "script": {
-      "say": "\"This page has two pairs of pictures. In each pair, picture 2 is picture 1 flipped over, the way a mirror would show it. But some things are still different: four in all. Circle them in picture 2 and check a box for each one. Then fold the page on the dashed line to check.\"",
-      "first": "Hold the page up and show how picture 2 is flipped: what is on the left in picture 1 is on the right in picture 2. Find one difference together and circle it. Show how to fold the page on the line at the end, so that the two pictures lie on top of each other.",
-      "stuck": "Have the child pick one thing in picture 1 and find it in picture 2 on the other side. Folding the page on the line and holding it up to the window shows what does not match."
+      "say": "\"Draw a line from each leader to what that leader leads.\"",
+      "first": "Say what each leader does: the principal leads a school, the mayor leads a town or a city, the governor leads a state, and the president leads our whole country. Name the pictures on the page together. Do the first line together. If your page asks \"Who says it?\", read each sentence aloud and let the children circle the leader.",
+      "stuck": "Ask, \"Who leads our school? Our town? Our state? Our whole country?\" Go from the smallest place, the school, to the biggest, the whole country."
      }
     }
    ]
@@ -7955,33 +7955,31 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "1:mazes",
-     "type": "G1-421",
-     "title": "Help the Earthworm Reach the Leaf",
-     "instruction": "Help the ant go down and up through the tunnels to the raspberry. Draw a line along the way.",
-     "core": "maze-puzzles-g1421-5",
-     "hard": "maze-puzzles-hard-g1421-9",
-     "easy": "maze-puzzles-easy-g1421-3",
+     "point": "K:patterns",
+     "type": "K-053",
+     "title": "Growing Patterns",
+     "instruction": "The pattern grows. Circle the group that comes next.",
+     "core": "patterns-fruits-k053",
      "script": {
-      "say": "\"Time for a maze. Before you pick up your pencil, look at the whole picture and find the start and the end.\"",
-      "first": "Hold up the page and show the start and the end. Tell the children to trace the way with a finger first and to draw only when the finger has found a way.",
-      "stuck": "Suggest starting from the end and working backward. A wrong turn does not need to be erased; tell the child to go back to the last place where the path split and try the other way."
+      "say": "\"These patterns grow: each box has one more than the box before. Count the boxes. Circle the group that comes next.\"",
+      "first": "Do the first row together: count the pictures in each box aloud, \"one, two, three.\" Ask, \"So how many come next?\" Count the groups at the end of the row and circle the one with four.",
+      "stuck": "Have the child touch each picture and say its name aloud from the start of the row, then say the next word before looking at the choices. If the child cannot name a picture, give it a simple name."
      }
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:feelings",
-     "type": "K-331",
-     "title": "How Do You Feel? Circle the Face",
-     "instruction": "Look at the picture, think how you would feel, and circle the face that matches.",
-     "core": "feelings-k331-2",
-     "hard": "feelings-hard-k331-14",
-     "easy": "feelings-easy-k331-8",
+     "point": "1:family-generations",
+     "type": "G1-385",
+     "title": "Family Generations: Oldest to Youngest",
+     "instruction": "In each row, write 1, 2 and 3 in the boxes to put the family words in order from the oldest generation to the youngest.",
+     "core": "family-g1385",
+     "hard": "family-hard-g1385-12",
+     "easy": "family-easy-g1385-7",
      "script": {
-      "say": "\"Look at each picture. Think about how it would make you feel. Then circle the face that shows that feeling.\"",
-      "first": "Look at the first picture together and ask what it shows. Ask, \"How does that make you feel?\" Let two or three children answer; they may not all feel the same, and that is fine. Each child circles the face that matches their own answer.",
-      "stuck": "Ask the child what the picture shows and when they have seen one. Then point to each face and name the feeling it shows. There is no wrong answer on this page; any face the child can explain is right."
+      "say": "\"In each row there are family words. Write 1, 2, and 3 to put them in order, from the oldest generation to the youngest.\"",
+      "first": "Talk about a family: grandparents are the oldest generation, then parents, aunts, and uncles, then children like brothers, sisters, and cousins. Read the first row aloud together and ask, \"Who is the oldest?\" Write 1 under that word, then 2 and 3.",
+      "stuck": "Ask the child about each word: \"Is that a grandparent, a parent, or a child?\" Grandparents get 1, parents 2, children 3. Every family is different; this page is about the words."
      }
     }
    ]
@@ -8097,31 +8095,33 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "K:patterns",
-     "type": "K-053",
-     "title": "Growing Patterns",
-     "instruction": "The pattern grows. Circle the group that comes next.",
-     "core": "patterns-fruits-k053",
+     "point": "K:mazes",
+     "type": "K-406",
+     "title": "Help the Puppy Get to the Ball",
+     "instruction": "Help the puppy get to the ball. Draw a line along the wide road and stay between its edges.",
+     "core": "maze-puzzles-k406",
+     "hard": "maze-puzzles-hard-k406-10",
+     "easy": "maze-puzzles-easy-k406-2",
      "script": {
-      "say": "\"These patterns grow: each box has one more than the box before. Count the boxes. Circle the group that comes next.\"",
-      "first": "Do the first row together: count the pictures in each box aloud, \"one, two, three.\" Ask, \"So how many come next?\" Count the groups at the end of the row and circle the one with four.",
-      "stuck": "Have the child touch each picture and say its name aloud from the start of the row, then say the next word before looking at the choices. If the child cannot name a picture, give it a simple name."
+      "say": "\"Time for a maze. Help the animal get to its goal. Draw a line along the wide road and stay between its edges.\"",
+      "first": "Hold up the page, read its title aloud, and show where the road starts, at the animal with the arrow, and where it ends. Trace the road with your finger and stop at each place where it splits: \"Which way leads to the goal?\" Tell the children to find the whole way with a finger before they draw.",
+      "stuck": "Tell the child that a dead end is part of every maze: go back to the last place where the path split and try the other way. Starting from the goal and working backward also helps."
      }
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:family-generations",
-     "type": "G1-386",
-     "title": "Family Tree: Read the Clues",
-     "instruction": "Read the clues and write each name in the right name box on the family tree.",
-     "core": "family-g1386",
-     "hard": "family-hard-g1386-12",
-     "easy": "family-easy-g1386-7",
+     "point": "K:feelings",
+     "type": "K-334",
+     "title": "Which Face Shows the Feeling?",
+     "instruction": "Read the feeling word and circle the one face in the row that shows it.",
+     "core": "feelings-k334",
+     "hard": "feelings-hard-k334-3",
+     "easy": "feelings-easy-k334-2",
      "script": {
-      "say": "\"Read each clue. It tells you who someone is in the family. Write each name in the right name box on the family tree.\"",
-      "first": "Read the names on the tree and the first clue aloud. Find the child the clues are about on the tree. Ask, \"If Leo is Jack's brother, where does he go on the tree?\" Write Leo in that box together.",
-      "stuck": "Read the clue with the child and point to Jack on the tree. Ask, \"Is a brother next to Jack, above him, or two rows up?\" Brothers and sisters are next to him, parents above, grandparents at the top."
+      "say": "\"Each row has a feeling word and three faces. Circle the face that shows that feeling.\"",
+      "first": "Read every feeling word on the page aloud: tired, angry, happy, scared, surprised, sad. Make each face for the class. Do the first row together: read the word, look at the three faces, and circle the one that matches.",
+      "stuck": "Read the word for the child and make the face. Ask the child to point to the face on the page that looks like yours."
      }
     }
    ]
@@ -8236,17 +8236,17 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "K:mazes",
-     "type": "K-406",
-     "title": "Help the Puppy Get to the Ball",
-     "instruction": "Help the puppy get to the ball. Draw a line along the wide road and stay between its edges.",
-     "core": "maze-puzzles-k406",
-     "hard": "maze-puzzles-hard-k406-10",
-     "easy": "maze-puzzles-easy-k406-2",
+     "point": "K:spot-the-difference",
+     "type": "K-400",
+     "title": "Picture Pairs: Find the Difference",
+     "instruction": "Each row shows the same close-up twice; circle the one place that is different in the right picture and check the box of that row.",
+     "core": "find-the-differences-k400",
+     "hard": "find-the-differences-hard-k400-7",
+     "easy": "find-the-differences-easy-k400-2",
      "script": {
-      "say": "\"Time for a maze. Help the animal get to its goal. Draw a line along the wide road and stay between its edges.\"",
-      "first": "Hold up the page, read its title aloud, and show where the road starts, at the animal with the arrow, and where it ends. Trace the road with your finger and stop at each place where it splits: \"Which way leads to the goal?\" Tell the children to find the whole way with a finger before they draw.",
-      "stuck": "Tell the child that a dead end is part of every maze: go back to the last place where the path split and try the other way. Starting from the goal and working backward also helps."
+      "say": "\"Each row shows the same picture two times, but one place in the right picture is different. Circle it, and check the box of that row.\"",
+      "first": "Do the first row together: compare the left and the right picture, part by part, and find the one difference. Circle it in the right picture and check the box of the row.",
+      "stuck": "Have the child cover half of each picture with a hand and compare one half at a time."
      }
     },
     {
@@ -8378,33 +8378,33 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "K:spot-the-difference",
-     "type": "K-400",
-     "title": "Picture Pairs: Find the Difference",
-     "instruction": "Each row shows the same close-up twice; circle the one place that is different in the right picture and check the box of that row.",
-     "core": "find-the-differences-k400",
-     "hard": "find-the-differences-hard-k400-7",
-     "easy": "find-the-differences-easy-k400-2",
+     "point": "1:mazes",
+     "type": "G1-424",
+     "title": "Help the Rabbit Pick Up Every Carrot",
+     "instruction": "Help the rabbit get to the bucket and pick up every carrot, without using a path twice. Fill in a circle for each carrot.",
+     "core": "maze-puzzles-g1424",
+     "hard": "maze-puzzles-hard-g1424-10",
+     "easy": "maze-puzzles-easy-g1424-2",
      "script": {
-      "say": "\"Each row shows the same picture two times, but one place in the right picture is different. Circle it, and check the box of that row.\"",
-      "first": "Do the first row together: compare the left and the right picture, part by part, and find the one difference. Circle it in the right picture and check the box of the row.",
-      "stuck": "Have the child cover half of each picture with a hand and compare one half at a time."
+      "say": "\"Read the title with me. Help the animal reach its goal and pick up every one of its things on the way, without using a path twice. Fill in a circle for each one you pick up.\"",
+      "first": "Hold up the page and read the title and the directions aloud. Show the animal, its goal, and the things it must pick up, and count the things together. Tell the children to plan the whole way with a finger before they draw, because the first way they see may miss one.",
+      "stuck": "Have the child put a finger on each thing to pick up and look at which paths lead to it. If the way is blocked because a path was already used, the child starts again with a finger and picks up the things in another order."
      }
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:story-sequencing",
-     "type": "G1-401",
-     "title": "Beginning, Middle and End of a Story",
-     "instruction": "Look at the beginning and the end of each story and draw what happens in the middle frame.",
-     "core": "story-sequencing-g1401",
-     "hard": "story-sequencing-hard-g1401-12",
-     "easy": "story-sequencing-easy-g1401-7",
+     "point": "1:school-play-long-ago",
+     "type": "G1-658",
+     "title": "School and Play Long Ago and Today",
+     "instruction": "Circle long ago or today for each picture and for each thing a child said.",
+     "core": "family-g1658",
+     "hard": "family-hard-g1658-11",
+     "easy": "family-easy-g1658-6",
      "script": {
-      "say": "\"Each story on this page has a beginning and an end, but the middle is missing. Look at what is different between the first picture and the last one. Then draw what happens in the middle.\"",
-      "first": "Do the first story together: look at the first picture and the last one and ask, \"What changed? What must have happened in between?\" Let two or three children say their ideas. Each child draws their own middle picture; many drawings can be right.",
-      "stuck": "Ask the child: \"What is here at the beginning? What is different at the end? What did someone do to make that happen?\" Any drawing that leads from the first picture to the last is right; it does not have to be neat."
+      "say": "\"Look at each picture and read each sentence. Is it from long ago or today? Circle long ago or today.\"",
+      "first": "Ask the class, \"How did children go to school and play long ago, when your great-grandparents were little?\" Read the words under the first picture aloud and ask, \"Do children do that today?\" Circle together. Read the sentences aloud for the children who need it. If the page asks which school the child would like, any answer with a reason is right.",
+      "stuck": "Ask, \"Have you seen one of these at school or at home?\" Something children use today is today; something we see only in old pictures is long ago."
      }
     }
    ]
@@ -8518,17 +8518,17 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "1:mazes",
-     "type": "G1-424",
-     "title": "Help the Rabbit Pick Up Every Carrot",
-     "instruction": "Help the rabbit get to the bucket and pick up every carrot, without using a path twice. Fill in a circle for each carrot.",
-     "core": "maze-puzzles-g1424",
-     "hard": "maze-puzzles-hard-g1424-10",
-     "easy": "maze-puzzles-easy-g1424-2",
+     "point": "K:mazes",
+     "type": "K-411",
+     "title": "Count Along with the Train to the Cabin",
+     "instruction": "Help the train get to the cabin. At every fork, go to the next number from 1 to 20.",
+     "core": "maze-puzzles-k411",
+     "hard": "maze-puzzles-hard-k411-8",
+     "easy": "maze-puzzles-easy-k411-2",
      "script": {
-      "say": "\"Read the title with me. Help the animal reach its goal and pick up every one of its things on the way, without using a path twice. Fill in a circle for each one you pick up.\"",
-      "first": "Hold up the page and read the title and the directions aloud. Show the animal, its goal, and the things it must pick up, and count the things together. Tell the children to plan the whole way with a finger before they draw, because the first way they see may miss one.",
-      "stuck": "Have the child put a finger on each thing to pick up and look at which paths lead to it. If the way is blocked because a path was already used, the child starts again with a finger and picks up the things in another order."
+      "say": "\"Read the title with me: it tells you who is going where. At every fork, take the road to the next number when you count: 1, 2, 3, all the way to 20.\"",
+      "first": "Count from 1 to 20 aloud together. Put your finger on the start and find 1. Ask, \"What comes next? Which road goes to 2?\" Draw the first part together. Tell the children to say each number as they reach it.",
+      "stuck": "Tell the child that a dead end is part of every maze: go back to the last place where the path split and try the other way. Starting from the goal and working backward also helps."
      }
     },
     {
@@ -8538,9 +8538,9 @@
      "type": "G1-415",
      "title": "Mirror Pictures: Fold and Check",
      "instruction": "Picture 2 is flipped like a mirror; circle the 4 things or empty places that still differ, check a box for each, then fold on the line to check.",
-     "core": "find-the-differences-g1415-13",
-     "hard": "find-the-differences-hard-g1415-23",
-     "easy": "find-the-differences-easy-g1415-5",
+     "core": "find-the-differences-g1415-12",
+     "hard": "find-the-differences-hard-g1415-22",
+     "easy": "find-the-differences-easy-g1415-4",
      "script": {
       "say": "\"This page has two pairs of pictures. In each pair, picture 2 is picture 1 flipped over, the way a mirror would show it. But some things are still different: four in all. Circle them in picture 2 and check a box for each one. Then fold the page on the dashed line to check.\"",
       "first": "Hold the page up and show how picture 2 is flipped: what is on the left in picture 1 is on the right in picture 2. Find one difference together and circle it. Show how to fold the page on the line at the end, so that the two pictures lie on top of each other.",
@@ -8657,33 +8657,31 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "K:mazes",
-     "type": "K-411",
-     "title": "Count Along with the Train to the Cabin",
-     "instruction": "Help the train get to the cabin. At every fork, go to the next number from 1 to 20.",
-     "core": "maze-puzzles-k411",
-     "hard": "maze-puzzles-hard-k411-8",
-     "easy": "maze-puzzles-easy-k411-2",
+     "point": "K:patterns",
+     "type": "K-049",
+     "title": "Complete the Pattern",
+     "instruction": "A picture is missing. Circle what belongs in the empty box.",
+     "core": "patterns-toys-k049",
      "script": {
-      "say": "\"Read the title with me: it tells you who is going where. At every fork, take the road to the next number when you count: 1, 2, 3, all the way to 20.\"",
-      "first": "Count from 1 to 20 aloud together. Put your finger on the start and find 1. Ask, \"What comes next? Which road goes to 2?\" Draw the first part together. Tell the children to say each number as they reach it.",
-      "stuck": "Tell the child that a dead end is part of every maze: go back to the last place where the path split and try the other way. Starting from the goal and working backward also helps."
+      "say": "\"Each row is a pattern, but one picture is missing. Find the empty box. Circle the picture that belongs in it.\"",
+      "first": "Do the first row together. Point to each shape and have the class say its name like a chant. Stop at the empty box and ask, \"What goes here?\" Say the pattern again with that shape and circle it among the choices at the end of the row.",
+      "stuck": "Have the child touch each picture and say its name aloud from the start of the row, then say the next word before looking at the choices. If the child cannot name a picture, give it a simple name."
      }
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "K:feelings",
-     "type": "K-331",
-     "title": "How Do You Feel? Circle the Face",
-     "instruction": "Look at the picture, think how you would feel, and circle the face that matches.",
-     "core": "feelings-k331-3",
-     "hard": "feelings-hard-k331-15",
-     "easy": "feelings-easy-k331-9",
+     "point": "1:story-sequencing",
+     "type": "G1-401",
+     "title": "Beginning, Middle and End of a Story",
+     "instruction": "Look at the beginning and the end of each story and draw what happens in the middle frame.",
+     "core": "story-sequencing-g1401",
+     "hard": "story-sequencing-hard-g1401-12",
+     "easy": "story-sequencing-easy-g1401-7",
      "script": {
-      "say": "\"Look at each picture. Think about how it would make you feel. Then circle the face that shows that feeling.\"",
-      "first": "Look at the first picture together and ask what it shows. Ask, \"How does that make you feel?\" Let two or three children answer; they may not all feel the same, and that is fine. Each child circles the face that matches their own answer.",
-      "stuck": "Ask the child what the picture shows and when they have seen one. Then point to each face and name the feeling it shows. There is no wrong answer on this page; any face the child can explain is right."
+      "say": "\"Each story on this page has a beginning and an end, but the middle is missing. Look at what is different between the first picture and the last one. Then draw what happens in the middle.\"",
+      "first": "Do the first story together: look at the first picture and the last one and ask, \"What changed? What must have happened in between?\" Let two or three children say their ideas. Each child draws their own middle picture; many drawings can be right.",
+      "stuck": "Ask the child: \"What is here at the beginning? What is different at the end? What did someone do to make that happen?\" Any drawing that leads from the first picture to the last is right; it does not have to be neat."
      }
     }
    ]
@@ -8799,31 +8797,33 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "K:patterns",
-     "type": "K-049",
-     "title": "Complete the Pattern",
-     "instruction": "A picture is missing. Circle what belongs in the empty box.",
-     "core": "patterns-toys-k049",
+     "point": "1:map-key",
+     "type": "G1-528",
+     "title": "Treasure Hunt: Follow the Steps",
+     "instruction": "Start at the flag. Follow the steps. Circle the picture where you land.",
+     "core": "maps-clothing-g1528",
+     "hard": "maps-hard-occupations-g1528",
+     "easy": "maps-easy-dinosaurs-g1528",
      "script": {
-      "say": "\"Each row is a pattern, but one picture is missing. Find the empty box. Circle the picture that belongs in it.\"",
-      "first": "Do the first row together. Point to each shape and have the class say its name like a chant. Stop at the empty box and ask, \"What goes here?\" Say the pattern again with that shape and circle it among the choices at the end of the row.",
-      "stuck": "Have the child touch each picture and say its name aloud from the start of the row, then say the next word before looking at the choices. If the child cannot name a picture, give it a simple name."
+      "say": "\"Start at the flag on the grid. Follow the steps, one at a time: each step says which way to move and how many squares. Circle the picture where you land.\"",
+      "first": "Put your finger on the flag and read the first step aloud: \"Move 1 square right.\" Move the finger together and stop. Read the next step and move again. Tell the children to count the squares, not the lines, and to keep the finger on the page until the last step.",
+      "stuck": "Have the child say each step aloud and point with a finger. Check right and left: \"Which hand is your right hand? Move that way.\""
      }
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:story-sequencing",
-     "type": "G1-401",
-     "title": "Beginning, Middle and End of a Story",
-     "instruction": "Look at the beginning and the end of each story and draw what happens in the middle frame.",
-     "core": "story-sequencing-g1401-2",
-     "hard": "story-sequencing-hard-g1401-13",
-     "easy": "story-sequencing-easy-g1401-8",
+     "point": "K:feelings",
+     "type": "K-331",
+     "title": "How Do You Feel? Circle the Face",
+     "instruction": "Look at the picture, think how you would feel, and circle the face that matches.",
+     "core": "feelings-k331-2",
+     "hard": "feelings-hard-k331-14",
+     "easy": "feelings-easy-k331-8",
      "script": {
-      "say": "\"Each story on this page has a beginning and an end, but the middle is missing. Look at what is different between the first picture and the last one. Then draw what happens in the middle.\"",
-      "first": "Do the first story together: look at the first picture and the last one and ask, \"What changed? What must have happened in between?\" Let two or three children say their ideas. Each child draws their own middle picture; many drawings can be right.",
-      "stuck": "Ask the child: \"What is here at the beginning? What is different at the end? What did someone do to make that happen?\" Any drawing that leads from the first picture to the last is right; it does not have to be neat."
+      "say": "\"Look at each picture. Think about how it would make you feel. Then circle the face that shows that feeling.\"",
+      "first": "Look at the first picture together and ask what it shows. Ask, \"How does that make you feel?\" Let two or three children answer; they may not all feel the same, and that is fine. Each child circles the face that matches their own answer.",
+      "stuck": "Ask the child what the picture shows and when they have seen one. Then point to each face and name the feeling it shows. There is no wrong answer on this page; any face the child can explain is right."
      }
     }
    ]
@@ -8953,17 +8953,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:family-generations",
-     "type": "G1-385",
-     "title": "Family Generations: Oldest to Youngest",
-     "instruction": "In each row, write 1, 2 and 3 in the boxes to put the family words in order from the oldest generation to the youngest.",
-     "core": "family-g1385-2",
-     "hard": "family-hard-g1385-13",
-     "easy": "family-easy-g1385-8",
+     "point": "1:city-suburb-town",
+     "type": "G1-659",
+     "title": "City, Suburb and Small Town",
+     "instruction": "Look at the places. Read each sentence. Write the letter of the place it tells about.",
+     "core": "maps-g1659",
+     "hard": "maps-hard-g1659-11",
+     "easy": "maps-easy-g1659-6",
      "script": {
-      "say": "\"In each row there are family words. Write 1, 2, and 3 to put them in order, from the oldest generation to the youngest.\"",
-      "first": "Talk about a family: grandparents are the oldest generation, then parents, aunts, and uncles, then children like brothers, sisters, and cousins. Read the first row aloud together and ask, \"Who is the oldest?\" Write 1 under that word, then 2 and 3.",
-      "stuck": "Ask the child about each word: \"Is that a grandparent, a parent, or a child?\" Grandparents get 1, parents 2, children 3. Every family is different; this page is about the words."
+      "say": "\"Each picture shows a place, and each place has a letter. Read each sentence and write the letter of the place it tells about.\"",
+      "first": "Look at the places on your page together and ask the children what they see in each one: tall buildings and a subway in the city, houses with garages near a shopping center in the suburb, fields and a silo in the farm town. Read the first sentence aloud and ask, \"Which picture shows that?\" Write the letter together. If the page asks where the child lives and gets food, any true answer is right.",
+      "stuck": "Read the sentence again and ask, \"What is it about?\" Then find that thing in the pictures together and write the letter of that place."
      }
     }
    ]
@@ -9078,17 +9078,17 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "1:map-key",
-     "type": "G1-528",
-     "title": "Treasure Hunt: Follow the Steps",
-     "instruction": "Start at the flag. Follow the steps. Circle the picture where you land.",
-     "core": "maps-at-the-supermarket-g1528-2",
-     "hard": "maps-hard-camping-g1528-2",
-     "easy": "maps-easy-occupations-g1528-2",
+     "point": "1:mazes",
+     "type": "G1-425",
+     "title": "Bring the Polar Bear Home Safely",
+     "instruction": "Help the polar bear get to the igloo. Do not take a road with a walrus or a hole in the ice.",
+     "core": "maze-puzzles-g1425",
+     "hard": "maze-puzzles-hard-g1425-10",
+     "easy": "maze-puzzles-easy-g1425-2",
      "script": {
-      "say": "\"Start at the flag on the grid. Follow the steps, one at a time: each step says which way to move and how many squares. Circle the picture where you land.\"",
-      "first": "Put your finger on the flag and read the first step aloud: \"Move 1 square right.\" Move the finger together and stop. Read the next step and move again. Tell the children to count the squares, not the lines, and to keep the finger on the page until the last step.",
-      "stuck": "Have the child say each step aloud and point with a finger. Check right and left: \"Which hand is your right hand? Move that way.\""
+      "say": "\"Help the animal get home safely. Look at the whole maze first. Do not take a road with one of the dangers the page names.\"",
+      "first": "Read the title aloud and show the start and the goal. Point to the dangers on the page and say that a road with a danger is closed. Trace a way with your finger and stop at each fork: \"Is there a danger on this road?\" Tell the children to find the whole way with a finger before they draw.",
+      "stuck": "Suggest starting from the end and working backward. A wrong turn does not need to be erased; tell the child to go back to the last place where the path split and try the other way."
      }
     },
     {
@@ -9220,33 +9220,33 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "1:mazes",
-     "type": "G1-425",
-     "title": "Bring the Polar Bear Home Safely",
-     "instruction": "Help the polar bear get to the igloo. Do not take a road with a walrus or a hole in the ice.",
-     "core": "maze-puzzles-g1425",
-     "hard": "maze-puzzles-hard-g1425-10",
-     "easy": "maze-puzzles-easy-g1425-2",
+     "point": "K:spot-the-difference",
+     "type": "K-399",
+     "title": "What Is Missing?",
+     "instruction": "Circle the 3 empty places in the bottom picture where something from the top picture is missing, and check a box for each.",
+     "core": "find-the-differences-k399-9",
+     "hard": "find-the-differences-hard-k399-18",
+     "easy": "find-the-differences-easy-k399-3",
      "script": {
-      "say": "\"Help the animal get home safely. Look at the whole maze first. Do not take a road with one of the dangers the page names.\"",
-      "first": "Read the title aloud and show the start and the goal. Point to the dangers on the page and say that a road with a danger is closed. Trace a way with your finger and stop at each fork: \"Is there a danger on this road?\" Tell the children to find the whole way with a finger before they draw.",
-      "stuck": "Suggest starting from the end and working backward. A wrong turn does not need to be erased; tell the child to go back to the last place where the path split and try the other way."
+      "say": "\"The two pictures are the same, but three things are missing from the bottom picture. Find each empty place, circle it, and check a box for each one.\"",
+      "first": "Hold up the page and compare the two pictures with the class, from the top down. Find one thing that is missing together and circle the empty place in the bottom picture. Check the first box.",
+      "stuck": "Have the child pick one thing in the top picture and look for it in the bottom picture: \"Is it there?\" There are three missing things; the three boxes help them count."
      }
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:story-sequencing",
-     "type": "G1-401",
-     "title": "Beginning, Middle and End of a Story",
-     "instruction": "Look at the beginning and the end of each story and draw what happens in the middle frame.",
-     "core": "story-sequencing-g1401-3",
-     "hard": "story-sequencing-hard-g1401-14",
-     "easy": "story-sequencing-easy-g1401-9",
+     "point": "1:work-fits-land",
+     "type": "G1-660",
+     "title": "Work That Fits the Land",
+     "instruction": "Draw a line from each worker to the land where the work is done.",
+     "core": "maps-g1660",
+     "hard": "maps-hard-g1660-7",
+     "easy": "maps-easy-g1660-2",
      "script": {
-      "say": "\"Each story on this page has a beginning and an end, but the middle is missing. Look at what is different between the first picture and the last one. Then draw what happens in the middle.\"",
-      "first": "Do the first story together: look at the first picture and the last one and ask, \"What changed? What must have happened in between?\" Let two or three children say their ideas. Each child draws their own middle picture; many drawings can be right.",
-      "stuck": "Ask the child: \"What is here at the beginning? What is different at the end? What did someone do to make that happen?\" Any drawing that leads from the first picture to the last is right; it does not have to be neat."
+      "say": "\"Draw a line from each worker to the land where the work is done.\"",
+      "first": "Name the pictures of the land together: a forest, the ocean coast, and on some pages flat farmland and snowy mountains. Read the workers aloud. Do the first one together: \"A person who fishes. Which land is by the ocean?\" Draw the line. If the page asks for sentences about one place, the child picks any place on the page.",
+      "stuck": "Ask, \"What does this worker need for the job: trees, the ocean, snow, or a big flat field? Which picture has it?\""
      }
     }
    ]
@@ -9282,17 +9282,17 @@
     {
      "key": "reading",
      "minutes": 20,
-     "point": "1:read-and-follow",
-     "type": "G1-341",
-     "title": "Read and Check: True or False",
-     "instruction": "Read each sentence and look at the row of pictures. Is the sentence true or false? Circle the right word.",
-     "core": "read-and-do-toys-g1341",
-     "hard": "read-and-do-hard-farm-animals-g1341",
-     "easy": "read-and-do-easy-zoo-animals-g1341",
+     "point": "1:story-sequencing",
+     "type": "G1-400",
+     "title": "Story Sequencing: What Happens Next?",
+     "instruction": "Look at each story's three pictures, then circle the picture below them that belongs in the ? frame.",
+     "core": "story-sequencing-g1400",
+     "hard": "story-sequencing-hard-g1400-12",
+     "easy": "story-sequencing-easy-g1400-7",
      "script": {
-      "say": "\"Read each sentence and look at the row of pictures. Is the sentence true or false? Circle the right word.\"",
-      "first": "Point to the row of pictures and name them together from left to right. Read the first sentence aloud and check it on the row together, counting the pictures from the left. Circle true or false.",
-      "stuck": "Point to the word the child cannot read and say its first sound; if that is not enough, read the word. Then have the child read the whole sentence again and tell you what it asks for before starting."
+      "say": "\"Each row is a little story in three pictures, and a question mark shows the picture that comes next. Look at what changes. Circle the picture below the story that belongs in the question-mark frame.\"",
+      "first": "Do the first story together: ask a child to say what happens in each picture. Ask, \"What happens next?\" Look at the three choices below and circle the one that goes on the story.",
+      "stuck": "Have the child tell the story aloud with each choice at the end; the choice that makes sense is the right one."
      }
     },
     {
@@ -9362,17 +9362,17 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "K:spot-the-difference",
-     "type": "K-399",
-     "title": "What Is Missing?",
-     "instruction": "Circle the 3 empty places in the bottom picture where something from the top picture is missing, and check a box for each.",
-     "core": "find-the-differences-k399-9",
-     "hard": "find-the-differences-hard-k399-18",
-     "easy": "find-the-differences-easy-k399-3",
+     "point": "K:mazes",
+     "type": "K-405",
+     "title": "Help the Pig Reach the Mud Puddle",
+     "instruction": "Help the hedgehog get to the apple tree. Draw a line along the way.",
+     "core": "maze-puzzles-k405-13",
+     "hard": "maze-puzzles-hard-k405-25",
+     "easy": "maze-puzzles-easy-k405-3",
      "script": {
-      "say": "\"The two pictures are the same, but three things are missing from the bottom picture. Find each empty place, circle it, and check a box for each one.\"",
-      "first": "Hold up the page and compare the two pictures with the class, from the top down. Find one thing that is missing together and circle the empty place in the bottom picture. Check the first box.",
-      "stuck": "Have the child pick one thing in the top picture and look for it in the bottom picture: \"Is it there?\" There are three missing things; the three boxes help them count."
+      "say": "\"Time for a maze. Find the way along the light path from the animal to its goal. Use your finger first, then your pencil.\"",
+      "first": "Hold up the page and show where the path starts, at the animal with the arrow, and where it ends. Trace the beginning of the way with your finger and stop at the first place where the path splits: \"Which way? Let's try one.\" Tell the children to find the whole way with a finger before they draw.",
+      "stuck": "Tell the child that a dead end is part of every maze: go back to the last place where the path split and try the other way. Starting from the goal and working backward also helps."
      }
     },
     {
@@ -9424,17 +9424,17 @@
     {
      "key": "reading",
      "minutes": 20,
-     "point": "1:characters-setting-events",
-     "type": "G1-580",
-     "title": "Characters, Setting, and Events",
-     "instruction": "Read the story. Write who is in it, where it takes place, and what happens.",
-     "core": "reading-comprehension-g1580-2",
-     "hard": "reading-comprehension-hard-g1580-12",
-     "easy": "reading-comprehension-easy-g1580-7",
+     "point": "1:read-and-follow",
+     "type": "G1-341",
+     "title": "Read and Check: True or False",
+     "instruction": "Read each sentence and look at the row of pictures. Is the sentence true or false? Circle the right word.",
+     "core": "read-and-do-toys-g1341",
+     "hard": "read-and-do-hard-farm-animals-g1341",
+     "easy": "read-and-do-easy-zoo-animals-g1341",
      "script": {
-      "say": "\"Read the story at the top of the page. Then write who is in it, where it takes place, and what happens.\"",
-      "first": "Read the title and the story aloud to the class while the children follow with a finger. Then read the first question aloud and ask, \"Where in the story does it tell us?\" Find the sentence together and finish the first answer together. The children read the story again on their own before they do the rest.",
-      "stuck": "Read the question with the child and look for its words in the story together. Point to the sentence that has the answer and have the child read it aloud. The answer may be a few words; it does not need to be a long sentence."
+      "say": "\"Read each sentence and look at the row of pictures. Is the sentence true or false? Circle the right word.\"",
+      "first": "Point to the row of pictures and name them together from left to right. Read the first sentence aloud and check it on the row together, counting the pictures from the left. Circle true or false.",
+      "stuck": "Point to the word the child cannot read and say its first sound; if that is not enough, read the word. Then have the child read the whole sentence again and tell you what it asks for before starting."
      }
     },
     {
@@ -9504,33 +9504,31 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "K:mazes",
-     "type": "K-405",
-     "title": "Help the Pig Reach the Mud Puddle",
-     "instruction": "Help the hedgehog get to the apple tree. Draw a line along the way.",
-     "core": "maze-puzzles-k405-13",
-     "hard": "maze-puzzles-hard-k405-25",
-     "easy": "maze-puzzles-easy-k405-3",
+     "point": "K:patterns",
+     "type": "K-053",
+     "title": "Growing Patterns",
+     "instruction": "The pattern grows. Circle the group that comes next.",
+     "core": "patterns-vehicles-k053",
      "script": {
-      "say": "\"Time for a maze. Find the way along the light path from the animal to its goal. Use your finger first, then your pencil.\"",
-      "first": "Hold up the page and show where the path starts, at the animal with the arrow, and where it ends. Trace the beginning of the way with your finger and stop at the first place where the path splits: \"Which way? Let's try one.\" Tell the children to find the whole way with a finger before they draw.",
-      "stuck": "Tell the child that a dead end is part of every maze: go back to the last place where the path split and try the other way. Starting from the goal and working backward also helps."
+      "say": "\"These patterns grow: each box has one more than the box before. Count the boxes. Circle the group that comes next.\"",
+      "first": "Do the first row together: count the pictures in each box aloud, \"one, two, three.\" Ask, \"So how many come next?\" Count the groups at the end of the row and circle the one with four.",
+      "stuck": "Have the child touch each picture and say its name aloud from the start of the row, then say the next word before looking at the choices. If the child cannot name a picture, give it a simple name."
      }
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:food-groups",
-     "type": "G1-207",
-     "title": "Sort by Food Group",
-     "instruction": "Draw a line from each food to its food group.",
-     "core": "science-sort-g1207-3",
-     "hard": "science-sort-hard-g1207-9",
-     "easy": "science-sort-easy-g1207-4",
+     "point": "1:caring-for-places",
+     "type": "G1-661",
+     "title": "Caring for Our Park",
+     "instruction": "Circle the 5 things people changed in picture 2. In picture 3, circle every person who helps.",
+     "core": "recycling-g1661",
+     "hard": "recycling-hard-g1661-6",
+     "easy": "recycling-easy-g1661-2",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fruits, Vegetables, Grains, and Protein. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Is this a fruit, a vegetable, a grain like bread or pasta, or a protein like eggs, meat, or fish?\" Draw the line from the dot under the picture to its box. If a food fits two groups, either box is right when the child can say why.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
+      "say": "\"The first picture shows a park in the morning. The next picture shows the same park in the evening. Circle the things people changed.\"",
+      "first": "Look at the morning picture together and name what is there: the flowers, the pond, the bench, the trash can, the tree. Then look at the evening picture and ask, \"What is different? Did a person do that?\" Find the first change together. The page says how many changes to find. If there is a clean-up-day picture, circle each person who is helping; someone just walking a dog is visiting, not helping. If the page asks how our class can help, any helpful idea is right.",
+      "stuck": "Point to one thing in the morning picture, the pond for example, and ask, \"Is it the same in the evening?\" Go through the park one thing at a time."
      }
     }
    ]
@@ -9545,7 +9543,7 @@
    "title": "First Grade Sub Plans: Week 19",
    "metaTitle": "First Grade Emergency Sub Plans: Week 19",
    "metaDescription": "No-prep emergency sub plans for week 19 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
-   "minutes": 140,
+   "minutes": 145,
    "blocks": [
     {
      "key": "morning",
@@ -9566,17 +9564,17 @@
     {
      "key": "reading",
      "minutes": 20,
-     "point": "1:story-sequencing",
-     "type": "G1-400",
-     "title": "Story Sequencing: What Happens Next?",
-     "instruction": "Look at each story's three pictures, then circle the picture below them that belongs in the ? frame.",
-     "core": "story-sequencing-g1400",
-     "hard": "story-sequencing-hard-g1400-12",
-     "easy": "story-sequencing-easy-g1400-7",
+     "point": "1:characters-setting-events",
+     "type": "G1-580",
+     "title": "Characters, Setting, and Events",
+     "instruction": "Read the story. Write who is in it, where it takes place, and what happens.",
+     "core": "reading-comprehension-g1580-2",
+     "hard": "reading-comprehension-hard-g1580-12",
+     "easy": "reading-comprehension-easy-g1580-7",
      "script": {
-      "say": "\"Each row is a little story in three pictures, and a question mark shows the picture that comes next. Look at what changes. Circle the picture below the story that belongs in the question-mark frame.\"",
-      "first": "Do the first story together: ask a child to say what happens in each picture. Ask, \"What happens next?\" Look at the three choices below and circle the one that goes on the story.",
-      "stuck": "Have the child tell the story aloud with each choice at the end; the choice that makes sense is the right one."
+      "say": "\"Read the story at the top of the page. Then write who is in it, where it takes place, and what happens.\"",
+      "first": "Read the title and the story aloud to the class while the children follow with a finger. Then read the first question aloud and ask, \"Where in the story does it tell us?\" Find the sentence together and finish the first answer together. The children read the story again on their own before they do the rest.",
+      "stuck": "Read the question with the child and look for its words in the story together. Point to the sentence that has the answer and have the child read it aloud. The answer may be a few words; it does not need to be a long sentence."
      }
     },
     {
@@ -9597,18 +9595,18 @@
     },
     {
      "key": "writing",
-     "minutes": 20,
-     "point": "1:joining-words",
-     "type": "G1-594",
-     "title": "Joining Words: and, but, so, because",
-     "instruction": "A joining word puts two sentences together. Circle the one that fits best in each sentence. Then join two sentences and write them as one.",
-     "core": "sentence-building-g1594-2",
-     "hard": "sentence-building-hard-g1594-12",
-     "easy": "sentence-building-easy-g1594-7",
+     "minutes": 25,
+     "point": "1:true-story-plan-and-draft",
+     "type": "G1-616",
+     "title": "Plan a True Story",
+     "instruction": "Time words like first, next, and last tell the order of a story.",
+     "core": "story-sequencing-g1616",
+     "hard": "story-sequencing-hard-g1616-11",
+     "easy": "story-sequencing-easy-g1616-6",
      "script": {
-      "say": "\"A joining word puts two sentences together. And adds one more thing. But tells something you did not expect. So tells what happened because of it. Circle the joining word that fits best in each sentence.\"",
-      "first": "Read the box with the three joining words aloud. Read the first sentence aloud three times, once with each joining word, and ask which one makes the most sense. Circle it. For the last part, read the two sentences together and join them on the lines.",
-      "stuck": "Read the sentence with each joining word for the child and ask, \"Which one sounds right?\" For but, ask, \"Is the second part a surprise?\""
+      "say": "\"Time words like first, next, and last tell the order of a story. First read the little story and circle its time words. Then plan your own true story in the boxes.\"",
+      "first": "Read the story on the page aloud and circle the time words together: first, then, last. Do the numbering part together. For the plan, let a few children say an idea: a rainy day, something new they learned. Each child draws and writes a few words in each box: First, Next, Last, and how they felt.",
+      "stuck": "Ask the child, \"What did you do first? And then?\" Write one word for the child to copy, or let the child draw and label."
      }
     },
     {
@@ -9646,31 +9644,33 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "K:patterns",
-     "type": "K-053",
-     "title": "Growing Patterns",
-     "instruction": "The pattern grows. Circle the group that comes next.",
-     "core": "patterns-vehicles-k053",
+     "point": "1:mazes",
+     "type": "G1-420",
+     "title": "Help the Tortoise Find the Watermelon",
+     "instruction": "Look at the whole maze first. Then draw the orangutan's way to the banana tree.",
+     "core": "maze-puzzles-g1420-8",
+     "hard": "maze-puzzles-hard-g1420-12",
+     "easy": "maze-puzzles-easy-g1420-4",
      "script": {
-      "say": "\"These patterns grow: each box has one more than the box before. Count the boxes. Circle the group that comes next.\"",
-      "first": "Do the first row together: count the pictures in each box aloud, \"one, two, three.\" Ask, \"So how many come next?\" Count the groups at the end of the row and circle the one with four.",
-      "stuck": "Have the child touch each picture and say its name aloud from the start of the row, then say the next word before looking at the choices. If the child cannot name a picture, give it a simple name."
+      "say": "\"Time for a maze. Before you pick up your pencil, look at the whole picture and find the start and the end.\"",
+      "first": "Hold up the page and show the start and the end. Tell the children to trace the way with a finger first and to draw only when the finger has found a way.",
+      "stuck": "Suggest starting from the end and working backward. A wrong turn does not need to be erased; tell the child to go back to the last place where the path split and try the other way."
      }
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:habitats-needs",
-     "type": "G1-206",
-     "title": "What Animals Eat",
-     "instruction": "Draw a line from each animal to the group it belongs to.",
-     "core": "science-sort-g1206",
-     "hard": "science-sort-hard-g1206-7",
-     "easy": "science-sort-easy-g1206-2",
+     "point": "1:us-symbols",
+     "type": "G1-662",
+     "title": "Symbols of the United States",
+     "instruction": "Read about each symbol. Write its name from the word box.",
+     "core": "write-the-word-g1662",
+     "hard": "write-the-word-hard-g1662-7",
+     "easy": "write-the-word-easy-g1662-2",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Plant Eaters and Meat Eaters. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"What does this animal eat: plants or other animals?\" Draw the line from the dot under the picture to its box.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
+      "say": "\"Each picture shows a symbol of the United States. Read about it. Then trace or write its name.\"",
+      "first": "Name the symbols on your page together: the flag, the bald eagle, the Statue of Liberty, the Liberty Bell. Read each sentence aloud for the children who need it. Do the first one together. On some pages the names are in a word box at the top. If the page asks for a symbol for our class, any drawing with what it stands for is right.",
+      "stuck": "Read the sentence again and ask, \"Which picture does that tell about?\" Then find its name in the word box, or trace the name under the picture."
      }
     }
    ]
@@ -9685,7 +9685,7 @@
    "title": "First Grade Sub Plans: Week 20",
    "metaTitle": "First Grade Emergency Sub Plans: Week 20",
    "metaDescription": "No-prep emergency sub plans for week 20 of first grade: 8 review blocks in reading, word work, writing, and math, with a script for the guest teacher.",
-   "minutes": 145,
+   "minutes": 140,
    "blocks": [
     {
      "key": "morning",
@@ -9737,18 +9737,18 @@
     },
     {
      "key": "writing",
-     "minutes": 25,
-     "point": "1:true-story-plan-and-draft",
-     "type": "G1-616",
-     "title": "Plan a True Story",
-     "instruction": "Time words like first, next, and last tell the order of a story.",
-     "core": "story-sequencing-g1616",
-     "hard": "story-sequencing-hard-g1616-11",
-     "easy": "story-sequencing-easy-g1616-6",
+     "minutes": 20,
+     "point": "1:spell-picture-words",
+     "type": "G1-301",
+     "title": "Word Bank and Letter Boxes",
+     "instruction": "Find the word in the bank. Write one letter in each box.",
+     "core": "write-the-word-sports-bw-g1301-2",
+     "hard": "write-the-word-hard-objects-bw-g1301-2",
+     "easy": "write-the-word-easy-birds-bw-g1301-2",
      "script": {
-      "say": "\"Time words like first, next, and last tell the order of a story. First read the little story and circle its time words. Then plan your own true story in the boxes.\"",
-      "first": "Read the story on the page aloud and circle the time words together: first, then, last. Do the numbering part together. For the plan, let a few children say an idea: a rainy day, something new they learned. Each child draws and writes a few words in each box: First, Next, Last, and how they felt.",
-      "stuck": "Ask the child, \"What did you do first? And then?\" Write one word for the child to copy, or let the child draw and label."
+      "say": "\"Say the name of each picture. Find its word in the word bank, and write it in the letter boxes, one letter in each box.\"",
+      "first": "Read the words in the bank aloud together and name the pictures. Do the first one together: find the word, count its letters and the boxes, and write one letter in each box.",
+      "stuck": "Have the child say the picture word and listen for its first sound, then look in the word bank for a word that starts with the letter that is already written. Read the words in the word bank for a child who cannot read them."
      }
     },
     {
@@ -9786,33 +9786,33 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "1:mazes",
-     "type": "G1-420",
-     "title": "Help the Tortoise Find the Watermelon",
-     "instruction": "Look at the whole maze first. Then draw the orangutan's way to the banana tree.",
-     "core": "maze-puzzles-g1420-8",
-     "hard": "maze-puzzles-hard-g1420-12",
-     "easy": "maze-puzzles-easy-g1420-4",
+     "point": "K:spot-the-difference",
+     "type": "K-400",
+     "title": "Picture Pairs: Find the Difference",
+     "instruction": "Each row shows the same close-up twice; circle the one place that is different in the right picture and check the box of that row.",
+     "core": "find-the-differences-k400-5",
+     "hard": "find-the-differences-hard-k400-8",
+     "easy": "find-the-differences-easy-k400-3",
      "script": {
-      "say": "\"Time for a maze. Before you pick up your pencil, look at the whole picture and find the start and the end.\"",
-      "first": "Hold up the page and show the start and the end. Tell the children to trace the way with a finger first and to draw only when the finger has found a way.",
-      "stuck": "Suggest starting from the end and working backward. A wrong turn does not need to be erased; tell the child to go back to the last place where the path split and try the other way."
+      "say": "\"Each row shows the same picture two times, but one place in the right picture is different. Circle it, and check the box of that row.\"",
+      "first": "Do the first row together: compare the left and the right picture, part by part, and find the one difference. Circle it in the right picture and check the box of the row.",
+      "stuck": "Have the child cover half of each picture with a hand and compare one half at a time."
      }
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:animal-classes-coverings",
-     "type": "G1-205",
-     "title": "Animal Coverings",
-     "instruction": "Draw a line from each animal to its body covering.",
-     "core": "science-sort-g1205",
-     "hard": "science-sort-hard-g1205-7",
-     "easy": "science-sort-easy-g1205-2",
+     "point": "1:family-generations",
+     "type": "G1-386",
+     "title": "Family Tree: Read the Clues",
+     "instruction": "Read the clues and write each name in the right name box on the family tree.",
+     "core": "family-g1386",
+     "hard": "family-hard-g1386-12",
+     "easy": "family-easy-g1386-7",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fur, Feathers, and Scales. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"What covers this animal's body: fur, feathers, or scales?\" Draw the line from the dot under the picture to its box. Fur is soft hair, feathers have a stem with soft sides, and scales are small, hard plates on the skin.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
+      "say": "\"Read each clue. It tells you who someone is in the family. Write each name in the right name box on the family tree.\"",
+      "first": "Read the names on the tree and the first clue aloud. Find the child the clues are about on the tree. Ask, \"If Leo is Jack's brother, where does he go on the tree?\" Write Leo in that box together.",
+      "stuck": "Read the clue with the child and point to Jack on the tree. Ask, \"Is a brother next to Jack, above him, or two rows up?\" Brothers and sisters are next to him, parents above, grandparents at the top."
      }
     }
    ]
@@ -9880,17 +9880,17 @@
     {
      "key": "writing",
      "minutes": 20,
-     "point": "1:spell-picture-words",
-     "type": "G1-301",
-     "title": "Word Bank and Letter Boxes",
-     "instruction": "Find the word in the bank. Write one letter in each box.",
-     "core": "write-the-word-sports-bw-g1301-2",
-     "hard": "write-the-word-hard-objects-bw-g1301-2",
-     "easy": "write-the-word-easy-birds-bw-g1301-2",
+     "point": "1:pronouns",
+     "type": "G1-372",
+     "title": "Sort the Names: He, She or They",
+     "instruction": "Read each name card. Write the name under the word we use for that person.",
+     "core": "pronouns-g1372",
+     "hard": "pronouns-hard-g1372-12",
+     "easy": "pronouns-easy-g1372-7",
      "script": {
-      "say": "\"Say the name of each picture. Find its word in the word bank, and write it in the letter boxes, one letter in each box.\"",
-      "first": "Read the words in the bank aloud together and name the pictures. Do the first one together: find the word, count its letters and the boxes, and write one letter in each box.",
-      "stuck": "Have the child say the picture word and listen for its first sound, then look in the word bank for a word that starts with the letter that is already written. Read the words in the word bank for a child who cannot read them."
+      "say": "\"Read each name card. Write the name under the word we use for that person: he, she, or they.\"",
+      "first": "Write he, she, and they on the board. Read the first name card aloud and ask, \"Would we say he, she, or they?\" Write the name under that word together. Two names on one card go under they.",
+      "stuck": "Read the name card with the child. One boy is he, one girl is she, and two or more people are they: two names on one card go under they."
      }
     },
     {
@@ -9942,17 +9942,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:family-generations",
-     "type": "G1-386",
-     "title": "Family Tree: Read the Clues",
-     "instruction": "Read the clues and write each name in the right name box on the family tree.",
-     "core": "family-g1386-2",
-     "hard": "family-hard-g1386-13",
-     "easy": "family-easy-g1386-8",
+     "point": "1:find-the-differences",
+     "type": "G1-415",
+     "title": "Mirror Pictures: Fold and Check",
+     "instruction": "Picture 2 is flipped like a mirror; circle the 4 things or empty places that still differ, check a box for each, then fold on the line to check.",
+     "core": "find-the-differences-g1415-13",
+     "hard": "find-the-differences-hard-g1415-23",
+     "easy": "find-the-differences-easy-g1415-5",
      "script": {
-      "say": "\"Read each clue. It tells you who someone is in the family. Write each name in the right name box on the family tree.\"",
-      "first": "Read the names on the tree and the first clue aloud. Find the child the clues are about on the tree. Ask, \"If Leo is Jack's brother, where does he go on the tree?\" Write Leo in that box together.",
-      "stuck": "Read the clue with the child and point to Jack on the tree. Ask, \"Is a brother next to Jack, above him, or two rows up?\" Brothers and sisters are next to him, parents above, grandparents at the top."
+      "say": "\"This page has two pairs of pictures. In each pair, picture 2 is picture 1 flipped over, the way a mirror would show it. But some things are still different: four in all. Circle them in picture 2 and check a box for each one. Then fold the page on the dashed line to check.\"",
+      "first": "Hold the page up and show how picture 2 is flipped: what is on the left in picture 1 is on the right in picture 2. Find one difference together and circle it. Show how to fold the page on the line at the end, so that the two pictures lie on top of each other.",
+      "stuck": "Have the child pick one thing in picture 1 and find it in picture 2 on the other side. Folding the page on the line and holding it up to the window shows what does not match."
      }
     }
    ]
@@ -10019,17 +10019,17 @@
     {
      "key": "writing",
      "minutes": 20,
-     "point": "1:pronouns",
-     "type": "G1-372",
-     "title": "Sort the Names: He, She or They",
-     "instruction": "Read each name card. Write the name under the word we use for that person.",
-     "core": "pronouns-g1372",
-     "hard": "pronouns-hard-g1372-12",
-     "easy": "pronouns-easy-g1372-7",
+     "point": "1:unscramble-sentence",
+     "type": "G1-283",
+     "title": "Unscramble the Sentence: No Clues",
+     "instruction": "There is no capital letter and no period to help you. Put the words in order and write the sentence on the line.",
+     "core": "sentence-building-classroom-b-w-g1283-2",
+     "hard": "sentence-building-hard-food-bw-g1283-2",
+     "easy": "sentence-building-easy-apparel-bw-g1283-2",
      "script": {
-      "say": "\"Read each name card. Write the name under the word we use for that person: he, she, or they.\"",
-      "first": "Write he, she, and they on the board. Read the first name card aloud and ask, \"Would we say he, she, or they?\" Write the name under that word together. Two names on one card go under they.",
-      "stuck": "Read the name card with the child. One boy is he, one girl is she, and two or more people are they: two names on one card go under they."
+      "say": "\"The words of each sentence are mixed up, and there is no capital letter and no period to help you. Put the words in order and write the sentence with a capital letter and a period.\"",
+      "first": "Write the mixed-up words of the first sentence on the board. Read them aloud with the class. Ask: \"Which word could start the sentence?\" Try the children's ideas aloud until one order sounds right. Write the sentence on the board, and point out the capital letter at the start and the end mark.",
+      "stuck": "Have the child read every word aloud, then try a first word and read on: \"Does that sound like something you would say?\" If the child cannot read a word, read it for them. Cross out each word once it is used."
      }
     },
     {
@@ -10067,33 +10067,33 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "K:spot-the-difference",
-     "type": "K-400",
-     "title": "Picture Pairs: Find the Difference",
-     "instruction": "Each row shows the same close-up twice; circle the one place that is different in the right picture and check the box of that row.",
-     "core": "find-the-differences-k400-5",
-     "hard": "find-the-differences-hard-k400-8",
-     "easy": "find-the-differences-easy-k400-3",
+     "point": "K:mazes",
+     "type": "K-406",
+     "title": "Help the Kitten Get to the Milk",
+     "instruction": "Help the puppy get to the ball. Draw a line along the wide road and stay between its edges.",
+     "core": "maze-puzzles-k406-6",
+     "hard": "maze-puzzles-hard-k406-11",
+     "easy": "maze-puzzles-easy-k406-3",
      "script": {
-      "say": "\"Each row shows the same picture two times, but one place in the right picture is different. Circle it, and check the box of that row.\"",
-      "first": "Do the first row together: compare the left and the right picture, part by part, and find the one difference. Circle it in the right picture and check the box of the row.",
-      "stuck": "Have the child cover half of each picture with a hand and compare one half at a time."
+      "say": "\"Time for a maze. Help the animal get to its goal. Draw a line along the wide road and stay between its edges.\"",
+      "first": "Hold up the page, read its title aloud, and show where the road starts, at the animal with the arrow, and where it ends. Trace the road with your finger and stop at each place where it splits: \"Which way leads to the goal?\" Tell the children to find the whole way with a finger before they draw.",
+      "stuck": "Tell the child that a dead end is part of every maze: go back to the last place where the path split and try the other way. Starting from the goal and working backward also helps."
      }
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:habitats-needs",
-     "type": "G1-202",
-     "title": "Where Do Animals Live?",
-     "instruction": "Draw a line from each animal to where it lives.",
-     "core": "science-sort-g1202-2",
-     "hard": "science-sort-hard-g1202-8",
-     "easy": "science-sort-easy-g1202-3",
+     "point": "1:school-play-long-ago",
+     "type": "G1-658",
+     "title": "School and Play Long Ago and Today",
+     "instruction": "Circle long ago or today for each picture and for each thing a child said.",
+     "core": "family-g1658-2",
+     "hard": "family-hard-g1658-12",
+     "easy": "family-easy-g1658-7",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Land, Water, and Air. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this animal spend most of its time: on land, in the water, or in the air?\" Draw the line from the dot under the picture to its box. An animal that flies lives on land too, so Air and Land are both right for it when the child can say why.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
+      "say": "\"Look at each picture and read each sentence. Is it from long ago or today? Circle long ago or today.\"",
+      "first": "Ask the class, \"How did children go to school and play long ago, when your great-grandparents were little?\" Read the words under the first picture aloud and ask, \"Do children do that today?\" Circle together. Read the sentences aloud for the children who need it. If the page asks which school the child would like, any answer with a reason is right.",
+      "stuck": "Ask, \"Have you seen one of these at school or at home?\" Something children use today is today; something we see only in old pictures is long ago."
      }
     }
    ]
@@ -10161,17 +10161,17 @@
     {
      "key": "writing",
      "minutes": 20,
-     "point": "1:unscramble-sentence",
-     "type": "G1-283",
-     "title": "Unscramble the Sentence: No Clues",
-     "instruction": "There is no capital letter and no period to help you. Put the words in order and write the sentence on the line.",
-     "core": "sentence-building-classroom-b-w-g1283-2",
-     "hard": "sentence-building-hard-food-bw-g1283-2",
-     "easy": "sentence-building-easy-apparel-bw-g1283-2",
+     "point": "1:question-words",
+     "type": "G1-374",
+     "title": "Fill In the Question Word",
+     "instruction": "Read the answer and find the highlighted words. Write the question word from the bank in the box.",
+     "core": "question-words-g1374-3",
+     "hard": "question-words-hard-g1374-14",
+     "easy": "question-words-easy-g1374-9",
      "script": {
-      "say": "\"The words of each sentence are mixed up, and there is no capital letter and no period to help you. Put the words in order and write the sentence with a capital letter and a period.\"",
-      "first": "Write the mixed-up words of the first sentence on the board. Read them aloud with the class. Ask: \"Which word could start the sentence?\" Try the children's ideas aloud until one order sounds right. Write the sentence on the board, and point out the capital letter at the start and the end mark.",
-      "stuck": "Have the child read every word aloud, then try a first word and read on: \"Does that sound like something you would say?\" If the child cannot read a word, read it for them. Cross out each word once it is used."
+      "say": "\"Read each answer. Look at the highlighted words. Which question asks for them: who, what, where, when, or how many? Write that question word in the box.\"",
+      "first": "Read the question words in the bank aloud. Read the first answer and its question aloud and look at the highlighted words. Ask, \"Which question word asks for these words?\" Write it in the box together. Do the rest of the page by reading each answer aloud with the class.",
+      "stuck": "Ask the child: \"Is the highlighted part a person? Then who. A thing? What. A place? Where. A time? When. A number? How many.\""
      }
     },
     {
@@ -10209,33 +10209,33 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "K:mazes",
-     "type": "K-406",
-     "title": "Help the Kitten Get to the Milk",
-     "instruction": "Help the puppy get to the ball. Draw a line along the wide road and stay between its edges.",
-     "core": "maze-puzzles-k406-6",
-     "hard": "maze-puzzles-hard-k406-11",
-     "easy": "maze-puzzles-easy-k406-3",
+     "point": "1:map-key",
+     "type": "G1-528",
+     "title": "Treasure Hunt: Follow the Steps",
+     "instruction": "Start at the flag. Follow the steps. Circle the picture where you land.",
+     "core": "maps-at-the-supermarket-g1528-2",
+     "hard": "maps-hard-camping-g1528-2",
+     "easy": "maps-easy-occupations-g1528-2",
      "script": {
-      "say": "\"Time for a maze. Help the animal get to its goal. Draw a line along the wide road and stay between its edges.\"",
-      "first": "Hold up the page, read its title aloud, and show where the road starts, at the animal with the arrow, and where it ends. Trace the road with your finger and stop at each place where it splits: \"Which way leads to the goal?\" Tell the children to find the whole way with a finger before they draw.",
-      "stuck": "Tell the child that a dead end is part of every maze: go back to the last place where the path split and try the other way. Starting from the goal and working backward also helps."
+      "say": "\"Start at the flag on the grid. Follow the steps, one at a time: each step says which way to move and how many squares. Circle the picture where you land.\"",
+      "first": "Put your finger on the flag and read the first step aloud: \"Move 1 square right.\" Move the finger together and stop. Read the next step and move again. Tell the children to count the squares, not the lines, and to keep the finger on the page until the last step.",
+      "stuck": "Have the child say each step aloud and point with a finger. Check right and left: \"Which hand is your right hand? Move that way.\""
      }
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:animal-classes-coverings",
-     "type": "G1-201",
-     "title": "Sort the Animals",
-     "instruction": "Draw a line from each animal to the group it belongs to.",
-     "core": "science-sort-g1201-2",
-     "hard": "science-sort-hard-g1201-8",
-     "easy": "science-sort-easy-g1201-3",
+     "point": "K:feelings",
+     "type": "K-331",
+     "title": "How Do You Feel? Circle the Face",
+     "instruction": "Look at the picture, think how you would feel, and circle the face that matches.",
+     "core": "feelings-k331-3",
+     "hard": "feelings-hard-k331-15",
+     "easy": "feelings-easy-k331-9",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Mammals, Birds, and Reptiles. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Does it have fur, feathers, or scales? Does it lay eggs or feed its babies milk?\" Draw the line from the dot under the picture to its box. Mammals have fur or hair, birds have feathers, and reptiles have dry scales.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
+      "say": "\"Look at each picture. Think about how it would make you feel. Then circle the face that shows that feeling.\"",
+      "first": "Look at the first picture together and ask what it shows. Ask, \"How does that make you feel?\" Let two or three children answer; they may not all feel the same, and that is fine. Each child circles the face that matches their own answer.",
+      "stuck": "Ask the child what the picture shows and when they have seen one. Then point to each face and name the feeling it shows. There is no wrong answer on this page; any face the child can explain is right."
      }
     }
    ]
@@ -10301,17 +10301,17 @@
     {
      "key": "writing",
      "minutes": 20,
-     "point": "1:question-words",
-     "type": "G1-374",
-     "title": "Fill In the Question Word",
-     "instruction": "Read the answer and find the highlighted words. Write the question word from the bank in the box.",
-     "core": "question-words-g1374-3",
-     "hard": "question-words-hard-g1374-14",
-     "easy": "question-words-easy-g1374-9",
+     "point": "1:spell-picture-words",
+     "type": "G1-304",
+     "title": "Write the Word: Every Clue",
+     "instruction": "Write each word using the bank, the boxes and the first letter.",
+     "core": "write-the-word-miscellaneous-g1304-3",
+     "hard": "write-the-word-hard-education-bw-g1304-2",
+     "easy": "write-the-word-easy-kitchen-bw-g1304-2",
      "script": {
-      "say": "\"Read each answer. Look at the highlighted words. Which question asks for them: who, what, where, when, or how many? Write that question word in the box.\"",
-      "first": "Read the question words in the bank aloud. Read the first answer and its question aloud and look at the highlighted words. Ask, \"Which question word asks for these words?\" Write it in the box together. Do the rest of the page by reading each answer aloud with the class.",
-      "stuck": "Ask the child: \"Is the highlighted part a person? Then who. A thing? What. A place? Where. A time? When. A number? How many.\""
+      "say": "\"Say the name of each picture. Use every clue to write its word: the word bank, the letter boxes, and the first letter.\"",
+      "first": "Read the words in the bank aloud together and name the pictures. Do the first one together: find the word in the bank, check its first letter, and write one letter in each box.",
+      "stuck": "Have the child say the picture word and listen for its first sound, then look in the word bank for a word that starts with the letter that is already written. Read the words in the word bank for a child who cannot read them."
      }
     },
     {
@@ -10365,17 +10365,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:habitats-needs",
-     "type": "G1-206",
-     "title": "What Animals Eat",
-     "instruction": "Draw a line from each animal to the group it belongs to.",
-     "core": "science-sort-g1206-2",
-     "hard": "science-sort-hard-g1206-8",
-     "easy": "science-sort-easy-g1206-3",
+     "point": "1:goods-services-near-far",
+     "type": "G1-666",
+     "title": "Goods and Services",
+     "instruction": "Goods are things people make or grow. Services are work someone does for you. Color the box yellow for goods and green for services.",
+     "core": "science-sort-g1666",
+     "hard": "science-sort-hard-g1666-9",
+     "easy": "science-sort-easy-g1666-4",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Plant Eaters and Meat Eaters. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"What does this animal eat: plants or other animals?\" Draw the line from the dot under the picture to its box.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
+      "say": "\"Goods are things people make or grow. Services are work someone does for you. Color the box yellow for goods and green for services.\"",
+      "first": "Hold up a pencil: \"Someone made this. It is a good.\" Then say, \"When someone does work for you, that is a service.\" Name each picture on the page together and do the first one together. If your page has a town map, read the labels aloud: a good from a place on the map is from our town; a good grown far away is not.",
+      "stuck": "Ask, \"Is it a thing someone made or grew, or is it work someone does for you?\" Bananas are a good; a haircut is a service."
      }
     }
    ]
@@ -10443,17 +10443,17 @@
     {
      "key": "writing",
      "minutes": 20,
-     "point": "1:spell-picture-words",
-     "type": "G1-304",
-     "title": "Write the Word: Every Clue",
-     "instruction": "Write each word using the bank, the boxes and the first letter.",
-     "core": "write-the-word-miscellaneous-g1304-3",
-     "hard": "write-the-word-hard-education-bw-g1304-2",
-     "easy": "write-the-word-easy-kitchen-bw-g1304-2",
+     "point": "1:joining-words",
+     "type": "G1-594",
+     "title": "Joining Words: and, but, so, because",
+     "instruction": "A joining word puts two sentences together. Circle the one that fits best in each sentence. Then join two sentences and write them as one.",
+     "core": "sentence-building-g1594-2",
+     "hard": "sentence-building-hard-g1594-12",
+     "easy": "sentence-building-easy-g1594-7",
      "script": {
-      "say": "\"Say the name of each picture. Use every clue to write its word: the word bank, the letter boxes, and the first letter.\"",
-      "first": "Read the words in the bank aloud together and name the pictures. Do the first one together: find the word in the bank, check its first letter, and write one letter in each box.",
-      "stuck": "Have the child say the picture word and listen for its first sound, then look in the word bank for a word that starts with the letter that is already written. Read the words in the word bank for a child who cannot read them."
+      "say": "\"A joining word puts two sentences together. And adds one more thing. But tells something you did not expect. So tells what happened because of it. Circle the joining word that fits best in each sentence.\"",
+      "first": "Read the box with the three joining words aloud. Read the first sentence aloud three times, once with each joining word, and ask which one makes the most sense. Circle it. For the last part, read the two sentences together and join them on the lines.",
+      "stuck": "Read the sentence with each joining word for the child and ask, \"Which one sounds right?\" For but, ask, \"Is the second part a surprise?\""
      }
     },
     {
@@ -10491,17 +10491,17 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "1:map-key",
-     "type": "G1-528",
-     "title": "Treasure Hunt: Follow the Steps",
-     "instruction": "Start at the flag. Follow the steps. Circle the picture where you land.",
-     "core": "maps-spring-g1528-3",
-     "hard": "maps-hard-at-the-supermarket-g1528-3",
-     "easy": "maps-easy-furniture-g1528-3",
+     "point": "K:spot-the-difference",
+     "type": "K-399",
+     "title": "What Is Missing?",
+     "instruction": "Circle the 3 empty places in the bottom picture where something from the top picture is missing, and check a box for each.",
+     "core": "find-the-differences-k399-10",
+     "hard": "find-the-differences-hard-k399-19",
+     "easy": "find-the-differences-easy-k399-4",
      "script": {
-      "say": "\"Start at the flag on the grid. Follow the steps, one at a time: each step says which way to move and how many squares. Circle the picture where you land.\"",
-      "first": "Put your finger on the flag and read the first step aloud: \"Move 1 square right.\" Move the finger together and stop. Read the next step and move again. Tell the children to count the squares, not the lines, and to keep the finger on the page until the last step.",
-      "stuck": "Have the child say each step aloud and point with a finger. Check right and left: \"Which hand is your right hand? Move that way.\""
+      "say": "\"The two pictures are the same, but three things are missing from the bottom picture. Find each empty place, circle it, and check a box for each one.\"",
+      "first": "Hold up the page and compare the two pictures with the class, from the top down. Find one thing that is missing together and circle the empty place in the bottom picture. Check the first box.",
+      "stuck": "Have the child pick one thing in the top picture and look for it in the bottom picture: \"Is it there?\" There are three missing things; the three boxes help them count."
      }
     },
     {
@@ -10585,17 +10585,17 @@
     {
      "key": "writing",
      "minutes": 20,
-     "point": "1:verb-tense",
-     "type": "G1-595",
-     "title": "Yesterday, Today, and Tomorrow",
-     "instruction": "A verb tells when: yesterday I walked, today I walk, tomorrow I will walk. Write the missing verbs. Then circle the verb that fits.",
-     "core": "verb-forms-g1595-2",
-     "hard": "verb-forms-hard-g1595-12",
-     "easy": "verb-forms-easy-g1595-7",
+     "point": "1:pronouns",
+     "type": "G1-352",
+     "title": "Personal Pronouns",
+     "instruction": "Look at the person and read the name. Circle the word we use instead of the name.",
+     "core": "pronouns-g1352-2",
+     "hard": "pronouns-hard-g1352-13",
+     "easy": "pronouns-easy-g1352-8",
      "script": {
-      "say": "\"A verb tells when something happens: yesterday I walked, today I walk, tomorrow I will walk. Write the missing verbs. Then circle the verb that fits the time word in each sentence.\"",
-      "first": "Write walked, walk, will walk under Yesterday, Today, and Tomorrow on the board. Do the first row on the page together. For the second part, read the first sentence aloud and look for the time word: yesterday, today, or tomorrow.",
-      "stuck": "Ask, \"Did it happen already, is it happening now, or will it happen later?\" Already: add -ed. Later: will."
+      "say": "\"Look at each person and read the name. Which word do we use instead of the name: he, she, or they? Circle it.\"",
+      "first": "Write he, she, and they on the board. Read the first name aloud and look at the picture together. Ask, \"Is it one boy, one girl, or more than one person?\" Circle the word. For two names, it is always they.",
+      "stuck": "Have the child look at the picture and say how many people it shows. One boy is he, one girl is she, and two or more people are they."
      }
     },
     {
@@ -10649,17 +10649,17 @@
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:family-generations",
-     "type": "G1-385",
-     "title": "Family Generations: Oldest to Youngest",
-     "instruction": "In each row, write 1, 2 and 3 in the boxes to put the family words in order from the oldest generation to the youngest.",
-     "core": "family-g1385-3",
-     "hard": "family-hard-g1385-14",
-     "easy": "family-easy-g1385-9",
+     "point": "1:jobs-earning-money",
+     "type": "G1-667",
+     "title": "Jobs and Earning Money",
+     "instruction": "Draw a line from each sentence to the worker who says it. Then circle what a family can spend its pay on.",
+     "core": "science-match-g1667",
+     "hard": "science-match-hard-g1667-7",
+     "easy": "science-match-easy-g1667-2",
      "script": {
-      "say": "\"In each row there are family words. Write 1, 2, and 3 to put them in order, from the oldest generation to the youngest.\"",
-      "first": "Talk about a family: grandparents are the oldest generation, then parents, aunts, and uncles, then children like brothers, sisters, and cousins. Read the first row aloud together and ask, \"Who is the oldest?\" Write 1 under that word, then 2 and 3.",
-      "stuck": "Ask the child about each word: \"Is that a grandparent, a parent, or a child?\" Grandparents get 1, parents 2, children 3. Every family is different; this page is about the words."
+      "say": "\"Draw a line from each sentence to the worker who says it. Then circle what a family can spend its pay on.\"",
+      "first": "Say, \"People work at jobs and get paid money. Then they can buy what they need.\" Read each sentence aloud and name the workers in the pictures together. Do the first line together. Then point to each picture of the last part and ask, \"Can a family buy this with money?\" The sun, a hug, and a rainbow cannot be bought. If the page asks for a job the child would like, any job is right.",
+      "stuck": "Read the sentence with the child and ask, \"Who does that work?\" Point to each worker and ask what that person does."
      }
     }
    ]
@@ -10695,17 +10695,17 @@
     {
      "key": "reading",
      "minutes": 20,
-     "point": "1:read-and-follow",
-     "type": "G1-242",
-     "title": "Read and Color",
-     "instruction": "Read each sentence carefully. Then color exactly the pictures it tells you to.",
-     "core": "read-and-color-animals-bw-g1242-53",
-     "hard": "read-and-color-hard-animals-bw-2-g1242-96",
-     "easy": "read-and-color-easy-animals-bw-2-g1242-6",
+     "point": "1:story-sequencing",
+     "type": "G1-402",
+     "title": "Story Sequencing Sentences: Match the Pictures",
+     "instruction": "Number each story's sentences in order in the boxes, then draw a line from every sentence to its picture.",
+     "core": "story-sequencing-g1402-3",
+     "hard": "story-sequencing-hard-g1402-14",
+     "easy": "story-sequencing-easy-g1402-9",
      "script": {
-      "say": "\"Now it is time to read. Read each sentence, then do exactly what it says.\"",
-      "first": "Read the first sentence aloud together, pointing to each word. Ask: \"What does the sentence tell us to do?\" Do it together. Then the children read the other sentences on their own.",
-      "stuck": "Point to the word the child cannot read and say its first sound; if that is not enough, read the word. Then have the child read the whole sentence again and tell you what it asks for before starting."
+      "say": "\"Each story on this page is told in four sentences, but the sentences are out of order. Read them. Number them 1 to 4 in the order things happen. Then draw a line from each sentence to its picture.\"",
+      "first": "Read the four sentences of the first story aloud. Ask, \"What happens first? How do you know?\" Write 1 next to it, then 2, 3, and 4 together. Then draw a line from each sentence to its picture.",
+      "stuck": "Read the sentences to the child and ask which one could be the beginning. Have the child tell the story aloud in the order of the numbers; if it makes sense, the order is right. The pictures help: look at what changes from one to the next."
      }
     },
     {
@@ -10727,17 +10727,17 @@
     {
      "key": "writing",
      "minutes": 20,
-     "point": "1:pronouns",
-     "type": "G1-352",
-     "title": "Personal Pronouns",
-     "instruction": "Look at the person and read the name. Circle the word we use instead of the name.",
-     "core": "pronouns-g1352-2",
-     "hard": "pronouns-hard-g1352-13",
-     "easy": "pronouns-easy-g1352-8",
+     "point": "1:verb-tense",
+     "type": "G1-595",
+     "title": "Yesterday, Today, and Tomorrow",
+     "instruction": "A verb tells when: yesterday I walked, today I walk, tomorrow I will walk. Write the missing verbs. Then circle the verb that fits.",
+     "core": "verb-forms-g1595-2",
+     "hard": "verb-forms-hard-g1595-12",
+     "easy": "verb-forms-easy-g1595-7",
      "script": {
-      "say": "\"Look at each person and read the name. Which word do we use instead of the name: he, she, or they? Circle it.\"",
-      "first": "Write he, she, and they on the board. Read the first name aloud and look at the picture together. Ask, \"Is it one boy, one girl, or more than one person?\" Circle the word. For two names, it is always they.",
-      "stuck": "Have the child look at the picture and say how many people it shows. One boy is he, one girl is she, and two or more people are they."
+      "say": "\"A verb tells when something happens: yesterday I walked, today I walk, tomorrow I will walk. Write the missing verbs. Then circle the verb that fits the time word in each sentence.\"",
+      "first": "Write walked, walk, will walk under Yesterday, Today, and Tomorrow on the board. Do the first row on the page together. For the second part, read the first sentence aloud and look for the time word: yesterday, today, or tomorrow.",
+      "stuck": "Ask, \"Did it happen already, is it happening now, or will it happen later?\" Already: add -ed. Later: will."
      }
     },
     {
@@ -10775,33 +10775,33 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "K:spot-the-difference",
-     "type": "K-399",
-     "title": "What Is Missing?",
-     "instruction": "Circle the 3 empty places in the bottom picture where something from the top picture is missing, and check a box for each.",
-     "core": "find-the-differences-k399-10",
-     "hard": "find-the-differences-hard-k399-19",
-     "easy": "find-the-differences-easy-k399-4",
+     "point": "1:mazes",
+     "type": "G1-424",
+     "title": "Help the Bee Pick Up Every Sunflower",
+     "instruction": "Help the rabbit get to the bucket and pick up every carrot, without using a path twice. Fill in a circle for each carrot.",
+     "core": "maze-puzzles-g1424-6",
+     "hard": "maze-puzzles-hard-g1424-11",
+     "easy": "maze-puzzles-easy-g1424-3",
      "script": {
-      "say": "\"The two pictures are the same, but three things are missing from the bottom picture. Find each empty place, circle it, and check a box for each one.\"",
-      "first": "Hold up the page and compare the two pictures with the class, from the top down. Find one thing that is missing together and circle the empty place in the bottom picture. Check the first box.",
-      "stuck": "Have the child pick one thing in the top picture and look for it in the bottom picture: \"Is it there?\" There are three missing things; the three boxes help them count."
+      "say": "\"Read the title with me. Help the animal reach its goal and pick up every one of its things on the way, without using a path twice. Fill in a circle for each one you pick up.\"",
+      "first": "Hold up the page and read the title and the directions aloud. Show the animal, its goal, and the things it must pick up, and count the things together. Tell the children to plan the whole way with a finger before they draw, because the first way they see may miss one.",
+      "stuck": "Have the child put a finger on each thing to pick up and look at which paths lead to it. If the way is blocked because a path was already used, the child starts again with a finger and picks up the things in another order."
      }
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:sink-float",
-     "type": "G1-204",
-     "title": "Sink or Float?",
-     "instruction": "Draw a line from each object to the group you think it belongs to.",
-     "core": "science-sort-g1204-2",
-     "hard": "science-sort-hard-g1204-8",
-     "easy": "science-sort-easy-g1204-3",
+     "point": "1:prices-market",
+     "type": "G1-670",
+     "title": "Prices at the Market",
+     "instruction": "Look at each price tag. Circle the coins that pay the price exactly. Then circle the one in each pair that costs more.",
+     "core": "money-g1670",
+     "hard": "money-hard-g1670-11",
+     "easy": "money-easy-g1670-6",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Float and Sink. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"If we put this in water, would it float on top or sink to the bottom?\" Draw the line from the dot under the picture to its box. This page asks what the children think; a child who can say why has done the page well.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
+      "say": "\"Each thing at the market has a price tag. Circle the coins that pay the price exactly. Then circle the one that costs more.\"",
+      "first": "Look at the coins at the top together and name each coin and what it is worth: a penny is 1 cent, a nickel 5 cents, a dime 10 cents, a quarter 25 cents. Do the first thing together: read its price, start with the biggest coin that fits, and count on aloud as you circle each coin. Some coins are left over. Then read the two prices in \"Which costs more?\" and circle the bigger one.",
+      "stuck": "Have the child find each coin of the tray in the coins at the top. Start with the biggest coin that fits, add the next coin that still fits, and count on aloud until you reach the price."
      }
     }
    ]
@@ -10837,17 +10837,17 @@
     {
      "key": "reading",
      "minutes": 20,
-     "point": "1:story-sequencing",
-     "type": "G1-402",
-     "title": "Story Sequencing Sentences: Match the Pictures",
-     "instruction": "Number each story's sentences in order in the boxes, then draw a line from every sentence to its picture.",
-     "core": "story-sequencing-g1402-3",
-     "hard": "story-sequencing-hard-g1402-14",
-     "easy": "story-sequencing-easy-g1402-9",
+     "point": "1:read-and-follow",
+     "type": "G1-242",
+     "title": "Read and Color",
+     "instruction": "Read each sentence carefully. Then color exactly the pictures it tells you to.",
+     "core": "read-and-color-animals-bw-g1242-53",
+     "hard": "read-and-color-hard-animals-bw-2-g1242-96",
+     "easy": "read-and-color-easy-animals-bw-2-g1242-6",
      "script": {
-      "say": "\"Each story on this page is told in four sentences, but the sentences are out of order. Read them. Number them 1 to 4 in the order things happen. Then draw a line from each sentence to its picture.\"",
-      "first": "Read the four sentences of the first story aloud. Ask, \"What happens first? How do you know?\" Write 1 next to it, then 2, 3, and 4 together. Then draw a line from each sentence to its picture.",
-      "stuck": "Read the sentences to the child and ask which one could be the beginning. Have the child tell the story aloud in the order of the numbers; if it makes sense, the order is right. The pictures help: look at what changes from one to the next."
+      "say": "\"Now it is time to read. Read each sentence, then do exactly what it says.\"",
+      "first": "Read the first sentence aloud together, pointing to each word. Ask: \"What does the sentence tell us to do?\" Do it together. Then the children read the other sentences on their own.",
+      "stuck": "Point to the word the child cannot read and say its first sound; if that is not enough, read the word. Then have the child read the whole sentence again and tell you what it asks for before starting."
      }
     },
     {
@@ -10869,17 +10869,17 @@
     {
      "key": "writing",
      "minutes": 20,
-     "point": "1:capitals-names-days-months",
-     "type": "G1-593",
-     "title": "Capital Letter or Small Letter?",
-     "instruction": "Names and the days of the week start with a capital letter. Other words do not, unless they start the sentence.",
-     "core": "capitals-punctuation-g1593-2",
-     "hard": "capitals-punctuation-hard-g1593-12",
-     "easy": "capitals-punctuation-easy-g1593-7",
+     "point": "1:unscramble-sentence",
+     "type": "G1-249",
+     "title": "Unscramble the Sentence",
+     "instruction": "The words are mixed up. Put them in order and write the sentence on the line with a capital letter and an end mark.",
+     "core": "sentence-building-classroom-g1249-3",
+     "hard": "sentence-building-hard-kitchen-tools-g1249-3",
+     "easy": "sentence-building-easy-accessories-g1249-3",
      "script": {
-      "say": "\"Names of people and pets, and the days of the week, start with a capital letter. Other words do not, unless they start the sentence. In each sentence, circle the word that is written the right way.\"",
-      "first": "Write \"Monday\" and \"monday\" on the board and ask which is right. Read the first sentence aloud with both choices: \"On Monday, or monday, we have a test.\" Circle Monday together. Read each sentence aloud with the class before they choose. Then read the second part of the page together.",
-      "stuck": "Ask the child, \"Is this word a name, a day, or a month? Does it start the sentence?\" If yes, it gets a capital letter."
+      "say": "\"The words of these sentences got mixed up. Your job is to put them back in order and write the sentence. Every sentence starts with a capital letter and ends with an end mark: a period, a question mark, or an exclamation point.\"",
+      "first": "Write the mixed-up words of the first sentence on the board. Read them aloud with the class. Ask: \"Which word could start the sentence?\" Try the children's ideas aloud until one order sounds right. Write the sentence on the board, and point out the capital letter at the start and the end mark.",
+      "stuck": "Have the child read every word aloud, then try a first word and read on: \"Does that sound like something you would say?\" If the child cannot read a word, read it for them. Cross out each word once it is used."
      }
     },
     {
@@ -10917,17 +10917,17 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "1:mazes",
-     "type": "G1-424",
-     "title": "Help the Bee Pick Up Every Sunflower",
-     "instruction": "Help the rabbit get to the bucket and pick up every carrot, without using a path twice. Fill in a circle for each carrot.",
-     "core": "maze-puzzles-g1424-6",
-     "hard": "maze-puzzles-hard-g1424-11",
-     "easy": "maze-puzzles-easy-g1424-3",
+     "point": "K:grid-copy",
+     "type": "K-502",
+     "title": "Draw It Twice as Big",
+     "instruction": "Look at the picture on the small grid. Color the same squares on the big grid, where every square is twice as big.",
+     "core": "grid-copy-k502-2",
+     "hard": "grid-copy-hard-k502-12",
+     "easy": "grid-copy-easy-k502-7",
      "script": {
-      "say": "\"Read the title with me. Help the animal reach its goal and pick up every one of its things on the way, without using a path twice. Fill in a circle for each one you pick up.\"",
-      "first": "Hold up the page and read the title and the directions aloud. Show the animal, its goal, and the things it must pick up, and count the things together. Tell the children to plan the whole way with a finger before they draw, because the first way they see may miss one.",
-      "stuck": "Have the child put a finger on each thing to pick up and look at which paths lead to it. If the way is blocked because a path was already used, the child starts again with a finger and picks up the things in another order."
+      "say": "\"Look at the picture on the small grid. Color the same squares on the big grid, where every square is twice as big.\"",
+      "first": "Find the top-left colored square on the small grid together and count which row and which column it is in. Find the same row and column on the big grid and color that square. Tell the children to do one row at a time.",
+      "stuck": "Have the child put one finger on a colored square and another on the same row and column of the empty grid."
      }
     },
     {
@@ -10937,9 +10937,9 @@
      "type": "G1-205",
      "title": "Animal Coverings",
      "instruction": "Draw a line from each animal to its body covering.",
-     "core": "science-sort-g1205-2",
-     "hard": "science-sort-hard-g1205-8",
-     "easy": "science-sort-easy-g1205-3",
+     "core": "science-sort-g1205",
+     "hard": "science-sort-hard-g1205-7",
+     "easy": "science-sort-easy-g1205-2",
      "script": {
       "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Fur, Feathers, and Scales. Draw a line from each picture to the box where it belongs.\"",
       "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"What covers this animal's body: fur, feathers, or scales?\" Draw the line from the dot under the picture to its box. Fur is soft hair, feathers have a stem with soft sides, and scales are small, hard plates on the skin.",
@@ -11010,17 +11010,17 @@
     {
      "key": "writing",
      "minutes": 20,
-     "point": "1:unscramble-sentence",
-     "type": "G1-249",
-     "title": "Unscramble the Sentence",
-     "instruction": "The words are mixed up. Put them in order and write the sentence on the line with a capital letter and an end mark.",
-     "core": "sentence-building-classroom-g1249-3",
-     "hard": "sentence-building-hard-kitchen-tools-g1249-3",
-     "easy": "sentence-building-easy-accessories-g1249-3",
+     "point": "1:capitals-names-days-months",
+     "type": "G1-593",
+     "title": "Capital Letter or Small Letter?",
+     "instruction": "Names and the days of the week start with a capital letter. Other words do not, unless they start the sentence.",
+     "core": "capitals-punctuation-g1593-2",
+     "hard": "capitals-punctuation-hard-g1593-12",
+     "easy": "capitals-punctuation-easy-g1593-7",
      "script": {
-      "say": "\"The words of these sentences got mixed up. Your job is to put them back in order and write the sentence. Every sentence starts with a capital letter and ends with an end mark: a period, a question mark, or an exclamation point.\"",
-      "first": "Write the mixed-up words of the first sentence on the board. Read them aloud with the class. Ask: \"Which word could start the sentence?\" Try the children's ideas aloud until one order sounds right. Write the sentence on the board, and point out the capital letter at the start and the end mark.",
-      "stuck": "Have the child read every word aloud, then try a first word and read on: \"Does that sound like something you would say?\" If the child cannot read a word, read it for them. Cross out each word once it is used."
+      "say": "\"Names of people and pets, and the days of the week, start with a capital letter. Other words do not, unless they start the sentence. In each sentence, circle the word that is written the right way.\"",
+      "first": "Write \"Monday\" and \"monday\" on the board and ask which is right. Read the first sentence aloud with both choices: \"On Monday, or monday, we have a test.\" Circle Monday together. Read each sentence aloud with the class before they choose. Then read the second part of the page together.",
+      "stuck": "Ask the child, \"Is this word a name, a day, or a month? Does it start the sentence?\" If yes, it gets a capital letter."
      }
     },
     {
@@ -11058,33 +11058,32 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "K:grid-copy",
-     "type": "K-502",
-     "title": "Draw It Twice as Big",
-     "instruction": "Look at the picture on the small grid. Color the same squares on the big grid, where every square is twice as big.",
-     "core": "grid-copy-k502-2",
-     "hard": "grid-copy-hard-k502-12",
-     "easy": "grid-copy-easy-k502-7",
+     "point": "K:spot-the-difference",
+     "type": "K-400",
+     "title": "Picture Pairs: Find the Difference",
+     "instruction": "Each row shows the same close-up twice; circle the one place that is different in the right picture and check the box of that row.",
+     "core": "find-the-differences-k400-6",
+     "hard": "find-the-differences-hard-k400-9",
      "script": {
-      "say": "\"Look at the picture on the small grid. Color the same squares on the big grid, where every square is twice as big.\"",
-      "first": "Find the top-left colored square on the small grid together and count which row and which column it is in. Find the same row and column on the big grid and color that square. Tell the children to do one row at a time.",
-      "stuck": "Have the child put one finger on a colored square and another on the same row and column of the empty grid."
+      "say": "\"Each row shows the same picture two times, but one place in the right picture is different. Circle it, and check the box of that row.\"",
+      "first": "Do the first row together: compare the left and the right picture, part by part, and find the one difference. Circle it in the right picture and check the box of the row.",
+      "stuck": "Have the child cover half of each picture with a hand and compare one half at a time."
      }
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:habitats-needs",
-     "type": "G1-202",
-     "title": "Where Do Animals Live?",
-     "instruction": "Draw a line from each animal to where it lives.",
-     "core": "science-sort-g1202-3",
-     "hard": "science-sort-hard-g1202-9",
-     "easy": "science-sort-easy-g1202-4",
+     "point": "1:saving-goal",
+     "type": "G1-668",
+     "title": "Saving for a Goal",
+     "instruction": "Color one part of the jar for each week the child saves. Write how many weeks it takes. Circle why the child saved.",
+     "core": "money-g1668",
+     "hard": "money-hard-g1668-11",
+     "easy": "money-easy-g1668-6",
      "script": {
-      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Land, Water, and Air. Draw a line from each picture to the box where it belongs.\"",
-      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"Where does this animal spend most of its time: on land, in the water, or in the air?\" Draw the line from the dot under the picture to its box. An animal that flies lives on land too, so Air and Land are both right for it when the child can say why.",
-      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
+      "say": "\"The child in the story saves one dollar each week. Color one part of the jar for each week until the jar is full. Then answer the questions and circle why the child saved.\"",
+      "first": "Read the story aloud and ask, \"How much does the child save each week? How much does the thing cost?\" Color one part together and say, \"One week, one dollar.\" Count the weeks aloud as you color. The number of colored parts is the number of weeks. If the page asks for the child's own goal, it costs $20 or less, and any goal is right.",
+      "stuck": "Color one part with the child and say, \"One week, one dollar.\" Keep going, one part at a time, until the jar is full. Then count the colored parts together."
      }
     }
    ]
@@ -11200,33 +11199,33 @@
     {
      "key": "logic",
      "minutes": 15,
-     "point": "K:mazes",
-     "type": "K-405",
-     "title": "Help the Boy on the Bike Reach the Slide",
-     "instruction": "Help the hedgehog get to the apple tree. Draw a line along the way.",
-     "core": "maze-puzzles-k405-14",
-     "hard": "maze-puzzles-hard-k405-26",
-     "easy": "maze-puzzles-easy-k405-4",
+     "point": "1:mazes",
+     "type": "G1-425",
+     "title": "Bring the Fish to the Coral Safely",
+     "instruction": "Help the polar bear get to the igloo. Do not take a road with a walrus or a hole in the ice.",
+     "core": "maze-puzzles-g1425-6",
+     "hard": "maze-puzzles-hard-g1425-11",
+     "easy": "maze-puzzles-easy-g1425-3",
      "script": {
-      "say": "\"Time for a maze. Find the way along the light path from the animal to its goal. Use your finger first, then your pencil.\"",
-      "first": "Hold up the page and show where the path starts, at the animal with the arrow, and where it ends. Trace the beginning of the way with your finger and stop at the first place where the path splits: \"Which way? Let's try one.\" Tell the children to find the whole way with a finger before they draw.",
-      "stuck": "Tell the child that a dead end is part of every maze: go back to the last place where the path split and try the other way. Starting from the goal and working backward also helps."
+      "say": "\"Help the animal get home safely. Look at the whole maze first. Do not take a road with one of the dangers the page names.\"",
+      "first": "Read the title aloud and show the start and the goal. Point to the dangers on the page and say that a road with a danger is closed. Trace a way with your finger and stop at each fork: \"Is there a danger on this road?\" Tell the children to find the whole way with a finger before they draw.",
+      "stuck": "Suggest starting from the end and working backward. A wrong turn does not need to be erased; tell the child to go back to the last place where the path split and try the other way."
      }
     },
     {
      "key": "closing",
      "minutes": 10,
-     "point": "1:family-generations",
-     "type": "G1-386",
-     "title": "Family Tree: Read the Clues",
-     "instruction": "Read the clues and write each name in the right name box on the family tree.",
-     "core": "family-g1386-3",
-     "hard": "family-hard-g1386-14",
-     "easy": "family-easy-g1386-9",
+     "point": "1:habitats-needs",
+     "type": "G1-206",
+     "title": "What Animals Eat",
+     "instruction": "Draw a line from each animal to the group it belongs to.",
+     "core": "science-sort-g1206",
+     "hard": "science-sort-hard-g1206-7",
+     "easy": "science-sort-easy-g1206-2",
      "script": {
-      "say": "\"Read each clue. It tells you who someone is in the family. Write each name in the right name box on the family tree.\"",
-      "first": "Read the names on the tree and the first clue aloud. Find the child the clues are about on the tree. Ask, \"If Leo is Jack's brother, where does he go on the tree?\" Write Leo in that box together.",
-      "stuck": "Read the clue with the child and point to Jack on the tree. Ask, \"Is a brother next to Jack, above him, or two rows up?\" Brothers and sisters are next to him, parents above, grandparents at the top."
+      "say": "\"At the top of the page there are pictures. At the bottom there are boxes: Plant Eaters and Meat Eaters. Draw a line from each picture to the box where it belongs.\"",
+      "first": "Read the words on the boxes aloud and point to each box. Name every picture together, so that everyone knows what it shows. Do the first picture together: ask, \"What does this animal eat: plants or other animals?\" Draw the line from the dot under the picture to its box.",
+      "stuck": "Point to one picture at a time and ask the question of the page about it. If the child is not sure, ask about something the child knows: \"Have you ever seen one? What is it like?\" Then let the child choose the box."
      }
     }
    ]

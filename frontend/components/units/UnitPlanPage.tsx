@@ -12,7 +12,7 @@ import { buildBreadcrumbSchema } from '@/lib/seo/breadcrumb-schema';
 import { getHreflangCode } from '@/lib/seo/hreflang';
 import BreadcrumbTrail from '@/components/breadcrumbs/BreadcrumbTrail';
 import { teacherFileHref } from '@/lib/teacher-files';
-import { UnitPlan, UnitUi, fill, planFile } from '@/lib/units';
+import { THEME_SUBJECT, UnitPlan, UnitUi, fill, planFile } from '@/lib/units';
 import { LEVEL_KEY } from '@/components/units/UnitsHub';
 import { TeacherFileClicks } from '@/components/tracking/PathEvents';
 import TeacherGate from '@/components/teacher-gate/TeacherGate';
@@ -29,7 +29,10 @@ export default async function UnitPlanPage({ locale, plan, ui }: { locale: strin
   const subjectLabel = ui[`subject_${plan.subject}`] || plan.subject;
   const url = canonicalUrl(localePath(locale, 'units', plan.slug));
   const lessons = plan.units.reduce((n, r) => n + r.lessons.length, 0);
-  const weeksOf = (r: { from: number; to: number }) => (r.from === r.to ? fill(ui.planWeekOne, { n: r.from }) : fill(ui.planWeeksRange, { from: r.from, to: r.to }));
+  const weekText = (r: { from: number; to: number }) => (r.from === r.to ? fill(ui.planWeekOne, { n: r.from }) : fill(ui.planWeeksRange, { from: r.from, to: r.to }));
+  // a preschool theme plan (Stage D-4) runs through the months of the school year: each week says its month
+  const weeksOf = (r: { from: number; to: number; month?: string }) => (r.month ? r.month + ' · ' + weekText(r) : weekText(r));
+  const theme = plan.subject === THEME_SUBJECT;
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -62,8 +65,8 @@ export default async function UnitPlanPage({ locale, plan, ui }: { locale: strin
         <header className="un-head">
           <p className="un-eyebrow">{[gradeLabel, subjectLabel, ui.planEyebrow].join(' · ')}</p>
           <h1 className="un-title un-title-wide">{plan.title}</h1>
-          <p className="un-hub-lead">{fill(ui.planLead, { units: plan.units.length, lessons, weeks: plan.weeks })}</p>
-          <p className="un-plan-honest">{ui.planHonest}</p>
+          <p className="un-hub-lead">{fill(theme && ui.themePlanLead ? ui.themePlanLead : ui.planLead, { units: plan.units.length, lessons, weeks: plan.weeks })}</p>
+          <p className="un-plan-honest">{theme && ui.themePlanHonest ? ui.themePlanHonest : ui.planHonest}</p>
         </header>
 
         <section aria-labelledby="un-plan-table-title">

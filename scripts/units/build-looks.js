@@ -115,7 +115,9 @@ function renderPage(pdf, pageIndex) {
       made.push(name);
       entry[kind] = { ...meta, src: '/teaching-looks/' + loc + '/' + name, width, height };
     }
-    const list = checklistOf(grade);
+    // preschool (Stage D-4) has no standards page of its own: the fallback (the first checklist page) would show a
+    // Kindergarten one under Preschool
+    const list = grade === 'P' ? null : checklistOf(grade);
     if (list) {
       if (check) { if (committed[grade] && committed[grade].standards) entry.standards = committed[grade].standards; }
       else { entry.standards = await photograph(list); made.push(path.basename(entry.standards.src)); }

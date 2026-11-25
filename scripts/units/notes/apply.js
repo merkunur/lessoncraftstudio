@@ -30,6 +30,9 @@ for (const f of fs.readdirSync(__dirname).filter((x) => /^[a-z]{2}-[a-z]+-[a-z0-
     L.from[id] = f; L.points[id] = { title: n.title, objective: n.objective, note: { mistake: n.note.mistake, words: n.note.words, watch: n.note.watch } };
     // a lesson the teacher leads without a page says what the class does (`routine`)
     if (n.routine) L.points[id].routine = n.routine;
+    // a block of a preschool theme week (Stage D-4) says what it does on each day (`week`) and its checklist line (`check`)
+    if (n.week) L.points[id].week = n.week;
+    if (n.check) L.points[id].check = n.check;
   }
 }
 if (bad) { console.log(bad + ' problem(s); nothing written'); process.exit(1); }

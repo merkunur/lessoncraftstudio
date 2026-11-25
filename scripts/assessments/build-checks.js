@@ -585,7 +585,8 @@ function chooseBOnce(plan, cardsA, usedA, usedB, soloB) {
     return { id: c.id, slug: c.slug, title, grade: c.grade, subject: c.subject, status: 'live', year: c, lessons };
   };
   const units = YEAR ? blueprint.checks.filter((c) => (!only || c.id === only) && (!subject || c.subject === subject) && (!grades || grades.includes(String(c.grade)))).map(yearUnit)
-    : unitsFile.units.filter((u) => u.status === 'live' && (!only || u.id === only) && (!subject || u.subject === subject) && (!grades || grades.includes(String(u.grade))));
+    // (a preschool theme, Stage D-4, has no unit check by design: its measure is the observation checklist of its guide)
+    : unitsFile.units.filter((u) => u.status === 'live' && u.subject !== 'theme' && (!only || u.id === only) && (!subject || u.subject === subject) && (!grades || grades.includes(String(u.grade))));
   const outRoot = YEAR ? path.join(REPO, 'out', 'assessments', loc, PLACEMENT ? 'placement' : 'year') : path.join(REPO, 'out', 'assessments', loc);
   // the prints no check of the year may take: every box of every unit check (both forms) and every box of the checks of
   // the year that come before it in the blueprint (built in this run, or in an earlier one)

@@ -96,6 +96,15 @@ const check = (ok, what) => { n++; if (!ok) { bad++; console.log('FAIL  ' + what
     check(dl.status === 302 && /\/auth\/signup/.test(dl.headers.location || '') && !/pdf/.test(dl.headers['content-type'] || ''), who + ': the file for an anonymous visitor answers ' + dl.status + ' ' + (dl.headers['content-type'] || '') + ' → ' + (dl.headers.location || ''));
     check(/noindex/.test(dl.headers['x-robots-tag'] || ''), who + ': the gate does not say noindex');
   }
+  // a preschool theme's second Teacher-only file, its observation checklist (Stage D-4): uploaded, and behind the gate
+  for (const u of units.filter((x) => x.subject === 'theme')) {
+    const gate = '/api/quota/dl?kind=teacher&loc=' + loc + '&file=' + encodeURIComponent('units/' + u.id + '/observation-checklist');
+    const probe = await req(gate + '&probe=1');
+    let pj = {}; try { pj = JSON.parse(probe.body); } catch (e) { /* not JSON */ }
+    check(probe.status === 200 && pj.ok === false && /\/auth\/signup/.test(pj.to || ''), 'units ' + u.id + ': the checklist probe answers ' + probe.status + ' ' + probe.body.slice(0, 80));
+    const dl = await req(gate);
+    check(dl.status === 302 && /\/auth\/signup/.test(dl.headers.location || '') && !/pdf/.test(dl.headers['content-type'] || ''), 'units ' + u.id + ': the checklist for an anonymous visitor answers ' + dl.status);
+  }
   // the hub (Part 4.4): it lists every live unit and plan; with no live unit it is noindex and in no sitemap
   const liveUnits = units.filter((u) => u.status === 'live');
   if (units.length) {

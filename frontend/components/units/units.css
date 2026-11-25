@@ -225,5 +225,8 @@
 .un-days-list li{display:grid;grid-template-columns:3.5rem 1fr;column-gap:.5rem}
 .un-days-day{font-weight:700;color:#0F5A4F}
 .un-days-role{color:#14322D}
+/* a preschool theme block (Stage D-4): the day of the week is longer than "Day 1"; on a phone it stands above its line */
+.un-theme-week .un-days-list li{grid-template-columns:6.5rem 1fr}
+@media (max-width:30rem){.un-theme-week .un-days-list li{grid-template-columns:1fr}}
 .un-unit-end{margin:.5rem 0 0;color:#3D4F49;max-width:46rem}
 @media print{.un-days{border-color:#999;background:none}}

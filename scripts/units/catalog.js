@@ -32,4 +32,4 @@ function pagesOf(loc, decksText) {
   for (const t of pages.values()) for (const r of RUNGS) t[r].sort((a, b) => (b.base - a.base) || (copyOf(a.slug) - copyOf(b.slug)) || a.slug.localeCompare(b.slug));
   return pages;
 }
-module.exports = { pagesOf, RUNGS, REPO };
+module.exports = { pagesOf, RUNGS, REPO, codeOfSlug, typeIdOf };

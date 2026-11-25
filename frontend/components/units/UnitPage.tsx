@@ -13,7 +13,7 @@ import { getHreflangCode } from '@/lib/seo/hreflang';
 import BreadcrumbTrail from '@/components/breadcrumbs/BreadcrumbTrail';
 import { makerAppUrl } from '@/lib/makers/landings';
 import { teacherFileHref } from '@/lib/teacher-files';
-import { Unit, UnitLesson, UnitPlan, UnitUi, fill, pageHref, pageThumb, unitGuideFile, unitPdfList } from '@/lib/units';
+import { THEME_SUBJECT, Unit, UnitLesson, UnitPlan, UnitUi, fill, pageHref, pageThumb, unitChecklistFile, unitGuideFile, unitPdfList } from '@/lib/units';
 import { curriculumCodeLinks } from '@/lib/curriculum-pages';
 import UnitBundleButton from '@/components/units/UnitBundleButton';
 import UnitCheckSection from '@/components/units/UnitCheckSection';
@@ -89,15 +89,41 @@ function LessonDays({ lesson, ui }: { lesson: UnitLesson; ui: UnitUi }) {
   );
 }
 
+/**
+ * A daily block of a preschool theme week (Stage D-4): what it does on each day, as the pre-K designer wrote it for
+ * this theme (the unit data, `week`: five lines a week). It replaces the day plan of a K-3 lesson, whose days are
+ * built from the slots.
+ */
+function ThemeWeek({ lesson, ui }: { lesson: UnitLesson; ui: UnitUi }) {
+  if (!lesson.week || !ui.weekdays || !ui.themeWeekTitle) return null;
+  const days = ui.weekdays.split('|');
+  const twoWeeks = lesson.week.length > 5;
+  return (
+    <div className="un-days un-theme-week" data-lesson-days={lesson.week.length}>
+      <p className="un-days-count">{ui.themeWeekTitle}</p>
+      <ol className="un-days-list">
+        {lesson.week.map((line, i) => (
+          <li key={i}>
+            <span className="un-days-day">{twoWeeks ? fill(ui.themeWeekDay, { w: Math.floor(i / 5) + 1, day: days[i % 5] }) : days[i % 5]}</span>
+            <span>{line}</span>
+          </li>
+        ))}
+      </ol>
+    </div>
+  );
+}
+
 function Lesson({ lesson, locale, ui, codeLinks, readers }: { lesson: UnitLesson; locale: string; ui: UnitUi; codeLinks: Record<string, string>; readers?: ReaderLink }) {
+  // a block of a preschool theme week is named for its strand ("Literacy and language"), not numbered
+  const block = lesson.strand ? ui[`strand_${lesson.strand}`] : null;
   return (
     <section className="un-lesson" id={`lesson-${lesson.n}`} aria-labelledby={`lesson-${lesson.n}-title`}>
       <header className="un-lesson-head">
-        <p className="un-lesson-no">{fill(ui.lessonWord, { n: lesson.n })}</p>
+        <p className="un-lesson-no">{block || fill(ui.lessonWord, { n: lesson.n })}</p>
         <h3 id={`lesson-${lesson.n}-title`} className="un-lesson-title">{lesson.title}</h3>
         <p className="un-lesson-objective">{lesson.objective}</p>
         <Standards lesson={lesson} ui={ui} codeLinks={codeLinks} />
-        <LessonDays lesson={lesson} ui={ui} />
+        {lesson.week ? <ThemeWeek lesson={lesson} ui={ui} /> : <LessonDays lesson={lesson} ui={ui} />}
       </header>
 
       <div className="un-slots">
@@ -130,7 +156,7 @@ function Lesson({ lesson, locale, ui, codeLinks, readers }: { lesson: UnitLesson
                 <div className="un-page-body">
                   <p className="un-page-title">{p.title}</p>
                   <p className="un-page-levels">
-                    <a href={pageHref(locale, p.core, p.landing)}>{ui.levelCore}</a>
+                    <a href={pageHref(locale, p.core, p.landing)}>{lesson.week && ui.pageOpen ? ui.pageOpen : ui.levelCore}</a>
                     {p.easy ? <a href={pageHref(locale, p.easy)}>{ui.levelEasy}</a> : null}
                     {p.hard ? <a href={pageHref(locale, p.hard)}>{ui.levelHard}</a> : null}
                   </p>
@@ -180,6 +206,7 @@ function Lesson({ lesson, locale, ui, codeLinks, readers }: { lesson: UnitLesson
           <dt>{ui.noteMistake}</dt><dd>{lesson.note.mistake}</dd>
           <dt>{ui.noteWords}</dt><dd>{lesson.note.words}</dd>
           <dt>{ui.noteWatch}</dt><dd>{lesson.note.watch}</dd>
+          {lesson.check && ui.noteCheck ? <><dt>{ui.noteCheck}</dt><dd>{lesson.check}</dd></> : null}
         </dl>
       </aside>
     </section>
@@ -231,6 +258,10 @@ export default async function UnitPage({ locale, unit, ui, plan }: { locale: str
 
   const guideHref = teacherFileHref(locale, unitGuideFile(unit));
   const pdfs = unitPdfList(locale, unit);
+  // a preschool theme (Stage D-4) has no unit check: its teacher keeps an observation checklist during the week
+  const theme = unit.subject === THEME_SUBJECT;
+  const checklistHref = theme ? teacherFileHref(locale, unitChecklistFile(unit)) : null;
+  const unitEnd = theme ? ui.themeUnitEnd : check ? ui.unitEnd : ui.unitEndOwn;
 
   const teaches = [...new Set(unit.lessons.flatMap((l) => l.standards.filter((s) => s.rel === 'teaches' && s.code).map((s) => `${s.framework} ${s.code}`)))];
   const jsonLd = {
@@ -277,7 +308,7 @@ export default async function UnitPage({ locale, unit, ui, plan }: { locale: str
             <span>{fill(ui.factLessons, { n: count.lessons })}</span>
             <span>{unit.weeks === 1 ? ui.factWeek : fill(ui.factWeeks, { n: unit.weeks })}</span>
           </p>
-          {(check ? ui.unitEnd : ui.unitEndOwn) ? <p className="un-unit-end">{check ? ui.unitEnd : ui.unitEndOwn}</p> : null}
+          {unitEnd ? <p className="un-unit-end">{unitEnd}</p> : null}
           {plan && at >= 0 ? (
             <p className="un-in-plan">
               {ui.unitInPlan.split('{plan}').map((raw) => fill(raw, { n: at + 1, total: plan.units.length })).map((part, i) => (
@@ -309,6 +340,7 @@ export default async function UnitPage({ locale, unit, ui, plan }: { locale: str
               labels={{ button: ui.bundleBtn, working: ui.bundleWorking, done: ui.bundleDone, failed: ui.bundleFailed }}
             />
             <a className="un-btn un-btn-ghost" href={guideHref} rel="nofollow">{ui.guideBtn}</a>
+            {checklistHref && ui.checklistBtn ? <a className="un-btn un-btn-ghost" href={checklistHref} rel="nofollow">{ui.checklistBtn}</a> : null}
             <SaveToCollectionsButton locale={locale} kind="unit" slug={unit.slug} labels={{ button: ui.saveBtn, done: ui.saveDone, open: ui.saveOpen, failed: ui.saveFailed }} />
             <p className="un-teacher-plan">{fill(ui.planNote, { plan: planName })}</p>
             <p className="un-teacher-how">{ui.bundleHow}</p>

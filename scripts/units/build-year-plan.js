@@ -35,19 +35,24 @@ function html(plan) {
   const grade = messages.seo.educational_level[LEVEL_KEY[plan.grade]] || plan.grade;
   const subject = ui['subject_' + plan.subject] || plan.subject;
   const lessons = plan.units.reduce((n, r) => n + r.lessons.length, 0);
-  const weeksOf = (r) => (r.from === r.to ? fill(ui.planWeekOne, { n: r.from }) : fill(ui.planWeeksRange, { from: r.from, to: r.to }));
+  const weekText = (r) => (r.from === r.to ? fill(ui.planWeekOne, { n: r.from }) : fill(ui.planWeeksRange, { from: r.from, to: r.to }));
+  // a preschool theme plan (Stage D-4) runs through the months of the school year: each week says its month
+  const weeksOf = (r) => (r.month ? r.month + ' · ' + weekText(r) : weekText(r));
+  const theme = plan.subject === 'theme';
   // the standards column is printed only when a unit of the plan names a standard (a framework without codes names
   // none in a plan row: an empty column under a heading reads as something left out)
-  const withStandards = plan.units.some((r) => r.standards.length);
+  // (a preschool theme plan: its blocks practise the readiness of Kindergarten objectives, so the column would stand almost
+  // empty; the four blocks of a theme are printed on one line, so 33 weeks fit the three sheets of a plan)
+  const withStandards = !theme && plan.units.some((r) => r.standards.length);
   const rows = plan.units.map((r, i) => '<tr><td class="w">' + esc(weeksOf(r)) + '</td>'
-    + '<td class="u"><b>' + (i + 1) + '. ' + esc(r.title) + '</b><ol>' + r.lessons.map((t) => '<li>' + esc(t) + '</li>').join('') + '</ol></td>'
+    + '<td class="u"><b>' + (i + 1) + '. ' + esc(r.title) + '</b>' + (theme ? '<p class="blocks">' + r.lessons.map(esc).join(' · ') + '</p>' : '<ol>' + r.lessons.map((t) => '<li>' + esc(t) + '</li>').join('') + '</ol>') + '</td>'
     + (withStandards ? '<td class="s">' + esc(r.standards.join(', ')) + '</td>' : '') + '<td class="d"></td><td class="t"><i></i></td></tr>').join('');
   return '<!doctype html><html lang="' + loc + '"><head><meta charset="utf-8"><title>' + esc(plan.title) + '</title>'
     + '<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">'
     + '<style>' + CSS + '</style></head><body>'
     + '<header><p class="brand">LessonCraftStudio</p><p class="eyebrow">' + esc([grade, subject, ui.planEyebrow].join(' · ')) + '</p><h1>' + esc(plan.title) + '</h1>'
-    + '<p class="lead">' + esc(fill(ui.planLead, { units: plan.units.length, lessons, weeks: plan.weeks })) + ' ' + esc(ui.planHonest) + '</p></header>'
-    + '<table><thead><tr><th>' + esc(ui.planColWeeks) + '</th><th>' + esc(ui.planColUnit) + ' · ' + esc(ui.planColLessons) + '</th>' + (withStandards ? '<th>' + esc([ui.planColStandards, plan.framework].filter(Boolean).join(', ')) + '</th>' : '') + '<th>' + esc(ui.planPdfColDates) + '</th><th>' + esc(ui.planPdfColDone) + '</th></tr></thead><tbody>' + rows + '</tbody></table>'
+    + '<p class="lead">' + esc(fill(theme && ui.themePlanLead ? ui.themePlanLead : ui.planLead, { units: plan.units.length, lessons, weeks: plan.weeks })) + ' ' + esc(theme && ui.themePlanHonest ? ui.themePlanHonest : ui.planHonest) + '</p></header>'
+    + '<table' + (theme ? ' class="theme"' : '') + '><thead><tr><th>' + esc(ui.planColWeeks) + '</th><th>' + esc(ui.planColUnit) + ' · ' + esc(ui.planColLessons) + '</th>' + (withStandards ? '<th>' + esc([ui.planColStandards, plan.framework].filter(Boolean).join(', ')) + '</th>' : '') + '<th>' + esc(ui.planPdfColDates) + '</th><th>' + esc(ui.planPdfColDone) + '</th></tr></thead><tbody>' + rows + '</tbody></table>'
     + '<p class="where">' + esc(HOST.replace('https://', '') + '/' + loc + '/units/' + plan.slug) + '</p></body></html>';
 }
 
@@ -75,6 +80,12 @@ td.d { width: 30mm; border-left: 0.5pt solid #8fa39e; }
 td.t { width: 14mm; border-left: 0.5pt solid #8fa39e; padding-left: 4mm; }
 td.t i { display: block; width: 6mm; height: 6mm; border: 0.9pt solid #14332d; border-radius: 1mm; }
 th:nth-child(4), th:nth-child(5) { padding-left: 2mm; }
+/* a preschool theme plan: 30 one-week rows on three sheets */
+.theme td { padding: 1.5mm 3mm 1.5mm 0; }
+.theme td.u b { font-size: 11pt; }
+.theme td.w { font-size: 9.5pt; }
+.theme .blocks { font-size: 8pt; line-height: 1.25; margin: 0.5mm 0 0; color: #3d4f49; }
+.theme td.t i { width: 5mm; height: 5mm; }
 .where { margin-top: 5mm; font-size: 9pt; color: #46625b; }
 `;
 

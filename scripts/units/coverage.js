@@ -43,7 +43,7 @@ const targetWeeks = (subject, grade) => {
 const TIMES = ['beginning', 'middle', 'end'];
 const PATHS = ['counting-number-sense', 'addition-subtraction-facts', 'place-value', 'multiplication-facts', 'letters-sounds', 'blending-decoding', 'sight-words', 'spelling-patterns', 'sentence-writing'];
 const PATH_WORDS = { 'counting-number-sense': 'Counting and number sense', 'addition-subtraction-facts': 'Addition and subtraction facts', 'place-value': 'Place value', 'multiplication-facts': 'Multiplication facts', 'letters-sounds': 'Letters and sounds', 'blending-decoding': 'Blending and decoding', 'sight-words': 'Sight words', 'spelling-patterns': 'Spelling patterns', 'sentence-writing': 'Sentence writing' };
-const GRADE_WORDS = { K: 'Kindergarten', 1: 'Grade 1', 2: 'Grade 2', 3: 'Grade 3' };
+const GRADE_WORDS = { P: 'Preschool', K: 'Kindergarten', 1: 'Grade 1', 2: 'Grade 2', 3: 'Grade 3' };
 const readJson = (f, d) => (fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : d);
 const C = (...p) => path.join(REPO, 'frontend', 'content', ...p);
 const REPORT = path.join(REPO, 'docs', 'daily-teaching-system', 'units', 'COVERAGE.' + loc + '.md');
@@ -64,13 +64,19 @@ function measure(F) {
     const weeks = new Set();
     for (const r of plan.units) for (let w = r.from; w <= r.to; w++) weeks.add(w);
     const holes = []; for (let w = 1; w <= plan.weeks; w++) if (!weeks.has(w)) holes.push(w);
-    const noCheck = plan.units.filter((r) => units.has(r.id) && !liveCheck.has(r.id)).map((r) => r.id);
-    const yearMissing = TIMES.filter((t) => !year.has(g + '-' + plan.subject + ':' + t));
+    // A PRESCHOOL THEME plan (Stage D-4, plan decision 5): a theme has no unit check and no checks of the year; its
+    // measure is the OBSERVATION CHECKLIST, which every block of the theme must carry a line for. Preschool has no sub
+    // days in this programme (the sub packs are K-3), so the grade's weeks are not counted for them either.
+    const theme = plan.subject === 'theme';
+    const noCheck = theme
+      ? plan.units.filter((r) => units.has(r.id) && !units.get(r.id).lessons.every((l) => l.check)).map((r) => r.id)
+      : plan.units.filter((r) => units.has(r.id) && !liveCheck.has(r.id)).map((r) => r.id);
+    const yearMissing = theme ? [] : TIMES.filter((t) => !year.has(g + '-' + plan.subject + ':' + t));
     if (plan.weeks < targetWeeks(plan.subject, g)) gaps.push('weeks:' + plan.id);
     holes.forEach((w) => gaps.push('hole:' + plan.id + ':' + w));
     noCheck.forEach((u) => gaps.push('check:' + u));
     yearMissing.forEach((t) => gaps.push('year:' + g + '-' + plan.subject + ':' + t));
-    longest.set(g, Math.max(longest.get(g) || 0, plan.weeks));
+    if (!theme) longest.set(g, Math.max(longest.get(g) || 0, plan.weeks));
     rows.push({ plan: plan.id, grade: g, subject: plan.subject, target: targetWeeks(plan.subject, g), weeks: plan.weeks, units: plan.units.length, holes, noCheck, yearMissing });
   }
   const subRows = [];

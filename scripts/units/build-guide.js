@@ -38,40 +38,71 @@ const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replac
 const fill = (s, v) => s.replace(/\{(\w+)\}/g, (_, k) => (v[k] != null ? v[k] : '{' + k + '}'));
 const thumb = (slug) => HOST + '/' + loc + '/decks/' + slug + '/thumbnail.png';
 
+/** a preschool theme's WEEK AT A GLANCE (Stage D-4): one sheet per week, a row for each daily block and a column for each
+ * day, each cell the block's own day line (the unit data, `week`). It is the plan a pre-K teacher hangs by the door. */
+function weekGrids(unit) {
+  const days = (ui.weekdays || '').split('|');
+  let out = '';
+  for (let w = 0; w < unit.weeks; w++) {
+    const head = '<tr><th class="blk"></th>' + days.map((d) => '<th>' + esc(d) + '</th>').join('') + '</tr>';
+    const rows = unit.lessons.map((l) => '<tr><th class="blk"><span class="strand">' + esc(ui['strand_' + l.strand] || '') + '</span>' + esc(l.title) + '</th>' + days.map((d, i) => '<td>' + esc((l.week || [])[w * 5 + i] || '') + '</td>').join('') + '</tr>').join('');
+    const title = unit.weeks > 1 ? fill(ui.themeWeekDay, { w: w + 1, day: '' }).replace(/[,\s]+$/, '') : '';
+    out += '<section class="page grid"><p class="no">' + esc(ui.themeWeekTitle) + (title ? ' · ' + esc(title) : '') + '</p><h2>' + esc(unit.title) + '</h2><table><thead>' + head + '</thead><tbody>' + rows + '</tbody></table><footer>' + esc(unit.title) + ' · ' + esc(ui.guideTitle) + '</footer></section>';
+  }
+  return out;
+}
+/** a preschool theme's OBSERVATION CHECKLIST (Stage D-4): a row for each child, a column for each block's checklist line.
+ * It is the guide's last page and, alone, the unit's second Teacher-only file (observation-checklist.pdf). */
+function checklistSection(unit) {
+  const rows = Array.from({ length: 24 }, () => '<tr><td class="name"></td>' + unit.lessons.map(() => '<td></td>').join('') + '</tr>').join('');
+  return '<section class="page record checklist"><h2>' + esc(ui.guideChecklist) + ': ' + esc(unit.title) + '</h2><p class="lead">' + esc(ui.guideChecklistLead) + '</p><table><thead><tr><th class="name">' + esc(ui.guideRecordName) + '</th>' + unit.lessons.map((l) => '<th><span class="strand">' + esc(ui['strand_' + l.strand] || '') + '</span>' + esc(l.check) + '</th>').join('') + '</tr></thead><tbody>' + rows + '</tbody></table><footer>' + esc(unit.title) + ' · ' + esc(ui.guideChecklist) + '</footer></section>';
+}
+const docOf = (title, body) => '<!doctype html><html lang="' + loc + '"><head><meta charset="utf-8"><title>' + esc(title) + '</title>'
+  + '<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">'
+  + '<style>' + CSS + '</style></head><body>' + body + '</body></html>';
+
 function html(unit) {
   const grade = messages.seo.educational_level[LEVEL_KEY[unit.grade]] || unit.grade;
   const subject = ui['subject_' + unit.subject] || unit.subject;
   // (the table at a glance lists a lesson's OWN standards; what it reviews or reaches ahead to is on the lesson's page)
   // (a framework without codes, such as the German Bildungsstandards, is named by the heading the objective stands under)
   const std = (l) => [...new Set(l.standards.filter((s) => s.rel === 'teaches').map((s) => (s.code ? [s.framework, s.code].join(' ') : (s.title || s.framework))).filter(Boolean))];
-  const glance = unit.lessons.map((l) => '<tr><td class="n">' + l.n + '</td><td><b>' + esc(l.title) + '</b></td><td>' + esc(l.led ? ui.guideNoPage : l.paper.map((p) => p.title).join(', ')) + '</td><td class="s' + (l.standards.some((x) => x.rel === 'teaches' && x.code) ? '' : ' w') + '">' + esc(std(l).join(', ')) + '</td></tr>').join('');
+  // a PRESCHOOL THEME week (Stage D-4): its four daily blocks by strand, with each block's line of the observation checklist
+  const theme = unit.subject === 'theme';
+  const glance = theme
+    ? unit.lessons.map((l) => '<tr><td class="n">' + l.n + '</td><td><b>' + esc(l.title) + '</b><br><span class="strand">' + esc(ui['strand_' + l.strand] || '') + '</span></td><td>' + esc(l.paper.map((p) => p.title).join(', ')) + '</td><td class="s">' + esc(l.check || '') + '</td></tr>').join('')
+    : unit.lessons.map((l) => '<tr><td class="n">' + l.n + '</td><td><b>' + esc(l.title) + '</b></td><td>' + esc(l.led ? ui.guideNoPage : l.paper.map((p) => p.title).join(', ')) + '</td><td class="s' + (l.standards.some((x) => x.rel === 'teaches' && x.code) ? '' : ' w') + '">' + esc(std(l).join(', ')) + '</td></tr>').join('');
+  const unitEnd = theme ? ui.themeUnitEnd : hasCheck(unit.id) ? ui.unitEnd : ui.unitEndOwn;
   const cover = '<section class="page cover"><p class="brand">LessonCraftStudio</p><p class="eyebrow">' + esc([grade, subject, ui.unitWord].join(' · ')) + '</p><h1>' + esc(unit.title) + '</h1><p class="kind">' + esc(ui.guideTitle) + '</p>'
     + '<p class="facts">' + esc(fill(ui.factLessons, { n: unit.lessons.length })) + ' · ' + esc(unit.weeks === 1 ? ui.factWeek : fill(ui.factWeeks, { n: unit.weeks })) + '</p>'
-    + ((hasCheck(unit.id) ? ui.unitEnd : ui.unitEndOwn) ? '<p class="facts">' + esc(hasCheck(unit.id) ? ui.unitEnd : ui.unitEndOwn) + '</p>' : '')
-    + '<h2>' + esc(ui.guideGlance) + '</h2><table class="glance"><thead><tr><th></th><th>' + esc(ui.guideColLesson) + '</th><th>' + esc(ui.guideColPages) + '</th><th>' + esc(ui.standardTeaches) + '</th></tr></thead><tbody>' + glance + '</tbody></table>'
+    + (unitEnd ? '<p class="facts">' + esc(unitEnd) + '</p>' : '')
+    + '<h2>' + esc(ui.guideGlance) + '</h2><table class="glance"><thead><tr><th></th><th>' + esc(ui.guideColLesson) + '</th><th>' + esc(ui.guideColPages) + '</th><th>' + esc(theme ? ui.noteCheck : ui.standardTeaches) + '</th></tr></thead><tbody>' + glance + '</tbody></table>'
     + '<p class="where">' + esc(HOST.replace('https://', '') + '/' + loc + '/units/' + unit.slug) + '</p></section>';
   const lessons = unit.lessons.map((l) => {
     const need = [];
     if (l.tool) need.push('<li><b>' + esc(ui.slotTool) + ':</b> ' + esc(fill(ui.slotToolText, { name: l.tool.name })) + '</li>');
     if (l.routine) need.push('<li><b>' + esc(ui.slotRoutine) + ':</b> ' + esc(l.routine) + '</li>');
-    for (const p of l.paper) need.push('<li><b>' + esc(ui.slotPaper) + ':</b> ' + esc(p.title) + ' <span class="lv">(' + esc([ui.levelCore, p.easy ? ui.levelEasy : null, p.hard ? ui.levelHard : null].filter(Boolean).join(', ')) + ')</span></li>');
+    for (const p of l.paper) need.push('<li><b>' + esc(ui.slotPaper) + ':</b> ' + esc(p.title) + (l.week ? '' : ' <span class="lv">(' + esc([ui.levelCore, p.easy ? ui.levelEasy : null, p.hard ? ui.levelHard : null].filter(Boolean).join(', ')) + ')</span>') + '</li>');
     if (l.screen) need.push('<li><b>' + esc(ui.slotScreen) + ':</b> ' + esc(l.screen.kind === 'activity' ? l.screen.title : fill(l.screen.book && ui.slotScreenBook ? ui.slotScreenBook : ui.slotScreenPage, { title: l.screen.title })) + '</li>');
     if (l.exit) need.push('<li><b>' + esc(ui.slotExit) + ':</b> ' + esc(fill(ui.slotExitText, { title: l.exit.title })) + '</li>');
     if (l.maker) need.push('<li><b>' + esc(ui.slotMaker) + ':</b> ' + esc(fill(ui.slotMakerText, { name: l.maker.name })) + '</li>');
     const pics = l.paper.map((p) => '<figure><img src="' + thumb(p.core) + '" alt=""><figcaption>' + esc(p.title) + '</figcaption></figure>').join('');
     const rel = { teaches: ui.standardTeaches, reviews: ui.standardReviews, ahead: ui.standardAhead, prepares: ui.standardPrepares, extends: ui.standardExtends };
     const stds = l.standards.map((s) => '<span class="std"><i>' + esc(rel[s.rel]) + '</i> <b>' + esc([s.framework, s.code].filter(Boolean).join(' ')) + '</b>' + (s.title ? ' ' + esc(s.title) : '') + '</span>').join('');
-    return '<section class="page lesson"><header><p class="no">' + esc(fill(ui.lessonWord, { n: l.n }) + (l.days && ui.lessonDays ? ' · ' + fill(ui.lessonDays, { n: l.days }) : '')) + '</p><h2>' + esc(l.title) + '</h2><p class="obj">' + esc(l.objective) + '</p><p class="stds">' + stds + '</p></header>'
+    const days = (ui.weekdays || '').split('|');
+    // (a preschool theme block's five day lines stand on the week-at-a-glance grid, weekGrids below, not on its sheet)
+    const no = l.strand ? (ui['strand_' + l.strand] || '') : fill(ui.lessonWord, { n: l.n }) + (l.days && ui.lessonDays ? ' · ' + fill(ui.lessonDays, { n: l.days }) : '');
+    return '<section class="page lesson' + (l.week ? ' theme' : '') + '"><header><p class="no">' + esc(no) + '</p><h2>' + esc(l.title) + '</h2><p class="obj">' + esc(l.objective) + '</p><p class="stds">' + stds + '</p></header>'
       + '<div class="cols' + (pics ? '' : ' one') + '"><div><h3>' + esc(ui.guideNeed) + '</h3><ul class="need">' + need.join('') + '</ul></div><div class="pics">' + pics + '</div></div>'
       + '<div class="note"><h3>' + esc(ui.noteTitle) + '</h3><dl><dt>' + esc(ui.noteMistake) + '</dt><dd>' + esc(l.note.mistake) + '</dd><dt>' + esc(ui.noteWords) + '</dt><dd>' + esc(l.note.words) + '</dd><dt>' + esc(ui.noteWatch) + '</dt><dd>' + esc(l.note.watch) + '</dd></dl></div>'
       + '<div class="mine"><h3>' + esc(ui.guideMyNotes) + '</h3><div class="rules"><i></i><i></i><i></i><i></i></div></div>'
       + '<footer>' + esc(unit.title) + ' · ' + esc(ui.guideTitle) + '</footer></section>';
   }).join('');
   const rows = Array.from({ length: 28 }, () => '<tr><td class="name"></td>' + unit.lessons.map(() => '<td></td>').join('') + '</tr>').join('');
-  const record = '<section class="page record"><h2>' + esc(ui.guideRecord) + '</h2><p class="lead">' + esc(ui.guideRecordLead) + '</p><table><thead><tr><th class="name">' + esc(ui.guideRecordName) + '</th>' + unit.lessons.map((l) => '<th>' + l.n + '</th>').join('') + '</tr></thead><tbody>' + rows + '</tbody></table><footer>' + esc(unit.title) + ' · ' + esc(ui.guideTitle) + '</footer></section>';
+  const record = theme ? checklistSection(unit) : '<section class="page record"><h2>' + esc(ui.guideRecord) + '</h2><p class="lead">' + esc(ui.guideRecordLead) + '</p><table><thead><tr><th class="name">' + esc(ui.guideRecordName) + '</th>' + unit.lessons.map((l) => '<th>' + l.n + '</th>').join('') + '</tr></thead><tbody>' + rows + '</tbody></table><footer>' + esc(unit.title) + ' · ' + esc(ui.guideTitle) + '</footer></section>';
   return '<!doctype html><html lang="' + loc + '"><head><meta charset="utf-8"><title>' + esc(unit.title + ' — ' + ui.guideTitle) + '</title>'
     + '<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">'
-    + '<style>' + CSS + '</style></head><body>' + cover + lessons + record + '</body></html>';
+    + '<style>' + CSS + '</style></head><body>' + cover + (theme ? weekGrids(unit) : '') + lessons + record + '</body></html>';
 }
 
 const CSS = `
@@ -153,6 +184,22 @@ footer { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8.5pt; col
 .record th { border: 0.6pt solid #14332d; padding: 1.5mm; font-family: 'Baloo 2', sans-serif; }
 .record td { border: 0.6pt solid #8fa39e; height: ${PAPER === 'Letter' ? 6.6 : 7.2}mm; }
 .record .name { width: 62mm; text-align: left; }
+/* a preschool theme (Stage D-4): the block's strand under its title, its week on the sheet, and the checklist */
+.strand { font-size: 8.5pt; font-weight: 700; color: #146b5e; text-transform: uppercase; letter-spacing: 0.04em; }
+.grid .no { font-size: 11pt; font-weight: 700; color: #146b5e; letter-spacing: 0.04em; text-transform: uppercase; }
+.grid h2 { font-size: 22pt; margin-top: 1mm; }
+.grid table { margin-top: 5mm; table-layout: fixed; font-size: 9pt; line-height: 1.3; }
+.grid th, .grid td { border: 0.6pt solid #8fa39e; padding: 1.6mm; vertical-align: top; text-align: left; }
+.grid thead th { font-family: 'Baloo 2', sans-serif; font-size: 10.5pt; background: #f5f1e6; }
+.grid th.blk { width: 34mm; font-family: Nunito, sans-serif; font-weight: 700; font-size: 9pt; background: #f5f1e6; }
+.grid th.blk .strand { display: block; margin-bottom: 1mm; }
+.week { margin-top: 4mm; }
+.week ol { list-style: none; margin: 1.5mm 0 0; padding: 0; font-size: 10pt; line-height: 1.35; }
+.week li { padding: 0.9mm 0; border-bottom: 0.5pt solid #e3dcc9; }
+.week b { color: #146b5e; margin-right: 1.5mm; }
+.checklist th { font-family: Nunito, sans-serif; font-weight: 600; font-size: 8.5pt; line-height: 1.3; text-align: left; vertical-align: top; }
+.checklist th .strand { display: block; margin-bottom: 1mm; }
+.checklist .name { width: 48mm; }
 `;
 
 (async () => {
@@ -202,9 +249,21 @@ footer { position: absolute; bottom: 0; left: 0; right: 0; font-size: 8.5pt; col
     const file = path.join(dir, 'teacher-guide.pdf');
     const buf = await page.pdf({ path: file, format: PAPER, printBackground: true, preferCSSPageSize: true });
     const pages = (Buffer.from(buf).toString('latin1').match(/\/Type\s*\/Page[^s]/g) || []).length;
-    const want = unit.lessons.length + 2;
-    console.log((pages === want ? 'ok    ' : 'FAIL  ') + unit.id + ': ' + pages + ' pages (' + want + ' expected: cover, ' + unit.lessons.length + ' lessons, class record), ' + Math.round(buf.length / 1024) + ' KB → ' + path.relative(REPO, file));
+    // a preschool theme: one week-at-a-glance grid per week of the theme, after the cover
+    const want = unit.lessons.length + 2 + (unit.subject === 'theme' ? unit.weeks : 0);
+    console.log((pages === want ? 'ok    ' : 'FAIL  ') + unit.id + ': ' + pages + ' pages (' + want + ' expected: cover, ' + unit.lessons.length + ' lessons, ' + (unit.subject === 'theme' ? 'observation checklist' : 'class record') + '), ' + Math.round(buf.length / 1024) + ' KB → ' + path.relative(REPO, file));
     if (pages !== want) process.exitCode = 1;
+    // a preschool theme (Stage D-4): its observation checklist alone, the unit's second Teacher-only file (ONE sheet)
+    if (unit.subject === 'theme') {
+      // (a second setContent on the same page never reaches "network idle" again: the fonts are loaded, so `load` + fonts.ready)
+      await page.setContent(docOf(unit.title + ' — ' + ui.guideChecklist, checklistSection(unit)), { waitUntil: 'load', timeout: 120000 });
+      await page.evaluate(() => document.fonts.ready);
+      const cfile = path.join(dir, 'observation-checklist.pdf');
+      const cbuf = await page.pdf({ path: cfile, format: PAPER, printBackground: true, preferCSSPageSize: true });
+      const cpages = (Buffer.from(cbuf).toString('latin1').match(/\/Type\s*\/Page[^s]/g) || []).length;
+      console.log((cpages === 1 ? 'ok    ' : 'FAIL  ') + unit.id + ': observation checklist ' + cpages + ' page(s) (1 expected) → ' + path.relative(REPO, cfile));
+      if (cpages !== 1) process.exitCode = 1;
+    }
     await page.close();
   }
   await browser.close();

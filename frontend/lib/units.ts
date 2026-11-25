@@ -41,6 +41,12 @@ export interface UnitLesson {
   writeDays?: number;
   /** 3 where a content-area unit definition says the lesson's investigation takes a third session (pacing.js) */
   investigateDays?: number;
+  /** a daily block of a preschool theme week (Stage D-4): literacy | math | science | motor */
+  strand?: string;
+  /** a preschool theme block: what it does on each day of the theme week (five lines a week) */
+  week?: string[];
+  /** a preschool theme block: its line on the theme's observation checklist */
+  check?: string;
 }
 export interface Unit {
   id: string;
@@ -52,10 +58,16 @@ export interface Unit {
   metaTitle: string;
   metaDescription: string;
   weeks: number;
+  /** a preschool theme unit (subject `theme`, grade P): its month of the school year */
+  month?: string;
   lessons: UnitLesson[];
 }
 /** one unit inside a year plan: weeks `from`–`to` of the plan, its lesson titles, the standards it teaches */
-export interface PlanRow { id: string; slug: string; title: string; weeks: number; from: number; to: number; lessons: string[]; standards: string[] }
+export interface PlanRow { id: string; slug: string; title: string; weeks: number; from: number; to: number; lessons: string[]; standards: string[]; month?: string }
+/** the subject of the preschool theme units (Stage D-4): a theme week with four daily blocks */
+export const THEME_SUBJECT = 'theme';
+/** the Teacher-only observation checklist of a preschool theme unit (scripts/units/build-guide.js) */
+export const unitChecklistFile = (unit: Unit) => `units/${unit.id}/observation-checklist`;
 export interface UnitPlan {
   id: string;
   slug: string;
@@ -110,7 +122,7 @@ export async function listedUnits(locale: string): Promise<{ live: boolean; unit
 
 /** grades in school order, for every list of units */
 export const GRADE_ORDER = ['P', 'K', '1', '2', '3', '4', '5'];
-export const SUBJECT_ORDER = ['math', 'literacy', 'science', 'social', 'health', 'arts', 'thinking', 'sel'];
+export const SUBJECT_ORDER = ['math', 'literacy', 'science', 'social', 'health', 'arts', 'thinking', 'sel', 'theme'];
 
 export interface UnitRef { slug: string; title: string; lesson: number; lessonTitle: string }
 /**

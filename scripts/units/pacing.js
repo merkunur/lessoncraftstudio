@@ -44,4 +44,9 @@ const sessionsAWeek = (grade, ctx) => {
   return ctx && ctx.loc === 'sv' && ctx.subject === 'math' && String(grade) === 'K' ? 3 : 5;
 };
 const unitWeeks = (grade, lessons, ctx) => Math.max(1, Math.round(unitDays(grade, lessons) / sessionsAWeek(grade, ctx)));
-module.exports = { UNIT_END_DAYS, lessonDays, unitDays, unitWeeks, sessionsAWeek };
+// A PRESCHOOL THEME unit (Stage D-4, 2026-11-25; plan decision 5) is a theme WEEK, or two: its four lessons (literacy,
+// math, science and our world, fine motor and art) are daily blocks that run every day of the week, and the unit has
+// no end days (a preschool theme has no unit check; the teacher keeps the observation checklist during the week).
+const THEME_SUBJECT = 'theme';
+const themeDays = (weeks) => 5 * weeks;
+module.exports = { UNIT_END_DAYS, lessonDays, unitDays, unitWeeks, sessionsAWeek, THEME_SUBJECT, themeDays };

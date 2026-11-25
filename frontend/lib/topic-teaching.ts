@@ -79,7 +79,9 @@ export async function teachingForTopic(locale: string, axis: string, axisKey: st
   ]);
   if (!unitUi) return null;
   const looks = await getLooks(locale);
-  const lookFor = (grade: string | undefined) => (looks && ((grade && looks[grade]) || looks[mine.grades.find((g) => looks[g.grade])?.grade ?? ''])) || null;
+  // the default pictures (a hub, the homepage) are the first K-3 grade's: preschool (Stage D-4) shows its own only on its
+  // own grade page, so the preschool theme units do not change the pictures every other page shows
+  const lookFor = (grade: string | undefined) => (looks && ((grade && looks[grade]) || looks[mine.grades.find((g) => g.grade !== 'P' && looks[g.grade])?.grade ?? ''])) || null;
   const levels = (taxonomy as unknown as { axes: Axes }).axes['educational-level'];
   const levelSlug = axis === 'educational-level' ? levels[axisKey]?.slug?.[locale] : null;
   const base = { unitUi, myUi: mine.ui, gate, plan: tTier('name'), downloadsPerMonth: mine.downloadsPerMonth, teachHref: null as string | null,

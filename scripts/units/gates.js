@@ -46,7 +46,8 @@ const FREE = { en: /\bfree\b/i, de: /\b(kostenlos|gratis|umsonst)\b/i, fr: /\b(g
 // key is missing); empty since the day plan of Part 4.8 was read in German and Swedish
 // strings of a product that exists in English only so far: German and Swedish get them with that product
 // (slotScreenBook: the readers, whose books exist in English only, 2026-11-22)
-const ENGLISH_FIRST = new Set(['slotScreenBook']);
+// (the preschool theme units, Stage D-4, 2026-11-25: English only so far; German and Swedish get them with their themes)
+const ENGLISH_FIRST = new Set(['slotScreenBook', 'subject_theme', 'strand_literacy', 'strand_math', 'strand_science', 'strand_motor', 'weekdays', 'themeWeekTitle', 'themeWeekDay', 'pageOpen', 'noteCheck', 'themeUnitEnd', 'checklistBtn', 'guideChecklist', 'guideChecklistLead', 'themePlanLead', 'themePlanHonest']);
 // the sub-plan strings of the week days and the sub binder pages (Part 5.4), which exist in English only so far
 const SUB_ENGLISH_FIRST = /^(week[A-Z]|hubWeek|binder[A-Z]|block_social$)/;
 // words by which a plan would claim to fill the school year (a plan of ours fills some weeks of it)
@@ -112,10 +113,22 @@ function run(d) {
       for (const x of u.lessons) if (x.writeDays != null && (x.writeDays !== 3 || x.paper.length < 2 || String(u.grade) === 'K' || String(u.grade) === 'P')) fail('P9', w + ' lesson ' + x.n + ': claims three days for its writing without two page types from Grade 1 on');
       // an investigation's third session (2026-11-24): only in a content area, from Grade 1 on, for a lesson with a hands-on routine
       for (const x of u.lessons) if (x.investigateDays != null && (x.investigateDays !== 3 || !['science', 'social', 'health'].includes(u.subject) || !x.routine || x.led || String(u.grade) === 'K' || String(u.grade) === 'P')) fail('P9', w + ' lesson ' + x.n + ': claims a third session for an investigation outside a content area, without a hands-on routine or below Grade 1');
-      for (const x of u.lessons) if (x.days !== PACE.lessonDays(u.grade, x)) fail('P9', w + ' lesson ' + x.n + ': says ' + x.days + ' class days, its material carries ' + PACE.lessonDays(u.grade, x));
-      if (u.days !== PACE.unitDays(u.grade, u.lessons)) fail('P9', w + ': says ' + u.days + ' days, its lessons carry ' + PACE.unitDays(u.grade, u.lessons));
-      const counted = PACE.unitWeeks(u.grade, u.lessons, { loc: l, subject: u.subject });
-      if (u.weeks !== counted) fail('P9', w + ': says ' + u.weeks + ' weeks, counted ' + counted);
+      if (u.subject === PACE.THEME_SUBJECT) {
+        // a PRESCHOOL THEME (Stage D-4): one or two weeks of five days, every block runs every day and says what it does
+        // on each of them, and every block has its line on the observation checklist (the theme's measure: no check)
+        if (String(u.grade) !== 'P' || ![1, 2].includes(u.weeks)) fail('P9', w + ': a theme is a preschool unit of one or two weeks (grade ' + u.grade + ', ' + u.weeks + ' weeks)');
+        if (u.days !== PACE.themeDays(u.weeks)) fail('P9', w + ': says ' + u.days + ' days, a theme of ' + u.weeks + ' week(s) has ' + PACE.themeDays(u.weeks));
+        for (const x of u.lessons) {
+          if (x.days !== PACE.themeDays(u.weeks)) fail('P9', w + ' lesson ' + x.n + ': says ' + x.days + ' days, a block of the theme runs ' + PACE.themeDays(u.weeks));
+          if (!Array.isArray(x.week) || x.week.length !== PACE.themeDays(u.weeks)) fail('P9', w + ' lesson ' + x.n + ': its week says ' + (x.week || []).length + ' days, not ' + PACE.themeDays(u.weeks));
+          if (!x.check || x.check.length > 90) fail('P9', w + ' lesson ' + x.n + ': no line for the observation checklist (90 characters at most)');
+        }
+      } else {
+        for (const x of u.lessons) if (x.days !== PACE.lessonDays(u.grade, x)) fail('P9', w + ' lesson ' + x.n + ': says ' + x.days + ' class days, its material carries ' + PACE.lessonDays(u.grade, x));
+        if (u.days !== PACE.unitDays(u.grade, u.lessons)) fail('P9', w + ': says ' + u.days + ' days, its lessons carry ' + PACE.unitDays(u.grade, u.lessons));
+        const counted = PACE.unitWeeks(u.grade, u.lessons, { loc: l, subject: u.subject });
+        if (u.weeks !== counted) fail('P9', w + ': says ' + u.weeks + ' weeks, counted ' + counted);
+      }
       if (WEEK_RE[l]) { const m = WEEK_RE[l].exec(u.metaDescription || ''); const named = m ? WEEK_WORDS[l].indexOf((m[1] || m[2]).toLowerCase()) : null; if (named != null && named !== u.weeks) fail('P9', w + ': the description names ' + named + ' week(s), the unit takes ' + u.weeks); }
       for (const x of u.lessons) {
         const lw = w + ' lesson ' + x.n;
@@ -130,7 +143,8 @@ function run(d) {
         if (!n.words || !QUOTED.test(n.words)) fail('P3', lw + ': the note gives no words to use (nothing in quotation marks)');
         if (!n.watch || n.watch.length < 40) fail('P3', lw + ': the note does not say what to watch for');
         // (2026-11-25) the routine too: the unit page prints it under "What the class does" (deploy 58 found one there)
-        for (const s of [x.title, x.objective, x.routine, n.mistake, n.words, n.watch]) if (s && freeIn(l, x.point, s)) fail('P5', lw + ': "' + s.slice(0, 60) + '" says free');
+        // (2026-11-25, Stage D-4) a preschool theme block's day lines and its checklist line are printed too
+        for (const s of [x.title, x.objective, x.routine, n.mistake, n.words, n.watch, x.check, ...(x.week || [])]) if (s && freeIn(l, x.point, s)) fail('P5', lw + ': "' + s.slice(0, 60) + '" says free');
         // a lesson stands once in a language: by its id where it has one (a further lesson on a point), else by its point
         const key = x.id || x.point;
         if (x.id != null && !(typeof x.id === 'string' && x.id.startsWith(x.point + '#'))) fail('P2', lw + ': the lesson id "' + x.id + '" does not begin with its point');
@@ -265,6 +279,11 @@ const POISONS = [
   ['an investigation lesson whose routine is gone', 'P9', (d) => { const x = d.loc.en.units.flatMap((u) => u.lessons).find((y) => y.investigateDays === 3); delete x.routine; }],
   ['a lesson with one page that claims three days for its writing', 'P9', (d) => { const x = d.loc.en.units.flatMap((u) => u.lessons).find((y) => y.days === 2 && y.paper.length === 1); x.writeDays = 3; x.days = 3; }],
   ['a unit that says two weeks', 'P9', (d) => { const u = d.loc.en.units.find((y) => y.weeks > 2); u.weeks = 2; }],
+  // the preschool theme units (Stage D-4, 2026-11-25)
+  ['a theme block without its checklist line', 'P9', (d) => { delete d.loc.en.units.find((u) => u.subject === 'theme').lessons[0].check; }],
+  ['a theme block whose week lost a day', 'P9', (d) => { const x = d.loc.en.units.find((u) => u.subject === 'theme').lessons[1]; x.week = x.week.slice(1); }],
+  ['a theme that says three weeks', 'P9', (d) => { d.loc.en.units.find((u) => u.subject === 'theme').weeks = 3; }],
+  ['a theme day line that says free', 'P5', (d) => { d.loc.en.units.find((u) => u.subject === 'theme').lessons[2].week[0] = 'Hand out the free page.'; }],
   ['a description that names the old length', 'P9', (d) => { const u = d.loc.en.units.find((y) => /\b[Aa]n? \w+-week\b/.test(y.metaDescription) && y.weeks !== 2); u.metaDescription = u.metaDescription.replace(/\b([Aa])n? \w+-week\b/, '$1 two-week'); }],
   ['a lesson without a worksheet that the teacher does not lead', 'P3', (d) => { const x = d.loc.en.units[0].lessons[0]; x.paper.length = 0; }],
   ['a one-page lesson whose hands-on routine is too short', 'P3', (d) => { const x = d.loc.en.units[0].lessons[0]; x.paper.length = 1; delete x.tool; delete x.screen; delete x.led; x.routine = 'Short.'; }],

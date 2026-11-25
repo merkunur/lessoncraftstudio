@@ -35,8 +35,12 @@ const readJson = (f, fallback) => { try { return JSON.parse(fs.readFileSync(f, '
 
 /** the registry a language's pages cite (a state layer is chosen by the page, not here) */
 const REGISTRY_OF = { en: 'en', de: 'de', fr: 'fr', es: 'es', pt: 'pt', it: 'it', nl: 'nl', sv: 'sv', da: 'da', no: 'no', fi: 'fi' };
-const { pagesOf } = require('./catalog.js');
-const { lessonDays, unitDays, unitWeeks, sessionsAWeek } = require('./pacing.js');
+const { pagesOf, codeOfSlug, typeIdOf } = require('./catalog.js');
+const { lessonDays, unitDays, unitWeeks, sessionsAWeek, THEME_SUBJECT, themeDays } = require('./pacing.js');
+/** the four daily blocks of a preschool theme week, in their order (Stage D-4, plan decision 5) */
+const THEME_STRANDS = ['literacy', 'math', 'science', 'motor'];
+/** the months of a US school year, in order: a theme plan runs through them (the plan page groups its weeks by month) */
+const SCHOOL_MONTHS = ['August', 'September', 'October', 'November', 'December', 'January', 'February', 'March', 'April', 'May', 'June'];
 const MIN_LESSONS = 4;
 /** the picture themes of a holiday, as the pages' addresses name them in en, de and sv */
 const HOLIDAY_COPY = /(?:^|-)(?:christmas|easter|thanksgiving|valentine|halloween|4th-of-july|weihnachten|ostern|erntedankfest|valentinstag|4-juli|jul|pask|alla-hjartans-dag)(?:-|$)/;
@@ -95,6 +99,103 @@ function assemble(loc, opt = {}) {
   // October, a 4th of July page in a German class) is handed out only when the type has no other copy at that level.
   for (const t of pages.values()) for (const r of ['easy', 'core', 'hard']) t[r] = t[r].filter((x) => !HOLIDAY_COPY.test(x.slug)).concat(t[r].filter((x) => HOLIDAY_COPY.test(x.slug)));
 
+  // The national objective, at most three, shown as the site shows an objective. A row that says "teaches" is true
+  // AT THE YEAR OF ITS OBJECTIVE: in a unit of another year it is shown for what it is there — an objective of an
+  // earlier year is one the unit REVIEWS, an objective of a later year is one the lesson reaches AHEAD to (a
+  // Kindergarten code in a Grade 1 unit is not that unit's alignment). Order: the unit's own year, then reviewed,
+  // then ahead, then the rows that only prepare or extend.
+  function lessonStandards(d, L, lw) {
+    const e = cw[L.point] || {};
+    const YEARS = ['P', 'K', '1', '2', '3', '4', '5', '6'];
+    const span = (g) => { const xs = String(g || '').split('-').map((x) => YEARS.indexOf(x)); return xs.length && xs.every((x) => x >= 0) ? [Math.min(...xs), Math.max(...xs)] : null; };
+    const unitYear = YEARS.indexOf(String(d.grade));
+    const relIn = (r) => { if (r.rel !== 'teaches') return r.rel; const s = span(r.grade); if (!s || unitYear < 0) return 'teaches'; return s[1] < unitYear ? 'reviews' : s[0] > unitYear ? 'ahead' : 'teaches'; };
+    const RANK = { teaches: 0, reviews: 1, ahead: 2, prepares: 3, extends: 4 };
+    // A row that only prepares for or extends an objective two or more years away is not shown (a Grade 4 code on a
+    // Kindergarten lesson reads as a mistake). A lesson may also NAME the objectives its own pages teach (`standards`:
+    // ids of the point's crosswalk rows), because a point is wider than the two or three pages one lesson hands out.
+    const far = (r) => { if (r.rel === 'teaches') return false; const sp = span(r.grade); return !!sp && unitYear >= 0 && (sp[0] - unitYear >= 2 || unitYear - sp[1] >= 2); };
+    // `standardsRel`: where a point of an earlier year is taught by a unit of a later one, the row that only
+    // "prepares" for the later objective is, in THIS lesson, taught (the lesson says so; the registry row stays)
+    if (L.standardsRel) for (const [id, rel] of Object.entries(L.standardsRel)) if (!['teaches', 'reviews', 'prepares', 'extends'].includes(rel) || !(L.standards || []).includes(id)) bad(lw + ': standardsRel ' + id + ' → ' + rel);
+    if (L.standards) for (const id of L.standards) if (!(e.rows || []).some((r) => r.id === id)) bad(lw + ': ' + id + ' is not an objective of this teaching point in the registry');
+    const rows = (e.rows || []).filter((r) => (L.standards ? L.standards.includes(r.id) : !far(r))).map((r) => Object.assign({}, r, { shown: (L.standardsRel && L.standardsRel[r.id]) || relIn(r) })).sort((a, b) => RANK[a.shown] - RANK[b.shown]).slice(0, 3);
+    return rows.filter((r) => nodeById.has(r.id)).map((r) => { const s = shown(registry, nodeById.get(r.id)); return { rel: r.shown, framework: s.framework, code: s.code, title: s.titles[s.titles.length - 1] || null }; })
+      // two rows that read the same (two objectives under one heading, in a registry without codes) are shown once
+      .filter((x, i, all) => all.findIndex((y) => y.rel === x.rel && y.framework === x.framework && y.code === x.code && y.title === x.title) === i);
+  }
+
+  // A lesson of a PRESCHOOL THEME unit (Stage D-4): a daily block of the theme week on a Kindergarten readiness point.
+  // It hands out the EXACT pages its definition names (`pages`: live addresses, each looked at by the pre-K designer
+  // for its pictures; a themed copy carries the theme in its address), never a page chosen for it. Its text says what
+  // the class does with real things (`routine`), what this block does on each day of the week (`week`: five lines a
+  // week), and the one thing the teacher watches for on the observation checklist (`check`). No exit page and no
+  // check (a preschool theme has none); a classroom tool or a screen activity only where the definition names one.
+  const themePages = new Map();   // page address → the theme unit that hands it out: a page is handed out once in the year
+  function themeLesson(d, L, p, tx, lw, n) {
+    const weeks = d.weeks || 1;
+    if (!L.id) { bad(lw + ': a lesson of a theme unit names itself (id "' + L.point + '#<theme>")'); return null; }
+    if (!Array.isArray(L.pages) || L.pages.length < 1 || L.pages.length > 3) { bad(lw + ': a theme lesson hands out 1 to 3 exact pages (`pages`)'); return null; }
+    if (L.types || L.led || L.days != null) { bad(lw + ': a theme lesson names its pages (`pages`), never types, `led` or `days`'); return null; }
+    if (!tx.routine || tx.routine.length < 120 || tx.routine.length > 450) { bad(lw + ': a theme lesson needs its hands-on routine, 120 to 450 characters (' + (tx.routine || '').length + ')'); return null; }
+    if (!Array.isArray(tx.week) || tx.week.length !== 5 * weeks || tx.week.some((s) => !s || s.length > 110)) { bad(lw + ': a theme lesson needs ' + (5 * weeks) + ' day lines (`week`), each 110 characters or fewer'); return null; }
+    if (!tx.check || tx.check.length > 90) { bad(lw + ': a theme lesson needs its checklist line (`check`), 90 characters or fewer'); return null; }
+    const paper = [];
+    for (const slug of L.pages) {
+      const code = codeOfSlug(slug), typeId = code && typeIdOf(code);
+      if (!typeId) { bad(lw + ': ' + slug + ' is not a worksheet page address'); continue; }
+      if (!(p.types || []).includes(typeId) && !(p.sharedTypes || []).includes(typeId)) { bad(lw + ': ' + slug + ' is a page of ' + typeId + ', which does not belong to ' + L.point); continue; }
+      const pg = pages.get(typeId);
+      const rung = pg && ['easy', 'core', 'hard'].find((r) => pg[r].some((y) => y.slug === slug));
+      if (!rung) { bad(lw + ': ' + slug + ' is not a published page in this language'); continue; }
+      if (themePages.has(slug)) { bad(lw + ': ' + slug + ' is handed out by ' + themePages.get(slug) + ' too (a page is handed out once in the year)'); continue; }
+      if (usedPagesOf(d).has(slug)) { bad(lw + ': ' + slug + ' is handed out twice in the unit'); continue; }
+      themePages.set(slug, d.id); usedPagesOf(d).add(slug);
+      const entry = pg[rung].find((y) => y.slug === slug);
+      const label = L.titles && L.titles[slug];
+      const title = label || (strings[typeId] && strings[typeId].title && strings[typeId].title.replace(/\s*:\s*\{[A-Za-z_]+\}\s*$/, ''));
+      if (!title || /\{[A-Za-z_]+\}/.test(title)) { bad(lw + ': the page ' + slug + ' has no title to show (give it one in `titles`)'); continue; }
+      const level = { easy: 1, core: 2, hard: 3 }[rung];
+      const row = { type: typeId, title, core: slug };
+      if (level !== 2) row.level = level;
+      if (entry.screen) row.screen = 1;
+      // the landing page of a type shows its indexable level-2 page: only that very page links to it
+      const a = assets.types[typeId] || {};
+      if (a.landing && level === 2 && entry.base) row.landing = a.landing;
+      paper.push(row);
+    }
+    for (const a of paper) if (paper.some((b) => b !== a && b.title === a.title)) { bad(lw + ': two pages carry the title "' + a.title + '" (give one a label of its own: `titles` in the definition)'); break; }
+    if (paper.length !== L.pages.length) return null;
+    let tool = null;
+    if (L.tool) {
+      const tc = toolContent[L.tool];
+      if (!(toolPoints[L.tool] && (toolPoints[L.tool].points || []).includes(L.point))) bad(lw + ': tool ' + L.tool + ' does not model this teaching point (tools.json)');
+      else if (tc && tc.slug && tc.name) tool = { key: L.tool, slug: tc.slug, name: tc.name };
+      else bad(lw + ': tool ' + L.tool + ' has no page in this language');
+    }
+    let screen = null;
+    if (L.activity) {
+      if (!(p.activities || []).includes(L.activity)) bad(lw + ': activity ' + L.activity + ' does not belong to this teaching point');
+      else if (acts.has(L.activity)) screen = Object.assign({ kind: 'activity', id: L.activity }, acts.get(L.activity));
+      else bad(lw + ': activity ' + L.activity + ' is not live in this language');
+    }
+    let maker = null;
+    const mk = assets.types[paper[0].type] && assets.types[paper[0].type].maker;
+    if (mk && makerNames[mk] && makerCopy[mk]) maker = { id: mk, name: makerNames[mk], slug: makerCopy[mk].slug, template: paper[0].type };
+    const lesson = { n, point: L.point, id: L.id, strand: L.strand, title: tx.title, objective: tx.objective, standards: lessonStandards(d, L, lw), paper };
+    lesson.routine = tx.routine;
+    if (tool) lesson.tool = tool;
+    if (screen) lesson.screen = screen;
+    if (maker) lesson.maker = maker;
+    lesson.note = { mistake: tx.note.mistake, words: tx.note.words, watch: tx.note.watch };
+    lesson.week = tx.week.slice();
+    lesson.check = tx.check;
+    lesson.days = themeDays(weeks);
+    return lesson;
+  }
+  const unitPages = new Map();
+  const usedPagesOf = (d) => { if (!unitPages.has(d.id)) unitPages.set(d.id, new Set()); return unitPages.get(d.id); };
+
   const seenSlug = new Set(), seenId = new Set();
   const seenLesson = new Map();   // lesson key (its id, or its point) → the unit that holds it: a key stands once in a language
   const units = [];
@@ -106,6 +207,15 @@ function assemble(loc, opt = {}) {
     for (const k of ['title', 'metaTitle', 'metaDescription', 'grade', 'subject']) if (!d[k]) bad(where + ': no ' + k);
     const lessons = [];
     const usedPages = new Set();
+    // A PRESCHOOL THEME unit (Stage D-4): grade P, one or two weeks, a month of the school year, and exactly the four
+    // daily blocks in their order, each a named lesson on a Kindergarten readiness point with its exact pages
+    const themeUnit = d.subject === THEME_SUBJECT;
+    if (themeUnit) {
+      if (String(d.grade) !== 'P') bad(where + ': a theme unit is a preschool unit (grade P)');
+      if (![1, 2].includes(d.weeks)) bad(where + ': a theme unit is one or two weeks (weeks ' + d.weeks + ')');
+      if (!SCHOOL_MONTHS.includes(d.month)) bad(where + ': a theme unit names its month of the school year (' + d.month + ')');
+      if (d.lessons.map((L) => L.strand).join(',') !== THEME_STRANDS.join(',')) bad(where + ': a theme unit has the four blocks ' + THEME_STRANDS.join(', ') + ' in this order (has ' + d.lessons.map((L) => L.strand).join(', ') + ')');
+    } else if (String(d.grade) === 'P') bad(where + ': a preschool unit is a theme unit');
     for (const [i, L] of d.lessons.entries()) {
       const lw = where + ' lesson ' + (i + 1) + ' (' + L.point + ')';
       const p = points.get(L.point);
@@ -119,6 +229,7 @@ function assemble(loc, opt = {}) {
       seenLesson.set(key, d.id);
       const tx = text[key];
       if (!tx || !tx.title || !tx.objective || !tx.note || !tx.note.mistake || !tx.note.words || !tx.note.watch) { bad(lw + ': ' + (L.id ? 'the lesson ' + L.id : 'the point') + ' has no title, objective and full teacher note in points/' + loc + '.json'); continue; }
+      if (themeUnit) { const tl = themeLesson(d, L, p, tx, lw, lessons.length + 1); if (tl) lessons.push(tl); continue; }
 
       // A lesson the teacher LEADS without a page (`led`: a routine with real objects, a number talk): it hands out no
       // worksheet, and its text says what the class does (`routine`). The routine is one of its two real assets; the
@@ -226,29 +337,8 @@ function assemble(loc, opt = {}) {
       let maker = null;
       const mk = paper.length && assets.types[paper[0].type] && assets.types[paper[0].type].maker;
       if (mk && makerNames[mk] && makerCopy[mk]) maker = { id: mk, name: makerNames[mk], slug: makerCopy[mk].slug, template: paper[0].type };
-      // The national objective, at most three, shown as the site shows an objective. A row that says "teaches" is true
-      // AT THE YEAR OF ITS OBJECTIVE: in a unit of another year it is shown for what it is there — an objective of an
-      // earlier year is one the unit REVIEWS, an objective of a later year is one the lesson reaches AHEAD to (a
-      // Kindergarten code in a Grade 1 unit is not that unit's alignment). Order: the unit's own year, then reviewed,
-      // then ahead, then the rows that only prepare or extend.
-      const e = cw[L.point] || {};
-      const YEARS = ['P', 'K', '1', '2', '3', '4', '5', '6'];
-      const span = (g) => { const xs = String(g || '').split('-').map((x) => YEARS.indexOf(x)); return xs.length && xs.every((x) => x >= 0) ? [Math.min(...xs), Math.max(...xs)] : null; };
-      const unitYear = YEARS.indexOf(String(d.grade));
-      const relIn = (r) => { if (r.rel !== 'teaches') return r.rel; const s = span(r.grade); if (!s || unitYear < 0) return 'teaches'; return s[1] < unitYear ? 'reviews' : s[0] > unitYear ? 'ahead' : 'teaches'; };
-      const RANK = { teaches: 0, reviews: 1, ahead: 2, prepares: 3, extends: 4 };
-      // A row that only prepares for or extends an objective two or more years away is not shown (a Grade 4 code on a
-      // Kindergarten lesson reads as a mistake). A lesson may also NAME the objectives its own pages teach (`standards`:
-      // ids of the point's crosswalk rows), because a point is wider than the two or three pages one lesson hands out.
-      const far = (r) => { if (r.rel === 'teaches') return false; const sp = span(r.grade); return !!sp && unitYear >= 0 && (sp[0] - unitYear >= 2 || unitYear - sp[1] >= 2); };
-      // `standardsRel`: where a point of an earlier year is taught by a unit of a later one, the row that only
-      // "prepares" for the later objective is, in THIS lesson, taught (the lesson says so; the registry row stays)
-      if (L.standardsRel) for (const [id, rel] of Object.entries(L.standardsRel)) if (!['teaches', 'reviews', 'prepares', 'extends'].includes(rel) || !(L.standards || []).includes(id)) bad(lw + ': standardsRel ' + id + ' → ' + rel);
-      if (L.standards) for (const id of L.standards) if (!(e.rows || []).some((r) => r.id === id)) bad(lw + ': ' + id + ' is not an objective of this teaching point in the registry');
-      const rows = (e.rows || []).filter((r) => (L.standards ? L.standards.includes(r.id) : !far(r))).map((r) => Object.assign({}, r, { shown: (L.standardsRel && L.standardsRel[r.id]) || relIn(r) })).sort((a, b) => RANK[a.shown] - RANK[b.shown]).slice(0, 3);
-      const standards = rows.filter((r) => nodeById.has(r.id)).map((r) => { const s = shown(registry, nodeById.get(r.id)); return { rel: r.shown, framework: s.framework, code: s.code, title: s.titles[s.titles.length - 1] || null }; })
-        // two rows that read the same (two objectives under one heading, in a registry without codes) are shown once
-        .filter((x, i, all) => all.findIndex((y) => y.rel === x.rel && y.framework === x.framework && y.code === x.code && y.title === x.title) === i);
+      // the national objective, at most three (lessonStandards)
+      const standards = lessonStandards(d, L, lw);
 
       // two real assets: worksheet types, a tool, practice on screen. Practice on screen is an activity, or a page with
       // a Check button that is NOT one of the pages the lesson hands out on paper (the same page twice is one asset).
@@ -281,7 +371,10 @@ function assemble(loc, opt = {}) {
       lessons.push(lesson);
     }
     if (lessons.length < MIN_LESSONS) bad(where + ': ' + lessons.length + ' lessons (at least ' + MIN_LESSONS + ')');
-    const unit = { id: d.id, slug: d.slug, status: d.status || 'pilot', grade: d.grade, subject: d.subject, title: d.title, metaTitle: d.metaTitle, metaDescription: d.metaDescription, days: unitDays(d.grade, lessons), weeks: unitWeeks(d.grade, lessons, { loc, subject: d.subject }), lessons };
+    const unit = themeUnit
+      // a theme unit is its week or two: five days a week, no end days (pacing.js)
+      ? { id: d.id, slug: d.slug, status: d.status || 'pilot', grade: d.grade, subject: d.subject, title: d.title, metaTitle: d.metaTitle, metaDescription: d.metaDescription, month: d.month, days: themeDays(d.weeks || 1), weeks: d.weeks || 1, lessons }
+      : { id: d.id, slug: d.slug, status: d.status || 'pilot', grade: d.grade, subject: d.subject, title: d.title, metaTitle: d.metaTitle, metaDescription: d.metaDescription, days: unitDays(d.grade, lessons), weeks: unitWeeks(d.grade, lessons, { loc, subject: d.subject }), lessons };
     units.push(unit);
   }
   // YEAR PLANS (scope and sequence, Part 4.4): the units of one grade and subject in teaching order, with the weeks
@@ -311,7 +404,14 @@ function assemble(loc, opt = {}) {
       const standards = [...new Set(u.lessons.flatMap((l) => l.standards.filter((x) => x.rel === 'teaches' && x.code).map((x) => x.code)))];
       const from = sharedWeeks ? Math.floor(sessions / spw) + 1 : week + 1;
       const to = sharedWeeks ? Math.ceil((sessions + u.days) / spw) : week + u.weeks;
-      rows.push({ id: u.id, slug: u.slug, title: u.title, weeks: u.weeks, from, to, lessons: u.lessons.map((l) => l.title), standards });
+      const row = { id: u.id, slug: u.slug, title: u.title, weeks: u.weeks, from, to, lessons: u.lessons.map((l) => l.title), standards };
+      // a theme plan runs through the months of the school year in order: the plan page groups its weeks by month
+      if (u.month) {
+        const prev = rows.length ? rows[rows.length - 1].month : null;
+        if (prev && SCHOOL_MONTHS.indexOf(u.month) < SCHOOL_MONTHS.indexOf(prev)) bad(where + ': ' + u.id + ' (' + u.month + ') comes after a unit of ' + prev);
+        row.month = u.month;
+      }
+      rows.push(row);
       sessions += u.days;
       week = sharedWeeks ? to : week + u.weeks;
     }

@@ -6476,6 +6476,1615 @@
     }
    ],
    "weeks": 7
+  },
+  {
+   "id": "p-theme-school",
+   "slug": "back-to-school-theme-preschool-lesson-plans",
+   "status": "pilot",
+   "grade": "P",
+   "subject": "theme",
+   "month": "September",
+   "weeks": 1,
+   "title": "Back to School Theme",
+   "metaTitle": "Back to School Theme Preschool Lesson Plans for One Week",
+   "metaDescription": "A one-week preschool back to school theme. Our classroom, its things and its rules: where things go, how we line up, how we keep each other safe.",
+   "lessons": [
+    {
+     "strand": "literacy",
+     "point": "K:word-picture-match",
+     "id": "K:word-picture-match#p-school",
+     "pages": [
+      "picture-word-cards-easy-classroom-k324-30"
+     ]
+    },
+    {
+     "strand": "math",
+     "point": "K:ordinal-position",
+     "id": "K:ordinal-position#p-school",
+     "pages": [
+      "ordinal-numbers-easy-classroom-k320-16"
+     ]
+    },
+    {
+     "strand": "science",
+     "point": "K:class-rules",
+     "id": "K:class-rules#p-school",
+     "pages": [
+      "feelings-easy-k712-7"
+     ]
+    },
+    {
+     "strand": "motor",
+     "point": "K:pre-writing-strokes",
+     "id": "K:pre-writing-strokes#p-school",
+     "pages": [
+      "pre-writing-easy-classroom-k236-30",
+      "picture-tracing-k425-9"
+     ],
+     "titles": {
+      "picture-tracing-k425-9": "Trace and Color the Picture: In the Classroom"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p-theme-all-about-me",
+   "slug": "all-about-me-theme-preschool-lesson-plans",
+   "status": "pilot",
+   "grade": "P",
+   "subject": "theme",
+   "month": "September",
+   "weeks": 1,
+   "title": "All About Me Theme",
+   "metaTitle": "All About Me Theme Preschool Lesson Plans for One Week",
+   "metaDescription": "A one-week preschool all about me theme. Me: my name, what I like, what I can do, and the five senses I use to learn about the world.",
+   "lessons": [
+    {
+     "strand": "literacy",
+     "point": "K:all-about-me-personal",
+     "id": "K:all-about-me-personal#p-all-about-me",
+     "pages": [
+      "all-about-me-k342-2",
+      "all-about-me-k345",
+      "all-about-me-k323-3"
+     ]
+    },
+    {
+     "strand": "math",
+     "point": "K:compare-groups",
+     "id": "K:compare-groups#p-all-about-me",
+     "pages": [
+      "all-about-me-k346"
+     ]
+    },
+    {
+     "strand": "science",
+     "point": "K:five-senses",
+     "id": "K:five-senses#p-all-about-me",
+     "pages": [
+      "five-senses-easy-k355-8",
+      "five-senses-easy-k355-10"
+     ],
+     "titles": {
+      "five-senses-easy-k355-8": "Five Senses: Flower, Sand, Saxophone, Lemon",
+      "five-senses-easy-k355-10": "Five Senses: Drum, Rock, Lemon, Flower"
+     }
+    },
+    {
+     "strand": "motor",
+     "point": "K:pre-writing-strokes",
+     "id": "K:pre-writing-strokes#p-all-about-me",
+     "pages": [
+      "pre-writing-easy-body-parts-k386"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "p-theme-feelings",
+   "slug": "feelings-theme-preschool-lesson-plans",
+   "status": "pilot",
+   "grade": "P",
+   "subject": "theme",
+   "month": "September",
+   "weeks": 1,
+   "title": "Feelings Theme",
+   "metaTitle": "Feelings Theme Preschool Lesson Plans for One Week",
+   "metaDescription": "A one-week preschool feelings theme. Naming happy, sad, angry, scared and excited, reading them on faces, and what helps when a feeling is big.",
+   "lessons": [
+    {
+     "strand": "literacy",
+     "point": "K:word-picture-match",
+     "id": "K:word-picture-match#p-feelings",
+     "pages": [
+      "picture-word-cards-easy-emotions-k324-40",
+      "picture-word-cards-emotions-k324-138"
+     ],
+     "titles": {
+      "picture-word-cards-easy-emotions-k324-40": "Feelings Word Cards: Four Big Faces",
+      "picture-word-cards-emotions-k324-138": "Feelings Word Cards: Eight Faces"
+     }
+    },
+    {
+     "strand": "math",
+     "point": "K:ordinal-position",
+     "id": "K:ordinal-position#p-feelings",
+     "pages": [
+      "ordinal-numbers-easy-emotions-k320-21"
+     ]
+    },
+    {
+     "strand": "science",
+     "point": "K:feelings",
+     "id": "K:feelings#p-feelings",
+     "pages": [
+      "feelings-easy-k331-8",
+      "feelings-easy-k333-2"
+     ]
+    },
+    {
+     "strand": "motor",
+     "point": "K:pre-writing-strokes",
+     "id": "K:pre-writing-strokes#p-feelings",
+     "pages": [
+      "pre-writing-easy-emotions-k236-40",
+      "pre-writing-easy-emotions-k385"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "p-theme-family",
+   "slug": "my-family-and-my-home-theme-preschool-lesson-plans",
+   "status": "pilot",
+   "grade": "P",
+   "subject": "theme",
+   "month": "September",
+   "weeks": 1,
+   "title": "My Family and My Home Theme",
+   "metaTitle": "My Family and My Home Theme Preschool Lesson Plans for One Week",
+   "metaDescription": "A one-week preschool my family and my home theme. Who is in my family, that families come in many kinds, and the rooms and things of the home we share.",
+   "lessons": [
+    {
+     "strand": "literacy",
+     "point": "K:word-picture-match",
+     "id": "K:word-picture-match#p-family",
+     "pages": [
+      "picture-word-cards-easy-around-the-house-k324-17",
+      "picture-word-cards-easy-home-bw-2-k324-56"
+     ],
+     "titles": {
+      "picture-word-cards-easy-around-the-house-k324-17": "Home Word Cards: Stairs, Desk, Dustpan, Fan",
+      "picture-word-cards-easy-home-bw-2-k324-56": "Home Word Cards to Color: Toaster, Blender, Iron"
+     }
+    },
+    {
+     "strand": "math",
+     "point": "K:count-how-many",
+     "id": "K:count-how-many#p-family",
+     "pages": [
+      "all-about-me-k343"
+     ]
+    },
+    {
+     "strand": "science",
+     "point": "K:many-kinds-of-families",
+     "id": "K:many-kinds-of-families#p-family",
+     "pages": [
+      "family-easy-k714-3",
+      "family-easy-k714-4"
+     ],
+     "titles": {
+      "family-easy-k714-3": "Many Kinds of Families: First Set of Families",
+      "family-easy-k714-4": "Many Kinds of Families: Second Set of Families"
+     }
+    },
+    {
+     "strand": "motor",
+     "point": "K:pre-writing-strokes",
+     "id": "K:pre-writing-strokes#p-family",
+     "pages": [
+      "picture-tracing-k418",
+      "picture-tracing-easy-k430-3",
+      "pre-writing-easy-around-the-house-k236-17"
+     ],
+     "titles": {
+      "picture-tracing-k418": "Picture Tracing: The Path to the Door",
+      "picture-tracing-easy-k430-3": "Shape Tracing: The Shape House"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p-theme-apples-fruits",
+   "slug": "apples-and-fruits-theme-preschool-lesson-plans",
+   "status": "pilot",
+   "grade": "P",
+   "subject": "theme",
+   "month": "October",
+   "weeks": 1,
+   "title": "Apples and Fruits Theme",
+   "metaTitle": "Apples and Fruits Theme Preschool Lesson Plans for One Week",
+   "metaDescription": "A one-week preschool apples and fruits theme. Apples and other fruits at harvest time: eating an apple from first bite to core, big and small apples, fruit or vegetable.",
+   "lessons": [
+    {
+     "strand": "literacy",
+     "point": "K:story-sequencing",
+     "id": "K:story-sequencing#p-apples-fruits",
+     "pages": [
+      "story-sequencing-easy-k381-11"
+     ]
+    },
+    {
+     "strand": "math",
+     "point": "K:compare-size-extremes",
+     "id": "K:compare-size-extremes#p-apples-fruits",
+     "pages": [
+      "comparing-sizes-fruits-k040"
+     ]
+    },
+    {
+     "strand": "science",
+     "point": "K:fruit-vegetable",
+     "id": "K:fruit-vegetable#p-apples-fruits",
+     "pages": [
+      "science-sort-easy-k202-3",
+      "science-sort-easy-k202-4"
+     ],
+     "titles": {
+      "science-sort-easy-k202-3": "Fruits and Vegetables: Orange, Strawberry, Lettuce",
+      "science-sort-easy-k202-4": "Fruits and Vegetables: Orange, Apple, Carrot"
+     }
+    },
+    {
+     "strand": "motor",
+     "point": "K:pre-writing-strokes",
+     "id": "K:pre-writing-strokes#p-apples-fruits",
+     "pages": [
+      "picture-tracing-easy-k432-3",
+      "pre-writing-easy-fruits-k236-50"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "p-theme-community-helpers",
+   "slug": "community-helpers-theme-preschool-lesson-plans",
+   "status": "pilot",
+   "grade": "P",
+   "subject": "theme",
+   "month": "October",
+   "weeks": 1,
+   "title": "Community Helpers Theme",
+   "metaTitle": "Community Helpers Theme Preschool Lesson Plans for One Week",
+   "metaDescription": "A one-week preschool community helpers theme. The people who help us (firefighters in Fire Prevention Week, gardeners, doctors, cashiers) and the tools they use.",
+   "lessons": [
+    {
+     "strand": "literacy",
+     "point": "K:word-picture-match",
+     "id": "K:word-picture-match#p-community-helpers",
+     "pages": [
+      "picture-word-cards-easy-occupations-k324-66",
+      "picture-word-cards-occupations-k324-164"
+     ],
+     "titles": {
+      "picture-word-cards-easy-occupations-k324-66": "Helper Word Cards: Teacher, Musician, Gardener",
+      "picture-word-cards-occupations-k324-164": "Helper Word Cards: Eight Helpers"
+     }
+    },
+    {
+     "strand": "math",
+     "point": "K:dot-to-dot-sequence",
+     "id": "K:dot-to-dot-sequence#p-community-helpers",
+     "pages": [
+      "dot-to-dot-k294-4"
+     ]
+    },
+    {
+     "strand": "science",
+     "point": "K:community-helpers",
+     "id": "K:community-helpers#p-community-helpers",
+     "pages": [
+      "science-match-easy-k213-3",
+      "science-match-easy-k213-6"
+     ],
+     "titles": {
+      "science-match-easy-k213-3": "Helpers and Tools: Teacher, Doctor, Builder, Gardener",
+      "science-match-easy-k213-6": "Helpers and Tools: Firefighter, Teacher, Doctor, Builder"
+     }
+    },
+    {
+     "strand": "motor",
+     "point": "K:mazes",
+     "id": "K:mazes#p-community-helpers",
+     "pages": [
+      "maze-puzzles-easy-k405-8"
+     ],
+     "titles": {
+      "maze-puzzles-easy-k405-8": "Picture Maze: Help the Firefighter Reach the Fire Truck"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p-theme-farm",
+   "slug": "farm-theme-preschool-lesson-plans",
+   "status": "pilot",
+   "grade": "P",
+   "subject": "theme",
+   "month": "October",
+   "weeks": 1,
+   "title": "Farm Theme",
+   "metaTitle": "Farm Theme Preschool Lesson Plans for One Week",
+   "metaDescription": "A one-week preschool farm theme. Farm animals and farm work: who lives on the farm, what farm animals eat, and which animals are farm and which are wild.",
+   "lessons": [
+    {
+     "strand": "literacy",
+     "point": "K:word-picture-match",
+     "id": "K:word-picture-match#p-farm",
+     "pages": [
+      "picture-word-cards-easy-farm-animals-k324-42",
+      "picture-word-cards-easy-farm-bw-k324-44"
+     ],
+     "titles": {
+      "picture-word-cards-easy-farm-animals-k324-42": "Farm Word Cards: Hen, Cow, Pig, Sheep",
+      "picture-word-cards-easy-farm-bw-k324-44": "Farm Word Cards to Color: Tractor, Goat, Farmer"
+     }
+    },
+    {
+     "strand": "math",
+     "point": "K:dot-to-dot-sequence",
+     "id": "K:dot-to-dot-sequence#p-farm",
+     "pages": [
+      "dot-to-dot-hard-k294-15"
+     ]
+    },
+    {
+     "strand": "science",
+     "point": "K:animal-groups-homes",
+     "id": "K:animal-groups-homes#p-farm",
+     "pages": [
+      "science-sort-easy-k209-2"
+     ]
+    },
+    {
+     "strand": "motor",
+     "point": "K:mazes",
+     "id": "K:mazes#p-farm",
+     "pages": [
+      "maze-puzzles-easy-k406-5",
+      "maze-puzzles-hard-k406-12",
+      "maze-puzzles-k408"
+     ],
+     "titles": {
+      "maze-puzzles-easy-k406-5": "My First Maze: Help the Hen Get to the Corn",
+      "maze-puzzles-hard-k406-12": "My First Maze: Help the Horse Get to the Carrot"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p-theme-fall-forest",
+   "slug": "fall-and-forest-animals-theme-preschool-lesson-plans",
+   "status": "pilot",
+   "grade": "P",
+   "subject": "theme",
+   "month": "October",
+   "weeks": 1,
+   "title": "Fall and Forest Animals Theme",
+   "metaTitle": "Fall and Forest Animals Theme Preschool Lesson Plans for One Week",
+   "metaDescription": "A one-week preschool fall and forest animals theme. Fall outside: leaves change, the tree through the seasons, and the forest animals that get ready for winter.",
+   "lessons": [
+    {
+     "strand": "literacy",
+     "point": "K:word-picture-match",
+     "id": "K:word-picture-match#p-fall-forest",
+     "pages": [
+      "picture-word-cards-easy-forest-creatures-k324-49"
+     ]
+    },
+    {
+     "strand": "math",
+     "point": "K:heavy-light",
+     "id": "K:heavy-light#p-fall-forest",
+     "pages": [
+      "measurement-easy-forest-creatures-k038"
+     ]
+    },
+    {
+     "strand": "science",
+     "point": "K:seasons",
+     "id": "K:seasons#p-fall-forest",
+     "pages": [
+      "seasons-easy-k322-8",
+      "seasons-k341"
+     ]
+    },
+    {
+     "strand": "motor",
+     "point": "K:pre-writing-strokes",
+     "id": "K:pre-writing-strokes#p-fall-forest",
+     "pages": [
+      "picture-tracing-easy-k423-2",
+      "pre-writing-easy-forest-creatures-k236-49"
+     ],
+     "titles": {
+      "picture-tracing-easy-k423-2": "Zigzag Picture Tracing: Autumn Leaves"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p-theme-construction",
+   "slug": "construction-and-tools-theme-preschool-lesson-plans",
+   "status": "pilot",
+   "grade": "P",
+   "subject": "theme",
+   "month": "November",
+   "weeks": 1,
+   "title": "Construction and Tools Theme",
+   "metaTitle": "Construction and Tools Theme Preschool Lesson Plans for One Week",
+   "metaDescription": "A one-week preschool construction and tools theme. Builders and their tools: hammers, wrenches and wheelbarrows, and who builds the houses we live in.",
+   "lessons": [
+    {
+     "strand": "literacy",
+     "point": "K:word-picture-match",
+     "id": "K:word-picture-match#p-construction",
+     "pages": [
+      "picture-word-cards-easy-tools-k324-81",
+      "picture-word-cards-easy-tools-bw-k324-82"
+     ],
+     "titles": {
+      "picture-word-cards-easy-tools-k324-81": "Tool Word Cards: Pliers, Hammer, Nail, Plunger",
+      "picture-word-cards-easy-tools-bw-k324-82": "Tool Word Cards to Color: Wheelbarrow, Saw, Gloves"
+     }
+    },
+    {
+     "strand": "math",
+     "point": "K:conservation",
+     "id": "K:conservation#p-construction",
+     "pages": [
+      "counting-pictures-easy-tools-k445-5"
+     ]
+    },
+    {
+     "strand": "science",
+     "point": "K:goods-and-services",
+     "id": "K:goods-and-services#p-construction",
+     "pages": [
+      "science-match-easy-k718-3"
+     ]
+    },
+    {
+     "strand": "motor",
+     "point": "K:pre-writing-strokes",
+     "id": "K:pre-writing-strokes#p-construction",
+     "pages": [
+      "pre-writing-easy-tools-k236-81",
+      "pre-writing-easy-tools-bw-k386-4"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "p-theme-pets",
+   "slug": "pets-theme-preschool-lesson-plans",
+   "status": "pilot",
+   "grade": "P",
+   "subject": "theme",
+   "month": "November",
+   "weeks": 1,
+   "title": "Pets Theme",
+   "metaTitle": "Pets Theme Preschool Lesson Plans for One Week",
+   "metaDescription": "A one-week preschool pets theme. Pets and how we care for them, and how a pet is different from a wild animal.",
+   "lessons": [
+    {
+     "strand": "literacy",
+     "point": "K:word-picture-match",
+     "id": "K:word-picture-match#p-pets",
+     "pages": [
+      "picture-word-cards-easy-pets-k324-68"
+     ]
+    },
+    {
+     "strand": "math",
+     "point": "K:dot-to-dot-sequence",
+     "id": "K:dot-to-dot-sequence#p-pets",
+     "pages": [
+      "dot-to-dot-easy-k294-10"
+     ]
+    },
+    {
+     "strand": "science",
+     "point": "K:animal-groups-homes",
+     "id": "K:animal-groups-homes#p-pets",
+     "pages": [
+      "science-sort-easy-k204-3"
+     ]
+    },
+    {
+     "strand": "motor",
+     "point": "K:mazes",
+     "id": "K:mazes#p-pets",
+     "pages": [
+      "maze-puzzles-k406",
+      "maze-puzzles-k406-6"
+     ],
+     "titles": {
+      "maze-puzzles-k406": "My First Maze: Help the Puppy Get to the Ball",
+      "maze-puzzles-k406-6": "My First Maze: Help the Kitten Get to the Milk"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p-theme-thanksgiving",
+   "slug": "thanksgiving-theme-preschool-lesson-plans",
+   "status": "pilot",
+   "grade": "P",
+   "subject": "theme",
+   "month": "November",
+   "weeks": 1,
+   "title": "Thanksgiving Theme",
+   "metaTitle": "Thanksgiving Theme Preschool Lesson Plans for One Week",
+   "metaDescription": "A one-week preschool Thanksgiving theme. Being thankful, harvest foods (pumpkins, corn, bread, pie) and the special days families keep.",
+   "lessons": [
+    {
+     "strand": "literacy",
+     "point": "K:word-picture-match",
+     "id": "K:word-picture-match#p-thanksgiving",
+     "pages": [
+      "picture-word-cards-easy-thanksgiving-k324-80"
+     ]
+    },
+    {
+     "strand": "math",
+     "point": "K:numeral-formation",
+     "id": "K:numeral-formation#p-thanksgiving",
+     "pages": [
+      "number-tracing-easy-thanksgiving-k467-4"
+     ]
+    },
+    {
+     "strand": "science",
+     "point": "K:family-traditions",
+     "id": "K:family-traditions#p-thanksgiving",
+     "pages": [
+      "family-easy-k715-3"
+     ]
+    },
+    {
+     "strand": "motor",
+     "point": "K:pre-writing-strokes",
+     "id": "K:pre-writing-strokes#p-thanksgiving",
+     "pages": [
+      "pre-writing-easy-thanksgiving-k236-80",
+      "pre-writing-easy-thanksgiving-k248-3"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "p-theme-toys",
+   "slug": "toys-theme-preschool-lesson-plans",
+   "status": "pilot",
+   "grade": "P",
+   "subject": "theme",
+   "month": "December",
+   "weeks": 1,
+   "title": "Toys Theme",
+   "metaTitle": "Toys Theme Preschool Lesson Plans for One Week",
+   "metaDescription": "A one-week preschool toys theme. Our toys: sorting them, finding the longest, and how we push and pull toys to make them move.",
+   "lessons": [
+    {
+     "strand": "literacy",
+     "point": "K:category-sort",
+     "id": "K:category-sort#p-toys",
+     "pages": [
+      "cutting-practice-toys-k240"
+     ]
+    },
+    {
+     "strand": "math",
+     "point": "K:compare-size-extremes",
+     "id": "K:compare-size-extremes#p-toys",
+     "pages": [
+      "comparing-sizes-toys-k037"
+     ]
+    },
+    {
+     "strand": "science",
+     "point": "K:push-pull",
+     "id": "K:push-pull#p-toys",
+     "pages": [
+      "science-sort-easy-k694-7"
+     ]
+    },
+    {
+     "strand": "motor",
+     "point": "K:pre-writing-strokes",
+     "id": "K:pre-writing-strokes#p-toys",
+     "pages": [
+      "pre-writing-easy-toys-k236-83",
+      "pre-writing-easy-toys-bw-k236-84"
+     ],
+     "titles": {
+      "pre-writing-easy-toys-k236-83": "Pencil Path Practice: Toys in Color",
+      "pre-writing-easy-toys-bw-k236-84": "Pencil Path Practice: Toys to Color"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p-theme-cooking-baking",
+   "slug": "cooking-and-baking-theme-preschool-lesson-plans",
+   "status": "pilot",
+   "grade": "P",
+   "subject": "theme",
+   "month": "December",
+   "weeks": 1,
+   "title": "Cooking and Baking Theme",
+   "metaTitle": "Cooking and Baking Theme Preschool Lesson Plans for One Week",
+   "metaDescription": "A one-week preschool cooking and baking theme. The kitchen and the bakery: baked foods, kitchen tools, and what is hot and what is cold.",
+   "lessons": [
+    {
+     "strand": "literacy",
+     "point": "K:word-picture-match",
+     "id": "K:word-picture-match#p-cooking-baking",
+     "pages": [
+      "picture-word-cards-easy-bakery-k324-18",
+      "picture-word-cards-kitchen-tools-k324-159"
+     ],
+     "titles": {
+      "picture-word-cards-easy-bakery-k324-18": "Bakery Word Cards: Pie, Cookie, Bagel, Croissant",
+      "picture-word-cards-kitchen-tools-k324-159": "Kitchen Word Cards: Refrigerator, Apron, Teapot, Oven"
+     }
+    },
+    {
+     "strand": "math",
+     "point": "K:ordinal-position",
+     "id": "K:ordinal-position#p-cooking-baking",
+     "pages": [
+      "ordinal-numbers-easy-bakery-k320-8"
+     ]
+    },
+    {
+     "strand": "science",
+     "point": "K:weather-temperature",
+     "id": "K:weather-temperature#p-cooking-baking",
+     "pages": [
+      "science-sort-easy-k211-6"
+     ]
+    },
+    {
+     "strand": "motor",
+     "point": "K:pre-writing-strokes",
+     "id": "K:pre-writing-strokes#p-cooking-baking",
+     "pages": [
+      "picture-tracing-easy-k424-2",
+      "pre-writing-easy-bakery-k236-18",
+      "pre-writing-easy-kitchen-tools-k236-61"
+     ],
+     "titles": {
+      "pre-writing-easy-bakery-k236-18": "Pencil Path Practice: Bakery Treats",
+      "pre-writing-easy-kitchen-tools-k236-61": "Pencil Path Practice: Kitchen Tools"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p-theme-space",
+   "slug": "space-theme-preschool-lesson-plans",
+   "status": "pilot",
+   "grade": "P",
+   "subject": "theme",
+   "month": "December",
+   "weeks": 1,
+   "title": "Space Theme",
+   "metaTitle": "Space Theme Preschool Lesson Plans for One Week",
+   "metaDescription": "A one-week preschool space theme. The sky by day and by night in the longest nights of the year: sun, moon, stars, planets and rockets.",
+   "lessons": [
+    {
+     "strand": "literacy",
+     "point": "K:word-sentence-tracing",
+     "id": "K:word-sentence-tracing#p-space",
+     "pages": [
+      "word-tracing-easy-space-k284-71"
+     ]
+    },
+    {
+     "strand": "math",
+     "point": "K:before-after-back",
+     "id": "K:before-after-back#p-space",
+     "pages": [
+      "dot-to-dot-easy-k308-7"
+     ]
+    },
+    {
+     "strand": "science",
+     "point": "K:day-night",
+     "id": "K:day-night#p-space",
+     "pages": [
+      "science-sort-easy-k208-3"
+     ]
+    },
+    {
+     "strand": "motor",
+     "point": "K:pre-writing-strokes",
+     "id": "K:pre-writing-strokes#p-space",
+     "pages": [
+      "picture-tracing-easy-k418-6",
+      "picture-tracing-easy-k424-3",
+      "picture-tracing-easy-k419-3"
+     ],
+     "titles": {
+      "picture-tracing-easy-k418-6": "Picture Tracing: Rocket to the Stars",
+      "picture-tracing-easy-k424-3": "Spirals and Loops to Trace: Space Spirals",
+      "picture-tracing-easy-k419-3": "My First Tracing: The Rocket"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p-theme-winter",
+   "slug": "winter-theme-preschool-lesson-plans",
+   "status": "pilot",
+   "grade": "P",
+   "subject": "theme",
+   "month": "January",
+   "weeks": 2,
+   "title": "Winter Theme",
+   "metaTitle": "Winter Theme Preschool Lesson Plans for Two Weeks",
+   "metaDescription": "A two-week preschool winter theme. Snow, ice and cold (week 1) and the animals that live where it is always cold, penguins, seals and walruses (week 2).",
+   "lessons": [
+    {
+     "strand": "literacy",
+     "point": "K:word-picture-match",
+     "id": "K:word-picture-match#p-winter",
+     "pages": [
+      "picture-word-cards-winter-k324-194",
+      "picture-word-cards-easy-winter-k324-97"
+     ],
+     "titles": {
+      "picture-word-cards-winter-k324-194": "Winter Word Cards: Cabin, Igloo, Skating, Snowman",
+      "picture-word-cards-easy-winter-k324-97": "Winter Word Cards: Walrus, Earmuffs, Boots, Penguin"
+     }
+    },
+    {
+     "strand": "math",
+     "point": "K:numeral-formation",
+     "id": "K:numeral-formation#p-winter",
+     "pages": [
+      "number-tracing-easy-winter-k467"
+     ]
+    },
+    {
+     "strand": "science",
+     "point": "K:hot-cold-places",
+     "id": "K:hot-cold-places#p-winter",
+     "pages": [
+      "science-sort-easy-k724-4",
+      "science-sort-easy-k724-5"
+     ],
+     "titles": {
+      "science-sort-easy-k724-4": "Hot and Cold Places: Ball, Sled, Swimsuit, Flip-Flops",
+      "science-sort-easy-k724-5": "Hot and Cold Places: Coat, Mittens, Ball, Hat"
+     }
+    },
+    {
+     "strand": "motor",
+     "point": "K:pre-writing-strokes",
+     "id": "K:pre-writing-strokes#p-winter",
+     "pages": [
+      "picture-tracing-easy-k430-6",
+      "picture-tracing-easy-k418-4"
+     ],
+     "titles": {
+      "picture-tracing-easy-k430-6": "Shape Tracing: The Shape Snowman",
+      "picture-tracing-easy-k418-4": "Picture Tracing: Penguins on the Ice"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p-theme-clothes",
+   "slug": "clothing-theme-preschool-lesson-plans",
+   "status": "pilot",
+   "grade": "P",
+   "subject": "theme",
+   "month": "January",
+   "weeks": 1,
+   "title": "Clothing Theme",
+   "metaTitle": "Clothing Theme Preschool Lesson Plans for One Week",
+   "metaDescription": "A one-week preschool clothing theme. What we wear and why: mittens and coats for winter, shorts and swimsuits for summer, getting dressed by myself.",
+   "lessons": [
+    {
+     "strand": "literacy",
+     "point": "K:word-picture-match",
+     "id": "K:word-picture-match#p-clothes",
+     "pages": [
+      "picture-word-cards-clothing-k324-131",
+      "picture-word-cards-apparel-bw-k324-114"
+     ],
+     "titles": {
+      "picture-word-cards-clothing-k324-131": "Clothing Word Cards: Coat, Pants, Jumpsuit, Slippers",
+      "picture-word-cards-apparel-bw-k324-114": "Clothing Word Cards to Color: Boots, Dress, Mittens"
+     }
+    },
+    {
+     "strand": "math",
+     "point": "K:compare-groups",
+     "id": "K:compare-groups#p-clothes",
+     "pages": [
+      "comparing-groups-apparel-bw-k641-5"
+     ]
+    },
+    {
+     "strand": "science",
+     "point": "K:seasons",
+     "id": "K:seasons#p-clothes",
+     "pages": [
+      "science-sort-easy-k207-3"
+     ]
+    },
+    {
+     "strand": "motor",
+     "point": "K:pre-writing-strokes",
+     "id": "K:pre-writing-strokes#p-clothes",
+     "pages": [
+      "pre-writing-easy-clothing-k236-33",
+      "pre-writing-easy-apparel-bw-k244-2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "p-theme-healthy-food",
+   "slug": "healthy-eating-theme-preschool-lesson-plans",
+   "status": "pilot",
+   "grade": "P",
+   "subject": "theme",
+   "month": "January",
+   "weeks": 1,
+   "title": "Healthy Eating Theme",
+   "metaTitle": "Healthy Eating Theme Preschool Lesson Plans for One Week",
+   "metaDescription": "A one-week preschool healthy eating theme. A good breakfast and everyday foods that help us grow, and the sometimes foods.",
+   "lessons": [
+    {
+     "strand": "literacy",
+     "point": "K:word-picture-match",
+     "id": "K:word-picture-match#p-healthy-food",
+     "pages": [
+      "picture-word-cards-easy-breakfast-k324-27"
+     ]
+    },
+    {
+     "strand": "math",
+     "point": "K:numeral-formation",
+     "id": "K:numeral-formation#p-healthy-food",
+     "pages": [
+      "number-tracing-easy-breakfast-k467-3"
+     ]
+    },
+    {
+     "strand": "science",
+     "point": "K:healthy-food",
+     "id": "K:healthy-food#p-healthy-food",
+     "pages": [
+      "science-sort-easy-k203-3"
+     ]
+    },
+    {
+     "strand": "motor",
+     "point": "K:pre-writing-strokes",
+     "id": "K:pre-writing-strokes#p-healthy-food",
+     "pages": [
+      "pre-writing-easy-breakfast-k236-27"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "p-theme-post-office",
+   "slug": "post-office-theme-preschool-lesson-plans",
+   "status": "pilot",
+   "grade": "P",
+   "subject": "theme",
+   "month": "February",
+   "weeks": 1,
+   "title": "Post Office Theme",
+   "metaTitle": "Post Office Theme Preschool Lesson Plans for One Week",
+   "metaDescription": "A one-week preschool post office theme. Letters, stamps and packages: how a letter travels from our hands to a mailbox and to a friend.",
+   "lessons": [
+    {
+     "strand": "literacy",
+     "point": "K:word-picture-match",
+     "id": "K:word-picture-match#p-post-office",
+     "pages": [
+      "picture-word-cards-easy-post-office-k324-69"
+     ]
+    },
+    {
+     "strand": "math",
+     "point": "K:ordinal-position",
+     "id": "K:ordinal-position#p-post-office",
+     "pages": [
+      "ordinal-numbers-easy-post-office-k320-36"
+     ]
+    },
+    {
+     "strand": "science",
+     "point": "K:goods-and-services",
+     "id": "K:goods-and-services#p-post-office",
+     "pages": [
+      "science-match-easy-k718-6"
+     ]
+    },
+    {
+     "strand": "motor",
+     "point": "K:mazes",
+     "id": "K:mazes#p-post-office",
+     "pages": [
+      "maze-puzzles-k405-18"
+     ],
+     "titles": {
+      "maze-puzzles-k405-18": "Picture Maze: Help the Mail Carrier Reach the Mailbox"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p-theme-friendship-valentines",
+   "slug": "friendship-and-valentines-day-theme-preschool-lesson-plans",
+   "status": "pilot",
+   "grade": "P",
+   "subject": "theme",
+   "month": "February",
+   "weeks": 1,
+   "title": "Friendship and Valentine's Day Theme",
+   "metaTitle": "Friendship and Valentine's Day Theme Preschool Lesson Plans",
+   "metaDescription": "A one-week preschool Friendship and Valentine's Day theme. Being a good friend: taking turns, sharing, kind words, and making cards for the people we care about.",
+   "lessons": [
+    {
+     "strand": "literacy",
+     "point": "K:word-picture-match",
+     "id": "K:word-picture-match#p-friendship-valentines",
+     "pages": [
+      "picture-word-cards-easy-valentine-bw-k324-87"
+     ]
+    },
+    {
+     "strand": "math",
+     "point": "K:ordinal-position",
+     "id": "K:ordinal-position#p-friendship-valentines",
+     "pages": [
+      "ordinal-numbers-easy-valentine-bw-k320-45"
+     ]
+    },
+    {
+     "strand": "science",
+     "point": "K:take-turns-share",
+     "id": "K:take-turns-share#p-friendship-valentines",
+     "pages": [
+      "feelings-easy-k713-7"
+     ]
+    },
+    {
+     "strand": "motor",
+     "point": "K:pre-writing-strokes",
+     "id": "K:pre-writing-strokes#p-friendship-valentines",
+     "pages": [
+      "pre-writing-easy-valentine-bw-k236-87",
+      "pre-writing-easy-valentine-bw-2-k385-2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "p-theme-doctors-healthy-habits",
+   "slug": "doctors-and-healthy-habits-theme-preschool-lesson-plans",
+   "status": "pilot",
+   "grade": "P",
+   "subject": "theme",
+   "month": "February",
+   "weeks": 1,
+   "title": "Doctors and Healthy Habits Theme",
+   "metaTitle": "Doctors and Healthy Habits Theme Preschool Lesson Plans for One Week",
+   "metaDescription": "A one-week preschool doctors and healthy habits theme. Visiting the doctor and the dentist, and the habits that keep us healthy: brushing teeth, washing hands, sleep.",
+   "lessons": [
+    {
+     "strand": "literacy",
+     "point": "K:word-picture-match",
+     "id": "K:word-picture-match#p-doctors-healthy-habits",
+     "pages": [
+      "picture-word-cards-easy-hospital-k324-57"
+     ]
+    },
+    {
+     "strand": "math",
+     "point": "K:ordinal-position",
+     "id": "K:ordinal-position#p-doctors-healthy-habits",
+     "pages": [
+      "ordinal-numbers-easy-hospital-k320-27"
+     ]
+    },
+    {
+     "strand": "science",
+     "point": "K:hygiene-habits",
+     "id": "K:hygiene-habits#p-doctors-healthy-habits",
+     "pages": [
+      "healthy-habits-easy-k380-6",
+      "healthy-habits-k382"
+     ]
+    },
+    {
+     "strand": "motor",
+     "point": "K:pre-writing-strokes",
+     "id": "K:pre-writing-strokes#p-doctors-healthy-habits",
+     "pages": [
+      "pre-writing-easy-hospital-k236-57",
+      "pre-writing-easy-hospital-k245-3",
+      "picture-tracing-easy-k425-2"
+     ],
+     "titles": {
+      "picture-tracing-easy-k425-2": "Trace and Color the Picture: Bath Time"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p-theme-weather",
+   "slug": "weather-theme-preschool-lesson-plans",
+   "status": "pilot",
+   "grade": "P",
+   "subject": "theme",
+   "month": "February",
+   "weeks": 1,
+   "title": "Weather Theme",
+   "metaTitle": "Weather Theme Preschool Lesson Plans for One Week",
+   "metaDescription": "A one-week preschool weather theme. Sun, rain, wind and snow: what the sky does each day and what we wear and do for each kind of weather.",
+   "lessons": [
+    {
+     "strand": "literacy",
+     "point": "K:word-picture-match",
+     "id": "K:word-picture-match#p-weather",
+     "pages": [
+      "picture-word-cards-easy-weather-k324-96"
+     ]
+    },
+    {
+     "strand": "math",
+     "point": "K:ordinal-position",
+     "id": "K:ordinal-position#p-weather",
+     "pages": [
+      "ordinal-numbers-easy-weather-k320-48"
+     ]
+    },
+    {
+     "strand": "science",
+     "point": "K:weather-ready",
+     "id": "K:weather-ready#p-weather",
+     "pages": [
+      "weather-symbols-easy-k690-7",
+      "weather-symbols-easy-k690-8"
+     ],
+     "titles": {
+      "weather-symbols-easy-k690-7": "Ready for the Weather: Rain and a Hot Day",
+      "weather-symbols-easy-k690-8": "Ready for the Weather: A Hot Day and a Snowstorm"
+     }
+    },
+    {
+     "strand": "motor",
+     "point": "K:pre-writing-strokes",
+     "id": "K:pre-writing-strokes#p-weather",
+     "pages": [
+      "picture-tracing-easy-k418-5",
+      "picture-tracing-easy-k424-6"
+     ],
+     "titles": {
+      "picture-tracing-easy-k418-5": "Picture Tracing: A Rainy Day",
+      "picture-tracing-easy-k424-6": "Spirals and Loops to Trace: The Windy Day"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p-theme-transportation",
+   "slug": "transportation-theme-preschool-lesson-plans",
+   "status": "pilot",
+   "grade": "P",
+   "subject": "theme",
+   "month": "March",
+   "weeks": 2,
+   "title": "Transportation Theme",
+   "metaTitle": "Transportation Theme Preschool Lesson Plans for Two Weeks",
+   "metaDescription": "A two-week preschool transportation theme. Things that go on land and water (week 1) and things that fly (week 2): how people and things travel.",
+   "lessons": [
+    {
+     "strand": "literacy",
+     "point": "K:category-sort",
+     "id": "K:category-sort#p-transportation",
+     "pages": [
+      "cutting-practice-vehicles-k240",
+      "cutting-practice-vehicles-k264"
+     ]
+    },
+    {
+     "strand": "math",
+     "point": "K:compare-size-extremes",
+     "id": "K:compare-size-extremes#p-transportation",
+     "pages": [
+      "comparing-sizes-vehicles-k035",
+      "comparing-sizes-vehicles-k040"
+     ]
+    },
+    {
+     "strand": "science",
+     "point": "K:transport-flying",
+     "id": "K:transport-flying#p-transportation",
+     "pages": [
+      "science-sort-easy-k210-3",
+      "science-sort-easy-k206-3"
+     ]
+    },
+    {
+     "strand": "motor",
+     "point": "K:pre-writing-strokes",
+     "id": "K:pre-writing-strokes#p-transportation",
+     "pages": [
+      "pre-writing-easy-vehicles-k236-92",
+      "picture-tracing-k430-7",
+      "picture-tracing-easy-k420-5"
+     ],
+     "titles": {
+      "picture-tracing-k430-7": "Shape Tracing: The Shape Bus",
+      "picture-tracing-easy-k420-5": "Look, Then Trace: Balloon and Helicopter"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p-theme-plants-gardens",
+   "slug": "plants-and-gardens-theme-preschool-lesson-plans",
+   "status": "pilot",
+   "grade": "P",
+   "subject": "theme",
+   "month": "March",
+   "weeks": 1,
+   "title": "Plants and Gardens Theme",
+   "metaTitle": "Plants and Gardens Theme Preschool Lesson Plans for One Week",
+   "metaDescription": "A one-week preschool plants and gardens theme. Planting seeds in spring: what a plant needs to grow, flowers and vegetables in the garden.",
+   "lessons": [
+    {
+     "strand": "literacy",
+     "point": "K:word-picture-match",
+     "id": "K:word-picture-match#p-plants-gardens",
+     "pages": [
+      "picture-word-cards-easy-flowers-k324-45",
+      "picture-word-cards-vegetables-k324-186"
+     ],
+     "titles": {
+      "picture-word-cards-easy-flowers-k324-45": "Flower Word Cards: Phlox, Crocus, Peony, Dahlia",
+      "picture-word-cards-vegetables-k324-186": "Vegetable Word Cards: Lettuce, Squash, Tomato, Radish"
+     }
+    },
+    {
+     "strand": "math",
+     "point": "K:ordinal-position",
+     "id": "K:ordinal-position#p-plants-gardens",
+     "pages": [
+      "ordinal-numbers-easy-flowers-k320-23"
+     ]
+    },
+    {
+     "strand": "science",
+     "point": "K:plant-needs",
+     "id": "K:plant-needs#p-plants-gardens",
+     "pages": [
+      "plants-k376-2"
+     ]
+    },
+    {
+     "strand": "motor",
+     "point": "K:pre-writing-strokes",
+     "id": "K:pre-writing-strokes#p-plants-gardens",
+     "pages": [
+      "picture-tracing-easy-k425-4",
+      "pre-writing-easy-flowers-k236-45"
+     ],
+     "titles": {
+      "picture-tracing-easy-k425-4": "Trace and Color the Picture: The Flowerpot"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p-theme-bugs",
+   "slug": "bugs-theme-preschool-lesson-plans",
+   "status": "pilot",
+   "grade": "P",
+   "subject": "theme",
+   "month": "April",
+   "weeks": 1,
+   "title": "Bugs Theme",
+   "metaTitle": "Bugs Theme Preschool Lesson Plans for One Week",
+   "metaDescription": "A one-week preschool bugs theme. Bugs in the grass and the garden: ants, ladybugs, bees, caterpillars and worms, and the homes they build.",
+   "lessons": [
+    {
+     "strand": "literacy",
+     "point": "K:word-picture-match",
+     "id": "K:word-picture-match#p-bugs",
+     "pages": [
+      "picture-word-cards-easy-insects-and-bugs-k324-59"
+     ]
+    },
+    {
+     "strand": "math",
+     "point": "K:numeral-formation",
+     "id": "K:numeral-formation#p-bugs",
+     "pages": [
+      "number-tracing-insects-and-bugs-k467-3"
+     ]
+    },
+    {
+     "strand": "science",
+     "point": "K:animal-groups-homes",
+     "id": "K:animal-groups-homes#p-bugs",
+     "pages": [
+      "habitats-k383"
+     ]
+    },
+    {
+     "strand": "motor",
+     "point": "K:mazes",
+     "id": "K:mazes#p-bugs",
+     "pages": [
+      "maze-puzzles-easy-k406-3",
+      "maze-puzzles-k413-10"
+     ],
+     "titles": {
+      "maze-puzzles-easy-k406-3": "My First Maze: Help the Ladybug Get to the Sunflower",
+      "maze-puzzles-k413-10": "Maze Coloring Page: The Bee and the Flower"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p-theme-spring-babies-birds",
+   "slug": "spring-theme-preschool-lesson-plans",
+   "status": "pilot",
+   "grade": "P",
+   "subject": "theme",
+   "month": "April",
+   "weeks": 2,
+   "title": "Spring Theme",
+   "metaTitle": "Spring Theme Preschool Lesson Plans for Two Weeks",
+   "metaDescription": "A two-week preschool spring theme. Spring babies and birds: chicks, lambs and calves with their mothers (week 1), then birds, eggs and nests (week 2).",
+   "lessons": [
+    {
+     "strand": "literacy",
+     "point": "K:word-picture-match",
+     "id": "K:word-picture-match#p-spring-babies-birds",
+     "pages": [
+      "picture-word-cards-easy-spring-k324-78",
+      "picture-word-cards-easy-birds-k324-22",
+      "picture-word-cards-easy-birds-2-k324-23"
+     ],
+     "titles": {
+      "picture-word-cards-easy-spring-k324-78": "Spring Word Cards: Grass, Chick, Lamb, Caterpillar",
+      "picture-word-cards-easy-birds-k324-22": "Bird Word Cards: Pelican, Flamingo, Hornbill, Toucan",
+      "picture-word-cards-easy-birds-2-k324-23": "Bird Word Cards: Macaw, Toucan, Penguin, Hawk"
+     }
+    },
+    {
+     "strand": "math",
+     "point": "K:dot-to-dot-sequence",
+     "id": "K:dot-to-dot-sequence#p-spring-babies-birds",
+     "pages": [
+      "dot-to-dot-k294-5",
+      "dot-to-dot-easy-k294-7"
+     ],
+     "titles": {
+      "dot-to-dot-k294-5": "Dot-to-Dot 1 to 10: The Hatching Chick",
+      "dot-to-dot-easy-k294-7": "Dot-to-Dot 1 to 10: The Ostrich"
+     }
+    },
+    {
+     "strand": "science",
+     "point": "K:animal-babies",
+     "id": "K:animal-babies#p-spring-babies-birds",
+     "pages": [
+      "science-match-k205-3",
+      "science-match-k205-4"
+     ],
+     "titles": {
+      "science-match-k205-3": "Animal Babies: Cow, Butterfly, Horse, Hen, Sheep",
+      "science-match-k205-4": "Animal Babies: Hen, Horse, Sheep, Cow, Butterfly"
+     }
+    },
+    {
+     "strand": "motor",
+     "point": "K:mazes",
+     "id": "K:mazes#p-spring-babies-birds",
+     "pages": [
+      "maze-puzzles-easy-k408-2",
+      "maze-puzzles-hard-k406-13",
+      "maze-puzzles-easy-k405-12"
+     ],
+     "titles": {
+      "maze-puzzles-easy-k408-2": "Babies and Mothers Maze in the Meadow",
+      "maze-puzzles-hard-k406-13": "My First Maze: Help the Bird Get to the Birdhouse",
+      "maze-puzzles-easy-k405-12": "Picture Maze: Help the Swan Reach the Nest"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p-theme-pond",
+   "slug": "frogs-and-the-pond-theme-preschool-lesson-plans",
+   "status": "pilot",
+   "grade": "P",
+   "subject": "theme",
+   "month": "April",
+   "weeks": 1,
+   "title": "Frogs and the Pond Theme",
+   "metaTitle": "Frogs and the Pond Theme Preschool Lesson Plans for One Week",
+   "metaDescription": "A one-week preschool frogs and the pond theme. Life at the pond: frogs, turtles, ducks and fish, and what a frog needs in its home.",
+   "lessons": [
+    {
+     "strand": "literacy",
+     "point": "K:word-picture-match",
+     "id": "K:word-picture-match#p-pond",
+     "pages": [
+      "picture-word-cards-easy-reptiles-and-amphibians-k324-70"
+     ]
+    },
+    {
+     "strand": "math",
+     "point": "K:one-more-one-less",
+     "id": "K:one-more-one-less#p-pond",
+     "pages": [
+      "counting-pictures-easy-reptiles-and-amphibians-k443"
+     ]
+    },
+    {
+     "strand": "science",
+     "point": "K:animal-home",
+     "id": "K:animal-home#p-pond",
+     "pages": [
+      "habitats-easy-k692-8"
+     ]
+    },
+    {
+     "strand": "motor",
+     "point": "K:pre-writing-strokes",
+     "id": "K:pre-writing-strokes#p-pond",
+     "pages": [
+      "picture-tracing-easy-k425-5",
+      "picture-tracing-easy-k432-4",
+      "pre-writing-easy-reptiles-and-amphibians-k236-70"
+     ],
+     "titles": {
+      "picture-tracing-easy-k425-5": "Trace and Color the Picture: At the Pond"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p-theme-zoo",
+   "slug": "zoo-animals-theme-preschool-lesson-plans",
+   "status": "pilot",
+   "grade": "P",
+   "subject": "theme",
+   "month": "May",
+   "weeks": 1,
+   "title": "Zoo Animals Theme",
+   "metaTitle": "Zoo Animals Theme Preschool Lesson Plans for One Week",
+   "metaDescription": "A one-week preschool zoo animals theme. Wild animals at the zoo: lions, elephants, giraffes and pandas, and how a wild animal differs from a farm animal.",
+   "lessons": [
+    {
+     "strand": "literacy",
+     "point": "K:word-picture-match",
+     "id": "K:word-picture-match#p-zoo",
+     "pages": [
+      "picture-word-cards-easy-zoo-animals-k324-98",
+      "picture-word-cards-zoo-animals-k324-195"
+     ],
+     "titles": {
+      "picture-word-cards-easy-zoo-animals-k324-98": "Zoo Word Cards: Armadillo, Wolf, Elephant, Lion",
+      "picture-word-cards-zoo-animals-k324-195": "Zoo Word Cards: Eight Zoo Animals"
+     }
+    },
+    {
+     "strand": "math",
+     "point": "K:compare-groups",
+     "id": "K:compare-groups#p-zoo",
+     "pages": [
+      "comparing-groups-easy-zoo-animals-k641-3"
+     ]
+    },
+    {
+     "strand": "science",
+     "point": "K:animal-groups-homes",
+     "id": "K:animal-groups-homes#p-zoo",
+     "pages": [
+      "science-sort-easy-k209-3"
+     ]
+    },
+    {
+     "strand": "motor",
+     "point": "K:pre-writing-strokes",
+     "id": "K:pre-writing-strokes#p-zoo",
+     "pages": [
+      "picture-tracing-k418-11",
+      "pre-writing-easy-zoo-animals-k236-98"
+     ],
+     "titles": {
+      "picture-tracing-k418-11": "Picture Tracing: A Day at the Zoo"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p-theme-ocean",
+   "slug": "ocean-theme-preschool-lesson-plans",
+   "status": "pilot",
+   "grade": "P",
+   "subject": "theme",
+   "month": "May",
+   "weeks": 1,
+   "title": "Ocean Theme",
+   "metaTitle": "Ocean Theme Preschool Lesson Plans for One Week",
+   "metaDescription": "A one-week preschool ocean theme. Under the sea: whales, crabs, octopuses and turtles, and how much of our Earth is water.",
+   "lessons": [
+    {
+     "strand": "literacy",
+     "point": "K:word-picture-match",
+     "id": "K:word-picture-match#p-ocean",
+     "pages": [
+      "picture-word-cards-easy-sea-life-bw-2-k324-72",
+      "picture-word-cards-sea-life-bw-k324-169"
+     ],
+     "titles": {
+      "picture-word-cards-easy-sea-life-bw-2-k324-72": "Ocean Word Cards to Color: Shrimp, Seal, Fish, Dolphin",
+      "picture-word-cards-sea-life-bw-k324-169": "Ocean Word Cards to Color: Eight Sea Animals"
+     }
+    },
+    {
+     "strand": "math",
+     "point": "K:heavy-light",
+     "id": "K:heavy-light#p-ocean",
+     "pages": [
+      "measurement-easy-ocean-life-k038-3"
+     ]
+    },
+    {
+     "strand": "science",
+     "point": "K:land-and-water",
+     "id": "K:land-and-water#p-ocean",
+     "pages": [
+      "maps-hard-k722-3"
+     ]
+    },
+    {
+     "strand": "motor",
+     "point": "K:pre-writing-strokes",
+     "id": "K:pre-writing-strokes#p-ocean",
+     "pages": [
+      "picture-tracing-easy-k419-6",
+      "picture-tracing-easy-k427-6",
+      "pre-writing-easy-ocean-life-k236-67"
+     ],
+     "titles": {
+      "picture-tracing-easy-k419-6": "My First Tracing: The Turtle",
+      "picture-tracing-easy-k427-6": "Trace and Count: Whales in the Sea"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p-theme-beach-summer",
+   "slug": "beach-and-summer-theme-preschool-lesson-plans",
+   "status": "pilot",
+   "grade": "P",
+   "subject": "theme",
+   "month": "May",
+   "weeks": 1,
+   "title": "Beach and Summer Theme",
+   "metaTitle": "Beach and Summer Theme Preschool Lesson Plans for One Week",
+   "metaDescription": "A one-week preschool beach and summer theme. Summer at the beach: building a sandcastle, beach things, and how the sun warms sand and water.",
+   "lessons": [
+    {
+     "strand": "literacy",
+     "point": "K:story-sequencing",
+     "id": "K:story-sequencing#p-beach-summer",
+     "pages": [
+      "story-sequencing-easy-k381-8"
+     ]
+    },
+    {
+     "strand": "math",
+     "point": "K:ordinal-position",
+     "id": "K:ordinal-position#p-beach-summer",
+     "pages": [
+      "ordinal-numbers-easy-beach-k320-9"
+     ]
+    },
+    {
+     "strand": "science",
+     "point": "K:sun-warms",
+     "id": "K:sun-warms#p-beach-summer",
+     "pages": [
+      "earth-and-space-easy-k703-7"
+     ]
+    },
+    {
+     "strand": "motor",
+     "point": "K:pre-writing-strokes",
+     "id": "K:pre-writing-strokes#p-beach-summer",
+     "pages": [
+      "picture-tracing-easy-k431-5",
+      "picture-tracing-easy-k431-2",
+      "pre-writing-easy-beach-k236-19"
+     ],
+     "titles": {
+      "picture-tracing-easy-k431-5": "Summer Picture Tracing: Surf Morning",
+      "picture-tracing-easy-k431-2": "Summer Picture Tracing: Ice Cream Day"
+     }
+    }
+   ]
+  },
+  {
+   "id": "p-theme-camping",
+   "slug": "camping-theme-preschool-lesson-plans",
+   "status": "pilot",
+   "grade": "P",
+   "subject": "theme",
+   "month": "May",
+   "weeks": 1,
+   "title": "Camping Theme",
+   "metaTitle": "Camping Theme Preschool Lesson Plans for One Week",
+   "metaDescription": "A one-week preschool camping theme. Camping outdoors: the tent, the lantern and the campfire, and the sky by day and by night.",
+   "lessons": [
+    {
+     "strand": "literacy",
+     "point": "K:word-picture-match",
+     "id": "K:word-picture-match#p-camping",
+     "pages": [
+      "picture-word-cards-easy-camping-k324-28"
+     ]
+    },
+    {
+     "strand": "math",
+     "point": "K:compare-groups",
+     "id": "K:compare-groups#p-camping",
+     "pages": [
+      "comparing-groups-easy-camping-k641-5"
+     ]
+    },
+    {
+     "strand": "science",
+     "point": "K:day-night",
+     "id": "K:day-night#p-camping",
+     "pages": [
+      "science-sort-easy-k208-4"
+     ]
+    },
+    {
+     "strand": "motor",
+     "point": "K:pre-writing-strokes",
+     "id": "K:pre-writing-strokes#p-camping",
+     "pages": [
+      "picture-tracing-k418-9",
+      "picture-tracing-easy-k426-2",
+      "pre-writing-easy-camping-k236-28"
+     ],
+     "titles": {
+      "picture-tracing-k418-9": "Picture Tracing: Camping by the Lake",
+      "picture-tracing-easy-k426-2": "Where Do I Start? Campsite Steps"
+     }
+    }
+   ]
   }
  ],
  "plans": [
@@ -6769,6 +8378,47 @@
     "g3-maps-world-and-state",
     "g3-how-our-government-works",
     "g3-our-community-then-and-now"
+   ]
+  },
+  {
+   "id": "plan-p-theme",
+   "slug": "preschool-themes-by-month",
+   "grade": "P",
+   "subject": "theme",
+   "title": "Preschool Themes by Month",
+   "metaTitle": "Preschool Themes by Month: {units} Weekly Theme Lesson Plans",
+   "metaDescription": "{units} preschool themes in school-year order, September to May: each a week of lesson plans with printable pages and an observation checklist.",
+   "units": [
+    "p-theme-school",
+    "p-theme-all-about-me",
+    "p-theme-feelings",
+    "p-theme-family",
+    "p-theme-apples-fruits",
+    "p-theme-community-helpers",
+    "p-theme-farm",
+    "p-theme-fall-forest",
+    "p-theme-construction",
+    "p-theme-pets",
+    "p-theme-thanksgiving",
+    "p-theme-toys",
+    "p-theme-cooking-baking",
+    "p-theme-space",
+    "p-theme-winter",
+    "p-theme-clothes",
+    "p-theme-healthy-food",
+    "p-theme-post-office",
+    "p-theme-friendship-valentines",
+    "p-theme-doctors-healthy-habits",
+    "p-theme-weather",
+    "p-theme-transportation",
+    "p-theme-plants-gardens",
+    "p-theme-bugs",
+    "p-theme-spring-babies-birds",
+    "p-theme-pond",
+    "p-theme-zoo",
+    "p-theme-ocean",
+    "p-theme-beach-summer",
+    "p-theme-camping"
    ]
   }
  ]

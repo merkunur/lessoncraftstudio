@@ -986,6 +986,14 @@ echo "📡 Submitting recrawl signals (IndexNow → Bing/Yandex)..."
 # docs/seo/index-recovery-runbook.md. IndexNow notifies Bing/Yandex (+Seznam)
 # for near-real-time recrawl of the post-pivot clean pages.
 node /opt/lessoncraftstudio/scripts/indexnow-submit.js || true
+# The sitemaps are served from an nginx cache (scripts/publish-cli/patch-nginx-sitemap-cache.py, 2026-11-25) that keeps
+# a copy for 30 minutes, so a crawler never waits on Next.js during a deploy. The new release is serving by now: its
+# copies are dropped here, so the sitemaps name the new pages at once (deploy 63 showed 31 new unit pages missing from
+# the sitemap for half an hour). The next request fills the cache from the new release.
+if [ -d /var/cache/nginx/lcs-sitemaps ]; then
+  find /var/cache/nginx/lcs-sitemaps -type f -delete 2>/dev/null || true
+  echo "Sitemap cache emptied (filled again from the new release on the next request)"
+fi
 echo ""
 echo "Deployment complete!"
 echo ""

@@ -670,6 +670,12 @@
   "G2-633": "3:elapsed-duration",
   "G3-630": "1:open-number-line",
   "G3-631": "3:estimate-by-rounding",
-  "G3-632": "3:scaled-graphs"
+  "G3-632": "3:scaled-graphs",
+  "G1-673": "1:add-within-10-models",
+  "G1-674": "1:fluency-within-20",
+  "G1-675": "1:measure-length-units",
+  "G2-634": "1:mental-math-to-100",
+  "G2-635": "2:explain-strategies",
+  "G2-636": "2:estimate-lengths"
  }
 }

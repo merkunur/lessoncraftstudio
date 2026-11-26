@@ -5055,5 +5055,29 @@
   "G3-631": {
     "title": "Überschlag und Probe: Kann das stimmen?",
     "instruction": "Mache zu jeder fertigen Rechnung den Überschlag und kreise ein, was der Überschlag zeigt: kann stimmen oder kann nicht stimmen. Rechne unten die Probe zu den genannten Aufgaben. Ist eine Rechnung falsch, schreibe das richtige Ergebnis auf."
+  },
+  "G1-673": {
+    "title": "Rechnen mit der Null",
+    "instruction": "Schau dir die Bildgeschichten an. Schreibe zu jeder Geschichte die Aufgabe mit dem Ergebnis. Rechne dann die Aufgaben unten."
+  },
+  "G1-674": {
+    "title": "Rechenwege vergleichen: Wie rechnest du 7 + 8?",
+    "instruction": "Drei Kinder rechnen 7 + 8 auf verschiedenen Wegen. Rechne jeden Weg nach. Verbinde dann jede Rechnung mit dem Kind, das so rechnet. Rechne zum Schluss zwei Aufgaben auf deinem Weg."
+  },
+  "G1-675": {
+    "title": "Mit Handspanne, Fuß und Schritt messen",
+    "instruction": "Schätze zuerst: Wie viele Handspannen, Füße oder Schritte lang ist das Ding? Miss dann nach und schreibe die Zahl auf. Das Bild zeigt dir, womit du misst. Vergleiche unten deine Zahl für den Tisch mit der von einem anderen Kind."
+  },
+  "G2-634": {
+    "title": "Zum Zehner ergänzen, vom Zehner abziehen",
+    "instruction": "Ergänze bis zum nächsten Zehner und ziehe vom Zehner ab. Rechne zuerst die Herzaufgabe: Die verliebten Zahlen helfen dir."
+  },
+  "G2-635": {
+    "title": "Rechenwege vergleichen: schrittweise oder mit Hilfsaufgabe?",
+    "instruction": "Rechne die Wege der drei Kinder nach. Finde den Fehler im Rechenweg des vierten Kindes: Kreuze den Schritt mit dem Fehler an und schreibe ihn richtig auf. Rechne dann mit der Hilfsaufgabe und auf deinem eigenen Weg."
+  },
+  "G2-636": {
+    "title": "Meter und Zentimeter: erst schätzen, dann messen",
+    "instruction": "Schätze zuerst die Länge und schreibe sie in Metern und Zentimetern auf. Die Vergleichsgrößen helfen dir. Miss dann mit dem Lineal, dem Meterstab oder dem Maßband nach und kreuze an, womit du gemessen hast. Verbinde unten jedes Bild mit der passenden Karte."
   }
 }

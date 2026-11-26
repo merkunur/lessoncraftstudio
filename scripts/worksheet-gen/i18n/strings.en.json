@@ -6749,5 +6749,29 @@
   "G3-632": {
     "title": "My Own Survey: From Question to Graph",
     "instruction": "Write your question and your answer choices. Ask the class and fill in the table with tally marks and numbers. Draw a bar graph with a title, the axes and a scale where one step is 2. Write what your graph shows."
+  },
+  "G1-673": {
+    "title": "Calculating with Zero",
+    "instruction": "Look at each picture story. Write the number sentence with its answer. Then solve the tasks below."
+  },
+  "G1-674": {
+    "title": "Compare Ways to Add: How Do You Work Out 7 + 8?",
+    "instruction": "Three children work out 7 + 8 in different ways. Check each way. Then match each calculation to the child who works that way. Last, work out two tasks your own way."
+  },
+  "G1-675": {
+    "title": "Measure with Hand Spans, Feet and Steps",
+    "instruction": "First guess how many hand spans, feet or steps long each thing is. Then measure and write the number. The picture shows what you measure with. Below, compare your number for the table with the number of another child."
+  },
+  "G2-634": {
+    "title": "Make the Next Ten and Subtract from a Ten",
+    "instruction": "Complete each number to the next ten and subtract from the tens. First work out the heart task: the two numbers that make 10 help you."
+  },
+  "G2-635": {
+    "title": "Compare Ways: Step by Step or with a Helper Task?",
+    "instruction": "Check the ways of the three children. Find the mistake in the fourth child's way: tick the step where the mistake is and write it correctly. Then calculate with the helper task and in your own way."
+  },
+  "G2-636": {
+    "title": "Metres and Centimetres: Estimate First, Then Measure",
+    "instruction": "First estimate each length in metres and centimetres; the reference lengths help you. Then measure with a ruler, a folding rule or a tape measure and tick what you used. Below, match each picture to the right card."
   }
 }

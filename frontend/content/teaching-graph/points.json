@@ -1006,11 +1006,13 @@
     "G1-102",
     "G1-105",
     "G1-110",
-    "G1-111"
+    "G1-111",
+    "G1-673"
    ],
    "families": [
     "arrays-multiplication",
     "counting-frames",
+    "mental-math",
     "picture-arithmetic"
    ],
    "activities": [
@@ -1656,6 +1658,7 @@
     "G1-140",
     "G1-480",
     "G1-574",
+    "G1-675",
     "G2-517"
    ],
    "families": [
@@ -1729,6 +1732,7 @@
     "G1-545",
     "G1-556",
     "G1-561",
+    "G1-674",
     "K-607"
    ],
    "families": [
@@ -2163,7 +2167,8 @@
     "G1-558",
     "G1-559",
     "G1-565",
-    "G2-504"
+    "G2-504",
+    "G2-634"
    ],
    "families": [
     "base-ten",
@@ -2452,8 +2457,12 @@
    "strand": "Measurement & Data",
    "skill": "Estimate lengths in inches, feet, centimeters and meters with body benchmarks, then measure",
    "code": "2.MD.A.3",
-   "types": [],
-   "families": [],
+   "types": [
+    "G2-636"
+   ],
+   "families": [
+    "measurement"
+   ],
    "activities": [],
    "planned": [],
    "verdict": "gap",
@@ -2849,8 +2858,12 @@
    "strand": "Number & Operations in Base Ten",
    "skill": "Explain why a way of adding or subtracting works, with place value and blocks or a drawing",
    "code": "2.NBT.B.9",
-   "types": [],
-   "families": [],
+   "types": [
+    "G2-635"
+   ],
+   "families": [
+    "mental-math"
+   ],
    "activities": [],
    "planned": [],
    "verdict": "gap",

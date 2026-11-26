@@ -9703,5 +9703,89 @@
       "en": "Write your question and five answer choices. Ask the class and fill in the table with tally marks and numbers. Draw a bar graph with a title, the axes and a scale where one step is 2. Write three things your graph shows.",
       "sv": "Skriv din fråga och fem svarsalternativ. Fråga klassen och för in svaren i tabellen med streck och antal. Rita ett stapeldiagram med rubrik, axlar och skala där ett steg är 2. Skriv tre saker som diagrammet visar."
     }
+  },
+  "G1-673": {
+    "1": {
+      "en": "Look at each picture story. Write the number sentence with its answer. Then solve the tasks below.",
+      "de": "Schau dir die Bildgeschichten an. Schreibe zu jeder Geschichte die Aufgabe mit dem Ergebnis. Rechne dann die Aufgaben unten."
+    },
+    "2": {
+      "en": "Look at each picture story. Write the number sentence with its answer. Then solve the tasks below and fill in the missing numbers.",
+      "de": "Schau dir die Bildgeschichten an. Schreibe zu jeder Geschichte die Aufgabe mit dem Ergebnis. Rechne dann die Aufgaben unten und setze die fehlenden Zahlen ein."
+    },
+    "3": {
+      "en": "Look at each picture story. Write the number sentence with its answer. Then solve the tasks below. The missing number can be at the start, in the middle or at the end.",
+      "de": "Schau dir die Bildgeschichten an. Schreibe zu jeder Geschichte die Aufgabe mit dem Ergebnis. Rechne dann die Aufgaben unten. Die fehlende Zahl kann vorne, in der Mitte oder hinten stehen."
+    }
+  },
+  "G1-674": {
+    "1": {
+      "en": "Three children work out 7 + 8 in different ways. Check each way. Then match each calculation to the child who works that way. Last, work out two tasks your own way.",
+      "de": "Drei Kinder rechnen 7 + 8 auf verschiedenen Wegen. Rechne jeden Weg nach. Verbinde dann jede Rechnung mit dem Kind, das so rechnet. Rechne zum Schluss zwei Aufgaben auf deinem Weg."
+    },
+    "2": {
+      "en": "Three children work out 7 + 8 in different ways. Check each way. Then match each calculation to the child who works that way. One child gets two lines. Last, work out two tasks your own way and circle whose way you use.",
+      "de": "Drei Kinder rechnen 7 + 8 auf verschiedenen Wegen. Rechne jeden Weg nach. Verbinde dann jede Rechnung mit dem Kind, das so rechnet. Ein Kind bekommt zwei Linien. Rechne zum Schluss zwei Aufgaben auf deinem Weg und kreise ein, wessen Weg du nimmst."
+    },
+    "3": {
+      "en": "Three children work out 7 + 8 in different ways. Check each way. Then for each new task choose a way that fits well, write the name and work it out that way. Often more than one way fits. Last, work out two tasks your own way.",
+      "de": "Drei Kinder rechnen 7 + 8 auf verschiedenen Wegen. Rechne jeden Weg nach. Wähle dann bei jeder neuen Aufgabe einen Weg, der gut passt, schreibe den Namen auf und rechne so. Oft passen mehrere Wege. Rechne zum Schluss zwei Aufgaben auf deinem eigenen Weg."
+    }
+  },
+  "G1-675": {
+    "1": {
+      "en": "First guess how many hand spans, feet or steps long each thing is. Then measure and write the number. The picture shows what you measure with. In the last row you measure something you choose. Below, compare your number for the table with the number of another child.",
+      "de": "Schätze zuerst: Wie viele Handspannen, Füße oder Schritte lang ist das Ding? Miss dann nach und schreibe die Zahl auf. Das Bild zeigt dir, womit du misst. In der letzten Zeile misst du etwas, das du dir aussuchst. Vergleiche unten deine Zahl für den Tisch mit der von einem anderen Kind."
+    },
+    "2": {
+      "en": "First guess how many hand spans, feet or steps long each thing is. Then measure and write the number. The picture shows what you measure with. Also write what your partner measured. Below, compare your number for the table with the number of another child and explain.",
+      "de": "Schätze zuerst: Wie viele Handspannen, Füße oder Schritte lang ist das Ding? Miss dann nach und schreibe die Zahl auf. Das Bild zeigt dir, womit du misst. Schreibe auch auf, was dein Partnerkind gemessen hat. Vergleiche unten deine Zahl für den Tisch mit der von einem anderen Kind und erkläre."
+    },
+    "3": {
+      "en": "For each thing, tick what you measure with. First guess, then measure. In the last column write how far your guess was off. Below, compare your number for the table with the number of another child and explain.",
+      "de": "Kreuze bei jedem Ding an, womit du misst. Schätze zuerst. Miss dann nach. Schreibe in die letzte Spalte, wie weit deine Schätzung daneben lag. Vergleiche unten deine Zahl für den Tisch mit der von einem anderen Kind und erkläre."
+    }
+  },
+  "G2-634": {
+    "1": {
+      "en": "Complete each number to the next ten and subtract from the tens. The number line helps you. First work out the heart task: the two numbers that make 10 help you.",
+      "de": "Ergänze bis zum nächsten Zehner und ziehe vom Zehner ab. Der Zahlenstrahl hilft dir. Rechne zuerst die Herzaufgabe: Die verliebten Zahlen helfen dir."
+    },
+    "2": {
+      "en": "Complete each number to the next ten and subtract from the tens. First work out the heart task: the two numbers that make 10 help you. In some tasks the middle number is missing.",
+      "de": "Ergänze bis zum nächsten Zehner und ziehe vom Zehner ab. Rechne zuerst die Herzaufgabe: Die verliebten Zahlen helfen dir. Bei manchen Aufgaben fehlt die Zahl in der Mitte."
+    },
+    "3": {
+      "en": "Complete each number to the next ten and subtract from the tens. First work out the heart task: the two numbers that make 10 help you. Below, complete to 100 in two steps: first to the next ten, then to 100.",
+      "de": "Ergänze bis zum nächsten Zehner und ziehe vom Zehner ab. Rechne zuerst die Herzaufgabe: Die verliebten Zahlen helfen dir. Ergänze unten bis 100 in zwei Schritten: erst bis zum nächsten Zehner, dann bis 100."
+    }
+  },
+  "G2-635": {
+    "1": {
+      "en": "Check the ways of the three children. A fourth child works out the same task, but there is a mistake in the way: tick the step where the mistake is and write it correctly. Then calculate with the helper task and in your own way.",
+      "de": "Rechne die Wege der drei Kinder nach. Ein viertes Kind rechnet dieselbe Aufgabe, aber in seinem Rechenweg steckt ein Fehler: Kreuze den Schritt mit dem Fehler an und schreibe ihn richtig auf. Rechne dann mit der Hilfsaufgabe und auf deinem eigenen Weg."
+    },
+    "2": {
+      "en": "Check the ways of the three children. There is a mistake in the fourth child's way: tick the step where the mistake is and write it correctly. Then calculate with the helper task: think whether you add or subtract at the end. Last, calculate in your own way.",
+      "de": "Rechne die Wege der drei Kinder nach. Im Rechenweg des vierten Kindes steckt ein Fehler: Kreuze den Schritt mit dem Fehler an und schreibe ihn richtig auf. Rechne dann mit der Hilfsaufgabe: Überlege, ob du am Ende plus oder minus rechnest. Rechne zum Schluss auf deinem eigenen Weg."
+    },
+    "3": {
+      "en": "Check the ways of the three children. There is a mistake in the fourth child's way: tick the step where the mistake is and write it correctly. Then calculate with the helper task: think whether you add or subtract at the end, and how much. Last, calculate in your own way.",
+      "de": "Rechne die Wege der drei Kinder nach. Im Rechenweg des vierten Kindes steckt ein Fehler: Kreuze den Schritt mit dem Fehler an und schreibe ihn richtig auf. Rechne dann mit der Hilfsaufgabe: Überlege, ob du am Ende plus oder minus rechnest und wie viel. Rechne zum Schluss auf deinem eigenen Weg."
+    }
+  },
+  "G2-636": {
+    "1": {
+      "en": "First estimate each length in metres and centimetres; the reference lengths help you. Then measure with a ruler, a folding rule or a tape measure and tick what you used. Below, match each picture to the right card.",
+      "de": "Schätze zuerst die Länge und schreibe sie in Metern und Zentimetern auf. Die Vergleichsgrößen helfen dir. Miss dann mit dem Lineal, dem Meterstab oder dem Maßband nach und kreuze an, womit du gemessen hast. Verbinde unten jedes Bild mit der passenden Karte."
+    },
+    "2": {
+      "en": "First estimate each length in metres and centimetres; the reference lengths help you. Then measure and tick what you used. Also write your partner's result. Below, match each picture to the right card.",
+      "de": "Schätze zuerst die Länge und schreibe sie in Metern und Zentimetern auf. Die Vergleichsgrößen helfen dir. Miss dann nach und kreuze an, womit du gemessen hast. Schreibe auch das Ergebnis von deinem Partnerkind auf. Verbinde unten jedes Bild mit der passenden Karte."
+    },
+    "3": {
+      "en": "First estimate each length in metres and centimetres. Then measure and tick what you used. In the last column write how many centimetres apart your estimate and your measurement are. Below, match each picture to the right card.",
+      "de": "Schätze zuerst die Länge und schreibe sie in Metern und Zentimetern auf. Miss dann nach und kreuze an, womit du gemessen hast. Schreibe in die letzte Spalte, wie viele Zentimeter Schätzung und Messung auseinanderliegen. Verbinde unten jedes Bild mit der passenden Karte."
+    }
   }
 }

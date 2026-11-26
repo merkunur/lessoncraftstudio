@@ -812,10 +812,11 @@ function tpl(locale: string): LocaleTemplate {
  * Final-form title / description for ONE (locale, subject, level) page; every other page keeps the template.
  * Added 2026-11-26 for the click-rate test (docs/SEO/ctr-test-2026-11/: 25 changed pages against 25 controls).
  */
+// Key = locale|subject|LEVEL KEY of the taxonomy, not the country's grade name: fr CE1 is `grade-2` (CP is grade-1).
 const PAGE_SEO_OVERRIDES: Record<string, { title?: string; description?: string }> = {
-  'fr|science|grade-1': {
+  'fr|science|grade-2': {
     title: 'Fiches de sciences CE1 en PDF – à imprimer gratuitement',
-    description: 'Fiches de sciences CE1 en PDF avec corrigés : vivant ou non-vivant, flotte ou coule, cycles de vie et habitats. À imprimer gratuitement ou à faire en ligne.',
+    description: 'Fiches de sciences CE1 à imprimer en PDF : les parties des plantes, l’adaptation des animaux à leur milieu, ce qui flotte ou coule et la sécurité routière.',
   },
 };
 function pageSeoOverride(locale: string, subjectKey: string, levelKey: string) {

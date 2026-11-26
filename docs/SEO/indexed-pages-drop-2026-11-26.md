@@ -45,6 +45,20 @@ the deck table and Umami. Re-measure with `scripts/seo/googlebot-crawl-report.py
   (self-test pre-flip, sample post-flip WARN in deploy.sh, `--full` on demand).
 - `scripts/seo/googlebot-crawl-report.py`: the measurement behind this page.
 
+## The operator's "Crawled – currently not indexed" examples (pasted 2026-11-26, ~470 URLs)
+
+- Every family is in it, read by eye: worksheet landings ~59 %, topic pages ~21 % (they are ~11 % of the
+  sitemap), decks ~12 %, plus maker landings, activities, tools, standards pages and `/pt/license`. Last crawled
+  9 Sep – 25 Nov, about half of them 14–25 Nov. All checked ones are in the sitemap and serve 200, indexable.
+- Sampled listed topic pages earned 0–2 Google visits in 14 days.
+- **Grade-filtered topic pages are subsets of their parent:** `/en/topic/kindergarten/prepositions` lists 98
+  worksheets, all 98 also on `/en/topic/prepositions` (121); `/en/topic/kindergarten/addition` 131 of 174;
+  `/de/topic/kindergarten/praepositionen` 132 of 165; text 3-gram similarity 0.35–0.49.
+- **The 9,817 sitemap decks** include 1,540 numbered copies of one worksheet face (`-k233-5/`), 1,003
+  cryptogram decks (random sentences, no theme) and 392 picture-sort decks whose non-English address carries
+  English theme words (`clasificar-imagenes-around-the-house-vs-body-parts-7700`); the same English `-vs-` words
+  appear in non-English picture-sort landings (`/fr/worksheets/trier-les-images-flowers-vs-bakery-2c21`).
+
 ## Open
 
 - **Which page families were dropped** needs the operator's Search Console exports: per child sitemap

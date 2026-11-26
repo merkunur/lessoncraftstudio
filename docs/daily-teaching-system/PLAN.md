@@ -2514,3 +2514,20 @@ Not fixable: two app pages carry the word baked into the worksheet picture or as
 - Live (deploy 67): units live check 3,596 pass, assessments 2,120 pass, both units show 6 lessons, identity PASS (287 pages).
 
 **E-1 built (not yet published):** eight types (de G1-671, G3-630, G3-631; sv G1-672, G2-631, G2-632, G2-633, G3-632), gate 9,770 assertions, 58/58 poisons, 52,989 existing pages byte-identical. Native reviews: German 4 must / 12 should, Swedish 2 must / 17 should. Next: fix, publish noindex in de/sv, then E-2.
+
+### 2026-11-26: Stage E-1 published, the eight generator changes for German and Swedish mathematics (deploy 68, commits `77e01034f`, `1336fcefe`)
+
+- **Built** by one builder (`types/_shared/e1-math.js`, `e1-math-art.js`, `data/e1/e1-math.js`), each type in its own language only:
+  de G1-671 Einkaufen bis 20 Euro, G3-630 Halbschriftlich addieren, G3-631 Überschlag und Probe; sv G1-672 Lägesord, G2-631 Betala med sedlar, G2-632 Kilogram, G2-633 Hur lång tid tar det?, G3-632 Egen undersökning. Every existing page byte-identical (52,989 pages and strings).
+- **Reviewed** by a German Grundschule teacher and a Swedish lågstadium teacher, then re-checked (de 4 must + 12 should, then 0 + 3; sv 2 must + 17 should, then 0 + 5; all applied). The musts:
+  - a surface only wrong items carried (a two-digit second number);
+  - a choice the page's own Probe contradicted;
+  - a strategy instruction that also fitted a second taught strategy;
+  - two empty places for "ovanför";
+  - left/right sentences naming a thing two places away.
+  Those classes are now in the DE-A brief with their gates.
+- **Gate** `qa/verify-e1-math.js`: 9,794 assertions at 400 seeds a level, 101/101 poisons with clean controls. Each type sits under an existing teaching point.
+- **Published** noindex as Level Set `yea`: de 45, sv 63 (the survey record G3-632 one page a level); audit sv 63/63. de first failed 14 page titles over 70 characters (G3-630): the page title was shortened, the full name kept as the printed heading (printTitle), and the 15 pages republished in place; audit 15/15, injections intact, identity PASS.
+- **Live (deploy 68):** pages answer 200 noindex; units live checks de 610 and sv 537 pass; identity PASS.
+- **Lesson:** a Level Set page title has a 70-character budget, so a long lesson name gets printTitle.
+- **Next:** E-2 batch DE-A (builder running), then DE-B and SV; E-3 places the 46 lessons.

@@ -453,6 +453,8 @@ node /opt/lessoncraftstudio/scripts/verify-hub-type-rows.js --expect=docs/worksh
 # (sv feelings/emotions shared one URL), landing + deck-family hreflang reciprocal (18,603 one-way pairs
 # before), the static-landing port in sync. Static, poison-tested.
 node /opt/lessoncraftstudio/scripts/verify-sitemap-integrity.js --poison || { echo "ERROR: the sitemap would carry a duplicate topic URL or one-way hreflang — see scripts/verify-sitemap-integrity.js"; exit 1; }
+# The judge of the post-flip sitemap URL check (noindex / redirect / status / canonical), both directions. Pure.
+node /opt/lessoncraftstudio/scripts/seo/check-sitemap-urls.js --self-test > /dev/null || { echo "ERROR: scripts/seo/check-sitemap-urls.js --self-test failed"; exit 1; }
 
 # Guard: a `font:` shorthand with an UNQUOTED family whose identifier starts with a
 # digit — `Baloo 2` — is INVALID CSS, and an invalid component invalidates the WHOLE
@@ -963,6 +965,17 @@ echo "💳 Payment webhook canary (signed activation + tier-bridge + bad-sig rej
   [ $rc -eq 3 ] && echo "   ⚠️  identity snapshot inconclusive (a URL could not be measured) — run it again."
 ) || true
 
+# Post-flip WARN-only (2026-11-26): every URL the sitemap submits must be 200, indexable and self-canonical. Search
+# Console reported 711 submitted URLs "Excluded by 'noindex' tag"; the identity snapshot cannot see that class (a page
+# already noindex in its baseline passes it). A sample of 4 URLs per shard x section, read through nginx. The full run
+# (every URL, rendered pages one at a time) is: node scripts/seo/check-sitemap-urls.js --origin=127.0.0.1 --full --out=<file>
+( set +e
+  node /opt/lessoncraftstudio/scripts/seo/check-sitemap-urls.js --origin=127.0.0.1 > /tmp/lcs-sitemap-check.txt 2>&1
+  rc=$?; tail -4 /tmp/lcs-sitemap-check.txt
+  [ $rc -eq 1 ] && echo "   !!! THE SITEMAP SUBMITS A URL GOOGLE MAY NOT INDEX (noindex, redirect, error or foreign canonical) — see /tmp/lcs-sitemap-check.txt"
+  [ $rc -eq 3 ] && echo "   ⚠️  sitemap check inconclusive (a shard could not be read) — run it again."
+) || true
+
 # Post-flip WARN-only: every SERVABLE saved worksheet must be free of the publish-only
 # __PLACEHOLDER__ tokens. Those leaked for the life of the feature — into the browser tab
 # title, the screen-reader alt/aria text, the og: unfurl, and the share panel's clipboard —
@@ -982,7 +995,9 @@ echo ""
 echo "📡 Submitting recrawl signals (IndexNow → Bing/Yandex)..."
 # NOTE: Google RETIRED its sitemap-ping endpoint in 2023 — the old
 # google.com/ping?sitemap= call was a no-op. Google recrawl is driven by the
-# GSC console + fresh sitemap lastmod (BUILD_DATE, set above). See
+# GSC console + accurate sitemap lastmod. BUILD_DATE (set above) is NOT a page's lastmod
+# since 2026-11-26 — a deploy date on unchanged pages taught Google to ignore lastmod
+# (app/sitemap.ts); it only dates the sitemap index's child files. See
 # docs/seo/index-recovery-runbook.md. IndexNow notifies Bing/Yandex (+Seznam)
 # for near-real-time recrawl of the post-pivot clean pages.
 node /opt/lessoncraftstudio/scripts/indexnow-submit.js || true

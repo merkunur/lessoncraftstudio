@@ -97,7 +97,8 @@ MAP_BLOCK = (
     "# Keyed on $deck_uri (set in the deck location) NOT $uri: try_files rewrites\n"
     "# $uri to /deck.html before add_header evaluates, so $uri would never match.\n"
     "map $deck_uri $deck_robots {\n"
-    '    default "noindex, indexifembedded";\n'
+    "    # nofollow since 2026-11-26: see patch-nginx-deck-nofollow.py.\n"
+    '    default "noindex, nofollow, indexifembedded";\n'
     f"    include {MAP_FILE};\n"
     "}\n"
 )

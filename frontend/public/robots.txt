@@ -64,6 +64,15 @@ Allow: /*/worksheets?type=
 Disallow: /*/worksheets?type=*&
 Disallow: /*/topic/*?
 
+# The retired Level Set pages /<loc>/worksheets/sets/<code> (2026-11-26).
+# Each answers 308 to /<loc>/worksheets?set=<code>&type=<t>, which the rules above
+# already block, so a crawl of one can never reach a page. Measured in the nginx
+# log, 13-26 Nov 2026: 4,300 verified Googlebot requests to them in 14 days,
+# against ~1,500 Googlebot requests a day for the whole site. Visitors keep the
+# redirect (the deck pages link it). The trailing slash leaves the bare
+# /<loc>/worksheets/sets (a 308 to the hub) crawlable.
+Disallow: /*/worksheets/sets/
+
 # Allow image crawlers explicit access to worksheet samples
 User-agent: Googlebot-Image
 Allow: /samples/
@@ -159,6 +168,15 @@ Disallow: /uploads/
 Disallow: /*/auth/
 Disallow: /*/dashboard/
 Disallow: /*/admin/
+# The same hub-combination and retired-set rules as the * group (2026-11-26).
+# This group replaces *, so without them Bingbot spent 2,824 of its 10,796
+# requests a day (26 %) on uncached ?filter combinations, plus 157 on the
+# /worksheets/sets/ dead ends (measured in the nginx log, 25 Nov 2026).
+Disallow: /*/worksheets?
+Allow: /*/worksheets?type=
+Disallow: /*/worksheets?type=*&
+Disallow: /*/topic/*?
+Disallow: /*/worksheets/sets/
 Crawl-delay: 1
 
 # Yandex rate limiting (deprecated per Yandex since 2018, but harmless to include)
@@ -178,6 +196,12 @@ Disallow: /uploads/
 Disallow: /*/auth/
 Disallow: /*/dashboard/
 Disallow: /*/admin/
+# The same hub-combination and retired-set rules as the * group (2026-11-26).
+Disallow: /*/worksheets?
+Allow: /*/worksheets?type=
+Disallow: /*/worksheets?type=*&
+Disallow: /*/topic/*?
+Disallow: /*/worksheets/sets/
 Crawl-delay: 2
 
 # Sitemaps

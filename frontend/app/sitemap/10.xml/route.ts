@@ -10,7 +10,8 @@ import { getTemplateFile, hreflangForLanding, listLandingEntries, ogUrl, preview
 export const revalidate = 1800;
 
 const xml = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-const LASTMOD = new Date(process.env.BUILD_DATE || '2026-11-06').toISOString();
+// No <lastmod> (2026-11-26): this was the deploy time (BUILD_DATE), so every deploy re-dated all 647 landings
+// with no change to them; Google trusts lastmod only when it is consistently accurate. See app/sitemap.ts.
 
 export async function GET() {
   const entries = await listLandingEntries();
@@ -23,7 +24,7 @@ export async function GET() {
       const title = titles?.[id]?.[t.id]?.[0] ?? '';
       images.push(`    <image:image><image:loc>${xml(`${CANONICAL_HOST}${previewUrl(id, locale, t.id)}`)}</image:loc><image:title>${xml(title)}</image:title></image:image>`);
     }
-    parts.push(`  <url>\n    <loc>${CANONICAL_HOST}/${locale}/worksheet-makers/${xml(slug)}</loc>\n    <lastmod>${LASTMOD}</lastmod>\n${links.join('\n')}\n${images.join('\n')}\n  </url>`);
+    parts.push(`  <url>\n    <loc>${CANONICAL_HOST}/${locale}/worksheet-makers/${xml(slug)}</loc>\n${links.join('\n')}\n${images.join('\n')}\n  </url>`);
   }
   const body = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"

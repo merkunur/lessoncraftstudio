@@ -27,8 +27,15 @@ import { READER_HUB_LOCALES, getReaderHubs, readerHubPaths } from '@/lib/readers
 // ISR revalidation: sitemap revalidates every 30 minutes
 export const revalidate = 1800;
 
-// Dynamic date from build environment, falls back to static date
-const STATIC_CONTENT_DATE = new Date(process.env.BUILD_DATE || '2026-04-04');
+// No <lastmod> where we do not know when a page's content changed (2026-11-26).
+// This was `new Date(process.env.BUILD_DATE)`: every deploy re-dated ~9,000 URLs
+// (topics, activities, tools, units, sub plans, curriculum, assessments, readers)
+// to the deploy time with no change to them — 35+ deploys in 14 days, shards 8-9
+// dated "today" at 100 %. Google uses lastmod only when it is consistently accurate,
+// so the false dates cost the true ones (decks, landings, intersections) their
+// weight. Omitted is honest; Next drops the tag when lastModified is undefined.
+// Routes with a real content date (intersections, topic hubs) still pass it.
+const STATIC_CONTENT_DATE: Date | undefined = undefined;
 
 // Topic-page locales — single source of truth at frontend/config/topic-locales.ts.
 // Mirrors the topic route's TOPIC_LOCALES; honesty-discipline filters

@@ -88,7 +88,7 @@
    "subject": "math",
    "title": "Plus und Minus bis 10",
    "metaTitle": "Mathe Klasse 1: Plus und Minus bis 10 | Unterrichtseinheit",
-   "metaDescription": "Drei Wochen Mathe Klasse 1: 5 Stunden zum Dazutun und Wegnehmen bis 10, zu Tauschaufgaben, zu den verliebten Zahlen und zum Hüpfen am Zahlenstrahl.",
+   "metaDescription": "Drei Wochen Mathe Klasse 1: 6 Stunden zum Dazutun und Wegnehmen bis 10, zu Tauschaufgaben, zu den verliebten Zahlen und zum Hüpfen am Zahlenstrahl.",
    "weeks": 3,
    "lessons": [
     {
@@ -114,6 +114,15 @@
       "G1-103",
       "G1-104"
      ],
+     "activity": null
+    },
+    {
+     "point": "1:add-within-10-models",
+     "id": "1:add-within-10-models#rechnen-mit-der-null",
+     "types": [
+      "G1-673"
+     ],
+     "tool": null,
      "activity": null
     },
     {
@@ -195,8 +204,8 @@
    "subject": "math",
    "title": "Zahlen bis 20: Zehner, Einer und Zahlenstrahl",
    "metaTitle": "Mathe Klasse 1: Zahlen bis 20 – Zehner, Einer und Zahlenstrahl",
-   "metaDescription": "Drei Wochen Mathe Klasse 1: 4 Stunden zu den Zahlen bis 20 in zwei Zehnerfeldern, zur Zahl des Tages von 11 bis 19, zu Zahlwörtern bis zwanzig und zum Zahlenstrahl.",
-   "weeks": 3,
+   "metaDescription": "Vier Wochen Mathe Klasse 1: 6 Stunden zu den Zahlen bis 20 in zwei Zehnerfeldern, zur Zahl des Tages von 11 bis 19, zu Zahlwörtern bis zwanzig und zum Zahlenstrahl.",
+   "weeks": 4,
    "lessons": [
     {
      "point": "K:teen-numbers",
@@ -222,6 +231,25 @@
       "G1-275",
       "G1-276"
      ],
+     "activity": null
+    },
+    {
+     "point": "2:bundle-ten-ones",
+     "id": "2:bundle-ten-ones#zehnerzahlen-bis-100",
+     "types": [
+      "G1-560"
+     ],
+     "tool": "counting-cups",
+     "activity": null
+    },
+    {
+     "point": "1:skip-counting",
+     "types": [
+      "G1-125",
+      "G1-124",
+      "G1-123"
+     ],
+     "tool": "choral-counting",
      "activity": null
     }
    ]
@@ -284,8 +312,8 @@
    "subject": "math",
    "title": "Plus über die 10 und Rechnen bis 20",
    "metaTitle": "Mathe Klasse 1: Plus über die 10 und Rechnen bis 20",
-   "metaDescription": "Drei Wochen Mathe Klasse 1: 5 Stunden zum Plus- und Minusrechnen über die 10, zu Nachbaraufgaben der Verdopplungen, zu Rechengeschichten und zum Kopfrechnen bis 20.",
-   "weeks": 3,
+   "metaDescription": "Vier Wochen Mathe Klasse 1: 6 Stunden zum Plus- und Minusrechnen über die 10, zu Nachbaraufgaben der Verdopplungen, zu Rechengeschichten und zum Kopfrechnen bis 20.",
+   "weeks": 4,
    "lessons": [
     {
      "point": "1:fluency-within-20",
@@ -310,6 +338,15 @@
      "id": "1:fluency-within-20#minus-ueber-die-10",
      "types": [
       "G1-556"
+     ],
+     "tool": "rekenrek",
+     "activity": null
+    },
+    {
+     "point": "1:fluency-within-20",
+     "id": "1:fluency-within-20#rechenwege-vergleichen-7-plus-8",
+     "types": [
+      "G1-674"
      ],
      "tool": "rekenrek",
      "activity": null
@@ -344,8 +381,8 @@
    "subject": "math",
    "title": "Uhr, Kalender und Geld",
    "metaTitle": "Mathe Klasse 1: Uhr, Kalender und Geld | Unterrichtseinheit",
-   "metaDescription": "Drei Wochen Mathe Klasse 1: 5 Stunden zur Uhr mit vollen und halben Stunden, zum Einzeichnen der Zeiger, zu Wochentagen, Monaten und Jahreszeiten und zu Münzen.",
-   "weeks": 3,
+   "metaDescription": "Vier Wochen Mathe Klasse 1: 6 Stunden zur Uhr mit vollen und halben Stunden, zum Einzeichnen der Zeiger, zu Wochentagen, Monaten und Jahreszeiten und zu Münzen.",
+   "weeks": 4,
    "lessons": [
     {
      "point": "1:time-read",
@@ -381,6 +418,15 @@
       "G1-228",
       "G1-211"
      ]
+    },
+    {
+     "point": "2:shopping-money",
+     "id": "2:shopping-money#einkaufen-bis-20-euro",
+     "types": [
+      "G1-671"
+     ],
+     "tool": "money-mat",
+     "activity": null
     }
    ]
   },
@@ -392,8 +438,8 @@
    "subject": "math",
    "title": "Formen, Messen und Diagramme",
    "metaTitle": "Mathe Klasse 1: Formen, Messen und Diagramme | Unterrichtseinheit",
-   "metaDescription": "Vier Wochen Mathe Klasse 1: 7 Stunden zu Formen, Tangram, Wegen auf dem Gitterplan, zum Messen mit Kästchen, zu Bild- und Säulendiagrammen und zu Mustern.",
-   "weeks": 4,
+   "metaDescription": "Fünf Wochen Mathe Klasse 1: 8 Stunden zu Formen, Tangram, Wegen auf dem Gitterplan, zum Messen mit Kästchen, zu Bild- und Säulendiagrammen und zu Mustern.",
+   "weeks": 5,
    "lessons": [
     {
      "point": "1:shape-attributes",
@@ -419,6 +465,15 @@
       "M.4.1.1"
      ],
      "tool": null
+    },
+    {
+     "point": "1:measure-length-units",
+     "id": "1:measure-length-units#handspanne-fuss-schritt",
+     "types": [
+      "G1-675"
+     ],
+     "tool": "unit-handle",
+     "activity": null
     },
     {
      "point": "1:measure-length-units",
@@ -525,8 +580,8 @@
    "subject": "math",
    "title": "Plus und Minus bis 100: Einer, Zehner und Zehnerübergang",
    "metaTitle": "Mathe Klasse 2: Plus und Minus bis 100 mit Zehnerübergang",
-   "metaDescription": "Zwei Wochen Mathe Klasse 2: 4 Stunden zu Zehnerzahlen und Einern dazu und weg und zu Plus und Minus mit Zehnerübergang bis 100 (47 + 8, 53 − 6), mit Lehrerhinweis.",
-   "weeks": 2,
+   "metaDescription": "Drei Wochen Mathe Klasse 2: 5 Stunden zu Zehnerzahlen und Einern dazu und weg und zu Plus und Minus mit Zehnerübergang bis 100 (47 + 8, 53 − 6), mit Lehrerhinweis.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "1:mental-math-to-100",
@@ -548,6 +603,15 @@
       "G1-559": 3
      },
      "tool": "number-hotel",
+     "activity": null
+    },
+    {
+     "point": "1:mental-math-to-100",
+     "id": "1:mental-math-to-100#zum-zehner-ergaenzen",
+     "types": [
+      "G2-634"
+     ],
+     "tool": "open-number-line",
      "activity": null
     },
     {
@@ -581,8 +645,8 @@
    "subject": "math",
    "title": "Plus und Minus bis 100: zweistellige Zahlen und Sachaufgaben",
    "metaTitle": "Mathe Klasse 2: Plus und Minus bis 100 mit zweistelligen Zahlen",
-   "metaDescription": "Zwei Wochen Mathe Klasse 2: 4 Stunden zum Addieren und Subtrahieren zweistelliger Zahlen am Rechenstrich, zu Sachaufgaben bis 100 und zum Üben.",
-   "weeks": 2,
+   "metaDescription": "Drei Wochen Mathe Klasse 2: 5 Stunden zum Addieren und Subtrahieren zweistelliger Zahlen am Rechenstrich, zu Sachaufgaben bis 100 und zum Üben.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "1:open-number-line",
@@ -598,6 +662,14 @@
      "id": "1:open-number-line#zweistellig-subtrahieren",
      "types": [
       "G2-501"
+     ],
+     "tool": "open-number-line",
+     "activity": null
+    },
+    {
+     "point": "2:explain-strategies",
+     "types": [
+      "G2-635"
      ],
      "tool": "open-number-line",
      "activity": null
@@ -628,8 +700,8 @@
    "subject": "math",
    "title": "Messen, Uhrzeit, Geld und Diagramme",
    "metaTitle": "Mathe Klasse 2: Messen, Uhrzeit, Geld und Diagramme",
-   "metaDescription": "Fünf Wochen Mathe Klasse 2: 9 Stunden zum Messen mit dem Lineal, zur Uhr auf fünf Minuten genau, zu Kalender, Geld, Diagrammen und zum Zufall.",
-   "weeks": 5,
+   "metaDescription": "Sechs Wochen Mathe Klasse 2: 10 Stunden zum Messen mit dem Lineal, zur Uhr auf fünf Minuten genau, zu Kalender, Geld, Diagrammen und zum Zufall.",
+   "weeks": 6,
    "lessons": [
     {
      "point": "2:measure-with-ruler",
@@ -642,6 +714,14 @@
      "types": [
       "G2-236"
      ]
+    },
+    {
+     "point": "2:estimate-lengths",
+     "types": [
+      "G2-636"
+     ],
+     "tool": "ruler",
+     "activity": null
     },
     {
      "point": "2:time-5-min-quarter",
@@ -960,8 +1040,8 @@
    "subject": "math",
    "title": "Zahlen bis 1000",
    "metaTitle": "Mathe Klasse 3: Zahlen bis 1000 | Unterrichtseinheit",
-   "metaDescription": "Zwei Wochen Mathe Klasse 3: 4 Stunden zu Hundertern, Zehnern und Einern, zum Zerlegen, Vergleichen und Ordnen dreistelliger Zahlen und zu 100 mehr und weniger.",
-   "weeks": 2,
+   "metaDescription": "Drei Wochen Mathe Klasse 3: 5 Stunden zu Hundertern, Zehnern und Einern, zum Zerlegen, Vergleichen und Ordnen dreistelliger Zahlen und zu 100 mehr und weniger.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "2:read-build-3-digit",
@@ -985,10 +1065,72 @@
      ]
     },
     {
+     "point": "2:number-line-not-from-zero",
+     "id": "2:number-line-not-from-zero#zahlenstrahl-bis-1000",
+     "types": [
+      "G2-395"
+     ],
+     "core": {
+      "G2-395": 3
+     },
+     "tool": "landing-strip",
+     "activity": null
+    },
+    {
      "point": "2:hundred-more-less",
      "types": [
       "G2-226"
      ]
+    }
+   ]
+  },
+  {
+   "id": "de3-halbschriftlich-plus-minus",
+   "slug": "halbschriftlich-addieren-und-subtrahieren-bis-1000-klasse-3",
+   "status": "live",
+   "grade": "3",
+   "subject": "math",
+   "title": "Halbschriftlich addieren und subtrahieren bis 1000",
+   "metaTitle": "Mathe Klasse 3: Halbschriftlich addieren und subtrahieren bis 1000",
+   "metaDescription": "Zwei Wochen Mathe Klasse 3: 4 Stunden zum Rechnen mit Hunderter- und Zehnerzahlen, zum halbschriftlichen Addieren und Subtrahieren bis 1000 und zu Zauberquadraten.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "3:mental-math-hundreds-tens",
+     "types": [
+      "G3-633"
+     ],
+     "tool": "place-value-lab",
+     "activity": null
+    },
+    {
+     "point": "1:open-number-line",
+     "id": "1:open-number-line#halbschriftlich-addieren",
+     "types": [
+      "G3-630"
+     ],
+     "tool": "open-number-line",
+     "activity": null
+    },
+    {
+     "point": "1:open-number-line",
+     "id": "1:open-number-line#halbschriftlich-subtrahieren",
+     "types": [
+      "G3-634"
+     ],
+     "tool": "open-number-line",
+     "activity": null
+    },
+    {
+     "point": "3:magic-squares",
+     "types": [
+      "G3-349"
+     ],
+     "core": {
+      "G3-349": 2
+     },
+     "tool": null,
+     "activity": null
     }
    ]
   },
@@ -1000,8 +1142,8 @@
    "subject": "math",
    "title": "Runden und schriftlich rechnen bis 1000",
    "metaTitle": "Mathe Klasse 3: Runden und schriftlich rechnen bis 1000",
-   "metaDescription": "Vier Wochen Mathe Klasse 3: 7 Stunden zum Runden auf Zehner und Hunderter, zum Überschlagen und zum schriftlichen Addieren und Subtrahieren ohne und mit Übertrag.",
-   "weeks": 4,
+   "metaDescription": "Fünf Wochen Mathe Klasse 3: 8 Stunden zum Runden auf Zehner und Hunderter, zum Überschlagen und zum schriftlichen Addieren und Subtrahieren ohne und mit Übertrag.",
+   "weeks": 5,
    "lessons": [
     {
      "point": "2:round-to-ten",
@@ -1051,6 +1193,15 @@
       "G3-359",
       "G3-360"
      ]
+    },
+    {
+     "point": "3:estimate-by-rounding",
+     "id": "3:estimate-by-rounding#ueberschlag-und-probe",
+     "types": [
+      "G3-631"
+     ],
+     "tool": null,
+     "activity": null
     }
    ]
   },
@@ -1062,8 +1213,8 @@
    "subject": "math",
    "title": "Malnehmen und Teilen, Gleichungen und Zahlenfolgen",
    "metaTitle": "Mathe Klasse 3: Malnehmen und Teilen, Gleichungen und Zahlenfolgen",
-   "metaDescription": "Vier Wochen Mathe Klasse 3: 7 Stunden zu Aufgabenfamilien, Sachaufgaben, Teilen mit Rest, Gleichungen an der Waage, Zahlenfolgen und Zahlenmaschinen.",
-   "weeks": 4,
+   "metaDescription": "Fünf Wochen Mathe Klasse 3: 10 Stunden zu Aufgabenfamilien, Sachaufgaben, Teilen mit Rest, Gleichungen an der Waage, Zahlenfolgen und Zahlenmaschinen.",
+   "weeks": 5,
    "lessons": [
     {
      "point": "3:mult-div-relationship",
@@ -1079,6 +1230,30 @@
       "G3-372",
       "G3-373"
      ]
+    },
+    {
+     "point": "3:multiply-multiples-of-10",
+     "types": [
+      "G3-635"
+     ],
+     "tool": "place-value-lab",
+     "activity": null
+    },
+    {
+     "point": "3:multiply-in-steps",
+     "types": [
+      "G3-636"
+     ],
+     "tool": "baking-tray",
+     "activity": null
+    },
+    {
+     "point": "3:divide-in-steps",
+     "types": [
+      "G3-637"
+     ],
+     "tool": null,
+     "activity": null
     },
     {
      "point": "3:division-remainder",
@@ -1111,6 +1286,71 @@
      "types": [
       "G3-328"
      ]
+    }
+   ]
+  },
+  {
+   "id": "de3-laengen-und-geld",
+   "slug": "laengen-und-geld-millimeter-kilometer-kommaschreibweise-klasse-3",
+   "status": "live",
+   "grade": "3",
+   "subject": "math",
+   "title": "Längen und Geld: Millimeter, Kilometer und Kommaschreibweise",
+   "metaTitle": "Mathe Klasse 3: Längen und Geld | Unterrichtseinheit",
+   "metaDescription": "Drei Wochen Mathe Klasse 3: 6 Stunden zu Millimetern und Kilometern, zur Kommaschreibweise bei Euro und Cent, zum Überschlagen beim Einkaufen und zu Preistabellen.",
+   "weeks": 3,
+   "lessons": [
+    {
+     "point": "2:measure-with-ruler",
+     "id": "2:measure-with-ruler#millimeter",
+     "types": [
+      "G3-638"
+     ],
+     "tool": "ruler",
+     "activity": null
+    },
+    {
+     "point": "3:kilometres-and-metres",
+     "types": [
+      "G3-639"
+     ],
+     "tool": null,
+     "activity": null
+    },
+    {
+     "point": "3:comma-notation-money-length",
+     "types": [
+      "G3-640"
+     ],
+     "tool": "money-mat",
+     "activity": null
+    },
+    {
+     "point": "3:estimate-by-rounding",
+     "id": "3:estimate-by-rounding#ueberschlagen-beim-einkaufen",
+     "types": [
+      "G3-641"
+     ],
+     "tool": null,
+     "activity": null
+    },
+    {
+     "point": "3:muldiv-word-problems",
+     "id": "3:muldiv-word-problems#preistabellen",
+     "types": [
+      "G3-642"
+     ],
+     "tool": null,
+     "activity": null
+    },
+    {
+     "point": "3:muldiv-word-problems",
+     "id": "3:muldiv-word-problems#sachaufgaben-mit-tabellen",
+     "types": [
+      "G3-643"
+     ],
+     "tool": null,
+     "activity": null
     }
    ]
   },
@@ -1224,8 +1464,8 @@
    "subject": "math",
    "title": "Rechte Winkel, Vierecke, Symmetrie und Diagramme",
    "metaTitle": "Mathe Klasse 3: Rechte Winkel, Vierecke, Symmetrie und Diagramme",
-   "metaDescription": "Vier Wochen Mathe Klasse 3: 6 Stunden zu rechten Winkeln, Rechtecken und Quadraten, Spiegelachsen, Diagrammen mit Skala und zur Wahrscheinlichkeit.",
-   "weeks": 4,
+   "metaDescription": "Fünf Wochen Mathe Klasse 3: 9 Stunden zu rechten Winkeln, Rechtecken und Quadraten, Spiegelachsen, Diagrammen mit Skala und zur Wahrscheinlichkeit.",
+   "weeks": 5,
    "lessons": [
     {
      "point": "3:right-angles",
@@ -1247,6 +1487,14 @@
      ]
     },
     {
+     "point": "3:circles-with-compass",
+     "types": [
+      "G3-644"
+     ],
+     "tool": null,
+     "activity": null
+    },
+    {
      "point": "3:scaled-graphs",
      "types": [
       "G3-332",
@@ -1259,6 +1507,23 @@
       "G3-335"
      ],
      "tool": null
+    },
+    {
+     "point": "3:scaled-graphs",
+     "id": "3:scaled-graphs#diagramme-genau-lesen",
+     "types": [
+      "G3-645"
+     ],
+     "tool": null,
+     "activity": null
+    },
+    {
+     "point": "3:count-all-possibilities",
+     "types": [
+      "G3-646"
+     ],
+     "tool": null,
+     "activity": null
     },
     {
      "point": "3:chance-more-likely",
@@ -1726,8 +1991,10 @@
    "metaDescription": "{units} Unterrichtseinheiten für Mathe Klasse 3 in Unterrichtsreihenfolge, etwa {weeks} Wochen (kein ganzes Schuljahr), mit den Stunden jeder Einheit.",
    "units": [
     "de3-zahlen-bis-1000",
+    "de3-halbschriftlich-plus-minus",
     "de3-runden-schriftlich",
     "de3-mal-geteilt-gleichungen",
+    "de3-laengen-und-geld",
     "g3-time-temperature-mass-volume",
     "g3-area-perimeter-volume",
     "g3-shapes-and-data"

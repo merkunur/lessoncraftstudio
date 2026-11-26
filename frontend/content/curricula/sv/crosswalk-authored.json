@@ -4265,9 +4265,14 @@
    "review": "year-design 2026-11-17"
   },
   "K:place-words": {
-   "none": "not yet read against this curriculum",
-   "why": "The point was added on 2026-11-17 for an English literacy lesson (Part 12.3) on a page type that exists in this language too; no unit of this language teaches the point yet. Read it against the wording when the literacy units of this language are designed.",
-   "review": "year-design 2026-11-17"
+   "rows": [
+    {
+     "id": "MA.1-3.3.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Lgr22 places the words in mathematics, not in Svenska: «Vanliga lägesord för att beskriva föremåls och objekts läge i rummet». The Swedish unit teaches them in årskurs 1 (framför, bakom, mellan, bredvid, ovanför, nedanför, till vänster om, till höger om).",
+   "review": "year-design 2026-11-26"
   },
   "1:long-or-short-vowel": {
    "none": "not yet read against this curriculum",
@@ -5608,6 +5613,126 @@
    "none": "not yet read against this curriculum",
    "why": "The point was added on 2026-11-25 for an English lesson that waited for its page (acting out action words with close meanings; the rules of a book talk); read it against the wording when this language's units are designed.",
    "review": "year-design 2026-11-25"
+  },
+  "3:mental-math-hundreds-tens": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-26 for the German year design of mathematics (Stage E-3); no unit of this language teaches it yet. Read it against the wording when one does.",
+   "review": "year-design 2026-11-26"
+  },
+  "3:add-sub-by-place-value": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.7",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Skriftlig huvudräkning by talsorter is one of the «Metoder för beräkningar med naturliga tal, vid huvudräkning ... och skriftlig beräkning» (1.7), resting on hundreds, tens and ones: «Positionssystemet» (1.2).",
+   "review": "year-design 2026-11-26"
+  },
+  "3:historical-numerals": {
+   "rows": [
+    {
+     "id": "MA.1-3.1.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.1.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.4-6.1.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Egyptian and Roman numerals are «Symboler för tal och symbolernas utveckling i några olika kulturer genom historien» (1.3); why they needed no zero is answered with «Positionssystemet och hur det används för att beskriva naturliga tal» (1.2). Whole number systems of other cultures come in 4–6 («Olika talsystem»).",
+   "review": "year-design 2026-11-26"
+  },
+  "3:multiply-multiples-of-10": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-26 for the German year design of mathematics (Stage E-3); no unit of this language teaches it yet. Read it against the wording when one does.",
+   "review": "year-design 2026-11-26"
+  },
+  "3:multiply-in-steps": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-26 for the German year design of mathematics (Stage E-3); no unit of this language teaches it yet. Read it against the wording when one does.",
+   "review": "year-design 2026-11-26"
+  },
+  "3:divide-in-steps": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-26 for the German year design of mathematics (Stage E-3); no unit of this language teaches it yet. Read it against the wording when one does.",
+   "review": "year-design 2026-11-26"
+  },
+  "3:proportional-tables": {
+   "rows": [
+    {
+     "id": "MA.1-3.5.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.4-6.5.1",
+     "rel": "prepares"
+    }
+   ],
+   "why": "Price tables and recipes with twice, half and three times as much are «Proportionella samband, däribland dubbelt och hälften» (1–3); the general «Proportionalitet» follows in 4–6.",
+   "review": "year-design 2026-11-26"
+  },
+  "3:kilometres-and-metres": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-26 for the German year design of mathematics (Stage E-3); no unit of this language teaches it yet. Read it against the wording when one does.",
+   "review": "year-design 2026-11-26"
+  },
+  "3:comma-notation-money-length": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-26 for the German year design of mathematics (Stage E-3); no unit of this language teaches it yet. Read it against the wording when one does.",
+   "review": "year-design 2026-11-26"
+  },
+  "3:old-body-measures": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The wording names it: «Mätning av längd ... med vanliga nutida och äldre måttenheter» — tum, fot, aln and famn on the body, compared with metres and centimetres.",
+   "review": "year-design 2026-11-26"
+  },
+  "3:circles-with-compass": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-26 for the German year design of mathematics (Stage E-3); no unit of this language teaches it yet. Read it against the wording when one does.",
+   "review": "year-design 2026-11-26"
+  },
+  "3:count-all-possibilities": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-26 for the German year design of mathematics (Stage E-3); no unit of this language teaches it yet. Read it against the wording when one does.",
+   "review": "year-design 2026-11-26"
+  },
+  "K:compare-capacity": {
+   "rows": [
+    {
+     "id": "F.4.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "prepares"
+    }
+   ],
+   "why": "The class pours and counts mugs, exploring «genom observationer, mätningar och samtal om iakttagelser», and records the jar «med ord och bilder» (F.4.1); the förskoleklass text names no volume, so the comparison prepares «Jämförelser och uppskattningar av storheter. Mätning av ... volym» in årskurs 1–3.",
+   "review": "year-design 2026-11-26"
+  },
+  "1:units-give-different-numbers": {
+   "rows": [
+    {
+     "id": "MA.1-3.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Jämförelser och uppskattningar av storheter. Mätning av längd»: one length measured with two non-standard units, and why the shorter unit gives the larger number.",
+   "review": "year-design 2026-11-26"
   }
  }
 }

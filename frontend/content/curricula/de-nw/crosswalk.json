@@ -297,6 +297,10 @@
    ],
    "by": "authored"
   },
+  "K:compare-capacity": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "K:draw-shapes": {
    "rows": [
     {
@@ -762,6 +766,10 @@
    ],
    "by": "authored"
   },
+  "1:units-give-different-numbers": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "1:time-read": {
    "rows": [
     {
@@ -1148,7 +1156,18 @@
    "by": "authored"
   },
   "2:estimate-lengths": {
-   "none": "not yet read against this curriculum",
+   "rows": [
+    {
+     "id": "M.3.1.s3",
+     "rel": "teaches",
+     "grade": "1-2"
+    },
+    {
+     "id": "M.3.1.s1",
+     "rel": "teaches",
+     "grade": "1-2"
+    }
+   ],
    "by": "authored"
   },
   "2:read-build-3-digit": {
@@ -1382,7 +1401,18 @@
    "by": "authored"
   },
   "2:explain-strategies": {
-   "none": "not yet read against this curriculum",
+   "rows": [
+    {
+     "id": "M.1.7.s1",
+     "rel": "teaches",
+     "grade": "1-2"
+    },
+    {
+     "id": "M.1.4.s3",
+     "rel": "teaches",
+     "grade": "1-2"
+    }
+   ],
    "by": "authored"
   },
   "2:shopping-money": {
@@ -1675,6 +1705,10 @@
    ],
    "by": "authored"
   },
+  "3:historical-numerals": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "3:rounding": {
    "rows": [
     {
@@ -1683,6 +1717,20 @@
      "grade": "3-4"
     }
    ],
+   "by": "authored"
+  },
+  "3:mental-math-hundreds-tens": {
+   "rows": [
+    {
+     "id": "M.1.3.k1",
+     "rel": "teaches",
+     "grade": "3-4"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:add-sub-by-place-value": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "3:column-regrouping": {
@@ -1815,6 +1863,31 @@
    ],
    "by": "authored"
   },
+  "3:multiply-multiples-of-10": {
+   "rows": [
+    {
+     "id": "M.1.3.k1",
+     "rel": "teaches",
+     "grade": "3-4"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:multiply-in-steps": {
+   "rows": [
+    {
+     "id": "M.1.4.k1",
+     "rel": "teaches",
+     "grade": "3-4"
+    },
+    {
+     "id": "M.1.2.g6",
+     "rel": "teaches",
+     "grade": "1-4"
+    }
+   ],
+   "by": "authored"
+  },
   "3:scaled-graphs": {
    "rows": [
     {
@@ -1838,6 +1911,40 @@
      "grade": "3-4"
     }
    ],
+   "by": "authored"
+  },
+  "3:kilometres-and-metres": {
+   "rows": [
+    {
+     "id": "M.3.1.k5",
+     "rel": "teaches",
+     "grade": "3-4"
+    },
+    {
+     "id": "M.3.1.k3",
+     "rel": "teaches",
+     "grade": "3-4"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:comma-notation-money-length": {
+   "rows": [
+    {
+     "id": "M.3.1.k5",
+     "rel": "teaches",
+     "grade": "3-4"
+    },
+    {
+     "id": "M.3.1.k7",
+     "rel": "teaches",
+     "grade": "3-4"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:old-body-measures": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "3:division-sharing": {
@@ -1876,6 +1983,21 @@
      "id": "M.1.3.k2",
      "rel": "teaches",
      "grade": "3-4"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:divide-in-steps": {
+   "rows": [
+    {
+     "id": "M.1.4.k1",
+     "rel": "teaches",
+     "grade": "3-4"
+    },
+    {
+     "id": "M.1.2.g7",
+     "rel": "teaches",
+     "grade": "1-4"
     }
    ],
    "by": "authored"
@@ -1928,6 +2050,10 @@
      "grade": "1-4"
     }
    ],
+   "by": "authored"
+  },
+  "3:proportional-tables": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "3:balance-equations": {
@@ -2080,6 +2206,21 @@
    ],
    "by": "authored"
   },
+  "3:circles-with-compass": {
+   "rows": [
+    {
+     "id": "M.2.5.k1",
+     "rel": "teaches",
+     "grade": "3-4"
+    },
+    {
+     "id": "M.2.2.k2",
+     "rel": "teaches",
+     "grade": "3-4"
+    }
+   ],
+   "by": "authored"
+  },
   "3:partition-equal-areas": {
    "rows": [
     {
@@ -2161,6 +2302,16 @@
      "id": "M.3.1.k6",
      "rel": "prepares",
      "grade": "3-4"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:count-all-possibilities": {
+   "rows": [
+    {
+     "id": "M.4.2.g1",
+     "rel": "teaches",
+     "grade": "1-4"
     }
    ],
    "by": "authored"

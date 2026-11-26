@@ -170,15 +170,6 @@ module.exports = {
         watch: 'Kontrollera klockan 12 på dagen och halvtimmen efter, 12.30, som inte ska ändras, och midnatt, som är 00.00. Använd skolans schema, en busstidtabell eller tv-tablån; där står tiderna alltid med 24 timmar. Bladets rubrik säger 12-timmars och 24-timmars; med eleverna heter det analog och digital tid.',
       },
     },
-    '3:elapsed-duration': {
-      title: 'Hur lång tid gick?',
-      objective: 'Eleverna jämför två klockslag och tar reda på hur lång tid som gick mellan dem.',
-      note: {
-        mistake: 'Eleverna subtraherar de två klockslagen utan att tänka på klockan: från klockan 11 till klockan 2 blir 9 timmar. Eller så räknar de starttimmen som den första timmen.',
-        words: 'Säg: ”Räkna hoppen från starttiden till sluttiden: 11 till 12 är en timme, 12 till 1 är två, 1 till 2 är tre.” Fråga: ”Är tre timmar rimligt? Vad hinner man göra på den tiden?”',
-        watch: 'Kontrollera uppgifterna som går förbi klockan 12. En elev som skriver 9 timmar för 11 till 2 har subtraherat; gå runt en riktig klocka tillsammans och räkna varje timme som går.',
-      },
-    },
     '3:add-subtract-time': {
       title: 'Lägga till och dra ifrån tid',
       objective: 'Eleverna utgår från ett klockslag, lägger till eller drar ifrån minuter eller timmar och skriver den nya tiden.',

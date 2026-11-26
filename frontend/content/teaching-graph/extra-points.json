@@ -2397,6 +2397,104 @@
    "strand": "Speaking and Listening",
    "code": "SL.1.1.a",
    "skill": "Take part in a small-group book talk by its rules: look at and listen to the speaker, talk one at a time, and add on to what was just said"
+  },
+  {
+   "tp": "3:mental-math-hundreds-tens",
+   "grade": "3",
+   "strand": "Number & Operations in Base Ten",
+   "code": "3.NBT.A.2",
+   "skill": "Add and subtract hundreds and tens in the head by analogy with the small fact (3 + 4 = 7, so 30 + 40 = 70 and 300 + 400 = 700), within 1000"
+  },
+  {
+   "tp": "3:add-sub-by-place-value",
+   "grade": "3",
+   "strand": "Number & Operations in Base Ten",
+   "code": "3.NBT.A.2",
+   "skill": "Add and subtract three-digit numbers in a row, place by place, writing the steps (347 + 225 = 500 + 60 + 12 = 572)"
+  },
+  {
+   "tp": "3:historical-numerals",
+   "grade": "3",
+   "strand": "Number & Operations in Base Ten",
+   "code": "READINESS:historical-numerals",
+   "skill": "Read and write numbers with Egyptian number symbols and Roman numerals to 30, and compare them with place value, where the place of a digit sets its value"
+  },
+  {
+   "tp": "3:multiply-multiples-of-10",
+   "grade": "3",
+   "strand": "Number & Operations in Base Ten",
+   "code": "3.NBT.A.3",
+   "skill": "Multiply a one-digit number by a multiple of 10 and divide a multiple of 10 by a one-digit number from a times-table fact (3 · 40 = 120, 240 : 6 = 40)"
+  },
+  {
+   "tp": "3:multiply-in-steps",
+   "grade": "3",
+   "strand": "Number & Operations in Base Ten",
+   "code": "4.NBT.B.5 (grade 3 in KMK)",
+   "skill": "Multiply a two-digit number by a one-digit number in steps: the tens, the ones, then add (4 · 37 = 4 · 30 + 4 · 7)"
+  },
+  {
+   "tp": "3:divide-in-steps",
+   "grade": "3",
+   "strand": "Number & Operations in Base Ten",
+   "code": "4.NBT.B.6 (grade 3 in KMK)",
+   "skill": "Divide a two-digit number by a one-digit number in steps: split it into numbers the divisor goes into (84 : 4 = 80 : 4 + 4 : 4)"
+  },
+  {
+   "tp": "3:proportional-tables",
+   "grade": "3",
+   "strand": "Operations & Algebraic Thinking",
+   "code": "4.OA.A.2 (grade 3 in Lgr22)",
+   "skill": "Complete two-row tables of proportional relations (twice as many, twice as much; half as many, half as much) and say the relation in words"
+  },
+  {
+   "tp": "3:kilometres-and-metres",
+   "grade": "3",
+   "strand": "Measurement & Data",
+   "code": "4.MD.A.1 (grade 3 in KMK)",
+   "skill": "Know that 1 km = 1000 m, picture a kilometre as ten times 100 m, and find how many metres are missing to 1 km"
+  },
+  {
+   "tp": "3:comma-notation-money-length",
+   "grade": "3",
+   "strand": "Measurement & Data",
+   "code": "4.MD.A.2 (grade 3 in KMK)",
+   "skill": "Write euros and cents and metres and centimetres with a decimal comma and change between the two ways (3,45 € = 3 € 45 ct, 1,20 m = 1 m 20 cm)"
+  },
+  {
+   "tp": "3:old-body-measures",
+   "grade": "3",
+   "strand": "Measurement & Data",
+   "code": "READINESS:historical-measures",
+   "skill": "Measure with old body measures (inch, foot, ell, fathom), compare the numbers different bodies give, and say why standard units were agreed"
+  },
+  {
+   "tp": "3:circles-with-compass",
+   "grade": "3",
+   "strand": "Geometry",
+   "code": "READINESS:circles",
+   "skill": "Draw circles with a compass from a given radius or diameter, mark the centre and the radius, and draw circle patterns"
+  },
+  {
+   "tp": "3:count-all-possibilities",
+   "grade": "3",
+   "strand": "Measurement & Data",
+   "code": "READINESS:combinatorics",
+   "skill": "Find every possibility of a simple combination (outfits, scoops of ice cream) in a table or a tree diagram and count them"
+  },
+  {
+   "tp": "K:compare-capacity",
+   "grade": "K",
+   "strand": "Measurement & Data",
+   "code": "K.MD.A.2",
+   "skill": "Compare how much containers hold: say which of two holds the most, order three, and count how many cups fill a jar"
+  },
+  {
+   "tp": "1:units-give-different-numbers",
+   "grade": "1",
+   "strand": "Measurement & Data",
+   "code": "2.MD.A.2 (G1 readiness)",
+   "skill": "Measure the same object with two units and explain why the smaller unit gives the larger number"
   }
  ]
 }

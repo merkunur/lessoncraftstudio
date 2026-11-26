@@ -98,7 +98,10 @@
         "1:number-words",
         "2:explain-strategies",
         "2:add-with-blocks",
-        "1:mental-math-to-100"
+        "1:mental-math-to-100",
+        "3:mental-math-hundreds-tens",
+        "3:multiply-multiples-of-10",
+        "3:add-sub-by-place-value"
       ]
     },
     "picture-word-wall": {
@@ -136,7 +139,8 @@
         "1:measure-length-units",
         "2:mass-grams",
         "2:read-jugs",
-        "K:measurable-attributes"
+        "K:measurable-attributes",
+        "K:compare-capacity"
       ]
     },
     "money-mat": {
@@ -144,7 +148,8 @@
         "1:coins",
         "2:shopping-money",
         "1:prices-market",
-        "2:class-market"
+        "2:class-market",
+        "3:comma-notation-money-length"
       ]
     },
     "choral-counting": {
@@ -280,7 +285,9 @@
     },
     "unit-handle": {
       "points": [
-        "1:measure-length-units"
+        "1:measure-length-units",
+        "1:units-give-different-numbers",
+        "3:old-body-measures"
       ],
       "note": "what it models most exactly is \"a smaller unit gives a bigger number\" (2.MD.A.2), which no teaching point holds; measuring with units is the nearest"
     },
@@ -320,7 +327,8 @@
         "3:area-model",
         "3:mult-equal-groups",
         "2:arrays",
-        "3:two-step-word-problems"
+        "3:two-step-word-problems",
+        "3:multiply-in-steps"
       ]
     },
     "folding-wall": {

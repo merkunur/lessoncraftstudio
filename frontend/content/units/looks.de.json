@@ -19,22 +19,22 @@
    },
    "plan": {
     "slug": "stoffverteilung-mathe-klasse-1",
-    "title": "Mathe Klasse 1: Stoffverteilung für 27 Wochen",
-    "src": "/teaching-looks/de/g1-plan.c0941b47.webp",
+    "title": "Mathe Klasse 1: Stoffverteilung für 31 Wochen",
+    "src": "/teaching-looks/de/g1-plan.90fa562d.webp",
     "width": 640,
     "height": 906
    },
    "check": {
     "slug": "zahlen-bis-10-klasse-1",
     "title": "Zahlen bis 10: zählen, schreiben und vergleichen",
-    "src": "/teaching-looks/de/g1-check.1979f363.webp",
+    "src": "/teaching-looks/de/g1-check.2497cd78.webp",
     "width": 640,
     "height": 906
    },
    "standards": {
     "slug": "bildungsstandards-mathematik-grundschule",
     "title": "Bildungsstandards Mathematik Grundschule: Übersicht mit Unterrichtsstunden",
-    "src": "/teaching-looks/de/standards-bildungsstandards-mathematik-grundschule.b1d81a16.webp",
+    "src": "/teaching-looks/de/standards-bildungsstandards-mathematik-grundschule.0ce8a41b.webp",
     "width": 640,
     "height": 828
    }
@@ -56,22 +56,22 @@
    },
    "plan": {
     "slug": "stoffverteilung-mathe-klasse-2",
-    "title": "Mathe Klasse 2: Stoffverteilung für 30 Wochen",
-    "src": "/teaching-looks/de/g2-plan.dd1d6f1d.webp",
+    "title": "Mathe Klasse 2: Stoffverteilung für 33 Wochen",
+    "src": "/teaching-looks/de/g2-plan.0d001b2b.webp",
     "width": 640,
     "height": 906
    },
    "check": {
     "slug": "zahlen-bis-100-buendeln-und-hundertertafel-klasse-2",
     "title": "Zahlen bis 100: Bündeln und Hundertertafel",
-    "src": "/teaching-looks/de/g2-check.59a7c040.webp",
+    "src": "/teaching-looks/de/g2-check.8d6864fa.webp",
     "width": 640,
     "height": 906
    },
    "standards": {
     "slug": "bildungsstandards-mathematik-grundschule",
     "title": "Bildungsstandards Mathematik Grundschule: Übersicht mit Unterrichtsstunden",
-    "src": "/teaching-looks/de/standards-bildungsstandards-mathematik-grundschule.b1d81a16.webp",
+    "src": "/teaching-looks/de/standards-bildungsstandards-mathematik-grundschule.0ce8a41b.webp",
     "width": 640,
     "height": 828
    }
@@ -93,8 +93,8 @@
    },
    "plan": {
     "slug": "stoffverteilung-mathe-klasse-3",
-    "title": "Mathe Klasse 3: Stoffverteilung für 21 Wochen",
-    "src": "/teaching-looks/de/g3-plan.ce1aaf7f.webp",
+    "title": "Mathe Klasse 3: Stoffverteilung für 30 Wochen",
+    "src": "/teaching-looks/de/g3-plan.d896932b.webp",
     "width": 640,
     "height": 906
    },
@@ -108,7 +108,7 @@
    "standards": {
     "slug": "bildungsstandards-mathematik-grundschule",
     "title": "Bildungsstandards Mathematik Grundschule: Übersicht mit Unterrichtsstunden",
-    "src": "/teaching-looks/de/standards-bildungsstandards-mathematik-grundschule.b1d81a16.webp",
+    "src": "/teaching-looks/de/standards-bildungsstandards-mathematik-grundschule.0ce8a41b.webp",
     "width": 640,
     "height": 828
    }

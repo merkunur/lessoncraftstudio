@@ -75,7 +75,7 @@ var Ruler = {
   },
 
   /* Format the measured length for display + announce.
-       cm   → "5", "5.3", "0", "30"
+       cm   → "5", "5.3" ("5,3" in every language but English), "0", "30"
        inch → "5", "5 1/2", "5 1/8", "0", "12"            (reduced fractions) */
   formatLength: function (v) {
     var u = this.api.settings.units;
@@ -94,7 +94,9 @@ var Ruler = {
     var w = Math.floor(mm / 10);
     var d = mm % 10;
     if (d === 0) return w + ' cm';
-    return w + '.' + d + ' cm';
+    /* every language but English writes a decimal COMMA (6,5 cm); a Swedish teacher-reviewer found 6.5 cm (2026-11-26) */
+    var sep = (this.api && this.api.lang && String(this.api.lang).slice(0, 2) !== 'en') ? ',' : '.';
+    return w + sep + d + ' cm';
   },
 
   /* ---- state + setup ---- */

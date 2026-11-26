@@ -87,10 +87,13 @@
     },
     {
       "key": "de-1-089",
-      "fit": "none",
-      "types": [],
-      "differs": "Picture stories and practice with zero (5 + 0, 5 - 0, 5 - 5) must be built: every existing addition and subtraction generator deliberately leaves 0 out (the no-zero rule written into addsub-more.js; G1-208 uses numbers from 1 or 2 up). Could be a new mode of picture-equation.js (all crossed out / nothing added) plus a zero knob in the G1-208 mental-math generator; it needs a ruling on the no-zero rule first.",
-      "published": "n/a"
+      "fit": "exact",
+      "types": [
+        "G1-673"
+      ],
+      "differs": "",
+      "published": "n/a",
+      "built": "Stage E (2026-11-26): G1-673 was built for this lesson"
     },
     {
       "key": "de-1-090",
@@ -163,10 +166,13 @@
     },
     {
       "key": "de-1-097",
-      "fit": "none",
-      "types": [],
-      "differs": "A page that shows three children with their Rechenwege for 7 + 8 (to the ten, doubling, Tauschaufgabe), has the child match new tasks to a fitting way and write its own way must be built; nothing compares strategies. Building blocks exist in number-line-more.js (bridge) and doubles-more.js (near).",
-      "published": "n/a"
+      "fit": "exact",
+      "types": [
+        "G1-674"
+      ],
+      "differs": "",
+      "published": "n/a",
+      "built": "Stage E (2026-11-26): G1-674 was built for this lesson"
     },
     {
       "key": "de-1-098",
@@ -201,10 +207,13 @@
     },
     {
       "key": "de-1-101",
-      "fit": "none",
-      "types": [],
-      "differs": "A recording table for the child's own measuring (thing, measured with hand span / foot / step, estimated, measured, compare with a partner) must be built; no existing type is a measure-and-record sheet. Could be a new mode of measurement-more.js.",
-      "published": "n/a"
+      "fit": "exact",
+      "types": [
+        "G1-675"
+      ],
+      "differs": "",
+      "published": "n/a",
+      "built": "Stage E (2026-11-26): G1-675 was built for this lesson"
     },
     {
       "key": "de-1-102",
@@ -261,10 +270,13 @@
     },
     {
       "key": "de-2-107",
-      "fit": "none",
-      "types": [],
-      "differs": "Completing to the next ten and taking a one-digit number from a tens number (36 + _ = 40, 50 - 7 = _) with the helper task in verliebte Zahlen beside it is generated nowhere: G1-446 excludes sums that land on a ten and minuends that are tens, G1-440 is bonds of 100 only. A new kind of addsub-more.js mode mental100 with a helper line (or of number-line-more.js).",
-      "published": "n/a"
+      "fit": "exact",
+      "types": [
+        "G2-634"
+      ],
+      "differs": "",
+      "published": "n/a",
+      "built": "Stage E (2026-11-26): G2-634 was built for this lesson"
     },
     {
       "key": "de-2-108",
@@ -308,10 +320,13 @@
     },
     {
       "key": "de-2-112",
-      "fit": "none",
-      "types": [],
-      "differs": "A page that shows three children's Rechenwege for 39 + 25 (step by step, tens and ones apart, helper task), a fourth with a mistake to find, and tasks to solve with the helper task must be built; no existing type compares or checks calculation strategies.",
-      "published": "n/a"
+      "fit": "exact",
+      "types": [
+        "G2-635"
+      ],
+      "differs": "",
+      "published": "n/a",
+      "built": "Stage E (2026-11-26): G2-635 was built for this lesson"
     },
     {
       "key": "de-2-113",
@@ -342,10 +357,13 @@
     },
     {
       "key": "de-2-116",
-      "fit": "none",
-      "types": [],
-      "differs": "An estimate-then-measure table in m and cm plus sorting pictures to \"kuerzer als 1 m / etwa 1 m / laenger als 1 m\" must be built; G2-477 only asks which unit (cm or m) fits a thing. A new mode of measurement-more.js (recording table).",
-      "published": "n/a"
+      "fit": "exact",
+      "types": [
+        "G2-636"
+      ],
+      "differs": "",
+      "published": "n/a",
+      "built": "Stage E (2026-11-26): G2-636 was built for this lesson"
     },
     {
       "key": "de-2-117",
@@ -427,10 +445,13 @@
     },
     {
       "key": "de-3-125",
-      "fit": "none",
-      "types": [],
-      "differs": "Pairs small task / big task with hundreds and tens up to 1000 (3 + 4 and 300 + 400, 54 - 3 and 540 - 30, 380 + 50, completing to the next hundred and to 1000) are generated nowhere; the mental-math pages stop at 100. A new kind of addsub-more.js mode mental100 (analogy pairs), which the Klasse 1 and 2 pair pages could share.",
-      "published": "n/a"
+      "fit": "exact",
+      "types": [
+        "G3-633"
+      ],
+      "differs": "",
+      "published": "n/a",
+      "built": "Stage E (2026-11-26): G3-633 was built for this lesson"
     },
     {
       "key": "de-3-126",
@@ -461,52 +482,73 @@
     },
     {
       "key": "de-3-129",
-      "fit": "none",
-      "types": [],
-      "differs": "Pairs 3 mal 4 and 3 mal 40, 24 : 6 and 240 : 6 with pictures of groups of ten-rods must be built; the times-table and division pages stay inside 10 x 10. A new mode of the times-table generator (G3-358) or of md-more.js.",
-      "published": "n/a"
+      "fit": "exact",
+      "types": [
+        "G3-635"
+      ],
+      "differs": "",
+      "published": "n/a",
+      "built": "Stage E (2026-11-26): G3-635 was built for this lesson"
     },
     {
       "key": "de-3-130",
-      "fit": "none",
-      "types": [],
-      "differs": "A rectangle split at the tens line, an empty Malkreuz and three step lines for 4 mal 37 must be built; G3-313 only counts the squares of a small rectangle. A new mode, for example of array-tasks.js (area-grid, split).",
-      "published": "n/a"
+      "fit": "exact",
+      "types": [
+        "G3-636"
+      ],
+      "differs": "",
+      "published": "n/a",
+      "built": "Stage E (2026-11-26): G3-636 was built for this lesson"
     },
     {
       "key": "de-3-131",
-      "fit": "none",
-      "types": [],
-      "differs": "Halbschriftliches Dividieren by splitting the number (84 = 80 + 4) with block pictures and step lines must be built; the division pages here are table facts and remainders only. New type.",
-      "published": "n/a"
+      "fit": "exact",
+      "types": [
+        "G3-637"
+      ],
+      "differs": "",
+      "published": "n/a",
+      "built": "Stage E (2026-11-26): G3-637 was built for this lesson"
     },
     {
       "key": "de-3-132",
-      "fit": "none",
-      "types": [],
-      "differs": "Measuring lines and real-size objects to the millimetre, writing 4 cm 7 mm = 47 mm, and drawing lines of a given length must be built: G2-235 reads whole centimetres on a drawn ruler that is not real size. A real-size mode with millimetres is needed; the millimetre ruler artwork exists in measurement-more.js mode rulers (G2-475 level 3).",
-      "published": "n/a"
+      "fit": "exact",
+      "types": [
+        "G3-638"
+      ],
+      "differs": "",
+      "published": "n/a",
+      "built": "Stage E (2026-11-26): G3-638 was built for this lesson"
     },
     {
       "key": "de-3-133",
-      "fit": "none",
-      "types": [],
-      "differs": "A town map with distances in metres, sums up to 1000 m, completing to 1 km and matching everyday distances to \"etwa 100 m / etwa 1 km / viele Kilometer\" must be built; nothing works with metres and kilometres.",
-      "published": "n/a"
+      "fit": "exact",
+      "types": [
+        "G3-639"
+      ],
+      "differs": "",
+      "published": "n/a",
+      "built": "Stage E (2026-11-26): G3-639 was built for this lesson"
     },
     {
       "key": "de-3-134",
-      "fit": "none",
-      "types": [],
-      "differs": "Writing amounts of money and lengths in three notations (3 Euro 50 ct, 350 ct, 3,50 Euro; 1 m 25 cm, 125 cm, 1,25 m) and converting must be built. G3-474 only has the child write the total of notes and coins once in the country's format; its pictures and lib/money-format.js could be reused in a new mode of money-more.js.",
-      "published": "n/a"
+      "fit": "exact",
+      "types": [
+        "G3-640"
+      ],
+      "differs": "",
+      "published": "n/a",
+      "built": "Stage E (2026-11-26): G3-640 was built for this lesson"
     },
     {
       "key": "de-3-135",
-      "fit": "none",
-      "types": [],
-      "differs": "Rounding comma prices to whole euros, writing the Ueberschlag and deciding whether a 10- or 20-euro note is enough must be built: G3-389 rounds two-digit numbers to tens and adds them, G2-294 compares coins with a cent price without estimating. A new mode, for example of the rounding generator G2-346 (estimate) with money.",
-      "published": "n/a"
+      "fit": "exact",
+      "types": [
+        "G3-641"
+      ],
+      "differs": "",
+      "published": "n/a",
+      "built": "Stage E (2026-11-26): G3-641 was built for this lesson"
     },
     {
       "key": "de-3-136",
@@ -520,38 +562,53 @@
     },
     {
       "key": "de-3-137",
-      "fit": "none",
-      "types": [],
-      "differs": "Price tables (Anzahl and Preis) to continue up to 10 with the sentence \"Fuer jede Brezel mehr kommen _ Euro dazu\" and finding the price of one must be built. The nearest relative is G3-328 (number machines: a printed rule applied to inputs), which could get a ratio-table mode; shared with de-3-138 and sv-3-201.",
-      "published": "n/a"
+      "fit": "exact",
+      "types": [
+        "G3-642"
+      ],
+      "differs": "",
+      "published": "n/a",
+      "built": "Stage E (2026-11-26): G3-642 was built for this lesson"
     },
     {
       "key": "de-3-138",
-      "fit": "none",
-      "types": [],
-      "differs": "Word problems about amount and price solved in an empty two-row table with an arrow (mal 2, : 2, : 3) and an answer sentence must be built; no type has ratio tables. Same new ratio-table mode as de-3-137.",
-      "published": "n/a"
+      "fit": "exact",
+      "types": [
+        "G3-643"
+      ],
+      "differs": "",
+      "published": "n/a",
+      "built": "Stage E (2026-11-26): G3-643 was built for this lesson"
     },
     {
       "key": "de-3-139",
-      "fit": "none",
-      "types": [],
-      "differs": "A compass page (centres with a given radius, a target of three circles, a seven-circle flower to finish) must be built; nothing here is a drawing-instrument page.",
-      "published": "n/a"
+      "fit": "exact",
+      "types": [
+        "G3-644"
+      ],
+      "differs": "",
+      "published": "n/a",
+      "built": "Stage E (2026-11-26): G3-644 was built for this lesson"
     },
     {
       "key": "de-3-140",
-      "fit": "none",
-      "types": [],
-      "differs": "Two bar charts of the same data with different scales and statements to rate stimmt / stimmt nicht / kann man nicht ablesen must be built; graph-tasks.js only reads bars (G3-332 with a scale of 5) and answers number questions (G2-237). A new mode of graph-tasks.js.",
-      "published": "n/a"
+      "fit": "exact",
+      "types": [
+        "G3-645"
+      ],
+      "differs": "",
+      "published": "n/a",
+      "built": "Stage E (2026-11-26): G3-645 was built for this lesson"
     },
     {
       "key": "de-3-141",
-      "fit": "none",
-      "types": [],
-      "differs": "Combination tasks (3 T-shirts and 2 trousers, 2 of 4 ice-cream flavours, 3 children in a row) with a started table, list and tree diagram must be built; no combinatorics type exists.",
-      "published": "n/a"
+      "fit": "exact",
+      "types": [
+        "G3-646"
+      ],
+      "differs": "",
+      "published": "n/a",
+      "built": "Stage E (2026-11-26): G3-646 was built for this lesson"
     },
     {
       "key": "de-3-142",
@@ -581,10 +638,13 @@
     },
     {
       "key": "sv-K-145",
-      "fit": "none",
-      "types": [],
-      "differs": "Pairs of containers to ring the one that holds most, three containers to number from least to most, and drawing the number of mugs must be built: no capacity comparison exists (K-038 does the same for heavier / lighter from a real-life rank table). A new mode of measurement-tasks.js next to heavier.",
-      "published": "n/a"
+      "fit": "exact",
+      "types": [
+        "K-727"
+      ],
+      "differs": "",
+      "published": "n/a",
+      "built": "Stage E (2026-11-26): K-727 was built for this lesson"
     },
     {
       "key": "sv-K-146",
@@ -723,10 +783,13 @@
     },
     {
       "key": "sv-1-159",
-      "fit": "none",
-      "types": [],
-      "differs": "The same object measured twice, against a row of big blocks and against a row of small paper clips, with both numbers written and the unit that needed more ringed, must be built: G1-139 (unit squares) and G1-480 (paper clips) each measure with one unit only. A new mode that puts both rows under one object in measurement-tasks.js / measurement-more.js (small to medium).",
-      "published": "n/a"
+      "fit": "exact",
+      "types": [
+        "G1-676"
+      ],
+      "differs": "",
+      "published": "n/a",
+      "built": "Stage E (2026-11-26): G1-676 was built for this lesson"
     },
     {
       "key": "sv-1-160",
@@ -769,10 +832,13 @@
     },
     {
       "key": "sv-1-164",
-      "fit": "none",
-      "types": [],
-      "differs": "Two numbers marked on a 0 to 20 line with an arc between them, where the child writes the length of the jump, the subtraction and the matching addition, must be built: G1-119 hops back to take away and G1-438 / G1-439 are take-away jumps too. A new difference mode of number-line-tasks.js.",
-      "published": "n/a"
+      "fit": "exact",
+      "types": [
+        "G1-677"
+      ],
+      "differs": "",
+      "published": "n/a",
+      "built": "Stage E (2026-11-26): G1-677 was built for this lesson"
     },
     {
       "key": "sv-1-165",
@@ -1044,24 +1110,33 @@
     },
     {
       "key": "sv-3-193",
-      "fit": "none",
-      "types": [],
-      "differs": "A key of Egyptian number symbols and Roman numerals I, V, X with numbers to translate both ways must be built; no type has historical numerals.",
-      "published": "n/a"
+      "fit": "exact",
+      "types": [
+        "G3-647"
+      ],
+      "differs": "",
+      "published": "n/a",
+      "built": "Stage E (2026-11-26): G3-647 was built for this lesson"
     },
     {
       "key": "sv-3-194",
-      "fit": "none",
-      "types": [],
-      "differs": "Finished answers within 1000 to judge by an estimate (rimligt / orimligt, the estimate written as proof) and choosing the reasonable answer to everyday questions must be built. G1-447 has worked sums to check, but its wrong answers are off by 1, 2 or 10 within 100, which an estimate cannot catch; G3-389 rounds and adds two-digit numbers. A new mode, for example of addsub-more.js (errors with large errors) with the rounding generator.",
-      "published": "n/a"
+      "fit": "exact",
+      "types": [
+        "G3-648"
+      ],
+      "differs": "",
+      "published": "n/a",
+      "built": "Stage E (2026-11-26): G3-648 was built for this lesson"
     },
     {
       "key": "sv-3-195",
-      "fit": "none",
-      "types": [],
-      "differs": "Horizontal three-digit addition and subtraction with a template for mellanled (hundratal, tiotal, ental, svar) must be built: three-digit sums exist only as column pages (uppstaellning: G2-258, G3-361) and the horizontal mental pages stop at 100 (G1-446). A new level of addsub-more.js mode mental100 with a steps template, shared with sv-2-177.",
-      "published": "n/a"
+      "fit": "exact",
+      "types": [
+        "G3-649"
+      ],
+      "differs": "",
+      "published": "n/a",
+      "built": "Stage E (2026-11-26): G3-649 was built for this lesson"
     },
     {
       "key": "sv-3-196",
@@ -1106,17 +1181,23 @@
     },
     {
       "key": "sv-3-200",
-      "fit": "none",
-      "types": [],
-      "differs": "Pictures of tum, fot, aln and famn on the body with a table to measure with one's own body unit and then in cm and m must be built; no type is a measure-and-record sheet. A new mode of measurement-more.js, shared with the other recording tables (de-1-101, de-2-116, sv-2-181).",
-      "published": "n/a"
+      "fit": "exact",
+      "types": [
+        "G3-650"
+      ],
+      "differs": "",
+      "published": "n/a",
+      "built": "Stage E (2026-11-26): G3-650 was built for this lesson"
     },
     {
       "key": "sv-3-201",
-      "fit": "none",
-      "types": [],
-      "differs": "Two-row tables of proportional relations (number of ice creams and price; a recipe for 4 recalculated for 2 and 8) with a sentence in words must be built. The nearest relative is G3-328 (number machines: a printed rule applied to inputs), which could get a ratio-table mode; shared with de-3-137 and de-3-138.",
-      "published": "n/a"
+      "fit": "exact",
+      "types": [
+        "G3-651"
+      ],
+      "differs": "",
+      "published": "n/a",
+      "built": "Stage E (2026-11-26): G3-651 was built for this lesson"
     },
     {
       "key": "sv-3-202",

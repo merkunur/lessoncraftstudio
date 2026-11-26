@@ -5118,6 +5118,140 @@
    "none": "not yet read against this curriculum",
    "why": "The point was added on 2026-11-25 for an English lesson that waited for its page (acting out action words with close meanings; the rules of a book talk); read it against the wording when this language's units are designed.",
    "review": "year-design 2026-11-25"
+  },
+  "3:mental-math-hundreds-tens": {
+   "rows": [
+    {
+     "id": "M.1.2.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.2.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The page carries the small task over to the big one (3 + 4 = 7, also 300 + 400 = 700): «übertragen die Grundaufgaben des Kopfrechnens auf analoge Aufgaben im Zahlenraum bis zur Million»; completing to the next hundred and to 1000 in two steps uses the «mündliche[n] … Rechenstrategien».",
+   "review": "year-design 2026-11-26"
+  },
+  "3:add-sub-by-place-value": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-26 for the Swedish year design of mathematics (Stage E-3); no unit of this language teaches it yet. Read it against the wording when one does.",
+   "review": "year-design 2026-11-26"
+  },
+  "3:historical-numerals": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-26 for the Swedish year design of mathematics (Stage E-3); no unit of this language teaches it yet. Read it against the wording when one does.",
+   "review": "year-design 2026-11-26"
+  },
+  "3:multiply-multiples-of-10": {
+   "rows": [
+    {
+     "id": "M.1.2.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Every pair is the times-table fact and its tenfold (3 · 4 = 12, also 3 · 40 = 120; 24 : 6 = 4, also 240 : 6 = 40): «übertragen die Grundaufgaben des Kopfrechnens auf analoge Aufgaben im Zahlenraum bis zur Million».",
+   "review": "year-design 2026-11-26"
+  },
+  "3:multiply-in-steps": {
+   "rows": [
+    {
+     "id": "M.1.2.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.P.5.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Splitting the second factor into tens and ones (4 · 37 = 4 · 30 + 4 · 7) is one of the «halbschriftliche[n] Rechenstrategien zu den vier Grundrechenarten»; the child sets Punktefeld, Malkreuz and Rechenschritte side by side and says which helps most: «vergleichen Darstellungsformen miteinander und bewerten diese».",
+   "review": "year-design 2026-11-26"
+  },
+  "3:divide-in-steps": {
+   "rows": [
+    {
+     "id": "M.1.2.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.2.8",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Dividing by splitting the dividend (84 = 80 + 4) is one of the «halbschriftliche[n] Rechenstrategien zu den vier Grundrechenarten», and every page ends with a check by the multiplication: «kontrollieren Lösungen durch geeignete Vorgehensweisen (z. B. … Umkehroperation)».",
+   "review": "year-design 2026-11-26"
+  },
+  "3:proportional-tables": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-26 for the Swedish year design of mathematics (Stage E-3); no unit of this language teaches it yet. Read it against the wording when one does.",
+   "review": "year-design 2026-11-26"
+  },
+  "3:kilometres-and-metres": {
+   "rows": [
+    {
+     "id": "M.2.1.2",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.2.1.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "1 km = 1000 m and completing to 1 km is «kennen Standardeinheiten … zu Längen … und setzen diese … zueinander in Beziehung»; sorting a football pitch, a quarter of an hour on foot and a car journey to about 100 m, about 1 km or many kilometres is «Vorstellungen über Repräsentanten für Standardeinheiten».",
+   "review": "year-design 2026-11-26"
+  },
+  "3:comma-notation-money-length": {
+   "rows": [
+    {
+     "id": "M.2.2.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.2.1.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Each amount and length is written three ways (4 € 5 ct = 405 ct = 4,05 €): «benennen Größenangaben mit verschiedenen Einheiten und stellen diese in unterschiedlichen Schreibweisen (z. B. 2,5 km | 2500 m | 2 km 500 m) dar», and the units are set «zueinander in Beziehung».",
+   "review": "year-design 2026-11-26"
+  },
+  "3:old-body-measures": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-26 for the Swedish year design of mathematics (Stage E-3); no unit of this language teaches it yet. Read it against the wording when one does.",
+   "review": "year-design 2026-11-26"
+  },
+  "3:circles-with-compass": {
+   "rows": [
+    {
+     "id": "M.4.2.5",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.P.6.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The child draws circles of a given radius or diameter and a flower pattern with the compass: «fertigen Zeichnungen geometrischer Figuren mit und ohne Hilfsmittel an» and «setzen mathematische Werkzeuge (z. B. Zeichenwerkzeuge …) sachgerecht ein».",
+   "review": "year-design 2026-11-26"
+  },
+  "3:count-all-possibilities": {
+   "rows": [
+    {
+     "id": "M.5.1.4",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Outfits, filled rolls, outings and children in a row are found in order with a table, an ordered list and a tree: «lösen einfache kombinatorische Fragestellungen durch systematisches Vorgehen … oder mit Hilfe von heuristischen Hilfsmitteln (z. B. Skizze, Baumdiagramm, Tabelle)».",
+   "review": "year-design 2026-11-26"
+  },
+  "K:compare-capacity": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-26 for the Swedish year design of mathematics (Stage E-3); no unit of this language teaches it yet. Read it against the wording when one does.",
+   "review": "year-design 2026-11-26"
+  },
+  "1:units-give-different-numbers": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-26 for the Swedish year design of mathematics (Stage E-3); no unit of this language teaches it yet. Read it against the wording when one does.",
+   "review": "year-design 2026-11-26"
   }
  }
 }

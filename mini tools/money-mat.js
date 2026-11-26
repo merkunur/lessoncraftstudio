@@ -408,11 +408,13 @@ var MoneyMat = {
     return c.before ? (c.symbol + (c.tight ? '' : ' ') + s) : (s + ' ' + c.symbol);
   },
   /* the minor-unit mark, ONE site. ⚠ Native panels own this table: `45 c`
-     is not how fi (snt), de (Cent), it, es or pt write it — queued for the
+     is not how it or pt write it (de ct and fi snt done 2026-11-26) — queued for the
      locale round, and it must stay a single site so the fix is one edit. */
   _minorMark: function (cKey) {
     var mark = { eur: 'c', usd: '¢', gbp: 'p', brl: 'c' }[cKey || this.curKey()] || 'c';
     if ((this.api && this.api.lang) === 'nl') mark = 'ct';   /* Dutch tags read "ct" */
+    if ((this.api && this.api.lang) === 'de') mark = 'ct';   /* German tags read "45 ct" (the German teacher-reviewer, 2026-11-26) */
+    if ((this.api && this.api.lang) === 'fi') mark = 'snt';  /* Finnish tags read "45 snt" (senttiä) */
     return mark;
   },
   /* the price TAG: minor-form under 1 major, major-form above */

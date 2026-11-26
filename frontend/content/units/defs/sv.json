@@ -9,8 +9,8 @@
    "subject": "math",
    "title": "Läge, storlek och mönster",
    "metaTitle": "Matematik förskoleklass: Läge, storlek och mönster | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för förskoleklass, arbetsområdet ”Läge, storlek och mönster”: 6 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 5,
+   "metaDescription": "Lektionsplanering i matematik för förskoleklass, arbetsområdet ”Läge, storlek och mönster”: 8 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 6,
    "lessons": [
     {
      "point": "K:position-words",
@@ -41,10 +41,27 @@
      ]
     },
     {
+     "point": "1:measure-length-units",
+     "id": "1:measure-length-units#mata-langd-med-klossar",
+     "types": [
+      "G1-139"
+     ],
+     "tool": "unit-handle",
+     "activity": null
+    },
+    {
      "point": "K:heavy-light",
      "types": [
       "K-038"
      ]
+    },
+    {
+     "point": "K:compare-capacity",
+     "types": [
+      "K-727"
+     ],
+     "tool": "measurement-bench",
+     "activity": null
     },
     {
      "point": "K:patterns",
@@ -127,7 +144,7 @@
    "subject": "math",
    "title": "Geometriska former och spegelbilder",
    "metaTitle": "Matematik förskoleklass: Geometriska former och spegelbilder",
-   "metaDescription": "Lektionsplanering i matematik för förskoleklass, arbetsområdet ”Geometriska former och spegelbilder”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "metaDescription": "Lektionsplanering i matematik för förskoleklass, arbetsområdet ”Geometriska former och spegelbilder”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion.",
    "weeks": 4,
    "lessons": [
     {
@@ -155,6 +172,14 @@
      "types": [
       "K-063"
      ]
+    },
+    {
+     "point": "K:draw-shapes",
+     "types": [
+      "K-372"
+     ],
+     "tool": null,
+     "activity": null
     }
    ]
   },
@@ -656,9 +681,17 @@
    "subject": "math",
    "title": "Former, mönster och längd",
    "metaTitle": "Matematik åk 1: Former, mönster och längd | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Former, mönster och längd”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka tre veckor.",
-   "weeks": 3,
+   "metaDescription": "Lektionsplanering i matematik för åk 1, arbetsområdet ”Former, mönster och längd”: 7 lektioner med lärarkommentar och arbetsblad till varje lektion, cirka fyra veckor.",
+   "weeks": 4,
    "lessons": [
+    {
+     "point": "K:place-words",
+     "types": [
+      "G1-672"
+     ],
+     "tool": null,
+     "activity": null
+    },
     {
      "point": "1:shape-attributes",
      "types": [
@@ -696,6 +729,14 @@
       "G1-139",
       "G1-140"
      ]
+    },
+    {
+     "point": "1:units-give-different-numbers",
+     "types": [
+      "G1-676"
+     ],
+     "tool": "unit-handle",
+     "activity": null
     }
    ]
   },
@@ -766,7 +807,7 @@
    "subject": "math",
    "title": "Addition och subtraktion 0–20: dubblor, tiotalsövergång och talfamiljer",
    "metaTitle": "Matematik åk 1: Addition och subtraktion 0–20 | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 1, ”Addition och subtraktion 0–20”: 6 lektioner om samma ental med en tia till, dubblor, tiotalsövergång och talfamiljer.",
+   "metaDescription": "Lektionsplanering i matematik för åk 1, ”Addition och subtraktion 0–20”: 7 lektioner om samma ental med en tia till, dubblor, tiotalsövergång och talfamiljer.",
    "weeks": 4,
    "lessons": [
     {
@@ -804,6 +845,15 @@
       "G1-556"
      ],
      "tool": "open-number-line",
+     "activity": null
+    },
+    {
+     "point": "1:count-on-back-hops",
+     "id": "1:count-on-back-hops#subtraktion-som-skillnad",
+     "types": [
+      "G1-677"
+     ],
+     "tool": "number-line",
      "activity": null
     },
     {
@@ -1225,7 +1275,7 @@
    "subject": "math",
    "title": "Addition och subtraktion 0–100 med pengar",
    "metaTitle": "Matematik åk 2: Addition och subtraktion 0–100 med pengar",
-   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Addition och subtraktion 0–100 med pengar”: 11 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "metaDescription": "Lektionsplanering i matematik för åk 2, arbetsområdet ”Addition och subtraktion 0–100 med pengar”: 12 lektioner med lärarkommentar och arbetsblad till varje lektion.",
    "weeks": 6,
    "lessons": [
     {
@@ -1310,6 +1360,15 @@
      ]
     },
     {
+     "point": "2:shopping-money",
+     "id": "2:shopping-money#betala-med-sedlar",
+     "types": [
+      "G2-631"
+     ],
+     "tool": "money-mat",
+     "activity": null
+    },
+    {
      "point": "2:two-step-word-problems",
      "id": "2:two-step-word-problems#raknehandelser-0-100",
      "types": [
@@ -1328,8 +1387,8 @@
    "subject": "math",
    "title": "Längd, klockan och almanackan",
    "metaTitle": "Matematik åk 2: Längd, klockan och almanackan | Lektionsplanering",
-   "metaDescription": "Lektionsplanering i matematik för åk 2, ”Längd, klockan och almanackan”: 5 lektioner om längd, liter och deciliter, klockan och almanackan, cirka tre veckor.",
-   "weeks": 3,
+   "metaDescription": "Lektionsplanering i matematik för åk 2, ”Längd, klockan och almanackan”: 9 lektioner om längd, liter och deciliter, klockan och almanackan, cirka fem veckor.",
+   "weeks": 5,
    "lessons": [
     {
      "point": "2:measure-with-ruler",
@@ -1342,6 +1401,23 @@
      "types": [
       "G2-236"
      ]
+    },
+    {
+     "point": "2:estimate-lengths",
+     "types": [
+      "G2-637"
+     ],
+     "tool": "ruler",
+     "activity": null
+    },
+    {
+     "point": "2:mass-grams",
+     "id": "2:mass-grams#kilogram",
+     "types": [
+      "G2-632"
+     ],
+     "tool": "measurement-bench",
+     "activity": null
     },
     {
      "point": "2:read-jugs",
@@ -1358,6 +1434,31 @@
       "G2-249",
       "G2-250"
      ]
+    },
+    {
+     "point": "1:time-read",
+     "id": "1:time-read#fem-i-halv",
+     "types": [
+      "G1-477"
+     ],
+     "core": {
+      "G1-477": 3
+     },
+     "prefer": [
+      "klockan-svar-g1477-12",
+      "klockan-svar-g1477-15",
+      "klockan-svar-g1477-14"
+     ],
+     "tool": "learning-clock",
+     "activity": null
+    },
+    {
+     "point": "3:elapsed-duration",
+     "types": [
+      "G2-633"
+     ],
+     "tool": null,
+     "activity": null
     },
     {
      "point": "2:calendar",
@@ -1817,8 +1918,8 @@
    "subject": "math",
    "title": "Talen 0–1000: hundratal, tiotal och ental",
    "metaTitle": "Matematik åk 3: Talen 0–1000 – hundratal, tiotal och ental",
-   "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Talen 0–1000: hundratal, tiotal och ental”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 2,
+   "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Talen 0–1000: hundratal, tiotal och ental”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 3,
    "lessons": [
     {
      "point": "2:read-build-3-digit",
@@ -1846,6 +1947,14 @@
      "types": [
       "G2-226"
      ]
+    },
+    {
+     "point": "3:historical-numerals",
+     "types": [
+      "G3-647"
+     ],
+     "tool": null,
+     "activity": null
     }
    ]
   },
@@ -1857,8 +1966,8 @@
    "subject": "math",
    "title": "Avrundning, överslag och uppställning",
    "metaTitle": "Matematik åk 3: Avrundning, överslag och uppställning",
-   "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Avrundning, överslag och uppställning”: 6 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 4,
+   "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Avrundning, överslag och uppställning”: 8 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 5,
    "lessons": [
     {
      "point": "2:round-to-ten",
@@ -1879,6 +1988,23 @@
      "types": [
       "G3-389"
      ],
+     "activity": null
+    },
+    {
+     "point": "3:estimate-by-rounding",
+     "id": "3:estimate-by-rounding#ar-svaret-rimligt",
+     "types": [
+      "G3-648"
+     ],
+     "tool": null,
+     "activity": null
+    },
+    {
+     "point": "3:add-sub-by-place-value",
+     "types": [
+      "G3-649"
+     ],
+     "tool": "place-value-lab",
      "activity": null
     },
     {
@@ -2034,8 +2160,8 @@
    "subject": "math",
    "title": "Mätning: tid, massa, volym och temperatur",
    "metaTitle": "Matematik åk 3: Mätning – tid, massa, volym och temperatur",
-   "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Mätning: tid, massa, volym och temperatur”: 5 lektioner med lärarkommentar och arbetsblad till varje lektion.",
-   "weeks": 3,
+   "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Mätning: tid, massa, volym och temperatur”: 6 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 4,
    "lessons": [
     {
      "point": "3:time-to-minute",
@@ -2070,6 +2196,14 @@
      "types": [
       "G3-345"
      ],
+     "activity": null
+    },
+    {
+     "point": "3:old-body-measures",
+     "types": [
+      "G3-650"
+     ],
+     "tool": "unit-handle",
      "activity": null
     }
    ]
@@ -2230,6 +2364,52 @@
      "types": [
       "G3-346"
      ]
+    }
+   ]
+  },
+  {
+   "id": "sv-3-ma-samband-slump-statistik",
+   "slug": "samband-slump-och-statistik-ak-3",
+   "status": "live",
+   "grade": "3",
+   "subject": "math",
+   "title": "Samband, slump och statistik",
+   "metaTitle": "Matematik åk 3: Samband, slump och statistik | Lektionsplanering",
+   "metaDescription": "Lektionsplanering i matematik för åk 3, arbetsområdet ”Samband, slump och statistik”: 4 lektioner med lärarkommentar och arbetsblad till varje lektion.",
+   "weeks": 2,
+   "lessons": [
+    {
+     "point": "3:proportional-tables",
+     "types": [
+      "G3-651"
+     ],
+     "tool": null,
+     "activity": null
+    },
+    {
+     "point": "3:chance-more-likely",
+     "types": [
+      "G3-484"
+     ],
+     "tool": "draw-bag",
+     "activity": null
+    },
+    {
+     "point": "3:scaled-graphs",
+     "id": "3:scaled-graphs#egen-undersokning",
+     "types": [
+      "G3-632"
+     ],
+     "tool": null,
+     "activity": null
+    },
+    {
+     "point": "3:line-plot-halves",
+     "types": [
+      "G3-652"
+     ],
+     "tool": "ruler",
+     "activity": null
     }
    ]
   },
@@ -2442,7 +2622,8 @@
     "sv-3-ma-matning",
     "sv-3-ma-brak",
     "sv-3-ma-algebra",
-    "sv-3-ma-geometri"
+    "sv-3-ma-geometri",
+    "sv-3-ma-samband-slump-statistik"
    ]
   }
  ]

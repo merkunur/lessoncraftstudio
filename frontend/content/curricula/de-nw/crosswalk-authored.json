@@ -3975,14 +3975,32 @@
    "review": "year-design 2026-11-13"
   },
   "2:estimate-lengths": {
-   "none": "not yet read against this curriculum",
-   "why": "The point was added on 2026-11-13 for a lesson of the US school year that the teacher leads without a page; no unit of this language teaches it. Read it against the wording before a lesson of this language stands on it.",
-   "review": "year-design 2026-11-13"
+   "rows": [
+    {
+     "id": "M.3.1.s3",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.3.1.s1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«schätzen mithilfe von Stützpunktvorstellungen (für 1cm, 1m …)» (Fingerbreite, Türbreite), then «ermitteln Längen mit Messgeräten (u. a. Lineal, Zollstock)».",
+   "review": "year-design 2026-11-26"
   },
   "2:explain-strategies": {
-   "none": "not yet read against this curriculum",
-   "why": "The point was added on 2026-11-13 for a lesson of the US school year that the teacher leads without a page; no unit of this language teaches it. Read it against the wording before a lesson of this language stands on it.",
-   "review": "year-design 2026-11-13"
+   "rows": [
+    {
+     "id": "M.1.7.s1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.4.s3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The ways compared are the plan's own («stellenweise, schrittweise, Hilfsaufgaben»: «entscheiden sich aufgabenbezogen … für eine Strategie des Zahlenrechnens»), and the child writes its own way down, «beschreiben (eigene) Rechenwege im Zahlenraum bis 100 für andere nachvollziehbar».",
+   "review": "year-design 2026-11-26"
   },
   "K:read-picture-book": {
    "none": "not yet read against this curriculum",
@@ -5587,6 +5605,136 @@
    "none": "not yet read against this curriculum",
    "why": "The point was added on 2026-11-25 for an English lesson that waited for its page (acting out action words with close meanings; the rules of a book talk); read it against the wording when this language's units are designed.",
    "review": "year-design 2026-11-25"
+  },
+  "3:mental-math-hundreds-tens": {
+   "rows": [
+    {
+     "id": "M.1.3.k1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Adding and subtracting Hunderter- and Zehnerzahlen with the small task, and completing to the next hundred and to 1000, is «lösen Aufgaben zum schnellen Kopfrechnen im erweiterten Zahlenraum bis 1.000.000».",
+   "review": "year-design 2026-11-26"
+  },
+  "3:add-sub-by-place-value": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-26 for the Swedish year design of mathematics (Stage E-3); no unit of this language teaches it yet. Read it against the wording when one does.",
+   "review": "year-design 2026-11-26"
+  },
+  "3:historical-numerals": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-26 for the Swedish year design of mathematics (Stage E-3); no unit of this language teaches it yet. Read it against the wording when one does.",
+   "review": "year-design 2026-11-26"
+  },
+  "3:multiply-multiples-of-10": {
+   "rows": [
+    {
+     "id": "M.1.3.k1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "3 · 40 and 240 : 6 from the Einmaleins fact are «Aufgaben zum schnellen Kopfrechnen im erweiterten Zahlenraum»; the list names no separate line for multiples of ten.",
+   "review": "year-design 2026-11-26"
+  },
+  "3:multiply-in-steps": {
+   "rows": [
+    {
+     "id": "M.1.4.k1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.2.g6",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«lösen Aufgaben aller vier Grundrechenarten unter Ausnutzung von Rechengesetzen und Zerlegungsstrategien mündlich oder halbschriftlich»; 4 · 37 = 4 · 30 + 4 · 7 is the «Distributivgesetz» used on an example.",
+   "review": "year-design 2026-11-26"
+  },
+  "3:divide-in-steps": {
+   "rows": [
+    {
+     "id": "M.1.4.k1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.1.2.g7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Dividing by splitting the dividend is a «Zerlegungsstrategie … halbschriftlich»; checking each result with the multiplication is «nutzen und erklären die Zusammenhänge der Operationen untereinander».",
+   "review": "year-design 2026-11-26"
+  },
+  "3:proportional-tables": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-26 for the Swedish year design of mathematics (Stage E-3); no unit of this language teaches it yet. Read it against the wording when one does.",
+   "review": "year-design 2026-11-26"
+  },
+  "3:kilometres-and-metres": {
+   "rows": [
+    {
+     "id": "M.3.1.k5",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.3.1.k3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The unit km is introduced with 1 km = 1000 m («verwenden zusätzlich die Einheiten für Längen (mm, km) … umwandeln»), and everyday distances build «Stützpunktvorstellungen (für … 1km)».",
+   "review": "year-design 2026-11-26"
+  },
+  "3:comma-notation-money-length": {
+   "rows": [
+    {
+     "id": "M.3.1.k5",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.3.1.k7",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Amounts and lengths in three ways of writing are «stellen Größenangaben in unterschiedlichen Schreibweisen dar (umwandeln)»; the comma form is the «Dezimalzahlen» the plan names for Größen in Klasse 3/4.",
+   "review": "year-design 2026-11-26"
+  },
+  "3:old-body-measures": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-26 for the Swedish year design of mathematics (Stage E-3); no unit of this language teaches it yet. Read it against the wording when one does.",
+   "review": "year-design 2026-11-26"
+  },
+  "3:circles-with-compass": {
+   "rows": [
+    {
+     "id": "M.2.5.k1",
+     "rel": "teaches"
+    },
+    {
+     "id": "M.2.2.k2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«zeichnen Bögen … mit Zeichengeräten (u. a. Zirkel, Geodreieck)»: circles of a given radius; the flower of equal circles is a pattern the child continues, «stellen Muster durch Fortsetzen her».",
+   "review": "year-design 2026-11-26"
+  },
+  "3:count-all-possibilities": {
+   "rows": [
+    {
+     "id": "M.4.2.g1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«bestimmen zunehmend systematischer die Anzahl verschiedener Möglichkeiten im Rahmen einfacher kombinatorischer Aufgabenstellungen»: table, ordered list and tree are the systematic forms.",
+   "review": "year-design 2026-11-26"
+  },
+  "K:compare-capacity": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-26 for the Swedish year design of mathematics (Stage E-3); no unit of this language teaches it yet. Read it against the wording when one does.",
+   "review": "year-design 2026-11-26"
+  },
+  "1:units-give-different-numbers": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-26 for the Swedish year design of mathematics (Stage E-3); no unit of this language teaches it yet. Read it against the wording when one does.",
+   "review": "year-design 2026-11-26"
   }
  }
 }

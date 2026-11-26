@@ -686,6 +686,20 @@
   "G1-677": "1:count-on-back-hops",
   "G2-637": "2:estimate-lengths",
   "G3-648": "3:estimate-by-rounding",
-  "G3-652": "3:line-plot-halves"
+  "G3-652": "3:line-plot-halves",
+  "G3-633": "3:mental-math-hundreds-tens",
+  "G3-649": "3:add-sub-by-place-value",
+  "G3-647": "3:historical-numerals",
+  "G3-635": "3:multiply-multiples-of-10",
+  "G3-636": "3:multiply-in-steps",
+  "G3-637": "3:divide-in-steps",
+  "G3-651": "3:proportional-tables",
+  "G3-639": "3:kilometres-and-metres",
+  "G3-640": "3:comma-notation-money-length",
+  "G3-650": "3:old-body-measures",
+  "G3-644": "3:circles-with-compass",
+  "G3-646": "3:count-all-possibilities",
+  "K-727": "K:compare-capacity",
+  "G1-676": "1:units-give-different-numbers"
  }
 }

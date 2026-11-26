@@ -326,6 +326,10 @@
    ],
    "by": "authored"
   },
+  "K:compare-capacity": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "K:draw-shapes": {
    "rows": [
     {
@@ -734,6 +738,10 @@
      "grade": "1-3"
     }
    ],
+   "by": "authored"
+  },
+  "1:units-give-different-numbers": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "1:time-read": {
@@ -1464,6 +1472,10 @@
    ],
    "by": "authored"
   },
+  "3:historical-numerals": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "3:rounding": {
    "rows": [
     {
@@ -1477,6 +1489,14 @@
      "grade": "4-5"
     }
    ],
+   "by": "authored"
+  },
+  "3:mental-math-hundreds-tens": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:add-sub-by-place-value": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "3:column-regrouping": {
@@ -1604,6 +1624,14 @@
    ],
    "by": "authored"
   },
+  "3:multiply-multiples-of-10": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:multiply-in-steps": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "3:scaled-graphs": {
    "rows": [
     {
@@ -1627,6 +1655,18 @@
      "grade": "4-5"
     }
    ],
+   "by": "authored"
+  },
+  "3:kilometres-and-metres": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:comma-notation-money-length": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
+  "3:old-body-measures": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "3:division-sharing": {
@@ -1667,6 +1707,10 @@
      "grade": "1-3"
     }
    ],
+   "by": "authored"
+  },
+  "3:divide-in-steps": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "3:muldiv-word-problems": {
@@ -1717,6 +1761,10 @@
      "grade": "1-3"
     }
    ],
+   "by": "authored"
+  },
+  "3:proportional-tables": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "3:balance-equations": {
@@ -1889,6 +1937,10 @@
    ],
    "by": "authored"
   },
+  "3:circles-with-compass": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "3:partition-equal-areas": {
    "rows": [
     {
@@ -1977,6 +2029,10 @@
      "grade": "1-3"
     }
    ],
+   "by": "authored"
+  },
+  "3:count-all-possibilities": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "3:chance-more-likely": {

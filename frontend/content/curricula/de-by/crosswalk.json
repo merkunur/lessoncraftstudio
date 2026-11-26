@@ -292,6 +292,10 @@
    ],
    "by": "authored"
   },
+  "K:compare-capacity": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "K:draw-shapes": {
    "rows": [
     {
@@ -777,6 +781,10 @@
    ],
    "by": "authored"
   },
+  "1:units-give-different-numbers": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "1:time-read": {
    "rows": [
     {
@@ -1133,7 +1141,18 @@
    "by": "authored"
   },
   "2:estimate-lengths": {
-   "none": "not yet read against this curriculum",
+   "rows": [
+    {
+     "id": "M1/2.3.2.1",
+     "rel": "teaches",
+     "grade": "1-2"
+    },
+    {
+     "id": "M1/2.3.1.2",
+     "rel": "teaches",
+     "grade": "1-2"
+    }
+   ],
    "by": "authored"
   },
   "2:read-build-3-digit": {
@@ -1332,7 +1351,18 @@
    "by": "authored"
   },
   "2:explain-strategies": {
-   "none": "not yet read against this curriculum",
+   "rows": [
+    {
+     "id": "M1/2.1.2.5",
+     "rel": "teaches",
+     "grade": "1-2"
+    },
+    {
+     "id": "M1/2.1.2.6",
+     "rel": "teaches",
+     "grade": "1-2"
+    }
+   ],
    "by": "authored"
   },
   "2:shopping-money": {
@@ -1620,6 +1650,10 @@
    ],
    "by": "authored"
   },
+  "3:historical-numerals": {
+   "none": "not yet read against this curriculum",
+   "by": "authored"
+  },
   "3:rounding": {
    "rows": [
     {
@@ -1633,6 +1667,20 @@
      "grade": "3-4"
     }
    ],
+   "by": "authored"
+  },
+  "3:mental-math-hundreds-tens": {
+   "rows": [
+    {
+     "id": "M3/4.1.2.2",
+     "rel": "teaches",
+     "grade": "3-4"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:add-sub-by-place-value": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "3:column-regrouping": {
@@ -1770,6 +1818,31 @@
    ],
    "by": "authored"
   },
+  "3:multiply-multiples-of-10": {
+   "rows": [
+    {
+     "id": "M3/4.1.2.2",
+     "rel": "teaches",
+     "grade": "3-4"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:multiply-in-steps": {
+   "rows": [
+    {
+     "id": "M3/4.1.2.4",
+     "rel": "teaches",
+     "grade": "3-4"
+    },
+    {
+     "id": "M3/4.1.2.5",
+     "rel": "teaches",
+     "grade": "3-4"
+    }
+   ],
+   "by": "authored"
+  },
   "3:scaled-graphs": {
    "rows": [
     {
@@ -1793,6 +1866,40 @@
      "grade": "3-4"
     }
    ],
+   "by": "authored"
+  },
+  "3:kilometres-and-metres": {
+   "rows": [
+    {
+     "id": "M3/4.3.2.1",
+     "rel": "teaches",
+     "grade": "3-4"
+    },
+    {
+     "id": "M3/4.3.1.3",
+     "rel": "teaches",
+     "grade": "3-4"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:comma-notation-money-length": {
+   "rows": [
+    {
+     "id": "M3/4.3.1.2",
+     "rel": "teaches",
+     "grade": "3-4"
+    },
+    {
+     "id": "M3/4.3.1.3",
+     "rel": "teaches",
+     "grade": "3-4"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:old-body-measures": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "3:division-sharing": {
@@ -1836,6 +1943,21 @@
      "id": "M1/2.1.2.5",
      "rel": "teaches",
      "grade": "1-2"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:divide-in-steps": {
+   "rows": [
+    {
+     "id": "M3/4.1.2.4",
+     "rel": "teaches",
+     "grade": "3-4"
+    },
+    {
+     "id": "M3/4.1.2.5",
+     "rel": "teaches",
+     "grade": "3-4"
     }
    ],
    "by": "authored"
@@ -1888,6 +2010,10 @@
      "grade": "3-4"
     }
    ],
+   "by": "authored"
+  },
+  "3:proportional-tables": {
+   "none": "not yet read against this curriculum",
    "by": "authored"
   },
   "3:balance-equations": {
@@ -2045,6 +2171,16 @@
    ],
    "by": "authored"
   },
+  "3:circles-with-compass": {
+   "rows": [
+    {
+     "id": "M3/4.2.2.5",
+     "rel": "teaches",
+     "grade": "3-4"
+    }
+   ],
+   "by": "authored"
+  },
   "3:partition-equal-areas": {
    "rows": [
     {
@@ -2135,6 +2271,16 @@
     {
      "id": "M3/4.3.2.3",
      "rel": "prepares",
+     "grade": "3-4"
+    }
+   ],
+   "by": "authored"
+  },
+  "3:count-all-possibilities": {
+   "rows": [
+    {
+     "id": "M3/4.1.3.7",
+     "rel": "teaches",
      "grade": "3-4"
     }
    ],

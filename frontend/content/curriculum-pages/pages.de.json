@@ -22,12 +22,12 @@
    "metaDescription": "Die Kompetenzbereiche der KMK-Bildungsstandards Mathematik für die Grundschule, jeweils mit unseren Unterrichtsstunden und Arbeitsblättern dazu und mit dem, was noch fehlt.",
    "counts": {
     "objectives": 65,
-    "taught": 40,
+    "taught": 50,
     "near": 0,
-    "open": 2,
-    "lessons": 128,
+    "open": 0,
+    "lessons": 155,
     "parts": 19,
-    "partsTaught": 17
+    "partsTaught": 19
    },
    "groups": [
     {
@@ -49,8 +49,31 @@
          "unitGrade": "3",
          "lessons": [
           {
-           "n": 5,
+           "n": 8,
            "title": "Ist die Summe gerade oder ungerade?"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "code": "",
+       "title": "Mathematisch kommunizieren",
+       "key": "part-m-p-2",
+       "state": "taught",
+       "counts": {
+        "objectives": 3,
+        "taught": 1
+       },
+       "units": [
+        {
+         "unit": "plus-und-minus-bis-100-zweistellige-zahlen-klasse-2",
+         "unitTitle": "Plus und Minus bis 100: zweistellige Zahlen und Sachaufgaben",
+         "unitGrade": "2",
+         "lessons": [
+          {
+           "n": 3,
+           "title": "Rechenwege vergleichen: schrittweise oder mit Hilfsaufgabe?"
           }
          ]
         }
@@ -63,24 +86,19 @@
        "state": "taught",
        "counts": {
         "objectives": 3,
-        "taught": 0
+        "taught": 1
        },
-       "papers": [
+       "units": [
         {
-         "title": "Magische Quadrate",
-         "core": "logikraetsel-g3349"
-        },
-        {
-         "title": "Bilder-Sudoku",
-         "core": "logikraetsel-spielzeug-g1158"
-        },
-        {
-         "title": "Logicals mit Bildhinweisen",
-         "core": "logicals-fahrzeuge-g1349"
-        },
-        {
-         "title": "Logicals: drei Hinweise, eine Lösung",
-         "core": "logicals-haustiere-g2319"
+         "unit": "halbschriftlich-addieren-und-subtrahieren-bis-1000-klasse-3",
+         "unitTitle": "Halbschriftlich addieren und subtrahieren bis 1000",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 4,
+           "title": "Zauberquadrate"
+          }
+         ]
         }
        ]
       },
@@ -111,7 +129,7 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 4,
+           "n": 5,
            "title": "Rechengeschichten bis 20"
           }
          ]
@@ -122,7 +140,7 @@
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 3,
+           "n": 4,
            "title": "Sachaufgaben bis 100: Frage, Rechnung, Antwort"
           }
          ]
@@ -137,6 +155,21 @@
            "title": "Sachaufgaben zum Malnehmen und Teilen"
           }
          ]
+        },
+        {
+         "unit": "laengen-und-geld-millimeter-kilometer-kommaschreibweise-klasse-3",
+         "unitTitle": "Längen und Geld: Millimeter, Kilometer und Kommaschreibweise",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 5,
+           "title": "Preistabellen: je mehr, desto teurer"
+          },
+          {
+           "n": 6,
+           "title": "Sachaufgaben mit Tabellen lösen"
+          }
+         ]
         }
        ]
       },
@@ -147,7 +180,7 @@
        "state": "taught",
        "counts": {
         "objectives": 3,
-        "taught": 2
+        "taught": 3
        },
        "units": [
         {
@@ -186,20 +219,57 @@
            "title": "Zweistellige Zahlen subtrahieren: 67 − 24 und 82 − 35"
           }
          ]
+        },
+        {
+         "unit": "halbschriftlich-addieren-und-subtrahieren-bis-1000-klasse-3",
+         "unitTitle": "Halbschriftlich addieren und subtrahieren bis 1000",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 2,
+           "title": "Halbschriftlich addieren: den Rechenweg aufschreiben und erklären"
+          },
+          {
+           "n": 3,
+           "title": "Halbschriftlich subtrahieren: abziehen oder ergänzen?"
+          }
+         ]
+        },
+        {
+         "unit": "malnehmen-und-teilen-gleichungen-und-zahlenfolgen-klasse-3",
+         "unitTitle": "Malnehmen und Teilen, Gleichungen und Zahlenfolgen",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 4,
+           "title": "Halbschriftlich multiplizieren: 4 · 37"
+          }
+         ]
         }
        ]
-      }
-     ],
-     "openParts": [
-      {
-       "code": "",
-       "title": "Mathematisch kommunizieren",
-       "key": "part-m-p-2"
       },
       {
        "code": "",
        "title": "Mit mathematischen Objekten und Werkzeugen arbeiten",
-       "key": "part-m-p-6"
+       "key": "part-m-p-6",
+       "state": "taught",
+       "counts": {
+        "objectives": 4,
+        "taught": 1
+       },
+       "units": [
+        {
+         "unit": "rechte-winkel-vierecke-symmetrie-und-diagramme-klasse-3",
+         "unitTitle": "Rechte Winkel, Vierecke, Symmetrie und Diagramme",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 4,
+           "title": "Mit dem Zirkel zeichnen: Kreise und Kreismuster"
+          }
+         ]
+        }
+       ]
       }
      ]
     },
@@ -263,6 +333,10 @@
           {
            "n": 4,
            "title": "Zahlen am Zahlenstrahl finden"
+          },
+          {
+           "n": 5,
+           "title": "In Zehnern bündeln: Zehner und Einer"
           }
          ]
         },
@@ -346,6 +420,10 @@
           },
           {
            "n": 4,
+           "title": "Der Zahlenstrahl bis 1000: die Schrittweite finden"
+          },
+          {
+           "n": 5,
            "title": "100 mehr, 100 weniger"
           }
          ]
@@ -382,7 +460,7 @@
        "state": "taught",
        "counts": {
         "objectives": 8,
-        "taught": 7
+        "taught": 8
        },
        "units": [
         {
@@ -419,10 +497,14 @@
           },
           {
            "n": 4,
-           "title": "Verliebte Zahlen: zusammen 10"
+           "title": "Rechnen mit der Null"
           },
           {
            "n": 5,
+           "title": "Verliebte Zahlen: zusammen 10"
+          },
+          {
+           "n": 6,
            "title": "Am Zahlenstrahl vorwärts und rückwärts hüpfen"
           }
          ]
@@ -491,7 +573,11 @@
            "title": "Minus über die 10: erst zurück zur 10"
           },
           {
-           "n": 5,
+           "n": 4,
+           "title": "Rechenwege vergleichen: Wie rechnest du 7 + 8?"
+          },
+          {
+           "n": 6,
            "title": "Kopfrechnen bis 20"
           }
          ]
@@ -511,10 +597,14 @@
           },
           {
            "n": 3,
-           "title": "Plus mit Zehnerübergang: 47 + 8"
+           "title": "Zum Zehner ergänzen, vom Zehner abziehen"
           },
           {
            "n": 4,
+           "title": "Plus mit Zehnerübergang: 47 + 8"
+          },
+          {
+           "n": 5,
            "title": "Minus mit Zehnerübergang: 53 − 6"
           }
          ]
@@ -533,7 +623,11 @@
            "title": "Zweistellige Zahlen subtrahieren: 67 − 24 und 82 − 35"
           },
           {
-           "n": 4,
+           "n": 3,
+           "title": "Rechenwege vergleichen: schrittweise oder mit Hilfsaufgabe?"
+          },
+          {
+           "n": 5,
            "title": "Plus und Minus bis 100 üben"
           }
          ]
@@ -624,6 +718,25 @@
          ]
         },
         {
+         "unit": "halbschriftlich-addieren-und-subtrahieren-bis-1000-klasse-3",
+         "unitTitle": "Halbschriftlich addieren und subtrahieren bis 1000",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 1,
+           "title": "Rechnen mit Hunderter- und Zehnerzahlen"
+          },
+          {
+           "n": 2,
+           "title": "Halbschriftlich addieren: den Rechenweg aufschreiben und erklären"
+          },
+          {
+           "n": 3,
+           "title": "Halbschriftlich subtrahieren: abziehen oder ergänzen?"
+          }
+         ]
+        },
+        {
          "unit": "runden-und-schriftlich-rechnen-bis-1000-klasse-3",
          "unitTitle": "Runden und schriftlich rechnen bis 1000",
          "unitGrade": "3",
@@ -647,6 +760,10 @@
           {
            "n": 7,
            "title": "Schriftlich addieren und subtrahieren mit Übertrag"
+          },
+          {
+           "n": 8,
+           "title": "Überschlag und Probe: Kann das stimmen?"
           }
          ]
         },
@@ -661,7 +778,30 @@
           },
           {
            "n": 3,
+           "title": "Einmaleins mit Zehnerzahlen: 3 · 40 und 240 : 6"
+          },
+          {
+           "n": 4,
+           "title": "Halbschriftlich multiplizieren: 4 · 37"
+          },
+          {
+           "n": 5,
+           "title": "Halbschriftlich dividieren: 84 : 4"
+          },
+          {
+           "n": 6,
            "title": "Teilen mit Rest"
+          }
+         ]
+        },
+        {
+         "unit": "laengen-und-geld-millimeter-kilometer-kommaschreibweise-klasse-3",
+         "unitTitle": "Längen und Geld: Millimeter, Kilometer und Kommaschreibweise",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 4,
+           "title": "Überschlagen beim Einkaufen: Reicht das Geld?"
           }
          ]
         }
@@ -694,8 +834,19 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 4,
+           "n": 5,
            "title": "Rechengeschichten bis 20"
+          }
+         ]
+        },
+        {
+         "unit": "uhr-kalender-und-geld-klasse-1",
+         "unitTitle": "Uhr, Kalender und Geld",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 6,
+           "title": "Einkaufen bis 20 Euro: bezahlen und Rückgeld"
           }
          ]
         },
@@ -705,7 +856,7 @@
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 3,
+           "n": 4,
            "title": "Sachaufgaben bis 100: Frage, Rechnung, Antwort"
           }
          ]
@@ -716,7 +867,7 @@
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 5,
+           "n": 6,
            "title": "Einkaufen: mit Preisen rechnen"
           }
          ]
@@ -737,6 +888,10 @@
           {
            "n": 3,
            "title": "Runden und überschlagen"
+          },
+          {
+           "n": 8,
+           "title": "Überschlag und Probe: Kann das stimmen?"
           }
          ]
         },
@@ -748,6 +903,25 @@
           {
            "n": 2,
            "title": "Sachaufgaben zum Malnehmen und Teilen"
+          }
+         ]
+        },
+        {
+         "unit": "laengen-und-geld-millimeter-kilometer-kommaschreibweise-klasse-3",
+         "unitTitle": "Längen und Geld: Millimeter, Kilometer und Kommaschreibweise",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 4,
+           "title": "Überschlagen beim Einkaufen: Reicht das Geld?"
+          },
+          {
+           "n": 5,
+           "title": "Preistabellen: je mehr, desto teurer"
+          },
+          {
+           "n": 6,
+           "title": "Sachaufgaben mit Tabellen lösen"
           }
          ]
         }
@@ -765,7 +939,7 @@
        "state": "taught",
        "counts": {
         "objectives": 4,
-        "taught": 3
+        "taught": 4
        },
        "units": [
         {
@@ -788,6 +962,10 @@
           {
            "n": 5,
            "title": "Geldbeträge mit Münzen zählen"
+          },
+          {
+           "n": 6,
+           "title": "Einkaufen bis 20 Euro: bezahlen und Rückgeld"
           }
          ]
         },
@@ -798,6 +976,10 @@
          "lessons": [
           {
            "n": 4,
+           "title": "Mit Handspanne, Fuß und Schritt messen"
+          },
+          {
+           "n": 5,
            "title": "Längen mit Kästchen messen"
           }
          ]
@@ -813,15 +995,34 @@
           },
           {
            "n": 3,
-           "title": "Die Uhr auf fünf Minuten genau lesen"
+           "title": "Meter und Zentimeter: erst schätzen, dann messen"
           },
           {
            "n": 4,
-           "title": "Den Kalender lesen"
+           "title": "Die Uhr auf fünf Minuten genau lesen"
           },
           {
            "n": 5,
+           "title": "Den Kalender lesen"
+          },
+          {
+           "n": 6,
            "title": "Einkaufen: mit Preisen rechnen"
+          }
+         ]
+        },
+        {
+         "unit": "laengen-und-geld-millimeter-kilometer-kommaschreibweise-klasse-3",
+         "unitTitle": "Längen und Geld: Millimeter, Kilometer und Kommaschreibweise",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 2,
+           "title": "Meter und Kilometer: Wie weit ist ein Kilometer?"
+          },
+          {
+           "n": 3,
+           "title": "Mit Komma schreiben: Euro und Cent, Meter und Zentimeter"
           }
          ]
         },
@@ -876,7 +1077,7 @@
        "state": "taught",
        "counts": {
         "objectives": 3,
-        "taught": 2
+        "taught": 3
        },
        "units": [
         {
@@ -901,6 +1102,10 @@
          "lessons": [
           {
            "n": 4,
+           "title": "Mit Handspanne, Fuß und Schritt messen"
+          },
+          {
+           "n": 5,
            "title": "Längen mit Kästchen messen"
           }
          ]
@@ -919,8 +1124,23 @@
            "title": "Wie viel länger?"
           },
           {
-           "n": 3,
+           "n": 4,
            "title": "Die Uhr auf fünf Minuten genau lesen"
+          }
+         ]
+        },
+        {
+         "unit": "laengen-und-geld-millimeter-kilometer-kommaschreibweise-klasse-3",
+         "unitTitle": "Längen und Geld: Millimeter, Kilometer und Kommaschreibweise",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 1,
+           "title": "Millimeter: genau messen und zeichnen"
+          },
+          {
+           "n": 3,
+           "title": "Mit Komma schreiben: Euro und Cent, Meter und Zentimeter"
           }
          ]
         },
@@ -967,20 +1187,35 @@
        "state": "taught",
        "counts": {
         "objectives": 3,
-        "taught": 1
+        "taught": 2
        },
        "units": [
+        {
+         "unit": "uhr-kalender-und-geld-klasse-1",
+         "unitTitle": "Uhr, Kalender und Geld",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 6,
+           "title": "Einkaufen bis 20 Euro: bezahlen und Rückgeld"
+          }
+         ]
+        },
         {
          "unit": "messen-uhrzeit-geld-und-diagramme-klasse-2",
          "unitTitle": "Messen, Uhrzeit, Geld und Diagramme",
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 4,
-           "title": "Den Kalender lesen"
+           "n": 3,
+           "title": "Meter und Zentimeter: erst schätzen, dann messen"
           },
           {
            "n": 5,
+           "title": "Den Kalender lesen"
+          },
+          {
+           "n": 6,
            "title": "Einkaufen: mit Preisen rechnen"
           }
          ]
@@ -1018,6 +1253,17 @@
        },
        "units": [
         {
+         "unit": "zahlen-bis-20-zahlwoerter-und-zahlenstrahl-klasse-1",
+         "unitTitle": "Zahlen bis 20: Zehner, Einer und Zahlenstrahl",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 6,
+           "title": "In Schritten zählen: Zweier, Fünfer, Zehner"
+          }
+         ]
+        },
+        {
          "unit": "verdoppeln-drei-summanden-und-zahlenmauern-klasse-1",
          "unitTitle": "Verdoppeln, drei Summanden und Zahlenmauern",
          "unitGrade": "1",
@@ -1034,7 +1280,7 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 7,
+           "n": 8,
            "title": "Muster: Zwei Bilder fehlen"
           }
          ]
@@ -1092,20 +1338,31 @@
          ]
         },
         {
+         "unit": "halbschriftlich-addieren-und-subtrahieren-bis-1000-klasse-3",
+         "unitTitle": "Halbschriftlich addieren und subtrahieren bis 1000",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 4,
+           "title": "Zauberquadrate"
+          }
+         ]
+        },
+        {
          "unit": "malnehmen-und-teilen-gleichungen-und-zahlenfolgen-klasse-3",
          "unitTitle": "Malnehmen und Teilen, Gleichungen und Zahlenfolgen",
          "unitGrade": "3",
          "lessons": [
           {
-           "n": 4,
+           "n": 7,
            "title": "Gleichungen im Gleichgewicht"
           },
           {
-           "n": 5,
+           "n": 8,
            "title": "Ist die Summe gerade oder ungerade?"
           },
           {
-           "n": 6,
+           "n": 9,
            "title": "Zahlenfolgen: die Regel finden"
           }
          ]
@@ -1128,7 +1385,7 @@
          "unitGrade": "3",
          "lessons": [
           {
-           "n": 7,
+           "n": 10,
            "title": "Zahlenmaschinen"
           }
          ]
@@ -1200,7 +1457,7 @@
        "state": "taught",
        "counts": {
         "objectives": 5,
-        "taught": 4
+        "taught": 5
        },
        "units": [
         {
@@ -1280,6 +1537,10 @@
           {
            "n": 2,
            "title": "Ist es ein Rechteck?"
+          },
+          {
+           "n": 4,
+           "title": "Mit dem Zirkel zeichnen: Kreise und Kreismuster"
           }
          ]
         }
@@ -1335,7 +1596,7 @@
        "state": "taught",
        "counts": {
         "objectives": 4,
-        "taught": 2
+        "taught": 3
        },
        "units": [
         {
@@ -1344,11 +1605,11 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 5,
+           "n": 6,
            "title": "Sortieren, zählen und ein Bilddiagramm lesen"
           },
           {
-           "n": 6,
+           "n": 7,
            "title": "Ein Säulendiagramm lesen und ausmalen"
           }
          ]
@@ -1359,19 +1620,19 @@
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 6,
+           "n": 7,
            "title": "Von der Strichliste zum Säulendiagramm"
           },
           {
-           "n": 7,
+           "n": 8,
            "title": "Ein X-Diagramm lesen"
           },
           {
-           "n": 8,
+           "n": 9,
            "title": "Jedes Bild zählt doppelt"
           },
           {
-           "n": 9,
+           "n": 10,
            "title": "Sicher, möglich, unmöglich"
           }
          ]
@@ -1382,12 +1643,20 @@
          "unitGrade": "3",
          "lessons": [
           {
-           "n": 4,
+           "n": 5,
            "title": "Diagramme mit einer Skala in Fünferschritten"
           },
           {
-           "n": 5,
+           "n": 6,
            "title": "Ein Diagramm mit Kreuzen: halbe Schritte am Zahlenstrahl"
+          },
+          {
+           "n": 7,
+           "title": "Diagramme genau lesen: Was stimmt, was nicht?"
+          },
+          {
+           "n": 8,
+           "title": "Alle Möglichkeiten finden: Tabelle und Baumdiagramm"
           }
          ]
         }
@@ -1409,7 +1678,7 @@
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 9,
+           "n": 10,
            "title": "Sicher, möglich, unmöglich"
           }
          ]
@@ -1420,7 +1689,7 @@
          "unitGrade": "3",
          "lessons": [
           {
-           "n": 6,
+           "n": 9,
            "title": "Wahrscheinlicher oder unwahrscheinlicher? Versuche mit dem Zufallsbeutel"
           }
          ]
@@ -2102,10 +2371,10 @@
    "metaDescription": "Die Lernbereiche des LehrplanPLUS Mathematik für die Jahrgangsstufen 1 und 2 in Bayern, jeweils mit unseren Unterrichtsstunden und Arbeitsblättern und mit dem, was noch fehlt.",
    "counts": {
     "objectives": 55,
-    "taught": 37,
+    "taught": 39,
     "near": 0,
     "open": 0,
-    "lessons": 93,
+    "lessons": 108,
     "parts": 13,
     "partsTaught": 13
    },
@@ -2144,11 +2413,11 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 4,
+           "n": 5,
            "title": "Verliebte Zahlen: zusammen 10"
           },
           {
-           "n": 5,
+           "n": 6,
            "title": "Am Zahlenstrahl vorwärts und rückwärts hüpfen"
           }
          ]
@@ -2169,6 +2438,14 @@
           {
            "n": 4,
            "title": "Zahlen am Zahlenstrahl finden"
+          },
+          {
+           "n": 5,
+           "title": "In Zehnern bündeln: Zehner und Einer"
+          },
+          {
+           "n": 6,
+           "title": "In Schritten zählen: Zweier, Fünfer, Zehner"
           }
          ]
         },
@@ -2243,6 +2520,17 @@
            "title": "Gerade und ungerade: zwei gleiche Teile"
           }
          ]
+        },
+        {
+         "unit": "zahlen-bis-1000-klasse-3",
+         "unitTitle": "Zahlen bis 1000",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 4,
+           "title": "Der Zahlenstrahl bis 1000: die Schrittweite finden"
+          }
+         ]
         }
        ]
       },
@@ -2253,7 +2541,7 @@
        "state": "taught",
        "counts": {
         "objectives": 7,
-        "taught": 5
+        "taught": 6
        },
        "units": [
         {
@@ -2275,6 +2563,10 @@
           },
           {
            "n": 4,
+           "title": "Rechnen mit der Null"
+          },
+          {
+           "n": 5,
            "title": "Verliebte Zahlen: zusammen 10"
           }
          ]
@@ -2299,6 +2591,17 @@
           {
            "n": 5,
            "title": "Kopfrechnen bis 10"
+          }
+         ]
+        },
+        {
+         "unit": "zahlen-bis-20-zahlwoerter-und-zahlenstrahl-klasse-1",
+         "unitTitle": "Zahlen bis 20: Zehner, Einer und Zahlenstrahl",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 6,
+           "title": "In Schritten zählen: Zweier, Fünfer, Zehner"
           }
          ]
         },
@@ -2343,7 +2646,11 @@
            "title": "Minus über die 10: erst zurück zur 10"
           },
           {
-           "n": 5,
+           "n": 4,
+           "title": "Rechenwege vergleichen: Wie rechnest du 7 + 8?"
+          },
+          {
+           "n": 6,
            "title": "Kopfrechnen bis 20"
           }
          ]
@@ -2374,10 +2681,14 @@
           },
           {
            "n": 3,
-           "title": "Plus mit Zehnerübergang: 47 + 8"
+           "title": "Zum Zehner ergänzen, vom Zehner abziehen"
           },
           {
            "n": 4,
+           "title": "Plus mit Zehnerübergang: 47 + 8"
+          },
+          {
+           "n": 5,
            "title": "Minus mit Zehnerübergang: 53 − 6"
           }
          ]
@@ -2396,7 +2707,11 @@
            "title": "Zweistellige Zahlen subtrahieren: 67 − 24 und 82 − 35"
           },
           {
-           "n": 4,
+           "n": 3,
+           "title": "Rechenwege vergleichen: schrittweise oder mit Hilfsaufgabe?"
+          },
+          {
+           "n": 5,
            "title": "Plus und Minus bis 100 üben"
           }
          ]
@@ -2491,6 +2806,21 @@
          ]
         },
         {
+         "unit": "halbschriftlich-addieren-und-subtrahieren-bis-1000-klasse-3",
+         "unitTitle": "Halbschriftlich addieren und subtrahieren bis 1000",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 2,
+           "title": "Halbschriftlich addieren: den Rechenweg aufschreiben und erklären"
+          },
+          {
+           "n": 3,
+           "title": "Halbschriftlich subtrahieren: abziehen oder ergänzen?"
+          }
+         ]
+        },
+        {
          "unit": "malnehmen-und-teilen-gleichungen-und-zahlenfolgen-klasse-3",
          "unitTitle": "Malnehmen und Teilen, Gleichungen und Zahlenfolgen",
          "unitGrade": "3",
@@ -2502,6 +2832,21 @@
           {
            "n": 2,
            "title": "Sachaufgaben zum Malnehmen und Teilen"
+          }
+         ]
+        },
+        {
+         "unit": "laengen-und-geld-millimeter-kilometer-kommaschreibweise-klasse-3",
+         "unitTitle": "Längen und Geld: Millimeter, Kilometer und Kommaschreibweise",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 5,
+           "title": "Preistabellen: je mehr, desto teurer"
+          },
+          {
+           "n": 6,
+           "title": "Sachaufgaben mit Tabellen lösen"
           }
          ]
         },
@@ -2549,7 +2894,7 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 4,
+           "n": 5,
            "title": "Rechengeschichten bis 20"
           }
          ]
@@ -2560,7 +2905,7 @@
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 3,
+           "n": 4,
            "title": "Sachaufgaben bis 100: Frage, Rechnung, Antwort"
           }
          ]
@@ -2710,7 +3055,7 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 7,
+           "n": 8,
            "title": "Muster: Zwei Bilder fehlen"
           }
          ]
@@ -2793,6 +3138,10 @@
          "lessons": [
           {
            "n": 4,
+           "title": "Mit Handspanne, Fuß und Schritt messen"
+          },
+          {
+           "n": 5,
            "title": "Längen mit Kästchen messen"
           }
          ]
@@ -2812,11 +3161,26 @@
           },
           {
            "n": 3,
-           "title": "Die Uhr auf fünf Minuten genau lesen"
+           "title": "Meter und Zentimeter: erst schätzen, dann messen"
           },
           {
            "n": 4,
+           "title": "Die Uhr auf fünf Minuten genau lesen"
+          },
+          {
+           "n": 5,
            "title": "Den Kalender lesen"
+          }
+         ]
+        },
+        {
+         "unit": "laengen-und-geld-millimeter-kilometer-kommaschreibweise-klasse-3",
+         "unitTitle": "Längen und Geld: Millimeter, Kilometer und Kommaschreibweise",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 1,
+           "title": "Millimeter: genau messen und zeichnen"
           }
          ]
         },
@@ -2844,7 +3208,7 @@
        "state": "taught",
        "counts": {
         "objectives": 3,
-        "taught": 1
+        "taught": 2
        },
        "units": [
         {
@@ -2855,6 +3219,10 @@
           {
            "n": 5,
            "title": "Geldbeträge mit Münzen zählen"
+          },
+          {
+           "n": 6,
+           "title": "Einkaufen bis 20 Euro: bezahlen und Rückgeld"
           }
          ]
         },
@@ -2865,6 +3233,10 @@
          "lessons": [
           {
            "n": 4,
+           "title": "Mit Handspanne, Fuß und Schritt messen"
+          },
+          {
+           "n": 5,
            "title": "Längen mit Kästchen messen"
           }
          ]
@@ -2879,7 +3251,11 @@
            "title": "Wie viel länger?"
           },
           {
-           "n": 5,
+           "n": 3,
+           "title": "Meter und Zentimeter: erst schätzen, dann messen"
+          },
+          {
+           "n": 6,
            "title": "Einkaufen: mit Preisen rechnen"
           }
          ]
@@ -2897,12 +3273,23 @@
        },
        "units": [
         {
+         "unit": "uhr-kalender-und-geld-klasse-1",
+         "unitTitle": "Uhr, Kalender und Geld",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 6,
+           "title": "Einkaufen bis 20 Euro: bezahlen und Rückgeld"
+          }
+         ]
+        },
+        {
          "unit": "messen-uhrzeit-geld-und-diagramme-klasse-2",
          "unitTitle": "Messen, Uhrzeit, Geld und Diagramme",
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 5,
+           "n": 6,
            "title": "Einkaufen: mit Preisen rechnen"
           }
          ]
@@ -2930,11 +3317,11 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 5,
+           "n": 6,
            "title": "Sortieren, zählen und ein Bilddiagramm lesen"
           },
           {
-           "n": 6,
+           "n": 7,
            "title": "Ein Säulendiagramm lesen und ausmalen"
           }
          ]
@@ -2945,19 +3332,19 @@
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 4,
+           "n": 5,
            "title": "Den Kalender lesen"
           },
           {
-           "n": 6,
+           "n": 7,
            "title": "Von der Strichliste zum Säulendiagramm"
           },
           {
-           "n": 7,
+           "n": 8,
            "title": "Ein X-Diagramm lesen"
           },
           {
-           "n": 8,
+           "n": 9,
            "title": "Jedes Bild zählt doppelt"
           }
          ]
@@ -2980,7 +3367,7 @@
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 9,
+           "n": 10,
            "title": "Sicher, möglich, unmöglich"
           }
          ]
@@ -3011,12 +3398,12 @@
    "metaDescription": "Die Lernbereiche des LehrplanPLUS Mathematik für die Jahrgangsstufen 3 und 4 in Bayern mit unseren Unterrichtsstunden für Klasse 3 und mit dem, was für Klasse 4 noch fehlt.",
    "counts": {
     "objectives": 54,
-    "taught": 19,
-    "near": 1,
+    "taught": 27,
+    "near": 0,
     "open": 2,
-    "lessons": 29,
+    "lessons": 40,
     "parts": 13,
-    "partsTaught": 10
+    "partsTaught": 11
    },
    "groups": [
     {
@@ -3050,7 +3437,7 @@
            "title": "Dreistellige Zahlen vergleichen und ordnen"
           },
           {
-           "n": 4,
+           "n": 5,
            "title": "100 mehr, 100 weniger"
           }
          ]
@@ -3075,7 +3462,7 @@
        "state": "taught",
        "counts": {
         "objectives": 9,
-        "taught": 5
+        "taught": 8
        },
        "units": [
         {
@@ -3086,6 +3473,17 @@
           {
            "n": 4,
            "title": "Umkehraufgaben: Mal und Geteilt gehören zusammen"
+          }
+         ]
+        },
+        {
+         "unit": "halbschriftlich-addieren-und-subtrahieren-bis-1000-klasse-3",
+         "unitTitle": "Halbschriftlich addieren und subtrahieren bis 1000",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 1,
+           "title": "Rechnen mit Hunderter- und Zehnerzahlen"
           }
          ]
         },
@@ -3105,6 +3503,10 @@
           {
            "n": 7,
            "title": "Schriftlich addieren und subtrahieren mit Übertrag"
+          },
+          {
+           "n": 8,
+           "title": "Überschlag und Probe: Kann das stimmen?"
           }
          ]
         },
@@ -3118,20 +3520,43 @@
            "title": "Wiederholung: Der fehlende Faktor und Aufgabenfamilien"
           },
           {
+           "n": 3,
+           "title": "Einmaleins mit Zehnerzahlen: 3 · 40 und 240 : 6"
+          },
+          {
            "n": 4,
-           "title": "Gleichungen im Gleichgewicht"
+           "title": "Halbschriftlich multiplizieren: 4 · 37"
           },
           {
            "n": 5,
-           "title": "Ist die Summe gerade oder ungerade?"
-          },
-          {
-           "n": 6,
-           "title": "Zahlenfolgen: die Regel finden"
+           "title": "Halbschriftlich dividieren: 84 : 4"
           },
           {
            "n": 7,
+           "title": "Gleichungen im Gleichgewicht"
+          },
+          {
+           "n": 8,
+           "title": "Ist die Summe gerade oder ungerade?"
+          },
+          {
+           "n": 9,
+           "title": "Zahlenfolgen: die Regel finden"
+          },
+          {
+           "n": 10,
            "title": "Zahlenmaschinen"
+          }
+         ]
+        },
+        {
+         "unit": "laengen-und-geld-millimeter-kilometer-kommaschreibweise-klasse-3",
+         "unitTitle": "Längen und Geld: Millimeter, Kilometer und Kommaschreibweise",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 4,
+           "title": "Überschlagen beim Einkaufen: Reicht das Geld?"
           }
          ]
         }
@@ -3144,9 +3569,20 @@
        "state": "taught",
        "counts": {
         "objectives": 7,
-        "taught": 2
+        "taught": 4
        },
        "units": [
+        {
+         "unit": "halbschriftlich-addieren-und-subtrahieren-bis-1000-klasse-3",
+         "unitTitle": "Halbschriftlich addieren und subtrahieren bis 1000",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 4,
+           "title": "Zauberquadrate"
+          }
+         ]
+        },
         {
          "unit": "malnehmen-und-teilen-gleichungen-und-zahlenfolgen-klasse-3",
          "unitTitle": "Malnehmen und Teilen, Gleichungen und Zahlenfolgen",
@@ -3155,6 +3591,32 @@
           {
            "n": 2,
            "title": "Sachaufgaben zum Malnehmen und Teilen"
+          }
+         ]
+        },
+        {
+         "unit": "laengen-und-geld-millimeter-kilometer-kommaschreibweise-klasse-3",
+         "unitTitle": "Längen und Geld: Millimeter, Kilometer und Kommaschreibweise",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 5,
+           "title": "Preistabellen: je mehr, desto teurer"
+          },
+          {
+           "n": 6,
+           "title": "Sachaufgaben mit Tabellen lösen"
+          }
+         ]
+        },
+        {
+         "unit": "rechte-winkel-vierecke-symmetrie-und-diagramme-klasse-3",
+         "unitTitle": "Rechte Winkel, Vierecke, Symmetrie und Diagramme",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 8,
+           "title": "Alle Möglichkeiten finden: Tabelle und Baumdiagramm"
           }
          ]
         }
@@ -3195,7 +3657,7 @@
        "state": "taught",
        "counts": {
         "objectives": 5,
-        "taught": 1
+        "taught": 2
        },
        "units": [
         {
@@ -3210,6 +3672,10 @@
           {
            "n": 2,
            "title": "Ist es ein Rechteck?"
+          },
+          {
+           "n": 4,
+           "title": "Mit dem Zirkel zeichnen: Kreise und Kreismuster"
           }
          ]
         }
@@ -3280,9 +3746,24 @@
        "state": "taught",
        "counts": {
         "objectives": 4,
-        "taught": 3
+        "taught": 4
        },
        "units": [
+        {
+         "unit": "laengen-und-geld-millimeter-kilometer-kommaschreibweise-klasse-3",
+         "unitTitle": "Längen und Geld: Millimeter, Kilometer und Kommaschreibweise",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 2,
+           "title": "Meter und Kilometer: Wie weit ist ein Kilometer?"
+          },
+          {
+           "n": 3,
+           "title": "Mit Komma schreiben: Euro und Cent, Meter und Zentimeter"
+          }
+         ]
+        },
         {
          "unit": "zeit-temperatur-gewicht-und-hohlmasse-klasse-3",
          "unitTitle": "Zeit, Temperatur, Gewicht und Hohlmaße",
@@ -3312,47 +3793,20 @@
        "code": "M3/4 3.2",
        "title": "Größen strukturieren und Größenvorstellungen nutzen",
        "key": "part-m3-4-3-2",
-       "state": "near",
+       "state": "taught",
        "counts": {
         "objectives": 3,
-        "taught": 0
+        "taught": 1
        },
-       "rel": "prepares",
        "units": [
         {
-         "unit": "messen-uhrzeit-geld-und-diagramme-klasse-2",
-         "unitTitle": "Messen, Uhrzeit, Geld und Diagramme",
-         "unitGrade": "2",
-         "lessons": [
-          {
-           "n": 3,
-           "title": "Die Uhr auf fünf Minuten genau lesen"
-          }
-         ]
-        },
-        {
-         "unit": "teilen-verteilen-aufteilen-und-die-haelfte-klasse-2",
-         "unitTitle": "Teilen: Verteilen, Aufteilen und die Hälfte",
-         "unitGrade": "2",
-         "lessons": [
-          {
-           "n": 6,
-           "title": "Hälften, Drittel und Viertel"
-          },
-          {
-           "n": 7,
-           "title": "Die Hälfte, ein Drittel, ein Viertel einer Menge"
-          }
-         ]
-        },
-        {
-         "unit": "rechte-winkel-vierecke-symmetrie-und-diagramme-klasse-3",
-         "unitTitle": "Rechte Winkel, Vierecke, Symmetrie und Diagramme",
+         "unit": "laengen-und-geld-millimeter-kilometer-kommaschreibweise-klasse-3",
+         "unitTitle": "Längen und Geld: Millimeter, Kilometer und Kommaschreibweise",
          "unitGrade": "3",
          "lessons": [
           {
-           "n": 5,
-           "title": "Ein Diagramm mit Kreuzen: halbe Schritte am Zahlenstrahl"
+           "n": 2,
+           "title": "Meter und Kilometer: Wie weit ist ein Kilometer?"
           }
          ]
         }
@@ -3386,12 +3840,16 @@
          "unitGrade": "3",
          "lessons": [
           {
-           "n": 4,
+           "n": 5,
            "title": "Diagramme mit einer Skala in Fünferschritten"
           },
           {
-           "n": 5,
+           "n": 6,
            "title": "Ein Diagramm mit Kreuzen: halbe Schritte am Zahlenstrahl"
+          },
+          {
+           "n": 7,
+           "title": "Diagramme genau lesen: Was stimmt, was nicht?"
           }
          ]
         }
@@ -3413,7 +3871,7 @@
          "unitGrade": "3",
          "lessons": [
           {
-           "n": 6,
+           "n": 9,
            "title": "Wahrscheinlicher oder unwahrscheinlicher? Versuche mit dem Zufallsbeutel"
           }
          ]
@@ -3988,12 +4446,12 @@
    "metaDescription": "Die Bereiche und Schwerpunkte des Lehrplans Mathematik für die Primarstufe in NRW, jeweils mit unseren Unterrichtsstunden und Arbeitsblättern dazu und mit dem, was noch fehlt.",
    "counts": {
     "objectives": 91,
-    "taught": 53,
+    "taught": 60,
     "near": 1,
-    "open": 1,
-    "lessons": 117,
+    "open": 0,
+    "lessons": 144,
     "parts": 16,
-    "partsTaught": 14
+    "partsTaught": 15
    },
    "groups": [
     {
@@ -4030,7 +4488,7 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 5,
+           "n": 6,
            "title": "Am Zahlenstrahl vorwärts und rückwärts hüpfen"
           }
          ]
@@ -4051,6 +4509,14 @@
           {
            "n": 4,
            "title": "Zahlen am Zahlenstrahl finden"
+          },
+          {
+           "n": 5,
+           "title": "In Zehnern bündeln: Zehner und Einer"
+          },
+          {
+           "n": 6,
+           "title": "In Schritten zählen: Zweier, Fünfer, Zehner"
           }
          ]
         },
@@ -4153,6 +4619,10 @@
           },
           {
            "n": 4,
+           "title": "Der Zahlenstrahl bis 1000: die Schrittweite finden"
+          },
+          {
+           "n": 5,
            "title": "100 mehr, 100 weniger"
           }
          ]
@@ -4163,11 +4633,11 @@
          "unitGrade": "3",
          "lessons": [
           {
-           "n": 6,
+           "n": 9,
            "title": "Zahlenfolgen: die Regel finden"
           },
           {
-           "n": 7,
+           "n": 10,
            "title": "Zahlenmaschinen"
           }
          ]
@@ -4202,7 +4672,11 @@
            "title": "Wegnehmen: Wie viele bleiben übrig?"
           },
           {
-           "n": 5,
+           "n": 4,
+           "title": "Rechnen mit der Null"
+          },
+          {
+           "n": 6,
            "title": "Am Zahlenstrahl vorwärts und rückwärts hüpfen"
           }
          ]
@@ -4247,7 +4721,7 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 4,
+           "n": 5,
            "title": "Rechengeschichten bis 20"
           }
          ]
@@ -4258,7 +4732,7 @@
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 3,
+           "n": 4,
            "title": "Sachaufgaben bis 100: Frage, Rechnung, Antwort"
           }
          ]
@@ -4342,16 +4816,39 @@
            "title": "Sachaufgaben zum Malnehmen und Teilen"
           },
           {
-           "n": 3,
+           "n": 4,
+           "title": "Halbschriftlich multiplizieren: 4 · 37"
+          },
+          {
+           "n": 5,
+           "title": "Halbschriftlich dividieren: 84 : 4"
+          },
+          {
+           "n": 6,
            "title": "Teilen mit Rest"
           },
           {
-           "n": 4,
+           "n": 7,
            "title": "Gleichungen im Gleichgewicht"
           },
           {
-           "n": 7,
+           "n": 10,
            "title": "Zahlenmaschinen"
+          }
+         ]
+        },
+        {
+         "unit": "laengen-und-geld-millimeter-kilometer-kommaschreibweise-klasse-3",
+         "unitTitle": "Längen und Geld: Millimeter, Kilometer und Kommaschreibweise",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 5,
+           "title": "Preistabellen: je mehr, desto teurer"
+          },
+          {
+           "n": 6,
+           "title": "Sachaufgaben mit Tabellen lösen"
           }
          ]
         },
@@ -4375,7 +4872,7 @@
        "state": "taught",
        "counts": {
         "objectives": 5,
-        "taught": 4
+        "taught": 5
        },
        "units": [
         {
@@ -4388,7 +4885,7 @@
            "title": "Tauschaufgaben: 2 + 5 und 5 + 2"
           },
           {
-           "n": 4,
+           "n": 5,
            "title": "Verliebte Zahlen: zusammen 10"
           }
          ]
@@ -4409,6 +4906,17 @@
           {
            "n": 5,
            "title": "Kopfrechnen bis 10"
+          }
+         ]
+        },
+        {
+         "unit": "zahlen-bis-20-zahlwoerter-und-zahlenstrahl-klasse-1",
+         "unitTitle": "Zahlen bis 20: Zehner, Einer und Zahlenstrahl",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 6,
+           "title": "In Schritten zählen: Zweier, Fünfer, Zehner"
           }
          ]
         },
@@ -4449,7 +4957,11 @@
            "title": "Minus über die 10: erst zurück zur 10"
           },
           {
-           "n": 5,
+           "n": 4,
+           "title": "Rechenwege vergleichen: Wie rechnest du 7 + 8?"
+          },
+          {
+           "n": 6,
            "title": "Kopfrechnen bis 20"
           }
          ]
@@ -4480,10 +4992,14 @@
           },
           {
            "n": 3,
-           "title": "Plus mit Zehnerübergang: 47 + 8"
+           "title": "Zum Zehner ergänzen, vom Zehner abziehen"
           },
           {
            "n": 4,
+           "title": "Plus mit Zehnerübergang: 47 + 8"
+          },
+          {
+           "n": 5,
            "title": "Minus mit Zehnerübergang: 53 − 6"
           }
          ]
@@ -4538,6 +5054,17 @@
          ]
         },
         {
+         "unit": "halbschriftlich-addieren-und-subtrahieren-bis-1000-klasse-3",
+         "unitTitle": "Halbschriftlich addieren und subtrahieren bis 1000",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 1,
+           "title": "Rechnen mit Hunderter- und Zehnerzahlen"
+          }
+         ]
+        },
+        {
          "unit": "malnehmen-und-teilen-gleichungen-und-zahlenfolgen-klasse-3",
          "unitTitle": "Malnehmen und Teilen, Gleichungen und Zahlenfolgen",
          "unitGrade": "3",
@@ -4545,6 +5072,10 @@
           {
            "n": 1,
            "title": "Wiederholung: Der fehlende Faktor und Aufgabenfamilien"
+          },
+          {
+           "n": 3,
+           "title": "Einmaleins mit Zehnerzahlen: 3 · 40 und 240 : 6"
           }
          ]
         }
@@ -4604,7 +5135,11 @@
            "title": "Minus über die 10: erst zurück zur 10"
           },
           {
-           "n": 5,
+           "n": 4,
+           "title": "Rechenwege vergleichen: Wie rechnest du 7 + 8?"
+          },
+          {
+           "n": 6,
            "title": "Kopfrechnen bis 20"
           }
          ]
@@ -4624,10 +5159,14 @@
           },
           {
            "n": 3,
-           "title": "Plus mit Zehnerübergang: 47 + 8"
+           "title": "Zum Zehner ergänzen, vom Zehner abziehen"
           },
           {
            "n": 4,
+           "title": "Plus mit Zehnerübergang: 47 + 8"
+          },
+          {
+           "n": 5,
            "title": "Minus mit Zehnerübergang: 53 − 6"
           }
          ]
@@ -4646,8 +5185,31 @@
            "title": "Zweistellige Zahlen subtrahieren: 67 − 24 und 82 − 35"
           },
           {
-           "n": 4,
+           "n": 3,
+           "title": "Rechenwege vergleichen: schrittweise oder mit Hilfsaufgabe?"
+          },
+          {
+           "n": 5,
            "title": "Plus und Minus bis 100 üben"
+          }
+         ]
+        },
+        {
+         "unit": "halbschriftlich-addieren-und-subtrahieren-bis-1000-klasse-3",
+         "unitTitle": "Halbschriftlich addieren und subtrahieren bis 1000",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 2,
+           "title": "Halbschriftlich addieren: den Rechenweg aufschreiben und erklären"
+          },
+          {
+           "n": 3,
+           "title": "Halbschriftlich subtrahieren: abziehen oder ergänzen?"
+          },
+          {
+           "n": 4,
+           "title": "Zauberquadrate"
           }
          ]
         },
@@ -4657,7 +5219,15 @@
          "unitGrade": "3",
          "lessons": [
           {
-           "n": 3,
+           "n": 4,
+           "title": "Halbschriftlich multiplizieren: 4 · 37"
+          },
+          {
+           "n": 5,
+           "title": "Halbschriftlich dividieren: 84 : 4"
+          },
+          {
+           "n": 6,
            "title": "Teilen mit Rest"
           }
          ]
@@ -4713,17 +5283,48 @@
           {
            "n": 3,
            "title": "Runden und überschlagen"
+          },
+          {
+           "n": 8,
+           "title": "Überschlag und Probe: Kann das stimmen?"
+          }
+         ]
+        },
+        {
+         "unit": "laengen-und-geld-millimeter-kilometer-kommaschreibweise-klasse-3",
+         "unitTitle": "Längen und Geld: Millimeter, Kilometer und Kommaschreibweise",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 4,
+           "title": "Überschlagen beim Einkaufen: Reicht das Geld?"
           }
          ]
         }
        ]
-      }
-     ],
-     "openParts": [
+      },
       {
        "code": "",
        "title": "Flexibles Rechnen",
-       "key": "part-m-1-7"
+       "key": "part-m-1-7",
+       "state": "taught",
+       "counts": {
+        "objectives": 2,
+        "taught": 1
+       },
+       "units": [
+        {
+         "unit": "plus-und-minus-bis-100-zweistellige-zahlen-klasse-2",
+         "unitTitle": "Plus und Minus bis 100: zweistellige Zahlen und Sachaufgaben",
+         "unitGrade": "2",
+         "lessons": [
+          {
+           "n": 3,
+           "title": "Rechenwege vergleichen: schrittweise oder mit Hilfsaufgabe?"
+          }
+         ]
+        }
+       ]
       }
      ]
     },
@@ -4765,7 +5366,7 @@
        "state": "taught",
        "counts": {
         "objectives": 7,
-        "taught": 5
+        "taught": 6
        },
        "units": [
         {
@@ -4782,7 +5383,7 @@
            "title": "Tangram: Figuren legen"
           },
           {
-           "n": 7,
+           "n": 8,
            "title": "Muster: Zwei Bilder fehlen"
           }
          ]
@@ -4841,6 +5442,10 @@
           {
            "n": 2,
            "title": "Ist es ein Rechteck?"
+          },
+          {
+           "n": 4,
+           "title": "Mit dem Zirkel zeichnen: Kreise und Kreismuster"
           }
          ]
         }
@@ -4922,7 +5527,7 @@
        "state": "taught",
        "counts": {
         "objectives": 3,
-        "taught": 1
+        "taught": 2
        },
        "units": [
         {
@@ -4933,6 +5538,17 @@
           {
            "n": 6,
            "title": "Die andere Hälfte ergänzen"
+          }
+         ]
+        },
+        {
+         "unit": "rechte-winkel-vierecke-symmetrie-und-diagramme-klasse-3",
+         "unitTitle": "Rechte Winkel, Vierecke, Symmetrie und Diagramme",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 4,
+           "title": "Mit dem Zirkel zeichnen: Kreise und Kreismuster"
           }
          ]
         }
@@ -4950,7 +5566,7 @@
        "state": "taught",
        "counts": {
         "objectives": 13,
-        "taught": 9
+        "taught": 11
        },
        "units": [
         {
@@ -4969,6 +5585,10 @@
           {
            "n": 5,
            "title": "Geldbeträge mit Münzen zählen"
+          },
+          {
+           "n": 6,
+           "title": "Einkaufen bis 20 Euro: bezahlen und Rückgeld"
           }
          ]
         },
@@ -4979,6 +5599,10 @@
          "lessons": [
           {
            "n": 4,
+           "title": "Mit Handspanne, Fuß und Schritt messen"
+          },
+          {
+           "n": 5,
            "title": "Längen mit Kästchen messen"
           }
          ]
@@ -4998,15 +5622,38 @@
           },
           {
            "n": 3,
-           "title": "Die Uhr auf fünf Minuten genau lesen"
+           "title": "Meter und Zentimeter: erst schätzen, dann messen"
           },
           {
            "n": 4,
-           "title": "Den Kalender lesen"
+           "title": "Die Uhr auf fünf Minuten genau lesen"
           },
           {
            "n": 5,
+           "title": "Den Kalender lesen"
+          },
+          {
+           "n": 6,
            "title": "Einkaufen: mit Preisen rechnen"
+          }
+         ]
+        },
+        {
+         "unit": "laengen-und-geld-millimeter-kilometer-kommaschreibweise-klasse-3",
+         "unitTitle": "Längen und Geld: Millimeter, Kilometer und Kommaschreibweise",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 1,
+           "title": "Millimeter: genau messen und zeichnen"
+          },
+          {
+           "n": 2,
+           "title": "Meter und Kilometer: Wie weit ist ein Kilometer?"
+          },
+          {
+           "n": 3,
+           "title": "Mit Komma schreiben: Euro und Cent, Meter und Zentimeter"
           }
          ]
         },
@@ -5074,8 +5721,19 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 4,
+           "n": 5,
            "title": "Rechengeschichten bis 20"
+          }
+         ]
+        },
+        {
+         "unit": "uhr-kalender-und-geld-klasse-1",
+         "unitTitle": "Uhr, Kalender und Geld",
+         "unitGrade": "1",
+         "lessons": [
+          {
+           "n": 6,
+           "title": "Einkaufen bis 20 Euro: bezahlen und Rückgeld"
           }
          ]
         },
@@ -5085,7 +5743,7 @@
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 3,
+           "n": 4,
            "title": "Sachaufgaben bis 100: Frage, Rechnung, Antwort"
           }
          ]
@@ -5096,7 +5754,7 @@
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 5,
+           "n": 6,
            "title": "Einkaufen: mit Preisen rechnen"
           }
          ]
@@ -5109,6 +5767,21 @@
           {
            "n": 2,
            "title": "Sachaufgaben zum Malnehmen und Teilen"
+          }
+         ]
+        },
+        {
+         "unit": "laengen-und-geld-millimeter-kilometer-kommaschreibweise-klasse-3",
+         "unitTitle": "Längen und Geld: Millimeter, Kilometer und Kommaschreibweise",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 5,
+           "title": "Preistabellen: je mehr, desto teurer"
+          },
+          {
+           "n": 6,
+           "title": "Sachaufgaben mit Tabellen lösen"
           }
          ]
         }
@@ -5135,11 +5808,11 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 5,
+           "n": 6,
            "title": "Sortieren, zählen und ein Bilddiagramm lesen"
           },
           {
-           "n": 6,
+           "n": 7,
            "title": "Ein Säulendiagramm lesen und ausmalen"
           }
          ]
@@ -5150,19 +5823,19 @@
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 4,
+           "n": 5,
            "title": "Den Kalender lesen"
           },
           {
-           "n": 6,
+           "n": 7,
            "title": "Von der Strichliste zum Säulendiagramm"
           },
           {
-           "n": 7,
+           "n": 8,
            "title": "Ein X-Diagramm lesen"
           },
           {
-           "n": 8,
+           "n": 9,
            "title": "Jedes Bild zählt doppelt"
           }
          ]
@@ -5173,8 +5846,12 @@
          "unitGrade": "3",
          "lessons": [
           {
-           "n": 4,
+           "n": 5,
            "title": "Diagramme mit einer Skala in Fünferschritten"
+          },
+          {
+           "n": 7,
+           "title": "Diagramme genau lesen: Was stimmt, was nicht?"
           }
          ]
         }
@@ -5187,7 +5864,7 @@
        "state": "taught",
        "counts": {
         "objectives": 2,
-        "taught": 1
+        "taught": 2
        },
        "units": [
         {
@@ -5196,7 +5873,7 @@
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 9,
+           "n": 10,
            "title": "Sicher, möglich, unmöglich"
           }
          ]
@@ -5207,7 +5884,11 @@
          "unitGrade": "3",
          "lessons": [
           {
-           "n": 6,
+           "n": 8,
+           "title": "Alle Möglichkeiten finden: Tabelle und Baumdiagramm"
+          },
+          {
+           "n": 9,
            "title": "Wahrscheinlicher oder unwahrscheinlicher? Versuche mit dem Zufallsbeutel"
           }
          ]
@@ -5713,10 +6394,10 @@
    "metaDescription": "Die Lernbereiche des sächsischen Lehrplans Mathematik für die Klassenstufen 1 und 2, jeweils mit unseren Unterrichtsstunden und der Zahl der Lernziele und Inhalte mit Stunden.",
    "counts": {
     "objectives": 85,
-    "taught": 46,
+    "taught": 50,
     "near": 0,
     "open": 0,
-    "lessons": 90,
+    "lessons": 107,
     "parts": 4,
     "partsTaught": 4
    },
@@ -5731,7 +6412,7 @@
        "state": "taught",
        "counts": {
         "objectives": 22,
-        "taught": 10
+        "taught": 11
        },
        "units": [
         {
@@ -5748,7 +6429,7 @@
            "title": "Tangram: Figuren legen"
           },
           {
-           "n": 7,
+           "n": 8,
            "title": "Muster: Zwei Bilder fehlen"
           }
          ]
@@ -5796,6 +6477,10 @@
           {
            "n": 3,
            "title": "Wie viele Spiegelachsen?"
+          },
+          {
+           "n": 4,
+           "title": "Mit dem Zirkel zeichnen: Kreise und Kreismuster"
           }
          ]
         }
@@ -5808,7 +6493,7 @@
        "state": "taught",
        "counts": {
         "objectives": 29,
-        "taught": 20
+        "taught": 21
        },
        "units": [
         {
@@ -5845,10 +6530,14 @@
           },
           {
            "n": 4,
-           "title": "Verliebte Zahlen: zusammen 10"
+           "title": "Rechnen mit der Null"
           },
           {
            "n": 5,
+           "title": "Verliebte Zahlen: zusammen 10"
+          },
+          {
+           "n": 6,
            "title": "Am Zahlenstrahl vorwärts und rückwärts hüpfen"
           }
          ]
@@ -5896,6 +6585,14 @@
           {
            "n": 4,
            "title": "Zahlen am Zahlenstrahl finden"
+          },
+          {
+           "n": 5,
+           "title": "In Zehnern bündeln: Zehner und Einer"
+          },
+          {
+           "n": 6,
+           "title": "In Schritten zählen: Zweier, Fünfer, Zehner"
           }
          ]
         },
@@ -5945,10 +6642,14 @@
           },
           {
            "n": 4,
-           "title": "Rechengeschichten bis 20"
+           "title": "Rechenwege vergleichen: Wie rechnest du 7 + 8?"
           },
           {
            "n": 5,
+           "title": "Rechengeschichten bis 20"
+          },
+          {
+           "n": 6,
            "title": "Kopfrechnen bis 20"
           }
          ]
@@ -6007,10 +6708,14 @@
           },
           {
            "n": 3,
-           "title": "Plus mit Zehnerübergang: 47 + 8"
+           "title": "Zum Zehner ergänzen, vom Zehner abziehen"
           },
           {
            "n": 4,
+           "title": "Plus mit Zehnerübergang: 47 + 8"
+          },
+          {
+           "n": 5,
            "title": "Minus mit Zehnerübergang: 53 − 6"
           }
          ]
@@ -6030,10 +6735,14 @@
           },
           {
            "n": 3,
-           "title": "Sachaufgaben bis 100: Frage, Rechnung, Antwort"
+           "title": "Rechenwege vergleichen: schrittweise oder mit Hilfsaufgabe?"
           },
           {
            "n": 4,
+           "title": "Sachaufgaben bis 100: Frage, Rechnung, Antwort"
+          },
+          {
+           "n": 5,
            "title": "Plus und Minus bis 100 üben"
           }
          ]
@@ -6132,6 +6841,32 @@
          ]
         },
         {
+         "unit": "zahlen-bis-1000-klasse-3",
+         "unitTitle": "Zahlen bis 1000",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 4,
+           "title": "Der Zahlenstrahl bis 1000: die Schrittweite finden"
+          }
+         ]
+        },
+        {
+         "unit": "halbschriftlich-addieren-und-subtrahieren-bis-1000-klasse-3",
+         "unitTitle": "Halbschriftlich addieren und subtrahieren bis 1000",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 2,
+           "title": "Halbschriftlich addieren: den Rechenweg aufschreiben und erklären"
+          },
+          {
+           "n": 3,
+           "title": "Halbschriftlich subtrahieren: abziehen oder ergänzen?"
+          }
+         ]
+        },
+        {
          "unit": "malnehmen-und-teilen-gleichungen-und-zahlenfolgen-klasse-3",
          "unitTitle": "Malnehmen und Teilen, Gleichungen und Zahlenfolgen",
          "unitGrade": "3",
@@ -6145,8 +6880,23 @@
            "title": "Sachaufgaben zum Malnehmen und Teilen"
           },
           {
-           "n": 4,
+           "n": 7,
            "title": "Gleichungen im Gleichgewicht"
+          }
+         ]
+        },
+        {
+         "unit": "laengen-und-geld-millimeter-kilometer-kommaschreibweise-klasse-3",
+         "unitTitle": "Längen und Geld: Millimeter, Kilometer und Kommaschreibweise",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 5,
+           "title": "Preistabellen: je mehr, desto teurer"
+          },
+          {
+           "n": 6,
+           "title": "Sachaufgaben mit Tabellen lösen"
           }
          ]
         }
@@ -6159,7 +6909,7 @@
        "state": "taught",
        "counts": {
         "objectives": 22,
-        "taught": 9
+        "taught": 11
        },
        "units": [
         {
@@ -6186,6 +6936,10 @@
           {
            "n": 5,
            "title": "Geldbeträge mit Münzen zählen"
+          },
+          {
+           "n": 6,
+           "title": "Einkaufen bis 20 Euro: bezahlen und Rückgeld"
           }
          ]
         },
@@ -6196,6 +6950,10 @@
          "lessons": [
           {
            "n": 4,
+           "title": "Mit Handspanne, Fuß und Schritt messen"
+          },
+          {
+           "n": 5,
            "title": "Längen mit Kästchen messen"
           }
          ]
@@ -6215,15 +6973,34 @@
           },
           {
            "n": 3,
-           "title": "Die Uhr auf fünf Minuten genau lesen"
+           "title": "Meter und Zentimeter: erst schätzen, dann messen"
           },
           {
            "n": 4,
-           "title": "Den Kalender lesen"
+           "title": "Die Uhr auf fünf Minuten genau lesen"
           },
           {
            "n": 5,
+           "title": "Den Kalender lesen"
+          },
+          {
+           "n": 6,
            "title": "Einkaufen: mit Preisen rechnen"
+          }
+         ]
+        },
+        {
+         "unit": "laengen-und-geld-millimeter-kilometer-kommaschreibweise-klasse-3",
+         "unitTitle": "Längen und Geld: Millimeter, Kilometer und Kommaschreibweise",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 1,
+           "title": "Millimeter: genau messen und zeichnen"
+          },
+          {
+           "n": 3,
+           "title": "Mit Komma schreiben: Euro und Cent, Meter und Zentimeter"
           }
          ]
         }
@@ -6245,11 +7022,11 @@
          "unitGrade": "1",
          "lessons": [
           {
-           "n": 5,
+           "n": 6,
            "title": "Sortieren, zählen und ein Bilddiagramm lesen"
           },
           {
-           "n": 6,
+           "n": 7,
            "title": "Ein Säulendiagramm lesen und ausmalen"
           }
          ]
@@ -6260,19 +7037,19 @@
          "unitGrade": "2",
          "lessons": [
           {
-           "n": 6,
+           "n": 7,
            "title": "Von der Strichliste zum Säulendiagramm"
           },
           {
-           "n": 7,
+           "n": 8,
            "title": "Ein X-Diagramm lesen"
           },
           {
-           "n": 8,
+           "n": 9,
            "title": "Jedes Bild zählt doppelt"
           },
           {
-           "n": 9,
+           "n": 10,
            "title": "Sicher, möglich, unmöglich"
           }
          ]
@@ -6303,10 +7080,10 @@
    "metaDescription": "Die Lernbereiche des sächsischen Lehrplans Mathematik für die Klassenstufe 3, jeweils mit unseren Unterrichtsstunden und der Zahl der Lernziele und Inhalte mit Stunden.",
    "counts": {
     "objectives": 79,
-    "taught": 24,
+    "taught": 30,
     "near": 0,
     "open": 0,
-    "lessons": 33,
+    "lessons": 46,
     "parts": 4,
     "partsTaught": 4
    },
@@ -6382,7 +7159,7 @@
        "state": "taught",
        "counts": {
         "objectives": 28,
-        "taught": 12
+        "taught": 14
        },
        "units": [
         {
@@ -6414,8 +7191,23 @@
            "title": "Dreistellige Zahlen vergleichen und ordnen"
           },
           {
-           "n": 4,
+           "n": 5,
            "title": "100 mehr, 100 weniger"
+          }
+         ]
+        },
+        {
+         "unit": "halbschriftlich-addieren-und-subtrahieren-bis-1000-klasse-3",
+         "unitTitle": "Halbschriftlich addieren und subtrahieren bis 1000",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 1,
+           "title": "Rechnen mit Hunderter- und Zehnerzahlen"
+          },
+          {
+           "n": 4,
+           "title": "Zauberquadrate"
           }
          ]
         },
@@ -6451,6 +7243,10 @@
           {
            "n": 7,
            "title": "Schriftlich addieren und subtrahieren mit Übertrag"
+          },
+          {
+           "n": 8,
+           "title": "Überschlag und Probe: Kann das stimmen?"
           }
          ]
         },
@@ -6469,19 +7265,50 @@
           },
           {
            "n": 3,
-           "title": "Teilen mit Rest"
+           "title": "Einmaleins mit Zehnerzahlen: 3 · 40 und 240 : 6"
+          },
+          {
+           "n": 4,
+           "title": "Halbschriftlich multiplizieren: 4 · 37"
           },
           {
            "n": 5,
-           "title": "Ist die Summe gerade oder ungerade?"
+           "title": "Halbschriftlich dividieren: 84 : 4"
           },
           {
            "n": 6,
+           "title": "Teilen mit Rest"
+          },
+          {
+           "n": 8,
+           "title": "Ist die Summe gerade oder ungerade?"
+          },
+          {
+           "n": 9,
            "title": "Zahlenfolgen: die Regel finden"
           },
           {
-           "n": 7,
+           "n": 10,
            "title": "Zahlenmaschinen"
+          }
+         ]
+        },
+        {
+         "unit": "laengen-und-geld-millimeter-kilometer-kommaschreibweise-klasse-3",
+         "unitTitle": "Längen und Geld: Millimeter, Kilometer und Kommaschreibweise",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 4,
+           "title": "Überschlagen beim Einkaufen: Reicht das Geld?"
+          },
+          {
+           "n": 5,
+           "title": "Preistabellen: je mehr, desto teurer"
+          },
+          {
+           "n": 6,
+           "title": "Sachaufgaben mit Tabellen lösen"
           }
          ]
         }
@@ -6494,9 +7321,24 @@
        "state": "taught",
        "counts": {
         "objectives": 21,
-        "taught": 5
+        "taught": 7
        },
        "units": [
+        {
+         "unit": "laengen-und-geld-millimeter-kilometer-kommaschreibweise-klasse-3",
+         "unitTitle": "Längen und Geld: Millimeter, Kilometer und Kommaschreibweise",
+         "unitGrade": "3",
+         "lessons": [
+          {
+           "n": 2,
+           "title": "Meter und Kilometer: Wie weit ist ein Kilometer?"
+          },
+          {
+           "n": 3,
+           "title": "Mit Komma schreiben: Euro und Cent, Meter und Zentimeter"
+          }
+         ]
+        },
         {
          "unit": "zeit-temperatur-gewicht-und-hohlmasse-klasse-3",
          "unitTitle": "Zeit, Temperatur, Gewicht und Hohlmaße",
@@ -6533,7 +7375,7 @@
        "state": "taught",
        "counts": {
         "objectives": 12,
-        "taught": 2
+        "taught": 4
        },
        "units": [
         {
@@ -6542,15 +7384,23 @@
          "unitGrade": "3",
          "lessons": [
           {
-           "n": 4,
+           "n": 5,
            "title": "Diagramme mit einer Skala in Fünferschritten"
           },
           {
-           "n": 5,
+           "n": 6,
            "title": "Ein Diagramm mit Kreuzen: halbe Schritte am Zahlenstrahl"
           },
           {
-           "n": 6,
+           "n": 7,
+           "title": "Diagramme genau lesen: Was stimmt, was nicht?"
+          },
+          {
+           "n": 8,
+           "title": "Alle Möglichkeiten finden: Tabelle und Baumdiagramm"
+          },
+          {
+           "n": 9,
            "title": "Wahrscheinlicher oder unwahrscheinlicher? Versuche mit dem Zufallsbeutel"
           }
          ]

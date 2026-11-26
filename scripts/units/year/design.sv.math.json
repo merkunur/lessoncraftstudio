@@ -146,7 +146,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Bladet visar en hylla och ett klassrum med föremål; eleven läser korta meningar som ”Bollen ligger till vänster om boken” och ritar eller färglägger rätt föremål på rätt plats. I de tre sista meningarna skriver eleven själv det lägesord som saknas."
+            "page": "Bladet visar en hylla och ett klassrum med föremål; eleven läser korta meningar som ”Bollen ligger till vänster om boken” och ritar eller färglägger rätt föremål på rätt plats. I de tre sista meningarna skriver eleven själv det lägesord som saknas.",
+            "placed": "K:place-words"
           },
           {
             "existing": "1:shape-attributes",
@@ -183,7 +184,8 @@
             "days": 2,
             "tool": "Enhetsremsan",
             "source": "new",
-            "page": "Bladet visar samma penna, pensel och bok mätta två gånger, först mot en rad stora klossar och sedan mot en rad små gem; eleven skriver de två mätetalen (mellan 2 och 20) och ringar in den enhet som det gick åt flest av."
+            "page": "Bladet visar samma penna, pensel och bok mätta två gånger, först mot en rad stora klossar och sedan mot en rad små gem; eleven skriver de två mätetalen (mellan 2 och 20) och ringar in den enhet som det gick åt flest av.",
+            "placed": "1:units-give-different-numbers"
           }
         ]
       },
@@ -279,7 +281,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Bladet visar par av tal markerade på en tallinje 0–20, till exempel 9 och 12, med en båge emellan; eleven skriver hur långt hoppet är, skriver subtraktionen 12 − 9 = 3 och den addition som hör till, 9 + 3 = 12."
+            "page": "Bladet visar par av tal markerade på en tallinje 0–20, till exempel 9 och 12, med en båge emellan; eleven skriver hur långt hoppet är, skriver subtraktionen 12 − 9 = 3 och den addition som hör till, 9 + 3 = 12.",
+            "placed": "1:count-on-back-hops#subtraktion-som-skillnad"
           },
           {
             "new": true,
@@ -609,7 +612,8 @@
             "days": 2,
             "tool": "Pengamattan",
             "source": "new",
-            "page": "Bladet visar varor med priser mellan 12 och 95 kronor och den sedel kunden betalar med (20, 50 eller 100 kronor); eleven räknar upp från priset till sedelns värde på en tom tallinje, ritar mynten och sedlarna i växeln och skriver hur många kronor kunden får tillbaka."
+            "page": "Bladet visar varor med priser mellan 12 och 95 kronor och den sedel kunden betalar med (20, 50 eller 100 kronor); eleven räknar upp från priset till sedelns värde på en tom tallinje, ritar mynten och sedlarna i växeln och skriver hur många kronor kunden får tillbaka.",
+            "placed": "2:shopping-money#betala-med-sedlar"
           },
           {
             "new": true,
@@ -645,7 +649,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Bladet har en tabell med sex saker i klassrummet (bänkens bredd, dörrens höjd, pennans längd och så vidare) där eleven först skriver en uppskattning och sedan det uppmätta värdet i hela meter eller hela centimeter. Nederst ringar eleven in rätt enhet, m eller cm, för åtta föremål på bild."
+            "page": "Bladet har en tabell med sex saker i klassrummet (bänkens bredd, dörrens höjd, pennans längd och så vidare) där eleven först skriver en uppskattning och sedan det uppmätta värdet i hela meter eller hela centimeter. Nederst ringar eleven in rätt enhet, m eller cm, för åtta föremål på bild.",
+            "placed": "2:estimate-lengths"
           },
           {
             "new": true,
@@ -655,7 +660,8 @@
             "days": 2,
             "tool": "Mätbänken",
             "source": "new",
-            "page": "Bladet visar balansvågar med ett föremål i den ena skålen och enkilosvikter i den andra samt hushållsvågar med visare på hela kilogram; eleven skriver hur många kilogram föremålet väger (1 till 10 kg) och ringar in om en vara på bild väger mer eller mindre än 1 kg."
+            "page": "Bladet visar balansvågar med ett föremål i den ena skålen och enkilosvikter i den andra samt hushållsvågar med visare på hela kilogram; eleven skriver hur många kilogram föremålet väger (1 till 10 kg) och ringar in om en vara på bild väger mer eller mindre än 1 kg.",
+            "placed": "2:mass-grams#kilogram"
           },
           {
             "new": true,
@@ -754,7 +760,8 @@
             "days": 3,
             "tool": "Lärklockan",
             "source": "new",
-            "page": "Bladet visar analoga urtavlor med klockslag på hela femminuter; eleven drar streck till rätt uttryck (tio över, tjugo över, fem i halv, halv, fem över halv, tjugo i, tio i) och ritar minutvisaren på tomma urtavlor efter skrivna klockslag som ”fem i halv fyra”."
+            "page": "Bladet visar analoga urtavlor med klockslag på hela femminuter; eleven drar streck till rätt uttryck (tio över, tjugo över, fem i halv, halv, fem över halv, tjugo i, tio i) och ritar minutvisaren på tomma urtavlor efter skrivna klockslag som ”fem i halv fyra”.",
+            "placed": "1:time-read#fem-i-halv"
           },
           {
             "new": true,
@@ -764,7 +771,8 @@
             "days": 2,
             "tool": "Klassrumstimer",
             "source": "new",
-            "page": "Bladet visar par av urtavlor med start- och sluttid på hela och halva timmar, till exempel klockan nio och halv tolv; eleven skriver hur många timmar och halvtimmar som har gått. Nederst ringar eleven in rimlig enhet (sekunder, minuter eller timmar) för sex vardagsaktiviteter, som att borsta tänderna eller sova en natt."
+            "page": "Bladet visar par av urtavlor med start- och sluttid på hela och halva timmar, till exempel klockan nio och halv tolv; eleven skriver hur många timmar och halvtimmar som har gått. Nederst ringar eleven in rimlig enhet (sekunder, minuter eller timmar) för sex vardagsaktiviteter, som att borsta tänderna eller sova en natt.",
+            "placed": "3:elapsed-duration"
           },
           {
             "existing": "2:calendar",
@@ -944,7 +952,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Bladet har en nyckel med de egyptiska symbolerna för 1, 10, 100 och 1 000 och de romerska siffrorna I, V och X; eleven översätter fem egyptiska tal och fem romerska tal (upp till 30) till våra siffror och skriver själv 243 med egyptiska symboler. Sist svarar eleven på varför egyptierna inte behövde någon nolla."
+            "page": "Bladet har en nyckel med de egyptiska symbolerna för 1, 10, 100 och 1 000 och de romerska siffrorna I, V och X; eleven översätter fem egyptiska tal och fem romerska tal (upp till 30) till våra siffror och skriver själv 243 med egyptiska symboler. Sist svarar eleven på varför egyptierna inte behövde någon nolla.",
+            "placed": "3:historical-numerals"
           }
         ]
       },
@@ -973,7 +982,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Bladet visar uträkningar med färdiga svar, till exempel 298 + 405 = 603 och 712 − 198 = 614, där hälften är fel; eleven gör ett överslag, ringar in rimligt eller orimligt och skriver överslaget som bevis. I andra delen väljer eleven det rimliga svaret bland tre på vardagsfrågor, som hur mycket en skolväska väger eller hur lång en buss är."
+            "page": "Bladet visar uträkningar med färdiga svar, till exempel 298 + 405 = 603 och 712 − 198 = 614, där hälften är fel; eleven gör ett överslag, ringar in rimligt eller orimligt och skriver överslaget som bevis. I andra delen väljer eleven det rimliga svaret bland tre på vardagsfrågor, som hur mycket en skolväska väger eller hur lång en buss är.",
+            "placed": "3:estimate-by-rounding#ar-svaret-rimligt"
           },
           {
             "new": true,
@@ -983,7 +993,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Bladet visar additioner och subtraktioner med tresiffriga tal skrivna vågrätt med en mall för mellanled (hundratal, tiotal, ental, svar); eleven fyller i mellanleden och svaret, först i uppgifter utan växling och sedan i uppgifter med en växling."
+            "page": "Bladet visar additioner och subtraktioner med tresiffriga tal skrivna vågrätt med en mall för mellanled (hundratal, tiotal, ental, svar); eleven fyller i mellanleden och svaret, först i uppgifter utan växling och sedan i uppgifter med en växling.",
+            "placed": "3:add-sub-by-place-value"
           },
           {
             "existing": "2:column-method",
@@ -1158,7 +1169,8 @@
             "days": 2,
             "tool": "Enhetsremsan",
             "source": "new",
-            "page": "Bladet har bilder som visar tum, fot, aln och famn på kroppen och en tabell där eleven mäter bänken, dörren och klassrummets bredd, först med sin egen fot, aln eller famn och sedan med linjal eller måttband i centimeter och meter. Nederst jämför eleven sitt resultat med en kamrats och skriver varför talen blev olika."
+            "page": "Bladet har bilder som visar tum, fot, aln och famn på kroppen och en tabell där eleven mäter bänken, dörren och klassrummets bredd, först med sin egen fot, aln eller famn och sedan med linjal eller måttband i centimeter och meter. Nederst jämför eleven sitt resultat med en kamrats och skriver varför talen blev olika.",
+            "placed": "3:old-body-measures"
           }
         ]
       },
@@ -1237,7 +1249,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Bladet visar tabeller med två rader, till exempel antal glassar och pris (1 glass 12 kr, 2 glassar 24 kr och så vidare) och ett recept för 4 personer som ska räknas om för 2 och för 8; eleven fyller i de tomma rutorna och skriver med ord vad som händer med priset när antalet blir dubbelt så stort."
+            "page": "Bladet visar tabeller med två rader, till exempel antal glassar och pris (1 glass 12 kr, 2 glassar 24 kr och så vidare) och ett recept för 4 personer som ska räknas om för 2 och för 8; eleven fyller i de tomma rutorna och skriver med ord vad som händer med priset när antalet blir dubbelt så stort.",
+            "placed": "3:proportional-tables"
           },
           {
             "new": true,
@@ -1247,7 +1260,8 @@
             "days": 2,
             "tool": "Slumppåsen",
             "source": "new",
-            "page": "Bladet har en ruta för förutsägelse, en frekvenstabell för 30 tärningskast och ett tomt stapeldiagram; eleven skriver först vilket utfall den tror kommer oftast, för protokoll, ritar staplarna och svarar på om alla sidor verkar ha lika stor chans. I en andra uppgift avgör eleven vilken av två påsar (3 röda och 1 blå eller 2 röda och 2 blå) som ger störst chans att dra en röd kula."
+            "page": "Bladet har en ruta för förutsägelse, en frekvenstabell för 30 tärningskast och ett tomt stapeldiagram; eleven skriver först vilket utfall den tror kommer oftast, för protokoll, ritar staplarna och svarar på om alla sidor verkar ha lika stor chans. I en andra uppgift avgör eleven vilken av två påsar (3 röda och 1 blå eller 2 röda och 2 blå) som ger störst chans att dra en röd kula.",
+            "placed": "3:chance-more-likely"
           },
           {
             "new": true,
@@ -1257,7 +1271,8 @@
             "days": 2,
             "tool": "Klassens diagram",
             "source": "new",
-            "page": "Bladet är en undersökningsmall med fyra fält: Min fråga och svarsalternativ, Frekvenstabell med streck och antal, ett tomt stapeldiagram där eleven själv skriver rubrik, axlar och skala (2 per steg), samt Det här visar mitt diagram med tre rader för slutsatser."
+            "page": "Bladet är en undersökningsmall med fyra fält: Min fråga och svarsalternativ, Frekvenstabell med streck och antal, ett tomt stapeldiagram där eleven själv skriver rubrik, axlar och skala (2 per steg), samt Det här visar mitt diagram med tre rader för slutsatser.",
+            "placed": "3:scaled-graphs#egen-undersokning"
           },
           {
             "new": true,
@@ -1266,7 +1281,8 @@
             "standard": "Sannolikhet och statistik",
             "days": 2,
             "tool": "Linjal",
-            "source": "point:3:line-plot-halves"
+            "source": "point:3:line-plot-halves",
+            "placed": "3:line-plot-halves"
           }
         ]
       }
@@ -1389,7 +1405,8 @@
             "standard": "Matematiska resonemang och uttrycksformer",
             "days": 2,
             "tool": null,
-            "source": "point:K:draw-shapes"
+            "source": "point:K:draw-shapes",
+            "placed": "K:draw-shapes"
           },
           {
             "existing": "K:compose-shapes",
@@ -1441,7 +1458,8 @@
             "days": 2,
             "tool": "Enhetsremsan",
             "source": "new",
-            "page": "Bladet visar sex föremål (penna, sax, bok, pensel, limstift, sked) ritade ovanför en rad lika stora klossar som börjar vid föremålets kant; eleven räknar klossarna, mellan 2 och 10, och skriver antalet i rutan. Före bladet mäter eleverna samma slags saker i klassrummet med riktiga klossar som läggs kant i kant."
+            "page": "Bladet visar sex föremål (penna, sax, bok, pensel, limstift, sked) ritade ovanför en rad lika stora klossar som börjar vid föremålets kant; eleven räknar klossarna, mellan 2 och 10, och skriver antalet i rutan. Före bladet mäter eleverna samma slags saker i klassrummet med riktiga klossar som läggs kant i kant.",
+            "placed": "1:measure-length-units#mata-langd-med-klossar"
           },
           {
             "existing": "K:heavy-light",
@@ -1455,7 +1473,8 @@
             "days": 2,
             "tool": "Mätbänken",
             "source": "new",
-            "page": "Bladet visar par av kärl (glas och hink, flaska och mugg) där eleven ringar in det som rymmer mest, och en rad med tre kärl som eleven numrerar 1, 2, 3 från minst till mest. Sist ritar eleven lika många muggar som det gick åt för att fylla klassens burk, mellan 2 och 10, och skriver siffran."
+            "page": "Bladet visar par av kärl (glas och hink, flaska och mugg) där eleven ringar in det som rymmer mest, och en rad med tre kärl som eleven numrerar 1, 2, 3 från minst till mest. Sist ritar eleven lika många muggar som det gick åt för att fylla klassens burk, mellan 2 och 10, och skriver siffran.",
+            "placed": "K:compare-capacity"
           }
         ]
       },

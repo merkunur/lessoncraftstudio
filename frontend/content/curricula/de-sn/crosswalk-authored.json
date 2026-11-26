@@ -3969,14 +3969,36 @@
    "review": "year-design 2026-11-13"
   },
   "2:estimate-lengths": {
-   "none": "not yet read against this curriculum",
-   "why": "The point was added on 2026-11-13 for a lesson of the US school year that the teacher leads without a page; no unit of this language teaches it. Read it against the wording before a lesson of this language stands on it.",
-   "review": "year-design 2026-11-13"
+   "rows": [
+    {
+     "id": "MA.1-2.3.2.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.3.2.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.3.2.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Schätzen von Längen» with «Stützpunktvorstellungen und Stützpunktwissen zu Längen» (Fingerbreite, Türbreite), then «sachadäquates Messen von Längen mit den Messinstrumenten Lineal und Maßband».",
+   "review": "year-design 2026-11-26"
   },
   "2:explain-strategies": {
-   "none": "not yet read against this curriculum",
-   "why": "The point was added on 2026-11-13 for a lesson of the US school year that the teacher leads without a page; no unit of this language teaches it. Read it against the wording before a lesson of this language stands on it.",
-   "review": "year-design 2026-11-13"
+   "rows": [
+    {
+     "id": "MA.1-2.2.4.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.2.4.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Probieren, Begründen und Bewerten von unterschiedlichen Lösungswegen» with the strategies the plan lists for the Zahlenraum bis 100: «schrittweises Rechnen … Nachbaraufgaben und andere Hilfsaufgaben».",
+   "review": "year-design 2026-11-26"
   },
   "K:read-picture-book": {
    "none": "not yet read against this curriculum",
@@ -5597,6 +5619,144 @@
    "none": "not yet read against this curriculum",
    "why": "The point was added on 2026-11-25 for an English lesson that waited for its page (acting out action words with close meanings; the rules of a book talk); read it against the wording when this language's units are designed.",
    "review": "year-design 2026-11-25"
+  },
+  "3:mental-math-hundreds-tens": {
+   "rows": [
+    {
+     "id": "MA.3.2.4.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3.2.2.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The standard is «Übertragen des Wissens über die Addition und Subtraktion auf das Rechnen im Zahlenraum bis 1 000»: «Lösen von Additions- und Subtraktionsaufgaben im Zahlenraum bis 1 000 durch Nutzen von Strategien»; completing to the next hundred uses the «Nachbarzehner und -hunderter».",
+   "review": "year-design 2026-11-26"
+  },
+  "3:add-sub-by-place-value": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-26 for the Swedish year design of mathematics (Stage E-3); no unit of this language teaches it yet. Read it against the wording when one does.",
+   "review": "year-design 2026-11-26"
+  },
+  "3:historical-numerals": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-26 for the Swedish year design of mathematics (Stage E-3); no unit of this language teaches it yet. Read it against the wording when one does.",
+   "review": "year-design 2026-11-26"
+  },
+  "3:multiply-multiples-of-10": {
+   "rows": [
+    {
+     "id": "MA.3.2.7.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Lösen von Multiplikations- und Divisionsaufgaben» with «Multiplikation mit Vielfachen von 10» and the «Beziehung zwischen Multiplikation und Division» (the division pairs rest on the times table: 24 : 6 = 4, also 240 : 6 = 40).",
+   "review": "year-design 2026-11-26"
+  },
+  "3:multiply-in-steps": {
+   "rows": [
+    {
+     "id": "MA.3.2.7.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "4 · 37 = 4 · 30 + 4 · 7 is the plan's «Zerlegen des Faktors bzw. Dividenden» within «Lösen von Multiplikations- und Divisionsaufgaben» to 1000.",
+   "review": "year-design 2026-11-26"
+  },
+  "3:divide-in-steps": {
+   "rows": [
+    {
+     "id": "MA.3.2.7.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3.2.7.2",
+     "rel": "teaches"
+    }
+   ],
+   "why": "84 : 4 by 80 : 4 and 4 : 4 is «Zerlegen des … Dividenden», and every page checks two results «durch Umkehroperation».",
+   "review": "year-design 2026-11-26"
+  },
+  "3:proportional-tables": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-26 for the Swedish year design of mathematics (Stage E-3); no unit of this language teaches it yet. Read it against the wording when one does.",
+   "review": "year-design 2026-11-26"
+  },
+  "3:kilometres-and-metres": {
+   "rows": [
+    {
+     "id": "MA.3.3.2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3.3.2.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Erfassen, Vergleichen, Ordnen und Darstellen von Längen · Kilometer» on a town map, and the everyday distances build «Stützpunktvorstellungen und Stützpunktwissen zur Länge Kilometer».",
+   "review": "year-design 2026-11-26"
+  },
+  "3:comma-notation-money-length": {
+   "rows": [
+    {
+     "id": "MA.3.3.2.1",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.3.1.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "Lengths «mit zwei Einheiten … in Kommaschreibweise» (Klasse 3) and money «Euro und Cent · mit zwei Einheiten · … in Kommaschreibweise», which Saxony already starts in Klasse 1/2 and this lesson writes three ways.",
+   "review": "year-design 2026-11-26"
+  },
+  "3:old-body-measures": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-26 for the Swedish year design of mathematics (Stage E-3); no unit of this language teaches it yet. Read it against the wording when one does.",
+   "review": "year-design 2026-11-26"
+  },
+  "3:circles-with-compass": {
+   "rows": [
+    {
+     "id": "MA.1-2.1.4.3",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.1-2.1.4.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.4.1.4.1",
+     "rel": "teaches"
+    }
+   ],
+   "why": "The page sets the compass from the radius or from half the diameter, «Beziehung Durchmesser und Radius» with «Mittelpunkt (M), Radius (r), Durchmesser (d)» (Klasse 1/2 terms), and draws circles in a flower, «Zeichnen von Kreisen … in entsprechenden Mustern» (Klasse 4).",
+   "review": "year-design 2026-11-26"
+  },
+  "3:count-all-possibilities": {
+   "rows": [
+    {
+     "id": "MA.3.4.3.4",
+     "rel": "teaches"
+    },
+    {
+     "id": "MA.3.4.3.3",
+     "rel": "teaches"
+    }
+   ],
+   "why": "«Bestimmen von allen Kombinationen» with «Netzdarstellungen, Tabellen und geordneten Listen»: the page uses a table, an ordered list and a tree diagram.",
+   "review": "year-design 2026-11-26"
+  },
+  "K:compare-capacity": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-26 for the Swedish year design of mathematics (Stage E-3); no unit of this language teaches it yet. Read it against the wording when one does.",
+   "review": "year-design 2026-11-26"
+  },
+  "1:units-give-different-numbers": {
+   "none": "not yet read against this curriculum",
+   "why": "The point was added on 2026-11-26 for the Swedish year design of mathematics (Stage E-3); no unit of this language teaches it yet. Read it against the wording when one does.",
+   "review": "year-design 2026-11-26"
   }
  }
 }

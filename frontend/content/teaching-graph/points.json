@@ -708,6 +708,26 @@
    ]
   },
   {
+   "id": "K:compare-capacity",
+   "grade": "K",
+   "subject": "math",
+   "strand": "Measurement & Data",
+   "skill": "Compare how much containers hold: say which of two holds the most, order three, and count how many cups fill a jar",
+   "code": "K.MD.A.2",
+   "types": [
+    "K-727"
+   ],
+   "families": [
+    "measurement"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 27,
+   "prerequisites": []
+  },
+  {
    "id": "K:draw-shapes",
    "grade": "K",
    "subject": "math",
@@ -725,7 +745,7 @@
     212
    ],
    "verdict": "gap",
-   "order": 27,
+   "order": 28,
    "prerequisites": [
     "K:count-sides"
    ]
@@ -749,7 +769,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 28,
+   "order": 29,
    "prerequisites": [
     "K:count-how-many"
    ]
@@ -770,7 +790,7 @@
    "activities": [],
    "planned": [],
    "verdict": "covered",
-   "order": 29,
+   "order": 30,
    "prerequisites": [
     "K:count-how-many"
    ]
@@ -791,7 +811,7 @@
    "activities": [],
    "planned": [],
    "verdict": "covered",
-   "order": 30,
+   "order": 31,
    "prerequisites": [
     "K:combine-groups",
     "K:count-forward-missing"
@@ -834,7 +854,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 31,
+   "order": 32,
    "prerequisites": [
     "K:combine-groups"
    ]
@@ -861,7 +881,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 32,
+   "order": 33,
    "prerequisites": [
     "K:shape-naming"
    ]
@@ -887,7 +907,7 @@
     228
    ],
    "verdict": "gap",
-   "order": 33,
+   "order": 34,
    "prerequisites": []
   },
   {
@@ -908,7 +928,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 34,
+   "order": 35,
    "prerequisites": [
     "K:one-to-one"
    ]
@@ -934,7 +954,7 @@
    "activities": [],
    "planned": [],
    "verdict": "covered",
-   "order": 35,
+   "order": 36,
    "prerequisites": [
     "K:count-on"
    ]
@@ -962,7 +982,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 36,
+   "order": 37,
    "prerequisites": [
     "K:number-bonds-k",
     "K:take-away",
@@ -988,7 +1008,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 37,
+   "order": 38,
    "prerequisites": [
     "K:number-bonds-k",
     "K:teen-numbers"
@@ -1022,7 +1042,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 38,
+   "order": 39,
    "prerequisites": [
     "K:combine-groups"
    ]
@@ -1047,7 +1067,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 39,
+   "order": 40,
    "prerequisites": [
     "K:take-away"
    ]
@@ -1068,7 +1088,7 @@
    "activities": [],
    "planned": [],
    "verdict": "covered",
-   "order": 40,
+   "order": 41,
    "prerequisites": [
     "1:add-within-10-models",
     "1:subtract-cross-out"
@@ -1094,7 +1114,7 @@
     226
    ],
    "verdict": "gap",
-   "order": 41,
+   "order": 42,
    "prerequisites": [
     "K:patterns"
    ]
@@ -1119,7 +1139,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 42,
+   "order": 43,
    "prerequisites": [
     "K:classify-count-kinds"
    ]
@@ -1148,7 +1168,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 43,
+   "order": 44,
    "prerequisites": [
     "K:number-bonds-k"
    ]
@@ -1176,7 +1196,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 44,
+   "order": 45,
    "prerequisites": [
     "K:shape-naming",
     "K:count-sides"
@@ -1206,7 +1226,7 @@
     207
    ],
    "verdict": "gap",
-   "order": 45,
+   "order": 46,
    "prerequisites": [
     "K:ordinal-position"
    ]
@@ -1236,7 +1256,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 46,
+   "order": 47,
    "prerequisites": [
     "K:before-after-back"
    ]
@@ -1267,7 +1287,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 47,
+   "order": 48,
    "prerequisites": [
     "1:number-line-placement",
     "K:count-on"
@@ -1307,7 +1327,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 48,
+   "order": 49,
    "prerequisites": [
     "1:write-the-equation"
    ]
@@ -1336,7 +1356,7 @@
     254
    ],
    "verdict": "partial",
-   "order": 49,
+   "order": 50,
    "prerequisites": [
     "1:sort-three-groups",
     "K:compare-groups"
@@ -1373,7 +1393,7 @@
     249
    ],
    "verdict": "gap",
-   "order": 50,
+   "order": 51,
    "prerequisites": [
     "1:add-within-10-models"
    ]
@@ -1406,7 +1426,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 51,
+   "order": 52,
    "prerequisites": [
     "K:odd-even-pairing"
    ]
@@ -1427,7 +1447,7 @@
    "activities": [],
    "planned": [],
    "verdict": "covered",
-   "order": 52,
+   "order": 53,
    "prerequisites": [
     "1:doubles-halves"
    ]
@@ -1455,7 +1475,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 53,
+   "order": 54,
    "prerequisites": [
     "1:add-within-10-models"
    ]
@@ -1492,7 +1512,7 @@
     248
    ],
    "verdict": "partial",
-   "order": 54,
+   "order": 55,
    "prerequisites": [
     "1:write-the-equation"
    ]
@@ -1521,7 +1541,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 55,
+   "order": 56,
    "prerequisites": [
     "1:write-the-equation"
    ]
@@ -1544,7 +1564,7 @@
    "activities": [],
    "planned": [],
    "verdict": "covered",
-   "order": 56,
+   "order": 57,
    "prerequisites": [
     "1:write-the-equation"
    ]
@@ -1565,7 +1585,7 @@
    "activities": [],
    "planned": [],
    "verdict": "covered",
-   "order": 57,
+   "order": 58,
    "prerequisites": [
     "1:missing-number-equations"
    ]
@@ -1590,7 +1610,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 58,
+   "order": 59,
    "prerequisites": [
     "K:compose-shapes"
    ]
@@ -1618,7 +1638,7 @@
     210
    ],
    "verdict": "gap",
-   "order": 59,
+   "order": 60,
    "prerequisites": [
     "K:days-of-week"
    ]
@@ -1642,7 +1662,7 @@
     238
    ],
    "verdict": "gap",
-   "order": 60,
+   "order": 61,
    "prerequisites": [
     "1:days-months-seasons"
    ]
@@ -1671,11 +1691,31 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 61,
+   "order": 62,
    "prerequisites": [
     "K:order-by-size",
     "K:count-how-many"
    ]
+  },
+  {
+   "id": "1:units-give-different-numbers",
+   "grade": "1",
+   "subject": "math",
+   "strand": "Measurement & Data",
+   "skill": "Measure the same object with two units and explain why the smaller unit gives the larger number",
+   "code": "2.MD.A.2 (G1 readiness)",
+   "types": [
+    "G1-676"
+   ],
+   "families": [
+    "measurement"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 63,
+   "prerequisites": []
   },
   {
    "id": "1:time-read",
@@ -1706,7 +1746,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 62,
+   "order": 64,
    "prerequisites": []
   },
   {
@@ -1753,7 +1793,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 63,
+   "order": 65,
    "prerequisites": [
     "1:make-10",
     "1:near-doubles",
@@ -1782,7 +1822,7 @@
     250
    ],
    "verdict": "gap",
-   "order": 64,
+   "order": 66,
    "prerequisites": [
     "1:fluency-within-20",
     "1:missing-number-equations"
@@ -1804,7 +1844,7 @@
    "activities": [],
    "planned": [],
    "verdict": "covered",
-   "order": 65,
+   "order": 67,
    "prerequisites": [
     "1:fluency-within-20",
     "1:true-false-equations"
@@ -1830,7 +1870,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 66,
+   "order": 68,
    "prerequisites": [
     "1:picture-graphs-sort-count"
    ]
@@ -1862,7 +1902,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 67,
+   "order": 69,
    "prerequisites": [
     "K:teen-numbers"
    ]
@@ -1902,7 +1942,7 @@
     253
    ],
    "verdict": "gap",
-   "order": 68,
+   "order": 70,
    "prerequisites": [
     "1:tens-and-ones"
    ]
@@ -1934,7 +1974,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 69,
+   "order": 71,
    "prerequisites": [
     "1:tens-and-ones"
    ]
@@ -1966,7 +2006,7 @@
     251
    ],
    "verdict": "gap",
-   "order": 70,
+   "order": 72,
    "prerequisites": [
     "1:tens-and-ones"
    ]
@@ -1992,7 +2032,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 71,
+   "order": 73,
    "prerequisites": [
     "1:hundreds-chart"
    ]
@@ -2022,7 +2062,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 72,
+   "order": 74,
    "prerequisites": [
     "1:tens-and-ones",
     "1:one-ten-more-less",
@@ -2061,7 +2101,7 @@
     252
    ],
    "verdict": "partial",
-   "order": 73,
+   "order": 75,
    "prerequisites": [
     "1:hundreds-chart"
    ]
@@ -2091,7 +2131,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 74,
+   "order": 76,
    "prerequisites": [
     "1:time-read",
     "1:skip-counting"
@@ -2123,7 +2163,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 75,
+   "order": 77,
    "prerequisites": [
     "1:skip-counting",
     "1:compare-order-two-digit"
@@ -2149,7 +2189,7 @@
    "activities": [],
    "planned": [],
    "verdict": "covered",
-   "order": 76,
+   "order": 78,
    "prerequisites": [
     "1:count-on-back-hops",
     "1:one-ten-more-less",
@@ -2180,7 +2220,7 @@
    "activities": [],
    "planned": [],
    "verdict": "covered",
-   "order": 77,
+   "order": 79,
    "prerequisites": [
     "1:one-ten-more-less",
     "1:fluency-within-20"
@@ -2202,7 +2242,7 @@
    "activities": [],
    "planned": [],
    "verdict": "covered",
-   "order": 78,
+   "order": 80,
    "prerequisites": [
     "1:make-10",
     "1:mental-math-to-100"
@@ -2229,7 +2269,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 79,
+   "order": 81,
    "prerequisites": [
     "K:teen-numbers"
    ]
@@ -2257,7 +2297,7 @@
     251
    ],
    "verdict": "partial",
-   "order": 80,
+   "order": 82,
    "prerequisites": [
     "1:one-ten-more-less"
    ]
@@ -2284,7 +2324,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 81,
+   "order": 83,
    "prerequisites": [
     "1:odd-even-pairs",
     "1:doubles-halves"
@@ -2314,7 +2354,7 @@
     269
    ],
    "verdict": "partial",
-   "order": 82,
+   "order": 84,
    "prerequisites": [
     "1:number-line-placement"
    ]
@@ -2338,7 +2378,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 83,
+   "order": 85,
    "prerequisites": [
     "1:shape-attributes"
    ]
@@ -2367,7 +2407,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 84,
+   "order": 86,
    "prerequisites": [
     "1:mental-math-to-100",
     "1:number-walls"
@@ -2395,7 +2435,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 85,
+   "order": 87,
    "prerequisites": [
     "1:word-problems",
     "1:mental-math-to-100"
@@ -2423,7 +2463,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 86,
+   "order": 88,
    "prerequisites": [
     "1:measure-length-units"
    ]
@@ -2448,7 +2488,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 87,
+   "order": 89,
    "prerequisites": [
     "2:measure-with-ruler"
    ]
@@ -2472,7 +2512,7 @@
    "verdict": "gap",
    "extra": true,
    "led": true,
-   "order": 88,
+   "order": 90,
    "prerequisites": []
   },
   {
@@ -2497,7 +2537,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 89,
+   "order": 91,
    "prerequisites": [
     "1:tens-and-ones",
     "2:bundle-ten-ones"
@@ -2527,7 +2567,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 90,
+   "order": 92,
    "prerequisites": [
     "2:read-build-3-digit"
    ]
@@ -2548,7 +2588,7 @@
    "activities": [],
    "planned": [],
    "verdict": "covered",
-   "order": 91,
+   "order": 93,
    "prerequisites": [
     "2:read-build-3-digit"
    ]
@@ -2576,7 +2616,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 92,
+   "order": 94,
    "prerequisites": [
     "1:skip-counting",
     "2:read-build-3-digit"
@@ -2603,7 +2643,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 93,
+   "order": 95,
    "prerequisites": [
     "2:read-build-3-digit",
     "1:compare-order-two-digit"
@@ -2627,7 +2667,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 94,
+   "order": 96,
    "prerequisites": [
     "2:read-build-3-digit",
     "1:one-ten-more-less"
@@ -2654,7 +2694,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 95,
+   "order": 97,
    "prerequisites": [
     "1:time-read",
     "1:skip-counting"
@@ -2685,7 +2725,7 @@
     273
    ],
    "verdict": "gap",
-   "order": 96,
+   "order": 98,
    "prerequisites": [
     "1:days-months-seasons"
    ]
@@ -2708,7 +2748,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 97,
+   "order": 99,
    "prerequisites": [
     "K:shape-naming"
    ]
@@ -2735,7 +2775,7 @@
     275
    ],
    "verdict": "gap",
-   "order": 98,
+   "order": 100,
    "prerequisites": [
     "2:flat-or-solid"
    ]
@@ -2763,7 +2803,7 @@
     275
    ],
    "verdict": "gap",
-   "order": 99,
+   "order": 101,
    "prerequisites": [
     "2:solids-in-real-life"
    ]
@@ -2788,7 +2828,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 100,
+   "order": 102,
    "prerequisites": [
     "2:read-build-3-digit"
    ]
@@ -2813,7 +2853,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 101,
+   "order": 103,
    "prerequisites": [
     "2:read-build-3-digit"
    ]
@@ -2848,7 +2888,7 @@
     267
    ],
    "verdict": "partial",
-   "order": 102,
+   "order": 104,
    "prerequisites": [
     "2:add-with-blocks",
     "2:subtract-with-blocks",
@@ -2873,7 +2913,7 @@
    "verdict": "gap",
    "extra": true,
    "led": true,
-   "order": 103,
+   "order": 105,
    "prerequisites": []
   },
   {
@@ -2911,7 +2951,7 @@
     270
    ],
    "verdict": "partial",
-   "order": 104,
+   "order": 106,
    "prerequisites": [
     "1:coins",
     "2:add-sub-within-100-practice"
@@ -2937,7 +2977,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 105,
+   "order": 107,
    "prerequisites": [
     "1:bar-graphs",
     "K:tally-marks"
@@ -2962,7 +3002,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 106,
+   "order": 108,
    "prerequisites": [
     "1:picture-graphs-sort-count",
     "1:number-line-placement"
@@ -2988,7 +3028,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 107,
+   "order": 109,
    "prerequisites": [
     "2:number-line-not-from-zero"
    ]
@@ -3016,7 +3056,7 @@
     271
    ],
    "verdict": "partial",
-   "order": 108,
+   "order": 110,
    "prerequisites": [
     "2:number-line-not-from-zero",
     "2:skip-count-5-10-100"
@@ -3042,7 +3082,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 109,
+   "order": 111,
    "prerequisites": [
     "2:number-line-not-from-zero",
     "2:skip-count-5-10-100"
@@ -3064,7 +3104,7 @@
    "activities": [],
    "planned": [],
    "verdict": "partial",
-   "order": 110,
+   "order": 112,
    "prerequisites": [
     "2:measure-with-ruler",
     "2:mass-grams",
@@ -3092,7 +3132,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 111,
+   "order": 113,
    "prerequisites": [
     "1:skip-counting"
    ]
@@ -3121,7 +3161,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 112,
+   "order": 114,
    "prerequisites": [
     "2:equal-groups-times"
    ]
@@ -3147,7 +3187,7 @@
     252
    ],
    "verdict": "gap",
-   "order": 113,
+   "order": 115,
    "prerequisites": [
     "1:skip-counting"
    ]
@@ -3172,7 +3212,7 @@
     272
    ],
    "verdict": "gap",
-   "order": 114,
+   "order": 116,
    "prerequisites": [
     "1:picture-graphs-sort-count",
     "1:skip-counting"
@@ -3196,7 +3236,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 115,
+   "order": 117,
    "prerequisites": []
   },
   {
@@ -3220,7 +3260,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 116,
+   "order": 118,
    "prerequisites": [
     "2:equal-groups-times"
    ]
@@ -3253,7 +3293,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 117,
+   "order": 119,
    "prerequisites": [
     "1:doubles-halves"
    ]
@@ -3280,7 +3320,7 @@
     268
    ],
    "verdict": "gap",
-   "order": 118,
+   "order": 120,
    "prerequisites": [
     "2:equal-shares-shapes",
     "2:share-and-group"
@@ -3305,7 +3345,7 @@
     285
    ],
    "verdict": "gap",
-   "order": 119,
+   "order": 121,
    "prerequisites": [
     "K:mirror-image"
    ]
@@ -3337,7 +3377,7 @@
     285
    ],
    "verdict": "gap",
-   "order": 120,
+   "order": 122,
    "prerequisites": [
     "2:symmetry-line"
    ]
@@ -3366,7 +3406,7 @@
     284
    ],
    "verdict": "gap",
-   "order": 121,
+   "order": 123,
    "prerequisites": []
   },
   {
@@ -3389,7 +3429,7 @@
     274
    ],
    "verdict": "partial",
-   "order": 122,
+   "order": 124,
    "prerequisites": [
     "1:tangram-compose"
    ]
@@ -3413,10 +3453,30 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 123,
+   "order": 125,
    "prerequisites": [
     "2:compare-order-3-digit"
    ]
+  },
+  {
+   "id": "3:historical-numerals",
+   "grade": "3",
+   "subject": "math",
+   "strand": "Number & Operations in Base Ten",
+   "skill": "Read and write numbers with Egyptian number symbols and Roman numerals to 30, and compare them with place value, where the place of a digit sets its value",
+   "code": "READINESS:historical-numerals",
+   "types": [
+    "G3-647"
+   ],
+   "families": [
+    "base-ten"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 126,
+   "prerequisites": []
   },
   {
    "id": "3:rounding",
@@ -3441,10 +3501,50 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 124,
+   "order": 127,
    "prerequisites": [
     "2:round-to-ten"
    ]
+  },
+  {
+   "id": "3:mental-math-hundreds-tens",
+   "grade": "3",
+   "subject": "math",
+   "strand": "Number & Operations in Base Ten",
+   "skill": "Add and subtract hundreds and tens in the head by analogy with the small fact (3 + 4 = 7, so 30 + 40 = 70 and 300 + 400 = 700), within 1000",
+   "code": "3.NBT.A.2",
+   "types": [
+    "G3-633"
+   ],
+   "families": [
+    "mental-math"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 128,
+   "prerequisites": []
+  },
+  {
+   "id": "3:add-sub-by-place-value",
+   "grade": "3",
+   "subject": "math",
+   "strand": "Number & Operations in Base Ten",
+   "skill": "Add and subtract three-digit numbers in a row, place by place, writing the steps (347 + 225 = 500 + 60 + 12 = 572)",
+   "code": "3.NBT.A.2",
+   "types": [
+    "G3-649"
+   ],
+   "families": [
+    "mental-math"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 129,
+   "prerequisites": []
   },
   {
    "id": "3:column-regrouping",
@@ -3473,7 +3573,7 @@
     267
    ],
    "verdict": "partial",
-   "order": 125,
+   "order": 130,
    "prerequisites": [
     "2:column-method"
    ]
@@ -3504,7 +3604,7 @@
     294
    ],
    "verdict": "partial",
-   "order": 126,
+   "order": 131,
    "prerequisites": [
     "3:rounding"
    ]
@@ -3528,7 +3628,7 @@
     298
    ],
    "verdict": "gap",
-   "order": 127,
+   "order": 132,
    "prerequisites": [
     "2:add-sub-within-100-practice"
    ]
@@ -3553,7 +3653,7 @@
     296
    ],
    "verdict": "partial",
-   "order": 128,
+   "order": 133,
    "prerequisites": [
     "2:odd-even"
    ]
@@ -3581,7 +3681,7 @@
     297
    ],
    "verdict": "partial",
-   "order": 129,
+   "order": 134,
    "prerequisites": [
     "2:skip-count-5-10-100",
     "2:skip-count-3-4"
@@ -3605,7 +3705,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 130,
+   "order": 135,
    "prerequisites": [
     "2:time-5-min-quarter"
    ]
@@ -3631,7 +3731,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 131,
+   "order": 136,
    "prerequisites": [
     "2:equal-groups-times",
     "2:arrays"
@@ -3658,7 +3758,7 @@
     288
    ],
    "verdict": "partial",
-   "order": 132,
+   "order": 137,
    "prerequisites": [
     "3:mult-equal-groups",
     "2:skip-count-3-4"
@@ -3685,7 +3785,7 @@
     291
    ],
    "verdict": "gap",
-   "order": 133,
+   "order": 138,
    "prerequisites": [
     "3:mult-equal-groups"
    ]
@@ -3729,11 +3829,51 @@
     293
    ],
    "verdict": "partial",
-   "order": 134,
+   "order": 139,
    "prerequisites": [
     "3:mult-number-line",
     "3:commutative"
    ]
+  },
+  {
+   "id": "3:multiply-multiples-of-10",
+   "grade": "3",
+   "subject": "math",
+   "strand": "Number & Operations in Base Ten",
+   "skill": "Multiply a one-digit number by a multiple of 10 and divide a multiple of 10 by a one-digit number from a times-table fact (3 · 40 = 120, 240 : 6 = 40)",
+   "code": "3.NBT.A.3",
+   "types": [
+    "G3-635"
+   ],
+   "families": [
+    "multiplication-tables"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 140,
+   "prerequisites": []
+  },
+  {
+   "id": "3:multiply-in-steps",
+   "grade": "3",
+   "subject": "math",
+   "strand": "Number & Operations in Base Ten",
+   "skill": "Multiply a two-digit number by a one-digit number in steps: the tens, the ones, then add (4 · 37 = 4 · 30 + 4 · 7)",
+   "code": "4.NBT.B.5 (grade 3 in KMK)",
+   "types": [
+    "G3-636"
+   ],
+   "families": [
+    "arrays-multiplication"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 141,
+   "prerequisites": []
   },
   {
    "id": "3:scaled-graphs",
@@ -3759,7 +3899,7 @@
     272
    ],
    "verdict": "partial",
-   "order": 135,
+   "order": 142,
    "prerequisites": [
     "2:scaled-pictograph",
     "2:bar-graphs"
@@ -3786,11 +3926,71 @@
     313
    ],
    "verdict": "partial",
-   "order": 136,
+   "order": 143,
    "prerequisites": [
     "2:number-line-not-from-zero",
     "2:skip-count-5-10-100"
    ]
+  },
+  {
+   "id": "3:kilometres-and-metres",
+   "grade": "3",
+   "subject": "math",
+   "strand": "Measurement & Data",
+   "skill": "Know that 1 km = 1000 m, picture a kilometre as ten times 100 m, and find how many metres are missing to 1 km",
+   "code": "4.MD.A.1 (grade 3 in KMK)",
+   "types": [
+    "G3-639"
+   ],
+   "families": [
+    "measurement"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 144,
+   "prerequisites": []
+  },
+  {
+   "id": "3:comma-notation-money-length",
+   "grade": "3",
+   "subject": "math",
+   "strand": "Measurement & Data",
+   "skill": "Write euros and cents and metres and centimetres with a decimal comma and change between the two ways (3,45 € = 3 € 45 ct, 1,20 m = 1 m 20 cm)",
+   "code": "4.MD.A.2 (grade 3 in KMK)",
+   "types": [
+    "G3-640"
+   ],
+   "families": [
+    "money"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 145,
+   "prerequisites": []
+  },
+  {
+   "id": "3:old-body-measures",
+   "grade": "3",
+   "subject": "math",
+   "strand": "Measurement & Data",
+   "skill": "Measure with old body measures (inch, foot, ell, fathom), compare the numbers different bodies give, and say why standard units were agreed",
+   "code": "READINESS:historical-measures",
+   "types": [
+    "G3-650"
+   ],
+   "families": [
+    "measurement"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 146,
+   "prerequisites": []
   },
   {
    "id": "3:division-sharing",
@@ -3810,7 +4010,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 137,
+   "order": 147,
    "prerequisites": [
     "2:share-and-group",
     "3:mult-equal-groups"
@@ -3837,7 +4037,7 @@
     288
    ],
    "verdict": "partial",
-   "order": 138,
+   "order": 148,
    "prerequisites": [
     "3:mult-number-line",
     "2:share-and-group"
@@ -3870,11 +4070,31 @@
     292
    ],
    "verdict": "partial",
-   "order": 139,
+   "order": 149,
    "prerequisites": [
     "3:times-tables",
     "3:division-sharing"
    ]
+  },
+  {
+   "id": "3:divide-in-steps",
+   "grade": "3",
+   "subject": "math",
+   "strand": "Number & Operations in Base Ten",
+   "skill": "Divide a two-digit number by a one-digit number in steps: split it into numbers the divisor goes into (84 : 4 = 80 : 4 + 4 : 4)",
+   "code": "4.NBT.B.6 (grade 3 in KMK)",
+   "types": [
+    "G3-637"
+   ],
+   "families": [
+    "mental-math"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 150,
+   "prerequisites": []
   },
   {
    "id": "3:muldiv-word-problems",
@@ -3907,7 +4127,7 @@
     289
    ],
    "verdict": "partial",
-   "order": 140,
+   "order": 151,
    "prerequisites": [
     "3:division-sharing",
     "3:division-repeated-subtraction",
@@ -3933,7 +4153,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 141,
+   "order": 152,
    "prerequisites": []
   },
   {
@@ -3954,11 +4174,31 @@
     295
    ],
    "verdict": "gap",
-   "order": 142,
+   "order": 153,
    "prerequisites": [
     "3:arithmetic-patterns",
     "3:mult-div-relationship"
    ]
+  },
+  {
+   "id": "3:proportional-tables",
+   "grade": "3",
+   "subject": "math",
+   "strand": "Operations & Algebraic Thinking",
+   "skill": "Complete two-row tables of proportional relations (twice as many, twice as much; half as many, half as much) and say the relation in words",
+   "code": "4.OA.A.2 (grade 3 in Lgr22)",
+   "types": [
+    "G3-651"
+   ],
+   "families": [
+    "number-charts"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 154,
+   "prerequisites": []
   },
   {
    "id": "3:balance-equations",
@@ -3982,7 +4222,7 @@
     290
    ],
    "verdict": "partial",
-   "order": 143,
+   "order": 155,
    "prerequisites": [
     "1:true-false-equations",
     "3:mult-div-relationship"
@@ -4006,7 +4246,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 144,
+   "order": 156,
    "prerequisites": [
     "3:time-to-minute"
    ]
@@ -4034,7 +4274,7 @@
     303
    ],
    "verdict": "partial",
-   "order": 145,
+   "order": 157,
    "prerequisites": [
     "3:add-subtract-time"
    ]
@@ -4058,7 +4298,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 146,
+   "order": 158,
    "prerequisites": [
     "2:time-5-min-quarter"
    ]
@@ -4089,7 +4329,7 @@
     305
    ],
    "verdict": "partial",
-   "order": 147,
+   "order": 159,
    "prerequisites": [
     "3:mult-equal-groups"
    ]
@@ -4112,7 +4352,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 148,
+   "order": 160,
    "prerequisites": [
     "3:area-model"
    ]
@@ -4136,7 +4376,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 149,
+   "order": 161,
    "prerequisites": [
     "2:measure-with-ruler"
    ]
@@ -4161,7 +4401,7 @@
     306
    ],
    "verdict": "partial",
-   "order": 150,
+   "order": 162,
    "prerequisites": [
     "3:perimeter",
     "3:same-area"
@@ -4190,7 +4430,7 @@
     299
    ],
    "verdict": "gap",
-   "order": 151,
+   "order": 163,
    "prerequisites": [
     "3:division-sharing",
     "3:times-tables"
@@ -4214,7 +4454,7 @@
     309
    ],
    "verdict": "gap",
-   "order": 152,
+   "order": 164,
    "prerequisites": []
   },
   {
@@ -4237,7 +4477,7 @@
     308
    ],
    "verdict": "partial",
-   "order": 153,
+   "order": 165,
    "prerequisites": [
     "3:right-angles",
     "2:2d-attributes"
@@ -4261,10 +4501,30 @@
     285
    ],
    "verdict": "gap",
-   "order": 154,
+   "order": 166,
    "prerequisites": [
     "2:symmetry-line"
    ]
+  },
+  {
+   "id": "3:circles-with-compass",
+   "grade": "3",
+   "subject": "math",
+   "strand": "Geometry",
+   "skill": "Draw circles with a compass from a given radius or diameter, mark the centre and the radius, and draw circle patterns",
+   "code": "READINESS:circles",
+   "types": [
+    "G3-644"
+   ],
+   "families": [
+    "geometry"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 167,
+   "prerequisites": []
   },
   {
    "id": "3:partition-equal-areas",
@@ -4286,7 +4546,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 155,
+   "order": 168,
    "prerequisites": [
     "2:equal-shares-shapes"
    ]
@@ -4313,7 +4573,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 156,
+   "order": 169,
    "prerequisites": [
     "3:partition-equal-areas"
    ]
@@ -4339,7 +4599,7 @@
     300
    ],
    "verdict": "partial",
-   "order": 157,
+   "order": 170,
    "prerequisites": [
     "3:fraction-unit-build"
    ]
@@ -4366,7 +4626,7 @@
     301
    ],
    "verdict": "gap",
-   "order": 158,
+   "order": 171,
    "prerequisites": [
     "3:fraction-unit-build"
    ]
@@ -4392,7 +4652,7 @@
     302
    ],
    "verdict": "partial",
-   "order": 159,
+   "order": 172,
    "prerequisites": [
     "3:fraction-unit-build"
    ]
@@ -4419,7 +4679,7 @@
    ],
    "planned": [],
    "verdict": "covered",
-   "order": 160,
+   "order": 173,
    "prerequisites": [
     "3:fraction-unit-build"
    ]
@@ -4443,7 +4703,7 @@
     268
    ],
    "verdict": "gap",
-   "order": 161,
+   "order": 174,
    "prerequisites": [
     "2:fraction-of-a-set",
     "3:division-sharing"
@@ -4472,12 +4732,32 @@
     304
    ],
    "verdict": "partial",
-   "order": 162,
+   "order": 175,
    "prerequisites": [
     "2:line-plots",
     "3:fraction-number-line",
     "2:measure-with-ruler"
    ]
+  },
+  {
+   "id": "3:count-all-possibilities",
+   "grade": "3",
+   "subject": "math",
+   "strand": "Measurement & Data",
+   "skill": "Find every possibility of a simple combination (outfits, scoops of ice cream) in a table or a tree diagram and count them",
+   "code": "READINESS:combinatorics",
+   "types": [
+    "G3-646"
+   ],
+   "families": [
+    "logic-puzzles"
+   ],
+   "activities": [],
+   "planned": [],
+   "verdict": "gap",
+   "extra": true,
+   "order": 176,
+   "prerequisites": []
   },
   {
    "id": "3:chance-more-likely",
@@ -4496,7 +4776,7 @@
    "planned": [],
    "verdict": "gap",
    "extra": true,
-   "order": 163,
+   "order": 177,
    "prerequisites": []
   },
   {
@@ -4517,7 +4797,7 @@
     307
    ],
    "verdict": "gap",
-   "order": 164,
+   "order": 178,
    "prerequisites": [
     "3:area-model"
    ]

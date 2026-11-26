@@ -143,7 +143,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Das Blatt zeigt Bildgeschichten in zwei Bildern: Auf dem Teller liegen 4 Kekse, im zweiten Bild sind alle durchgestrichen; auf dem Ast sitzen 5 Vögel, im zweiten Bild sind es immer noch 5. Das Kind schreibt zu jeder Geschichte die Aufgabe mit Ergebnis (4 − 4 = 0, 5 + 0 = 5, 5 − 0 = 5); darunter rechnet es zwölf Aufgaben mit der Null im Zahlenraum bis 10."
+            "page": "Das Blatt zeigt Bildgeschichten in zwei Bildern: Auf dem Teller liegen 4 Kekse, im zweiten Bild sind alle durchgestrichen; auf dem Ast sitzen 5 Vögel, im zweiten Bild sind es immer noch 5. Das Kind schreibt zu jeder Geschichte die Aufgabe mit Ergebnis (4 − 4 = 0, 5 + 0 = 5, 5 − 0 = 5); darunter rechnet es zwölf Aufgaben mit der Null im Zahlenraum bis 10.",
+            "placed": "1:add-within-10-models#rechnen-mit-der-null"
           },
           {
             "existing": "1:make-10",
@@ -330,7 +331,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Das Blatt zeigt zur Aufgabe 7 + 8 drei Kinder mit ihren Rechenwegen in Sprechblasen: erst bis zur 10 (7 + 3 + 5), Verdoppeln (7 + 7 + 1) und Tauschaufgabe (8 + 2 + 5). Das Kind rechnet jeden Weg nach, verbindet vier neue Aufgaben bis 20 (zum Beispiel 9 + 6, 6 + 7) mit dem Weg, der dazu gut passt, und schreibt bei zwei Aufgaben seinen eigenen Weg in Schritten auf."
+            "page": "Das Blatt zeigt zur Aufgabe 7 + 8 drei Kinder mit ihren Rechenwegen in Sprechblasen: erst bis zur 10 (7 + 3 + 5), Verdoppeln (7 + 7 + 1) und Tauschaufgabe (8 + 2 + 5). Das Kind rechnet jeden Weg nach, verbindet vier neue Aufgaben bis 20 (zum Beispiel 9 + 6, 6 + 7) mit dem Weg, der dazu gut passt, und schreibt bei zwei Aufgaben seinen eigenen Weg in Schritten auf.",
+            "placed": "1:fluency-within-20#rechenwege-vergleichen-7-plus-8"
           },
           {
             "new": true,
@@ -399,7 +401,8 @@
             "days": 3,
             "tool": "Die dehnbare Einheit",
             "source": "new",
-            "page": "Das Blatt zeigt eine Tabelle mit fünf Dingen aus dem Klassenzimmer (Tisch, Heft, Tafel, Tür, Fensterbank) und den Spalten „womit gemessen“ (Bild von Handspanne, Fuß oder Schritt), „geschätzt“ und „gemessen“. Das Kind schätzt, misst nach und trägt die Zahlen ein; unten vergleicht es seine Zahl für den Tisch mit der eines anderen Kindes und kreuzt an, wessen Handspanne größer ist."
+            "page": "Das Blatt zeigt eine Tabelle mit fünf Dingen aus dem Klassenzimmer (Tisch, Heft, Tafel, Tür, Fensterbank) und den Spalten „womit gemessen“ (Bild von Handspanne, Fuß oder Schritt), „geschätzt“ und „gemessen“. Das Kind schätzt, misst nach und trägt die Zahlen ein; unten vergleicht es seine Zahl für den Tisch mit der eines anderen Kindes und kreuzt an, wessen Handspanne größer ist.",
+            "placed": "1:measure-length-units#handspanne-fuss-schritt"
           },
           {
             "existing": "1:measure-length-units",
@@ -428,7 +431,8 @@
             "days": 3,
             "tool": "Die Zehnerdosen",
             "source": "new",
-            "page": "Das Blatt zeigt fünf Bilder mit ungeordnet liegenden kleinen Dingen (30, 40, 50, 60 und 80 Stück). Das Kind kreist immer 10 ein, schreibt „_ Zehner“ und die Zehnerzahl dazu (4 Zehner = 40); unten ergänzt es die Reihe 10, 20, … 100 und schreibt zu gezeichneten Zehnerstangen die Zahl."
+            "page": "Das Blatt zeigt fünf Bilder mit ungeordnet liegenden kleinen Dingen (30, 40, 50, 60 und 80 Stück). Das Kind kreist immer 10 ein, schreibt „_ Zehner“ und die Zehnerzahl dazu (4 Zehner = 40); unten ergänzt es die Reihe 10, 20, … 100 und schreibt zu gezeichneten Zehnerstangen die Zahl.",
+            "placed": "2:bundle-ten-ones#zehnerzahlen-bis-100"
           },
           {
             "new": true,
@@ -437,7 +441,8 @@
             "standard": "Gesetzmäßigkeiten erkennen, beschreiben und darstellen",
             "days": 3,
             "tool": "Zählen im Chor",
-            "source": "point:1:skip-counting"
+            "source": "point:1:skip-counting",
+            "placed": "1:skip-counting"
           },
           {
             "existing": "1:coins",
@@ -451,7 +456,8 @@
             "days": 3,
             "tool": "Die Geldmatte",
             "source": "new",
-            "page": "Das Blatt zeigt einen Marktstand mit sechs Waren und Preisschildern in ganzen Euro (1 € bis 12 €) und darunter zu jeder Aufgabe eine Geldbörse mit 5-€- und 10-€-Scheinen sowie 1-€- und 2-€-Münzen. Das Kind rechnet zwei Preise zusammen (höchstens 20 €), kreist das passende Geld ein und schreibt bei den letzten drei Aufgaben das Rückgeld auf 10 € oder 20 € auf."
+            "page": "Das Blatt zeigt einen Marktstand mit sechs Waren und Preisschildern in ganzen Euro (1 € bis 12 €) und darunter zu jeder Aufgabe eine Geldbörse mit 5-€- und 10-€-Scheinen sowie 1-€- und 2-€-Münzen. Das Kind rechnet zwei Preise zusammen (höchstens 20 €), kreist das passende Geld ein und schreibt bei den letzten drei Aufgaben das Rückgeld auf 10 € oder 20 € auf.",
+            "placed": "2:shopping-money#einkaufen-bis-20-euro"
           }
         ]
       }
@@ -570,7 +576,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Das Blatt zeigt Zahlenstrahl-Ausschnitte von einem Zehner zum nächsten (zum Beispiel 30 bis 40) mit einer markierten Zahl. Das Kind ergänzt zum nächsten Zehner (36 + _ = 40) und zieht von Zehnerzahlen ab (50 − 7 = _); neben jeder Aufgabe steht die Hilfsaufgabe mit verliebten Zahlen zum Ausfüllen (6 + _ = 10, 10 − 7 = _). Zahlenraum bis 100."
+            "page": "Das Blatt zeigt Zahlenstrahl-Ausschnitte von einem Zehner zum nächsten (zum Beispiel 30 bis 40) mit einer markierten Zahl. Das Kind ergänzt zum nächsten Zehner (36 + _ = 40) und zieht von Zehnerzahlen ab (50 − 7 = _); neben jeder Aufgabe steht die Hilfsaufgabe mit verliebten Zahlen zum Ausfüllen (6 + _ = 10, 10 − 7 = _). Zahlenraum bis 100.",
+            "placed": "1:mental-math-to-100#zum-zehner-ergaenzen"
           },
           {
             "new": true,
@@ -632,7 +639,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Das Blatt zeigt zur Aufgabe 39 + 25 drei Kinder mit ihren Rechenwegen: schrittweise (39 + 20 + 5), Zehner und Einer extra (30 + 20 und 9 + 5) und Hilfsaufgabe (40 + 25 − 1). Das Kind rechnet jeden Weg nach und schreibt das Ergebnis; bei einem vierten Kind steckt ein Fehler im Weg, den es anstreicht und berichtigt. Unten rechnet es 63 − 29 und 48 + 19 mit der Hilfsaufgabe und zwei Aufgaben auf seinem eigenen Weg."
+            "page": "Das Blatt zeigt zur Aufgabe 39 + 25 drei Kinder mit ihren Rechenwegen: schrittweise (39 + 20 + 5), Zehner und Einer extra (30 + 20 und 9 + 5) und Hilfsaufgabe (40 + 25 − 1). Das Kind rechnet jeden Weg nach und schreibt das Ergebnis; bei einem vierten Kind steckt ein Fehler im Weg, den es anstreicht und berichtigt. Unten rechnet es 63 − 29 und 48 + 19 mit der Hilfsaufgabe und zwei Aufgaben auf seinem eigenen Weg.",
+            "placed": "2:explain-strategies"
           },
           {
             "new": true,
@@ -723,7 +731,8 @@
             "days": 3,
             "tool": "Die Messwerkstatt",
             "source": "new",
-            "page": "Das Blatt zeigt eine Tabelle mit sechs Dingen aus Klassenzimmer und Schulhof (Heft, Tischhöhe, Türbreite, Tafel, Flur, Bank) und den Spalten „geschätzt“ und „gemessen“. Das Kind schätzt zuerst, misst dann mit Lineal oder Meterstab und schreibt in Metern und Zentimetern (zum Beispiel 1 m 20 cm); unten verbindet es acht Bilder mit den Karten „kürzer als 1 m“, „etwa 1 m“ und „länger als 1 m“ und ergänzt 1 m = _ cm."
+            "page": "Das Blatt zeigt eine Tabelle mit sechs Dingen aus Klassenzimmer und Schulhof (Heft, Tischhöhe, Türbreite, Tafel, Flur, Bank) und den Spalten „geschätzt“ und „gemessen“. Das Kind schätzt zuerst, misst dann mit Lineal oder Meterstab und schreibt in Metern und Zentimetern (zum Beispiel 1 m 20 cm); unten verbindet es acht Bilder mit den Karten „kürzer als 1 m“, „etwa 1 m“ und „länger als 1 m“ und ergänzt 1 m = _ cm.",
+            "placed": "2:estimate-lengths"
           },
           {
             "existing": "2:shopping-money",
@@ -987,7 +996,8 @@
             "days": 3,
             "tool": "Die drei Pfosten",
             "source": "new",
-            "page": "Das Blatt zeigt drei Zahlenstrahlen: von 0 bis 1000 in Hunderterschritten, von 400 bis 500 in Zehnerschritten und von 630 bis 650 in Einerschritten, jeweils mit fünf Pfeilen. Das Kind schreibt die Zahlen an die Pfeile und trägt drei vorgegebene Zahlen selbst mit einem Strich ein; unten füllt es zu sechs Zahlen (zum Beispiel 467) die Tabelle „Nachbarzehner – Zahl – Nachbarzehner“ und „Nachbarhunderter – Zahl – Nachbarhunderter“ aus."
+            "page": "Das Blatt zeigt drei Zahlenstrahlen: von 0 bis 1000 in Hunderterschritten, von 400 bis 500 in Zehnerschritten und von 630 bis 650 in Einerschritten, jeweils mit fünf Pfeilen. Das Kind schreibt die Zahlen an die Pfeile und trägt drei vorgegebene Zahlen selbst mit einem Strich ein; unten füllt es zu sechs Zahlen (zum Beispiel 467) die Tabelle „Nachbarzehner – Zahl – Nachbarzehner“ und „Nachbarhunderter – Zahl – Nachbarhunderter“ aus.",
+            "placed": "2:number-line-not-from-zero#zahlenstrahl-bis-1000"
           },
           {
             "existing": "2:hundred-more-less",
@@ -1016,7 +1026,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Das Blatt zeigt Aufgabenpaare „kleine Aufgabe – große Aufgabe“ in drei Blöcken: Hunderterzahlen (3 + 4 und 300 + 400, 9 − 5 und 900 − 500), Zehnerzahlen im Hunderter (54 − 3 und 540 − 30) und Zehnerzahlen über den Hunderter (8 + 5 und 380 + 50). Das Kind schreibt nur die Ergebnisse; im letzten Block ergänzt es zum nächsten Hunderter und zu 1000 (640 + _ = 700, 700 + _ = 1000)."
+            "page": "Das Blatt zeigt Aufgabenpaare „kleine Aufgabe – große Aufgabe“ in drei Blöcken: Hunderterzahlen (3 + 4 und 300 + 400, 9 − 5 und 900 − 500), Zehnerzahlen im Hunderter (54 − 3 und 540 − 30) und Zehnerzahlen über den Hunderter (8 + 5 und 380 + 50). Das Kind schreibt nur die Ergebnisse; im letzten Block ergänzt es zum nächsten Hunderter und zu 1000 (640 + _ = 700, 700 + _ = 1000).",
+            "placed": "3:mental-math-hundreds-tens"
           },
           {
             "new": true,
@@ -1026,7 +1037,8 @@
             "days": 3,
             "tool": "Rechenstrich",
             "source": "new",
-            "page": "Zu jeder Aufgabe (zum Beispiel 346 + 238) stehen ein leerer Rechenstrich und drei Schreibzeilen. Das Kind rechnet in Schritten (346 + 200 = 546, 546 + 30 = 576, 576 + 8 = 584), zeichnet die Sprünge und schreibt jeden Schritt als Gleichung auf; acht Aufgaben mit Summen bis 1000. Zur letzten Aufgabe schreibt es in zwei Sätzen auf, wie es gerechnet hat, und lässt ein anderes Kind den Weg nachrechnen."
+            "page": "Zu jeder Aufgabe (zum Beispiel 346 + 238) stehen ein leerer Rechenstrich und drei Schreibzeilen. Das Kind rechnet in Schritten (346 + 200 = 546, 546 + 30 = 576, 576 + 8 = 584), zeichnet die Sprünge und schreibt jeden Schritt als Gleichung auf; acht Aufgaben mit Summen bis 1000. Zur letzten Aufgabe schreibt es in zwei Sätzen auf, wie es gerechnet hat, und lässt ein anderes Kind den Weg nachrechnen.",
+            "placed": "1:open-number-line#halbschriftlich-addieren"
           },
           {
             "new": true,
@@ -1036,7 +1048,8 @@
             "days": 3,
             "tool": "Rechenstrich",
             "source": "new",
-            "page": "Das Blatt zeigt acht Minusaufgaben mit leerem Rechenstrich, die Hälfte mit weit auseinanderliegenden Zahlen (572 − 348), die Hälfte mit nah beieinanderliegenden (503 − 497, 701 − 688). Das Kind kreuzt vor dem Rechnen an „Ich ziehe ab“ oder „Ich ergänze“, zeichnet die Sprünge und schreibt die Schritte auf. Zwei Aufgaben rechnet es auf beiden Wegen und kreuzt an, welcher Weg hier geschickter war."
+            "page": "Das Blatt zeigt acht Minusaufgaben mit leerem Rechenstrich, die Hälfte mit weit auseinanderliegenden Zahlen (572 − 348), die Hälfte mit nah beieinanderliegenden (503 − 497, 701 − 688). Das Kind kreuzt vor dem Rechnen an „Ich ziehe ab“ oder „Ich ergänze“, zeichnet die Sprünge und schreibt die Schritte auf. Zwei Aufgaben rechnet es auf beiden Wegen und kreuzt an, welcher Weg hier geschickter war.",
+            "placed": "1:open-number-line#halbschriftlich-subtrahieren"
           },
           {
             "new": true,
@@ -1045,7 +1058,8 @@
             "standard": "M.P.3.1",
             "days": 2,
             "tool": null,
-            "source": "point:3:magic-squares"
+            "source": "point:3:magic-squares",
+            "placed": "3:magic-squares"
           }
         ]
       },
@@ -1074,7 +1088,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Das Blatt zeigt Aufgabenpaare (3 · 4 und 3 · 40, 24 : 6 und 240 : 6); zu den ersten vier Paaren ist die Zehneraufgabe als Bild aus Zehnerstangen gezeichnet (3 Gruppen mit je 4 Zehnerstangen). Das Kind rechnet erst die Einmaleinsaufgabe, dann die Aufgabe mit der Zehnerzahl; 20 Paare, Ergebnisse bis 1000."
+            "page": "Das Blatt zeigt Aufgabenpaare (3 · 4 und 3 · 40, 24 : 6 und 240 : 6); zu den ersten vier Paaren ist die Zehneraufgabe als Bild aus Zehnerstangen gezeichnet (3 Gruppen mit je 4 Zehnerstangen). Das Kind rechnet erst die Einmaleinsaufgabe, dann die Aufgabe mit der Zehnerzahl; 20 Paare, Ergebnisse bis 1000.",
+            "placed": "3:multiply-multiples-of-10"
           },
           {
             "new": true,
@@ -1084,7 +1099,8 @@
             "days": 3,
             "tool": "Das Brötchenblech",
             "source": "new",
-            "page": "Zu jeder Aufgabe (zum Beispiel 4 · 37) zeigt das Blatt links ein Rechteckfeld, das an der Zehnergrenze mit einer Linie geteilt ist (4 · 30 und 4 · 7), rechts ein leeres Malkreuz und darunter drei Schreibzeilen. Das Kind beschriftet die beiden Teilfelder, trägt die Teilergebnisse ins Malkreuz ein und schreibt die Schritte auf (4 · 30 = 120, 4 · 7 = 28, 120 + 28 = 148); acht Aufgaben. Bei der letzten kreuzt es an, welche Darstellung ihm am meisten hilft, und schreibt einen Satz dazu."
+            "page": "Zu jeder Aufgabe (zum Beispiel 4 · 37) zeigt das Blatt links ein Rechteckfeld, das an der Zehnergrenze mit einer Linie geteilt ist (4 · 30 und 4 · 7), rechts ein leeres Malkreuz und darunter drei Schreibzeilen. Das Kind beschriftet die beiden Teilfelder, trägt die Teilergebnisse ins Malkreuz ein und schreibt die Schritte auf (4 · 30 = 120, 4 · 7 = 28, 120 + 28 = 148); acht Aufgaben. Bei der letzten kreuzt es an, welche Darstellung ihm am meisten hilft, und schreibt einen Satz dazu.",
+            "placed": "3:multiply-in-steps"
           },
           {
             "new": true,
@@ -1094,7 +1110,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Zu jeder Aufgabe (zum Beispiel 84 : 4, 96 : 8, 135 : 5) zeigt das Blatt die Zahl als Bild aus Zehnerstangen und Einerwürfeln und darunter drei Schreibzeilen. Das Kind zerlegt die Zahl in zwei Teile, die sich gut teilen lassen (84 = 80 + 4), teilt beide Teile und addiert (20 + 1 = 21); bei den ersten vier Aufgaben ist die Zerlegung vorgegeben, bei den nächsten sechs findet das Kind sie selbst. Zum Schluss prüft es zwei Ergebnisse mit der Malaufgabe."
+            "page": "Zu jeder Aufgabe (zum Beispiel 84 : 4, 96 : 8, 135 : 5) zeigt das Blatt die Zahl als Bild aus Zehnerstangen und Einerwürfeln und darunter drei Schreibzeilen. Das Kind zerlegt die Zahl in zwei Teile, die sich gut teilen lassen (84 = 80 + 4), teilt beide Teile und addiert (20 + 1 = 21); bei den ersten vier Aufgaben ist die Zerlegung vorgegeben, bei den nächsten sechs findet das Kind sie selbst. Zum Schluss prüft es zwei Ergebnisse mit der Malaufgabe.",
+            "placed": "3:divide-in-steps"
           }
         ]
       },
@@ -1111,7 +1128,8 @@
             "days": 3,
             "tool": "Lineal",
             "source": "new",
-            "page": "Das Blatt zeigt sechs Strecken und vier kleine Gegenstände in Originalgröße (Büroklammer, Radiergummi, Schraube, Bleistiftstummel). Das Kind misst mit dem Lineal auf den Millimeter genau und schreibt die Länge auf zwei Arten (4 cm 7 mm und 47 mm). Im unteren Teil sind fünf Startpunkte vorgegeben: Das Kind zeichnet von dort Strecken mit vorgegebener Länge (zum Beispiel 6 cm 3 mm, 85 mm)."
+            "page": "Das Blatt zeigt sechs Strecken und vier kleine Gegenstände in Originalgröße (Büroklammer, Radiergummi, Schraube, Bleistiftstummel). Das Kind misst mit dem Lineal auf den Millimeter genau und schreibt die Länge auf zwei Arten (4 cm 7 mm und 47 mm). Im unteren Teil sind fünf Startpunkte vorgegeben: Das Kind zeichnet von dort Strecken mit vorgegebener Länge (zum Beispiel 6 cm 3 mm, 85 mm).",
+            "placed": "2:measure-with-ruler#millimeter"
           },
           {
             "new": true,
@@ -1121,7 +1139,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Das Blatt zeigt einen Ortsplan mit Schule, Bäckerei, Spielplatz, Schwimmbad und Bahnhof und Entfernungsangaben in Metern an den Wegen (zum Beispiel Schule – Bäckerei 250 m). Das Kind rechnet vier Wege zusammen (Summen bis 1000 m), ergänzt bei vier Aufgaben zu 1 km (650 m + _ m = 1 km) und verbindet sechs Alltagsstrecken (Länge des Schulhofs, Weg zum Nachbarort, Länge eines Fußballfeldes) mit den Karten „etwa 100 m“, „etwa 1 km“ und „viele Kilometer“."
+            "page": "Das Blatt zeigt einen Ortsplan mit Schule, Bäckerei, Spielplatz, Schwimmbad und Bahnhof und Entfernungsangaben in Metern an den Wegen (zum Beispiel Schule – Bäckerei 250 m). Das Kind rechnet vier Wege zusammen (Summen bis 1000 m), ergänzt bei vier Aufgaben zu 1 km (650 m + _ m = 1 km) und verbindet sechs Alltagsstrecken (Länge des Schulhofs, Weg zum Nachbarort, Länge eines Fußballfeldes) mit den Karten „etwa 100 m“, „etwa 1 km“ und „viele Kilometer“.",
+            "placed": "3:kilometres-and-metres"
           },
           {
             "new": true,
@@ -1131,7 +1150,8 @@
             "days": 3,
             "tool": "Die Geldmatte",
             "source": "new",
-            "page": "Das Blatt zeigt links sechs Geldbeträge als Bilder aus Scheinen und Münzen und rechts sechs Maßbänder mit einer markierten Länge. Das Kind trägt jede Angabe auf drei Arten in eine Tabelle ein (3 € 50 ct | 350 ct | 3,50 € und 1 m 25 cm | 125 cm | 1,25 m). Unten wandelt es zwölf Angaben um, darunter solche mit einer Null nach dem Komma (4,05 € = 405 ct; 2,08 m = 208 cm)."
+            "page": "Das Blatt zeigt links sechs Geldbeträge als Bilder aus Scheinen und Münzen und rechts sechs Maßbänder mit einer markierten Länge. Das Kind trägt jede Angabe auf drei Arten in eine Tabelle ein (3 € 50 ct | 350 ct | 3,50 € und 1 m 25 cm | 125 cm | 1,25 m). Unten wandelt es zwölf Angaben um, darunter solche mit einer Null nach dem Komma (4,05 € = 405 ct; 2,08 m = 208 cm).",
+            "placed": "3:comma-notation-money-length"
           },
           {
             "new": true,
@@ -1141,7 +1161,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Das Blatt zeigt sechs Einkaufszettel mit drei oder vier Preisen in Kommaschreibweise (zum Beispiel 2,95 €, 4,10 €, 1,89 €) und daneben einen Geldschein (10 € oder 20 €). Das Kind rundet jeden Preis auf ganze Euro, schreibt die Überschlagsrechnung auf und kreuzt an „Das Geld reicht“ oder „Das Geld reicht nicht“. Bei zwei fertigen Kassenzetteln mit gedruckter Summe entscheidet es, ob die Summe stimmen kann, und begründet mit dem Überschlag."
+            "page": "Das Blatt zeigt sechs Einkaufszettel mit drei oder vier Preisen in Kommaschreibweise (zum Beispiel 2,95 €, 4,10 €, 1,89 €) und daneben einen Geldschein (10 € oder 20 €). Das Kind rundet jeden Preis auf ganze Euro, schreibt die Überschlagsrechnung auf und kreuzt an „Das Geld reicht“ oder „Das Geld reicht nicht“. Bei zwei fertigen Kassenzetteln mit gedruckter Summe entscheidet es, ob die Summe stimmen kann, und begründet mit dem Überschlag.",
+            "placed": "3:estimate-by-rounding#ueberschlagen-beim-einkaufen"
           }
         ]
       },
@@ -1178,7 +1199,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Das Blatt zeigt acht fertig gerechnete schriftliche Plus- und Minusaufgaben bis 1000; in fünf davon steckt ein typischer Fehler (Übertrag vergessen, Stellen verrutscht, kleinere von der größeren Ziffer abgezogen). Das Kind schreibt neben jede Aufgabe den Überschlag mit gerundeten Zahlen, kreuzt an „kann stimmen“ oder „kann nicht stimmen“, rechnet bei vier Aufgaben die Probe mit der Umkehraufgabe und rechnet die falschen Aufgaben daneben richtig."
+            "page": "Das Blatt zeigt acht fertig gerechnete schriftliche Plus- und Minusaufgaben bis 1000; in fünf davon steckt ein typischer Fehler (Übertrag vergessen, Stellen verrutscht, kleinere von der größeren Ziffer abgezogen). Das Kind schreibt neben jede Aufgabe den Überschlag mit gerundeten Zahlen, kreuzt an „kann stimmen“ oder „kann nicht stimmen“, rechnet bei vier Aufgaben die Probe mit der Umkehraufgabe und rechnet die falschen Aufgaben daneben richtig.",
+            "placed": "3:estimate-by-rounding#ueberschlag-und-probe"
           }
         ]
       },
@@ -1242,7 +1264,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Das Blatt zeigt fünf Preistabellen mit zwei Zeilen (Anzahl – Preis), zum Beispiel 1 Brezel 2 €, 2 Brezeln 4 €, 3 Brezeln _ €. Das Kind setzt jede Tabelle bis zur Anzahl 10 fort, trägt Lücken in der Mitte ein und ergänzt unter jeder Tabelle den Satz „Für jede Brezel mehr kommen _ € dazu“. In der letzten Tabelle ist nur der Preis für 5 Stück gegeben (5 Hefte 10 €), und das Kind findet zuerst den Preis für 1 Stück."
+            "page": "Das Blatt zeigt fünf Preistabellen mit zwei Zeilen (Anzahl – Preis), zum Beispiel 1 Brezel 2 €, 2 Brezeln 4 €, 3 Brezeln _ €. Das Kind setzt jede Tabelle bis zur Anzahl 10 fort, trägt Lücken in der Mitte ein und ergänzt unter jeder Tabelle den Satz „Für jede Brezel mehr kommen _ € dazu“. In der letzten Tabelle ist nur der Preis für 5 Stück gegeben (5 Hefte 10 €), und das Kind findet zuerst den Preis für 1 Stück.",
+            "placed": "3:muldiv-word-problems#preistabellen"
           },
           {
             "new": true,
@@ -1252,7 +1275,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Das Blatt zeigt sechs Sachaufgaben wie „3 Hefte kosten 6 €. Wie viel kosten 6 Hefte? Wie viel kosten 9 Hefte?“ oder „4 Eintrittskarten kosten 60 €. Wie viel kosten 2 Karten?“, jede mit einer leeren Tabelle aus zwei Zeilen. Das Kind trägt die Angaben ein, zeichnet einen Pfeil mit „· 2“, „: 2“ oder „: 3“ zwischen die Spalten, rechnet und schreibt einen Antwortsatz."
+            "page": "Das Blatt zeigt sechs Sachaufgaben wie „3 Hefte kosten 6 €. Wie viel kosten 6 Hefte? Wie viel kosten 9 Hefte?“ oder „4 Eintrittskarten kosten 60 €. Wie viel kosten 2 Karten?“, jede mit einer leeren Tabelle aus zwei Zeilen. Das Kind trägt die Angaben ein, zeichnet einen Pfeil mit „· 2“, „: 2“ oder „: 3“ zwischen die Spalten, rechnet und schreibt einen Antwortsatz.",
+            "placed": "3:muldiv-word-problems#sachaufgaben-mit-tabellen"
           }
         ]
       },
@@ -1308,7 +1332,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Das Blatt zeigt oben vier markierte Mittelpunkte mit der Angabe des Radius in ganzen Zentimetern (2 cm bis 5 cm); das Kind zeichnet die Kreise mit dem Zirkel und beschriftet bei einem Kreis Mittelpunkt und Radius. In der Mitte zeichnet es um einen Mittelpunkt drei Kreise mit den Radien 2 cm, 3 cm und 4 cm (Zielscheibe). Unten ist ein Kreismuster aus sieben gleich großen Kreisen (Blume) begonnen, das es nach der Vorlage fertig zeichnet."
+            "page": "Das Blatt zeigt oben vier markierte Mittelpunkte mit der Angabe des Radius in ganzen Zentimetern (2 cm bis 5 cm); das Kind zeichnet die Kreise mit dem Zirkel und beschriftet bei einem Kreis Mittelpunkt und Radius. In der Mitte zeichnet es um einen Mittelpunkt drei Kreise mit den Radien 2 cm, 3 cm und 4 cm (Zielscheibe). Unten ist ein Kreismuster aus sieben gleich großen Kreisen (Blume) begonnen, das es nach der Vorlage fertig zeichnet.",
+            "placed": "3:circles-with-compass"
           },
           {
             "existing": "3:scaled-graphs",
@@ -1326,7 +1351,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Das Blatt zeigt zwei Säulendiagramme zu denselben Daten (Lieblingssport von 60 Kindern): eines mit einer Skala ab 0 in Fünferschritten, eines mit einer Skala, die erst bei 10 beginnt. Zu sechs Aussagen („Doppelt so viele Kinder mögen Fußball wie Turnen“, „Die meisten Kinder mögen Schwimmen“) kreuzt das Kind an: stimmt, stimmt nicht oder kann man nicht ablesen. Zum Schluss schreibt es in einem Satz auf, warum die Säulen im zweiten Diagramm so verschieden hoch aussehen."
+            "page": "Das Blatt zeigt zwei Säulendiagramme zu denselben Daten (Lieblingssport von 60 Kindern): eines mit einer Skala ab 0 in Fünferschritten, eines mit einer Skala, die erst bei 10 beginnt. Zu sechs Aussagen („Doppelt so viele Kinder mögen Fußball wie Turnen“, „Die meisten Kinder mögen Schwimmen“) kreuzt das Kind an: stimmt, stimmt nicht oder kann man nicht ablesen. Zum Schluss schreibt es in einem Satz auf, warum die Säulen im zweiten Diagramm so verschieden hoch aussehen.",
+            "placed": "3:scaled-graphs#diagramme-genau-lesen"
           },
           {
             "new": true,
@@ -1336,7 +1362,8 @@
             "days": 2,
             "tool": null,
             "source": "new",
-            "page": "Das Blatt zeigt drei Aufgaben: 3 T-Shirts und 2 Hosen, 2 Eissorten aus 4 Sorten in der Waffel, 3 Kinder in einer Reihe aufstellen. Zur ersten Aufgabe ist eine Tabelle begonnen, zur zweiten eine geordnete Liste, zur dritten ein Baumdiagramm mit dem ersten Ast. Das Kind malt oder schreibt alle Möglichkeiten geordnet auf, schreibt die Anzahl dazu und bei der ersten Aufgabe die passende Malaufgabe (3 · 2 = 6)."
+            "page": "Das Blatt zeigt drei Aufgaben: 3 T-Shirts und 2 Hosen, 2 Eissorten aus 4 Sorten in der Waffel, 3 Kinder in einer Reihe aufstellen. Zur ersten Aufgabe ist eine Tabelle begonnen, zur zweiten eine geordnete Liste, zur dritten ein Baumdiagramm mit dem ersten Ast. Das Kind malt oder schreibt alle Möglichkeiten geordnet auf, schreibt die Anzahl dazu und bei der ersten Aufgabe die passende Malaufgabe (3 · 2 = 6).",
+            "placed": "3:count-all-possibilities"
           },
           {
             "new": true,

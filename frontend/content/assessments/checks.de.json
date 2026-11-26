@@ -245,14 +245,15 @@
     },
     {
      "part": 4,
-     "lesson": 4,
+     "lesson": 5,
      "title": "Verliebte Zahlen: zusammen 10",
      "type": "G1-106",
      "tasks": 1
     }
    ],
    "notCovered": [
-    5
+    4,
+    6
    ],
    "forms": {
     "A": {
@@ -627,14 +628,22 @@
      "title": "Zahlen am Zahlenstrahl finden",
      "type": "G1-275",
      "tasks": 1
+    },
+    {
+     "part": 4,
+     "lesson": 5,
+     "title": "In Zehnern bündeln: Zehner und Einer",
+     "type": "G1-560",
+     "tasks": 1
     }
    ],
    "notCovered": [
-    2
+    2,
+    6
    ],
    "forms": {
     "A": {
-     "pages": 1,
+     "pages": 2,
      "cards": [
       [
        "446e195eaf413358"
@@ -645,6 +654,9 @@
       ],
       [
        "e6751d990aed40b4"
+      ],
+      [
+       "e7b45e507d9da477"
       ]
      ],
      "pos": [
@@ -657,6 +669,9 @@
       ],
       [
        null
+      ],
+      [
+       null
       ]
      ],
      "kinds": [
@@ -669,6 +684,9 @@
       ],
       [
        "w w w ? ? ?"
+      ],
+      [
+       "? ?"
       ]
      ],
      "sizes": [
@@ -681,11 +699,14 @@
       ],
       [
        20
+      ],
+      [
+       7
       ]
      ]
     },
     "B": {
-     "pages": 1,
+     "pages": 2,
      "cards": [
       [
        "2742e9323072feef"
@@ -696,6 +717,9 @@
       ],
       [
        "b829c5b24c304784"
+      ],
+      [
+       "88d723e04f782e56"
       ]
      ],
      "pos": [
@@ -705,6 +729,9 @@
       [
        1,
        0
+      ],
+      [
+       null
       ],
       [
        null
@@ -720,6 +747,9 @@
       ],
       [
        "w w w ? ? ?"
+      ],
+      [
+       "? ?"
       ]
      ],
      "sizes": [
@@ -732,6 +762,9 @@
       ],
       [
        20
+      ],
+      [
+       7
       ]
      ]
     }
@@ -984,20 +1017,22 @@
     },
     {
      "part": 4,
-     "lesson": 4,
+     "lesson": 5,
      "title": "Rechengeschichten bis 20",
      "type": "G1-213",
      "tasks": 1
     },
     {
      "part": 5,
-     "lesson": 5,
+     "lesson": 6,
      "title": "Kopfrechnen bis 20",
      "type": "G1-208",
      "tasks": 2
     }
    ],
-   "notCovered": [],
+   "notCovered": [
+    4
+   ],
    "forms": {
     "A": {
      "pages": 2,
@@ -1188,7 +1223,8 @@
    ],
    "notCovered": [
     1,
-    4
+    4,
+    6
    ],
    "forms": {
     "A": {
@@ -1317,28 +1353,28 @@
     },
     {
      "part": 2,
-     "lesson": 4,
+     "lesson": 5,
      "title": "Längen mit Kästchen messen",
      "type": "G1-139",
      "tasks": 1
     },
     {
      "part": 3,
-     "lesson": 5,
+     "lesson": 6,
      "title": "Sortieren, zählen und ein Bilddiagramm lesen",
      "type": "G1-141",
      "tasks": 1
     },
     {
      "part": 4,
-     "lesson": 6,
+     "lesson": 7,
      "title": "Ein Säulendiagramm lesen und ausmalen",
      "type": "G1-143",
      "tasks": 1
     },
     {
      "part": 5,
-     "lesson": 7,
+     "lesson": 8,
      "title": "Muster: Zwei Bilder fehlen",
      "type": "G1-155",
      "tasks": 1
@@ -1346,7 +1382,8 @@
    ],
    "notCovered": [
     2,
-    3
+    3,
+    4
    ],
    "forms": {
     "A": {
@@ -1721,14 +1758,15 @@
     },
     {
      "part": 3,
-     "lesson": 3,
+     "lesson": 4,
      "title": "Sachaufgaben bis 100: Frage, Rechnung, Antwort",
      "type": "G2-506",
      "tasks": 1
     }
    ],
    "notCovered": [
-    4
+    3,
+    5
    ],
    "forms": {
     "A": {
@@ -1848,28 +1886,35 @@
     },
     {
      "part": 3,
-     "lesson": 6,
+     "lesson": 4,
+     "title": "Die Uhr auf fünf Minuten genau lesen",
+     "type": "G2-249",
+     "tasks": 2
+    },
+    {
+     "part": 4,
+     "lesson": 7,
      "title": "Von der Strichliste zum Säulendiagramm",
      "type": "G2-239",
      "tasks": 1
     },
     {
-     "part": 4,
-     "lesson": 7,
+     "part": 5,
+     "lesson": 8,
      "title": "Ein X-Diagramm lesen",
      "type": "G2-240",
      "tasks": 1
     },
     {
-     "part": 5,
-     "lesson": 8,
+     "part": 6,
+     "lesson": 9,
      "title": "Jedes Bild zählt doppelt",
      "type": "G2-238",
      "tasks": 1
     },
     {
-     "part": 6,
-     "lesson": 9,
+     "part": 7,
+     "lesson": 10,
      "title": "Sicher, möglich, unmöglich",
      "type": "G2-507",
      "tasks": 1
@@ -1877,18 +1922,22 @@
    ],
    "notCovered": [
     3,
-    4,
-    5
+    5,
+    6
    ],
    "forms": {
     "A": {
-     "pages": 3,
+     "pages": 4,
      "cards": [
       [
        "108b9531b702e2b9"
       ],
       [
        "0241d004c0412fc2"
+      ],
+      [
+       "93ee3da282a6c485",
+       "3cd35de808202be6"
       ],
       [
        "b373917e24fa1dc5"
@@ -1911,6 +1960,10 @@
        null
       ],
       [
+       0,
+       2
+      ],
+      [
        null
       ],
       [
@@ -1929,6 +1982,10 @@
       ],
       [
        "?"
+      ],
+      [
+       "choose 1 ·0",
+       "choose 1 ·1"
       ],
       [
        "w w w w w w w w w ? ?"
@@ -1951,6 +2008,10 @@
        3
       ],
       [
+       0,
+       0
+      ],
+      [
        0
       ],
       [
@@ -1965,13 +2026,17 @@
      ]
     },
     "B": {
-     "pages": 3,
+     "pages": 4,
      "cards": [
       [
        "5a07fe8395bc5818"
       ],
       [
        "83e341e0a7b292f8"
+      ],
+      [
+       "a038d4b62f486bb5",
+       "78e86db9357aa930"
       ],
       [
        "7b08aae5c3505cbd"
@@ -1994,6 +2059,10 @@
        null
       ],
       [
+       1,
+       0
+      ],
+      [
        null
       ],
       [
@@ -2014,6 +2083,10 @@
        "?"
       ],
       [
+       "choose 1 ·0",
+       "choose 1 ·1"
+      ],
+      [
        "w w w w w w w w w ? ?"
       ],
       [
@@ -2032,6 +2105,10 @@
       ],
       [
        1
+      ],
+      [
+       0,
+       0
       ],
       [
        0
@@ -2796,13 +2873,15 @@
     },
     {
      "part": 4,
-     "lesson": 4,
+     "lesson": 5,
      "title": "100 mehr, 100 weniger",
      "type": "G2-226",
      "tasks": 2
     }
    ],
-   "notCovered": [],
+   "notCovered": [
+    4
+   ],
    "forms": {
     "A": {
      "pages": 2,
@@ -2954,34 +3033,43 @@
     },
     {
      "part": 2,
-     "lesson": 3,
+     "lesson": 6,
      "title": "Teilen mit Rest",
      "type": "G3-377",
      "tasks": 1
     },
     {
      "part": 3,
-     "lesson": 4,
+     "lesson": 7,
      "title": "Gleichungen im Gleichgewicht",
      "type": "G3-350",
      "tasks": 1
     },
     {
      "part": 4,
-     "lesson": 5,
+     "lesson": 8,
      "title": "Ist die Summe gerade oder ungerade?",
      "type": "G3-386",
      "tasks": 1
+    },
+    {
+     "part": 5,
+     "lesson": 9,
+     "title": "Zahlenfolgen: die Regel finden",
+     "type": "G3-327",
+     "tasks": 2
     }
    ],
    "notCovered": [
     2,
-    6,
-    7
+    3,
+    4,
+    5,
+    10
    ],
    "forms": {
     "A": {
-     "pages": 2,
+     "pages": 3,
      "cards": [
       [
        "3239388b8830a001"
@@ -2993,7 +3081,86 @@
        "cd65a9ba4a45a7de"
       ],
       [
-       "bf2c099d22174615"
+       "57e9b914928ce64b"
+      ],
+      [
+       "2d6fc17d1e82b9f9",
+       "8369772481138289"
+      ]
+     ],
+     "pos": [
+      [
+       null
+      ],
+      [
+       0
+      ],
+      [
+       null
+      ],
+      [
+       0
+      ],
+      [
+       null,
+       null
+      ]
+     ],
+     "kinds": [
+      [
+       "? · w = w"
+      ],
+      [
+       "choose 2"
+      ],
+      [
+       "w + w w + ?"
+      ],
+      [
+       "choose 3"
+      ],
+      [
+       "w w w w ? ? ?",
+       "w w w w ? ? ?"
+      ]
+     ],
+     "sizes": [
+      [
+       20
+      ],
+      [
+       22
+      ],
+      [
+       14
+      ],
+      [
+       33
+      ],
+      [
+       109,
+       77
+      ]
+     ]
+    },
+    "B": {
+     "pages": 3,
+     "cards": [
+      [
+       "aeb514081cd61c0c"
+      ],
+      [
+       "636660743a20255c"
+      ],
+      [
+       "f99f8e7e2c4820ab"
+      ],
+      [
+       "28e4cbc0ceacec44"
+      ],
+      [
+       "3606f2bd571d01f3",
+       "4dd59a364b0f6f44"
       ]
      ],
      "pos": [
@@ -3008,6 +3175,10 @@
       ],
       [
        1
+      ],
+      [
+       null,
+       null
       ]
      ],
      "kinds": [
@@ -3021,66 +3192,11 @@
        "w + w w + ?"
       ],
       [
-       "choose 1"
-      ]
-     ],
-     "sizes": [
-      [
-       20
+       "choose 3"
       ],
       [
-       22
-      ],
-      [
-       14
-      ],
-      [
-       69
-      ]
-     ]
-    },
-    "B": {
-     "pages": 2,
-     "cards": [
-      [
-       "aeb514081cd61c0c"
-      ],
-      [
-       "636660743a20255c"
-      ],
-      [
-       "f99f8e7e2c4820ab"
-      ],
-      [
-       "36818a19282c6859"
-      ]
-     ],
-     "pos": [
-      [
-       null
-      ],
-      [
-       0
-      ],
-      [
-       null
-      ],
-      [
-       0
-      ]
-     ],
-     "kinds": [
-      [
-       "? · w = w"
-      ],
-      [
-       "choose 2"
-      ],
-      [
-       "w + w w + ?"
-      ],
-      [
-       "choose 1"
+       "w w w w ? ? ?",
+       "w w w w ? ? ?"
       ]
      ],
      "sizes": [
@@ -3094,7 +3210,11 @@
        15
       ],
       [
-       68
+       34
+      ],
+      [
+       99,
+       76
       ]
      ]
     }
@@ -3331,27 +3451,31 @@
     },
     {
      "part": 4,
-     "lesson": 4,
+     "lesson": 5,
      "title": "Diagramme mit einer Skala in Fünferschritten",
      "type": "G3-333",
      "tasks": 1
     },
     {
      "part": 5,
-     "lesson": 5,
+     "lesson": 6,
      "title": "Ein Diagramm mit Kreuzen: halbe Schritte am Zahlenstrahl",
      "type": "G3-335",
      "tasks": 1
     },
     {
      "part": 6,
-     "lesson": 6,
+     "lesson": 9,
      "title": "Wahrscheinlicher oder unwahrscheinlicher? Versuche mit dem Zufallsbeutel",
      "type": "G3-484",
      "tasks": 1
     }
    ],
-   "notCovered": [],
+   "notCovered": [
+    4,
+    7,
+    8
+   ],
    "forms": {
     "A": {
      "pages": 3,

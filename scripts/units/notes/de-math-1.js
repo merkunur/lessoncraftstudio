@@ -178,15 +178,6 @@ module.exports = {
         watch: 'Wer zählt für 10 mehr noch in Einern? Prüfe die Zahlen am Zehnerübergang, etwa 1 mehr als 39 und 1 weniger als 40; sprich diese Zahlen gemeinsam, bevor geschrieben wird.',
       },
     },
-    '1:skip-counting': {
-      title: 'In Zehner-, Fünfer- und Zweierschritten zählen',
-      objective: 'Die Kinder zählen in 10er-, 5er- und 2er-Schritten und schreiben die fehlenden Zahlen in jede Zahlenreihe.',
-      note: {
-        mistake: 'Die Kinder sagen die Reihe richtig auf und schreiben dann in die Lücke die nächste Zählzahl (10, 20, 21). In Zweierschritten rutschen sie nach einem Fehler auf die ungeraden Zahlen und merken es nicht.',
-        words: 'Zähle mit der Klasse laut und halte an: „… 30, 40. Was kommt jetzt? Wie viel mehr ist das?“ Frage nach dem Muster: „Womit hören die Zahlen in Fünferschritten auf?“ (Mit 5 und 0.) „In Zehnerschritten?“ (Immer mit 0.) „In Zweierschritten?“ (Mit 0, 2, 4, 6 oder 8: die geraden Zahlen.)',
-        watch: 'Wer prüft eine Reihe an ihrem Muster („das kann nicht stimmen, die Zahl hört mit 3 auf“)? Beginne manche Reihen mittendrin, bei 40 oder bei 15; ein Kind, das nur vom Anfang an zählen kann, hat einen Vers gelernt, kein Zählen. Drei Arbeitsblätter sind viel für einen Tag: erst Zehner und Fünfer, die Zweier am nächsten Tag.',
-      },
-    },
     '1:time-read': {
       title: 'Die Uhr lesen: volle und halbe Stunden',
       objective: 'Die Kinder lesen an der Uhr volle und halbe Stunden ab und wählen die passende Uhrzeit aus.',

@@ -295,6 +295,16 @@
    ],
    "by": "code"
   },
+  "K:compare-capacity": {
+   "rows": [
+    {
+     "id": "K.MD.A.2",
+     "rel": "teaches",
+     "grade": "K"
+    }
+   ],
+   "by": "code"
+  },
   "K:draw-shapes": {
    "rows": [
     {
@@ -736,6 +746,16 @@
     }
    ],
    "by": "review"
+  },
+  "1:units-give-different-numbers": {
+   "rows": [
+    {
+     "id": "2.MD.A.2",
+     "rel": "prepares",
+     "grade": "2"
+    }
+   ],
+   "by": "code"
   },
   "1:time-read": {
    "rows": [
@@ -1514,10 +1534,34 @@
    ],
    "by": "code"
   },
+  "3:historical-numerals": {
+   "none": "the point names no standard of these documents (\"READINESS:historical-numerals\")",
+   "by": "code"
+  },
   "3:rounding": {
    "rows": [
     {
      "id": "3.NBT.A.1",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:mental-math-hundreds-tens": {
+   "rows": [
+    {
+     "id": "3.NBT.A.2",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:add-sub-by-place-value": {
+   "rows": [
+    {
+     "id": "3.NBT.A.2",
      "rel": "teaches",
      "grade": "3"
     }
@@ -1639,6 +1683,26 @@
    ],
    "by": "review"
   },
+  "3:multiply-multiples-of-10": {
+   "rows": [
+    {
+     "id": "3.NBT.A.3",
+     "rel": "teaches",
+     "grade": "3"
+    }
+   ],
+   "by": "code"
+  },
+  "3:multiply-in-steps": {
+   "rows": [
+    {
+     "id": "4.NBT.B.5",
+     "rel": "teaches",
+     "grade": "4"
+    }
+   ],
+   "by": "code"
+  },
   "3:scaled-graphs": {
    "rows": [
     {
@@ -1658,6 +1722,30 @@
     }
    ],
    "by": "review"
+  },
+  "3:kilometres-and-metres": {
+   "rows": [
+    {
+     "id": "4.MD.A.1",
+     "rel": "teaches",
+     "grade": "4"
+    }
+   ],
+   "by": "code"
+  },
+  "3:comma-notation-money-length": {
+   "rows": [
+    {
+     "id": "4.MD.A.2",
+     "rel": "teaches",
+     "grade": "4"
+    }
+   ],
+   "by": "code"
+  },
+  "3:old-body-measures": {
+   "none": "the point names no standard of these documents (\"READINESS:historical-measures\")",
+   "by": "code"
   },
   "3:division-sharing": {
    "rows": [
@@ -1694,6 +1782,16 @@
    ],
    "by": "review"
   },
+  "3:divide-in-steps": {
+   "rows": [
+    {
+     "id": "4.NBT.B.6",
+     "rel": "teaches",
+     "grade": "4"
+    }
+   ],
+   "by": "code"
+  },
   "3:muldiv-word-problems": {
    "rows": [
     {
@@ -1728,6 +1826,16 @@
     }
    ],
    "by": "review"
+  },
+  "3:proportional-tables": {
+   "rows": [
+    {
+     "id": "4.OA.A.2",
+     "rel": "teaches",
+     "grade": "4"
+    }
+   ],
+   "by": "code"
   },
   "3:balance-equations": {
    "rows": [
@@ -1858,6 +1966,10 @@
    ],
    "by": "code"
   },
+  "3:circles-with-compass": {
+   "none": "the point names no standard of these documents (\"READINESS:circles\")",
+   "by": "code"
+  },
   "3:partition-equal-areas": {
    "rows": [
     {
@@ -1957,6 +2069,10 @@
     }
    ],
    "by": "review"
+  },
+  "3:count-all-possibilities": {
+   "none": "the point names no standard of these documents (\"READINESS:combinatorics\")",
+   "by": "code"
   },
   "3:chance-more-likely": {
    "none": "the point names no standard of these documents (\"READINESS:chance\")",

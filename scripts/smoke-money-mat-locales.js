@@ -83,7 +83,7 @@ let fail = 0;
     }
     /* and the tag must still name the currency somewhere in the round */
     const sym = { en: '$', de: '€', fr: '€', it: '€', es: '$', nl: '€', fi: '€', pt: 'R$', sv: 'kr', da: 'kr', no: 'kr' }[L];
-    const mark = { en: '¢', de: 'c', fr: 'c', it: 'c', es: '$', nl: 'ct', fi: 'c', pt: 'c', sv: 'kr', da: 'kr', no: 'kr' }[L];
+    const mark = { en: '¢', de: 'ct', fr: 'c', it: 'c', es: '$', nl: 'ct', fi: 'snt', pt: 'c', sv: 'kr', da: 'kr', no: 'kr' }[L];
     if (!m.tag.includes(sym) && !m.tag.includes(mark)) problems.push(`price tag names no unit ("${m.tag}")`);
     if (L !== 'en' && S.instruction[L] !== S.instruction.en && m.body.includes(S.instruction.en)) problems.push('en instruction leak');
     if (problems.length) { fail++; console.log(`  ✗ ${L}: ${problems.join('; ')}`); }

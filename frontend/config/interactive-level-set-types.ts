@@ -71,6 +71,7 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
  * variation code the slug ends with (`…-k332-3` → "k332").
  */
 // Stage E-1 (2026-11-26): g1671, g2631, g2632, g2633, g3630, g3631, g3632 (German and Swedish Year pages; PDF only)
+// Stage E-2 DE-A (2026-11-26): g1673, g1674, g1675, g2634, g2635, g2636 (German Year pages; PDF only)
 export const LEVEL_SET_PRINT_ONLY_VARIATIONS: Readonly<Record<string, readonly string[]>> = {
   feelings: ['k332', 'k708', 'k709', 'k710', 'g1649', 'g3609', 'g3610', 'k712', 'k713', 'k720', 'k721', 'g1653', 'g1654', 'g1665', 'g1669', 'g3612', 'g3613', 'g3629'],   // g3612 civic virtues, g3613 our class constitution, g3629 deciding together (Grade 3 social studies, batch S3, 2026-11-25); k712, k713, k720, k721: Kindergarten social studies pages, g1653, g1654, g1665, g1669: Grade 1 (batch S1), print only (Stage D-5, 2026-11-24); k708-k710: Kindergarten health pages, print only (Stage D-5 batch K2, 2026-11-23); g3609-g3610: Grade 3 health pages, print only (batch 3, 2026-11-24)
   opposites: ['g1336'],   // Pair Up: sorting words into written pairs (Level Set 2026-09-28)
@@ -85,11 +86,11 @@ export const LEVEL_SET_PRINT_ONLY_VARIATIONS: Readonly<Record<string, readonly s
   // lesson pages; they have no screen adapter yet, so their pages are PDF only. Take a code out of this list on the
   // day its type gets a screen version (scripts/units/year/after-publish.sh prints the families of a new batch).
   'doubles-halves': ['g1449', 'g1451'],
-  'mental-math': ['g1443', 'g1445', 'g1446', 'g1447', 'g1448', 'g1558', 'g1559', 'g1561', 'g2504'],
+  'mental-math': ['g1443', 'g1445', 'g1446', 'g1447', 'g1448', 'g1558', 'g1559', 'g1561', 'g2504', 'g1673', 'g1674', 'g2634', 'g2635'],
   'number-lines': ['g1438', 'g1439', 'g2395', 'g3406', 'g1556', 'g1557', 'g2500', 'g2501', 'g3481', 'g3630'],
   'multiplication-tables': ['g3407', 'g3410', 'g3482', 'g3483', 'g3491'],   // g3491 Year pages W: Multiply by Tens (boxes to write in; PDF only)
   'telling-time': ['g1477', 'g2633'],
-  measurement: ['g2476', 'g2477', 'g2503', 'g1574', 'g2517', 'g3493', 'g2632'],   // g1574, g2517 Year pages X: rows of paper clips to judge, one ribbon in two units (marks and boxes; PDF only)
+  measurement: ['g2476', 'g2477', 'g2503', 'g1574', 'g2517', 'g3493', 'g2632', 'g1675', 'g2636'],   // g1574, g2517 Year pages X: rows of paper clips to judge, one ribbon in two units (marks and boxes; PDF only)
   money: ['g2472', 'k717', 'g1668', 'g1670', 'g2628', 'g2629', 'g2630', 'g1671', 'g2631'],   // k717: Choosing One Thing, a record page (Stage D-5 batch SK, 2026-11-24); g1668 Saving for a Goal, g1670 Prices at the Market (batch S1); g2628-g2630 cost, banks and the class market (batch S2, 2026-11-25)
   'number-bonds': ['k456', 'k457', 'k634', 'k635', 'k638'],
   'number-charts': ['k632', 'k633'],   // Year pages F: published as PDF only (their base types have screens; these faces wait for theirs)

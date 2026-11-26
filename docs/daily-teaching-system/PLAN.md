@@ -2494,3 +2494,23 @@ Then batch 1 (Grade 1 pages), and so on.
 - The Texas reading; the nurse's cap; the tracing scene names; "trousers".
 
 **Next:** E-1, the 8 generator changes.
+
+### 2026-11-25/26: the two waiting English rows get their page; Norwegian hedgehog names fixed live (deploy 67, commits `fdd4dd578`, `5246aead6`)
+
+**Operator 2026-11-25, on the two open items of E-0: "fix both of them."**
+
+**Norwegian "piggsvin" (a porcupine) on hedgehog pages:** all 20 live Norwegian pages that say piggsvin were sorted by the picture they show. The 5 that show a porcupine are correct and untouched. Fixed:
+- the Color by Number scene "Piggsvin i hagen" (the source `data/cbn/names-i18n.js`; the one live page republished in place, only the name differs; the HANDOFF section 6 order ran clean, identity PASS);
+- page text in place on 9 hedgehog pages (titles, descriptions, picture labels, JSON-LD, the Deck rows and hashes; no collisions) and the deck-end tiles of 2 other pages;
+- the 4 fact-file landings (15 places, one meta description).
+Not fixable: two app pages carry the word baked into the worksheet picture or as a key (apps are never regenerated).
+
+**The two English teacher-led lessons got a page each** (`types/_shared/talk-verbs.js`):
+- K-728 Walk, March, Tiptoe: Act It Out (L.K.5.d): picture cues (mouse quiet, drum loud, snail slow, rabbit fast), two words to act out and circle; level 3 rows of three; a drawing box.
+- G1-678 Book Talk: Listen, Then Add On (SL.1.1.a): talk rules, stems, the class question; a model talk about a known tale; level 2 which reply goes with what was just said; level 3 the child's record.
+- One US teacher in two rounds (7 must, 12 should; then 1 must, 4 should), all applied. What changed the design: plain words were keyed as extremes ("talk" = loud), toss/fling is force not speed, "tick" is British, the first speaker had no one to add on to, one word answered two rows of a page. Now a fixed schedule of four page plans per level (chosen by the copy): no word keyed twice on a page, every word keyed on copies 1-4, every word keyed in 50 % of the rows it stands in. Gate `qa/verify-talk-verbs.js` 3,707 assertions, 11/11 poisons.
+- Level Set `yen`: 21 noindex pages, audit clean; print only.
+- Placed (append; descriptions count only): k-sorting-words-telling-stories and g1-reading-stories-characters-and-lessons 5 -> 6 lessons; points K:act-out-verbs and 1:book-talk with Texas rows; unit checks rebuilt with identical forms; Grade 1 sub days weeks 19 and 24 trade phonics blocks (P8).
+- Live (deploy 67): units live check 3,596 pass, assessments 2,120 pass, both units show 6 lessons, identity PASS (287 pages).
+
+**E-1 built (not yet published):** eight types (de G1-671, G3-630, G3-631; sv G1-672, G2-631, G2-632, G2-633, G3-632), gate 9,770 assertions, 58/58 poisons, 52,989 existing pages byte-identical. Native reviews: German 4 must / 12 should, Swedish 2 must / 17 should. Next: fix, publish noindex in de/sv, then E-2.

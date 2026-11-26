@@ -2531,3 +2531,20 @@ Not fixable: two app pages carry the word baked into the worksheet picture or as
 - **Live (deploy 68):** pages answer 200 noindex; units live checks de 610 and sv 537 pass; identity PASS.
 - **Lesson:** a Level Set page title has a 70-character budget, so a long lesson name gets printTitle.
 - **Next:** E-2 batch DE-A (builder running), then DE-B and SV; E-3 places the 46 lessons.
+
+### 2026-11-26: Stage E-2 batch DE-A published, six German page types for Klasse 1-2 (deploy 69, commits `42de4b9f3`, `97dbc53d8`)
+
+- **Built** by one builder (`types/_shared/e2-math.js`, `e2-math-art.js`, `data/e2/e2-math.js`), German only:
+  G1-673 Rechnen mit der Null · G1-674 Rechenwege vergleichen: 7 + 8 · G1-675 Mit Handspanne, Fuß und Schritt messen · G2-634 Zum Zehner ergänzen, vom Zehner abziehen · G2-635 Rechenwege vergleichen: schrittweise oder mit Hilfsaufgabe? · G2-636 Meter und Zentimeter: erst schätzen, dann messen.
+  The measuring table is one data-driven mode the Swedish batch extends. Existing pages byte-identical (93,105 hashes).
+- **Reviewed** by the German Grundschule teacher in three rounds:
+  - round 1: 2 must, 10 should;
+  - round 2: 1 must, 4 should, all applied;
+  - round 3 (my own reading of the sheets): the last must fixed.
+  The last must was the builder's own round-1 layout redrawing the first group in a "dazu" story, so one ladybug hung in the air like a newcomer. The first group now keeps its places and only newcomers are added; the gate measures that every thing rests on its ground.
+- **Zero:** the zero page keeps the counting rule. Zero appears only in arithmetic on a pictured action, never as "count none".
+- **Gate** `qa/verify-e2-de-a.js`: 7,359 assertions at 400 seeds a level, 113/113 poisons, 4 controls.
+- **Teaching points:** each type sits under an existing point. Two of them are teacher-led points (2:explain-strategies, 2:estimate-lengths): they now have a German page and keep their English routines (the gates pass).
+- **Published** noindex as Level Set `yeb` (76 pages; audit 76/76). Copies were told apart by task SHAPE only, so three types first kept one copy a level; `levelSetWords` now names the tasks themselves.
+- **Live (deploy 69):** pages answer 200 noindex, not playable; de units live check passes; identity PASS.
+- **Next:** DE-B (14 types, builder running), then SV (10), then E-3.

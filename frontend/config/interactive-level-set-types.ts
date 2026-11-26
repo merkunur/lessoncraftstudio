@@ -73,6 +73,7 @@ export const INTERACTIVE_LEVEL_SET_TYPES: ReadonlySet<string> = new Set<string>(
 // Stage E-1 (2026-11-26): g1671, g2631, g2632, g2633, g3630, g3631, g3632 (German and Swedish Year pages; PDF only)
 // Stage E-2 DE-A (2026-11-26): g1673, g1674, g1675, g2634, g2635, g2636 (German Year pages; PDF only)
 // Stage E-2 DE-B (2026-11-26): g3633-g3646 (German Klasse 3 Year pages; PDF only)
+// Stage E-2 SV (2026-11-26): k727, g1676, g1677, g2637, g3647-g3652 (Swedish Year pages; PDF only)
 export const LEVEL_SET_PRINT_ONLY_VARIATIONS: Readonly<Record<string, readonly string[]>> = {
   feelings: ['k332', 'k708', 'k709', 'k710', 'g1649', 'g3609', 'g3610', 'k712', 'k713', 'k720', 'k721', 'g1653', 'g1654', 'g1665', 'g1669', 'g3612', 'g3613', 'g3629'],   // g3612 civic virtues, g3613 our class constitution, g3629 deciding together (Grade 3 social studies, batch S3, 2026-11-25); k712, k713, k720, k721: Kindergarten social studies pages, g1653, g1654, g1665, g1669: Grade 1 (batch S1), print only (Stage D-5, 2026-11-24); k708-k710: Kindergarten health pages, print only (Stage D-5 batch K2, 2026-11-23); g3609-g3610: Grade 3 health pages, print only (batch 3, 2026-11-24)
   opposites: ['g1336'],   // Pair Up: sorting words into written pairs (Level Set 2026-09-28)
@@ -87,14 +88,14 @@ export const LEVEL_SET_PRINT_ONLY_VARIATIONS: Readonly<Record<string, readonly s
   // lesson pages; they have no screen adapter yet, so their pages are PDF only. Take a code out of this list on the
   // day its type gets a screen version (scripts/units/year/after-publish.sh prints the families of a new batch).
   'doubles-halves': ['g1449', 'g1451'],
-  'mental-math': ['g1443', 'g1445', 'g1446', 'g1447', 'g1448', 'g1558', 'g1559', 'g1561', 'g2504', 'g1673', 'g1674', 'g2634', 'g2635', 'g3633', 'g3637'],
-  'number-lines': ['g1438', 'g1439', 'g2395', 'g3406', 'g1556', 'g1557', 'g2500', 'g2501', 'g3481', 'g3630', 'g3634'],
+  'mental-math': ['g1443', 'g1445', 'g1446', 'g1447', 'g1448', 'g1558', 'g1559', 'g1561', 'g2504', 'g1673', 'g1674', 'g2634', 'g2635', 'g3633', 'g3637', 'g3649'],
+  'number-lines': ['g1438', 'g1439', 'g2395', 'g3406', 'g1556', 'g1557', 'g2500', 'g2501', 'g3481', 'g3630', 'g3634', 'g1677'],
   'multiplication-tables': ['g3407', 'g3410', 'g3482', 'g3483', 'g3491', 'g3635'],   // g3491 Year pages W: Multiply by Tens (boxes to write in; PDF only)
   'telling-time': ['g1477', 'g2633'],
-  measurement: ['g2476', 'g2477', 'g2503', 'g1574', 'g2517', 'g3493', 'g2632', 'g1675', 'g2636', 'g3638', 'g3639'],   // g1574, g2517 Year pages X: rows of paper clips to judge, one ribbon in two units (marks and boxes; PDF only)
+  measurement: ['g2476', 'g2477', 'g2503', 'g1574', 'g2517', 'g3493', 'g2632', 'g1675', 'g2636', 'g3638', 'g3639', 'g1676', 'g2637', 'g3650', 'k727'],   // g1574, g2517 Year pages X: rows of paper clips to judge, one ribbon in two units (marks and boxes; PDF only)
   money: ['g2472', 'k717', 'g1668', 'g1670', 'g2628', 'g2629', 'g2630', 'g1671', 'g2631', 'g3640', 'g3641'],   // k717: Choosing One Thing, a record page (Stage D-5 batch SK, 2026-11-24); g1668 Saving for a Goal, g1670 Prices at the Market (batch S1); g2628-g2630 cost, banks and the class market (batch S2, 2026-11-25)
   'number-bonds': ['k456', 'k457', 'k634', 'k635', 'k638'],
-  'number-charts': ['k632', 'k633', 'g3642'],   // Year pages F: published as PDF only (their base types have screens; these faces wait for theirs)
+  'number-charts': ['k632', 'k633', 'g3642', 'g3651'],   // Year pages F: published as PDF only (their base types have screens; these faces wait for theirs)
   'arrays-multiplication': ['k639', 'g2515', 'g3636'],   // g2515 Year pages W: Rows and Columns of Squares (lines drawn with a ruler; PDF only)
   fractions: ['g3492'],   // Year pages W: Whole Numbers as Fractions (boxes to write in; PDF only)
   'column-arithmetic': ['g2502', 'g2514', 'g3631'],   // g2514 Year pages V: three and four numbers in columns (boxes to write in; PDF only)
@@ -112,8 +113,9 @@ export const LEVEL_SET_PRINT_ONLY_VARIATIONS: Readonly<Record<string, readonly s
   'syllable-split': ['g2546', 'g1600', 'g1601', 'g3512', 'g3513', 'g3514'],   // g3512 to g3519 Year pages, literacy X: Grade 3 long words (boxes for a letter, words to sort and to build; PDF only)   // Year pages, literacy W: Grade 2 reading pages for the vowel patterns, two-syllable words (words to split, write and draw; PDF only)
   'syllable-reading': ['g2547', 'k664', 'g3515'],   // k664 Year pages, literacy T: two words one letter apart (a word to circle, a letter to underline; PDF only)
   'fact-families': ['g1566'],   // Year pages H: Think Addition to Subtract (three boxes per card, PDF only)
-  'graphing-data': ['g1481', 'g2507', 'g2508', 'g3484', 'g2516', 'k726', 'g3632', 'g3645'],   // Year pages P: the chance pages (marks in boxes, a record sheet; PDF only); g2516 Year pages X: a line plot the child makes (PDF only); k726: Our Class Vote, the class's own votes (Stage D-5 batch SK, 2026-11-24)
+  'graphing-data': ['g1481', 'g2507', 'g2508', 'g3484', 'g2516', 'k726', 'g3632', 'g3645', 'g3652'],   // Year pages P: the chance pages (marks in boxes, a record sheet; PDF only); g2516 Year pages X: a line plot the child makes (PDF only); k726: Our Class Vote, the class's own votes (Stage D-5 batch SK, 2026-11-24)
   geometry: ['g3488', 'g3489', 'g3490', 'k644', 'g3644'],   // Year pages U: area from side lengths, L-shapes, the missing side of a perimeter (boxes to write in; PDF only); k644 Year pages AA: lines to draw and solids to color by a code (PDF only)
   'word-problems': ['g2489', 'k642', 'g2506', 'g1567', 'g1568', 'g2509', 'g1569', 'g1570', 'g1571', 'g2510', 'g1572', 'g2511', 'g2512', 'g3485', 'g3486', 'g3487', 'k643', 'g2518', 'g3643'],   // (g1511 Compare Word Problems HAS a screen version: it is not listed)
   'logic-puzzles': ['g3646'],   // Stage E-2 DE-B (2026-11-26): g3633-g3646 (German Klasse 3 Year pages; PDF only)
+  rounding: ['g3648'],   // Stage E-2 SV (2026-11-26): k727, g1676, g1677, g2637, g3647-g3652 (Swedish Year pages; PDF only)
 };

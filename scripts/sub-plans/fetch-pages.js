@@ -19,7 +19,21 @@ const plan = JSON.parse(fs.readFileSync(path.join(REPO, 'out', 'sub-plans', 'wee
 const slugs = [...new Set(plan.map((b) => b.core))];
 for (const d of ['pages', 'text']) fs.mkdirSync(path.join(T, d), { recursive: true });
 const ORIGIN = 'https://www.lessoncraftstudio.com/en/decks/';
-const curl = (url, out) => new Promise((res) => execFile('curl', ['-s', '--max-time', '60', '--resolve', 'www.lessoncraftstudio.com:443:65.108.5.250', '-o', out, '-w', '%{http_code}', url], (e, so) => res(String(so))));
+// Through Cloudflare with our QA header (the origin only answers Cloudflare since 2026-11-26).
+// Resolves to the HTTP status as a string, like the curl -w '%{http_code}' it replaced.
+const https = require('https');
+const QA = require('../lib/qa-header').headers();
+const curl = (url, out) => new Promise((res) => {
+  const req = https.get(url, { headers: Object.assign({ 'user-agent': 'Mozilla/5.0 (lcs-sub-plans-fetch)' }, QA), timeout: 60000 }, (r) => {
+    if (r.statusCode !== 200) { r.resume(); return res(String(r.statusCode)); }
+    const f = fs.createWriteStream(out);
+    r.pipe(f);
+    f.on('finish', () => f.close(() => res('200')));
+    f.on('error', () => res('0'));
+  });
+  req.on('timeout', () => req.destroy(new Error('timeout')));
+  req.on('error', () => res('0'));
+});
 const run = (cmd, args) => new Promise((res) => execFile(cmd, args, { maxBuffer: 1 << 24 }, (e, so) => res(e ? null : so)));
 (async () => {
   let i = 0, bad = 0;

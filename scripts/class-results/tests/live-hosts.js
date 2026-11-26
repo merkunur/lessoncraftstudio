@@ -26,13 +26,17 @@ const LIST = pages.length ? pages : [
   'https://' + HOST + '/mini-tools/ten-frame-activity.html',
 ];
 (async () => {
-  // Cloudflare answers an automated browser with a challenge page (403). --origin opens the same addresses on the
-  // origin server itself: the name is resolved to the server, whose own certificate is one only Cloudflare trusts.
+  // Cloudflare answers an automated browser with a challenge page (403), so every page gets our QA header
+  // (scripts/lib/qa-header.js), which Cloudflare's skip rule lets through. --origin used to open the origin server
+  // directly; since 2026-11-26 the origin answers only Cloudflare (server-scripts/cf-origin-firewall.sh), so from the
+  // PC it can no longer connect.
   const ORIGIN = process.argv.includes('--origin');
+  if (ORIGIN) console.warn('--origin: the origin answers only Cloudflare since 2026-11-26; this run will not connect from the PC');
   const browser = await puppeteer.launch({ headless: 'new', args: ['--disable-blink-features=AutomationControlled'].concat(ORIGIN ? ['--host-resolver-rules=MAP ' + HOST + ' 65.108.5.250', '--ignore-certificate-errors'] : []) });
   let bad = 0;
   for (const url of LIST) {
     const page = await browser.newPage();
+    if (!ORIGIN) await require(path.join(REPO, 'scripts', 'lib', 'qa-header')).apply(page);
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36');
     const hosts = {}; const fonts = []; const paths = [];
     page.on('request', (rq) => { let h; try { h = new URL(rq.url()).host; } catch (e) { return; } if (/^(data|blob|about):/.test(rq.url())) return; hosts[h] = (hosts[h] || 0) + 1; try { paths.push(new URL(rq.url()).pathname); } catch (e) { /* not an address */ } });

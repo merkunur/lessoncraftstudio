@@ -27,6 +27,8 @@
 #   5. releases/current/.next/cache/images entries > 14 d — the resized-image cache deploy.sh
 #                                           now carries forward across releases.
 #   6. /tmp is NOT handled here — /etc/tmpfiles.d/lcs-tmp-age.conf (14 d) does it daily.
+#   7. NOT a cleanup — a weekly REPORT: cf-origin-firewall.sh --check (the origin must answer
+#      80/443 only from Cloudflare's current ranges; it never changes the firewall here).
 #
 # Never touches: live deck dirs/symlinks, image-library*, worksheet-generators, admin-panels,
 # design-elements, backups/*.tar.gz|*.sql.gz (their own crons), releases/ (except the live
@@ -131,6 +133,10 @@ if [ -d "$IMGCACHE" ]; then
 else
   echo "   (no live image cache)"
 fi
+
+echo ""
+echo "7. origin firewall (80/443 only from Cloudflare) — report only"
+bash /opt/lessoncraftstudio/server-scripts/cf-origin-firewall.sh --check 2>&1 | tail -3 | sed 's/^/   /'
 
 echo ""
 echo "after:  $(df -h / | tail -1)"

@@ -2582,3 +2582,65 @@ Not fixable: two app pages carry the word baked into the worksheet picture or as
 - **Published** noindex as Level Set `yed`: 127 pages, audit 127/127, all print only.
 - **Live (deploy 71):** pages answer 200 noindex; identity PASS.
 - **E-2 complete:** 30 new types in all (DE-A 6, DE-B 14, SV 10); 384 noindex pages.
+
+### 2026-11-26: Stage E-3, the 46 German and Swedish mathematics lessons placed; STAGE E COMPLETE (deploy 72, commit `3a5e473e0`)
+
+Every lesson of the German and Swedish mathematics year designs now has its page and its unit. German: 200 lessons in 32 units. Swedish: 255 lessons in 42 units. The work list shows the whole design built (A 54, A2 150, C 0, D 0).
+
+**Placement** (`scripts/units/year/place-ready-stage-e3.math.js`):
+- 39 lessons went into 21 live units. Their descriptions change only the lesson count and the weeks (operator ruling 2026-11-25).
+- Three new units:
+  - de Klasse 3 "Halbschriftlich addieren und subtrahieren bis 1000" (4 lessons);
+  - de Klasse 3 "Längen und Geld: Millimeter, Kilometer und Kommaschreibweise" (6);
+  - sv åk 3 "Samband, slump och statistik" (4).
+- Of the seven design units the plan listed as new, four became no unit. The rule decided 2026-11-26: a design unit becomes a new unit only with at least four lessons and without taking a lesson out of a live, indexed unit. Otherwise its lessons join the live unit of their design neighbours:
+  - de "Ausblick bis 100": bundling and skip counting close "Zahlen bis 20", and shopping follows the coins of "Uhr, Kalender und Geld";
+  - sv "Mäta och jämföra", "Pengar och räknehändelser 0–100" and "Klockan och almanackan åk 2".
+- Three placements were moved after measurement:
+  - **"Überschlag und Probe" is the last lesson of its unit.** Its page shows finished written calculations, taught in the two lessons before it (German reviewer).
+  - **The two price-table lessons went to "Längen und Geld".** In "Malnehmen und Teilen" they made that unit twelve lessons, and its guide cover ran 34 px past its foot.
+  - **The Swedish dot-paper lesson is the last of "Geometriska former och spegelbilder".** That unit's live check names lessons 1–4 by number and cannot be built again today, because its lesson 1 pool changed with the picture fixes of 2026-11-25. The check is carried over unchanged, with lesson 5 named as not in the check.
+- **The Swedish clock lesson** hands out the copies of G1-477 level 3 that show fem i halv and fem över halv (`prefer`, read from the live PDFs).
+- **The Swedish chance lesson** hands out only G3-484. A lesson hands out pages of its own point, and the die sheet G2-508 belongs to the Grade 2 point.
+
+**Points** (`add-points-e3.math.js`):
+- Fourteen new teaching points: eight German, six Swedish.
+- Curriculum rows: the note writers read them against KMK, LehrplanPLUS, NRW, Saxony and Lgr22 (`crosswalk-e3.math.json`); other curricula say "not yet read".
+- 2:explain-strategies and 2:estimate-lengths (de-by, de-nw, de-sn) and K:place-words (sv) got real rows in place of "not yet read".
+- Every one of the 1,697 worksheet types now sits under a point.
+
+**Notes** (`notes/de-math-e3.js`, `sv-math-e3.js`):
+- One German and one Swedish writer wrote them from the pages and the tools' code. 18 lessons carry a hands-on routine as their second asset.
+- One German and one Swedish teacher reviewed them with the page pictures: de 9 must / 40 should, sv 10 must / 19 should. Every must was checked on the page before it was applied. Among them:
+  - a model sentence that gave the wrong answer to item 7 (the robot stands behind the box);
+  - "between two centimetre numbers lie 10 small marks" (there are 9 marks and 10 steps);
+  - a correct halbschriftliche way called a mistake;
+  - a phrase calling the mark between 6 and 7 "a half centimetre".
+- Not applied: the requests to change four live units' descriptions beyond their count.
+- Two old notes nobody used were removed (de 1:skip-counting, sv 3:elapsed-duration).
+
+**Rebuilt:**
+- Unit checks of the changed units: de 27, sv 37. The two new Swedish checks start as pilots.
+- Guides (24 units), year plans, plan pictures (pruned after the deploy) and curriculum pages. The rulings of the eleven ruled lines say N (built).
+
+**Live tools fixed:** the note writers found two language mistakes, fixed at once:
+- the Linjal writes a decimal comma outside English (6,5 cm);
+- the Geldmatte's price tags read "45 ct" in German and "45 snt" in Finnish.
+- Gates: smoke 11/11, mutations 40/40, layout 528/528.
+
+**Live (deploy 72):**
+- Unit live checks pass: de 632, sv 548. Unit checks: de 27 live of 27 (506 pass), sv 35 live of 37 (661 pass). Identity PASS.
+- The three new units answer 200, are indexable and self-canonical, and are in the sitemap. The served ruler carries the comma.
+
+**Lessons:**
+- A reviewer's replacement can be a phrase, not a field. Applying it as a whole field dropped content in 13 German fields, so they were spliced in by hand. Compare the length of each replacement with its field before applying.
+- After moving or inserting a lesson: assemble, pacing, assemble again. The pacing script reads the assembled units.
+- A check that names lessons by number is kept by appending, never inserting, whenever the check cannot be rebuilt.
+
+**Open (recorded, not this stage):**
+- Tool limits the notes work around: the Rechenstrich starts only at tens or hundreds, the Stellenwert-Labor cannot show 24 tens, the Brötchenblech holds at most 12 in a row, and Die drei Pfosten only goes to 100.
+- The Geldmatte's Italian and Portuguese cent marks, and its "50c" coin labels.
+- The `teacherNote` field of G3-638/G3-644 is shown nowhere; the notes say "print at 100 %".
+- The sv-f-ma-former check cannot be rebuilt.
+
+**NEXT:** item 4 continues with German and Swedish LITERACY to the whole year: year designs first, as D-1 did for English, then their checks and sub days, then Part 11.8 for de/sv. It needs a new plan in plan mode.

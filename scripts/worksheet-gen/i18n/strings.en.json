@@ -6773,5 +6773,61 @@
   "G2-636": {
     "title": "Metres and Centimetres: Estimate First, Then Measure",
     "instruction": "First estimate each length in metres and centimetres; the reference lengths help you. Then measure with a ruler, a folding rule or a tape measure and tick what you used. Below, match each picture to the right card."
+  },
+  "G3-633": {
+    "title": "Calculating with Hundreds and Tens",
+    "instruction": "First work out the small task. It helps you with the big task: 3 + 4 = 7, so 300 + 400 = 700. Below, fill up to the next hundred."
+  },
+  "G3-634": {
+    "title": "Subtracting in Steps: Take Away or Count Up?",
+    "instruction": "Before you calculate, tick how you will do it. Take away: start at the first number and take away the hundreds, then the tens, then the ones. Count up: start at the second number and add on up to the first number. Draw the jumps on the empty number line and write the steps. Both ways are right."
+  },
+  "G3-635": {
+    "title": "Times Tables with Tens: 3 · 40 and 240 : 6",
+    "instruction": "First work out the times-table task. It helps you with the task with the tens number: 3 · 4 = 12, so 3 · 40 = 120. The pictures help you."
+  },
+  "G3-636": {
+    "title": "Multiplying in Steps: 4 · 37",
+    "instruction": "Split the second number into tens and ones. First multiply by the tens, then by the ones. Then add the two results. Write over the dot field how you split (4 · 30 and 4 · 7), then in the multiplication cross and in the steps."
+  },
+  "G3-637": {
+    "title": "Dividing in Steps: 84 : 4",
+    "instruction": "Split the number into two numbers you can divide easily. Divide both numbers and add the results. In the first tasks the split is already there. At the end, check two results with the multiplication task."
+  },
+  "G3-638": {
+    "title": "Millimetres: Measure and Draw Exactly",
+    "instruction": "Measure to the millimetre: put the 0 of your ruler exactly at the start. Write each length two ways: 4 cm 7 mm = 47 mm. Below, draw the lines. Start at the dot."
+  },
+  "G3-639": {
+    "title": "Metres and Kilometres: How Far Is a Kilometre?",
+    "instruction": "Read the lengths of the roads on the town map and add them. Fill up to 1 km. Remember: 1 km = 1000 m. Below, match each distance to the right card."
+  },
+  "G3-640": {
+    "title": "Writing with a Comma: Euros and Cents, Metres and Centimetres",
+    "instruction": "Write each amount and each length three ways. With a comma: the euros (the metres) come before the comma, and after the comma always two digits for the cents (the centimetres). Below, convert each one into the other way of writing."
+  },
+  "G3-641": {
+    "title": "Estimating When Shopping: Is There Enough Money?",
+    "instruction": "Read the rule at the top. Round each price to whole euros and make your estimate. Circle whether the money is enough. Below, check with your estimate whether the total on the receipt can be right."
+  },
+  "G3-642": {
+    "title": "Price Tables: The More, the Dearer",
+    "instruction": "Each piece costs the same. Continue the tables up to 10 and finish the sentence under each table. In the last table, first find the price of 1 piece."
+  },
+  "G3-643": {
+    "title": "Solving Word Problems with Tables",
+    "instruction": "Each piece costs the same. Read the problem and write the prices in the table. Write at the arrows what you calculate with, for example · 2 or : 2. Write an answer sentence."
+  },
+  "G3-644": {
+    "title": "Drawing with a Compass: Circles and Circle Patterns",
+    "instruction": "Put the point of the compass exactly into the centre M. Open the compass at the ruler as wide as the radius is long: the point on the 0, the lead on the number. The diameter goes through the centre from edge to edge and is twice as long as the radius. Where a circle gives the diameter, open the compass to half of it. On one circle, draw the radius as a line from M to the circle and write r on it."
+  },
+  "G3-645": {
+    "title": "Reading Charts Carefully: What Is True, What Is Not?",
+    "instruction": "Both charts show the same survey. Read the numbers carefully. For each statement, circle: true, not true or cannot be read off. Below, write why the bars in chart 2 look so different in height."
+  },
+  "G3-646": {
+    "title": "Finding All Possibilities: Table and Tree Diagram",
+    "instruction": "Find all the possibilities. Go in order, then you will not forget any. Write how many possibilities there are. For task 1, write the multiplication task too."
   }
 }

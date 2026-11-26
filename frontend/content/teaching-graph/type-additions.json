@@ -676,6 +676,12 @@
   "G1-675": "1:measure-length-units",
   "G2-634": "1:mental-math-to-100",
   "G2-635": "2:explain-strategies",
-  "G2-636": "2:estimate-lengths"
+  "G2-636": "2:estimate-lengths",
+  "G3-634": "1:open-number-line",
+  "G3-638": "2:measure-with-ruler",
+  "G3-641": "3:estimate-by-rounding",
+  "G3-642": "3:muldiv-word-problems",
+  "G3-643": "3:muldiv-word-problems",
+  "G3-645": "3:scaled-graphs"
  }
 }

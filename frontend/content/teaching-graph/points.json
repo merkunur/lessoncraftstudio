@@ -2139,7 +2139,8 @@
     "G1-438",
     "G2-500",
     "G2-501",
-    "G3-630"
+    "G3-630",
+    "G3-634"
    ],
    "families": [
     "number-lines"
@@ -2409,7 +2410,8 @@
    "types": [
     "G2-235",
     "G2-475",
-    "G2-476"
+    "G2-476",
+    "G3-638"
    ],
    "families": [
     "measurement"
@@ -3483,10 +3485,12 @@
    "code": "3.OA.D.8",
    "types": [
     "G3-389",
-    "G3-631"
+    "G3-631",
+    "G3-641"
    ],
    "families": [
     "column-arithmetic",
+    "money",
     "rounding"
    ],
    "activities": [
@@ -3739,7 +3743,8 @@
     "G3-332",
     "G3-333",
     "G3-334",
-    "G3-632"
+    "G3-632",
+    "G3-645"
    ],
    "families": [
     "graphing-data"
@@ -3882,9 +3887,12 @@
     "G3-373",
     "G3-374",
     "G3-375",
-    "G3-376"
+    "G3-376",
+    "G3-642",
+    "G3-643"
    ],
    "families": [
+    "number-charts",
     "word-problems"
    ],
    "activities": [

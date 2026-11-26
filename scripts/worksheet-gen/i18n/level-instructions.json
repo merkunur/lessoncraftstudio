@@ -9787,5 +9787,201 @@
       "en": "First estimate each length in metres and centimetres. Then measure and tick what you used. In the last column write how many centimetres apart your estimate and your measurement are. Below, match each picture to the right card.",
       "de": "Schätze zuerst die Länge und schreibe sie in Metern und Zentimetern auf. Miss dann nach und kreuze an, womit du gemessen hast. Schreibe in die letzte Spalte, wie viele Zentimeter Schätzung und Messung auseinanderliegen. Verbinde unten jedes Bild mit der passenden Karte."
     }
+  },
+  "G3-633": {
+    "1": {
+      "en": "First work out the small task. It helps you with the big task: 3 + 4 = 7, so 300 + 400 = 700. Below, fill up to the next hundred.",
+      "de": "Rechne zuerst die kleine Aufgabe. Sie hilft dir bei der großen Aufgabe: 3 + 4 = 7, also 300 + 400 = 700. Ergänze unten bis zum nächsten Hunderter."
+    },
+    "2": {
+      "en": "First work out the small task. It helps you with the big task: 3 + 4 = 7, so 300 + 400 = 700. Below, fill up to the next hundred and up to 1000.",
+      "de": "Rechne zuerst die kleine Aufgabe. Sie hilft dir bei der großen Aufgabe: 3 + 4 = 7, also 300 + 400 = 700. Ergänze unten bis zum nächsten Hunderter und bis 1000."
+    },
+    "3": {
+      "en": "Think of the small task for each task and work it out. Below, fill up to 1000 in two steps: first to the next hundred, then to 1000.",
+      "de": "Denke dir zu jeder Aufgabe die kleine Aufgabe und rechne. Ergänze unten in zwei Schritten bis 1000: erst bis zum nächsten Hunderter, dann bis 1000."
+    }
+  },
+  "G3-634": {
+    "1": {
+      "en": "Tasks 1 and 2 say how to calculate. Take away: start at the first number and take away the hundreds, then the tens, then the ones. Count up: start at the second number and add on up to the first number. Draw the jumps on the empty number line and write the steps. Work out task 3 both ways.",
+      "de": "Bei Aufgabe 1 und 2 steht, wie du rechnest. Abziehen: Beginne bei der ersten Zahl und ziehe erst die Hunderter, dann die Zehner, dann die Einer ab. Ergänzen: Beginne bei der zweiten Zahl und rechne bis zur ersten Zahl dazu. Zeichne die Sprünge ein und schreibe die Schritte auf. Rechne Aufgabe 3 auf beiden Wegen."
+    },
+    "2": {
+      "en": "Before you calculate, tick how you will do it. Take away: start at the first number and take away the hundreds, then the tens, then the ones. Count up: start at the second number and add on up to the first number. Draw the jumps on the empty number line and write the steps. Both ways are right.",
+      "de": "Kreuze vor dem Rechnen an, wie du rechnest. Abziehen: Beginne bei der ersten Zahl und ziehe erst die Hunderter, dann die Zehner, dann die Einer ab. Ergänzen: Beginne bei der zweiten Zahl und rechne bis zur ersten Zahl dazu. Zeichne die Sprünge ein und schreibe die Schritte auf. Beide Wege sind richtig."
+    },
+    "3": {
+      "en": "Before you calculate, tick how you will do it. Take away: start at the first number and take away the hundreds, then the tens, then the ones. Count up: start at the second number and add on up to the first number. Draw the jumps on the empty number line and write the steps. Both ways are right.",
+      "de": "Kreuze vor dem Rechnen an, wie du rechnest. Abziehen: Beginne bei der ersten Zahl und ziehe erst die Hunderter, dann die Zehner, dann die Einer ab. Ergänzen: Beginne bei der zweiten Zahl und rechne bis zur ersten Zahl dazu. Zeichne die Sprünge ein und schreibe die Schritte auf. Beide Wege sind richtig."
+    }
+  },
+  "G3-635": {
+    "1": {
+      "en": "First work out the times-table task. It helps you with the task with the tens number: 3 · 4 = 12, so 3 · 40 = 120. The pictures help you.",
+      "de": "Rechne zuerst die Einmaleinsaufgabe. Sie hilft dir bei der Aufgabe mit der Zehnerzahl: 3 · 4 = 12, also 3 · 40 = 120. Die Bilder helfen dir."
+    },
+    "2": {
+      "en": "First work out the times-table task. It helps you with the task with the tens number: 3 · 4 = 12, so 3 · 40 = 120, and 24 : 6 = 4, so 240 : 6 = 40. The pictures help you.",
+      "de": "Rechne zuerst die Einmaleinsaufgabe. Sie hilft dir bei der Aufgabe mit der Zehnerzahl: 3 · 4 = 12, also 3 · 40 = 120, und 24 : 6 = 4, also 240 : 6 = 40. Die Bilder helfen dir."
+    },
+    "3": {
+      "en": "First work out the times-table task, then the task with the tens number. The missing number can be at the front, in the middle or at the end.",
+      "de": "Rechne zuerst die Einmaleinsaufgabe, dann die Aufgabe mit der Zehnerzahl. Die fehlende Zahl kann vorne, in der Mitte oder hinten stehen."
+    }
+  },
+  "G3-636": {
+    "1": {
+      "en": "Split the second number into tens and ones. First multiply by the tens, then by the ones. Then add the two results. Write over the dot field how you split (4 · 30 and 4 · 7), then in the multiplication cross and in the steps. Below, tick what helps you most.",
+      "de": "Zerlege die zweite Zahl in Zehner und Einer. Multipliziere erst mit den Zehnern, dann mit den Einern. Addiere dann die beiden Ergebnisse. Schreibe über das Punktefeld, wie du zerlegst (4 · 30 und 4 · 7), dann ins Malkreuz und in die Rechenschritte. Kreuze unten an, was dir am meisten hilft."
+    },
+    "2": {
+      "en": "Split the second number into tens and ones. First multiply by the tens, then by the ones. Then add the two results. Write over the dot field how you split (4 · 30 and 4 · 7), then all the numbers in the multiplication cross and in the steps. Below, tick what helps you most.",
+      "de": "Zerlege die zweite Zahl in Zehner und Einer. Multipliziere erst mit den Zehnern, dann mit den Einern. Addiere dann die beiden Ergebnisse. Schreibe über das Punktefeld, wie du zerlegst (4 · 30 und 4 · 7), dann alle Zahlen ins Malkreuz und in die Rechenschritte. Kreuze unten an, was dir am meisten hilft."
+    },
+    "3": {
+      "en": "Split the second number into tens and ones. First multiply by the tens, then by the ones. Then add the two results. Write the numbers in the multiplication cross and in the steps. Below, tick what helps you more.",
+      "de": "Zerlege die zweite Zahl in Zehner und Einer. Multipliziere erst mit den Zehnern, dann mit den Einern. Addiere dann die beiden Ergebnisse. Schreibe die Zahlen ins Malkreuz und in die Rechenschritte. Kreuze unten an, was dir mehr hilft."
+    }
+  },
+  "G3-637": {
+    "1": {
+      "en": "Split the number into two numbers you can divide easily. Divide both numbers and add the results. In the first four tasks the split is already there. At the end, check two results with the multiplication task.",
+      "de": "Zerlege die Zahl in zwei Zahlen, die du gut teilen kannst. Teile beide Zahlen und addiere die Ergebnisse. Bei den ersten vier Aufgaben ist die Zerlegung schon da. Prüfe zum Schluss zwei Ergebnisse mit der Malaufgabe."
+    },
+    "2": {
+      "en": "Split the number into two numbers you can divide easily, for example a number from the tens times table (like 70 for : 7) and the rest. Divide both numbers and add the results. In the first four tasks the split is already there. At the end, check two results with the multiplication task.",
+      "de": "Zerlege die Zahl in zwei Zahlen, die du gut teilen kannst, zum Beispiel eine Zahl aus dem Zehnereinmaleins (wie 70 bei : 7) und den Rest. Teile beide Zahlen und addiere die Ergebnisse. Bei den ersten vier Aufgaben ist die Zerlegung schon da. Prüfe zum Schluss zwei Ergebnisse mit der Malaufgabe."
+    },
+    "3": {
+      "en": "Split the number into two numbers you can divide easily. Divide both numbers and add the results. In the first two tasks the split is already there. At the end, check two results with the multiplication task.",
+      "de": "Zerlege die Zahl in zwei Zahlen, die du gut teilen kannst. Teile beide Zahlen und addiere die Ergebnisse. Bei den ersten zwei Aufgaben ist die Zerlegung schon da. Prüfe zum Schluss zwei Ergebnisse mit der Malaufgabe."
+    }
+  },
+  "G3-638": {
+    "1": {
+      "en": "Measure to the millimetre: put the 0 of your ruler exactly at the start. Write each length two ways: 4 cm 7 mm = 47 mm. Below, draw the lines. Start at the dot.",
+      "de": "Miss auf den Millimeter genau: Lege die 0 von deinem Lineal genau an den Anfang. Schreibe jede Länge auf zwei Arten: 4 cm 7 mm = 47 mm. Zeichne unten die Strecken. Beginne am Punkt."
+    },
+    "2": {
+      "en": "Measure the lines and the things to the millimetre: put the 0 of your ruler exactly at the start. Write each length two ways: 4 cm 7 mm = 47 mm. Below, draw the lines. Start at the dot.",
+      "de": "Miss die Strecken und die Dinge auf den Millimeter genau: Lege die 0 von deinem Lineal genau an den Anfang. Schreibe jede Länge auf zwei Arten: 4 cm 7 mm = 47 mm. Zeichne unten die Strecken. Beginne am Punkt."
+    },
+    "3": {
+      "en": "Measure the lines and the things to the millimetre: put the 0 of your ruler exactly at the start. Write each length two ways and work out the difference. Below, draw the lines. Start at the dot.",
+      "de": "Miss die Strecken und die Dinge auf den Millimeter genau: Lege die 0 von deinem Lineal genau an den Anfang. Schreibe jede Länge auf zwei Arten und rechne den Unterschied aus. Zeichne unten die Strecken. Beginne am Punkt."
+    }
+  },
+  "G3-639": {
+    "1": {
+      "en": "Read the lengths of the roads on the town map and add them. Fill up to 1 km. Remember: 1 km = 1000 m. Below, match each distance to the right card.",
+      "de": "Lies die Längen der Wege auf dem Ortsplan ab und rechne. Ergänze bis 1 km. Denke daran: 1 km = 1000 m. Verbinde unten jede Strecke mit der passenden Karte."
+    },
+    "2": {
+      "en": "Read the lengths of the roads on the town map and add them. Fill up to 1 km. Remember: 1 km = 1000 m. Below, match each distance to the right card.",
+      "de": "Lies die Längen der Wege auf dem Ortsplan genau ab und rechne. Ergänze bis 1 km. Denke daran: 1 km = 1000 m. Verbinde unten jede Strecke mit der passenden Karte."
+    },
+    "3": {
+      "en": "Read the lengths of the roads on the town map and add them. Which way is shorter? How many metres are missing to 1 km? Remember: 1 km = 1000 m. Below, match each distance to the right card.",
+      "de": "Lies die Längen der Wege auf dem Ortsplan ab und rechne. Welcher Weg ist kürzer? Wie viele Meter fehlen bis 1 km? Denke daran: 1 km = 1000 m. Verbinde unten jede Strecke mit der passenden Karte."
+    }
+  },
+  "G3-640": {
+    "1": {
+      "en": "Write each amount and each length three ways. With a comma: the euros (the metres) come before the comma, and after the comma always two digits for the cents (the centimetres). Below, convert each one into the other way of writing.",
+      "de": "Schreibe jeden Geldbetrag und jede Länge auf drei Arten. Mit Komma: Vor dem Komma stehen die Euro (die Meter), nach dem Komma immer zwei Ziffern für die Cent (die Zentimeter). Wandle unten jede Angabe in die andere Schreibweise um."
+    },
+    "2": {
+      "en": "Write each amount and each length three ways. With a comma: the euros (the metres) come before the comma, and after the comma always two digits for the cents (the centimetres). Careful: 4 € 5 ct is 4,05 €. Below, convert each one into the other way of writing.",
+      "de": "Schreibe jeden Geldbetrag und jede Länge auf drei Arten. Mit Komma: Vor dem Komma stehen die Euro (die Meter), nach dem Komma immer zwei Ziffern für die Cent (die Zentimeter). Achtung: 4 € 5 ct sind 4,05 €. Wandle unten jede Angabe in die andere Schreibweise um."
+    },
+    "3": {
+      "en": "Write each amount and each length three ways. With a comma: the euros (the metres) come before the comma, and after the comma always two digits for the cents (the centimetres). Careful: 4 € 5 ct is 4,05 €. Below, convert each one into the other way of writing.",
+      "de": "Schreibe jeden Geldbetrag und jede Länge auf drei Arten. Mit Komma: Vor dem Komma stehen die Euro (die Meter), nach dem Komma immer zwei Ziffern für die Cent (die Zentimeter). Achtung: 4 € 5 ct sind 4,05 €. Wandle unten jede Angabe in die andere Schreibweise um."
+    }
+  },
+  "G3-641": {
+    "1": {
+      "en": "Read the rule at the top. Round each price to whole euros and make your estimate. Circle whether the money is enough. Below, check with your estimate whether the total on the receipt can be right.",
+      "de": "Lies die Regel oben. Runde jeden Preis auf ganze Euro und rechne den Überschlag. Kreise ein, ob das Geld reicht. Prüfe unten mit dem Überschlag, ob die Summe auf dem Kassenzettel stimmen kann."
+    },
+    "2": {
+      "en": "Read the rule at the top. Round each price to whole euros and make your estimate. Circle whether the money is enough. Below, check with your estimate whether the totals on the receipts can be right.",
+      "de": "Lies die Regel oben. Runde jeden Preis auf ganze Euro und rechne den Überschlag. Kreise ein, ob das Geld reicht. Prüfe unten mit dem Überschlag, ob die Summen auf den Kassenzetteln stimmen können."
+    },
+    "3": {
+      "en": "Read the rule at the top. Round each price to whole euros and make your estimate. Circle whether the money is enough. Below, check with your estimate whether the totals on the receipts can be right, and give the reason.",
+      "de": "Lies die Regel oben. Runde jeden Preis auf ganze Euro und rechne den Überschlag. Kreise ein, ob das Geld reicht. Prüfe unten mit dem Überschlag, ob die Summen auf den Kassenzetteln stimmen können, und begründe."
+    }
+  },
+  "G3-642": {
+    "1": {
+      "en": "Each piece costs the same. Continue the tables up to 10 and finish the sentence under each table. In the last table, first find the price of 1 piece.",
+      "de": "Jedes Stück kostet gleich viel. Setze die Tabellen bis 10 fort und schreibe den Satz unter jeder Tabelle fertig. In der letzten Tabelle findest du zuerst den Preis für 1 Stück."
+    },
+    "2": {
+      "en": "Each piece costs the same. Fill in the gaps and continue the tables up to 10. Finish the sentence under each table. In the last table, first find the price of 1 piece.",
+      "de": "Jedes Stück kostet gleich viel. Fülle die Lücken aus und setze die Tabellen bis 10 fort. Schreibe den Satz unter jeder Tabelle fertig. In der letzten Tabelle findest du zuerst den Preis für 1 Stück."
+    },
+    "3": {
+      "en": "Each piece costs the same. In every table, first find the price of 1 piece. Then fill in the table up to 10 and finish the sentence.",
+      "de": "Jedes Stück kostet gleich viel. Finde in jeder Tabelle zuerst den Preis für 1 Stück. Fülle dann die Tabelle bis 10 aus und schreibe den Satz fertig."
+    }
+  },
+  "G3-643": {
+    "1": {
+      "en": "Each piece costs the same. Read the problem and write the prices in the table. Write at the arrows what you calculate with, for example · 2 or : 2. Write an answer sentence.",
+      "de": "Jedes Stück kostet gleich viel. Lies die Aufgabe und trage die Preise in die Tabelle ein. Schreibe an die Pfeile, womit du rechnest, zum Beispiel · 2 oder : 2. Schreibe einen Antwortsatz."
+    },
+    "2": {
+      "en": "Each piece costs the same. Read the problem and first write in the table what you know. Write at the arrows what you calculate with, for example · 2 or : 2. Calculate and write an answer sentence.",
+      "de": "Jedes Stück kostet gleich viel. Lies die Aufgabe und trage zuerst in die Tabelle ein, was du weißt. Schreibe an die Pfeile, womit du rechnest, zum Beispiel · 2 oder : 2. Rechne und schreibe einen Antwortsatz."
+    },
+    "3": {
+      "en": "Each piece costs the same. Read the problem and first write in the table what you know. Write at the arrows what you calculate with. Sometimes it helps to find the price of 1 piece first. Write an answer sentence.",
+      "de": "Jedes Stück kostet gleich viel. Lies die Aufgabe und trage zuerst in die Tabelle ein, was du weißt. Schreibe an die Pfeile, womit du rechnest. Manchmal hilft dir zuerst der Preis für 1 Stück. Schreibe einen Antwortsatz."
+    }
+  },
+  "G3-644": {
+    "1": {
+      "en": "Put the point of the compass exactly into the centre M. Open the compass at the ruler as wide as the radius is long: the point on the 0, the lead on the number. On one circle, draw the radius as a line from M to the circle and write r on it.",
+      "de": "Stich die Zirkelspitze genau in den Mittelpunkt M ein. Öffne den Zirkel am Lineal so weit, wie der Radius lang ist: Zirkelspitze auf die 0, Mine auf die Zahl. Zeichne bei einem Kreis den Radius als Strecke von M bis zum Kreis ein und schreibe r daran."
+    },
+    "2": {
+      "en": "Put the point of the compass exactly into the centre M. Open the compass at the ruler as wide as the radius is long: the point on the 0, the lead on the number. The diameter goes through the centre from edge to edge and is twice as long as the radius. Where a circle gives the diameter, open the compass to half of it. On one circle, draw the radius as a line from M to the circle and write r on it.",
+      "de": "Stich die Zirkelspitze genau in den Mittelpunkt M ein. Öffne den Zirkel am Lineal so weit, wie der Radius lang ist: Zirkelspitze auf die 0, Mine auf die Zahl. Der Durchmesser geht durch den Mittelpunkt von Rand zu Rand und ist doppelt so lang wie der Radius. Steht bei einem Kreis der Durchmesser, stellst du den Zirkel auf die Hälfte ein. Zeichne bei einem Kreis den Radius als Strecke von M bis zum Kreis ein und schreibe r daran."
+    },
+    "3": {
+      "en": "Put the point of the compass exactly into the centre M. The radius is half the diameter: work it out first, then open the compass at the ruler as wide as the radius is long. On one circle, draw the radius as a line from M to the circle and write r on it.",
+      "de": "Stich die Zirkelspitze genau in den Mittelpunkt M ein. Der Radius ist halb so lang wie der Durchmesser: Rechne ihn zuerst aus und öffne dann den Zirkel am Lineal so weit, wie der Radius lang ist. Zeichne bei einem Kreis den Radius als Strecke von M bis zum Kreis ein und schreibe r daran."
+    }
+  },
+  "G3-645": {
+    "1": {
+      "en": "Read the picture chart carefully: one picture means 5 children. For each statement, circle: true, not true or cannot be read off.",
+      "de": "Lies das Bilddiagramm genau: Ein Bild bedeutet 5 Kinder. Kreise bei jeder Aussage ein: stimmt, stimmt nicht oder kann man nicht ablesen."
+    },
+    "2": {
+      "en": "Both charts show the same survey. Read the numbers carefully. For each statement, circle: true, not true or cannot be read off. Below, write why the bars in chart 2 look so different in height.",
+      "de": "Beide Diagramme zeigen dieselbe Umfrage. Lies die Zahlen genau ab. Kreise bei jeder Aussage ein: stimmt, stimmt nicht oder kann man nicht ablesen. Schreibe unten auf, warum die Säulen in Diagramm 2 so verschieden hoch aussehen."
+    },
+    "3": {
+      "en": "Both charts show the same survey. Read the numbers carefully, also between two lines. For each statement, circle: true, not true or cannot be read off. Below, write why the bars in chart 2 look so different in height.",
+      "de": "Beide Diagramme zeigen dieselbe Umfrage. Lies die Zahlen genau ab, auch zwischen zwei Linien. Kreise bei jeder Aussage ein: stimmt, stimmt nicht oder kann man nicht ablesen. Schreibe unten auf, warum die Säulen in Diagramm 2 so verschieden hoch aussehen."
+    }
+  },
+  "G3-646": {
+    "1": {
+      "en": "Find all the possibilities. Go in order, then you will not forget any. Write how many possibilities there are. For task 1, write the multiplication task too.",
+      "de": "Finde alle Möglichkeiten. Gehe geordnet vor, dann vergisst du keine. Schreibe auf, wie viele Möglichkeiten es gibt. Schreibe bei Aufgabe 1 auch die Malaufgabe dazu."
+    },
+    "2": {
+      "en": "Find all the possibilities. Go in order, then you will not forget any. Write how many possibilities there are. For task 1, write the multiplication task too.",
+      "de": "Finde alle Möglichkeiten. Gehe geordnet vor, dann vergisst du keine. Schreibe auf, wie viele Möglichkeiten es gibt. Schreibe bei Aufgabe 1 auch die Malaufgabe dazu."
+    },
+    "3": {
+      "en": "Find all the possibilities. Go in order, then you will not forget any. Finish the tree diagrams and write how many possibilities there are. For task 1, write the multiplication task too.",
+      "de": "Finde alle Möglichkeiten. Gehe geordnet vor, dann vergisst du keine. Zeichne die Baumdiagramme fertig und schreibe auf, wie viele Möglichkeiten es gibt. Schreibe bei Aufgabe 1 auch die Malaufgabe dazu."
+    }
   }
 }

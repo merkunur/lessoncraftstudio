@@ -5048,8 +5048,9 @@
     "instruction": "Schreibe die zwei Preise auf und rechne sie zusammen. Kreise in der Geldbörse das Geld ein, mit dem du passend bezahlen kannst. Bei den letzten drei Aufgaben bezahlst du mit 20 €. Schreibe auf, wie viel Rückgeld du bekommst."
   },
   "G3-630": {
-    "title": "Halbschriftlich addieren: den Rechenweg aufschreiben und erklären",
-    "instruction": "Rechne schrittweise: Beginne bei der ersten Zahl und rechne erst die Hunderter, dann die Zehner, dann die Einer der zweiten Zahl dazu. Zeichne die Sprünge am Rechenstrich ein und schreibe jeden Schritt als Aufgabe auf. Erkläre unten, wie du die letzte Aufgabe gerechnet hast. Lass ein anderes Kind deinen Rechenweg nachrechnen."
+    "title": "Halbschriftlich addieren: den Rechenweg erklären",
+    "instruction": "Rechne schrittweise: Beginne bei der ersten Zahl und rechne erst die Hunderter, dann die Zehner, dann die Einer der zweiten Zahl dazu. Zeichne die Sprünge am Rechenstrich ein und schreibe jeden Schritt als Aufgabe auf. Erkläre unten, wie du die letzte Aufgabe gerechnet hast. Lass ein anderes Kind deinen Rechenweg nachrechnen.",
+    "printTitle": "Halbschriftlich addieren: den Rechenweg aufschreiben und erklären"
   },
   "G3-631": {
     "title": "Überschlag und Probe: Kann das stimmen?",

@@ -2548,3 +2548,20 @@ Not fixable: two app pages carry the word baked into the worksheet picture or as
 - **Published** noindex as Level Set `yeb` (76 pages; audit 76/76). Copies were told apart by task SHAPE only, so three types first kept one copy a level; `levelSetWords` now names the tasks themselves.
 - **Live (deploy 69):** pages answer 200 noindex, not playable; de units live check passes; identity PASS.
 - **Next:** DE-B (14 types, builder running), then SV (10), then E-3.
+
+### 2026-11-26: Stage E-2 batch DE-B published, fourteen German Klasse 3 page types (deploy 70, commits `78192a8e5`, `cd23dfda9`)
+
+- **Built** by one builder (`types/_shared/e2-math-b.js`, `e2-math-b-art.js`, `data/e2b/e2-math-b.js`): G3-633 to G3-646, German only.
+  - Hunderter- und Zehnerzahlen; halbschriftlich subtrahieren, multiplizieren, dividieren.
+  - Millimeter and Zirkel, measured at real size in the PDF.
+  - Meter und Kilometer; Kommaschreibweise; Überschlagen beim Einkaufen; Preis- und Sachtabellen; Diagramme; Kombinatorik.
+  - Existing pages byte-identical.
+- **Reviewed** by the German Grundschule teacher in two rounds: 2 must + 16 should, then 0 + 2, all applied.
+  - The musts: no room for a two-question answer sentence, and dot-field boxes with two defensible answers.
+  - The builder also found answers one task gave away to another, and tells by list length and statement kind.
+- **Gate** `qa/verify-e2-de-b.js` (with a PDF half): 17,179 assertions, 162/162 poisons.
+- **Teaching points:** six types under existing points; eight wait for new points with their lessons in E-3.
+- **Open:** "print at 100 %" for the real-size pages must reach the teacher. A `teacherNote` field exists but nothing shows it yet, so it goes into the E-3 lesson notes.
+- **Published** noindex as Level Set `yec`: 181 pages, audit 181/181. Every code is print only (`lcs-stage-d/print-only.js` adds a batch's codes under their families from the screen-rule rows).
+- **Live (deploy 70):** pages answer 200 noindex; identity PASS.
+- **Lesson:** while another builder works in the same string files, stage only your own ids with `git hash-object` and `git update-index` (`lcs-stage-d/stage-ids.js`). That never touches the working file, so it can't overwrite the other builder's write.

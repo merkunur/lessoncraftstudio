@@ -662,6 +662,14 @@
   "G3-628": "3:cause-effect-history",
   "G3-629": "3:deciding-together",
   "K-728": "K:act-out-verbs",
-  "G1-678": "1:book-talk"
+  "G1-678": "1:book-talk",
+  "G1-671": "2:shopping-money",
+  "G1-672": "K:place-words",
+  "G2-631": "2:shopping-money",
+  "G2-632": "2:mass-grams",
+  "G2-633": "3:elapsed-duration",
+  "G3-630": "1:open-number-line",
+  "G3-631": "3:estimate-by-rounding",
+  "G3-632": "3:scaled-graphs"
  }
 }

@@ -4999,5 +4999,25 @@
   "G2-518": {
     "title": "Räknehändelser med längder",
     "instruction": "Läs varje räknehändelse. Skriv i blockmodellen de två längder du vet och ett frågetecken för längden du söker. Den största längden skriver du i det översta blocket. Skriv en uträkning. Skriv sedan svaret."
+  },
+  "G1-672": {
+    "title": "Lägesord: framför, bakom, mellan och bredvid",
+    "instruction": "Läs meningarna. Rita varje sak på rätt plats i hyllan. Vänster och höger är som du ser hyllan. Skriv sedan det lägesord som fattas. Använd orden i rutan."
+  },
+  "G2-631": {
+    "title": "Betala med sedlar och få växel tillbaka",
+    "instruction": "Kunden betalar med en sedel. Räkna uppåt från priset till sedelns värde på tallinjen. Rita växeln och skriv hur många kronor kunden får tillbaka."
+  },
+  "G2-632": {
+    "title": "Kilogram: väga och jämföra",
+    "instruction": "Läs av vågarna och skriv hur många kilogram saken väger. Ringa sedan in rätt svar: väger saken mer eller mindre än 1 kilogram?"
+  },
+  "G2-633": {
+    "title": "Hur lång tid tar det?",
+    "instruction": "Titta på startklockan och slutklockan. Skriv hur många timmar och minuter det tar. Ringa sedan in den enhet som passar bäst: sekunder, minuter eller timmar."
+  },
+  "G3-632": {
+    "title": "Egen undersökning: från fråga till diagram",
+    "instruction": "Skriv din fråga och dina svarsalternativ. Fråga klassen och för in svaren i tabellen med streck och antal. Rita ett stapeldiagram med rubrik, axlar och skala där ett steg är 2. Skriv vad diagrammet visar."
   }
 }

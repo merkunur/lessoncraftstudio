@@ -2134,7 +2134,8 @@
    "types": [
     "G1-438",
     "G2-500",
-    "G2-501"
+    "G2-501",
+    "G3-630"
    ],
    "families": [
     "number-lines"
@@ -2867,6 +2868,7 @@
    "code": "2.MD.C.8",
    "types": [
     "G1-473",
+    "G1-671",
     "G2-276",
     "G2-289",
     "G2-290",
@@ -2877,6 +2879,7 @@
     "G2-295",
     "G2-471",
     "G2-472",
+    "G2-631",
     "G3-474"
    ],
    "families": [
@@ -2983,7 +2986,8 @@
    "types": [
     "G2-252",
     "G2-261",
-    "G2-262"
+    "G2-262",
+    "G2-632"
    ],
    "families": [
     "measurement"
@@ -3465,9 +3469,11 @@
    "skill": "Round both addends, add the rounded numbers, and judge whether an exact answer is reasonable",
    "code": "3.OA.D.8",
    "types": [
-    "G3-389"
+    "G3-389",
+    "G3-631"
    ],
    "families": [
+    "column-arithmetic",
     "rounding"
    ],
    "activities": [
@@ -3719,7 +3725,8 @@
    "types": [
     "G3-332",
     "G3-333",
-    "G3-334"
+    "G3-334",
+    "G3-632"
    ],
    "families": [
     "graphing-data"
@@ -3988,6 +3995,7 @@
    "skill": "Find how much time passed between two clock times",
    "code": "3.MD.A.1",
    "types": [
+    "G2-633",
     "G3-344",
     "G3-475"
    ],
@@ -5197,6 +5205,7 @@
    "skill": "Use the place words in, on top of, under, next to, above, between, behind, and in front of to tell where a thing is",
    "code": "L.K.1.e",
    "types": [
+    "G1-672",
     "K-546",
     "K-548"
    ],

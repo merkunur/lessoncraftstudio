@@ -6717,5 +6717,37 @@
   "G1-678": {
     "title": "Book Talk: Listen, Then Add On",
     "instruction": "Use the rules and the talk stems in our book talk. After the talk, check what you did."
+  },
+  "G1-671": {
+    "title": "Shopping to 20 Euros: Pay and Get Change",
+    "instruction": "Write the two prices and add them. Circle the money in the purse you can pay with exactly. On the last three cards you pay with 20 euros: write how much change you get."
+  },
+  "G1-672": {
+    "title": "Position Words: In Front, Behind, Between and Next To",
+    "instruction": "Read each sentence. Draw each thing in the right place on the shelf. Left and right are as you see the shelf. Then write the missing position word. Use the words in the box."
+  },
+  "G2-631": {
+    "title": "Pay with Bills and Get Change",
+    "instruction": "The customer pays with a bill. Count up from the price to the value of the bill on the number line. Draw the change and write how many kronor the customer gets back."
+  },
+  "G2-632": {
+    "title": "Kilograms: Weigh and Compare",
+    "instruction": "Read the scales and write how many kilograms the thing weighs. Then circle the right answer: does the thing weigh more or less than 1 kilogram?"
+  },
+  "G2-633": {
+    "title": "How Long Does It Take?",
+    "instruction": "Look at the start clock and the end clock. Write how many hours and minutes it takes. Then circle the unit that fits best: seconds, minutes or hours."
+  },
+  "G3-630": {
+    "title": "Adding in Steps: Write and Explain Your Way",
+    "instruction": "Add in steps: start at the first number and add first the hundreds, then the tens, then the ones of the second number. Draw the jumps on the empty number line and write each step as a sum. Explain below how you worked out the last task. Ask another child to check your way."
+  },
+  "G3-631": {
+    "title": "Estimate and Check: Can That Be Right?",
+    "instruction": "Make an estimate for each finished calculation and circle what the estimate shows: can be right or cannot be right. Do the inverse check for the tasks named below. If a calculation is wrong, write the right result."
+  },
+  "G3-632": {
+    "title": "My Own Survey: From Question to Graph",
+    "instruction": "Write your question and your answer choices. Ask the class and fill in the table with tally marks and numbers. Draw a bar graph with a title, the axes and a scale where one step is 2. Write what your graph shows."
   }
 }

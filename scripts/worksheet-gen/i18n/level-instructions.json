@@ -9639,5 +9639,69 @@
     "3": {
       "en": "Check our question. After the talk, write what the person before you said and how you added on."
     }
+  },
+  "G1-671": {
+    "1": {
+      "en": "Write the two prices and add them. Circle the money in the purse you can pay with exactly. On the last two cards you pay with 10 euros: write how much change you get.",
+      "de": "Schreibe die zwei Preise auf und rechne sie zusammen. Kreise in der Geldbörse das Geld ein, mit dem du passend bezahlen kannst. Bei den letzten zwei Aufgaben bezahlst du mit 10 €. Schreibe auf, wie viel Rückgeld du bekommst."
+    },
+    "2": {
+      "en": "Write the two prices and add them. Circle the money in the purse you can pay with exactly. On the last three cards you pay with 20 euros: write how much change you get.",
+      "de": "Schreibe die zwei Preise auf und rechne sie zusammen. Kreise in der Geldbörse das Geld ein, mit dem du passend bezahlen kannst. Bei den letzten drei Aufgaben bezahlst du mit 20 €. Schreibe auf, wie viel Rückgeld du bekommst."
+    },
+    "3": {
+      "en": "Write the two prices and add them. Circle the money in the purse you can pay with exactly. On the last three cards you pay with 20 euros: write how much change you get.",
+      "de": "Schreibe die zwei Preise auf und rechne sie zusammen. Kreise in der Geldbörse das Geld ein, mit dem du passend bezahlen kannst. Bei den letzten drei Aufgaben bezahlst du mit 20 €. Schreibe auf, wie viel Rückgeld du bekommst."
+    }
+  },
+  "G1-672": {
+    "1": {
+      "en": "Read each sentence. Draw each thing in the right place on the shelf. Left and right are as you see the shelf. Then write the missing position word. Use each word in the box once.",
+      "sv": "Läs meningarna. Rita varje sak på rätt plats i hyllan. Vänster och höger är som du ser hyllan. Skriv sedan det lägesord som fattas. Använd varje ord i rutan en gång."
+    },
+    "2": {
+      "en": "Read each sentence. Draw each thing in the right place on the shelf. Left and right are as you see the shelf. Then write the missing position word. Choose from the words in the box. One word is left over.",
+      "sv": "Läs meningarna. Rita varje sak på rätt plats i hyllan. Vänster och höger är som du ser hyllan. Skriv sedan det lägesord som fattas. Välj bland orden i rutan. Ett ord blir över."
+    },
+    "3": {
+      "en": "Read each sentence. Draw each thing in the right place on the shelf. Left and right are as you see the shelf. Then write the missing position word. Choose from the words in the box. Two words are left over.",
+      "sv": "Läs meningarna. Rita varje sak på rätt plats i hyllan. Vänster och höger är som du ser hyllan. Skriv sedan det lägesord som fattas. Välj bland orden i rutan. Två ord blir över."
+    }
+  },
+  "G2-631": {
+    "3": {
+      "en": "The customer pays with a bill. Count up from the price to the value of the bill on the number line. Draw the change with as few coins and bills as you can and write how many kronor the customer gets back.",
+      "sv": "Kunden betalar med en sedel. Räkna uppåt från priset till sedelns värde på tallinjen. Rita växeln med så få mynt och sedlar som möjligt och skriv hur många kronor kunden får tillbaka."
+    }
+  },
+  "G2-632": {
+    "1": {
+      "en": "Count the kilogram weights and write how many kilograms the thing weighs. Then circle the right answer: does the thing weigh more or less than 1 kilogram?",
+      "sv": "Räkna kilovikterna och skriv hur många kilogram saken väger. Ringa sedan in rätt svar: väger saken mer eller mindre än 1 kilogram?"
+    },
+    "3": {
+      "en": "Read the scales and write how many kilograms the thing weighs. Then look at the small balances with one kilogram weight and circle the right answer: more than, less than or about 1 kilogram.",
+      "sv": "Läs av vågarna och skriv hur många kilogram saken väger. Titta sedan på de små vågarna med en kilovikt och ringa in rätt svar: mer än, mindre än eller ungefär 1 kilogram."
+    }
+  },
+  "G2-633": {
+    "3": {
+      "en": "Write the time in words under each clock. Write how many hours and minutes it takes from the start to the end. Then circle the unit that fits best: seconds, minutes or hours.",
+      "sv": "Skriv klockslaget med ord under varje klocka. Skriv hur många timmar och minuter det tar från start till slut. Ringa sedan in den enhet som passar bäst: sekunder, minuter eller timmar."
+    }
+  },
+  "G3-632": {
+    "1": {
+      "en": "Write your question and three answer choices. Ask the class and fill in the table with tally marks and numbers. Draw a bar graph with a title, the axes and a scale where one step is 2. Write what your graph shows.",
+      "sv": "Skriv din fråga och tre svarsalternativ. Fråga klassen och för in svaren i tabellen med streck och antal. Rita ett stapeldiagram med rubrik, axlar och skala där ett steg är 2. Skriv vad diagrammet visar."
+    },
+    "2": {
+      "en": "Write your question and four answer choices. Ask the class and fill in the table with tally marks and numbers. Draw a bar graph with a title, the axes and a scale where one step is 2. Write what your graph shows.",
+      "sv": "Skriv din fråga och fyra svarsalternativ. Fråga klassen och för in svaren i tabellen med streck och antal. Rita ett stapeldiagram med rubrik, axlar och skala där ett steg är 2. Skriv vad diagrammet visar."
+    },
+    "3": {
+      "en": "Write your question and five answer choices. Ask the class and fill in the table with tally marks and numbers. Draw a bar graph with a title, the axes and a scale where one step is 2. Write three things your graph shows.",
+      "sv": "Skriv din fråga och fem svarsalternativ. Fråga klassen och för in svaren i tabellen med streck och antal. Rita ett stapeldiagram med rubrik, axlar och skala där ett steg är 2. Skriv tre saker som diagrammet visar."
+    }
   }
 }

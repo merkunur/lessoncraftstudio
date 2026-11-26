@@ -112,8 +112,9 @@ Why a graph first: units, sub packs, tests and curriculum pages are four views o
 | 10 | The remaining 139 activities | (operator rule: last) | yes | 9 for the result contract | one activity per session, as today |
 | 11 | One product: the menu, the hubs, the homepage and the way to the Teacher plan (added 2026-11-12; built before Part 8) | all | yes (old pages gain blocks; the homepage as a preview first) | 4 to 7 for what it shows | about 11 for English, 1 per further language |
 | 12 | The whole school year: the missing content is created (added 2026-11-12) | 1, 2, 3 | yes | 2, 4, 8.1 | the year map says; the largest part |
+| 13 | The Next.js 15 upgrade: the 23 remaining security advisories (added 2026-11-26) | — | no (technical) | 10 (operator rule: after it) | about one working day |
 
-The size column is my estimate, not a measurement. The pilot inside each part produces the real number before the fan-out. **The order from 2026-11-12 on is the last paragraph of §13**; Part 10 stays the last part.
+The size column is my estimate, not a measurement. The pilot inside each part produces the real number before the fan-out. **The order from 2026-11-12 on is the last paragraph of §13**; Part 10 stays the last content part, and Part 13 (the Next.js 15 upgrade) follows it (operator 2026-11-26).
 
 **Order (operator ruling 2026-11-11 moved Part 9's first release forward).** 0 → **9 release 1 (9.1–9.4)** → 1 → 2 → 3 → **9 release 2 (9.5–9.6)** → 4 → 5 → 6 → 7 → 10. Part 9 release 1 needs nothing from Parts 1–8, so it is built first after the decisions. Part 8 (readers) depends only on Parts 0 and 3, so it can be interleaved at any point after Part 3; it is the longest content programme and nothing waits for it except the reading slot in units and sub packs, which uses the existing reading passages until readers exist. Part 10 is last by operator rule.
 
@@ -422,6 +423,33 @@ This is the one large new content programme. It is planned as its own ramp and r
 
 ---
 
+## Part 13 — The Next.js 15 upgrade (after Part 10, by operator ruling 2026-11-26)
+
+**Trigger:** "upgrade to Next.js 15" (or "implement Part 13"), once Part 10 is done. Plan mode first.
+
+**Why.** Next.js 14 gets no more security fixes. On 2026-11-26 the site moved to 14.2.35 (the last Next 14 release) and sharp 0.35.5. That fixed the critical items: the AVIF and SVG remote-code flaws at their root in sharp, and the middleware login bypass. `npm audit` still lists 26 advisories for next. About 9 do not apply to this site: no pages/ router, no custom server, no rewrites, no server actions, no CSP nonces, no beforeInteractive scripts, no response forwarding, dev-server only. About 14 do apply, mostly ways to overload the server through crafted requests (Server Components, the image optimizer), plus a few cache-confusion items. They are fixed only in next ≥ 15.5.29, which needs React 19. Record: memory `project_cloudflare_pro_setup.md`.
+
+**Scope (measured 2026-11-26):**
+- next 15.5.29 or later, react and react-dom 19, @types/react 19, eslint-config-next 15.
+- The official codemod for the async request APIs: 230 route files read `params`/`searchParams`, and 18 call `cookies()`/`headers()`. Review its diff; fix by hand what it misses. Auth pages are among them, so the commit hook asks the operator once.
+- Check the Next 15 caching defaults (fetch, GET route handlers, client router cache) on the busiest routes.
+- The build: the 2026-07 out-of-memory history (`next.config.js` experimental block) — measure the Next 15 build before deploying.
+- The add-ons all have Next 15 / React 19 versions: next-intl 4, next-auth 5 beta, Prisma 6, react-hot-toast 2.6.
+
+**How it ships:**
+- Server packages follow `memory/feedback_server_dependency_upgrade.md`: deploy.sh never installs packages. Stage `npm ci` in a side folder OUTSIDE frontend/, swap, deploy at once. Swap back at once if the build fails.
+- Live checks:
+  - pages in all 11 languages;
+  - sign-in, the payment canary, makers, worksheets, decks, `/_next/image`;
+  - the SEO identity snapshot (rule 1 of §5).
+- **Estimate:** about one working day, or 1.5–2× the 2026-11-26 session. No agent fan-out.
+
+**While it waits:**
+- The Cloudflare managed rules, the rate limits and the origin firewall soften the overload items.
+- **If a new critical flaw appears for which Next 14 has no fix and Cloudflare publishes no blocking rule, raise it with the operator at once.** That is the one case for moving this part forward.
+
+---
+
 ## 7. What each new page type says about price (tier truth, one table)
 
 | Item | Anonymous | Free account | Teacher plan |
@@ -571,6 +599,8 @@ A product is called complete for a grade only when a generated coverage report s
   a page live since K-516 and the page check asserts the order of the four panels.
 - **The real open list of Stage B item 1** (measured the same day; the handoff's "batch H next" and "about 130 lessons open" were a stale note): unit checks for the 31 English units that have none and the four pilot checks, then readers to 60.
 
+**2026-11-26 (operator, verbatim):** "Schedule it after the building of the remaining activities. the "indispensable daily teaching system" product transformation, the building of the remaining activities and integrating them to the "indispensable daily teaching system" product transformation and then we can fix these 23 issues." The 23 issues are the Next.js advisories that only Next 15 fixes; they become Part 13, after Part 10.
+
 ## Part 11 — One product: the menu, the hubs, the homepage and the way to the Teacher plan
 
 **Trigger:** "implement Part 11" (or a sub-part, 11.1 to 11.8). It is built **before Part 8**, straight after Part 7.5. Part 10 (the activities) stays the last part.
@@ -692,7 +722,7 @@ Mathematics is about three quarters there. Literacy is about a quarter there: re
 
 **What does not change:** every page is assembled from real content and reviewed by one teacher-reviewer of that country; nothing is translated; no page goes out thin (rule 4 of §5): where the content is missing the page does not exist.
 
-**Order of the whole programme from here:** 7.5 Swedish (running) → 11.1, 11.2, 11.3 → 12.1 (the year map, English) → 11.4, 11.5, 11.6 → 8.1 → 12.2 → 11.7 → 7.6 → 12.3 with 8.2 → 12.4, 4.9, 4.10 → the languages, one at a time, each with its year map, units, checklists, checks and sub plans (12.5) → 11.8 as each language is ready → Part 9 goes on when the lawyer's check is in → **Part 10, the activities, last** (those the year map moved up are still built in Part 10, first in its order).
+**Order of the whole programme from here:** 7.5 Swedish (running) → 11.1, 11.2, 11.3 → 12.1 (the year map, English) → 11.4, 11.5, 11.6 → 8.1 → 12.2 → 11.7 → 7.6 → 12.3 with 8.2 → 12.4, 4.9, 4.10 → the languages, one at a time, each with its year map, units, checklists, checks and sub plans (12.5) → 11.8 as each language is ready → Part 9 goes on when the lawyer's check is in → **Part 10, the activities, last** (those the year map moved up are still built in Part 10, first in its order) → **Part 13, the Next.js 15 upgrade** (operator 2026-11-26).
 
 ## 12. Progress log (one entry per finished part or sub-part)
 

@@ -2565,3 +2565,20 @@ Not fixable: two app pages carry the word baked into the worksheet picture or as
 - **Published** noindex as Level Set `yec`: 181 pages, audit 181/181. Every code is print only (`lcs-stage-d/print-only.js` adds a batch's codes under their families from the screen-rule rows).
 - **Live (deploy 70):** pages answer 200 noindex; identity PASS.
 - **Lesson:** while another builder works in the same string files, stage only your own ids with `git hash-object` and `git update-index` (`lcs-stage-d/stage-ids.js`). That never touches the working file, so it can't overwrite the other builder's write.
+
+### 2026-11-26: Stage E-2 batch SV published: ten Swedish page types (deploy 71, commits `1e662b00c`, `55097be3f`); E-2 COMPLETE
+
+- **Built** by one builder (`types/_shared/e2-math-sv.js`, `e2-math-sv-art.js`, `data/e2sv/e2-math-sv.js`). G2-637 and G3-650 use Swedish sets of the DE-A recording table. The ten types:
+  - förskoleklass: K-727 Vad rymmer mest?;
+  - åk 1: G1-676 Olika enheter ger olika tal, G1-677 Subtraktion som skillnad: räkna uppåt;
+  - åk 2: G2-637 Meter och centimeter;
+  - åk 3: G3-647 Talsymboler förr och nu (egyptiska, romerska), G3-648 Är svaret rimligt?, G3-649 Skriftlig huvudräkning med mellanled, G3-650 Äldre mått, G3-651 Proportionella samband, G3-652 Mäta i halva centimeter.
+- **Reviewed** by the Swedish lågstadium teacher in two rounds (2 must + 14 should, then 0 + 1; all applied). The two musts:
+  - The bucket picture is a sand bucket. It now holds 2 l and meets only containers no child could rank the other way.
+  - G3-648 printed a rule that is false in general (349 + 349 = 698 lies 98 from its estimate 600). It now says "more than 100", which holds for every sum and difference of two numbers rounded to hundreds, and the gate proves that over all pairs 100–999. Every item is decided by the rule.
+- **Real size:** the real-size pages carry "Utskrift: verklig storlek (100 %)". It is worded as a note, not an instruction, because it sat beside a child's task.
+- **Gate** `qa/verify-e2-sv.js` (with a PDF half): 12,330 assertions, 133/133 poisons. DE-A's gate passes, and existing pages are byte-identical.
+- **Teaching points:** four types sit under existing points; six get new points in E-3.
+- **Published** noindex as Level Set `yed`: 127 pages, audit 127/127, all print only.
+- **Live (deploy 71):** pages answer 200 noindex; identity PASS.
+- **E-2 complete:** 30 new types in all (DE-A 6, DE-B 14, SV 10); 384 noindex pages.

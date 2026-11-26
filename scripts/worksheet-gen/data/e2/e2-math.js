@@ -56,6 +56,15 @@ const UNITS = {
   ruler: { kind: 'tool', draw: 'ruler', de: { one: 'Lineal' } },
   folding: { kind: 'tool', draw: 'folding', de: { one: 'Meterstab' } },
   tape: { kind: 'tool', draw: 'tape', de: { one: 'Maßband' } },
+  // Batch SV (2026-11-26), G3-650 Äldre mått: a nine-year-old's own tum, fot, aln and famn (about, in cm; general
+  // reference values for a child of about 130 cm: the arm span is about the height, the forearm with the hand a little
+  // over a quarter of it) and G2-637's tools. The old Swedish standard lengths are in OLD_UNITS.
+  tum: { kind: 'count', draw: 'tum', sv: { one: 'tum', many: 'tum' }, approxCm: [1.4, 2] },
+  fot: { kind: 'count', draw: 'fotsv', sv: { one: 'fot', many: 'fot' }, approxCm: [19, 24] },
+  aln: { kind: 'count', draw: 'aln', sv: { one: 'aln', many: 'alnar' }, approxCm: [32, 40] },
+  famn: { kind: 'count', draw: 'famn', sv: { one: 'famn', many: 'famnar' }, approxCm: [120, 145] },
+  linjal: { kind: 'tool', draw: 'ruler', sv: { one: 'linjal' } },
+  mattband: { kind: 'tool', draw: 'tape', sv: { one: 'måttband' } },
 };
 /**
  * THINGS a German classroom and Schulhof have; each is drawn with a coral double arrow on the side to measure. cm = the
@@ -80,6 +89,23 @@ const THINGS = {
   flur: { draw: 'corridor', de: 'Flur (breit)', cm: [200, 400] },
   bank: { draw: 'bench', de: 'Bank auf dem Schulhof', cm: [150, 200] },
   platte: { draw: 'pingpong', de: 'Tischtennis\u00adplatte', cm: [274, 274] },   // a soft hyphen: it breaks as Tischtennis-platte in the narrow column
+  // Batch SV (2026-11-26): the things of a Swedish classroom (sv = the side measured, as printed). G2-637 measures in whole
+  // centimetres (short: under 1 m) or whole metres (2 m and more; nothing between 80 and 180 cm, where both are natural);
+  // G3-650 measures with the body (its pairs in SETS.aldre). Sources in the result file: SS-EN 1729-1 school furniture,
+  // door leaves of 9-10 M modules (about 90 cm wide, 2,1 m high), paper sizes, common classroom sizes.
+  sv_bankhojd: { draw: 'tableHeight', sv: 'b\u00e4nkens h\u00f6jd', cm: [59, 76], short: true },
+  sv_penna: { draw: 'pencilSv', sv: 'pennans l\u00e4ngd', cm: [13, 19], short: true },
+  sv_sudd: { draw: 'eraser', sv: 'suddets l\u00e4ngd', cm: [4, 7], short: true },
+  sv_bokhojd: { draw: 'notebook', sv: 'bokens h\u00f6jd', cm: [20, 30], short: true },
+  sv_fodral: { draw: 'pencilcase', sv: 'penn\u00adfodralets l\u00e4ngd', cm: [19, 24], short: true },
+  sv_dorrhojd: { draw: 'doorHeight', sv: 'd\u00f6rrens h\u00f6jd', cm: [199, 211] },
+  sv_tavla: { draw: 'board', sv: 'tavlans bredd', cm: [200, 400] },
+  sv_rumlangd: { draw: 'room', sv: 'klass\u00adrummets l\u00e4ngd', cm: [700, 1000] },
+  sv_rumbredd: { draw: 'roomShort', sv: 'klass\u00adrummets bredd', cm: [600, 800] },
+  sv_matta: { draw: 'rug', sv: 'mattans l\u00e4ngd', cm: [200, 300] },
+  sv_bankbredd: { draw: 'table', sv: 'b\u00e4nkens bredd', cm: [60, 130] },
+  sv_dorrbredd: { draw: 'doorWidth', sv: 'd\u00f6rrens bredd', cm: [86, 101] },
+  sv_bokbredd: { draw: 'bookWidth', sv: 'bokens bredd', cm: [15, 21], short: true },
 };
 /**
  * SETS: one per measuring page. locale; units (which a row may name); rows per level: [thing, unit] with unit null =
@@ -114,7 +140,74 @@ const SETS = {
       3: { rows: 5, cols: ['thing', 'est', 'meas', 'with', 'diff'], refs: ['finger', 'tuer'] },
     },
   },
+  // Batch SV (2026-11-26) G2-637 Meter och centimeter (åk 2): estimate, then measure in WHOLE centimetres (things under
+  // 1 m) or WHOLE metres (2 m and more); 1 cm and 10 cm drawn at real size on top; under the table the unit that fits each
+  // pictured thing (cm or m). lv.short = how many short things; lv.unitGiven = the unit printed in each row (level 1),
+  // else the child writes it; lv.conv = the conversions under the pictures (level 3).
+  cmsv: {
+    locale: 'sv', units: ['linjal', 'mattband'], whole: true, top: 'realref', bottom: 'unit',
+    // review round 1: no dörrens höjd (an åk 2 child cannot reach 2,1 m); the classroom's width instead
+    things: ['sv_bankhojd', 'sv_penna', 'sv_sudd', 'sv_bokhojd', 'sv_fodral', 'sv_tavla', 'sv_rumlangd', 'sv_rumbredd', 'sv_matta'],
+    printNote: true,   // review round 1: "Utskrift: verklig storlek (100 %)" under the 1-cm and 10-cm drawings
+    rowH: { 1: 64, 2: 48, 3: 48 },
+    cw: { 1: { thing: 250, est: 190, meas: 190 }, 2: { thing: 250, est: 190, meas: 190 }, 3: { thing: 250, est: 130, meas: 130, diff: 120 } },
+    levels: {
+      1: { rows: 4, short: 2, cols: ['thing', 'est', 'meas'], unitGiven: true, pics: 6 },
+      2: { rows: 6, short: 3, cols: ['thing', 'est', 'meas'], unitGiven: false, pics: 8 },
+      3: { rows: 6, short: 3, cols: ['thing', 'est', 'meas', 'diff'], unitGiven: false, pics: 8, conv: [['1 m =', 100, 'cm'], ['3 m =', 300, 'cm'], ['200 cm =', 2, 'm']] },
+    },
+  },
+  // Batch SV (2026-11-26) G3-650 Äldre mått: tum, fot, aln och famn (åk 3): each thing measured with the child's own body
+  // measure, then with a ruler or a tape measure in metres and centimetres; the body measures drawn on top with the old
+  // Swedish lengths (OLD_UNITS); under the table the door's width in fot compared with a classmate's, and why the numbers
+  // can differ. lv.why = the writing lines for the why; lv.conv = how the old measures go together (level 3).
+  aldre: {
+    locale: 'sv', units: ['tum', 'fot', 'aln', 'famn'], top: 'bodyunits',
+    // thing -> the body measure a lågstadielärare pairs with it (counts for a nine-year-old: tum 7-15, fot 4-16,
+    // alnar 2-12, famnar 4-8)
+    pairs: { sv_bokbredd: 'tum', sv_penna: 'tum', sv_dorrbredd: 'fot', sv_matta: 'fot', sv_bankbredd: 'aln', sv_tavla: 'aln', sv_rumbredd: 'famn' },
+    must: ['sv_dorrbredd'],   // the comparison under the table is about the door
+    bottom: 'compare', compare: { thing: 'sv_dorrbredd', unit: 'fot' },
+    rowH: { 1: 54, 2: 50, 3: 47 }, unitPx: { 1: [62, 34], 2: [58, 30], 3: [58, 30] }, thingPx: { 1: [54, 38], 2: [50, 36], 3: [50, 36] }, ownUnitPx: [38, 21], choosePx: [36, 20], whoseInline: true, ownKey: 'ownShort',
+    cw: { 1: { thing: 180, with: 150, body: 100, mcm: 150 }, 2: { thing: 180, with: 120, body: 80, partner: 80, mcm: 150 }, 3: { thing: 180, with: 200, body: 90, mcm: 150 } },
+    levels: {
+      1: { rows: 4, cols: ['thing', 'with', 'body', 'mcm'], choose: false, why: 1 },
+      2: { rows: 5, cols: ['thing', 'with', 'body', 'partner', 'mcm'], choose: false, why: 2 },
+      3: { rows: 5, cols: ['thing', 'with', 'body', 'mcm'], choose: true, why: 1, conv: [['1 aln =', 2, 'fot'], ['1 famn =', 3, 'alnar'], ['1 fot ≈', 30, 'cm']] },
+    },
+  },
 };
+/**
+ * Batch SV: the old Swedish lengths a Swedish åk 3 class learns (the 1665 order of measures, in use until the metre came:
+ * 1 famn = 3 alnar, 1 aln = 2 fot, 1 fot = 12 tum; 1 fot = 29,69 cm), rounded as the class writes them, and where each is
+ * on the body. Sources in the result file: Nationalencyklopedin (aln, famn, fot, tum), Svenska Akademiens ordbok, and the
+ * Swedish Wikipedia article "Äldre svenska mått".
+ */
+const OLD_UNITS = {
+  tum: { cm: 2.47, sv: '1 tum ≈ 2,5 cm', body: 'tummens bredd' },
+  fot: { cm: 29.69, sv: '1 fot ≈ 30 cm', body: 'från hälen till tårna' },
+  aln: { cm: 59.38, sv: '1 aln ≈ 60 cm', body: 'från armbågen till fingertopparna' },
+  famn: { cm: 178.1, sv: '1 famn ≈ 1,8 m', body: 'från fingertopp till fingertopp' },
+};
+/**
+ * Batch SV G2-637: the pictured things whose unit is cm or m — each far from the line (≤ 45 cm: cm; ≥ 4 m: m), so ONE unit
+ * fits best; library pictures, each opened (full-size vehicles, not toys).
+ */
+const UNIT_PICS = [
+  { id: 'penna', pic: ['classroom', 'pencil'], sv: 'penna', cm: 18, ans: 'cm' },
+  { id: 'bok', pic: ['classroom', 'book'], sv: 'bok', cm: 25, ans: 'cm' },
+  { id: 'sax', pic: ['classroom', 'scissors'], sv: 'sax', cm: 15, ans: 'cm' },
+  { id: 'nyckel', pic: ['around the house', 'key'], sv: 'nyckel', cm: 7, ans: 'cm' },
+  { id: 'apple', pic: ['fruits', 'apple'], sv: 'äpple', cm: 8, ans: 'cm' },
+  { id: 'krita', pic: ['classroom', 'crayon'], sv: 'krita', cm: 9, ans: 'cm' },
+  { id: 'sudd', pic: ['classroom', 'eraser'], sv: 'sudd', cm: 5, ans: 'cm' },
+  { id: 'bil', pic: ['vehicles', 'car'], sv: 'bil', cm: 420, ans: 'm' },
+  { id: 'buss', pic: ['vehicles', 'bus'], sv: 'buss', cm: 1200, ans: 'm' },
+  { id: 'kanot', pic: ['vehicles', 'canoe'], sv: 'kanot', cm: 450, ans: 'm' },
+  { id: 'lastbil', pic: ['vehicles', 'truck'], sv: 'lastbil', cm: 800, ans: 'm' },
+  { id: 'flygplan', pic: ['vehicles', 'airplane'], sv: 'flygplan', cm: 4000, ans: 'm' },
+  { id: 'fartyg', pic: ['vehicles', 'ship'], sv: 'fartyg', cm: 10000, ans: 'm' },
+];
 /** the reference lengths printed on the metric page (Vergleichsgrößen), each with its source */
 const REFS = {
   finger: { de: 'Fingerbreite: etwa 1 cm', src: 'a child\'s finger is 1-1.5 cm wide (the year design: "Fingerbreite etwa 1 cm")' },
@@ -209,6 +302,31 @@ const TEXT = {
     sortHead3: 'Kürzer als 1 m, etwa 1 m oder länger als 1 m? Verbinde.',
     cards: { short: 'kürzer als 1 m', about: 'etwa 1 m', long: 'länger als 1 m' },
     cardEmpty: 'Eine Karte kann leer bleiben.',   // review round 1, the teacher's wording
+  },
+  // Batch SV (2026-11-26): G2-637 Meter och centimeter and G3-650 Äldre mått (the plain imperative of a lågstadielärare)
+  sv: {
+    cols: { thing: 'Sak', with: 'Mått', est: 'Uppskattning', meas: 'Mätning', diff: 'Skillnad', body: 'Med kroppen', partner: 'Kamratens tal', mcm: 'Med linjal eller måttband' },
+    own: 'Det här mäter jag också:',
+    ownShort: 'Välj en sak:',
+    m: 'm', cm: 'cm',
+    // G2-637 on top (drawn at real size) and under the table
+    ref1: 'Så lång är 1 cm:',
+    ref10: 'Så långa är 10 cm:',
+    ref100: '1 m = 100 cm',
+    printNote: 'Utskrift: verklig storlek (100 %)',   // review round 1 (G2-637)
+    unitHead: 'Vilken enhet passar bäst? Ringa in cm eller m.',
+    convHead: 'Fyll i:',
+    // G3-650 on top
+    oldHead: 'Så långa var de gamla måtten:',
+    // G3-650 under the table: both measure the SAME door with their own feet
+    cmpHead: 'Mät dörrens bredd med dina fötter. Jämför med en kamrat.',
+    mine: 'Jag:',
+    theirs: 'Kamrat:',
+    whose: 'Vems fot är längst? Kryssa.',
+    whoseChoices: ['min', 'kamratens', 'ungefär lika långa'],
+    why: 'Talen kan bli olika eftersom',   // review round 1: "för att" is "in order to"
+    rule: 'Den som behöver färre fot har längst fot. Lika många fot: ungefär lika långa fötter.',   // the key (never printed)
+    oldConvHead: 'Så hänger de gamla måtten ihop. Fyll i:',
   } },
   // G2-634
   zehner: {
@@ -219,4 +337,4 @@ const TEXT = {
   },
 };
 
-module.exports = { NULL_THINGS, NAMES, UNITS, THINGS, SETS, REFS, LENGTH_PICS, TEXT };
+module.exports = { NULL_THINGS, NAMES, UNITS, THINGS, SETS, REFS, LENGTH_PICS, TEXT, OLD_UNITS, UNIT_PICS };

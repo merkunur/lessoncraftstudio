@@ -9983,5 +9983,145 @@
       "en": "Find all the possibilities. Go in order, then you will not forget any. Finish the tree diagrams and write how many possibilities there are. For task 1, write the multiplication task too.",
       "de": "Finde alle Möglichkeiten. Gehe geordnet vor, dann vergisst du keine. Zeichne die Baumdiagramme fertig und schreibe auf, wie viele Möglichkeiten es gibt. Schreibe bei Aufgabe 1 auch die Malaufgabe dazu."
     }
+  },
+  "K-727": {
+    "1": {
+      "en": "Look at the containers and think about how much they hold. Circle the one that holds the most in each pair. Then write 1, 2 and 3 under the containers in the row: 1 under the one that holds the least. Last, draw as many mugs as it took to fill the class jar, and write the number.",
+      "sv": "Titta på kärlen och tänk på hur mycket de rymmer. Ringa in det som rymmer mest i varje par. Skriv sedan 1, 2 och 3 under kärlen i raden: 1 under det som rymmer minst. Rita till sist lika många muggar som det gick åt för att fylla klassens burk, och skriv siffran."
+    },
+    "2": {
+      "en": "Look at the containers and think about how much they hold. Circle the one that holds the most in each pair. Then write 1, 2 and 3 under the containers in the row: 1 under the one that holds the least. Last, draw as many mugs as it took to fill the class jar, and write the number.",
+      "sv": "Titta på kärlen och tänk på hur mycket de rymmer. Ringa in det som rymmer mest i varje par. Skriv sedan 1, 2 och 3 under kärlen i raden: 1 under det som rymmer minst. Rita till sist lika många muggar som det gick åt för att fylla klassens burk, och skriv siffran."
+    },
+    "3": {
+      "en": "Look at the containers and think about how much they hold. In the first pairs circle the one that holds the most, in the last pairs the one that holds the least. Then write 1, 2, 3 and 4 under the containers in the row: 1 under the one that holds the least. Last, draw as many mugs as it took to fill the class jar, and write the number.",
+      "sv": "Titta på kärlen och tänk på hur mycket de rymmer. Ringa in det som rymmer mest i de första paren och det som rymmer minst i de sista. Skriv sedan 1, 2, 3 och 4 under kärlen i raden: 1 under det som rymmer minst. Rita till sist lika många muggar som det gick åt för att fylla klassens burk, och skriv siffran."
+    }
+  },
+  "G1-676": {
+    "1": {
+      "en": "Each thing is measured twice: once with blocks and once with paper clips. Count and write how many blocks and how many paper clips it took. Circle the one it took the most of.",
+      "sv": "Varje sak är mätt två gånger: en gång med klossar och en gång med gem. Räkna och skriv hur många klossar och hur många gem det gick åt. Ringa in det som det gick åt flest av."
+    },
+    "2": {
+      "en": "Each thing is measured with two different units. Count and write how many of each unit it took. Circle the unit it took the most of.",
+      "sv": "Varje sak är mätt med två olika enheter. Räkna och skriv hur många det gick åt av varje enhet. Ringa in den enhet som det gick åt flest av."
+    },
+    "3": {
+      "en": "Each thing is measured with two different units. Count and write how many of each unit it took. Circle the unit it took the most of. Last, circle the right word in the sentence at the bottom.",
+      "sv": "Varje sak är mätt med två olika enheter. Räkna och skriv hur många det gick åt av varje enhet. Ringa in den enhet som det gick åt flest av. Ringa till sist in rätt ord i meningen längst ner."
+    }
+  },
+  "G1-677": {
+    "1": {
+      "en": "Two numbers are marked on the number line. Count up from the smaller number to the larger one. Write how long the jump is. Then write the answer to the subtraction and to the addition that goes with it.",
+      "sv": "Två tal är markerade på tallinjen. Räkna uppåt från det mindre talet till det större. Skriv hur långt hoppet är. Skriv sedan svaret på subtraktionen och på additionen som hör till."
+    },
+    "2": {
+      "en": "Two numbers are marked on the number line. Count up from the smaller number to the larger one. Write how long the jump is. Then write the answer to the subtraction and to the addition that goes with it.",
+      "sv": "Två tal är markerade på tallinjen. Räkna uppåt från det mindre talet till det större. Skriv hur långt hoppet är. Skriv sedan svaret på subtraktionen och på additionen som hör till."
+    },
+    "3": {
+      "en": "Mark both numbers of the task on the number line and draw the jump from the smaller number to the larger one. Count up and write how long the jump is. Then write the answer to the subtraction and to the addition that goes with it.",
+      "sv": "Markera båda talen i uppgiften på tallinjen och rita hoppet från det mindre talet till det större. Räkna uppåt och skriv hur långt hoppet är. Skriv sedan svaret på subtraktionen och på additionen som hör till."
+    }
+  },
+  "G2-637": {
+    "1": {
+      "en": "First estimate how long each thing is. Then measure and write the length in whole centimetres or whole metres. 1 cm and 10 cm at the top help you. Below, circle the unit that fits best for each thing in the pictures.",
+      "sv": "Uppskatta först hur lång varje sak är. Mät sedan och skriv längden i hela centimeter eller hela meter. 1 cm och 10 cm överst hjälper dig. Ringa sist in den enhet som passar bäst för varje sak på bilderna."
+    },
+    "2": {
+      "en": "First estimate how long each thing is: write the number and the unit, cm or m. Then measure and write the length in whole centimetres or whole metres. Below, circle the unit that fits best for each thing in the pictures.",
+      "sv": "Uppskatta först hur lång varje sak är: skriv talet och enheten, cm eller m. Mät sedan och skriv längden i hela centimeter eller hela meter. Ringa sist in den enhet som passar bäst för varje sak på bilderna."
+    },
+    "3": {
+      "en": "First estimate how long each thing is: write the number and the unit, cm or m. Then measure and write the length in whole centimetres or whole metres, and how far apart your estimate and your measurement are. Below, circle the unit that fits best for each thing, and fill in the boxes.",
+      "sv": "Uppskatta först hur lång varje sak är: skriv talet och enheten, cm eller m. Mät sedan och skriv längden i hela centimeter eller hela meter, och hur mycket din uppskattning och din mätning skiljer. Ringa sist in den enhet som passar bäst för varje sak, och fyll i rutorna."
+    }
+  },
+  "G3-647": {
+    "1": {
+      "en": "Look at the key. Write the Egyptian and the Roman numbers with our digits. Then write the number with Egyptian signs. Last, answer the question.",
+      "sv": "Titta på nyckeln. Skriv de egyptiska och de romerska talen med våra siffror. Skriv sedan talet med egyptiska tecken. Svara till sist på frågan."
+    },
+    "2": {
+      "en": "Look at the key: when I stands before V or X, you take away 1. Write the Egyptian and the Roman numbers with our digits. Then write the number with Egyptian signs. Last, answer the question.",
+      "sv": "Titta på nyckeln: står I före V eller X tar man bort 1. Skriv de egyptiska och de romerska talen med våra siffror. Skriv sedan talet med egyptiska tecken. Svara till sist på frågan."
+    },
+    "3": {
+      "en": "Look at the key: when I stands before V or X, you take away 1. Write the Egyptian and the Roman numbers with our digits. Then write our numbers with Egyptian signs and with Roman numerals. Last, answer the question.",
+      "sv": "Titta på nyckeln: står I före V eller X tar man bort 1. Skriv de egyptiska och de romerska talen med våra siffror. Skriv sedan våra tal med egyptiska tecken och med romerska siffror. Svara till sist på frågan."
+    }
+  },
+  "G3-648": {
+    "1": {
+      "en": "Make an estimate for each calculation and write it in the boxes. Circle reasonable or unreasonable according to your estimate. Then circle the reasonable answer to each question.",
+      "sv": "Gör ett överslag för varje uträkning och skriv det i rutorna. Ringa in rimligt eller orimligt enligt överslaget. Ringa sedan in det rimliga svaret på frågorna."
+    },
+    "2": {
+      "en": "Make an estimate for each calculation and write it in the boxes. Circle reasonable or unreasonable according to your estimate. Then circle the reasonable answer to each question.",
+      "sv": "Gör ett överslag för varje uträkning och skriv det i rutorna. Ringa in rimligt eller orimligt enligt överslaget. Ringa sedan in det rimliga svaret på frågorna."
+    },
+    "3": {
+      "en": "Make an estimate for each calculation and write it in the boxes. Circle reasonable or unreasonable according to your estimate. Work out the right answer to each calculation. Then circle the reasonable answer to each question.",
+      "sv": "Gör ett överslag för varje uträkning och skriv det i rutorna. Ringa in rimligt eller orimligt enligt överslaget. Räkna ut rätt svar på varje uträkning. Ringa sedan in det rimliga svaret på frågorna."
+    }
+  },
+  "G3-649": {
+    "1": {
+      "en": "Work out each place value on its own: start with the hundreds, then the tens and last the ones. Add the part answers and write the answer.",
+      "sv": "Räkna talsorterna var för sig: börja med hundratalen, räkna sedan tiotalen och sist entalen. Lägg ihop delsvaren och skriv svaret."
+    },
+    "2": {
+      "en": "Work out each place value on its own: start with the hundreds, then the tens and last the ones. Write the numbers in the boxes. Add the part answers and write the answer.",
+      "sv": "Räkna talsorterna var för sig: börja med hundratalen, räkna sedan tiotalen och sist entalen. Skriv talen i rutorna. Lägg ihop delsvaren och skriv svaret."
+    },
+    "3": {
+      "en": "Work out each place value on its own: start with the hundreds, then the tens and last the ones. Write the part answers in that order and add them.",
+      "sv": "Räkna talsorterna var för sig: börja med hundratalen, räkna sedan tiotalen och sist entalen. Skriv delsvaren i den ordningen och lägg ihop dem."
+    }
+  },
+  "G3-650": {
+    "1": {
+      "en": "Long ago people measured with their bodies. Measure each thing with the measure in the table. Use your own body and write how many it was. Then measure the same thing with a ruler or a tape measure and write it in metres and centimetres. Last, compare with a classmate.",
+      "sv": "Förr mätte man med kroppen. Mät varje sak med måttet i tabellen. Använd din egen kropp och skriv hur många det blev. Mät sedan samma sak med linjal eller måttband och skriv i meter och centimeter. Jämför till sist med en kamrat."
+    },
+    "2": {
+      "en": "Long ago people measured with their bodies. Measure each thing with the measure in the table. Use your own body and write how many it was. Then measure the same thing with a ruler or a tape measure and write it in metres and centimetres. Last, compare with a classmate and write why the numbers can differ.",
+      "sv": "Förr mätte man med kroppen. Mät varje sak med måttet i tabellen. Använd din egen kropp och skriv hur många det blev. Mät sedan samma sak med linjal eller måttband och skriv i meter och centimeter. Jämför till sist med en kamrat och skriv varför talen kan bli olika."
+    },
+    "3": {
+      "en": "Long ago people measured with their bodies. Choose a measure for each thing and tick it. Measure with your own body and write how many it was. Then measure with a ruler or a tape measure and write it in metres and centimetres. Compare with a classmate, and fill in how the old measures go together.",
+      "sv": "Förr mätte man med kroppen. Välj ett mått för varje sak och kryssa i det. Mät med din egen kropp och skriv hur många det blev. Mät sedan med linjal eller måttband och skriv i meter och centimeter. Jämför med en kamrat och fyll i hur de gamla måtten hänger ihop."
+    }
+  },
+  "G3-651": {
+    "1": {
+      "en": "In each table all the things cost the same. Fill in the tables. Work out the recipe for 8 people. Circle the right words in the sentence.",
+      "sv": "I varje tabell kostar alla saker lika mycket. Fyll i tabellerna. Räkna om receptet för 8 personer. Ringa in rätt ord i meningen."
+    },
+    "2": {
+      "en": "In each table all the things cost the same. Fill in the tables. Work out the recipe for 2 and for 8 people. Circle the right words in the sentences.",
+      "sv": "I varje tabell kostar alla saker lika mycket. Fyll i tabellerna. Räkna om receptet för 2 och för 8 personer. Ringa in rätt ord i meningarna."
+    },
+    "3": {
+      "en": "In each table all the things cost the same. Fill in the tables, also the number of pieces that is missing. Work out the recipe for 2, 8 and 12 people. Write in words what happens to the price.",
+      "sv": "I varje tabell kostar alla saker lika mycket. Fyll i tabellerna, också antalet som fattas. Räkna om receptet för 2, 8 och 12 personer. Skriv med ord vad som händer med priset."
+    }
+  },
+  "G3-652": {
+    "1": {
+      "en": "Measure each pencil with a ruler to the nearest half centimetre. Put the ruler's 0 at the pencil's flat end. Write the length. Then draw a cross for each pencil over the right length in the diagram.",
+      "sv": "Mät varje penna med linjal till närmaste halva centimeter. Lägg linjalens nolla vid pennans raka ände. Skriv längden. Rita sedan ett kryss för varje penna över rätt längd i diagrammet."
+    },
+    "2": {
+      "en": "Measure each pencil with a ruler to the nearest half centimetre. Put the ruler's 0 at the pencil's flat end. Write the length. Then draw a cross for each pencil over the right length in the diagram, and answer the question.",
+      "sv": "Mät varje penna med linjal till närmaste halva centimeter. Lägg linjalens nolla vid pennans raka ände. Skriv längden. Rita sedan ett kryss för varje penna över rätt längd i diagrammet och svara på frågan."
+    },
+    "3": {
+      "en": "Measure each pencil with a ruler to the nearest half centimetre. Put the ruler's 0 at the pencil's flat end. Write the length. Then draw a cross for each pencil over the right length in the diagram, and answer the questions.",
+      "sv": "Mät varje penna med linjal till närmaste halva centimeter. Lägg linjalens nolla vid pennans raka ände. Skriv längden. Rita sedan ett kryss för varje penna över rätt längd i diagrammet och svara på frågorna."
+    }
   }
 }

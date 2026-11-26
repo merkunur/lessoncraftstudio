@@ -1253,7 +1253,8 @@
     "G1-117",
     "G1-118",
     "G1-119",
-    "G1-294"
+    "G1-294",
+    "G1-677"
    ],
    "families": [
     "dot-to-dot",
@@ -2460,7 +2461,8 @@
    "skill": "Estimate lengths in inches, feet, centimeters and meters with body benchmarks, then measure",
    "code": "2.MD.A.3",
    "types": [
-    "G2-636"
+    "G2-636",
+    "G2-637"
    ],
    "families": [
     "measurement"
@@ -3486,7 +3488,8 @@
    "types": [
     "G3-389",
     "G3-631",
-    "G3-641"
+    "G3-641",
+    "G3-648"
    ],
    "families": [
     "column-arithmetic",
@@ -4455,7 +4458,8 @@
    "code": "3.MD.B.4",
    "types": [
     "G3-335",
-    "G3-493"
+    "G3-493",
+    "G3-652"
    ],
    "families": [
     "graphing-data",

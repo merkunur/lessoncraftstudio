@@ -6829,5 +6829,45 @@
   "G3-646": {
     "title": "Finding All Possibilities: Table and Tree Diagram",
     "instruction": "Find all the possibilities. Go in order, then you will not forget any. Write how many possibilities there are. For task 1, write the multiplication task too."
+  },
+  "K-727": {
+    "title": "Which Holds the Most?",
+    "instruction": "Look at the containers and think about how much they hold. Circle the one that holds the most in each pair. Then write 1, 2 and 3 under the containers in the row: 1 under the one that holds the least. Last, draw as many mugs as it took to fill the class jar, and write the number."
+  },
+  "G1-676": {
+    "title": "Different Units Give Different Numbers",
+    "instruction": "Each thing is measured with two different units. Count and write how many of each unit it took. Circle the unit it took the most of."
+  },
+  "G1-677": {
+    "title": "Subtraction as Difference: Count Up",
+    "instruction": "Two numbers are marked on the number line. Count up from the smaller number to the larger one. Write how long the jump is. Then write the answer to the subtraction and to the addition that goes with it."
+  },
+  "G2-637": {
+    "title": "Metres and Centimetres",
+    "instruction": "First estimate how long each thing is. Then measure and write the length in whole centimetres or whole metres. Below, circle the unit that fits best for each thing in the pictures."
+  },
+  "G3-647": {
+    "title": "Number Symbols Then and Now",
+    "instruction": "Look at the key. Write the Egyptian and the Roman numbers with our digits. Then write the number with Egyptian signs. Last, answer the question."
+  },
+  "G3-648": {
+    "title": "Is the Answer Reasonable?",
+    "instruction": "Make an estimate for each calculation and write it in the boxes. Circle reasonable or unreasonable according to your estimate. Then circle the reasonable answer to each question."
+  },
+  "G3-649": {
+    "title": "Written Mental Calculation with Steps",
+    "instruction": "Work out each place value on its own: start with the hundreds, then the tens and last the ones. Add the part answers and write the answer."
+  },
+  "G3-650": {
+    "title": "Old Measures: Inch, Foot, Ell and Fathom",
+    "instruction": "Long ago people measured with their bodies. Measure each thing with the measure in the table. Use your own body and write how many it was. Then measure the same thing with a ruler or a tape measure and write it in metres and centimetres. Last, compare with a classmate."
+  },
+  "G3-651": {
+    "title": "Proportional Relations: Twice as Many, Twice as Much",
+    "instruction": "In each table all the things cost the same. Fill in the tables. Work out the recipe for other numbers of people. Circle the right words in the sentences."
+  },
+  "G3-652": {
+    "title": "Measure in Half Centimetres and Show in a Diagram",
+    "instruction": "Measure each pencil with a ruler to the nearest half centimetre. Put the ruler's 0 at the pencil's flat end. Write the length. Then draw a cross for each pencil over the right length in the diagram."
   }
 }

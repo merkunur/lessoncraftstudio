@@ -34,6 +34,9 @@ const C = {
   plate: '#FFFFFF', board: '#2F5D50', boardLine: '#E9F2EE', door: '#B07A4E', glass: '#DDEFF5', rug: '#E98AB0', rugDark: '#B5546F',
   skin: '#F0C08F', skinDark: '#B97A45', ruler: '#F4C542', rulerDark: '#B08A1C', tapeCase: '#E4574B', blue: '#4A7BD0', blueDark: '#34405A',
   heart: '#E4574B', net: '#FFFFFF', table: '#3F8A4A',
+  // Batch SV (2026-11-26): the real-size references of G2-637 (each in its own ink: the PDF gate measures them), the shirt
+  // and hair of the child with open arms (G3-650 famn), the eraser of a Swedish classroom (G2-637)
+  REAL_BAR: '#173B5C', REAL_RULER_TICK: '#1C1916', realRulerFill: '#F7E7A8', shirt: '#4FA36B', shirtDark: '#2F6E44', hair: '#7A4B23', trouser: '#34405A', eraserBlue: '#4A7BD0',
 };
 const PAL_E2 = new Set([...K.PAL, ...Object.values(C), T.cream, T.creamDeep, T.teal, T.tealSoft, T.coral, T.coralSoft, T.ink, T.inkSoft, T.white, T.grid].map((c) => c.toUpperCase()));
 
@@ -167,6 +170,12 @@ const BODY_PICS = { span: { pic: ['body parts', 'hand'], from: [0.86, 0.5], to: 
  */
 /** the unit drawings by name: a later batch adds its own (the Swedish äldre mått: tum, fot, aln, famn) to UNIT_ART */
 const UNIT_ART = { span: (src, w, h) => bodyUnit('span', src, w, h), foot: (src, w, h) => bodyUnit('foot', src, w, h), step: (src, w, h) => bodyUnit('step', src, w, h) };
+// Batch SV (2026-11-26): the old Swedish body measures of G3-650 (fot is the foot above)
+UNIT_ART.tum = (src, w, h) => oldUnit('tum', w, h);
+UNIT_ART.aln = (src, w, h) => oldUnit('aln', w, h);
+UNIT_ART.famn = (src, w, h) => oldUnit('famn', w, h);
+// the foot of G3-650, fitted INSIDE its box (the DE-A foot reaches above its box: it was made for a 92 px row)
+UNIT_ART.fotsv = (src, w, h) => { const s0 = Math.min(w * 0.84, h - 4), w2 = s0 / 0.84; return artSvg(`<g transform="translate(${f1((w - w2) / 2)} 0)">${bodyUnit('foot', src, w2, h)}</g>`, w, h, 'data-e2-art="unit" data-e2-unit="fot"'); };
 const unitArt = (draw, src, w, h) => { if (!UNIT_ART[draw]) throw new Error('e2-math-art: no unit drawing ' + draw); return UNIT_ART[draw](src, w, h); };
 function bodyUnit(kind, src, w = 58, h = 44) {
   let b = '';
@@ -190,6 +199,66 @@ function bodyUnit(kind, src, w = 58, h = 44) {
     b += `<g transform="scale(${f1(w / 58)} ${f1(h / H)})">${g}</g>`;
   }
   return artSvg(b, w, h, `data-e2-art="unit" data-e2-unit="${kind}"`);
+}
+
+/* ================================================================ Batch SV G3-650: the old body measures */
+/**
+ * oldUnit(kind, w, h): tum = a thumb seen from its nail side, the coral arrow across its width just under the nail;
+ * aln = an arm bent at the elbow, the forearm and the open hand lying flat, the arrow under it from the point of the elbow
+ * to the tip of the middle finger; famn = a child standing with both arms stretched out to the sides, the arrow from
+ * fingertip to fingertip. Each is drawn in its own frame and fitted, unstretched, into w x h.
+ */
+function oldUnit(kind, w = 74, h = 52) {
+  const FR = { tum: [60, 46], aln: [104, 50], famn: [104, 64] }[kind];
+  const k = Math.min(w / FR[0], h / FR[1]), dx = (w - FR[0] * k) / 2, dy = (h - FR[1] * k) / 2;
+  const sk = C.skin, skd = C.skinDark, ink = T.ink;
+  let g = '';
+  if (kind === 'tum') {
+    // the thumb from below, its tip rounded, the nail on top, two creases at the joint; the arrow across under the nail
+    g += `<path d="M17 46 L17 17 Q17 3 30 3 Q43 3 43 17 L43 46" fill="${sk}" stroke="${ink}" stroke-width="1.6" stroke-linejoin="round"/>` +
+      `<path d="M22 15 Q22 7 30 7 Q38 7 38 15 L38 20 Q30 23 22 20 Z" fill="#FFFFFF" stroke="${skd}" stroke-width="1.3"/>` +
+      `<path d="M21 35 Q30 38 39 35 M23 39 Q30 41 37 39" fill="none" stroke="${skd}" stroke-width="1.2" stroke-linecap="round"/>` +
+      `<line x1="17" y1="20" x2="17" y2="31" stroke="${T.coral}" stroke-width="1.2"/><line x1="43" y1="20" x2="43" y2="31" stroke="${T.coral}" stroke-width="1.2"/>` + dblArrow(17, 26, 43, 26, 2.2, 4);
+  } else if (kind === 'aln') {
+    // the upper arm in a short sleeve rising from the elbow, the forearm and the open hand flat to the right
+    g += `<path d="M9 10 L21 10 L21 24 L20 22 L8 30 Z" fill="${sk}" stroke="${ink}" stroke-width="1.5" stroke-linejoin="round"/><path d="M6 1 L24 1 L22 12 L8 12 Z" fill="${C.shirt}" stroke="${ink}" stroke-width="1.4" stroke-linejoin="round"/>` +
+      `<path d="M8 30 Q3 33 6 38 Q9 41 16 39 L62 34 L62 24 L21 22 Z" fill="${sk}" stroke="${ink}" stroke-width="1.5" stroke-linejoin="round"/><path d="M10 35 Q12 33 15 34" fill="none" stroke="${C.skinDark}" stroke-width="1.1" stroke-linecap="round"/>` +
+      `<path d="M61 23 Q66 19 72 21 L98 23 Q101 25 98 27 L80 27 L97 29 Q100 31 97 33 L79 32 L94 35 Q96 37 93 38 L74 37 Q66 38 61 35 Z" fill="${sk}" stroke="${ink}" stroke-width="1.4" stroke-linejoin="round"/>` +
+      `<path d="M70 21 Q74 15 80 17 L84 19" fill="none" stroke="${ink}" stroke-width="1.4" stroke-linecap="round"/>` +
+      `<line x1="5" y1="38" x2="5" y2="49" stroke="${T.coral}" stroke-width="1.2"/><line x1="100" y1="25" x2="100" y2="49" stroke="${T.coral}" stroke-width="1.2"/>` + dblArrow(5, 46, 100, 46, 2.2, 4);
+  } else if (kind === 'famn') {
+    // a child from the front: the arms stretched straight out, the arrow from fingertip to fingertip just under the arms
+    g += `<rect x="45" y="40" width="5" height="22" rx="2" fill="${C.trouser}" stroke="${ink}" stroke-width="1.2"/><rect x="54" y="40" width="5" height="22" rx="2" fill="${C.trouser}" stroke="${ink}" stroke-width="1.2"/>` +
+      `<rect x="6" y="19" width="92" height="6" rx="3" fill="${sk}" stroke="${ink}" stroke-width="1.3"/>` +
+      `<path d="M43 18 L61 18 L61 42 L43 42 Z" fill="${C.shirt}" stroke="${ink}" stroke-width="1.4" stroke-linejoin="round"/><rect x="34" y="18" width="36" height="8" rx="2" fill="${C.shirt}" stroke="${ink}" stroke-width="1.3"/>` +
+      `<circle cx="4" cy="22" r="3.5" fill="${sk}" stroke="${ink}" stroke-width="1.2"/><circle cx="100" cy="22" r="3.5" fill="${sk}" stroke="${ink}" stroke-width="1.2"/>` +
+      `<circle cx="52" cy="10" r="7.5" fill="${sk}" stroke="${ink}" stroke-width="1.4"/><path d="M44.5 9 Q45 2 52 2 Q59 2 59.5 9 Q55 5 52 6 Q48 5 44.5 9 Z" fill="${C.hair}"/>` +
+      `<circle cx="49.5" cy="10.5" r="0.9" fill="${ink}"/><circle cx="54.5" cy="10.5" r="0.9" fill="${ink}"/><path d="M49.5 13.3 Q52 15 54.5 13.3" fill="none" stroke="${ink}" stroke-width="0.9" stroke-linecap="round"/>` +
+      `<line x1="0.5" y1="27" x2="0.5" y2="36" stroke="${T.coral}" stroke-width="1.2"/><line x1="103.5" y1="27" x2="103.5" y2="36" stroke="${T.coral}" stroke-width="1.2"/>` + dblArrow(0.5, 32, 103.5, 32, 2.2, 4);
+  } else throw new Error('e2-math-art: no old measure ' + kind);
+  return artSvg(`<g transform="translate(${f1(dx)} ${f1(dy)}) scale(${(Math.round(k * 1000) / 1000)})">${g}</g>`, w, h, `data-e2-art="unit" data-e2-unit="${kind}"`);
+}
+
+/* ================================================================ Batch SV G2-637: 1 cm and 10 cm at their real size */
+const PX_MM = 96 / 25.4;   // the page's millimetre (the print pipeline prints CSS px at 96 to the inch)
+const r3 = (n) => (Math.round(n * 1000) / 1000).toString();
+/** a bar mm long at its real size: a thick line between two end marks, all in REAL_BAR */
+function realBar(mm, pad = 6) {
+  const L = mm * PX_MM, h = 22, y = 11;
+  const b = `<line x1="${r3(pad)}" y1="${y}" x2="${r3(pad + L)}" y2="${y}" stroke="${C.REAL_BAR}" stroke-width="4" stroke-linecap="butt" data-e2-realbar="1"/>` +
+    `<line x1="${r3(pad)}" y1="${y - 8}" x2="${r3(pad)}" y2="${y + 8}" stroke="${C.REAL_BAR}" stroke-width="1.2"/><line x1="${r3(pad + L)}" y1="${y - 8}" x2="${r3(pad + L)}" y2="${y + 8}" stroke="${C.REAL_BAR}" stroke-width="1.2"/>`;
+  return artSvg(b, L + 2 * pad, h, `data-e2-art="real-bar" data-e2-mm="${mm}" data-e2-pad="${pad}"`);
+}
+/** a ruler of cm centimetres at its real size: a tick at every half centimetre (the whole ones longer and numbered) */
+function realRuler(cm, pad = 12) {
+  const L = cm * 10 * PX_MM, W2 = L + 2 * pad, H = 40;
+  let b = `<rect x="0.75" y="0.75" width="${r3(W2 - 1.5)}" height="26" rx="3" fill="${C.realRulerFill}" stroke="${C.rulerDark}" stroke-width="1.5"/>`;
+  for (let i = 0; i <= cm * 2; i++) {
+    const x = pad + i * 5 * PX_MM, whole = i % 2 === 0;
+    b += `<line x1="${r3(x)}" y1="0.75" x2="${r3(x)}" y2="${whole ? 13 : 8}" stroke="${C.REAL_RULER_TICK}" stroke-width="${whole ? 1.2 : 0.9}"${whole ? ` data-e2-rulercm="${i / 2}"` : ''}/>`;
+    if (whole) b += text(x, 20, String(i / 2), 11, { attrs: `data-e2-rulerlabel="${i / 2}"` });
+  }
+  return artSvg(b, W2, H, `data-e2-art="real-ruler" data-e2-cm="${cm}" data-e2-pad="${pad}"`);
 }
 
 /* ================================================================ G2-636: the measuring tools (about 64 x 30) */
@@ -246,6 +315,13 @@ function thingArt(kind, w = 66, h = 46) {
       b += `<rect x="6" y="15" width="${w - 12}" height="5" rx="1.5" fill="${C.wood}" stroke="${C.woodDark}" stroke-width="1.2"/><rect x="6" y="25" width="${w - 12}" height="5" rx="1.5" fill="${C.wood}" stroke="${C.woodDark}" stroke-width="1.2"/>` + leg(12, 30, h - 3) + leg(w - 12, 30, h - 3) + `<rect x="10" y="20" width="3" height="5" fill="${C.woodDark}"/><rect x="${w - 13}" y="20" width="3" height="5" fill="${C.woodDark}"/>` + dblArrow(6, 7, w - 6, 7); break;
     case 'pingpong':   // a table-tennis table: the green top, the white middle line, the net; the arrow along it
       b += `<path d="M4 22 L${w - 4} 22 L${w - 10} 32 L10 32 Z" fill="${C.table}" stroke="${T.ink}" stroke-width="1.2"/><line x1="${w / 2}" y1="14" x2="${w / 2}" y2="32" stroke="${T.ink}" stroke-width="1.2"/><rect x="${w / 2 - 1.5}" y="14" width="3" height="10" fill="${C.net}" stroke="${T.ink}" stroke-width="0.8"/>` + leg(14, 32, h - 3) + leg(w - 14, 32, h - 3) + dblArrow(4, 7, w - 4, 7); break;
+    // Batch SV (2026-11-26): a pencil, an eraser, a book's width (G2-637, G3-650)
+    case 'pencilSv':   // a pencil lying: the arrow along it, under it
+      b += `<path d="M6 13 L${w - 22} 13 L${w - 6} 19 L${w - 22} 25 L6 25 Z" fill="${C.ruler}" stroke="${T.ink}" stroke-width="1.3" stroke-linejoin="round"/><rect x="6" y="13" width="7" height="12" fill="${C.rug}" stroke="${T.ink}" stroke-width="1.1"/><path d="M${w - 22} 13 L${w - 6} 19 L${w - 22} 25 Z" fill="${C.woodLight}" stroke="${T.ink}" stroke-width="1.1" stroke-linejoin="round"/><path d="M${w - 11} 17 L${w - 6} 19 L${w - 11} 21 Z" fill="${T.ink}"/>` + dblArrow(6, h - 7, w - 6, h - 7); break;
+    case 'eraser':   // an eraser (half paper sleeve): the arrow along it, under it
+      b += `<rect x="18" y="10" width="${w - 36}" height="18" rx="2" fill="${T.white}" stroke="${T.ink}" stroke-width="1.3"/><rect x="${18 + (w - 36) * 0.42}" y="10" width="${(w - 36) * 0.58}" height="18" fill="${C.eraserBlue}" stroke="${T.ink}" stroke-width="1.3"/>` + dblArrow(18, h - 7, w - 18, h - 7); break;
+    case 'bookWidth':   // a book standing, its front cover: the arrow across its width, under it
+      b += `<rect x="${w / 2 - 15}" y="2" width="30" height="${h - 14}" rx="2" fill="${C.rug}" stroke="${C.rugDark}" stroke-width="1.3"/><rect x="${w / 2 - 10}" y="8" width="20" height="9" rx="1.5" fill="${T.white}" stroke="${C.rugDark}" stroke-width="0.8"/>` + dblArrow(w / 2 - 15, h - 6, w / 2 + 15, h - 6); break;
     default: throw new Error('e2-math-art: no thing ' + kind);
   }
   return artSvg(b, w, h, `data-e2-art="thing" data-e2-thingart="${kind}"`);
@@ -261,4 +337,4 @@ function child(look, px = 78, attrs = '') {
 /** a bubble's tail: a small triangle pointing left (to the child), drawn on the bubble's left edge */
 const bubbleTail = (h = 16, w = 12) => artSvg(`<path d="M${w} 1 L1 ${h / 2} L${w} ${h - 1}" fill="${T.white}" stroke="${T.teal}" stroke-width="2.5" stroke-linejoin="round"/><line x1="${w}" y1="2.5" x2="${w}" y2="${h - 2.5}" stroke="${T.white}" stroke-width="3"/>`, w, h, 'data-e2-art="tail"');
 
-module.exports = { PAL_E2, C, artSvg, dblArrow, storyPanel, storyLayout, SCENE_ROWS, STORY, storyArrow, tensLine, heart, bodyUnit, UNIT_ART, unitArt, BODY_PICS, toolArt, thingArt, child, bubbleTail, inkOf, f1, esc, text };
+module.exports = { PAL_E2, C, artSvg, dblArrow, storyPanel, storyLayout, SCENE_ROWS, STORY, storyArrow, tensLine, heart, bodyUnit, UNIT_ART, unitArt, BODY_PICS, toolArt, thingArt, child, bubbleTail, inkOf, f1, esc, text, oldUnit, realBar, realRuler, PX_MM };

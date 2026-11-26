@@ -5019,5 +5019,45 @@
   "G3-632": {
     "title": "Egen undersökning: från fråga till diagram",
     "instruction": "Skriv din fråga och dina svarsalternativ. Fråga klassen och för in svaren i tabellen med streck och antal. Rita ett stapeldiagram med rubrik, axlar och skala där ett steg är 2. Skriv vad diagrammet visar."
+  },
+  "K-727": {
+    "title": "Vad rymmer mest?",
+    "instruction": "Titta på kärlen och tänk på hur mycket de rymmer. Ringa in det som rymmer mest i varje par. Skriv sedan 1, 2 och 3 under kärlen i raden: 1 under det som rymmer minst. Rita till sist lika många muggar som det gick åt för att fylla klassens burk, och skriv siffran."
+  },
+  "G1-676": {
+    "title": "Olika enheter ger olika tal",
+    "instruction": "Varje sak är mätt med två olika enheter. Räkna och skriv hur många det gick åt av varje enhet. Ringa in den enhet som det gick åt flest av."
+  },
+  "G1-677": {
+    "title": "Subtraktion som skillnad: räkna uppåt",
+    "instruction": "Två tal är markerade på tallinjen. Räkna uppåt från det mindre talet till det större. Skriv hur långt hoppet är. Skriv sedan svaret på subtraktionen och på additionen som hör till."
+  },
+  "G2-637": {
+    "title": "Meter och centimeter",
+    "instruction": "Uppskatta först hur lång varje sak är. Mät sedan och skriv längden i hela centimeter eller hela meter. Ringa sist in den enhet som passar bäst för varje sak på bilderna."
+  },
+  "G3-647": {
+    "title": "Talsymboler förr och nu",
+    "instruction": "Titta på nyckeln. Skriv de egyptiska och de romerska talen med våra siffror. Skriv sedan talet med egyptiska tecken. Svara till sist på frågan."
+  },
+  "G3-648": {
+    "title": "Är svaret rimligt?",
+    "instruction": "Gör ett överslag för varje uträkning och skriv det i rutorna. Ringa in rimligt eller orimligt enligt överslaget. Ringa sedan in det rimliga svaret på frågorna."
+  },
+  "G3-649": {
+    "title": "Skriftlig huvudräkning med mellanled",
+    "instruction": "Räkna talsorterna var för sig: börja med hundratalen, räkna sedan tiotalen och sist entalen. Lägg ihop delsvaren och skriv svaret."
+  },
+  "G3-650": {
+    "title": "Äldre mått: tum, fot, aln och famn",
+    "instruction": "Förr mätte man med kroppen. Mät varje sak med måttet i tabellen. Använd din egen kropp och skriv hur många det blev. Mät sedan samma sak med linjal eller måttband och skriv i meter och centimeter. Jämför till sist med en kamrat."
+  },
+  "G3-651": {
+    "title": "Proportionella samband: dubbelt så många, dubbelt så mycket",
+    "instruction": "I varje tabell kostar alla saker lika mycket. Fyll i tabellerna. Räkna om receptet för fler eller färre personer. Ringa in rätt ord i meningarna."
+  },
+  "G3-652": {
+    "title": "Mäta i halva centimeter och visa i diagram",
+    "instruction": "Mät varje penna med linjal till närmaste halva centimeter. Lägg linjalens nolla vid pennans raka ände. Skriv längden. Rita sedan ett kryss för varje penna över rätt längd i diagrammet."
   }
 }

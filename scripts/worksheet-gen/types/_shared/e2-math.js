@@ -8,6 +8,11 @@
  *   G2-635 e2-wege2   Rechenwege vergleichen: schrittweise oder mit Hilfsaufgabe? (mental-math; Klasse 2)
  *   G2-636 e2-mess    Meter und Zentimeter: erst schätzen, dann messen  (set 'mcm') (measurement; Klasse 2)
  * Each type is printed in German only (`onlyLocales: ['de']`; any other locale refuses at build). Themeless; PDF only.
+ * Batch SV (2026-11-26) added two Swedish sets of the measuring-table mode, printed in Swedish only:
+ *   G2-637 e2-mess    Meter och centimeter                    (set 'cmsv') (measurement; åk 2: whole cm or whole m)
+ *   G3-650 e2-mess    Äldre mått: tum, fot, aln och famn      (set 'aldre') (measurement; åk 3; a record page)
+ * Their paths (lv.short, S.cw, S.rowH, S.whole, the 'mcm' column, bottom 'unit', top 'realref' / 'bodyunits', lv.why,
+ * lv.conv) are reached only by those sets: every DE-A page is byte-identical (lcs-stage-d/batch-sv/work/hash-sv.js).
  *
  * ONE recording-table mode for every measuring page (e2-mess): a SET in the bank (data/e2/e2-math.js SETS) names its
  * locale, its units (data/e2 UNITS: a drawing and the words per locale) and its things, and per level its rows and
@@ -353,18 +358,26 @@ function messMode(setId) {
       const pick = (S.must || []).concat(rng.shuffle(pool.filter((x) => !(S.must || []).includes(x))).slice(0, lv.rows - (S.must || []).length));
       rows = rng.shuffle(pick).map((id) => ({ id, unit: metric || lv.choose ? null : S.pairs[id] }));   // level 3: the child chooses
       if (!metric && !lv.choose && S.units.some((u) => !rows.some((r) => r.unit === u))) continue;
-      if (metric && !rows.some((r) => !B.THINGS[r.id].short)) continue;
-      if (metric && rows.filter((r) => B.THINGS[r.id].short).length > 2) continue;
+      if (metric && lv.short != null) { if (rows.filter((r) => B.THINGS[r.id].short).length !== lv.short) continue; }   // Batch SV: a set may fix how many short things
+      else {
+        if (metric && !rows.some((r) => !B.THINGS[r.id].short)) continue;
+        if (metric && rows.filter((r) => B.THINGS[r.id].short).length > 2) continue;
+      }
       break;
     }
-    // the columns' widths (the thing first; the rest share what is left)
-    const cw = { thing: metric ? 150 : 182, with: metric ? 120 : lv.choose ? 150 : 104, est: metric ? 114 : 80, meas: metric ? 114 : 80, partner: metric ? 114 : 80, diff: metric ? 84 : 84 };
+    // the columns' widths (the thing first; the rest share what is left); a set may give its own per level (Batch SV)
+    const cw = { thing: metric ? 150 : 182, with: metric ? 120 : lv.choose ? 150 : 104, est: metric ? 114 : 80, meas: metric ? 114 : 80, partner: metric ? 114 : 80, diff: metric ? 84 : 84, ...((S.cw && S.cw[d.level]) || {}) };
     const cols = lv.cols, tot = cols.reduce((s, c) => s + cw[c], 0), spare = Math.max(0, W - 28 - tot);
     cols.forEach((c) => { if (c !== 'thing') cw[c] += Math.floor(spare / (cols.length - 1)); });
-    const rowH = metric ? 56 : d.level === 1 ? 92 : 74;   // metric: a thing's name may take three lines (Bank auf dem Schulhof)
+    const rowH = S.rowH ? S.rowH[d.level] : metric ? 56 : d.level === 1 ? 92 : 74;   // metric: a thing's name may take three lines (Bank auf dem Schulhof)
     const unitWord = (u) => B.UNITS[u][loc];
     const valueCell = (r, c) => {
       const attrs = `data-e2-record="${c}"`;
+      // Batch SV: metres and centimetres on a body-measure page (G3-650)
+      if (c === 'mcm') return row(freeBox(34, 34, attrs) + t(X.m, '', 'font-size:14px') + freeBox(36, 34, attrs) + t(X.cm, '', 'font-size:14px'), 2);
+      // Batch SV: whole centimetres OR whole metres (G2-637): the unit printed (level 1: cm for a short thing, m for a long
+      // one) or a short line where the child writes it
+      if (S.whole) return row(freeBox(54, 34, attrs) + (lv.unitGiven && r ? t(B.THINGS[r.id].short ? X.cm : X.m, `data-e2-unitgiven="${B.THINGS[r.id].short ? 'cm' : 'm'}"`, 'font-size:16px') : lineBox(44, 34, `data-e2-unitline="${c}"`)), 5);
       if (!metric) return freeBox(54, 36, attrs);
       if (c === 'diff') return row(freeBox(46, 34, attrs) + t(X.cm, '', 'font-size:14px'), 2);
       // review round 1: every estimate, measurement and partner's number in "☐ m ☐ cm" (the m box stays empty under 1 m)
@@ -373,16 +386,21 @@ function messMode(setId) {
     const withCell = (r) => {
       if (metric || (lv.choose)) {
         const us = S.units;
-        return row(us.map((u) => col(art(metric ? A.toolArt(B.UNITS[u].draw, 34, 20) : A.unitArt(B.UNITS[u].draw, src, 42, 32), `data-e2-unitart="${u}"`) + tick(`data-e2-choose="${u}"`), 2)).join(''), metric ? 3 : 5);
+        return row(us.map((u) => col(art(metric ? A.toolArt(B.UNITS[u].draw, 34, 20) : A.unitArt(B.UNITS[u].draw, src, ...(S.choosePx || [42, 32])), `data-e2-unitart="${u}"`) + tick(`data-e2-choose="${u}"`), 2)).join(''), metric ? 3 : 5);
       }
       const u = r ? r.unit : null;
+      // Batch SV: a set may lay out the own row's units as a grid (S.ownUnitPx) and size the drawn unit (S.unitPx)
+      if (!u && S.ownUnitPx) { const [ow, oh] = S.ownUnitPx; return `<div style="display:grid;grid-template-columns:repeat(2,auto);gap:1px 6px;align-items:center">` + S.units.map((uu) => row(art(A.unitArt(B.UNITS[uu].draw, src, ow, oh), `data-e2-unitart="${uu}"`) + tick(`data-e2-choose="${uu}"`), 2)).join('') + '</div>'; }
       if (!u) return row(S.units.map((uu) => col(art(A.unitArt(B.UNITS[uu].draw, src, 40, 30), `data-e2-unitart="${uu}"`) + tick(`data-e2-choose="${uu}"`), 2)).join(''), 4);
-      return col(art(d.level === 1 ? A.unitArt(B.UNITS[u].draw, src, 74, 52) : A.unitArt(B.UNITS[u].draw, src, 62, 42), `data-e2-unitart="${u}" data-e2-unit="${u}"`) + t(unitWord(u).many, '', 'font-size:13px;line-height:15px;color:' + T.inkSoft), 1);
+      const up = S.unitPx ? S.unitPx[d.level] : null;
+      return col(art(up ? A.unitArt(B.UNITS[u].draw, src, up[0], up[1]) : d.level === 1 ? A.unitArt(B.UNITS[u].draw, src, 74, 52) : A.unitArt(B.UNITS[u].draw, src, 62, 42), `data-e2-unitart="${u}" data-e2-unit="${u}"`) + t(unitWord(u).many, '', 'font-size:13px;line-height:15px;color:' + T.inkSoft), 1);
     };
     const thingCell = (r) => {
       const dw = metric ? 52 : 60;
-      if (!r) return row(box('dk-draw', dw, metric ? 40 : 48, '', 'data-dk-draw data-e2-owndraw="1"') + col(tw(X.own, cw.thing - dw - 18, '', 'font-size:14px;line-height:16px') + lineBox(cw.thing - dw - 18, 24), 0, 'align-items:flex-start'), 6, 'justify-content:flex-start;width:100%');
+      if (!r) return row(box('dk-draw', dw, metric ? 40 : 48, '', 'data-dk-draw data-e2-owndraw="1"') + col(tw(S.ownKey ? X[S.ownKey] : X.own, cw.thing - dw - 18, '', 'font-size:14px;line-height:16px') + lineBox(cw.thing - dw - 18, 24), 0, 'align-items:flex-start'), 6, 'justify-content:flex-start;width:100%');
       const th = B.THINGS[r.id];
+      const tp = S.thingPx ? S.thingPx[d.level] : null;   // Batch SV: a set may size the drawn thing
+      if (tp) return row(art(A.thingArt(th.draw, tp[0], tp[1]), `data-e2-thingart="${r.id}"`) + tw(th[loc], cw.thing - tp[0] - 18, `data-e2-thingword="${r.id}"`, 'font-size:15px;line-height:17px'), 6, 'justify-content:flex-start;width:100%');
       return row(art(metric ? A.thingArt(th.draw, 54, 40) : d.level === 1 ? A.thingArt(th.draw, 76, 54) : A.thingArt(th.draw, 64, 46), `data-e2-thingart="${r.id}"`) + tw(th[loc], cw.thing - (metric ? 72 : d.level === 1 ? 94 : 82), `data-e2-thingword="${r.id}"`, metric ? 'font-size:14px;line-height:16px' : 'font-size:15px;line-height:17px'), 6, 'justify-content:flex-start;width:100%');
     };
     const cell = (c, inner, last) => `<div class="e2-cell" style="width:${cw[c]}px;height:${rowH}px;${last ? 'border-right:none;' : ''}${c === 'thing' ? 'justify-content:flex-start;' : ''}">${inner}</div>`;
@@ -415,14 +433,41 @@ function messMode(setId) {
       // review round 1: "Eine Karte kann leer bleiben." on every page with three cards (printed always, so it tells nothing)
       const empty = d.level === 1 ? '' : t(X.cardEmpty, 'data-e2-cardempty="1"', 'font-size:14px;line-height:17px;color:' + T.inkSoft + ';align-self:center');
       bottom = white(col(row(head(X.meterHead, '', 'font-size:16px') + convHtml, 12, 'justify-content:flex-start') + head(d.level === 1 ? X.sortHead : X.sortHead3, '', 'font-size:16px;margin-top:4px') + picRow + cardRow + empty, 4, 'align-items:flex-start;width:100%'), W, 'auto', 'data-e2-bottom="sort"', 'padding:5px 12px 8px;flex-shrink:0;justify-content:flex-start');
+    } else if (S.bottom === 'unit') {
+      // Batch SV (G2-637): the pictured things, cm or m to ring for each (half of them each way, in a drawn order); level 3
+      // also the conversions
+      const n = lv.pics, P = B.UNIT_PICS;
+      let pics;
+      for (let tries = 0; ; tries++) {
+        if (tries > 500) throw new Error('e2-mess: no unit pictures');
+        pics = rng.shuffle(rng.shuffle(P.filter((p) => p.ans === 'cm')).slice(0, n / 2).concat(rng.shuffle(P.filter((p) => p.ans === 'm')).slice(0, n / 2)));
+        if (!pics.some((p) => rows.some((r) => r.id === 'sv_' + p.id))) break;
+      }
+      const pw = Math.floor((W - 24 - (n - 1) * 6) / n), ip = Math.min(70, pw - 14);
+      const picCard = (p, i) => card(col(`<img class="ws-icon" src="${src(p.pic)}" alt="" data-dk-box data-e2-pic="${esc(p.pic.join('/'))}" style="width:${ip}px;height:${ip}px;display:block;object-fit:contain;flex-shrink:0">` + t(p[loc], `data-e2-picword="${p.id}"`, 'font-size:14px;line-height:17px') +
+        `<div class="dk-row" data-dk-item="unit${i + 1}" data-g1-one="1" style="gap:${n > 6 ? 5 : 10}px">${['cm', 'm'].map((u) => `<span class="g1-chip" data-dk-box data-e2-unitpick="${u}" data-dk-answer="${u === p.ans ? 'right' : 'no'}" style="font-size:15px;padding:1px ${n > 6 ? 6 : 10}px;border-width:2px">${u}</span>`).join('')}</div>`, 3), pw, 'auto', `data-e2-unitpic="${i + 1}" data-e2-picid="${p.id}" data-e2-ans="${p.ans}"`, 'padding:4px 2px 6px');
+      const picRows = `<div class="dk-row" style="gap:6px;justify-content:space-between;width:100%">${pics.map((p, j) => picCard(p, j)).join('')}</div>`;
+      const conv = lv.conv ? row(head(X.convHead, '', 'font-size:16px') + row(lv.conv.map(([lhs, v, unit]) => row(big(lhs, '', 'font-size:20px') + ansBox(unit === 'm' ? 44 : 58, 34, v, 'data-e2-conv="1"') + t(unit, '', 'font-size:18px'), 5)).join(''), 22, 'justify-content:flex-start'), 12, 'justify-content:flex-start') : '';
+      bottom = white(col(head(X.unitHead, '', 'font-size:16px') + picRows + conv, 6, 'align-items:flex-start;width:100%'), W, 'auto', 'data-e2-bottom="unit"', 'padding:5px 12px 8px;flex-shrink:0;justify-content:flex-start');
     } else {
       // the comparison under the table: the Tisch in Handspannen, the child's and another child's, and whose span is bigger
       const span = unitWord(S.compare.unit).many;
       const whoseRow = row(X.whoseChoices.map((c, i) => row(tick(`data-e2-whose="${i}"`) + t(c, '', 'font-size:16px'), 5)).join(''), 22, 'justify-content:flex-start');
-      const why = d.level === 1 ? '' : d.level === 2 ? G.kit.frameLine([X.why, 300], 34) : col(G.kit.frameLine([X.why, 300], 34) + lineBox(W - 40, 34), 0, 'align-items:flex-start');
+      // a set may give the number of writing lines for the why per level (Batch SV: lv.why); else the DE-A levels' own
+      const whyN = lv.why != null ? lv.why : d.level === 1 ? 0 : d.level === 2 ? 1 : 2;
+      const why = whyN === 0 ? '' : whyN === 1 ? G.kit.frameLine([X.why, 300], 34) : col(G.kit.frameLine([X.why, 300], 34) + lineBox(W - 40, 34), 0, 'align-items:flex-start');
+      // Batch SV (G3-650 level 3): how the old measures go together
+      const conv = lv.conv ? row(t(X.oldConvHead, '', 'font-size:16px;color:' + T.teal) + row(lv.conv.map(([lhs, v, unit]) => row(big(lhs, '', 'font-size:19px') + ansBox(46, 34, v, 'data-e2-conv="1"') + t(unit, '', 'font-size:17px'), 4)).join(''), 16, 'justify-content:flex-start'), 10, 'justify-content:flex-start;flex-wrap:wrap;row-gap:4px') : '';
       bottom = white(col(head(X.cmpHead) + row(row(t(X.mine) + freeBox(54, 36, 'data-e2-record="mine"') + t(span), 6) + row(t(X.theirs) + lineBox(130, 32) + t(':') + freeBox(54, 36, 'data-e2-record="theirs"') + t(span), 6, 'align-items:flex-end'), 30, 'justify-content:flex-start;flex-wrap:wrap') +
-        t(X.whose, '', 'margin-top:4px') + whoseRow + why, 6, 'align-items:flex-start;width:100%'), W, 'auto', `data-e2-bottom="compare" data-e2-rule="${esc(X.rule)}"`, 'padding:6px 14px 8px;flex-shrink:0;justify-content:flex-start');
+        (S.whoseInline ? row(t(X.whose) + whoseRow, 16, 'justify-content:flex-start;margin-top:2px') : t(X.whose, '', 'margin-top:4px') + whoseRow) + why + conv, 6, 'align-items:flex-start;width:100%'), W, 'auto', `data-e2-bottom="compare" data-e2-rule="${esc(X.rule)}"`, 'padding:6px 14px 8px;flex-shrink:0;justify-content:flex-start');
     }
+    // Batch SV: what a set draws above its table — 1 cm and 10 cm at real size (G2-637); the four old body measures with
+    // their old Swedish lengths (G3-650)
+    if (S.top === 'realref') top = white(row(col(t(X.ref1, '', 'font-size:15px') + art(A.realBar(10), 'data-e2-realref="bar"') + t(X.ref100, 'data-e2-ref100="1"', 'font-size:19px;margin-top:4px'), 3, 'align-items:flex-start') + col(t(X.ref10, '', 'font-size:15px') + art(A.realRuler(10), 'data-e2-realref="ruler"') + (S.printNote ? t(X.printNote, 'data-e2-printnote="1"', 'font-size:12px;line-height:14px;color:' + T.inkSoft) : ''), 4, 'align-items:flex-start'),
+      30, 'justify-content:flex-start;align-items:flex-start;width:100%'), W, 'auto', 'data-e2-refs="real"', 'padding:6px 14px;flex-shrink:0;justify-content:flex-start');
+    if (S.top === 'bodyunits') top = white(col(t(X.oldHead, '', 'font-size:15px;color:' + T.teal) + `<div class="dk-row" style="gap:8px;justify-content:space-between;width:100%;align-items:stretch">` + S.units.map((u) => card(col(art(A.unitArt(B.UNITS[u].draw, src, 90, 42), `data-e2-oldunit="${u}"`) +
+      tw(B.OLD_UNITS[u].body, 146, `data-e2-oldbody="${u}"`, 'font-size:13px;line-height:15px;text-align:center') + t(B.OLD_UNITS[u].sv, `data-e2-oldval="${u}"`, 'font-size:15px;line-height:18px'), 1), 152, 'auto', `data-e2-old="${u}"`, 'padding:3px 3px 4px;background:#FFFFFF')).join('') + '</div>', 3, 'align-items:flex-start;width:100%'),
+    W, 'auto', 'data-e2-refs="old"', 'padding:5px 10px 7px;flex-shrink:0;justify-content:flex-start');
     const html = top + table + bottom;
     return { html, meta: { record: true, set: setId, rows: rows.map((r) => r.id + (r.unit ? ':' + r.unit : '')), items: rows.map((r) => r.id).concat(['own']) } };
   };
@@ -431,6 +476,11 @@ LOC['e2-mess-koerper'] = B.SETS.koerper.locale;
 LOC['e2-mess-mcm'] = B.SETS.mcm.locale;
 MODES['e2-mess-koerper'] = messMode('koerper');
 MODES['e2-mess-mcm'] = messMode('mcm');
+// Batch SV (2026-11-26): G2-637 Meter och centimeter, G3-650 Äldre mått (Swedish sets of the same mode)
+LOC['e2-mess-cmsv'] = B.SETS.cmsv.locale;
+LOC['e2-mess-aldre'] = B.SETS.aldre.locale;
+MODES['e2-mess-cmsv'] = messMode('cmsv');
+MODES['e2-mess-aldre'] = messMode('aldre');
 
 /* ================================================================ G2-634 — Zum Zehner ergänzen, vom Zehner abziehen */
 LOC['e2-zehner'] = 'de';
@@ -723,7 +773,7 @@ function makeE2Type({ id, slug, mode, exerciseType, gradeBand, i18n }) {
     e2Mode: mode,
     build({ difficulty: lv, locale }, ctx) {
       const L = String(locale || 'en').slice(0, 2);
-      if (L !== only) throw new Error(`${id}: printed in ${only} only (no ${locale} page; the type teaches a German lesson)`);
+      if (L !== only) throw new Error(`${id}: printed in ${only} only (no ${locale} page; the type teaches a ${only === 'sv' ? 'Swedish' : 'German'} lesson)`);
       const d = { level: Number(lv) || 2 };
       const out = MODES[mode](d, ctx.rng, ctx);
       return {

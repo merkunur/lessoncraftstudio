@@ -4094,9 +4094,9 @@
     },
     "signup": {
       "eyebrow": "Gratis",
-      "h2Line1": "Non serve registrarsi.",
-      "h2Line2": "Crea un account se vuoi salvare le tue cose.",
-      "body": "Ogni attività, scheda e strumento di questo sito è gratis, senza account. Un account serve solo per salvare i preferiti, creare raccolte e incorporare i tuoi mazzi.",
+      "h2Line1": "Un account gratuito.",
+      "h2Line2": "Gioca, stampa e crea le tue schede.",
+      "body": "Con un account gratuito puoi svolgere le schede sullo schermo e stamparle, crearne di tue, salvare i preferiti, creare raccolte e incorporare i tuoi mazzi.",
       "ctaPrimary": "Inizia un'attività",
       "ctaSecondary": "Crea un account",
       "mascotAlt": "Elefantino mascotte che ti dà il benvenuto"

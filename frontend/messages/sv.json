@@ -2573,9 +2573,9 @@
     },
     "signup": {
       "eyebrow": "Gratis",
-      "h2Line1": "Ingen registrering behövs.",
-      "h2Line2": "Skapa ett om du vill spara saker.",
-      "body": "Varje aktivitet, arbetsblad och verktyg på den här sidan är gratis att använda utan konto. Ett konto låter dig bara behålla favoriter, bygga samlingar och bädda in dina egna kortlekar.",
+      "h2Line1": "Ett gratis konto.",
+      "h2Line2": "Spela, skriv ut och gör egna arbetsblad.",
+      "body": "Med ett gratis konto kan du göra arbetsbladen på skärmen och skriva ut dem, skapa egna, spara favoriter, bygga samlingar och bädda in dina egna kortlekar.",
       "ctaPrimary": "Starta en aktivitet",
       "ctaSecondary": "Skapa ett konto",
       "mascotAlt": "Vänlig elefantmaskot som vinkar in dig"

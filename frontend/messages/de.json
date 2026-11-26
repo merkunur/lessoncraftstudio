@@ -3894,9 +3894,9 @@
     },
     "signup": {
       "eyebrow": "Kostenlos",
-      "h2Line1": "Keine Anmeldung nötig.",
-      "h2Line2": "Erstell eines, wenn du etwas speichern willst.",
-      "body": "Jede Übung, jedes Arbeitsblatt und jedes Werkzeug auf dieser Seite ist ohne Konto kostenlos nutzbar. Ein Konto dient lediglich dazu, Favoriten zu speichern, Sammlungen anzulegen und eigene Decks einzubetten.",
+      "h2Line1": "Ein kostenloses Konto.",
+      "h2Line2": "Spielen, ausdrucken und eigene Arbeitsblätter erstellen.",
+      "body": "Mit einem kostenlosen Konto kannst du die Arbeitsblätter am Bildschirm lösen und ausdrucken, eigene erstellen, Favoriten speichern, Sammlungen anlegen und eigene Decks einbetten.",
       "ctaPrimary": "Übung starten",
       "ctaSecondary": "Konto erstellen",
       "mascotAlt": "Freundliches Elefanten-Maskottchen winkt dich herein"

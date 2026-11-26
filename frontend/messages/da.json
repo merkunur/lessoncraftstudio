@@ -2570,9 +2570,9 @@
     },
     "signup": {
       "eyebrow": "Gratis",
-      "h2Line1": "Ingen tilmelding nødvendig.",
-      "h2Line2": "Opret en, hvis du vil gemme ting.",
-      "body": "Hver aktivitet, opgave og værktøj på dette site er gratis at bruge uden konto. En konto lader dig bare gemme favoritter, bygge samlinger og indlejre dine egne sæt.",
+      "h2Line1": "Én gratis konto.",
+      "h2Line2": "Spil, print og lav dine egne opgaveark.",
+      "body": "Med en gratis konto kan du løse opgaverne på skærmen og printe dem, lave dine egne, gemme favoritter, bygge samlinger og indlejre dine egne sæt.",
       "ctaPrimary": "Start en aktivitet",
       "ctaSecondary": "Opret konto",
       "mascotAlt": "Venlig elefantmaskot vinker dig ind"

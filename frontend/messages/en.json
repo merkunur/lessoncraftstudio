@@ -4090,9 +4090,9 @@
     },
     "signup": {
       "eyebrow": "Free",
-      "h2Line1": "No signup needed.",
-      "h2Line2": "Make one if you want to save things.",
-      "body": "Every activity, worksheet, and tool on this site is free to use without an account. An account just lets you keep favorites, build collections, and embed your own decks.",
+      "h2Line1": "One free account.",
+      "h2Line2": "Play, print and make your own worksheets.",
+      "body": "With a free account, you can play and print the worksheets, make your own, keep favorites, build collections, and embed your own decks.",
       "ctaPrimary": "Start an activity",
       "ctaSecondary": "Make an account",
       "mascotAlt": "Friendly elephant mascot waving you in"

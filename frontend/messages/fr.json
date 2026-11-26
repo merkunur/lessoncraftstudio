@@ -2593,9 +2593,9 @@
     },
     "signup": {
       "eyebrow": "Gratuit",
-      "h2Line1": "Inscription non requise.",
-      "h2Line2": "Créez-en un si vous voulez sauvegarder vos choses.",
-      "body": "Toutes les activités, fiches et tous les outils du site sont gratuits sans compte. Un compte sert simplement à garder vos favoris, construire des collections et intégrer vos propres jeux.",
+      "h2Line1": "Un compte gratuit.",
+      "h2Line2": "Jouez, imprimez et créez vos propres fiches.",
+      "body": "Avec un compte gratuit, vous pouvez faire les fiches à l'écran et les imprimer, créer les vôtres, garder vos favoris, construire des collections et intégrer vos propres jeux.",
       "ctaPrimary": "Lancer une activité",
       "ctaSecondary": "Créer un compte",
       "mascotAlt": "Mascotte éléphant qui vous accueille d'un signe"

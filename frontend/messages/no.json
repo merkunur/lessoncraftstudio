@@ -2577,9 +2577,9 @@
     },
     "signup": {
       "eyebrow": "Gratis",
-      "h2Line1": "Ingen registrering nødvendig.",
-      "h2Line2": "Lag en konto hvis du vil lagre ting.",
-      "body": "Alle aktiviteter, oppgaver og verktøy på dette nettstedet er gratis å bruke uten konto. En konto lar deg bare beholde favoritter, bygge samlinger og bygge inn dine egne oppgavesett.",
+      "h2Line1": "Én gratis konto.",
+      "h2Line2": "Spill, skriv ut og lag dine egne oppgaver.",
+      "body": "Med en gratis konto kan du løse oppgavene på skjermen og skrive dem ut, lage dine egne, beholde favoritter, bygge samlinger og bygge inn dine egne oppgavesett.",
       "ctaPrimary": "Start en aktivitet",
       "ctaSecondary": "Lag en konto",
       "mascotAlt": "Vennlig elefantmaskot som vinker deg inn"

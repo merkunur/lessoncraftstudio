@@ -2562,9 +2562,9 @@
     },
     "signup": {
       "eyebrow": "Ilmainen",
-      "h2Line1": "Rekisteröitymistä ei tarvita.",
-      "h2Line2": "Luo tili, jos haluat tallentaa asioita.",
-      "body": "Tämän sivuston jokainen tehtävä, harjoitus ja työkalu on ilmainen käyttää ilman tiliä. Tilin avulla voit vain tallentaa suosikit, rakentaa kokoelmia ja upottaa omat tehtäväsarjasi.",
+      "h2Line1": "Yksi ilmainen tili.",
+      "h2Line2": "Ratkaise, tulosta ja luo omia tehtäviä.",
+      "body": "Ilmaisella tilillä voit tehdä tehtävät näytöllä ja tulostaa ne, luoda omia tehtäviä, tallentaa suosikit, koota kokoelmia ja upottaa omat tehtäväsarjasi.",
       "ctaPrimary": "Aloita tehtävä",
       "ctaSecondary": "Luo tili",
       "mascotAlt": "Ystävällinen norsumaskotti viittoo sisään"

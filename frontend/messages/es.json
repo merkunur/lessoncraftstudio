@@ -4092,9 +4092,9 @@
     },
     "signup": {
       "eyebrow": "Gratis",
-      "h2Line1": "No hace falta registrarse.",
-      "h2Line2": "Crea una cuenta si quieres guardar cosas.",
-      "body": "Cada actividad, ficha y herramienta de este sitio es gratis y sin cuenta. Una cuenta solo sirve para guardar favoritos, crear colecciones e incrustar tus propias fichas.",
+      "h2Line1": "Una cuenta gratis.",
+      "h2Line2": "Juega, imprime y crea tus propias fichas.",
+      "body": "Con una cuenta gratis puedes resolver las fichas en pantalla e imprimirlas, crear las tuyas, guardar favoritos, crear colecciones e incrustar tus propias fichas.",
       "ctaPrimary": "Empezar una actividad",
       "ctaSecondary": "Crear cuenta",
       "mascotAlt": "Elefantito que te invita a pasar"

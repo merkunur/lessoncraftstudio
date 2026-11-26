@@ -249,11 +249,11 @@
     "metaDescription": "Crea fichas gratis para adivinar palabras con imagen en preescolar y primaria. Los niños completan las letras que faltan. Incluye hoja de respuestas para imprimir.",
     "about": [
       "El generador de adivinar la palabra muestra un dibujo y unas casillas para que los niños completen la palabra letra a letra. Según el nivel, puedes dejar todas las casillas vacías o dar algunas letras como pista, lo que lo hace ideal desde preescolar hasta primaria.",
-      "Eliges las palabras o un tema entre más de 3000 imágenes y la herramienta crea la ficha asociando cada dibujo con su palabra. Es perfecto para practicar el deletreo, los sonidos iniciales y el vocabulario de forma muy visual.",
-      "Funciona gratis en el navegador, sin instalación. Cada ficha se genera con su hoja de respuestas, así que la corrección es inmediata y los niños pueden incluso autocorregirse."
+      "Eliges un tema de una biblioteca de más de 3000 imágenes, puedes cambiar cualquier dibujo por otro del mismo tema y la herramienta crea la ficha asociando cada dibujo con su palabra. Es perfecto para practicar el deletreo, los sonidos iniciales y el vocabulario de forma muy visual.",
+      "Funciona en el navegador, sin instalación. Cada ficha se genera con su hoja de respuestas, así que la corrección es inmediata y los niños pueden incluso autocorregirse."
     ],
     "howToUse": [
-      "Introduce las palabras que quieres trabajar o elige un tema con imágenes.",
+      "Elige un tema con imágenes y cambia las que quieras por otras del mismo tema.",
       "Decide cuántas letras dar como pista según el nivel del grupo.",
       "Genera la ficha y revisa la vista previa junto a la hoja de respuestas.",
       "Imprime y reparte: los niños miran el dibujo y completan las letras que faltan."
@@ -302,21 +302,21 @@
     "name": "Generador de sopas de letras",
     "tagline": "Crea sopas de letras con dibujos para buscar y rodear palabras escondidas.",
     "metaTitle": "Generador de sopa de letras para niños | LessonCraftStudio",
-    "metaDescription": "Crea sopas de letras gratis para preescolar y primaria. Añade tus palabras y temas con imágenes y genera la ficha y la hoja de respuestas para imprimir.",
+    "metaDescription": "Crea sopas de letras gratis para preescolar y primaria. Elige un tema con imágenes y el tamaño de la cuadrícula, y genera la ficha y la hoja de respuestas para imprimir.",
     "about": [
-      "El generador de sopas de letras coloca las palabras que tú elijas dentro de una cuadrícula de letras para que los niños las busquen y las rodeen. Es un clásico que nunca falla para practicar la lectura, el barrido visual y la concentración de los más pequeños.",
-      "Puedes acompañar cada palabra con una de las más de 3000 imágenes ilustradas, de modo que incluso quienes aún no leen del todo puedan asociar el dibujo con la palabra que buscan. Ajustas el tamaño de la cuadrícula según la edad y la dificultad que necesites.",
-      "Todo se hace en el navegador, gratis y sin instalación. Cada sopa de letras viene con su hoja de respuestas, con las palabras ya señaladas, para que la corrección sea rápida y sencilla."
+      "El generador de sopas de letras coloca las palabras del tema que elijas dentro de una cuadrícula de letras para que los niños las busquen y las rodeen. Es un clásico que nunca falla para practicar la lectura, el barrido visual y la concentración de los más pequeños.",
+      "Puedes mostrar junto a la cuadrícula la imagen de cada palabra, de modo que incluso quienes aún no leen del todo puedan asociar el dibujo con la palabra que buscan. Ajustas el tamaño de la cuadrícula según la edad y la dificultad que necesites.",
+      "Todo se hace en el navegador, sin instalación. Cada sopa de letras viene con su hoja de respuestas, con las palabras ya señaladas, para que la corrección sea rápida y sencilla."
     ],
     "howToUse": [
-      "Introduce la lista de palabras que quieres esconder, o escoge un tema con imágenes.",
+      "Escoge un tema con imágenes y cambia las que quieras por otras del mismo tema.",
       "Elige el tamaño de la cuadrícula según la edad del grupo (más pequeña para los más peques).",
       "Genera la ficha, revisa la vista previa y comprueba la hoja de respuestas.",
       "Imprime y reparte: los niños buscan y rodean cada palabra escondida."
     ],
     "classroomIdeas": [
-      "Repasa el vocabulario de un cuento o de una unidad escondiendo sus palabras clave.",
-      "Crea una sopa de letras con los nombres de los niños de la clase para el primer día.",
+      "Repasa el vocabulario de una unidad con una sopa de letras del tema que estás viendo.",
+      "Crea una sopa de letras de un tema conocido, como los animales, para el primer día de clases.",
       "Prepara una ficha por temas (frutas, animales, colores) y úsala en el rincón tranquilo.",
       "Combínala con un dictado: primero buscan la palabra y luego la copian debajo."
     ],
@@ -337,19 +337,19 @@
     "metaDescription": "Crea criptogramas gratis para preescolar y primaria. Los niños descifran palabras con pistas de imágenes. Genera la ficha y la hoja de respuestas en segundos.",
     "about": [
       "El generador de criptogramas convierte palabras sencillas en pequeños enigmas que los niños resuelven cambiando símbolos o imágenes por letras. Es una forma divertida de practicar el reconocimiento de letras, el deletreo y la atención, perfecta para los primeros lectores de 3 a 7 años.",
-      "Eliges el vocabulario o un tema, y la herramienta crea automáticamente la clave de descifrado usando más de 3000 imágenes ilustradas. Cada ficha sale lista para imprimir, con un diseño claro y letras grandes pensadas para manos pequeñas y ojos que aún están aprendiendo a leer.",
-      "Es completamente gratis, funciona directamente en el navegador y no requiere instalación. Junto a cada criptograma se genera su hoja de respuestas, así que puedes corregir de un vistazo o dejar que los peques se autocorrijan."
+      "Eliges un tema y un mensaje de un banco de frases cortas revisadas para cada nivel, y la herramienta crea automáticamente la clave de descifrado usando más de 3000 imágenes ilustradas. Cada ficha sale lista para imprimir, con un diseño claro y letras grandes pensadas para manos pequeñas y ojos que aún están aprendiendo a leer.",
+      "Funciona directamente en el navegador y no requiere instalación. Junto a cada criptograma se genera su hoja de respuestas, así que puedes corregir de un vistazo o dejar que los niños se autocorrijan."
     ],
     "howToUse": [
-      "Escribe las palabras que quieres trabajar o elige un tema con imágenes para generar la clave de pistas.",
+      "Elige un tema con imágenes para la clave y un mensaje del banco de frases, o deja que la herramienta lo elija.",
       "Pulsa generar y revisa la vista previa del criptograma y de su hoja de respuestas.",
       "Imprime la ficha (una para cada niño o una por pareja para trabajar en equipo).",
       "Reparte las fichas y deja que los niños descifren cada palabra letra a letra."
     ],
     "classroomIdeas": [
-      "Crea un criptograma con el vocabulario de la semana para repasar antes de un nuevo tema.",
-      "Esconde un mensaje secreto sencillo ('hola clase') como actividad de buenos días.",
-      "Úsalo como rincón de lectura: los niños descifran su nombre o el de un compañero.",
+      "Usa como clave las imágenes del tema de la semana para que los símbolos les resulten conocidos.",
+      "Descifra con el grupo un mensaje secreto sencillo como actividad de buenos días.",
+      "Úsalo en el rincón de lectoescritura: los niños inventan un símbolo para cada letra y escriben su nombre en clave.",
       "Prepara una ficha por estaciones del año o por animales y enlázala con tu proyecto del trimestre."
     ],
     "samplesIntro": "Crea acertijos para descifrar mensajes donde los símbolos representan letras."
@@ -762,7 +762,7 @@
     "about": [
       "El generador de sudokus crea cuadrículas pensadas para los más pequeños, usando imágenes en lugar de números para que incluso quienes aún no leen puedan jugar. Es una introducción ideal a la lógica, los patrones y el razonamiento sin contar nada.",
       "Eliges un tema con dibujos de entre más de 3000 imágenes y la herramienta arma cuadrículas sencillas (por ejemplo de 4x4) en las que cada fila, columna y bloque no puede repetir el mismo dibujo. La dificultad se adapta a la edad del grupo.",
-      "Funciona gratis en el navegador, sin instalación. Cada sudoku se genera junto a su hoja de respuestas, así que puedes comprobar la solución al instante o dejar que los niños se corrijan entre ellos."
+      "Funciona en el navegador, sin instalación. Cada sudoku se genera junto a su hoja de respuestas, así que puedes comprobar la solución al instante o dejar que los niños se corrijan entre ellos."
     ],
     "howToUse": [
       "Elige un tema con imágenes (animales, frutas, formas) para rellenar la cuadrícula.",
@@ -848,7 +848,7 @@
     "about": [
       "El generador de busca y encuentra crea escenas repletas de dibujos en las que los niños tienen que localizar y contar objetos concretos. Es una actividad estupenda para trabajar la atención visual, la observación y el conteo de los más pequeños.",
       "Eliges qué objetos esconder y el tema de la escena entre más de 3000 imágenes ilustradas, y la herramienta los reparte por toda la ficha entre otros muchos elementos. Puedes ajustar cuántos objetos buscar y cuántos hay de cada uno.",
-      "Todo es gratis y se genera en el navegador, sin instalación. Cada escena viene con su hoja de respuestas que indica dónde está cada objeto, para que comprobar el resultado sea muy fácil."
+      "Todo se genera en el navegador, sin instalación. Cada escena viene con su hoja de respuestas que indica dónde está cada objeto, para que comprobar el resultado sea muy fácil."
     ],
     "howToUse": [
       "Elige el tema de la escena y los objetos que los niños deberán buscar.",
@@ -875,11 +875,11 @@
     "metaDescription": "Crea crucigramas gratis con imágenes como pistas para preescolar y primaria. Los niños escriben la palabra de cada dibujo. Incluye hoja de respuestas para imprimir.",
     "about": [
       "El generador de crucigramas usa dibujos como pistas en lugar de definiciones escritas, así que los niños solo tienen que mirar la imagen y escribir la palabra correspondiente. Es perfecto para afianzar el deletreo y ampliar vocabulario en los primeros lectores.",
-      "Eliges las palabras o un tema y la herramienta las encaja automáticamente en una cuadrícula entrelazada, asignando a cada una su imagen de entre más de 3000 ilustraciones. Las casillas son amplias y las pistas claras, pensadas para manos pequeñas.",
-      "Es gratis, se usa en el navegador y no necesita instalación. Junto al crucigrama se genera su hoja de respuestas completa, lo que facilita muchísimo la corrección y el repaso en clase."
+      "Eliges un tema, puedes cambiar cualquier imagen por otra del mismo tema y la herramienta encaja sus palabras automáticamente en una cuadrícula entrelazada, cada una con su imagen. Las casillas son amplias y las pistas claras, pensadas para manos pequeñas.",
+      "Se usa en el navegador y no necesita instalación. Junto al crucigrama se genera su hoja de respuestas completa, lo que facilita muchísimo la corrección y el repaso en clase."
     ],
     "howToUse": [
-      "Escribe las palabras que quieres trabajar o selecciona un tema con imágenes.",
+      "Selecciona un tema con imágenes y cambia las que quieras por otras del mismo tema.",
       "Genera el crucigrama y comprueba que las palabras se cruzan correctamente.",
       "Revisa la vista previa de la ficha y de su hoja de respuestas.",
       "Imprime y reparte: los niños miran cada dibujo y escriben la palabra en las casillas."

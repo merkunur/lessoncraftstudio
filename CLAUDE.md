@@ -154,7 +154,14 @@ MV launch: full public-site rebuild, all 29 apps producing catalog-ready output,
 - **PC workstation** (Windows). Runs 29 apps + Claude Code; produces decks.
 - **[RETIRED 2026-09-05 — never built; no local AI anywhere] Mac Studio M3 Ultra** (headless, on Tailscale). Local AI service via Ollama (model TBD; 70B-class quantized). Reads catalog DB; writes enrichment.json.
 - **Hetzner dedicated server**. Hosts Next.js + Postgres + Lemon Squeezy + catalog API + publish pipeline.
-- **Cloudflare CDN** (free tier; active 2026-04-30). Orange-cloud proxy on apex + www; SSL Full (strict); AI crawler bot policy = "Do not block." Nameservers `selah.ns.cloudflare.com` + `sevki.ns.cloudflare.com`.
+- **Cloudflare CDN** (**Pro** plan since 2026-10-28; active 2026-04-30). Orange-cloud proxy on apex + www; SSL Full (strict). Nameservers `selah.ns.cloudflare.com` + `sevki.ns.cloudflare.com`.
+  - **Bot policy (operator ruling 2026-11-26, replaces "AI crawlers: do not block"):**
+    - **Blocked:** SEO-tool crawlers (Ahrefs, Semrush, Moz and similar) and AI-training crawlers (GPTBot, ClaudeBot, Meta, Bytespider, CCBot and similar), plus fake search-engine User-Agents.
+    - **Allowed:** search engines (Google, Bing, Apple, DuckDuckGo, Yandex) and AI search/assistant fetchers.
+    - Page requests without browser fetch headers get a Managed Challenge.
+  - **Where the rules live:** in git, at `scripts/ops/cloudflare-rules.js` (`--plan`/`--apply`/`--check`/`--restore`; token in `~/.lcs-secrets/cloudflare-api-token.txt`). Change them there, never by hand in the dashboard.
+  - **The origin answers 80/443 only from Cloudflare** (`server-scripts/cf-origin-firewall.sh`, weekly `--check` in housekeeping). Grey-clouding the DNS would take the site offline.
+  - Record: memory `project_cloudflare_pro_setup.md`.
 
 [RETIRED 2026-09-05] Tailscale connects all three privately. Mac Studio is **never** exposed to public internet; **never** synchronous in a teacher request. AI work is asynchronous batch (§15).
 

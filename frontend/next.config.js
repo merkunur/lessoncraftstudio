@@ -38,11 +38,19 @@ const nextConfig = {
   trailingSlash: false,
 
   images: {
-    domains: ['localhost', 'lessoncraftstudio.com', 'www.lessoncraftstudio.com'],
+    // 2026-11-26 security: in production the optimizer may fetch ONLY from our own site
+    // (measured: every /_next/image source is www.lessoncraftstudio.com or a relative path).
+    // 'localhost' let it be pointed at any local service on the server; dev keeps it.
+    domains: process.env.NODE_ENV === 'production'
+      ? ['lessoncraftstudio.com', 'www.lessoncraftstudio.com']
+      : ['localhost', 'lessoncraftstudio.com', 'www.lessoncraftstudio.com'],
     unoptimized: false,
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
-    formats: ['image/webp', 'image/avif'],
+    // 2026-11-26 security: AVIF removed — the official workaround for GHSA-2xp9-vwfh-vxw4
+    // (critical RCE in the image optimizer when AVIF is processed; Next 14 gets no fix).
+    // The root (libheif inside sharp) is also fixed by sharp >= 0.35.5. WebP only.
+    formats: ['image/webp'],
     // 2026-07-06 broken-thumbnails fix: deck thumbnails are immutable per
     // slug-version, but the default 60s TTL forced constant sharp re-encodes
     // and made every repeat view re-hit /_next/image at the origin (which the

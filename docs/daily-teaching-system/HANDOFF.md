@@ -1,8 +1,13 @@
-# Daily Teaching System: handoff of 2026-11-18 (night)
+# Daily Teaching System: handoff, last updated 2026-11-26 after deploy 72 (first written 2026-11-18)
 
 Written at the operator's request so a new session can continue exactly here. Read this file first, then the last
 entry of `docs/daily-teaching-system/PLAN.md` and the last lines of the memory file
-`project_daily_teaching_system_plan.md`.
+`project_daily_teaching_system_plan.md`. Sections 3 and 4 are the closed history of 2026-11-18; section 5 says what is
+next.
+
+**Where to start (2026-11-26):** Stage E (German and Swedish mathematics to the whole year) is COMPLETE and live
+(deploy 72). The next stage is **Stage F: German and Swedish LITERACY to the whole year**. It has no plan yet: start
+in plan mode, measure, write the plan, get it approved, then build (section 5, item 4).
 
 ## 1. What the programme is and where its truth lives
 
@@ -10,16 +15,26 @@ entry of `docs/daily-teaching-system/PLAN.md` and the last lines of the memory f
   system' product transformation. Find out everything about it and complete the product transformation."
 - **Master plan:** `docs/daily-teaching-system/PLAN.md` (Parts 0 to 12; rulings in §11; the progress log is its end).
 - **Approved working plan (stages):** `C:\Users\rkgen\.claude\plans\logical-strolling-papert.md`. Stage A (finish the
-  f1115 fix round) is closed. Stage B onward is the rest of the programme (section 5 below).
+  f1115 fix round) is closed. Stage B onward is the rest of the programme (section 5 below). The plan of Stage E
+  (German and Swedish mathematics, done) is `C:\Users\rkgen\.claude\plans\lexical-singing-kahan.md`; its last
+  paragraph names what follows E.
 - **Working record:** memory file `project_daily_teaching_system_plan.md` (read its LAST LINES first) and `MEMORY.md`.
 - **Rules:** `CLAUDE.md` (rule 1: never waste the operator's usage; rule 2: a native-speaker check and a pedagogical
   check in every content task; pedagogical mistakes are fixed at once and live pages are republished in place).
 
-## 2. Where the programme stands (2026-11-19)
+## 2. Where the programme stands (2026-11-26, after deploy 72)
 
-- LIVE: Parts 0 to 7, 11, 12.2 (batches A to Y), 8.1 readers. English units 54 with 330 lessons; German and Swedish
-  units for mathematics; unit checks en 73 (every English unit, Stage B-2, deploy 38, 2026-11-19) / de 27 / sv 35;
-  sub plans en and de. Writing checks end with an on-demand writing part scored with a guide
+- **Measured 2026-11-26:**
+  - German mathematics: 32 units, 200 lessons, every lesson of its year design placed.
+  - Swedish mathematics: 42 units, 255 lessons, every lesson placed.
+  - Unit checks: de 27, sv 37 (35 live, 2 pilots).
+  - The mathematics work list shows nothing left to build (A 54, A2 150, C 0, D 0).
+  - 640 teaching points; every one of the 1,697 worksheet types sits under a point.
+  - English is complete through item 3: mathematics, literacy, science, social studies, health, preschool themes,
+    thinking skills.
+- (2026-11-19 state, kept for reference) LIVE: Parts 0 to 7, 11, 12.2 (batches A to Y), 8.1 readers. English units 54
+  with 330 lessons; German and Swedish units for mathematics; unit checks en 73 (every English unit, Stage B-2, deploy
+  38, 2026-11-19) / de 27 / sv 35; sub plans en and de. Writing checks end with an on-demand writing part scored with a guide
   (`scripts/assessments/rubrics/en.json`); reading checks print the read-aloud texts on the key and the teacher pages.
 - Part 9 (class results) is BUILT and switched OFF. Only the owner switches it on (`CLASS_RESULTS_ENABLED=1`).
 - 12.3 English literacy: **every buildable row of the year design is placed** (batch PP, 2026-11-17). English has 73
@@ -80,13 +95,64 @@ captured 2026-11-18T22:34:15Z** (three sampled titles gained their tail, nothing
    deploy 45), 24 checks of the year and 9 placement checks (C-2/C-3, deploys 46-47). Coverage: 3 gaps left, the three
    literacy plans under 28 weeks. **NEXT:** item 3 below.
 3. **Science, social studies, health, preschool and theme units in English.** DONE 2026-11-25 (Stage D, plan `lexical-singing-kahan.md`): D-0 standards and D-1 year designs DONE 2026-11-23 (deploy 48); D-2 Level Sets (5,669 noindex pages, ysa/ysb) and D-1b matching DONE 2026-11-23 (deploy 49; work lists `docs/daily-teaching-system/year/TYPE-WORK-LIST.{science,social,health}.md`). ORDER RULED 2026-11-23: a unit is placed only when its lessons have pages (P3 two assets; an indexed unit description may not change later), so the new types come first, grade by grade: D-5 batch K DONE 2026-11-23 (deploy 51). D-3 for Kindergarten DONE 2026-11-23 (deploy 52): 7 science + 2 health units, 42 teacher notes with hands-on routines (a routine now counts as an asset beside a page), batch K2, live fixes (recycling US curbside, K-354 head line, K-374 crossing). Batch 1 + D-3 for Grade 1 DONE 2026-11-24 (deploy 53): 27 Grade 1 types G1-626..G1-652 (Level Set ydm, 167 noindex), 6 science + 2 health units, 39 notes; a content-area investigation may claim the third session its design gives it (`"days": 3` → investigateDays); the plain clear jar retired from the recycling pages (183 live copies republished). Batch 2 + D-3 for Grade 2 DONE 2026-11-24 (deploy 55): 30 Grade 2 types G2-584..G2-613 (Level Set ydn, 156 noindex), 6 science (plan-2-science 28 weeks) + 2 health units, 39 notes; celery replaced by asparagus as the stem we eat on G2-363 (18 live copies in 9 languages; de/da unchanged); the G2-363 landings still name celery (landing text needs the owner). Batch 3 + D-3 for Grade 3 DONE 2026-11-24 (deploy 56, commit aa7900c5b + fix 3a193c54e): 31 Grade 3 types G3-581..G3-611 (Level Set ydo, 125 noindex; G3-609/610 print only in the feelings family), 5 science (plan-3-science, 25 of 26 weeks) + 2 health units, 35 notes; every K-3 science and health line is built; G3-581 left the 11-18 skip list (`C:\Users\rkgen\lcs-skip-types.txt`, an id never committed). Batch SK + D-3 for Kindergarten social studies DONE 2026-11-24 (deploy 57, commit c16df101d): 15 types K-712..K-726 (Level Set ydp, 136 noindex, with K-563), 5 units + plan-k-social (28 weeks: social studies plans share the half week between units, assemble.js + gate P7), 20 notes, 10 guest-teacher scripts on the Kindergarten week days; K-213's mechanic retired (121 live copies checked, 77 + 44 republished in place). Batch S1 + D-3 for Grade 1 social studies DONE 2026-11-25 (deploys 58-59, commits f65feb81b + 9cde8fc0e): 18 types G1-653..G1-670 (Level Set ydq, 164 noindex, with G1-530; G1-670 is a Grade 1 market page with real coins built to the line, replacing G2-472, which is Grade 2), 5 units + plan-1-social (28 weeks; "Read the map key" takes three sessions), 20 notes, 12 guest-teacher scripts on the Grade 1 week days; gate P5 now reads lesson routines (the page prints them). Batch S2 + D-3 for Grade 2 social studies DONE 2026-11-25 (deploy 60, commit 5ee250ccb): 17 types G2-614..G2-630 (Level Set ydr, 127 noindex; seven print only in the family, money and reading-comprehension families), 5 units + plan-2-social (28 weeks; the teacher-led class market takes three sessions), 20 notes, 13 guest-teacher scripts in the Grade 2 social block; the Money Mat on both market lessons; two LIVE guest scripts fixed (2:cardinal-directions said north is the tip that points up; 2:continents named a word box Level 3 lacks; they ship in Grade 2 and Grade 3 weeks). Batch S3 + D-3 for Grade 3 social studies DONE 2026-11-25 (deploy 61, commit edf41c363): 18 types G3-612..G3-629 (Level Set yds, 128 noindex; nine print only in playable families), 4 units + plan-3-social (26 weeks; the grid map takes three sessions), 19 notes, 14 guest-teacher scripts in the Grade 3 social block; every K-3 social studies line is built (D to build 0). The same day (commit 4cb8f6d8a): people stood IN FRONT of their counter, lectern, desk or bench in seven types (G3-627, G3-619, G2-616, G2-617, G2-624, G2-629, G1-655; the owner's reading of the bakery page), fixed at the source with a measured gate check, 30 live copies republished in place, six unit guides rebuilt; and the sitemaps are served from an nginx cache (commit 09f3df1b2; Search Console could not read /sitemap/4.xml after a 504 during a deploy). D-4 preschool theme units DONE 2026-11-25 (deploys 62-63, commits 9978036fc + a61796da4): 30 theme units over 33 weeks (grade P, subject theme; four daily blocks each, exact themed pages, a week-at-a-glance grid and an observation checklist in the guide, no unit check), "Preschool Themes by Month", designed by one US pre-K designer and read by one US pre-K coach (130 findings); the curriculum pages leave the theme blocks out. The same day (commit a899347eb): wrong library pictures found by those two (a housefly called firefly, an alarm clock called timer, a red beet called turnip, a moon called sky) left the cache or got their right word, 450 live Level Set pages in 11 languages republished in place. D-3 for the thinking-skills units DONE 2026-11-25 (deploys 64-65, commits d959b34f1 + c51f82733): four units K-3 (Look Closely and Think, Detective Thinking, Clues and Reasons, Logic Lab; 20 lessons, no year plan, no unit check, not in coverage), 20 notes from the pages, one US K-3 reviewer (10 must-fix, 23 should-fix, all applied); the same day K-069 lost its answer-position tell (35ad1f01b, 7 live pages republished) and a count of one reads in the singular on every unit page (en, de, sv). ITEM 3 IS COMPLETE. NEXT: item 4, German and Swedish to the whole year; open: unit checks for the science, health and social studies units (the card engine cannot read these pages; 62 gaps frozen once), the Texas reading of the new points, the library nurse picture (red-cross cap, the owner's word), the maker release (the sorting maker still holds K-213's retired pairs, and the makers still draw the wrong pictures until they are rebuilt), one fi K-307 page that keeps the housefly (its rebuilt page trips the frame lint), the 97 app pages with the wrong pictures (app decks are not regenerated).
-4. **German and Swedish to the whole year.** IN PROGRESS (Stage E, plan `lexical-singing-kahan.md`, approved 2026-11-25): German and Swedish mathematics first. 46 open designed lessons (de 27, sv 19): 8 on existing pages, 8 waiting for a generator change (C: G1-438, G1-447, G2-291 de; G1-481, G2-261, G2-293, G3-344, K-546 sv), 30 for a new type (D: de 20, sv 10); 24 go into live units (their descriptions get the new count: operator ruling 2026-11-25), 22 into 7 new units. E-0 DONE 2026-11-25 (deploy 66): three of the five waiting English design rows placed (vowels and consonants, a decodable book, the mystery animal), the other two wait for a page; the same day the live animal fact files were fixed (11 mystery pages and 4 Norwegian hedgehog pages republished). NEXT: E-1, the 8 generator changes (each a new mode or level that only the de/sv pages take; every published page byte-identical, proved on seeds), then E-2 (DE-A, DE-B, SV batches), then E-3 (units).
+4. **German and Swedish to the whole year.** **STAGE E (mathematics) COMPLETE 2026-11-26, deploys 66-72:**
+   - E-0: the five waiting English rows.
+   - E-1: 8 generator changes as new types.
+   - E-2: 30 new types (DE-A, DE-B, SV), 384 noindex pages.
+   - E-3: 46 lessons placed, 3 new units, 14 new points; PLAN.md entries of 2026-11-25/26.
+
+   **NEXT = STAGE F: German and Swedish LITERACY to the whole year.** Plan it in plan mode before building (no plan
+   exists yet). Measure first:
+   - what German and Swedish literacy units are live. Measured 2026-11-26 (`frontend/content/units/defs/{de,sv}.json`,
+     subject literacy):
+     - de: 8 units, 41 lessons, Klasse 1-3, plans plan-1-literacy and plan-2-literacy;
+     - sv: 10 units, 59 lessons, F-åk 3, plans plan-k-literacy and plan-2-literacy.
+   - **No literacy year design exists for de or sv yet.** Only `design.{de,sv}.math.json` exist; English has
+     `design.en.literacy.json`.
+   Then follow the English pattern of Stage D-1/12.3:
+   1. one native year designer per language (as for mathematics: a design file of units and lessons per grade, each
+      new lesson with objective, standard, days, tool, the page it needs);
+   2. matching against the existing types (`type-work-list.js --subject=literacy`, the match and rulings files);
+   3. new types in batches, built by an Opus builder and reviewed by a native teacher, published noindex as Level Sets;
+   4. units with notes (writer, then one native reviewer with the page pictures);
+   5. unit checks and sub days.
+   After F: Part 11.8 (the product pages) for de/sv.
+   The Stage E record follows, kept for reference: German and Swedish mathematics first. 46 open designed lessons (de 27, sv 19): 8 on existing pages, 8 waiting for a generator change (C: G1-438, G1-447, G2-291 de; G1-481, G2-261, G2-293, G3-344, K-546 sv), 30 for a new type (D: de 20, sv 10); 24 go into live units (their descriptions get the new count: operator ruling 2026-11-25), 22 into 7 new units. E-0 DONE 2026-11-25 (deploy 66): three of the five waiting English design rows placed (vowels and consonants, a decodable book, the mystery animal), the other two wait for a page; the same day the live animal fact files were fixed (11 mystery pages and 4 Norwegian hedgehog pages republished). NEXT: E-1, the 8 generator changes (each a new mode or level that only the de/sv pages take; every published page byte-identical, proved on seeds), then E-2 (DE-A, DE-B, SV batches), then E-3 (units).
 5. **The eight other languages, one at a time: fr, no, nl, fi, da, it, es-MX, pt-BR** (each indexable when built).
 6. **Readers to 150 and 300** in English, then every language.
 7. **Part 9:** built, switch OFF; only the owner switches it on.
 8. **Part 10:** the remaining activities, last.
 
 Each stage ends deployed, verified live and recorded (PLAN.md entry, memory checkpoint).
+
+**Open items** (recorded, none blocking Stage F):
+- **Maker release:**
+  - the fact-file data, K-069 positions, the CBN names, K-213's retired pairs and the wrong library pictures still
+    sit in the makers until they are rebuilt;
+  - one fi K-307 page keeps the housefly.
+- **Missing checks and crosswalk rows:**
+  - unit checks for science, social studies, health and thinking (the card engine cannot read those pages);
+  - the Texas reading of the new points;
+  - RF.K.4 and RI.2.1 as crosswalk rows.
+- **Pictures, wording and fixed pages:**
+  - the library nurse picture (the owner's word);
+  - 97 app pages with wrong pictures (app decks are never regenerated);
+  - the G2-363 landings still name celery;
+  - two Norwegian app pages keep "piggsvin" (baked into the picture or used as a key).
+- **Stage E tool limits** that the notes work around:
+  - Rechenstrich starts only at tens or hundreds;
+  - Stellenwert-Labor cannot show 24 tens;
+  - Brötchenblech holds at most 12 in a row;
+  - Die drei Pfosten goes only to 100;
+  - Geldmatte: change only in coins, Italian and Portuguese cent marks queued, "50c" coin labels;
+  - Mätbänken weighs in cubes, not kilograms.
+- **Stage E pages and checks:**
+  - G1-477 level 3 shows fem i halv on only some copies (the lesson uses `prefer`);
+  - the `teacherNote` field of G3-638/G3-644 is shown nowhere;
+  - the sv-f-ma-former unit check cannot be rebuilt (see section 6).
+- **Unit descriptions:** five live units' descriptions (de1-zahlen-bis-20, g1-time-calendar-coins,
+  de3-mal-geteilt-gleichungen, g3-shapes-and-data, sv-2-ma-langd-tid) do not name their added lessons. Changing more
+  than the count needs the owner.
 
 ## 6. Rules and traps the next session needs at once
 
@@ -195,6 +261,49 @@ Each stage ends deployed, verified live and recorded (PLAN.md entry, memory chec
 - A real-browser check of a maker without a login: `C:\Users\rkgen\lcs-handoff-1118\live-position-words.js`
   (puppeteer on the origin, the access answer given locally).
 - The permission check blocks removals of live content that the operator did not ask for in his own words: ask first.
+- **Stage E lessons (2026-11-26).** Each was paid for once.
+  - **Building and staging page types:**
+    - New page types of a stage are built by ONE Opus builder per batch with a family gate (render-measured checks,
+      poisons both ways, byte identity of existing pages); then ONE native teacher reviews TEXT-DUMP.md and the contact
+      sheets; then a short re-check.
+    - Two builders may share `i18n/strings.*.json` and `level-instructions.json`. Commit only your own ids with
+      `C:\Users\rkgen\lcs-stage-d\stage-ids.js <ids> <files>`; it uses git plumbing and never touches the working file.
+  - **Level Set recipe:**
+    1. Write `tools/level-set/<config>.config.js` and a `check-zips-<prefix>.js`.
+    2. `build-waves.js`, then `cli.js generate --wave`, then check-zips.
+    3. scp to `_staging/<prefix>`, then `publish-wave.js --noindex` (dry, then `--confirm`).
+    4. `units/year/after-publish.sh <prefix> <codes>`.
+    5. `node C:\Users\rkgen\lcs-stage-d\print-only.js <codes> "<note>"`, then `build-assets.js`.
+    Notes on the recipe:
+    - `levelSetWords` must name the TASKS of a copy, or every level keeps one copy.
+    - A page title has 70 characters; a long lesson name goes into `printTitle`.
+    - A type maps to a point in `type-additions.json`; a new point comes with its lessons (add-points script).
+  - **Placing lessons:**
+    - A lesson hands out only pages of its OWN point.
+    - Every lesson needs two real assets: a page plus a tool that models the point, or a hands-on routine of at least
+      120 characters.
+    - A design unit becomes a new unit only with at least 4 lessons and without taking lessons out of live units.
+    - `prefer` hands out chosen copies (read the live PDFs to pick them).
+    - Order of steps after placing or moving a lesson: `notes/apply.js`, `assemble.js`, `apply-pacing-to-defs.js`,
+      `assemble.js` again, then `--check`.
+    - A unit check names lessons by number. Rebuild the checks of changed units (`build-checks.js --unit=`) and
+      compare with the committed set: a unit must never lose its check.
+    - Where a check cannot be rebuilt (sv-f-ma-former: its lesson 1 pool changed with the 2026-11-25 picture fixes),
+      APPEND the new lesson and carry the committed check over. Its out/ entry is rebuilt from the site entry; the
+      mapping is in `scripts/assessments/assemble.js`.
+    - The assessment gate T3 catches a check built before a lesson title changed: rebuild that check.
+    - A guide cover lists every lesson, so 12 long German titles overflow it (34 px); 10 fit.
+  - **Applying reviews:**
+    - A reviewer's replacement may be a PHRASE, not the whole field. `C:\Users\rkgen\lcs-stage-d\e3\apply-review.js`
+      replaces whole fields, so first compare each replacement's length with its field. Splice phrase rows by hand
+      (`e3/de-phrase-fixes.js` shows the pattern).
+    - Every must is reproduced on the page picture before it is applied.
+  - **Tools:**
+    - A tool fix ships by copying `mini tools/<tool>.{js,html}` to `/var/www/lcs-media/mini-tools/` (and chown
+      lcs-media) BEFORE deploy.sh, with the `?v=` of the html bumped.
+    - Run the tool's own gates: `verify-`, `smoke-…-locales`, `mutate-`, `audit-…-locale-layout`.
+  - **Agent briefs:** write each brief from the artefacts (`lessons.json` from `place-ready-stage-e3.math.js --list`),
+    never from memory.
 
 ## 7. Not without the owner
 
@@ -202,7 +311,18 @@ Switch Part 9 on; touch auth routes or
 `lib/email.ts`; regenerate app decks; change titles or descriptions of indexed pages; any destructive
 server action outside a republish cleanup.
 
-## 8. Working files of the ended session
+## 8. Working files of the ended sessions
+
+**2026-11-26 (Stage E):** `C:\Users\rkgen\lcs-stage-d\`:
+- one folder per batch: `batch-e1`, `batch-de-a`, `batch-de-b`, `batch-sv`. Each holds LINES.md, BUILD-BRIEF.md,
+  REVIEW-BRIEF.md, BATCH-*-RESULT.md, TEXT-DUMP.md and REVIEW-*.tsv (renders deleted);
+- `e3\`: briefs, lessons.json, reviews, crosswalk drafts, apply-review.js, logs;
+- `stage-ids.js`, `print-only.js` and `run-deploy-gates.js`: runs every hard gate of deploy.sh on the PC; the 2
+  server-only failures are check-looks-served and gate-hubs.
+
+Keep `C:\Users\rkgen\lcs-skip-types.txt` (used as `WSG_SKIP_TYPES`).
+
+**2026-11-18:**
 
 `C:\Users\rkgen\lcs-handoff-1118\` holds the release scripts, gate logs, the republish tools (`unresolved*.js`,
 `repoint-types.json`), the identity journals and lists (`server\`), and `skip-types.txt`. Nothing in the repository

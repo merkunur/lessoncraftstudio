@@ -808,8 +808,24 @@ function tpl(locale: string): LocaleTemplate {
   return LOCALE_TEMPLATES[locale] ?? LOCALE_TEMPLATES.en;
 }
 
+/**
+ * Final-form title / description for ONE (locale, subject, level) page; every other page keeps the template.
+ * Added 2026-11-26 for the click-rate test (docs/SEO/ctr-test-2026-11/: 25 changed pages against 25 controls).
+ */
+const PAGE_SEO_OVERRIDES: Record<string, { title?: string; description?: string }> = {
+  'fr|science|grade-1': {
+    title: 'Fiches de sciences CE1 en PDF – à imprimer gratuitement',
+    description: 'Fiches de sciences CE1 en PDF avec corrigés : vivant ou non-vivant, flotte ou coule, cycles de vie et habitats. À imprimer gratuitement ou à faire en ligne.',
+  },
+};
+function pageSeoOverride(locale: string, subjectKey: string, levelKey: string) {
+  return PAGE_SEO_OVERRIDES[`${locale}|${subjectKey}|${levelKey}`];
+}
+
 /** SEO <title> (brand suffix appended by the root layout template). */
 export function subjectHubTitle(locale: string, subjectKey: string, levelKey: string): string {
+  const own = pageSeoOverride(locale, subjectKey, levelKey)?.title;
+  if (own) return own;
   const { worksheets } = subjectCopy(locale, subjectKey, levelKey);
   return tpl(locale).title(worksheets, gradeLabel(locale, levelKey));
 }
@@ -822,6 +838,8 @@ export function subjectHubH1(locale: string, subjectKey: string, levelKey: strin
 
 /** Unique meta description (varies by subject angle + grade + count → non-duplicate). */
 export function subjectHubDescription(locale: string, subjectKey: string, levelKey: string, count: number): string {
+  const own = pageSeoOverride(locale, subjectKey, levelKey)?.description;
+  if (own) return own;
   const { worksheets, angle } = subjectCopy(locale, subjectKey, levelKey);
   return tpl(locale).desc(count, worksheets, worksheets.toLowerCase(), gradePhrase(locale, levelKey), angle);
 }

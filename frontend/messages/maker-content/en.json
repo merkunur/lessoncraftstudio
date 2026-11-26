@@ -352,7 +352,40 @@
       "Make a short coded message — like a class reward or a riddle — for children to reveal.",
       "Pair a cryptogram with a topic so children decode the words they are about to learn."
     ],
-    "samplesIntro": "Make decode-the-message puzzles where symbols stand in for letters."
+    "samplesIntro": "Make decode-the-message puzzles where symbols stand in for letters.",
+    "guide": {
+      "heading": "How to make a picture cryptogram for kids",
+      "intro": "A cryptogram hides a message in a code. In a picture cryptogram, each letter of the message has its own small picture, and the key at the top of the page shows which picture stands for which letter. Children look up each picture, write its letter and read the secret message: careful matching, letter recognition and spelling in one puzzle.",
+      "steps": [
+        "Open the maker and choose a code: pictures from a theme you pick, numbers (A is 1), or sums, where each answer is the number of a letter.",
+        "Pick a message from the ready-made bank of short sentences, or let the maker choose one.",
+        "Choose a level: a message of up to 10 letters with one letter given, up to 16 letters with one letter given, or a longer message (up to 24 letters, 20 in the sum code) with no help.",
+        "Print the page with its answer key, or let children crack the code on a screen."
+      ],
+      "faqHeading": "Questions teachers ask",
+      "faq": [
+        {
+          "q": "Can I choose the secret message?",
+          "a": "Yes. Pick one from the message bank: short sentences checked in each language and sized to the level you chose. Start beginners on level 1: every letter in the message is one picture to decode."
+        },
+        {
+          "q": "Which grade is it for?",
+          "a": "The picture and number codes suit first grade. The sum code adds addition practice, with subtraction at the top level. Complete the Key, where children find the missing letters of the key from a word that is already solved, is a second-grade challenge."
+        },
+        {
+          "q": "Can children make their own code?",
+          "a": "Yes. Make Your Own Secret Code gives an empty box next to each letter of the alphabet for a symbol the child invents, then lines to write a message and write it again in code for a friend."
+        },
+        {
+          "q": "Does it work in other languages?",
+          "a": "Yes, in 11 languages. The number code follows each language’s own alphabet: in Spanish Ñ comes after N, and in Swedish and Finnish Å, Ä and Ö come after Z."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "You can look around and see the samples without an account. With a free account, you can make 3 worksheets a month."
+        }
+      ]
+    }
   },
   "writing": {
     "slug": "handwriting-worksheet-maker",
@@ -670,7 +703,45 @@
       "Let a child be the caller to practise reading the pictures.",
       "Run a quick round as a fun lesson opener or transition."
     ],
-    "samplesIntro": "Make picture and word bingo cards your whole class can play together."
+    "samplesIntro": "Make picture and word bingo cards your whole class can play together.",
+    "guide": {
+      "heading": "How to make picture bingo cards",
+      "intro": "Picture bingo is the bingo young children can play before they read: every square on the card is a picture. The maker fills each card from one picture theme, such as animals, food or vehicles, and prints caller cards that show each picture with its word, so you always know what to call.",
+      "steps": [
+        "Open the maker, choose Picture Bingo and pick a theme that fits your topic.",
+        "Choose a level: pictures only, each picture with its word, or the words alone for children who are learning to read.",
+        "Choose how many pages to print, from 1 to 10. Each page holds four 3 × 3 cards to cut apart. Every card in the set has a different mix of pictures, and ten pages make a class set of 40 cards.",
+        "Then choose Picture Bingo: Caller Cards with the same theme and level, and print it. Cut the cards apart, mix them up and call one card at a time.",
+        "Children mark each picture they hear and call “Bingo!” when they have a full line across, down or corner to corner. Keep the called cards to check each win."
+      ],
+      "faqHeading": "Questions teachers ask",
+      "faq": [
+        {
+          "q": "Can I make bingo cards with pictures for my theme?",
+          "a": "Yes. Pick one of the picture themes and every card uses pictures from it, so a farm unit gets farm animals and a fruit lesson gets fruit. A picture never repeats on a card, and a theme without enough different pictures for a fair game is not offered."
+        },
+        {
+          "q": "Will two children get the same card?",
+          "a": "No. Every card in a set has a different mix of pictures, so children fill their lines at different times. Now and then two children call “Bingo!” on the same picture; check both cards against the called cards."
+        },
+        {
+          "q": "What other bingo games can I make?",
+          "a": "The same maker makes sight word bingo, letter sound bingo, number word bingo, shape and color bingo, color bingo with the numbers 1 to 20, sum bingo for addition and subtraction, and clock bingo for telling time. Every game except color bingo has its own caller cards. Some levels use a larger 4 × 4 card, one card per page, and the hardest sum level uses a 5 × 5 card with a free center square."
+        },
+        {
+          "q": "Which ages is it for?",
+          "a": "Picture bingo with pictures only is made for kindergarten: children can play before they read. The picture-and-word level helps children connect each word to its picture, and the words-only level turns the game into reading practice for kindergarten and first grade."
+        },
+        {
+          "q": "Can I make the cards in another language?",
+          "a": "Yes. The cards and caller cards can be made in 11 languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian and Finnish. The pictures stay the same and the words change, which makes picture bingo a good game for language learners."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "You can look around and see the samples without an account. With a free account, you can make 3 worksheets a month."
+        }
+      ]
+    }
   },
   "picture-sort": {
     "slug": "picture-sort-maker",
@@ -780,6 +851,39 @@
       "easy": "Gentle picture sudoku grids for a first try at the puzzle.",
       "medium": "A step up, with slightly fuller grids to reason through.",
       "hard": "Trickier grids that need more careful logic to complete."
+    },
+    "guide": {
+      "heading": "How to make picture sudoku for kids",
+      "intro": "Picture sudoku is sudoku without numbers. Each row, each column and each box must hold every picture exactly once, so children practice logical thinking without needing to read or count. A 4 × 4 grid with four pictures is the right first step; a 6 × 6 grid with six pictures is a bigger challenge.",
+      "steps": [
+        "Open the maker and choose picture sudoku or number sudoku, in a 4 × 4 or a 6 × 6 grid.",
+        "For picture sudoku, pick a picture theme so the puzzle fits your topic.",
+        "Choose a level. At level 1 every empty cell is the last empty cell of its row, column or box, so children only find the one missing picture. At level 2 children also look for the one place in a row, column or box where a picture can still go. Level 3 needs that step many times, and a 6 × 6 puzzle may also need the one picture that fits a cell once its row, column and box are checked together.",
+        "Print the puzzle with its answer key, or let children solve it on a screen. On paper, children draw the missing pictures or write their names; number sudoku fits two 4 × 4 puzzles on a page."
+      ],
+      "faqHeading": "Questions teachers ask",
+      "faq": [
+        {
+          "q": "Does every puzzle have one answer?",
+          "a": "Yes. Each puzzle is checked to have exactly one solution, so children can trust their reasoning and you can check their work with the answer key."
+        },
+        {
+          "q": "Which ages is it for?",
+          "a": "The 4 × 4 picture sudoku is made for first grade, and many kindergarten children enjoy it with a little help. The 6 × 6 puzzles are made for third grade."
+        },
+        {
+          "q": "Do children need to read?",
+          "a": "No. Picture sudoku uses only pictures, so children who are not reading yet can solve it. Number sudoku uses the numbers 1 to 4, or 1 to 6 on the bigger grid."
+        },
+        {
+          "q": "What else does this maker make?",
+          "a": "It is a logic puzzle maker. Besides sudoku it makes number walls, logic grid puzzles, KenKen-style cage puzzles, magic squares, balance puzzles and picture analogies."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "You can look around and see the samples without an account. With a free account, you can make 3 worksheets a month."
+        }
+      ]
     }
   },
   "picture-path": {

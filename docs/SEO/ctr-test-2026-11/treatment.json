@@ -1,0 +1,302 @@
+[
+ {
+  "path": "/es/topic/preescolar/grande-pequeno",
+  "source": "override:es:intersection:big-small__preschool",
+  "before": {
+   "title": "Grande o pequeño para preescolar – imprimir · LessonCraftStudio",
+   "description": "Grande, mediano y pequeño en preescolar: observa los dibujos y elige el tamaño que se pide. Actividades en línea y fichas en PDF gratis."
+  },
+  "after": {
+   "title": "Grande y pequeño para preescolar – fichas para imprimir",
+   "description": "Fichas de grande y pequeño para preescolar: compara los dibujos y elige el grande, el mediano o el pequeño. Imprime el PDF gratis o resuélvelas en línea."
+  }
+ },
+ {
+  "path": "/en/topic/find-objects",
+  "source": "override:en:singleAxis:find-objects",
+  "before": {
+   "title": "Hidden Objects Worksheets – Free Printable PDF · LessonCraftStudio",
+   "description": "Free printable hidden objects worksheets: search the busy scene and find every object on the list. Seek-and-find attention practice as a PDF or played online."
+  },
+  "after": {
+   "title": "Find the Objects Worksheets – Hidden Objects, Free PDF",
+   "description": "Find the objects worksheets: kids search a busy picture scene and find every object on the list, or spot the one that is different. Free PDF or play online."
+  }
+ },
+ {
+  "path": "/it/worksheets/linea-dei-numeri-fino-a-30",
+  "source": "landing:it",
+  "before": {
+   "title": "La linea dei numeri fino a 30 – Classe prima da stampare PDF gratis · LessonCraftStudio",
+   "description": "Scheda della linea dei numeri per la classe prima: quattro rette da 0 a 30, una tacca per ogni unità, etichette ogni cinque e tre frecce per retta. PDF gratis."
+  },
+  "after": {
+   "title": "Linea dei numeri fino a 30: scheda classe prima PDF gratis",
+   "description": "Linea dei numeri fino a 30 per la classe prima: quattro rette con le etichette ogni cinque e frecce sui numeri da scrivere. Scheda gratuita in PDF da stampare."
+  }
+ },
+ {
+  "path": "/en/worksheets/arrays-multiplication-grade-2",
+  "source": "landing:en",
+  "before": {
+   "title": "Multiplication Array Worksheets for Grade 2 – Rows, Columns & Equal Groups | Free Printable PDF · LessonCraftStudio",
+   "description": "Free printable Grade 2 multiplication array worksheets — count rows and columns, turn equal groups into repeated addition, and meet the idea of times. Download the PDF."
+  },
+  "after": {
+   "title": "Multiplication Array Worksheets for 2nd Grade – Free PDF",
+   "description": "Free 2nd grade array worksheets: count the rows and how many are in each row, then write the repeated addition – a first step to multiplication. Printable PDF."
+  }
+ },
+ {
+  "path": "/it/worksheets/frasi-in-corsivo-da-ricopiare",
+  "source": "landing:it",
+  "before": {
+   "title": "Frasi in corsivo da ricopiare – Classe seconda da stampare PDF gratis · LessonCraftStudio",
+   "description": "Tre frasi in stampato da ricopiare in corsivo: la prima, «Ci piace leggere i libri», è anche da ripassare in grigio; ognuna ha due righe vuote. PDF gratis."
+  },
+  "after": {
+   "title": "Frasi in corsivo da ricopiare – scheda classe seconda PDF",
+   "description": "Tre frasi in stampato da ricopiare in corsivo, classe seconda: la prima è anche in corsivo grigio da ripassare; due righe per frase. Scheda PDF gratis."
+  }
+ },
+ {
+  "path": "/fr/worksheets/decoupage-collage",
+  "source": "landing:fr",
+  "before": {
+   "title": "Découpage collage maternelle – animaux | à imprimer PDF · LessonCraftStudio",
+   "description": "Fiche de découpage collage sur les animaux : l'enfant découpe la bande d'images, trie chaque animal et le colle dans la bonne case. PDF gratuit à imprimer."
+  },
+  "after": {
+   "title": "Découpage collage maternelle à imprimer (PDF gratuit)",
+   "description": "Fiche de découpage collage pour la maternelle : l’enfant découpe les images d’animaux, les trie et colle chacune dans la bonne case. PDF gratuit à imprimer."
+  }
+ },
+ {
+  "path": "/it/worksheets/inizio-svolgimento-e-conclusione-di-una-storia",
+  "source": "landing:it",
+  "before": {
+   "title": "Inizio, svolgimento e conclusione di una storia – Classe prima PDF gratis · LessonCraftStudio",
+   "description": "Due storie con l'inizio e la conclusione già disegnati, una banana e un pupazzo di neve: nel riquadro centrale il bambino disegna lo svolgimento. PDF gratis."
+  },
+  "after": {
+   "title": "Inizio, svolgimento e conclusione: scheda classe prima PDF",
+   "description": "Inizio, svolgimento e conclusione, classe prima: due storie con inizio e fine illustrati e un riquadro vuoto dove il bambino disegna lo svolgimento. PDF gratis."
+  }
+ },
+ {
+  "path": "/nl/worksheets/getallenlijn-tot-30",
+  "source": "landing:nl",
+  "before": {
+   "title": "Getallenlijn tot 30 groep 3 | om te printen PDF gratis · LessonCraftStudio",
+   "description": "Werkblad getallenlijn tot 30 voor groep 3: vier lijnen met de vijfvouden erbij geschreven, drie pijlen per lijn en getallen die over de twintig heen gaan. Gratis PDF."
+  },
+  "after": {
+   "title": "Getallenlijn tot 30 – werkblad groep 3 (gratis PDF)",
+   "description": "Gratis werkblad getallenlijn tot 30 voor groep 3: vier lijnen met de vijfvouden erbij en pijlen naar de getallen die het kind zelf invult. Print de PDF."
+  }
+ },
+ {
+  "path": "/no/worksheets/oppstilt-addisjon-tosifret",
+  "source": "landing:no",
+  "before": {
+   "title": "Oppstilt addisjon uten veksling | utskrift PDF gratis · LessonCraftStudio",
+   "description": "Oppgaveark med seks oppstilte plusstykker med tosifrede tall, alle uten veksling. Plassverdibokser holder kolonnene rette. Gratis PDF til utskrift."
+  },
+  "after": {
+   "title": "Oppstilt addisjon uten veksling – oppgaveark PDF gratis",
+   "description": "Gratis oppgaveark i oppstilt addisjon: seks plusstykker med tosifrede tall uten veksling, og plassverdibokser holder enere og tiere på plass. PDF til utskrift."
+  }
+ },
+ {
+  "path": "/it/worksheets/lettere-maiuscole-tratteggiate",
+  "source": "landing:it",
+  "before": {
+   "title": "Lettere maiuscole da ricalcare – Infanzia | da stampare PDF · LessonCraftStudio",
+   "description": "Sei lettere maiuscole da ricalcare sulle righe, con l'ultimo spazio vuoto per scriverle da soli. Scheda per la scuola dell'infanzia, PDF gratis da stampare."
+  },
+  "after": {
+   "title": "Lettere maiuscole tratteggiate da stampare – PDF gratis",
+   "description": "Lettere maiuscole tratteggiate, scuola dell’infanzia: sei lettere da ricalcare, ognuna con uno spazio vuoto a fine riga per scriverla da solo. PDF gratis."
+  }
+ },
+ {
+  "path": "/de/worksheets/silbenkarten-tiere",
+  "source": "landing:de",
+  "before": {
+   "title": "Silbenkarten mit Silbenbögen: Tiere 1. Klasse | PDF ausdrucken · LessonCraftStudio",
+   "description": "Acht Tierkarten, jedes Wort mit gesperrten Buchstaben und einem Silbenbogen unter jeder Silbe – Ka-nin-chen, Fle-der-maus. Silbe für Silbe lesen. Kostenlos als PDF."
+  },
+  "after": {
+   "title": "Silbenkarten Tiere mit Silbenbögen – 1. Klasse PDF",
+   "description": "Silbenkarten für die 1. Klasse: acht Tierkarten, jedes Wort mit Silbenbögen – Ka-nin-chen, Fle-der-maus. Silbe für Silbe lesen. Kostenlos als PDF."
+  }
+ },
+ {
+  "path": "/de/worksheets/kontinente-und-ozeane-weltkarte-klasse-3",
+  "source": "landing:de",
+  "before": {
+   "title": "Kontinente und Ozeane: Weltkarte Klasse 3 | PDF zum Ausdrucken · LessonCraftStudio",
+   "description": "Eine Weltkarte mit zwölf Nummern und zwölf Namen: sieben Kontinente und fünf Ozeane vom Pazifik bis zum Südpolarmeer. Das Kind schreibt die Zahl neben jeden Namen."
+  },
+  "after": {
+   "title": "Kontinente und Ozeane – Arbeitsblatt Weltkarte, Klasse 3",
+   "description": "Arbeitsblatt Kontinente und Ozeane, Klasse 3: Das Kind ordnet den zwölf Nummern auf der Weltkarte die sieben Kontinente und fünf Ozeane zu. Kostenlos als PDF."
+  }
+ },
+ {
+  "path": "/pt/worksheets/numeros-pontilhados",
+  "source": "landing:pt",
+  "before": {
+   "title": "Números pontilhados de 0 a 9 | para imprimir PDF grátis · LessonCraftStudio",
+   "description": "Números pontilhados de 0 a 9 para cobrir com o lápis: modelo, ponto de partida e setas ensinam o traçado certo. Atividade para imprimir grátis em PDF."
+  },
+  "after": {
+   "title": "Números pontilhados de 0 a 9 para imprimir – PDF grátis",
+   "description": "Números pontilhados de 0 a 9 para cobrir, na educação infantil: modelo, ponto de partida e setas mostram o traçado certo. Atividade para imprimir em PDF grátis."
+  }
+ },
+ {
+  "path": "/nl/worksheets/rekenpiramide-tot-100",
+  "source": "landing:nl",
+  "before": {
+   "title": "Rekenpiramide tot 100 groep 4 | om te printen PDF gratis · LessonCraftStudio",
+   "description": "Werkblad rekenpiramide voor groep 4 met grotere startgetallen: vier piramides waarvan de topsteen tot honderd kan oplopen en zes stenen leeg zijn. Gratis PDF."
+  },
+  "after": {
+   "title": "Rekenpiramide tot 100 – werkblad groep 4 (gratis PDF)",
+   "description": "Werkblad rekenpiramides tot 100 voor groep 4: vier piramides met startgetallen van 5 tot 12, en het kind telt steen voor steen op tot de top. Gratis PDF."
+  }
+ },
+ {
+  "path": "/it/worksheets/continenti-e-oceani-sulla-carta-geografica",
+  "source": "landing:it",
+  "before": {
+   "title": "Continenti e oceani sulla carta geografica – Classe terza PDF gratis · LessonCraftStudio",
+   "description": "Un planisfero con undici numeri, sei continenti e cinque oceani, e undici nomi con il loro riquadro, dal Mar Glaciale Artico all'Oceano Antartico. PDF gratis."
+  },
+  "after": {
+   "title": "Continenti e oceani sul planisfero – scheda classe terza PDF",
+   "description": "Scheda su continenti e oceani per la classe terza: sul planisfero ci sono undici numeri da abbinare ai nomi di sei continenti e cinque oceani. PDF gratis."
+  }
+ },
+ {
+  "path": "/fi/worksheets/labyrintti-tehtavat",
+  "source": "landing:fi",
+  "before": {
+   "title": "Labyrintti lapsille – tulostettava PDF · LessonCraftStudio",
+   "description": "Iso labyrintti esikouluikäiselle: eläinhahmo lähtöruudussa, maali alareunassa. Kehittää hahmottamista ja kynänhallintaa. Ilmainen tulostettava PDF."
+  },
+  "after": {
+   "title": "Labyrintti lapsille – tulostettava tehtävä esikouluun (PDF)",
+   "description": "Ilmainen labyrinttitehtävä esikouluun: lapsi kuljettaa kynää isoa labyrinttia pitkin eläinhahmolta maaliin. Harjoittaa hahmottamista ja kynänhallintaa."
+  }
+ },
+ {
+  "path": "/it/worksheets/i-contrari-con-i-prefissi-in-s-dis",
+  "source": "landing:it",
+  "before": {
+   "title": "I contrari con i prefissi in-, s- e dis- – Classe seconda PDF gratis · LessonCraftStudio",
+   "description": "Contrari con i prefissi per la classe seconda: otto parole (fortunato, ubbidiente, utile), scegli in-, s- o dis- e scrivi la parola contraria. PDF gratis."
+  },
+  "after": {
+   "title": "I contrari con i prefissi in-, s-, dis- – classe seconda PDF",
+   "description": "Contrari con i prefissi per la classe seconda: otto parole come fortunato e utile, il bambino sceglie in-, s- o dis- e scrive il contrario. PDF gratis."
+  }
+ },
+ {
+  "path": "/sv/worksheets/brak-lika-delar-ak-2",
+  "source": "landing:sv",
+  "before": {
+   "title": "Arbetsblad bråk åk 2 – lika delar & halvor | skriva ut gratis (PDF) · LessonCraftStudio",
+   "description": "Arbetsblad i bråk för åk 2: dela figurer i halvor, tredjedelar och fjärdedelar, dela en mängd lika och känn igen lika delar. Gratis PDF."
+  },
+  "after": {
+   "title": "Bråk åk 2 – arbetsblad om lika delar och halvor (PDF)",
+   "description": "Gratis arbetsblad i bråk för åk 2: dela figurer i halvor, tredjedelar och fjärdedelar, färglägg en del och känn igen lika delar. Skriv ut som PDF."
+  }
+ },
+ {
+  "path": "/it/worksheets/l-intruso-stesso-tema-aula-9c8f",
+  "source": "landing:it",
+  "before": {
+   "title": "Trova l'intruso – Aula | schede da stampare PDF gratis · LessonCraftStudio",
+   "description": "Trova l'intruso – Aula. Osserva ogni riga e trova l'intruso. Schede gratis da stampare in PDF."
+  },
+  "after": {
+   "title": "Trova l’intruso – oggetti dell’aula, infanzia (PDF gratis)",
+   "description": "Trova l’intruso per la scuola dell’infanzia: in ogni fila quattro oggetti dell’aula, uno non c’entra. Gioca online o stampa il PDF gratis, con le soluzioni."
+  }
+ },
+ {
+  "path": "/nl/worksheets/verhaal-op-volgorde-leggen-kleuters",
+  "source": "landing:nl",
+  "before": {
+   "title": "Verhaal op volgorde leggen kleuters: plaatjes nummeren | printen PDF gratis · LessonCraftStudio",
+   "description": "Werkblad verhaal op volgorde leggen voor kleuters: twee korte verhalen van vier plaatjes, en het kind schrijft 1 tot 4 in de hokjes eronder. Gratis PDF."
+  },
+  "after": {
+   "title": "Verhaal op volgorde leggen – werkblad kleuters (gratis PDF)",
+   "description": "Gratis werkblad voor kleuters: twee korte verhalen van vier plaatjes. Het kind zet elk verhaal op volgorde door 1 tot en met 4 in de hokjes te schrijven."
+  }
+ },
+ {
+  "path": "/fr/topic/sciences/ce1-cours-elementaire-1",
+  "source": "subjecthub:fr:science:grade-1",
+  "before": {
+   "title": "Fiches de sciences CE1 à imprimer – gratuit (PDF) · LessonCraftStudio",
+   "description": "44 fiches de sciences pour le CE1, à imprimer gratuitement au format PDF (avec corrigés) ou à faire en ligne, le tout avec un compte gratuit. De quoi observer et comprendre le monde qui nous entoure."
+  },
+  "after": {
+   "title": "Fiches de sciences CE1 en PDF – à imprimer gratuitement",
+   "description": "Fiches de sciences CE1 en PDF avec corrigés : vivant ou non-vivant, flotte ou coule, cycles de vie et habitats. À imprimer gratuitement ou à faire en ligne."
+  }
+ },
+ {
+  "path": "/en/worksheets/beginning-middle-and-end-of-a-story",
+  "source": "landing:en",
+  "before": {
+   "title": "Beginning, Middle and End of a Story Worksheet, 1st Grade | Free PDF · LessonCraftStudio",
+   "description": "Beginning, middle and end worksheet: each story shows its start and its finish. Draw what happens in the empty middle frame. Two stories, 1st grade PDF."
+  },
+  "after": {
+   "title": "Beginning, Middle and End of a Story Worksheet – 1st Grade",
+   "description": "Beginning, middle and end worksheet for 1st grade: two picture stories show the start and the finish, and children draw what happens in the middle. Free PDF."
+  }
+ },
+ {
+  "path": "/pt/topic/primavera",
+  "source": "seasonal:pt:spring",
+  "before": {
+   "title": "Atividades de primavera – para imprimir grátis (PDF) · LessonCraftStudio",
+   "description": "Tema de primavera em imagens coloridas: vocabulário da estação em jogos de associação e contagem para a educação infantil."
+  },
+  "after": {
+   "title": "Atividades de primavera para educação infantil – PDF grátis",
+   "description": "Atividades de primavera para a educação infantil: contar e associar com figuras da estação. Para imprimir em PDF grátis ou fazer online."
+  }
+ },
+ {
+  "path": "/da/worksheets/stamtrae-skabelon-til-boern",
+  "source": "landing:da",
+  "before": {
+   "title": "Stamtræ-skabelon til børn | til print PDF gratis · LessonCraftStudio",
+   "description": "Et tomt stamtræ med tretten rammer og navnelinjer og ét felt til mig. Barnet tegner de mennesker, der betyder noget, og skriver deres navne. Gratis PDF til print."
+  },
+  "after": {
+   "title": "Stamtræ-skabelon til børn – gratis til print (PDF)",
+   "description": "Gratis stamtræ-skabelon til børn i 1. klasse: et tomt træ med rammer, hvor barnet tegner de mennesker, der betyder noget, og skriver navnene. PDF til print."
+  }
+ },
+ {
+  "path": "/it/worksheets/piramidi-di-numeri-oltre-il-20",
+  "source": "landing:it",
+  "before": {
+   "title": "Piramidi di numeri oltre il 20 – Classe seconda PDF gratis · LessonCraftStudio",
+   "description": "Scheda piramidi di numeri per la classe seconda: quattro piramidi di quattro piani, base da 5 a 12 e somme che salgono fino al centinaio. PDF gratis."
+  },
+  "after": {
+   "title": "Piramidi di numeri oltre il 20 – scheda classe seconda PDF",
+   "description": "Piramidi di numeri oltre il 20 per la classe seconda: quattro piramidi con la base fra 5 e 12; si somma piano per piano e la cima sale verso il 100. PDF gratis."
+  }
+ }
+]

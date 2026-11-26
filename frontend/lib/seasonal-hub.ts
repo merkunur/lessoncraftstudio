@@ -123,7 +123,8 @@ const SEASON_COPY: Record<string, Partial<Record<SeasonalKey, SeasonCopy>>> = {
     christmas: { noun: 'Natal' },
     easter: { noun: 'Páscoa' },
     winter: { noun: 'inverno' },
-    spring: { noun: 'primavera' },
+    // title: the click-rate test of 2026-11-26 (docs/SEO/ctr-test-2026-11/); the grade pages keep the template
+    spring: { noun: 'primavera', title: 'Atividades de primavera para educação infantil – PDF grátis' },
     summer: { noun: 'verão' },
   },
   sv: {

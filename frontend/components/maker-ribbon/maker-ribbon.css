@@ -24,6 +24,11 @@
 
 .mrb-all { display: block; padding: 7px 14px; border-radius: 0 0 14px 14px; background: #ffd266; color: #3d2c00; font-weight: 800; font-size: 14px; text-align: center; text-decoration: none; }
 .mrb-all:hover { text-decoration: underline; }
+/* with the type's own maker page (MakerRibbon typeMakerPage): one yellow foot, two links side by side, wrapping on a phone */
+.mrb-foot { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0 4px; background: #ffd266; border-radius: 0 0 14px 14px; }
+.mrb-foot .mrb-all { background: none; border-radius: 0; }
+.mrb-type { padding: 7px 14px; color: #3d2c00; font-weight: 800; font-size: 14px; text-align: center; text-decoration: underline; }
+.mrb-type:hover { text-decoration: none; }
 
 @media (max-width: 720px) {
   .mrb-link { flex-wrap: wrap; gap: 8px 12px; padding: 10px 12px; }

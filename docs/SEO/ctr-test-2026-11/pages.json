@@ -1,0 +1,996 @@
+{
+ "created": "2026-11-26",
+ "source": "Search Console Performance, web, last 3 months to 2026-11-24",
+ "rule": "landing or topic pages at position <= 15 with >= 250 impressions and clicks below the site curve, top 50 by missed clicks with one page per sibling family; paired by language + page type (then page type) and position/impressions; a fixed coin (sha1 of the pair) picks the page that changes",
+ "curve": {
+  "<1.5": 0.597,
+  "<2.5": 0.135,
+  "<3.5": 0.119,
+  "<5.5": 0.089,
+  "<7.5": 0.061,
+  "<10.5": 0.049,
+  "<15.5": 0.035
+ },
+ "pairs": [
+  {
+   "pair": 1,
+   "change": {
+    "url": "https://www.lessoncraftstudio.com/es/topic/preescolar/grande-pequeno",
+    "clicks": 17,
+    "impressions": 2945,
+    "ctr": 0.0058,
+    "position": 8.66,
+    "family": "topic",
+    "locale": "es",
+    "missed": 127,
+    "before": {
+     "title": "Grande o pequeño para preescolar – imprimir · LessonCraftStudio",
+     "description": "Grande, mediano y pequeño en preescolar: observa los dibujos y elige el tamaño que se pide. Actividades en línea y fichas en PDF gratis."
+    },
+    "topQuery": {
+     "query": "imágenes de grande y pequeño para imprimir",
+     "clicks": 1,
+     "impressions": 152,
+     "position": 7.66
+    }
+   },
+   "control": {
+    "url": "https://www.lessoncraftstudio.com/es/topic/grado-1/sumas-y-restas",
+    "clicks": 8,
+    "impressions": 646,
+    "ctr": 0.0124,
+    "position": 7.48,
+    "family": "topic",
+    "locale": "es",
+    "missed": 31,
+    "before": {
+     "title": "Sumas y restas con dibujos para primer grado · LessonCraftStudio",
+     "description": "Sumas y restas con dibujos para primer grado: cuenta las imágenes de cada operación y escribe el resultado. En línea o en PDF gratis."
+    },
+    "topQuery": {
+     "query": "sumas para primer grado con dibujos",
+     "clicks": 1,
+     "impressions": 75,
+     "position": 8.71
+    }
+   }
+  },
+  {
+   "pair": 2,
+   "change": {
+    "url": "https://www.lessoncraftstudio.com/en/topic/find-objects",
+    "clicks": 46,
+    "impressions": 1428,
+    "ctr": 0.0322,
+    "position": 6.58,
+    "family": "topic",
+    "locale": "en",
+    "missed": 41,
+    "before": {
+     "title": "Hidden Objects Worksheets – Free Printable PDF · LessonCraftStudio",
+     "description": "Free printable hidden objects worksheets: search the busy scene and find every object on the list. Seek-and-find attention practice as a PDF or played online."
+    },
+    "topQuery": {
+     "query": "find the objects worksheet",
+     "clicks": 2,
+     "impressions": 51,
+     "position": 6.75
+    }
+   },
+   "control": {
+    "url": "https://www.lessoncraftstudio.com/en/topic/camping",
+    "clicks": 7,
+    "impressions": 2555,
+    "ctr": 0.0027,
+    "position": 10.02,
+    "family": "topic",
+    "locale": "en",
+    "missed": 118,
+    "before": {
+     "title": "Camping Worksheets for Kids – Free Printables · LessonCraftStudio",
+     "description": "Free printable camping worksheets: tents, campfires and trail gear in counting, matching and puzzle pages. Camping-themed practice as a PDF or online."
+    },
+    "topQuery": null
+   }
+  },
+  {
+   "pair": 3,
+   "change": {
+    "url": "https://www.lessoncraftstudio.com/it/worksheets/linea-dei-numeri-fino-a-30",
+    "clicks": 113,
+    "impressions": 3273,
+    "ctr": 0.0345,
+    "position": 7.18,
+    "family": "landing",
+    "locale": "it",
+    "missed": 87,
+    "before": {
+     "title": "La linea dei numeri fino a 30 – Classe prima da stampare PDF gratis · LessonCraftStudio",
+     "description": "Scheda della linea dei numeri per la classe prima: quattro rette da 0 a 30, una tacca per ogni unità, etichette ogni cinque e tre frecce per retta. PDF gratis."
+    },
+    "topQuery": {
+     "query": "linea dei numeri fino a 30",
+     "clicks": 8,
+     "impressions": 499,
+     "position": 7.09
+    }
+   },
+   "control": {
+    "url": "https://www.lessoncraftstudio.com/it/worksheets/leggere-la-legenda-di-una-mappa",
+    "clicks": 10,
+    "impressions": 2485,
+    "ctr": 0.004,
+    "position": 7.68,
+    "family": "landing",
+    "locale": "it",
+    "missed": 112,
+    "before": {
+     "title": "Leggere la legenda di una mappa – Classe prima da stampare PDF gratis · LessonCraftStudio",
+     "description": "Un parco su un'isola, visto dall'alto, con sentiero, ruscello e cinque simboli in legenda: si contano ponti, alberi, panchine, cespugli e aiuole. PDF gratis."
+    },
+    "topQuery": null
+   }
+  },
+  {
+   "pair": 4,
+   "change": {
+    "url": "https://www.lessoncraftstudio.com/en/worksheets/arrays-multiplication-grade-2",
+    "clicks": 16,
+    "impressions": 690,
+    "ctr": 0.0232,
+    "position": 10.1,
+    "family": "landing",
+    "locale": "en",
+    "missed": 18,
+    "before": {
+     "title": "Multiplication Array Worksheets for Grade 2 – Rows, Columns & Equal Groups | Free Printable PDF · LessonCraftStudio",
+     "description": "Free printable Grade 2 multiplication array worksheets — count rows and columns, turn equal groups into repeated addition, and meet the idea of times. Download the PDF."
+    },
+    "topQuery": {
+     "query": "beginning, middle and end of a story worksheets grade 1",
+     "clicks": 1,
+     "impressions": 36,
+     "position": 4.36
+    }
+   },
+   "control": {
+    "url": "https://www.lessoncraftstudio.com/en/worksheets/number-charts-grade-2",
+    "clicks": 11,
+    "impressions": 2421,
+    "ctr": 0.0045000000000000005,
+    "position": 7.78,
+    "family": "landing",
+    "locale": "en",
+    "missed": 108,
+    "before": {
+     "title": "Number Chart Worksheets for Grade 2 – Skip Counting & 100 More, 100 Less | Free Printable PDF · LessonCraftStudio",
+     "description": "Free printable Grade 2 number chart worksheets — skip-count by 3s and 4s, find 100 more and 100 less, and hunt for odd numbers on the chart. Download the PDF."
+    },
+    "topQuery": {
+     "query": "beginning, middle and end of a story worksheets grade 1",
+     "clicks": 1,
+     "impressions": 36,
+     "position": 4.36
+    }
+   }
+  },
+  {
+   "pair": 5,
+   "change": {
+    "url": "https://www.lessoncraftstudio.com/it/worksheets/frasi-in-corsivo-da-ricopiare",
+    "clicks": 73,
+    "impressions": 1330,
+    "ctr": 0.054900000000000004,
+    "position": 3.65,
+    "family": "landing",
+    "locale": "it",
+    "missed": 45,
+    "before": {
+     "title": "Frasi in corsivo da ricopiare – Classe seconda da stampare PDF gratis · LessonCraftStudio",
+     "description": "Tre frasi in stampato da ricopiare in corsivo: la prima, «Ci piace leggere i libri», è anche da ripassare in grigio; ognuna ha due righe vuote. PDF gratis."
+    },
+    "topQuery": {
+     "query": "frasi in corsivo",
+     "clicks": 1,
+     "impressions": 47,
+     "position": 7.36
+    }
+   },
+   "control": {
+    "url": "https://www.lessoncraftstudio.com/it/worksheets/numeri-tratteggiati",
+    "clicks": 130,
+    "impressions": 2284,
+    "ctr": 0.056900000000000006,
+    "position": 4.3,
+    "family": "landing",
+    "locale": "it",
+    "missed": 73,
+    "before": {
+     "title": "Numeri tratteggiati da 0 a 9 – Infanzia | da stampare PDF · LessonCraftStudio",
+     "description": "Numeri tratteggiati da 0 a 9 su righe di scrittura: modello, punto di partenza e frecce guidano la mano del bambino. Scheda in PDF gratis da stampare."
+    },
+    "topQuery": {
+     "query": "numeri tratteggiati da stampare pdf",
+     "clicks": 14,
+     "impressions": 206,
+     "position": 3.9
+    }
+   }
+  },
+  {
+   "pair": 6,
+   "change": {
+    "url": "https://www.lessoncraftstudio.com/fr/worksheets/decoupage-collage",
+    "clicks": 26,
+    "impressions": 1603,
+    "ctr": 0.016200000000000003,
+    "position": 6.25,
+    "family": "landing",
+    "locale": "fr",
+    "missed": 72,
+    "before": {
+     "title": "Découpage collage maternelle – animaux | à imprimer PDF · LessonCraftStudio",
+     "description": "Fiche de découpage collage sur les animaux : l'enfant découpe la bande d'images, trie chaque animal et le colle dans la bonne case. PDF gratuit à imprimer."
+    },
+    "topQuery": {
+     "query": "découpage collage à imprimer pdf",
+     "clicks": 18,
+     "impressions": 604,
+     "position": 5.54
+    }
+   },
+   "control": {
+    "url": "https://www.lessoncraftstudio.com/fr/worksheets/ecriture-des-nombres-1-10",
+    "clicks": 70,
+    "impressions": 1614,
+    "ctr": 0.0434,
+    "position": 6.87,
+    "family": "landing",
+    "locale": "fr",
+    "missed": 28,
+    "before": {
+     "title": "Écriture des nombres de 1 à 10 | à imprimer PDF gratuit · LessonCraftStudio",
+     "description": "Repasser les nombres de 1 à 10 sur des lignes d'écriture : neuf tracés simples, puis le 10 et son couloir à deux chiffres. Fiche gratuite à imprimer en PDF."
+    },
+    "topQuery": {
+     "query": "écriture des chiffres de 1 à 10",
+     "clicks": 1,
+     "impressions": 48,
+     "position": 8.35
+    }
+   }
+  },
+  {
+   "pair": 7,
+   "change": {
+    "url": "https://www.lessoncraftstudio.com/it/worksheets/inizio-svolgimento-e-conclusione-di-una-storia",
+    "clicks": 45,
+    "impressions": 1846,
+    "ctr": 0.024399999999999998,
+    "position": 7.16,
+    "family": "landing",
+    "locale": "it",
+    "missed": 68,
+    "before": {
+     "title": "Inizio, svolgimento e conclusione di una storia – Classe prima PDF gratis · LessonCraftStudio",
+     "description": "Due storie con l'inizio e la conclusione già disegnati, una banana e un pupazzo di neve: nel riquadro centrale il bambino disegna lo svolgimento. PDF gratis."
+    },
+    "topQuery": {
+     "query": "schede didattiche inizio svolgimento conclusione",
+     "clicks": 21,
+     "impressions": 347,
+     "position": 5.26
+    }
+   },
+   "control": {
+    "url": "https://www.lessoncraftstudio.com/it/worksheets/tre-problemi-misti-per-e-diviso",
+    "clicks": 18,
+    "impressions": 1014,
+    "ctr": 0.0178,
+    "position": 6.81,
+    "family": "landing",
+    "locale": "it",
+    "missed": 44,
+    "before": {
+     "title": "Tre problemi misti di moltiplicazione e divisione – Classe terza PDF gratis · LessonCraftStudio",
+     "description": "Scheda di problemi per la classe terza: tre storie con i giocattoli, una per ogni tipo, con i risultati fino a trentasei e la frase di risposta. PDF gratis."
+    },
+    "topQuery": {
+     "query": "problemi terza elementare misti pdf",
+     "clicks": 11,
+     "impressions": 358,
+     "position": 6.79
+    }
+   }
+  },
+  {
+   "pair": 8,
+   "change": {
+    "url": "https://www.lessoncraftstudio.com/nl/worksheets/getallenlijn-tot-30",
+    "clicks": 22,
+    "impressions": 592,
+    "ctr": 0.037200000000000004,
+    "position": 3.95,
+    "family": "landing",
+    "locale": "nl",
+    "missed": 31,
+    "before": {
+     "title": "Getallenlijn tot 30 groep 3 | om te printen PDF gratis · LessonCraftStudio",
+     "description": "Werkblad getallenlijn tot 30 voor groep 3: vier lijnen met de vijfvouden erbij geschreven, drie pijlen per lijn en getallen die over de twintig heen gaan. Gratis PDF."
+    },
+    "topQuery": {
+     "query": "getallenlijn tot 30",
+     "clicks": 1,
+     "impressions": 118,
+     "position": 1.48
+    }
+   },
+   "control": {
+    "url": "https://www.lessoncraftstudio.com/nl/worksheets/schrijfpatronen-oefenen",
+    "clicks": 13,
+    "impressions": 604,
+    "ctr": 0.0215,
+    "position": 3.24,
+    "family": "landing",
+    "locale": "nl",
+    "missed": 59,
+    "before": {
+     "title": "Werkblad schrijfpatronen kleuters | om te printen PDF gratis · LessonCraftStudio",
+     "description": "Gratis werkblad schrijfpatronen voor kleuters: lussen, golven en zigzaglijnen natrekken vanaf de oranje startstip. Print de PDF en oefen de pengreep."
+    },
+    "topQuery": null
+   }
+  },
+  {
+   "pair": 9,
+   "change": {
+    "url": "https://www.lessoncraftstudio.com/no/worksheets/oppstilt-addisjon-tosifret",
+    "clicks": 23,
+    "impressions": 717,
+    "ctr": 0.0321,
+    "position": 5,
+    "family": "landing",
+    "locale": "no",
+    "missed": 41,
+    "before": {
+     "title": "Oppstilt addisjon uten veksling | utskrift PDF gratis · LessonCraftStudio",
+     "description": "Oppgaveark med seks oppstilte plusstykker med tosifrede tall, alle uten veksling. Plassverdibokser holder kolonnene rette. Gratis PDF til utskrift."
+    },
+    "topQuery": {
+     "query": "oppstilt addisjon",
+     "clicks": 1,
+     "impressions": 159,
+     "position": 4.67
+    }
+   },
+   "control": {
+    "url": "https://www.lessoncraftstudio.com/no/worksheets/prikk-til-prikk-med-bokstaver",
+    "clicks": 26,
+    "impressions": 477,
+    "ctr": 0.0545,
+    "position": 4.37,
+    "family": "landing",
+    "locale": "no",
+    "missed": 16,
+    "before": {
+     "title": "Prikk til prikk med bokstaver – 1. trinn | til utskrift PDF gratis · LessonCraftStudio",
+     "description": "Prikk til prikk med små bokstaver: tjue prikker merket fra a til t, alfabetremse nederst og ingen ferdig trykt strek. Gratis PDF for 1. trinn."
+    },
+    "topQuery": {
+     "query": "prikk til prikk utskrift",
+     "clicks": 2,
+     "impressions": 58,
+     "position": 3.6
+    }
+   }
+  },
+  {
+   "pair": 10,
+   "change": {
+    "url": "https://www.lessoncraftstudio.com/it/worksheets/lettere-maiuscole-tratteggiate",
+    "clicks": 7,
+    "impressions": 280,
+    "ctr": 0.025,
+    "position": 1.94,
+    "family": "landing",
+    "locale": "it",
+    "missed": 31,
+    "before": {
+     "title": "Lettere maiuscole da ricalcare – Infanzia | da stampare PDF · LessonCraftStudio",
+     "description": "Sei lettere maiuscole da ricalcare sulle righe, con l'ultimo spazio vuoto per scriverle da soli. Scheda per la scuola dell'infanzia, PDF gratis da stampare."
+    },
+    "topQuery": {
+     "query": "lettere tratteggiate da stampare pdf",
+     "clicks": 32,
+     "impressions": 643,
+     "position": 5.21
+    }
+   },
+   "control": {
+    "url": "https://www.lessoncraftstudio.com/it/worksheets/abbina-le-ombre-abbina-l-ombra-primavera-1941",
+    "clicks": 11,
+    "impressions": 436,
+    "ctr": 0.0252,
+    "position": 5.03,
+    "family": "landing",
+    "locale": "it",
+    "missed": 28,
+    "before": {
+     "title": "Abbina le ombre – Primavera | schede da stampare PDF gratis · LessonCraftStudio",
+     "description": "Abbina le ombre – Primavera. Collega ogni immagine alla sua ombra. Schede gratis da stampare in PDF."
+    },
+    "topQuery": null
+   }
+  },
+  {
+   "pair": 11,
+   "change": {
+    "url": "https://www.lessoncraftstudio.com/de/worksheets/silbenkarten-tiere",
+    "clicks": 8,
+    "impressions": 420,
+    "ctr": 0.019,
+    "position": 4.68,
+    "family": "landing",
+    "locale": "de",
+    "missed": 29,
+    "before": {
+     "title": "Silbenkarten mit Silbenbögen: Tiere 1. Klasse | PDF ausdrucken · LessonCraftStudio",
+     "description": "Acht Tierkarten, jedes Wort mit gesperrten Buchstaben und einem Silbenbogen unter jeder Silbe – Ka-nin-chen, Fle-der-maus. Silbe für Silbe lesen. Kostenlos als PDF."
+    },
+    "topQuery": null
+   },
+   "control": {
+    "url": "https://www.lessoncraftstudio.com/de/worksheets/saetze-abschreiben-vereinfachte-ausgangsschrift",
+    "clicks": 16,
+    "impressions": 335,
+    "ctr": 0.0478,
+    "position": 4.99,
+    "family": "landing",
+    "locale": "de",
+    "missed": 14,
+    "before": {
+     "title": "Sätze abschreiben in Vereinfachter Ausgangsschrift, Klasse 3 | PDF · LessonCraftStudio",
+     "description": "Drei gedruckte Sätze zum Abschreiben in der Vereinfachten Ausgangsschrift: Der erste ist zum Nachspuren vorgeschrieben, die anderen schreibt das Kind selbst."
+    },
+    "topQuery": null
+   }
+  },
+  {
+   "pair": 12,
+   "change": {
+    "url": "https://www.lessoncraftstudio.com/de/worksheets/kontinente-und-ozeane-weltkarte-klasse-3",
+    "clicks": 9,
+    "impressions": 286,
+    "ctr": 0.0315,
+    "position": 4.42,
+    "family": "landing",
+    "locale": "de",
+    "missed": 16,
+    "before": {
+     "title": "Kontinente und Ozeane: Weltkarte Klasse 3 | PDF zum Ausdrucken · LessonCraftStudio",
+     "description": "Eine Weltkarte mit zwölf Nummern und zwölf Namen: sieben Kontinente und fünf Ozeane vom Pazifik bis zum Südpolarmeer. Das Kind schreibt die Zahl neben jeden Namen."
+    },
+    "topQuery": null
+   },
+   "control": {
+    "url": "https://www.lessoncraftstudio.com/de/worksheets/tiersteckbrief-waldtiere-2-klasse",
+    "clicks": 19,
+    "impressions": 394,
+    "ctr": 0.0482,
+    "position": 3.36,
+    "family": "landing",
+    "locale": "de",
+    "missed": 28,
+    "before": {
+     "title": "Tiersteckbrief Waldtiere 2. Klasse – Vorlage | zum Ausdrucken PDF kostenlos · LessonCraftStudio",
+     "description": "Tiersteckbrief zum Ausfüllen: Bild und Name eines Waldtiers, sechs leere Zeilen von Tiergruppe bis Kann es fliegen?, ein Kasten für den Lebensraum. Kostenlos als PDF."
+    },
+    "topQuery": null
+   }
+  },
+  {
+   "pair": 13,
+   "change": {
+    "url": "https://www.lessoncraftstudio.com/pt/worksheets/numeros-pontilhados",
+    "clicks": 18,
+    "impressions": 480,
+    "ctr": 0.0375,
+    "position": 5.46,
+    "family": "landing",
+    "locale": "pt",
+    "missed": 25,
+    "before": {
+     "title": "Números pontilhados de 0 a 9 | para imprimir PDF grátis · LessonCraftStudio",
+     "description": "Números pontilhados de 0 a 9 para cobrir com o lápis: modelo, ponto de partida e setas ensinam o traçado certo. Atividade para imprimir grátis em PDF."
+    },
+    "topQuery": {
+     "query": "números pontilhados para imprimir pdf",
+     "clicks": 3,
+     "impressions": 35,
+     "position": 3.14
+    }
+   },
+   "control": {
+    "url": "https://www.lessoncraftstudio.com/pt/worksheets/amigos-do-10-com-bolinhas",
+    "clicks": 10,
+    "impressions": 333,
+    "ctr": 0.03,
+    "position": 4.21,
+    "family": "landing",
+    "locale": "pt",
+    "missed": 20,
+    "before": {
+     "title": "Amigos do 10 com bolinhas | para imprimir PDF grátis · LessonCraftStudio",
+     "description": "Amigos do 10 com bolinhas de contar dentro das partes: a criança conta os pontinhos e completa o par que forma dez. Atividade em PDF para imprimir grátis."
+    },
+    "topQuery": null
+   }
+  },
+  {
+   "pair": 14,
+   "change": {
+    "url": "https://www.lessoncraftstudio.com/nl/worksheets/rekenpiramide-tot-100",
+    "clicks": 14,
+    "impressions": 346,
+    "ctr": 0.0405,
+    "position": 5.11,
+    "family": "landing",
+    "locale": "nl",
+    "missed": 17,
+    "before": {
+     "title": "Rekenpiramide tot 100 groep 4 | om te printen PDF gratis · LessonCraftStudio",
+     "description": "Werkblad rekenpiramide voor groep 4 met grotere startgetallen: vier piramides waarvan de topsteen tot honderd kan oplopen en zes stenen leeg zijn. Gratis PDF."
+    },
+    "topQuery": {
+     "query": "100 more 100 less worksheets pdf",
+     "clicks": 2,
+     "impressions": 60,
+     "position": 8.37
+    }
+   },
+   "control": {
+    "url": "https://www.lessoncraftstudio.com/nl/worksheets/afronden-op-tientallen-en-honderdtallen",
+    "clicks": 17,
+    "impressions": 695,
+    "ctr": 0.0245,
+    "position": 6.53,
+    "family": "landing",
+    "locale": "nl",
+    "missed": 25,
+    "before": {
+     "title": "Afronden op tientallen en honderdtallen | printen PDF gratis · LessonCraftStudio",
+     "description": "Acht getallen voor groep 5, elk twee keer af te ronden: eerst op het tiental, dan op het honderdtal. Bij vijf van de acht gaan de twee kanten op. Gratis PDF."
+    },
+    "topQuery": null
+   }
+  },
+  {
+   "pair": 15,
+   "change": {
+    "url": "https://www.lessoncraftstudio.com/it/worksheets/continenti-e-oceani-sulla-carta-geografica",
+    "clicks": 12,
+    "impressions": 661,
+    "ctr": 0.0182,
+    "position": 8.05,
+    "family": "landing",
+    "locale": "it",
+    "missed": 20,
+    "before": {
+     "title": "Continenti e oceani sulla carta geografica – Classe terza PDF gratis · LessonCraftStudio",
+     "description": "Un planisfero con undici numeri, sei continenti e cinque oceani, e undici nomi con il loro riquadro, dal Mar Glaciale Artico all'Oceano Antartico. PDF gratis."
+    },
+    "topQuery": null
+   },
+   "control": {
+    "url": "https://www.lessoncraftstudio.com/it/worksheets/tabella-dei-numeri-classe-prima",
+    "clicks": 28,
+    "impressions": 1053,
+    "ctr": 0.026600000000000002,
+    "position": 10.06,
+    "family": "landing",
+    "locale": "it",
+    "missed": 24,
+    "before": {
+     "title": "Schede tabella dei numeri classe prima – fino a 100 | da stampare gratis (PDF) · LessonCraftStudio",
+     "description": "Schede tabella dei numeri per la classe prima da stampare in PDF: completare fino a 100, contare per 2, 5 e 10, uno in più e uno in meno, dieci in più. Gratuite."
+    },
+    "topQuery": {
+     "query": "linea dei numeri fino a 30",
+     "clicks": 8,
+     "impressions": 499,
+     "position": 7.09
+    }
+   }
+  },
+  {
+   "pair": 16,
+   "change": {
+    "url": "https://www.lessoncraftstudio.com/fi/worksheets/labyrintti-tehtavat",
+    "clicks": 15,
+    "impressions": 352,
+    "ctr": 0.0426,
+    "position": 3.86,
+    "family": "landing",
+    "locale": "fi",
+    "missed": 16,
+    "before": {
+     "title": "Labyrintti lapsille – tulostettava PDF · LessonCraftStudio",
+     "description": "Iso labyrintti esikouluikäiselle: eläinhahmo lähtöruudussa, maali alareunassa. Kehittää hahmottamista ja kynänhallintaa. Ilmainen tulostettava PDF."
+    },
+    "topQuery": null
+   },
+   "control": {
+    "url": "https://www.lessoncraftstudio.com/fi/worksheets/kymppiparit",
+    "clicks": 7,
+    "impressions": 349,
+    "ctr": 0.020099999999999996,
+    "position": 5.34,
+    "family": "landing",
+    "locale": "fi",
+    "missed": 24,
+    "before": {
+     "title": "Kymppiparit – lukujen hajotelmat – tulostettava PDF · LessonCraftStudio",
+     "description": "Kymppiparit tutuiksi: lapsi täydentää hajotelmiin puuttuvan luvun niin, että osista tulee yhteensä kymmenen. Ilmainen tulostettava PDF-moniste."
+    },
+    "topQuery": null
+   }
+  },
+  {
+   "pair": 17,
+   "change": {
+    "url": "https://www.lessoncraftstudio.com/it/worksheets/i-contrari-con-i-prefissi-in-s-dis",
+    "clicks": 8,
+    "impressions": 489,
+    "ctr": 0.016399999999999998,
+    "position": 6.45,
+    "family": "landing",
+    "locale": "it",
+    "missed": 22,
+    "before": {
+     "title": "I contrari con i prefissi in-, s- e dis- – Classe seconda PDF gratis · LessonCraftStudio",
+     "description": "Contrari con i prefissi per la classe seconda: otto parole (fortunato, ubbidiente, utile), scegli in-, s- o dis- e scrivi la parola contraria. PDF gratis."
+    },
+    "topQuery": {
+     "query": "sottrazioni con il cambio con gli zeri",
+     "clicks": 1,
+     "impressions": 25,
+     "position": 6.56
+    }
+   },
+   "control": {
+    "url": "https://www.lessoncraftstudio.com/it/worksheets/unisci-i-puntini-11-30",
+    "clicks": 8,
+    "impressions": 380,
+    "ctr": 0.021099999999999997,
+    "position": 6.4,
+    "family": "landing",
+    "locale": "it",
+    "missed": 15,
+    "before": {
+     "title": "Unisci i puntini da 11 a 30 – Infanzia da stampare PDF gratis · LessonCraftStudio",
+     "description": "Scheda unisci i puntini da 11 a 30: venti puntini numerati, nessun contorno già stampato e la striscia dei numeri fino al trenta. PDF gratis per l'infanzia."
+    },
+    "topQuery": {
+     "query": "unisci i puntini fino a 30",
+     "clicks": 3,
+     "impressions": 93,
+     "position": 6.65
+    }
+   }
+  },
+  {
+   "pair": 18,
+   "change": {
+    "url": "https://www.lessoncraftstudio.com/sv/worksheets/brak-lika-delar-ak-2",
+    "clicks": 8,
+    "impressions": 273,
+    "ctr": 0.029300000000000003,
+    "position": 3.96,
+    "family": "landing",
+    "locale": "sv",
+    "missed": 16,
+    "before": {
+     "title": "Arbetsblad bråk åk 2 – lika delar & halvor | skriva ut gratis (PDF) · LessonCraftStudio",
+     "description": "Arbetsblad i bråk för åk 2: dela figurer i halvor, tredjedelar och fjärdedelar, dela en mängd lika och känn igen lika delar. Gratis PDF."
+    },
+    "topQuery": null
+   },
+   "control": {
+    "url": "https://www.lessoncraftstudio.com/sv/worksheets/hundraruta-ak-1",
+    "clicks": 9,
+    "impressions": 251,
+    "ctr": 0.0359,
+    "position": 3.3,
+    "family": "landing",
+    "locale": "sv",
+    "missed": 21,
+    "before": {
+     "title": "Arbetsblad hundraruta åk 1 – hoppräkna 2, 5 och 10 | skriva ut gratis (PDF) · LessonCraftStudio",
+     "description": "Arbetsblad med hundraruta för åk 1 att skriva ut gratis. Barnet fyller i tal som saknas, hoppräknar med 2, 5 och 10 och övar 1 mer/mindre och 10 mer/mindre."
+    },
+    "topQuery": null
+   }
+  },
+  {
+   "pair": 19,
+   "change": {
+    "url": "https://www.lessoncraftstudio.com/it/worksheets/l-intruso-stesso-tema-aula-9c8f",
+    "clicks": 22,
+    "impressions": 684,
+    "ctr": 0.0322,
+    "position": 6.82,
+    "family": "landing",
+    "locale": "it",
+    "missed": 20,
+    "before": {
+     "title": "Trova l'intruso – Aula | schede da stampare PDF gratis · LessonCraftStudio",
+     "description": "Trova l'intruso – Aula. Osserva ogni riga e trova l'intruso. Schede gratis da stampare in PDF."
+    },
+    "topQuery": null
+   },
+   "control": {
+    "url": "https://www.lessoncraftstudio.com/it/worksheets/numero-mancante-fino-a-10",
+    "clicks": 7,
+    "impressions": 384,
+    "ctr": 0.0182,
+    "position": 6.34,
+    "family": "landing",
+    "locale": "it",
+    "missed": 16,
+    "before": {
+     "title": "Numero mancante fino a 10 – Classe prima | da stampare PDF · LessonCraftStudio",
+     "description": "Piccole uguaglianze entro il 10 con un quadratino vuoto: il bambino trova il numero nascosto che fa tornare il conto. Scheda in PDF gratis da stampare."
+    },
+    "topQuery": {
+     "query": "come trovare il numero mancante scuola primaria",
+     "clicks": 1,
+     "impressions": 19,
+     "position": 5.89
+    }
+   }
+  },
+  {
+   "pair": 20,
+   "change": {
+    "url": "https://www.lessoncraftstudio.com/nl/worksheets/verhaal-op-volgorde-leggen-kleuters",
+    "clicks": 21,
+    "impressions": 408,
+    "ctr": 0.051500000000000004,
+    "position": 4.54,
+    "family": "landing",
+    "locale": "nl",
+    "missed": 15,
+    "before": {
+     "title": "Verhaal op volgorde leggen kleuters: plaatjes nummeren | printen PDF gratis · LessonCraftStudio",
+     "description": "Werkblad verhaal op volgorde leggen voor kleuters: twee korte verhalen van vier plaatjes, en het kind schrijft 1 tot 4 in de hokjes eronder. Gratis PDF."
+    },
+    "topQuery": null
+   },
+   "control": {
+    "url": "https://www.lessoncraftstudio.com/nl/worksheets/van-stip-naar-stip-1-tot-20",
+    "clicks": 17,
+    "impressions": 344,
+    "ctr": 0.049400000000000006,
+    "position": 4.78,
+    "family": "landing",
+    "locale": "nl",
+    "missed": 14,
+    "before": {
+     "title": "Van stip naar stip 1-20 kleuters | om te printen PDF gratis · LessonCraftStudio",
+     "description": "Werkblad van stip naar stip 1-20 voor kleuters: begin bij de oranje stip, verbind de twintig genummerde stippen en ontdek het plaatje. Gratis PDF om te printen."
+    },
+    "topQuery": {
+     "query": "van stip naar stip tot 20",
+     "clicks": 2,
+     "impressions": 16,
+     "position": 3.06
+    }
+   }
+  },
+  {
+   "pair": 21,
+   "change": {
+    "url": "https://www.lessoncraftstudio.com/fr/topic/sciences/ce1-cours-elementaire-1",
+    "clicks": 53,
+    "impressions": 1297,
+    "ctr": 0.0409,
+    "position": 7.02,
+    "family": "topic",
+    "locale": "fr",
+    "missed": 26,
+    "before": {
+     "title": "Fiches de sciences CE1 à imprimer – gratuit (PDF) · LessonCraftStudio",
+     "description": "44 fiches de sciences pour le CE1, à imprimer gratuitement au format PDF (avec corrigés) ou à faire en ligne, le tout avec un compte gratuit. De quoi observer et comprendre le monde qui nous entoure."
+    },
+    "topQuery": {
+     "query": "sciences ce1 pdf",
+     "clicks": 6,
+     "impressions": 258,
+     "position": 6.84
+    }
+   },
+   "control": {
+    "url": "https://www.lessoncraftstudio.com/nl/topic/groep-3/woordzoeker",
+    "clicks": 73,
+    "impressions": 2097,
+    "ctr": 0.0348,
+    "position": 7.08,
+    "family": "topic",
+    "locale": "nl",
+    "missed": 55,
+    "before": {
+     "title": "Woordzoekers groep 3 – gratis printen (PDF) · LessonCraftStudio",
+     "description": "Gratis woordzoekers voor groep 3 met plaatjes-hints: vind en omcirkel elk verborgen woord in het letterraster. Elke themawoordzoeker als pdf of online speelbaar."
+    },
+    "topQuery": {
+     "query": "woordzoeker groep 3",
+     "clicks": 21,
+     "impressions": 1037,
+     "position": 6.18
+    }
+   }
+  },
+  {
+   "pair": 22,
+   "change": {
+    "url": "https://www.lessoncraftstudio.com/en/worksheets/beginning-middle-and-end-of-a-story",
+    "clicks": 18,
+    "impressions": 677,
+    "ctr": 0.026600000000000002,
+    "position": 5.03,
+    "family": "landing",
+    "locale": "en",
+    "missed": 42,
+    "before": {
+     "title": "Beginning, Middle and End of a Story Worksheet, 1st Grade | Free PDF · LessonCraftStudio",
+     "description": "Beginning, middle and end worksheet: each story shows its start and its finish. Draw what happens in the empty middle frame. Two stories, 1st grade PDF."
+    },
+    "topQuery": {
+     "query": "beginning, middle and end of a story worksheets grade 1",
+     "clicks": 1,
+     "impressions": 36,
+     "position": 4.36
+    }
+   },
+   "control": {
+    "url": "https://www.lessoncraftstudio.com/fr/worksheets/graphisme-maternelle",
+    "clicks": 19,
+    "impressions": 1026,
+    "ctr": 0.018500000000000003,
+    "position": 5.66,
+    "family": "landing",
+    "locale": "fr",
+    "missed": 44,
+    "before": {
+     "title": "Graphisme maternelle GS – boucles et vagues | à imprimer PDF · LessonCraftStudio",
+     "description": "Fiche de graphisme pour la maternelle : boucles, vagues et zigzags à repasser au crayon, du point orange jusqu'à l'arrivée. PDF gratuit à imprimer."
+    },
+    "topQuery": {
+     "query": "graphisme maternelle",
+     "clicks": 1,
+     "impressions": 457,
+     "position": 1.68
+    }
+   }
+  },
+  {
+   "pair": 23,
+   "change": {
+    "url": "https://www.lessoncraftstudio.com/pt/topic/primavera",
+    "clicks": 32,
+    "impressions": 1092,
+    "ctr": 0.029300000000000003,
+    "position": 6.88,
+    "family": "topic",
+    "locale": "pt",
+    "missed": 35,
+    "before": {
+     "title": "Atividades de primavera – para imprimir grátis (PDF) · LessonCraftStudio",
+     "description": "Tema de primavera em imagens coloridas: vocabulário da estação em jogos de associação e contagem para a educação infantil."
+    },
+    "topQuery": null
+   },
+   "control": {
+    "url": "https://www.lessoncraftstudio.com/en/topic/kindergarten/missing-pieces",
+    "clicks": 14,
+    "impressions": 490,
+    "ctr": 0.0286,
+    "position": 7.06,
+    "family": "topic",
+    "locale": "en",
+    "missed": 16,
+    "before": {
+     "title": "Missing Parts Worksheets for Kindergarten – PDF · LessonCraftStudio",
+     "description": "Free missing parts worksheets for kindergarten: spot which piece completes each picture and snap it into place. Printable PDFs plus a play-online mode."
+    },
+    "topQuery": {
+     "query": "missing parts worksheets for kindergarten",
+     "clicks": 1,
+     "impressions": 52,
+     "position": 6.79
+    }
+   }
+  },
+  {
+   "pair": 24,
+   "change": {
+    "url": "https://www.lessoncraftstudio.com/da/worksheets/stamtrae-skabelon-til-boern",
+    "clicks": 13,
+    "impressions": 294,
+    "ctr": 0.044199999999999996,
+    "position": 3.37,
+    "family": "landing",
+    "locale": "da",
+    "missed": 22,
+    "before": {
+     "title": "Stamtræ-skabelon til børn | til print PDF gratis · LessonCraftStudio",
+     "description": "Et tomt stamtræ med tretten rammer og navnelinjer og ét felt til mig. Barnet tegner de mennesker, der betyder noget, og skriver deres navne. Gratis PDF til print."
+    },
+    "topQuery": {
+     "query": "stamtræ skabelon til børn",
+     "clicks": 3,
+     "impressions": 33,
+     "position": 6.39
+    }
+   },
+   "control": {
+    "url": "https://www.lessoncraftstudio.com/fi/worksheets/labyrintti-hedelmat",
+    "clicks": 9,
+    "impressions": 306,
+    "ctr": 0.0294,
+    "position": 3.63,
+    "family": "landing",
+    "locale": "fi",
+    "missed": 18,
+    "before": {
+     "title": "Labyrintti: hedelmät – tulostettava PDF · LessonCraftStudio",
+     "description": "Labyrintti hedelmäkuvituksella: hedelmä lähtöruudussa ja toinen maalissa, sokkelossa aina täsmälleen yksi oikea reitti. Ilmainen tulostettava PDF."
+    },
+    "topQuery": null
+   }
+  },
+  {
+   "pair": 25,
+   "change": {
+    "url": "https://www.lessoncraftstudio.com/it/worksheets/piramidi-di-numeri-oltre-il-20",
+    "clicks": 22,
+    "impressions": 467,
+    "ctr": 0.0471,
+    "position": 5.17,
+    "family": "landing",
+    "locale": "it",
+    "missed": 20,
+    "before": {
+     "title": "Piramidi di numeri oltre il 20 – Classe seconda PDF gratis · LessonCraftStudio",
+     "description": "Scheda piramidi di numeri per la classe seconda: quattro piramidi di quattro piani, base da 5 a 12 e somme che salgono fino al centinaio. PDF gratis."
+    },
+    "topQuery": {
+     "query": "i numeri oltre il 20 classe seconda",
+     "clicks": 1,
+     "impressions": 16,
+     "position": 7.88
+    }
+   },
+   "control": {
+    "url": "https://www.lessoncraftstudio.com/es/worksheets/recta-numerica-de-10-en-10-hasta-100-primer-grado",
+    "clicks": 9,
+    "impressions": 479,
+    "ctr": 0.018799999999999997,
+    "position": 7.06,
+    "family": "landing",
+    "locale": "es",
+    "missed": 20,
+    "before": {
+     "title": "Recta numérica de 10 en 10 hasta 100 primer grado PDF gratis · LessonCraftStudio",
+     "description": "Recta numérica de 10 en 10 hasta el 100 para primer grado: once marcas, sólo el 0, el 50 y el 100 escritos y seis flechas sobre decenas redondas. PDF gratis."
+    },
+    "topQuery": {
+     "query": "100 more 100 less worksheets pdf",
+     "clicks": 2,
+     "impressions": 60,
+     "position": 8.37
+    }
+   }
+  }
+ ]
+}

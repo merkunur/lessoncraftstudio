@@ -109,6 +109,22 @@ export interface MakerEntry {
   modeNames?: Record<string, string>;
   /** Single-mode + PDF makers: one line introducing the theme-varied samples. */
   samplesIntro?: string;
+  /**
+   * An optional teacher's guide added BELOW the frozen text (2026-11-26, the Search Console click plan: the picture
+   * searches these pages already rank 8-13 for). Not one of the frozen OLD_FIELDS of scripts/makers/gates/landings.js,
+   * so adding it changes no word of the page's existing text, title, description or JSON-LD. Absent → nothing renders.
+   */
+  guide?: MakerGuide;
+}
+
+export interface MakerGuide {
+  heading: string;
+  intro: string;
+  /** Numbered steps (an ordered list). */
+  steps: string[];
+  faqHeading?: string;
+  /** Questions teachers ask, shown as visible text only (no FAQPage JSON-LD: the page's JSON-LD is frozen). */
+  faq?: Array<{ q: string; a: string }>;
 }
 
 export interface MakerContentLabels {

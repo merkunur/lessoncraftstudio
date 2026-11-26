@@ -256,6 +256,30 @@ export default async function MakerLanding({
             </ul>
           </div>
 
+          {/* The optional teacher's guide (maker-content.ts MakerGuide): added below the frozen text, never replacing it. */}
+          {content.guide ? (
+            <div>
+              <h2 className="font-display text-xl md:text-2xl font-semibold text-ink-900 mb-3">{content.guide.heading}</h2>
+              <p className="text-base text-ink-700 leading-relaxed">{content.guide.intro}</p>
+              <ol className="list-decimal pl-5 space-y-1 mt-3 text-base text-ink-700 leading-relaxed">
+                {content.guide.steps.map((s, i) => (<li key={i}>{s}</li>))}
+              </ol>
+              {content.guide.faq && content.guide.faq.length ? (
+                <div className="mt-6">
+                  {content.guide.faqHeading ? (
+                    <h2 className="font-display text-xl md:text-2xl font-semibold text-ink-900 mb-3">{content.guide.faqHeading}</h2>
+                  ) : null}
+                  {content.guide.faq.map((f, i) => (
+                    <div key={i} className={i === 0 ? '' : 'mt-4'}>
+                      <h3 className="font-semibold text-ink-900 text-base">{f.q}</h3>
+                      <p className="text-base text-ink-700 leading-relaxed mt-1">{f.a}</p>
+                    </div>
+                  ))}
+                </div>
+              ) : null}
+            </div>
+          ) : null}
+
           <div className="text-center pt-2">
             <a
               href={launchUrl}

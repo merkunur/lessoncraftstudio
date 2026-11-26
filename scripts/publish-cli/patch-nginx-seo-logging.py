@@ -70,7 +70,8 @@ log_format lcs_seo '$http_cf_connecting_ip $remote_addr - $remote_user [$time_lo
                    '"$request" $status $body_bytes_sent '
                    '"$http_referer" "$http_user_agent" '
                    'cf=$http_cf_ray cc=$upstream_cache_status rt=$request_time '
-                   'sf=$http_sec_fetch_mode sd=$http_sec_fetch_dest al="$http_accept_language"';
+                   'sf=$http_sec_fetch_mode sd=$http_sec_fetch_dest al="$http_accept_language" '
+                   'co=$http_cf_ipcountry as=$http_x_lcs_asn';
 """
 
 SERVER_ACCESS_LOG = '    access_log /var/log/nginx/access.log lcs_seo;\n'
